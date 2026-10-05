@@ -4,6 +4,8 @@
 사용법:  python3 tools/validate_questions.py
 - questions/index.json 에 적힌 파일을 모두 읽어 형식 오류, 중복 id,
   정답 번호 범위, 보기별 해설(choiceNotes) 개수 등을 확인한다.
+- 서술형(format: "essay")은 보기 대신 modelAnswer(모범답안)와 keywords(채점 요소)를 확인한다.
+- part(1~3, 시험지 PART)와 파트별 문항 수도 함께 보여 준다.
 - 오류가 있으면 종료 코드 1 을 돌려준다.
 """
 import json
@@ -13,6 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 QDIR = ROOT / "questions"
+TYPES = {"용어", "개념", "연결", "상황판단", "계산", "서술형"}
+DEFAULT_PART = {"용어": 1, "개념": 2, "연결": 2, "계산": 2, "상황판단": 3, "서술형": 3}
 
 
 def main() -> int:
@@ -36,6 +40,7 @@ def main() -> int:
         qs = data.get("questions", [])
         types = Counter()
         answers = Counter()
+        parts = Counter()
         for i, q in enumerate(qs, 1):
             where = f"{name} #{i} ({q.get('id', '?')})"
             qid = q.get("id")
@@ -47,6 +52,22 @@ def main() -> int:
                 seen[qid] = name
             if not str(q.get("question", "")).strip():
                 errors.append(f"{where}: question 없음")
+            qtype = q.get("type", "-")
+            if qtype not in TYPES:
+                warnings.append(f"{where}: type '{qtype}' 은(는) {sorted(TYPES)} 중 하나가 아닙니다")
+            part = q.get("part", DEFAULT_PART.get(qtype, 2))
+            if part not in (1, 2, 3):
+                errors.append(f"{where}: part 는 1~3 이어야 합니다 (현재 {part!r})")
+            parts[part] += 1
+            if q.get("format") == "essay":
+                if not str(q.get("modelAnswer", "")).strip():
+                    errors.append(f"{where}: 서술형에 modelAnswer(모범답안)가 없습니다")
+                if not isinstance(q.get("keywords"), list) or not q.get("keywords"):
+                    warnings.append(f"{where}: 서술형에 keywords(채점 요소)가 없습니다")
+                if not q.get("source"):
+                    warnings.append(f"{where}: source(출처) 없음")
+                types[qtype] += 1
+                continue
             choices = q.get("choices")
             if not isinstance(choices, list) or not 2 <= len(choices) <= 10:
                 errors.append(f"{where}: choices 는 2~10개 배열이어야 합니다")
@@ -71,11 +92,11 @@ def main() -> int:
                 if mark in str(q.get("explanation", "")):
                     warnings.append(f"{where}: 해설에 보기 번호({mark})가 있습니다 — 보기를 섞으면 번호가 바뀝니다")
                     break
-            types[q.get("type", "-")] += 1
+            types[qtype] += 1
             if isinstance(ans, int):
                 answers[ans] += 1
         total += len(qs)
-        print(f"{name:18} {data.get('week', '-'):8} {len(qs):3}문항  유형 {dict(types)}  정답분포 {dict(sorted(answers.items()))}")
+        print(f"{name:20} {data.get('week', '-'):6} {len(qs):4}문항  PART {dict(sorted(parts.items()))}  유형 {dict(types)}  정답분포 {dict(sorted(answers.items()))}")
     print(f"\n총 {total}문항")
     for w in warnings:
         print("경고:", w)

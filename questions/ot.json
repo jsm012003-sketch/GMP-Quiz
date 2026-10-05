@@ -24,7 +24,11 @@
         "틀린 연결(정답) — 무균시험은 충전된 완제의약품 단계의 시험이다."
       ],
       "source": "OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
-      "tags": ["QC by unit", "Sterility testing", "Mycoplasma"]
+      "tags": [
+        "QC by unit",
+        "Sterility testing",
+        "Mycoplasma"
+      ]
     },
     {
       "id": "ot-002",
@@ -47,7 +51,11 @@
         "틀리다 — 장비 수·인력·정제 시간까지 함께 고려한다."
       ],
       "source": "OT PDF p.23 (Example – Scheduling)",
-      "tags": ["Scheduling", "Process validation", "가동률"]
+      "tags": [
+        "Scheduling",
+        "Process validation",
+        "가동률"
+      ]
     },
     {
       "id": "ot-003",
@@ -70,7 +78,11 @@
         "틀리다 — CAPEX·OPEX를 큰 범주에서라도 모두 계산한다."
       ],
       "source": "OT PDF p.27 (Example – Marketability), p.8 (가정·출처 명시)",
-      "tags": ["ROI", "CAPEX/OPEX", "Go/Stop"]
+      "tags": [
+        "ROI",
+        "CAPEX/OPEX",
+        "Go/Stop"
+      ]
     },
     {
       "id": "ot-004",
@@ -93,7 +105,12 @@
         "해당하지 않는다(정답) — 프로젝트는 생산 공정·경제성 평가가 범위다."
       ],
       "source": "OT PDF p.13 (About Term Project — 공정 정의)",
-      "tags": ["Term project", "PFD/BFD", "URS", "ROI"]
+      "tags": [
+        "Term project",
+        "PFD/BFD",
+        "URS",
+        "ROI"
+      ]
     },
     {
       "id": "ot-005",
@@ -116,7 +133,27 @@
         "틀리다 — Polishing은 정제(downstream) 단계다."
       ],
       "source": "OT PDF p.2 (Bioprocess) · WK02 PDF p.15 (Overview the Stream for Bioprocessing)",
-      "tags": ["Bioprocess", "Upstream", "Downstream"]
+      "tags": [
+        "Bioprocess",
+        "Upstream",
+        "Downstream"
+      ]
+    },
+    {
+      "id": "ot-006",
+      "type": "서술형",
+      "format": "essay",
+      "part": 3,
+      "question": "텀 프로젝트로 항체 바이오시밀러 공장의 경제성을 평가했더니 ROI가 기준에 못 미쳐 'Stop'으로 판단되었다. 보고서에 무엇을 어떻게 써야 하는지, 그리고 'Go'로 바꾸기 위해 검토할 수 있는 공정·운영상의 방향을 두 가지 이상 서술하시오.",
+      "modelAnswer": "Stop이어도 보고서는 제출하며, Stop으로 판단한 근거(어떤 비용·매출 가정에서 ROI가 낮은지)를 밝힌다. 이어서 Go로 바꾸기 위한 변경 방향과 이유를 쓴다. 예: (1) 배양 titer 향상이나 N-1 perfusion 같은 공정 강화로 배치당 생산량을 늘려 COGS를 낮춘다. (2) single-use 도입·기존 공장 활용·CMO 운영으로 CAPEX를 줄인다. (3) 스케줄링으로 배양기 여러 기가 정제 라인 하나를 공유하게 해 장비·인력 가동률을 높인다. (4) 목표 시장·판매가·점유율 가정을 다시 검토한다.",
+      "keywords": [
+        "Stop 근거 기재",
+        "Go로 바꾸는 변경 방향",
+        "COGS·CAPEX 절감",
+        "가동률(스케줄링)"
+      ],
+      "explanation": "**ROI 기반 Go–Stop 판단에서 Stop이어도 보고서는 제출하고, 사유와 Go로 바꾸기 위한 변경 방향을 이유와 함께 쓴다**(강의 슬라이드). 실제 프로젝트에서는 진행할수록 비용이 늘면 늘었지 줄지 않는다는 점도 강조되었다. 공정 강화(WK02), 설비 선택(single-use), 스케줄링(배양 1 batch ≠ 정제 1 batch)을 근거로 들면 좋다.",
+      "source": "OT PDF p.27 (Marketability), p.23 (Scheduling), p.12 · WK02 PDF p.34"
     }
   ]
 }
