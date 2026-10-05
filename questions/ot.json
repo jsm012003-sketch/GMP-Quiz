@@ -1,0 +1,122 @@
+{
+  "week": "OT",
+  "title": "Introduction to Design Project (공정 설계·경제성)",
+  "lecture": "Introduction to Design Project — 김영태, 2026.09.07",
+  "questions": [
+    {
+      "id": "ot-001",
+      "type": "연결",
+      "question": "OT의 'Process + Quality Control by Unit' 도식에서 단위공정과 해당 QC 시험의 연결로 옳지 않은 것은?",
+      "choices": [
+        "Seed Expansion – Viability and Cell Count, Metabolite Measurement",
+        "Cell Bank·Virus Seed – Biosafety and Characterization, Mycoplasma Testing",
+        "Unprocessed Bulk Harvest – Mycoplasma Testing, Bioburden, Virus Analytics, Biosafety(Replication competence) and Characterization",
+        "Filling → Drug Product – Sterility Testing(멤브레인 여과법 또는 신속법)",
+        "Seed Expansion – Sterility Testing을 출하 판정 시험으로 수행하며, Drug Product에서는 무균시험을 하지 않는다"
+      ],
+      "answer": 5,
+      "explanation": "도식의 QC 번호: 1 Viability & Cell Count, 2 Metabolite Measurement(seed expansion·virus propagation), 3 Mycoplasma Detection(cell bank·virus seed·media·unprocessed bulk·buffer 등), 4 Microbial Contamination/Bioburden, 5 Virus Analytics, **6 Sterility Testing – 멤브레인 여과법 또는 신속법으로 무균 입증, 공정 단계: Filling(Drug Product)**, 7 Microbial Air Monitoring, 8 Data Analytics, 9 Biosafety & Characterization. 업스트림 IPC(WK02)와 완제 출하 시험(GMP01)이 하나의 품질 체계로 이어진다.",
+      "choiceNotes": [
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결 — 무균시험은 Filling/Drug Product 단계.",
+        "틀린 연결(정답) — 무균시험은 충전된 완제의약품 단계의 시험이다."
+      ],
+      "source": "OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
+      "tags": ["QC by unit", "Sterility testing", "Mycoplasma"]
+    },
+    {
+      "id": "ot-002",
+      "type": "상황판단",
+      "question": "텀 프로젝트에서 mAb 바이오시밀러 공장의 생산 스케줄을 짤 때 '365일 쉬지 않고 가동하는 것이 최선'이라는 의견이 나왔다. OT의 Scheduling 관점에서 가장 적절한 판단은?",
+      "choices": [
+        "가동률이 100%일수록 ROI가 높으므로 정지 계획은 넣지 않는다.",
+        "규제(GMP) 관점에서 공정 밸리데이션·정비 등에 필요한 기간이 있으므로, 언제·얼마나 정지할지를 스케줄에 반영하고 장비·인력 가동률을 함께 최적화한다.",
+        "정지 기간은 인건비만 늘리므로 밸리데이션은 생산과 동시에 수행한다.",
+        "배양과 정제는 운영 시간이 같으므로 1:1로 연결해 쉬지 않고 돌리면 된다.",
+        "스케줄은 장비 수와 무관하게 배양 공정 시간만으로 결정된다."
+      ],
+      "answer": 2,
+      "explanation": "Scheduling 슬라이드: 배양·정제 운영 시간 차이(**배양 >>> 정제, 배양 1 batch ≠ 정제 1 batch**), **장비와 인력 가동률**(어떻게 최대로 운영할지, labor 운영), **'365일 running이 최고일까?' → 규제 관점에서 GMP & process validation 기간 필요, 언제·얼마나 stop할 수 있을까**.",
+      "choiceNotes": [
+        "틀리다 — GMP·밸리데이션 기간을 고려해야 한다.",
+        "옳다 — 정지 계획 + 가동률 최적화.",
+        "틀리다 — 밸리데이션 기간은 별도로 확보해야 한다.",
+        "틀리다 — 배양 시간이 훨씬 길다.",
+        "틀리다 — 장비 수·인력·정제 시간까지 함께 고려한다."
+      ],
+      "source": "OT PDF p.23 (Example – Scheduling)",
+      "tags": ["Scheduling", "Process validation", "가동률"]
+    },
+    {
+      "id": "ot-003",
+      "type": "상황판단",
+      "question": "텀 프로젝트의 경제성 분석 결과 ROI가 낮아 사업을 'Stop'으로 판단했다. OT에서 제시한 보고서 작성 방향으로 가장 적절한 것은?",
+      "choices": [
+        "Stop이면 보고서를 제출하지 않는다.",
+        "ROI가 나오도록 CAPEX·OPEX 가정을 근거 없이 낮춰 Go로 바꾼다.",
+        "Stop 판단이라도 보고서를 제출하되, Stop의 사유를 찾아 기재하고 Go로 바꾸기 위한 변경 방향을 이유와 함께 제시한다.",
+        "비용은 실제로 진행할수록 줄어드는 경향이 있으므로 Stop 판단은 무시한다.",
+        "CAPEX만 계산하고 OPEX는 정확한 추산이 어려우므로 생략한다."
+      ],
+      "answer": 3,
+      "explanation": "Marketability 슬라이드: CAPEX·OPEX는 정확한 추산이 어려우니(감가상각·유지비·소모품·세금 등) **큰 범주에서 계산**, 실제 진행하면 **비용은 늘면 늘었지 줄지 않음**, **ROI 기반으로 Go–Stop 결정**. **Stop이라도 보고서는 제출 — Stop 사유를 찾아 기재하고 Go로 바꾸기 위한 변경 방향을 이유와 함께 기재**.",
+      "choiceNotes": [
+        "틀리다 — Stop이라도 제출한다.",
+        "틀리다 — 가정은 근거가 있어야 하며 출처·가정을 명시해야 한다.",
+        "옳다 — 사유 + Go 전환 방향 제시.",
+        "틀리다 — 비용은 늘면 늘었지 줄지 않는다.",
+        "틀리다 — CAPEX·OPEX를 큰 범주에서라도 모두 계산한다."
+      ],
+      "source": "OT PDF p.27 (Example – Marketability), p.8 (가정·출처 명시)",
+      "tags": ["ROI", "CAPEX/OPEX", "Go/Stop"]
+    },
+    {
+      "id": "ot-004",
+      "type": "개념",
+      "question": "OT에서 제시한 텀 프로젝트(mAb Biosimilar Economical Evaluation)의 '공정 정의(필수)' 항목에 해당하지 않는 것은?",
+      "choices": [
+        "PFD 또는 BFD 정의와 개별 Unit operation 학습",
+        "Mass balance, Equipment list, Utility consumption",
+        "공정 장비의 구체적인 URS와 선정 이유",
+        "공정 Scheduling 분석과 CAPEX·OPEX 기반 ROI 계산",
+        "임상시험 프로토콜 설계와 환자 모집 계획"
+      ],
+      "answer": 5,
+      "explanation": "공정 정의(필수): **PFD/BFD 정의 및 Unit operation 학습(Super Pro Designer 참고)**, **Mass balance·Equipment list·Utility consumption**, **장비 URS와 선정 이유**, **부서별 비용(QC 비용 등)**, **공정 Scheduling(공장 전체 효율)**, **CAPEX·OPEX 비용 분석 → ROI**, 주차별 학습 내용 최대 반영(각주 권장), Modality 변동 가능. 임상시험 설계는 범위에 없다.",
+      "choiceNotes": [
+        "해당한다.",
+        "해당한다.",
+        "해당한다.",
+        "해당한다.",
+        "해당하지 않는다(정답) — 프로젝트는 생산 공정·경제성 평가가 범위다."
+      ],
+      "source": "OT PDF p.13 (About Term Project — 공정 정의)",
+      "tags": ["Term project", "PFD/BFD", "URS", "ROI"]
+    },
+    {
+      "id": "ot-005",
+      "type": "연결",
+      "question": "OT의 Bioprocess 도식을 기준으로 할 때, Upstream과 Downstream의 마지막 단계들이 바르게 짝지어진 것은?",
+      "choices": [
+        "Upstream: Culture media preparation → Seed cultivation → Scale-up → Production → Clarification & centrifugation",
+        "Upstream: Production → Seed cultivation → Culture media preparation → Scale-up",
+        "Downstream 마지막: Final filling → Sterile filtration → Concentration",
+        "Downstream 마지막: Cryo-preservation → Virus removal filtration → Final filling",
+        "Upstream 마지막 단계는 Polishing이다"
+      ],
+      "answer": 1,
+      "explanation": "OT 도식: **Upstream(원하는 약물 생산)** – Culture media preparation → Seed cultivation → Scale-up → Production → **Clarification & centrifugation**. **Downstream(분리·충전)** – Viral clearance·Chromatography·Polishing 등을 거쳐 … → **Virus removal filtration → Concentration → Sterile filtration → Cryo-preservation → Final filling**. WK02의 공정 흐름도(Capture → Viral clearance → Virus removal filtration → Concentration → Sterile filtration → Cryopreservation → Final filling)와 같은 구조다.",
+      "choiceNotes": [
+        "옳다 — 업스트림 순서.",
+        "틀리다 — 순서가 뒤섞였다.",
+        "틀리다 — 순서가 거꾸로다.",
+        "틀리다 — Virus removal filtration은 동결보존보다 앞이다.",
+        "틀리다 — Polishing은 정제(downstream) 단계다."
+      ],
+      "source": "OT PDF p.2 (Bioprocess) · WK02 PDF p.15 (Overview the Stream for Bioprocessing)",
+      "tags": ["Bioprocess", "Upstream", "Downstream"]
+    }
+  ]
+}

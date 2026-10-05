@@ -1,0 +1,746 @@
+{
+  "week": "WK02",
+  "title": "Upstream Process 1 (세포배양·배양 방식·Scale-up)",
+  "lecture": "UPSTREAM PROCESS 1 — 하태수, 2026.09.09",
+  "questions": [
+    {
+      "id": "wk02-001",
+      "type": "상황판단",
+      "question": "A사는 CHO 세포주 개발(CLD)을 마치고 선별된 클론으로 상업 생산을 준비하고 있다. 세포은행(Cell Banking) 체계와 GMP 적용 시점에 대한 설명으로 가장 적절한 것은?",
+      "choices": [
+        "선별된 클론을 GMP 시설에서 증식·동결한 것이 MCB이며, MCB vial을 해동·증식해 다시 동결한 WCB의 vial 1개로 실제 생산을 시작한다.",
+        "RCB는 GMP 시설에서 제조되어 상업 생산 배치를 바로 접종하는 데 쓰이고, MCB는 연구 단계의 백업 은행이다.",
+        "실제 생산은 MCB vial을 직접 해동해 시작하며, WCB는 MCB가 모두 소진되었을 때만 만드는 예비 은행이다.",
+        "EPC는 생산 시작 전에 세포의 성장 속도를 확인하기 위한 은행으로, 생산이 끝난 시점의 세포와는 관계가 없다.",
+        "GMP는 생산 배양기(Production) 단계에서 처음 적용되며, 세포은행 제조는 GMP 적용 대상이 아니다."
+      ],
+      "answer": 1,
+      "explanation": "**Cell Banking은 생산 과정에서 GMP가 처음 적용되는 단계**다. RCB(세포주 개발 직후 세포) → MCB(선별 클론을 GMP 시설에서 키워 동결, 보통 200~300 vial, CHO는 vial당 약 1×10⁷ cells) → WCB(MCB vial을 녹여 키운 뒤 다시 동결한 작업용, 200~300 vial) → **실제 생산은 WCB 1 vial로 시작**한다. EPC(End of Production Cells)는 생산이 끝난 시점의 세포로, 오래 배양해도 세포가 변하지 않는지(안정성)를 확인하는 데 쓴다.",
+      "choiceNotes": [
+        "옳다 — MCB(GMP 시설에서 제조) → WCB(작업용) → WCB 1 vial로 생산 시작.",
+        "틀리다 — RCB는 세포주 개발 직후의 연구용 세포이고, 생산 접종에는 WCB를 쓴다.",
+        "틀리다 — MCB는 WCB를 만들 때 쓰는 상위 은행이다. 생산은 WCB 1 vial에서 시작한다.",
+        "틀리다 — EPC는 '생산이 끝난 시점의 세포'로, 장기 배양 후에도 세포 특성이 유지되는지 확인한다.",
+        "틀리다 — 필기 기준 GMP가 처음 적용되는 단계는 Cell Banking이다."
+      ],
+      "source": "WK02 Upstream Process 1 PDF p.16 (수업 필기: Cell Banking), p.15 (Cell Culture Process)",
+      "tags": ["Cell banking", "MCB/WCB", "EPC", "GMP 적용 시점"]
+    },
+    {
+      "id": "wk02-002",
+      "type": "연결",
+      "question": "배지 준비(Culture Media Preparation) 공정을 설계하고 있다. WK02 수업 필기와 OT의 'Process + Quality Control by Unit'을 종합할 때, 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "box": [
+        "ㄱ. 분말 배지는 WFI(주사용수) 이상 등급의 고순도 물에 용해한다.",
+        "ㄴ. 용해 후 삼투압(osmolality)과 pH를 조정한 다음 여과한다.",
+        "ㄷ. 0.2 µm 필터만으로 mycoplasma까지 확실히 제거되므로 0.1 µm 최종 필터는 필요하지 않다.",
+        "ㄹ. 배지 준비 단계의 QC 항목에는 mycoplasma 시험과 bioburden 관리가 포함된다."
+      ],
+      "choices": ["ㄱ, ㄴ", "ㄱ, ㄷ", "ㄴ, ㄹ", "ㄱ, ㄴ, ㄹ", "ㄱ, ㄴ, ㄷ, ㄹ"],
+      "answer": 4,
+      "explanation": "필기의 배지 준비 3단계: **STEP 1 분말 배지 용해(WFI 이상 고순도 물) → STEP 2 삼투압·pH 조정 → STEP 3 여과**. 여과는 **Pre-filter 0.2 µm로 bioburden(미생물) 감소, Final filter 0.1 µm로 멸균 및 mycoplasma 제거**의 2단 구성이다. OT의 단위공정별 QC 표에서도 Media Preparation에는 Biosafety·Mycoplasma Testing·Bioburden이 표시되어 있다. 따라서 ㄷ만 틀리다.",
+      "choiceNotes": [
+        "ㄹ(QC 항목)도 옳으므로 부족하다.",
+        "ㄷ은 틀린 진술이다 — mycoplasma 제거는 0.1 µm 최종 필터의 역할이다.",
+        "ㄱ(WFI 이상 등급 물에 용해)도 옳으므로 부족하다.",
+        "옳다 — ㄱ·ㄴ·ㄹ은 옳고, ㄷ만 틀리다.",
+        "ㄷ이 틀린 진술이므로 포함하면 안 된다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: Culture Media Preparation) · OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
+      "tags": ["배지 준비", "0.1 µm 필터", "Mycoplasma", "QC by unit"]
+    },
+    {
+      "id": "wk02-003",
+      "type": "상황판단",
+      "question": "Fed-batch 생산 배양에서 VCD가 목표 세포밀도(target cell density)에 도달했다. 이후 배양 온도를 37 ℃에서 32 ℃로 낮추는 temperature shift를 적용하려 한다. 이 전략의 근거로 가장 적절한 것은?",
+      "choices": [
+        "32 ℃에서는 glucose → TCA 경로가 활성화되어 doubling이 빨라지므로 peak VCD를 더 높일 수 있다.",
+        "저온에서는 세포 성장은 둔화되지만 대사가 lactate 소비 쪽으로 전환되고, 세포 증식에서 단백질(product) 생산으로 무게중심이 옮겨진다.",
+        "저온은 산소 용해도를 낮춰 DO 제어를 쉽게 하기 위한 조치이며 생산성과는 관계가 없다.",
+        "저온에서는 lactate가 더 많이 축적되므로, pH 유지를 위한 염기 투입을 늘리기 위해 적용한다.",
+        "Temperature shift는 lag phase를 늘려 세포가 새 환경에 적응할 시간을 주는 seed 단계 전용 전략이다."
+      ],
+      "answer": 2,
+      "explanation": "필기 '세포 증식에서 product 생산으로의 전환': **35~37 ℃ → glucose 소비 → TCA → doubling(증식)**, **32 ℃ → lactate 소비 → cell growth↓ → 단백질 생산↑**. 즉 목표 밀도까지는 고온에서 키우고, 이후 저온으로 전환해 생산기(stationary phase)를 길게 가져가며 product를 얻는다. 슬라이드의 'Main Parts to Control of Bioreactor'에도 Temp Shift가 핵심 제어 요소로 제시된다.",
+      "choiceNotes": [
+        "틀리다 — glucose→TCA→doubling은 35~37 ℃ 증식기의 특징이다.",
+        "옳다 — 저온 전환으로 성장↓, lactate 소비, 단백질 생산↑.",
+        "틀리다 — 온도가 낮아지면 산소 용해도는 오히려 커지며, 목적은 생산성 전환이다.",
+        "틀리다 — 필기상 32 ℃에서는 lactate가 '소비'되는 방향이다.",
+        "틀리다 — 생산 배양기에서 목표 밀도 도달 후 적용하는 생산기 전략이다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: 세포 증식 → product 생산 전환), p.22 (Temp Shift), p.31 (Growth Curve)",
+      "tags": ["Temperature shift", "Lactate", "생산기 전환"]
+    },
+    {
+      "id": "wk02-004",
+      "type": "개념",
+      "question": "세포 배양 방식에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "회분식(Batch) 배양은 초기 배지만으로 배양하므로 공정이 단순하고 기간이 짧지만 생산성이 낮다.",
+        "유가식(Fed-batch) 배양은 공정 중 영양분을 연속 또는 간헐적으로 공급하며, mAb·백신 생산에서 가장 선호되는 운전 방식이다.",
+        "관류(Perfusion) 배양은 신선한 배지를 공급하는 속도와 같은 속도로 세포가 없는(cell-free) 상등액을 연속 제거한다.",
+        "그래프상 fed-batch는 대략 5~20일, perfusion은 10~80일 수준으로 더 길게 운전될 수 있다.",
+        "Perfusion은 세포와 상등액을 함께 계속 배출하는 방식이므로 spin filter나 ATF 같은 세포 유지 장치가 필요 없다."
+      ],
+      "answer": 5,
+      "explanation": "Perfusion의 핵심은 **세포는 배양기 안에 유지(또는 되돌림)하고, 배지 공급과 같은 속도로 cell-free 상등액만 빼내는 것**이다. 이를 위해 **spin filter, ATF 같은 Cell Retention Device**가 필요하다. 나머지는 모두 슬라이드 내용과 일치한다.",
+      "choiceNotes": [
+        "옳은 진술 — 슬라이드의 Batch 정의.",
+        "옳은 진술 — 'The favorite operation mode used for mAbs, vaccines'.",
+        "옳은 진술 — 'fresh medium is supplied, cell-free supernatant is continuously removed at the same rate'.",
+        "옳은 진술 — Fed-batch 5–20 days, Perfusion 10–80 days 그래프.",
+        "틀린 진술(정답) — 세포를 유지하기 위해 spin filter·ATF 등 세포 유지 장치가 필수다."
+      ],
+      "source": "WK02 PDF p.30 (Type of Cell Culture Processing), p.33 (Fed Batch vs Perfusion)",
+      "tags": ["Batch", "Fed-batch", "Perfusion", "CRD"]
+    },
+    {
+      "id": "wk02-005",
+      "type": "계산",
+      "question": "Ambr 15 자동화 배양기(24 vessel)로 CHO K1 배양 조건을 최적화하려 한다. 요인은 pH 3수준(6.9/7.1/7.3), impeller speed 2수준(800/1300 rpm), 접종 밀도 2수준(0.3/0.5 ×10⁶ cells/mL)이다. 모든 조합을 같은 횟수만큼 반복하는 완전요인 설계로 24개 vessel을 모두 채웠다면, 조건 조합 수와 조합당 반복 수는?",
+      "choices": [
+        "6조합 × 4반복",
+        "7조합 × 약 3.4반복",
+        "8조합 × 3반복",
+        "12조합 × 2반복",
+        "24조합 × 1반복"
+      ],
+      "answer": 4,
+      "explanation": "완전요인 조합 수 = **3 × 2 × 2 = 12**. 24 vessel ÷ 12 = **조합당 2반복**. 실제 표에서도 vessel 1-1과 1-4가 모두 pH 6.9 / 800 rpm / 0.3×10⁶으로 같은 조건(반복)이다. 반응변수(Response)는 VCD와 Viability였다.",
+      "choiceNotes": [
+        "틀리다 — pH 수준(3)을 빼고 2×3으로 잘못 계산한 값이다.",
+        "틀리다 — 수준 수를 곱하지 않고 더한(3+2+2=7) 오류다.",
+        "틀리다 — 2×2×2로 pH를 2수준으로 본 오류다.",
+        "옳다 — 3×2×2=12조합, 24/12=2반복.",
+        "틀리다 — 24개가 모두 다른 조건이 되려면 요인 수준이 더 많아야 한다."
+      ],
+      "source": "WK02 PDF p.56 (Plan of Experiment), p.58 (Condition with 24 vessel)",
+      "tags": ["DoE", "Full factorial", "Ambr 15"]
+    },
+    {
+      "id": "wk02-006",
+      "type": "상황판단",
+      "question": "위 DoE에서 pH 7.3 조건(CS1-3, 800 rpm, 0.3×10⁶ cells/mL)의 peak VCD는 약 16×10⁶ cells/mL로, pH 6.9 조건(CS1-1, 31.4×10⁶ cells/mL)의 절반 수준이었다. 같은 기간 offline 분석 그래프에서 함께 확인되는 경향과 해석으로 가장 적절한 것은?",
+      "choices": [
+        "CS1-3은 day 3 이전에 glucose가 고갈되었으므로 feed 부족이 성장 저하의 유일한 원인이다.",
+        "CS1-3에서는 pO₂가 거의 0까지 떨어져 산소 제한이 발생한 것이 주원인이다.",
+        "CS1-3에서 lactate가 CS1-1보다 크게(약 4배 이상) 축적되고 sodium·osmolality도 함께 높아져, 부산물 축적과 삼투압 상승이 성장 저해와 연관된 것으로 해석할 수 있다.",
+        "두 조건의 lactate·osmolality 프로파일은 같았으므로 VCD 차이는 측정 오차로 보아야 한다.",
+        "CS1-3은 impeller speed가 1,300 rpm이어서 shear stress로 성장이 저해되었다."
+      ],
+      "answer": 3,
+      "explanation": "그래프에서 pH 7.3(CS1-3)은 **Lactate가 최고 약 9 수준(CS1-1은 약 2)**, **Sodium 약 200 vs 130**, **Osmolality 약 470 vs 330**으로 함께 높아졌고 VCD·viability는 낮았다. 두 조건은 rpm(800)과 접종밀도(0.3×10⁶)가 같으므로 차이는 pH 조건에서 온다. 일반적으로 lactate가 많이 생기면 pH 유지를 위해 Na⁺ 계열 염기 투입이 늘어 Na⁺와 삼투압이 함께 오른다(일반 원리). 이처럼 **pH(공정 변수) → 대사(lactate) → 이온·삼투압 → 성장(VCD)**으로 이어지는 연결을 읽는 것이 핵심이다.",
+      "choiceNotes": [
+        "틀리다 — 두 조건 모두 glucose가 0까지 고갈되지 않았고 이후 feed로 다시 상승한다.",
+        "틀리다 — pO₂ 프로파일은 두 조건이 거의 비슷하다.",
+        "옳다 — lactate·Na⁺·osmolality가 함께 상승한 것이 pH 7.3 조건의 특징이다.",
+        "틀리다 — 프로파일이 뚜렷하게 다르다.",
+        "틀리다 — CS1-1과 CS1-3은 모두 800 rpm이다."
+      ],
+      "source": "WK02 PDF p.62 (VCD·Viability), p.63 (Glucose·Lactate), p.65 (Sodium), p.66 (Osmolality·pO₂·pCO₂)",
+      "tags": ["pH", "Lactate", "Osmolality", "데이터 해석"]
+    },
+    {
+      "id": "wk02-007",
+      "type": "상황판단",
+      "question": "DoE 결과로 Design Space(녹색 = 최적, 적색 = 실패 위험)를 구하고 set point를 pH 6.96, 1,009 rpm, 접종밀도 0.3×10⁶ cells/mL 수준으로 정했다. 이 결과의 해석과 활용으로 가장 적절한 것은?",
+      "choices": [
+        "실패 확률이 가장 낮은 점은 항상 요인 범위의 최댓값이므로 pH 7.3, 1,300 rpm으로 바꾸는 것이 더 안전하다.",
+        "Set point는 실패 위험 경계(boundary)에서 충분히 떨어진 녹색 영역 안쪽에 두고, 승인된 Design Space 안에서만 운전 조건을 조절한다.",
+        "Set point가 1,009 rpm이므로 800 rpm 조건의 데이터는 Design Space 계산에 사용되지 않았다.",
+        "소규모(Ambr)에서 얻은 Design Space는 생산 규모에 추가 검증 없이 그대로 적용해도 된다.",
+        "적색 영역은 생산성이 가장 높은 곳이므로 규제 승인만 받으면 적색 영역에서 운전할 수 있다."
+      ],
+      "answer": 2,
+      "explanation": "슬라이드에서 **Red = Risk in failure, Green = Optimize in Design Space**이며, 필기대로 Design space hypercube는 **운영 범위의 boundary(경계)를 설정해 주는 것**이다. Set point는 그 경계에서 충분히 떨어진 안쪽에 둔다. QbD 필기: 공정 중 핵심 변수를 관리해 불량을 예방하고 **승인된 Design Space 안에서 조절**한다. 또한 FDA Process Validation Guidance 인용처럼 **소규모 모델이 상업 공정을 얼마나 대표하는지** 이해·검증해야 한다.",
+      "choiceNotes": [
+        "틀리다 — 최적점은 범위의 끝이 아니라 실패 확률이 낮은 녹색 영역 내부에 있다.",
+        "옳다 — 경계에서 떨어진 set point + Design Space 내 조절.",
+        "틀리다 — 800/1,300 rpm 데이터 모두로 모델을 만든 뒤 그 사이 값으로 set point를 예측한 것이다.",
+        "틀리다 — 모델(소규모)과 상업 공정의 차이를 이해·검증해야 한다(FDA PV Guidance).",
+        "틀리다 — 적색은 실패 위험 영역이다."
+      ],
+      "source": "WK02 PDF p.71 (Conclusion in Design Space, 필기: hypercube = boundary 설정), p.16 (수업 필기: QbD), p.98 (FDA PV Guidance 인용)",
+      "tags": ["Design space", "Set point", "QbD"]
+    },
+    {
+      "id": "wk02-008",
+      "type": "개념",
+      "question": "QbD(Quality by Design) 수행 흐름을 순서대로 바르게 나열한 것은?",
+      "box": [
+        "(가) CQA(핵심 품질 특성) 선정 — 예: 당쇄 패턴, 응집체, 순도",
+        "(나) QTPP(목표 제품 품질 프로파일) 설정",
+        "(다) 위험평가 — 어떤 CPP·원료 특성이 CQA에 영향을 주는지 우선순위화",
+        "(라) DoE로 영향 확인 → Design Space(품질이 보장되는 운영 범위) 설정",
+        "(마) 관리 전략(Control strategy) — 설정값·허용 범위·센서·IPC로 Design Space 안에 머물게 함"
+      ],
+      "choices": [
+        "(나) → (가) → (다) → (라) → (마)",
+        "(가) → (나) → (다) → (라) → (마)",
+        "(나) → (다) → (가) → (마) → (라)",
+        "(다) → (나) → (가) → (라) → (마)",
+        "(나) → (가) → (라) → (다) → (마)"
+      ],
+      "answer": 1,
+      "explanation": "필기의 QbD 흐름: **1) QTPP → 2) CQA → 3) 위험평가 → 4) DoE → Design Space → 5) 관리 전략 → 6) 생산 이후 유지·개선**. QbD는 '품질은 마지막 단계에서 시험하는 것이 아니라 설계 단계부터 만들어 나가는 것'이라는 개념이다.",
+      "choiceNotes": [
+        "옳다 — 목표(QTPP) → 핵심 품질(CQA) → 위험평가 → DoE/Design Space → 관리 전략.",
+        "틀리다 — CQA는 QTPP(목표 프로파일)에서 도출된다.",
+        "틀리다 — 위험평가는 CQA가 정해진 뒤에 수행하고, 관리 전략은 Design Space 이후다.",
+        "틀리다 — 무엇이 중요한지(CQA)를 정하기 전에 위험평가를 할 수 없다.",
+        "틀리다 — 위험평가로 실험 대상 변수를 좁힌 뒤 DoE를 한다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
+      "tags": ["QbD", "QTPP", "CQA", "Control strategy"]
+    },
+    {
+      "id": "wk02-009",
+      "type": "연결",
+      "question": "Bioprocessing 4.0의 feedback loop(AI/ML 다변량 모델 → 모니터링·제어)에서 다음 항목을 CPP와 CQA로 바르게 분류한 것은?",
+      "box": [
+        "ㄱ. Glycosylation(당쇄화)",
+        "ㄴ. Feed rate",
+        "ㄷ. Charge variant profile",
+        "ㄹ. DO",
+        "ㅁ. Capsid quality",
+        "ㅂ. Temperature"
+      ],
+      "choices": [
+        "CPP: ㄴ, ㄹ, ㅂ / CQA: ㄱ, ㄷ, ㅁ",
+        "CPP: ㄱ, ㄴ, ㄷ / CQA: ㄹ, ㅁ, ㅂ",
+        "CPP: ㄱ, ㄹ, ㅂ / CQA: ㄴ, ㄷ, ㅁ",
+        "CPP: ㄴ, ㄷ, ㄹ / CQA: ㄱ, ㅁ, ㅂ",
+        "CPP: ㄹ, ㅂ / CQA: ㄱ, ㄴ, ㄷ, ㅁ"
+      ],
+      "answer": 1,
+      "explanation": "슬라이드의 **CPPs: media composition, nutrients, metabolites, pH, temperature, DO** / **Monitor & Control: temperature, feed rate, mixing** / **CQAs: glycosylation, charge variant profile, capsid quality**. 즉 '조절하는 공정 변수'가 CPP, '결과로 나오는 제품의 품질 특성'이 CQA다.",
+      "choiceNotes": [
+        "옳다 — 조절 변수(feed rate·DO·온도)는 CPP, 제품 특성(당쇄·전하변이체·캡시드)은 CQA.",
+        "틀리다 — 당쇄화와 charge variant는 제품 품질 특성(CQA)이다.",
+        "틀리다 — 당쇄화는 CQA, feed rate는 CPP다.",
+        "틀리다 — charge variant는 CQA, 온도는 CPP다.",
+        "틀리다 — feed rate는 제어하는 공정 변수(CPP)다."
+      ],
+      "source": "WK02 PDF p.29 (Bioprocessing 4.0: Prediction and Real-time Control), p.28 (Biopharma 4.0)",
+      "tags": ["CPP", "CQA", "Bioprocessing 4.0"]
+    },
+    {
+      "id": "wk02-010",
+      "type": "상황판단",
+      "question": "2,000 L fed-batch 공정(약 2주, 약 5 g/L)을 운영 중인 공장이 생산 배양기의 fed-batch 운전 방식은 거의 바꾸지 않으면서 연간 배치 수와 titer를 높이려 한다. 강의에서 제시된 전략 중 가장 적합한 것은?",
+      "choices": [
+        "생산 배양기를 Dynamic perfusion으로 바꾸고 ATF를 MF 모드로 연결해 제품을 연속 회수한다.",
+        "Batch 배양으로 전환해 feed를 없애고 공정을 단순화한다.",
+        "N-1 seed 배양기에 perfusion을 적용해 높은 VCD를 만든 뒤, 생산 배양기를 높은 초기 세포밀도로 접종(High Inoculum Fed-Batch)한다.",
+        "접종 밀도를 낮춰 lag phase를 늘리고 생산 배양 기간을 3주 이상으로 연장한다.",
+        "Seed train 단계 수를 늘려 N-1 배양기의 VCD를 낮게 유지한 채 생산 배양기에 접종한다."
+      ],
+      "answer": 3,
+      "explanation": "**N-1 Perfusion High Inoculum Fed-Batch**: 마지막 seed(N-1)에 perfusion을 적용해 고밀도 seed를 확보 → 생산 배양기를 높은 시작 밀도로 접종. 효과: **생산 배양기 운전 시간 단축(연간 run 수 증가)**, 적절한 세포주에서 **titer 증가(최대 약 2배, 5 → 8 g/L)**, **생산 배양기의 fed-batch 전략은 바꿀 필요가 없어 도입이 쉬움**. 단, 배지 비용은 다소 늘어난다.",
+      "choiceNotes": [
+        "틀리다 — 생산 배양기 운전 방식과 하류 공정(1 배양기 : 1 정제)까지 크게 바뀌는 전략이다.",
+        "틀리다 — Batch는 생산성이 가장 낮다.",
+        "옳다 — 주 배양기 변경을 최소화하면서 배치 수·titer를 높이는 전략.",
+        "틀리다 — 운전 시간이 늘어 연간 배치 수가 줄어든다.",
+        "틀리다 — 목적은 N-1에서 '높은' VCD를 확보하는 것이다."
+      ],
+      "source": "WK02 PDF p.38 (N-1 Perfusion High Inoculum Fed-Batch), p.39 (N-1 Perfusion from Seed to Main)",
+      "tags": ["N-1 perfusion", "High inoculum", "Process intensification"]
+    },
+    {
+      "id": "wk02-011",
+      "type": "연결",
+      "question": "ATF(XCell ATF)를 세포 유지 장치로 쓰는 두 강화(intensified) 공정을 비교했다. 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "box": [
+        "ㄱ. Concentrated fed-batch는 ATF를 UF(ultrafiltration) 모드로 운전해 제품을 배양기 안에 머물게 하고 배양 종료 시 수확한다.",
+        "ㄴ. Dynamic perfusion은 ATF를 MF(microfiltration) 모드로 운전해 제품이 여과액(permeate)으로 연속 배출되고 direct capture 등으로 바로 처리된다.",
+        "ㄷ. 두 방식 모두 배양기 1기당 정제(downstream) 1라인을 연결해야 한다.",
+        "ㄹ. Dynamic perfusion은 배지를 계속 교환하므로 fed-batch보다 배지 사용량이 늘어난다."
+      ],
+      "choices": ["ㄱ, ㄴ", "ㄱ, ㄷ", "ㄴ, ㄹ", "ㄱ, ㄴ, ㄹ", "ㄱ, ㄴ, ㄷ, ㄹ"],
+      "answer": 4,
+      "explanation": "**Concentrated FB(UF 모드)**: 제품은 배양기에 남고 마지막에 수확, 배지는 계속 교환, 약 2주, >10 g/L/batch(최대 약 4배), **fed-batch처럼 배양기 4~6기가 정제 1라인을 공유**. **Dynamic perfusion(MF 모드)**: 제품을 연속 제거·처리, 배지량 증가, 2~3주, >20 g/L/batch(최대 약 5배), **배양기 1기당 정제 1라인**. 따라서 ㄷ만 틀리다.",
+      "choiceNotes": [
+        "ㄹ도 옳으므로 부족하다.",
+        "ㄷ은 틀리다 — concentrated FB는 여러 배양기가 정제 라인을 공유한다.",
+        "ㄱ도 옳으므로 부족하다.",
+        "옳다 — ㄱ·ㄴ·ㄹ.",
+        "ㄷ이 틀린 진술이다."
+      ],
+      "source": "WK02 PDF p.40 (Concentrated Continuous Fed-Batch), p.41 (Dynamic Perfusion in Main Bioreactor)",
+      "tags": ["ATF", "UF mode", "MF mode", "Concentrated fed-batch", "Dynamic perfusion"]
+    },
+    {
+      "id": "wk02-012",
+      "type": "계산",
+      "question": "연 300 kg 생산 기준 COGS 모델링(Biosolve)에서 g당 COGS는 Fed-Batch Stainless Steel이 약 129.4 €/g, N-1 Perfusion High Inoculum Fed-Batch가 약 71.5 €/g이다. 전자에서 후자로 전환할 때 g당 COGS 절감률에 가장 가까운 것은?",
+      "choices": ["약 18%", "약 30%", "약 45%", "약 55%", "약 81%"],
+      "answer": 3,
+      "explanation": "절감률 = (129.4 − 71.5) ÷ 129.4 = 57.9 ÷ 129.4 ≈ **0.447 → 약 45%**. 막대 합계: Stainless FB = 69.9(Capital) + 5.1(Materials) + 12.6(Consumables) + 23.7(Labour) + 18.1(Other) = 129.4, N-1 perfusion HIFB = 27.1 + 4.2 + 27.1 + 6.2 + 6.9 = 71.5. 슬라이드의 '강화 공정은 COGS > 30% 절감' 주장과도 일치한다.",
+      "choiceNotes": [
+        "틀리다 — 'Other' 항목 차이 등 일부만 본 값이다.",
+        "틀리다 — 슬라이드 요약 문구(>30%)일 뿐 이 두 공정의 실제 계산값이 아니다.",
+        "옳다 — (129.4−71.5)/129.4 ≈ 45%.",
+        "틀리다 — 71.5/129.4(남는 비율, 약 55%)를 절감률로 착각한 값이다.",
+        "틀리다 — 129.4/71.5−1(증가율, 약 81%)로 기준을 거꾸로 잡은 값이다."
+      ],
+      "source": "WK02 PDF p.34 (Intensified Manufacturing — COGS Distribution per Gram)",
+      "tags": ["COGS", "Process intensification", "경제성"]
+    },
+    {
+      "id": "wk02-013",
+      "type": "상황판단",
+      "question": "COGS 분포 그래프에서 Fed-Batch Stainless Steel은 Capital Charge(69.9 €/g)가 가장 크고, Dynamic Perfusion은 Consumables(35.1 €/g)가 가장 크며 Materials(11.9 €/g)도 fed-batch(5.1 €/g)보다 크다. 이 차이를 공정 관점에서 가장 잘 설명한 것은?",
+      "choices": [
+        "Perfusion은 배양기를 쓰지 않으므로 Capital Charge가 0에 가깝다.",
+        "Stainless steel 공정은 매 배치 일회용 bag을 교체하므로 소모품 비용이 가장 크다.",
+        "두 공정의 COGS 차이는 인건비(Labour) 차이만으로 설명된다.",
+        "Perfusion은 배지를 연속 교환하며 장기간 운전해 재료·소모품 사용이 늘고, stainless fed-batch는 대형 고정 설비 투자로 자본 비용 비중이 크다.",
+        "Dynamic perfusion은 배양기 4~6기가 정제 1라인을 공유하기 때문에 소모품이 늘어난다."
+      ],
+      "answer": 4,
+      "explanation": "강화 공정은 **설비 규모·투자(Capital)를 줄이는 대신 배지·필터 등 재료·소모품 사용이 늘어나는** 구조다. Dynamic perfusion은 '배지를 계속 교환하고 배지량이 fed-batch보다 증가'하며 2~3주 운전한다. 반면 대형 stainless 설비 중심의 fed-batch는 Capital Charge가 가장 큰 비용이다. 공정 선택은 이 trade-off를 OT 텀프로젝트의 CAPEX/OPEX·ROI 관점으로 판단해야 한다.",
+      "choiceNotes": [
+        "틀리다 — Dynamic perfusion의 Capital Charge도 23.2 €/g이다.",
+        "틀리다 — 일회용 bag 교체는 single-use 공정의 특징이고, stainless의 Consumables는 12.6 €/g로 작다.",
+        "틀리다 — Capital·Materials·Consumables 차이가 훨씬 크다.",
+        "옳다 — 연속 배지 교환(재료·소모품↑) vs 대형 설비(자본비↑).",
+        "틀리다 — Dynamic perfusion은 배양기 1기당 정제 1라인이다."
+      ],
+      "source": "WK02 PDF p.34 (COGS Distribution), p.41 (Dynamic Perfusion) · OT PDF p.27 (CAPEX·OPEX·ROI)",
+      "tags": ["COGS", "Capital charge", "Consumables", "Trade-off"]
+    },
+    {
+      "id": "wk02-014",
+      "type": "개념",
+      "question": "일반적인 동물세포 성장곡선(Growth curve)에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "Lag phase는 세포 수가 대수적으로 증가하며 생리적 활성이 가장 강한 시기다.",
+        "Log phase의 증식 속도는 배지의 영양, pH, 산소분압 같은 환경 인자에 의해 결정된다.",
+        "Stationary phase에서는 증식과 사멸이 모두 멈추므로 세포 수가 일정하다.",
+        "Death phase는 protein coding 유전자가 활성화되어 product release가 최대가 되는 시기다.",
+        "목표 수확일(target culture days with harvest)은 lag phase가 끝나는 시점으로 잡는다."
+      ],
+      "answer": 2,
+      "explanation": "**Lag**: 새 환경 적응, 효소 단백질 생합성, 호흡 활성·RNA 증가. **Log**: 세포 수 대수적 증가, 생리 활성 최고, **증식 속도는 영양·pH·산소분압 등 환경 인자로 결정**. **Stationary**: protein coding 유전자 활성화로 product release, **증식 수와 사멸 수가 비슷해** 세포 수 일정. **Death**: 살아 있는 세포 감소. 수확은 death phase로 넘어가는 시점 부근(target culture days with harvest)이다.",
+      "choiceNotes": [
+        "틀리다 — Log phase의 설명이다.",
+        "옳다 — Log phase 증식 속도는 환경 인자가 결정한다.",
+        "틀리다 — 멈추는 것이 아니라 증식과 사멸이 비슷한 비율로 일어난다.",
+        "틀리다 — product release는 stationary phase의 특징이다.",
+        "틀리다 — 수확 목표일은 stationary 이후 death phase 진입 부근이다."
+      ],
+      "source": "WK02 PDF p.31 (General Animal Cell Growth Curve)",
+      "tags": ["Growth curve", "Lag/Log/Stationary/Death"]
+    },
+    {
+      "id": "wk02-015",
+      "type": "계산",
+      "question": "BIOSTAT B 2 L 배양기(working volume 0.7 L, 150 rpm, 공기 0.03 L/min, ring sparger)에서 gassing-out법으로 kLa를 측정했다. 질소로 pO₂를 0%까지 낮춘 뒤 공기로 전환하고, 시간 t(h)에 대해 ln(C* − C_L)을 그렸더니 회귀식 y = −1.0607x + 4.2795 (R² = 0.94)를 얻었다. 이 조건의 kLa와 VVM으로 옳은 것은?",
+      "choices": [
+        "kLa ≈ 1.06 h⁻¹, VVM ≈ 0.043",
+        "kLa ≈ 4.28 h⁻¹, VVM ≈ 0.043",
+        "kLa ≈ −1.06 h⁻¹, VVM ≈ 0.021",
+        "kLa ≈ 1.06 h⁻¹, VVM ≈ 23.3",
+        "kLa ≈ 0.94 h⁻¹, VVM ≈ 0.043"
+      ],
+      "answer": 1,
+      "explanation": "OTR = dC/dt = kLa(C* − C_L)를 적분하면 **ln(C* − C_L) = −kLa·t + C** → **kLa = 기울기의 음수 = 1.0607 h⁻¹**. **VVM = 분당 기체 유량 ÷ 배양 부피 = 0.03 L/min ÷ 0.7 L ≈ 0.043 min⁻¹**(슬라이드 시험 조건표의 VVM 0.04와 일치). 실제 회귀에서는 센서 응답 지연 구간을 빼고 선형 구간만 쓰는 것이 원칙이다(슬라이드의 '추세선 오류' 표기 참고).",
+      "choiceNotes": [
+        "옳다 — kLa = −slope, VVM = 0.03/0.7.",
+        "틀리다 — 4.28은 y절편(C)이다.",
+        "틀리다 — kLa는 양수이며, 0.021은 0.03×0.7로 잘못 곱한 값이다.",
+        "틀리다 — 23.3은 0.7/0.03으로 분자·분모를 뒤집은 값이다.",
+        "틀리다 — 0.94는 결정계수 R²로 kLa와 무관하다."
+      ],
+      "source": "WK02 PDF p.96 (kLa Determination — Gassing out Method), p.97 (kLa·OTR), p.93 (VVM 정의)",
+      "tags": ["kLa", "Gassing-out", "VVM", "OTR"]
+    },
+    {
+      "id": "wk02-016",
+      "type": "계산",
+      "question": "생산 배양기의 impeller 직경이 0.6 m이고 교반 속도가 60 rpm일 때 tip speed는? (π ≈ 3.14)",
+      "choices": ["약 0.60 m/s", "약 0.94 m/s", "약 1.88 m/s", "약 3.77 m/s", "약 113 m/s"],
+      "answer": 3,
+      "explanation": "**Tip speed = π · n · d** (n은 초당 회전수). 60 rpm = 1 rps → 3.14 × 1 × 0.6 = **약 1.88 m/s**. Tip speed는 impeller가 배지 속을 움직이며 만드는 **shear rate와 관련**되어 세포막 손상 위험을 판단하는 지표다(Shearing force ∝ Tip speed / Clearance).",
+      "choiceNotes": [
+        "틀리다 — π를 빠뜨린 값이다.",
+        "틀리다 — 직경 대신 반지름(0.3 m)을 넣은 값이다.",
+        "옳다 — 3.14 × (60/60 s⁻¹) × 0.6 m.",
+        "틀리다 — 2π를 곱한 값(각속도×직경)이다.",
+        "틀리다 — rpm을 초당 회전수로 환산하지 않은 값이다."
+      ],
+      "source": "WK02 PDF p.89 (Influencing Factors — Agitation), p.92 (Tip speed, P/V)",
+      "tags": ["Tip speed", "Shear", "계산"]
+    },
+    {
+      "id": "wk02-017",
+      "type": "계산",
+      "question": "기하학적 상사(H/D, d/D 동일)를 유지하며 200 L → 2,000 L로 scale-up 한다. 동물세포의 shear 민감성을 고려해 P/V(단위 부피당 동력)를 일정하게 유지할 때, 생산 규모의 교반 속도와 tip speed 변화로 옳은 것은? (난류 영역으로 Ne 일정, 200 L 조건은 150 rpm)",
+      "choices": [
+        "약 150 rpm 유지, tip speed 약 2.2배 증가",
+        "약 90 rpm, tip speed 약 1.3배 증가",
+        "약 70 rpm, tip speed 변화 없음",
+        "약 32 rpm, tip speed 약 0.46배로 감소",
+        "약 90 rpm, tip speed 약 0.6배로 감소"
+      ],
+      "answer": 2,
+      "explanation": "P/V = Ne·ρ·n³·d⁵ / V 이고 기하 상사에서 V ∝ d³ 이므로 **P/V ∝ n³·d²**. 부피 10배 → d는 10^(1/3) ≈ 2.15배. P/V 일정: n₂ = n₁·(d₁/d₂)^(2/3) = 150 × 10^(−2/9) ≈ **약 90 rpm**. Tip speed ∝ n·d → 0.60 × 2.15 ≈ **1.29배(약 30% 증가)**. 반대로 tip speed를 일정하게 두면(약 70 rpm) P/V가 줄어든다는 슬라이드 내용과 연결된다. 필기에서도 P/V에 'Scale-up 시 사용'이 강조되어 있다.",
+      "choiceNotes": [
+        "틀리다 — rpm을 유지하면 P/V가 d²배(약 4.6배) 커져 shear 위험이 커진다.",
+        "옳다 — P/V ∝ n³d² 일정 → n ≈ 90 rpm, tip speed ≈ 1.29배.",
+        "틀리다 — tip speed 일정 조건(n ∝ 1/d)의 결과이며, 이 경우 P/V는 감소한다.",
+        "틀리다 — 지수를 잘못 적용(n ∝ V^(−2/3))한 값이다.",
+        "틀리다 — 직경이 커지는 효과(×2.15)를 빠뜨렸다."
+      ],
+      "source": "WK02 PDF p.84 (Geometrical Similarity), p.89 (Mixing time·P/V·Tip speed, 필기: P/V – Scale-up), p.90 (Main Parameters for Scale Study)",
+      "tags": ["Scale-up", "P/V", "Tip speed", "Geometrical similarity"]
+    },
+    {
+      "id": "wk02-018",
+      "type": "상황판단",
+      "question": "2,000 L 생산 배양 day 7, VCD가 빠르게 증가하면서 DO가 set point 아래로 떨어지고 pCO₂가 오르기 시작했다. 현재 운전점은 교반이 Design Space의 상한(shear stress) 근처이고, 통기량은 하한 근처다. 가장 적절한 1차 대응은?",
+      "choices": [
+        "동물세포는 shear 영향을 받지 않으므로 교반 속도를 상한 이상으로 올려 kLa를 높인다.",
+        "통기를 멈추고 교반만 유지해 foam 발생을 원천 차단한다.",
+        "통기량(Q, VVM)을 foam·flooding이 생기는 상한 이내에서 늘려 OTR을 높이고 CO₂ 제거도 강화한다.",
+        "배양 온도를 37 ℃보다 높여 산소 용해도와 전달 속도를 높인다.",
+        "통기량을 하한 아래로 줄여 bubble burst에 의한 세포 손상을 막는다."
+      ],
+      "answer": 3,
+      "explanation": "세포 성장에는 **OTR ≥ OUR**이 필요하다(OTR = kLa(C* − C_L)). VCD 증가로 OUR이 커졌는데 교반은 이미 **shear stress 상한** 근처이므로, **통기량을 Design Space 안에서 증가**시키는 것이 맞다. 통기 하한은 '필요한 kLa(OTR)와 충분한 CO₂ 제거를 얻는 최소 유량', 상한은 'foam/flooding/bubble burst'로 정의된다. kLa ∝ (P/V)^b·vs^c 이므로 vs(통기) 증가로도 kLa를 올릴 수 있다.",
+      "choiceNotes": [
+        "틀리다 — 높은 rpm은 높은 shear force로 세포 손상을 일으킨다(High rpm = cell damage).",
+        "틀리다 — 통기를 멈추면 O₂ limitation과 CO₂ accumulation이 심해진다.",
+        "옳다 — 통기 상한(foam) 이내에서 유량을 늘려 OTR↑, CO₂ 제거↑.",
+        "틀리다 — 온도를 올리면 산소 용해도는 오히려 낮아지고 OUR도 커질 수 있다.",
+        "틀리다 — 하한 아래는 산소 부족·CO₂ 축적 영역이다(Low VVM = oxygen limitation)."
+      ],
+      "source": "WK02 PDF p.85–88 (Agitation·Aeration Design Space), p.90 (High rpm / Low VVM), p.93 (kLa), p.95 (OTR ≥ OUR)",
+      "tags": ["OTR/OUR", "Design space", "Aeration", "CO₂"]
+    },
+    {
+      "id": "wk02-019",
+      "type": "개념",
+      "question": "교반(n, rpm)–통기(Q, L/min) Design Space 그림에서, 각 경계를 벗어났을 때의 위험이 바르게 연결된 것은?",
+      "choices": [
+        "교반 하한 미만 – Heterogeneity(불균일·침강) / 교반 상한 초과 – Shear stress / 통기 하한 미만 – O₂ limitation·CO₂ accumulation / 통기 상한 초과 – Foam",
+        "교반 하한 미만 – Shear stress / 교반 상한 초과 – Heterogeneity / 통기 하한 미만 – Foam / 통기 상한 초과 – O₂ limitation",
+        "교반 하한 미만 – Foam / 교반 상한 초과 – CO₂ accumulation / 통기 하한 미만 – Heterogeneity / 통기 상한 초과 – Shear stress",
+        "교반 하한 미만 – O₂ limitation / 교반 상한 초과 – Foam / 통기 하한 미만 – Shear stress / 통기 상한 초과 – Heterogeneity",
+        "교반 하한 미만 – Heterogeneity / 교반 상한 초과 – Foam / 통기 하한 미만 – Shear stress / 통기 상한 초과 – CO₂ accumulation"
+      ],
+      "answer": 1,
+      "explanation": "**교반 Min: acceptable mixing time**(기포 분포, 침강 방지) → 그 아래는 Heterogeneity. **교반 Max: shear stress**. **통기 Min: 필요한 kLa(OTR)와 충분한 CO₂ 제거를 얻는 최저 유량** → 그 아래는 Oxygen limitation·CO₂ accumulation. **통기 Max: foam generation / flooding / bubble burst**. Design Space는 P/V(교반), kLa(통기), mixing time으로 특성화한다.",
+      "choiceNotes": [
+        "옳다 — 슬라이드 그림의 네 경계와 일치한다.",
+        "틀리다 — 교반 위험의 상·하한이 뒤바뀌었고 통기 위험도 뒤바뀌었다.",
+        "틀리다 — 교반·통기 경계의 위험이 서로 섞였다.",
+        "틀리다 — 교반 하한의 위험은 불균일(heterogeneity)이다.",
+        "틀리다 — Foam은 통기 상한, shear stress는 교반 상한의 위험이다."
+      ],
+      "source": "WK02 PDF p.85 (Correlation in Balance), p.86 (Simplified Agitation), p.87 (Simplified Aeration), p.88 (Characterization of the Design Space)",
+      "tags": ["Design space", "Agitation", "Aeration"]
+    },
+    {
+      "id": "wk02-020",
+      "type": "개념",
+      "question": "Superficial gas velocity(Vs = Q_gas / A_v)를 증가시켰을 때 슬라이드에서 제시한 영향으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "box": [
+        "ㄱ. 산소 전달(oxygen transfer)이 증가한다.",
+        "ㄴ. foam 발생이 증가한다.",
+        "ㄷ. P/V가 감소한다.",
+        "ㄹ. 혼합 시간이 짧아지고 shear stress가 감소한다."
+      ],
+      "choices": ["ㄱ", "ㄱ, ㄴ", "ㄱ, ㄴ, ㄷ", "ㄴ, ㄷ, ㄹ", "ㄱ, ㄴ, ㄷ, ㄹ"],
+      "answer": 3,
+      "explanation": "슬라이드 'Influencing Factors – Aeration'에서 Vs 증가 시: **An increase in foam generation / A decrease in P/V / An increase in oxygen transfer**. ㄹ은 제시되지 않은 내용이다. VVM은 배양 부피당 분당 기체 유량, Vs는 VVM을 단면적 기준으로 본 값이며, kLa = a·(P/V)^b·vs^c로 두 인자에 모두 영향을 받는다.",
+      "choiceNotes": [
+        "ㄴ·ㄷ도 슬라이드에 제시된 영향이다.",
+        "ㄷ(P/V 감소)도 제시되어 있다.",
+        "옳다 — 산소 전달↑, foam↑, P/V↓.",
+        "ㄹ은 슬라이드에 없는 내용이고 ㄱ이 빠졌다.",
+        "ㄹ은 근거가 없다."
+      ],
+      "source": "WK02 PDF p.93 (Influencing Factors — Aeration)",
+      "tags": ["Superficial gas velocity", "Foam", "kLa"]
+    },
+    {
+      "id": "wk02-021",
+      "type": "상황판단",
+      "question": "2,000 L 생산 배치에서 viability가 급락하는 일탈(deviation)이 발생했다. 원인 조사를 위해 소규모 Scale-Down Model(SDM)로 재현 실험을 하려 한다. SDM 활용의 전제로 가장 적절한 것은?",
+      "choices": [
+        "SDM은 소규모이므로 H/D·impeller 직경비와 관계없이 rpm만 생산 규모와 같게 맞추면 된다.",
+        "SDM이 성장·대사·품질 면에서 생산 규모와 유사한 결과를 낸다는 대표성이 입증되어 있어야 하며, H/D·impeller 직경비 같은 기하학적 상사를 맞춘다.",
+        "SDM 결과는 대표성 검증 없이도 생산 공정과 같은 것으로 간주된다.",
+        "SDM은 공정 특성화(DoE)에만 쓰고 일탈 조사에는 사용할 수 없다.",
+        "생산 규모의 공정 변수는 소규모에서 재현할 수 없으므로 SDM 결과는 교육용 참고 자료로만 쓴다."
+      ],
+      "answer": 2,
+      "explanation": "필기 SDM: **생산 scale에서 얻을 수 있는 결과를 소규모 배양기에서 여러 조건으로 실험해 보는 것**, **H/D·Impeller diameter 비를 맞춰야 함**, **성장·대사·품질이 생산 scale과 비슷하게 나옴을 입증해야 함**, **공정 특성화(DoE)·일탈 조사에 쓰임**. 슬라이드도 250 mL~2,000 L까지 H/D, d/D 비를 유지(2×3-blade)하고, FDA PV Guidance는 모델과 상업 공정의 차이를 이해하라고 강조한다.",
+      "choiceNotes": [
+        "틀리다 — 같은 rpm이라도 직경이 다르면 tip speed·P/V가 달라진다.",
+        "옳다 — 대표성 입증 + 기하 상사.",
+        "틀리다 — 모델이 상업 공정을 얼마나 대표하는지 검증해야 한다.",
+        "틀리다 — 필기상 일탈 조사에도 쓰인다.",
+        "틀리다 — 기하 상사와 scale 인자(P/V, kLa 등)로 재현해 활용한다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: SDM), p.84 (Geometrical Similarity), p.98 (FDA PV Guidance)",
+      "tags": ["Scale-down model", "Deviation", "Geometrical similarity"]
+    },
+    {
+      "id": "wk02-022",
+      "type": "개념",
+      "question": "CHO 세포 spent media 분석에서 일반적으로 알려진 아미노산의 역할로 옳게 짝지은 것은?",
+      "choices": [
+        "세포 성장 – Tyrosine, Phenylalanine, Proline, Isoleucine",
+        "단백질 생산의 주된(main) 아미노산 – Leucine",
+        "세포 독성 완화 – Lysine",
+        "제품 품질 확보 – Glycine",
+        "농도가 가장 높을 때 성장 저해 – Serine, Asparagine"
+      ],
+      "answer": 1,
+      "explanation": "슬라이드 'Role of amino acids for metabolism in CHO cell': **성장 – Tyr, Phe, Pro, Ile** / **단백질 생산 – Serine(main), Asp, Asn, His** / **성장에 부정적(최고 농도) – Leu, Phe** / **제품 품질 – Lysine** / **독성 완화 – Thr, Gly**. Spent media 분석은 성장·titer에 중요한 정보를 주고 맞춤 배지 최적화에 활용된다.",
+      "choiceNotes": [
+        "옳다 — 성장 관련 아미노산.",
+        "틀리다 — 단백질 생산의 main은 Serine이며, Leucine은 고농도에서 성장 저해.",
+        "틀리다 — 독성 완화는 Threonine·Glycine, Lysine은 품질.",
+        "틀리다 — 품질 확보는 Lysine, Glycine은 독성 완화.",
+        "틀리다 — 성장 저해는 Leucine·Phenylalanine이고, Serine·Asparagine은 단백질 생산 쪽이다."
+      ],
+      "source": "WK02 PDF p.49 (Spent Media Analysis in Amino Acids and Vitamins)",
+      "tags": ["Spent media", "Amino acids", "Media optimization"]
+    },
+    {
+      "id": "wk02-023",
+      "type": "개념",
+      "question": "배양 데이터 플랫폼을 고도화하려 한다. '다음 배치에서 lactate 과다 축적을 피하려면 feed 속도를 어떻게 바꿔야 하는가?'라는 질문에 답하는 분석 유형은?",
+      "choices": [
+        "Descriptive analytics",
+        "Diagnostic analytics",
+        "Predictive analytics",
+        "Prescriptive analytics",
+        "Nutrient soft sensor(hybrid model)"
+      ],
+      "answer": 4,
+      "explanation": "Data Analytics Continuum: **Descriptive(무슨 일이 있었나) → Diagnostic(왜 일어났나) → Predictive(무슨 일이 일어날까) → Prescriptive(일어나게/피하게 하려면 무엇을 할까)**. 행동(feed 속도 변경)을 처방하는 질문은 Prescriptive다. 가치는 Time(개발·일탈조사·출하 단축), Cost, Quality(QbD, CPP·CQA 관리)로 정리된다.",
+      "choiceNotes": [
+        "틀리다 — '이미 무슨 일이 있었나'를 보는 단계다.",
+        "틀리다 — '왜 일어났나'를 찾는 단계다.",
+        "틀리다 — '앞으로 무슨 일이 일어날까'까지만 답한다.",
+        "옳다 — '무엇을 해야 피할 수 있나'에 답한다.",
+        "틀리다 — 배양기 내 영양분 농도를 추정하는 hybrid model로, 분석 유형 분류가 아니다."
+      ],
+      "source": "WK02 PDF p.79 (What is Data Analytics?), p.80 (The Data Analytics Continuum), p.81 (Value Proposition)",
+      "tags": ["Data analytics", "Prescriptive"]
+    },
+    {
+      "id": "wk02-024",
+      "type": "연결",
+      "question": "Perfusion 배양기에 BioPAT Trace(온라인 glucose·lactate)와 BioPAT ViaMass(biomass)를 통합했다. 각 PAT 신호와 제어 대상이 바르게 연결된 것은?",
+      "choices": [
+        "온라인 VCD → glucose feed 제어 / 온라인 glucose → cell bleed 제어",
+        "온라인 glucose·lactate → glucose 농도 제어(배지 공급) / 온라인 VCD → cell bleed rate로 VCD 제어",
+        "온라인 glucose → ATF 필터의 cut-off 크기 자동 변경",
+        "Balance(무게) 신호 → DO 제어",
+        "온라인 lactate → 온도 shift 시점 결정에만 쓰이며 feed 제어에는 쓸 수 없다"
+      ],
+      "answer": 2,
+      "explanation": "슬라이드 'Perfusion Bioreactor Set Up with PAT Integration': **BioPAT Trace → Online Glucose, Lactate → Control of glucose conc.** / **BioPAT ViaMass → Online Viable Cell Density → Control of VCD by Cell Bleed**. Balance는 배지·harvest 무게로 유량 균형을 맞추는 데 쓰이고, retention 필터는 filter type·cut-off·sieving·shear를 고려해 선택한다. Cell bleed는 '특정 세포밀도를 유지하기 위해 세포를 계속 빼내는' 흐름이다.",
+      "choiceNotes": [
+        "틀리다 — 신호와 제어 대상이 서로 뒤바뀌었다.",
+        "옳다 — glucose 신호 → 배지/glucose 공급, VCD 신호 → bleed.",
+        "틀리다 — cut-off는 필터 선택 시 정하는 사양이지 실시간 제어 변수가 아니다.",
+        "틀리다 — Balance는 무게(유량 균형)용이며 DO는 통기·교반으로 제어한다.",
+        "틀리다 — 슬라이드는 glucose 농도 제어에 쓰는 예를 보여 준다."
+      ],
+      "source": "WK02 PDF p.42 (CRD for Perfusion Culture), p.43 (Perfusion Bioreactor Set Up with PAT Integration)",
+      "tags": ["PAT", "Cell bleed", "Perfusion control"]
+    },
+    {
+      "id": "wk02-025",
+      "type": "상황판단",
+      "question": "Stainless steel 배양기에서 하루 1회 이상 샘플링하며 IPC(In-Process Control)를 수행한다. 샘플링과 IPC에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Stainless 배양기의 sampling port는 증기 멸균(SIP)으로 무균성을 유지한다.",
+        "일회용(single-use) 배양기는 멸균된 sampling kit를 사용한다.",
+        "핵심 offline 항목은 glucose, glutamine, osmolality, lactate, ammonium으로, 영양분 소모와 독성 물질 축적을 모니터링한다.",
+        "VCD·viability·cell diameter 같은 세포 지표와 pH·pO₂·pCO₂ 같은 가스 지표도 IPC 대상이다.",
+        "Titer와 오염 여부는 배양이 끝난 뒤 정제 공정에서만 확인하므로 배양 중 샘플링 항목에서 제외한다."
+      ],
+      "answer": 5,
+      "explanation": "필기 'Sampling Port(최소 1일 1회)': stainless → 증기(SIP), 일회용 → 멸균 샘플링 키트. 측정 항목은 **VCD, Nutrition, 노폐물, pH, pCO₂, pO₂, 삼투압, Titer, 오염 및 품질** → IPC로 이어진다. 슬라이드 offline 분석 목록에도 IgG(titer)가 포함된다. 따라서 titer·오염을 배양 중 확인하지 않는다는 진술이 틀리다.",
+      "choiceNotes": [
+        "옳은 진술 — stainless는 SIP.",
+        "옳은 진술 — 일회용은 멸균 샘플링 키트.",
+        "옳은 진술 — 슬라이드의 Key parameters.",
+        "옳은 진술 — Cell·Gassing 분석 항목.",
+        "틀린 진술(정답) — titer·오염 여부도 배양 중 IPC 항목이다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: Sampling Port), p.25 (Offline Analysis), p.47 (Process Parameters by Offline Analysis)",
+      "tags": ["IPC", "Sampling", "SIP"]
+    },
+    {
+      "id": "wk02-026",
+      "type": "개념",
+      "question": "다음 중 제품과 modality(벡터·플랫폼)의 연결이 옳지 않은 것은?",
+      "choices": [
+        "Luxturna, Zolgensma – AAV 기반 유전자치료제",
+        "Kymriah – Lentivirus 등으로 만든 gene-modified cell therapy(CAR-T)",
+        "BioNTech/Pfizer·Moderna COVID-19 백신 – mRNA nucleic acid vaccine",
+        "AstraZeneca·CanSino COVID-19 백신 – Adenovirus viral vector vaccine",
+        "Prochymal – iPSC 유래 CAR-NK 세포치료제"
+      ],
+      "answer": 5,
+      "explanation": "Viral-Based Therapeutics: **AAV – Luxturna(2017), Zolgensma(2019)**, **Lenti/Retrovirus – Kymriah(2017), Zynteglo(2019)**, **mRNA – BioNTech/Pfizer·Moderna**, **Adenovirus – AstraZeneca·CanSino**. Advanced Therapy: **Prochymal(Osiris)은 최초 승인된 줄기세포(MSC) 치료제**이며 CAR-NK가 아니다.",
+      "choiceNotes": [
+        "옳은 연결 — AAV 유전자치료제.",
+        "옳은 연결 — 최초 FDA 승인 CAR-T.",
+        "옳은 연결 — mRNA 백신.",
+        "옳은 연결 — 아데노바이러스 벡터 백신.",
+        "틀린 연결(정답) — Prochymal은 줄기세포(MSC) 치료제다."
+      ],
+      "source": "WK02 PDF p.6 (Viral-Based Therapeutics), p.7 (Advanced Therapy Modalities)",
+      "tags": ["Modality", "AAV", "CAR-T", "mRNA"]
+    },
+    {
+      "id": "wk02-027",
+      "type": "계산",
+      "question": "Stock vial 1개(5 mL, 50×10⁶ cells/mL)를 해동해 seed train을 거쳐 최종적으로 2,000 L 생산 배양기를 0.3×10⁶ cells/mL로 접종하려 한다. 세포 손실을 무시할 때 seed train 전체에서 필요한 세포 증식 배수에 가장 가까운 것은?",
+      "choices": [
+        "약 2.4배",
+        "약 240배",
+        "약 2,400배 (약 11회 doubling)",
+        "약 4,000배",
+        "약 24,000배"
+      ],
+      "answer": 3,
+      "explanation": "Vial 세포 수 = 5 mL × 50×10⁶ = **2.5×10⁸ cells**. 필요 세포 수 = 0.3×10⁶ cells/mL × 2,000,000 mL = **6×10¹¹ cells**. 배수 = 6×10¹¹ ÷ 2.5×10⁸ = **2,400배**, log₂2400 ≈ 11.2회 doubling. 한 번에 키울 수 없으므로 flask → wave/소형 배양기 → N-1 seed → main으로 단계별 scale-up(seed train)을 한다(배양기마다 working volume Max/Min 비가 약 4로 제한).",
+      "choiceNotes": [
+        "틀리다 — 2,000 L를 2,000 mL로 환산 오류한 값이다.",
+        "틀리다 — 자릿수(×10)를 하나 놓쳤다.",
+        "옳다 — 6×10¹¹ / 2.5×10⁸ = 2,400.",
+        "틀리다 — 접종밀도를 0.5×10⁶으로 잘못 적용한 값이다.",
+        "틀리다 — 자릿수를 하나 더 붙였다."
+      ],
+      "source": "WK02 PDF p.36 (General Fed-batch from Seed to Main Bioreactor: 5 mL vial 50E6/mL), p.58 (Inoculation density), p.84 (Ratio WV Max/Min)",
+      "tags": ["Seed train", "Inoculation", "계산"]
+    },
+    {
+      "id": "wk02-028",
+      "type": "개념",
+      "question": "PLS 모델로 titer에 영향을 주는 변수를 분석했다. VIP plot과 Coefficient plot의 해석으로 옳은 것은?",
+      "choices": [
+        "VIP plot은 각 변수의 영향력 크기(중요도)만 보여 주고, Coefficient plot은 titer에 대한 양(+)·음(−)의 방향까지 보여 준다.",
+        "VIP plot은 영향의 방향(+/−)을 보여 주고, Coefficient plot은 크기만 보여 준다.",
+        "두 plot은 같은 정보를 담고 있으므로 하나만 보면 된다.",
+        "Coefficient가 음수인 변수는 titer와 관계가 없으므로 관리 대상에서 뺀다.",
+        "PCA score plot은 개별 변수가 titer에 기여하는 방향을 직접 보여 준다."
+      ],
+      "answer": 1,
+      "explanation": "슬라이드 표기: **VIP Plot (Only power)**, **Coefficient Plot (Positive, Negative)**. 음의 계수도 titer를 '낮추는' 중요한 변수이므로 관리 대상이다. PCA score plot은 배치/샘플 간 그룹(예: 9일차 VCD로 색칠한 batch-to-batch 그룹) 비교에 쓰이고, loading/biplot이 변수의 기여를 보여 준다.",
+      "choiceNotes": [
+        "옳다 — VIP는 크기, Coefficient는 방향까지.",
+        "틀리다 — 설명이 서로 뒤바뀌었다.",
+        "틀리다 — 크기 정보와 방향 정보는 다르다.",
+        "틀리다 — 음의 계수는 titer를 감소시키는 영향력 있는 변수다.",
+        "틀리다 — score plot은 샘플(배치) 분포를 보여 준다."
+      ],
+      "source": "WK02 PDF p.51–52 (PCA Loadings·Scores·Biplot), p.53 (VIP Plot / Coefficient Plot), p.54 (Group Analysis)",
+      "tags": ["MVDA", "PLS", "VIP", "Coefficient"]
+    },
+    {
+      "id": "wk02-029",
+      "type": "상황판단",
+      "question": "HEK293T 기반 AAV 공정 최적화 사례에서, Ambr 15로 shake flask보다 통제된 조건에서 screening한 결과 '세포 성장(VCC·viability)'에 대한 핵심 공정 변수(CPP)로 확인된 두 가지는?",
+      "choices": [
+        "DO와 온도",
+        "pH와 stirring speed",
+        "접종 밀도와 DO",
+        "Plasmid ratio와 complex time",
+        "배지(Medium)와 세포주(cell line)"
+      ],
+      "answer": 2,
+      "explanation": "슬라이드: 'pH and stirring speed were identified to be critical process parameters'(범위: stirring 400–800 rpm, pH 6.9–7.3, DO 30–70%, 반응 VCC·viability). 별도의 **titer(AAV 생산성) DoE**에서는 screening 설계로 영향 큰 인자를 고른 뒤 optimization 설계로 정밀화했고, **Medium7과 ATCC cell line이 titer에 가장 큰 영향**을 준 인자로 나왔다. 질문이 '성장'인지 '생산성(titer)'인지 구분하는 것이 핵심이다.",
+      "choiceNotes": [
+        "틀리다 — DO는 범위로 검토되었으나 CPP로 지목되지 않았다.",
+        "옳다 — 성장 단계의 CPP는 pH와 stirring speed.",
+        "틀리다 — 슬라이드에서 성장 CPP로 지목되지 않았다.",
+        "틀리다 — transfection 관련 titer DoE 인자 목록에 있는 항목이다.",
+        "틀리다 — titer DoE에서 영향이 가장 컸던 인자이지, 성장 CPP screening 결과가 아니다."
+      ],
+      "source": "WK02 PDF p.12 (Optimization of CPPs for HEK293 Culture), p.13 (Optimization of HEK293T Culture — DoE)",
+      "tags": ["AAV", "HEK293", "DoE screening", "CPP"]
+    },
+    {
+      "id": "wk02-030",
+      "type": "개념",
+      "question": "배양기 내부 영양분 농도를 직접 측정하는 센서 없이 공정 데이터로 추정하려 한다. 이 목적에 맞는 Upstream hybrid model은?",
+      "choices": [
+        "Intracellular metabolic observer",
+        "Cell health state observer",
+        "Nutrient soft sensor",
+        "Descriptive analytics dashboard",
+        "Torque measurement"
+      ],
+      "answer": 3,
+      "explanation": "Upstream Hybrid Models: **Intracellular Metabolic Observers**(비소모 속도 등 세포 특이 상태 관찰), **Cell Health State Observers**(생세포·총세포·사세포 및 배양 건강에 악영향을 주는 물질 추정), **Nutrient Soft Sensors**(반응기 내부 영양분 농도 추정).",
+      "choiceNotes": [
+        "틀리다 — 세포별 소비 속도(specific consumption rate) 같은 대사 상태를 관찰한다.",
+        "틀리다 — 생세포·사세포 등 세포 건강 지표를 추정한다.",
+        "옳다 — 영양분 농도를 추정하는 소프트 센서.",
+        "틀리다 — 과거 데이터를 요약하는 분석 단계다.",
+        "틀리다 — 교반축 토크로 kLa·기계적 스트레스와 관련된 정보를 얻는 측정이다."
+      ],
+      "source": "WK02 PDF p.82 (Upstream Hybrid Modeling), p.91 (Torque Measurement)",
+      "tags": ["Hybrid model", "Soft sensor"]
+    },
+    {
+      "id": "wk02-031",
+      "type": "개념",
+      "question": "Bioprocess 흐름에서 Upstream(배양)과 Downstream(정제) 단계 구성이 수업 필기와 슬라이드에 맞게 짝지어진 것은?",
+      "choices": [
+        "Upstream: Media preparation → Cell banking → Seed train → Production → Centrifugation/Clarification",
+        "Upstream: Cell banking → Capture → Seed train → Production → Viral clearance",
+        "Downstream: Final filling → Sterile filtration → Concentration → Capture",
+        "Downstream: Seed train → Capture → Virus removal filtration → Production",
+        "Upstream: Media preparation → Production → Sterile filtration → Cryopreservation"
+      ],
+      "answer": 1,
+      "explanation": "필기: **DS(USP) 배양 – Media preparation → Cell Banking → Seed Train → Production → Centrifugation/Clarification**, **DS(DSP) 정제 – Capture → Viral Clearance → Virus Removal Filtration → Concentration → Sterile Filtration → Cryopreservation**, **DP 완제 – Final Filling**. 즉 원료의약품(DS)은 배양+정제, 완제의약품(DP)은 충전(Fill) 단계다.",
+      "choiceNotes": [
+        "옳다 — 배양(USP) 단계 순서.",
+        "틀리다 — Capture와 Viral clearance는 정제(DSP) 단계다.",
+        "틀리다 — 순서가 거꾸로이며 Final filling은 DP 단계다.",
+        "틀리다 — Seed train·Production은 배양 단계다.",
+        "틀리다 — Sterile filtration·Cryopreservation은 정제 후반 단계다."
+      ],
+      "source": "WK02 PDF p.15 (Overview the Stream for Bioprocessing), p.16 (수업 필기: DS(USP)/DS(DSP)/DP)",
+      "tags": ["USP", "DSP", "DS/DP", "공정 흐름"]
+    },
+    {
+      "id": "wk02-032",
+      "type": "개념",
+      "question": "Torque 측정과 shear force에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "교반기가 유체 속에서 회전하면 impeller blade에 힘이 작용해 축(shaft)에 토크가 생긴다.",
+        "토크는 kLa 값과 강한 상관관계를 가진다.",
+        "토크는 기계적 스트레스(shear force)와 관련된다.",
+        "Shearing force는 tip speed를 clearance(날개와 벽 사이 간격)로 나눈 값과 관련된다.",
+        "포유류 세포는 큰 동력 입력에도 잘 견디므로 P/V를 높일수록 세포 손상이 줄어든다."
+      ],
+      "answer": 5,
+      "explanation": "슬라이드: Bioreactor는 STR이며 주요 부품은 shaft와 impeller, **토크는 kLa와 강하게 상관되고 기계적 스트레스(shear)에 책임**이 있다. Shearing force = Tip speed / Clearance. **포유류 세포는 많은 동력을 견디지 못한다** — 큰 동력은 작은 와류(eddies)를 만들어 연약한 세포막을 찢는다.",
+      "choiceNotes": [
+        "옳은 진술 — 'A force acts on the impeller blades, introducing a torque to the shaft'.",
+        "옳은 진술 — 'Correlates strongly with kLa-value'.",
+        "옳은 진술 — 'Responsible for mechanical stress (shear force)'.",
+        "옳은 진술 — 슬라이드의 Shearing Force 식.",
+        "틀린 진술(정답) — 'Mammalian cells cannot handle a lot of power'."
+      ],
+      "source": "WK02 PDF p.89 (P/V — Why is this important?), p.91 (The Meaning of Torque Measurement), p.92 (Shear Force via Stirring)",
+      "tags": ["Torque", "Shear", "P/V"]
+    }
+  ]
+}
