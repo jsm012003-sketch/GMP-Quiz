@@ -1,0 +1,507 @@
+{
+  "week": "GMP03",
+  "title": "Isolator & Qualification (VHP·BI/CI·Glove)",
+  "lecture": "03 Isolator & Qualification — 장문수·조찬영·정혜인, 2026.09.30 (GMP 공정실무의 이해 및 GMP Utility)",
+  "questions": [
+    {
+      "id": "gmp03-001",
+      "type": "개념",
+      "question": "아이솔레이터를 성립시키는 네 가지 원리 중, '앞의 두 원리(물리적 구조, 압력·기류 제어)가 의미를 갖기 위한 전제 조건'으로 강의에서 제시한 것은?",
+      "choices": [
+        "Glove port를 통한 조작만 허용하는 물리적 구조",
+        "작업공간 대비 양압 유지와 HEPA 단일방향 기류",
+        "챔버와 Glove의 기밀성(Leak Integrity)",
+        "VHP에 의한 내부 표면 decontamination",
+        "작업자 무균 갱의와 행동 교육"
+      ],
+      "answer": 3,
+      "explanation": "아이솔레이터는 오염 제어를 **'확률적 관리'에서 '구조적 차단'으로 전환**한 폐쇄형 barrier다. 네 가지 원리: (1) 물리적 구조(Glove port 조작만 허용) (2) 압력·기류 제어(작업공간 대비 양압, HEPA 단일방향기류) (3) **기밀성(Leak Integrity) – 챔버와 Glove의 기밀성이 유지되어야 앞의 두 원리가 의미를 갖는 전제 조건** (4) 표면 decontamination(VHP). 결과적으로 작업공간이 Grade C여도 내부는 Grade A를 유지하고, **검증 대상이 사람의 행위에서 설비 성능으로 전환**된다.",
+      "choiceNotes": [
+        "틀리다 — 첫 번째 원리 자체다.",
+        "틀리다 — 두 번째 원리 자체다.",
+        "옳다 — 기밀이 깨지면 구조·양압이 무의미해진다.",
+        "틀리다 — 네 번째 원리로, 내부 표면을 무균 상태로 만드는 과정이다.",
+        "틀리다 — 아이솔레이터는 인적 요소 의존도를 최소화하는 방식이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.3 (Isolator의 원리)",
+      "tags": [
+        "Isolator 원리",
+        "Leak integrity"
+      ]
+    },
+    {
+      "id": "gmp03-002",
+      "type": "상황판단",
+      "question": "아이솔레이터 압력 모니터링에서 Incoming Airlock의 압력이 Main Chamber보다 높게 기록되었다. 이 상황의 문제점으로 가장 적절한 것은?",
+      "choices": [
+        "문제없다 — Airlock은 자재가 들어오는 곳이므로 압력이 가장 높아야 한다.",
+        "압력 계위가 Main Chamber(최고 양압) > Airlock > 작업 공간이어야 하는데 역전되어, 청정도가 낮은 Airlock에서 Main Chamber로 공기가 흐를(역류) 위험이 있다.",
+        "Main Chamber 압력이 낮으면 VHP 농도가 올라가므로 제염에 유리하다.",
+        "Airlock 압력은 작업 공간보다만 높으면 되고 Main Chamber와의 관계는 무관하다.",
+        "압력 차이는 Glove 무결성에만 영향을 주며 기류 방향과는 관계없다."
+      ],
+      "answer": 2,
+      "explanation": "Chamber 구성도: **압력 계위 Main Chamber(최고 양압) > Airlock > 작업 공간 — 기류는 항상 청정도가 높은 곳에서 낮은 곳으로 흐른다**. Airlock이 더 높으면 덜 청정한 공기가 Grade A 작업 공간으로 흘러들 수 있다. Incoming Airlock은 반입 자재를 제염·대기시키는 완충 공간, Outgoing Airlock은 반출 경로를 분리해 교차 오염과 역류를 막는 공간이다.",
+      "choiceNotes": [
+        "틀리다 — 최고 양압은 Main Chamber다.",
+        "옳다 — 압력 계위 역전 → 역류 위험.",
+        "틀리다 — 압력 역전은 오염 경로 문제이며 제염 효과와 무관하다.",
+        "틀리다 — Main > Airlock > 작업 공간 전체 계위가 유지되어야 한다.",
+        "틀리다 — 압력 계위가 기류(오염) 방향을 결정한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.4 (Isolator Chamber 구성 — 압력 계위)",
+      "tags": [
+        "압력 계위",
+        "Airlock",
+        "역류"
+      ]
+    },
+    {
+      "id": "gmp03-003",
+      "type": "개념",
+      "question": "Isolator chamber 구성에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Main Chamber만이 아니라 Incoming·Outgoing Airlock까지가 하나의 격리 시스템이다.",
+        "Incoming Airlock은 Main Chamber를 열지 않고 자재를 넣기 위해 반입 자재를 제염하고 대기시키는 완충 공간이다.",
+        "Main Chamber는 적재물이 가장 많고 구조가 복잡해 worst case 위치가 집중된다.",
+        "Outgoing Airlock은 시험이 끝난 자재와 폐기물의 반출 경로를 분리해 교차 오염과 역류를 막는다.",
+        "BI·CI 위치와 Load pattern은 Main Chamber 기준으로 한 번만 정의하면 Airlock에도 그대로 적용된다."
+      ],
+      "answer": 5,
+      "explanation": "**BI·CI 위치와 Load pattern은 Main Chamber와 각 Airlock을 분리하여 정의하고 번호로 관리**한다(예: Main(Chamber 2), Incoming/Outgoing Airlock). 각 chamber의 구조·적재·기류 조건이 다르기 때문이다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술 — Incoming Airlock의 역할.",
+        "옳은 진술 — worst case 위치가 Main Chamber에 집중.",
+        "옳은 진술 — Outgoing Airlock의 역할.",
+        "틀린 진술(정답) — chamber별로 분리 정의·번호 관리한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.4 (Chamber별 역할과 검증 관점), p.14 (Chamber별 구분)",
+      "tags": [
+        "Chamber",
+        "Airlock",
+        "Load pattern"
+      ]
+    },
+    {
+      "id": "gmp03-004",
+      "type": "개념",
+      "question": "VHP Decontamination cycle 4단계를 순서대로 바르게 나열하고 각 단계의 역할을 옳게 설명한 것은?",
+      "choices": [
+        "Preparation(검증된 조건·구조물 위치로 준비) → Conditioning(H₂O₂를 주입해 목표 농도까지 상승) → Decontamination(목표 농도를 규정 시간 유지, BI·CI로 사멸 효과 확인) → Aeration(H₂O₂ 제거, 잔류 농도를 기준 이하로)",
+        "Conditioning → Preparation → Decontamination → Aeration",
+        "Preparation → Decontamination → Conditioning → Aeration",
+        "Preparation → Conditioning → Aeration → Decontamination",
+        "Aeration → Preparation → Conditioning → Decontamination"
+      ],
+      "answer": 1,
+      "explanation": "**01 Preparation**(구조물 위치를 포함한 검증된 조건으로 준비) → **02 Conditioning**(검증된 조건으로 H₂O₂를 주입해 목표 농도까지 상승) → **03 Decontamination**(목표 농도를 유지하며 규정 시간 노출, BI·CI로 사멸 효과 확인) → **04 Aeration**(H₂O₂ 제거, 잔류 농도를 기준 이하로 — 작업자 안전·제품 영향과 직결).",
+      "choiceNotes": [
+        "옳다 — 순서와 역할 모두 일치.",
+        "틀리다 — 준비가 먼저다.",
+        "틀리다 — 목표 농도까지 올린(conditioning) 뒤 유지(decontamination)한다.",
+        "틀리다 — aeration은 마지막이다.",
+        "틀리다 — aeration은 제염 후 잔류 H₂O₂를 제거하는 단계다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.7 (VHP Decontamination Cycle 4단계)",
+      "tags": [
+        "VHP",
+        "Cycle 4단계"
+      ]
+    },
+    {
+      "id": "gmp03-005",
+      "type": "상황판단",
+      "question": "VHP cycle 검증 run에서 대부분 위치의 BI는 모두 사멸했지만, Sliding door 뒤쪽 측벽 하부 위치의 BI만 3개 중 2개가 성장했다. 같은 위치의 CI는 부분적으로만 색이 변했다. 가장 적절한 원인 판단과 조치는?",
+      "choices": [
+        "BI 로트 불량이 확실하므로 해당 BI 결과를 제외하고 합격 처리한다.",
+        "CI가 일부라도 변색했으므로 사멸이 입증되었다고 보고 합격 처리한다.",
+        "기류 분포가 불리한 위치(airflow challenging area)로 H₂O₂ 분포·접촉이 부족한 것이므로, nozzle 기류·적재 패턴 등 분포 조건을 개선하고 해당 위치를 worst case로 유지해 재검증한다.",
+        "BI는 참고용이므로 다른 위치 결과만으로 cycle을 확정한다.",
+        "Aeration 시간을 늘리면 해당 위치의 사멸이 확보된다."
+      ],
+      "answer": 3,
+      "explanation": "Decontamination 성공 조건: **(1) 목표 농도의 H₂O₂가 (2) 모든 표면에 (3) 충분한 시간 접촉 — 하나라도 무너지면 log reduction 미확보**. Distribution은 nozzle airflow·순환 기류로 챔버 전체 분포를 확보해야 한다. Sliding door 뒤쪽 측벽은 슬라이드의 **Airflow Challenging Area** 예시다. **BI는 사멸 여부로 효과를 직접 입증하는 유일한 수단**이며 CI는 노출 여부만 보는 보조 수단이라 BI를 대체할 수 없다. 합격 기준은 각 위치 BI 3개 모두 사멸(0/3)이다.",
+      "choiceNotes": [
+        "틀리다 — 근거 없이 결과를 배제할 수 없다(로트는 사전에 population·D-value 확인).",
+        "틀리다 — CI는 사멸의 직접 증거가 아니며 BI를 대체할 수 없다.",
+        "옳다 — 분포 문제로 판단하고 조건 개선 후 재검증.",
+        "틀리다 — BI는 최종 판단 기준이다.",
+        "틀리다 — aeration은 잔류 H₂O₂ 제거 단계로 사멸과 무관하다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.7 (성공 조건), p.14 (BI·CI Test Location: Airflow Challenging Areas), p.16 (Acceptance Criteria)",
+      "tags": [
+        "VHP distribution",
+        "BI",
+        "Test location"
+      ]
+    },
+    {
+      "id": "gmp03-006",
+      "type": "개념",
+      "question": "VHP(H₂O₂ 증기)의 미생물 사멸 원리에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "H₂O₂ 증기가 표면과 미생물 외피에 응축·흡착된다.",
+        "H₂O₂가 분해되며 강한 산화력의 hydroxyl radical(·OH)이 생성된다.",
+        "·OH는 세포막 지질 과산화, 단백질 –SH·메티오닌 산화, 핵산 염기 산화·가닥 절단을 일으킨다.",
+        "아포(spore)는 두꺼운 coat와 저수분 core 때문에 ·OH 침투가 늦어 더 긴 노출이 필요하다.",
+        "H₂O₂ 증기는 기체이므로 겹쳐진 트레이 사이나 튜브 내강처럼 접촉하지 않는 표면도 확산으로 충분히 제염한다."
+      ],
+      "answer": 5,
+      "explanation": "사멸 원리: **흡착 → 라디칼 생성(H₂O₂ → 2·OH) → 산화적 손상**(세포벽·막 지질 과산화로 투과 장벽 붕괴, 단백질·효소의 –SH·메티오닌 산화로 실활, 핵산 염기 산화·가닥 절단으로 증식 불가). **아포는 두꺼운 coat와 저수분 core로 더 긴 노출 필요**, **접촉하지 않는 occluded surface에는 살균 효과가 없다** — 'VHP는 접촉한 표면만 제염하는 공정'이다.",
+      "choiceNotes": [
+        "옳은 진술 — 01 흡착.",
+        "옳은 진술 — 02 라디칼 생성.",
+        "옳은 진술 — 03 산화적 손상.",
+        "옳은 진술 — 아포 저항성.",
+        "틀린 진술(정답) — occluded surface에는 효과가 없다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.8 (VHP 멸균 원리), p.9 (Occluded Surface)",
+      "tags": [
+        "VHP 원리",
+        "Hydroxyl radical",
+        "Spore",
+        "Occluded surface"
+      ]
+    },
+    {
+      "id": "gmp03-007",
+      "type": "상황판단",
+      "question": "시험용 아이솔레이터에서 트레이를 2단으로 포개 적재하고, 실리콘 튜빙을 감아서 작업면에 밀착시켜 두었으며, 나사·힌지가 많은 지그를 조립 상태로 넣었다. VHP cycle 설계·검증 관점에서 가장 적절한 조치는?",
+      "choices": [
+        "VHP는 기체이므로 적재 방식과 관계없이 cycle 시간만 늘리면 된다.",
+        "이 위치들은 occluded surface이므로 적재 패턴·배치 각도를 바꿔 가려짐을 줄이고, 분해·개방이 필요한 부위는 사전 조치하며, 남는 불리한 위치에 worst case BI·CI를 배치해 사멸을 확인한다.",
+        "튜브 내강은 제품과 닿지 않으므로 검증 대상에서 제외한다.",
+        "BI는 기류가 좋은 챔버 중앙에만 두어야 재현성이 높다.",
+        "CI가 모두 변색하면 occluded 위치의 BI 배치는 생략해도 된다."
+      ],
+      "answer": 2,
+      "explanation": "Occluded Surface: **겹치고 포개진 적재물**(맞닿은 면·아래쪽 표면에 증기 미도달), **나사·힌지·개스킷 틈**(crevice에서 기류 정체로 농도·접촉시간 부족), **튜빙 내강과 접촉면**(전형적 occluded surface). 중요 포인트: **적재 패턴·배치 각도로 가려짐을 줄이고, 분해·개방이 필요한 부위는 사전 조치**. **Worst case BI·CI는 바로 이런 위치에 배치** — 가장 불리한 표면에서 사멸이 확인되어야 cycle이 검증된다.",
+      "choiceNotes": [
+        "틀리다 — 접촉하지 않으면 시간을 늘려도 사멸하지 않는다.",
+        "옳다 — 가려짐 최소화 + 사전 조치 + worst case BI·CI 배치.",
+        "틀리다 — 전형적인 occluded surface로 오히려 검증 핵심 위치다.",
+        "틀리다 — worst case는 가장 불리한 위치에 둔다.",
+        "틀리다 — CI는 BI를 대체할 수 없다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.9 (Occluded Surface), p.11 (Load Pattern과 Worst Case)",
+      "tags": [
+        "Occluded surface",
+        "Load pattern",
+        "Worst case"
+      ]
+    },
+    {
+      "id": "gmp03-008",
+      "type": "계산",
+      "question": "VHP PQ(MBQ)에 쓸 BI 로트를 고르려 한다. 각 로트의 BI를 모든 시험 위치에서 전량 사멸시켰을 때, 그 결과가 '6-log 이상 포자 감소(SLR)'의 근거가 될 수 있는 로트만 고른 것은? (log₁₀2 ≈ 0.30, log₁₀1.2 ≈ 0.08, log₁₀5 ≈ 0.70, log₁₀8 ≈ 0.90)",
+      "box": [
+        "ㄱ. 2.0×10⁶ CFU/BI",
+        "ㄴ. 8.0×10⁵ CFU/BI",
+        "ㄷ. 1.2×10⁶ CFU/BI",
+        "ㄹ. 5.0×10⁶ CFU/BI"
+      ],
+      "choices": [
+        "ㄱ, ㄹ",
+        "ㄴ, ㄷ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄴ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 3,
+      "explanation": "전량 사멸 시 입증 가능한 SLR ≈ log₁₀(초기 population). ㄱ 6.30, **ㄴ 5.90(6 미만)**, ㄷ 6.08, ㄹ 6.70. 따라서 ㄱ·ㄷ·ㄹ. Acceptance criteria: **BI는 Geobacillus stearothermophilus 10⁶ 이상 population**, **6-log 이상 포자 감소를 입증(BI population 근거 포함)**, 사용 로트는 사전에 population·D-value를 확인한다.",
+      "choiceNotes": [
+        "ㄷ(약 6.08 log)도 10⁶ 이상이다.",
+        "ㄴ은 약 5.9 log로 6-log를 입증할 수 없다.",
+        "옳다 — 10⁶ 이상인 ㄱ·ㄷ·ㄹ.",
+        "ㄴ은 10⁶ 미만이다.",
+        "ㄴ은 10⁶ 미만이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.16 (BI·CI 검증 논리와 Acceptance Criteria), p.14 (BI 로트 population·D-value 확인)",
+      "tags": [
+        "SLR",
+        "BI population",
+        "6-log",
+        "계산"
+      ]
+    },
+    {
+      "id": "gmp03-009",
+      "type": "개념",
+      "question": "BI(Biological Indicator), CI(Chemical Indicator), EI(Enzyme Indicator)의 역할 비교로 옳은 것은?",
+      "choices": [
+        "CI는 색 변화로 사멸 여부를 직접 입증하므로 BI를 대체할 수 있다.",
+        "BI는 Growth/No-growth로 판정하는 최종 판단 기준이지만 사멸 여부만 알 수 있고, CI는 H₂O₂ 노출·분포를 즉시 확인하는 보조 수단, EI는 효소 활성 변화로 log reduction을 정량화하는 간접 지표다.",
+        "EI는 살아 있는 포자를 사용하므로 BI보다 직접적인 사멸 증거다.",
+        "BI는 위치당 1개만 두어도 충분하다.",
+        "CI는 BI 로트의 population과 D-value를 확인하는 데 쓰인다."
+      ],
+      "answer": 2,
+      "explanation": "**BI**: steel disk에 G. stearothermophilus 포자, Growth/No-growth(Pass/Fail), **최종 판단 기준**, 단 사멸 여부만 확인(실제 몇 log 죽었는지는 알 수 없음), 위치당 3개. **CI**: 산화반응으로 변색하는 잉크, 즉시 확인 가능, H₂O₂ 분포 파악, **사멸의 직접 증거가 아니며 BI를 대체할 수 없음**. **EI**: 효소(tAK) 도포, 효소 활성 변화 → **log reduction 정량화**, 최종 판단에는 쓰지 않는 간접 지표.",
+      "choiceNotes": [
+        "틀리다 — CI는 노출 여부만 보는 보조 수단이다.",
+        "옳다 — 세 지표의 역할 구분.",
+        "틀리다 — EI는 효소를 쓰는 간접 지표다.",
+        "틀리다 — 각 위치에 복수(3개)를 배치한다.",
+        "틀리다 — population·D-value는 BI 로트 자체의 사양으로 사전에 확인한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.13 (BI·CI·Enzyme Indicator 비교, 사진 슬라이드), p.14 (BI와 CI의 역할 구분)",
+      "tags": [
+        "BI",
+        "CI",
+        "Enzyme indicator"
+      ]
+    },
+    {
+      "id": "gmp03-010",
+      "type": "개념",
+      "question": "VHP 제염 검증에 쓰는 BI 담체(carrier)로 paper filter보다 steel disk 형태가 선호되는 이유는?",
+      "choices": [
+        "Steel disk는 포자 수가 더 많이 들어가기 때문이다.",
+        "H₂O₂는 다공성 구조인 paper filter에 잘 침투하지 않고 흡착될 수 있어, 비다공성·비흡착성 평면 disk에 포자를 단층으로 고정하는 것이 적합하기 때문이다.",
+        "Paper filter BI는 습열 멸균에서만 쓰이고 균주가 다르기 때문이다.",
+        "Steel disk는 CI 기능을 겸해 색이 변하기 때문이다.",
+        "Paper filter는 aeration 시간을 줄여 주기 때문이다."
+      ],
+      "answer": 2,
+      "explanation": "슬라이드(사진): '**H₂O₂는 침투되지 않기 때문에 다공성 구조인 paper filter보다는 Disk type이 선호됨**, **비다공성·비흡착성 평면 Disk에 포자를 단층으로 고정**'. 담체별 균주: steel disk – G. stearothermophilus(습열 또는 H₂O₂), paper filter – G. stearothermophilus(습열) 또는 B. atrophaeus(EO·건열), liquid media – G. stearothermophilus(습열, 액상 제품).",
+      "choiceNotes": [
+        "틀리다 — 선호 이유는 포자 수가 아니라 담체 구조다.",
+        "옳다 — 침투·흡착 문제를 피하는 비다공성 담체.",
+        "틀리다 — paper filter도 G. stearothermophilus를 쓸 수 있다. 핵심은 다공성 구조다.",
+        "틀리다 — BI는 성장 여부로 판정한다.",
+        "틀리다 — 오히려 흡착성 재질은 H₂O₂를 흡수해 문제를 일으킨다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.13 (Biological indicator 담체 비교, 사진 슬라이드)",
+      "tags": [
+        "BI carrier",
+        "Steel disk",
+        "H₂O₂ 흡착"
+      ]
+    },
+    {
+      "id": "gmp03-011",
+      "type": "개념",
+      "question": "아이솔레이터 Qualification 단계와 주요 내용의 연결로 옳지 않은 것은?",
+      "choices": [
+        "URS/DQ – 설계 요구사항과 제어 철학 정의",
+        "IQ – 설치 상태·자재·계기·도면 일치 확인",
+        "OQ – Pressure, Airflow, Leak, Alarm, Interlock 기능 검증",
+        "Cycle Development – Total kill time(fractional study)으로 파라미터 도출",
+        "PRQ – 최초 설치 시 1회만 수행하는 설비 도면 승인 단계"
+      ],
+      "answer": 5,
+      "explanation": "Qualification 흐름: **URS/DQ → IQ → OQ → Cycle Development → MBQ(PQ: worst case load에서 BI 사멸과 SLR 입증) → PRQ(연간 재적격성으로 성능 유지 확인)**. 설비 적격성에서 공정 성능까지 단계별 목적이 다르다.",
+      "choiceNotes": [
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "틀린 연결(정답) — PRQ는 연간 재적격성(성능 유지 확인)이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.15 (Qualification 접근법)",
+      "tags": [
+        "URS/DQ",
+        "IQ/OQ",
+        "MBQ",
+        "PRQ"
+      ]
+    },
+    {
+      "id": "gmp03-012",
+      "type": "계산",
+      "question": "VHP cycle development의 fractional study(BI 3개 × 노출 시간 그룹)에서 다음 결과를 얻었다. Total kill time과 실제 cycle의 dwell time 설정으로 가장 적절한 것은?",
+      "box": [
+        "노출 1.0 min: BI 3/3 성장",
+        "노출 1.5 min: BI 1/3 성장",
+        "노출 2.0 min: BI 0/3 성장",
+        "노출 2.5 min: BI 0/3 성장",
+        "노출 3.0 min: BI 0/3 성장"
+      ],
+      "choices": [
+        "Total kill time 1.5 min — 처음으로 성장이 줄어든 시점이므로 dwell time을 1.5 min으로 한다.",
+        "Total kill time 2.0 min — 모든 BI가 사멸한 최소 노출이며, 실제 dwell time은 안전 여유를 두어 이보다 길게 설정한다.",
+        "Total kill time 2.0 min — 이 값을 그대로 dwell time으로 쓰는 것이 가장 효율적이다.",
+        "Total kill time 3.0 min — 시험한 최대 노출 시간이 kill time이다.",
+        "Total kill time 1.0 min — 3/3 성장은 BI 로트 불량을 뜻하므로 무시한다."
+      ],
+      "answer": 2,
+      "explanation": "**Total Kill Time: BI 3개 × 10 group을 단계적으로 회수해 모든 BI를 사멸시키는 최소 H₂O₂ 주입량과 노출 시간을 확인** — 이후 시험의 기준값이다(예시 그래프의 Total kill time = 2.00 min). Fractional/Total kill 원칙: dwell time을 단계적으로 나눠 사멸 시점을 확인하고 **안전 여유를 갖는 cycle time을 설정**한다. 여기서 확정된 load pattern·주입량·dwell time·aeration time이 PQ 검증 조건이 된다.",
+      "choiceNotes": [
+        "틀리다 — 1.5 min에서는 아직 1/3이 성장했다.",
+        "옳다 — 전량 사멸 최소 노출 + 안전 여유.",
+        "틀리다 — 경계값 그대로는 변동에 취약하다(안전 여유 필요).",
+        "틀리다 — 전량 사멸이 처음 확인된 최소 시간이 기준이다.",
+        "틀리다 — 짧은 노출에서 성장하는 것은 정상적인 fractional 결과다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.10 (Cycle Development: Total Kill Time), p.12 (Total Kill Time Determination 예시, 사진 슬라이드), p.16 (Fractional / Total Kill)",
+      "tags": [
+        "Total kill time",
+        "Fractional study",
+        "Dwell time"
+      ]
+    },
+    {
+      "id": "gmp03-013",
+      "type": "상황판단",
+      "question": "검증된 VHP cycle(최대 적재 패턴 기준)로 운영 중인 아이솔레이터에서 두 가지 변경이 제안되었다. (가) 같은 자재의 트레이 수를 검증된 최대 적재보다 줄여 운전, (나) 새로운 흡착성 고분자 포장재에 싸인 자재를 추가 반입. 판단으로 가장 적절한 것은?",
+      "choices": [
+        "(가)·(나) 모두 cycle 변경 없이 그대로 운전한다.",
+        "(가)·(나) 모두 전면 재검증 전까지 운전할 수 없다.",
+        "(가)는 분포·접촉 측면에서 유리한 조건이므로 검증된 cycle을 유지할 수 있으나, (나)는 흡착성 재질이 H₂O₂를 흡수해 농도를 낮추고 aeration도 길어질 수 있어 영향 평가·재검증이 필요하다.",
+        "(가)는 기류가 과도해지므로 반드시 재검증, (나)는 포장재가 보호막이 되므로 문제없다.",
+        "(나)는 aeration 시간만 늘리면 제염 효과도 자동으로 확보된다."
+      ],
+      "answer": 3,
+      "explanation": "적재 조건 변경 판단 논리: **보고서로 입증된 maximum load pattern → 수량·밀도가 줄면 VHP 분포·접촉 측면에서 유리한 조건 → Cycle 변경 없음 → 검증된 Decon 성능 유지로 평가**. 반면 적재물 요인 중 **흡착성 재질은 H₂O₂를 흡수해 농도를 낮추고**, aeration에서도 **고분자·포장재는 H₂O₂를 흡착했다가 서서히 방출**한다. (Minimum/Empty load는 기류가 과도해지는 조건의 영향을 '확인'하는 설계 항목이다.)",
+      "choiceNotes": [
+        "틀리다 — 새 흡착성 재질은 검증 범위를 벗어난다.",
+        "틀리다 — 적재 감소는 검증된 최대 적재 범위 안이다.",
+        "옳다 — 감소는 유지, 새 흡착성 재질은 평가·재검증.",
+        "틀리다 — 판단이 거꾸로다. 포장재는 오히려 occluded·흡착 요인이다.",
+        "틀리다 — aeration은 잔류 제거이며 사멸 효과를 보장하지 않는다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.11 (Load Pattern과 Worst Case, 적재 조건 변경 판단 논리), p.17 (재질 흡착)",
+      "tags": [
+        "Load pattern",
+        "변경관리",
+        "흡착성 재질"
+      ]
+    },
+    {
+      "id": "gmp03-014",
+      "type": "연결",
+      "question": "무균시험용(QC Sterility Testing) 아이솔레이터에서 생산 일정을 이유로 검증된 aeration 시간을 임의로 단축하자는 제안이 나왔다. 이 제안의 위험을 공정 전체 관점에서 가장 잘 설명한 것은?",
+      "choices": [
+        "잔류 H₂O₂는 작업자 안전과만 관련되므로 보호구를 착용하면 단축해도 된다.",
+        "잔류 H₂O₂는 배지의 미생물 성장을 저해해 무균시험(및 APS 배지·GPT) 결과를 왜곡(위음성)할 수 있고, 작업자 안전 기준도 위협하므로 검증된 aeration 시간을 recipe·SOP에 반영하고 임의 단축을 금지한다.",
+        "Aeration을 줄이면 잔류 H₂O₂가 추가 살균 효과를 내므로 시험 신뢰도가 오히려 높아진다.",
+        "Aeration 시간은 최소 적재 조건에서 정한 값이므로 최대 적재에서는 더 줄일 수 있다.",
+        "잔류 H₂O₂는 고분자 재질에 흡착되지 않으므로 챔버 공기만 측정하면 된다."
+      ],
+      "answer": 2,
+      "explanation": "Aeration의 목적: 챔버·적재물 표면의 H₂O₂를 제거해 정의된 기준 이하로 낮추는 것. 고려 요인: **작업자 안전**, **제품·배지 영향(잔류 H₂O₂는 배지 성장 저해와 시험 결과 왜곡)**, **재질 흡착(고분자·포장재가 흡착 후 서서히 방출)**, **적재 조건(적재량이 많을수록 aeration 길어짐)**. 시험은 **최대 적재(worst case)**에서 수행하고, **검증된 aeration 시간을 운전 recipe와 절차서에 반영하며 임의 단축을 금지**한다. 무균시험의 위음성은 출하 판정 오류로 이어지는 공정 전체의 위험이며, APS 판정의 전제 조건인 GPT와도 같은 논리다.",
+      "choiceNotes": [
+        "틀리다 — 제품·배지 영향도 핵심이다.",
+        "옳다 — 시험 결과 왜곡 + 작업자 안전 → 임의 단축 금지.",
+        "틀리다 — 시험 배지에서 미생물 성장을 억제하면 오염을 놓친다(위음성).",
+        "틀리다 — aeration test는 최대 적재(worst case)에서 수행한다.",
+        "틀리다 — 고분자·포장재는 H₂O₂를 흡착했다가 서서히 방출한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.17 (Aeration과 잔류 H₂O₂ 관리), p.10 (Aeration < 1.0 ppm) · 02 RABS & APS PDF p.19 (판정 전제: GPT 적합)",
+      "tags": [
+        "Aeration",
+        "잔류 H₂O₂",
+        "무균시험",
+        "GPT"
+      ]
+    },
+    {
+      "id": "gmp03-015",
+      "type": "개념",
+      "question": "Glove integrity 관리 방법에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Visual inspection은 glove를 당긴 상태에서 육안으로 손상을 확인한다.",
+        "Visual inspection은 배치·작업 세션 시작과 종료 시, 사용 전후에 수행하며 절차를 문서화하고 교육한다.",
+        "Pressure decay test는 glove/sleeve 내부를 가압한 뒤 압력 강하를 측정하며, ISO 14644-7이 시험 방법을 규정한다.",
+        "Pressure decay test는 정량적 결과와 전자 기록(audit trail, batch report)을 확보할 수 있다.",
+        "Pressure decay test를 하면 육안 검사는 필요 없고, 시험은 연 1회 PRQ 때만 수행하면 된다."
+      ],
+      "answer": 5,
+      "explanation": "EU GMP Annex 1: 'Monitoring … should include **frequent leak testing** of the isolator and glove/sleeve system.' **Visual inspection**(당긴 상태로 육안, 세션 시작·종료·사용 전후)과 **Pressure decay test**(가압 후 압력 강하 측정, 정량·전자 기록, leak rate 측정, **충전 작업 전후 수행**)를 함께 운영한다. 운영 핵심: 정의된 시점 수행, 결과 기록·추세 검토, 불합격 시 교체·영향평가·일탈 처리, leak 결과를 위험평가 근거로 활용.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 두 방법을 병행하며 frequent하게(충전 전후 등) 수행한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.18 (Glove Integrity)",
+      "tags": [
+        "Glove integrity",
+        "Pressure decay",
+        "Annex 1"
+      ]
+    },
+    {
+      "id": "gmp03-016",
+      "type": "상황판단",
+      "question": "무균 충전이 끝난 직후 수행한 glove pressure decay test에서 한 glove가 불합격했다. 충전 전 시험은 합격이었다. 가장 적절한 조치는?",
+      "choices": [
+        "충전 전 시험이 합격이었으므로 배치에는 영향이 없다고 보고 glove만 교체한다.",
+        "Glove를 교체하고 일탈로 처리하며, 충전 중 무균성 훼손 가능성에 대해 배치 영향평가(해당 glove 사용 Intervention, EM 결과 등)를 수행하고 결과를 위험평가·추세 관리에 반영한다.",
+        "다음 배치 시작 전에 다시 시험해 합격하면 이번 결과는 무효로 한다.",
+        "Pressure decay는 참고용이므로 육안 검사에서 이상이 없으면 조치하지 않는다.",
+        "해당 glove를 테이프로 보수해 계속 사용한다."
+      ],
+      "answer": 2,
+      "explanation": "Pressure decay test는 **충전 작업 전후 수행하여 무균성 훼손 여부를 확인**하는 목적이 있다. 충전 후 불합격이면 충전 중 손상이 생겼을 수 있으므로 **불합격 시 교체·영향평가·일탈 처리**로 연계하고, leak 결과는 내부 위험평가의 근거로 활용한다. RABS 원칙에서도 '손상 글러브로 작업 지속'은 금지 사항이다.",
+      "choiceNotes": [
+        "틀리다 — 충전 중 손상 가능성이 있으므로 배치 영향평가가 필요하다.",
+        "옳다 — 교체 + 일탈 + 배치 영향평가 + 위험평가 반영.",
+        "틀리다 — 불합격 결과를 무효화할 근거가 없다.",
+        "틀리다 — 정량 시험 결과가 더 객관적인 근거다.",
+        "틀리다 — 손상 glove로 작업을 지속해서는 안 된다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.18 (Glove Integrity — 운영 관점의 핵심) · 02 RABS & APS PDF p.23 (손상 글러브 사용 금지)",
+      "tags": [
+        "Glove integrity",
+        "일탈",
+        "영향평가"
+      ]
+    },
+    {
+      "id": "gmp03-017",
+      "type": "개념",
+      "question": "BI·CI test location 선정 범주와 예시가 바르게 연결된 것은?",
+      "choices": [
+        "Edges of Enclosure – 작업 표면, 개구부 주변",
+        "Airflow Challenging Areas – Sliding door 뒤쪽 측벽(상·하부), 구조물 뒤 그림자 영역",
+        "Process Critical Positions – 챔버 상단 좌·우 앞/뒤 모서리",
+        "Chamber별 구분 – 기류가 가장 좋은 챔버 중앙 1곳만 지정",
+        "Edges of Enclosure – Hanging load item, tool port"
+      ],
+      "answer": 2,
+      "explanation": "Test location: **Edges of Enclosure** – 챔버 모서리, 상·하단 코너(Top left/right front·back corner) / **Airflow Challenging Areas** – 기류 분포가 불리하거나 구조적으로 가려진 위치(Sliding door 뒤쪽 측벽 상·하부, 구조물 뒤 그림자 영역) / **Process Critical Positions** – 무균 조작이 실제로 일어나는 위치(작업 표면, 개구부 주변, hanging load item, tool port) / **Chamber별 구분** – Main과 Airlock을 분리해 위치 번호로 관리.",
+      "choiceNotes": [
+        "틀리다 — 작업 표면·개구부는 Process Critical Positions다.",
+        "옳다 — 기류가 불리하거나 가려진 위치.",
+        "틀리다 — 모서리는 Edges of Enclosure다.",
+        "틀리다 — chamber별로 분리해 여러 위치를 번호로 관리한다.",
+        "틀리다 — hanging load item·tool port는 Process Critical Positions다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.14 (BI·CI Test Location 선정)",
+      "tags": [
+        "Test location",
+        "Worst case 위치"
+      ]
+    },
+    {
+      "id": "gmp03-018",
+      "type": "연결",
+      "question": "기존 Clean Room 방식에서 Isolator 방식으로 전환할 때 '검증 대상의 전환'이 일어난다고 한다. 이 의미를 가장 잘 설명한 것은?",
+      "choices": [
+        "검증 대상이 설비 성능에서 작업자의 갱의·행동으로 바뀐다.",
+        "오염 위험을 확률적으로 낮추는 관리(가운·행위)에 의존하던 것에서, 구조 자체가 오염 경로를 차단하므로 사람의 행위보다 설비 성능(기밀성·압력·VHP 제염 등)을 검증 대상으로 삼게 된다.",
+        "Isolator는 Grade A이므로 더 이상 어떤 검증도 필요 없다.",
+        "Isolator 내부는 Grade C로 관리하고 작업공간을 Grade A로 관리하도록 바뀐다.",
+        "Isolator에서는 자재 이송을 개방 이송으로 바꿔 작업자 개입을 늘린다."
+      ],
+      "answer": 2,
+      "explanation": "Clean Room: 작업자가 같은 공간에서 가운·행위로 오염을 억제 → **오염 위험을 확률적으로 낮추는 관리**. Isolator: 작업자와 Grade A 공간이 물리적으로 완전히 분리 → **구조 자체가 오염 경로 차단, 인적 요소 의존도 최소화**. 결과: 작업공간이 Grade C여도 내부 Grade A 유지, RTP·Airlock 폐쇄 이송, **사람의 행위가 아니라 설비 성능을 검증 대상**으로 삼는다(그래서 leak test, 압력, VHP cycle, glove integrity 검증이 핵심이 된다). Aseptic risk: Cleanroom > RABS > Isolator.",
+      "choiceNotes": [
+        "틀리다 — 방향이 반대다.",
+        "옳다 — 확률적 관리 → 구조적 차단, 설비 성능 검증.",
+        "틀리다 — 설비 성능의 검증·재적격성(PRQ)이 계속 필요하다.",
+        "틀리다 — 내부가 Grade A, 주변 작업공간이 Grade C/D다.",
+        "틀리다 — RTP·Airlock을 통한 폐쇄 이송이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.3 (Isolator의 원리), p.6 (Cleanroom·RABS·Isolator의 차이)",
+      "tags": [
+        "Isolator",
+        "검증 대상 전환",
+        "Aseptic risk"
+      ]
+    }
+  ]
+}

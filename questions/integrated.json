@@ -1,0 +1,237 @@
+{
+  "week": "통합",
+  "title": "전 공정 통합 (배양 → 정제 → 완제 → 무균 보증)",
+  "lecture": "여러 강의를 연결해야 풀 수 있는 공정 통합 문항",
+  "questions": [
+    {
+      "id": "int-001",
+      "type": "연결",
+      "question": "하나의 정제(downstream) 라인을 2,000 L fed-batch 생산 배양기 4기가 공유하는 공장이 있다. 이렇게 '배양 1 batch ≠ 정제 1 batch'로 설계하는 이유와 운영 방식으로 가장 적절한 것은?",
+      "choices": [
+        "배양 공정 시간(fed-batch 약 2주)이 정제 공정 시간보다 훨씬 길어, 여러 배양기를 시차를 두고 운전해야 정제 라인 가동률을 높일 수 있기 때문이다.",
+        "정제 공정이 배양보다 훨씬 길어 배양기 1기당 정제 라인 4개가 필요하기 때문이다.",
+        "배양과 정제 시간이 같아 1:1이 표준이지만 단지 투자비를 줄이기 위해서다.",
+        "Dynamic perfusion처럼 제품을 연속 회수하기 때문에 여러 배양기가 필요하다.",
+        "GMP는 배양기 1기당 정제 라인 1개를 금지하기 때문이다."
+      ],
+      "answer": 1,
+      "explanation": "OT Scheduling: **배양 >>> 정제 → 배양 1 batch ≠ 정제 1 batch**, 장비·인력 가동률 고민. WK02: 표준 fed-batch는 **약 2주** 운전하며 **Multiple bioreactors per downstream processing(예: 4–6기)**. 반대로 Dynamic perfusion은 제품을 연속 처리하므로 **배양기 1기당 정제 1라인**이다. 배양 방식 선택이 공장 스케줄과 장비 구성(CAPEX)까지 바꾼다.",
+      "choiceNotes": [
+        "옳다 — 배양 시간이 길어 시차 운전으로 정제 가동률을 높인다.",
+        "틀리다 — 배양이 훨씬 길다.",
+        "틀리다 — 운영 시간이 다르다.",
+        "틀리다 — Dynamic perfusion은 1 배양기 : 1 정제다.",
+        "틀리다 — 그런 규정은 없다."
+      ],
+      "source": "OT PDF p.23 (Scheduling) · WK02 PDF p.37 (Standard Fed-Batch: 4–6 bioreactors per DSP), p.41 (Dynamic Perfusion: one bioreactor per downstream)",
+      "tags": ["Scheduling", "Fed-batch", "Downstream 연결"]
+    },
+    {
+      "id": "int-002",
+      "type": "연결",
+      "question": "OT 텀 프로젝트 배경(BluejayTech)은 '약독화 바이러스 백신용으로 갖춰진 공장을 mRNA 백신 생산에 활용'하는 것이다. WK02의 COVID-19 플랫폼 비교를 근거로 할 때 전환 설계의 출발점으로 가장 적절한 것은?",
+      "choices": [
+        "mRNA 백신도 동물세포 대량 배양이 핵심이므로 기존 바이러스 증식용 배양기를 그대로 생산 공정으로 쓴다.",
+        "mRNA 플랫폼은 E. coli(plasmid) 기반 원료와 효소 반응(plasmid + NTPs → mRNA, capping) 중심으로 개발·생산 속도가 가장 빠른 플랫폼이므로, 세포배양 중심의 기존 설비를 그대로 쓰기보다 PFD·장비 구성을 새로 정의해야 한다.",
+        "mRNA 백신은 inactivated/live-attenuated SARS-CoV-2로 만드는 전통 플랫폼이라 공정 변경이 거의 없다.",
+        "Recombinant protein 플랫폼이 가장 빠르므로 mRNA 대신 이를 선택해야 한다.",
+        "Viral vector 플랫폼은 CHO 세포에서 항원 단백질을 직접 발현시키는 방식이므로 mRNA와 같은 설비를 쓴다."
+      ],
+      "answer": 2,
+      "explanation": "WK02 COVID-19 플랫폼: **Recombinant protein** – CHO·Insect·E. coli 등, 오랜 실적의 검증된 플랫폼 / **Viral vector** – 항원 유전자를 담은 벡터(Adeno, MVA 등), 빠르고 생산성 높은 신규 플랫폼 / **mRNA** – 항원 유전자를 암호화한 mRNA, **E. coli(Plasmid)**, **가장 빠른 개발·생산 플랫폼** / **Virus** – 불활화·약독화 바이러스, 전통 방식. OT 배경 슬라이드의 반응표(Plasmids + NTPs –Polymerase→ mRNA, DNase 처리, capping)와 PFD(mixer·reactor·chromatography)를 보면 세포배양과 다른 공정 구성임을 알 수 있다.",
+      "choiceNotes": [
+        "틀리다 — mRNA 생산은 세포배양이 아닌 효소 반응 중심이다.",
+        "옳다 — 플랫폼 차이를 반영해 공정을 재정의한다.",
+        "틀리다 — 그것은 Virus platform의 설명이다.",
+        "틀리다 — recombinant protein은 '검증된(long track record)' 플랫폼이고 가장 빠른 것은 mRNA다.",
+        "틀리다 — viral vector는 항원 유전자를 담은 바이러스 벡터다."
+      ],
+      "source": "OT PDF p.5 (Background), p.7 (mRNA 반응표), p.10 (PFD) · WK02 PDF p.10 (Upstream Process in Platform), p.11",
+      "tags": ["mRNA", "Platform", "Term project"]
+    },
+    {
+      "id": "int-003",
+      "type": "연결",
+      "question": "공정 전체에 걸친 '여과'의 목적을 비교했다. 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "box": [
+        "ㄱ. 배양 배지 준비: 0.2 µm pre-filter로 bioburden을 낮추고 0.1 µm final filter로 멸균 및 mycoplasma를 제거한다.",
+        "ㄴ. 완제 조제(혼합) 후 무균 여과: 필터 사용 전·후 완전성 시험을 수행한다.",
+        "ㄷ. APS에서는 실제 충전 전 무균 여과 공정의 필터 셋업 과정도 모사한다.",
+        "ㄹ. Perfusion의 ATF 필터는 제품 멸균이 목적이므로 MF·UF 모드와 관계없이 제품이 항상 배양기에 남는다."
+      ],
+      "choices": ["ㄱ, ㄴ", "ㄴ, ㄷ", "ㄱ, ㄴ, ㄷ", "ㄱ, ㄷ, ㄹ", "ㄱ, ㄴ, ㄷ, ㄹ"],
+      "answer": 3,
+      "explanation": "ㄱ: WK02 필기(Pre 0.2 µm – bioburden 감소, Final 0.1 µm – 멸균·mycoplasma 제거). ㄴ: GMP01 조제 KEY POINT(필터 사용 전/후 완전성 시험). ㄷ: GMP02 APS 전략(Sterile filtration – simulate filtration setup process). ㄹ: ATF는 **세포 유지 장치**이며 **UF 모드면 제품이 배양기에 남고(concentrated FB), MF 모드면 제품이 permeate로 빠져나간다(dynamic perfusion)** — 멸균이 목적이 아니다.",
+      "choiceNotes": [
+        "ㄷ도 옳다.",
+        "ㄱ도 옳다.",
+        "옳다 — ㄱ·ㄴ·ㄷ.",
+        "ㄹ은 틀리고 ㄴ이 빠졌다.",
+        "ㄹ은 틀리다 — 모드에 따라 제품 흐름이 반대다."
+      ],
+      "source": "WK02 PDF p.16 (필기: 배지 여과), p.40–41 (ATF UF/MF) · 01 완제 PDF p.13 (필터 완전성 시험) · 02 RABS & APS PDF p.20 (APS 전략)",
+      "tags": ["여과", "Mycoplasma", "Filter integrity", "ATF"]
+    },
+    {
+      "id": "int-004",
+      "type": "연결",
+      "question": "'전단(shear)·기포' 위험은 배양과 완제 공정 모두에 존재한다. 위험과 관리 방법의 연결로 옳지 않은 것은?",
+      "choices": [
+        "배양기 교반 – 높은 rpm은 높은 shear force로 세포막을 손상하므로 교반은 Design Space의 상한(shear stress) 이내로 운전한다.",
+        "배양기 통기 – 통기량이 지나치면 foam·flooding·bubble burst가 생기므로 통기 상한을 둔다.",
+        "Scale-up – 포유류 세포는 큰 동력을 견디지 못하므로 P/V 등 scale 인자로 전단 환경을 관리한다.",
+        "완제 조제 – 과교반은 기포·발포와 단백질 변성을 일으키므로 완전 용해 기준으로 교반 속도·시간을 정한다.",
+        "완제 조제 – 단백질은 세포가 아니므로 shear·기포에 의한 품질 영향이 없어 교반 속도를 최대로 높여도 된다."
+      ],
+      "answer": 5,
+      "explanation": "WK02: **High rpm = High shear force = cell damage**, 교반 Max = shear stress, 통기 Max = foam/flooding/bubble burst, 'Mammalian cells cannot handle a lot of power'. GMP01: **과교반은 기포/발포·성분 변성**, **단백질 제품은 전단 응력과 기포 발생 주의**. 즉 shear·기포는 세포(USP)와 단백질(DP) 모두의 공통 위험이다.",
+      "choiceNotes": [
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "틀린 연결(정답) — 단백질 제품도 전단·기포로 변성될 수 있다."
+      ],
+      "source": "WK02 PDF p.86–87 (Agitation/Aeration Design Space), p.89–90 (P/V, High rpm) · 01 완제 PDF p.12–13 (전단 응력·기포, 과교반)",
+      "tags": ["Shear", "Foam", "단백질 변성", "Scale-up"]
+    },
+    {
+      "id": "int-005",
+      "type": "연결",
+      "question": "여러 단원에서 반복되는 '최악 조건(worst case)에서 입증하면 그 안쪽은 보증된다'는 검증 논리의 적용 예로 옳지 않은 것은?",
+      "choices": [
+        "APS – 최대 작업자 수, 연속 작업 시간, Intervention을 실제 최대 빈도로 반영해 설계한다.",
+        "VHP cycle – maximum load와 occluded·airflow challenging 위치에 BI를 두고 전량 사멸을 확인한다.",
+        "VHP 적재 변경 – 검증된 최대 적재보다 수량·밀도를 줄이는 것은 유리한 조건이므로 cycle 변경 없이 유지할 수 있다.",
+        "Aeration – 적재량이 많을수록 흡착 표면이 늘어나므로 최대 적재 조건에서 aeration test를 수행한다.",
+        "Design Space – 실패 위험이 높은 경계(boundary)에 set point를 두어야 그 안쪽 전체가 자동으로 보증된다."
+      ],
+      "answer": 5,
+      "explanation": "APS(GMP02): **실제 공정을 대표하되 가장 불리한 조건으로 설계**. VHP(GMP03): **worst case load·위치에서 BI 사멸 → cycle 검증**, **최대 적재 검증 → 감소 조건은 유지**, **aeration은 최대 적재에서 시험**. 반면 Design Space(WK02)는 실패 위험 경계(boundary)를 파악해 **set point를 경계에서 떨어진 안전한 녹색 영역 안쪽**에 두는 것이다. '최악 조건 검증'과 '운전점 설정'은 구분해야 한다.",
+      "choiceNotes": [
+        "옳은 적용.",
+        "옳은 적용.",
+        "옳은 적용.",
+        "옳은 적용.",
+        "틀린 적용(정답) — set point는 경계가 아니라 경계에서 떨어진 안쪽에 둔다."
+      ],
+      "source": "02 RABS & APS PDF p.12, p.16 (Worst case 설계) · 03 Isolator PDF p.11, p.17 (Maximum load, Aeration worst case) · WK02 PDF p.71 (Design Space)",
+      "tags": ["Worst case", "Bracketing", "Design space"]
+    },
+    {
+      "id": "int-006",
+      "type": "상황판단",
+      "question": "무균시험 아이솔레이터에서 VHP 제염 직후 시험을 서둘러 진행했고, 같은 주에 실시한 APS 배지의 GPT(성장촉진시험) 일부가 기준보다 낮게 나왔다. 두 사건을 연결해 볼 때 가장 우선 의심해야 할 공통 원인과 조치는?",
+      "choices": [
+        "배지 공급업체 변경 — 공급업체 감사만 수행한다.",
+        "잔류 H₂O₂ — aeration이 불충분하면 배지의 미생물 성장이 저해되어 GPT 저하·무균시험 위음성을 일으킬 수 있으므로, 잔류 H₂O₂ 측정 기록과 검증된 aeration 시간 준수 여부를 조사한다.",
+        "작업자 갱의 불량 — 갱의는 미생물을 '증가'시키므로 GPT 저하와 직접 연결된다.",
+        "충전 속도 과다 — 충전 속도는 배지 성장 능력에 직접 영향을 준다.",
+        "BI 로트의 D-value 저하 — D-value가 낮으면 배지 성장이 억제된다."
+      ],
+      "answer": 2,
+      "explanation": "GMP03 Aeration: **잔류 H₂O₂는 배지 성장 저해와 시험 결과 왜곡을 유발**, 검증된 aeration 시간을 recipe·절차서에 반영하고 **임의 단축 금지**, 흡착성 재질은 H₂O₂를 흡착 후 서서히 방출. GMP02 APS: **판정의 전제 조건 – 배지 GPT 적합**. 따라서 '성장 능력이 떨어진 배지'는 오염을 놓치는(위음성) 방향의 위험이며, 공통 원인으로 잔류 H₂O₂를 먼저 의심해야 한다.",
+      "choiceNotes": [
+        "틀리다 — 가능성은 있으나 두 사건을 연결하는 우선 원인이 아니다.",
+        "옳다 — 잔류 H₂O₂ → 성장 저해 → GPT 저하·위음성.",
+        "틀리다 — 갱의 불량은 오염(성장 증가) 방향의 위험이다.",
+        "틀리다 — 충전 속도는 오염 노출 위험과 관련되지 배지 성장 능력과는 무관하다.",
+        "틀리다 — BI 특성은 배지의 성장 능력과 관계없다."
+      ],
+      "source": "03 Isolator PDF p.17 (Aeration과 잔류 H₂O₂) · 02 RABS & APS PDF p.15 (GPT), p.19 (판정의 전제 조건)",
+      "tags": ["잔류 H₂O₂", "GPT", "위음성", "Aeration"]
+    },
+    {
+      "id": "int-007",
+      "type": "연결",
+      "question": "공정 단계별 IPC(공정 중 관리)·품질 관리 항목의 연결로 옳지 않은 것은?",
+      "choices": [
+        "생산 배양 – VCD·viability, glucose·lactate·glutamine·ammonium, pH·pO₂·pCO₂, osmolality, titer",
+        "완제 조제 – pH·삼투압·주성분 함량 규격 확인, 필터 완전성 시험, hold time 관리",
+        "무균 충전 – 충전량 IPC(중량 검사), 밀봉 완전성(CCI), 이물·외관 전수검사",
+        "무균 충전 환경 – 부유입자·부유균·낙하균·차압 상시 모니터링",
+        "생산 배양 – 충전량 편차와 CCI를 매일 측정해 배양 종료 시점을 결정"
+      ],
+      "answer": 5,
+      "explanation": "WK02 IPC: VCD, nutrient, 노폐물, pH, pCO₂, pO₂, 삼투압, titer, 오염·품질(최소 1일 1회). GMP01 조제: pH·삼투압·함량, 필터 완전성, 보관 시간. GMP01 충전: 충전량 정밀도·IPC, CCI, 전수검사. EM: 부유입자·부유균·낙하균·차압. 충전량·CCI는 충전 공정의 지표로 배양과는 무관하다.",
+      "choiceNotes": [
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "옳은 연결.",
+        "틀린 연결(정답) — 충전량·CCI는 완제 충전 공정의 관리 항목이다."
+      ],
+      "source": "WK02 PDF p.16 (필기: Sampling·IPC), p.47 · 01 완제 PDF p.13, p.18, p.19",
+      "tags": ["IPC", "공정별 품질 관리"]
+    },
+    {
+      "id": "int-008",
+      "type": "연결",
+      "question": "삼투압(osmolality)은 배양과 완제 공정 모두에서 관리된다. 두 공정에서의 의미를 바르게 설명한 것은?",
+      "choices": [
+        "두 공정 모두 삼투압은 참고 항목일 뿐 관리 기준이 없다.",
+        "배양에서는 배지 준비 시 삼투압을 조정하고 배양 중 IPC로 모니터링하며, 부산물(lactate)·염기 투입으로 높아지면 성장이 저해될 수 있다. 완제 조제에서는 삼투압을 사전에 정한 규격 안으로 보정·확인한다.",
+        "배양에서는 삼투압이 높을수록 VCD가 높아지므로 최대한 높게 유지한다.",
+        "완제 조제에서는 삼투압을 측정하지 않고 충전 후 무균시험으로 대신한다.",
+        "배양 배지의 삼투압은 여과 후에만 조정할 수 있다."
+      ],
+      "answer": 2,
+      "explanation": "WK02: 배지 준비 STEP 2 **삼투압·pH 조절**, offline 핵심 항목에 **Osmolality**, DoE에서 pH 7.3 조건은 lactate·Na⁺와 함께 **osmolality가 높아지고 VCD가 낮았음**. GMP01: 혼합 단위공정 '**pH·삼투압·농도 보정**', KEY POINT '**pH·삼투압·주성분 함량을 사전에 규정한 규격 내**'. 같은 물리량이라도 배양에서는 세포 환경, 완제에서는 제품 규격(투여 적합성)의 의미를 갖는다.",
+      "choiceNotes": [
+        "틀리다 — 두 공정 모두 관리 기준이 있다.",
+        "옳다 — 배양(세포 환경)과 완제(제품 규격)의 의미.",
+        "틀리다 — DoE에서 고삼투압 조건의 VCD가 낮았다.",
+        "틀리다 — 삼투압은 조제 단계의 규격 확인 항목이다.",
+        "틀리다 — 필기 순서는 용해 → 삼투압·pH 조정 → 여과다."
+      ],
+      "source": "WK02 PDF p.16 (필기: STEP 2), p.47 (Key parameters), p.66 (Osmolality) · 01 완제 PDF p.12–13",
+      "tags": ["Osmolality", "배지", "조제 규격"]
+    },
+    {
+      "id": "int-009",
+      "type": "개념",
+      "question": "mAb 의약품의 원료(DS) 생산부터 완제(DP) 출하까지의 흐름을 가장 바르게 나열한 것은?",
+      "choices": [
+        "배지 준비 → 세포은행(WCB) → Seed train → 생산 배양 → 원심분리·Clarification → Capture → Viral clearance → Virus removal filtration → 농축 → 무균 여과 → 동결보존 → (완제) 혼합·조제 → 무균 여과 → 무균 충전 → CCI·전수검사 → 완제품 시험·출하",
+        "세포은행 → 생산 배양 → 무균 충전 → Capture → 동결보존 → 완제품 시험",
+        "배지 준비 → Capture → Seed train → 생산 배양 → 무균 충전 → Viral clearance",
+        "생산 배양 → 무균 충전 → 혼합·조제 → Clarification → 출하",
+        "혼합·조제 → 세포은행 → Seed train → 생산 배양 → Final filling → Capture"
+      ],
+      "answer": 1,
+      "explanation": "WK02 필기: **DS(USP)** Media preparation → Cell Banking → Seed Train → Production → Centrifugation/Clarification, **DS(DSP)** Capture → Viral Clearance → Virus Removal Filtration → Concentration → Sterile Filtration → Cryopreservation, **DP** Final Filling. GMP01: 완제 흐름은 입고·칭량 → 혼합·조제(주사제는 조제·여과) → 충전·밀봉 → (멸균)·포장 → 시험·출하, 충전 후 CCI·이물·외관 전수검사.",
+      "choiceNotes": [
+        "옳다 — USP → DSP → DP 흐름.",
+        "틀리다 — 정제 전에 충전할 수 없다.",
+        "틀리다 — Capture는 배양 후 정제 단계다.",
+        "틀리다 — 조제는 충전보다 앞이고 clarification은 배양 직후다.",
+        "틀리다 — 완제 조제가 맨 앞에 올 수 없다."
+      ],
+      "source": "WK02 PDF p.15, p.16 (필기: DS(USP)/DS(DSP)/DP) · 01 완제 PDF p.6 (전체 제조 공정 흐름), p.19",
+      "tags": ["전 공정 흐름", "DS/DP"]
+    },
+    {
+      "id": "int-010",
+      "type": "상황판단",
+      "question": "새 공장 설계에서 '무균 충전 라인은 아이솔레이터로 하고, 배양은 N-1 perfusion high inoculum fed-batch, 경제성은 ROI로 판단'하기로 했다. 각 선택이 가져오는 trade-off로 옳지 않은 것은?",
+      "choices": [
+        "아이솔레이터: Intervention 오염 위험이 가장 낮지만 초기 투자가 높고 제균 사이클로 가동 준비 시간이 길며 제품 전환 유연성이 낮다.",
+        "아이솔레이터: 배경 환경을 Grade C/D로 낮출 수 있어 클린룸 운영 부담을 줄일 수 있다.",
+        "N-1 perfusion HIFB: 생산 배양기 run time 단축으로 연간 run 수를 늘릴 수 있지만 배지 비용은 다소 증가한다.",
+        "N-1 perfusion HIFB: 생산 배양기의 fed-batch 전략을 그대로 쓸 수 있어 도입 영향이 작다.",
+        "ROI 판단: 실제 진행할수록 비용은 줄어드는 경향이 있으므로 초기 CAPEX·OPEX 추정은 보수적으로 낮게 잡는다."
+      ],
+      "answer": 5,
+      "explanation": "GMP02/03: 아이솔레이터는 완전 밀폐·VHP 자동 제균·배경 Grade C/D·Intervention 위험 낮음 ↔ 가동 준비 시간 김·유연성 낮음·초기 투자 높음. WK02: N-1 perfusion HIFB는 run time 단축·titer 증가(최대 약 2배)·주 배양기 fed-batch 전략 유지 ↔ 'a little high cost of materials'. OT: **비용은 진행할수록 늘면 늘었지 줄지 않는다** → 낮게 잡는 것은 잘못이다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 비용은 늘면 늘었지 줄지 않는다."
+      ],
+      "source": "02 RABS & APS PDF p.9 · 03 Isolator PDF p.3, p.6 · WK02 PDF p.38–39 · OT PDF p.27",
+      "tags": ["Trade-off", "Isolator", "N-1 perfusion", "ROI"]
+    }
+  ]
+}
