@@ -52,7 +52,7 @@ python3 -m http.server 8000
 3. `questions/index.json` 목록에 파일명을 추가합니다.
 
    ```json
-   ["ot.json", "wk02.json", "wk03.json", "gmp01.json", "gmp02.json", "gmp03.json", "integrated.json"]
+   ["ot.json", "wk02.json", "gmp01.json", "gmp02.json", "gmp03.json", "wk06.json", "wk07.json", "wk08.json", "integrated.json"]
    ```
 
 4. (권장) 형식 검사기를 실행합니다. 오류가 있으면 어떤 파일 몇 번째 문항인지 알려 줍니다.
@@ -104,11 +104,15 @@ python3 -m http.server 8000
 | 파일 | 단원 | 문항 | 바탕 자료 |
 |---|---|---|---|
 | `ot.json` | OT | 5 | Introduction to Design Project (김영태, 2026.09.07) |
-| `wk02.json` | WK02 | 32 | Upstream Process 1 (하태수, 2026.09.09) — 슬라이드와 PDF 16쪽 수업 필기 포함 |
+| `wk02.json` | WK02 | 60 | Upstream Process 1 (하태수, 2026.09.09) — 슬라이드, PDF 16쪽 수업 필기, 강의 녹음본 |
 | `gmp01.json` | GMP01 | 14 | 01 완제 의약품 제조 공정의 이해 (2026.09.30) |
 | `gmp02.json` | GMP02 | 18 | 02 RABS 시스템과 무균공정시뮬레이션(APS) (2026.09.30) |
 | `gmp03.json` | GMP03 | 18 | 03 Isolator & Qualification (2026.09.30) |
-| `integrated.json` | 통합 | 10 | 여러 강의를 연결해야 풀 수 있는 공정 통합 문항 |
+| `wk06.json` | WK06 | 25 | 항체치료제 공정 설계·정제(DSP)·바이러스 안전성 |
+| `wk07.json` | WK07 | 33 | GMP Engineering (시설 설계·건설·프로젝트 관리) |
+| `integrated.json` | 통합 | 15 | 여러 강의를 연결해야 풀 수 있는 공정 통합 문항 |
+
+합계 188문항. 문항은 계산·수치 해석보다 **개념 이해와 "이 상황에서 어떻게 대처할 것인가"** 를 묻는 방향으로 출제합니다.
 
 단원별로 어떤 주제가 출제되었고 무엇이 아직 미출제인지는 [`docs/coverage.md`](docs/coverage.md)에 정리되어 있습니다.
 

@@ -193,36 +193,29 @@
     },
     {
       "id": "gmp03-008",
-      "type": "계산",
-      "question": "VHP PQ(MBQ)에 쓸 BI 로트를 고르려 한다. 각 로트의 BI를 모든 시험 위치에서 전량 사멸시켰을 때, 그 결과가 '6-log 이상 포자 감소(SLR)'의 근거가 될 수 있는 로트만 고른 것은? (log₁₀2 ≈ 0.30, log₁₀1.2 ≈ 0.08, log₁₀5 ≈ 0.70, log₁₀8 ≈ 0.90)",
-      "box": [
-        "ㄱ. 2.0×10⁶ CFU/BI",
-        "ㄴ. 8.0×10⁵ CFU/BI",
-        "ㄷ. 1.2×10⁶ CFU/BI",
-        "ㄹ. 5.0×10⁶ CFU/BI"
-      ],
+      "type": "개념",
+      "question": "VHP 제염 검증에서 BI(10⁶ 이상의 포자)를 쓰고 '6-log 이상 포자 감소(SLR)'를 요구하는 이유로 가장 적절한 것은?",
       "choices": [
-        "ㄱ, ㄹ",
-        "ㄴ, ㄷ",
-        "ㄱ, ㄷ, ㄹ",
-        "ㄴ, ㄷ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "10⁶ 이상 포자가 모두 죽었음을 확인해야 6-log 이상 감소를 근거 있게 말할 수 있으며, population이 이보다 적으면 전량 사멸해도 6-log를 입증하지 못하기 때문이다.",
+        "BI 포자 수는 결과와 관계없고 색 변화만 보면 되기 때문이다.",
+        "포자 수가 많을수록 aeration 시간이 짧아지기 때문이다.",
+        "6-log는 잔류 H₂O₂의 허용 농도를 뜻하기 때문이다.",
+        "CI로 같은 결과를 얻을 수 있으므로 BI는 형식상 쓰는 것이기 때문이다."
       ],
-      "answer": 3,
-      "explanation": "전량 사멸 시 입증 가능한 SLR ≈ log₁₀(초기 population). ㄱ 6.30, **ㄴ 5.90(6 미만)**, ㄷ 6.08, ㄹ 6.70. 따라서 ㄱ·ㄷ·ㄹ. Acceptance criteria: **BI는 Geobacillus stearothermophilus 10⁶ 이상 population**, **6-log 이상 포자 감소를 입증(BI population 근거 포함)**, 사용 로트는 사전에 population·D-value를 확인한다.",
+      "answer": 1,
+      "explanation": "Acceptance criteria: **BI는 G. stearothermophilus 10⁶ 이상 population**, **6-log 이상 포자 감소를 입증(BI population 근거 포함)**. BI는 '죽었다/살았다'만 알려 주므로, 몇 log 감소를 주장하려면 처음 포자 수가 그만큼 있어야 한다. 그래서 사용 로트의 population·D-value를 사전에 확인한다.",
       "choiceNotes": [
-        "ㄷ(약 6.08 log)도 10⁶ 이상이다.",
-        "ㄴ은 약 5.9 log로 6-log를 입증할 수 없다.",
-        "옳다 — 10⁶ 이상인 ㄱ·ㄷ·ㄹ.",
-        "ㄴ은 10⁶ 미만이다.",
-        "ㄴ은 10⁶ 미만이다."
+        "옳다 — population이 SLR 주장의 근거.",
+        "틀리다 — BI는 성장/무성장으로 판정하며 population이 핵심이다.",
+        "틀리다 — aeration과 무관하다.",
+        "틀리다 — 6-log는 미생물 감소 정도다.",
+        "틀리다 — CI는 사멸의 직접 증거가 아니며 BI를 대체할 수 없다."
       ],
-      "source": "03 Isolator & Qualification PDF p.16 (BI·CI 검증 논리와 Acceptance Criteria), p.14 (BI 로트 population·D-value 확인)",
+      "source": "03 Isolator & Qualification PDF p.16 (Acceptance Criteria), p.14 (BI population·D-value 확인)",
       "tags": [
         "SLR",
         "BI population",
-        "6-log",
-        "계산"
+        "6-log"
       ]
     },
     {
@@ -309,7 +302,7 @@
     },
     {
       "id": "gmp03-012",
-      "type": "계산",
+      "type": "상황판단",
       "question": "VHP cycle development의 fractional study(BI 3개 × 노출 시간 그룹)에서 다음 결과를 얻었다. Total kill time과 실제 cycle의 dwell time 설정으로 가장 적절한 것은?",
       "box": [
         "노출 1.0 min: BI 3/3 성장",
