@@ -1,0 +1,1603 @@
+{
+ "week": "OT",
+ "title": "OT 용어 정리",
+ "lecture": "OT PDF 용어 정리 (자동 생성: tools/build_terms.py — 직접 고치지 말고 glossary/ot.json를 고칠 것)",
+ "questions": [
+  {
+   "id": "totd-001",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정."
+   ],
+   "choices": [
+    "Unit operation (단위공정)",
+    "Bioprocess (바이오공정)",
+    "Downstream process (DSP)",
+    "Upstream process (USP)",
+    "Biosimilar (바이오시밀러)"
+   ],
+   "answer": 2,
+   "explanation": "**Bioprocess (바이오공정)** — 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+   "choiceNotes": [
+    "틀리다 — Unit operation (단위공정): 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "정답 — 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "틀리다 — Upstream process (USP): 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "틀리다 — Biosimilar (바이오시밀러): 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품."
+   ],
+   "source": "OT PDF p.2 (Bioprocess)",
+   "concepts": [
+    "Bioprocess"
+   ],
+   "tags": [
+    "용어",
+    "Bioprocess"
+   ]
+  },
+  {
+   "id": "totd-002",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "choices": [
+    "Upstream process (USP)",
+    "Bioprocess (바이오공정)",
+    "Downstream process (DSP)",
+    "Milestone (마일스톤)",
+    "Unit operation (단위공정)"
+   ],
+   "answer": 5,
+   "explanation": "**Unit operation (단위공정)** — 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+   "choiceNotes": [
+    "틀리다 — Upstream process (USP): 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "틀리다 — Bioprocess (바이오공정): 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "틀리다 — Milestone (마일스톤): 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "정답 — 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "source": "OT PDF p.3 (Unit Operation), p.18",
+   "concepts": [
+    "Unit operation"
+   ],
+   "tags": [
+    "용어",
+    "Unit operation"
+   ]
+  },
+  {
+   "id": "totd-003",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정."
+   ],
+   "choices": [
+    "Upstream process (USP)",
+    "Downstream process (DSP)",
+    "Unit operation (단위공정)",
+    "Bioprocess (바이오공정)",
+    "OPEX (운영 비용)"
+   ],
+   "answer": 1,
+   "explanation": "**Upstream process (USP)** — 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+   "choiceNotes": [
+    "정답 — 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "틀리다 — Unit operation (단위공정): 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "틀리다 — Bioprocess (바이오공정): 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "틀리다 — OPEX (운영 비용): 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "source": "OT PDF p.2 · WK02 PDF p.15",
+   "concepts": [
+    "Upstream process"
+   ],
+   "tags": [
+    "용어",
+    "Upstream process"
+   ]
+  },
+  {
+   "id": "totd-004",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정."
+   ],
+   "choices": [
+    "Bioprocess (바이오공정)",
+    "Unit operation (단위공정)",
+    "Upstream process (USP)",
+    "Downstream process (DSP)",
+    "Mass balance (물질수지)"
+   ],
+   "answer": 4,
+   "explanation": "**Downstream process (DSP)** — 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+   "choiceNotes": [
+    "틀리다 — Bioprocess (바이오공정): 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "틀리다 — Unit operation (단위공정): 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "틀리다 — Upstream process (USP): 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "정답 — 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "틀리다 — Mass balance (물질수지): 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다."
+   ],
+   "source": "OT PDF p.2 · WK02 PDF p.15",
+   "concepts": [
+    "Downstream process"
+   ],
+   "tags": [
+    "용어",
+    "Downstream process"
+   ]
+  },
+  {
+   "id": "totd-005",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품."
+   ],
+   "choices": [
+    "Patent expiration (특허 만료)",
+    "CMO (위탁생산기관)",
+    "Biosimilar (바이오시밀러)",
+    "Market share (시장 점유율)",
+    "BFD (Block Flow Diagram)"
+   ],
+   "answer": 3,
+   "explanation": "**Biosimilar (바이오시밀러)** — 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+   "choiceNotes": [
+    "틀리다 — Patent expiration (특허 만료): 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "틀리다 — CMO (위탁생산기관): 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "정답 — 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "틀리다 — Market share (시장 점유율): 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "source": "OT PDF p.12 (About Term Project)",
+   "concepts": [
+    "Biosimilar"
+   ],
+   "tags": [
+    "용어",
+    "Biosimilar"
+   ]
+  },
+  {
+   "id": "totd-006",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다."
+   ],
+   "choices": [
+    "Market share (시장 점유율)",
+    "Patent expiration (특허 만료)",
+    "CMO (위탁생산기관)",
+    "Biosimilar (바이오시밀러)",
+    "BFD (Block Flow Diagram)"
+   ],
+   "answer": 2,
+   "explanation": "**Patent expiration (특허 만료)** — 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+   "choiceNotes": [
+    "틀리다 — Market share (시장 점유율): 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "정답 — 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "틀리다 — CMO (위탁생산기관): 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "틀리다 — Biosimilar (바이오시밀러): 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Patent expiration"
+   ],
+   "tags": [
+    "용어",
+    "Patent expiration"
+   ]
+  },
+  {
+   "id": "totd-007",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다."
+   ],
+   "choices": [
+    "Biosimilar (바이오시밀러)",
+    "Patent expiration (특허 만료)",
+    "Market share (시장 점유율)",
+    "CMO (위탁생산기관)",
+    "감가상각 (Depreciation)"
+   ],
+   "answer": 3,
+   "explanation": "**Market share (시장 점유율)** — 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+   "choiceNotes": [
+    "틀리다 — Biosimilar (바이오시밀러): 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "틀리다 — Patent expiration (특허 만료): 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "정답 — 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "틀리다 — CMO (위탁생산기관): 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "틀리다 — 감가상각 (Depreciation): 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Market share"
+   ],
+   "tags": [
+    "용어",
+    "Market share"
+   ]
+  },
+  {
+   "id": "totd-008",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태."
+   ],
+   "choices": [
+    "CMO (위탁생산기관)",
+    "Patent expiration (특허 만료)",
+    "Biosimilar (바이오시밀러)",
+    "Market share (시장 점유율)",
+    "Milestone (마일스톤)"
+   ],
+   "answer": 1,
+   "explanation": "**CMO (위탁생산기관)** — 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+   "choiceNotes": [
+    "정답 — 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "틀리다 — Patent expiration (특허 만료): 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "틀리다 — Biosimilar (바이오시밀러): 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "틀리다 — Market share (시장 점유율): 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "틀리다 — Milestone (마일스톤): 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다."
+   ],
+   "source": "OT PDF p.12 (공장 운영 컨셉)",
+   "concepts": [
+    "CMO"
+   ],
+   "tags": [
+    "용어",
+    "CMO"
+   ]
+  },
+  {
+   "id": "totd-009",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "choices": [
+    "Equipment list (장비 목록)",
+    "PFD (Process Flow Diagram)",
+    "Utility consumption (유틸리티 사용량)",
+    "BFD (Block Flow Diagram)",
+    "URS (User Requirement Specification)"
+   ],
+   "answer": 4,
+   "explanation": "**BFD (Block Flow Diagram)** — 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+   "choiceNotes": [
+    "틀리다 — Equipment list (장비 목록): 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "틀리다 — PFD (Process Flow Diagram): 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "틀리다 — Utility consumption (유틸리티 사용량): 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "정답 — 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.27",
+   "concepts": [
+    "BFD"
+   ],
+   "tags": [
+    "용어",
+    "BFD"
+   ]
+  },
+  {
+   "id": "totd-010",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도."
+   ],
+   "choices": [
+    "Utility consumption (유틸리티 사용량)",
+    "Mass balance (물질수지)",
+    "Equipment list (장비 목록)",
+    "URS (User Requirement Specification)",
+    "PFD (Process Flow Diagram)"
+   ],
+   "answer": 5,
+   "explanation": "**PFD (Process Flow Diagram)** — 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+   "choiceNotes": [
+    "틀리다 — Utility consumption (유틸리티 사용량): 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "틀리다 — Mass balance (물질수지): 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "틀리다 — Equipment list (장비 목록): 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "정답 — 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도."
+   ],
+   "source": "OT PDF p.13, p.20 · WK07 PDF p.28",
+   "concepts": [
+    "PFD"
+   ],
+   "tags": [
+    "용어",
+    "PFD"
+   ]
+  },
+  {
+   "id": "totd-011",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다."
+   ],
+   "choices": [
+    "BFD (Block Flow Diagram)",
+    "Mass balance (물질수지)",
+    "PFD (Process Flow Diagram)",
+    "Utility consumption (유틸리티 사용량)",
+    "URS (User Requirement Specification)"
+   ],
+   "answer": 2,
+   "explanation": "**Mass balance (물질수지)** — 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+   "choiceNotes": [
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "정답 — 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "틀리다 — PFD (Process Flow Diagram): 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "틀리다 — Utility consumption (유틸리티 사용량): 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "source": "OT PDF p.13, p.22 (Process Mass Balance)",
+   "concepts": [
+    "Mass balance"
+   ],
+   "tags": [
+    "용어",
+    "Mass balance"
+   ]
+  },
+  {
+   "id": "totd-012",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다."
+   ],
+   "choices": [
+    "URS (User Requirement Specification)",
+    "Mass balance (물질수지)",
+    "Equipment list (장비 목록)",
+    "PFD (Process Flow Diagram)",
+    "BFD (Block Flow Diagram)"
+   ],
+   "answer": 3,
+   "explanation": "**Equipment list (장비 목록)** — 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+   "choiceNotes": [
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "틀리다 — Mass balance (물질수지): 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "정답 — 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "틀리다 — PFD (Process Flow Diagram): 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "source": "OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)",
+   "concepts": [
+    "Equipment list"
+   ],
+   "tags": [
+    "용어",
+    "Equipment list"
+   ]
+  },
+  {
+   "id": "totd-013",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다."
+   ],
+   "choices": [
+    "Utility consumption (유틸리티 사용량)",
+    "Mass balance (물질수지)",
+    "PFD (Process Flow Diagram)",
+    "BFD (Block Flow Diagram)",
+    "URS (User Requirement Specification)"
+   ],
+   "answer": 1,
+   "explanation": "**Utility consumption (유틸리티 사용량)** — 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+   "choiceNotes": [
+    "정답 — 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "틀리다 — Mass balance (물질수지): 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "틀리다 — PFD (Process Flow Diagram): 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "source": "OT PDF p.13",
+   "concepts": [
+    "Utility consumption"
+   ],
+   "tags": [
+    "용어",
+    "Utility consumption"
+   ]
+  },
+  {
+   "id": "totd-014",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "choices": [
+    "Mass balance (물질수지)",
+    "PFD (Process Flow Diagram)",
+    "BFD (Block Flow Diagram)",
+    "URS (User Requirement Specification)",
+    "Utility consumption (유틸리티 사용량)"
+   ],
+   "answer": 4,
+   "explanation": "**URS (User Requirement Specification)** — 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+   "choiceNotes": [
+    "틀리다 — Mass balance (물질수지): 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "틀리다 — PFD (Process Flow Diagram): 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "정답 — 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "틀리다 — Utility consumption (유틸리티 사용량): 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다."
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.51",
+   "concepts": [
+    "URS"
+   ],
+   "tags": [
+    "용어",
+    "URS"
+   ]
+  },
+  {
+   "id": "totd-015",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것."
+   ],
+   "choices": [
+    "Single-use vs Multi-use (공장 컨셉)",
+    "Milestone (마일스톤)",
+    "BFD (Block Flow Diagram)",
+    "URS (User Requirement Specification)",
+    "Scheduling (공정 스케줄링)"
+   ],
+   "answer": 5,
+   "explanation": "**Scheduling (공정 스케줄링)** — 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+   "choiceNotes": [
+    "틀리다 — Single-use vs Multi-use (공장 컨셉): 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "틀리다 — Milestone (마일스톤): 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "정답 — 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것."
+   ],
+   "source": "OT PDF p.23 (Scheduling)",
+   "concepts": [
+    "Scheduling"
+   ],
+   "tags": [
+    "용어",
+    "Scheduling"
+   ]
+  },
+  {
+   "id": "totd-016",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용."
+   ],
+   "choices": [
+    "CAPEX (자본적 지출)",
+    "OPEX (운영 비용)",
+    "감가상각 (Depreciation)",
+    "ROI (투자수익률)",
+    "BFD (Block Flow Diagram)"
+   ],
+   "answer": 1,
+   "explanation": "**CAPEX (자본적 지출)** — 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+   "choiceNotes": [
+    "정답 — 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "틀리다 — OPEX (운영 비용): 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "틀리다 — 감가상각 (Depreciation): 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "틀리다 — ROI (투자수익률): 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "source": "OT PDF p.13, p.27",
+   "concepts": [
+    "CAPEX"
+   ],
+   "tags": [
+    "용어",
+    "CAPEX"
+   ]
+  },
+  {
+   "id": "totd-017",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "choices": [
+    "CAPEX (자본적 지출)",
+    "OPEX (운영 비용)",
+    "ROI (투자수익률)",
+    "감가상각 (Depreciation)",
+    "Scheduling (공정 스케줄링)"
+   ],
+   "answer": 2,
+   "explanation": "**OPEX (운영 비용)** — 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+   "choiceNotes": [
+    "틀리다 — CAPEX (자본적 지출): 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "정답 — 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "틀리다 — ROI (투자수익률): 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "틀리다 — 감가상각 (Depreciation): 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "틀리다 — Scheduling (공정 스케줄링): 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것."
+   ],
+   "source": "OT PDF p.13, p.27",
+   "concepts": [
+    "OPEX"
+   ],
+   "tags": [
+    "용어",
+    "OPEX"
+   ]
+  },
+  {
+   "id": "totd-018",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다."
+   ],
+   "choices": [
+    "감가상각 (Depreciation)",
+    "OPEX (운영 비용)",
+    "ROI (투자수익률)",
+    "CAPEX (자본적 지출)",
+    "Patent expiration (특허 만료)"
+   ],
+   "answer": 3,
+   "explanation": "**ROI (투자수익률)** — 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+   "choiceNotes": [
+    "틀리다 — 감가상각 (Depreciation): 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "틀리다 — OPEX (운영 비용): 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "정답 — 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "틀리다 — CAPEX (자본적 지출): 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "틀리다 — Patent expiration (특허 만료): 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다."
+   ],
+   "source": "OT PDF p.27 (Marketability)",
+   "concepts": [
+    "ROI"
+   ],
+   "tags": [
+    "용어",
+    "ROI"
+   ]
+  },
+  {
+   "id": "totd-019",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다."
+   ],
+   "choices": [
+    "OPEX (운영 비용)",
+    "CAPEX (자본적 지출)",
+    "ROI (투자수익률)",
+    "URS (User Requirement Specification)",
+    "감가상각 (Depreciation)"
+   ],
+   "answer": 5,
+   "explanation": "**감가상각 (Depreciation)** — 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+   "choiceNotes": [
+    "틀리다 — OPEX (운영 비용): 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "틀리다 — CAPEX (자본적 지출): 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "틀리다 — ROI (투자수익률): 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "정답 — 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다."
+   ],
+   "source": "OT PDF p.27",
+   "concepts": [
+    "감가상각"
+   ],
+   "tags": [
+    "용어",
+    "감가상각"
+   ]
+  },
+  {
+   "id": "totd-020",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다."
+   ],
+   "choices": [
+    "Scheduling (공정 스케줄링)",
+    "Single-use vs Multi-use (공장 컨셉)",
+    "URS (User Requirement Specification)",
+    "Milestone (마일스톤)",
+    "Unit operation (단위공정)"
+   ],
+   "answer": 4,
+   "explanation": "**Milestone (마일스톤)** — 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+   "choiceNotes": [
+    "틀리다 — Scheduling (공정 스케줄링): 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "틀리다 — Single-use vs Multi-use (공장 컨셉): 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "틀리다 — URS (User Requirement Specification): 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "정답 — 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "틀리다 — Unit operation (단위공정): 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "source": "OT PDF p.16 (Example_Milestone)",
+   "concepts": [
+    "Milestone"
+   ],
+   "tags": [
+    "용어",
+    "Milestone"
+   ]
+  },
+  {
+   "id": "totd-021",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것."
+   ],
+   "choices": [
+    "Single-use vs Multi-use (공장 컨셉)",
+    "Scheduling (공정 스케줄링)",
+    "Milestone (마일스톤)",
+    "Biosimilar (바이오시밀러)",
+    "BFD (Block Flow Diagram)"
+   ],
+   "answer": 1,
+   "explanation": "**Single-use vs Multi-use (공장 컨셉)** — 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+   "choiceNotes": [
+    "정답 — 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "틀리다 — Scheduling (공정 스케줄링): 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "틀리다 — Milestone (마일스톤): 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "틀리다 — Biosimilar (바이오시밀러): 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Single-use vs Multi-use"
+   ],
+   "tags": [
+    "용어",
+    "Single-use vs Multi-use"
+   ]
+  },
+  {
+   "id": "totr-001",
+   "type": "용어",
+   "part": 1,
+   "question": "「Bioprocess (바이오공정)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "answer": 3,
+   "explanation": "**Bioprocess (바이오공정)** — 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+   "choiceNotes": [
+    "틀리다 — Unit operation (단위공정)의 설명이다.",
+    "틀리다 — Upstream process (USP)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Downstream process (DSP)의 설명이다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다."
+   ],
+   "source": "OT PDF p.2 (Bioprocess)",
+   "concepts": [
+    "Bioprocess"
+   ],
+   "tags": [
+    "용어",
+    "Bioprocess"
+   ]
+  },
+  {
+   "id": "totr-002",
+   "type": "용어",
+   "part": 1,
+   "question": "「Unit operation (단위공정)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "answer": 5,
+   "explanation": "**Unit operation (단위공정)** — 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+   "choiceNotes": [
+    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
+    "틀리다 — Upstream process (USP)의 설명이다.",
+    "틀리다 — Downstream process (DSP)의 설명이다.",
+    "틀리다 — Market share (시장 점유율)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "OT PDF p.3 (Unit Operation), p.18",
+   "concepts": [
+    "Unit operation"
+   ],
+   "tags": [
+    "용어",
+    "Unit operation"
+   ]
+  },
+  {
+   "id": "totr-003",
+   "type": "용어",
+   "part": 1,
+   "question": "「Upstream process (USP)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "answer": 4,
+   "explanation": "**Upstream process (USP)** — 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+   "choiceNotes": [
+    "틀리다 — Unit operation (단위공정)의 설명이다.",
+    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
+    "틀리다 — Downstream process (DSP)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다."
+   ],
+   "source": "OT PDF p.2 · WK02 PDF p.15",
+   "concepts": [
+    "Upstream process"
+   ],
+   "tags": [
+    "용어",
+    "Upstream process"
+   ]
+  },
+  {
+   "id": "totr-004",
+   "type": "용어",
+   "part": 1,
+   "question": "「Downstream process (DSP)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "answer": 2,
+   "explanation": "**Downstream process (DSP)** — 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+   "choiceNotes": [
+    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Upstream process (USP)의 설명이다.",
+    "틀리다 — Unit operation (단위공정)의 설명이다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다."
+   ],
+   "source": "OT PDF p.2 · WK02 PDF p.15",
+   "concepts": [
+    "Downstream process"
+   ],
+   "tags": [
+    "용어",
+    "Downstream process"
+   ]
+  },
+  {
+   "id": "totr-005",
+   "type": "용어",
+   "part": 1,
+   "question": "「Biosimilar (바이오시밀러)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품."
+   ],
+   "answer": 5,
+   "explanation": "**Biosimilar (바이오시밀러)** — 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+   "choiceNotes": [
+    "틀리다 — Patent expiration (특허 만료)의 설명이다.",
+    "틀리다 — CMO (위탁생산기관)의 설명이다.",
+    "틀리다 — Market share (시장 점유율)의 설명이다.",
+    "틀리다 — 감가상각 (Depreciation)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "OT PDF p.12 (About Term Project)",
+   "concepts": [
+    "Biosimilar"
+   ],
+   "tags": [
+    "용어",
+    "Biosimilar"
+   ]
+  },
+  {
+   "id": "totr-006",
+   "type": "용어",
+   "part": 1,
+   "question": "「Patent expiration (특허 만료)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다."
+   ],
+   "answer": 3,
+   "explanation": "**Patent expiration (특허 만료)** — 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+   "choiceNotes": [
+    "틀리다 — Market share (시장 점유율)의 설명이다.",
+    "틀리다 — CMO (위탁생산기관)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
+    "틀리다 — Equipment list (장비 목록)의 설명이다."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Patent expiration"
+   ],
+   "tags": [
+    "용어",
+    "Patent expiration"
+   ]
+  },
+  {
+   "id": "totr-007",
+   "type": "용어",
+   "part": 1,
+   "question": "「Market share (시장 점유율)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "answer": 2,
+   "explanation": "**Market share (시장 점유율)** — 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+   "choiceNotes": [
+    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — CMO (위탁생산기관)의 설명이다.",
+    "틀리다 — Patent expiration (특허 만료)의 설명이다.",
+    "틀리다 — Unit operation (단위공정)의 설명이다."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Market share"
+   ],
+   "tags": [
+    "용어",
+    "Market share"
+   ]
+  },
+  {
+   "id": "totr-008",
+   "type": "용어",
+   "part": 1,
+   "question": "「CMO (위탁생산기관)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것."
+   ],
+   "answer": 1,
+   "explanation": "**CMO (위탁생산기관)** — 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
+    "틀리다 — Market share (시장 점유율)의 설명이다.",
+    "틀리다 — Patent expiration (특허 만료)의 설명이다.",
+    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다."
+   ],
+   "source": "OT PDF p.12 (공장 운영 컨셉)",
+   "concepts": [
+    "CMO"
+   ],
+   "tags": [
+    "용어",
+    "CMO"
+   ]
+  },
+  {
+   "id": "totr-009",
+   "type": "용어",
+   "part": 1,
+   "question": "「BFD (Block Flow Diagram)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "answer": 4,
+   "explanation": "**BFD (Block Flow Diagram)** — 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+   "choiceNotes": [
+    "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
+    "틀리다 — Utility consumption (유틸리티 사용량)의 설명이다.",
+    "틀리다 — Mass balance (물질수지)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다."
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.27",
+   "concepts": [
+    "BFD"
+   ],
+   "tags": [
+    "용어",
+    "BFD"
+   ]
+  },
+  {
+   "id": "totr-010",
+   "type": "용어",
+   "part": 1,
+   "question": "「PFD (Process Flow Diagram)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도."
+   ],
+   "answer": 5,
+   "explanation": "**PFD (Process Flow Diagram)** — 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+   "choiceNotes": [
+    "틀리다 — Utility consumption (유틸리티 사용량)의 설명이다.",
+    "틀리다 — Mass balance (물질수지)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "OT PDF p.13, p.20 · WK07 PDF p.28",
+   "concepts": [
+    "PFD"
+   ],
+   "tags": [
+    "용어",
+    "PFD"
+   ]
+  },
+  {
+   "id": "totr-011",
+   "type": "용어",
+   "part": 1,
+   "question": "「Mass balance (물질수지)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다."
+   ],
+   "answer": 3,
+   "explanation": "**Mass balance (물질수지)** — 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+   "choiceNotes": [
+    "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
+    "틀리다 — Equipment list (장비 목록)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
+    "틀리다 — Utility consumption (유틸리티 사용량)의 설명이다."
+   ],
+   "source": "OT PDF p.13, p.22 (Process Mass Balance)",
+   "concepts": [
+    "Mass balance"
+   ],
+   "tags": [
+    "용어",
+    "Mass balance"
+   ]
+  },
+  {
+   "id": "totr-012",
+   "type": "용어",
+   "part": 1,
+   "question": "「Equipment list (장비 목록)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "answer": 2,
+   "explanation": "**Equipment list (장비 목록)** — 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+   "choiceNotes": [
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
+    "틀리다 — Utility consumption (유틸리티 사용량)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다."
+   ],
+   "source": "OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)",
+   "concepts": [
+    "Equipment list"
+   ],
+   "tags": [
+    "용어",
+    "Equipment list"
+   ]
+  },
+  {
+   "id": "totr-013",
+   "type": "용어",
+   "part": 1,
+   "question": "「Utility consumption (유틸리티 사용량)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다."
+   ],
+   "answer": 1,
+   "explanation": "**Utility consumption (유틸리티 사용량)** — 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
+    "틀리다 — Mass balance (물질수지)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다."
+   ],
+   "source": "OT PDF p.13",
+   "concepts": [
+    "Utility consumption"
+   ],
+   "tags": [
+    "용어",
+    "Utility consumption"
+   ]
+  },
+  {
+   "id": "totr-014",
+   "type": "용어",
+   "part": 1,
+   "question": "「URS (User Requirement Specification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도."
+   ],
+   "answer": 4,
+   "explanation": "**URS (User Requirement Specification)** — 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+   "choiceNotes": [
+    "틀리다 — Utility consumption (유틸리티 사용량)의 설명이다.",
+    "틀리다 — Mass balance (물질수지)의 설명이다.",
+    "틀리다 — Equipment list (장비 목록)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — PFD (Process Flow Diagram)의 설명이다."
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.51",
+   "concepts": [
+    "URS"
+   ],
+   "tags": [
+    "용어",
+    "URS"
+   ]
+  },
+  {
+   "id": "totr-015",
+   "type": "용어",
+   "part": 1,
+   "question": "「Scheduling (공정 스케줄링)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "answer": 1,
+   "explanation": "**Scheduling (공정 스케줄링)** — 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다.",
+    "틀리다 — Milestone (마일스톤)의 설명이다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다.",
+    "틀리다 — Unit operation (단위공정)의 설명이다."
+   ],
+   "source": "OT PDF p.23 (Scheduling)",
+   "concepts": [
+    "Scheduling"
+   ],
+   "tags": [
+    "용어",
+    "Scheduling"
+   ]
+  },
+  {
+   "id": "totr-016",
+   "type": "용어",
+   "part": 1,
+   "question": "「CAPEX (자본적 지출)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것."
+   ],
+   "answer": 4,
+   "explanation": "**CAPEX (자본적 지출)** — 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+   "choiceNotes": [
+    "틀리다 — 감가상각 (Depreciation)의 설명이다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다.",
+    "틀리다 — ROI (투자수익률)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다."
+   ],
+   "source": "OT PDF p.13, p.27",
+   "concepts": [
+    "CAPEX"
+   ],
+   "tags": [
+    "용어",
+    "CAPEX"
+   ]
+  },
+  {
+   "id": "totr-017",
+   "type": "용어",
+   "part": 1,
+   "question": "「OPEX (운영 비용)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "answer": 5,
+   "explanation": "**OPEX (운영 비용)** — 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+   "choiceNotes": [
+    "틀리다 — CAPEX (자본적 지출)의 설명이다.",
+    "틀리다 — ROI (투자수익률)의 설명이다.",
+    "틀리다 — 감가상각 (Depreciation)의 설명이다.",
+    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "OT PDF p.13, p.27",
+   "concepts": [
+    "OPEX"
+   ],
+   "tags": [
+    "용어",
+    "OPEX"
+   ]
+  },
+  {
+   "id": "totr-018",
+   "type": "용어",
+   "part": 1,
+   "question": "「ROI (투자수익률)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다."
+   ],
+   "answer": 3,
+   "explanation": "**ROI (투자수익률)** — 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+   "choiceNotes": [
+    "틀리다 — CAPEX (자본적 지출)의 설명이다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — 감가상각 (Depreciation)의 설명이다.",
+    "틀리다 — Milestone (마일스톤)의 설명이다."
+   ],
+   "source": "OT PDF p.27 (Marketability)",
+   "concepts": [
+    "ROI"
+   ],
+   "tags": [
+    "용어",
+    "ROI"
+   ]
+  },
+  {
+   "id": "totr-019",
+   "type": "용어",
+   "part": 1,
+   "question": "「감가상각 (Depreciation)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "answer": 2,
+   "explanation": "**감가상각 (Depreciation)** — 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+   "choiceNotes": [
+    "틀리다 — CAPEX (자본적 지출)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다.",
+    "틀리다 — ROI (투자수익률)의 설명이다.",
+    "틀리다 — BFD (Block Flow Diagram)의 설명이다."
+   ],
+   "source": "OT PDF p.27",
+   "concepts": [
+    "감가상각"
+   ],
+   "tags": [
+    "용어",
+    "감가상각"
+   ]
+  },
+  {
+   "id": "totr-020",
+   "type": "용어",
+   "part": 1,
+   "question": "「Milestone (마일스톤)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+    "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정."
+   ],
+   "answer": 2,
+   "explanation": "**Milestone (마일스톤)** — 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+   "choiceNotes": [
+    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Scheduling (공정 스케줄링)의 설명이다.",
+    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
+    "틀리다 — Downstream process (DSP)의 설명이다."
+   ],
+   "source": "OT PDF p.16 (Example_Milestone)",
+   "concepts": [
+    "Milestone"
+   ],
+   "tags": [
+    "용어",
+    "Milestone"
+   ]
+  },
+  {
+   "id": "totr-021",
+   "type": "용어",
+   "part": 1,
+   "question": "「Single-use vs Multi-use (공장 컨셉)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "answer": 3,
+   "explanation": "**Single-use vs Multi-use (공장 컨셉)** — 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+   "choiceNotes": [
+    "틀리다 — Milestone (마일스톤)의 설명이다.",
+    "틀리다 — Scheduling (공정 스케줄링)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "틀리다 — OPEX (운영 비용)의 설명이다."
+   ],
+   "source": "OT PDF p.12",
+   "concepts": [
+    "Single-use vs Multi-use"
+   ],
+   "tags": [
+    "용어",
+    "Single-use vs Multi-use"
+   ]
+  },
+  {
+   "id": "totm-001-002-003-004",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bioprocess (바이오공정)\n(나) Unit operation (단위공정)\n(다) Upstream process (USP)\n(라) Downstream process (DSP)",
+   "box": [
+    "A. 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+    "B. 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+    "C. 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+    "D. 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다."
+   ],
+   "choices": [
+    "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-B  (나)-D  (다)-A  (라)-C",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
+    "(가)-A  (나)-D  (다)-B  (라)-C",
+    "(가)-D  (나)-A  (다)-C  (라)-B"
+   ],
+   "answer": 4,
+   "explanation": "**용어와 설명의 짝**\n(가) **Bioprocess (바이오공정)** → A. 살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.\n(나) **Unit operation (단위공정)** → D. 배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.\n(다) **Upstream process (USP)** → B. 배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.\n(라) **Downstream process (DSP)** → C. 배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+   "choiceNotes": [
+    "틀리다 — (가) Bioprocess의 설명은 A, (라) Downstream process의 설명은 C",
+    "틀리다 — (가) Bioprocess의 설명은 A, (다) Upstream process의 설명은 B",
+    "틀리다 — (다) Upstream process의 설명은 B, (라) Downstream process의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Bioprocess의 설명은 A, (나) Unit operation의 설명은 D, (다) Upstream process의 설명은 B, (라) Downstream process의 설명은 C"
+   ],
+   "source": "OT PDF p.2 (Bioprocess) · OT PDF p.3 (Unit Operation), p.18 · OT PDF p.2 · WK02 PDF p.15",
+   "concepts": [
+    "Bioprocess",
+    "Unit operation",
+    "Upstream process",
+    "Downstream process"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-005-006-007-008",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Biosimilar (바이오시밀러)\n(나) Patent expiration (특허 만료)\n(다) Market share (시장 점유율)\n(라) CMO (위탁생산기관)",
+   "box": [
+    "A. 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+    "B. 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+    "C. 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+    "D. 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품."
+   ],
+   "choices": [
+    "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-C  (나)-D  (다)-A  (라)-B",
+    "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-D  (나)-C  (다)-A  (라)-B"
+   ],
+   "answer": 5,
+   "explanation": "**용어와 설명의 짝**\n(가) **Biosimilar (바이오시밀러)** → D. 특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.\n(나) **Patent expiration (특허 만료)** → C. 오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.\n(다) **Market share (시장 점유율)** → A. 목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.\n(라) **CMO (위탁생산기관)** → B. 자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+   "choiceNotes": [
+    "틀리다 — (나) Patent expiration의 설명은 C, (다) Market share의 설명은 A",
+    "틀리다 — (가) Biosimilar의 설명은 D, (다) Market share의 설명은 A",
+    "틀리다 — (가) Biosimilar의 설명은 D, (나) Patent expiration의 설명은 C",
+    "틀리다 — (가) Biosimilar의 설명은 D, (나) Patent expiration의 설명은 C, (다) Market share의 설명은 A, (라) CMO의 설명은 B",
+    "정답 — 네 쌍 모두 옳다."
+   ],
+   "source": "OT PDF p.12 (About Term Project) · OT PDF p.12 · OT PDF p.12 (공장 운영 컨셉)",
+   "concepts": [
+    "Biosimilar",
+    "Patent expiration",
+    "Market share",
+    "CMO"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-009-010-011-012",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) BFD (Block Flow Diagram)\n(나) PFD (Process Flow Diagram)\n(다) Mass balance (물질수지)\n(라) Equipment list (장비 목록)",
+   "box": [
+    "A. 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+    "B. 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+    "C. 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+    "D. 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도."
+   ],
+   "choices": [
+    "(가)-D  (나)-C  (다)-B  (라)-A",
+    "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-D  (나)-A  (다)-B  (라)-C",
+    "(가)-C  (나)-D  (다)-A  (라)-B"
+   ],
+   "answer": 1,
+   "explanation": "**용어와 설명의 짝**\n(가) **BFD (Block Flow Diagram)** → D. 주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.\n(나) **PFD (Process Flow Diagram)** → C. 물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.\n(다) **Mass balance (물질수지)** → B. 각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.\n(라) **Equipment list (장비 목록)** → A. 공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+   "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) BFD의 설명은 D, (라) Equipment list의 설명은 A",
+    "틀리다 — (나) PFD의 설명은 C, (다) Mass balance의 설명은 B",
+    "틀리다 — (나) PFD의 설명은 C, (라) Equipment list의 설명은 A",
+    "틀리다 — (가) BFD의 설명은 D, (나) PFD의 설명은 C, (다) Mass balance의 설명은 B, (라) Equipment list의 설명은 A"
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.27 · OT PDF p.13, p.20 · WK07 PDF p.28 · OT PDF p.13, p.22 (Process Mass Balance) · OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)",
+   "concepts": [
+    "BFD",
+    "PFD",
+    "Mass balance",
+    "Equipment list"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-013-014-015-016",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Utility consumption (유틸리티 사용량)\n(나) URS (User Requirement Specification)\n(다) Scheduling (공정 스케줄링)\n(라) CAPEX (자본적 지출)",
+   "box": [
+    "A. 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+    "B. 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+    "C. 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "D. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용."
+   ],
+   "choices": [
+    "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-C  (나)-B  (다)-A  (라)-D",
+    "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-B  (나)-A  (다)-D  (라)-C"
+   ],
+   "answer": 4,
+   "explanation": "**용어와 설명의 짝**\n(가) **Utility consumption (유틸리티 사용량)** → A. 공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.\n(나) **URS (User Requirement Specification)** → B. 사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.\n(다) **Scheduling (공정 스케줄링)** → C. 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.\n(라) **CAPEX (자본적 지출)** → D. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+   "choiceNotes": [
+    "틀리다 — (가) Utility consumption의 설명은 A, (나) URS의 설명은 B",
+    "틀리다 — (가) Utility consumption의 설명은 A, (라) CAPEX의 설명은 D",
+    "틀리다 — (가) Utility consumption의 설명은 A, (다) Scheduling의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Utility consumption의 설명은 A, (나) URS의 설명은 B, (다) Scheduling의 설명은 C, (라) CAPEX의 설명은 D"
+   ],
+   "source": "OT PDF p.13 · WK07 PDF p.51 · OT PDF p.23 (Scheduling) · OT PDF p.13, p.27",
+   "concepts": [
+    "Utility consumption",
+    "URS",
+    "Scheduling",
+    "CAPEX"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-015-016-017-018",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Scheduling (공정 스케줄링)\n(나) CAPEX (자본적 지출)\n(다) OPEX (운영 비용)\n(라) ROI (투자수익률)",
+   "box": [
+    "A. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "B. 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "C. 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+    "D. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "choices": [
+    "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-C  (나)-A  (다)-D  (라)-B",
+    "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-C  (나)-B  (다)-D  (라)-A",
+    "(가)-A  (나)-C  (다)-B  (라)-D"
+   ],
+   "answer": 2,
+   "explanation": "**용어와 설명의 짝**\n(가) **Scheduling (공정 스케줄링)** → C. 배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.\n(나) **CAPEX (자본적 지출)** → A. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.\n(다) **OPEX (운영 비용)** → D. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.\n(라) **ROI (투자수익률)** → B. 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+   "choiceNotes": [
+    "틀리다 — (가) Scheduling의 설명은 C, (나) CAPEX의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Scheduling의 설명은 C, (다) OPEX의 설명은 D",
+    "틀리다 — (나) CAPEX의 설명은 A, (라) ROI의 설명은 B",
+    "틀리다 — (가) Scheduling의 설명은 C, (나) CAPEX의 설명은 A, (다) OPEX의 설명은 D, (라) ROI의 설명은 B"
+   ],
+   "source": "OT PDF p.23 (Scheduling) · OT PDF p.13, p.27 · OT PDF p.27 (Marketability)",
+   "concepts": [
+    "Scheduling",
+    "CAPEX",
+    "OPEX",
+    "ROI"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-016-017-018-019",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) CAPEX (자본적 지출)\n(나) OPEX (운영 비용)\n(다) ROI (투자수익률)\n(라) 감가상각 (Depreciation)",
+   "box": [
+    "A. 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+    "B. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "C. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+    "D. 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다."
+   ],
+   "choices": [
+    "(가)-B  (나)-C  (다)-D  (라)-A",
+    "(가)-B  (나)-D  (다)-A  (라)-C",
+    "(가)-B  (나)-C  (다)-A  (라)-D",
+    "(가)-D  (나)-C  (다)-A  (라)-B",
+    "(가)-C  (나)-B  (다)-D  (라)-A"
+   ],
+   "answer": 3,
+   "explanation": "**용어와 설명의 짝**\n(가) **CAPEX (자본적 지출)** → B. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.\n(나) **OPEX (운영 비용)** → C. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.\n(다) **ROI (투자수익률)** → A. 투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.\n(라) **감가상각 (Depreciation)** → D. 설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+   "choiceNotes": [
+    "틀리다 — (다) ROI의 설명은 A, (라) 감가상각의 설명은 D",
+    "틀리다 — (나) OPEX의 설명은 C, (라) 감가상각의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) CAPEX의 설명은 B, (라) 감가상각의 설명은 D",
+    "틀리다 — (가) CAPEX의 설명은 B, (나) OPEX의 설명은 C, (다) ROI의 설명은 A, (라) 감가상각의 설명은 D"
+   ],
+   "source": "OT PDF p.13, p.27 · OT PDF p.27 (Marketability) · OT PDF p.27",
+   "concepts": [
+    "CAPEX",
+    "OPEX",
+    "ROI",
+    "감가상각"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "totm-020-021-016-017",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Milestone (마일스톤)\n(나) Single-use vs Multi-use (공장 컨셉)\n(다) CAPEX (자본적 지출)\n(라) OPEX (운영 비용)",
+   "box": [
+    "A. 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+    "B. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+    "C. 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+    "D. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용."
+   ],
+   "choices": [
+    "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-A  (나)-D  (다)-B  (라)-C",
+    "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-C  (나)-A  (다)-B  (라)-D",
+    "(가)-C  (나)-A  (다)-D  (라)-B"
+   ],
+   "answer": 1,
+   "explanation": "**용어와 설명의 짝**\n(가) **Milestone (마일스톤)** → A. 프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.\n(나) **Single-use vs Multi-use (공장 컨셉)** → C. 일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.\n(다) **CAPEX (자본적 지출)** → B. 공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.\n(라) **OPEX (운영 비용)** → D. 소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+   "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) Single-use vs Multi-use의 설명은 C, (라) OPEX의 설명은 D",
+    "틀리다 — (다) CAPEX의 설명은 B, (라) OPEX의 설명은 D",
+    "틀리다 — (가) Milestone의 설명은 A, (나) Single-use vs Multi-use의 설명은 C",
+    "틀리다 — (가) Milestone의 설명은 A, (나) Single-use vs Multi-use의 설명은 C, (다) CAPEX의 설명은 B, (라) OPEX의 설명은 D"
+   ],
+   "source": "OT PDF p.16 (Example_Milestone) · OT PDF p.12 · OT PDF p.13, p.27",
+   "concepts": [
+    "Milestone",
+    "Single-use vs Multi-use",
+    "CAPEX",
+    "OPEX"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  }
+ ]
+}

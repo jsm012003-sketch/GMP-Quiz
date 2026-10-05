@@ -1,0 +1,154 @@
+{
+ "week": "OT",
+ "prefix": "tot",
+ "lecture": "OT PDF",
+ "terms": [
+  {
+   "no": 1,
+   "term": "Bioprocess (바이오공정)",
+   "group": "flow",
+   "def": "살아 있는 세포를 이용해 목표 물질을 만들고(배양) 분리·정제한 뒤 완제로 만드는 전체 생산 공정.",
+   "src": "OT PDF p.2 (Bioprocess)"
+  },
+  {
+   "no": 2,
+   "term": "Unit operation (단위공정)",
+   "group": "flow",
+   "def": "배양·원심분리·크로마토그래피·여과·충전처럼 하나의 목적을 가진 개별 공정 단계로, 이들이 이어져 전체 공정이 된다.",
+   "src": "OT PDF p.3 (Unit Operation), p.18"
+  },
+  {
+   "no": 3,
+   "term": "Upstream process (USP)",
+   "group": "flow",
+   "def": "배지 준비·세포은행·seed train·생산 배양까지, 세포를 키워 목표 물질을 만드는 앞단 공정.",
+   "src": "OT PDF p.2 · WK02 PDF p.15"
+  },
+  {
+   "no": 4,
+   "term": "Downstream process (DSP)",
+   "group": "flow",
+   "def": "배양액에서 목표 물질을 회수·정제(포획·바이러스 제거·농축·무균 여과)하는 뒷단 공정.",
+   "src": "OT PDF p.2 · WK02 PDF p.15"
+  },
+  {
+   "no": 5,
+   "term": "Biosimilar (바이오시밀러)",
+   "group": "business",
+   "def": "특허가 만료된 오리지널 바이오의약품과 품질·안전성·유효성이 동등함을 입증해 허가받는 복제 바이오의약품.",
+   "src": "OT PDF p.12 (About Term Project)"
+  },
+  {
+   "no": 6,
+   "term": "Patent expiration (특허 만료)",
+   "group": "business",
+   "def": "오리지널 의약품의 독점 보호 기간이 끝나는 것으로, 텀 프로젝트에서 바이오시밀러 대상 molecule을 고르는 기준이 된다.",
+   "src": "OT PDF p.12"
+  },
+  {
+   "no": 7,
+   "term": "Market share (시장 점유율)",
+   "group": "business",
+   "def": "목표 시장 전체 중 우리 제품이 차지할 비율로, 판매가와 함께 필요한 생산 규모를 정하는 근거가 된다.",
+   "src": "OT PDF p.12"
+  },
+  {
+   "no": 8,
+   "term": "CMO (위탁생산기관)",
+   "group": "business",
+   "def": "자체 molecule 없이 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 공장 운영 형태.",
+   "src": "OT PDF p.12 (공장 운영 컨셉)"
+  },
+  {
+   "no": 9,
+   "term": "BFD (Block Flow Diagram)",
+   "group": "design",
+   "def": "주요 공정 단계를 블록으로만 표시해 단계 간 관계를 보여 주는, 가장 초기 단계의 개략 공정도.",
+   "src": "OT PDF p.13 · WK07 PDF p.27"
+  },
+  {
+   "no": 10,
+   "term": "PFD (Process Flow Diagram)",
+   "group": "design",
+   "def": "물질수지·물질 흐름과 사용 장비를 함께 표시해 장비 목록과 크기 산정의 기초가 되는 공정 흐름도.",
+   "src": "OT PDF p.13, p.20 · WK07 PDF p.28"
+  },
+  {
+   "no": 11,
+   "term": "Mass balance (물질수지)",
+   "group": "design",
+   "def": "각 공정 단계에 들어가고 나오는 물질의 양을 계산해 맞춘 것으로, 장비·버퍼·유틸리티 용량 산정의 출발점이다.",
+   "src": "OT PDF p.13, p.22 (Process Mass Balance)"
+  },
+  {
+   "no": 12,
+   "term": "Equipment list (장비 목록)",
+   "group": "design",
+   "def": "공정에 필요한 장비를 사양·크기·수량과 함께 정리한 표로, 비용 추산(CAPEX)의 기초가 된다.",
+   "src": "OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)"
+  },
+  {
+   "no": 13,
+   "term": "Utility consumption (유틸리티 사용량)",
+   "group": "design",
+   "def": "공정 운전에 드는 물(WFI 등)·스팀·전기·가스 등의 사용량으로, 운영비와 유틸리티 설비 용량을 정하는 근거다.",
+   "src": "OT PDF p.13"
+  },
+  {
+   "no": 14,
+   "term": "URS (User Requirement Specification)",
+   "group": "design",
+   "def": "사용자가 장비·시스템에 요구하는 기능과 조건을 문서로 정한 것으로, 장비 선정 이유와 이후 적격성평가의 기준이 된다.",
+   "src": "OT PDF p.13 · WK07 PDF p.51"
+  },
+  {
+   "no": 15,
+   "term": "Scheduling (공정 스케줄링)",
+   "group": "operation",
+   "def": "배양·정제 등 단계별 운영 시간 차이를 고려해 장비·인력 가동률을 최대로 하도록 배치 일정을 짜는 것.",
+   "src": "OT PDF p.23 (Scheduling)"
+  },
+  {
+   "no": 16,
+   "term": "CAPEX (자본적 지출)",
+   "group": "cost",
+   "def": "공장 건설·장비 구매처럼 초기에 한 번 크게 드는 설비 투자 비용.",
+   "src": "OT PDF p.13, p.27"
+  },
+  {
+   "no": 17,
+   "term": "OPEX (운영 비용)",
+   "group": "cost",
+   "def": "소모품·원료·유틸리티·인건비처럼 공장을 운영하는 동안 계속 드는 비용.",
+   "src": "OT PDF p.13, p.27"
+  },
+  {
+   "no": 18,
+   "term": "ROI (투자수익률)",
+   "group": "cost",
+   "def": "투자 대비 얻는 수익의 비율로, 강의에서는 이를 기준으로 사업 진행(Go)·중단(Stop)을 판단하라고 했다.",
+   "src": "OT PDF p.27 (Marketability)"
+  },
+  {
+   "no": 19,
+   "term": "감가상각 (Depreciation)",
+   "group": "cost",
+   "def": "설비 투자비를 사용 기간에 걸쳐 나누어 비용으로 반영하는 것으로, CAPEX·OPEX 추산 때 함께 고려해야 한다.",
+   "src": "OT PDF p.27"
+  },
+  {
+   "no": 20,
+   "term": "Milestone (마일스톤)",
+   "group": "operation",
+   "def": "프로젝트를 단계별로 나눈 중간 목표 시점으로, 강의는 '프로젝트의 정의는 마일스톤'이라고 했다.",
+   "src": "OT PDF p.16 (Example_Milestone)"
+  },
+  {
+   "no": 21,
+   "term": "Single-use vs Multi-use (공장 컨셉)",
+   "group": "operation",
+   "def": "일회용 백·튜브를 쓰고 버리는 방식과, 스테인리스 장비를 세척·멸균해 반복 사용하는 방식 중 공장 운영 컨셉을 고르는 것.",
+   "src": "OT PDF p.12"
+  }
+ ]
+}
