@@ -26,18 +26,18 @@
 | 배지 준비 3단계·0.2/0.1 µm 여과 | wk02-002, int-003 |
 | Temperature shift(37→32 ℃) | wk02-003 |
 | Batch / Fed-batch / Perfusion 비교 | wk02-004 |
-| DoE(24 vessel full factorial) | wk02-005 |
-| pH 7.3 조건의 lactate·Na⁺·삼투압·VCD 해석 | wk02-006, int-008 |
+| DoE(Ambr 15 24 vessel)로 조건 탐색 | wk02-005 |
+| pH 저하 시 접근(원인 → 샘플링·IPC 확인) | wk02-006, int-008 |
 | Design space set point·hypercube | wk02-007, int-005 |
 | QbD 흐름(QTPP→CQA→위험평가→DoE→관리전략) | wk02-008 |
 | CPP vs CQA(Bioprocessing 4.0) | wk02-009 |
 | N-1 perfusion high inoculum fed-batch | wk02-010, int-010 |
 | Concentrated FB(UF) vs Dynamic perfusion(MF) | wk02-011, int-003 |
-| COGS 계산·구성 해석 | wk02-012, wk02-013 |
+| COGS 구성·공정 강화 효과 | wk02-012, wk02-013 |
 | Growth curve 4단계 | wk02-014 |
-| kLa gassing-out·VVM 계산 | wk02-015 |
-| Tip speed 계산 | wk02-016 |
-| P/V 일정 scale-up 계산 | wk02-017 |
+| kLa·OTR/OUR 개념 | wk02-015 |
+| Tip speed의 의미(shear) | wk02-016 |
+| P/V 일정 scale-up 원리 | wk02-017 |
 | OTR ≥ OUR, 교반·통기 design space 대응 | wk02-018, wk02-019 |
 | Superficial gas velocity 영향 | wk02-020 |
 | Scale-down model 전제 | wk02-021 |
@@ -46,21 +46,35 @@
 | Perfusion PAT(BioPAT Trace·ViaMass, cell bleed) | wk02-024 |
 | Sampling·IPC 항목 | wk02-025, int-007 |
 | Modality(AAV·CAR-T·mRNA·Adeno·MSC) | wk02-026 |
-| Seed train 증식 배수 계산 | wk02-027 |
+| Seed train 해동 후 viability 저하 대응 | wk02-027 |
 | VIP vs Coefficient plot | wk02-028 |
 | HEK293T AAV 최적화(pH·stirring CPP) | wk02-029 |
 | Upstream hybrid models | wk02-030 |
 | USP/DSP/DP 흐름 | wk02-031, int-009 |
 | Torque·shear | wk02-032, int-004 |
 
-미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), Basal medium vs Media supplements 구성, 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, Ring vs Micro sparger·single-use 광학 센서, Mixing time 정의, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상), Biopharma 4.0 다섯 요소.
+| **(녹음본)** CLD 클론 선별(batch 배양) | wk02-033 |
+| 연속식 vs perfusion 구분, perfusion 고밀도 유지 이유 | wk02-034, wk02-035 |
+| Seed 단계 무균 작업, 계단식 배양기 배치 | wk02-036, wk02-037 |
+| 센서 vs 오프라인 분석 항목, pH·DO 제어 로직, 센서 이중화 | wk02-038, wk02-039, wk02-040 |
+| 거품·vent filter 대응, 일상 점검 | wk02-041, wk02-042 |
+| Temperature shift와 품질, 생산 시기·VCD 전략 | wk02-043, wk02-044 |
+| 산업 현실(fed-batch 주류), ATF 비용·원리 | wk02-045, wk02-046, wk02-047 |
+| N-1 perfusion의 허가 측면 장점, concentrated FB 운영 | wk02-048, wk02-049 |
+| Scale-up 현실(MSAT)·대규모 난점(foam·CO₂) | wk02-050, wk02-051 |
+| 프로세스 모델링과 규제, Biopharma 4.0 다섯 요소 | wk02-052, wk02-053 |
+| 부착 세포 한계(microcarrier), 아미노산 배지 설계 | wk02-054, wk02-055 |
+| AAV(HEK293) 회수, mRNA·LNP 흐름 | wk02-056, wk02-057 |
+| 데이터 분석·문제 해결 역량, design space의 '공간', SDM 활용 | wk02-058, wk02-059, wk02-060 |
+
+미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), Basal medium vs Media supplements 구성, 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, Ring vs Micro sparger·single-use 광학 센서, Mixing time 정의, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상).
 
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
 | 출제됨 | 문항 |
 |---|---|
 | 완제의약품 정의·제형 분류 | gmp01-001 |
-| 최종멸균 vs 무균조작, SAL | gmp01-002, gmp01-003 |
+| 최종멸균 vs 무균조작, SAL 10⁻⁶의 의미 | gmp01-002, gmp01-003 |
 | 부형제 조건 | gmp01-004 |
 | 교반·과교반·단백질 변성 | gmp01-005, int-004 |
 | Hold time | gmp01-006 |
@@ -108,7 +122,7 @@
 | 성공 조건(농도·분포·시간) | gmp03-005 |
 | ·OH 사멸 원리·아포 | gmp03-006 |
 | Occluded surface | gmp03-007 |
-| SLR·BI population 계산 | gmp03-008 |
+| SLR 6-log·BI 10⁶ 요구 이유 | gmp03-008 |
 | BI·CI·EI 비교 | gmp03-009 |
 | BI 담체(steel disk) | gmp03-010 |
 | Qualification(URS/DQ→IQ→OQ→CD→MBQ→PRQ) | gmp03-011 |
@@ -121,6 +135,52 @@
 
 미출제 후보: VHP 파라미터(H₂O₂ 34~37 %, dosing rate, nozzle airflow), 온도·습도 mapping(응축 위험)·CI mapping, Aeration 기준(< 1.0 ppm)과 측정 방법(교정 센서·검지관), Minimum/Empty load 설계 의미, EI(tAK) 원리.
 
+## WK06 — 항체치료제 공정 설계·정제(DSP)·바이러스 안전성
+
+| 출제됨 | 문항 |
+|---|---|
+| DSP 플랫폼 단계와 목적, Protein A 플랫폼 | wk06-001, wk06-019 |
+| 임상 단계별 바이러스 안전성 계획, ICH Q5A 원칙 | wk06-002, wk06-005 |
+| 모델 바이러스 선정·특성, Case B 세포(MuLV) | wk06-003, wk06-004, wk06-009 |
+| 불활화·제거 기술과 효과 범위, 비외피 소형 바이러스 보강 | wk06-006, wk06-007 |
+| Orthogonal 전략, low pH 조건 이탈 대응 | wk06-008, wk06-024 |
+| DSP 소모품 원가(Amgen 사례) | wk06-010 |
+| Protein A 공정 시간·레진 부피/cycle, titer 상승의 하류 영향 | wk06-011, wk06-012, wk06-013, int-012 |
+| 낮은 층고·WFI 제약에서 SU 선택 | wk06-014 |
+| PW/WFI 계통 | wk06-015, int-013 |
+| Intensified 공정(고밀도 세포은행·perfusion seed), 연속 USP 비교 | wk06-016, wk06-017 |
+| 연속 정제(ASAP·4-column PCC), DSP 발전 방향 | wk06-018, wk06-022 |
+| 상업 정제 공정 비교(플랫폼 + 제품별 조정) | wk06-020 |
+| 공정 시뮬레이션 흐름도, 버퍼·hold 탱크 공간 | wk06-021, wk06-023 |
+| Cohn 혈장 분획 | wk06-025 |
+
+미출제 후보: 모델 바이러스 표의 개별 특성 비교(B19·SV-40·HBV 등 외피·크기·저항성), 연속 UF/DF, 혈장 분획 각 fraction의 산물.
+
+## WK07 — GMP Engineering (시설 설계·건설·프로젝트 관리)
+
+| 출제됨 | 문항 |
+|---|---|
+| 식당 비유(운영 요소 ↔ 제조 요소) | wk07-001 |
+| GMP 시설 설계 4원칙, 21 CFR 211.42 | wk07-002, wk07-003 |
+| 제품 특성(고활성·광·습도·온도·인화성)과 설계 | wk07-004, wk07-005, wk07-006 |
+| 설계 요소(Process 중심), BFD·PFD | wk07-007, wk07-008 |
+| 물질수지(design titer +15 %)와 산정 항목 | wk07-009, wk07-010, int-012 |
+| 장비 배치(palletank)·MU vs SU 선택·자동화 | wk07-011, wk07-012, wk07-013 |
+| Building & site | wk07-014 |
+| 청정 등급(작업별, at rest vs operational), 마감 | wk07-015, wk07-016, wk07-017 |
+| Material·personnel airlock | wk07-018, wk07-019 |
+| Pre/post-viral 분리, GMP flow | wk07-020, wk07-021 |
+| Clean vs black utility, Q&V 범위 | wk07-022, wk07-023, wk07-024, int-013 |
+| HVAC 기능, 전력(UPS·디젤) | wk07-025, wk07-026 |
+| Q&V 흐름, FAT 결함 대응, OQ 미완료 시 PV | wk07-027, wk07-028, int-014 |
+| 프로젝트 단계, 통합(Q&V 동시 참여) | wk07-029, wk07-030 |
+| Ballroom·single-use 밀폐 | wk07-031, wk07-032, int-011 |
+| 임상 개발 단계 | wk07-033 |
+
+미출제 후보: HVAC 차압 계단(pressure cascade), 폐기물(waste) 흐름, Commissioning and Start-Up, Cost Control and Scheduling, Computer System Validation 범위.
+
 ## 통합(공정 연결) 문항
 
 int-001 ~ int-010: 스케줄링, mRNA 전환, 여과 체인, shear·기포, worst case 논리, 잔류 H₂O₂–GPT, 공정별 IPC, 삼투압, DS→DP 전체 흐름, 설비·배양·경제성 trade-off.
+
+int-011 ~ int-015: Ballroom 밀폐 붕괴 대응, titer 상승 → 하류·시설·변경관리, WFI 이상 대응, Q&V 순서(OQ → PV), QbD CPP → URS → Q&V.
