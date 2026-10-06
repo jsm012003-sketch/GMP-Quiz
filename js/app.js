@@ -20,11 +20,12 @@
   };
   // 주인이 아닌 사람(공유 링크로 들어온 사람)이 볼 수 있는 화면
   const GUEST_VIEWS = new Set(['shared', 'exam', 'result', 'print', 'locked', 'error']);
-  // 시험지 PART 구성 (실전 비율: I 40 % · II 40~50 % · III 10~20 % 중 쉬운 쪽 — 2026.10 난이도 조정)
+  // 시험지 PART 구성: I 용어·개념 확인 50 % · II 헷갈리는 개념 구분 50 % (40문항 = 100점)
   const PARTS = {
-    1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 정의와 기본 개념을 정확히 알고 있는지 확인한다.', ratio: 0.40, points: 2 },
-    2: { roman: 'II', name: '개념 간 변별 (중간 난이도)', note: '서로 헷갈리기 쉬운 개념을 구별해 옳고 그름을 판단한다.', ratio: 0.50, points: 3 },
-    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0.10, points: 4 },
+    1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 뜻과 기본 개념을 확인한다.', ratio: 0.50, points: 2 },
+    2: { roman: 'II', name: '헷갈리는 개념 구분', note: '비슷해서 헷갈리기 쉬운 개념을 구분한다.', ratio: 0.50, points: 3 },
+    // 고난도(상황 대응)는 실제 시험에 나오지 않아 출제하지 않는다(ratio 0 → 범위에서 제외). 2026.10
+    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0, points: 4 },
   };
   const ESSAY_POINTS = 5;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3 };
@@ -299,7 +300,7 @@
   }
 
   function partQuotas(n) {
-    let p3 = n >= 4 ? Math.max(1, Math.round(n * PARTS[3].ratio)) : 0;
+    let p3 = PARTS[3].ratio > 0 && n >= 4 ? Math.max(1, Math.round(n * PARTS[3].ratio)) : 0;
     let p1 = Math.round(n * PARTS[1].ratio);
     let p2 = n - p1 - p3;
     if (p2 < 0) { p1 += p2; p2 = 0; }
@@ -317,8 +318,8 @@
   /*
    * 문항 묶음 구성
    *  1) 복습 칸: 전략 비율만큼 오답·약점 문항에서 먼저 고른다.
-   *  2) 나머지: 범위 안에서 출제 횟수가 가장 적은 '이번 바퀴' 문항만 후보로 삼는다
-   *     → 범위의 모든 문항이 한 번씩 나오기 전에는 같은 문항이 다시 나오지 않는다.
+   *  2) 나머지: 범위 안에서 출제 횟수가 가장 적은 '이번 바퀴' 문항만 후보로 삼는다(바퀴는 PART별)
+   *     → 같은 PART의 모든 문항이 한 번씩 나오기 전에는 같은 문항이 다시 나오지 않는다.
    *  3) 후보 점수: PART 비율·주차 비율이 모자란 쪽 가점, 처음 다루는 개념 가점,
    *     이미 시험지에 들어간 개념과 겹치면 감점, 약간의 무작위(매번 새 구성).
    */
@@ -326,6 +327,7 @@
     n = Math.min(n, pool.length);
     if (!n) return { picked: [], review: new Set() };
     // PART 할당량 — 범위에 없는 PART 몫은 다른 PART로 넘긴다
+    const nominal = partQuotas(n);
     const quota = partQuotas(n);
     const avail = { 1: 0, 2: 0, 3: 0 };
     pool.forEach((q) => { avail[q.part] += 1; });
@@ -385,12 +387,22 @@
     const nReview = Math.min(Math.round(n * (STRATEGIES[strategy] || STRATEGIES.fresh).review), weak.length);
     for (let i = 0; i < nReview; i++) if (!take(weak, true)) break;
 
+    // 출제 바퀴는 PART마다 따로 센다 — PART II처럼 문항이 적은 PART가 한 바퀴를 먼저 돌아도
+    // PART I이 다 돌 때까지 빠지지 않도록. 단, 시험지 한 장 몫보다 문항이 적은 PART는
+    // 전체 바퀴를 따른다(같은 몇 문항이 매번 반복되지 않도록).
+    const ownRound = (p) => avail[p] >= nominal[p];
     let guard = 0;
     while (picked.length < n && guard++ < n * 4) {
       const rest = pool.filter(allowed);
       if (!rest.length) break;
-      const low = Math.min(...rest.map((q) => qMeta(q.id).a));
-      if (!take(rest.filter((q) => qMeta(q.id).a === low), false)) break;
+      let all = Infinity;
+      const low = {};
+      rest.forEach((q) => {
+        const a = qMeta(q.id).a;
+        if (a < all) all = a;
+        if (!(q.part in low) || a < low[q.part]) low[q.part] = a;
+      });
+      if (!take(rest.filter((q) => qMeta(q.id).a === (ownRound(q.part) ? low[q.part] : all)), false)) break;
     }
     return { picked, review };
   }
@@ -690,11 +702,12 @@
     return Array.isArray(S.prefs.units) ? S.prefs.units.filter((k) => all.includes(k)) : all;
   }
 
+  const activePart = (q) => PARTS[q.part].ratio > 0;
   function poolFor(mode) {
-    if (mode === 'mock') return S.units.flatMap((u) => u.questions);
+    if (mode === 'mock') return S.units.flatMap((u) => u.questions).filter(activePart);
     if (mode === 'review') return wrongIdsInBank().map((id) => S.qById.get(id));
     const keys = selectedUnitKeys();
-    return S.units.filter((u) => keys.includes(u.key)).flatMap((u) => u.questions);
+    return S.units.filter((u) => keys.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
   }
 
   function estimatePoints(n) {
@@ -750,7 +763,7 @@
       <div class="wrap">
         <section class="hero">
           <h1>복습 문제집</h1>
-          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어 정리(PART I)부터 개념 변별(II), 상황 대응(III)까지 시험지 형식으로 연습하세요.</p>
+          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어·개념 확인(PART I)과 헷갈리는 개념 구분(PART II)을 시험지 형식으로 연습하세요.</p>
         </section>
 
         ${inAppNoticeHTML('인쇄·PDF 저장')}
@@ -812,7 +825,7 @@
         <section class="card">
           <div class="card-head"><h2>3. 문제 수</h2><span class="muted small">선택 범위 ${poolN}문항</span></div>
           <div class="chip-row" role="group" aria-label="문제 수">${poolN ? countChips : '<span class="muted">선택된 범위에 문항이 없습니다.</span>'}</div>
-          ${poolN ? `<p class="muted small" style="margin:10px 0 0">구성(실전 비율): PART I ${quota[1]} · II ${quota[2]} · III ${quota[3]}문항${kind === 'exam' ? ` → 약 ${estPts}점, ${p.timer ? `제한 ${minutes}분 (100점 = 90분)` : '시간 제한 없음'}` : ''}</p>` : ''}
+          ${poolN ? `<p class="muted small" style="margin:10px 0 0">구성: PART I ${quota[1]} · II ${quota[2]}문항${quota[3] ? ` · III ${quota[3]}` : ''}${kind === 'exam' ? ` → 약 ${estPts}점, ${p.timer ? `제한 ${minutes}분 (100점 = 90분)` : '시간 제한 없음'}` : ''}</p>` : ''}
         </section>
 
         <section class="card">
@@ -1146,7 +1159,7 @@
           </div>
           <div>
             <p class="report-label">PART 구성</p>
-            <table class="data mini"><tbody>${[1, 2, 3].map((p) => `<tr><th scope="row">PART ${PARTS[p].roman}</th><td>${r.partDist[p]}문항</td><td class="num">${fmtNum(pct(r.partDist[p], s.items.length))}%</td></tr>`).join('')}</tbody></table>
+            <table class="data mini"><tbody>${[1, 2, 3].filter((p) => r.partDist[p]).map((p) => `<tr><th scope="row">PART ${PARTS[p].roman}</th><td>${r.partDist[p]}문항</td><td class="num">${fmtNum(pct(r.partDist[p], s.items.length))}%</td></tr>`).join('')}</tbody></table>
           </div>
         </div>
       </section>`;
@@ -1163,7 +1176,7 @@
             <p><b>Instructions</b></p>
             <ul>
               <li>객관식은 가장 적절한 답 하나를 고르시오. 시험지의 보기를 누르면 <span class="pen-blue">파란 펜</span>으로 표시되고 답안지(OMR)에 바로 옮겨집니다.</li>
-              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점 · PART III ${PARTS[3].points}점${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
+              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점${s.report && s.report.partDist[3] ? ` · PART III ${PARTS[3].points}점` : ''}${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
               <li>짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다.</li>
               <li>창을 닫아도 처음 화면의 「이어서 풀기」로 남은 시간 그대로 이어 풀 수 있습니다.</li>
             </ul>
@@ -1517,7 +1530,7 @@
         <section class="card print-tools">
           <h2>🖨 인쇄·공유용 시험지</h2>
           ${inAppNoticeHTML('인쇄·PDF 저장')}
-          <p class="muted small" style="margin-top:0">${n}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분 · 범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]} / III ${m.partDist[3]}</p>
+          <p class="muted small" style="margin-top:0">${n}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분 · 범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]}${m.partDist[3] ? ` / III ${m.partDist[3]}` : ''}</p>
           <label class="field">시험지 제목 <input type="text" data-action="print-title" maxlength="40" placeholder="예: 중간고사 대비 1회" value="${esc(set.title || '')}"></label>
           <div class="check-row">
             <label><input type="checkbox" data-action="print-opt" data-key="omr" ${opts.omr ? 'checked' : ''}> 답안지(OMR)</label>
@@ -1596,7 +1609,7 @@
         <section class="card result-hero">
           <p class="muted" style="margin:0">🔗 공유받은 시험지</p>
           <h1 style="margin:6px 0">${esc(set.title || 'GMP 바이오공정 시험지')}</h1>
-          <p class="score-sub">${set.items.length}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분<br>범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]} / III ${m.partDist[3]}</p>
+          <p class="score-sub">${set.items.length}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분<br>범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]}${m.partDist[3] ? ` / III ${m.partDist[3]}` : ''}</p>
           ${set.missing ? `<p class="notice">문제집이 업데이트되어 ${set.missing}문항은 빠졌습니다.</p>` : ''}
           <div class="btn-row">
             <button class="btn btn-primary" type="button" data-action="solve-shared">✍️ 온라인으로 풀기</button>

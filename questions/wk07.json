@@ -5,368 +5,381 @@
   "questions": [
     {
       "id": "wk07-001",
-      "type": "개념",
-      "question": "WK07의 '식당 비유'에서 식당 운영 요소와 의약품 제조 요소의 대응으로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "식당 비유에서 식당 요소와 의약품 공장 요소의 연결로 옳지 않은 것은?",
       "choices": [
-        "고기·밀가루·계란 같은 재료 – 원료(Starting material)",
-        "튀김기·싱크대·작업대 – 직접/간접 장비(Equipment)",
-        "식당 손님 – 청정 유틸리티(Clean utility)",
+        "재료 – 원료(Starting material)",
+        "튀김기 – 장비(Equipment)",
+        "손님 – 청정 유틸리티(Clean utility)",
         "식당 건물 – 시설(Facility)",
         "레시피 – 공정(Process)"
       ],
       "answer": 3,
-      "explanation": "강의는 돈가스 식당으로 의약품 공장을 설명했다: **Restaurant = Facility, Product = 의약품, 재료 = Raw(Starting) material(주성분·부형제), Recipe = Process, 튀김기 등 = Equipment(직접/간접), 요리사 = Personnel, 전기·환기·물 = Utility·Electricity·Clean media(Clean utility), 입지·동선 = Site·Logistics**. 의약품 품질에 영향을 주는 요소는 사람·공기·원료·장비·물·포장재다.",
+      "explanation": "**식당 = 시설, 재료 = 원료, 레시피 = 공정, 조리 기구 = 장비, 요리사 = 사람, 물·전기·환기 = 유틸리티.**",
       "choiceNotes": [
-        "옳은 대응.",
-        "옳은 대응.",
-        "틀린 대응(정답) — clean utility에 해당하는 것은 깨끗한 물 같은 clean media다.",
-        "옳은 대응.",
-        "옳은 대응."
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 물·전기·환기가 유틸리티다.",
+        "옳은 진술.",
+        "옳은 진술."
       ],
       "source": "WK07 GMP Engineering PDF p.5–13 (Brainstorming)",
       "tags": [
         "Facility",
         "Process",
         "Utility"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-002",
       "type": "개념",
-      "question": "GMP 시설 설계의 4대 원칙으로 옳지 않은 것은?",
+      "question": "GMP 시설 설계의 4대 원칙이 아닌 것은?",
       "choices": [
-        "규정이 벽 재질·설비 사양 같은 세부 기술 요구까지 모두 정해 주므로 규정 문구대로만 설계하면 된다.",
-        "cGMP와 관련 당국의 요구사항을 준수한다.",
-        "제품과 공정을 자세히 고려한 설계여야 한다.",
-        "확장이 가능한 유연한 공간을 확보한다.",
-        "경제적인 건설과 유지보수·에너지 비용을 고려한다."
+        "규정 문구만 그대로 따르면 된다",
+        "cGMP와 당국 요구사항을 지킨다",
+        "제품과 공정을 고려해 설계한다",
+        "확장할 수 있는 유연한 공간을 둔다",
+        "건설·유지·에너지 비용을 아낀다"
       ],
       "answer": 1,
-      "explanation": "4대 원칙: **(1) cGMP·당국 요구 준수 (2) 제품·공정에 기반한 설계 (3) 확장 가능한 유연한 공간 (4) 비용 효율적인 건설·유지보수·에너지**. 강의는 '**Regulations do not touch detailed technical requirement!**'라고 강조했다 — 규정은 원칙(적절한 크기, 혼동·오염 방지, 구역 분리, 압력·미생물·습도·온도 관리 등)만 정하고, 구체적 기술 해법은 설계자가 정한다.",
+      "explanation": "**4대 원칙: cGMP 준수, 제품·공정 기반 설계, 확장 가능한 유연한 공간, 경제적인 건설·유지.** 강의: 규정은 세부 기술 요구사항까지 정해 주지 않는다.",
       "choiceNotes": [
-        "틀린 설명(정답) — 규정은 세부 기술 요구를 정하지 않는다.",
-        "옳은 원칙.",
-        "옳은 원칙.",
-        "옳은 원칙.",
-        "옳은 원칙."
+        "원칙이 아니다(정답) — 규정은 세부 기술까지 정해 주지 않는다.",
+        "원칙이다.",
+        "원칙이다.",
+        "원칙이다.",
+        "원칙이다."
       ],
       "source": "WK07 PDF p.16 (Design of GMP Facility), p.20",
       "tags": [
         "Facility design",
         "cGMP"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-003",
-      "type": "상황판단",
-      "question": "신규 공장 배치를 검토하고 있다. 미국 21 CFR 211.42(설계·건설)의 취지에 가장 맞는 판단은?",
+      "type": "개념",
+      "question": "미국 FDA 21 CFR 211.42(건물 설계)의 취지로 옳은 것은?",
       "choices": [
-        "페니실린 제품을 다른 의약품과 같은 시설에서 함께 생산한다.",
-        "건물은 설비만 들어가면 되며 청소·정비 공간은 고려하지 않는다.",
-        "공간을 아끼기 위해 시험 대기 원료와 합격 원료를 같은 구역에 섞어 보관한다.",
-        "입고·시험 대기, 불합격품, 합격 원료, 제조, 포장, 출하 전 격리 보관 등 작업별로 구분된 구역(또는 동등한 관리 체계)을 두어 혼동(mix-up)과 오염을 막는다.",
-        "무균 공정 구역의 벽·바닥은 거칠어도 자주 닦으면 된다."
+        "시험 전 원료와 합격 원료를 섞어 보관한다",
+        "청소 공간은 고려하지 않는다",
+        "페니실린을 다른 약과 함께 만든다",
+        "작업별로 구역을 나눠 혼동과 오염을 막는다",
+        "무균 구역 벽은 거칠어도 된다"
       ],
       "answer": 4,
-      "explanation": "211.42: 건물은 **청소·정비·작업에 적합한 크기**, **혼동(mix-up)과 오염 방지**, 작업별로 **분리되거나 정해진 구역**(입고·시험 대기, 불합격품, 합격품, 제조, 포장, 출하 전 격리 등). 무균 공정에는 **매끈하고 단단해 청소가 쉬운 표면**, 온습도 관리, 양압 HEPA 급기, 환경 모니터링, 세척·소독 시스템. **페니실린은 별도 시설**에서 생산한다.",
+      "explanation": "**건물은 청소·정비에 알맞은 크기로, 작업별 구역을 나눠 혼동(mix-up)과 오염을 막아야 한다.** 페니실린은 별도 시설에서 만든다.",
       "choiceNotes": [
-        "틀리다 — 페니실린은 분리된 시설이 필요하다.",
-        "틀리다 — 청소·정비가 가능한 크기여야 한다.",
-        "틀리다 — 혼동 위험이 크다.",
-        "옳다 — 구역 분리로 혼동·오염 방지.",
-        "틀리다 — 매끈하고 단단한 표면이 요구된다."
+        "틀리다 — 구역을 나눠야 한다.",
+        "틀리다 — 청소·정비에 맞는 크기여야 한다.",
+        "틀리다 — 별도 시설.",
+        "옳다.",
+        "틀리다 — 매끈하고 닦기 쉬워야 한다."
       ],
       "source": "WK07 PDF p.18–20 (US FDA 21 CFR 211.42)",
       "tags": [
         "21 CFR 211.42",
         "Mix-up",
         "구역 분리"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-004",
-      "type": "상황판단",
-      "question": "제품 특성에 따른 설계 반영으로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "제품 특성과 설계 반영의 연결로 옳지 않은 것은?",
       "choices": [
-        "인화성 원료 – 방폭(Ex-proof) 요건 적용",
-        "고활성(독성) 제품 – 다른 제품과 같은 HVAC·보관 구역을 공유해 비용 절감",
-        "빛에 민감한 제품 – 빛을 차단하는 밀폐 공정",
-        "습기에 민감한 제품 – 작업 중 저습도 조건 유지",
-        "온도에 민감한 제품 – 냉장·냉동 등 보관 조건 확보"
+        "불에 잘 타는 원료 – 방폭 설비",
+        "독성이 강한 제품 – 다른 제품과 공조·보관 공유",
+        "빛에 약한 제품 – 빛을 막는 밀폐 공정",
+        "습기에 약한 제품 – 낮은 습도 유지",
+        "온도에 약한 제품 – 냉장·냉동 보관"
       ],
       "answer": 2,
-      "explanation": "Product Characteristics vs Design Features: **Light sensitive → light protection closed process / Humidity sensitive → low humidity / Temperature sensitive → storage(cold, freezer), dedicated equipment / Toxicity(high potent) → containment, HVAC 요건, 분리 보관 / Flammable → Ex-proof**. 고활성 제품은 봉쇄와 분리가 원칙이다.",
+      "explanation": "**고활성(독성) 제품은 봉쇄(containment)·전용 공조·분리 보관이 원칙이다.** 인화성 → 방폭, 빛 → 차광 밀폐, 습기 → 저습, 온도 → 냉장·냉동.",
       "choiceNotes": [
-        "옳은 반영.",
-        "틀린 반영(정답) — containment·전용 HVAC·분리 보관이 필요하다.",
-        "옳은 반영.",
-        "옳은 반영.",
-        "옳은 반영."
+        "옳은 진술.",
+        "틀린 진술(정답) — 봉쇄·전용 공조·분리 보관이 필요하다.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.23 (Product Characteristics vs. Design Features)",
       "tags": [
         "Containment",
         "Ex-proof",
         "Design feature"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-005",
-      "type": "상황판단",
-      "question": "다목적 공장에 고활성(High potent) 제품을 새로 들여올 때 설계 반영 사항으로 옳지 않은 것은?",
+      "type": "개념",
+      "question": "고활성(독성이 강한) 제품을 들여올 때 설계에 넣지 않는 것은?",
       "choices": [
-        "봉쇄(containment) 설비를 갖춘다.",
-        "다른 구역과 구분된 HVAC 요건을 둔다.",
-        "분리된 보관 구역을 둔다.",
-        "다른 제품과 장비를 그대로 공유해 쓴다.",
-        "필요하면 전용(dedicated) 장비를 쓴다."
+        "봉쇄(containment) 설비",
+        "구분된 공조(HVAC)",
+        "분리된 보관 구역",
+        "필요하면 전용 장비",
+        "다른 제품과 장비 그대로 공유"
       ],
-      "answer": 4,
-      "explanation": "**고활성 제품은 봉쇄와 분리가 원칙이다.** Product Characteristics vs Design Features: Toxicity(High potent drug) → Containment, HVAC requirements, Separated storage(필요하면 dedicated equipment). 장비를 그대로 공유하면 교차오염 위험이 커진다.",
+      "answer": 5,
+      "explanation": "**고활성 제품은 봉쇄와 분리가 원칙이라 장비를 그대로 공유하지 않는다.**",
       "choiceNotes": [
-        "옳은 진술 — Containment.",
-        "옳은 진술 — HVAC requirements.",
-        "옳은 진술 — Separated storage.",
-        "틀린 진술(정답) — 교차오염 위험.",
-        "옳은 진술 — dedicated equipment."
+        "넣는다.",
+        "넣는다.",
+        "넣는다.",
+        "넣는다.",
+        "넣지 않는다(정답) — 교차오염 위험."
       ],
       "source": "WK07 PDF p.23",
       "tags": [
         "HPAPI",
         "Containment"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-006",
-      "type": "개념",
-      "question": "제품 유형·생산 계획(forecast)과 설계 특징의 연결로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "제품 정보와 그에 따라 정하는 설계 항목의 연결로 옳지 않은 것은?",
       "choices": [
-        "착색성(staining) 물질 – 전용 장비와 CIP 적용 검토",
-        "생산 계획 – 청정 등급별 입자 허용 기준치를 결정",
-        "제품 유형 – 다목적(multi-purpose) 시설인지 전용(dedicated) 시설인지 결정",
-        "제품 유형 – 공정 장비의 용량과 개수 결정",
-        "생산 계획 – 물류(logistics)와 근무 교대(shift) 모델 결정"
+        "제품 종류 – 다목적 시설인지 전용 시설인지",
+        "생산 예측 – 청정 등급의 입자 기준",
+        "제품 종류 – 장비 용량과 개수",
+        "생산 예측 – 물류와 근무 교대 방식",
+        "색이 잘 배는 물질 – 전용 장비와 CIP"
       ],
       "answer": 2,
-      "explanation": "Product vs Design Features: **Product type → multi-purpose vs dedicated, 장비 용량·개수 / Product forecast → logistics, working shift model / Staining material → dedicated equipment, CIP**. 청정 등급별 입자 기준은 규정(EU GMP Annex 1, ISO 14644-1)으로 정해진다.",
+      "explanation": "**청정 등급별 입자 기준은 규정으로 정해진 값이다.** 제품 종류 → 다목적/전용·장비 용량, 생산 예측 → 물류·교대 방식, 착색 물질 → 전용 장비·CIP.",
       "choiceNotes": [
-        "옳은 연결.",
-        "틀린 연결(정답) — 입자 기준은 규정으로 정해진다.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결."
+        "옳은 진술.",
+        "틀린 진술(정답) — 입자 기준은 규정(Annex 1·ISO)으로 정해져 있다.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.22 (Product vs. Design Features), p.36–37",
       "tags": [
         "Production forecast",
         "Dedicated facility"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-007",
       "type": "개념",
-      "question": "시설 설계 요소 중 '공정(Process)' 요소에 해당하지 않는 것은?",
+      "question": "시설 설계 요소 중 '공정(Process)'에 해당하지 않는 것은?",
       "choices": [
-        "장비 선정·크기 산정과 통합",
+        "장비 선정과 크기 계산",
         "자동화 개념",
-        "공정실 배치(room layout)와 자재·인원 흐름 개념",
-        "연료·냉각수·소방수 같은 black utility 설계",
-        "공정 구조화와 물질수지 검증"
+        "공정실 배치와 자재·사람 동선",
+        "연료·냉각수 같은 black utility",
+        "물질수지 확인"
       ],
       "answer": 4,
-      "explanation": "**Process**: 공정 구조화, 물질수지 검증, 장비 선정·크기 산정, 장비 통합, 자동화 개념, room layout, 자재·인원 흐름. **GMP Facility Design**: 청정실 개념·등급, 압력 구역, HVAC, clean utility, 환경 모니터링 등. **Building & Building Services**: site master plan, 건축, 안전·환경, **black utilities**, 전기, 통신. 공정이 시설 설계의 핵심(core)이다.",
+      "explanation": "**공정 요소: 공정 구조화, 물질수지, 장비 선정·크기·통합, 자동화, room layout, 동선.** Black utility·전기·통신은 건물 서비스 요소다. 공정이 시설 설계의 핵심이다.",
       "choiceNotes": [
         "해당한다.",
         "해당한다.",
         "해당한다.",
-        "해당하지 않는다(정답) — Building services 요소다.",
+        "해당하지 않는다(정답) — 건물·건물 서비스 요소다.",
         "해당한다."
       ],
       "source": "WK07 PDF p.25 (Elements to be Considered), p.26",
       "tags": [
         "Process element",
         "Building services"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-008",
       "type": "개념",
-      "question": "BFD와 PFD에 대한 설명으로 옳지 않은 것은?",
+      "question": "도면을 만드는 순서로 옳은 것은?",
       "choices": [
-        "P&ID가 먼저 완성되어야 BFD를 그릴 수 있다.",
-        "BFD는 프로젝트 초기에 주요 공정 운영과 그 관계를 보여 준다.",
-        "BFD로 필요한 공정실, 실 사이의 관계, 개념 배치(bubble diagram)를 그려 볼 수 있다.",
-        "PFD는 제조 지시를 바탕으로 물질수지, 주요 공정 단계, 사용 장비를 나타낸다.",
-        "PFD는 예비 장비 목록·크기 산정과 공간 배치의 근거가 되고, 더 자세한 P&ID의 기초가 된다."
+        "BFD → PFD → P&ID",
+        "P&ID → PFD → BFD",
+        "PFD → BFD → P&ID",
+        "BFD → P&ID → PFD",
+        "P&ID → BFD → PFD"
       ],
       "answer": 1,
-      "explanation": "순서는 **BFD(아주 초기, 개념) → PFD(물질수지·장비) → P&ID(배관·계장 상세)**다. BFD는 PFD의 선행 단계이며, PFD는 장비 목록·크기 산정과 건축가의 공간 배치에 쓰인다.",
+      "explanation": "**BFD(블록으로 그린 개략도, 가장 초기) → PFD(물질수지·장비 포함) → P&ID(배관·계장 상세).**",
       "choiceNotes": [
-        "틀린 진술(정답) — BFD가 가장 먼저다.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술."
+        "옳다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.27 (BFD), p.28 (PFD)",
       "tags": [
         "BFD",
         "PFD",
         "P&ID"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-009",
-      "type": "상황판단",
-      "question": "현재 titer를 바탕으로 설비를 설계하려는데, 선임이 '설계 titer는 현재보다 약 15% 높게 가정하라'고 했다. 그 이유로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "설비를 설계할 때 titer를 현재보다 약 15 % 높게 잡는 이유는?",
       "choices": [
-        "규정상 반드시 15%를 더해야 하기 때문이다.",
-        "보험료를 줄이기 위해서다.",
-        "titer는 설비 크기와 관계가 없기 때문이다.",
-        "실제 생산량을 15% 줄이기 위해서다.",
-        "앞으로 공정 개선으로 titer가 오르면 버퍼·필터·컬럼이 작게 설계(undersizing)되는 문제를 막고, 지나친 과대 설계도 피하는 합리적 여유를 두기 위해서다."
+        "규정이 15 %를 요구해서",
+        "생산량을 줄이려고",
+        "보험료를 줄이려고",
+        "titer와 설비 크기는 관계없어서",
+        "나중에 titer가 올라도 설비가 모자라지 않게 하려고"
       ],
       "answer": 5,
-      "explanation": "Mass Balance 흐름: **현재 titer → 설계 titer 가정(+15%) → 장비·버퍼 크기 산정, 기술 선택, PFD, room layout → 과대·과소 설계 방지 → 공정 부피 확정 → 필터·컬럼 크기 → clean media(clean utility 용량)·black utility 소비량**. 미래 개선 여지를 반영한 여유값이다.",
+      "explanation": "**앞으로 공정이 개선돼 titer가 올라도 버퍼·필터·컬럼이 모자라지 않도록 설계 titer를 약 15 % 높게 잡는다.**",
       "choiceNotes": [
-        "틀리다 — 규정 값이 아니라 설계 가정이다.",
-        "틀리다 — 관련 없다.",
-        "틀리다 — titer는 처리 부피·장비 크기에 직결된다.",
-        "틀리다 — 반대다.",
-        "옳다."
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 관계가 크다.",
+        "옳다 — 과소·과대 설계를 막는 여유."
       ],
       "source": "WK07 PDF p.29 (Mass Balance: Design titer assumption plus 15%)",
       "tags": [
         "Mass balance",
         "Design titer"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-010",
       "type": "개념",
-      "question": "물질수지(mass balance)가 확정된 뒤 이를 근거로 산정하는 것으로 옳지 않은 것은?",
+      "question": "물질수지(mass balance)로 계산하는 것이 아닌 것은?",
       "choices": [
-        "크로마토그래피 컬럼 크기",
-        "WFI 등 clean utility 용량과 black utility 소비량",
-        "청정 등급별 입자 허용 기준",
-        "버퍼 탱크 크기와 버퍼 분배",
-        "필터 크기"
+        "컬럼 크기",
+        "필터 크기",
+        "청정 등급별 입자 기준",
+        "버퍼 탱크 크기",
+        "WFI 등 유틸리티 사용량"
       ],
       "answer": 3,
-      "explanation": "물질수지 → **버퍼 크기·분배, 공정 부피, 필터·컬럼 크기 → clean media 소비(clean utility 용량), black utility 소비**. 입자 허용 기준은 규정으로 정해진 값이다.",
+      "explanation": "**물질수지로 공정 부피를 정하고 → 필터·컬럼·버퍼 탱크 크기와 유틸리티 사용량을 계산한다.**",
       "choiceNotes": [
-        "산정한다.",
-        "산정한다.",
-        "해당하지 않는다(정답) — 규정 기준이다.",
-        "산정한다.",
-        "산정한다."
+        "계산한다.",
+        "계산한다.",
+        "계산하지 않는다(정답) — 규정으로 정해진 값.",
+        "계산한다.",
+        "계산한다."
       ],
       "source": "WK07 PDF p.29 (Mass Balance), p.36–37",
       "tags": [
         "Mass balance",
         "Utility capacity"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-011",
-      "type": "상황판단",
-      "question": "이동식 single-use 버퍼 탱크(palletank)를 복도에 두는 배치를 검토하고 있다. Room layout으로 꼭 확인해야 할 사항으로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "장비 배치도(room layout)로 확인하는 것이 아닌 것은?",
       "choices": [
-        "직원 채용 계획",
-        "광고 전략",
-        "공간 제약, 실제 작업 가능성(operability), 이동식 장비가 다닐 통로(traffic ways)",
+        "공간이 충분한지",
+        "실제로 작업할 수 있는지",
         "제품 판매 가격",
-        "임상시험 일정"
+        "이동식 장비가 다닐 통로",
+        "장비 사이 배치"
       ],
       "answer": 3,
-      "explanation": "Process Equipment Integration: room layout은 **multi-use 장비, single-use 장비, 복도의 장비(buffer palletanks)**를 보여 주며, **공간 제약 확인, 운전 가능성 검증, 이동식 장비 통로 검증**에 필요하다.",
+      "explanation": "**Room layout으로 공간 제약, 작업 가능성(operability), 이동 장비 통로를 확인한다.** 복도에 둔 버퍼 탱크(palletank)도 표시한다.",
       "choiceNotes": [
-        "틀리다 — layout 검토 항목이 아니다.",
-        "틀리다 — layout 검토 항목이 아니다.",
-        "옳다.",
-        "틀리다 — layout 검토 항목이 아니다.",
-        "틀리다 — layout 검토 항목이 아니다."
+        "확인한다.",
+        "확인한다.",
+        "확인하지 않는다(정답).",
+        "확인한다.",
+        "확인한다."
       ],
       "source": "WK07 PDF p.32 (Process Equipment Integration)",
       "tags": [
         "Room layout",
         "Single-use"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-012",
-      "type": "개념",
-      "question": "장비를 multi-use(stainless)로 할지 single-use로 할지 고를 때의 고려사항으로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "Single-use(일회용)와 multi-use(스테인리스) 장비의 비교로 옳지 않은 것은?",
       "choices": [
-        "Single-use는 일회용이므로 제품 접촉 부품의 무결성이나 추출물 평가가 전혀 필요 없다.",
-        "Single-use는 세척(CIP)·멸균(SIP)과 그 검증 부담을 줄일 수 있다.",
-        "Single-use는 제품 전환이 빨라 유연성이 높다.",
-        "Single-use는 bag 등 소모품 비용과 공급망 의존도가 커진다.",
-        "Single-use 설비는 높이가 낮아 층고가 제한된 건물에 유리할 수 있다."
+        "Single-use는 부품 평가가 전혀 필요 없다",
+        "Single-use는 세척·멸균 부담이 적다",
+        "Single-use는 제품 전환이 빠르다",
+        "Single-use는 소모품 비용이 든다",
+        "Single-use는 높이가 낮아 층고가 낮은 건물에 유리하다"
       ],
       "answer": 1,
-      "explanation": "Equipment selection은 **multi-use vs single-use, customized vs standard**를 따진다. Single-use는 세척·멸균 부담 감소, 유연성, 낮은 높이(약 2,000 mm vs 2,600 mm) 같은 장점이 있지만, 소모품 비용과 공급 의존성이 있고, 제품 접촉 부품의 **무결성·추출물(extractables/leachables) 평가**도 필요하다(일반 원리).",
+      "explanation": "**Single-use는 세척·멸균 부담이 적고 유연하며 높이가 낮지만, 소모품 비용이 들고 제품 접촉 부품의 무결성·추출물 평가가 필요하다.**",
       "choiceNotes": [
-        "틀린 진술(정답) — 무결성·추출물 평가가 필요하다.",
+        "틀린 진술(정답) — 무결성·추출물 평가가 필요하다(일반 원리).",
         "옳은 진술.",
         "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술 — WK06 높이 비교."
+        "옳은 진술 — 공급망 의존도도 커진다.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.31 (Equipment Selection), p.63 (Single Use System) · WK06 PDF p.26",
       "tags": [
         "Single-use",
         "Multi-use",
         "Equipment selection"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-013",
       "type": "개념",
-      "question": "Upstream 공정 자동화 아키텍처 사례에 대한 설명으로 가장 적절한 것은?",
+      "question": "공정 자동화 시스템에 대한 설명으로 옳은 것은?",
       "choices": [
-        "SCADA는 하나만 두고 이중화하지 않는 것이 원칙이다.",
-        "다른 회사 장비는 자동화 시스템에 연결할 수 없다.",
-        "자동화 시스템은 컴퓨터 시스템 밸리데이션(CSV) 대상이 아니다.",
-        "분산된 PLC와 이중화(redundant) SCADA로 구성하고, 3rd party 장비를 통합하며 ISA-S88 소프트웨어 구조를 따른다.",
-        "모든 장비를 수동으로만 운전한다."
+        "자동화 시스템은 밸리데이션 대상이 아니다",
+        "다른 회사 장비는 연결할 수 없다",
+        "SCADA는 이중화하지 않는다",
+        "PLC가 장비를 제어하고 SCADA가 전체를 감시한다",
+        "모든 장비를 손으로만 운전한다"
       ],
       "answer": 4,
-      "explanation": "Process Automation: **PLC/SCADA 시스템 – 분산 PLC, 이중화 SCADA, 3rd party 장비 통합, ISA-S88 소프트웨어 구조**. 이런 시스템은 Q&V 단계에서 **Computer System Validation** 대상이다.",
+      "explanation": "**분산 PLC가 장비를 제어하고, 이중화한 SCADA가 전체를 감시하며, 다른 회사 장비도 통합한다(ISA-S88 구조).** 이런 시스템은 CSV 대상이다.",
       "choiceNotes": [
+        "틀리다 — 컴퓨터 시스템 밸리데이션(CSV) 대상.",
+        "틀리다 — 통합한다.",
         "틀리다 — 이중화한다.",
-        "틀리다 — 3rd party 장비를 통합한다.",
-        "틀리다 — CSV 대상이다.",
         "옳다.",
-        "틀리다 — 자동화 아키텍처를 쓴다."
+        "틀리다."
       ],
       "source": "WK07 PDF p.33 (Process Automation), p.58 (Computer System Validation)",
       "tags": [
         "Automation",
         "SCADA",
         "CSV"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-014",
-      "type": "개념",
-      "part": 1,
-      "question": "공장 부지(site)에 건물을 배치하는 개념의 설명으로 옳은 것은?",
+      "type": "연결",
+      "part": 2,
+      "question": "Spine 개념과 Campus 개념의 차이로 옳은 것은?",
       "choices": [
-        "Campus 개념은 건물을 지하 통로로 반드시 연결한다.",
-        "Spine 개념은 여러 단일 건물을 연결 복도로 이어 하나의 복합 시설로 만드는 방식이다.",
-        "Campus 개념은 모든 기능을 하나의 건물에 넣는 방식이다.",
-        "Spine 개념은 건물끼리 전혀 연결하지 않는 방식이다.",
-        "단일 건물 방식에서는 확장을 고려할 필요가 없다."
+        "Spine은 건물을 연결하지 않음",
+        "Spine은 복도로 건물을 연결, Campus는 건물이 따로 떨어져 있음",
+        "Campus는 모든 기능을 한 건물에 넣음",
+        "둘 다 같은 뜻",
+        "Campus는 지하로 꼭 연결함"
       ],
       "answer": 2,
-      "explanation": "Building(and Site): **단일 건물/건물 복합체**, **Spine 개념 – 여러 건물을 연결 복도로 이어 하나의 복합 시설**, **Campus 개념 – 여러 건물이 구조적으로 연결되지 않음**. 어느 쪽이든 site master plan에서 확장 가능성을 고려한다.",
+      "explanation": "**Spine 개념 = 여러 건물을 연결 복도로 이어 하나의 복합 시설로, Campus 개념 = 건물들이 구조적으로 연결되지 않고 부지에 흩어져 있음.**",
       "choiceNotes": [
-        "틀리다 — 연결되지 않는다.",
+        "틀리다 — 반대다.",
         "옳다.",
-        "틀리다 — 여러 건물이 분리되어 있다.",
-        "틀리다 — 복도로 연결한다.",
-        "틀리다 — 확장성은 4대 원칙 중 하나다."
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.35 (Building and Site)",
       "tags": [
@@ -377,50 +390,51 @@
     },
     {
       "id": "wk07-015",
-      "type": "상황판단",
-      "question": "작업과 최소 청정 등급(EU 기준)의 연결로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "작업과 청정 등급의 연결로 옳지 않은 것은?",
       "choices": [
-        "무균 여과가 불가능한 제품의 무균 조작, 모든 무균 제품의 충전 – Grade A",
-        "Grade A의 배경 환경, 개방된 무균 제품·부품을 밀폐 시스템으로 옮기는 작업 – Grade B",
-        "최종멸균 가능한 제품의 충전, 무균 여과 가능한 제품의 조제 – Grade C",
-        "대부분 밀폐된 시스템에서 최종멸균 가능한 제품의 조제, 아이솔레이터 주변(EU 최소) – Grade D",
-        "개방된 상태의 무균 제품 충전 – Grade D"
+        "무균 제품 충전 – Grade A",
+        "Grade A의 배경 – Grade B",
+        "최종멸균 제품 충전 – Grade C",
+        "아이솔레이터 주변(EU 최소) – Grade D",
+        "열린 무균 제품 충전 – Grade D"
       ],
       "answer": 5,
-      "explanation": "Cleanroom class: **A – 무균 여과 불가 제품의 무균 제조, 모든 무균 제품 충전 / B – A의 배경, 개방 무균 제품·부품의 밀폐 시스템 이송 / C – 최종멸균 가능 제품 충전, 무균 여과 가능 제품 조제, 아이솔레이터·BFS 주변(FDA) / D – 대부분 밀폐 시스템에서 최종멸균 가능 제품 조제, 아이솔레이터 주변(EU 최소)**. GMP01·02의 'Grade A 충전, Grade B 배경'과 같은 내용이다.",
+      "explanation": "**Grade A = 무균 충전·무균 조작, B = A의 배경, C = 최종멸균 제품 충전·여과 가능 제품 조제, D = 밀폐계 조제·아이솔레이터 주변.**",
       "choiceNotes": [
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "틀린 연결(정답) — 무균 충전은 Grade A(배경 B)다."
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 무균 충전은 Grade A."
       ],
       "source": "WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
       "tags": [
         "Cleanroom grade",
         "Grade A/B/C/D"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-016",
-      "type": "개념",
-      "part": 1,
-      "question": "청정 등급의 'at rest(비가동)'와 'operational(가동)' 기준에 대한 설명으로 옳은 것은?",
+      "type": "연결",
+      "part": 2,
+      "question": "청정 등급의 비가동(at rest)과 가동(operational) 기준의 비교로 옳은 것은?",
       "choices": [
-        "가동 상태에서는 미생물(CFU) 기준을 보지 않는다.",
-        "Grade A는 비가동과 가동 기준이 같고, Grade B·C는 사람과 작업이 있는 가동 상태에서 허용 입자 수가 비가동보다 높다.",
-        "모든 등급은 비가동과 가동 기준이 같다.",
-        "Grade D는 가동 상태의 입자 기준이 가장 엄격하다.",
-        "비가동 기준은 작업자가 가장 많을 때 측정한다."
+        "모든 등급의 두 기준이 같다",
+        "Grade A는 비가동과 가동 기준이 같다",
+        "가동 상태에서는 미생물을 보지 않는다",
+        "Grade D 가동 기준이 가장 엄격하다",
+        "비가동은 사람이 가장 많을 때 잰다"
       ],
       "answer": 2,
-      "explanation": "표(≥0.5 µm/m³): **A – at rest 3,520 / operational 3,520**, **B – 3,520 / 352,000**, **C – 352,000 / 3,520,000**, **D – 3,520,000 / 정의 안 됨**. 가동 시 미생물 기준(CFU/m³)은 A <1, B 10, C 100, D 200. at rest는 작업이 멈추고 15–20분 정화된 뒤의 상태다. Grade A는 가동 중에도 같은 기준을 지켜야 한다는 점이 핵심이다.",
+      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태.",
       "choiceNotes": [
-        "틀리다 — 가동 상태 CFU 기준이 있다.",
-        "옳다.",
-        "틀리다 — B·C는 다르다.",
-        "틀리다 — D의 가동 기준은 정의되지 않았다.",
-        "틀리다 — at rest는 작업이 없는 상태다."
+        "틀리다.",
+        "옳다 — B·C는 가동 때 허용치가 높다.",
+        "틀리다.",
+        "틀리다 — D는 가동 기준이 정해져 있지 않다.",
+        "틀리다 — 작업이 멈춘 상태다."
       ],
       "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
       "tags": [
@@ -432,294 +446,296 @@
     {
       "id": "wk07-017",
       "type": "개념",
-      "question": "청정실 마감(finish) 설계 원칙으로 옳지 않은 것은?",
+      "question": "청정실 마감(벽·바닥·조명) 원칙으로 옳지 않은 것은?",
       "choices": [
-        "바닥과 벽이 만나는 모서리는 둥글게(coved) 처리한다.",
-        "먼지가 쌓일 수 있는 수평 배관·덕트·장비 표면을 최소화한다.",
-        "조명은 밀폐형 등기구를 쓰고, 천장 HEPA 모듈과 통합하기도 한다.",
-        "점검이 쉽도록 배관·덕트를 실내 천장 아래에 수평으로 노출해 설치한다.",
-        "벽과 바닥은 청소가 쉽고 마모와 세척제에 강해야 한다."
+        "벽과 바닥이 만나는 모서리를 둥글게",
+        "먼지 쌓이는 수평 배관을 줄임",
+        "조명은 밀폐형으로",
+        "배관을 천장 아래에 노출해 설치",
+        "청소가 쉽고 세척제에 강한 재질"
       ],
       "answer": 4,
-      "explanation": "Cleanroom Finishes: **청소 쉬움·마모·세척제 내성, coved 모서리, 수평 배관·덕트·장비 표면 최소화, 밀폐형 조명(천장 HEPA 모듈 통합)**. 노출된 수평 배관은 먼지가 쌓이고 청소가 어렵다.",
+      "explanation": "**청정실은 닦기 쉽게: 둥근 모서리, 수평 배관·덕트 최소화, 밀폐형 조명, 세척제에 강한 재질.**",
       "choiceNotes": [
-        "옳은 원칙.",
-        "옳은 원칙.",
-        "옳은 원칙.",
-        "틀린 원칙(정답) — 먼지가 쌓이는 수평면을 줄여야 한다.",
-        "옳은 원칙."
+        "옳은 진술 — coved corner.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 먼지가 쌓이고 청소가 어렵다.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.38 (Cleanroom Finishes)",
       "tags": [
         "Cleanroom finish"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-018",
-      "type": "상황판단",
-      "question": "자재를 낮은 등급 구역에서 높은 등급 구역으로 들여보내려 한다. Material airlock 절차로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "자재를 청정 구역으로 들일 때(자재 에어락) 올바른 방법은?",
       "choices": [
-        "자재를 airlock 안에서 세척(소독)하고 외포장을 벗긴 뒤 분리선 너머로 밀어 넣고, 작업자는 분리선을 넘지 않는다. 넘긴 뒤 추가 세척도 할 수 있다.",
-        "양쪽 문을 동시에 열어 빠르게 옮긴다.",
-        "높은 등급 쪽 작업자가 낮은 등급 쪽으로 나와 받아 간다.",
-        "자재는 airlock을 거치지 않고 인원 airlock으로 함께 들고 들어간다.",
-        "포장을 그대로 둔 채 들고 분리선을 넘어 높은 등급 구역까지 직접 운반한다."
+        "에어락에서 닦고 포장을 벗겨 분리선 너머로 넘긴다",
+        "양쪽 문을 동시에 열고 빨리 옮긴다",
+        "포장째 들고 청정 구역까지 들어간다",
+        "사람 에어락으로 같이 들고 들어간다",
+        "청정 구역 작업자가 나와서 받아 간다"
       ],
       "answer": 1,
-      "explanation": "Airlock 그림(b): **자재를 들여와 세척하고 포장을 벗긴 뒤 분리선 너머로 밀어 넣는다. 넘긴 뒤 추가 세척 가능**. 청정·덜 청정 구역 사이의 **optical separation line은 사람이 넘으면 안 된다**. 두 문을 동시에 열면 압력 차가 무너진다(일반 원리).",
+      "explanation": "**자재 에어락에서 자재를 닦고 외포장을 벗긴 뒤 분리선 너머로 밀어 넣는다. 사람은 분리선을 넘지 않는다.**",
       "choiceNotes": [
         "옳다.",
-        "틀리다 — 압력 cascade가 깨진다.",
-        "틀리다 — 작업자는 분리선을 넘지 않는다.",
-        "틀리다 — 인원과 자재 흐름을 구분한다.",
-        "틀리다 — 외포장 제거·세척이 필요하고 분리선을 넘으면 안 된다."
+        "틀리다 — 압력 차가 무너진다.",
+        "틀리다.",
+        "틀리다 — 자재 에어락을 쓴다.",
+        "틀리다 — 분리선을 넘으면 안 된다."
       ],
       "source": "WK07 PDF p.40 (Cleanroom Airlocks), p.42 (GMP Flows)",
       "tags": [
         "Material airlock",
         "Separation line"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-019",
-      "type": "상황판단",
-      "question": "Personnel airlock에서 갱의하는 작업자의 행동으로 옳지 않은 것은?",
+      "type": "개념",
+      "question": "사람 에어락(갱의실)에서의 행동으로 옳지 않은 것은?",
       "choices": [
-        "손 세정·소독 후 비치된 갱의 지침에 따라 무진복을 입는다.",
-        "Step-over bench에서 신발을 갈아 신거나 신발 커버를 쓰며 청정 쪽으로 넘어간다.",
-        "거울로 갱의 상태를 스스로 점검한다.",
-        "벗은 갱의는 종류별 폐기함에 넣는다.",
-        "신발 커버를 쓰기 전에 분리선 너머로 먼저 들어갔다가 돌아와서 신는다."
+        "손을 씻고 소독한 뒤 갱의 지침대로 옷을 입는다",
+        "의자(step-over bench)를 넘으며 신발을 바꾼다",
+        "거울로 옷차림을 점검한다",
+        "벗은 옷은 종류별 통에 넣는다",
+        "신발 커버 없이 분리선을 먼저 넘었다가 돌아온다"
       ],
       "answer": 5,
-      "explanation": "Personnel airlock(a): **거울·세면대·손 소독제, 갱의 캐비닛, 갱의 지침, 자기 점검용 거울, 갱의 종류별 폐기함, 청정/덜 청정 구역 분리선, 신발 교체용 step-over bench**. 분리선은 갱의를 마친 뒤에만 넘는다. GMP01의 '무균 갱의와 동선 관리가 오염 관리의 출발점'과 같은 맥락이다.",
+      "explanation": "**갱의를 모두 마친 뒤에만 분리선을 넘는다.** 손 소독 → 갱의 → 신발 교체(step-over bench) → 거울 점검 순.",
       "choiceNotes": [
-        "옳은 행동.",
-        "옳은 행동.",
-        "옳은 행동.",
-        "옳은 행동.",
-        "틀린 행동(정답) — 준비 전 분리선을 넘으면 안 된다."
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 갱의를 마친 뒤에만 넘는다."
       ],
       "source": "WK07 PDF p.40 (Personnel air lock) · 01 완제 PDF p.18",
       "tags": [
         "Personnel airlock",
         "Gowning"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-020",
-      "type": "연결",
-      "question": "항체 공장 배치도에서 바이러스 불활화 이전(pre-viral)과 이후(post-viral) 구역을 나누고 흐름을 한 방향으로 정하는 이유로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "바이러스 제거 전(pre-viral)과 후(post-viral) 구역을 나누는 이유는?",
       "choices": [
-        "post-viral 구역에는 사람이 들어가지 않기 때문이다.",
-        "규정상 정제실은 하나만 둘 수 있기 때문이다.",
-        "바이러스가 제거된 뒤의 공정 물질이 제거 전 물질·사람·장비와 섞여 다시 오염되는 것(교차오염)을 막기 위해서다.",
-        "pre-viral 구역은 청정 등급 관리가 필요 없기 때문이다.",
-        "공사비를 줄이기 위해서다."
+        "공사비를 줄이려고",
+        "post-viral에는 사람이 안 들어가서",
+        "제거 후 제품이 다시 오염되는 것을 막으려고",
+        "pre-viral은 청정 관리가 필요 없어서",
+        "규정상 정제실은 하나뿐이라서"
       ],
       "answer": 3,
-      "explanation": "배치도에서 upstream(배지·버퍼 준비, 배양·수확)과 downstream(**Pre-viral, Post-viral**)을 나누고 class D/C/B와 압력 구역, 인원·자재 흐름을 정한다. Ballroom concept의 '현재 방식'도 **pre/post virus 위험 구역 분리, 단방향 흐름**을 특징으로 든다. WK06의 바이러스 제거 단계가 시설 배치로 이어지는 예다.",
+      "explanation": "**바이러스를 제거한 뒤의 제품이 제거 전 물질·사람·장비와 섞여 다시 오염되지 않도록 구역을 나누고 흐름을 한 방향으로 정한다.**",
       "choiceNotes": [
-        "틀리다 — 사람이 작업한다.",
-        "틀리다 — 그런 규정은 없다.",
-        "옳다 — 바이러스 제거 후 재오염 방지.",
-        "틀리다 — pre-viral 구역도 등급 관리한다.",
-        "틀리다 — 목적은 오염 방지다."
+        "틀리다.",
+        "틀리다.",
+        "옳다 — 교차오염 방지.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.41 (Cleanroom Class and Pressure Zone), p.42 (GMP Flows), p.62 (Ball Room Concept) · WK06 PDF p.5",
       "tags": [
         "Pre-viral",
         "Post-viral",
         "Segregation"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-021",
       "type": "개념",
-      "question": "GMP 흐름(flow) 설계 원칙으로 옳지 않은 것은?",
+      "question": "GMP 동선(flow) 설계 원칙으로 옳지 않은 것은?",
       "choices": [
-        "등급이 다른 구역 사이에는 airlock(P-lock, M-lock)을 둔다.",
-        "흐름 설계는 청정 구역·압력 구역 설계와 함께 검토한다.",
-        "폐기물은 동선을 줄이기 위해 제품이 들어온 길로 거꾸로 내보내도 된다.",
-        "자재·인원·제품·폐기물의 흐름을 구분해 설계한다.",
-        "가능하면 흐름을 한 방향으로 정해 교차를 줄인다."
+        "등급이 다른 구역 사이에 에어락을 둔다",
+        "자재·사람·제품·폐기물 동선을 나눈다",
+        "폐기물은 제품이 들어온 길로 거꾸로 내보낸다",
+        "가능하면 한 방향으로 흐르게 한다",
+        "청정·압력 구역과 함께 검토한다"
       ],
       "answer": 3,
-      "explanation": "GMP Flows(Material, Personnel, Products, Waste): 배치도에 인원(P-lock)·자재(M-lock) 흐름이 따로 표시되고, conceptual design에서도 **GMP layout(flows, clean zone, pressure zone)**을 함께 개발한다. 폐기물이 제품 경로를 거꾸로 지나면 교차오염 위험이 생긴다.",
+      "explanation": "**자재·사람·제품·폐기물 동선을 나누고 한 방향으로 흐르게 해 혼동과 교차오염을 막는다.**",
       "choiceNotes": [
-        "옳은 원칙.",
-        "옳은 원칙.",
-        "틀린 원칙(정답) — 폐기물 흐름은 분리한다.",
-        "옳은 원칙.",
-        "옳은 원칙."
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 교차오염 위험.",
+        "옳은 진술.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.42 (GMP Flows), p.55 (GMP Layout Development)",
       "tags": [
         "GMP flow",
         "Waste",
         "Airlock"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-022",
-      "type": "개념",
-      "question": "다음 중 clean utility와 black utility로 바르게 분류한 것은?",
-      "box": [
-        "ㄱ. WFI",
-        "ㄴ. 냉각수(chilled water)",
-        "ㄷ. 공정용 pure steam",
-        "ㄹ. 소방수(firefighting water)",
-        "ㅁ. 청정 압축공기(clean compressed air)",
-        "ㅂ. 연료용 천연가스"
-      ],
+      "type": "연결",
+      "question": "Clean utility와 black utility의 분류로 옳은 것은?",
       "choices": [
-        "Clean: ㄱ, ㄷ, ㅁ / Black: ㄴ, ㄹ, ㅂ",
-        "Clean: ㄱ, ㄴ, ㄷ / Black: ㄹ, ㅁ, ㅂ",
-        "Clean: ㄱ, ㄹ, ㅁ / Black: ㄴ, ㄷ, ㅂ",
-        "Clean: ㄷ, ㅁ, ㅂ / Black: ㄱ, ㄴ, ㄹ",
-        "Clean: ㄱ, ㅁ / Black: ㄴ, ㄷ, ㄹ, ㅂ"
+        "청정 압축공기 – clean utility",
+        "WFI – black utility",
+        "냉각수 – clean utility",
+        "소방수 – clean utility",
+        "공정용 순수 증기 – black utility"
       ],
       "answer": 1,
-      "explanation": "**Clean utility**: 제품에 직접 닿거나 제품 접촉 자재에 닿는 계통 — WFI, pure steam(공정), clean steam(HVAC 가습), PW, CIP/WIP, ethanol, clean compressed air, 공정용 N₂·O₂·CO₂, 실험실 가스. **Black utility**: 제품·제품 접촉 자재와 닿지 않고 품질에 영향 없음 — 연료(천연가스·경유), black steam, 온수·냉각수, 음용수, 연수, 소방수·스프링클러, 하수.",
+      "explanation": "**Clean utility = 제품이나 제품 접촉 자재에 닿는 것(WFI, 순수 증기, 청정 압축공기, 공정 가스), black utility = 닿지 않는 것(냉각수, 연료, 소방수, 음용수).**",
       "choiceNotes": [
         "옳다.",
-        "틀리다 — 냉각수는 black, 청정 압축공기는 clean이다.",
-        "틀리다 — 소방수는 black, pure steam은 clean이다.",
-        "틀리다 — WFI는 clean, 천연가스는 black이다.",
-        "틀리다 — pure steam은 clean이다."
+        "틀리다 — clean.",
+        "틀리다 — black.",
+        "틀리다 — black.",
+        "틀리다 — clean."
       ],
       "source": "WK07 PDF p.46 (Clean Utilities), p.48 (Black Utilities)",
       "tags": [
         "Clean utility",
         "Black utility"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-023",
-      "type": "상황판단",
-      "question": "새 공장의 적격성평가·밸리데이션(Q&V) 범위를 정하고 있다. WFI 계통과 냉각수(chilled water) 계통의 취급으로 가장 적절한 것은?",
+      "type": "연결",
+      "question": "WFI와 냉각수의 적격성평가(Q&V) 취급으로 옳은 것은?",
       "choices": [
-        "둘 다 제품에 닿으므로 똑같이 엄격한 Q&V를 한다.",
-        "유틸리티는 설비가 아니므로 어떤 것도 Q&V 대상이 아니다.",
-        "둘 다 유틸리티이므로 똑같이 Q&V 대상에서 뺀다.",
-        "WFI는 제품에 직접 닿는 clean utility라 품질에 영향을 주므로 Q&V 대상으로 관리하고, 냉각수는 제품·제품 접촉 자재와 닿지 않아 품질에 영향이 없는 black utility라 Q&V 범위 밖(일반 유지관리)으로 둔다.",
-        "냉각수가 양이 더 많으므로 냉각수만 Q&V 대상으로 한다."
+        "둘 다 Q&V 대상",
+        "둘 다 대상 아님",
+        "냉각수만 Q&V 대상",
+        "WFI는 Q&V 대상, 냉각수는 대상 아님",
+        "유틸리티는 모두 설비가 아니라 대상 아님"
       ],
       "answer": 4,
-      "explanation": "Black utility 정의: **(1) 제품과 직접 접촉하지 않음 (2) 제품 접촉 자재와도 접촉하지 않음 (3) 제품 품질(GMP 품질)에 영향 없음 → non-critical, Q&V 범위 아님**. 반대로 clean utility는 제품이나 제품 접촉 자재에 닿으므로 품질에 직결되어 적격성평가·모니터링 대상이다(일반 원리). 참고: 슬라이드 46쪽 Clean Utilities에도 'non-critical' 문구가 빨간 글씨로 적혀 있으나, 이는 black utility 슬라이드와 같은 문장으로 보이며 제품 접촉 계통은 GMP critical로 다루는 것이 일반적이다.",
+      "explanation": "**WFI는 제품에 닿는 clean utility라 품질에 영향을 주어 Q&V 대상이고, 냉각수는 black utility라 Q&V 범위 밖이다.**",
       "choiceNotes": [
-        "틀리다 — 냉각수는 제품에 닿지 않는다.",
-        "틀리다 — clean utility는 Q&V 대상이다.",
-        "틀리다 — WFI는 품질에 직결된다.",
-        "옳다 — 제품 접촉 여부로 구분.",
-        "틀리다 — 판단 기준은 양이 아니라 제품 접촉·품질 영향이다."
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 반대다.",
+        "옳다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.46 (Clean Utilities), p.48 (Black Utilities)",
       "tags": [
         "Q&V 범위",
         "Clean utility",
         "Black utility"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-024",
-      "type": "개념",
-      "question": "Clean utility와 용도의 연결로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "유틸리티와 용도의 연결로 옳지 않은 것은?",
       "choices": [
         "CIP/WIP – 장비 세척",
-        "냉각수(chilled water) – 제품과 직접 닿는 공정용 clean utility",
-        "WFI – 제품·버퍼 제조, 장비 최종 세척",
-        "Pure steam – 공정용(예: SIP)",
-        "Clean steam – HVAC 가습용"
+        "냉각수 – 제품에 직접 닿는 용도",
+        "WFI – 제품·버퍼 제조",
+        "순수 증기 – 장비 멸균",
+        "가습용 증기 – 공조 가습"
       ],
       "answer": 2,
-      "explanation": "Clean Utility Systems: **WFI, Pure Steam(for process), Clean Steam(for HVAC humidification), PW, CIP/WIP, Ethanol, Clean Compressed Air, N₂·O₂·CO₂(PROD), Gases(Labs)**. 냉각수(6/12 ℃, 12/18 ℃)는 black utility다.",
+      "explanation": "**냉각수(6/12 ℃, 12/18 ℃)는 제품에 닿지 않는 black utility다.**",
       "choiceNotes": [
-        "옳은 연결.",
-        "틀린 연결(정답) — 냉각수는 black utility다.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결."
+        "옳은 진술.",
+        "틀린 진술(정답) — 냉각수는 black utility.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.46, p.48",
       "tags": [
         "Clean utility",
         "Pure steam",
         "Clean steam"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-025",
       "type": "개념",
-      "question": "HVAC 시스템의 기능으로 옳지 않은 것은?",
+      "question": "HVAC(공조)의 기능이 아닌 것은?",
       "choices": [
-        "필요한 공기량·환기 횟수를 공급해 청정도의 기반을 만든다.",
-        "공기를 여과해 필요한 청정도를 확보한다.",
-        "실 압력과 압력 cascade를 제어해 제품과 환경을 보호한다.",
-        "습도를 제어하고(여름 제습, 겨울 가습), 장비·사람·조명의 열을 제거하거나 겨울철 열 손실을 보충한다.",
-        "배양기와 버퍼 제조에 쓰는 공정용 N₂·CO₂를 공급한다."
+        "필요한 공기량·환기 횟수 공급",
+        "공기 여과",
+        "방 압력 조절",
+        "습도·열 조절",
+        "배양기에 공정용 질소·CO₂ 공급"
       ],
       "answer": 5,
-      "explanation": "HVAC 기능: **필요 공기량·환기 횟수, 공기 여과, 실 압력·압력 cascade, 습도 제어, 열 부하 제거, 열 손실 보상**. 공정용 기체(N₂·O₂·CO₂)는 clean utility 계통이다.",
+      "explanation": "**HVAC는 공기량·환기 횟수, 여과, 방 압력, 습도, 열 제거·보충을 맡는다.** 공정용 가스는 clean utility 계통이다.",
       "choiceNotes": [
-        "옳은 기능.",
-        "옳은 기능.",
-        "옳은 기능.",
-        "옳은 기능.",
-        "틀린 기능(정답) — clean utility(공정 가스) 계통이다."
+        "기능이다.",
+        "기능이다.",
+        "기능이다 — 압력 계단.",
+        "기능이다.",
+        "기능이 아니다(정답) — 공정 가스(clean utility)다."
       ],
       "source": "WK07 PDF p.49 (HVAC), p.46",
       "tags": [
         "HVAC",
         "Pressure cascade"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-026",
-      "type": "상황판단",
-      "question": "전력 설계에서 정전 시 데이터가 끊기면 안 되는 IT·QC 실험실 장비와, 잠시 꺼져도 되는 조명·콘센트를 어떻게 나누는 것이 가장 적절한가?",
+      "type": "개념",
+      "question": "정전 순간에도 전원이 끊기지 않게 해 주는 장치는?",
       "choices": [
-        "모두 일반 전원(network)에만 연결한다.",
-        "IT·컴퓨터와 주요 실험실 장비는 UPS(무정전 전원)까지 연결하고, 필수 설비는 비상 디젤 발전기로 받치며, 조명·콘센트 일부는 일반·발전기 전원으로 둔다.",
-        "조명만 UPS에 연결한다.",
-        "모든 부하를 UPS에 연결한다.",
-        "정전은 GMP와 무관하므로 고려하지 않는다."
+        "비상 디젤 발전기",
+        "UPS(무정전 전원장치)",
+        "일반 전원",
+        "냉각수 펌프",
+        "SCADA"
       ],
       "answer": 2,
-      "explanation": "Electrical System 표는 부하마다 **Network(일반), Diesel(비상 발전), UPS(무정전)** 용량을 나눈다. 예: 컴퓨터·IT는 세 전원 모두 같은 용량(UPS 포함), 이화학·미생물 실험실도 일부 UPS, 조명·콘센트는 UPS 0. 끊기면 안 되는 데이터·시험 장비를 UPS로 보호하는 것이 핵심이다.",
+      "explanation": "**UPS는 정전 순간에도 끊김 없이 전원을 줘 컴퓨터·실험실 장비의 데이터를 지킨다.** 비상 발전기는 잠시 뒤 기동해 주요 설비를 받친다.",
       "choiceNotes": [
-        "틀리다 — 정전 대비가 없다.",
-        "옳다 — 중요도별 전원 계층.",
-        "틀리다 — 우선순위가 반대다.",
-        "틀리다 — 비용이 과도하다.",
-        "틀리다 — 데이터·시험 무결성과 직결된다."
+        "틀리다 — 몇 초 뒤 기동한다.",
+        "옳다 — IT·실험실 장비에 연결.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.50 (Electrical System: Network / Diesel / UPS)",
       "tags": [
         "Electrical",
         "UPS"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-027",
       "type": "개념",
       "part": 1,
-      "question": "프로젝트 전 과정의 Q&V 흐름을 순서대로 바르게 나열한 것은?",
+      "question": "설비 적격성평가·밸리데이션(Q&V)의 순서로 옳은 것은?",
       "choices": [
         "URS → IQ → DQ → FAT → PQ → OQ",
-        "FAT → URS → DQ → OQ → IQ → PV",
+        "FAT → URS → OQ → IQ → PV",
         "PQ → OQ → IQ → DQ → URS",
-        "URS → DQ/FDS → FAT → IQ/SAT → OQ → PQ → PV/CV → 재밸리데이션",
-        "IQ → URS → OQ → DQ → PQ → FAT"
+        "URS → DQ → FAT → IQ → OQ → PQ → PV",
+        "IQ → URS → OQ → DQ → PQ"
       ],
       "answer": 4,
-      "explanation": "Element 4 Q&V: **Engineering(URS, DQ/FDS) → Manufacturing(FAT) → Delivery/Installation(IQ/SAT) → Commissioning(OQ) → Test runs/Start-up(PQ) → Process optimisation(PV/CV) → Production(Re-Val.)**, 위로 Basic·Detail risk analysis, 전 과정에 **Change control/Requalification**. GMP03의 아이솔레이터 qualification(URS/DQ → IQ → OQ → CD → PQ → PRQ)과 같은 흐름이다.",
+      "explanation": "**URS(요구사항) → DQ(설계 확인) → FAT(공장 출하 전 시험) → IQ/SAT(설치) → OQ(작동) → PQ(성능) → PV(공정 밸리데이션).** 전 과정에 변경 관리가 붙는다.",
       "choiceNotes": [
-        "틀리다 — DQ는 IQ보다 앞이다.",
-        "틀리다 — URS·DQ 이후 제작·FAT가 온다.",
-        "틀리다 — 순서가 거꾸로다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 거꾸로다.",
         "옳다.",
-        "틀리다 — URS가 가장 먼저다."
+        "틀리다."
       ],
       "source": "WK07 PDF p.51 (Element 4: Qualification & Validation) · 03 Isolator PDF p.15",
       "tags": [
@@ -731,103 +747,106 @@
     },
     {
       "id": "wk07-028",
-      "type": "상황판단",
-      "question": "충전기 제작사 공장에서 FAT를 하던 중 인터록 기능 결함이 발견되었다. 가장 적절한 대응은?",
+      "type": "개념",
+      "question": "FAT(Factory Acceptance Test)는 언제·어디서 하는가?",
       "choices": [
-        "출하 전에 제작사에서 결함을 고치고 FAT를 다시 해 확인한 뒤 출하한다. 현장 설치 후에는 IQ/SAT·OQ로 다시 확인한다.",
-        "FAT는 형식이므로 결함을 기록하지 않는다.",
-        "결함은 PQ 단계에서 발견되면 그때 고친다.",
-        "URS를 결함에 맞게 고쳐 합격 처리한다.",
-        "일단 출하·설치한 뒤 현장에서 고치면 된다."
+        "장비를 출하하기 전에 제작사 공장에서",
+        "설치 후 우리 공장에서",
+        "생산을 시작한 뒤",
+        "허가를 받은 뒤",
+        "PQ가 끝난 뒤"
       ],
       "answer": 1,
-      "explanation": "FAT(Factory Acceptance Test)는 **제작사에서 출하 전에** 장비가 사양대로 만들어졌는지 확인하는 단계이고, 설치 후에는 **IQ/SAT → OQ**로 다시 확인한다. 결함은 가장 이른 단계에서 고치는 것이 비용과 일정에 유리하다. 사양 변경은 근거 없이 하지 않고 변경관리로 다룬다(일반 원리).",
+      "explanation": "**FAT는 출하 전 제작사 공장에서 사양대로 만들어졌는지 확인하는 시험이다.** 결함은 이 단계에서 고치는 것이 가장 싸고 빠르다. 설치 후에는 SAT·IQ·OQ로 다시 확인한다.",
       "choiceNotes": [
-        "옳다.",
-        "틀리다 — 결함은 기록하고 조치한다.",
-        "틀리다 — 늦게 발견할수록 영향이 커진다.",
-        "틀리다 — 요구사항을 결함에 맞추는 것은 부적절하다.",
-        "틀리다 — 현장 수정은 비용과 일정 부담이 크다."
+        "옳다 — 결함은 출하 전에 고친다.",
+        "틀리다 — 그건 SAT/IQ.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.51 (FAT, IQ/SAT, OQ, Change Control)",
       "tags": [
         "FAT",
         "SAT",
         "Change control"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-029",
-      "type": "개념",
-      "question": "GMP 시설 프로젝트 단계와 주요 활동의 연결로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "프로젝트 단계와 활동의 연결로 옳지 않은 것은?",
       "choices": [
-        "Conceptual design – 생산 계획, 공정 기술, 부지 평가 → BFD/PFD(장비 목록), layout, GMP layout, 유틸리티 용량",
-        "Engineering – basic·detail engineering, 인허가 설계(authority engineering), 입찰, TIC 평가",
-        "Construction – 조달, 현장 안전·품질 관리, commissioning·start-up, 원가·일정 관리",
-        "Qualification & Validation – VMP, 위험 분석, DQ·IQ·OQ·PQ, 공정·세척·컴퓨터 시스템·분석법 밸리데이션",
-        "Technical facility management – 최초 인허가 신청과 입찰 진행"
+        "개념 설계 – 생산 예측, BFD/PFD, 유틸리티 용량",
+        "엔지니어링 – 기본·상세 설계, 인허가, 입찰",
+        "시공 – 조달, 현장 안전, 시운전",
+        "Q&V – DQ·IQ·OQ·PQ, 공정 밸리데이션",
+        "시설 관리 – 처음 인허가 신청과 입찰"
       ],
       "answer": 5,
-      "explanation": "Project steps: **Conceptual design → Engineering → Construction → Q&V → Technical facility management(유지보수·재적격성평가·재교정)**. 인허가(authority engineering)와 입찰(tender)은 Engineering 단계 활동이다. 모든 단계는 **Project management – GMP compliance**로 관리한다.",
+      "explanation": "**개념 설계 → 엔지니어링(인허가·입찰) → 시공(시운전) → Q&V → 시설 관리(유지보수·재적격성평가·재교정).**",
       "choiceNotes": [
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "틀린 연결(정답) — 운영 단계는 maintenance, requalification, recalibration이다."
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 시설 관리는 유지보수·재적격성평가·재교정."
       ],
       "source": "WK07 PDF p.54–59 (Project Steps 1–5)",
       "tags": [
         "Project steps",
         "Technical facility management"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk07-030",
-      "type": "상황판단",
-      "question": "공정·건축·HVAC·유틸리티 팀이 각자 설계를 끝낸 뒤 마지막에 Q&V 팀이 한 번에 검토하는 방식으로 프로젝트를 진행하고 있다. 강의의 Project integration 관점에서 가장 적절한 개선은?",
+      "type": "개념",
+      "question": "Project integration(프로젝트 통합)의 의미는?",
       "choices": [
-        "분야 간 관계는 단순하므로 조율이 필요 없다.",
-        "지금 방식이 가장 효율적이므로 유지한다.",
-        "모든 분야가 참여하는 통합 팀으로 설계와 실행을 진행하고, 적격성평가 요소를 처음부터 프로젝트 흐름에 넣는다.",
-        "Q&V는 준공 후에만 하면 되므로 팀을 없앤다.",
-        "건축이 끝난 뒤 공정을 정한다."
+        "각 팀이 따로 끝낸 뒤 마지막에 모은다",
+        "Q&V는 준공 후에만 한다",
+        "모든 분야가 처음부터 한 팀으로 설계·실행한다",
+        "건축이 끝난 뒤 공정을 정한다",
+        "분야 사이 조율은 필요 없다"
       ],
       "answer": 3,
-      "explanation": "Project Integration: **제약 프로젝트에는 여러 분야가 관여하고 그 관계는 매우 복잡하다 → 엔지니어링과 실행은 모든 분야가 참여하는 통합 팀으로, 적격성평가 측면을 프로젝트 흐름에 통합**. 나중에 Q&V 문제가 발견되면 설계 변경 비용이 커진다.",
+      "explanation": "**공정·건축·청정·유틸리티·자동화·Q&V 등 여러 분야가 처음부터 통합 팀으로 함께 설계하고 실행한다.**",
       "choiceNotes": [
-        "틀리다 — 관계가 매우 복잡하다고 강조했다.",
-        "틀리다 — 늦은 검토는 재설계 위험이 크다.",
-        "옳다.",
-        "틀리다 — Q&V는 URS부터 시작된다.",
-        "틀리다 — 공정이 시설 설계의 핵심(core)이다."
+        "틀리다.",
+        "틀리다.",
+        "옳다 — Q&V도 처음부터 참여.",
+        "틀리다 — 공정이 핵심이다.",
+        "틀리다 — 관계가 매우 복잡하다."
       ],
       "source": "WK07 PDF p.52 (Project Integration), p.26 (Process is the core)",
       "tags": [
         "Project integration",
         "Q&V"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-031",
       "type": "개념",
       "part": 1,
-      "question": "GMP 시설 트렌드인 Ballroom concept에 대한 설명으로 옳은 것은?",
+      "question": "Ballroom concept에 대한 설명으로 옳은 것은?",
       "choices": [
-        "공정을 개방형으로 바꿀수록 유리한 방식이다.",
-        "제품마다 별도 건물을 짓는 방식이다.",
-        "밀폐(closed) 시스템과 품질 위험 관리(QRM)를 전제로, 여러 제품을 한 공간에서 동시에 생산하고 환경 등급 요구와 구역 분리를 줄이는 방식이다.",
-        "모든 공정을 개방된 상태로 한 방에서 운영하는 방식이다.",
-        "pre/post virus 구역을 더 잘게 나누는 방식이다."
+        "제품마다 건물을 따로 짓는다",
+        "모든 공정을 열어 놓고 한 방에서 한다",
+        "밀폐 공정을 전제로 여러 제품을 한 넓은 공간에서 만든다",
+        "바이러스 구역을 더 잘게 나눈다",
+        "개방 공정일수록 유리하다"
       ],
       "answer": 3,
-      "explanation": "현재 방식: 개방·후반 공정용 등급실(Class D·C), **pre/post virus 위험 구역 분리**, 단방향 흐름. **Closed Systems & Quality Risk Management**를 바탕으로 → Ballroom: **한 지붕 아래 동시 다제품 생산, 환경 요구 완화(CNC로 이동), 구역 분리 축소**. 밀폐가 보장되어야 주변 환경 요구를 낮출 수 있다는 점은 아이솔레이터 배경 등급(C/D)과 같은 논리다.",
+      "explanation": "**밀폐(closed) 공정과 품질 위험 관리를 전제로, 여러 제품을 한 공간에서 동시에 만들며 청정 요구와 구역 분리를 줄이는 시설 개념이다.**",
       "choiceNotes": [
-        "틀리다 — 밀폐 시스템이 전제다.",
-        "틀리다 — 한 지붕 아래 통합한다.",
-        "옳다.",
-        "틀리다 — 공정은 밀폐되어 있어야 한다.",
-        "틀리다 — 분리를 줄이는 방향이다."
+        "틀리다.",
+        "틀리다 — 밀폐가 전제다.",
+        "옳다 — 품질 위험 관리도 전제.",
+        "틀리다 — 구역 분리를 줄인다.",
+        "틀리다."
       ],
       "source": "WK07 PDF p.62 (Ball Room Concept) · 03 Isolator PDF p.6",
       "tags": [
@@ -839,53 +858,248 @@
     {
       "id": "wk07-032",
       "type": "개념",
-      "question": "Single-use 시스템을 밀폐 공정으로 운영하기 위해 핵심이 되는 구성요소로 강의 사진에 표시된 것이 아닌 것은?",
+      "question": "Single-use 밀폐 공정의 구성요소가 아닌 것은?",
       "choices": [
-        "개방형 스테인리스 맨홀",
-        "Single-use bag",
-        "Tube connect & disconnect(무균 연결·분리)",
-        "Filter technology",
-        "Vent(벤트 필터)"
+        "열려 있는 스테인리스 맨홀",
+        "일회용 백(bag)",
+        "튜브 무균 연결·분리 장치",
+        "필터",
+        "벤트 필터"
       ],
       "answer": 1,
-      "explanation": "Single Use System 사진: **Vent, Tube connect & disconnect, Filter technology, Single use bag**. 무균 연결·분리와 필터로 밀폐 상태를 유지한 채 공정을 이어 가는 것이 핵심이며, 이것이 ballroom concept 같은 시설 트렌드를 가능하게 한다.",
+      "explanation": "**Single-use 시스템은 일회용 백, 튜브 무균 연결·분리, 필터, 벤트로 밀폐 상태를 유지한다.**",
       "choiceNotes": [
-        "표시되어 있지 않다(정답) — 개방형 구조는 밀폐 공정과 반대다.",
-        "표시되어 있다.",
-        "표시되어 있다.",
-        "표시되어 있다.",
-        "표시되어 있다."
+        "구성요소가 아니다(정답) — 밀폐가 아니다.",
+        "구성요소다.",
+        "구성요소다.",
+        "구성요소다.",
+        "구성요소다."
       ],
       "source": "WK07 PDF p.63 (Single Use System)",
       "tags": [
         "Single-use",
         "Closed processing"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk07-033",
-      "type": "개념",
-      "question": "임상 개발 단계의 특징으로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "임상시험 단계와 특징의 연결로 옳지 않은 것은?",
       "choices": [
-        "2상 – 환자(약 100–500명)에서 치료 효과 확인과 최적 용량 탐색",
-        "3상 – 대규모(약 1,000–5,000명) 다기관·눈가림 비교 연구로 효과·안전성 확인",
-        "4상 – 시판 후 실제 사용 데이터와 장기 안전성 관찰",
-        "1상 – 수천 명의 환자에서 기존 약과 효과를 비교하는 확증 시험",
-        "1상 – 소수(약 20–100명)의 주로 건강한 지원자에서 안전성·내약성 확인"
+        "1상 – 소수 건강인, 안전성 확인",
+        "2상 – 환자, 효과와 용량 탐색",
+        "3상 – 대규모, 효과 확증",
+        "1상 – 수천 명 환자에서 효과 확증",
+        "4상 – 시판 후 장기 안전성 관찰"
       ],
       "answer": 4,
-      "explanation": "Phases of clinical development: **I 첫 인체 적용(20–100, 건강인, 안전성) / II 치료 시험(100–500, 효과·용량) / III 치료 확증(1,000–5,000, 다기관·눈가림·비교) / IV 장기 관찰(실사용·안전성 모니터링)**. 임상 단계가 올라갈수록 필요한 시료량이 늘어 생산 규모도 커진다(scale-up과 연결).",
+      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
       "choiceNotes": [
-        "옳은 설명.",
-        "옳은 설명.",
-        "옳은 설명.",
-        "틀린 설명(정답) — 3상의 특징이다.",
-        "옳은 설명."
+        "옳은 진술 — 약 20~100명.",
+        "옳은 진술 — 약 100~500명.",
+        "옳은 진술 — 약 1,000~5,000명.",
+        "틀린 진술(정답) — 그건 3상이다.",
+        "옳은 진술."
       ],
       "source": "WK07 PDF p.15 (Phases of clinical development) · WK02 강의 녹음 01:35:02",
       "tags": [
         "Clinical phase"
-      ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-037",
+      "type": "연결",
+      "question": "FAT와 SAT의 차이로 옳은 것은?",
+      "choices": [
+        "FAT는 설치 현장, SAT는 제작사 공장에서 한다",
+        "FAT는 제작사 공장, SAT는 설치 현장에서 한다",
+        "SAT는 장비를 출하하기 전에 한다",
+        "둘 다 공정 밸리데이션(PV)의 다른 이름이다",
+        "FAT를 하면 SAT는 생략한다"
+      ],
+      "answer": 2,
+      "explanation": "**FAT(Factory Acceptance Test)는 장비를 출하하기 전에 제작사 공장에서, SAT(Site Acceptance Test)는 현장에 설치한 뒤 사양대로 들어왔고 연결됐는지 확인하는 시험이다.**",
+      "choiceNotes": [
+        "틀리다 — 반대로 말했다.",
+        "옳다.",
+        "틀리다 — 출하 전 시험은 FAT다.",
+        "틀리다 — 장비 인수 시험이다.",
+        "틀리다 — 현장 설치·연결은 따로 확인한다."
+      ],
+      "source": "WK07 PDF p.51",
+      "tags": [
+        "FAT",
+        "SAT"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-038",
+      "type": "연결",
+      "question": "다목적 시설(Multi-purpose)과 전용 시설(Dedicated)의 차이로 옳은 것은?",
+      "choices": [
+        "다목적은 한 제품만, 전용은 여러 제품을 만든다",
+        "고활성 제품은 반드시 다목적 시설에서 만든다",
+        "전용 시설은 청소가 필요 없다",
+        "두 시설은 같은 뜻이다",
+        "다목적은 여러 제품을 번갈아, 전용은 한 제품만 만든다"
+      ],
+      "answer": 5,
+      "explanation": "**Multi-purpose facility는 여러 제품을 한 시설에서 번갈아 생산하고, Dedicated facility/equipment는 특정 제품 하나만을 위해 전용으로 쓴다.** 페니실린·고활성 제품처럼 교차오염 위험이 큰 제품은 분리·전용 설비를 검토한다.",
+      "choiceNotes": [
+        "틀리다 — 반대로 말했다.",
+        "틀리다 — 교차오염 위험이 커 분리·전용 설비를 검토한다.",
+        "틀리다.",
+        "틀리다.",
+        "옳다."
+      ],
+      "source": "WK07 PDF p.22–23",
+      "tags": [
+        "Multi-purpose facility",
+        "Dedicated facility / equipment"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-039",
+      "type": "연결",
+      "question": "사람 에어락(PAL)과 자재 에어락(MAL)의 구분으로 옳은 것은?",
+      "choices": [
+        "PAL에서는 갱의, MAL에서는 자재 세척·외포장 제거",
+        "PAL에서 자재 외포장을 벗긴다",
+        "MAL에서 작업자가 무균복을 갈아입는다",
+        "에어락은 청정도와 관계없는 통로다",
+        "분리선은 절차 없이 넘어도 된다"
+      ],
+      "answer": 1,
+      "explanation": "**PAL(Personnel airlock)은 사람이 손 소독·갱의·신발 교체를 하는 전실, MAL(Material airlock)은 자재를 세척하고 외포장을 벗겨 청정 구역 쪽으로 넘기는 전실이다.** 에어락 안의 분리선(separation line)은 정해진 절차 없이 넘으면 안 된다.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 그것은 MAL에서 한다.",
+        "틀리다 — 그것은 PAL에서 한다.",
+        "틀리다 — 덜 청정한 곳과 청정한 곳 사이의 전실이다.",
+        "틀리다 — 정해진 절차 없이 넘으면 안 된다."
+      ],
+      "source": "WK07 PDF p.40",
+      "tags": [
+        "Personnel airlock (PAL)",
+        "Material airlock (MAL)",
+        "Separation line"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-040",
+      "type": "연결",
+      "question": "증기 종류와 용도의 연결로 옳은 것은?",
+      "choices": [
+        "Black steam – 장비 멸균(SIP)",
+        "Pure steam – 장비 멸균(SIP)",
+        "Clean steam – 난방·간접 가열",
+        "Pure steam – 건물 난방",
+        "Black steam – 제품 접촉면 멸균"
+      ],
+      "answer": 2,
+      "explanation": "**Pure steam(공정용 순수 증기)은 장비 멸균(SIP) 등 제품 접촉면에 쓰며, 응축하면 주사용수 수준이 된다.** Clean steam은 HVAC 가습용이고, Black steam은 난방·간접 가열용으로 제품과 닿지 않는다(black utility).",
+      "choiceNotes": [
+        "틀리다 — black steam은 제품에 닿지 않는 일반 증기다.",
+        "옳다 — 응축하면 주사용수 수준.",
+        "틀리다 — clean steam은 HVAC 가습용이다.",
+        "틀리다 — 난방은 black steam이다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.46, p.48",
+      "tags": [
+        "Pure steam",
+        "Clean steam",
+        "Black steam"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-041",
+      "type": "연결",
+      "question": "운영 중 관리 활동과 뜻의 연결로 옳은 것은?",
+      "choices": [
+        "재교정 – 설비를 처음부터 다시 설계한다",
+        "재적격성평가 – 계측기 눈금만 맞춘다",
+        "변경 관리 – 변경을 미리 평가·승인·기록한다",
+        "변경 관리 – 변경한 뒤에 기록만 남긴다",
+        "재적격성평가 – 처음 설치할 때만 한다"
+      ],
+      "answer": 3,
+      "explanation": "**Change control(변경 관리)은 검증된 상태에 영향을 줄 수 있는 변경을 미리 평가·승인·기록하는 절차다.** Requalification(재적격성평가)은 운영 중인 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것이고, Recalibration(재교정)은 계측기가 여전히 정확한지 표준과 비교해 다시 맞추는 것이다.",
+      "choiceNotes": [
+        "틀리다 — 재교정은 계측기 정확도를 다시 맞추는 것이다.",
+        "틀리다 — 설비가 검증된 성능을 유지하는지 확인한다.",
+        "옳다.",
+        "틀리다 — 변경 전에 평가·승인한다.",
+        "틀리다 — 운영 중 주기적으로 한다."
+      ],
+      "source": "WK07 PDF p.51, p.59",
+      "tags": [
+        "Change control",
+        "Requalification",
+        "Recalibration"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-042",
+      "type": "연결",
+      "question": "밸리데이션 종류와 입증 대상의 연결로 옳은 것은?",
+      "choices": [
+        "CSV – 공정이 규격에 맞는 제품을 반복해 만드는지",
+        "PV – 컴퓨터 시스템 데이터를 믿을 수 있는지",
+        "CV – 장비가 제작사 공장에서 잘 만들어졌는지",
+        "CV – 세척 후 잔류물이 기준 이하인지",
+        "CSV – 세척제가 잘 씻겨 나갔는지"
+      ],
+      "answer": 4,
+      "explanation": "**Cleaning Validation(CV)은 세척 절차가 잔류물·세척제·미생물을 허용 기준 이하로 일관되게 제거함을 입증한다.** PV(Process Validation)는 공정이 반복해서 규격에 맞는 제품을 만든다는 것을, CSV(Computer System Validation)는 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증한다.",
+      "choiceNotes": [
+        "틀리다 — 그것은 PV다.",
+        "틀리다 — 그것은 CSV다.",
+        "틀리다 — 그것은 FAT다.",
+        "옳다 — Cleaning Validation.",
+        "틀리다 — 그것은 CV다."
+      ],
+      "source": "WK07 PDF p.51, p.58",
+      "tags": [
+        "PV",
+        "Cleaning Validation",
+        "CSV"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-043",
+      "type": "연결",
+      "question": "공정 자동화 시스템의 구분으로 옳은 것은?",
+      "choices": [
+        "MES는 현장 장비를 직접 제어하는 컨트롤러다",
+        "EBR은 종이로 쓰는 배치 기록이다",
+        "SCADA는 전자 배치 기록이다",
+        "PLC는 생산 일정을 관리하는 시스템이다",
+        "PLC는 장비 직접 제어, MES는 생산 실행 관리"
+      ],
+      "answer": 5,
+      "explanation": "**PLC는 현장 장비를 직접 제어하는 컨트롤러, SCADA는 이를 모아 감시·운전하는 상위 시스템이고, MES는 생산 실행을 관리하는 제조실행시스템, EBR은 종이 대신 전자로 쓰는 배치 기록이다.**",
+      "choiceNotes": [
+        "틀리다 — 그것은 PLC다.",
+        "틀리다 — 전자 배치 기록(Electronic Batch Record)이다.",
+        "틀리다 — SCADA는 장비를 모아 감시·운전하는 시스템이다.",
+        "틀리다 — 생산 실행 관리는 MES다.",
+        "옳다."
+      ],
+      "source": "WK07 PDF p.33, p.52",
+      "tags": [
+        "PLC / SCADA",
+        "MES / EBR"
+      ],
+      "part": 2
     }
   ]
 }
