@@ -16,11 +16,11 @@
     storagePrefix: 'gmpquiz.v1.',
     historyLimit: 300,
   };
-  // 시험지 PART 구성 (실전 비율: I 40 % · II 40~50 % · III 10~20 %)
+  // 시험지 PART 구성 (실전 비율: I 40 % · II 40~50 % · III 10~20 % 중 쉬운 쪽 — 2026.10 난이도 조정)
   const PARTS = {
     1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 정의와 기본 개념을 정확히 알고 있는지 확인한다.', ratio: 0.40, points: 2 },
-    2: { roman: 'II', name: '개념 간 변별 (중간 난이도)', note: '서로 헷갈리기 쉬운 개념을 구별해 옳고 그름을 판단한다.', ratio: 0.45, points: 3 },
-    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0.15, points: 4 },
+    2: { roman: 'II', name: '개념 간 변별 (중간 난이도)', note: '서로 헷갈리기 쉬운 개념을 구별해 옳고 그름을 판단한다.', ratio: 0.50, points: 3 },
+    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0.10, points: 4 },
   };
   const ESSAY_POINTS = 5;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3 };
@@ -36,6 +36,7 @@
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 표지·PART I~III·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 문항 비율대로 출제되는 실전 시험' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
+    shared: { label: '공유 시험지', icon: '🔗', kind: 'exam', desc: '' },
   };
 
   // ---------------------------------------------------------------- 저장소
@@ -412,7 +413,13 @@
       ({ picked, review } = compose(pool, count, p.strategy));
     }
     picked = mode === 'review' ? picked : orderPicked(picked, kind);
+    return sessionFrom(mode, picked, { review, poolSize: pool.length });
+  }
 
+  // 고른 문항 목록으로 세션을 만든다(orders: 문항별 보기 순서를 정해 줄 때 — 공유 시험지)
+  function sessionFrom(mode, picked, { review = new Set(), orders = null, poolSize = 0 } = {}) {
+    const kind = MODES[mode].kind;
+    const p = S.prefs;
     const covered = coveredConceptKeys();
     const newConcepts = [];
     const seenNew = new Set();
@@ -428,9 +435,9 @@
       totalPoints += pointsOf(q);
     });
 
-    const items = picked.map((q) => ({
+    const items = picked.map((q, i) => ({
       id: q.id,
-      order: isEssay(q) ? [] : (p.shuffleC ? shuffle(range(q.choices.length)) : range(q.choices.length)),
+      order: isEssay(q) ? [] : (orders && orders[i] ? orders[i].slice() : (p.shuffleC ? shuffle(range(q.choices.length)) : range(q.choices.length))),
       pick: null,
       text: '',
       self: null,
@@ -459,7 +466,7 @@
         unitDist,
         partDist,
         reviewCount: items.filter((it) => it.review).length,
-        poolSize: pool.length,
+        poolSize,
       },
       finished: false,
     };
@@ -642,6 +649,8 @@
       case 'exam': renderExam(); break;
       case 'result': renderResult(); break;
       case 'history': renderHistory(); break;
+      case 'print': renderPrint(); break;
+      case 'shared': renderShared(); break;
       case 'error': renderError(); break;
       default: break;
     }
@@ -735,6 +744,7 @@
           <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어 정리(PART I)부터 개념 변별(II), 상황 대응(III)까지 시험지 형식으로 연습하세요.</p>
         </section>
 
+        ${inAppNoticeHTML('인쇄·PDF 저장')}
         ${S.warnings.length ? `
         <details class="notice warnings">
           <summary>⚠️ 문제 파일 확인 필요 (${S.warnings.length}건)</summary>
@@ -816,6 +826,15 @@
           <div class="card-head"><h2>오답 노트</h2><span class="muted small">${wrongN}문항</span></div>
           <p class="muted small" style="margin:0 0 12px">틀린 문제는 자동으로 저장되고, 다시 맞히면 오답 노트에서 빠집니다.</p>
           <button class="btn btn-block" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><h2>🖨 인쇄·공유용 시험지</h2></div>
+          <p class="muted small" style="margin:0 0 12px">위에서 고른 범위·문제 수로 시험지를 만들어 <b>인쇄(PDF 저장)</b>하거나, <b>링크</b>를 보내 다른 사람이 같은 시험지를 풀게 합니다. 답안지(OMR)·정답표·해설을 함께 붙일 수 있고, 만들기만 해서는 내 기록에 남지 않습니다.</p>
+          <div class="btn-row">
+            <button class="btn btn-block" type="button" data-action="make-print" ${poolN ? '' : 'disabled'}>🖨 인쇄·공유용 시험지 만들기 (${count}문항)</button>
+            ${store.get('print', null) ? '<button class="btn btn-ghost btn-block" type="button" data-action="open-print">지난 인쇄용 시험지 다시 보기</button>' : ''}
+          </div>
         </section>
 
         <div class="start-bar">
@@ -1050,7 +1069,9 @@
   }
 
   // ---------------------------------------------------------------- 시험 모드
-  function examTitle(mode) {
+  function examTitle(mode, title) {
+    if (title) return `${esc(title)} / Practice Exam`;
+    if (mode === 'shared') return '공유 시험지 / Shared Exam';
     return mode === 'mock' ? '전범위 모의고사 / Full-Range Mock Exam' : '실전 평가 / Practice Exam';
   }
   function partGroups(session) {
@@ -1077,18 +1098,18 @@
     return `<h3 class="part-title">PART ${PARTS[p].roman}. ${PARTS[p].name} <span class="part-pts">(${parts.join(' + ')} = ${pts}점)</span>${gradeTxt}</h3>
       <p class="part-note">${esc(PARTS[p].note)}</p>`;
   }
-  function paperHeadHTML(s, scoreHTML) {
+  function paperHeadHTML(s, scoreHTML, blank = false) {
     const n = s.items.length;
     const minutes = Math.round(s.timeLimitSec / 60);
     return `
       <header class="paper-head">
         <p class="paper-course">${esc(CONFIG.course)} <span style="font-weight:600">${esc(CONFIG.courseEn)}</span></p>
-        <p class="paper-title">${examTitle(s.mode)}</p>
+        <p class="paper-title">${examTitle(s.mode, s.title)}</p>
         <p class="paper-info">${esc(s.units.map(unitLabel).join(' · '))} &nbsp;|&nbsp; ${s.timeLimitSec ? `Time: ${minutes}분 &nbsp;|&nbsp; ` : ''}${n}문항 &nbsp;|&nbsp; ${s.totalPoints}점</p>
         <table class="paper-id">
           <tr>
-            <th scope="row">이름</th><td><input type="text" data-action="name" value="${esc(S.prefs.name)}" aria-label="이름" autocomplete="name"></td>
-            <th scope="row">응시일</th><td>${fmtDate(s.startedAt || s.createdAt, false)}</td>
+            <th scope="row">이름</th><td>${blank ? '&nbsp;' : `<input type="text" data-action="name" value="${esc(S.prefs.name)}" aria-label="이름" autocomplete="name">`}</td>
+            <th scope="row">응시일</th><td>${blank ? '&nbsp;' : fmtDate(s.startedAt || s.createdAt, false)}</td>
             <th scope="row">점수</th><td class="score-cell">${scoreHTML || '&nbsp;'}</td>
           </tr>
         </table>
@@ -1133,7 +1154,7 @@
             <ul>
               <li>객관식은 가장 적절한 답 하나를 고르시오. 시험지의 보기를 누르면 <span class="pen-blue">파란 펜</span>으로 표시되고 답안지(OMR)에 바로 옮겨집니다.</li>
               <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점 · PART III ${PARTS[3].points}점${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
-              <li>「&lt;보기&gt;에서 있는 대로 고른 것」은 옳은 진술을 빠짐없이 포함한 선지만 정답입니다. 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다.</li>
+              <li>짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다.</li>
               <li>창을 닫아도 처음 화면의 「이어서 풀기」로 남은 시간 그대로 이어 풀 수 있습니다.</li>
             </ul>
           </div>
@@ -1339,6 +1360,254 @@
       : '답안을 제출하고 채점할까요?';
     if (!confirm(msg)) return;
     finishSession();
+  }
+
+  // ---------------------------------------------------------------- 인쇄·공유용 시험지
+  // 앱 안 브라우저(카카오톡·인스타그램 등)는 인쇄(window.print)를 막아 둔 경우가 많다
+  function inAppBrowser() {
+    const ua = navigator.userAgent || '';
+    if (/KAKAOTALK/i.test(ua)) return 'kakao';
+    if (/Instagram|FBAN|FBAV|FB_IAB|NAVER\(inapp|Line\/|DaumApps|everytimeApp|Whale\/.*inapp|; wv\)/i.test(ua)) return 'other';
+    return null;
+  }
+  function externalOpenHref() {
+    const url = location.href;
+    const ua = navigator.userAgent || '';
+    if (inAppBrowser() === 'kakao') return `kakaotalk://web/openExternal?url=${encodeURIComponent(url)}`;
+    if (/Android/i.test(ua)) return `intent://${url.replace(/^https?:\/\//, '')}#Intent;scheme=https;package=com.android.chrome;end`;
+    return '';
+  }
+  function inAppNoticeHTML(what) {
+    if (!inAppBrowser()) return '';
+    const href = externalOpenHref();
+    return `
+      <div class="notice inapp-notice no-print">
+        <p><b>앱 안 브라우저에서는 ${esc(what)}이 막혀 있을 수 있습니다.</b> Chrome·Safari 같은 기본 브라우저로 열어 주세요.</p>
+        ${href ? `<a class="btn btn-block" href="${esc(href)}">🌐 기본 브라우저로 열기</a>`
+          : '<p class="small" style="margin:6px 0 0">오른쪽 위·아래의 ⋯ 또는 공유 버튼 → 「Safari로 열기」(또는 「다른 브라우저로 열기」)를 누르세요.</p>'}
+      </div>`;
+  }
+  function doPrint() {
+    if (inAppBrowser() || typeof window.print !== 'function') {
+      const href = externalOpenHref();
+      if (href && confirm('이 앱 안 브라우저에서는 인쇄가 막혀 있을 수 있습니다.\n기본 브라우저(Chrome·Safari)로 열까요?')) { location.href = href; return; }
+      if (!href) { alert('이 앱 안 브라우저에서는 인쇄가 막혀 있을 수 있습니다.\n⋯ 메뉴에서 「Safari로 열기」(또는 「다른 브라우저로 열기」)를 누른 뒤 다시 인쇄하세요.'); return; }
+    }
+    try { window.print(); } catch (e) { alert('이 브라우저에서는 인쇄를 할 수 없습니다. Chrome·Safari로 열어 주세요.'); }
+  }
+  function toast(msg) {
+    const el = document.createElement('div');
+    el.className = 'toast';
+    el.setAttribute('role', 'status');
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(() => el.classList.add('is-on'), 10);
+    setTimeout(() => { el.classList.remove('is-on'); setTimeout(() => el.remove(), 300); }, 2600);
+  }
+
+  // 공유 링크: #set=<id.id.…>&o=<문항별 보기 순서 숫자를 이어 붙인 것>&t=<제목>
+  function encodeSet(set) {
+    const ids = set.items.map((it) => it.id).join('.');
+    const o = set.items.map((it) => it.order.join('')).join('');
+    return `set=${ids}&o=${o}${set.title ? `&t=${encodeURIComponent(set.title)}` : ''}`;
+  }
+  function shareURL(set) {
+    return `${location.origin}${location.pathname}#${encodeSet(set)}`;
+  }
+  function decodeSet(hash) {
+    const params = new URLSearchParams(hash.replace(/^#/, ''));
+    const ids = (params.get('set') || '').split('.').filter(Boolean);
+    const o = params.get('o') || '';
+    const title = (params.get('t') || '').slice(0, 60);
+    const items = [];
+    let missing = 0;
+    let pos = 0;
+    ids.forEach((id) => {
+      const q = S.qById.get(id);
+      if (!q) { missing += 1; return; }
+      const n = isEssay(q) ? 0 : q.choices.length;
+      const digits = o.slice(pos, pos + n).split('').map(Number);
+      pos += n;
+      const valid = digits.length === n && new Set(digits).size === n && digits.every((d) => d >= 0 && d < n);
+      items.push({ id, order: isEssay(q) ? [] : (valid ? digits : shuffle(range(n))) });
+    });
+    return { items, missing, title, createdAt: Date.now() };
+  }
+  function setMeta(set) {
+    const qs = set.items.map((it) => S.qById.get(it.id));
+    const unitDist = {};
+    const partDist = { 1: 0, 2: 0, 3: 0 };
+    let totalPoints = 0;
+    qs.forEach((q) => { unitDist[q.unit] = (unitDist[q.unit] || 0) + 1; partDist[q.part] += 1; totalPoints += pointsOf(q); });
+    return {
+      units: S.units.map((u) => u.key).filter((k) => unitDist[k]),
+      unitDist, partDist, totalPoints,
+      minutes: Math.round(totalPoints * CONFIG.minutesPer100 / 100),
+    };
+  }
+
+  function makePrintSet() {
+    const p = S.prefs;
+    const pool = poolFor(p.mode === 'mock' ? 'mock' : 'study');
+    if (!pool.length) return;
+    const count = p.count === 'all' ? pool.length : Math.min(p.count, pool.length);
+    let picked = count >= pool.length ? pool.slice() : compose(pool, count, 'fresh').picked;
+    picked = orderPicked(picked, 'exam');
+    const prev = store.get('print', null);
+    S.print = {
+      title: (prev && prev.title) || '',
+      opts: Object.assign({ omr: true, key: true, exp: true }, prev && prev.opts),
+      items: picked.map((q) => ({ id: q.id, order: isEssay(q) ? [] : (p.shuffleC ? shuffle(range(q.choices.length)) : range(q.choices.length)) })),
+      createdAt: Date.now(),
+    };
+    store.set('print', S.print);
+  }
+
+  function printPaperSession(set) {
+    const m = setMeta(set);
+    return { mode: 'shared', title: set.title, units: m.units, items: set.items, totalPoints: m.totalPoints, timeLimitSec: m.minutes * 60, createdAt: set.createdAt };
+  }
+
+  function printQuestionHTML(it, i, q) {
+    return `
+      <div class="pq">
+        <p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span></p>
+        ${boxHTML(q)}
+        ${isEssay(q) ? '<div class="print-lines"></div>' : `<ol class="pq-choices print-choices">${it.order.map((orig, disp) => `
+          <li><span class="cnum">${CIRCLED[disp]}</span><span>${rich(q.choices[orig])}</span></li>`).join('')}</ol>`}
+      </div>`;
+  }
+
+  function renderPrint() {
+    if (!S.print) S.print = store.get('print', null);
+    const set = S.print;
+    if (!set || !set.items || !set.items.length || !set.items.every((it) => S.qById.has(it.id))) { go('home', false); return; }
+    const opts = set.opts || { omr: true, key: true, exp: true };
+    const ps = printPaperSession(set);
+    const m = setMeta(set);
+    const groups = partGroups(ps);
+    const n = set.items.length;
+    const omrRows = set.items.map((it, i) => {
+      const q = S.qById.get(it.id);
+      return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isEssay(q) ? '<span class="pomr-essay">서술</span>' : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
+    }).join('');
+    const keyCells = set.items.map((it, i) => {
+      const q = S.qById.get(it.id);
+      return `<div class="pkey-cell"><span>${i + 1}</span><b>${isEssay(q) ? '서술' : CIRCLED[it.order.indexOf(q.answer - 1)]}</b></div>`;
+    }).join('');
+    const expList = set.items.map((it, i) => {
+      const q = S.qById.get(it.id);
+      const ans = isEssay(q) ? '' : CIRCLED[it.order.indexOf(q.answer - 1)];
+      return `<div class="pexp"><p><b>${i + 1}. 정답 ${ans}</b> <span class="muted small">(${esc(unitLabel(q.unit))})</span></p><p>${rich(q.explanation)}</p>${q.source ? `<p class="source"><b>📄</b><span>${esc(q.source)}</span></p>` : ''}</div>`;
+    }).join('');
+
+    $view.innerHTML = `
+      <div class="wrap no-print">
+        <section class="card print-tools">
+          <h2>🖨 인쇄·공유용 시험지</h2>
+          ${inAppNoticeHTML('인쇄·PDF 저장')}
+          <p class="muted small" style="margin-top:0">${n}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분 · 범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]} / III ${m.partDist[3]}</p>
+          <label class="field">시험지 제목 <input type="text" data-action="print-title" maxlength="40" placeholder="예: 중간고사 대비 1회" value="${esc(set.title || '')}"></label>
+          <div class="check-row">
+            <label><input type="checkbox" data-action="print-opt" data-key="omr" ${opts.omr ? 'checked' : ''}> 답안지(OMR)</label>
+            <label><input type="checkbox" data-action="print-opt" data-key="key" ${opts.key ? 'checked' : ''}> 정답표</label>
+            <label><input type="checkbox" data-action="print-opt" data-key="exp" ${opts.exp ? 'checked' : ''}> 해설</label>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-primary" type="button" data-action="do-print">🖨 인쇄 / PDF 저장</button>
+            <button class="btn" type="button" data-action="share-link">🔗 링크로 공유</button>
+          </div>
+          <div class="btn-row" style="margin-top:10px">
+            <button class="btn" type="button" data-action="solve-print">✍️ 이 시험지 직접 풀기</button>
+            <button class="btn" type="button" data-action="make-print">🔄 다른 문제로 다시 만들기</button>
+          </div>
+          <div id="shareBox"></div>
+          <p class="muted small" style="margin:12px 0 0">PDF로 받으려면 인쇄 창에서 대상(프린터)을 「PDF로 저장」으로 고르세요. 링크를 받은 사람은 같은 문제·같은 보기 순서의 시험지를 온라인으로 풀거나 인쇄할 수 있습니다(기록은 그 사람 기기에 저장).</p>
+        </section>
+      </div>
+      <div class="wrap-wide">
+        <article class="paper print-paper" aria-label="인쇄용 시험지">
+          ${paperHeadHTML(ps, '', true)}
+          <p class="paper-inst"><b>Instructions:</b> 각 문항에서 가장 적절한 답 하나를 고르시오. 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 답은 답안지(OMR)에 표시하시오.' : ''}</p>
+          ${[1, 2, 3].map((pp) => groups[pp].length ? `
+          <section class="paper-part">
+            ${partTitleHTML(pp, groups[pp], false)}
+            <div class="paper-cols">${groups[pp].map(({ it, i, q }) => printQuestionHTML(it, i, q)).join('')}</div>
+          </section>` : '').join('')}
+          <p class="paper-end">— 끝 —</p>
+        </article>
+        ${opts.omr ? `
+        <section class="paper print-sheet page-break" aria-label="답안지">
+          <h3 class="sheet-title">답안지 (OMR) — ${esc(set.title || 'GMP 바이오공정')}</h3>
+          <table class="paper-id"><tr><th scope="row">이름</th><td>&nbsp;</td><th scope="row">학번</th><td>&nbsp;</td><th scope="row">점수</th><td>&nbsp;</td></tr></table>
+          <div class="pomr-grid">${omrRows}</div>
+        </section>` : ''}
+        ${opts.key || opts.exp ? `
+        <section class="paper print-sheet page-break" aria-label="정답과 해설">
+          <h3 class="sheet-title">정답${opts.exp ? ' 및 해설' : ''} — ${esc(set.title || 'GMP 바이오공정')}</h3>
+          ${opts.key ? `<div class="pkey-grid">${keyCells}</div>` : ''}
+          ${opts.exp ? `<div class="pexp-list">${expList}</div>` : ''}
+        </section>` : ''}
+      </div>`;
+  }
+
+  async function shareLink() {
+    const set = S.print;
+    if (!set) return;
+    const url = shareURL(set);
+    const box = document.getElementById('shareBox');
+    if (navigator.share && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '')) {
+      try { await navigator.share({ title: set.title || 'GMP 바이오공정 시험지', text: `${set.title || 'GMP 바이오공정 시험지'} (${set.items.length}문항)`, url }); return; }
+      catch (e) { /* 취소하면 아래 복사로 */ }
+    }
+    let copied = false;
+    try { await navigator.clipboard.writeText(url); copied = true; } catch (e) { copied = false; }
+    if (box) {
+      box.innerHTML = `<div class="share-box"><p class="small" style="margin:0 0 6px">${copied ? '링크를 복사했습니다. 메신저에 붙여 넣어 보내세요.' : '아래 링크를 길게 눌러 복사해 보내세요.'}</p><input type="text" readonly value="${esc(url)}" aria-label="공유 링크"></div>`;
+      const inp = box.querySelector('input');
+      if (inp) { inp.focus(); inp.select(); }
+    }
+    if (copied) toast('공유 링크를 복사했습니다');
+  }
+
+  // 공유 링크로 들어온 사람에게 보여 주는 첫 화면
+  function renderShared() {
+    const set = S.shared;
+    if (!set || !set.items.length) {
+      $view.innerHTML = `<div class="wrap"><div class="notice notice-error"><p><b>공유 시험지를 열 수 없습니다.</b> 링크가 잘렸거나 문항이 바뀌었습니다.</p></div><button class="btn btn-block" type="button" data-action="home">처음 화면으로</button></div>`;
+      return;
+    }
+    const m = setMeta(set);
+    $view.innerHTML = `
+      <div class="wrap">
+        <section class="card result-hero">
+          <p class="muted" style="margin:0">🔗 공유받은 시험지</p>
+          <h1 style="margin:6px 0">${esc(set.title || 'GMP 바이오공정 시험지')}</h1>
+          <p class="score-sub">${set.items.length}문항 · ${m.totalPoints}점 · 권장 시간 ${m.minutes}분<br>범위 ${esc(m.units.map(unitLabel).join(', '))} · PART I ${m.partDist[1]} / II ${m.partDist[2]} / III ${m.partDist[3]}</p>
+          ${set.missing ? `<p class="notice">문제집이 업데이트되어 ${set.missing}문항은 빠졌습니다.</p>` : ''}
+          <div class="btn-row">
+            <button class="btn btn-primary" type="button" data-action="solve-shared">✍️ 온라인으로 풀기</button>
+            <button class="btn" type="button" data-action="print-shared">🖨 인쇄용으로 보기</button>
+          </div>
+          <p class="muted small" style="margin:12px 0 0">풀이 기록은 이 기기에만 저장됩니다. 처음 화면에서 다른 단원 문제도 풀 수 있습니다.</p>
+          <button class="btn btn-ghost btn-block" type="button" data-action="home" style="margin-top:8px">처음 화면으로</button>
+        </section>
+      </div>`;
+  }
+
+  function startFromSet(set) {
+    const active = store.get('active', null);
+    if (active && active.v === 2 && !confirm('진행 중인 풀이가 있습니다. 버리고 이 시험지를 시작할까요?')) return;
+    const picked = set.items.map((it) => S.qById.get(it.id));
+    store.del('active');
+    S.session = sessionFrom('shared', picked, { orders: set.items.map((it) => it.order), poolSize: picked.length });
+    S.session.title = set.title || '';
+    saveActive();
+    clearHash();
+    go('exam');
+  }
+  function clearHash() {
+    if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
   }
 
   // ---------------------------------------------------------------- 결과
@@ -1744,6 +2013,7 @@
           if (!confirm('풀이를 잠시 멈추고 처음 화면으로 갈까요?\n진행 상황은 저장되어 이어서 풀 수 있습니다.')) return;
           leaveSession();
         }
+        clearHash();
         go('home', false);
         break;
       case 'history':
@@ -1844,7 +2114,21 @@
         }
         break;
       }
-      case 'print': window.print(); break;
+      case 'print': doPrint(); break;
+      case 'do-print': doPrint(); break;
+      case 'make-print': makePrintSet(); go('print'); break;
+      case 'open-print': S.print = store.get('print', null); go('print'); break;
+      case 'share-link': shareLink(); break;
+      case 'solve-print': if (S.print) startFromSet(S.print); break;
+      case 'solve-shared': if (S.shared) startFromSet(S.shared); break;
+      case 'print-shared':
+        if (S.shared) {
+          S.print = { title: S.shared.title, opts: { omr: true, key: true, exp: true }, items: S.shared.items, createdAt: Date.now() };
+          store.set('print', S.print);
+          clearHash();
+          go('print');
+        }
+        break;
       case 'akfilter': {
         S.akFilter = el.dataset.value;
         const y = window.scrollY;
@@ -1877,6 +2161,12 @@
       p.units = S.units.map((u) => u.key).filter((k) => keys.has(k));
       savePrefs();
       renderHome();
+    } else if (el.dataset.action === 'print-opt' && S.print) {
+      S.print.opts = Object.assign({}, S.print.opts, { [el.dataset.key]: el.checked });
+      store.set('print', S.print);
+      const y = window.scrollY;
+      renderPrint();
+      window.scrollTo(0, y);
     } else if (el.dataset.action === 'opt') {
       p[el.dataset.key] = el.checked;
       savePrefs();
@@ -1887,7 +2177,13 @@
   document.addEventListener('input', (e) => {
     const t = e.target;
     if (!t.dataset) return;
-    if (t.dataset.action === 'name') {
+    if (t.dataset.action === 'print-title' && S.print) {
+      S.print.title = t.value.slice(0, 40);
+      store.set('print', S.print);
+      const title = document.querySelector('.print-paper .paper-title');
+      if (title) title.innerHTML = examTitle('shared', S.print.title);
+      document.querySelectorAll('.sheet-title').forEach((h) => { h.textContent = h.textContent.replace(/— .*$/, `— ${S.print.title || 'GMP 바이오공정'}`); });
+    } else if (t.dataset.action === 'name') {
       S.prefs.name = t.value.slice(0, 40);
       savePrefs();
     } else if (t.dataset.action === 'essay' && S.session) {
@@ -1944,6 +2240,10 @@
     try {
       await loadBank();
       S.view = 'home';
+      if (/^#set=/.test(location.hash)) {
+        S.shared = decodeSet(location.hash);
+        S.view = 'shared';
+      }
     } catch (err) {
       S.loadError = err.message;
       S.view = 'error';

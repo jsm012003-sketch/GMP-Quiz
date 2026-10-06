@@ -6,22 +6,22 @@
     {
       "id": "ot-001",
       "type": "연결",
-      "question": "OT의 'Process + Quality Control by Unit' 도식에서 단위공정과 해당 QC 시험의 연결로 옳지 않은 것은?",
+      "question": "단위공정과 QC 시험의 연결로 옳지 않은 것은? (OT 'Process + Quality Control by Unit')",
       "choices": [
-        "Seed Expansion – Viability and Cell Count, Metabolite Measurement",
-        "Cell Bank·Virus Seed – Biosafety and Characterization, Mycoplasma Testing",
-        "Unprocessed Bulk Harvest – Mycoplasma Testing, Bioburden, Virus Analytics, Biosafety(Replication competence) and Characterization",
-        "Filling → Drug Product – Sterility Testing(멤브레인 여과법 또는 신속법)",
-        "Seed Expansion – Sterility Testing을 출하 판정 시험으로 수행하며, Drug Product에서는 무균시험을 하지 않는다"
+        "Seed expansion – 생존율·세포 수, 대사물질 측정",
+        "Cell bank – mycoplasma 시험, 특성 분석",
+        "Unprocessed bulk harvest – mycoplasma, bioburden, 바이러스 분석",
+        "Filling(완제) – 무균시험",
+        "Seed expansion – 출하 판정용 무균시험(완제는 무균시험 안 함)"
       ],
       "answer": 5,
       "explanation": "도식의 QC 번호: 1 Viability & Cell Count, 2 Metabolite Measurement(seed expansion·virus propagation), 3 Mycoplasma Detection(cell bank·virus seed·media·unprocessed bulk·buffer 등), 4 Microbial Contamination/Bioburden, 5 Virus Analytics, **6 Sterility Testing – 멤브레인 여과법 또는 신속법으로 무균 입증, 공정 단계: Filling(Drug Product)**, 7 Microbial Air Monitoring, 8 Data Analytics, 9 Biosafety & Characterization. 업스트림 IPC(WK02)와 완제 출하 시험(GMP01)이 하나의 품질 체계로 이어진다.",
       "choiceNotes": [
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결.",
-        "옳은 연결 — 무균시험은 Filling/Drug Product 단계.",
-        "틀린 연결(정답) — 무균시험은 충전된 완제의약품 단계의 시험이다."
+        "옳은 진술 — QC 1·2.",
+        "옳은 진술 — QC 3.",
+        "옳은 진술 — QC 3·4·5.",
+        "옳은 진술 — QC 6 무균시험은 Filling(완제)에서.",
+        "틀린 진술(정답) — 무균시험은 완제(Filling) 단계에서 한다."
       ],
       "source": "OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
       "tags": [
@@ -115,22 +115,22 @@
     {
       "id": "ot-005",
       "type": "연결",
-      "question": "OT의 Bioprocess 도식을 기준으로 할 때, Upstream과 Downstream의 마지막 단계들이 바르게 짝지어진 것은?",
+      "question": "OT의 Bioprocess 도식에서 Upstream 단계의 순서로 옳은 것은?",
       "choices": [
-        "Upstream: Culture media preparation → Seed cultivation → Scale-up → Production → Clarification & centrifugation",
-        "Upstream: Production → Seed cultivation → Culture media preparation → Scale-up",
-        "Downstream 마지막: Final filling → Sterile filtration → Concentration",
-        "Downstream 마지막: Cryo-preservation → Virus removal filtration → Final filling",
-        "Upstream 마지막 단계는 Polishing이다"
+        "배지 준비 → seed 배양 → scale-up → 생산 배양 → 원심분리·clarification",
+        "생산 배양 → seed 배양 → 배지 준비 → scale-up",
+        "seed 배양 → 생산 배양 → 배지 준비 → polishing",
+        "배지 준비 → 생산 배양 → seed 배양 → 무균 충전",
+        "scale-up → 배지 준비 → 원심분리 → seed 배양"
       ],
       "answer": 1,
       "explanation": "OT 도식: **Upstream(원하는 약물 생산)** – Culture media preparation → Seed cultivation → Scale-up → Production → **Clarification & centrifugation**. **Downstream(분리·충전)** – Viral clearance·Chromatography·Polishing 등을 거쳐 … → **Virus removal filtration → Concentration → Sterile filtration → Cryo-preservation → Final filling**. WK02의 공정 흐름도(Capture → Viral clearance → Virus removal filtration → Concentration → Sterile filtration → Cryopreservation → Final filling)와 같은 구조다.",
       "choiceNotes": [
-        "옳다 — 업스트림 순서.",
-        "틀리다 — 순서가 뒤섞였다.",
-        "틀리다 — 순서가 거꾸로다.",
-        "틀리다 — Virus removal filtration은 동결보존보다 앞이다.",
-        "틀리다 — Polishing은 정제(downstream) 단계다."
+        "옳다 — 도식의 Upstream 순서.",
+        "틀리다 — 순서가 뒤집혔다.",
+        "틀리다 — polishing은 Downstream이다.",
+        "틀리다 — 무균 충전은 완제 단계다.",
+        "틀리다 — 순서가 맞지 않는다."
       ],
       "source": "OT PDF p.2 (Bioprocess) · WK02 PDF p.15 (Overview the Stream for Bioprocessing)",
       "tags": [

@@ -87,9 +87,9 @@
       "id": "gmp03-004",
       "type": "개념",
       "part": 1,
-      "question": "VHP Decontamination cycle 4단계를 순서대로 바르게 나열하고 각 단계의 역할을 옳게 설명한 것은?",
+      "question": "VHP Decontamination cycle 4단계의 순서로 옳은 것은?",
       "choices": [
-        "Preparation(검증된 조건·구조물 위치로 준비) → Conditioning(H₂O₂를 주입해 목표 농도까지 상승) → Decontamination(목표 농도를 규정 시간 유지, BI·CI로 사멸 효과 확인) → Aeration(H₂O₂ 제거, 잔류 농도를 기준 이하로)",
+        "Preparation → Conditioning → Decontamination → Aeration",
         "Conditioning → Preparation → Decontamination → Aeration",
         "Preparation → Decontamination → Conditioning → Aeration",
         "Preparation → Conditioning → Aeration → Decontamination",
@@ -98,11 +98,11 @@
       "answer": 1,
       "explanation": "**01 Preparation**(구조물 위치를 포함한 검증된 조건으로 준비) → **02 Conditioning**(검증된 조건으로 H₂O₂를 주입해 목표 농도까지 상승) → **03 Decontamination**(목표 농도를 유지하며 규정 시간 노출, BI·CI로 사멸 효과 확인) → **04 Aeration**(H₂O₂ 제거, 잔류 농도를 기준 이하로 — 작업자 안전·제품 영향과 직결).",
       "choiceNotes": [
-        "옳다 — 순서와 역할 모두 일치.",
+        "옳다 — 준비 → 농도 상승 → 유지 → 제거.",
         "틀리다 — 준비가 먼저다.",
-        "틀리다 — 목표 농도까지 올린(conditioning) 뒤 유지(decontamination)한다.",
-        "틀리다 — aeration은 마지막이다.",
-        "틀리다 — aeration은 제염 후 잔류 H₂O₂를 제거하는 단계다."
+        "틀리다 — 농도를 올린 뒤 유지한다.",
+        "틀리다 — aeration이 마지막이다.",
+        "틀리다 — aeration이 마지막이다."
       ],
       "source": "03 Isolator & Qualification PDF p.7 (VHP Decontamination Cycle 4단계)",
       "tags": [

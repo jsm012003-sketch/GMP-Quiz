@@ -33,22 +33,22 @@
     {
       "id": "int-002",
       "type": "연결",
-      "question": "OT 텀 프로젝트 배경(BluejayTech)은 '약독화 바이러스 백신용으로 갖춰진 공장을 mRNA 백신 생산에 활용'하는 것이다. WK02의 COVID-19 플랫폼 비교를 근거로 할 때 전환 설계의 출발점으로 가장 적절한 것은?",
+      "question": "약독화 바이러스 백신 공장을 mRNA 백신 생산에 쓰려 한다(OT 텀 프로젝트 배경). 설계의 출발점으로 가장 적절한 것은?",
       "choices": [
-        "mRNA 백신도 동물세포 대량 배양이 핵심이므로 기존 바이러스 증식용 배양기를 그대로 생산 공정으로 쓴다.",
-        "mRNA 플랫폼은 E. coli(plasmid) 기반 원료와 효소 반응(plasmid + NTPs → mRNA, capping) 중심으로 개발·생산 속도가 가장 빠른 플랫폼이므로, 세포배양 중심의 기존 설비를 그대로 쓰기보다 PFD·장비 구성을 새로 정의해야 한다.",
-        "mRNA 백신은 inactivated/live-attenuated SARS-CoV-2로 만드는 전통 플랫폼이라 공정 변경이 거의 없다.",
-        "Recombinant protein 플랫폼이 가장 빠르므로 mRNA 대신 이를 선택해야 한다.",
-        "Viral vector 플랫폼은 CHO 세포에서 항원 단백질을 직접 발현시키는 방식이므로 mRNA와 같은 설비를 쓴다."
+        "기존 동물세포 배양기를 그대로 생산 공정으로 쓴다.",
+        "mRNA는 plasmid(E. coli)와 효소 반응 중심이므로 PFD·장비 구성을 새로 정의한다.",
+        "mRNA 백신은 불활화 바이러스로 만들므로 공정 변경이 거의 없다.",
+        "가장 빠른 플랫폼은 재조합 단백질이므로 mRNA 대신 이를 택한다.",
+        "바이러스 벡터 백신과 같은 설비를 그대로 쓴다."
       ],
       "answer": 2,
       "explanation": "WK02 COVID-19 플랫폼: **Recombinant protein** – CHO·Insect·E. coli 등, 오랜 실적의 검증된 플랫폼 / **Viral vector** – 항원 유전자를 담은 벡터(Adeno, MVA 등), 빠르고 생산성 높은 신규 플랫폼 / **mRNA** – 항원 유전자를 암호화한 mRNA, **E. coli(Plasmid)**, **가장 빠른 개발·생산 플랫폼** / **Virus** – 불활화·약독화 바이러스, 전통 방식. OT 배경 슬라이드의 반응표(Plasmids + NTPs –Polymerase→ mRNA, DNase 처리, capping)와 PFD(mixer·reactor·chromatography)를 보면 세포배양과 다른 공정 구성임을 알 수 있다.",
       "choiceNotes": [
-        "틀리다 — mRNA 생산은 세포배양이 아닌 효소 반응 중심이다.",
-        "옳다 — 플랫폼 차이를 반영해 공정을 재정의한다.",
-        "틀리다 — 그것은 Virus platform의 설명이다.",
-        "틀리다 — recombinant protein은 '검증된(long track record)' 플랫폼이고 가장 빠른 것은 mRNA다.",
-        "틀리다 — viral vector는 항원 유전자를 담은 바이러스 벡터다."
+        "틀리다 — mRNA는 세포배양 중심 공정이 아니다.",
+        "옳다 — 공정이 달라 설계를 새로 해야 한다.",
+        "틀리다 — 그것은 virus 플랫폼이다.",
+        "틀리다 — 가장 빠른 플랫폼은 mRNA다.",
+        "틀리다 — 플랫폼이 다르다."
       ],
       "source": "OT PDF p.5 (Background), p.7 (mRNA 반응표), p.10 (PFD) · WK02 PDF p.10 (Upstream Process in Platform), p.11",
       "tags": [
@@ -60,28 +60,22 @@
     {
       "id": "int-003",
       "type": "연결",
-      "question": "공정 전체에 걸친 '여과'의 목적을 비교했다. 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. 배양 배지 준비: 0.2 µm pre-filter로 bioburden을 낮추고 0.1 µm final filter로 멸균 및 mycoplasma를 제거한다.",
-        "ㄴ. 완제 조제(혼합) 후 무균 여과: 필터 사용 전·후 완전성 시험을 수행한다.",
-        "ㄷ. APS에서는 실제 충전 전 무균 여과 공정의 필터 셋업 과정도 모사한다.",
-        "ㄹ. Perfusion의 ATF 필터는 제품 멸균이 목적이므로 MF·UF 모드와 관계없이 제품이 항상 배양기에 남는다."
-      ],
+      "question": "공정 곳곳의 '여과'에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "ㄱ, ㄴ",
-        "ㄴ, ㄷ",
-        "ㄱ, ㄴ, ㄷ",
-        "ㄱ, ㄷ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "배지 준비: 0.1 µm final filter로 멸균과 mycoplasma 제거를 한다.",
+        "완제 조제: 무균 여과 필터는 사용 전·후에 완전성 시험을 한다.",
+        "APS: 충전 전 무균 여과의 필터 셋업 과정도 모사한다.",
+        "Perfusion의 ATF 필터: 제품을 멸균하는 장치다.",
+        "배지 준비: 0.2 µm pre-filter로 bioburden을 낮춘다."
       ],
-      "answer": 3,
-      "explanation": "ㄱ: WK02 필기(Pre 0.2 µm – bioburden 감소, Final 0.1 µm – 멸균·mycoplasma 제거). ㄴ: GMP01 조제 KEY POINT(필터 사용 전/후 완전성 시험). ㄷ: GMP02 APS 전략(Sterile filtration – simulate filtration setup process). ㄹ: ATF는 **세포 유지 장치**이며 **UF 모드면 제품이 배양기에 남고(concentrated FB), MF 모드면 제품이 permeate로 빠져나간다(dynamic perfusion)** — 멸균이 목적이 아니다.",
+      "answer": 4,
+      "explanation": "**ATF는 제품 멸균 장치가 아니라 세포를 붙잡아 두는 세포 유지 장치다.** UF 모드면 제품이 배양기에 남고(concentrated FB), MF 모드면 제품이 여과액으로 빠져나간다(dynamic perfusion). 배지 여과(0.2/0.1 µm, WK02), 조제 후 필터 완전성 시험(GMP01), APS의 필터 셋업 모사(GMP02)는 모두 맞는 설명이다.",
       "choiceNotes": [
-        "ㄷ도 옳다.",
-        "ㄱ도 옳다.",
-        "옳다 — ㄱ·ㄴ·ㄷ.",
-        "ㄹ은 틀리고 ㄴ이 빠졌다.",
-        "ㄹ은 틀리다 — 모드에 따라 제품 흐름이 반대다."
+        "옳은 진술 — WK02 필기.",
+        "옳은 진술 — GMP01 KEY POINT.",
+        "옳은 진술 — GMP02 APS 전략.",
+        "틀린 진술(정답) — 세포 유지 장치다.",
+        "옳은 진술 — WK02 필기."
       ],
       "source": "WK02 PDF p.16 (필기: 배지 여과), p.40–41 (ATF UF/MF) · 01 완제 PDF p.13 (필터 완전성 시험) · 02 RABS & APS PDF p.20 (APS 전략)",
       "tags": [
@@ -231,22 +225,22 @@
       "id": "int-009",
       "type": "개념",
       "part": 1,
-      "question": "mAb 의약품의 원료(DS) 생산부터 완제(DP) 출하까지의 흐름을 가장 바르게 나열한 것은?",
+      "question": "mAb 의약품이 만들어지는 큰 흐름으로 옳은 것은?",
       "choices": [
-        "배지 준비 → 세포은행(WCB) → Seed train → 생산 배양 → 원심분리·Clarification → Capture → Viral clearance → Virus removal filtration → 농축 → 무균 여과 → 동결보존 → (완제) 혼합·조제 → 무균 여과 → 무균 충전 → CCI·전수검사 → 완제품 시험·출하",
-        "세포은행 → 생산 배양 → 무균 충전 → Capture → 동결보존 → 완제품 시험",
-        "배지 준비 → Capture → Seed train → 생산 배양 → 무균 충전 → Viral clearance",
-        "생산 배양 → 무균 충전 → 혼합·조제 → Clarification → 출하",
-        "혼합·조제 → 세포은행 → Seed train → 생산 배양 → Final filling → Capture"
+        "세포은행 → 배양 → 정제 → 원료의약품 → 조제·충전 → 출하",
+        "배양 → 충전 → 정제 → 세포은행 → 출하",
+        "정제 → 배양 → 세포은행 → 충전 → 출하",
+        "조제·충전 → 배양 → 정제 → 출하",
+        "세포은행 → 충전 → 배양 → 정제 → 출하"
       ],
       "answer": 1,
       "explanation": "WK02 필기: **DS(USP)** Media preparation → Cell Banking → Seed Train → Production → Centrifugation/Clarification, **DS(DSP)** Capture → Viral Clearance → Virus Removal Filtration → Concentration → Sterile Filtration → Cryopreservation, **DP** Final Filling. GMP01: 완제 흐름은 입고·칭량 → 혼합·조제(주사제는 조제·여과) → 충전·밀봉 → (멸균)·포장 → 시험·출하, 충전 후 CCI·이물·외관 전수검사.",
       "choiceNotes": [
-        "옳다 — USP → DSP → DP 흐름.",
-        "틀리다 — 정제 전에 충전할 수 없다.",
-        "틀리다 — Capture는 배양 후 정제 단계다.",
-        "틀리다 — 조제는 충전보다 앞이고 clarification은 배양 직후다.",
-        "틀리다 — 완제 조제가 맨 앞에 올 수 없다."
+        "옳다 — DS(배양·정제) → DP(조제·충전) → 출하.",
+        "틀리다 — 충전은 정제 뒤다.",
+        "틀리다 — 배양 전에 정제할 수 없다.",
+        "틀리다 — 충전이 맨 앞일 수 없다.",
+        "틀리다 — 충전은 정제 뒤다."
       ],
       "source": "WK02 PDF p.15, p.16 (필기: DS(USP)/DS(DSP)/DP) · 01 완제 PDF p.6 (전체 제조 공정 흐름), p.19",
       "tags": [
@@ -312,28 +306,22 @@
     {
       "id": "int-012",
       "type": "연결",
-      "question": "배양 공정 개선으로 titer가 크게 올랐다. 이 변경을 상업 공장에 적용할 때 함께 검토해야 할 것으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. 하류 Protein A 단계가 처리할 항체량(레진 부피·cycle 수)과 공정 시간",
-        "ㄴ. 물질수지가 바뀌므로 버퍼 부피·탱크 크기와 WFI 같은 유틸리티 용량",
-        "ㄷ. 변경 관리(change control)로 기존 밸리데이션 상태에 미치는 영향 평가",
-        "ㄹ. titer는 배양만의 문제이므로 하류·시설은 검토할 필요가 없음"
-      ],
+      "question": "배양 공정 개선으로 titer가 크게 올랐다. 상업 공장에 적용할 때의 판단으로 옳지 않은 것은?",
       "choices": [
-        "ㄱ, ㄴ",
-        "ㄱ, ㄹ",
-        "ㄴ, ㄷ",
-        "ㄱ, ㄴ, ㄷ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "하류 Protein A 단계의 레진 부피·cycle 수와 공정 시간을 다시 검토한다.",
+        "물질수지가 바뀌므로 버퍼 부피와 WFI 같은 유틸리티 용량을 다시 산정한다.",
+        "변경 관리(change control)로 기존 밸리데이션에 대한 영향을 평가한다.",
+        "titer는 배양만의 문제이므로 하류·시설은 검토하지 않아도 된다.",
+        "정제할 항체량이 늘어나는지 확인한다."
       ],
       "answer": 4,
-      "explanation": "**상류 변경은 하류·시설·밸리데이션으로 이어진다.** WK06 Case 1처럼 titer가 오르면 같은 배양 부피에서 Protein A가 처리할 항체량이 늘어 레진 부피·cycle·시간이 달라진다. WK07에서는 물질수지가 장비 크기·버퍼 부피·유틸리티 용량의 근거이므로 다시 산정해야 한다. 승인된 공정의 변경은 change control로 기존 Q&V 상태에 대한 영향을 평가한다.",
+      "explanation": "**상류 변경은 하류·시설·밸리데이션으로 이어진다.** WK06 Case 1처럼 titer가 오르면 Protein A가 처리할 항체량과 시간이 달라지고, WK07의 물질수지 → 장비·버퍼·유틸리티 용량도 다시 산정해야 한다. 승인된 공정의 변경은 change control로 영향을 평가한다.",
       "choiceNotes": [
-        "틀리다 — ㄷ(변경 관리)이 빠졌다.",
-        "틀리다 — ㄹ은 틀린 진술이다.",
-        "틀리다 — ㄱ(하류 영향)이 빠졌다.",
-        "옳다 — ㄱ·ㄴ·ㄷ.",
-        "틀리다 — ㄹ은 틀린 진술이다."
+        "옳은 진술 — 하류 영향.",
+        "옳은 진술 — 물질수지 → 유틸리티.",
+        "옳은 진술 — 변경 관리.",
+        "틀린 진술(정답) — 하류·시설도 영향을 받는다.",
+        "옳은 진술 — 처리량 변화."
       ],
       "source": "WK06 PDF p.20–24 (Case 1: Titer 0.1 → 1.0 g/L) · WK07 PDF p.29 (Mass Balance), p.51 (Change Control)",
       "tags": [

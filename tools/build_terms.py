@@ -7,8 +7,8 @@
   <prefix>m-<no>-<no>-<no>-<no>  용어 (가)~(라) ↔ 설명 A~D 짝짓기
 
 id는 용어 번호(no)로만 정해지므로 용어를 추가해도 기존 id는 바뀌지 않는다.
-오답 선지는 같은 group(헷갈리기 쉬운 묶음)에서 먼저 고르고, 모자라면 같은 단원의
-다른 용어에서 채운다. 선지 선택·정답 위치는 id로 시드를 정해 매번 같은 결과가 나온다.
+오답 선지는 같은 group(헷갈리기 쉬운 묶음)에서 2개, 같은 단원의 다른 group에서 2개를
+고른다. 선지 선택·정답 위치는 id로 시드를 정해 매번 같은 결과가 나온다.
 
 사용법: python3 tools/build_terms.py   (저장소 루트에서)
 """
@@ -38,18 +38,23 @@ def concept_key(label):
     return ''.join(ch for ch in short(label).lower() if ch.isalnum())
 
 
+SAME_GROUP = 2   # 오답 선지 4개 중 같은 묶음(헷갈리는 용어)에서 고를 개수 — 나머지는 다른 묶음에서
+
+
 def pick_distractors(term, terms, rng, k=4):
+    """오답 선지: 같은 group에서 SAME_GROUP개, 나머지는 다른 group에서 고른다.
+    (모두 같은 묶음에서 고르면 너무 어려워서, 2026.10 난이도 조정 때 절반으로 줄였다)"""
     same = [t for t in terms if t['group'] == term['group'] and t['no'] != term['no']]
     other = [t for t in terms if t['group'] != term['group']]
     rng.shuffle(same)
     rng.shuffle(other)
-    out = []
-    for t in same + other:
+    ok = lambda t: short(t['term']) != short(term['term']) and t['def'] != term['def']
+    out = [t for t in same if ok(t)][:SAME_GROUP]
+    for t in other + same:
         if len(out) >= k:
             break
-        if short(t['term']) == short(term['term']) or t['def'] == term['def']:
-            continue
-        out.append(t)
+        if t not in out and ok(t):
+            out.append(t)
     return out
 
 
