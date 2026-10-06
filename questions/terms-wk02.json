@@ -37,39 +37,6 @@
    ]
   },
   {
-   "id": "tw02d-004",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제."
-   ],
-   "choices": [
-    "Bi-/Multi-specific antibody",
-    "Plasma-derived protein (혈장 유래 단백질)",
-    "ADC (Antibody Drug Conjugate)",
-    "QbD (Quality by Design)",
-    "DO control (O₂·N₂)"
-   ],
-   "answer": 3,
-   "explanation": "**ADC (Antibody Drug Conjugate)** — 항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-   "choiceNotes": [
-    "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "틀리다 — Plasma-derived protein (혈장 유래 단백질): 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
-    "정답 — 항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-    "틀리다 — QbD (Quality by Design): 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-    "틀리다 — DO control (O₂·N₂): 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어."
-   ],
-   "source": "WK02 PDF p.5",
-   "concepts": [
-    "ADC"
-   ],
-   "tags": [
-    "용어",
-    "ADC"
-   ]
-  },
-  {
    "id": "tw02d-005",
    "type": "용어",
    "part": 1,
@@ -80,17 +47,17 @@
    "choices": [
     "Plasma-derived protein (혈장 유래 단백질)",
     "Naked mAb",
-    "HEK293 (T)",
     "Bi-/Multi-specific antibody",
+    "HEK293 (T)",
     "MSC (중간엽 줄기세포)"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**Bi-/Multi-specific antibody** — 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
    "choiceNotes": [
     "틀리다 — Plasma-derived protein (혈장 유래 단백질): 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
     "틀리다 — Naked mAb: 아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
-    "틀리다 — HEK293 (T): 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
     "정답 — 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
+    "틀리다 — HEK293 (T): 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
     "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
    ],
    "source": "WK02 PDF p.5",
@@ -114,17 +81,17 @@
     "ADC (Antibody Drug Conjugate)",
     "Bi-/Multi-specific antibody",
     "Set point (설정값)",
-    "HEK293 (T)",
-    "Plasma-derived protein (혈장 유래 단백질)"
+    "Plasma-derived protein (혈장 유래 단백질)",
+    "HEK293 (T)"
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**Plasma-derived protein (혈장 유래 단백질)** — 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
    "choiceNotes": [
     "틀리다 — ADC (Antibody Drug Conjugate): 항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
     "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
     "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값.",
-    "틀리다 — HEK293 (T): 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-    "정답 — 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약."
+    "정답 — 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
+    "틀리다 — HEK293 (T): 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포."
    ],
    "source": "WK02 PDF p.5 · WK06 PDF p.12",
    "concepts": [
@@ -133,39 +100,6 @@
    "tags": [
     "용어",
     "Plasma-derived protein"
-   ]
-  },
-  {
-   "id": "tw02d-007",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
-   ],
-   "choices": [
-    "Viral vector vaccine",
-    "AAV (Adeno-Associated Virus)",
-    "Lentivirus / Retrovirus vector",
-    "Stationary phase (정지기)",
-    "Death phase (사멸기)"
-   ],
-   "answer": 2,
-   "explanation": "**AAV (Adeno-Associated Virus)** — HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.\nLuxturna(2017), Zolgensma(2019).",
-   "choiceNotes": [
-    "틀리다 — Viral vector vaccine: 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
-    "정답 — HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
-    "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-    "틀리다 — Death phase (사멸기): 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기."
-   ],
-   "source": "WK02 PDF p.6, p.12 · WK02 강의 녹음 24:07–25:49",
-   "concepts": [
-    "AAV"
-   ],
-   "tags": [
-    "용어",
-    "AAV"
    ]
   },
   {
@@ -178,19 +112,19 @@
    ],
    "choices": [
     "AAV (Adeno-Associated Virus)",
-    "Lentivirus / Retrovirus vector",
     "Viral vector vaccine",
     "Vent filter (배기 필터)",
-    "Capture chromatography"
+    "Capture chromatography",
+    "Lentivirus / Retrovirus vector"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Lentivirus / Retrovirus vector** — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
    "choiceNotes": [
     "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "정답 — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "틀리다 — Viral vector vaccine: 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A)."
+    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "정답 — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터."
    ],
    "source": "WK02 PDF p.6",
    "concepts": [
@@ -211,17 +145,17 @@
    ],
    "choices": [
     "Nucleic acid vaccine (mRNA/pDNA)",
-    "Lentivirus / Retrovirus vector",
     "Viral vector vaccine",
+    "Lentivirus / Retrovirus vector",
     "pH control (염기·CO₂)",
     "Lactate (젖산)"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Viral vector vaccine** — 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
    "choiceNotes": [
     "틀리다 — Nucleic acid vaccine (mRNA/pDNA): mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "정답 — 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
+    "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "틀리다 — pH control (염기·CO₂): pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
     "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물."
    ],
@@ -243,17 +177,17 @@
     "mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신."
    ],
    "choices": [
-    "Nucleic acid vaccine (mRNA/pDNA)",
     "Lentivirus / Retrovirus vector",
+    "Nucleic acid vaccine (mRNA/pDNA)",
     "AAV (Adeno-Associated Virus)",
     "Perfusion culture (관류 배양)",
     "Shear force (전단력)"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Nucleic acid vaccine (mRNA/pDNA)** — mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
    "choiceNotes": [
-    "정답 — mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
     "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
+    "정답 — mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
     "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
     "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
     "틀리다 — Shear force (전단력): 교반·기포로 세포막에 가해지는 찢는 힘."
@@ -268,204 +202,6 @@
    ]
   },
   {
-   "id": "tw02d-011",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
-   ],
-   "choices": [
-    "MSC (중간엽 줄기세포)",
-    "HSC (조혈모 줄기세포)",
-    "OTR (Oxygen Transfer Rate)",
-    "CAR-T",
-    "Stationary phase (정지기)"
-   ],
-   "answer": 4,
-   "explanation": "**CAR-T** — 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.\nKymriah(Novartis)가 첫 승인 CAR-T.",
-   "choiceNotes": [
-    "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
-    "틀리다 — HSC (조혈모 줄기세포): 모든 혈액 세포를 만들어 내는 줄기세포.",
-    "틀리다 — OTR (Oxygen Transfer Rate): 기체에서 배양액으로 산소가 공급되는 속도.",
-    "정답 — 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
-    "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
-   ],
-   "source": "WK02 PDF p.7 (Advanced Therapy Modalities)",
-   "concepts": [
-    "CAR-T"
-   ],
-   "tags": [
-    "용어",
-    "CAR-T"
-   ]
-  },
-  {
-   "id": "tw02d-012",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
-   ],
-   "choices": [
-    "iPSC (유도 만능 줄기세포)",
-    "CAR-T",
-    "DO control (O₂·N₂)",
-    "Cryopreservation (동결 보존)",
-    "MSC (중간엽 줄기세포)"
-   ],
-   "answer": 5,
-   "explanation": "**MSC (중간엽 줄기세포)** — 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
-   "choiceNotes": [
-    "틀리다 — iPSC (유도 만능 줄기세포): 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "틀리다 — CAR-T: 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
-    "틀리다 — DO control (O₂·N₂): 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "정답 — 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
-   ],
-   "source": "WK02 PDF p.7",
-   "concepts": [
-    "MSC"
-   ],
-   "tags": [
-    "용어",
-    "MSC"
-   ]
-  },
-  {
-   "id": "tw02d-013",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포."
-   ],
-   "choices": [
-    "iPSC (유도 만능 줄기세포)",
-    "MSC (중간엽 줄기세포)",
-    "HSC (조혈모 줄기세포)",
-    "DS (Drug Substance, 원료의약품)",
-    "Descriptive analytics (기술 분석)"
-   ],
-   "answer": 1,
-   "explanation": "**iPSC (유도 만능 줄기세포)** — 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-   "choiceNotes": [
-    "정답 — 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
-    "틀리다 — HSC (조혈모 줄기세포): 모든 혈액 세포를 만들어 내는 줄기세포.",
-    "틀리다 — DS (Drug Substance, 원료의약품): 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
-    "틀리다 — Descriptive analytics (기술 분석): '무슨 일이 있었나?'에 답하는 분석."
-   ],
-   "source": "WK02 PDF p.7",
-   "concepts": [
-    "iPSC"
-   ],
-   "tags": [
-    "용어",
-    "iPSC"
-   ]
-  },
-  {
-   "id": "tw02d-014",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "모든 혈액 세포를 만들어 내는 줄기세포."
-   ],
-   "choices": [
-    "iPSC (유도 만능 줄기세포)",
-    "MSC (중간엽 줄기세포)",
-    "HSC (조혈모 줄기세포)",
-    "Tip speed (선단 속도)",
-    "Media supplement (배지 첨가물)"
-   ],
-   "answer": 3,
-   "explanation": "**HSC (조혈모 줄기세포)** — 모든 혈액 세포를 만들어 내는 줄기세포.",
-   "choiceNotes": [
-    "틀리다 — iPSC (유도 만능 줄기세포): 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
-    "정답 — 모든 혈액 세포를 만들어 내는 줄기세포.",
-    "틀리다 — Tip speed (선단 속도): 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-    "틀리다 — Media supplement (배지 첨가물): 성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분."
-   ],
-   "source": "WK02 PDF p.7",
-   "concepts": [
-    "HSC"
-   ],
-   "tags": [
-    "용어",
-    "HSC"
-   ]
-  },
-  {
-   "id": "tw02d-017",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식."
-   ],
-   "choices": [
-    "LNP (Lipid Nanoparticle)",
-    "mRNA platform (백신)",
-    "Nucleic acid vaccine (mRNA/pDNA)",
-    "kLa (부피 산소 전달 계수)",
-    "Temperature shift (온도 전환)"
-   ],
-   "answer": 2,
-   "explanation": "**mRNA platform (백신)** — plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.",
-   "choiceNotes": [
-    "틀리다 — LNP (Lipid Nanoparticle): mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.",
-    "정답 — plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.",
-    "틀리다 — Nucleic acid vaccine (mRNA/pDNA): mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "틀리다 — kLa (부피 산소 전달 계수): 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "틀리다 — Temperature shift (온도 전환): 목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략."
-   ],
-   "source": "WK02 PDF p.10 · WK02 강의 녹음 42:52–43:09",
-   "concepts": [
-    "mRNA platform"
-   ],
-   "tags": [
-    "용어",
-    "mRNA platform"
-   ]
-  },
-  {
-   "id": "tw02d-019",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
-   ],
-   "choices": [
-    "mRNA platform (백신)",
-    "Continuous culture (연속식 배양)",
-    "PAT (Process Analytical Technology)",
-    "Diagnostic analytics (진단 분석)",
-    "LNP (Lipid Nanoparticle)"
-   ],
-   "answer": 5,
-   "explanation": "**LNP (Lipid Nanoparticle)** — mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.",
-   "choiceNotes": [
-    "틀리다 — mRNA platform (백신): plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.",
-    "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석.",
-    "정답 — mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
-   ],
-   "source": "WK02 강의 녹음 42:52–43:09",
-   "concepts": [
-    "LNP"
-   ],
-   "tags": [
-    "용어",
-    "LNP"
-   ]
-  },
-  {
    "id": "tw02d-020",
    "type": "용어",
    "part": 1,
@@ -476,17 +212,17 @@
    "choices": [
     "Adherent cell (부착 세포)",
     "Microcarrier (마이크로캐리어)",
-    "Ammonium (암모늄)",
     "Transfection",
+    "Ammonium (암모늄)",
     "Perfusion culture (관류 배양)"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**Transfection** — plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
    "choiceNotes": [
     "틀리다 — Adherent cell (부착 세포): 표면에 붙어야 자라는 세포(넓은 면적 필요).",
     "틀리다 — Microcarrier (마이크로캐리어): 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
-    "틀리다 — Ammonium (암모늄): 글루타민 대사로 쌓이는 독성 노폐물.",
     "정답 — plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
+    "틀리다 — Ammonium (암모늄): 글루타민 대사로 쌓이는 독성 노폐물.",
     "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식."
    ],
    "source": "WK02 PDF p.12–13 (AAV process optimization)",
@@ -496,72 +232,6 @@
    "tags": [
     "용어",
     "Transfection"
-   ]
-  },
-  {
-   "id": "tw02d-021",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포."
-   ],
-   "choices": [
-    "Suspension cell (부유 세포)",
-    "Adherent cell (부착 세포)",
-    "Sparger (스파저)",
-    "pH control (염기·CO₂)",
-    "HEK293 (T)"
-   ],
-   "answer": 5,
-   "explanation": "**HEK293 (T)** — 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-   "choiceNotes": [
-    "틀리다 — Suspension cell (부유 세포): 표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "틀리다 — Adherent cell (부착 세포): 표면에 붙어야 자라는 세포(넓은 면적 필요).",
-    "틀리다 — Sparger (스파저): 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-    "틀리다 — pH control (염기·CO₂): pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-    "정답 — 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포."
-   ],
-   "source": "WK02 PDF p.12",
-   "concepts": [
-    "HEK293"
-   ],
-   "tags": [
-    "용어",
-    "HEK293"
-   ]
-  },
-  {
-   "id": "tw02d-022",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
-   ],
-   "choices": [
-    "Transfection",
-    "Adherent cell (부착 세포)",
-    "CHO 세포",
-    "Continuous culture (연속식 배양)",
-    "Fed-batch culture (유가식 배양)"
-   ],
-   "answer": 3,
-   "explanation": "**CHO 세포** — 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-   "choiceNotes": [
-    "틀리다 — Transfection: plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
-    "틀리다 — Adherent cell (부착 세포): 표면에 붙어야 자라는 세포(넓은 면적 필요).",
-    "정답 — 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "틀리다 — Fed-batch culture (유가식 배양): 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식."
-   ],
-   "source": "WK02 PDF p.47–49, p.55",
-   "concepts": [
-    "CHO 세포"
-   ],
-   "tags": [
-    "용어",
-    "CHO 세포"
    ]
   },
   {
@@ -640,19 +310,19 @@
    ],
    "choices": [
     "Suspension cell (부유 세포)",
-    "Microcarrier (마이크로캐리어)",
     "Transfection",
     "RCB (Research Cell Bank)",
-    "Perfusion culture (관류 배양)"
+    "Perfusion culture (관류 배양)",
+    "Microcarrier (마이크로캐리어)"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Microcarrier (마이크로캐리어)** — 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
    "choiceNotes": [
     "틀리다 — Suspension cell (부유 세포): 표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "정답 — 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
     "틀리다 — Transfection: plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
     "틀리다 — RCB (Research Cell Bank): 세포주 개발 직후 만든 연구용 세포은행.",
-    "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식."
+    "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
+    "정답 — 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬."
    ],
    "source": "WK02 강의 녹음 45:56–48:06",
    "concepts": [
@@ -672,17 +342,17 @@
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단."
    ],
    "choices": [
-    "WCB (Working Cell Bank)",
     "Cell line (세포주)",
+    "WCB (Working Cell Bank)",
     "EPC (End of Production Cells)",
     "IPC (In-Process Control)",
     "Diagnostic analytics (진단 분석)"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**Cell line (세포주)** — 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
    "choiceNotes": [
-    "틀리다 — WCB (Working Cell Bank): 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
     "정답 — 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
+    "틀리다 — WCB (Working Cell Bank): 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
     "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "틀리다 — IPC (In-Process Control): 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
     "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석."
@@ -694,171 +364,6 @@
    "tags": [
     "용어",
     "Cell line"
-   ]
-  },
-  {
-   "id": "tw02d-027",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계."
-   ],
-   "choices": [
-    "MCB (Master Cell Bank)",
-    "Cell line (세포주)",
-    "Vent filter (배기 필터)",
-    "Death phase (사멸기)",
-    "CLD (Cell Line Development)"
-   ],
-   "answer": 5,
-   "explanation": "**CLD (Cell Line Development)** — 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-   "choiceNotes": [
-    "틀리다 — MCB (Master Cell Bank): 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "틀리다 — Death phase (사멸기): 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-    "정답 — 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계."
-   ],
-   "source": "WK02 강의 녹음 56:41–59:34",
-   "concepts": [
-    "CLD"
-   ],
-   "tags": [
-    "용어",
-    "CLD"
-   ]
-  },
-  {
-   "id": "tw02d-028",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "세포주 개발 직후 만든 연구용 세포은행."
-   ],
-   "choices": [
-    "CLD (Cell Line Development)",
-    "Cell banking",
-    "Perfusion culture (관류 배양)",
-    "RCB (Research Cell Bank)",
-    "Sparger (스파저)"
-   ],
-   "answer": 4,
-   "explanation": "**RCB (Research Cell Bank)** — 세포주 개발 직후 만든 연구용 세포은행.",
-   "choiceNotes": [
-    "틀리다 — CLD (Cell Line Development): 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-    "틀리다 — Cell banking: 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.",
-    "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "정답 — 세포주 개발 직후 만든 연구용 세포은행.",
-    "틀리다 — Sparger (스파저): 배양기 바닥에서 기체를 기포로 불어 넣는 장치."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
-   "concepts": [
-    "RCB"
-   ],
-   "tags": [
-    "용어",
-    "RCB"
-   ]
-  },
-  {
-   "id": "tw02d-029",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
-   ],
-   "choices": [
-    "MCB (Master Cell Bank)",
-    "Cell banking",
-    "Cell line (세포주)",
-    "Design space (설계 공간)",
-    "N-1 bioreactor"
-   ],
-   "answer": 1,
-   "explanation": "**MCB (Master Cell Bank)** — 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.\nCHO 기준 vial당 약 1×10⁷ cells, 200~300 vial.",
-   "choiceNotes": [
-    "정답 — 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "틀리다 — Cell banking: 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.",
-    "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "틀리다 — Design space (설계 공간): 품질이 보증된다고 입증된 공정 조건의 범위.",
-    "틀리다 — N-1 bioreactor: 생산 배양기 바로 앞의 마지막 seed 배양기."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
-   "concepts": [
-    "MCB"
-   ],
-   "tags": [
-    "용어",
-    "MCB"
-   ]
-  },
-  {
-   "id": "tw02d-030",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작."
-   ],
-   "choices": [
-    "Cell banking",
-    "EPC (End of Production Cells)",
-    "WCB (Working Cell Bank)",
-    "Viability (생존율)",
-    "DP (Drug Product, 완제의약품)"
-   ],
-   "answer": 3,
-   "explanation": "**WCB (Working Cell Bank)** — 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
-   "choiceNotes": [
-    "틀리다 — Cell banking: 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.",
-    "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "정답 — 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
-    "틀리다 — Viability (생존율): 전체 세포 중 살아 있는 세포의 비율(%).",
-    "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
-   "concepts": [
-    "WCB"
-   ],
-   "tags": [
-    "용어",
-    "WCB"
-   ]
-  },
-  {
-   "id": "tw02d-031",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용."
-   ],
-   "choices": [
-    "RCB (Research Cell Bank)",
-    "EPC (End of Production Cells)",
-    "MCB (Master Cell Bank)",
-    "Micro sparger",
-    "Design space (설계 공간)"
-   ],
-   "answer": 2,
-   "explanation": "**EPC (End of Production Cells)** — 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-   "choiceNotes": [
-    "틀리다 — RCB (Research Cell Bank): 세포주 개발 직후 만든 연구용 세포은행.",
-    "정답 — 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "틀리다 — MCB (Master Cell Bank): 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "틀리다 — Micro sparger: 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-    "틀리다 — Design space (설계 공간): 품질이 보증된다고 입증된 공정 조건의 범위."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
-   "concepts": [
-    "EPC"
-   ],
-   "tags": [
-    "용어",
-    "EPC"
    ]
   },
   {
@@ -904,19 +409,19 @@
    ],
    "choices": [
     "Subculture (계대배양)",
+    "Seed train (종배양)",
     "Capture chromatography",
     "ATF (Alternating Tangential Flow)",
-    "Bi-/Multi-specific antibody",
-    "Seed train (종배양)"
+    "Bi-/Multi-specific antibody"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**Seed train (종배양)** — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
    "choiceNotes": [
     "틀리다 — Subculture (계대배양): 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
+    "정답 — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
     "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — ATF (Alternating Tangential Flow): 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
-    "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "정답 — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정."
+    "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체."
    ],
    "source": "WK02 PDF p.15, p.36",
    "concepts": [
@@ -939,17 +444,17 @@
     "Production bioreactor (본배양기)",
     "Capture chromatography",
     "PAT (Process Analytical Technology)",
-    "Subculture (계대배양)",
-    "Stationary phase (정지기)"
+    "Stationary phase (정지기)",
+    "Subculture (계대배양)"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**Subculture (계대배양)** — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
    "choiceNotes": [
     "틀리다 — Production bioreactor (본배양기): 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
     "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "정답 — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
+    "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
+    "정답 — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것."
    ],
    "source": "WK02 PDF p.36 · WK02 강의 녹음",
    "concepts": [
@@ -969,19 +474,19 @@
     "생산 배양기 바로 앞의 마지막 seed 배양기."
    ],
    "choices": [
-    "N-1 bioreactor",
     "Cryopreservation (동결 보존)",
     "DP (Drug Product, 완제의약품)",
     "P/V (Power input per Volume)",
+    "N-1 bioreactor",
     "LNP (Lipid Nanoparticle)"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**N-1 bioreactor** — 생산 배양기 바로 앞의 마지막 seed 배양기.",
    "choiceNotes": [
-    "정답 — 생산 배양기 바로 앞의 마지막 seed 배양기.",
     "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "틀리다 — P/V (Power input per Volume): 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
+    "정답 — 생산 배양기 바로 앞의 마지막 seed 배양기.",
     "틀리다 — LNP (Lipid Nanoparticle): mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
    ],
    "source": "WK02 PDF p.36, p.38",
@@ -1005,17 +510,17 @@
     "DP (Drug Product, 완제의약품)",
     "Capture chromatography",
     "Transfection",
-    "Production bioreactor (본배양기)",
-    "Prescriptive analytics (처방 분석)"
+    "Prescriptive analytics (처방 분석)",
+    "Production bioreactor (본배양기)"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**Production bioreactor (본배양기)** — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
    "choiceNotes": [
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — Transfection: plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
-    "정답 — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
-    "틀리다 — Prescriptive analytics (처방 분석): '무엇을 해야 하나?'에 답하는 분석."
+    "틀리다 — Prescriptive analytics (처방 분석): '무엇을 해야 하나?'에 답하는 분석.",
+    "정답 — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기."
    ],
    "source": "WK02 PDF p.15, p.36",
    "concepts": [
@@ -1037,18 +542,18 @@
    "choices": [
     "Production bioreactor (본배양기)",
     "N-1 bioreactor",
+    "Harvest / Clarification",
     "Log phase (대수기)",
-    "DoE (Design of Experiments, 실험계획법)",
-    "Harvest / Clarification"
+    "DoE (Design of Experiments, 실험계획법)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Harvest / Clarification** — 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
    "choiceNotes": [
     "틀리다 — Production bioreactor (본배양기): 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
     "틀리다 — N-1 bioreactor: 생산 배양기 바로 앞의 마지막 seed 배양기.",
+    "정답 — 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
     "틀리다 — Log phase (대수기): 세포 수가 빠르게(대수적으로) 늘어나는 시기.",
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "정답 — 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계."
+    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
    ],
    "source": "WK02 PDF p.15",
    "concepts": [
@@ -1068,18 +573,18 @@
     "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A)."
    ],
    "choices": [
+    "Capture chromatography",
     "DP (Drug Product, 완제의약품)",
     "Cryopreservation (동결 보존)",
-    "Capture chromatography",
     "Vent filter (배기 필터)",
     "AAV (Adeno-Associated Virus)"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**Capture chromatography** — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
    "choiceNotes": [
+    "정답 — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "정답 — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
    ],
@@ -1093,72 +598,6 @@
    ]
   },
   {
-   "id": "tw02d-039",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
-   ],
-   "choices": [
-    "Seed train (종배양)",
-    "DS (Drug Substance, 원료의약품)",
-    "N-1 bioreactor",
-    "IPC (In-Process Control)",
-    "ATF (Alternating Tangential Flow)"
-   ],
-   "answer": 2,
-   "explanation": "**DS (Drug Substance, 원료의약품)** — 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
-   "choiceNotes": [
-    "틀리다 — Seed train (종배양): 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
-    "정답 — 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
-    "틀리다 — N-1 bioreactor: 생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "틀리다 — IPC (In-Process Control): 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
-    "틀리다 — ATF (Alternating Tangential Flow): 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: DS(USP)/DS(DSP)/DP)",
-   "concepts": [
-    "DS"
-   ],
-   "tags": [
-    "용어",
-    "DS"
-   ]
-  },
-  {
-   "id": "tw02d-040",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약."
-   ],
-   "choices": [
-    "DP (Drug Product, 완제의약품)",
-    "Seed train (종배양)",
-    "Subculture (계대배양)",
-    "Microcarrier (마이크로캐리어)",
-    "kLa (부피 산소 전달 계수)"
-   ],
-   "answer": 1,
-   "explanation": "**DP (Drug Product, 완제의약품)** — 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-   "choiceNotes": [
-    "정답 — 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "틀리다 — Seed train (종배양): 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
-    "틀리다 — Subculture (계대배양): 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "틀리다 — Microcarrier (마이크로캐리어): 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
-    "틀리다 — kLa (부피 산소 전달 계수): 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
-   ],
-   "source": "WK02 PDF p.16 · GMP01 PDF p.4",
-   "concepts": [
-    "DP"
-   ],
-   "tags": [
-    "용어",
-    "DP"
-   ]
-  },
-  {
    "id": "tw02d-041",
    "type": "용어",
    "part": 1,
@@ -1167,19 +606,19 @@
     "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것."
    ],
    "choices": [
-    "Cryopreservation (동결 보존)",
     "Seed train (종배양)",
     "Subculture (계대배양)",
     "Micro sparger",
+    "Cryopreservation (동결 보존)",
     "Microcarrier (마이크로캐리어)"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**Cryopreservation (동결 보존)** — 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
    "choiceNotes": [
-    "정답 — 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "틀리다 — Seed train (종배양): 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
     "틀리다 — Subculture (계대배양): 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
     "틀리다 — Micro sparger: 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
+    "정답 — 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "틀리다 — Microcarrier (마이크로캐리어): 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬."
    ],
    "source": "WK02 PDF p.15",
@@ -1201,17 +640,17 @@
    ],
    "choices": [
     "Fed-batch culture (유가식 배양)",
-    "Continuous culture (연속식 배양)",
     "Batch culture (회분식 배양)",
+    "Continuous culture (연속식 배양)",
     "AAV (Adeno-Associated Virus)",
     "MSC (중간엽 줄기세포)"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Batch culture (회분식 배양)** — 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
    "choiceNotes": [
     "틀리다 — Fed-batch culture (유가식 배양): 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
-    "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
     "정답 — 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
+    "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
     "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
     "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
    ],
@@ -1332,19 +771,19 @@
     "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
    ],
    "choices": [
+    "N-1 perfusion high inoculum fed-batch",
     "Process intensification (PI, 공정 강화)",
     "HSC (조혈모 줄기세포)",
     "Bi-/Multi-specific antibody",
-    "N-1 perfusion high inoculum fed-batch",
     "Suspension cell (부유 세포)"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**N-1 perfusion high inoculum fed-batch** — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n본배양 운전 방식은 그대로라 허가 측면 변경 부담이 적다.",
    "choiceNotes": [
+    "정답 — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "틀리다 — Process intensification (PI, 공정 강화): 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — HSC (조혈모 줄기세포): 모든 혈액 세포를 만들어 내는 줄기세포.",
     "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "정답 — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "틀리다 — Suspension cell (부유 세포): 표면에 붙지 않고 배지 속에 떠서 자라는 세포."
    ],
    "source": "WK02 PDF p.38–39",
@@ -1365,18 +804,18 @@
     "고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략."
    ],
    "choices": [
-    "Process intensification (PI, 공정 강화)",
     "N-1 perfusion high inoculum fed-batch",
     "Diagnostic analytics (진단 분석)",
+    "Process intensification (PI, 공정 강화)",
     "CPP (Critical Process Parameter)",
     "CAR-T"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**Process intensification (PI, 공정 강화)** — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
    "choiceNotes": [
-    "정답 — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석.",
+    "정답 — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "틀리다 — CAR-T: 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
    ],
@@ -1387,39 +826,6 @@
    "tags": [
     "용어",
     "Process intensification"
-   ]
-  },
-  {
-   "id": "tw02d-052",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치."
-   ],
-   "choices": [
-    "QbD (Quality by Design)",
-    "Lag phase (유도기)",
-    "EPC (End of Production Cells)",
-    "CHO 세포",
-    "ATF (Alternating Tangential Flow)"
-   ],
-   "answer": 5,
-   "explanation": "**ATF (Alternating Tangential Flow)** — 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
-   "choiceNotes": [
-    "틀리다 — QbD (Quality by Design): 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-    "틀리다 — Lag phase (유도기): 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "틀리다 — CHO 세포: 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "정답 — 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치."
-   ],
-   "source": "WK02 PDF p.42 · WK02 강의 녹음 02:14:39–02:16:44",
-   "concepts": [
-    "ATF"
-   ],
-   "tags": [
-    "용어",
-    "ATF"
    ]
   },
   {
@@ -1498,19 +904,19 @@
    ],
    "choices": [
     "Log phase (대수기)",
-    "Stationary phase (정지기)",
     "VCD (Viable Cell Density)",
     "DO control (O₂·N₂)",
-    "Set point (설정값)"
+    "Set point (설정값)",
+    "Stationary phase (정지기)"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Stationary phase (정지기)** — 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
    "choiceNotes": [
     "틀리다 — Log phase (대수기): 세포 수가 빠르게(대수적으로) 늘어나는 시기.",
-    "정답 — 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
     "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
     "틀리다 — DO control (O₂·N₂): 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값."
+    "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값.",
+    "정답 — 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
    ],
    "source": "WK02 PDF p.31 · WK02 강의 녹음 02:03:39–02:07:29",
    "concepts": [
@@ -1532,17 +938,17 @@
    "choices": [
     "VCD (Viable Cell Density)",
     "Stationary phase (정지기)",
-    "Death phase (사멸기)",
     "mRNA platform (백신)",
+    "Death phase (사멸기)",
     "Glutamine (글루타민)"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**Death phase (사멸기)** — 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
    "choiceNotes": [
     "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
     "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-    "정답 — 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
     "틀리다 — mRNA platform (백신): plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.",
+    "정답 — 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
     "틀리다 — Glutamine (글루타민): 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다."
    ],
    "source": "WK02 PDF p.31",
@@ -1552,39 +958,6 @@
    "tags": [
     "용어",
     "Death phase"
-   ]
-  },
-  {
-   "id": "tw02d-061",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배양액 1 mL당 살아 있는 세포 수."
-   ],
-   "choices": [
-    "Temperature shift (온도 전환)",
-    "Log phase (대수기)",
-    "RCB (Research Cell Bank)",
-    "OTR (Oxygen Transfer Rate)",
-    "VCD (Viable Cell Density)"
-   ],
-   "answer": 5,
-   "explanation": "**VCD (Viable Cell Density)** — 배양액 1 mL당 살아 있는 세포 수.",
-   "choiceNotes": [
-    "틀리다 — Temperature shift (온도 전환): 목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-    "틀리다 — Log phase (대수기): 세포 수가 빠르게(대수적으로) 늘어나는 시기.",
-    "틀리다 — RCB (Research Cell Bank): 세포주 개발 직후 만든 연구용 세포은행.",
-    "틀리다 — OTR (Oxygen Transfer Rate): 기체에서 배양액으로 산소가 공급되는 속도.",
-    "정답 — 배양액 1 mL당 살아 있는 세포 수."
-   ],
-   "source": "WK02 PDF p.58–62",
-   "concepts": [
-    "VCD"
-   ],
-   "tags": [
-    "용어",
-    "VCD"
    ]
   },
   {
@@ -1697,17 +1070,17 @@
    "choices": [
     "Basal medium (기본 배지)",
     "Anti-foam (소포제)",
-    "Scale-up",
     "Media supplement (배지 첨가물)",
+    "Scale-up",
     "CPP (Critical Process Parameter)"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**Media supplement (배지 첨가물)** — 성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
    "choiceNotes": [
     "틀리다 — Basal medium (기본 배지): 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
     "틀리다 — Anti-foam (소포제): 거품을 줄이려고 넣는 첨가제.",
-    "틀리다 — Scale-up: 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
     "정답 — 성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
+    "틀리다 — Scale-up: 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
     "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등)."
    ],
    "source": "WK02 PDF p.46",
@@ -1728,17 +1101,17 @@
     "세포의 주 에너지원인 당."
    ],
    "choices": [
-    "Glucose (포도당)",
     "Glutamine (글루타민)",
+    "Glucose (포도당)",
     "Lactate (젖산)",
     "OUR (Oxygen Uptake Rate)",
     "LNP (Lipid Nanoparticle)"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Glucose (포도당)** — 세포의 주 에너지원인 당.",
    "choiceNotes": [
-    "정답 — 세포의 주 에너지원인 당.",
     "틀리다 — Glutamine (글루타민): 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
+    "정답 — 세포의 주 에너지원인 당.",
     "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
     "틀리다 — OUR (Oxygen Uptake Rate): 세포가 산소를 소비하는 속도.",
     "틀리다 — LNP (Lipid Nanoparticle): mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
@@ -1761,17 +1134,17 @@
     "포도당 대사로 쌓여 pH를 낮추는 대사산물."
    ],
    "choices": [
-    "Osmolality (삼투압 농도)",
     "Lactate (젖산)",
+    "Osmolality (삼투압 농도)",
     "Glucose (포도당)",
     "Cell banking",
     "LNP (Lipid Nanoparticle)"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**Lactate (젖산)** — 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
    "choiceNotes": [
-    "틀리다 — Osmolality (삼투압 농도): 배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
     "정답 — 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
+    "틀리다 — Osmolality (삼투압 농도): 배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
     "틀리다 — Glucose (포도당): 세포의 주 에너지원인 당.",
     "틀리다 — Cell banking: 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.",
     "틀리다 — LNP (Lipid Nanoparticle): mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
@@ -1794,18 +1167,18 @@
     "질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다."
    ],
    "choices": [
+    "Glutamine (글루타민)",
     "Lactate (젖산)",
     "Ammonium (암모늄)",
-    "Glutamine (글루타민)",
     "CPP (Critical Process Parameter)",
     "N-1 perfusion high inoculum fed-batch"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**Glutamine (글루타민)** — 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
    "choiceNotes": [
+    "정답 — 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
     "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
     "틀리다 — Ammonium (암모늄): 글루타민 대사로 쌓이는 독성 노폐물.",
-    "정답 — 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
     "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
    ],
@@ -1827,18 +1200,18 @@
     "글루타민 대사로 쌓이는 독성 노폐물."
    ],
    "choices": [
-    "Ammonium (암모늄)",
     "Lactate (젖산)",
     "Glucose (포도당)",
+    "Ammonium (암모늄)",
     "EPC (End of Production Cells)",
     "OTR (Oxygen Transfer Rate)"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**Ammonium (암모늄)** — 글루타민 대사로 쌓이는 독성 노폐물.",
    "choiceNotes": [
-    "정답 — 글루타민 대사로 쌓이는 독성 노폐물.",
     "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
     "틀리다 — Glucose (포도당): 세포의 주 에너지원인 당.",
+    "정답 — 글루타민 대사로 쌓이는 독성 노폐물.",
     "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "틀리다 — OTR (Oxygen Transfer Rate): 기체에서 배양액으로 산소가 공급되는 속도."
    ],
@@ -1885,105 +1258,6 @@
    ]
   },
   {
-   "id": "tw02d-075",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리."
-   ],
-   "choices": [
-    "CPP (Critical Process Parameter)",
-    "PAT (Process Analytical Technology)",
-    "Lag phase (유도기)",
-    "IPC (In-Process Control)",
-    "Naked mAb"
-   ],
-   "answer": 4,
-   "explanation": "**IPC (In-Process Control)** — 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
-   "choiceNotes": [
-    "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
-    "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "틀리다 — Lag phase (유도기): 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "정답 — 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
-    "틀리다 — Naked mAb: 아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제."
-   ],
-   "source": "WK02 PDF p.19, p.48",
-   "concepts": [
-    "IPC"
-   ],
-   "tags": [
-    "용어",
-    "IPC"
-   ]
-  },
-  {
-   "id": "tw02d-078",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술."
-   ],
-   "choices": [
-    "DoE (Design of Experiments, 실험계획법)",
-    "Control strategy (관리 전략)",
-    "Sparger (스파저)",
-    "LNP (Lipid Nanoparticle)",
-    "PAT (Process Analytical Technology)"
-   ],
-   "answer": 5,
-   "explanation": "**PAT (Process Analytical Technology)** — 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-   "choiceNotes": [
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "틀리다 — Control strategy (관리 전략): 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-    "틀리다 — Sparger (스파저): 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-    "틀리다 — LNP (Lipid Nanoparticle): mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.",
-    "정답 — 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술."
-   ],
-   "source": "WK02 PDF p.20, p.43",
-   "concepts": [
-    "PAT"
-   ],
-   "tags": [
-    "용어",
-    "PAT"
-   ]
-  },
-  {
-   "id": "tw02d-079",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "축과 날개로 배양액을 섞는 교반형 배양기."
-   ],
-   "choices": [
-    "Impeller (임펠러)",
-    "Vent filter (배기 필터)",
-    "STR (Stirred Tank Reactor)",
-    "EPC (End of Production Cells)",
-    "DoE (Design of Experiments, 실험계획법)"
-   ],
-   "answer": 3,
-   "explanation": "**STR (Stirred Tank Reactor)** — 축과 날개로 배양액을 섞는 교반형 배양기.",
-   "choiceNotes": [
-    "틀리다 — Impeller (임펠러): 배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "정답 — 축과 날개로 배양액을 섞는 교반형 배양기.",
-    "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
-   ],
-   "source": "WK02 PDF p.91",
-   "concepts": [
-    "STR"
-   ],
-   "tags": [
-    "용어",
-    "STR"
-   ]
-  },
-  {
    "id": "tw02d-080",
    "type": "용어",
    "part": 1,
@@ -1995,17 +1269,17 @@
     "Vent filter (배기 필터)",
     "Ring sparger",
     "VCD (Viable Cell Density)",
-    "Impeller (임펠러)",
-    "AAV (Adeno-Associated Virus)"
+    "AAV (Adeno-Associated Virus)",
+    "Impeller (임펠러)"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**Impeller (임펠러)** — 배양기 축에 달려 돌며 배양액을 섞는 날개.",
    "choiceNotes": [
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — Ring sparger: 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
     "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
-    "정답 — 배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "정답 — 배양기 축에 달려 돌며 배양액을 섞는 날개."
    ],
    "source": "WK02 PDF p.20–23",
    "concepts": [
@@ -2027,17 +1301,17 @@
    "choices": [
     "Vent filter (배기 필터)",
     "STR (Stirred Tank Reactor)",
-    "Sparger (스파저)",
     "N-1 bioreactor",
+    "Sparger (스파저)",
     "DS (Drug Substance, 원료의약품)"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**Sparger (스파저)** — 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
    "choiceNotes": [
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — STR (Stirred Tank Reactor): 축과 날개로 배양액을 섞는 교반형 배양기.",
-    "정답 — 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
     "틀리다 — N-1 bioreactor: 생산 배양기 바로 앞의 마지막 seed 배양기.",
+    "정답 — 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
     "틀리다 — DS (Drug Substance, 원료의약품): 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
    ],
    "source": "WK02 PDF p.22–23",
@@ -2059,18 +1333,18 @@
    ],
    "choices": [
     "Vent filter (배기 필터)",
-    "Micro sparger",
     "STR (Stirred Tank Reactor)",
     "DP (Drug Product, 완제의약품)",
+    "Micro sparger",
     "Tip speed (선단 속도)"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**Micro sparger** — 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
    "choiceNotes": [
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "정답 — 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
     "틀리다 — STR (Stirred Tank Reactor): 축과 날개로 배양액을 섞는 교반형 배양기.",
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
+    "정답 — 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
     "틀리다 — Tip speed (선단 속도): 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표)."
    ],
    "source": "WK02 PDF p.22–23",
@@ -2091,20 +1365,20 @@
     "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치."
    ],
    "choices": [
+    "Ring sparger",
     "Vent filter (배기 필터)",
     "Sparger (스파저)",
     "MCB (Master Cell Bank)",
-    "Basal medium (기본 배지)",
-    "Ring sparger"
+    "Basal medium (기본 배지)"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**Ring sparger** — 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
    "choiceNotes": [
+    "정답 — 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — Sparger (스파저): 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
     "틀리다 — MCB (Master Cell Bank): 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "틀리다 — Basal medium (기본 배지): 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
-    "정답 — 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치."
+    "틀리다 — Basal medium (기본 배지): 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지."
    ],
    "source": "WK02 PDF p.22–23",
    "concepts": [
@@ -2124,20 +1398,20 @@
     "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다."
    ],
    "choices": [
-    "Vent filter (배기 필터)",
     "Anti-foam (소포제)",
     "Ring sparger",
     "Cell line (세포주)",
-    "CHO 세포"
+    "CHO 세포",
+    "Vent filter (배기 필터)"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**Vent filter (배기 필터)** — 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
    "choiceNotes": [
-    "정답 — 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — Anti-foam (소포제): 거품을 줄이려고 넣는 첨가제.",
     "틀리다 — Ring sparger: 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
     "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "틀리다 — CHO 세포: 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
+    "틀리다 — CHO 세포: 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
+    "정답 — 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다."
    ],
    "source": "WK02 강의 녹음 01:31:59–01:32:42",
    "concepts": [
@@ -2158,19 +1432,19 @@
    ],
    "choices": [
     "Micro sparger",
+    "Anti-foam (소포제)",
     "Impeller (임펠러)",
     "Lag phase (유도기)",
-    "AAV (Adeno-Associated Virus)",
-    "Anti-foam (소포제)"
+    "AAV (Adeno-Associated Virus)"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**Anti-foam (소포제)** — 거품을 줄이려고 넣는 첨가제.",
    "choiceNotes": [
     "틀리다 — Micro sparger: 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
+    "정답 — 거품을 줄이려고 넣는 첨가제.",
     "틀리다 — Impeller (임펠러): 배양기 축에 달려 돌며 배양액을 섞는 날개.",
     "틀리다 — Lag phase (유도기): 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "정답 — 거품을 줄이려고 넣는 첨가제."
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
    ],
    "source": "WK02 PDF p.40 · WK02 강의 녹음 01:31:59",
    "concepts": [
@@ -2190,18 +1464,18 @@
     "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어."
    ],
    "choices": [
-    "pH control (염기·CO₂)",
     "DO (Dissolved Oxygen)",
     "DO control (O₂·N₂)",
+    "pH control (염기·CO₂)",
     "EPC (End of Production Cells)",
     "PAT (Process Analytical Technology)"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**pH control (염기·CO₂)** — pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
    "choiceNotes": [
-    "정답 — pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
     "틀리다 — DO (Dissolved Oxygen): 배양액에 녹아 있는 산소의 양.",
     "틀리다 — DO control (O₂·N₂): 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
+    "정답 — pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
     "틀리다 — EPC (End of Production Cells): 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술."
    ],
@@ -2212,72 +1486,6 @@
    "tags": [
     "용어",
     "pH control"
-   ]
-  },
-  {
-   "id": "tw02d-088",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어."
-   ],
-   "choices": [
-    "pH control (염기·CO₂)",
-    "DO (Dissolved Oxygen)",
-    "DO control (O₂·N₂)",
-    "iPSC (유도 만능 줄기세포)",
-    "DS (Drug Substance, 원료의약품)"
-   ],
-   "answer": 3,
-   "explanation": "**DO control (O₂·N₂)** — 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-   "choiceNotes": [
-    "틀리다 — pH control (염기·CO₂): pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-    "틀리다 — DO (Dissolved Oxygen): 배양액에 녹아 있는 산소의 양.",
-    "정답 — 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "틀리다 — iPSC (유도 만능 줄기세포): 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "틀리다 — DS (Drug Substance, 원료의약품): 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
-   ],
-   "source": "WK02 강의 녹음 01:37:41–01:38:35",
-   "concepts": [
-    "DO control"
-   ],
-   "tags": [
-    "용어",
-    "DO control"
-   ]
-  },
-  {
-   "id": "tw02d-089",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배양액에 녹아 있는 산소의 양."
-   ],
-   "choices": [
-    "DO control (O₂·N₂)",
-    "pH control (염기·CO₂)",
-    "Glucose (포도당)",
-    "DO (Dissolved Oxygen)",
-    "DS (Drug Substance, 원료의약품)"
-   ],
-   "answer": 4,
-   "explanation": "**DO (Dissolved Oxygen)** — 배양액에 녹아 있는 산소의 양.",
-   "choiceNotes": [
-    "틀리다 — DO control (O₂·N₂): 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "틀리다 — pH control (염기·CO₂): pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-    "틀리다 — Glucose (포도당): 세포의 주 에너지원인 당.",
-    "정답 — 배양액에 녹아 있는 산소의 양.",
-    "틀리다 — DS (Drug Substance, 원료의약품): 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
-   ],
-   "source": "WK02 PDF p.20–21, p.94",
-   "concepts": [
-    "DO"
-   ],
-   "tags": [
-    "용어",
-    "DO"
    ]
   },
   {
@@ -2314,138 +1522,6 @@
    ]
   },
   {
-   "id": "tw02d-091",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념."
-   ],
-   "choices": [
-    "CQA (Critical Quality Attribute)",
-    "QbD (Quality by Design)",
-    "Control strategy (관리 전략)",
-    "Predictive analytics (예측 분석)",
-    "Log phase (대수기)"
-   ],
-   "answer": 2,
-   "explanation": "**QbD (Quality by Design)** — 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-   "choiceNotes": [
-    "틀리다 — CQA (Critical Quality Attribute): 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
-    "정답 — 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-    "틀리다 — Control strategy (관리 전략): 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-    "틀리다 — Predictive analytics (예측 분석): '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-    "틀리다 — Log phase (대수기): 세포 수가 빠르게(대수적으로) 늘어나는 시기."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: QbD), p.80",
-   "concepts": [
-    "QbD"
-   ],
-   "tags": [
-    "용어",
-    "QbD"
-   ]
-  },
-  {
-   "id": "tw02d-092",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계)."
-   ],
-   "choices": [
-    "PAT (Process Analytical Technology)",
-    "DoE (Design of Experiments, 실험계획법)",
-    "QTPP (Quality Target Product Profile)",
-    "AAV (Adeno-Associated Virus)",
-    "MSC (중간엽 줄기세포)"
-   ],
-   "answer": 3,
-   "explanation": "**QTPP (Quality Target Product Profile)** — 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
-   "choiceNotes": [
-    "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "정답 — 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
-   "concepts": [
-    "QTPP"
-   ],
-   "tags": [
-    "용어",
-    "QTPP"
-   ]
-  },
-  {
-   "id": "tw02d-093",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성."
-   ],
-   "choices": [
-    "CQA (Critical Quality Attribute)",
-    "DoE (Design of Experiments, 실험계획법)",
-    "PAT (Process Analytical Technology)",
-    "Nucleic acid vaccine (mRNA/pDNA)",
-    "pH control (염기·CO₂)"
-   ],
-   "answer": 1,
-   "explanation": "**CQA (Critical Quality Attribute)** — 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
-   "choiceNotes": [
-    "정답 — 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "틀리다 — Nucleic acid vaccine (mRNA/pDNA): mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "틀리다 — pH control (염기·CO₂): pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어."
-   ],
-   "source": "WK02 PDF p.16, p.80",
-   "concepts": [
-    "CQA"
-   ],
-   "tags": [
-    "용어",
-    "CQA"
-   ]
-  },
-  {
-   "id": "tw02d-094",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등)."
-   ],
-   "choices": [
-    "DoE (Design of Experiments, 실험계획법)",
-    "PAT (Process Analytical Technology)",
-    "Cell line (세포주)",
-    "CPP (Critical Process Parameter)",
-    "OUR (Oxygen Uptake Rate)"
-   ],
-   "answer": 4,
-   "explanation": "**CPP (Critical Process Parameter)** — 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
-   "choiceNotes": [
-    "틀리다 — DoE (Design of Experiments, 실험계획법): 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "정답 — 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
-    "틀리다 — OUR (Oxygen Uptake Rate): 세포가 산소를 소비하는 속도."
-   ],
-   "source": "WK02 PDF p.12, p.80",
-   "concepts": [
-    "CPP"
-   ],
-   "tags": [
-    "용어",
-    "CPP"
-   ]
-  },
-  {
    "id": "tw02d-095",
    "type": "용어",
    "part": 1,
@@ -2456,18 +1532,18 @@
    "choices": [
     "QbD (Quality by Design)",
     "QTPP (Quality Target Product Profile)",
+    "Design space (설계 공간)",
     "Scale-down model (SDM)",
-    "VCD (Viable Cell Density)",
-    "Design space (설계 공간)"
+    "VCD (Viable Cell Density)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Design space (설계 공간)** — 품질이 보증된다고 입증된 공정 조건의 범위.",
    "choiceNotes": [
     "틀리다 — QbD (Quality by Design): 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
     "틀리다 — QTPP (Quality Target Product Profile): 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
+    "정답 — 품질이 보증된다고 입증된 공정 조건의 범위.",
     "틀리다 — Scale-down model (SDM): 생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
-    "정답 — 품질이 보증된다고 입증된 공정 조건의 범위."
+    "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수."
    ],
    "source": "WK02 PDF p.71, p.86–88 · WK02 강의 녹음 02:23:30–02:24:56",
    "concepts": [
@@ -2489,18 +1565,18 @@
    "choices": [
     "Design space (설계 공간)",
     "Set point (설정값)",
-    "Control strategy (관리 전략)",
     "Process intensification (PI, 공정 강화)",
-    "Cryopreservation (동결 보존)"
+    "Cryopreservation (동결 보존)",
+    "Control strategy (관리 전략)"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**Control strategy (관리 전략)** — 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
    "choiceNotes": [
     "틀리다 — Design space (설계 공간): 품질이 보증된다고 입증된 공정 조건의 범위.",
     "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값.",
-    "정답 — 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
     "틀리다 — Process intensification (PI, 공정 강화): 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-    "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것."
+    "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
+    "정답 — 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획."
    ],
    "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
    "concepts": [
@@ -2509,39 +1585,6 @@
    "tags": [
     "용어",
     "Control strategy"
-   ]
-  },
-  {
-   "id": "tw02d-097",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
-   ],
-   "choices": [
-    "QbD (Quality by Design)",
-    "Set point (설정값)",
-    "CAR-T",
-    "N-1 perfusion high inoculum fed-batch",
-    "DoE (Design of Experiments, 실험계획법)"
-   ],
-   "answer": 5,
-   "explanation": "**DoE (Design of Experiments, 실험계획법)** — 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-   "choiceNotes": [
-    "틀리다 — QbD (Quality by Design): 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-    "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값.",
-    "틀리다 — CAR-T: 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
-    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "정답 — 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
-   ],
-   "source": "WK02 PDF p.13, p.56–58",
-   "concepts": [
-    "DoE"
-   ],
-   "tags": [
-    "용어",
-    "DoE"
    ]
   },
   {
@@ -2611,39 +1654,6 @@
    ]
   },
   {
-   "id": "tw02d-106",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준)."
-   ],
-   "choices": [
-    "Shear force (전단력)",
-    "P/V (Power input per Volume)",
-    "Tip speed (선단 속도)",
-    "Diagnostic analytics (진단 분석)",
-    "MCB (Master Cell Bank)"
-   ],
-   "answer": 2,
-   "explanation": "**P/V (Power input per Volume)** — 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-   "choiceNotes": [
-    "틀리다 — Shear force (전단력): 교반·기포로 세포막에 가해지는 찢는 힘.",
-    "정답 — 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-    "틀리다 — Tip speed (선단 속도): 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-    "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석.",
-    "틀리다 — MCB (Master Cell Bank): 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
-   ],
-   "source": "WK02 PDF p.89, p.92",
-   "concepts": [
-    "P/V"
-   ],
-   "tags": [
-    "용어",
-    "P/V"
-   ]
-  },
-  {
    "id": "tw02d-107",
    "type": "용어",
    "part": 1,
@@ -2652,20 +1662,20 @@
     "임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표)."
    ],
    "choices": [
-    "Tip speed (선단 속도)",
     "P/V (Power input per Volume)",
     "Shear force (전단력)",
     "Vent filter (배기 필터)",
-    "Seed train (종배양)"
+    "Seed train (종배양)",
+    "Tip speed (선단 속도)"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**Tip speed (선단 속도)** — 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
    "choiceNotes": [
-    "정답 — 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
     "틀리다 — P/V (Power input per Volume): 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
     "틀리다 — Shear force (전단력): 교반·기포로 세포막에 가해지는 찢는 힘.",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "틀리다 — Seed train (종배양): 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정."
+    "틀리다 — Seed train (종배양): 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
+    "정답 — 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표)."
    ],
    "source": "WK02 PDF p.89, p.92",
    "concepts": [
@@ -2710,105 +1720,6 @@
    ]
   },
   {
-   "id": "tw02d-110",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
-   ],
-   "choices": [
-    "OUR (Oxygen Uptake Rate)",
-    "OTR (Oxygen Transfer Rate)",
-    "kLa (부피 산소 전달 계수)",
-    "Cell line (세포주)",
-    "Naked mAb"
-   ],
-   "answer": 3,
-   "explanation": "**kLa (부피 산소 전달 계수)** — 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-   "choiceNotes": [
-    "틀리다 — OUR (Oxygen Uptake Rate): 세포가 산소를 소비하는 속도.",
-    "틀리다 — OTR (Oxygen Transfer Rate): 기체에서 배양액으로 산소가 공급되는 속도.",
-    "정답 — 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "틀리다 — Naked mAb: 아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제."
-   ],
-   "source": "WK02 PDF p.93, p.97",
-   "concepts": [
-    "kLa"
-   ],
-   "tags": [
-    "용어",
-    "kLa"
-   ]
-  },
-  {
-   "id": "tw02d-111",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "기체에서 배양액으로 산소가 공급되는 속도."
-   ],
-   "choices": [
-    "kLa (부피 산소 전달 계수)",
-    "OTR (Oxygen Transfer Rate)",
-    "OUR (Oxygen Uptake Rate)",
-    "Design space (설계 공간)",
-    "Scale-up"
-   ],
-   "answer": 2,
-   "explanation": "**OTR (Oxygen Transfer Rate)** — 기체에서 배양액으로 산소가 공급되는 속도.",
-   "choiceNotes": [
-    "틀리다 — kLa (부피 산소 전달 계수): 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "정답 — 기체에서 배양액으로 산소가 공급되는 속도.",
-    "틀리다 — OUR (Oxygen Uptake Rate): 세포가 산소를 소비하는 속도.",
-    "틀리다 — Design space (설계 공간): 품질이 보증된다고 입증된 공정 조건의 범위.",
-    "틀리다 — Scale-up: 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것."
-   ],
-   "source": "WK02 PDF p.95",
-   "concepts": [
-    "OTR"
-   ],
-   "tags": [
-    "용어",
-    "OTR"
-   ]
-  },
-  {
-   "id": "tw02d-112",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "세포가 산소를 소비하는 속도."
-   ],
-   "choices": [
-    "kLa (부피 산소 전달 계수)",
-    "OTR (Oxygen Transfer Rate)",
-    "Subculture (계대배양)",
-    "VCD (Viable Cell Density)",
-    "OUR (Oxygen Uptake Rate)"
-   ],
-   "answer": 5,
-   "explanation": "**OUR (Oxygen Uptake Rate)** — 세포가 산소를 소비하는 속도.",
-   "choiceNotes": [
-    "틀리다 — kLa (부피 산소 전달 계수): 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "틀리다 — OTR (Oxygen Transfer Rate): 기체에서 배양액으로 산소가 공급되는 속도.",
-    "틀리다 — Subculture (계대배양): 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
-    "정답 — 세포가 산소를 소비하는 속도."
-   ],
-   "source": "WK02 PDF p.95",
-   "concepts": [
-    "OUR"
-   ],
-   "tags": [
-    "용어",
-    "OUR"
-   ]
-  },
-  {
    "id": "tw02d-117",
    "type": "용어",
    "part": 1,
@@ -2817,17 +1728,17 @@
     "'무슨 일이 있었나?'에 답하는 분석."
    ],
    "choices": [
-    "Diagnostic analytics (진단 분석)",
     "Descriptive analytics (기술 분석)",
+    "Diagnostic analytics (진단 분석)",
     "Prescriptive analytics (처방 분석)",
     "Batch culture (회분식 배양)",
     "N-1 bioreactor"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**Descriptive analytics (기술 분석)** — '무슨 일이 있었나?'에 답하는 분석.",
    "choiceNotes": [
-    "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석.",
     "정답 — '무슨 일이 있었나?'에 답하는 분석.",
+    "틀리다 — Diagnostic analytics (진단 분석): '왜 일어났나?'에 답하는 분석.",
     "틀리다 — Prescriptive analytics (처방 분석): '무엇을 해야 하나?'에 답하는 분석.",
     "틀리다 — Batch culture (회분식 배양): 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
     "틀리다 — N-1 bioreactor: 생산 배양기 바로 앞의 마지막 seed 배양기."
@@ -2851,17 +1762,17 @@
    ],
    "choices": [
     "Descriptive analytics (기술 분석)",
-    "Predictive analytics (예측 분석)",
     "Diagnostic analytics (진단 분석)",
+    "Predictive analytics (예측 분석)",
     "Lentivirus / Retrovirus vector",
     "Cell line (세포주)"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Diagnostic analytics (진단 분석)** — '왜 일어났나?'에 답하는 분석.",
    "choiceNotes": [
     "틀리다 — Descriptive analytics (기술 분석): '무슨 일이 있었나?'에 답하는 분석.",
-    "틀리다 — Predictive analytics (예측 분석): '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
     "정답 — '왜 일어났나?'에 답하는 분석.",
+    "틀리다 — Predictive analytics (예측 분석): '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
     "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "틀리다 — Cell line (세포주): 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단."
    ],
@@ -2885,18 +1796,18 @@
    "choices": [
     "Prescriptive analytics (처방 분석)",
     "Descriptive analytics (기술 분석)",
+    "Predictive analytics (예측 분석)",
     "DP (Drug Product, 완제의약품)",
-    "Nucleic acid vaccine (mRNA/pDNA)",
-    "Predictive analytics (예측 분석)"
+    "Nucleic acid vaccine (mRNA/pDNA)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Predictive analytics (예측 분석)** — '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
    "choiceNotes": [
     "틀리다 — Prescriptive analytics (처방 분석): '무엇을 해야 하나?'에 답하는 분석.",
     "틀리다 — Descriptive analytics (기술 분석): '무슨 일이 있었나?'에 답하는 분석.",
+    "정답 — '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "틀리다 — Nucleic acid vaccine (mRNA/pDNA): mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "정답 — '앞으로 무슨 일이 일어날까?'에 답하는 분석."
+    "틀리다 — Nucleic acid vaccine (mRNA/pDNA): mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신."
    ],
    "source": "WK02 PDF p.80",
    "concepts": [
@@ -2916,19 +1827,19 @@
     "'무엇을 해야 하나?'에 답하는 분석."
    ],
    "choices": [
+    "Prescriptive analytics (처방 분석)",
     "Predictive analytics (예측 분석)",
     "Descriptive analytics (기술 분석)",
     "HEK293 (T)",
-    "Prescriptive analytics (처방 분석)",
     "Impeller (임펠러)"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**Prescriptive analytics (처방 분석)** — '무엇을 해야 하나?'에 답하는 분석.",
    "choiceNotes": [
+    "정답 — '무엇을 해야 하나?'에 답하는 분석.",
     "틀리다 — Predictive analytics (예측 분석): '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
     "틀리다 — Descriptive analytics (기술 분석): '무슨 일이 있었나?'에 답하는 분석.",
     "틀리다 — HEK293 (T): 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-    "정답 — '무엇을 해야 하나?'에 답하는 분석.",
     "틀리다 — Impeller (임펠러): 배양기 축에 달려 돌며 배양액을 섞는 날개."
    ],
    "source": "WK02 PDF p.80",
@@ -2941,87 +1852,24 @@
    ]
   },
   {
-   "id": "tw02d-130",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "제품 1 g을 만드는 데 드는 총원가."
-   ],
-   "choices": [
-    "COGS (Cost of Goods Sold)",
-    "Impeller (임펠러)",
-    "Continuous culture (연속식 배양)",
-    "Suspension cell (부유 세포)",
-    "Lactate (젖산)"
-   ],
-   "answer": 1,
-   "explanation": "**COGS (Cost of Goods Sold)** — 제품 1 g을 만드는 데 드는 총원가.",
-   "choiceNotes": [
-    "정답 — 제품 1 g을 만드는 데 드는 총원가.",
-    "틀리다 — Impeller (임펠러): 배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "틀리다 — Suspension cell (부유 세포): 표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물."
-   ],
-   "source": "WK02 PDF p.34 (COGS Distribution)",
-   "concepts": [
-    "COGS"
-   ],
-   "tags": [
-    "용어",
-    "COGS"
-   ]
-  },
-  {
-   "id": "tw02r-003",
-   "type": "용어",
-   "part": 1,
-   "question": "「Naked mAb」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
-    "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-    "임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
-   ],
-   "answer": 2,
-   "explanation": "**Naked mAb** — 아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
-   "choiceNotes": [
-    "틀리다 — Plasma-derived protein (혈장 유래 단백질)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — ADC (Antibody Drug Conjugate)의 설명이다.",
-    "틀리다 — Tip speed (선단 속도)의 설명이다.",
-    "틀리다 — AAV (Adeno-Associated Virus)의 설명이다."
-   ],
-   "source": "WK02 PDF p.5",
-   "concepts": [
-    "Naked mAb"
-   ],
-   "tags": [
-    "용어",
-    "Naked mAb"
-   ]
-  },
-  {
    "id": "tw02r-004",
    "type": "용어",
    "part": 1,
    "question": "「ADC (Antibody Drug Conjugate)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
+    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
     "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
     "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성."
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**ADC (Antibody Drug Conjugate)** — 항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
    "choiceNotes": [
     "틀리다 — Naked mAb의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Bi-/Multi-specific antibody의 설명이다.",
     "틀리다 — Cell line (세포주)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CQA (Critical Quality Attribute)의 설명이다."
    ],
    "source": "WK02 PDF p.5",
@@ -3034,84 +1882,24 @@
    ]
   },
   {
-   "id": "tw02r-005",
-   "type": "용어",
-   "part": 1,
-   "question": "「Bi-/Multi-specific antibody」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-    "사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체."
-   ],
-   "answer": 5,
-   "explanation": "**Bi-/Multi-specific antibody** — 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-   "choiceNotes": [
-    "틀리다 — ADC (Antibody Drug Conjugate)의 설명이다.",
-    "틀리다 — Plasma-derived protein (혈장 유래 단백질)의 설명이다.",
-    "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
-    "틀리다 — Impeller (임펠러)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.5",
-   "concepts": [
-    "Bi-/Multi-specific antibody"
-   ],
-   "tags": [
-    "용어",
-    "Bi-/Multi-specific antibody"
-   ]
-  },
-  {
-   "id": "tw02r-006",
-   "type": "용어",
-   "part": 1,
-   "question": "「Plasma-derived protein (혈장 유래 단백질)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-    "사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-    "'무슨 일이 있었나?'에 답하는 분석."
-   ],
-   "answer": 3,
-   "explanation": "**Plasma-derived protein (혈장 유래 단백질)** — 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
-   "choiceNotes": [
-    "틀리다 — Bi-/Multi-specific antibody의 설명이다.",
-    "틀리다 — ADC (Antibody Drug Conjugate)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Death phase (사멸기)의 설명이다.",
-    "틀리다 — Descriptive analytics (기술 분석)의 설명이다."
-   ],
-   "source": "WK02 PDF p.5 · WK06 PDF p.12",
-   "concepts": [
-    "Plasma-derived protein"
-   ],
-   "tags": [
-    "용어",
-    "Plasma-derived protein"
-   ]
-  },
-  {
    "id": "tw02r-007",
    "type": "용어",
    "part": 1,
    "question": "「AAV (Adeno-Associated Virus)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
     "환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
     "기체에서 배양액으로 산소가 공급되는 속도.",
+    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
     "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**AAV (Adeno-Associated Virus)** — HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.\nLuxturna(2017), Zolgensma(2019).",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Lentivirus / Retrovirus vector의 설명이다.",
     "틀리다 — Viral vector vaccine의 설명이다.",
     "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — CQA (Critical Quality Attribute)의 설명이다."
    ],
    "source": "WK02 PDF p.6, p.12 · WK02 강의 녹음 24:07–25:49",
@@ -3124,115 +1912,25 @@
    ]
   },
   {
-   "id": "tw02r-008",
-   "type": "용어",
-   "part": 1,
-   "question": "「Lentivirus / Retrovirus vector」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
-    "항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
-    "세포의 주 에너지원인 당.",
-    "성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분."
-   ],
-   "answer": 2,
-   "explanation": "**Lentivirus / Retrovirus vector** — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
-   "choiceNotes": [
-    "틀리다 — AAV (Adeno-Associated Virus)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viral vector vaccine의 설명이다.",
-    "틀리다 — Glucose (포도당)의 설명이다.",
-    "틀리다 — Media supplement (배지 첨가물)의 설명이다."
-   ],
-   "source": "WK02 PDF p.6",
-   "concepts": [
-    "Lentivirus / Retrovirus vector"
-   ],
-   "tags": [
-    "용어",
-    "Lentivirus / Retrovirus vector"
-   ]
-  },
-  {
-   "id": "tw02r-009",
-   "type": "용어",
-   "part": 1,
-   "question": "「Viral vector vaccine」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
-    "'무엇을 해야 하나?'에 답하는 분석.",
-    "항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
-    "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것."
-   ],
-   "answer": 4,
-   "explanation": "**Viral vector vaccine** — 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
-   "choiceNotes": [
-    "틀리다 — AAV (Adeno-Associated Virus)의 설명이다.",
-    "틀리다 — Lentivirus / Retrovirus vector의 설명이다.",
-    "틀리다 — Prescriptive analytics (처방 분석)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Subculture (계대배양)의 설명이다."
-   ],
-   "source": "WK02 PDF p.6, p.10",
-   "concepts": [
-    "Viral vector vaccine"
-   ],
-   "tags": [
-    "용어",
-    "Viral vector vaccine"
-   ]
-  },
-  {
-   "id": "tw02r-010",
-   "type": "용어",
-   "part": 1,
-   "question": "「Nucleic acid vaccine (mRNA/pDNA)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
-    "mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "교반·기포로 세포막에 가해지는 찢는 힘.",
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
-   ],
-   "answer": 3,
-   "explanation": "**Nucleic acid vaccine (mRNA/pDNA)** — mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-   "choiceNotes": [
-    "틀리다 — Viral vector vaccine의 설명이다.",
-    "틀리다 — AAV (Adeno-Associated Virus)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Shear force (전단력)의 설명이다.",
-    "틀리다 — CHO 세포의 설명이다."
-   ],
-   "source": "WK02 PDF p.6, p.10",
-   "concepts": [
-    "Nucleic acid vaccine"
-   ],
-   "tags": [
-    "용어",
-    "Nucleic acid vaccine"
-   ]
-  },
-  {
    "id": "tw02r-011",
    "type": "용어",
    "part": 1,
    "question": "「CAR-T」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
     "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
     "모든 혈액 세포를 만들어 내는 줄기세포.",
     "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
-    "배양기 축에 달려 돌며 배양액을 섞는 날개."
+    "배양기 축에 달려 돌며 배양액을 섞는 날개.",
+    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**CAR-T** — 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.\nKymriah(Novartis)가 첫 승인 CAR-T.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
     "틀리다 — HSC (조혈모 줄기세포)의 설명이다.",
     "틀리다 — Naked mAb의 설명이다.",
-    "틀리다 — Impeller (임펠러)의 설명이다."
+    "틀리다 — Impeller (임펠러)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 PDF p.7 (Advanced Therapy Modalities)",
    "concepts": [
@@ -3251,18 +1949,18 @@
    "choices": [
     "모든 혈액 세포를 만들어 내는 줄기세포.",
     "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
+    "골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
     "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
+    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용."
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**MSC (중간엽 줄기세포)** — 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
    "choiceNotes": [
     "틀리다 — HSC (조혈모 줄기세포)의 설명이다.",
     "틀리다 — CAR-T의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Scale-down model (SDM)의 설명이다.",
-    "틀리다 — EPC (End of Production Cells)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — EPC (End of Production Cells)의 설명이다."
    ],
    "source": "WK02 PDF p.7",
    "concepts": [
@@ -3282,17 +1980,17 @@
     "모든 혈액 세포를 만들어 내는 줄기세포.",
     "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
     "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-    "펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포."
+    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
+    "펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치."
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**iPSC (유도 만능 줄기세포)** — 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
    "choiceNotes": [
     "틀리다 — HSC (조혈모 줄기세포)의 설명이다.",
     "틀리다 — CAR-T의 설명이다.",
     "틀리다 — P/V (Power input per Volume)의 설명이다.",
-    "틀리다 — ATF (Alternating Tangential Flow)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — ATF (Alternating Tangential Flow)의 설명이다."
    ],
    "source": "WK02 PDF p.7",
    "concepts": [
@@ -3309,18 +2007,18 @@
    "part": 1,
    "question": "「HSC (조혈모 줄기세포)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "모든 혈액 세포를 만들어 내는 줄기세포.",
     "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
     "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
+    "모든 혈액 세포를 만들어 내는 줄기세포.",
     "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
     "'왜 일어났나?'에 답하는 분석."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**HSC (조혈모 줄기세포)** — 모든 혈액 세포를 만들어 내는 줄기세포.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CAR-T의 설명이다.",
     "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Batch culture (회분식 배양)의 설명이다.",
     "틀리다 — Diagnostic analytics (진단 분석)의 설명이다."
    ],
@@ -3371,18 +2069,18 @@
    "choices": [
     "plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.",
     "중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
-    "mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.",
     "기체에서 배양액으로 산소가 공급되는 속도.",
-    "'앞으로 무슨 일이 일어날까?'에 답하는 분석."
+    "'앞으로 무슨 일이 일어날까?'에 답하는 분석.",
+    "mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**LNP (Lipid Nanoparticle)** — mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.",
    "choiceNotes": [
     "틀리다 — mRNA platform (백신)의 설명이다.",
     "틀리다 — Fed-batch culture (유가식 배양)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다.",
-    "틀리다 — Predictive analytics (예측 분석)의 설명이다."
+    "틀리다 — Predictive analytics (예측 분석)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 강의 녹음 42:52–43:09",
    "concepts": [
@@ -3394,55 +2092,25 @@
    ]
   },
   {
-   "id": "tw02r-020",
-   "type": "용어",
-   "part": 1,
-   "question": "「Transfection」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "표면에 붙어야 자라는 세포(넓은 면적 필요).",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
-    "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
-   ],
-   "answer": 4,
-   "explanation": "**Transfection** — plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
-   "choiceNotes": [
-    "틀리다 — Adherent cell (부착 세포)의 설명이다.",
-    "틀리다 — Suspension cell (부유 세포)의 설명이다.",
-    "틀리다 — Capture chromatography의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — MCB (Master Cell Bank)의 설명이다."
-   ],
-   "source": "WK02 PDF p.12–13 (AAV process optimization)",
-   "concepts": [
-    "Transfection"
-   ],
-   "tags": [
-    "용어",
-    "Transfection"
-   ]
-  },
-  {
    "id": "tw02r-021",
    "type": "용어",
    "part": 1,
    "question": "「HEK293 (T)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
     "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
     "표면에 붙어야 자라는 세포(넓은 면적 필요).",
     "성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
-    "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포."
+    "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단."
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**HEK293 (T)** — 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — CHO 세포의 설명이다.",
     "틀리다 — Adherent cell (부착 세포)의 설명이다.",
     "틀리다 — Media supplement (배지 첨가물)의 설명이다.",
-    "틀리다 — Cell line (세포주)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Cell line (세포주)의 설명이다."
    ],
    "source": "WK02 PDF p.12",
    "concepts": [
@@ -3459,20 +2127,20 @@
    "part": 1,
    "question": "「CHO 세포」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
     "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
     "부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
     "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
+    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
+    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**CHO 세포** — 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — HEK293 (T)의 설명이다.",
     "틀리다 — Microcarrier (마이크로캐리어)의 설명이다.",
     "틀리다 — Perfusion culture (관류 배양)의 설명이다.",
-    "틀리다 — DS (Drug Substance, 원료의약품)의 설명이다."
+    "틀리다 — DS (Drug Substance, 원료의약품)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 PDF p.47–49, p.55",
    "concepts": [
@@ -3484,143 +2152,23 @@
    ]
   },
   {
-   "id": "tw02r-023",
-   "type": "용어",
-   "part": 1,
-   "question": "「Suspension cell (부유 세포)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자."
-   ],
-   "answer": 3,
-   "explanation": "**Suspension cell (부유 세포)** — 표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-   "choiceNotes": [
-    "틀리다 — CHO 세포의 설명이다.",
-    "틀리다 — Transfection의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
-    "틀리다 — LNP (Lipid Nanoparticle)의 설명이다."
-   ],
-   "source": "WK02 강의 녹음 45:56–48:06",
-   "concepts": [
-    "Suspension cell"
-   ],
-   "tags": [
-    "용어",
-    "Suspension cell"
-   ]
-  },
-  {
-   "id": "tw02r-024",
-   "type": "용어",
-   "part": 1,
-   "question": "「Adherent cell (부착 세포)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-    "표면에 붙어야 자라는 세포(넓은 면적 필요).",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델."
-   ],
-   "answer": 2,
-   "explanation": "**Adherent cell (부착 세포)** — 표면에 붙어야 자라는 세포(넓은 면적 필요).",
-   "choiceNotes": [
-    "틀리다 — HEK293 (T)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Suspension cell (부유 세포)의 설명이다.",
-    "틀리다 — Micro sparger의 설명이다.",
-    "틀리다 — Scale-down model (SDM)의 설명이다."
-   ],
-   "source": "WK02 강의 녹음 45:56–48:06",
-   "concepts": [
-    "Adherent cell"
-   ],
-   "tags": [
-    "용어",
-    "Adherent cell"
-   ]
-  },
-  {
-   "id": "tw02r-025",
-   "type": "용어",
-   "part": 1,
-   "question": "「Microcarrier (마이크로캐리어)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "배양액 1 mL당 살아 있는 세포 수.",
-    "부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
-    "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치."
-   ],
-   "answer": 4,
-   "explanation": "**Microcarrier (마이크로캐리어)** — 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
-   "choiceNotes": [
-    "틀리다 — HEK293 (T)의 설명이다.",
-    "틀리다 — CHO 세포의 설명이다.",
-    "틀리다 — VCD (Viable Cell Density)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Micro sparger의 설명이다."
-   ],
-   "source": "WK02 강의 녹음 45:56–48:06",
-   "concepts": [
-    "Microcarrier"
-   ],
-   "tags": [
-    "용어",
-    "Microcarrier"
-   ]
-  },
-  {
-   "id": "tw02r-026",
-   "type": "용어",
-   "part": 1,
-   "question": "「Cell line (세포주)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "세포주 개발 직후 만든 연구용 세포은행.",
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-    "글루타민 대사로 쌓이는 독성 노폐물.",
-    "원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-    "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단."
-   ],
-   "answer": 5,
-   "explanation": "**Cell line (세포주)** — 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-   "choiceNotes": [
-    "틀리다 — RCB (Research Cell Bank)의 설명이다.",
-    "틀리다 — CLD (Cell Line Development)의 설명이다.",
-    "틀리다 — Ammonium (암모늄)의 설명이다.",
-    "틀리다 — Control strategy (관리 전략)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.17 (About Cell Culture Process)",
-   "concepts": [
-    "Cell line"
-   ],
-   "tags": [
-    "용어",
-    "Cell line"
-   ]
-  },
-  {
    "id": "tw02r-027",
    "type": "용어",
    "part": 1,
    "question": "「CLD (Cell Line Development)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
     "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
     "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
     "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
     "기체에서 배양액으로 산소가 공급되는 속도."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**CLD (Cell Line Development)** — 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — WCB (Working Cell Bank)의 설명이다.",
     "틀리다 — MCB (Master Cell Bank)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Stationary phase (정지기)의 설명이다.",
     "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다."
    ],
@@ -3640,17 +2188,17 @@
    "question": "「RCB (Research Cell Bank)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
-    "세포주 개발 직후 만든 연구용 세포은행.",
     "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
+    "세포주 개발 직후 만든 연구용 세포은행.",
     "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**RCB (Research Cell Bank)** — 세포주 개발 직후 만든 연구용 세포은행.",
    "choiceNotes": [
     "틀리다 — Cell line (세포주)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — WCB (Working Cell Bank)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — N-1 perfusion high inoculum fed-batch의 설명이다.",
     "틀리다 — kLa (부피 산소 전달 계수)의 설명이다."
    ],
@@ -3699,17 +2247,17 @@
    "part": 1,
    "question": "「WCB (Working Cell Bank)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
+    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
     "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
     "원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**WCB (Working Cell Bank)** — 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Cell line (세포주)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — EPC (End of Production Cells)의 설명이다.",
     "틀리다 — Basal medium (기본 배지)의 설명이다.",
     "틀리다 — Control strategy (관리 전략)의 설명이다."
@@ -3729,17 +2277,17 @@
    "part": 1,
    "question": "「EPC (End of Production Cells)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "세포주 개발 직후 만든 연구용 세포은행.",
+    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
     "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
     "당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
     "원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**EPC (End of Production Cells)** — 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — RCB (Research Cell Bank)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — CLD (Cell Line Development)의 설명이다.",
     "틀리다 — Basal medium (기본 배지)의 설명이다.",
     "틀리다 — Control strategy (관리 전략)의 설명이다."
@@ -3754,216 +2302,6 @@
    ]
   },
   {
-   "id": "tw02r-032",
-   "type": "용어",
-   "part": 1,
-   "question": "「Cell banking」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-    "축과 날개로 배양액을 섞는 교반형 배양기.",
-    "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-    "같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것."
-   ],
-   "answer": 5,
-   "explanation": "**Cell banking** — 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.",
-   "choiceNotes": [
-    "틀리다 — EPC (End of Production Cells)의 설명이다.",
-    "틀리다 — CLD (Cell Line Development)의 설명이다.",
-    "틀리다 — STR (Stirred Tank Reactor)의 설명이다.",
-    "틀리다 — P/V (Power input per Volume)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.16",
-   "concepts": [
-    "Cell banking"
-   ],
-   "tags": [
-    "용어",
-    "Cell banking"
-   ]
-  },
-  {
-   "id": "tw02r-033",
-   "type": "용어",
-   "part": 1,
-   "question": "「Seed train (종배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포."
-   ],
-   "answer": 4,
-   "explanation": "**Seed train (종배양)** — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
-   "choiceNotes": [
-    "틀리다 — N-1 bioreactor의 설명이다.",
-    "틀리다 — Subculture (계대배양)의 설명이다.",
-    "틀리다 — Nucleic acid vaccine (mRNA/pDNA)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — HEK293 (T)의 설명이다."
-   ],
-   "source": "WK02 PDF p.15, p.36",
-   "concepts": [
-    "Seed train"
-   ],
-   "tags": [
-    "용어",
-    "Seed train"
-   ]
-  },
-  {
-   "id": "tw02r-034",
-   "type": "용어",
-   "part": 1,
-   "question": "「Subculture (계대배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
-    "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
-    "전체 세포 중 살아 있는 세포의 비율(%)."
-   ],
-   "answer": 2,
-   "explanation": "**Subculture (계대배양)** — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-   "choiceNotes": [
-    "틀리다 — Harvest / Clarification의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — N-1 bioreactor의 설명이다.",
-    "틀리다 — CAR-T의 설명이다.",
-    "틀리다 — Viability (생존율)의 설명이다."
-   ],
-   "source": "WK02 PDF p.36 · WK02 강의 녹음",
-   "concepts": [
-    "Subculture"
-   ],
-   "tags": [
-    "용어",
-    "Subculture"
-   ]
-  },
-  {
-   "id": "tw02r-035",
-   "type": "용어",
-   "part": 1,
-   "question": "「N-1 bioreactor」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.",
-    "새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기."
-   ],
-   "answer": 3,
-   "explanation": "**N-1 bioreactor** — 생산 배양기 바로 앞의 마지막 seed 배양기.",
-   "choiceNotes": [
-    "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — EPC (End of Production Cells)의 설명이다.",
-    "틀리다 — Lag phase (유도기)의 설명이다."
-   ],
-   "source": "WK02 PDF p.36, p.38",
-   "concepts": [
-    "N-1 bioreactor"
-   ],
-   "tags": [
-    "용어",
-    "N-1 bioreactor"
-   ]
-  },
-  {
-   "id": "tw02r-036",
-   "type": "용어",
-   "part": 1,
-   "question": "「Production bioreactor (본배양기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
-    "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "제어 시스템이 맞추려는 목표 운전값."
-   ],
-   "answer": 2,
-   "explanation": "**Production bioreactor (본배양기)** — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
-   "choiceNotes": [
-    "틀리다 — N-1 bioreactor의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Subculture (계대배양)의 설명이다.",
-    "틀리다 — Perfusion culture (관류 배양)의 설명이다.",
-    "틀리다 — Set point (설정값)의 설명이다."
-   ],
-   "source": "WK02 PDF p.15, p.36",
-   "concepts": [
-    "Production bioreactor"
-   ],
-   "tags": [
-    "용어",
-    "Production bioreactor"
-   ]
-  },
-  {
-   "id": "tw02r-037",
-   "type": "용어",
-   "part": 1,
-   "question": "「Harvest / Clarification」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.",
-    "임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표)."
-   ],
-   "answer": 1,
-   "explanation": "**Harvest / Clarification** — 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Capture chromatography의 설명이다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다.",
-    "틀리다 — ADC (Antibody Drug Conjugate)의 설명이다.",
-    "틀리다 — Tip speed (선단 속도)의 설명이다."
-   ],
-   "source": "WK02 PDF p.15",
-   "concepts": [
-    "Harvest / Clarification"
-   ],
-   "tags": [
-    "용어",
-    "Harvest / Clarification"
-   ]
-  },
-  {
-   "id": "tw02r-038",
-   "type": "용어",
-   "part": 1,
-   "question": "「Capture chromatography」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
-    "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어."
-   ],
-   "answer": 3,
-   "explanation": "**Capture chromatography** — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-   "choiceNotes": [
-    "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
-    "틀리다 — N-1 bioreactor의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Glutamine (글루타민)의 설명이다.",
-    "틀리다 — pH control (염기·CO₂)의 설명이다."
-   ],
-   "source": "WK02 PDF p.15 · WK06 PDF p.18",
-   "concepts": [
-    "Capture chromatography"
-   ],
-   "tags": [
-    "용어",
-    "Capture chromatography"
-   ]
-  },
-  {
    "id": "tw02r-039",
    "type": "용어",
    "part": 1,
@@ -3971,18 +2309,18 @@
    "choices": [
     "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
+    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
     "배양액에 녹아 있는 산소의 양.",
-    "제품 1 g을 만드는 데 드는 총원가.",
-    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
+    "제품 1 g을 만드는 데 드는 총원가."
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**DS (Drug Substance, 원료의약품)** — 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
    "choiceNotes": [
     "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
     "틀리다 — Subculture (계대배양)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — DO (Dissolved Oxygen)의 설명이다.",
-    "틀리다 — COGS (Cost of Goods Sold)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — COGS (Cost of Goods Sold)의 설명이다."
    ],
    "source": "WK02 PDF p.16 (수업 필기: DS(USP)/DS(DSP)/DP)",
    "concepts": [
@@ -3999,19 +2337,19 @@
    "part": 1,
    "question": "「DP (Drug Product, 완제의약품)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
     "세포의 주 에너지원인 당.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치."
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**DP (Drug Product, 완제의약품)** — 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
     "틀리다 — Capture chromatography의 설명이다.",
     "틀리다 — Glucose (포도당)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Ring sparger의 설명이다."
    ],
    "source": "WK02 PDF p.16 · GMP01 PDF p.4",
@@ -4021,216 +2359,6 @@
    "tags": [
     "용어",
     "DP"
-   ]
-  },
-  {
-   "id": "tw02r-041",
-   "type": "용어",
-   "part": 1,
-   "question": "「Cryopreservation (동결 보존)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "생산 배양기 바로 앞의 마지막 seed 배양기.",
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준)."
-   ],
-   "answer": 2,
-   "explanation": "**Cryopreservation (동결 보존)** — 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-   "choiceNotes": [
-    "틀리다 — Capture chromatography의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — N-1 bioreactor의 설명이다.",
-    "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
-    "틀리다 — P/V (Power input per Volume)의 설명이다."
-   ],
-   "source": "WK02 PDF p.15",
-   "concepts": [
-    "Cryopreservation"
-   ],
-   "tags": [
-    "용어",
-    "Cryopreservation"
-   ]
-  },
-  {
-   "id": "tw02r-042",
-   "type": "용어",
-   "part": 1,
-   "question": "「Batch culture (회분식 배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
-    "모든 혈액 세포를 만들어 내는 줄기세포.",
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음)."
-   ],
-   "answer": 5,
-   "explanation": "**Batch culture (회분식 배양)** — 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
-   "choiceNotes": [
-    "틀리다 — Continuous culture (연속식 배양)의 설명이다.",
-    "틀리다 — Fed-batch culture (유가식 배양)의 설명이다.",
-    "틀리다 — HSC (조혈모 줄기세포)의 설명이다.",
-    "틀리다 — Viability (생존율)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.30 (Type of Cell Culture Processing)",
-   "concepts": [
-    "Batch culture"
-   ],
-   "tags": [
-    "용어",
-    "Batch culture"
-   ]
-  },
-  {
-   "id": "tw02r-043",
-   "type": "용어",
-   "part": 1,
-   "question": "「Fed-batch culture (유가식 배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
-    "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
-    "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "배양기 바닥에서 기체를 기포로 불어 넣는 장치."
-   ],
-   "answer": 1,
-   "explanation": "**Fed-batch culture (유가식 배양)** — 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.\n약 2주 운전, 정제 라인 하나에 배양기 4~6기.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Perfusion culture (관류 배양)의 설명이다.",
-    "틀리다 — Batch culture (회분식 배양)의 설명이다.",
-    "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
-    "틀리다 — Sparger (스파저)의 설명이다."
-   ],
-   "source": "WK02 PDF p.30, p.33, p.37",
-   "concepts": [
-    "Fed-batch culture"
-   ],
-   "tags": [
-    "용어",
-    "Fed-batch culture"
-   ]
-  },
-  {
-   "id": "tw02r-044",
-   "type": "용어",
-   "part": 1,
-   "question": "「Continuous culture (연속식 배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
-    "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치."
-   ],
-   "answer": 4,
-   "explanation": "**Continuous culture (연속식 배양)** — 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-   "choiceNotes": [
-    "틀리다 — Fed-batch culture (유가식 배양)의 설명이다.",
-    "틀리다 — Perfusion culture (관류 배양)의 설명이다.",
-    "틀리다 — QbD (Quality by Design)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Ring sparger의 설명이다."
-   ],
-   "source": "WK02 PDF p.30 · WK02 강의 녹음 01:01:34",
-   "concepts": [
-    "Continuous culture"
-   ],
-   "tags": [
-    "용어",
-    "Continuous culture"
-   ]
-  },
-  {
-   "id": "tw02r-045",
-   "type": "용어",
-   "part": 1,
-   "question": "「Perfusion culture (관류 배양)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.",
-    "품질이 보증된다고 입증된 공정 조건의 범위."
-   ],
-   "answer": 3,
-   "explanation": "**Perfusion culture (관류 배양)** — 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
-   "choiceNotes": [
-    "틀리다 — Batch culture (회분식 배양)의 설명이다.",
-    "틀리다 — Continuous culture (연속식 배양)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — WCB (Working Cell Bank)의 설명이다.",
-    "틀리다 — Design space (설계 공간)의 설명이다."
-   ],
-   "source": "WK02 PDF p.33 · WK02 강의 녹음 01:01:34–01:02:26",
-   "concepts": [
-    "Perfusion culture"
-   ],
-   "tags": [
-    "용어",
-    "Perfusion culture"
-   ]
-  },
-  {
-   "id": "tw02r-047",
-   "type": "용어",
-   "part": 1,
-   "question": "「N-1 perfusion high inoculum fed-batch」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
-    "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
-   ],
-   "answer": 2,
-   "explanation": "**N-1 perfusion high inoculum fed-batch** — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n본배양 운전 방식은 그대로라 허가 측면 변경 부담이 적다.",
-   "choiceNotes": [
-    "틀리다 — Process intensification (PI, 공정 강화)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
-    "틀리다 — MCB (Master Cell Bank)의 설명이다.",
-    "틀리다 — Stationary phase (정지기)의 설명이다."
-   ],
-   "source": "WK02 PDF p.38–39",
-   "concepts": [
-    "N-1 perfusion high inoculum fed-batch"
-   ],
-   "tags": [
-    "용어",
-    "N-1 perfusion high inoculum fed-batch"
-   ]
-  },
-  {
-   "id": "tw02r-050",
-   "type": "용어",
-   "part": 1,
-   "question": "「Process intensification (PI, 공정 강화)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-    "배양액 1 mL당 살아 있는 세포 수.",
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기."
-   ],
-   "answer": 3,
-   "explanation": "**Process intensification (PI, 공정 강화)** — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-   "choiceNotes": [
-    "틀리다 — N-1 perfusion high inoculum fed-batch의 설명이다.",
-    "틀리다 — Viability (생존율)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — VCD (Viable Cell Density)의 설명이다.",
-    "틀리다 — Death phase (사멸기)의 설명이다."
-   ],
-   "source": "WK02 PDF p.34–35 (Intensified Manufacturing)",
-   "concepts": [
-    "Process intensification"
-   ],
-   "tags": [
-    "용어",
-    "Process intensification"
    ]
   },
   {
@@ -4264,126 +2392,6 @@
    ]
   },
   {
-   "id": "tw02r-057",
-   "type": "용어",
-   "part": 1,
-   "question": "「Lag phase (유도기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-    "원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-    "새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기."
-   ],
-   "answer": 5,
-   "explanation": "**Lag phase (유도기)** — 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-   "choiceNotes": [
-    "틀리다 — Stationary phase (정지기)의 설명이다.",
-    "틀리다 — Temperature shift (온도 전환)의 설명이다.",
-    "틀리다 — Control strategy (관리 전략)의 설명이다.",
-    "틀리다 — CLD (Cell Line Development)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.31 (General Animal Cell Growth Curve)",
-   "concepts": [
-    "Lag phase"
-   ],
-   "tags": [
-    "용어",
-    "Lag phase"
-   ]
-  },
-  {
-   "id": "tw02r-058",
-   "type": "용어",
-   "part": 1,
-   "question": "「Log phase (대수기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "세포 수가 빠르게(대수적으로) 늘어나는 시기.",
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "세포주 개발 직후 만든 연구용 세포은행.",
-    "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치."
-   ],
-   "answer": 1,
-   "explanation": "**Log phase (대수기)** — 세포 수가 빠르게(대수적으로) 늘어나는 시기.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viability (생존율)의 설명이다.",
-    "틀리다 — Lag phase (유도기)의 설명이다.",
-    "틀리다 — RCB (Research Cell Bank)의 설명이다.",
-    "틀리다 — Ring sparger의 설명이다."
-   ],
-   "source": "WK02 PDF p.31",
-   "concepts": [
-    "Log phase"
-   ],
-   "tags": [
-    "용어",
-    "Log phase"
-   ]
-  },
-  {
-   "id": "tw02r-059",
-   "type": "용어",
-   "part": 1,
-   "question": "「Stationary phase (정지기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체."
-   ],
-   "answer": 4,
-   "explanation": "**Stationary phase (정지기)** — 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-   "choiceNotes": [
-    "틀리다 — Death phase (사멸기)의 설명이다.",
-    "틀리다 — Temperature shift (온도 전환)의 설명이다.",
-    "틀리다 — Continuous culture (연속식 배양)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Bi-/Multi-specific antibody의 설명이다."
-   ],
-   "source": "WK02 PDF p.31 · WK02 강의 녹음 02:03:39–02:07:29",
-   "concepts": [
-    "Stationary phase"
-   ],
-   "tags": [
-    "용어",
-    "Stationary phase"
-   ]
-  },
-  {
-   "id": "tw02r-060",
-   "type": "용어",
-   "part": 1,
-   "question": "「Death phase (사멸기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-    "세포가 산소를 소비하는 속도."
-   ],
-   "answer": 2,
-   "explanation": "**Death phase (사멸기)** — 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-   "choiceNotes": [
-    "틀리다 — Lag phase (유도기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viability (생존율)의 설명이다.",
-    "틀리다 — pH control (염기·CO₂)의 설명이다.",
-    "틀리다 — OUR (Oxygen Uptake Rate)의 설명이다."
-   ],
-   "source": "WK02 PDF p.31",
-   "concepts": [
-    "Death phase"
-   ],
-   "tags": [
-    "용어",
-    "Death phase"
-   ]
-  },
-  {
    "id": "tw02r-061",
    "type": "용어",
    "part": 1,
@@ -4414,293 +2422,23 @@
    ]
   },
   {
-   "id": "tw02r-062",
-   "type": "용어",
-   "part": 1,
-   "question": "「Viability (생존율)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-    "배양액 1 mL당 살아 있는 세포 수.",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델."
-   ],
-   "answer": 1,
-   "explanation": "**Viability (생존율)** — 전체 세포 중 살아 있는 세포의 비율(%).",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Temperature shift (온도 전환)의 설명이다.",
-    "틀리다 — VCD (Viable Cell Density)의 설명이다.",
-    "틀리다 — Suspension cell (부유 세포)의 설명이다.",
-    "틀리다 — Scale-down model (SDM)의 설명이다."
-   ],
-   "source": "WK02 PDF p.25, p.58",
-   "concepts": [
-    "Viability"
-   ],
-   "tags": [
-    "용어",
-    "Viability"
-   ]
-  },
-  {
-   "id": "tw02r-064",
-   "type": "용어",
-   "part": 1,
-   "question": "「Temperature shift (온도 전환)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "전체 세포 중 살아 있는 세포의 비율(%).",
-    "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
-    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단."
-   ],
-   "answer": 3,
-   "explanation": "**Temperature shift (온도 전환)** — 목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.",
-   "choiceNotes": [
-    "틀리다 — Viability (생존율)의 설명이다.",
-    "틀리다 — Stationary phase (정지기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
-    "틀리다 — Cell line (세포주)의 설명이다."
-   ],
-   "source": "WK02 PDF p.16 (필기), p.22 · WK02 강의 녹음 01:16:27–01:19:46",
-   "concepts": [
-    "Temperature shift"
-   ],
-   "tags": [
-    "용어",
-    "Temperature shift"
-   ]
-  },
-  {
-   "id": "tw02r-066",
-   "type": "용어",
-   "part": 1,
-   "question": "「Basal medium (기본 배지)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
-    "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
-    "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음)."
-   ],
-   "answer": 3,
-   "explanation": "**Basal medium (기본 배지)** — 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
-   "choiceNotes": [
-    "틀리다 — Media supplement (배지 첨가물)의 설명이다.",
-    "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Ring sparger의 설명이다.",
-    "틀리다 — Batch culture (회분식 배양)의 설명이다."
-   ],
-   "source": "WK02 PDF p.46 (Energy Source for Cell Growth)",
-   "concepts": [
-    "Basal medium"
-   ],
-   "tags": [
-    "용어",
-    "Basal medium"
-   ]
-  },
-  {
-   "id": "tw02r-067",
-   "type": "용어",
-   "part": 1,
-   "question": "「Media supplement (배지 첨가물)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
-    "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분."
-   ],
-   "answer": 5,
-   "explanation": "**Media supplement (배지 첨가물)** — 성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
-   "choiceNotes": [
-    "틀리다 — Basal medium (기본 배지)의 설명이다.",
-    "틀리다 — DO control (O₂·N₂)의 설명이다.",
-    "틀리다 — HEK293 (T)의 설명이다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.46",
-   "concepts": [
-    "Media supplement"
-   ],
-   "tags": [
-    "용어",
-    "Media supplement"
-   ]
-  },
-  {
-   "id": "tw02r-069",
-   "type": "용어",
-   "part": 1,
-   "question": "「Glucose (포도당)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "포도당 대사로 쌓여 pH를 낮추는 대사산물.",
-    "글루타민 대사로 쌓이는 독성 노폐물.",
-    "다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.",
-    "세포의 주 에너지원인 당.",
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식."
-   ],
-   "answer": 4,
-   "explanation": "**Glucose (포도당)** — 세포의 주 에너지원인 당.",
-   "choiceNotes": [
-    "틀리다 — Lactate (젖산)의 설명이다.",
-    "틀리다 — Ammonium (암모늄)의 설명이다.",
-    "틀리다 — iPSC (유도 만능 줄기세포)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Continuous culture (연속식 배양)의 설명이다."
-   ],
-   "source": "WK02 PDF p.46",
-   "concepts": [
-    "Glucose"
-   ],
-   "tags": [
-    "용어",
-    "Glucose"
-   ]
-  },
-  {
-   "id": "tw02r-070",
-   "type": "용어",
-   "part": 1,
-   "question": "「Lactate (젖산)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "포도당 대사로 쌓여 pH를 낮추는 대사산물.",
-    "질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
-    "세포의 주 에너지원인 당.",
-    "기체에서 배양액으로 산소가 공급되는 속도.",
-    "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제."
-   ],
-   "answer": 1,
-   "explanation": "**Lactate (젖산)** — 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Glutamine (글루타민)의 설명이다.",
-    "틀리다 — Glucose (포도당)의 설명이다.",
-    "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다.",
-    "틀리다 — Naked mAb의 설명이다."
-   ],
-   "source": "WK02 PDF p.47 · WK02 강의 녹음 01:16:27",
-   "concepts": [
-    "Lactate"
-   ],
-   "tags": [
-    "용어",
-    "Lactate"
-   ]
-  },
-  {
-   "id": "tw02r-071",
-   "type": "용어",
-   "part": 1,
-   "question": "「Glutamine (글루타민)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
-    "질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
-    "세포의 주 에너지원인 당.",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식."
-   ],
-   "answer": 2,
-   "explanation": "**Glutamine (글루타민)** — 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
-   "choiceNotes": [
-    "틀리다 — Osmolality (삼투압 농도)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Glucose (포도당)의 설명이다.",
-    "틀리다 — Capture chromatography의 설명이다.",
-    "틀리다 — mRNA platform (백신)의 설명이다."
-   ],
-   "source": "WK02 PDF p.47",
-   "concepts": [
-    "Glutamine"
-   ],
-   "tags": [
-    "용어",
-    "Glutamine"
-   ]
-  },
-  {
-   "id": "tw02r-072",
-   "type": "용어",
-   "part": 1,
-   "question": "「Ammonium (암모늄)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "포도당 대사로 쌓여 pH를 낮추는 대사산물.",
-    "배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
-    "글루타민 대사로 쌓이는 독성 노폐물."
-   ],
-   "answer": 5,
-   "explanation": "**Ammonium (암모늄)** — 글루타민 대사로 쌓이는 독성 노폐물.",
-   "choiceNotes": [
-    "틀리다 — Lactate (젖산)의 설명이다.",
-    "틀리다 — Osmolality (삼투압 농도)의 설명이다.",
-    "틀리다 — N-1 perfusion high inoculum fed-batch의 설명이다.",
-    "틀리다 — PAT (Process Analytical Technology)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.47 · WK02 강의 녹음 02:08:07",
-   "concepts": [
-    "Ammonium"
-   ],
-   "tags": [
-    "용어",
-    "Ammonium"
-   ]
-  },
-  {
-   "id": "tw02r-073",
-   "type": "용어",
-   "part": 1,
-   "question": "「Osmolality (삼투압 농도)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "글루타민 대사로 쌓이는 독성 노폐물.",
-    "질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.",
-    "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
-    "배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
-    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작."
-   ],
-   "answer": 4,
-   "explanation": "**Osmolality (삼투압 농도)** — 배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
-   "choiceNotes": [
-    "틀리다 — Ammonium (암모늄)의 설명이다.",
-    "틀리다 — Glutamine (글루타민)의 설명이다.",
-    "틀리다 — CQA (Critical Quality Attribute)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — WCB (Working Cell Bank)의 설명이다."
-   ],
-   "source": "WK02 PDF p.25, p.47",
-   "concepts": [
-    "Osmolality"
-   ],
-   "tags": [
-    "용어",
-    "Osmolality"
-   ]
-  },
-  {
    "id": "tw02r-075",
    "type": "용어",
    "part": 1,
    "question": "「IPC (In-Process Control)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
     "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
     "온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
+    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
     "세포가 산소를 소비하는 속도.",
     "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**IPC (In-Process Control)** — 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — DoE (Design of Experiments, 실험계획법)의 설명이다.",
     "틀리다 — PAT (Process Analytical Technology)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — OUR (Oxygen Uptake Rate)의 설명이다.",
     "틀리다 — Continuous culture (연속식 배양)의 설명이다."
    ],
@@ -4720,19 +2458,19 @@
    "question": "「PAT (Process Analytical Technology)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
-    "온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
     "품질이 보증된다고 입증된 공정 조건의 범위.",
     "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다."
+    "배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.",
+    "온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술."
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**PAT (Process Analytical Technology)** — 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
    "choiceNotes": [
     "틀리다 — CQA (Critical Quality Attribute)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Design space (설계 공간)의 설명이다.",
     "틀리다 — CHO 세포의 설명이다.",
-    "틀리다 — Osmolality (삼투압 농도)의 설명이다."
+    "틀리다 — Osmolality (삼투압 농도)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 PDF p.20, p.43",
    "concepts": [
@@ -4749,18 +2487,18 @@
    "part": 1,
    "question": "「STR (Stirred Tank Reactor)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "축과 날개로 배양액을 섞는 교반형 배양기.",
     "거품을 줄이려고 넣는 첨가제.",
     "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-    "축과 날개로 배양액을 섞는 교반형 배양기.",
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.",
     "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음)."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**STR (Stirred Tank Reactor)** — 축과 날개로 배양액을 섞는 교반형 배양기.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Anti-foam (소포제)의 설명이다.",
     "틀리다 — Micro sparger의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Cell line (세포주)의 설명이다.",
     "틀리다 — Batch culture (회분식 배양)의 설명이다."
    ],
@@ -4774,234 +2512,24 @@
    ]
   },
   {
-   "id": "tw02r-080",
-   "type": "용어",
-   "part": 1,
-   "question": "「Impeller (임펠러)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-    "배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "'앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략."
-   ],
-   "answer": 2,
-   "explanation": "**Impeller (임펠러)** — 배양기 축에 달려 돌며 배양액을 섞는 날개.",
-   "choiceNotes": [
-    "틀리다 — Sparger (스파저)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Vent filter (배기 필터)의 설명이다.",
-    "틀리다 — Predictive analytics (예측 분석)의 설명이다.",
-    "틀리다 — Temperature shift (온도 전환)의 설명이다."
-   ],
-   "source": "WK02 PDF p.20–23",
-   "concepts": [
-    "Impeller"
-   ],
-   "tags": [
-    "용어",
-    "Impeller"
-   ]
-  },
-  {
-   "id": "tw02r-081",
-   "type": "용어",
-   "part": 1,
-   "question": "「Sparger (스파저)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "축과 날개로 배양액을 섞는 교반형 배양기.",
-    "배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
-    "품질이 보증된다고 입증된 공정 조건의 범위.",
-    "배양기 바닥에서 기체를 기포로 불어 넣는 장치."
-   ],
-   "answer": 5,
-   "explanation": "**Sparger (스파저)** — 배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-   "choiceNotes": [
-    "틀리다 — STR (Stirred Tank Reactor)의 설명이다.",
-    "틀리다 — Impeller (임펠러)의 설명이다.",
-    "틀리다 — Subculture (계대배양)의 설명이다.",
-    "틀리다 — Design space (설계 공간)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.22–23",
-   "concepts": [
-    "Sparger"
-   ],
-   "tags": [
-    "용어",
-    "Sparger"
-   ]
-  },
-  {
-   "id": "tw02r-082",
-   "type": "용어",
-   "part": 1,
-   "question": "「Micro sparger」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-    "축과 날개로 배양액을 섞는 교반형 배양기.",
-    "배양기 축에 달려 돌며 배양액을 섞는 날개.",
-    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제."
-   ],
-   "answer": 1,
-   "explanation": "**Micro sparger** — 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — STR (Stirred Tank Reactor)의 설명이다.",
-    "틀리다 — Impeller (임펠러)의 설명이다.",
-    "틀리다 — Scale-down model (SDM)의 설명이다.",
-    "틀리다 — Naked mAb의 설명이다."
-   ],
-   "source": "WK02 PDF p.22–23",
-   "concepts": [
-    "Micro sparger"
-   ],
-   "tags": [
-    "용어",
-    "Micro sparger"
-   ]
-  },
-  {
-   "id": "tw02r-083",
-   "type": "용어",
-   "part": 1,
-   "question": "「Ring sparger」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "거품을 줄이려고 넣는 첨가제.",
-    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.",
-    "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
-    "교반·기포로 세포막에 가해지는 찢는 힘."
-   ],
-   "answer": 4,
-   "explanation": "**Ring sparger** — 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
-   "choiceNotes": [
-    "틀리다 — Vent filter (배기 필터)의 설명이다.",
-    "틀리다 — Anti-foam (소포제)의 설명이다.",
-    "틀리다 — CHO 세포의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Shear force (전단력)의 설명이다."
-   ],
-   "source": "WK02 PDF p.22–23",
-   "concepts": [
-    "Ring sparger"
-   ],
-   "tags": [
-    "용어",
-    "Ring sparger"
-   ]
-  },
-  {
-   "id": "tw02r-084",
-   "type": "용어",
-   "part": 1,
-   "question": "「Vent filter (배기 필터)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "거품을 줄이려고 넣는 첨가제.",
-    "축과 날개로 배양액을 섞는 교반형 배양기.",
-    "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
-    "모든 혈액 세포를 만들어 내는 줄기세포."
-   ],
-   "answer": 3,
-   "explanation": "**Vent filter (배기 필터)** — 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-   "choiceNotes": [
-    "틀리다 — Anti-foam (소포제)의 설명이다.",
-    "틀리다 — STR (Stirred Tank Reactor)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Suspension cell (부유 세포)의 설명이다.",
-    "틀리다 — HSC (조혈모 줄기세포)의 설명이다."
-   ],
-   "source": "WK02 강의 녹음 01:31:59–01:32:42",
-   "concepts": [
-    "Vent filter"
-   ],
-   "tags": [
-    "용어",
-    "Vent filter"
-   ]
-  },
-  {
-   "id": "tw02r-086",
-   "type": "용어",
-   "part": 1,
-   "question": "「Anti-foam (소포제)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
-    "배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-    "거품을 줄이려고 넣는 첨가제.",
-    "교반·기포로 세포막에 가해지는 찢는 힘.",
-    "목표 물질을 실제로 대량 생산하는 가장 큰 배양기."
-   ],
-   "answer": 3,
-   "explanation": "**Anti-foam (소포제)** — 거품을 줄이려고 넣는 첨가제.",
-   "choiceNotes": [
-    "틀리다 — Micro sparger의 설명이다.",
-    "틀리다 — Sparger (스파저)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Shear force (전단력)의 설명이다.",
-    "틀리다 — Production bioreactor (본배양기)의 설명이다."
-   ],
-   "source": "WK02 PDF p.40 · WK02 강의 녹음 01:31:59",
-   "concepts": [
-    "Anti-foam"
-   ],
-   "tags": [
-    "용어",
-    "Anti-foam"
-   ]
-  },
-  {
-   "id": "tw02r-087",
-   "type": "용어",
-   "part": 1,
-   "question": "「pH control (염기·CO₂)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
-    "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-    "배양액에 녹아 있는 산소의 양.",
-    "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기."
-   ],
-   "answer": 2,
-   "explanation": "**pH control (염기·CO₂)** — pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
-   "choiceNotes": [
-    "틀리다 — DO control (O₂·N₂)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — DO (Dissolved Oxygen)의 설명이다.",
-    "틀리다 — Vent filter (배기 필터)의 설명이다.",
-    "틀리다 — Death phase (사멸기)의 설명이다."
-   ],
-   "source": "WK02 강의 녹음 01:25:39–01:26:35",
-   "concepts": [
-    "pH control"
-   ],
-   "tags": [
-    "용어",
-    "pH control"
-   ]
-  },
-  {
    "id": "tw02r-088",
    "type": "용어",
    "part": 1,
    "question": "「DO control (O₂·N₂)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
     "배양액에 녹아 있는 산소의 양.",
     "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
     "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
+    "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
     "아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**DO control (O₂·N₂)** — 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — DO (Dissolved Oxygen)의 설명이다.",
     "틀리다 — pH control (염기·CO₂)의 설명이다.",
     "틀리다 — QTPP (Quality Target Product Profile)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Micro sparger의 설명이다."
    ],
    "source": "WK02 강의 녹음 01:37:41–01:38:35",
@@ -5020,18 +2548,18 @@
    "question": "「DO (Dissolved Oxygen)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.",
+    "배양액에 녹아 있는 산소의 양.",
     "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.",
     "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "배양액에 녹아 있는 산소의 양.",
     "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**DO (Dissolved Oxygen)** — 배양액에 녹아 있는 산소의 양.",
    "choiceNotes": [
     "틀리다 — DO control (O₂·N₂)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — pH control (염기·CO₂)의 설명이다.",
     "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Stationary phase (정지기)의 설명이다."
    ],
    "source": "WK02 PDF p.20–21, p.94",
@@ -5044,55 +2572,25 @@
    ]
   },
   {
-   "id": "tw02r-090",
-   "type": "용어",
-   "part": 1,
-   "question": "「Set point (설정값)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
-    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
-    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
-    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "제어 시스템이 맞추려는 목표 운전값."
-   ],
-   "answer": 5,
-   "explanation": "**Set point (설정값)** — 제어 시스템이 맞추려는 목표 운전값.",
-   "choiceNotes": [
-    "틀리다 — IPC (In-Process Control)의 설명이다.",
-    "틀리다 — QTPP (Quality Target Product Profile)의 설명이다.",
-    "틀리다 — CLD (Cell Line Development)의 설명이다.",
-    "틀리다 — Continuous culture (연속식 배양)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.71 · WK02 강의 녹음 02:23:30",
-   "concepts": [
-    "Set point"
-   ],
-   "tags": [
-    "용어",
-    "Set point"
-   ]
-  },
-  {
    "id": "tw02r-091",
    "type": "용어",
    "part": 1,
    "question": "「QbD (Quality by Design)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
     "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
     "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
     "축과 날개로 배양액을 섞는 교반형 배양기.",
-    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념."
+    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체."
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**QbD (Quality by Design)** — 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — DoE (Design of Experiments, 실험계획법)의 설명이다.",
     "틀리다 — IPC (In-Process Control)의 설명이다.",
     "틀리다 — STR (Stirred Tank Reactor)의 설명이다.",
-    "틀리다 — Bi-/Multi-specific antibody의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Bi-/Multi-specific antibody의 설명이다."
    ],
    "source": "WK02 PDF p.16 (수업 필기: QbD), p.80",
    "concepts": [
@@ -5110,18 +2608,18 @@
    "question": "「QTPP (Quality Target Product Profile)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "품질이 보증된다고 입증된 공정 조건의 범위.",
-    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
     "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
+    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
     "배양액 1 mL당 살아 있는 세포 수."
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**QTPP (Quality Target Product Profile)** — 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
    "choiceNotes": [
     "틀리다 — Design space (설계 공간)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CPP (Critical Process Parameter)의 설명이다.",
     "틀리다 — ATF (Alternating Tangential Flow)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — VCD (Viable Cell Density)의 설명이다."
    ],
    "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
@@ -5169,17 +2667,17 @@
    "part": 1,
    "question": "「CPP (Critical Process Parameter)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
+    "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.",
     "항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
     "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**CPP (Critical Process Parameter)** — 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — IPC (In-Process Control)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — QbD (Quality by Design)의 설명이다.",
     "틀리다 — Viral vector vaccine의 설명이다.",
     "틀리다 — N-1 perfusion high inoculum fed-batch의 설명이다."
@@ -5194,66 +2692,6 @@
    ]
   },
   {
-   "id": "tw02r-095",
-   "type": "용어",
-   "part": 1,
-   "question": "「Design space (설계 공간)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).",
-    "배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "품질이 보증된다고 입증된 공정 조건의 범위.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약."
-   ],
-   "answer": 4,
-   "explanation": "**Design space (설계 공간)** — 품질이 보증된다고 입증된 공정 조건의 범위.",
-   "choiceNotes": [
-    "틀리다 — DoE (Design of Experiments, 실험계획법)의 설명이다.",
-    "틀리다 — QTPP (Quality Target Product Profile)의 설명이다.",
-    "틀리다 — Vent filter (배기 필터)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다."
-   ],
-   "source": "WK02 PDF p.71, p.86–88 · WK02 강의 녹음 02:23:30–02:24:56",
-   "concepts": [
-    "Design space"
-   ],
-   "tags": [
-    "용어",
-    "Design space"
-   ]
-  },
-  {
-   "id": "tw02r-096",
-   "type": "용어",
-   "part": 1,
-   "question": "「Control strategy (관리 전략)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "품질이 보증된다고 입증된 공정 조건의 범위.",
-    "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
-    "원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어."
-   ],
-   "answer": 3,
-   "explanation": "**Control strategy (관리 전략)** — 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.",
-   "choiceNotes": [
-    "틀리다 — Design space (설계 공간)의 설명이다.",
-    "틀리다 — CPP (Critical Process Parameter)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — N-1 perfusion high inoculum fed-batch의 설명이다.",
-    "틀리다 — pH control (염기·CO₂)의 설명이다."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
-   "concepts": [
-    "Control strategy"
-   ],
-   "tags": [
-    "용어",
-    "Control strategy"
-   ]
-  },
-  {
    "id": "tw02r-097",
    "type": "용어",
    "part": 1,
@@ -5262,17 +2700,17 @@
     "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "품질이 보증된다고 입증된 공정 조건의 범위.",
     "mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
-    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
+    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
+    "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**DoE (Design of Experiments, 실험계획법)** — 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
    "choiceNotes": [
     "틀리다 — CPP (Critical Process Parameter)의 설명이다.",
     "틀리다 — Design space (설계 공간)의 설명이다.",
     "틀리다 — Nucleic acid vaccine (mRNA/pDNA)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CAR-T의 설명이다."
+    "틀리다 — CAR-T의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 PDF p.13, p.56–58",
    "concepts": [
@@ -5281,66 +2719,6 @@
    "tags": [
     "용어",
     "DoE"
-   ]
-  },
-  {
-   "id": "tw02r-101",
-   "type": "용어",
-   "part": 1,
-   "question": "「Scale-down model (SDM)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
-    "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
-    "고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
-   ],
-   "answer": 1,
-   "explanation": "**Scale-down model (SDM)** — 생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Scale-up의 설명이다.",
-    "틀리다 — Ring sparger의 설명이다.",
-    "틀리다 — Process intensification (PI, 공정 강화)의 설명이다.",
-    "틀리다 — kLa (부피 산소 전달 계수)의 설명이다."
-   ],
-   "source": "WK02 PDF p.16 (수업 필기: SDM), p.98",
-   "concepts": [
-    "Scale-down model"
-   ],
-   "tags": [
-    "용어",
-    "Scale-down model"
-   ]
-  },
-  {
-   "id": "tw02r-102",
-   "type": "용어",
-   "part": 1,
-   "question": "「Scale-up」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
-    "소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것."
-   ],
-   "answer": 5,
-   "explanation": "**Scale-up** — 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
-   "choiceNotes": [
-    "틀리다 — Scale-down model (SDM)의 설명이다.",
-    "틀리다 — IPC (In-Process Control)의 설명이다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다.",
-    "틀리다 — Capture chromatography의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.84–90 · WK02 강의 녹음 01:35:02",
-   "concepts": [
-    "Scale-up"
-   ],
-   "tags": [
-    "용어",
-    "Scale-up"
    ]
   },
   {
@@ -5374,66 +2752,6 @@
    ]
   },
   {
-   "id": "tw02r-107",
-   "type": "용어",
-   "part": 1,
-   "question": "「Tip speed (선단 속도)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "교반·기포로 세포막에 가해지는 찢는 힘.",
-    "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
-    "임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리."
-   ],
-   "answer": 4,
-   "explanation": "**Tip speed (선단 속도)** — 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-   "choiceNotes": [
-    "틀리다 — Shear force (전단력)의 설명이다.",
-    "틀리다 — P/V (Power input per Volume)의 설명이다.",
-    "틀리다 — Death phase (사멸기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — IPC (In-Process Control)의 설명이다."
-   ],
-   "source": "WK02 PDF p.89, p.92",
-   "concepts": [
-    "Tip speed"
-   ],
-   "tags": [
-    "용어",
-    "Tip speed"
-   ]
-  },
-  {
-   "id": "tw02r-108",
-   "type": "용어",
-   "part": 1,
-   "question": "「Shear force (전단력)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "교반·기포로 세포막에 가해지는 찢는 힘.",
-    "배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).",
-    "임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
-    "아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.",
-    "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
-   ],
-   "answer": 1,
-   "explanation": "**Shear force (전단력)** — 교반·기포로 세포막에 가해지는 찢는 힘.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — P/V (Power input per Volume)의 설명이다.",
-    "틀리다 — Tip speed (선단 속도)의 설명이다.",
-    "틀리다 — Naked mAb의 설명이다.",
-    "틀리다 — MCB (Master Cell Bank)의 설명이다."
-   ],
-   "source": "WK02 PDF p.89–92",
-   "concepts": [
-    "Shear force"
-   ],
-   "tags": [
-    "용어",
-    "Shear force"
-   ]
-  },
-  {
    "id": "tw02r-110",
    "type": "용어",
    "part": 1,
@@ -5441,18 +2759,18 @@
    "choices": [
     "기체에서 배양액으로 산소가 공급되는 속도.",
     "세포가 산소를 소비하는 속도.",
+    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
     "성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.",
-    "거품을 줄이려고 넣는 첨가제.",
-    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
+    "거품을 줄이려고 넣는 첨가제."
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**kLa (부피 산소 전달 계수)** — 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
    "choiceNotes": [
     "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다.",
     "틀리다 — OUR (Oxygen Uptake Rate)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Media supplement (배지 첨가물)의 설명이다.",
-    "틀리다 — Anti-foam (소포제)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Anti-foam (소포제)의 설명이다."
    ],
    "source": "WK02 PDF p.93, p.97",
    "concepts": [
@@ -5470,19 +2788,19 @@
    "question": "「OTR (Oxygen Transfer Rate)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
-    "기체에서 배양액으로 산소가 공급되는 속도.",
     "세포가 산소를 소비하는 속도.",
     "배양기 바닥에서 기체를 기포로 불어 넣는 장치.",
-    "부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬."
+    "부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
+    "기체에서 배양액으로 산소가 공급되는 속도."
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**OTR (Oxygen Transfer Rate)** — 기체에서 배양액으로 산소가 공급되는 속도.",
    "choiceNotes": [
     "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — OUR (Oxygen Uptake Rate)의 설명이다.",
     "틀리다 — Sparger (스파저)의 설명이다.",
-    "틀리다 — Microcarrier (마이크로캐리어)의 설명이다."
+    "틀리다 — Microcarrier (마이크로캐리어)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK02 PDF p.95",
    "concepts": [
@@ -5501,17 +2819,17 @@
    "choices": [
     "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
     "기체에서 배양액으로 산소가 공급되는 속도.",
-    "세포가 산소를 소비하는 속도.",
     "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.",
+    "세포가 산소를 소비하는 속도.",
     "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**OUR (Oxygen Uptake Rate)** — 세포가 산소를 소비하는 속도.",
    "choiceNotes": [
     "틀리다 — kLa (부피 산소 전달 계수)의 설명이다.",
     "틀리다 — OTR (Oxygen Transfer Rate)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CAR-T의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — MCB (Master Cell Bank)의 설명이다."
    ],
    "source": "WK02 PDF p.95",
@@ -5524,142 +2842,22 @@
    ]
   },
   {
-   "id": "tw02r-117",
-   "type": "용어",
-   "part": 1,
-   "question": "「Descriptive analytics (기술 분석)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "'앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-    "'무엇을 해야 하나?'에 답하는 분석.",
-    "목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
-    "'무슨 일이 있었나?'에 답하는 분석.",
-    "표면에 붙지 않고 배지 속에 떠서 자라는 세포."
-   ],
-   "answer": 4,
-   "explanation": "**Descriptive analytics (기술 분석)** — '무슨 일이 있었나?'에 답하는 분석.",
-   "choiceNotes": [
-    "틀리다 — Predictive analytics (예측 분석)의 설명이다.",
-    "틀리다 — Prescriptive analytics (처방 분석)의 설명이다.",
-    "틀리다 — Production bioreactor (본배양기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Suspension cell (부유 세포)의 설명이다."
-   ],
-   "source": "WK02 PDF p.79–80 (Data Analytics Continuum)",
-   "concepts": [
-    "Descriptive analytics"
-   ],
-   "tags": [
-    "용어",
-    "Descriptive analytics"
-   ]
-  },
-  {
-   "id": "tw02r-118",
-   "type": "용어",
-   "part": 1,
-   "question": "「Diagnostic analytics (진단 분석)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "'무슨 일이 있었나?'에 답하는 분석.",
-    "'무엇을 해야 하나?'에 답하는 분석.",
-    "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
-    "당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
-    "'왜 일어났나?'에 답하는 분석."
-   ],
-   "answer": 5,
-   "explanation": "**Diagnostic analytics (진단 분석)** — '왜 일어났나?'에 답하는 분석.",
-   "choiceNotes": [
-    "틀리다 — Descriptive analytics (기술 분석)의 설명이다.",
-    "틀리다 — Prescriptive analytics (처방 분석)의 설명이다.",
-    "틀리다 — Cryopreservation (동결 보존)의 설명이다.",
-    "틀리다 — Basal medium (기본 배지)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK02 PDF p.80",
-   "concepts": [
-    "Diagnostic analytics"
-   ],
-   "tags": [
-    "용어",
-    "Diagnostic analytics"
-   ]
-  },
-  {
-   "id": "tw02r-119",
-   "type": "용어",
-   "part": 1,
-   "question": "「Predictive analytics (예측 분석)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "'앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-    "'무슨 일이 있었나?'에 답하는 분석.",
-    "'무엇을 해야 하나?'에 답하는 분석.",
-    "두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
-    "환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
-   ],
-   "answer": 1,
-   "explanation": "**Predictive analytics (예측 분석)** — '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Descriptive analytics (기술 분석)의 설명이다.",
-    "틀리다 — Prescriptive analytics (처방 분석)의 설명이다.",
-    "틀리다 — Bi-/Multi-specific antibody의 설명이다.",
-    "틀리다 — CAR-T의 설명이다."
-   ],
-   "source": "WK02 PDF p.80",
-   "concepts": [
-    "Predictive analytics"
-   ],
-   "tags": [
-    "용어",
-    "Predictive analytics"
-   ]
-  },
-  {
-   "id": "tw02r-120",
-   "type": "용어",
-   "part": 1,
-   "question": "「Prescriptive analytics (처방 분석)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "'앞으로 무슨 일이 일어날까?'에 답하는 분석.",
-    "'왜 일어났나?'에 답하는 분석.",
-    "'무엇을 해야 하나?'에 답하는 분석.",
-    "골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.",
-    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약."
-   ],
-   "answer": 3,
-   "explanation": "**Prescriptive analytics (처방 분석)** — '무엇을 해야 하나?'에 답하는 분석.",
-   "choiceNotes": [
-    "틀리다 — Predictive analytics (예측 분석)의 설명이다.",
-    "틀리다 — Diagnostic analytics (진단 분석)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — MSC (중간엽 줄기세포)의 설명이다.",
-    "틀리다 — DP (Drug Product, 완제의약품)의 설명이다."
-   ],
-   "source": "WK02 PDF p.80",
-   "concepts": [
-    "Prescriptive analytics"
-   ],
-   "tags": [
-    "용어",
-    "Prescriptive analytics"
-   ]
-  },
-  {
    "id": "tw02r-130",
    "type": "용어",
    "part": 1,
    "question": "「COGS (Cost of Goods Sold)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
     "제품 1 g을 만드는 데 드는 총원가.",
+    "배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
     "사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
     "plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
     "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**COGS (Cost of Goods Sold)** — 제품 1 g을 만드는 데 드는 총원가.",
    "choiceNotes": [
-    "틀리다 — Harvest / Clarification의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — Harvest / Clarification의 설명이다.",
     "틀리다 — Plasma-derived protein (혈장 유래 단백질)의 설명이다.",
     "틀리다 — Transfection의 설명이다.",
     "틀리다 — WCB (Working Cell Bank)의 설명이다."
@@ -5686,17 +2884,17 @@
    ],
    "choices": [
     "(가)-A  (나)-C  (다)-D  (라)-B",
-    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Naked mAb** → A. 아무것도 붙이지 않은 단일클론항체 그 자체로 작용하는 치료제.\n(나) **ADC (Antibody Drug Conjugate)** → C. 항체에 세포독성 약물을 붙여 표적 세포로 약을 실어 나르는 치료제.\n(다) **Bi-/Multi-specific antibody** → B. 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.\n(라) **Plasma-derived protein (혈장 유래 단백질)** → D. 사람 혈장에서 얻는 알부민·면역글로불린 같은 단백질 약.",
    "choiceNotes": [
     "틀리다 — (다) Bi-/Multi-specific antibody의 설명은 B, (라) Plasma-derived protein의 설명은 D",
-    "틀리다 — (가) Naked mAb의 설명은 A, (라) Plasma-derived protein의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Naked mAb의 설명은 A, (라) Plasma-derived protein의 설명은 D",
     "틀리다 — (나) ADC의 설명은 C, (다) Bi-/Multi-specific antibody의 설명은 B",
     "틀리다 — (가) Naked mAb의 설명은 A, (나) ADC의 설명은 C, (다) Bi-/Multi-specific antibody의 설명은 B, (라) Plasma-derived protein의 설명은 D"
    ],
@@ -5724,19 +2922,19 @@
     "D. mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신."
    ],
    "choices": [
-    "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **AAV (Adeno-Associated Virus)** → A. HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.\n(나) **Lentivirus / Retrovirus vector** → C. 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.\n(다) **Viral vector vaccine** → B. 항원 유전자를 아데노바이러스 등에 실어 만든 백신.\n(라) **Nucleic acid vaccine (mRNA/pDNA)** → D. mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) AAV의 설명은 A, (나) Lentivirus / Retrovirus vector의 설명은 C",
     "틀리다 — (가) AAV의 설명은 A, (라) Nucleic acid vaccine의 설명은 D",
     "틀리다 — (나) Lentivirus / Retrovirus vector의 설명은 C, (다) Viral vector vaccine의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) AAV의 설명은 A, (나) Lentivirus / Retrovirus vector의 설명은 C, (다) Viral vector vaccine의 설명은 B, (라) Nucleic acid vaccine의 설명은 D"
    ],
    "source": "WK02 PDF p.6, p.12 · WK02 강의 녹음 24:07–25:49 · WK02 PDF p.6 · WK02 PDF p.6, p.10",
@@ -5766,17 +2964,17 @@
     "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-D  (나)-C  (다)-A  (라)-B",
-    "(가)-A  (나)-C  (다)-D  (라)-B",
-    "(가)-C  (나)-A  (다)-B  (라)-D"
+    "(가)-C  (나)-A  (다)-B  (라)-D",
+    "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **CAR-T** → A. 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제.\n(나) **MSC (중간엽 줄기세포)** → C. 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포.\n(다) **iPSC (유도 만능 줄기세포)** → D. 다 자란 체세포를 되돌려 여러 세포로 분화할 수 있게 만든 줄기세포.\n(라) **HSC (조혈모 줄기세포)** → B. 모든 혈액 세포를 만들어 내는 줄기세포.",
    "choiceNotes": [
     "틀리다 — (다) iPSC의 설명은 D, (라) HSC의 설명은 B",
     "틀리다 — (나) MSC의 설명은 C, (다) iPSC의 설명은 D",
     "틀리다 — (가) CAR-T의 설명은 A, (다) iPSC의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
-    "틀리다 — (가) CAR-T의 설명은 A, (나) MSC의 설명은 C, (다) iPSC의 설명은 D, (라) HSC의 설명은 B"
+    "틀리다 — (가) CAR-T의 설명은 A, (나) MSC의 설명은 C, (다) iPSC의 설명은 D, (라) HSC의 설명은 B",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK02 PDF p.7 (Advanced Therapy Modalities) · WK02 PDF p.7",
    "concepts": [
@@ -5803,17 +3001,17 @@
    ],
    "choices": [
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **mRNA platform (백신)** → B. plasmid와 효소 반응으로 항원 mRNA를 만드는, 가장 빠른 백신 방식.\n(나) **LNP (Lipid Nanoparticle)** → C. mRNA를 감싸 보호하고 세포 안으로 전달하는 지질 나노입자.\n(다) **Transfection** → D. plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.\n(라) **HEK293 (T)** → A. 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.",
    "choiceNotes": [
     "틀리다 — (가) mRNA platform의 설명은 B, (나) LNP의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) LNP의 설명은 C, (다) Transfection의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) LNP의 설명은 C, (라) HEK293의 설명은 A",
     "틀리다 — (가) mRNA platform의 설명은 B, (나) LNP의 설명은 C, (다) Transfection의 설명은 D, (라) HEK293의 설명은 A"
    ],
@@ -5841,20 +3039,20 @@
     "D. plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작."
    ],
    "choices": [
+    "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-D  (나)-B  (다)-C  (라)-A",
-    "(가)-B  (나)-D  (다)-C  (라)-A",
-    "(가)-D  (나)-B  (다)-A  (라)-C"
+    "(가)-B  (나)-D  (다)-C  (라)-A"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Transfection** → D. plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.\n(나) **HEK293 (T)** → B. 사람 배아 신장 유래 세포주로, AAV를 만드는 숙주세포.\n(다) **CHO 세포** → A. 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.\n(라) **Suspension cell (부유 세포)** → C. 표면에 붙지 않고 배지 속에 떠서 자라는 세포.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Transfection의 설명은 D, (라) Suspension cell의 설명은 C",
     "틀리다 — (가) Transfection의 설명은 D, (다) CHO 세포의 설명은 A",
     "틀리다 — (다) CHO 세포의 설명은 A, (라) Suspension cell의 설명은 C",
-    "틀리다 — (가) Transfection의 설명은 D, (나) HEK293의 설명은 B, (다) CHO 세포의 설명은 A, (라) Suspension cell의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Transfection의 설명은 D, (나) HEK293의 설명은 B, (다) CHO 세포의 설명은 A, (라) Suspension cell의 설명은 C"
    ],
    "source": "WK02 PDF p.12–13 (AAV process optimization) · WK02 PDF p.12 · WK02 PDF p.47–49, p.55 · WK02 강의 녹음 45:56–48:06",
    "concepts": [
@@ -5880,17 +3078,17 @@
     "D. 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계."
    ],
    "choices": [
-    "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Adherent cell (부착 세포)** → B. 표면에 붙어야 자라는 세포(넓은 면적 필요).\n(나) **Microcarrier (마이크로캐리어)** → A. 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.\n(다) **Cell line (세포주)** → C. 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.\n(라) **CLD (Cell Line Development)** → D. 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Adherent cell의 설명은 B, (나) Microcarrier의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Adherent cell의 설명은 B, (다) Cell line의 설명은 C",
     "틀리다 — (나) Microcarrier의 설명은 A, (라) CLD의 설명은 D",
     "틀리다 — (가) Adherent cell의 설명은 B, (나) Microcarrier의 설명은 A, (다) Cell line의 설명은 C, (라) CLD의 설명은 D"
@@ -5920,18 +3118,18 @@
    ],
    "choices": [
     "(가)-C  (나)-D  (다)-B  (라)-A",
-    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-C  (나)-D  (다)-A  (라)-B"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Cell line (세포주)** → D. 목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단.\n(나) **CLD (Cell Line Development)** → C. 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.\n(다) **RCB (Research Cell Bank)** → B. 세포주 개발 직후 만든 연구용 세포은행.\n(라) **MCB (Master Cell Bank)** → A. 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.",
    "choiceNotes": [
     "틀리다 — (가) Cell line의 설명은 D, (나) CLD의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) CLD의 설명은 C, (라) MCB의 설명은 A",
     "틀리다 — (가) Cell line의 설명은 D, (라) MCB의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Cell line의 설명은 D, (나) CLD의 설명은 C, (다) RCB의 설명은 B, (라) MCB의 설명은 A"
    ],
    "source": "WK02 PDF p.17 (About Cell Culture Process) · WK02 강의 녹음 56:41–59:34 · WK02 PDF p.16 (수업 필기: Cell Banking)",
@@ -5960,17 +3158,17 @@
    "choices": [
     "(가)-D  (나)-B  (다)-C  (라)-A",
     "(가)-A  (나)-D  (다)-C  (라)-B",
-    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **WCB (Working Cell Bank)** → B. 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.\n(나) **EPC (End of Production Cells)** → D. 생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용.\n(다) **Cell banking** → C. 같은 세포를 여러 vial로 동결해 매 배치를 같은 출발점에서 시작하게 하는 것.\n(라) **Seed train (종배양)** → A. 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
    "choiceNotes": [
     "틀리다 — (가) WCB의 설명은 B, (나) EPC의 설명은 D",
     "틀리다 — (가) WCB의 설명은 B, (라) Seed train의 설명은 A",
-    "틀리다 — (나) EPC의 설명은 D, (다) Cell banking의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) EPC의 설명은 D, (다) Cell banking의 설명은 C",
     "틀리다 — (가) WCB의 설명은 B, (나) EPC의 설명은 D, (다) Cell banking의 설명은 C, (라) Seed train의 설명은 A"
    ],
    "source": "WK02 PDF p.16 (수업 필기: Cell Banking) · WK02 PDF p.16 · WK02 PDF p.15, p.36",
@@ -5997,18 +3195,18 @@
     "D. 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것."
    ],
    "choices": [
+    "(가)-C  (나)-D  (다)-B  (라)-A",
     "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-C  (나)-D  (다)-B  (라)-A",
     "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-D  (나)-C  (다)-A  (라)-B"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Seed train (종배양)** → C. 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.\n(나) **Subculture (계대배양)** → D. 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.\n(다) **N-1 bioreactor** → B. 생산 배양기 바로 앞의 마지막 seed 배양기.\n(라) **Production bioreactor (본배양기)** → A. 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Seed train의 설명은 C, (다) N-1 bioreactor의 설명은 B",
     "틀리다 — (나) Subculture의 설명은 D, (라) Production bioreactor의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Seed train의 설명은 C, (나) Subculture의 설명은 D",
     "틀리다 — (가) Seed train의 설명은 C, (나) Subculture의 설명은 D, (다) N-1 bioreactor의 설명은 B, (라) Production bioreactor의 설명은 A"
    ],
@@ -6078,17 +3276,17 @@
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-A  (나)-D  (다)-C  (라)-B",
-    "(가)-A  (나)-D  (다)-B  (라)-C",
-    "(가)-D  (나)-A  (다)-C  (라)-B"
+    "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-A  (나)-D  (다)-B  (라)-C"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **Cryopreservation (동결 보존)** → A. 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.\n(나) **Batch culture (회분식 배양)** → D. 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).\n(다) **Fed-batch culture (유가식 배양)** → B. 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.\n(라) **Continuous culture (연속식 배양)** → C. 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
    "choiceNotes": [
     "틀리다 — (가) Cryopreservation의 설명은 A, (다) Fed-batch culture의 설명은 B",
     "틀리다 — (나) Batch culture의 설명은 D, (다) Fed-batch culture의 설명은 B",
     "틀리다 — (다) Fed-batch culture의 설명은 B, (라) Continuous culture의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
-    "틀리다 — (가) Cryopreservation의 설명은 A, (나) Batch culture의 설명은 D, (다) Fed-batch culture의 설명은 B, (라) Continuous culture의 설명은 C"
+    "틀리다 — (가) Cryopreservation의 설명은 A, (나) Batch culture의 설명은 D, (다) Fed-batch culture의 설명은 B, (라) Continuous culture의 설명은 C",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK02 PDF p.15 · WK02 PDF p.30 (Type of Cell Culture Processing) · WK02 PDF p.30, p.33, p.37 · WK02 PDF p.30 · WK02 강의 녹음 01:01:34",
    "concepts": [
@@ -6114,20 +3312,20 @@
     "D. 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식."
    ],
    "choices": [
+    "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-C  (나)-D  (다)-A  (라)-B",
-    "(가)-D  (나)-B  (다)-C  (라)-A",
-    "(가)-B  (나)-D  (다)-A  (라)-C"
+    "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Batch culture (회분식 배양)** → B. 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).\n(나) **Fed-batch culture (유가식 배양)** → D. 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.\n(다) **Continuous culture (연속식 배양)** → A. 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.\n(라) **Perfusion culture (관류 배양)** → C. 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Fed-batch culture의 설명은 D, (다) Continuous culture의 설명은 A",
     "틀리다 — (나) Fed-batch culture의 설명은 D, (라) Perfusion culture의 설명은 C",
     "틀리다 — (가) Batch culture의 설명은 B, (라) Perfusion culture의 설명은 C",
-    "틀리다 — (가) Batch culture의 설명은 B, (나) Fed-batch culture의 설명은 D, (다) Continuous culture의 설명은 A, (라) Perfusion culture의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Batch culture의 설명은 B, (나) Fed-batch culture의 설명은 D, (다) Continuous culture의 설명은 A, (라) Perfusion culture의 설명은 C"
    ],
    "source": "WK02 PDF p.30 (Type of Cell Culture Processing) · WK02 PDF p.30, p.33, p.37 · WK02 PDF p.30 · WK02 강의 녹음 01:01:34 · WK02 PDF p.33 · WK02 강의 녹음 01:01:34–01:02:26",
    "concepts": [
@@ -6154,17 +3352,17 @@
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **N-1 perfusion high inoculum fed-batch** → B. 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n(나) **Process intensification (PI, 공정 강화)** → A. 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.\n(다) **ATF (Alternating Tangential Flow)** → C. 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.\n(라) **Lag phase (유도기)** → D. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
    "choiceNotes": [
     "틀리다 — (가) N-1 perfusion high inoculum fed-batch의 설명은 B, (다) ATF의 설명은 C",
-    "틀리다 — (가) N-1 perfusion high inoculum fed-batch의 설명은 B, (라) Lag phase의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) N-1 perfusion high inoculum fed-batch의 설명은 B, (라) Lag phase의 설명은 D",
     "틀리다 — (나) Process intensification의 설명은 A, (다) ATF의 설명은 C",
     "틀리다 — (가) N-1 perfusion high inoculum fed-batch의 설명은 B, (나) Process intensification의 설명은 A, (다) ATF의 설명은 C, (라) Lag phase의 설명은 D"
    ],
@@ -6193,17 +3391,17 @@
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-D  (라)-B",
-    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **ATF (Alternating Tangential Flow)** → C. 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.\n(나) **Lag phase (유도기)** → A. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.\n(다) **Log phase (대수기)** → B. 세포 수가 빠르게(대수적으로) 늘어나는 시기.\n(라) **Stationary phase (정지기)** → D. 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
    "choiceNotes": [
     "틀리다 — (다) Log phase의 설명은 B, (라) Stationary phase의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) ATF의 설명은 C, (다) Log phase의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Lag phase의 설명은 A, (다) Log phase의 설명은 B",
     "틀리다 — (가) ATF의 설명은 C, (나) Lag phase의 설명은 A, (다) Log phase의 설명은 B, (라) Stationary phase의 설명은 D"
    ],
@@ -6231,19 +3429,19 @@
     "D. 세포 수가 빠르게(대수적으로) 늘어나는 시기."
    ],
    "choices": [
-    "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-D  (나)-C  (다)-A  (라)-B",
+    "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-D  (나)-C  (다)-B  (라)-A"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Lag phase (유도기)** → C. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.\n(나) **Log phase (대수기)** → D. 세포 수가 빠르게(대수적으로) 늘어나는 시기.\n(다) **Stationary phase (정지기)** → A. 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.\n(라) **Death phase (사멸기)** → B. 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Log phase의 설명은 D, (라) Death phase의 설명은 B",
     "틀리다 — (나) Log phase의 설명은 D, (다) Stationary phase의 설명은 A",
     "틀리다 — (가) Lag phase의 설명은 C, (나) Log phase의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Lag phase의 설명은 C, (나) Log phase의 설명은 D, (다) Stationary phase의 설명은 A, (라) Death phase의 설명은 B"
    ],
    "source": "WK02 PDF p.31 (General Animal Cell Growth Curve) · WK02 PDF p.31 · WK02 강의 녹음 02:03:39–02:07:29",
@@ -6272,18 +3470,18 @@
    "choices": [
     "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-A  (나)-D  (다)-B  (라)-C",
-    "(가)-A  (나)-D  (다)-C  (라)-B"
+    "(가)-A  (나)-D  (다)-C  (라)-B",
+    "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **VCD (Viable Cell Density)** → D. 배양액 1 mL당 살아 있는 세포 수.\n(나) **Viability (생존율)** → A. 전체 세포 중 살아 있는 세포의 비율(%).\n(다) **Temperature shift (온도 전환)** → B. 목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.\n(라) **Basal medium (기본 배지)** → C. 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.",
    "choiceNotes": [
     "틀리다 — (나) Viability의 설명은 A, (다) Temperature shift의 설명은 B",
     "틀리다 — (가) VCD의 설명은 D, (라) Basal medium의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) VCD의 설명은 D, (나) Viability의 설명은 A",
-    "틀리다 — (가) VCD의 설명은 D, (나) Viability의 설명은 A, (다) Temperature shift의 설명은 B, (라) Basal medium의 설명은 C"
+    "틀리다 — (가) VCD의 설명은 D, (나) Viability의 설명은 A, (다) Temperature shift의 설명은 B, (라) Basal medium의 설명은 C",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK02 PDF p.58–62 · WK02 PDF p.25, p.58 · WK02 PDF p.16 (필기), p.22 · WK02 강의 녹음 01:16:27–01:19:46 · WK02 PDF p.46 (Energy Source for Cell Growth)",
    "concepts": [
@@ -6309,20 +3507,20 @@
     "D. 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지."
    ],
    "choices": [
+    "(가)-D  (나)-B  (다)-C  (라)-A",
     "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-D  (나)-A  (다)-C  (라)-B",
-    "(가)-B  (나)-D  (다)-A  (라)-C",
-    "(가)-D  (나)-B  (다)-C  (라)-A"
+    "(가)-B  (나)-D  (다)-A  (라)-C"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Basal medium (기본 배지)** → D. 당·아미노산·비타민·염 등 세포 성장의 기본 성분으로 된 배지.\n(나) **Media supplement (배지 첨가물)** → B. 성장인자·가수분해물처럼 기본 배지에 더 넣어 성장을 돕는 성분.\n(다) **Glucose (포도당)** → C. 세포의 주 에너지원인 당.\n(라) **Lactate (젖산)** → A. 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Basal medium의 설명은 D, (다) Glucose의 설명은 C",
     "틀리다 — (다) Glucose의 설명은 C, (라) Lactate의 설명은 A",
     "틀리다 — (나) Media supplement의 설명은 B, (라) Lactate의 설명은 A",
-    "틀리다 — (가) Basal medium의 설명은 D, (나) Media supplement의 설명은 B, (다) Glucose의 설명은 C, (라) Lactate의 설명은 A",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Basal medium의 설명은 D, (나) Media supplement의 설명은 B, (다) Glucose의 설명은 C, (라) Lactate의 설명은 A"
    ],
    "source": "WK02 PDF p.46 (Energy Source for Cell Growth) · WK02 PDF p.46 · WK02 PDF p.47 · WK02 강의 녹음 01:16:27",
    "concepts": [
@@ -6349,17 +3547,17 @@
    ],
    "choices": [
     "(가)-A  (나)-C  (다)-B  (라)-D",
-    "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-A  (다)-D  (라)-C"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **Glucose (포도당)** → A. 세포의 주 에너지원인 당.\n(나) **Lactate (젖산)** → B. 포도당 대사로 쌓여 pH를 낮추는 대사산물.\n(다) **Glutamine (글루타민)** → C. 질소·탄소 공급원 아미노산으로, 분해되면 암모늄이 생긴다.\n(라) **Ammonium (암모늄)** → D. 글루타민 대사로 쌓이는 독성 노폐물.",
    "choiceNotes": [
     "틀리다 — (나) Lactate의 설명은 B, (다) Glutamine의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Glucose의 설명은 A, (라) Ammonium의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Lactate의 설명은 B, (라) Ammonium의 설명은 D",
     "틀리다 — (가) Glucose의 설명은 A, (나) Lactate의 설명은 B, (다) Glutamine의 설명은 C, (라) Ammonium의 설명은 D"
    ],
@@ -6387,17 +3585,17 @@
     "D. 배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다."
    ],
    "choices": [
-    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-D  (나)-B  (다)-C  (라)-A",
     "(가)-C  (나)-D  (다)-A  (라)-B"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Osmolality (삼투압 농도)** → D. 배양액에 녹은 입자 농도 — 너무 높으면 성장이 떨어진다.\n(나) **IPC (In-Process Control)** → C. 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.\n(다) **PAT (Process Analytical Technology)** → B. 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.\n(라) **STR (Stirred Tank Reactor)** → A. 축과 날개로 배양액을 섞는 교반형 배양기.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Osmolality의 설명은 D, (나) IPC의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) IPC의 설명은 C, (라) STR의 설명은 A",
     "틀리다 — (나) IPC의 설명은 C, (다) PAT의 설명은 B",
     "틀리다 — (가) Osmolality의 설명은 D, (나) IPC의 설명은 C, (다) PAT의 설명은 B, (라) STR의 설명은 A"
@@ -6468,17 +3666,17 @@
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-C  (나)-A  (다)-D  (라)-B",
-    "(가)-A  (나)-C  (다)-B  (라)-D"
+    "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **STR (Stirred Tank Reactor)** → C. 축과 날개로 배양액을 섞는 교반형 배양기.\n(나) **Impeller (임펠러)** → A. 배양기 축에 달려 돌며 배양액을 섞는 날개.\n(다) **Sparger (스파저)** → D. 배양기 바닥에서 기체를 기포로 불어 넣는 장치.\n(라) **Micro sparger** → B. 아주 작은 기포로 산소 전달이 잘 되는 기체 주입 장치.",
    "choiceNotes": [
     "틀리다 — (나) Impeller의 설명은 A, (다) Sparger의 설명은 D",
     "틀리다 — (다) Sparger의 설명은 D, (라) Micro sparger의 설명은 B",
     "틀리다 — (나) Impeller의 설명은 A, (라) Micro sparger의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
-    "틀리다 — (가) STR의 설명은 C, (나) Impeller의 설명은 A, (다) Sparger의 설명은 D, (라) Micro sparger의 설명은 B"
+    "틀리다 — (가) STR의 설명은 C, (나) Impeller의 설명은 A, (다) Sparger의 설명은 D, (라) Micro sparger의 설명은 B",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK02 PDF p.91 · WK02 PDF p.20–23 · WK02 PDF p.22–23",
    "concepts": [
@@ -6544,19 +3742,19 @@
    ],
    "choices": [
     "(가)-B  (나)-D  (다)-A  (라)-C",
+    "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-C  (나)-B  (다)-A  (라)-D",
-    "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-B  (나)-C  (다)-A  (라)-D"
+    "(가)-C  (나)-B  (다)-D  (라)-A"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **pH control (염기·CO₂)** → B. pH가 내리면 염기, 오르면 CO₂를 넣어 맞추는 제어.\n(나) **DO control (O₂·N₂)** → C. 산소가 떨어지면 O₂, 너무 오르면 N₂를 넣어 맞추는 제어.\n(다) **DO (Dissolved Oxygen)** → A. 배양액에 녹아 있는 산소의 양.\n(라) **Set point (설정값)** → D. 제어 시스템이 맞추려는 목표 운전값.",
    "choiceNotes": [
     "틀리다 — (나) DO control의 설명은 C, (라) Set point의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) DO control의 설명은 C, (다) DO의 설명은 A",
     "틀리다 — (가) pH control의 설명은 B, (나) DO control의 설명은 C",
-    "틀리다 — (가) pH control의 설명은 B, (나) DO control의 설명은 C, (다) DO의 설명은 A, (라) Set point의 설명은 D",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) pH control의 설명은 B, (나) DO control의 설명은 C, (다) DO의 설명은 A, (라) Set point의 설명은 D"
    ],
    "source": "WK02 강의 녹음 01:25:39–01:26:35 · WK02 강의 녹음 01:37:41–01:38:35 · WK02 PDF p.20–21, p.94 · WK02 PDF p.71 · WK02 강의 녹음 02:23:30",
    "concepts": [
@@ -6582,19 +3780,19 @@
     "D. 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성."
    ],
    "choices": [
-    "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-B  (나)-A  (다)-D  (라)-C"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Set point (설정값)** → A. 제어 시스템이 맞추려는 목표 운전값.\n(나) **QbD (Quality by Design)** → B. 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.\n(다) **QTPP (Quality Target Product Profile)** → C. 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).\n(라) **CQA (Critical Quality Attribute)** → D. 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Set point의 설명은 A, (나) QbD의 설명은 B",
     "틀리다 — (가) Set point의 설명은 A, (다) QTPP의 설명은 C",
     "틀리다 — (가) Set point의 설명은 A, (라) CQA의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Set point의 설명은 A, (나) QbD의 설명은 B, (다) QTPP의 설명은 C, (라) CQA의 설명은 D"
    ],
    "source": "WK02 PDF p.71 · WK02 강의 녹음 02:23:30 · WK02 PDF p.16 (수업 필기: QbD), p.80 · WK02 PDF p.16 (수업 필기: QbD 흐름) · WK02 PDF p.16, p.80",
@@ -6621,17 +3819,17 @@
     "D. 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획."
    ],
    "choices": [
-    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-A  (다)-D  (라)-B",
+    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **CPP (Critical Process Parameter)** → C. 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).\n(나) **Design space (설계 공간)** → A. 품질이 보증된다고 입증된 공정 조건의 범위.\n(다) **Control strategy (관리 전략)** → D. 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획.\n(라) **DoE (Design of Experiments, 실험계획법)** → B. 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.",
    "choiceNotes": [
-    "틀리다 — (나) Design space의 설명은 A, (라) DoE의 설명은 B",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) Design space의 설명은 A, (라) DoE의 설명은 B",
     "틀리다 — (나) Design space의 설명은 A, (다) Control strategy의 설명은 D",
     "틀리다 — (가) CPP의 설명은 C, (라) DoE의 설명은 B",
     "틀리다 — (가) CPP의 설명은 C, (나) Design space의 설명은 A, (다) Control strategy의 설명은 D, (라) DoE의 설명은 B"
@@ -6660,19 +3858,19 @@
     "D. 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준)."
    ],
    "choices": [
+    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Scale-down model (SDM)** → C. 생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.\n(나) **Scale-up** → A. 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.\n(다) **P/V (Power input per Volume)** → D. 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).\n(라) **Tip speed (선단 속도)** → B. 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Scale-down model의 설명은 C, (나) Scale-up의 설명은 A",
     "틀리다 — (나) Scale-up의 설명은 A, (라) Tip speed의 설명은 B",
     "틀리다 — (다) P/V의 설명은 D, (라) Tip speed의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Scale-down model의 설명은 C, (나) Scale-up의 설명은 A, (다) P/V의 설명은 D, (라) Tip speed의 설명은 B"
    ],
    "source": "WK02 PDF p.16 (수업 필기: SDM), p.98 · WK02 PDF p.84–90 · WK02 강의 녹음 01:35:02 · WK02 PDF p.89, p.92",
@@ -6699,20 +3897,20 @@
     "D. 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준)."
    ],
    "choices": [
-    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-D  (나)-C  (다)-A  (라)-B",
     "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-D  (나)-A  (다)-B  (라)-C",
-    "(가)-C  (나)-D  (다)-A  (라)-B"
+    "(가)-C  (나)-D  (다)-A  (라)-B",
+    "(가)-D  (나)-C  (다)-B  (라)-A"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **P/V (Power input per Volume)** → D. 배양액 단위 부피당 들어가는 교반 동력(scale-up 기준).\n(나) **Tip speed (선단 속도)** → C. 임펠러 날개 끝이 움직이는 속도(날개 근처 shear 지표).\n(다) **Shear force (전단력)** → B. 교반·기포로 세포막에 가해지는 찢는 힘.\n(라) **kLa (부피 산소 전달 계수)** → A. 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Shear force의 설명은 B, (라) kLa의 설명은 A",
     "틀리다 — (가) P/V의 설명은 D, (라) kLa의 설명은 A",
     "틀리다 — (나) Tip speed의 설명은 C, (라) kLa의 설명은 A",
-    "틀리다 — (가) P/V의 설명은 D, (나) Tip speed의 설명은 C, (다) Shear force의 설명은 B, (라) kLa의 설명은 A"
+    "틀리다 — (가) P/V의 설명은 D, (나) Tip speed의 설명은 C, (다) Shear force의 설명은 B, (라) kLa의 설명은 A",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK02 PDF p.89, p.92 · WK02 PDF p.89–92 · WK02 PDF p.93, p.97",
    "concepts": [
@@ -6739,18 +3937,18 @@
    ],
    "choices": [
     "(가)-A  (나)-D  (다)-B  (라)-C",
-    "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-C  (나)-A  (다)-B  (라)-D",
+    "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **kLa (부피 산소 전달 계수)** → A. 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.\n(나) **OTR (Oxygen Transfer Rate)** → C. 기체에서 배양액으로 산소가 공급되는 속도.\n(다) **OUR (Oxygen Uptake Rate)** → B. 세포가 산소를 소비하는 속도.\n(라) **Descriptive analytics (기술 분석)** → D. '무슨 일이 있었나?'에 답하는 분석.",
    "choiceNotes": [
     "틀리다 — (나) OTR의 설명은 C, (라) Descriptive analytics의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) kLa의 설명은 A, (라) Descriptive analytics의 설명은 D",
     "틀리다 — (가) kLa의 설명은 A, (나) OTR의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) kLa의 설명은 A, (나) OTR의 설명은 C, (다) OUR의 설명은 B, (라) Descriptive analytics의 설명은 D"
    ],
    "source": "WK02 PDF p.93, p.97 · WK02 PDF p.95 · WK02 PDF p.79–80 (Data Analytics Continuum)",
@@ -6778,17 +3976,17 @@
    ],
    "choices": [
     "(가)-A  (나)-C  (다)-B  (라)-D",
-    "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-C  (다)-A  (라)-D",
+    "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-C  (나)-B  (다)-D  (라)-A"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Descriptive analytics (기술 분석)** → B. '무슨 일이 있었나?'에 답하는 분석.\n(나) **Diagnostic analytics (진단 분석)** → C. '왜 일어났나?'에 답하는 분석.\n(다) **Predictive analytics (예측 분석)** → A. '앞으로 무슨 일이 일어날까?'에 답하는 분석.\n(라) **Prescriptive analytics (처방 분석)** → D. '무엇을 해야 하나?'에 답하는 분석.",
    "choiceNotes": [
     "틀리다 — (가) Descriptive analytics의 설명은 B, (다) Predictive analytics의 설명은 A",
-    "틀리다 — (나) Diagnostic analytics의 설명은 C, (라) Prescriptive analytics의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) Diagnostic analytics의 설명은 C, (라) Prescriptive analytics의 설명은 D",
     "틀리다 — (다) Predictive analytics의 설명은 A, (라) Prescriptive analytics의 설명은 D",
     "틀리다 — (가) Descriptive analytics의 설명은 B, (나) Diagnostic analytics의 설명은 C, (다) Predictive analytics의 설명은 A, (라) Prescriptive analytics의 설명은 D"
    ],
@@ -6818,18 +4016,18 @@
    "choices": [
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-C  (나)-A  (다)-D  (라)-B",
+    "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-D  (나)-A  (다)-B  (라)-C",
-    "(가)-A  (나)-B  (다)-C  (라)-D",
-    "(가)-B  (나)-A  (다)-D  (라)-C"
+    "(가)-A  (나)-B  (다)-C  (라)-D"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **COGS (Cost of Goods Sold)** → B. 제품 1 g을 만드는 데 드는 총원가.\n(나) **Descriptive analytics (기술 분석)** → A. '무슨 일이 있었나?'에 답하는 분석.\n(다) **Diagnostic analytics (진단 분석)** → D. '왜 일어났나?'에 답하는 분석.\n(라) **Predictive analytics (예측 분석)** → C. '앞으로 무슨 일이 일어날까?'에 답하는 분석.",
    "choiceNotes": [
     "틀리다 — (나) Descriptive analytics의 설명은 A, (라) Predictive analytics의 설명은 C",
     "틀리다 — (가) COGS의 설명은 B, (라) Predictive analytics의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) COGS의 설명은 B, (다) Diagnostic analytics의 설명은 D",
-    "틀리다 — (가) COGS의 설명은 B, (나) Descriptive analytics의 설명은 A, (다) Diagnostic analytics의 설명은 D, (라) Predictive analytics의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) COGS의 설명은 B, (나) Descriptive analytics의 설명은 A, (다) Diagnostic analytics의 설명은 D, (라) Predictive analytics의 설명은 C"
    ],
    "source": "WK02 PDF p.34 (COGS Distribution) · WK02 PDF p.79–80 (Data Analytics Continuum) · WK02 PDF p.80",
    "concepts": [

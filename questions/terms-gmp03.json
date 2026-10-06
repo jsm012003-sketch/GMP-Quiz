@@ -499,105 +499,6 @@
    ]
   },
   {
-   "id": "tg03d-022",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
-   ],
-   "choices": [
-    "EI (Enzyme Indicator)",
-    "BI (Biological Indicator)",
-    "D-value",
-    "구조적 차단 (Isolator 원리)",
-    "Outgoing airlock"
-   ],
-   "answer": 2,
-   "explanation": "**BI (Biological Indicator)** — 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
-   "choiceNotes": [
-    "틀리다 — EI (Enzyme Indicator): 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-    "정답 — 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
-    "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "틀리다 — 구조적 차단 (Isolator 원리): 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
-    "틀리다 — Outgoing airlock: 다 쓴 자재와 폐기물을 내보내는 구간."
-   ],
-   "source": "03 Isolator & Qualification PDF p.12, p.14",
-   "concepts": [
-    "BI"
-   ],
-   "tags": [
-    "용어",
-    "BI"
-   ]
-  },
-  {
-   "id": "tg03d-023",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
-   ],
-   "choices": [
-    "CI (Chemical Indicator)",
-    "BI (Biological Indicator)",
-    "Population (BI 포자 수)",
-    "MBQ (Microbiological Qualification, PQ)",
-    "Conditioning (VHP 2단계)"
-   ],
-   "answer": 1,
-   "explanation": "**CI (Chemical Indicator)** — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-   "choiceNotes": [
-    "정답 — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
-    "틀리다 — Population (BI 포자 수): BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "틀리다 — MBQ (Microbiological Qualification, PQ): worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "틀리다 — Conditioning (VHP 2단계): H₂O₂를 넣어 목표 농도까지 올리는 단계."
-   ],
-   "source": "03 Isolator & Qualification PDF p.12, p.14",
-   "concepts": [
-    "CI"
-   ],
-   "tags": [
-    "용어",
-    "CI"
-   ]
-  },
-  {
-   "id": "tg03d-024",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)."
-   ],
-   "choices": [
-    "Population (BI 포자 수)",
-    "D-value",
-    "EI (Enzyme Indicator)",
-    "Disinfection (소독)",
-    "URS / DQ (아이솔레이터)"
-   ],
-   "answer": 3,
-   "explanation": "**EI (Enzyme Indicator)** — 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-   "choiceNotes": [
-    "틀리다 — Population (BI 포자 수): BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "정답 — 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-    "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
-    "틀리다 — URS / DQ (아이솔레이터): 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계."
-   ],
-   "source": "03 Isolator & Qualification PDF (BI·CI·EI 비교)",
-   "concepts": [
-    "EI"
-   ],
-   "tags": [
-    "용어",
-    "EI"
-   ]
-  },
-  {
    "id": "tg03d-026",
    "type": "용어",
    "part": 1,
@@ -607,18 +508,18 @@
    ],
    "choices": [
     "D-value",
+    "Population (BI 포자 수)",
     "CI (Chemical Indicator)",
     "IQ (Installation Qualification)",
-    "Population (BI 포자 수)",
     "확률적 관리 (Clean room 방식)"
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**Population (BI 포자 수)** — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
    "choiceNotes": [
     "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
+    "정답 — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
     "틀리다 — IQ (Installation Qualification): 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-    "정답 — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
    ],
    "source": "03 Isolator & Qualification PDF p.12, p.14",
@@ -639,20 +540,20 @@
     "미생물 수를 10분의 1로 줄이는 데 걸리는 시간."
    ],
    "choices": [
+    "D-value",
     "SLR (Spore Log Reduction)",
     "Population (BI 포자 수)",
     "Cycle development (CD)",
-    "확률적 관리 (Clean room 방식)",
-    "D-value"
+    "확률적 관리 (Clean room 방식)"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
    "choiceNotes": [
+    "정답 — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
     "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
     "틀리다 — Population (BI 포자 수): BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — Cycle development (CD): 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
-    "정답 — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간."
+    "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
    ],
    "source": "03 Isolator & Qualification PDF p.12",
    "concepts": [
@@ -661,39 +562,6 @@
    "tags": [
     "용어",
     "D-value"
-   ]
-  },
-  {
-   "id": "tg03d-028",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)."
-   ],
-   "choices": [
-    "SLR (Spore Log Reduction)",
-    "CI (Chemical Indicator)",
-    "EI (Enzyme Indicator)",
-    "Decontamination (VHP 3단계)",
-    "구조적 차단 (Isolator 원리)"
-   ],
-   "answer": 1,
-   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-   "choiceNotes": [
-    "정답 — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "틀리다 — EI (Enzyme Indicator): 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-    "틀리다 — Decontamination (VHP 3단계): 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-    "틀리다 — 구조적 차단 (Isolator 원리): 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식."
-   ],
-   "source": "03 Isolator & Qualification PDF p.14",
-   "concepts": [
-    "SLR"
-   ],
-   "tags": [
-    "용어",
-    "SLR"
    ]
   },
   {
@@ -707,18 +575,18 @@
    "choices": [
     "아포 (Spore)",
     "Load pattern (적재 패턴)",
+    "Total kill time",
     "EI (Enzyme Indicator)",
-    "Conditioning (VHP 2단계)",
-    "Total kill time"
+    "Conditioning (VHP 2단계)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Total kill time** — 모든 BI가 죽는 최소 주입량과 노출 시간.",
    "choiceNotes": [
     "틀리다 — 아포 (Spore): 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
     "틀리다 — Load pattern (적재 패턴): 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
+    "정답 — 모든 BI가 죽는 최소 주입량과 노출 시간.",
     "틀리다 — EI (Enzyme Indicator): 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-    "틀리다 — Conditioning (VHP 2단계): H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "정답 — 모든 BI가 죽는 최소 주입량과 노출 시간."
+    "틀리다 — Conditioning (VHP 2단계): H₂O₂를 넣어 목표 농도까지 올리는 단계."
    ],
    "source": "03 Isolator & Qualification PDF p.10, p.14",
    "concepts": [
@@ -740,17 +608,17 @@
    "choices": [
     "PRQ (Periodic Requalification)",
     "OQ (Operational Qualification)",
-    "Cycle development (CD)",
     "Disinfection (소독)",
+    "Cycle development (CD)",
     "Sterilization (멸균)"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**Cycle development (CD)** — 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
    "choiceNotes": [
     "틀리다 — PRQ (Periodic Requalification): 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
     "틀리다 — OQ (Operational Qualification): 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
-    "정답 — 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
     "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
+    "정답 — 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
     "틀리다 — Sterilization (멸균): 미생물을 6 log 이상 줄이는 수준의 처리."
    ],
    "source": "03 Isolator & Qualification PDF p.10, p.13",
@@ -763,171 +631,6 @@
    ]
   },
   {
-   "id": "tg03d-035",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계."
-   ],
-   "choices": [
-    "Cycle development (CD)",
-    "MBQ (Microbiological Qualification, PQ)",
-    "Steam sterilization (스팀 멸균)",
-    "URS / DQ (아이솔레이터)",
-    "Aeration (VHP 4단계)"
-   ],
-   "answer": 4,
-   "explanation": "**URS / DQ (아이솔레이터)** — 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-   "choiceNotes": [
-    "틀리다 — Cycle development (CD): 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "틀리다 — MBQ (Microbiological Qualification, PQ): worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "틀리다 — Steam sterilization (스팀 멸균): 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "정답 — 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-    "틀리다 — Aeration (VHP 4단계): H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계."
-   ],
-   "source": "03 Isolator & Qualification PDF p.13",
-   "concepts": [
-    "URS / DQ"
-   ],
-   "tags": [
-    "용어",
-    "URS / DQ"
-   ]
-  },
-  {
-   "id": "tg03d-036",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가."
-   ],
-   "choices": [
-    "Cycle development (CD)",
-    "IQ (Installation Qualification)",
-    "MBQ (Microbiological Qualification, PQ)",
-    "Total kill time",
-    "Pressure decay test"
-   ],
-   "answer": 2,
-   "explanation": "**IQ (Installation Qualification)** — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-   "choiceNotes": [
-    "틀리다 — Cycle development (CD): 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "정답 — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-    "틀리다 — MBQ (Microbiological Qualification, PQ): worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "틀리다 — Total kill time: 모든 BI가 죽는 최소 주입량과 노출 시간.",
-    "틀리다 — Pressure decay test: 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험."
-   ],
-   "source": "03 Isolator & Qualification PDF p.13",
-   "concepts": [
-    "IQ"
-   ],
-   "tags": [
-    "용어",
-    "IQ"
-   ]
-  },
-  {
-   "id": "tg03d-037",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가."
-   ],
-   "choices": [
-    "MBQ (Microbiological Qualification, PQ)",
-    "PRQ (Periodic Requalification)",
-    "Decontamination (VHP 3단계)",
-    "Glove visual inspection",
-    "OQ (Operational Qualification)"
-   ],
-   "answer": 5,
-   "explanation": "**OQ (Operational Qualification)** — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
-   "choiceNotes": [
-    "틀리다 — MBQ (Microbiological Qualification, PQ): worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "틀리다 — PRQ (Periodic Requalification): 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "틀리다 — Decontamination (VHP 3단계): 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-    "틀리다 — Glove visual inspection: 글러브를 당겨 손상을 눈으로 확인하는 점검.",
-    "정답 — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가."
-   ],
-   "source": "03 Isolator & Qualification PDF p.13",
-   "concepts": [
-    "OQ"
-   ],
-   "tags": [
-    "용어",
-    "OQ"
-   ]
-  },
-  {
-   "id": "tg03d-038",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가."
-   ],
-   "choices": [
-    "MBQ (Microbiological Qualification, PQ)",
-    "IQ (Installation Qualification)",
-    "OQ (Operational Qualification)",
-    "Pressure decay test",
-    "Aeration (VHP 4단계)"
-   ],
-   "answer": 1,
-   "explanation": "**MBQ (Microbiological Qualification, PQ)** — worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-   "choiceNotes": [
-    "정답 — worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "틀리다 — IQ (Installation Qualification): 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-    "틀리다 — OQ (Operational Qualification): 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
-    "틀리다 — Pressure decay test: 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-    "틀리다 — Aeration (VHP 4단계): H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계."
-   ],
-   "source": "03 Isolator & Qualification PDF p.13",
-   "concepts": [
-    "MBQ"
-   ],
-   "tags": [
-    "용어",
-    "MBQ"
-   ]
-  },
-  {
-   "id": "tg03d-039",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계."
-   ],
-   "choices": [
-    "IQ (Installation Qualification)",
-    "URS / DQ (아이솔레이터)",
-    "Incoming airlock",
-    "PRQ (Periodic Requalification)",
-    "Conditioning (VHP 2단계)"
-   ],
-   "answer": 4,
-   "explanation": "**PRQ (Periodic Requalification)** — 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-   "choiceNotes": [
-    "틀리다 — IQ (Installation Qualification): 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-    "틀리다 — URS / DQ (아이솔레이터): 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-    "틀리다 — Incoming airlock: 들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "정답 — 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "틀리다 — Conditioning (VHP 2단계): H₂O₂를 넣어 목표 농도까지 올리는 단계."
-   ],
-   "source": "03 Isolator & Qualification PDF p.13",
-   "concepts": [
-    "PRQ"
-   ],
-   "tags": [
-    "용어",
-    "PRQ"
-   ]
-  },
-  {
    "id": "tg03d-043",
    "type": "용어",
    "part": 1,
@@ -937,19 +640,19 @@
    ],
    "choices": [
     "Pressure decay test",
-    "Glove visual inspection",
     "D-value",
     "Population (BI 포자 수)",
-    "Disinfection (소독)"
+    "Disinfection (소독)",
+    "Glove visual inspection"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Glove visual inspection** — 글러브를 당겨 손상을 눈으로 확인하는 점검.",
    "choiceNotes": [
     "틀리다 — Pressure decay test: 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-    "정답 — 글러브를 당겨 손상을 눈으로 확인하는 점검.",
     "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
     "틀리다 — Population (BI 포자 수): BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리."
+    "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
+    "정답 — 글러브를 당겨 손상을 눈으로 확인하는 점검."
    ],
    "source": "03 Isolator & Qualification PDF p.16",
    "concepts": [
@@ -969,18 +672,18 @@
     "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험."
    ],
    "choices": [
+    "Pressure decay test",
     "Glove visual inspection",
     "Outgoing airlock",
-    "Pressure decay test",
     "BI (Biological Indicator)",
     "Occluded surface (가려진 표면)"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**Pressure decay test** — 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
    "choiceNotes": [
+    "정답 — 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
     "틀리다 — Glove visual inspection: 글러브를 당겨 손상을 눈으로 확인하는 점검.",
     "틀리다 — Outgoing airlock: 다 쓴 자재와 폐기물을 내보내는 구간.",
-    "정답 — 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
     "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
     "틀리다 — Occluded surface (가려진 표면): 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면."
    ],
@@ -1002,20 +705,20 @@
     "미생물을 줄이는 수준(약 3 log 감소)의 처리."
    ],
    "choices": [
-    "Disinfection (소독)",
     "Steam sterilization (스팀 멸균)",
     "Sterilization (멸균)",
     "Total kill time",
-    "Main chamber"
+    "Main chamber",
+    "Disinfection (소독)"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**Disinfection (소독)** — 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
    "choiceNotes": [
-    "정답 — 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
     "틀리다 — Steam sterilization (스팀 멸균): 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
     "틀리다 — Sterilization (멸균): 미생물을 6 log 이상 줄이는 수준의 처리.",
     "틀리다 — Total kill time: 모든 BI가 죽는 최소 주입량과 노출 시간.",
-    "틀리다 — Main chamber: 실제 무균 작업이 이루어지는 Grade A 작업 공간."
+    "틀리다 — Main chamber: 실제 무균 작업이 이루어지는 Grade A 작업 공간.",
+    "정답 — 미생물을 줄이는 수준(약 3 log 감소)의 처리."
    ],
    "source": "03 Isolator & Qualification 강의 녹음 17:56–18:14",
    "concepts": [
@@ -1036,17 +739,17 @@
    ],
    "choices": [
     "Steam sterilization (스팀 멸균)",
-    "Sterilization (멸균)",
     "Disinfection (소독)",
+    "Sterilization (멸균)",
     "Aeration (VHP 4단계)",
     "Main chamber"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**Sterilization (멸균)** — 미생물을 6 log 이상 줄이는 수준의 처리.",
    "choiceNotes": [
     "틀리다 — Steam sterilization (스팀 멸균): 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "정답 — 미생물을 6 log 이상 줄이는 수준의 처리.",
     "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
+    "정답 — 미생물을 6 log 이상 줄이는 수준의 처리.",
     "틀리다 — Aeration (VHP 4단계): H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
     "틀리다 — Main chamber: 실제 무균 작업이 이루어지는 Grade A 작업 공간."
    ],
@@ -1071,17 +774,17 @@
     "Sterilization (멸균)",
     "Disinfection (소독)",
     "Aeration (VHP 4단계)",
-    "CI (Chemical Indicator)",
-    "Steam sterilization (스팀 멸균)"
+    "Steam sterilization (스팀 멸균)",
+    "CI (Chemical Indicator)"
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**Steam sterilization (스팀 멸균)** — 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
    "choiceNotes": [
     "틀리다 — Sterilization (멸균): 미생물을 6 log 이상 줄이는 수준의 처리.",
     "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
     "틀리다 — Aeration (VHP 4단계): H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-    "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "정답 — 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식."
+    "정답 — 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
+    "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
    ],
    "source": "03 Isolator & Qualification 강의 녹음 17:38–19:57",
    "concepts": [
@@ -1090,489 +793,6 @@
    "tags": [
     "용어",
     "Steam sterilization"
-   ]
-  },
-  {
-   "id": "tg03d-056",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것."
-   ],
-   "choices": [
-    "Hydroxyl radical (·OH)",
-    "Occluded surface (가려진 표면)",
-    "GDP (Good Documentation Practice)",
-    "Steam sterilization (스팀 멸균)",
-    "Leak integrity (기밀성)"
-   ],
-   "answer": 3,
-   "explanation": "**GDP (Good Documentation Practice)** — 모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
-   "choiceNotes": [
-    "틀리다 — Hydroxyl radical (·OH): H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "틀리다 — Occluded surface (가려진 표면): 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-    "정답 — 모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
-    "틀리다 — Steam sterilization (스팀 멸균): 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "틀리다 — Leak integrity (기밀성): 챔버와 글러브가 새지 않는 상태."
-   ],
-   "source": "03 Isolator & Qualification 강의 녹음 27:52–28:06",
-   "concepts": [
-    "GDP"
-   ],
-   "tags": [
-    "용어",
-    "GDP"
-   ]
-  },
-  {
-   "id": "tg03r-001",
-   "type": "용어",
-   "part": 1,
-   "question": "「구조적 차단 (Isolator 원리)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
-    "챔버와 글러브가 새지 않는 상태.",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
-    "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험."
-   ],
-   "answer": 4,
-   "explanation": "**구조적 차단 (Isolator 원리)** — 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
-   "choiceNotes": [
-    "틀리다 — 확률적 관리 (Clean room 방식)의 설명이다.",
-    "틀리다 — Leak integrity (기밀성)의 설명이다.",
-    "틀리다 — CI (Chemical Indicator)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Pressure decay test의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.3",
-   "concepts": [
-    "구조적 차단"
-   ],
-   "tags": [
-    "용어",
-    "구조적 차단"
-   ]
-  },
-  {
-   "id": "tg03r-002",
-   "type": "용어",
-   "part": 1,
-   "question": "「확률적 관리 (Clean room 방식)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "챔버와 글러브가 새지 않는 상태.",
-    "벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
-    "작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
-    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
-    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
-   ],
-   "answer": 3,
-   "explanation": "**확률적 관리 (Clean room 방식)** — 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
-   "choiceNotes": [
-    "틀리다 — Leak integrity (기밀성)의 설명이다.",
-    "틀리다 — 구조적 차단 (Isolator 원리)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — OQ (Operational Qualification)의 설명이다.",
-    "틀리다 — BI (Biological Indicator)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.3",
-   "concepts": [
-    "확률적 관리"
-   ],
-   "tags": [
-    "용어",
-    "확률적 관리"
-   ]
-  },
-  {
-   "id": "tg03r-003",
-   "type": "용어",
-   "part": 1,
-   "question": "「Leak integrity (기밀성)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
-    "챔버와 글러브가 새지 않는 상태.",
-    "벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가."
-   ],
-   "answer": 2,
-   "explanation": "**Leak integrity (기밀성)** — 챔버와 글러브가 새지 않는 상태.",
-   "choiceNotes": [
-    "틀리다 — 확률적 관리 (Clean room 방식)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 구조적 차단 (Isolator 원리)의 설명이다.",
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — IQ (Installation Qualification)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.3",
-   "concepts": [
-    "Leak integrity"
-   ],
-   "tags": [
-    "용어",
-    "Leak integrity"
-   ]
-  },
-  {
-   "id": "tg03r-004",
-   "type": "용어",
-   "part": 1,
-   "question": "「압력 계위 (Pressure cascade)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "다 쓴 자재와 폐기물을 내보내는 구간.",
-    "실제 무균 작업이 이루어지는 Grade A 작업 공간.",
-    "글러브를 당겨 손상을 눈으로 확인하는 점검.",
-    "검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
-   ],
-   "answer": 5,
-   "explanation": "**압력 계위 (Pressure cascade)** — 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-   "choiceNotes": [
-    "틀리다 — Outgoing airlock의 설명이다.",
-    "틀리다 — Main chamber의 설명이다.",
-    "틀리다 — Glove visual inspection의 설명이다.",
-    "틀리다 — Preparation (VHP 1단계)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.4",
-   "concepts": [
-    "압력 계위"
-   ],
-   "tags": [
-    "용어",
-    "압력 계위"
-   ]
-  },
-  {
-   "id": "tg03r-005",
-   "type": "용어",
-   "part": 1,
-   "question": "「Main chamber」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "다 쓴 자재와 폐기물을 내보내는 구간.",
-    "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
-    "실제 무균 작업이 이루어지는 Grade A 작업 공간.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계."
-   ],
-   "answer": 4,
-   "explanation": "**Main chamber** — 실제 무균 작업이 이루어지는 Grade A 작업 공간.",
-   "choiceNotes": [
-    "틀리다 — Incoming airlock의 설명이다.",
-    "틀리다 — Outgoing airlock의 설명이다.",
-    "틀리다 — MBQ (Microbiological Qualification, PQ)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.4",
-   "concepts": [
-    "Main chamber"
-   ],
-   "tags": [
-    "용어",
-    "Main chamber"
-   ]
-  },
-  {
-   "id": "tg03r-006",
-   "type": "용어",
-   "part": 1,
-   "question": "「Incoming airlock」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "실제 무균 작업이 이루어지는 Grade A 작업 공간.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "챔버와 글러브가 새지 않는 상태."
-   ],
-   "answer": 1,
-   "explanation": "**Incoming airlock** — 들어오는 자재를 제염하고 대기시키는 완충 공간.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Main chamber의 설명이다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "틀리다 — Cycle development (CD)의 설명이다.",
-    "틀리다 — Leak integrity (기밀성)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.4",
-   "concepts": [
-    "Incoming airlock"
-   ],
-   "tags": [
-    "용어",
-    "Incoming airlock"
-   ]
-  },
-  {
-   "id": "tg03r-007",
-   "type": "용어",
-   "part": 1,
-   "question": "「Outgoing airlock」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-    "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-    "다 쓴 자재와 폐기물을 내보내는 구간."
-   ],
-   "answer": 5,
-   "explanation": "**Outgoing airlock** — 다 쓴 자재와 폐기물을 내보내는 구간.",
-   "choiceNotes": [
-    "틀리다 — Incoming airlock의 설명이다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "틀리다 — Occluded surface (가려진 표면)의 설명이다.",
-    "틀리다 — Pressure decay test의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.4",
-   "concepts": [
-    "Outgoing airlock"
-   ],
-   "tags": [
-    "용어",
-    "Outgoing airlock"
-   ]
-  },
-  {
-   "id": "tg03r-008",
-   "type": "용어",
-   "part": 1,
-   "question": "「Preparation (VHP 1단계)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-    "검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가."
-   ],
-   "answer": 3,
-   "explanation": "**Preparation (VHP 1단계)** — 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
-   "choiceNotes": [
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — Aeration (VHP 4단계)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — PRQ (Periodic Requalification)의 설명이다.",
-    "틀리다 — IQ (Installation Qualification)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.7",
-   "concepts": [
-    "Preparation"
-   ],
-   "tags": [
-    "용어",
-    "Preparation"
-   ]
-  },
-  {
-   "id": "tg03r-009",
-   "type": "용어",
-   "part": 1,
-   "question": "「Conditioning (VHP 2단계)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-    "제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식."
-   ],
-   "answer": 4,
-   "explanation": "**Conditioning (VHP 2단계)** — H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-   "choiceNotes": [
-    "틀리다 — Decontamination (VHP 3단계)의 설명이다.",
-    "틀리다 — Aeration (VHP 4단계)의 설명이다.",
-    "틀리다 — Load pattern (적재 패턴)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Steam sterilization (스팀 멸균)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.7",
-   "concepts": [
-    "Conditioning"
-   ],
-   "tags": [
-    "용어",
-    "Conditioning"
-   ]
-  },
-  {
-   "id": "tg03r-010",
-   "type": "용어",
-   "part": 1,
-   "question": "「Decontamination (VHP 3단계)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
-   ],
-   "answer": 1,
-   "explanation": "**Decontamination (VHP 3단계)** — 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — Aeration (VHP 4단계)의 설명이다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "틀리다 — CI (Chemical Indicator)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.7",
-   "concepts": [
-    "Decontamination"
-   ],
-   "tags": [
-    "용어",
-    "Decontamination"
-   ]
-  },
-  {
-   "id": "tg03r-011",
-   "type": "용어",
-   "part": 1,
-   "question": "「Aeration (VHP 4단계)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
-    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계."
-   ],
-   "answer": 2,
-   "explanation": "**Aeration (VHP 4단계)** — H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
-   "choiceNotes": [
-    "틀리다 — Decontamination (VHP 3단계)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — OQ (Operational Qualification)의 설명이다.",
-    "틀리다 — Cycle development (CD)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.7, p.17",
-   "concepts": [
-    "Aeration"
-   ],
-   "tags": [
-    "용어",
-    "Aeration"
-   ]
-  },
-  {
-   "id": "tg03r-015",
-   "type": "용어",
-   "part": 1,
-   "question": "「Hydroxyl radical (·OH)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
-    "미생물을 줄이는 수준(약 3 log 감소)의 처리.",
-    "제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
-    "미생물을 6 log 이상 줄이는 수준의 처리."
-   ],
-   "answer": 1,
-   "explanation": "**Hydroxyl radical (·OH)** — H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 아포 (Spore)의 설명이다.",
-    "틀리다 — Disinfection (소독)의 설명이다.",
-    "틀리다 — Load pattern (적재 패턴)의 설명이다.",
-    "틀리다 — Sterilization (멸균)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.8",
-   "concepts": [
-    "Hydroxyl radical"
-   ],
-   "tags": [
-    "용어",
-    "Hydroxyl radical"
-   ]
-  },
-  {
-   "id": "tg03r-016",
-   "type": "용어",
-   "part": 1,
-   "question": "「아포 (Spore)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "실제 무균 작업이 이루어지는 Grade A 작업 공간.",
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-    "외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
-    "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가."
-   ],
-   "answer": 4,
-   "explanation": "**아포 (Spore)** — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
-   "choiceNotes": [
-    "틀리다 — Hydroxyl radical (·OH)의 설명이다.",
-    "틀리다 — Main chamber의 설명이다.",
-    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — MBQ (Microbiological Qualification, PQ)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.8",
-   "concepts": [
-    "아포"
-   ],
-   "tags": [
-    "용어",
-    "아포"
-   ]
-  },
-  {
-   "id": "tg03r-017",
-   "type": "용어",
-   "part": 1,
-   "question": "「Occluded surface (가려진 표면)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
-    "들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
-   ],
-   "answer": 3,
-   "explanation": "**Occluded surface (가려진 표면)** — 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-   "choiceNotes": [
-    "틀리다 — Load pattern (적재 패턴)의 설명이다.",
-    "틀리다 — Incoming airlock의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "틀리다 — CI (Chemical Indicator)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.8–9",
-   "concepts": [
-    "Occluded surface"
-   ],
-   "tags": [
-    "용어",
-    "Occluded surface"
-   ]
-  },
-  {
-   "id": "tg03r-018",
-   "type": "용어",
-   "part": 1,
-   "question": "「Load pattern (적재 패턴)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-    "외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
-    "들어오는 자재를 제염하고 대기시키는 완충 공간.",
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것."
-   ],
-   "answer": 5,
-   "explanation": "**Load pattern (적재 패턴)** — 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
-   "choiceNotes": [
-    "틀리다 — Occluded surface (가려진 표면)의 설명이다.",
-    "틀리다 — 아포 (Spore)의 설명이다.",
-    "틀리다 — Incoming airlock의 설명이다.",
-    "틀리다 — PRQ (Periodic Requalification)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.11",
-   "concepts": [
-    "Load pattern"
-   ],
-   "tags": [
-    "용어",
-    "Load pattern"
    ]
   },
   {
@@ -1612,19 +832,19 @@
    "question": "「CI (Chemical Indicator)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
     "미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
     "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것."
+    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
+    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**CI (Chemical Indicator)** — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
    "choiceNotes": [
     "틀리다 — SLR (Spore Log Reduction)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — D-value의 설명이다.",
     "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — GDP (Good Documentation Practice)의 설명이다."
+    "틀리다 — GDP (Good Documentation Practice)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "03 Isolator & Qualification PDF p.12, p.14",
    "concepts": [
@@ -1641,18 +861,18 @@
    "part": 1,
    "question": "「EI (Enzyme Indicator)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
     "미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
     "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
     "벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
     "다 쓴 자재와 폐기물을 내보내는 구간."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**EI (Enzyme Indicator)** — 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — D-value의 설명이다.",
     "틀리다 — Population (BI 포자 수)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — 구조적 차단 (Isolator 원리)의 설명이다.",
     "틀리다 — Outgoing airlock의 설명이다."
    ],
@@ -1666,84 +886,24 @@
    ]
   },
   {
-   "id": "tg03r-026",
-   "type": "용어",
-   "part": 1,
-   "question": "「Population (BI 포자 수)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
-    "다 쓴 자재와 폐기물을 내보내는 구간.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)."
-   ],
-   "answer": 5,
-   "explanation": "**Population (BI 포자 수)** — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-   "choiceNotes": [
-    "틀리다 — SLR (Spore Log Reduction)의 설명이다.",
-    "틀리다 — EI (Enzyme Indicator)의 설명이다.",
-    "틀리다 — Outgoing airlock의 설명이다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.12, p.14",
-   "concepts": [
-    "Population"
-   ],
-   "tags": [
-    "용어",
-    "Population"
-   ]
-  },
-  {
-   "id": "tg03r-027",
-   "type": "용어",
-   "part": 1,
-   "question": "「D-value」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가."
-   ],
-   "answer": 4,
-   "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-   "choiceNotes": [
-    "틀리다 — Population (BI 포자 수)의 설명이다.",
-    "틀리다 — BI (Biological Indicator)의 설명이다.",
-    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — MBQ (Microbiological Qualification, PQ)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.12",
-   "concepts": [
-    "D-value"
-   ],
-   "tags": [
-    "용어",
-    "D-value"
-   ]
-  },
-  {
    "id": "tg03r-028",
    "type": "용어",
    "part": 1,
    "question": "「SLR (Spore Log Reduction)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
     "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
     "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
+    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
     "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Population (BI 포자 수)의 설명이다.",
     "틀리다 — CI (Chemical Indicator)의 설명이다.",
     "틀리다 — Cycle development (CD)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — OQ (Operational Qualification)의 설명이다."
    ],
    "source": "03 Isolator & Qualification PDF p.14",
@@ -1756,85 +916,25 @@
    ]
   },
   {
-   "id": "tg03r-030",
-   "type": "용어",
-   "part": 1,
-   "question": "「Total kill time」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "모든 BI가 죽는 최소 주입량과 노출 시간.",
-    "H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "글러브를 당겨 손상을 눈으로 확인하는 점검.",
-    "증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계."
-   ],
-   "answer": 1,
-   "explanation": "**Total kill time** — 모든 BI가 죽는 최소 주입량과 노출 시간.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Conditioning (VHP 2단계)의 설명이다.",
-    "틀리다 — Glove visual inspection의 설명이다.",
-    "틀리다 — Steam sterilization (스팀 멸균)의 설명이다.",
-    "틀리다 — Cycle development (CD)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.10, p.14",
-   "concepts": [
-    "Total kill time"
-   ],
-   "tags": [
-    "용어",
-    "Total kill time"
-   ]
-  },
-  {
-   "id": "tg03r-034",
-   "type": "용어",
-   "part": 1,
-   "question": "「Cycle development (CD)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험."
-   ],
-   "answer": 4,
-   "explanation": "**Cycle development (CD)** — 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-   "choiceNotes": [
-    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
-    "틀리다 — PRQ (Periodic Requalification)의 설명이다.",
-    "틀리다 — CI (Chemical Indicator)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Pressure decay test의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.10, p.13",
-   "concepts": [
-    "Cycle development"
-   ],
-   "tags": [
-    "용어",
-    "Cycle development"
-   ]
-  },
-  {
    "id": "tg03r-035",
    "type": "용어",
    "part": 1,
    "question": "「URS / DQ (아이솔레이터)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
+    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
     "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
     "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계."
+    "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼."
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**URS / DQ (아이솔레이터)** — 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
    "choiceNotes": [
     "틀리다 — Cycle development (CD)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — MBQ (Microbiological Qualification, PQ)의 설명이다.",
     "틀리다 — SLR (Spore Log Reduction)의 설명이다.",
-    "틀리다 — Hydroxyl radical (·OH)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Hydroxyl radical (·OH)의 설명이다."
    ],
    "source": "03 Isolator & Qualification PDF p.13",
    "concepts": [
@@ -1881,17 +981,17 @@
    "part": 1,
    "question": "「OQ (Operational Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
     "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
+    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
     "포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
     "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**OQ (Operational Qualification)** — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
    "choiceNotes": [
-    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
     "틀리다 — Cycle development (CD)의 설명이다.",
     "틀리다 — Occluded surface (가려진 표면)의 설명이다.",
     "틀리다 — EI (Enzyme Indicator)의 설명이다."
@@ -1912,17 +1012,17 @@
    "question": "「MBQ (Microbiological Qualification, PQ)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
-    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
     "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
     "검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
     "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**MBQ (Microbiological Qualification, PQ)** — worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.",
    "choiceNotes": [
     "틀리다 — IQ (Installation Qualification)의 설명이다.",
-    "틀리다 — OQ (Operational Qualification)의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — OQ (Operational Qualification)의 설명이다.",
     "틀리다 — Preparation (VHP 1단계)의 설명이다.",
     "틀리다 — Aeration (VHP 4단계)의 설명이다."
    ],
@@ -1941,20 +1041,20 @@
    "part": 1,
    "question": "「PRQ (Periodic Requalification)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
     "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
     "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)."
+    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계."
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**PRQ (Periodic Requalification)** — 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Cycle development (CD)의 설명이다.",
     "틀리다 — IQ (Installation Qualification)의 설명이다.",
     "틀리다 — CI (Chemical Indicator)의 설명이다.",
-    "틀리다 — Population (BI 포자 수)의 설명이다."
+    "틀리다 — Population (BI 포자 수)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "03 Isolator & Qualification PDF p.13",
    "concepts": [
@@ -1966,173 +1066,23 @@
    ]
   },
   {
-   "id": "tg03r-043",
-   "type": "용어",
-   "part": 1,
-   "question": "「Glove visual inspection」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
-    "챔버와 글러브가 새지 않는 상태.",
-    "글러브를 당겨 손상을 눈으로 확인하는 점검.",
-    "들어오는 자재를 제염하고 대기시키는 완충 공간."
-   ],
-   "answer": 4,
-   "explanation": "**Glove visual inspection** — 글러브를 당겨 손상을 눈으로 확인하는 점검.",
-   "choiceNotes": [
-    "틀리다 — Pressure decay test의 설명이다.",
-    "틀리다 — Cycle development (CD)의 설명이다.",
-    "틀리다 — Leak integrity (기밀성)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Incoming airlock의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.16",
-   "concepts": [
-    "Glove visual inspection"
-   ],
-   "tags": [
-    "용어",
-    "Glove visual inspection"
-   ]
-  },
-  {
-   "id": "tg03r-044",
-   "type": "용어",
-   "part": 1,
-   "question": "「Pressure decay test」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "글러브를 당겨 손상을 눈으로 확인하는 점검.",
-    "글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계."
-   ],
-   "answer": 2,
-   "explanation": "**Pressure decay test** — 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
-   "choiceNotes": [
-    "틀리다 — Glove visual inspection의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
-    "틀리다 — D-value의 설명이다.",
-    "틀리다 — Cycle development (CD)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification PDF p.16",
-   "concepts": [
-    "Pressure decay test"
-   ],
-   "tags": [
-    "용어",
-    "Pressure decay test"
-   ]
-  },
-  {
-   "id": "tg03r-049",
-   "type": "용어",
-   "part": 1,
-   "question": "「Disinfection (소독)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "미생물을 6 log 이상 줄이는 수준의 처리.",
-    "모든 BI가 죽는 최소 주입량과 노출 시간.",
-    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "미생물을 줄이는 수준(약 3 log 감소)의 처리."
-   ],
-   "answer": 5,
-   "explanation": "**Disinfection (소독)** — 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
-   "choiceNotes": [
-    "틀리다 — Steam sterilization (스팀 멸균)의 설명이다.",
-    "틀리다 — Sterilization (멸균)의 설명이다.",
-    "틀리다 — Total kill time의 설명이다.",
-    "틀리다 — CI (Chemical Indicator)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "03 Isolator & Qualification 강의 녹음 17:56–18:14",
-   "concepts": [
-    "Disinfection"
-   ],
-   "tags": [
-    "용어",
-    "Disinfection"
-   ]
-  },
-  {
-   "id": "tg03r-050",
-   "type": "용어",
-   "part": 1,
-   "question": "「Sterilization (멸균)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "미생물을 줄이는 수준(약 3 log 감소)의 처리.",
-    "미생물을 6 log 이상 줄이는 수준의 처리.",
-    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.",
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)."
-   ],
-   "answer": 3,
-   "explanation": "**Sterilization (멸균)** — 미생물을 6 log 이상 줄이는 수준의 처리.",
-   "choiceNotes": [
-    "틀리다 — Steam sterilization (스팀 멸균)의 설명이다.",
-    "틀리다 — Disinfection (소독)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — PRQ (Periodic Requalification)의 설명이다.",
-    "틀리다 — SLR (Spore Log Reduction)의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification 강의 녹음 12:55–13:18, 17:56–18:14",
-   "concepts": [
-    "Sterilization"
-   ],
-   "tags": [
-    "용어",
-    "Sterilization"
-   ]
-  },
-  {
-   "id": "tg03r-051",
-   "type": "용어",
-   "part": 1,
-   "question": "「Steam sterilization (스팀 멸균)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "미생물을 6 log 이상 줄이는 수준의 처리.",
-    "미생물을 줄이는 수준(약 3 log 감소)의 처리.",
-    "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-    "글러브를 당겨 손상을 눈으로 확인하는 점검."
-   ],
-   "answer": 4,
-   "explanation": "**Steam sterilization (스팀 멸균)** — 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.",
-   "choiceNotes": [
-    "틀리다 — Sterilization (멸균)의 설명이다.",
-    "틀리다 — Disinfection (소독)의 설명이다.",
-    "틀리다 — Hydroxyl radical (·OH)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Glove visual inspection의 설명이다."
-   ],
-   "source": "03 Isolator & Qualification 강의 녹음 17:38–19:57",
-   "concepts": [
-    "Steam sterilization"
-   ],
-   "tags": [
-    "용어",
-    "Steam sterilization"
-   ]
-  },
-  {
    "id": "tg03r-056",
    "type": "용어",
    "part": 1,
    "question": "「GDP (Good Documentation Practice)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
     "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
     "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
+    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
     "챔버와 글러브가 새지 않는 상태.",
     "실제 무균 작업이 이루어지는 Grade A 작업 공간."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**GDP (Good Documentation Practice)** — 모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — IQ (Installation Qualification)의 설명이다.",
     "틀리다 — Decontamination (VHP 3단계)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Leak integrity (기밀성)의 설명이다.",
     "틀리다 — Main chamber의 설명이다."
    ],
@@ -2158,18 +1108,18 @@
    ],
    "choices": [
     "(가)-A  (나)-C  (다)-B  (라)-D",
-    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **구조적 차단 (Isolator 원리)** → C. 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.\n(나) **확률적 관리 (Clean room 방식)** → A. 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.\n(다) **Leak integrity (기밀성)** → B. 챔버와 글러브가 새지 않는 상태.\n(라) **압력 계위 (Pressure cascade)** → D. 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
    "choiceNotes": [
     "틀리다 — (가) 구조적 차단의 설명은 C, (나) 확률적 관리의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Leak integrity의 설명은 B, (라) 압력 계위의 설명은 D",
     "틀리다 — (가) 구조적 차단의 설명은 C, (다) Leak integrity의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) 구조적 차단의 설명은 C, (나) 확률적 관리의 설명은 A, (다) Leak integrity의 설명은 B, (라) 압력 계위의 설명은 D"
    ],
    "source": "03 Isolator & Qualification PDF p.3 · 03 Isolator & Qualification PDF p.4",
@@ -2198,18 +1148,18 @@
    "choices": [
     "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-B  (나)-D  (다)-A  (라)-C",
-    "(가)-D  (나)-A  (다)-C  (라)-B",
-    "(가)-A  (나)-D  (다)-B  (라)-C"
+    "(가)-D  (나)-A  (다)-C  (라)-B"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **압력 계위 (Pressure cascade)** → A. 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.\n(나) **Main chamber** → D. 실제 무균 작업이 이루어지는 Grade A 작업 공간.\n(다) **Incoming airlock** → B. 들어오는 자재를 제염하고 대기시키는 완충 공간.\n(라) **Outgoing airlock** → C. 다 쓴 자재와 폐기물을 내보내는 구간.",
    "choiceNotes": [
     "틀리다 — (나) Main chamber의 설명은 D, (다) Incoming airlock의 설명은 B",
     "틀리다 — (가) 압력 계위의 설명은 A, (라) Outgoing airlock의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) 압력 계위의 설명은 A, (다) Incoming airlock의 설명은 B",
-    "틀리다 — (가) 압력 계위의 설명은 A, (나) Main chamber의 설명은 D, (다) Incoming airlock의 설명은 B, (라) Outgoing airlock의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) 압력 계위의 설명은 A, (나) Main chamber의 설명은 D, (다) Incoming airlock의 설명은 B, (라) Outgoing airlock의 설명은 C"
    ],
    "source": "03 Isolator & Qualification PDF p.4",
    "concepts": [
@@ -2236,19 +1186,19 @@
    ],
    "choices": [
     "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-B  (나)-D  (다)-C  (라)-A",
-    "(가)-A  (나)-B  (다)-D  (라)-C",
-    "(가)-B  (나)-A  (다)-C  (라)-D"
+    "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Preparation (VHP 1단계)** → B. 검증된 조건으로 제염을 준비하는 VHP 첫 단계.\n(나) **Conditioning (VHP 2단계)** → A. H₂O₂를 넣어 목표 농도까지 올리는 단계.\n(다) **Decontamination (VHP 3단계)** → C. 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.\n(라) **Aeration (VHP 4단계)** → D. H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
    "choiceNotes": [
     "틀리다 — (가) Preparation의 설명은 B, (나) Conditioning의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Conditioning의 설명은 A, (다) Decontamination의 설명은 C",
     "틀리다 — (나) Conditioning의 설명은 A, (라) Aeration의 설명은 D",
-    "틀리다 — (가) Preparation의 설명은 B, (나) Conditioning의 설명은 A, (다) Decontamination의 설명은 C, (라) Aeration의 설명은 D",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Preparation의 설명은 B, (나) Conditioning의 설명은 A, (다) Decontamination의 설명은 C, (라) Aeration의 설명은 D"
    ],
    "source": "03 Isolator & Qualification PDF p.7 · 03 Isolator & Qualification PDF p.7, p.17",
    "concepts": [
@@ -2277,17 +1227,17 @@
     "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-A  (나)-C  (다)-D  (라)-B",
-    "(가)-B  (나)-C  (다)-D  (라)-A",
-    "(가)-C  (나)-B  (다)-A  (라)-D"
+    "(가)-C  (나)-B  (다)-A  (라)-D",
+    "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **Hydroxyl radical (·OH)** → B. H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.\n(나) **아포 (Spore)** → C. 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.\n(다) **Occluded surface (가려진 표면)** → D. 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.\n(라) **Load pattern (적재 패턴)** → A. 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
    "choiceNotes": [
     "틀리다 — (가) Hydroxyl radical의 설명은 B, (다) Occluded surface의 설명은 D",
     "틀리다 — (다) Occluded surface의 설명은 D, (라) Load pattern의 설명은 A",
     "틀리다 — (가) Hydroxyl radical의 설명은 B, (라) Load pattern의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
-    "틀리다 — (가) Hydroxyl radical의 설명은 B, (나) 아포의 설명은 C, (다) Occluded surface의 설명은 D, (라) Load pattern의 설명은 A"
+    "틀리다 — (가) Hydroxyl radical의 설명은 B, (나) 아포의 설명은 C, (다) Occluded surface의 설명은 D, (라) Load pattern의 설명은 A",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "03 Isolator & Qualification PDF p.8 · 03 Isolator & Qualification PDF p.8–9 · 03 Isolator & Qualification PDF p.11",
    "concepts": [
@@ -2314,18 +1264,18 @@
    ],
    "choices": [
     "(가)-D  (나)-A  (다)-C  (라)-B",
-    "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-C  (나)-A  (다)-B  (라)-D",
+    "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-A  (나)-D  (다)-C  (라)-B"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Occluded surface (가려진 표면)** → D. 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.\n(나) **Load pattern (적재 패턴)** → A. 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.\n(다) **BI (Biological Indicator)** → B. 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n(라) **CI (Chemical Indicator)** → C. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
    "choiceNotes": [
     "틀리다 — (다) BI의 설명은 B, (라) CI의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Occluded surface의 설명은 D, (다) BI의 설명은 B",
     "틀리다 — (가) Occluded surface의 설명은 D, (라) CI의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Occluded surface의 설명은 D, (나) Load pattern의 설명은 A, (다) BI의 설명은 B, (라) CI의 설명은 C"
    ],
    "source": "03 Isolator & Qualification PDF p.8–9 · 03 Isolator & Qualification PDF p.11 · 03 Isolator & Qualification PDF p.12, p.14",
@@ -2393,18 +1343,18 @@
    "choices": [
     "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-B  (나)-C  (다)-A  (라)-D",
-    "(가)-B  (나)-C  (다)-D  (라)-A"
+    "(가)-B  (나)-C  (다)-D  (라)-A",
+    "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **D-value** → C. 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.\n(나) **SLR (Spore Log Reduction)** → B. 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).\n(다) **Total kill time** → A. 모든 BI가 죽는 최소 주입량과 노출 시간.\n(라) **Cycle development (CD)** → D. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
    "choiceNotes": [
     "틀리다 — (가) D-value의 설명은 C, (다) Total kill time의 설명은 A",
     "틀리다 — (나) SLR의 설명은 B, (다) Total kill time의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) D-value의 설명은 C, (나) SLR의 설명은 B",
-    "틀리다 — (가) D-value의 설명은 C, (나) SLR의 설명은 B, (다) Total kill time의 설명은 A, (라) Cycle development의 설명은 D"
+    "틀리다 — (가) D-value의 설명은 C, (나) SLR의 설명은 B, (다) Total kill time의 설명은 A, (라) Cycle development의 설명은 D",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "03 Isolator & Qualification PDF p.12 · 03 Isolator & Qualification PDF p.14 · 03 Isolator & Qualification PDF p.10, p.14 · 03 Isolator & Qualification PDF p.10, p.13",
    "concepts": [
@@ -2430,18 +1380,18 @@
     "D. 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계."
    ],
    "choices": [
-    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-D  (다)-B  (라)-A",
     "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **Total kill time** → C. 모든 BI가 죽는 최소 주입량과 노출 시간.\n(나) **Cycle development (CD)** → B. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.\n(다) **URS / DQ (아이솔레이터)** → D. 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.\n(라) **IQ (Installation Qualification)** → A. 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Cycle development의 설명은 B, (다) URS / DQ의 설명은 D",
     "틀리다 — (가) Total kill time의 설명은 C, (다) URS / DQ의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Cycle development의 설명은 B, (라) IQ의 설명은 A",
     "틀리다 — (가) Total kill time의 설명은 C, (나) Cycle development의 설명은 B, (다) URS / DQ의 설명은 D, (라) IQ의 설명은 A"
    ],
@@ -2471,17 +1421,17 @@
    "choices": [
     "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-A  (나)-B  (다)-C  (라)-D",
-    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-B  (나)-C  (다)-A  (라)-D",
+    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Cycle development (CD)** → C. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.\n(나) **URS / DQ (아이솔레이터)** → B. 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.\n(다) **IQ (Installation Qualification)** → A. 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.\n(라) **OQ (Operational Qualification)** → D. 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
    "choiceNotes": [
     "틀리다 — (가) Cycle development의 설명은 C, (라) OQ의 설명은 D",
     "틀리다 — (가) Cycle development의 설명은 C, (다) IQ의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Cycle development의 설명은 C, (나) URS / DQ의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Cycle development의 설명은 C, (나) URS / DQ의 설명은 B, (다) IQ의 설명은 A, (라) OQ의 설명은 D"
    ],
    "source": "03 Isolator & Qualification PDF p.10, p.13 · 03 Isolator & Qualification PDF p.13",
@@ -2508,20 +1458,20 @@
     "D. worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가."
    ],
    "choices": [
+    "(가)-D  (나)-C  (다)-A  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-C  (나)-D  (다)-A  (라)-B",
-    "(가)-C  (나)-D  (다)-B  (라)-A",
-    "(가)-D  (나)-C  (다)-A  (라)-B"
+    "(가)-C  (나)-D  (다)-B  (라)-A"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **MBQ (Microbiological Qualification, PQ)** → D. worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가.\n(나) **PRQ (Periodic Requalification)** → C. 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계.\n(다) **Glove visual inspection** → A. 글러브를 당겨 손상을 눈으로 확인하는 점검.\n(라) **Pressure decay test** → B. 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) PRQ의 설명은 C, (다) Glove visual inspection의 설명은 A",
     "틀리다 — (나) PRQ의 설명은 C, (라) Pressure decay test의 설명은 B",
     "틀리다 — (가) MBQ의 설명은 D, (나) PRQ의 설명은 C",
-    "틀리다 — (가) MBQ의 설명은 D, (나) PRQ의 설명은 C, (다) Glove visual inspection의 설명은 A, (라) Pressure decay test의 설명은 B",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) MBQ의 설명은 D, (나) PRQ의 설명은 C, (다) Glove visual inspection의 설명은 A, (라) Pressure decay test의 설명은 B"
    ],
    "source": "03 Isolator & Qualification PDF p.13 · 03 Isolator & Qualification PDF p.16",
    "concepts": [
@@ -2548,18 +1498,18 @@
    ],
    "choices": [
     "(가)-C  (나)-B  (다)-D  (라)-A",
+    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-A  (나)-B  (다)-C  (라)-D",
-    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Glove visual inspection** → C. 글러브를 당겨 손상을 눈으로 확인하는 점검.\n(나) **Pressure decay test** → B. 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.\n(다) **Cycle development (CD)** → A. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.\n(라) **URS / DQ (아이솔레이터)** → D. 설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계.",
    "choiceNotes": [
     "틀리다 — (다) Cycle development의 설명은 A, (라) URS / DQ의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Pressure decay test의 설명은 B, (라) URS / DQ의 설명은 D",
     "틀리다 — (가) Glove visual inspection의 설명은 C, (다) Cycle development의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Glove visual inspection의 설명은 C, (나) Pressure decay test의 설명은 B, (다) Cycle development의 설명은 A, (라) URS / DQ의 설명은 D"
    ],
    "source": "03 Isolator & Qualification PDF p.16 · 03 Isolator & Qualification PDF p.10, p.13 · 03 Isolator & Qualification PDF p.13",
@@ -2586,17 +1536,17 @@
     "D. 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식."
    ],
    "choices": [
-    "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-A  (다)-D  (라)-C",
+    "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-A  (나)-B  (다)-C  (라)-D"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Disinfection (소독)** → B. 미생물을 줄이는 수준(약 3 log 감소)의 처리.\n(나) **Sterilization (멸균)** → A. 미생물을 6 log 이상 줄이는 수준의 처리.\n(다) **Steam sterilization (스팀 멸균)** → D. 증기가 물건 안쪽·튜브 속까지 스며들어 멸균하는 방식.\n(라) **GDP (Good Documentation Practice)** → C. 모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.",
    "choiceNotes": [
-    "틀리다 — (나) Sterilization의 설명은 A, (다) Steam sterilization의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) Sterilization의 설명은 A, (다) Steam sterilization의 설명은 D",
     "틀리다 — (가) Disinfection의 설명은 B, (나) Sterilization의 설명은 A",
     "틀리다 — (나) Sterilization의 설명은 A, (라) GDP의 설명은 C",
     "틀리다 — (가) Disinfection의 설명은 B, (나) Sterilization의 설명은 A, (다) Steam sterilization의 설명은 D, (라) GDP의 설명은 C"
@@ -2627,17 +1577,17 @@
    "choices": [
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-B  (나)-A  (다)-C  (라)-D",
-    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **GDP (Good Documentation Practice)** → B. 모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것.\n(나) **구조적 차단 (Isolator 원리)** → D. 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.\n(다) **확률적 관리 (Clean room 방식)** → C. 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.\n(라) **Leak integrity (기밀성)** → A. 챔버와 글러브가 새지 않는 상태.",
    "choiceNotes": [
     "틀리다 — (나) 구조적 차단의 설명은 D, (다) 확률적 관리의 설명은 C",
     "틀리다 — (나) 구조적 차단의 설명은 D, (라) Leak integrity의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) GDP의 설명은 B, (나) 구조적 차단의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) GDP의 설명은 B, (나) 구조적 차단의 설명은 D, (다) 확률적 관리의 설명은 C, (라) Leak integrity의 설명은 A"
    ],
    "source": "03 Isolator & Qualification 강의 녹음 27:52–28:06 · 03 Isolator & Qualification PDF p.3",

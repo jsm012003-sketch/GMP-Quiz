@@ -136,138 +136,6 @@
    ]
   },
   {
-   "id": "tw06d-005",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing."
-   ],
-   "choices": [
-    "CEX (양이온 교환 크로마토그래피)",
-    "Low pH viral inactivation",
-    "Virus filtration (nanofiltration)",
-    "Orthogonal (직교) 전략",
-    "Platform process"
-   ],
-   "answer": 1,
-   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-   "choiceNotes": [
-    "정답 — 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름."
-   ],
-   "source": "WK06 PDF p.5, p.18",
-   "concepts": [
-    "CEX"
-   ],
-   "tags": [
-    "용어",
-    "CEX"
-   ]
-  },
-  {
-   "id": "tw06d-006",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
-   ],
-   "choices": [
-    "CEX (양이온 교환 크로마토그래피)",
-    "UF/DF (한외여과/정용여과)",
-    "Aggregate (응집체)",
-    "AEX (음이온 교환 크로마토그래피)",
-    "Viral clearance (바이러스 제거능)"
-   ],
-   "answer": 4,
-   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-   "choiceNotes": [
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "틀리다 — Aggregate (응집체): 단백질끼리 뭉친 불순물(면역원성 위험).",
-    "정답 — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력."
-   ],
-   "source": "WK06 PDF p.5, p.18",
-   "concepts": [
-    "AEX"
-   ],
-   "tags": [
-    "용어",
-    "AEX"
-   ]
-  },
-  {
-   "id": "tw06d-007",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피."
-   ],
-   "choices": [
-    "Clarification (청징)",
-    "Multi-modal chromatography",
-    "HIC (소수성 상호작용 크로마토그래피)",
-    "Orthogonal (직교) 전략",
-    "Virus spiking study (바이러스 제거 검증)"
-   ],
-   "answer": 3,
-   "explanation": "**HIC (소수성 상호작용 크로마토그래피)** — 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
-   "choiceNotes": [
-    "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "정답 — 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험."
-   ],
-   "source": "WK06 PDF p.3, p.6",
-   "concepts": [
-    "HIC"
-   ],
-   "tags": [
-    "용어",
-    "HIC"
-   ]
-  },
-  {
-   "id": "tw06d-008",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
-   ],
-   "choices": [
-    "UF/DF (한외여과/정용여과)",
-    "SEC (크기 배제 크로마토그래피)",
-    "Depth filtration",
-    "Virus spiking study (바이러스 제거 검증)",
-    "ICH Q5A (R1)"
-   ],
-   "answer": 2,
-   "explanation": "**SEC (크기 배제 크로마토그래피)** — 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
-   "choiceNotes": [
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "정답 — 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "틀리다 — ICH Q5A (R1): 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인."
-   ],
-   "source": "WK06 PDF p.6, p.7",
-   "concepts": [
-    "SEC"
-   ],
-   "tags": [
-    "용어",
-    "SEC"
-   ]
-  },
-  {
    "id": "tw06d-009",
    "type": "용어",
    "part": 1,
@@ -276,20 +144,20 @@
     "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피."
    ],
    "choices": [
+    "Multi-modal chromatography",
     "Low pH viral inactivation",
     "Clarification (청징)",
     "Enveloped virus (외피 바이러스)",
-    "Orthogonal (직교) 전략",
-    "Multi-modal chromatography"
+    "Orthogonal (직교) 전략"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**Multi-modal chromatography** — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
    "choiceNotes": [
+    "정답 — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
     "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정답 — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피."
+    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
    "source": "WK06 PDF p.18 (Two-column platform)",
    "concepts": [
@@ -309,19 +177,19 @@
     "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "choices": [
-    "Virus filtration (nanofiltration)",
     "Clarification (청징)",
     "CEX (양이온 교환 크로마토그래피)",
     "Viral clearance (바이러스 제거능)",
+    "Virus filtration (nanofiltration)",
     "Platform process"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
    "choiceNotes": [
-    "정답 — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
+    "정답 — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
     "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름."
    ],
    "source": "WK06 PDF p.11, p.15–16",
@@ -331,39 +199,6 @@
    "tags": [
     "용어",
     "Virus filtration"
-   ]
-  },
-  {
-   "id": "tw06d-012",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계."
-   ],
-   "choices": [
-    "CEX (양이온 교환 크로마토그래피)",
-    "UF/DF (한외여과/정용여과)",
-    "Protein A chromatography",
-    "Orthogonal (직교) 전략",
-    "PW (Purified Water, 정제수)"
-   ],
-   "answer": 2,
-   "explanation": "**UF/DF (한외여과/정용여과)** — 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-   "choiceNotes": [
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "정답 — 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "틀리다 — Protein A chromatography: 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
-   ],
-   "source": "WK06 PDF p.5, p.18, p.31",
-   "concepts": [
-    "UF/DF"
-   ],
-   "tags": [
-    "용어",
-    "UF/DF"
    ]
   },
   {
@@ -377,18 +212,18 @@
    "choices": [
     "Orthogonal (직교) 전략",
     "UF/DF (한외여과/정용여과)",
+    "Retentate",
     "Enveloped virus (외피 바이러스)",
-    "HIC (소수성 상호작용 크로마토그래피)",
-    "Retentate"
+    "HIC (소수성 상호작용 크로마토그래피)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Retentate** — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "choiceNotes": [
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
+    "정답 — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "정답 — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질)."
+    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.31",
    "concepts": [
@@ -397,39 +232,6 @@
    "tags": [
     "용어",
     "Retentate"
-   ]
-  },
-  {
-   "id": "tw06d-017",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "생산 세포에서 나온 단백질 불순물."
-   ],
-   "choices": [
-    "Aggregate (응집체)",
-    "Enveloped virus (외피 바이러스)",
-    "DBC (Dynamic Binding Capacity)",
-    "HCP (Host Cell Protein)",
-    "PW (Purified Water, 정제수)"
-   ],
-   "answer": 4,
-   "explanation": "**HCP (Host Cell Protein)** — 생산 세포에서 나온 단백질 불순물.",
-   "choiceNotes": [
-    "틀리다 — Aggregate (응집체): 단백질끼리 뭉친 불순물(면역원성 위험).",
-    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "정답 — 생산 세포에서 나온 단백질 불순물.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
-   ],
-   "source": "WK06 PDF p.5",
-   "concepts": [
-    "HCP"
-   ],
-   "tags": [
-    "용어",
-    "HCP"
    ]
   },
   {
@@ -442,17 +244,17 @@
    ],
    "choices": [
     "HCP (Host Cell Protein)",
-    "Non-enveloped virus (비외피 바이러스)",
     "Aggregate (응집체)",
+    "Non-enveloped virus (비외피 바이러스)",
     "Low pH viral inactivation",
     "SEC (크기 배제 크로마토그래피)"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Aggregate (응집체)** — 단백질끼리 뭉친 불순물(면역원성 위험).",
    "choiceNotes": [
     "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "정답 — 단백질끼리 뭉친 불순물(면역원성 위험).",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
@@ -463,39 +265,6 @@
    "tags": [
     "용어",
     "Aggregate"
-   ]
-  },
-  {
-   "id": "tw06d-019",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
-   ],
-   "choices": [
-    "DBC (Dynamic Binding Capacity)",
-    "Platform process",
-    "Model virus (모델 바이러스)",
-    "Depth filtration",
-    "CEX (양이온 교환 크로마토그래피)"
-   ],
-   "answer": 1,
-   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-   "choiceNotes": [
-    "정답 — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
-    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing."
-   ],
-   "source": "WK06 PDF p.20",
-   "concepts": [
-    "DBC"
-   ],
-   "tags": [
-    "용어",
-    "DBC"
    ]
   },
   {
@@ -540,19 +309,19 @@
     "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법."
    ],
    "choices": [
+    "S&D (Solvent/Detergent)",
     "Viral clearance (바이러스 제거능)",
     "Orthogonal (직교) 전략",
     "UF/DF (한외여과/정용여과)",
-    "S&D (Solvent/Detergent)",
     "HCP (Host Cell Protein)"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
    "choiceNotes": [
+    "정답 — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "정답 — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
     "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물."
    ],
    "source": "WK06 PDF p.11",
@@ -573,17 +342,17 @@
     "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
    "choices": [
-    "Orthogonal (직교) 전략",
     "S&D (Solvent/Detergent)",
+    "Orthogonal (직교) 전략",
     "Virus spiking study (바이러스 제거 검증)",
     "PW (Purified Water, 정제수)",
     "DBC (Dynamic Binding Capacity)"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Orthogonal (직교) 전략** — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
    "choiceNotes": [
-    "정답 — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
+    "정답 — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
     "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
     "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
@@ -607,19 +376,19 @@
    ],
    "choices": [
     "Orthogonal (직교) 전략",
-    "Viral clearance (바이러스 제거능)",
     "S&D (Solvent/Detergent)",
     "Multi-modal chromatography",
-    "AEX (음이온 교환 크로마토그래피)"
+    "AEX (음이온 교환 크로마토그래피)",
+    "Viral clearance (바이러스 제거능)"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Viral clearance (바이러스 제거능)** — 정제 공정이 바이러스를 불활화·제거하는 능력.",
    "choiceNotes": [
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정답 — 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
     "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
+    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+    "정답 — 정제 공정이 바이러스를 불활화·제거하는 능력."
    ],
    "source": "WK06 PDF p.9",
    "concepts": [
@@ -641,17 +410,17 @@
    "choices": [
     "Viral clearance (바이러스 제거능)",
     "Orthogonal (직교) 전략",
-    "Virus spiking study (바이러스 제거 검증)",
     "WFI (Water for Injection, 주사용수)",
+    "Virus spiking study (바이러스 제거 검증)",
     "Non-enveloped virus (비외피 바이러스)"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**Virus spiking study (바이러스 제거 검증)** — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
    "choiceNotes": [
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정답 — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
     "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
+    "정답 — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
    ],
    "source": "WK06 PDF p.8 (일반 원리 보충)",
@@ -664,39 +433,6 @@
    ]
   },
   {
-   "id": "tw06d-029",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인."
-   ],
-   "choices": [
-    "UF/DF (한외여과/정용여과)",
-    "HCP (Host Cell Protein)",
-    "Virus filtration (nanofiltration)",
-    "ICH Q5A (R1)",
-    "S&D (Solvent/Detergent)"
-   ],
-   "answer": 4,
-   "explanation": "**ICH Q5A (R1)** — 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-   "choiceNotes": [
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
-    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "정답 — 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법."
-   ],
-   "source": "WK06 PDF p.9",
-   "concepts": [
-    "ICH Q5A"
-   ],
-   "tags": [
-    "용어",
-    "ICH Q5A"
-   ]
-  },
-  {
    "id": "tw06d-032",
    "type": "용어",
    "part": 1,
@@ -705,18 +441,18 @@
     "지질 외피가 있어 저 pH·S&D에 약한 바이러스."
    ],
    "choices": [
-    "Enveloped virus (외피 바이러스)",
     "Model virus (모델 바이러스)",
     "Non-enveloped virus (비외피 바이러스)",
+    "Enveloped virus (외피 바이러스)",
     "Clarification (청징)",
     "Depth filtration"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
    "choiceNotes": [
-    "정답 — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
+    "정답 — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과."
    ],
@@ -738,18 +474,18 @@
     "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
    ],
    "choices": [
+    "Non-enveloped virus (비외피 바이러스)",
     "Enveloped virus (외피 바이러스)",
     "Model virus (모델 바이러스)",
-    "Non-enveloped virus (비외피 바이러스)",
     "HCP (Host Cell Protein)",
     "WFI (Water for Injection, 주사용수)"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
    "choiceNotes": [
+    "정답 — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "정답 — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
     "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수."
    ],
@@ -772,19 +508,19 @@
    ],
    "choices": [
     "Enveloped virus (외피 바이러스)",
-    "Model virus (모델 바이러스)",
     "Non-enveloped virus (비외피 바이러스)",
     "Retentate",
-    "Low pH viral inactivation"
+    "Low pH viral inactivation",
+    "Model virus (모델 바이러스)"
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**Model virus (모델 바이러스)** — 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
    "choiceNotes": [
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "정답 — 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "틀리다 — Retentate: 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계."
+    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+    "정답 — 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -796,210 +532,24 @@
    ]
   },
   {
-   "id": "tw06d-049",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
-   ],
-   "choices": [
-    "WFI (Water for Injection, 주사용수)",
-    "Depth filtration",
-    "ICH Q5A (R1)",
-    "Non-enveloped virus (비외피 바이러스)",
-    "PW (Purified Water, 정제수)"
-   ],
-   "answer": 5,
-   "explanation": "**PW (Purified Water, 정제수)** — 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-   "choiceNotes": [
-    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "틀리다 — ICH Q5A (R1): 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "정답 — 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
-   ],
-   "source": "WK06 PDF p.27 (PW/WFI 계통도)",
-   "concepts": [
-    "PW"
-   ],
-   "tags": [
-    "용어",
-    "PW"
-   ]
-  },
-  {
-   "id": "tw06d-050",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "정제수를 증류해 만든 가장 높은 등급의 공정 용수."
-   ],
-   "choices": [
-    "PW (Purified Water, 정제수)",
-    "UF/DF (한외여과/정용여과)",
-    "DBC (Dynamic Binding Capacity)",
-    "WFI (Water for Injection, 주사용수)",
-    "Enveloped virus (외피 바이러스)"
-   ],
-   "answer": 4,
-   "explanation": "**WFI (Water for Injection, 주사용수)** — 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-   "choiceNotes": [
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "정답 — 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스."
-   ],
-   "source": "WK06 PDF p.27",
-   "concepts": [
-    "WFI"
-   ],
-   "tags": [
-    "용어",
-    "WFI"
-   ]
-  },
-  {
-   "id": "tw06r-001",
-   "type": "용어",
-   "part": 1,
-   "question": "「Clarification (청징)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력."
-   ],
-   "answer": 2,
-   "explanation": "**Clarification (청징)** — 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-   "choiceNotes": [
-    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다."
-   ],
-   "source": "WK06 PDF p.3, p.18",
-   "concepts": [
-    "Clarification"
-   ],
-   "tags": [
-    "용어",
-    "Clarification"
-   ]
-  },
-  {
-   "id": "tw06r-002",
-   "type": "용어",
-   "part": 1,
-   "question": "「Depth filtration」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-    "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
-   ],
-   "answer": 1,
-   "explanation": "**Depth filtration** — 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Low pH viral inactivation의 설명이다.",
-    "틀리다 — Protein A chromatography의 설명이다.",
-    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다."
-   ],
-   "source": "WK06 PDF p.5, p.19",
-   "concepts": [
-    "Depth filtration"
-   ],
-   "tags": [
-    "용어",
-    "Depth filtration"
-   ]
-  },
-  {
-   "id": "tw06r-003",
-   "type": "용어",
-   "part": 1,
-   "question": "「Protein A chromatography」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "정제수를 증류해 만든 가장 높은 등급의 공정 용수."
-   ],
-   "answer": 3,
-   "explanation": "**Protein A chromatography** — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-   "choiceNotes": [
-    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다."
-   ],
-   "source": "WK06 PDF p.5, p.18–19",
-   "concepts": [
-    "Protein A chromatography"
-   ],
-   "tags": [
-    "용어",
-    "Protein A chromatography"
-   ]
-  },
-  {
-   "id": "tw06r-004",
-   "type": "용어",
-   "part": 1,
-   "question": "「Low pH viral inactivation」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계."
-   ],
-   "answer": 5,
-   "explanation": "**Low pH viral inactivation** — 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-   "choiceNotes": [
-    "틀리다 — Multi-modal chromatography의 설명이다.",
-    "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — Retentate의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK06 PDF p.11, p.15",
-   "concepts": [
-    "Low pH viral inactivation"
-   ],
-   "tags": [
-    "용어",
-    "Low pH viral inactivation"
-   ]
-  },
-  {
    "id": "tw06r-005",
    "type": "용어",
    "part": 1,
    "question": "「CEX (양이온 교환 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
     "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
     "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "단백질끼리 뭉친 불순물(면역원성 위험).",
+    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Depth filtration의 설명이다.",
     "틀리다 — Low pH viral inactivation의 설명이다.",
     "틀리다 — Aggregate (응집체)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Platform process의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18",
@@ -1017,17 +567,17 @@
    "part": 1,
    "question": "「AEX (음이온 교환 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
     "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질)."
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
    "choiceNotes": [
-    "틀리다 — Clarification (청징)의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
     "틀리다 — Orthogonal (직교) 전략의 설명이다.",
     "틀리다 — Retentate의 설명이다."
@@ -1048,17 +598,17 @@
    "question": "「HIC (소수성 상호작용 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
+    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
     "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**HIC (소수성 상호작용 크로마토그래피)** — 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation의 설명이다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
     "틀리다 — Orthogonal (직교) 전략의 설명이다."
    ],
@@ -1079,17 +629,17 @@
    "choices": [
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
     "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
     "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
+    "정제 공정이 바이러스를 불활화·제거하는 능력.",
     "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**SEC (크기 배제 크로마토그래피)** — 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
     "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
     "틀리다 — Multi-modal chromatography의 설명이다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
     "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
    ],
    "source": "WK06 PDF p.6, p.7",
@@ -1102,84 +652,24 @@
    ]
   },
   {
-   "id": "tw06r-009",
-   "type": "용어",
-   "part": 1,
-   "question": "「Multi-modal chromatography」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-    "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피."
-   ],
-   "answer": 5,
-   "explanation": "**Multi-modal chromatography** — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-   "choiceNotes": [
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — ICH Q5A (R1)의 설명이다.",
-    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK06 PDF p.18 (Two-column platform)",
-   "concepts": [
-    "Multi-modal chromatography"
-   ],
-   "tags": [
-    "용어",
-    "Multi-modal chromatography"
-   ]
-  },
-  {
-   "id": "tw06r-011",
-   "type": "용어",
-   "part": 1,
-   "question": "「Virus filtration (nanofiltration)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
-   ],
-   "answer": 3,
-   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-   "choiceNotes": [
-    "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다."
-   ],
-   "source": "WK06 PDF p.11, p.15–16",
-   "concepts": [
-    "Virus filtration"
-   ],
-   "tags": [
-    "용어",
-    "Virus filtration"
-   ]
-  },
-  {
    "id": "tw06r-012",
    "type": "용어",
    "part": 1,
    "question": "「UF/DF (한외여과/정용여과)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
     "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
     "단백질끼리 뭉친 불순물(면역원성 위험)."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**UF/DF (한외여과/정용여과)** — 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
     "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Aggregate (응집체)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18, p.31",
@@ -1192,54 +682,24 @@
    ]
   },
   {
-   "id": "tw06r-013",
-   "type": "용어",
-   "part": 1,
-   "question": "「Retentate」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 세포에서 나온 단백질 불순물.",
-    "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing."
-   ],
-   "answer": 2,
-   "explanation": "**Retentate** — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-   "choiceNotes": [
-    "틀리다 — HCP (Host Cell Protein)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다."
-   ],
-   "source": "WK06 PDF p.31",
-   "concepts": [
-    "Retentate"
-   ],
-   "tags": [
-    "용어",
-    "Retentate"
-   ]
-  },
-  {
    "id": "tw06r-017",
    "type": "용어",
    "part": 1,
    "question": "「HCP (Host Cell Protein)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "생산 세포에서 나온 단백질 불순물.",
     "단백질끼리 뭉친 불순물(면역원성 위험).",
     "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
     "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "생산 세포에서 나온 단백질 불순물.",
     "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**HCP (Host Cell Protein)** — 생산 세포에서 나온 단백질 불순물.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Aggregate (응집체)의 설명이다.",
     "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
     "틀리다 — Depth filtration의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
    ],
    "source": "WK06 PDF p.5",
@@ -1252,53 +712,23 @@
    ]
   },
   {
-   "id": "tw06r-018",
-   "type": "용어",
-   "part": 1,
-   "question": "「Aggregate (응집체)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "생산 세포에서 나온 단백질 불순물.",
-    "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "단백질끼리 뭉친 불순물(면역원성 위험)."
-   ],
-   "answer": 5,
-   "explanation": "**Aggregate (응집체)** — 단백질끼리 뭉친 불순물(면역원성 위험).",
-   "choiceNotes": [
-    "틀리다 — HCP (Host Cell Protein)의 설명이다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
-    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
-    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK06 PDF p.5",
-   "concepts": [
-    "Aggregate"
-   ],
-   "tags": [
-    "용어",
-    "Aggregate"
-   ]
-  },
-  {
    "id": "tw06r-019",
    "type": "용어",
    "part": 1,
    "question": "「DBC (Dynamic Binding Capacity)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름.",
     "단백질끼리 뭉친 불순물(면역원성 위험).",
+    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
     "생산 세포에서 나온 단백질 불순물.",
     "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Platform process의 설명이다.",
     "틀리다 — Aggregate (응집체)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — HCP (Host Cell Protein)의 설명이다.",
     "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다."
    ],
@@ -1309,156 +739,6 @@
    "tags": [
     "용어",
     "DBC"
-   ]
-  },
-  {
-   "id": "tw06r-023",
-   "type": "용어",
-   "part": 1,
-   "question": "「Platform process」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "여러 항체에 공통으로 쓰는 표준 정제 흐름."
-   ],
-   "answer": 5,
-   "explanation": "**Platform process** — 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
-   "choiceNotes": [
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK06 PDF p.6, p.17–18",
-   "concepts": [
-    "Platform process"
-   ],
-   "tags": [
-    "용어",
-    "Platform process"
-   ]
-  },
-  {
-   "id": "tw06r-024",
-   "type": "용어",
-   "part": 1,
-   "question": "「S&D (Solvent/Detergent)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
-   ],
-   "answer": 4,
-   "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
-   "choiceNotes": [
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
-   ],
-   "source": "WK06 PDF p.11",
-   "concepts": [
-    "S&D"
-   ],
-   "tags": [
-    "용어",
-    "S&D"
-   ]
-  },
-  {
-   "id": "tw06r-026",
-   "type": "용어",
-   "part": 1,
-   "question": "「Orthogonal (직교) 전략」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
-   ],
-   "answer": 2,
-   "explanation": "**Orthogonal (직교) 전략** — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-   "choiceNotes": [
-    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
-   ],
-   "source": "WK06 PDF p.8, p.10, p.15",
-   "concepts": [
-    "Orthogonal"
-   ],
-   "tags": [
-    "용어",
-    "Orthogonal"
-   ]
-  },
-  {
-   "id": "tw06r-027",
-   "type": "용어",
-   "part": 1,
-   "question": "「Viral clearance (바이러스 제거능)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "생산 세포에서 나온 단백질 불순물.",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
-   ],
-   "answer": 3,
-   "explanation": "**Viral clearance (바이러스 제거능)** — 정제 공정이 바이러스를 불활화·제거하는 능력.",
-   "choiceNotes": [
-    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — HCP (Host Cell Protein)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
-   ],
-   "source": "WK06 PDF p.9",
-   "concepts": [
-    "Viral clearance"
-   ],
-   "tags": [
-    "용어",
-    "Viral clearance"
-   ]
-  },
-  {
-   "id": "tw06r-028",
-   "type": "용어",
-   "part": 1,
-   "question": "「Virus spiking study (바이러스 제거 검증)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계."
-   ],
-   "answer": 4,
-   "explanation": "**Virus spiking study (바이러스 제거 검증)** — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-   "choiceNotes": [
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Protein A chromatography의 설명이다."
-   ],
-   "source": "WK06 PDF p.8 (일반 원리 보충)",
-   "concepts": [
-    "Virus spiking study"
-   ],
-   "tags": [
-    "용어",
-    "Virus spiking study"
    ]
   },
   {
@@ -1489,96 +769,6 @@
    "tags": [
     "용어",
     "ICH Q5A"
-   ]
-  },
-  {
-   "id": "tw06r-032",
-   "type": "용어",
-   "part": 1,
-   "question": "「Enveloped virus (외피 바이러스)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "여러 항체에 공통으로 쓰는 표준 정제 흐름.",
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스."
-   ],
-   "answer": 5,
-   "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-   "choiceNotes": [
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
-    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
-    "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — Platform process의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK06 PDF p.11, p.15",
-   "concepts": [
-    "Enveloped virus"
-   ],
-   "tags": [
-    "용어",
-    "Enveloped virus"
-   ]
-  },
-  {
-   "id": "tw06r-033",
-   "type": "용어",
-   "part": 1,
-   "question": "「Non-enveloped virus (비외피 바이러스)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
-   ],
-   "answer": 1,
-   "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다."
-   ],
-   "source": "WK06 PDF p.11, p.14",
-   "concepts": [
-    "Non-enveloped virus"
-   ],
-   "tags": [
-    "용어",
-    "Non-enveloped virus"
-   ]
-  },
-  {
-   "id": "tw06r-034",
-   "type": "용어",
-   "part": 1,
-   "question": "「Model virus (모델 바이러스)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계."
-   ],
-   "answer": 3,
-   "explanation": "**Model virus (모델 바이러스)** — 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-   "choiceNotes": [
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다."
-   ],
-   "source": "WK06 PDF p.13–14",
-   "concepts": [
-    "Model virus"
-   ],
-   "tags": [
-    "용어",
-    "Model virus"
    ]
   },
   {
@@ -1692,18 +882,18 @@
     "D. 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
    "choices": [
+    "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-A  (나)-B  (다)-D  (라)-C",
-    "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-A  (나)-C  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **CEX (양이온 교환 크로마토그래피)** → A. 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.\n(나) **AEX (음이온 교환 크로마토그래피)** → C. 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.\n(다) **HIC (소수성 상호작용 크로마토그래피)** → D. 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.\n(라) **SEC (크기 배제 크로마토그래피)** → B. 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) AEX의 설명은 C, (다) HIC의 설명은 D",
     "틀리다 — (나) AEX의 설명은 C, (라) SEC의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) HIC의 설명은 D, (라) SEC의 설명은 B",
     "틀리다 — (가) CEX의 설명은 A, (나) AEX의 설명은 C, (다) HIC의 설명은 D, (라) SEC의 설명은 B"
    ],
@@ -1731,18 +921,18 @@
     "D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "choices": [
-    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **Multi-modal chromatography** → A. 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.\n(나) **Virus filtration (nanofiltration)** → D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.\n(다) **UF/DF (한외여과/정용여과)** → C. 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.\n(라) **Retentate** → B. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Virus filtration의 설명은 D, (다) UF/DF의 설명은 C",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (나) Virus filtration의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (라) Retentate의 설명은 B",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (나) Virus filtration의 설명은 D, (다) UF/DF의 설명은 C, (라) Retentate의 설명은 B"
    ],
@@ -1809,17 +999,17 @@
     "D. 단백질끼리 뭉친 불순물(면역원성 위험)."
    ],
    "choices": [
-    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(나) **Aggregate (응집체)** → D. 단백질끼리 뭉친 불순물(면역원성 위험).\n(다) **DBC (Dynamic Binding Capacity)** → C. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n(라) **Platform process** → A. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "choiceNotes": [
-    "틀리다 — (가) HCP의 설명은 B, (라) Platform process의 설명은 A",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) HCP의 설명은 B, (라) Platform process의 설명은 A",
     "틀리다 — (다) DBC의 설명은 C, (라) Platform process의 설명은 A",
     "틀리다 — (나) Aggregate의 설명은 D, (라) Platform process의 설명은 A",
     "틀리다 — (가) HCP의 설명은 B, (나) Aggregate의 설명은 D, (다) DBC의 설명은 C, (라) Platform process의 설명은 A"
@@ -1849,18 +1039,18 @@
    ],
    "choices": [
     "(가)-A  (나)-D  (다)-C  (라)-B",
+    "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-D  (나)-C  (다)-A  (라)-B",
     "(가)-A  (나)-B  (다)-D  (라)-C",
-    "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **DBC (Dynamic Binding Capacity)** → A. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n(나) **Platform process** → C. 여러 항체에 공통으로 쓰는 표준 정제 흐름.\n(다) **S&D (Solvent/Detergent)** → D. 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.\n(라) **Orthogonal (직교) 전략** → B. 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
    "choiceNotes": [
     "틀리다 — (나) Platform process의 설명은 C, (다) S&D의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) DBC의 설명은 A, (다) S&D의 설명은 D",
     "틀리다 — (나) Platform process의 설명은 C, (라) Orthogonal의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) DBC의 설명은 A, (나) Platform process의 설명은 C, (다) S&D의 설명은 D, (라) Orthogonal의 설명은 B"
    ],
    "source": "WK06 PDF p.20 · WK06 PDF p.6, p.17–18 · WK06 PDF p.11 · WK06 PDF p.8, p.10, p.15",
@@ -1887,18 +1077,18 @@
     "D. 정제 공정이 바이러스를 불활화·제거하는 능력."
    ],
    "choices": [
-    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-A  (나)-B  (다)-D  (라)-C",
+    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **S&D (Solvent/Detergent)** → C. 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.\n(나) **Orthogonal (직교) 전략** → B. 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.\n(다) **Viral clearance (바이러스 제거능)** → D. 정제 공정이 바이러스를 불활화·제거하는 능력.\n(라) **Virus spiking study (바이러스 제거 검증)** → A. 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) S&D의 설명은 C, (나) Orthogonal의 설명은 B",
     "틀리다 — (가) S&D의 설명은 C, (라) Virus spiking study의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Orthogonal의 설명은 B, (라) Virus spiking study의 설명은 A",
     "틀리다 — (가) S&D의 설명은 C, (나) Orthogonal의 설명은 B, (다) Viral clearance의 설명은 D, (라) Virus spiking study의 설명은 A"
    ],
@@ -1928,17 +1118,17 @@
    "choices": [
     "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-B  (나)-D  (다)-C  (라)-A",
-    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **ICH Q5A (R1)** → A. 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.\n(나) **Enveloped virus (외피 바이러스)** → D. 지질 외피가 있어 저 pH·S&D에 약한 바이러스.\n(다) **Non-enveloped virus (비외피 바이러스)** → C. 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.\n(라) **Model virus (모델 바이러스)** → B. 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
    "choiceNotes": [
     "틀리다 — (다) Non-enveloped virus의 설명은 C, (라) Model virus의 설명은 B",
     "틀리다 — (가) ICH Q5A의 설명은 A, (라) Model virus의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) ICH Q5A의 설명은 A, (나) Enveloped virus의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) ICH Q5A의 설명은 A, (나) Enveloped virus의 설명은 D, (다) Non-enveloped virus의 설명은 C, (라) Model virus의 설명은 B"
    ],
    "source": "WK06 PDF p.9 · WK06 PDF p.11, p.15 · WK06 PDF p.11, p.14 · WK06 PDF p.13–14",
@@ -2006,17 +1196,17 @@
    "choices": [
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-D  (나)-B  (다)-A  (라)-C",
-    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-D  (나)-A  (다)-B  (라)-C",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-A  (나)-D  (다)-C  (라)-B"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **PW (Purified Water, 정제수)** → D. 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).\n(나) **WFI (Water for Injection, 주사용수)** → A. 정제수를 증류해 만든 가장 높은 등급의 공정 용수.\n(다) **Enveloped virus (외피 바이러스)** → B. 지질 외피가 있어 저 pH·S&D에 약한 바이러스.\n(라) **Non-enveloped virus (비외피 바이러스)** → C. 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
    "choiceNotes": [
     "틀리다 — (가) PW의 설명은 D, (라) Non-enveloped virus의 설명은 C",
     "틀리다 — (나) WFI의 설명은 A, (다) Enveloped virus의 설명은 B",
-    "틀리다 — (나) WFI의 설명은 A, (라) Non-enveloped virus의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) WFI의 설명은 A, (라) Non-enveloped virus의 설명은 C",
     "틀리다 — (가) PW의 설명은 D, (나) WFI의 설명은 A, (다) Enveloped virus의 설명은 B, (라) Non-enveloped virus의 설명은 C"
    ],
    "source": "WK06 PDF p.27 (PW/WFI 계통도) · WK06 PDF p.27 · WK06 PDF p.11, p.15 · WK06 PDF p.11, p.14",
