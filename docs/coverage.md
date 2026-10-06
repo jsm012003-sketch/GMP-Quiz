@@ -76,6 +76,37 @@
 
 미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, single-use 광학 센서, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상).
 
+## WK04 — Downstream Process 2: 여과 및 기타 공정 (2026.09.23)
+
+PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호는 슬라이드 하단 번호와 같은 **전체 160쪽 기준**이다. 손필기·녹음본은 없다.
+
+| 출제됨 | 문항 |
+|---|---|
+| 여과 정의·구동 원리, 바이오 vs 화학 분리 방법 | wk04-001, wk04-002 |
+| 공정 유래 vs 제품 유래 불순물 | wk04-003 |
+| 침전, 봉입체(인슐린) 세척·재접힘, 분비 vs 세포 안 산물 회수 | wk04-004, wk04-005, wk04-006 |
+| 혈장 단백질 역할 | wk04-007 |
+| 항체 정제 흐름에서 UF/DF, 완제 농축 필요성, F&F 구성 | wk04-008, wk04-009, wk04-010 |
+| 배지 오염 저감(mitigation), 배양 방식과 COGs | wk04-011, wk04-012 |
+| 필터 용도·정화의 뜻 | wk04-013, wk04-014 |
+| 제균 필터 정의(BCT 10⁷/cm²), B. diminuta worst case | wk04-015, wk04-016 |
+| DEF vs CFF, MF→UF→NF→RO 크기·압력, MWCO | wk04-017 ~ wk04-020 |
+| 멤브레인 vs 깊이 필터, 조합 필터, 재질, 비대칭 막 | wk04-021 ~ wk04-024 |
+| Absolute 등급, β값 | wk04-025, wk04-026 |
+| 탱크 vent·이중 vent·가열 하우징·PTFE | wk04-027 ~ wk04-030 |
+| 기체 포집 기전, MPPS, 기체에서 실제 보유력, 제균 기체 vs HEPA | wk04-031 ~ wk04-034 |
+| 필터 막힘 영향, sizing test, Vmax vs Pmax·Tmax, flux vs capacity, scale-up | wk04-035 ~ wk04-039 |
+| 카트리지 vs 캡슐, 클램프 규격, SS 316L, 펌프, 가압 이송, 필터 선정 고려 | wk04-040 ~ wk04-045 |
+| TFF 구성(retentate), TMP vs ΔP, 겔층, TMP 최적화, 모듈 | wk04-046 ~ wk04-050 |
+| TFF 용도별 회수 위치, MF-TFF 빠른 flux, 농축 vs DF, 연속 vs 회분 DF | wk04-051 ~ wk04-054 |
+| TFF 운전 순서, 카세트 오염 기전, CWF vs NWP, 막 수명 | wk04-055 ~ wk04-058 |
+| 무결성 시험 이유, 파괴 vs 비파괴, IT limit | wk04-059 ~ wk04-061 |
+| 기포점 원리, 기포점 vs 확산, 확산값 조건, pressure drop | wk04-062 ~ wk04-066 |
+| 적심 액, WIT(원리·장점·조건), 방법 선택, Min vs Max BP | wk04-067 ~ wk04-072 |
+| 불합격 시 조치(PDA TR 26), redundant filtration, PUPSIT | wk04-073 ~ wk04-076, int-023 |
+
+미출제 후보: 원심분리(회분 vs 연속 kSep) 비교, BFS 상세, 필터 하우징·배관 P&ID 기호, 막 제조(evaporation vs quenching 공정), 기체 필터 HEPA 등급(E·H·U) 세부, Laminar vs turbulent cross-flow, A1·A2 value, 확산 시험의 공기 vs 질소 차이, 제조사별 무결성 시험 명칭(forward flow·pressure hold·Hydrocorr), 규제 문서 목록(FDA·EMA·ISO 13408·USP·ASTM).
+
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
 | 출제됨 | 문항 |
@@ -203,6 +234,8 @@ int-011 ~ int-015: Ballroom 밀폐 붕괴 대응, titer 상승 → 하류·시�
 
 int-019 ~ int-020(개념 구분): CIP·SIP·VHP, bracketing·worst case·design space.
 
+int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방지(배양기 vs WFI 탱크), 제균 필터 무결성 시험 시점(GMP01 + WK04), ATF·TFF의 retentate/permeate.
+
 ## 용어 정리 (PART I, 자동 생성)
 
 `glossary/<단원>.json` → `python3 tools/build_terms.py` → `questions/terms-<단원>.json`. 용어 1개당 정의→용어(`d`)·용어→정의(`r`) 2문항, 같은 묶음 4개씩 짝짓기(`m`) 1문항.
@@ -211,6 +244,7 @@ int-019 ~ int-020(개념 구분): CIP·SIP·VHP, bracketing·worst case·design 
 |---|---|---|---|
 | OT | 21 | 49 | 공정 흐름, 사업(바이오시밀러·CMO), 설계 문서(BFD·PFD·URS), 비용(CAPEX·OPEX·ROI) |
 | WK02 | 133 | 309 | modality, 백신 플랫폼, 숙주·세포은행, 공정 흐름, 배양 방식·공정 강화, 관류 장치, 성장곡선, 배지·대사, 배양기·제어, QbD, scale-up, 교반·통기, 데이터 분석, 원가 |
+| WK04 | 113 | 257 | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험 |
 | GMP01 | 42 | 98 | 제형, 멸균·무균, 조제, 부형제, 충전·용기, 품질 검사, 무균 환경, GMP 공통 |
 | GMP02 | 42 | 99 | 차단 방식, RABS 구성, 규정(Annex 1·ISO 13408-1·PDA TR22), APS, 간섭, worst case, 실패 조치, EM |
 | GMP03 | 48 | 112 | 아이솔레이터 원리·챔버, VHP cycle·조건, 사멸 원리, 적재, BI·CI·EI, cycle development, qualification, test location, glove |
