@@ -6,6 +6,7 @@
   정답 번호 범위, 보기별 해설(choiceNotes) 개수 등을 확인한다.
 - 서술형(format: "essay")은 보기 대신 modelAnswer(모범답안)와 keywords(채점 요소)를 확인한다.
 - part(1~3, 시험지 PART)와 파트별 문항 수도 함께 보여 준다.
+- questions/archive/ 의 걸러 낸 문항 id를 다시 쓰지 않았는지 확인한다.
 - 오류가 있으면 종료 코드 1 을 돌려준다.
 """
 import json
@@ -101,7 +102,14 @@ def main() -> int:
                 answers[ans] += 1
         total += len(qs)
         print(f"{name:20} {data.get('week', '-'):6} {len(qs):4}문항  PART {dict(sorted(parts.items()))}  유형 {dict(types)}  정답분포 {dict(sorted(answers.items()))}")
-    print(f"\n총 {total}문항")
+    # 걸러 낸 문항(questions/archive/)의 id는 영구 예약 — 출제 문항이 같은 id를 쓰면 안 된다
+    archived = 0
+    for path in sorted((QDIR / "archive").glob("*.json")):
+        for q in json.loads(path.read_text(encoding="utf-8")).get("questions", []):
+            archived += 1
+            if q.get("id") in seen:
+                errors.append(f"archive/{path.name}: 보관한 id {q['id']}를 {seen[q['id']]}에서 다시 쓰고 있습니다")
+    print(f"\n총 {total}문항" + (f" (보관 {archived}문항 제외)" if archived else ""))
     for w in warnings:
         print("경고:", w)
     for e in errors:

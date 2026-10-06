@@ -60,63 +60,6 @@
       "part": 1
     },
     {
-      "id": "ot-003",
-      "type": "개념",
-      "question": "경제성 분석에서 ROI가 낮아 'Stop'으로 판단했을 때 보고서는 어떻게 쓰는가?",
-      "choices": [
-        "Stop이면 보고서를 내지 않는다.",
-        "비용 가정을 근거 없이 낮춰 Go로 바꾼다.",
-        "비용은 진행할수록 줄어드니 무시한다.",
-        "Stop 이유와 Go로 바꿀 방향을 함께 쓴다.",
-        "OPEX는 어려우니 빼고 쓴다."
-      ],
-      "answer": 4,
-      "explanation": "**ROI로 Go/Stop을 정하고, Stop이어도 보고서를 내며 Stop 이유와 Go로 바꿀 방향을 쓴다.** 강의: 실제로 진행하면 비용은 늘면 늘었지 줄지 않는다.",
-      "choiceNotes": [
-        "틀리다 — Stop이어도 제출한다.",
-        "틀리다 — 근거 없는 가정 변경은 안 된다.",
-        "틀리다 — 비용은 늘면 늘었지 줄지 않는다.",
-        "옳다 — 사유와 변경 방향을 이유와 함께 쓴다.",
-        "틀리다 — CAPEX·OPEX를 큰 범주로라도 계산한다."
-      ],
-      "source": "OT PDF p.27 (Example – Marketability), p.8 (가정·출처 명시)",
-      "tags": [
-        "ROI",
-        "CAPEX/OPEX",
-        "Go/Stop"
-      ],
-      "part": 1
-    },
-    {
-      "id": "ot-004",
-      "type": "개념",
-      "question": "텀 프로젝트의 '공정 정의'에 들어가야 하는 내용이 아닌 것은?",
-      "choices": [
-        "공정 흐름도(PFD·BFD)",
-        "임상시험 환자 모집 계획",
-        "물질수지와 장비 목록",
-        "장비의 사용자 요구사항(URS)",
-        "CAPEX·OPEX로 계산한 ROI"
-      ],
-      "answer": 2,
-      "explanation": "**공정 정의에는 PFD/BFD, 물질수지·장비 목록·유틸리티 사용량, 장비 URS, 스케줄, CAPEX·OPEX와 ROI가 들어간다.** 임상시험 계획은 공정 정의 항목이 아니다.",
-      "choiceNotes": [
-        "들어간다.",
-        "들어가지 않는다(정답) — 공정 설계와 관계없다.",
-        "들어간다.",
-        "들어간다 — 선정 이유도 쓴다.",
-        "들어간다."
-      ],
-      "source": "OT PDF p.13 (About Term Project — 공정 정의)",
-      "tags": [
-        "Term project",
-        "PFD/BFD",
-        "URS",
-        "ROI"
-      ],
-      "part": 1
-    },
-    {
       "id": "ot-005",
       "type": "개념",
       "question": "Upstream(배양) 단계를 순서대로 바르게 나열한 것은?",

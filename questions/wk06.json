@@ -86,61 +86,6 @@
       "part": 1
     },
     {
-      "id": "wk06-004",
-      "type": "개념",
-      "question": "Case B 세포(내인성 레트로바이러스를 가진 세포)를 쓸 때 쓰는 모델 바이러스는?",
-      "choices": [
-        "PPV",
-        "MuLV",
-        "SV-40",
-        "Polio",
-        "BVDV"
-      ],
-      "answer": 2,
-      "explanation": "**Case B 세포는 MuLV(murine leukemia virus) 같은 특정 모델 바이러스로 입자가 완전히 제거됨을 입증해야 한다.**",
-      "choiceNotes": [
-        "틀리다 — 작은 비외피 바이러스 모델.",
-        "옳다 — 쥐 백혈병 바이러스(레트로바이러스).",
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — HCV 모델(혈장 제품)."
-      ],
-      "source": "WK06 PDF p.8 (Case B cells, murine leukemia virus), p.14 (MuLV)",
-      "tags": [
-        "ICH Q5A",
-        "Case B",
-        "MuLV"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-005",
-      "type": "개념",
-      "question": "ICH Q5A 바이러스 안전성 원칙으로 옳지 않은 것은?",
-      "choices": [
-        "전체 공정은 예상 바이러스보다 훨씬 많이 제거해야 한다",
-        "불활화가 시간에 따라 어떻게 되는지 알면 좋다",
-        "보통 3~4종 바이러스로 시험한다",
-        "컬럼을 여러 번 쓰면 제거능이 변할 수 있다",
-        "컬럼은 재사용해도 제거능이 절대 안 변한다"
-      ],
-      "answer": 5,
-      "explanation": "**크로마토그래피 컬럼은 반복 사용하면 바이러스 제거능이 변할 수 있어, 여러 번 쓴 뒤의 안정성 근거가 필요하다.**",
-      "choiceNotes": [
-        "옳은 진술.",
-        "옳은 진술 — 시간 의존성.",
-        "옳은 진술.",
-        "옳은 진술 — 재사용 근거가 필요.",
-        "틀린 진술(정답)."
-      ],
-      "source": "WK06 PDF p.9 (ICH Q5A (R1))",
-      "tags": [
-        "ICH Q5A",
-        "Column reuse"
-      ],
-      "part": 1
-    },
-    {
       "id": "wk06-006",
       "type": "연결",
       "part": 2,
@@ -224,33 +169,6 @@
       ]
     },
     {
-      "id": "wk06-009",
-      "type": "연결",
-      "question": "모델 바이러스의 특징으로 옳지 않은 것은?",
-      "choices": [
-        "PPV·MVM – 외피 없고 작으며 저항성이 매우 높다",
-        "MuLV – 외피가 있고 저항성이 낮다",
-        "외피 유무에 따라 S&D·낮은 pH 효과가 다르다",
-        "바이러스 크기는 필터 선택에 중요하다",
-        "외피 없는 작은 바이러스는 낮은 pH로 쉽게 죽는다"
-      ],
-      "answer": 5,
-      "explanation": "**외피 없는 작은 바이러스(PPV·MVM)는 가장 다루기 어려워 낮은 pH만으로는 부족하다.**",
-      "choiceNotes": [
-        "옳은 진술 — 18~26 nm.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "틀린 진술(정답) — 낮은 pH로는 부족하다."
-      ],
-      "source": "WK06 PDF p.13 (Model Viruses for Plasma Products), p.14 (Animal Cell Culture Products), p.11",
-      "tags": [
-        "Model virus",
-        "Resistance"
-      ],
-      "part": 2
-    },
-    {
       "id": "wk06-010",
       "type": "개념",
       "question": "강의의 DSP 소모품 비용에서 가장 큰 비중을 차지한 것은?",
@@ -279,62 +197,6 @@
       "part": 1
     },
     {
-      "id": "wk06-011",
-      "type": "개념",
-      "question": "배양액 부피가 너무 커서 Protein A 공정이 오래 걸릴 때 강의에서 제시한 해결책은?",
-      "choices": [
-        "Protein A를 생략한다",
-        "배양액을 희석한다",
-        "Protein A 전에 UF/DF로 농축해 부피를 줄인다",
-        "바이러스 불활화를 먼저 한다",
-        "컬럼 높이를 크게 높인다"
-      ],
-      "answer": 3,
-      "explanation": "**처리 시간은 부피와 유속에 묶이므로, Protein A 앞에서 UF/DF로 약 20배 농축하면 시간이 크게 줄어든다**(10,000 L, 50시간 → 500 L, 2.5시간).",
-      "choiceNotes": [
-        "틀리다.",
-        "틀리다 — 더 커진다.",
-        "옳다 — 10,000 L → 500 L, 약 2.5시간.",
-        "틀리다.",
-        "틀리다."
-      ],
-      "source": "WK06 PDF p.20–21 (Mab Platform Process – Case 1, Solution)",
-      "tags": [
-        "Case study",
-        "UF/DF",
-        "Protein A"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-012",
-      "type": "개념",
-      "question": "Protein A 레진을 적게 사서 여러 번 나눠 돌리면(resin cycling) 생기는 일은?",
-      "choices": [
-        "레진 값은 줄지만 시간·인건비가 는다",
-        "레진 값과 시간이 모두 준다",
-        "레진 값은 같고 품질만 나빠진다",
-        "공정 시간과는 관계없다",
-        "한 번에 처리하는 양이 늘어난다"
-      ],
-      "answer": 1,
-      "explanation": "**레진을 적게 사서 여러 번 나눠 돌리면 레진 값은 줄지만 공정 시간과 인건비가 늘어난다.** 강의 사례: 레진을 절반으로 줄이고 3번 나눠 돌림. 비용·시간·인력은 서로 맞바꾸는 관계다.",
-      "choiceNotes": [
-        "옳다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — 나눠 돌린 만큼 시간이 늘어난다.",
-        "틀리다 — 작은 컬럼이라 여러 번 나눠 돌린다."
-      ],
-      "source": "WK06 PDF p.22–23 (Case 1 Solution: resin volume 1/2 & 3 cycle)",
-      "tags": [
-        "Trade-off",
-        "Protein A",
-        "Cycle"
-      ],
-      "part": 1
-    },
-    {
       "id": "wk06-013",
       "type": "개념",
       "question": "같은 양의 항체를 만들 때 배양 titer(생산 농도)가 크게 오르면 정제 공정은?",
@@ -358,34 +220,6 @@
       "tags": [
         "Titer",
         "USP-DSP 연결"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-014",
-      "type": "개념",
-      "question": "층고가 낮고 WFI가 부족한 건물에 공정을 넣을 때 검토할 방법이 아닌 것은?",
-      "choices": [
-        "높이가 낮은 single-use 설비",
-        "WFI 대신 수돗물 사용",
-        "Perfusion 공정",
-        "작은 라인 여러 개(multi trains)",
-        "titer 향상"
-      ],
-      "answer": 2,
-      "explanation": "**강의 대안: single-use, perfusion, multi trains, titer 향상, 신규 시설.** Single-use는 높이가 낮고 세척·멸균용 WFI도 덜 든다.",
-      "choiceNotes": [
-        "검토 대상 — 약 2,000 mm vs 2,600 mm.",
-        "검토 대상이 아니다(정답) — 품질 요건상 불가.",
-        "검토 대상.",
-        "검토 대상.",
-        "검토 대상."
-      ],
-      "source": "WK06 PDF p.25 (Case 2), p.26 (Height Comparison MU vs. SU)",
-      "tags": [
-        "Single-use",
-        "Facility 제약",
-        "WFI"
       ],
       "part": 1
     },
@@ -418,116 +252,6 @@
       "part": 1
     },
     {
-      "id": "wk06-016",
-      "type": "개념",
-      "question": "고밀도 세포은행과 perfusion seed를 쓰는 '강화된 seed 공정'의 장점은?",
-      "choices": [
-        "세포은행이 필요 없어진다",
-        "생산 배양기까지 가는 기간이 짧아진다",
-        "무균 관리가 필요 없어진다",
-        "배양 방식을 batch로 바꿔야 한다",
-        "적응기(lag)가 길어진다"
-      ],
-      "answer": 2,
-      "explanation": "**고밀도 세포은행 + perfusion seed로 중간 단계를 줄이면 2,000 L 접종까지 3~4주 → 2주 미만으로 짧아진다.**",
-      "choiceNotes": [
-        "틀리다.",
-        "옳다 — 3~4주 → 2주 미만.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다."
-      ],
-      "source": "WK06 PDF p.28 (Conventional vs Intensified process)",
-      "tags": [
-        "Intensified seed",
-        "Seed train"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-017",
-      "type": "연결",
-      "question": "Perfusion과 concentrated fed-batch의 차이로 옳은 것은?",
-      "choices": [
-        "Concentrated FB가 제품을 계속 빼낸다",
-        "Perfusion이 더 짧게 운전한다",
-        "둘 다 세포 유지 장치가 없다",
-        "Perfusion은 제품을 계속 빼내고, concentrated FB는 끝에 한 번에 수확",
-        "Perfusion은 세포를 같이 버린다"
-      ],
-      "answer": 4,
-      "explanation": "**Perfusion은 제품을 계속 회수하며 30~90일 운전, concentrated fed-batch는 제품이 배양기에 쌓였다가 12~20일 뒤 한 번에 수확한다.**",
-      "choiceNotes": [
-        "틀리다 — 반대다.",
-        "틀리다 — 더 길다.",
-        "틀리다.",
-        "옳다 — perfusion 30~90일, conc. FB 12~20일.",
-        "틀리다 — 세포는 남기고 상등액만 뺀다."
-      ],
-      "source": "WK06 PDF p.29 (Continuous Biomanufacturing – The Reality in USP) · WK02 PDF p.40–42",
-      "tags": [
-        "Perfusion",
-        "Concentrated fed-batch"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk06-018",
-      "type": "개념",
-      "question": "PCC·ASAP 같은 연속 정제 기술의 공통 아이디어는?",
-      "choices": [
-        "여러 컬럼을 번갈아 써서 멈추지 않고 정제한다",
-        "컬럼을 아주 크게 만들어 한 번에 끝낸다",
-        "레진을 매번 새로 바꾼다",
-        "바이러스 여과를 생략한다",
-        "정제 없이 바로 충전한다"
-      ],
-      "answer": 1,
-      "explanation": "**한 컬럼이 용출·재생되는 동안 다른 컬럼이 시료를 받아, 멈춤 없이 연속으로 정제한다.** DSP는 batch → semi-continuous → continuous로 가고 있다.",
-      "choiceNotes": [
-        "옳다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다."
-      ],
-      "source": "WK06 PDF p.30 (Sanofi ASAP Concept), p.31 (4-column PCC, Continuous UF/DF), p.7 (Where Are We in DSP Technologies?)",
-      "tags": [
-        "Continuous DSP",
-        "PCC",
-        "ASAP"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-019",
-      "type": "개념",
-      "question": "Protein A 정제 플랫폼에 대한 설명으로 옳지 않은 것은?",
-      "choices": [
-        "3-column은 Protein A 뒤 CEX·AEX 두 번 polishing한다",
-        "2-column은 polishing을 multi-modal 하나로 대신한다",
-        "AEX 컬럼 대신 AEX 막을 쓰기도 한다",
-        "모든 플랫폼에 낮은 pH와 바이러스 여과가 있다",
-        "2-column은 Protein A를 쓰지 않는다"
-      ],
-      "answer": 5,
-      "explanation": "**세 플랫폼 모두 Protein A로 항체를 포획한다.** 차이는 polishing 구성(CEX+AEX / multi-modal / AEX 막)이다.",
-      "choiceNotes": [
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "틀린 진술(정답) — 모두 Protein A로 포획한다."
-      ],
-      "source": "WK06 PDF p.18 (Current Platforms Using ProA for mAb Purification)",
-      "tags": [
-        "Platform",
-        "Multi-modal",
-        "Membrane"
-      ],
-      "part": 1
-    },
-    {
       "id": "wk06-020",
       "type": "개념",
       "question": "여러 상업 항체의 정제 공정을 비교하면 알 수 있는 것은?",
@@ -551,34 +275,6 @@
       "tags": [
         "Platform",
         "Purification scheme"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-021",
-      "type": "개념",
-      "question": "SuperPro Designer 같은 공정 시뮬레이션으로 얻을 수 없는 것은?",
-      "choices": [
-        "단계별 부피(물질수지)",
-        "장비 목록과 크기",
-        "임상시험 효과",
-        "버퍼·배지 사용량",
-        "공정 순서"
-      ],
-      "answer": 3,
-      "explanation": "**공정 시뮬레이션은 물질수지·장비 크기·버퍼 사용량·공정 순서를 계산하는 도구이고, 임상 효과는 알 수 없다.**",
-      "choiceNotes": [
-        "얻을 수 있다.",
-        "얻을 수 있다.",
-        "얻을 수 없다(정답) — 임상시험으로 확인한다.",
-        "얻을 수 있다.",
-        "얻을 수 있다."
-      ],
-      "source": "WK06 PDF p.3 (Monoclonal Antibody Production 흐름도) · WK07 PDF p.28–29 (PFD, Mass Balance)",
-      "tags": [
-        "Process simulation",
-        "PFD",
-        "Mass balance"
       ],
       "part": 1
     },
@@ -608,88 +304,6 @@
         "Continuous"
       ],
       "part": 1
-    },
-    {
-      "id": "wk06-023",
-      "type": "개념",
-      "question": "항체 정제 시설에서 장비 말고 공간을 많이 차지하는 것은?",
-      "choices": [
-        "사무실",
-        "QC 실험실",
-        "배양기",
-        "버퍼 탱크와 보관(pool) 탱크",
-        "동결 탱크"
-      ],
-      "answer": 4,
-      "explanation": "**정제는 단계마다 세척·평형·용출·재생 버퍼 탱크와 pool 탱크가 필요해 공간과 WFI를 많이 쓴다.** 그래서 물질수지로 버퍼 부피를 계산해 배치한다.",
-      "choiceNotes": [
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — 배양은 상류 공정.",
-        "옳다 — 단계마다 버퍼가 많이 필요하다.",
-        "틀리다."
-      ],
-      "source": "WK06 PDF p.4 (Traditional mAb template) · WK07 PDF p.29 (Buffer sizing), p.32 (Buffer palletanks in corridors)",
-      "tags": [
-        "Buffer",
-        "Facility design"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-024",
-      "type": "개념",
-      "question": "낮은 pH 바이러스 불활화 단계에서 pH가 기준을 벗어났다. 어떻게 처리하는가?",
-      "choices": [
-        "뒤에 필터가 있으니 무시한다",
-        "일탈로 기록하고 영향을 평가한다",
-        "시간만 지켰으면 괜찮다",
-        "기록하지 않고 진행한다",
-        "pH를 크게 낮춰 시간을 줄인다"
-      ],
-      "answer": 2,
-      "explanation": "**바이러스 제거능은 검증된 조건(pH·시간)에서만 인정되므로, 벗어나면 일탈로 기록하고 영향을 평가한다**(일반 GMP 원칙).",
-      "choiceNotes": [
-        "틀리다 — 각 단계가 제 몫을 해야 한다.",
-        "옳다.",
-        "틀리다 — pH와 시간 모두 조건이다.",
-        "틀리다 — GMP 위반.",
-        "틀리다 — 검증되지 않은 조건."
-      ],
-      "source": "WK06 PDF p.9 (time dependence for inactivation), p.11 (Low pH, pH 3–4), p.15",
-      "tags": [
-        "Low pH",
-        "일탈",
-        "Virus inactivation"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk06-025",
-      "type": "개념",
-      "part": 1,
-      "question": "Cohn의 저온 에탄올 분획법에 대한 설명으로 옳은 것은?",
-      "choices": [
-        "항체를 Protein A로 정제하는 방법이다",
-        "바이러스 감소 효과가 전혀 없다",
-        "알부민이 가장 먼저 나온다",
-        "면역글로불린은 분획하지 않고 얻는다",
-        "혈장 단백질을 에탄올·온도로 단계적으로 나눈다"
-      ],
-      "answer": 5,
-      "explanation": "**혈장 단백질을 에탄올·온도 조건으로 침전시켜 fibrinogen → 면역글로불린 → 알부민 순으로 나누며, 일부 단계는 바이러스 감소 단계다.**",
-      "choiceNotes": [
-        "틀리다.",
-        "틀리다 — 일부 단계가 바이러스 감소 단계.",
-        "틀리다 — 알부민은 마지막 쪽.",
-        "틀리다 — Precipitate II+III에서 얻는다.",
-        "옳다 — 1940년대 확립."
-      ],
-      "source": "WK06 PDF p.12 (Classical Blood Plasma Fractionation), p.13",
-      "tags": [
-        "Plasma fractionation",
-        "Virus reduction"
-      ]
     },
     {
       "id": "wk06-029",
@@ -773,35 +387,6 @@
         "Diafiltration buffer",
         "Continuous (single-pass) UF/DF",
         "UF/DF"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk06-032",
-      "type": "연결",
-      "question": "모델 바이러스와 대표하는 바이러스의 연결로 옳은 것은?",
-      "choices": [
-        "PRV – 작은 비외피 파보바이러스",
-        "MVM – 내인성 레트로바이러스",
-        "MuLV – 큰 외피 바이러스(CMV·HSV)",
-        "BVDV – C형 간염 바이러스(HCV)",
-        "BVDV – 사람 B19 파보바이러스"
-      ],
-      "answer": 4,
-      "explanation": "**BVDV는 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델이다.** MuLV – 내인성 레트로바이러스 모델(외피 있음), MVM – 동물세포 공정의 작은 비외피 모델(저항성 매우 높음), PRV – CMV·HSV 같은 큰 외피 바이러스 모델, PPV – 혈장 제품의 B19 모델.",
-      "choiceNotes": [
-        "틀리다 — PRV는 큰 외피 바이러스 모델이다.",
-        "틀리다 — 그것은 MuLV다.",
-        "틀리다 — 그것은 PRV다.",
-        "옳다 — 혈장 제품 검증.",
-        "틀리다 — B19 모델은 PPV다."
-      ],
-      "source": "WK06 PDF p.8, p.13–14",
-      "tags": [
-        "BVDV",
-        "PRV",
-        "MVM",
-        "MuLV"
       ],
       "part": 2
     }
