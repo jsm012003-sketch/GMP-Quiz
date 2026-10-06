@@ -22,7 +22,7 @@
     {"no": 17, "term": "Hold time (보관 허용 시간)", "group": "comp", "def": "조제 후 다음 공정까지 보관할 수 있는 최대 시간.", "src": "01 완제의약품 제조 공정 PDF p.12–13"},
     {"no": 18, "term": "함량 균일성", "group": "comp", "def": "어느 부분을 떠도 주성분 양이 같은 상태.", "src": "01 완제의약품 제조 공정 PDF p.6"},
     {"no": 19, "term": "완충제 (Buffer)", "group": "exc", "def": "산·염기가 들어와도 pH가 크게 변하지 않게 버티는 부형제.", "src": "01 완제의약품 제조 공정 PDF p.11"},
-    {"no": 20, "term": "pH 조절제 (pH adjuster)", "group": "exc", "def": "pH를 목표값으로 맞추려고 넣는 산·염기.", "src": "01 완제의약품 제조 공정 PDF p.11"},
+    {"no": 20, "term": "pH 조절제 (pH adjuster)", "group": "exc", "def": "pH를 목표값으로 맞추려고 넣는 산·염기.", "src": "01 완제의약품 제조 공정 PDF p.11", "drop": true},
     {"no": 21, "term": "보존제 (Preservative)", "group": "exc", "def": "사용 중 미생물이 자라지 않게 넣는 부형제.", "src": "01 완제의약품 제조 공정 PDF p.11"},
     {"no": 22, "term": "안정화제 (Stabilizer)", "group": "exc", "def": "단백질이 변성·응집되지 않게 지켜 주는 부형제.", "src": "01 완제의약품 제조 공정 PDF p.11"},
     {"no": 23, "term": "충전 (Filling)", "group": "fill", "def": "제품을 정해진 양만큼 용기에 담는 공정.", "src": "01 완제의약품 제조 공정 PDF p.16"},

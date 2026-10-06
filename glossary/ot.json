@@ -43,14 +43,16 @@
    "term": "Patent expiration (특허 만료)",
    "group": "business",
    "def": "오리지널 약의 독점 보호 기간이 끝나는 것.",
-   "src": "OT PDF p.12"
+   "src": "OT PDF p.12",
+   "drop": true
   },
   {
    "no": 7,
    "term": "Market share (시장 점유율)",
    "group": "business",
    "def": "전체 시장 중 우리 제품이 차지할 비율.",
-   "src": "OT PDF p.12"
+   "src": "OT PDF p.12",
+   "drop": true
   },
   {
    "no": 8,
@@ -85,14 +87,16 @@
    "term": "Equipment list (장비 목록)",
    "group": "design",
    "def": "필요한 장비를 사양·크기·수량과 함께 정리한 표.",
-   "src": "OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)"
+   "src": "OT PDF p.13, p.24–26 (Equipment List & Cost Estimation)",
+   "drop": true
   },
   {
    "no": 13,
    "term": "Utility consumption (유틸리티 사용량)",
    "group": "design",
    "def": "공정 운전에 드는 물·스팀·전기·가스의 양.",
-   "src": "OT PDF p.13"
+   "src": "OT PDF p.13",
+   "drop": true
   },
   {
    "no": 14,
@@ -134,14 +138,16 @@
    "term": "감가상각 (Depreciation)",
    "group": "cost",
    "def": "설비 투자비를 사용 기간에 나눠 비용으로 잡는 것.",
-   "src": "OT PDF p.27"
+   "src": "OT PDF p.27",
+   "drop": true
   },
   {
    "no": 20,
    "term": "Milestone (마일스톤)",
    "group": "operation",
    "def": "프로젝트를 단계별로 나눈 중간 목표 시점.",
-   "src": "OT PDF p.16 (Example_Milestone)"
+   "src": "OT PDF p.16 (Example_Milestone)",
+   "drop": true
   },
   {
    "no": 21,

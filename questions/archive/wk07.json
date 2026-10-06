@@ -1,0 +1,527 @@
+{
+  "week": "WK07",
+  "title": "GMP Engineering (시설 설계·건설·프로젝트 관리) — 보관(출제 안 함)",
+  "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
+  "questions": [
+    {
+      "id": "wk07-001",
+      "type": "연결",
+      "question": "식당 비유에서 식당 요소와 의약품 공장 요소의 연결로 옳지 않은 것은?",
+      "choices": [
+        "재료 – 원료(Starting material)",
+        "튀김기 – 장비(Equipment)",
+        "손님 – 청정 유틸리티(Clean utility)",
+        "식당 건물 – 시설(Facility)",
+        "레시피 – 공정(Process)"
+      ],
+      "answer": 3,
+      "explanation": "**식당 = 시설, 재료 = 원료, 레시피 = 공정, 조리 기구 = 장비, 요리사 = 사람, 물·전기·환기 = 유틸리티.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 물·전기·환기가 유틸리티다.",
+        "옳은 진술.",
+        "옳은 진술."
+      ],
+      "source": "WK07 GMP Engineering PDF p.5–13 (Brainstorming)",
+      "tags": [
+        "Facility",
+        "Process",
+        "Utility"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-003",
+      "type": "개념",
+      "question": "미국 FDA 21 CFR 211.42(건물 설계)의 취지로 옳은 것은?",
+      "choices": [
+        "시험 전 원료와 합격 원료를 섞어 보관한다",
+        "청소 공간은 고려하지 않는다",
+        "페니실린을 다른 약과 함께 만든다",
+        "작업별로 구역을 나눠 혼동과 오염을 막는다",
+        "무균 구역 벽은 거칠어도 된다"
+      ],
+      "answer": 4,
+      "explanation": "**건물은 청소·정비에 알맞은 크기로, 작업별 구역을 나눠 혼동(mix-up)과 오염을 막아야 한다.** 페니실린은 별도 시설에서 만든다.",
+      "choiceNotes": [
+        "틀리다 — 구역을 나눠야 한다.",
+        "틀리다 — 청소·정비에 맞는 크기여야 한다.",
+        "틀리다 — 별도 시설.",
+        "옳다.",
+        "틀리다 — 매끈하고 닦기 쉬워야 한다."
+      ],
+      "source": "WK07 PDF p.18–20 (US FDA 21 CFR 211.42)",
+      "tags": [
+        "21 CFR 211.42",
+        "Mix-up",
+        "구역 분리"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-005",
+      "type": "개념",
+      "question": "고활성(독성이 강한) 제품을 들여올 때 설계에 넣지 않는 것은?",
+      "choices": [
+        "봉쇄(containment) 설비",
+        "구분된 공조(HVAC)",
+        "분리된 보관 구역",
+        "필요하면 전용 장비",
+        "다른 제품과 장비 그대로 공유"
+      ],
+      "answer": 5,
+      "explanation": "**고활성 제품은 봉쇄와 분리가 원칙이라 장비를 그대로 공유하지 않는다.**",
+      "choiceNotes": [
+        "넣는다.",
+        "넣는다.",
+        "넣는다.",
+        "넣는다.",
+        "넣지 않는다(정답) — 교차오염 위험."
+      ],
+      "source": "WK07 PDF p.23",
+      "tags": [
+        "HPAPI",
+        "Containment"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-006",
+      "type": "연결",
+      "question": "제품 정보와 그에 따라 정하는 설계 항목의 연결로 옳지 않은 것은?",
+      "choices": [
+        "제품 종류 – 다목적 시설인지 전용 시설인지",
+        "생산 예측 – 청정 등급의 입자 기준",
+        "제품 종류 – 장비 용량과 개수",
+        "생산 예측 – 물류와 근무 교대 방식",
+        "색이 잘 배는 물질 – 전용 장비와 CIP"
+      ],
+      "answer": 2,
+      "explanation": "**청정 등급별 입자 기준은 규정으로 정해진 값이다.** 제품 종류 → 다목적/전용·장비 용량, 생산 예측 → 물류·교대 방식, 착색 물질 → 전용 장비·CIP.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "틀린 진술(정답) — 입자 기준은 규정(Annex 1·ISO)으로 정해져 있다.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
+      ],
+      "source": "WK07 PDF p.22 (Product vs. Design Features), p.36–37",
+      "tags": [
+        "Production forecast",
+        "Dedicated facility"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-007",
+      "type": "개념",
+      "question": "시설 설계 요소 중 '공정(Process)'에 해당하지 않는 것은?",
+      "choices": [
+        "장비 선정과 크기 계산",
+        "자동화 개념",
+        "공정실 배치와 자재·사람 동선",
+        "연료·냉각수 같은 black utility",
+        "물질수지 확인"
+      ],
+      "answer": 4,
+      "explanation": "**공정 요소: 공정 구조화, 물질수지, 장비 선정·크기·통합, 자동화, room layout, 동선.** Black utility·전기·통신은 건물 서비스 요소다. 공정이 시설 설계의 핵심이다.",
+      "choiceNotes": [
+        "해당한다.",
+        "해당한다.",
+        "해당한다.",
+        "해당하지 않는다(정답) — 건물·건물 서비스 요소다.",
+        "해당한다."
+      ],
+      "source": "WK07 PDF p.25 (Elements to be Considered), p.26",
+      "tags": [
+        "Process element",
+        "Building services"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-009",
+      "type": "개념",
+      "question": "설비를 설계할 때 titer를 현재보다 약 15 % 높게 잡는 이유는?",
+      "choices": [
+        "규정이 15 %를 요구해서",
+        "생산량을 줄이려고",
+        "보험료를 줄이려고",
+        "titer와 설비 크기는 관계없어서",
+        "나중에 titer가 올라도 설비가 모자라지 않게 하려고"
+      ],
+      "answer": 5,
+      "explanation": "**앞으로 공정이 개선돼 titer가 올라도 버퍼·필터·컬럼이 모자라지 않도록 설계 titer를 약 15 % 높게 잡는다.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 관계가 크다.",
+        "옳다 — 과소·과대 설계를 막는 여유."
+      ],
+      "source": "WK07 PDF p.29 (Mass Balance: Design titer assumption plus 15%)",
+      "tags": [
+        "Mass balance",
+        "Design titer"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-010",
+      "type": "개념",
+      "question": "물질수지(mass balance)로 계산하는 것이 아닌 것은?",
+      "choices": [
+        "컬럼 크기",
+        "필터 크기",
+        "청정 등급별 입자 기준",
+        "버퍼 탱크 크기",
+        "WFI 등 유틸리티 사용량"
+      ],
+      "answer": 3,
+      "explanation": "**물질수지로 공정 부피를 정하고 → 필터·컬럼·버퍼 탱크 크기와 유틸리티 사용량을 계산한다.**",
+      "choiceNotes": [
+        "계산한다.",
+        "계산한다.",
+        "계산하지 않는다(정답) — 규정으로 정해진 값.",
+        "계산한다.",
+        "계산한다."
+      ],
+      "source": "WK07 PDF p.29 (Mass Balance), p.36–37",
+      "tags": [
+        "Mass balance",
+        "Utility capacity"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-011",
+      "type": "개념",
+      "question": "장비 배치도(room layout)로 확인하는 것이 아닌 것은?",
+      "choices": [
+        "공간이 충분한지",
+        "실제로 작업할 수 있는지",
+        "제품 판매 가격",
+        "이동식 장비가 다닐 통로",
+        "장비 사이 배치"
+      ],
+      "answer": 3,
+      "explanation": "**Room layout으로 공간 제약, 작업 가능성(operability), 이동 장비 통로를 확인한다.** 복도에 둔 버퍼 탱크(palletank)도 표시한다.",
+      "choiceNotes": [
+        "확인한다.",
+        "확인한다.",
+        "확인하지 않는다(정답).",
+        "확인한다.",
+        "확인한다."
+      ],
+      "source": "WK07 PDF p.32 (Process Equipment Integration)",
+      "tags": [
+        "Room layout",
+        "Single-use"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-013",
+      "type": "개념",
+      "question": "공정 자동화 시스템에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "자동화 시스템은 밸리데이션 대상이 아니다",
+        "다른 회사 장비는 연결할 수 없다",
+        "SCADA는 이중화하지 않는다",
+        "PLC가 장비를 제어하고 SCADA가 전체를 감시한다",
+        "모든 장비를 손으로만 운전한다"
+      ],
+      "answer": 4,
+      "explanation": "**분산 PLC가 장비를 제어하고, 이중화한 SCADA가 전체를 감시하며, 다른 회사 장비도 통합한다(ISA-S88 구조).** 이런 시스템은 CSV 대상이다.",
+      "choiceNotes": [
+        "틀리다 — 컴퓨터 시스템 밸리데이션(CSV) 대상.",
+        "틀리다 — 통합한다.",
+        "틀리다 — 이중화한다.",
+        "옳다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.33 (Process Automation), p.58 (Computer System Validation)",
+      "tags": [
+        "Automation",
+        "SCADA",
+        "CSV"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-014",
+      "type": "연결",
+      "part": 2,
+      "question": "Spine 개념과 Campus 개념의 차이로 옳은 것은?",
+      "choices": [
+        "Spine은 건물을 연결하지 않음",
+        "Spine은 복도로 건물을 연결, Campus는 건물이 따로 떨어져 있음",
+        "Campus는 모든 기능을 한 건물에 넣음",
+        "둘 다 같은 뜻",
+        "Campus는 지하로 꼭 연결함"
+      ],
+      "answer": 2,
+      "explanation": "**Spine 개념 = 여러 건물을 연결 복도로 이어 하나의 복합 시설로, Campus 개념 = 건물들이 구조적으로 연결되지 않고 부지에 흩어져 있음.**",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "옳다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.35 (Building and Site)",
+      "tags": [
+        "Site master plan",
+        "Spine",
+        "Campus"
+      ]
+    },
+    {
+      "id": "wk07-018",
+      "type": "개념",
+      "question": "자재를 청정 구역으로 들일 때(자재 에어락) 올바른 방법은?",
+      "choices": [
+        "에어락에서 닦고 포장을 벗겨 분리선 너머로 넘긴다",
+        "양쪽 문을 동시에 열고 빨리 옮긴다",
+        "포장째 들고 청정 구역까지 들어간다",
+        "사람 에어락으로 같이 들고 들어간다",
+        "청정 구역 작업자가 나와서 받아 간다"
+      ],
+      "answer": 1,
+      "explanation": "**자재 에어락에서 자재를 닦고 외포장을 벗긴 뒤 분리선 너머로 밀어 넣는다. 사람은 분리선을 넘지 않는다.**",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 압력 차가 무너진다.",
+        "틀리다.",
+        "틀리다 — 자재 에어락을 쓴다.",
+        "틀리다 — 분리선을 넘으면 안 된다."
+      ],
+      "source": "WK07 PDF p.40 (Cleanroom Airlocks), p.42 (GMP Flows)",
+      "tags": [
+        "Material airlock",
+        "Separation line"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-019",
+      "type": "개념",
+      "question": "사람 에어락(갱의실)에서의 행동으로 옳지 않은 것은?",
+      "choices": [
+        "손을 씻고 소독한 뒤 갱의 지침대로 옷을 입는다",
+        "의자(step-over bench)를 넘으며 신발을 바꾼다",
+        "거울로 옷차림을 점검한다",
+        "벗은 옷은 종류별 통에 넣는다",
+        "신발 커버 없이 분리선을 먼저 넘었다가 돌아온다"
+      ],
+      "answer": 5,
+      "explanation": "**갱의를 모두 마친 뒤에만 분리선을 넘는다.** 손 소독 → 갱의 → 신발 교체(step-over bench) → 거울 점검 순.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 갱의를 마친 뒤에만 넘는다."
+      ],
+      "source": "WK07 PDF p.40 (Personnel air lock) · 01 완제 PDF p.18",
+      "tags": [
+        "Personnel airlock",
+        "Gowning"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-023",
+      "type": "연결",
+      "question": "WFI와 냉각수의 적격성평가(Q&V) 취급으로 옳은 것은?",
+      "choices": [
+        "둘 다 Q&V 대상",
+        "둘 다 대상 아님",
+        "냉각수만 Q&V 대상",
+        "WFI는 Q&V 대상, 냉각수는 대상 아님",
+        "유틸리티는 모두 설비가 아니라 대상 아님"
+      ],
+      "answer": 4,
+      "explanation": "**WFI는 제품에 닿는 clean utility라 품질에 영향을 주어 Q&V 대상이고, 냉각수는 black utility라 Q&V 범위 밖이다.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 반대다.",
+        "옳다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.46 (Clean Utilities), p.48 (Black Utilities)",
+      "tags": [
+        "Q&V 범위",
+        "Clean utility",
+        "Black utility"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-024",
+      "type": "연결",
+      "question": "유틸리티와 용도의 연결로 옳지 않은 것은?",
+      "choices": [
+        "CIP/WIP – 장비 세척",
+        "냉각수 – 제품에 직접 닿는 용도",
+        "WFI – 제품·버퍼 제조",
+        "순수 증기 – 장비 멸균",
+        "가습용 증기 – 공조 가습"
+      ],
+      "answer": 2,
+      "explanation": "**냉각수(6/12 ℃, 12/18 ℃)는 제품에 닿지 않는 black utility다.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "틀린 진술(정답) — 냉각수는 black utility.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
+      ],
+      "source": "WK07 PDF p.46, p.48",
+      "tags": [
+        "Clean utility",
+        "Pure steam",
+        "Clean steam"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-026",
+      "type": "개념",
+      "question": "정전 순간에도 전원이 끊기지 않게 해 주는 장치는?",
+      "choices": [
+        "비상 디젤 발전기",
+        "UPS(무정전 전원장치)",
+        "일반 전원",
+        "냉각수 펌프",
+        "SCADA"
+      ],
+      "answer": 2,
+      "explanation": "**UPS는 정전 순간에도 끊김 없이 전원을 줘 컴퓨터·실험실 장비의 데이터를 지킨다.** 비상 발전기는 잠시 뒤 기동해 주요 설비를 받친다.",
+      "choiceNotes": [
+        "틀리다 — 몇 초 뒤 기동한다.",
+        "옳다 — IT·실험실 장비에 연결.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.50 (Electrical System: Network / Diesel / UPS)",
+      "tags": [
+        "Electrical",
+        "UPS"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-028",
+      "type": "개념",
+      "question": "FAT(Factory Acceptance Test)는 언제·어디서 하는가?",
+      "choices": [
+        "장비를 출하하기 전에 제작사 공장에서",
+        "설치 후 우리 공장에서",
+        "생산을 시작한 뒤",
+        "허가를 받은 뒤",
+        "PQ가 끝난 뒤"
+      ],
+      "answer": 1,
+      "explanation": "**FAT는 출하 전 제작사 공장에서 사양대로 만들어졌는지 확인하는 시험이다.** 결함은 이 단계에서 고치는 것이 가장 싸고 빠르다. 설치 후에는 SAT·IQ·OQ로 다시 확인한다.",
+      "choiceNotes": [
+        "옳다 — 결함은 출하 전에 고친다.",
+        "틀리다 — 그건 SAT/IQ.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.51 (FAT, IQ/SAT, OQ, Change Control)",
+      "tags": [
+        "FAT",
+        "SAT",
+        "Change control"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-029",
+      "type": "연결",
+      "question": "프로젝트 단계와 활동의 연결로 옳지 않은 것은?",
+      "choices": [
+        "개념 설계 – 생산 예측, BFD/PFD, 유틸리티 용량",
+        "엔지니어링 – 기본·상세 설계, 인허가, 입찰",
+        "시공 – 조달, 현장 안전, 시운전",
+        "Q&V – DQ·IQ·OQ·PQ, 공정 밸리데이션",
+        "시설 관리 – 처음 인허가 신청과 입찰"
+      ],
+      "answer": 5,
+      "explanation": "**개념 설계 → 엔지니어링(인허가·입찰) → 시공(시운전) → Q&V → 시설 관리(유지보수·재적격성평가·재교정).**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 시설 관리는 유지보수·재적격성평가·재교정."
+      ],
+      "source": "WK07 PDF p.54–59 (Project Steps 1–5)",
+      "tags": [
+        "Project steps",
+        "Technical facility management"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-030",
+      "type": "개념",
+      "question": "Project integration(프로젝트 통합)의 의미는?",
+      "choices": [
+        "각 팀이 따로 끝낸 뒤 마지막에 모은다",
+        "Q&V는 준공 후에만 한다",
+        "모든 분야가 처음부터 한 팀으로 설계·실행한다",
+        "건축이 끝난 뒤 공정을 정한다",
+        "분야 사이 조율은 필요 없다"
+      ],
+      "answer": 3,
+      "explanation": "**공정·건축·청정·유틸리티·자동화·Q&V 등 여러 분야가 처음부터 통합 팀으로 함께 설계하고 실행한다.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "옳다 — Q&V도 처음부터 참여.",
+        "틀리다 — 공정이 핵심이다.",
+        "틀리다 — 관계가 매우 복잡하다."
+      ],
+      "source": "WK07 PDF p.52 (Project Integration), p.26 (Process is the core)",
+      "tags": [
+        "Project integration",
+        "Q&V"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk07-032",
+      "type": "개념",
+      "question": "Single-use 밀폐 공정의 구성요소가 아닌 것은?",
+      "choices": [
+        "열려 있는 스테인리스 맨홀",
+        "일회용 백(bag)",
+        "튜브 무균 연결·분리 장치",
+        "필터",
+        "벤트 필터"
+      ],
+      "answer": 1,
+      "explanation": "**Single-use 시스템은 일회용 백, 튜브 무균 연결·분리, 필터, 벤트로 밀폐 상태를 유지한다.**",
+      "choiceNotes": [
+        "구성요소가 아니다(정답) — 밀폐가 아니다.",
+        "구성요소다.",
+        "구성요소다.",
+        "구성요소다.",
+        "구성요소다."
+      ],
+      "source": "WK07 PDF p.63 (Single Use System)",
+      "tags": [
+        "Single-use",
+        "Closed processing"
+      ],
+      "part": 1
+    }
+  ]
+}

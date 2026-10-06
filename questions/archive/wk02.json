@@ -1,0 +1,984 @@
+{
+  "week": "WK02",
+  "title": "Upstream Process 1 (세포배양·배양 방식·Scale-up) — 보관(출제 안 함)",
+  "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
+  "questions": [
+    {
+      "id": "wk02-005",
+      "type": "개념",
+      "question": "소형 배양기(Ambr 15) 여러 개로 pH·교반·접종 밀도를 바꿔 가며 실험하는 목적은?",
+      "choices": [
+        "한 번에 한 요인씩만 바꿔 보려고",
+        "모든 조합을 빠짐없이 시험하려고",
+        "titer 하나만 측정하려고",
+        "결과를 참고 자료로만 남기려고",
+        "적은 실험으로 최적 운영 범위를 찾으려고"
+      ],
+      "answer": 5,
+      "explanation": "**DoE(실험계획법)는 여러 요인을 동시에 조합해 적은 실험으로 최적 운영 범위(Design Space)를 찾는 방법이다.** 강의: 변수가 7~8개만 돼도 모든 조합을 다 돌릴 수 없다. 남이 200번 할 실험을 100번에 끝내는 효율이 경쟁력이다.",
+      "choiceNotes": [
+        "틀리다 — DoE는 여러 요인을 동시에 바꾼다.",
+        "틀리다 — 요인이 많으면 모든 조합은 불가능하다.",
+        "틀리다 — VCD·viability 같은 결과도 본다.",
+        "틀리다 — 결과로 Design Space를 정한다.",
+        "옳다 — DoE(실험계획법)의 목적이다."
+      ],
+      "source": "WK02 PDF p.56–58 (Plan of Experiment, Condition with 24 vessel) · WK02 강의 녹음 26:16, 27:54–29:01",
+      "tags": [
+        "DoE",
+        "Design space",
+        "Ambr 15"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-006",
+      "type": "개념",
+      "question": "배양 중 pH가 계속 떨어질 때 배양 담당자가 먼저 할 일은?",
+      "choices": [
+        "원인 확인 없이 센서부터 바꾼다",
+        "샘플링해 lactate·glucose 등 원인을 확인한다",
+        "CO₂를 더 넣는다",
+        "샘플링 없이 화면 값만 본다",
+        "즉시 배치를 폐기한다"
+      ],
+      "answer": 2,
+      "explanation": "**pH가 떨어지면 먼저 샘플링 데이터(glucose 소비, lactate 축적, glutamine 대사)로 원인을 찾는다.** 배양기는 pH·온도·교반·DO만 보여 주므로 대사 상태는 샘플링 후 외부 장비로 분석해야 한다. 참고: pH가 떨어지면 염기(sodium bicarbonate 등), 올라가면 CO₂로 맞춘다.",
+      "choiceNotes": [
+        "틀리다 — 원인부터 확인한다.",
+        "옳다 — 숫자(샘플링 데이터)로 원인을 찾는다.",
+        "틀리다 — CO₂는 pH를 더 낮춘다.",
+        "틀리다 — 화면에는 대사 상태가 나오지 않는다.",
+        "틀리다 — 원인을 보고 조치를 정한다."
+      ],
+      "source": "WK02 강의 녹음 01:13:44–01:14:43, 01:26:35, 02:31:25–02:33:04",
+      "tags": [
+        "pH",
+        "문제 해결",
+        "Sampling"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-007",
+      "type": "개념",
+      "question": "Design Space와 set point에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "set point는 범위의 가장자리에 둔다",
+        "실패 위험(적색) 영역에서도 운전할 수 있다",
+        "소규모 결과는 검증 없이 생산에 쓴다",
+        "set point는 실패 경계에서 떨어진 안쪽에 둔다",
+        "승인된 범위 밖으로도 자유롭게 바꾼다"
+      ],
+      "answer": 4,
+      "explanation": "**Design Space는 운영 범위의 경계(boundary)를 정해 주고, set point는 그 경계에서 충분히 떨어진 녹색(최적) 영역 안쪽에 둔다.** 슬라이드: Red = 실패 위험, Green = 최적. 운전 조건은 승인된 Design Space 안에서만 조절하고, 소규모 모델이 상업 공정을 얼마나 대표하는지도 검증해야 한다.",
+      "choiceNotes": [
+        "틀리다 — 가장자리는 실패 위험에 가깝다.",
+        "틀리다 — 녹색(최적) 영역에서 운전한다.",
+        "틀리다 — 소규모 모델의 대표성을 검증해야 한다.",
+        "옳다.",
+        "틀리다 — 승인된 Design Space 안에서만 조절한다."
+      ],
+      "source": "WK02 PDF p.71 (Conclusion in Design Space, 필기: hypercube = boundary 설정), p.16 (수업 필기: QbD), p.98 (FDA PV Guidance 인용)",
+      "tags": [
+        "Design space",
+        "Set point",
+        "QbD"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-011",
+      "type": "연결",
+      "question": "Concentrated fed-batch와 dynamic perfusion(둘 다 ATF 사용)의 비교로 옳지 않은 것은?",
+      "choices": [
+        "Concentrated FB: UF 모드로 제품을 남긴다",
+        "Dynamic perfusion: MF 모드로 제품을 뺀다",
+        "두 방식 모두 배양기마다 정제 라인이 필요하다",
+        "Dynamic perfusion은 배지를 많이 쓴다",
+        "Concentrated FB는 끝날 때 한 번에 수확한다"
+      ],
+      "answer": 3,
+      "explanation": "**배양기 1기당 정제 라인 1개가 필요한 것은 dynamic perfusion뿐이다.** Concentrated FB(UF 모드)는 제품을 배양기에 남겼다가 마지막에 수확하므로, fed-batch처럼 여러 배양기가 정제 라인 하나를 같이 쓴다. Dynamic perfusion(MF 모드)은 제품을 계속 빼내 바로 정제하므로 배양기마다 정제 라인이 붙는다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 배양기마다 정제 라인이 필요한 것은 dynamic perfusion뿐이다.",
+        "옳은 진술 — 배지를 계속 교환한다.",
+        "옳은 진술."
+      ],
+      "source": "WK02 PDF p.40 (Concentrated Continuous Fed-Batch), p.41 (Dynamic Perfusion in Main Bioreactor)",
+      "tags": [
+        "ATF",
+        "UF mode",
+        "MF mode",
+        "Concentrated fed-batch",
+        "Dynamic perfusion"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-013",
+      "type": "연결",
+      "question": "Stainless fed-batch와 dynamic perfusion의 원가 구조 비교로 옳은 것은?",
+      "choices": [
+        "관류는 설비비가 거의 들지 않는다",
+        "fed-batch는 소모품 비중이 가장 크다",
+        "두 방식의 차이는 인건비뿐이다",
+        "fed-batch는 설비비, 관류는 소모품 비중이 크다",
+        "관류는 fed-batch보다 배지를 덜 쓴다"
+      ],
+      "answer": 4,
+      "explanation": "**대형 stainless 설비 중심의 fed-batch는 설비 투자비(Capital charge) 비중이, 배지를 계속 교환하는 dynamic perfusion은 재료·소모품 비중이 크다.** 강화 공정은 설비 규모를 줄이는 대신 배지·필터 사용이 늘어나는 trade-off가 있으므로, CAPEX·OPEX를 함께 보고 공정을 고른다.",
+      "choiceNotes": [
+        "틀리다 — 관류도 배양기를 쓴다.",
+        "틀리다 — 일회용 bag을 매번 바꾸는 방식이 아니다.",
+        "틀리다 — 설비비·재료비·소모품 차이가 크다.",
+        "옳다.",
+        "틀리다 — 배지를 계속 교환해 더 쓴다."
+      ],
+      "source": "WK02 PDF p.34 (COGS Distribution), p.41 (Dynamic Perfusion) · OT PDF p.27 (CAPEX·OPEX·ROI)",
+      "tags": [
+        "COGS",
+        "Capital charge",
+        "Consumables",
+        "Trade-off"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-016",
+      "type": "개념",
+      "part": 1,
+      "question": "Scale-up에서 tip speed(날개 끝 속도)를 보는 이유는?",
+      "choices": [
+        "배양액의 산소 농도를 알려고",
+        "날개 주변에서 세포가 받는 힘을 비교하려고",
+        "분당 기체 유량을 알려고",
+        "혼합 시간을 재려고",
+        "배양 온도를 맞추려고"
+      ],
+      "answer": 2,
+      "explanation": "**Tip speed는 impeller 날개 끝이 도는 속도로, 날개 주변 shear(전단력)에 의한 세포 손상 위험을 규모 간에 비교하는 데 쓴다.** 작은 배양기와 큰 배양기의 tip speed를 비슷하게 맞추면 날개 근처에서 세포가 느끼는 힘도 비슷하다. 기체 유량/부피는 VVM이다.",
+      "choiceNotes": [
+        "틀리다 — 산소 농도는 DO다.",
+        "옳다 — shear에 의한 세포 손상 위험을 본다.",
+        "틀리다 — 기체 유량/부피는 VVM이다.",
+        "틀리다 — 혼합 시간은 별개 지표다.",
+        "틀리다."
+      ],
+      "source": "WK02 PDF p.89 (Influencing Factors — Agitation), p.92 (Shear Force, Tip speed) · WK02 강의 녹음 02:40:31–02:42:07",
+      "tags": [
+        "Tip speed",
+        "Shear",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "wk02-019",
+      "type": "연결",
+      "question": "교반·통기가 범위를 벗어났을 때 생기는 문제의 연결로 옳지 않은 것은?",
+      "choices": [
+        "교반이 너무 약함 – 혼합 부족",
+        "교반이 너무 강함 – 세포 손상(shear)",
+        "통기가 너무 적음 – 산소 부족·CO₂ 축적",
+        "통기가 너무 많음 – 거품(foam)",
+        "통기가 너무 많음 – 산소 부족"
+      ],
+      "answer": 5,
+      "explanation": "**교반 하한 = 혼합 부족, 교반 상한 = shear stress, 통기 하한 = 산소 부족·CO₂ 축적, 통기 상한 = foam·flooding.** 교반·통기의 Design Space는 이 경계 안쪽으로 정한다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술 — flooding도 생긴다.",
+        "틀린 진술(정답) — 산소 부족은 통기가 적을 때다."
+      ],
+      "source": "WK02 PDF p.85 (Correlation in Balance), p.86 (Simplified Agitation), p.87 (Simplified Aeration), p.88 (Characterization of the Design Space)",
+      "tags": [
+        "Design space",
+        "Agitation",
+        "Aeration"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-020",
+      "type": "개념",
+      "question": "통기 기체 유속(superficial gas velocity)을 높이면 어떻게 되는가?",
+      "choices": [
+        "거품이 줄어든다",
+        "P/V가 늘어난다",
+        "산소 전달이 늘어난다",
+        "shear가 사라진다",
+        "아무 변화가 없다"
+      ],
+      "answer": 3,
+      "explanation": "**기체 유속을 높이면 산소 전달은 늘지만, 거품이 늘고 P/V는 줄어든다.** 슬라이드 Influencing Factors – Aeration 내용이다.",
+      "choiceNotes": [
+        "틀리다 — 거품은 늘어난다.",
+        "틀리다 — P/V는 줄어든다.",
+        "옳다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK02 PDF p.93 (Influencing Factors — Aeration)",
+      "tags": [
+        "Superficial gas velocity",
+        "Foam",
+        "kLa"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-022",
+      "type": "연결",
+      "question": "CHO 세포 배지 분석에서 아미노산과 역할의 연결로 옳은 것은?",
+      "choices": [
+        "세포 성장 – Tyrosine, Proline",
+        "단백질 생산의 주된 아미노산 – Leucine",
+        "독성 완화 – Lysine",
+        "제품 품질 – Glycine",
+        "성장 저해 – Serine"
+      ],
+      "answer": 1,
+      "explanation": "**성장 – Tyr, Phe, Pro, Ile / 단백질 생산 – Serine(주), Asp, Asn, His / 성장 저해(농도 높을 때) – Leu, Phe / 제품 품질 – Lysine / 독성 완화 – Thr, Gly.** 사용한 배지(spent media) 분석은 맞춤 배지 개발에 쓴다.",
+      "choiceNotes": [
+        "옳다 — 성장: Tyr, Phe, Pro, Ile.",
+        "틀리다 — 주된 것은 Serine이다.",
+        "틀리다 — 독성 완화는 Thr, Gly다.",
+        "틀리다 — 제품 품질은 Lysine이다.",
+        "틀리다 — Serine은 단백질 생산 쪽이다."
+      ],
+      "source": "WK02 PDF p.49 (Spent Media Analysis in Amino Acids and Vitamins)",
+      "tags": [
+        "Spent media",
+        "Amino acids",
+        "Media optimization"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-024",
+      "type": "연결",
+      "question": "관류 배양기의 온라인 측정값과 제어 대상의 연결로 옳은 것은?",
+      "choices": [
+        "온라인 glucose → cell bleed 제어",
+        "온라인 glucose → 배지 공급(glucose 농도) 제어",
+        "무게(balance) 신호 → DO 제어",
+        "온라인 lactate → 필터 크기 변경",
+        "온라인 VCD → pH 제어"
+      ],
+      "answer": 2,
+      "explanation": "**온라인 glucose·lactate(BioPAT Trace)로 glucose 농도를 제어하고, 온라인 VCD(BioPAT ViaMass)로 cell bleed를 조절해 세포밀도를 유지한다.** Balance(무게)는 배지·harvest 유량 균형을 맞추는 데 쓴다. Cell bleed는 일정 세포밀도를 유지하려고 세포를 계속 빼내는 흐름이다.",
+      "choiceNotes": [
+        "틀리다 — cell bleed는 온라인 VCD로 조절한다.",
+        "옳다.",
+        "틀리다 — 무게는 배지·harvest 유량 균형에 쓴다.",
+        "틀리다.",
+        "틀리다 — VCD는 cell bleed로 세포밀도를 맞추는 데 쓴다."
+      ],
+      "source": "WK02 PDF p.42 (CRD for Perfusion Culture), p.43 (Perfusion Bioreactor Set Up with PAT Integration)",
+      "tags": [
+        "PAT",
+        "Cell bleed",
+        "Perfusion control"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-026",
+      "type": "연결",
+      "question": "제품과 치료제 종류(modality)의 연결로 옳지 않은 것은?",
+      "choices": [
+        "Luxturna, Zolgensma – AAV 유전자치료제",
+        "Prochymal – CAR-NK 세포치료제",
+        "Kymriah – CAR-T 세포치료제",
+        "Moderna 코로나 백신 – mRNA 백신",
+        "AstraZeneca 코로나 백신 – 아데노바이러스 벡터"
+      ],
+      "answer": 2,
+      "explanation": "**Prochymal은 최초로 승인된 줄기세포(MSC) 치료제로, CAR-NK가 아니다.** AAV – Luxturna·Zolgensma / Lentivirus – Kymriah / mRNA – BioNTech·Pfizer, Moderna / Adenovirus – AstraZeneca, CanSino.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "틀린 진술(정답) — Prochymal은 최초 승인 줄기세포(MSC) 치료제다.",
+        "옳은 진술 — lentivirus 등으로 유전자를 바꾼 세포다.",
+        "옳은 진술 — BioNTech/Pfizer도 mRNA.",
+        "옳은 진술 — CanSino도 같다."
+      ],
+      "source": "WK02 PDF p.6 (Viral-Based Therapeutics), p.7 (Advanced Therapy Modalities)",
+      "tags": [
+        "Modality",
+        "AAV",
+        "CAR-T",
+        "mRNA"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-027",
+      "type": "개념",
+      "question": "WCB vial을 녹인 직후 세포 상태와 처리로 옳은 것은?",
+      "choices": [
+        "녹이자마자 생산 배양기에 넣는다",
+        "생존율이 낮으면 항생제를 넣는다",
+        "해동 직후 생존율은 항상 100 %다",
+        "일부만 살아 있어 계대배양으로 회복시킨다",
+        "seed 단계는 무균 관리를 줄인다"
+      ],
+      "answer": 4,
+      "explanation": "**해동 직후에는 세포 일부(약 60 %)만 살아 있어, 여러 단계 계대배양(subculture)으로 활성을 회복시킨 뒤 본배양에 접종한다.** 보통 4단계 정도 키워 생존율이 99 % 이상이 되면 다음 단계로 넘긴다.",
+      "choiceNotes": [
+        "틀리다 — 활성을 회복시킨 뒤 접종한다.",
+        "틀리다 — 생존율과 항생제는 관계없다.",
+        "틀리다 — 처음에는 일부만 살아 있다.",
+        "옳다.",
+        "틀리다 — seed 단계는 무균 관리를 가장 엄격히 한다."
+      ],
+      "source": "WK02 강의 녹음 01:07:23–01:09:05, 01:21:41–01:22:16 · WK02 PDF p.36 (Seed to Main)",
+      "tags": [
+        "Seed train",
+        "Thawing",
+        "Subculture"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-028",
+      "type": "연결",
+      "question": "VIP plot과 Coefficient plot의 차이로 옳은 것은?",
+      "choices": [
+        "VIP는 영향 크기만, Coefficient는 방향(+/−)까지",
+        "VIP는 방향만, Coefficient는 크기만",
+        "두 plot은 같은 정보를 담는다",
+        "계수가 음수인 변수는 관리하지 않는다",
+        "PCA score plot이 변수의 방향을 보여 준다"
+      ],
+      "answer": 1,
+      "explanation": "**VIP plot은 변수의 중요도(크기)만, Coefficient plot은 결과를 올리는지(+) 내리는지(−) 방향까지 보여 준다.** 음의 계수도 titer를 낮추는 중요한 변수이므로 관리한다. PCA score plot은 배치 사이의 그룹을 비교할 때 쓴다.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 반대로 설명했다.",
+        "틀리다.",
+        "틀리다 — titer를 낮추는 중요한 변수라 관리한다.",
+        "틀리다 — score plot은 배치 간 그룹 비교용이다."
+      ],
+      "source": "WK02 PDF p.51–52 (PCA Loadings·Scores·Biplot), p.53 (VIP Plot / Coefficient Plot), p.54 (Group Analysis)",
+      "tags": [
+        "MVDA",
+        "PLS",
+        "VIP",
+        "Coefficient"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-029",
+      "type": "연결",
+      "question": "HEK293T(AAV) 공정 사례에서 '세포 성장'에 영향이 큰 공정 변수로 확인된 것은?",
+      "choices": [
+        "DO와 온도",
+        "접종 밀도와 DO",
+        "plasmid 비율과 복합체 시간",
+        "배지와 세포주",
+        "pH와 교반 속도"
+      ],
+      "answer": 5,
+      "explanation": "**세포 성장(VCC·viability)에는 pH와 교반 속도가, titer(AAV 생산량)에는 배지와 세포주가 가장 큰 영향을 줬다.** 질문이 '성장'인지 '생산량'인지 구분하는 것이 핵심이다.",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — titer(AAV 생산량)에 영향이 컸던 인자다.",
+        "옳다."
+      ],
+      "source": "WK02 PDF p.12 (Optimization of CPPs for HEK293 Culture), p.13 (Optimization of HEK293T Culture — DoE)",
+      "tags": [
+        "AAV",
+        "HEK293",
+        "DoE screening",
+        "CPP"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-030",
+      "type": "연결",
+      "question": "센서 없이 공정 데이터로 배양기 속 영양분 농도를 추정하는 모델은?",
+      "choices": [
+        "Intracellular metabolic observer",
+        "Cell health state observer",
+        "Nutrient soft sensor",
+        "Descriptive 분석 대시보드",
+        "Torque 측정"
+      ],
+      "answer": 3,
+      "explanation": "**Nutrient soft sensor는 반응기 속 영양분 농도를 데이터로 추정한다.** Upstream hybrid model 3가지: Intracellular metabolic observer(세포 대사 상태), Cell health state observer(생세포·사세포 등 배양 건강), Nutrient soft sensor(영양분 농도).",
+      "choiceNotes": [
+        "틀리다 — 세포 안 대사 상태(소모 속도 등)를 추정한다.",
+        "틀리다 — 살아 있는·죽은 세포 등 배양 건강을 추정한다.",
+        "옳다.",
+        "틀리다 — 지난 일을 보여 주는 분석이다.",
+        "틀리다 — 교반 축의 힘을 재는 것이다."
+      ],
+      "source": "WK02 PDF p.82 (Upstream Hybrid Modeling), p.91 (Torque Measurement)",
+      "tags": [
+        "Hybrid model",
+        "Soft sensor"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-033",
+      "type": "개념",
+      "question": "세포주 개발에서 수백 개 클론과 배지 조건을 빠르게 비교할 때 쓰는 배양 방식은?",
+      "choices": [
+        "관류(Perfusion)",
+        "생산 규모 유가식",
+        "연속식(Continuous)",
+        "회분식(Batch)",
+        "N-1 perfusion"
+      ],
+      "answer": 4,
+      "explanation": "**클론 선별과 배지 스크리닝 초기에는 단순한 회분식(batch) 배양으로 많은 조건을 한꺼번에 비교한다.** 강의: 단일 세포를 골라 기본 배지로 3~4일 회분식 배양하고, 발현이 잘 되는 세포를 모아 다시 스크리닝한다. 배지 스크리닝도 수백 개 플라스크를 회분식으로 깔아 비교한다.",
+      "choiceNotes": [
+        "틀리다 — 장치가 복잡하다.",
+        "틀리다 — 생산 단계 방식이다.",
+        "틀리다.",
+        "옳다 — 단순해서 많은 조건을 한꺼번에 비교하기 좋다.",
+        "틀리다 — 생산성 향상 전략이다."
+      ],
+      "source": "WK02 강의 녹음 56:41–59:34",
+      "tags": [
+        "CLD",
+        "Clone selection",
+        "Batch"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-036",
+      "type": "개념",
+      "question": "Seed(종배양) 단계의 무균 관리에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "부피가 작아 무균 관리를 줄여도 된다",
+        "오염이 늦게 드러나므로 무균 수준을 가장 높게 한다",
+        "하루 지나 이상이 없으면 오염이 없다",
+        "오염은 생산 배양기에서만 문제다",
+        "오염되면 항생제로 해결한다"
+      ],
+      "answer": 2,
+      "explanation": "**Seed 단계는 무균 수준을 가장 높게 관리한다.** 미생물 한 마리가 들어가도 다음 날 바로 나타나지 않고 10일 가까이 지나서야 드러날 수 있어, 그 seed로 키운 모든 배양기가 영향을 받는다. 그래서 2~3겹으로 청소·소독하고 조심스럽게 작업한다.",
+      "choiceNotes": [
+        "틀리다 — 이후 모든 배양기가 영향을 받는다.",
+        "옳다.",
+        "틀리다 — 10일 가까이 지나서야 드러날 수 있다.",
+        "틀리다 — seed 오염은 뒤 단계 전체로 번진다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 01:21:41–01:22:42",
+      "tags": [
+        "Seed",
+        "Contamination",
+        "Aseptic"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-037",
+      "type": "개념",
+      "question": "대형 공장에서 작은 seed 배양기를 위층, 큰 생산 배양기를 아래층에 두는 이유는?",
+      "choices": [
+        "큰 배양기가 무거워서",
+        "아래층이 더 깨끗해서",
+        "위층은 등급 관리가 필요 없어서",
+        "중력으로 옮겨 세포 스트레스를 줄이려고",
+        "규정상 seed는 맨 위층이어야 해서"
+      ],
+      "answer": 4,
+      "explanation": "**Seed를 다음 배양기로 보낼 때 중력을 이용하면 세포가 스트레스를 덜 받으며 이송된다.** 그래서 설비가 작은 것부터 큰 것으로 위에서 아래로 내려오게 배치한다.",
+      "choiceNotes": [
+        "틀리다 — 강의에서 든 이유가 아니다.",
+        "틀리다.",
+        "틀리다 — 모든 층이 등급 관리 대상이다.",
+        "옳다.",
+        "틀리다 — 그런 규정은 없다."
+      ],
+      "source": "WK02 강의 녹음 01:27:47–01:28:30",
+      "tags": [
+        "Facility layout",
+        "Seed transfer"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-040",
+      "type": "개념",
+      "question": "생산 배양기에 같은 pH·DO 센서가 2개씩 달린 이유는?",
+      "choices": [
+        "두 값을 더해 제어하려고",
+        "하나는 세포 수를 재려고",
+        "하나가 고장 나면 바로 대신 쓰려고(백업)",
+        "모든 센서는 2개여야 해서",
+        "하나는 샘플링용이라서"
+      ],
+      "answer": 3,
+      "explanation": "**같은 센서가 두 개인 것은 배양 중 하나가 고장 나면 바로 다른 센서로 넘겨 배치를 지키기 위한 백업이다.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "옳다.",
+        "틀리다 — 그런 규정은 없다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 01:26:35–01:27:47",
+      "tags": [
+        "Sensor redundancy"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-041",
+      "type": "개념",
+      "question": "배양기에 거품(foam)이 많이 생길 때 가장 걱정되는 것은?",
+      "choices": [
+        "산소가 너무 많이 녹는 것",
+        "배양 온도가 내려가는 것",
+        "천장 vent filter가 젖어 기능을 잃는 것",
+        "pH 센서가 꺼지는 것",
+        "세포가 너무 빨리 자라는 것"
+      ],
+      "answer": 3,
+      "explanation": "**거품이 천장의 vent filter를 적시면 필터가 기능을 잃어 배치 전체를 잃을 수 있다.** 그래서 수위와 거품을 30분~1시간마다 확인하고, 소포제(anti-foam)나 통기 조정으로 바로 대응한다.",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "옳다 — 배치 전체를 잃을 수 있다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 01:31:59–01:32:42 · WK02 PDF p.87 (Max: foam), p.40 (Anti-foam feed)",
+      "tags": [
+        "Foam",
+        "Vent filter",
+        "대응"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-042",
+      "type": "개념",
+      "question": "배양 담당자의 일상 점검으로 거리가 먼 것은?",
+      "choices": [
+        "데이터는 한 달에 한 번 몰아서 본다",
+        "장비 알람 소리가 나는지 확인한다",
+        "당일 제조 기록서를 검토한다",
+        "배양액 색과 트렌드 그래프를 본다",
+        "오염 냄새가 나지 않는지 확인한다"
+      ],
+      "answer": 1,
+      "explanation": "**배양 상태는 매일 눈(색·그래프), 코(오염 냄새), 귀(알람)로 확인하고, 저녁에는 당일 제조 기록서를 검토한다.** 같은 조건에서도 결과가 똑같이 나오지 않는 것이 바이오의 어려움이라 매일 꼼꼼히 본다.",
+      "choiceNotes": [
+        "거리가 멀다(정답) — 매일 확인한다.",
+        "일상 점검이다 — 청각.",
+        "일상 점검이다 — 저녁에 검토한다.",
+        "일상 점검이다 — 시각.",
+        "일상 점검이다 — 후각."
+      ],
+      "source": "WK02 강의 녹음 01:31:15–01:32:42, 02:30:22–02:31:11",
+      "tags": [
+        "Daily routine",
+        "Batch record"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-043",
+      "type": "개념",
+      "question": "배양 온도를 낮추는 전략이 제품 품질과 관련되는 이유는?",
+      "choices": [
+        "glucose를 더 빨리 써서",
+        "저온에서는 오염이 안 생겨서",
+        "항체 구조가 저절로 고쳐져서",
+        "단백질을 온전하게 만들도록 유도해서",
+        "titer만 높으면 품질은 상관없어서"
+      ],
+      "answer": 4,
+      "explanation": "**37 ℃에서는 성장과 단백질 합성을 함께 하느라 온전하지 않은 항체가 생길 수 있고, 32 ℃로 낮추면 성장은 느려지지만 단백질을 온전히 만드는 쪽으로 유도된다.** titer가 높아도 엉망인 항체뿐이면 모두 버려야 하므로 품질과 직결된다.",
+      "choiceNotes": [
+        "틀리다 — 빠른 glucose 소비는 37 ℃ 쪽이다.",
+        "틀리다.",
+        "틀리다.",
+        "옳다.",
+        "틀리다 — 엉망인 항체는 모두 버려야 한다."
+      ],
+      "source": "WK02 강의 녹음 01:16:27–01:19:46 · WK02 PDF p.16 (필기)",
+      "tags": [
+        "Temperature shift",
+        "Product quality"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-045",
+      "type": "개념",
+      "question": "강의에서 말한 현재 산업 현장의 배양 방식으로 옳은 것은?",
+      "choices": [
+        "모든 회사가 완전 연속 생산을 한다",
+        "회분식이 상업 생산의 주류다",
+        "강화 기술은 규제로 금지돼 있다",
+        "유가식은 거의 사라졌다",
+        "아직 유가식(fed-batch)이 대부분이다"
+      ],
+      "answer": 5,
+      "explanation": "**지금도 유가식(fed-batch)이 약 70 % 이상을 차지하고, 첨단 강화 기술은 아직 적용 초기 단계다.** 어떤 기술을 어떻게 적용할지 고민하는 단계라 앞으로 확대될 여지가 크다.",
+      "choiceNotes": [
+        "틀리다 — 첨단 공정은 아직 걸음마 단계다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "옳다 — 약 70 % 이상."
+      ],
+      "source": "WK02 강의 녹음 02:01:43–02:03:14",
+      "tags": [
+        "Fed-batch",
+        "Industry trend"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-046",
+      "type": "개념",
+      "question": "관류(ATF) 배양 도입 시 비용 고려로 옳지 않은 것은?",
+      "choices": [
+        "배지를 매일 많이 써 배지 비용이 크다",
+        "장점만 있으니 비교 없이 도입한다",
+        "ATF 필터 같은 부자재가 비싸다",
+        "매일 나오는 harvest 정제 비용이 늘어난다",
+        "생산성과 비용을 비교해 고른다"
+      ],
+      "answer": 2,
+      "explanation": "**관류는 생산성이 높지만 배지·ATF 필터·매일 나오는 harvest 정제 비용이 큰 '양날의 검'이다.** 강의: 어떤 것도 장점만 있는 운전 기술은 없다 — 제품에 맞는 방식(fed-batch, N-1 perfusion, dynamic perfusion)을 비교해 고른다.",
+      "choiceNotes": [
+        "옳은 진술 — 하루에 배양 부피의 1~3배.",
+        "틀린 진술(정답) — 장점만 있는 기술은 없다.",
+        "옳은 진술.",
+        "옳은 진술 — 레진·부자재 비용.",
+        "옳은 진술."
+      ],
+      "source": "WK02 강의 녹음 02:09:15–02:09:46, 02:16:19–02:18:51",
+      "tags": [
+        "Perfusion",
+        "ATF",
+        "Trade-off"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-048",
+      "type": "개념",
+      "question": "N-1 perfusion이 허가 측면에서 유리한 이유는?",
+      "choices": [
+        "본배양 fed-batch를 그대로 둬 큰 변경을 피해서",
+        "허가 대상이 아니어서",
+        "공정을 처음부터 다시 개발해서",
+        "품질 시험을 생략할 수 있어서",
+        "서류가 전혀 필요 없어서"
+      ],
+      "answer": 1,
+      "explanation": "**본배양 fed-batch 방식은 그대로라 큰 공정 변경(major change)을 피하고, 이미 확립한 공정을 바탕으로 빠르게 허가받을 수 있다.** 본배양 방식을 바꾸면 연구 단계부터 다시 해야 할 정도의 큰 변경이 된다. 생산성도 올리고 허가도 빠른 '두 마리 토끼' 전략이다.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다.",
+        "틀리다 — 다시 개발하지 않는 것이 장점이다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 02:09:46–02:12:33 · WK02 PDF p.38",
+      "tags": [
+        "N-1 perfusion",
+        "Major change",
+        "허가"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-049",
+      "type": "개념",
+      "question": "강의에서 설명한 concentrated (continuous) fed-batch 운영 방식은?",
+      "choices": [
+        "배양할 때마다 vial부터 다시 시작한다",
+        "배지를 넣지 않고 계속 생산한다",
+        "세포를 모두 빼고 상등액만 다시 키운다",
+        "일반 항체 공정의 표준 방식이다",
+        "일부를 수확하고 남은 배양액을 seed로 다시 키운다"
+      ],
+      "answer": 5,
+      "explanation": "**사멸기 전에 대부분(예: 1,000 L 중 800 L)을 수확해 정제하고, 남은 배양액을 seed로 삼아 신선한 배지를 넣고 다시 키운다.** seed 단계를 상당 부분 건너뛰며 연속 생산할 수 있다. 다만 일반 항체보다는 특정 단백질 공정에서 쓰인다.",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다 — 신선한 배지를 넣는다.",
+        "틀리다.",
+        "틀리다 — 특정 단백질 공정에서 쓴다.",
+        "옳다 — seed 단계를 상당 부분 건너뛴다."
+      ],
+      "source": "WK02 강의 녹음 02:12:33–02:13:39 · WK02 PDF p.40 (필기: 1000 L → 800 L out, 200 L seed media)",
+      "tags": [
+        "Concentrated fed-batch"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-051",
+      "type": "개념",
+      "question": "생산 규모로 갈수록 어려워지는 점으로 옳지 않은 것은?",
+      "choices": [
+        "Impeller가 커져 rpm을 낮춰야 한다",
+        "rpm이 낮아 산소 전달이 떨어진다",
+        "운영 범위(design space)가 더 넓어진다",
+        "기체를 많이 넣어 거품이 늘어난다",
+        "CO₂가 잘 빠지지 않는다"
+      ],
+      "answer": 3,
+      "explanation": "**생산 규모의 운영 범위(design space)는 소규모보다 훨씬 좁아진다.** 큰 규모에서는 rpm↓ → 산소 전달↓ → 기체↑ → 거품↑, CO₂ 제거도 어려워진다. 이 좁은 범위를 찾아내는 것이 scale-up의 어려움이다.",
+      "choiceNotes": [
+        "옳은 진술 — 같은 rpm이면 힘(shear)이 커진다.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 오히려 훨씬 좁아진다.",
+        "옳은 진술 — 거품 속 세포는 죽는다.",
+        "옳은 진술."
+      ],
+      "source": "WK02 강의 녹음 02:44:06–02:47:31 · WK02 PDF p.98",
+      "tags": [
+        "Scale-up",
+        "Design space",
+        "Foam",
+        "CO₂"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-052",
+      "type": "개념",
+      "question": "강의에서 설명한 '프로세스 모델링(공정 지도)'과 QbD의 취지로 옳은 것은?",
+      "choices": [
+        "공정 전 과정의 지도를 만들고 따랐는지 검증한다",
+        "최종 제품 시험만 통과하면 된다",
+        "판매량을 예측하는 것이다",
+        "공정 문서를 줄이는 제도다",
+        "소규모에서만 필요하다"
+      ],
+      "answer": 1,
+      "explanation": "**지금은 공정 전 과정을 데이터로 지도화(모델링)하고, 그 지도대로 진행했는지까지 검증해야 한다 — 이것이 QbD의 취지다.** 과거에는 최종 제품 품질만 맞으면 승인했다.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 과거 방식이다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 01:46:32–01:48:25 · WK02 PDF p.16 (필기: QbD)",
+      "tags": [
+        "Process modeling",
+        "QbD"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-053",
+      "type": "연결",
+      "question": "Biopharma 4.0의 주제와 설명의 연결로 옳지 않은 것은?",
+      "choices": [
+        "Process intensification – 고밀도 배양 등 효율화",
+        "Digitization – 데이터 분석, 디지털 트윈",
+        "Process modeling – 공정 기전을 지도로 만든다",
+        "Automation – 데이터 분석을 생략하는 것",
+        "Real time control – 실시간 센서로 제어한다"
+      ],
+      "answer": 4,
+      "explanation": "**Biopharma 4.0: Process modeling(공정 지도), Real time control(실시간 센서), Process intensification(효율화), Digitization(데이터 분석·디지털 트윈), Automation(자동화).** 자동화가 진행돼도 데이터를 분석하고 판단하는 능력은 오히려 더 중요해진다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 자동화가 돼도 데이터 분석·판단은 더 중요해진다.",
+        "옳은 진술 — 의무는 아니다."
+      ],
+      "source": "WK02 강의 녹음 01:46:04–01:51:31, 02:27:53–02:28:46 · WK02 PDF p.28",
+      "tags": [
+        "Biopharma 4.0",
+        "Digital twin"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-055",
+      "type": "개념",
+      "question": "배지의 아미노산 설계에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "모든 아미노산을 같은 농도로 넣는다",
+        "아미노산은 단백질 합성과 관계없다",
+        "배양 중 아미노산 농도는 보지 않는다",
+        "CHO가 다 만들어 배지에 넣을 필요 없다",
+        "목표 단백질 구성을 보고 부족한 아미노산을 넣는다"
+      ],
+      "answer": 5,
+      "explanation": "**목표 단백질의 아미노산 구성을 분석하고, CHO 세포가 스스로 충분히 만들지 못하는 아미노산을 배지로 채워 준다.** 배양 중 농도 변화를 보고(spent media 분석) 조절 기준을 만든다.",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다 — 단백질은 아미노산으로 만들어진다.",
+        "틀리다 — 농도를 보고 조절 기준을 만든다.",
+        "틀리다 — CHO는 일부를 충분히 못 만든다.",
+        "옳다."
+      ],
+      "source": "WK02 강의 녹음 50:51–52:45 · WK02 PDF p.49 (Spent media analysis)",
+      "tags": [
+        "Media design",
+        "Amino acids"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-056",
+      "type": "연결",
+      "part": 2,
+      "question": "항체(CHO)와 AAV(HEK293)의 회수 방식 차이로 옳은 것은?",
+      "choices": [
+        "둘 다 세포를 깨서 회수한다",
+        "항체는 상등액에서, AAV는 세포를 깨서 회수한다",
+        "둘 다 상등액만 회수한다",
+        "항체는 세포를 깨고, AAV는 상등액에서 회수한다",
+        "AAV는 세포 없이 만든다"
+      ],
+      "answer": 2,
+      "explanation": "**항체는 CHO 세포가 세포 밖(상등액)으로 분비하고, AAV는 숙주세포(HEK293) 안에서 만들어져 세포를 깨서(lysis) 회수한다.** AAV 플랫폼: 배양 → lysis → 여과 → 크로마토그래피 → TFF.",
+      "choiceNotes": [
+        "틀리다 — 항체는 세포 밖으로 분비된다.",
+        "옳다.",
+        "틀리다 — AAV는 세포 안에서 만들어진다.",
+        "틀리다 — 반대다.",
+        "틀리다 — 숙주세포(HEK293)가 필요하다."
+      ],
+      "source": "WK02 강의 녹음 24:07–25:49, 32:26–34:15 · WK02 PDF p.12",
+      "tags": [
+        "AAV",
+        "HEK293",
+        "Harvest"
+      ]
+    },
+    {
+      "id": "wk02-058",
+      "type": "개념",
+      "question": "강의에서 '공정 정보는 이미 공개돼 있다'며 강조한 현업 경쟁력은?",
+      "choices": [
+        "데이터를 분석해 실험을 줄이고 문제를 해결하는 능력",
+        "경험만으로 판단하는 능력",
+        "다른 회사 공정을 외우는 능력",
+        "배지 조성을 비밀로 지키는 능력",
+        "장비를 많이 사는 능력"
+      ],
+      "answer": 1,
+      "explanation": "**경쟁력은 공개된 정보와 공정 데이터를 분석·판단해 실험 수와 개발 기간을 줄이고, 문제가 생기면 원인을 찾아 대응하는 능력이다.** 강의: 남이 200번 할 실험을 100번에 끝내는 능력, 그리고 문제 해결·데이터 분석·꼼꼼함.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 숫자(데이터)로 판단한다.",
+        "틀리다.",
+        "틀리다 — 이미 공개된 정보가 많다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 27:54–31:32, 02:25:52–02:26:40, 02:31:11–02:33:48",
+      "tags": [
+        "Data analysis",
+        "Problem solving",
+        "DoE"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-060",
+      "type": "개념",
+      "question": "생산 배치에서 생긴 문제를 Scale-Down Model(SDM)로 다루는 방법은?",
+      "choices": [
+        "생산 배양기에서 바로 조건을 바꿔 본다",
+        "문제 배치를 출하하고 다음에 본다",
+        "문제를 소규모에서 재현해 해결 조건을 찾는다",
+        "소규모 모델은 신제품 개발에만 쓴다",
+        "생산 데이터는 소규모와 비교하지 않는다"
+      ],
+      "answer": 3,
+      "explanation": "**생산에서 생긴 문제는 2 L 같은 소규모 모델에서 재현하고, DoE로 해결 조건을 찾아 생산 규모에 반영한다.** 이렇게 하면 생산 규모에서 같은 문제가 다시 생기지 않게 미리 막을 수 있다.",
+      "choiceNotes": [
+        "틀리다 — 생산 규모에서는 조건 실험을 할 수 없다.",
+        "틀리다.",
+        "옳다.",
+        "틀리다 — 생산 문제 해결에도 쓴다.",
+        "틀리다."
+      ],
+      "source": "WK02 강의 녹음 01:03:29–01:05:27 · WK02 PDF p.16 (필기: SDM)",
+      "tags": [
+        "SDM",
+        "Deviation",
+        "DoE"
+      ],
+      "part": 1
+    },
+    {
+      "id": "wk02-068",
+      "type": "연결",
+      "question": "DoE의 Screening design과 Optimization design의 차이로 옳은 것은?",
+      "choices": [
+        "Optimization을 먼저 하고 Screening을 나중에 한다",
+        "Screening이 최적 조건을 찾는 단계다",
+        "둘 다 요인을 하나씩만 바꾼다",
+        "Screening은 중요 요인 고르기, Optimization은 최적 조건 찾기",
+        "Optimization은 요인 수를 늘리는 단계다"
+      ],
+      "answer": 4,
+      "explanation": "**Screening design은 많은 후보 요인 중 영향이 큰 요인만 가려내는 첫 단계, Optimization design은 가려낸 핵심 요인으로 최적 조건을 찾는 두 번째 단계다.** HEK293T AAV 사례에서도 screening으로 영향 큰 인자를 고른 뒤 optimization으로 정밀화했다.",
+      "choiceNotes": [
+        "틀리다 — Screening이 먼저다.",
+        "틀리다 — 최적 조건은 Optimization에서 찾는다.",
+        "틀리다 — DoE는 여러 요인을 함께 바꾼다.",
+        "옳다.",
+        "틀리다 — 가려낸 핵심 요인으로 좁힌다."
+      ],
+      "source": "WK02 PDF p.13 (Optimization of HEK293T Culture — DoE)",
+      "tags": [
+        "Screening design",
+        "Optimization design",
+        "DoE"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk02-071",
+      "type": "연결",
+      "question": "교반·통기 지표와 뜻의 연결로 옳지 않은 것은?",
+      "choices": [
+        "P/V – 단위 부피당 교반 동력",
+        "kLa – 세포가 산소를 쓰는 속도",
+        "Tip speed – 날개 끝이 움직이는 속도",
+        "Mixing time – 고르게 섞이는 데 걸리는 시간",
+        "VVM – 분당 배양기 부피당 넣는 기체 부피"
+      ],
+      "answer": 2,
+      "explanation": "**kLa는 기포 속 산소가 배양액으로 녹아드는 효율(산소 전달 계수)이고, 세포가 산소를 쓰는 속도는 OUR이다.** P/V·tip speed·mixing time은 교반 쪽, VVM·기체 유속·kLa는 통기 쪽 지표다.",
+      "choiceNotes": [
+        "옳은 진술.",
+        "틀린 진술(정답) — 세포가 산소를 쓰는 속도는 OUR이다.",
+        "옳은 진술 — 날개 근처 shear 지표.",
+        "옳은 진술.",
+        "옳은 진술 — 통기량."
+      ],
+      "source": "WK02 PDF p.89, p.92–97",
+      "tags": [
+        "P/V",
+        "Tip speed",
+        "Mixing time",
+        "VVM",
+        "kLa"
+      ],
+      "part": 2
+    }
+  ]
+}

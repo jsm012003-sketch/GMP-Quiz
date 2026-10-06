@@ -71,7 +71,8 @@
    "term": "Membrane adsorber (막 흡착)",
    "group": "dsp",
    "def": "레진 컬럼 대신 막에 흘려 불순물을 빠르게 붙잡는 polishing 기술.",
-   "src": "WK06 PDF p.7, p.15, p.18"
+   "src": "WK06 PDF p.7, p.15, p.18",
+   "drop": true
   },
   {
    "no": 11,
@@ -99,21 +100,24 @@
    "term": "Diafiltration buffer (DF buffer)",
    "group": "uf",
    "def": "정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
-   "src": "WK06 PDF p.31"
+   "src": "WK06 PDF p.31",
+   "drop": true
   },
   {
    "no": 15,
    "term": "Continuous (single-pass) UF/DF",
    "group": "uf",
    "def": "탱크로 되돌리지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
-   "src": "WK06 PDF p.31"
+   "src": "WK06 PDF p.31",
+   "drop": true
   },
   {
    "no": 16,
    "term": "Bulk drug substance",
    "group": "dsp",
    "def": "정제를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-   "src": "WK06 PDF p.3, p.5"
+   "src": "WK06 PDF p.3, p.5",
+   "drop": true
   },
   {
    "no": 17,
@@ -141,21 +145,24 @@
    "term": "Linear flow rate (선속도)",
    "group": "chrom",
    "def": "컬럼 단면을 지나는 유속(cm/hr).",
-   "src": "WK06 PDF p.20"
+   "src": "WK06 PDF p.20",
+   "drop": true
   },
   {
    "no": 21,
    "term": "Resin cycling (다회 사이클)",
    "group": "chrom",
    "def": "작은 컬럼으로 여러 번 나눠 돌려 레진 비용을 줄이는 운전(시간은 늘어남).",
-   "src": "WK06 PDF p.23"
+   "src": "WK06 PDF p.23",
+   "drop": true
   },
   {
    "no": 22,
    "term": "Safety factor (설계 여유)",
    "group": "chrom",
    "def": "계산한 값에 일부러 더하는 여유분.",
-   "src": "WK06 PDF p.20"
+   "src": "WK06 PDF p.20",
+   "drop": true
   },
   {
    "no": 23,
@@ -176,7 +183,8 @@
    "term": "Heat inactivation (열 불활화)",
    "group": "vc",
    "def": "열로 바이러스 단백질을 변성시켜 죽이는 방법.",
-   "src": "WK06 PDF p.11"
+   "src": "WK06 PDF p.11",
+   "drop": true
   },
   {
    "no": 26,
@@ -211,14 +219,16 @@
    "term": "EMEA 임상시험용 의약품 바이러스 가이드라인",
    "group": "reg",
    "def": "임상시험 전 바이러스 감소 검증과 orthogonal 단계 2개 이상을 요구하는 유럽 가이드라인.",
-   "src": "WK06 PDF p.8"
+   "src": "WK06 PDF p.8",
+   "drop": true
   },
   {
    "no": 31,
    "term": "Case B cell",
    "group": "reg",
    "def": "내인성 레트로바이러스 유사 입자를 가진 생산 세포(MuLV로 제거 입증).",
-   "src": "WK06 PDF p.8"
+   "src": "WK06 PDF p.8",
+   "drop": true
   },
   {
    "no": 32,
@@ -246,98 +256,112 @@
    "term": "MuLV (Murine Leukaemia Virus)",
    "group": "virus",
    "def": "외피가 있는 레트로바이러스 — 내인성 레트로바이러스 모델.",
-   "src": "WK06 PDF p.8, p.14"
+   "src": "WK06 PDF p.8, p.14",
+   "drop": true
   },
   {
    "no": 36,
    "term": "MVM (Minute Virus of Mice)",
    "group": "virus",
    "def": "외피가 없는 작은 파보바이러스(저항성 매우 높음) — 동물세포 공정 모델.",
-   "src": "WK06 PDF p.14"
+   "src": "WK06 PDF p.14",
+   "drop": true
   },
   {
    "no": 37,
    "term": "PPV (Porcine Parvovirus)",
    "group": "virus",
    "def": "외피가 없는 작은 파보바이러스 — 혈장 제품에서 사람 B19 모델.",
-   "src": "WK06 PDF p.13–14"
+   "src": "WK06 PDF p.13–14",
+   "drop": true
   },
   {
    "no": 38,
    "term": "SV-40 (Simian Virus 40)",
    "group": "virus",
    "def": "외피가 없는 중간 크기 dsDNA 바이러스(저항성 매우 높음).",
-   "src": "WK06 PDF p.14"
+   "src": "WK06 PDF p.14",
+   "drop": true
   },
   {
    "no": 39,
    "term": "PRV (Pseudorabies Virus)",
    "group": "virus",
    "def": "외피가 있는 큰 바이러스 — CMV·HSV 같은 큰 외피 바이러스 모델.",
-   "src": "WK06 PDF p.13–14"
+   "src": "WK06 PDF p.13–14",
+   "drop": true
   },
   {
    "no": 40,
    "term": "Reo-3 (Reovirus 3)",
    "group": "virus",
    "def": "외피가 없는 dsRNA 바이러스(저항성 중간).",
-   "src": "WK06 PDF p.14"
+   "src": "WK06 PDF p.14",
+   "drop": true
   },
   {
    "no": 41,
    "term": "BVDV",
    "group": "virus",
    "def": "외피가 있는 RNA 바이러스 — 혈장 제품에서 C형 간염 바이러스 모델.",
-   "src": "WK06 PDF p.13"
+   "src": "WK06 PDF p.13",
+   "drop": true
   },
   {
    "no": 42,
    "term": "Cohn cold ethanol fractionation",
    "group": "plasma",
    "def": "에탄올·온도를 바꿔 혈장 단백질을 단계적으로 침전시키는 분획법.",
-   "src": "WK06 PDF p.12"
+   "src": "WK06 PDF p.12",
+   "drop": true
   },
   {
    "no": 43,
    "term": "IVIG (정맥용 면역글로불린)",
    "group": "plasma",
    "def": "혈장 분획에서 얻는 정맥 주사용 면역글로불린 제제.",
-   "src": "WK06 PDF p.12"
+   "src": "WK06 PDF p.12",
+   "drop": true
   },
   {
    "no": 44,
    "term": "Body feed",
    "group": "trend",
    "def": "여과 보조제를 배양액에 직접 섞어 청징 효율을 높이는 방법.",
-   "src": "WK06 PDF p.7 (Where Are We in DSP Technologies?) · 정의는 일반 원리"
+   "src": "WK06 PDF p.7 (Where Are We in DSP Technologies?) · 정의는 일반 원리",
+   "drop": true
   },
   {
    "no": 45,
    "term": "PCC (Periodic Counter-Current chromatography)",
    "group": "trend",
    "def": "여러 컬럼이 결합·용출·재생을 돌아가며 맡아 연속 포획하는 기술.",
-   "src": "WK06 PDF p.30–31"
+   "src": "WK06 PDF p.30–31",
+   "drop": true
   },
   {
    "no": 46,
    "term": "Sanofi ASAP concept",
    "group": "trend",
    "def": "단계별 컬럼 1개씩을 연속으로 이어 정제하는 Sanofi의 연속 정제 개념.",
-   "src": "WK06 PDF p.30"
+   "src": "WK06 PDF p.30",
+   "drop": true
   },
   {
    "no": 47,
    "term": "Semi-continuous → Continuous DSP",
    "group": "trend",
    "def": "회분식 컬럼 단계를 막·통합 단계로 바꿔 정제를 연속 흐름으로 만들어 가는 방향.",
-   "src": "WK06 PDF p.7"
+   "src": "WK06 PDF p.7",
+   "drop": true
   },
   {
    "no": 48,
    "term": "Intensified seed (고밀도 세포은행)",
    "group": "trend",
    "def": "고밀도로 얼린 세포은행과 관류 seed로 seed 단계를 줄이는 방식.",
-   "src": "WK06 PDF p.28"
+   "src": "WK06 PDF p.28",
+   "drop": true
   },
   {
    "no": 49,
@@ -358,42 +382,48 @@
    "term": "RO (Reverse Osmosis, 역삼투)",
    "group": "water",
    "def": "압력을 걸어 반투막으로 이온·유기물을 걸러 내는 물 처리.",
-   "src": "WK06 PDF p.27"
+   "src": "WK06 PDF p.27",
+   "drop": true
   },
   {
    "no": 52,
    "term": "Softener (연수기)",
    "group": "water",
    "def": "원수의 칼슘·마그네슘(경도 이온)을 없애는 전처리 장치.",
-   "src": "WK06 PDF p.27"
+   "src": "WK06 PDF p.27",
+   "drop": true
   },
   {
    "no": 53,
    "term": "Distribution loop (분배 루프)",
    "group": "water",
    "def": "정제수·주사용수를 계속 순환시켜 고여서 미생물이 자라지 않게 하는 배관.",
-   "src": "WK06 PDF p.27"
+   "src": "WK06 PDF p.27",
+   "drop": true
   },
   {
    "no": 54,
    "term": "SuperPro Designer",
    "group": "sim",
    "def": "물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어.",
-   "src": "WK06 PDF p.3 · OT PDF p.13"
+   "src": "WK06 PDF p.3 · OT PDF p.13",
+   "drop": true
   },
   {
    "no": 55,
    "term": "Pool / Hold tank",
    "group": "sim",
    "def": "정제 단계 사이에 용출액을 모아 두는 탱크.",
-   "src": "WK06 PDF p.3–4"
+   "src": "WK06 PDF p.3–4",
+   "drop": true
   },
   {
    "no": 56,
    "term": "Multi trains (다중 생산 라인)",
    "group": "sim",
    "def": "큰 라인 하나 대신 작은 생산 라인 여러 개를 나란히 운영하는 방식.",
-   "src": "WK06 PDF p.25"
+   "src": "WK06 PDF p.25",
+   "drop": true
   }
  ]
 }

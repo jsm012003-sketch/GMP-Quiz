@@ -9,6 +9,7 @@
 id는 용어 번호(no)로만 정해지므로 용어를 추가해도 기존 id는 바뀌지 않는다.
 (짝짓기 묶음은 남는 용어를 다음 묶음으로 채우므로, 기존 용어집 끝에 용어를 덧붙일 때는
  용어집 머리에 "matchSealed": <덧붙이기 전 마지막 no>를 적어 기존 짝짓기 id를 그대로 둔다.)
+지엽적이라 걸러 낸 용어는 지우지 말고 "drop": true 를 붙인다 — 번호(no)는 그대로 예약되고 문항·오답 선지에서 빠진다.
 오답 선지는 같은 group(헷갈리기 쉬운 묶음)에서 2개, 같은 단원의 다른 group에서 2개를
 고른다. 선지 선택·정답 위치는 id로 시드를 정해 매번 같은 결과가 나온다.
 
@@ -246,6 +247,7 @@ def main():
         if len(nos) != len(set(nos)):
             print(f'{f.name}: 용어 번호(no)가 중복됩니다.')
             return 1
+        terms = [t for t in terms if not t.get('drop')]  # 걸러 낸 용어: no는 예약, 문항은 안 만듦
         warns += leak_warnings(g)
         spread = Spreader(g['prefix'])
         qs = []
