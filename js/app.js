@@ -20,7 +20,7 @@
   const PARTS = {
     1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 정의와 기본 개념을 정확히 알고 있는지 확인한다.', ratio: 0.40, points: 2 },
     2: { roman: 'II', name: '개념 간 변별 (중간 난이도)', note: '서로 헷갈리기 쉬운 개념을 구별해 옳고 그름을 판단한다.', ratio: 0.45, points: 3 },
-    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다. 서술형은 모범답안과 비교해 스스로 채점한다.', ratio: 0.15, points: 4 },
+    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0.15, points: 4 },
   };
   const ESSAY_POINTS = 5;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3 };
@@ -732,7 +732,7 @@
       <div class="wrap">
         <section class="hero">
           <h1>복습 문제집</h1>
-          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어 정리(PART I)부터 개념 변별(II), 상황 대응·서술형(III)까지 시험지 형식으로 연습하세요.</p>
+          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어 정리(PART I)부터 개념 변별(II), 상황 대응(III)까지 시험지 형식으로 연습하세요.</p>
         </section>
 
         ${S.warnings.length ? `
@@ -1132,9 +1132,8 @@
             <p><b>Instructions</b></p>
             <ul>
               <li>객관식은 가장 적절한 답 하나를 고르시오. 시험지의 보기를 누르면 <span class="pen-blue">파란 펜</span>으로 표시되고 답안지(OMR)에 바로 옮겨집니다.</li>
-              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점 · PART III ${PARTS[3].points}점 · 서술형 ${ESSAY_POINTS}점. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
+              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점 · PART III ${PARTS[3].points}점${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
               <li>「&lt;보기&gt;에서 있는 대로 고른 것」은 옳은 진술을 빠짐없이 포함한 선지만 정답입니다. 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다.</li>
-              <li>서술형은 제출 후 모범답안과 비교해 ○/✗를 눌러 스스로 채점하면 점수에 반영됩니다.</li>
               <li>창을 닫아도 처음 화면의 「이어서 풀기」로 남은 시간 그대로 이어 풀 수 있습니다.</li>
             </ul>
           </div>
