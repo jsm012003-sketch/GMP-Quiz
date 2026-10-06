@@ -5,156 +5,161 @@
   "questions": [
     {
       "id": "wk06-001",
-      "type": "개념",
-      "question": "mAb 하류(DSP) 플랫폼 공정의 단계와 주된 목적의 연결로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "항체 정제 단계와 목적의 연결로 옳지 않은 것은?",
       "choices": [
-        "Depth filtration – 탁도(turbidity) 제거",
-        "CEX (Polishing) – HCP·응집체(aggregates) 제거",
-        "UF/DF – 크기 차이로 바이러스를 걸러내는 주된 바이러스 제거 단계",
-        "Protein A (Capture) – 항체를 포획하고 단백질·지질·DNA 등 불순물을 제거",
-        "Acid(저 pH) 처리 – 바이러스 불활화"
+        "Protein A – 항체를 붙잡고 불순물 대부분 제거",
+        "낮은 pH 처리 – 바이러스 불활화",
+        "UF/DF – 바이러스를 크기로 걸러내는 단계",
+        "Depth filtration – 탁도 제거",
+        "CEX – 응집체·숙주 단백질 제거"
       ],
       "answer": 3,
-      "explanation": "Boehringer Ingelheim 플랫폼: **Protein A(포획: 단백질·지질·DNA 제거) → Acid treatment(바이러스 불활화) → Depth filtration(탁도 제거) → AEX(DNA·바이러스 제거) → CEX(HCP·응집체 제거) → Virus filtration(바이러스 제거) → UF/DF(농축·물리 조건 조정) → Bulk drug substance**. 바이러스 제거 여과는 UF/DF와 별개인 virus filtration 단계다.",
+      "explanation": "**UF/DF는 농축과 버퍼 교환 단계이고, 바이러스를 크기로 거르는 것은 별도의 virus filtration이다.** 흐름: Protein A → 낮은 pH → depth filtration → AEX → CEX → virus filtration → UF/DF.",
       "choiceNotes": [
-        "옳은 연결.",
-        "옳은 연결.",
-        "틀린 연결(정답) — UF/DF는 농축과 완충액·물리 조건 조정 단계다.",
-        "옳은 연결.",
-        "옳은 연결."
+        "옳은 진술 — 포획(capture).",
+        "옳은 진술.",
+        "틀린 진술(정답) — UF/DF는 농축·버퍼 교환. 바이러스는 virus filtration.",
+        "옳은 진술.",
+        "옳은 진술 — polishing."
       ],
       "source": "WK06 mAb Process Design PDF p.5 (Downstream Platform Process for mAbs), p.18 (Mab Platform Process)",
       "tags": [
         "DSP",
         "Platform process"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk06-002",
-      "type": "상황판단",
-      "question": "신규 항체의 임상 1상 진입을 준비하고 있다. 바이러스 안전성 측면에서 가장 적절한 계획은?",
+      "type": "개념",
+      "question": "바이러스 감소 검증은 언제 해야 하는가?",
       "choices": [
-        "임상시험 시작 전에 바이러스 감소 검증을 수행하고, 작용 원리가 서로 다른(orthogonal) 단계를 최소 2개 이상 평가한다.",
-        "가장 효과가 좋은 단계 하나만 검증하면 충분하다.",
-        "한 번의 실험으로 효과가 확인되면 재현성 시험은 생략한다.",
-        "외피(envelope)가 있는 바이러스만 모델로 쓰면 된다.",
-        "바이러스 제거 검증은 상업 생산 직전에만 하면 된다."
+        "임상시험을 시작하기 전",
+        "상업 생산 직전",
+        "허가를 받은 뒤",
+        "문제가 생겼을 때만",
+        "하지 않아도 된다"
       ],
       "answer": 1,
-      "explanation": "EMEA 가이드라인: **바이러스 감소 검증은 임상시험 시작 전에**, **2개 이상의 orthogonal 단계** 평가, **최소 2회의 독립 실험으로 재현성** 입증, **외피 바이러스와 작은 비외피 바이러스(가능하면 parvovirus)** 포함. 규제 흐름도 '1상 물질 전 공정 개발 단계부터' orthogonal 전략을 요구한다.",
+      "explanation": "**바이러스 감소 검증은 임상시험 시작 전에 하고, 원리가 다른 단계 2개 이상을 평가하며, 2번 이상 독립 실험으로 재현성을 보인다**(EMEA 가이드라인).",
       "choiceNotes": [
-        "옳다 — 임상 전 검증 + 2개 이상 orthogonal 단계.",
-        "틀리다 — 둘 이상의 단계를 평가한다.",
-        "틀리다 — 최소 2회 독립 실험으로 재현성을 보인다.",
-        "틀리다 — 작은 비외피 바이러스도 포함해야 한다.",
-        "틀리다 — 임상 시작 전에 검증한다."
+        "옳다.",
+        "틀리다 — 더 일찍 한다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.8 (Virus Safety – Guidelines, EMEA), p.10 (Regulatory Focus)",
       "tags": [
         "Virus safety",
         "Orthogonal",
         "Clinical"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-003",
       "type": "개념",
-      "question": "바이러스 제거 시험에 쓸 모델 바이러스 선정으로 가장 적절한 것은?",
+      "question": "바이러스 제거 시험의 모델 바이러스 선정으로 옳은 것은?",
       "choices": [
-        "생산 세포와 직접 관련된 바이러스가 아니면 모델로 쓸 수 없다.",
-        "모델 바이러스 없이 공정 수율로 대신한다.",
-        "외피 바이러스 1종만 쓴다.",
-        "외피 바이러스와 작은 비외피 바이러스(가능하면 parvovirus)를 모두 포함해 보통 3~4종을 쓴다.",
-        "제거가 쉬운 큰 바이러스만 써서 결과를 좋게 만든다."
+        "외피 있는 바이러스 1종",
+        "제거가 쉬운 큰 바이러스만",
+        "모델 바이러스 없이 수율로 대신",
+        "외피 있는 것 + 작은 외피 없는 것을 포함해 3~4종",
+        "생산 세포 바이러스만"
       ],
       "answer": 4,
-      "explanation": "가이드라인은 **외피 바이러스 + 작은 비외피 바이러스(parvovirus 권장)**를 포함하고, ICH Q5A는 **3~4종**의 바이러스를 선택하도록 한다. 실제로 PPV·MVM 같은 작은 비외피 바이러스는 저항성이 매우 높아 공정 능력을 가장 까다롭게 시험한다. 모델 바이러스는 실제 오염 가능 바이러스를 '대표'하도록 고른다.",
+      "explanation": "**외피 바이러스와 작은 비외피 바이러스(가능하면 parvovirus)를 포함해 보통 3~4종을 쓴다**(ICH Q5A·EMEA).",
       "choiceNotes": [
-        "틀리다 — 모델 바이러스는 특성(외피·크기·저항성)이 비슷한 대표 바이러스다.",
-        "틀리다 — 수율은 바이러스 제거능을 보여 주지 않는다.",
-        "틀리다 — 외피·비외피를 함께 시험한다.",
-        "옳다 — 외피 + 작은 비외피, 3~4종.",
-        "틀리다 — 가장 까다로운 바이러스로 공정 능력을 입증해야 한다."
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "옳다 — 작은 비외피는 parvovirus 권장.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.8 (EMEA), p.9 (ICH Q5A: 3–4 viruses), p.14 (Model Viruses for Animal Cell Culture Products)",
       "tags": [
         "Model virus",
         "Parvovirus"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-004",
-      "type": "상황판단",
-      "question": "생산 세포주가 내인성 레트로바이러스 유사 입자를 가진 Case B 세포(ICH Q5A)이다. 바이러스 제거 검증 설계에 반드시 반영할 점은?",
+      "type": "개념",
+      "question": "Case B 세포(내인성 레트로바이러스를 가진 세포)를 쓸 때 쓰는 모델 바이러스는?",
       "choices": [
-        "최종 제품 무균시험으로 대신한다.",
-        "MuLV(murine leukemia virus) 같은 특이적 모델 바이러스로, 비가공 벌크(unprocessed bulk)에 있는 입자를 공정이 충분히 제거함을 입증한다.",
-        "Case B 세포는 바이러스 위험이 없으므로 검증을 생략한다.",
-        "parvovirus 한 종만으로 검증한다.",
-        "열처리 단계만 있으면 검증은 필요 없다."
+        "PPV",
+        "MuLV",
+        "SV-40",
+        "Polio",
+        "BVDV"
       ],
       "answer": 2,
-      "explanation": "가이드라인: Case B 세포처럼 **내인성 레트로바이러스(유사 입자)**를 가진 생산 세포를 쓰면, **MuLV 같은 특이적 'model virus'로 비가공 벌크에 있는 입자의 완전한 제거를 입증**해야 한다. CHO 같은 동물세포 공정이 바이러스 제거 단계를 반드시 갖추는 이유다.",
+      "explanation": "**Case B 세포는 MuLV(murine leukemia virus) 같은 특정 모델 바이러스로 입자가 완전히 제거됨을 입증해야 한다.**",
       "choiceNotes": [
-        "틀리다 — 무균시험은 바이러스 제거능을 보여 주지 않는다.",
-        "옳다 — MuLV 등 특이 모델 바이러스로 입증.",
-        "틀리다 — 레트로바이러스 유사 입자가 있어 오히려 입증이 필요하다.",
-        "틀리다 — 레트로바이러스 모델이 필요하다.",
-        "틀리다 — 검증된 제거능 입증이 필요하다."
+        "틀리다 — 작은 비외피 바이러스 모델.",
+        "옳다 — 쥐 백혈병 바이러스(레트로바이러스).",
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — HCV 모델(혈장 제품)."
       ],
       "source": "WK06 PDF p.8 (Case B cells, murine leukemia virus), p.14 (MuLV)",
       "tags": [
         "ICH Q5A",
         "Case B",
         "MuLV"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-005",
       "type": "개념",
-      "question": "ICH Q5A(R1)의 바이러스 안전성 원칙으로 옳지 않은 것은?",
+      "question": "ICH Q5A 바이러스 안전성 원칙으로 옳지 않은 것은?",
       "choices": [
-        "전체 정제 공정은 비가공 벌크의 1회 투여량 상당에 있을 것으로 추정되는 양보다 훨씬 많은 바이러스를 제거할 수 있어야 한다.",
-        "불활화 공정의 시간 의존성(time dependence)을 알면 불활화 효과를 보증하는 데 도움이 된다.",
-        "크로마토그래피 컬럼은 반복 사용하면 바이러스 제거능이 변할 수 있으므로, 여러 번 사용 후의 안정성 추정이 재사용의 근거가 된다.",
-        "바이러스 제거 시험에는 보통 3~4종의 바이러스를 선택한다.",
-        "컬럼은 재사용해도 바이러스 제거능이 변하지 않으므로 새 컬럼에서 1회만 검증하면 된다."
+        "전체 공정은 예상 바이러스보다 훨씬 많이 제거해야 한다",
+        "불활화가 시간에 따라 어떻게 되는지 알면 좋다",
+        "보통 3~4종 바이러스로 시험한다",
+        "컬럼을 여러 번 쓰면 제거능이 변할 수 있다",
+        "컬럼은 재사용해도 제거능이 절대 안 변한다"
       ],
       "answer": 5,
-      "explanation": "ICH Q5A: 목적은 바이러스를 효과적으로 불활화·제거하는 공정 단계를 평가·특성화하는 것이며, **전체 공정 제거능 > 1회 투여량 상당 추정 바이러스량**, **불활화의 시간 의존성** 파악, **반복 사용 시 컬럼 제거능이 변할 수 있으므로 재사용 근거 필요**, **3~4종 바이러스**를 제시한다.",
+      "explanation": "**크로마토그래피 컬럼은 반복 사용하면 바이러스 제거능이 변할 수 있어, 여러 번 쓴 뒤의 안정성 근거가 필요하다.**",
       "choiceNotes": [
         "옳은 진술.",
+        "옳은 진술 — 시간 의존성.",
         "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "틀린 진술(정답) — 반복 사용에 따라 제거능이 변할 수 있다."
+        "옳은 진술 — 재사용 근거가 필요.",
+        "틀린 진술(정답)."
       ],
       "source": "WK06 PDF p.9 (ICH Q5A (R1))",
       "tags": [
         "ICH Q5A",
         "Column reuse"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-006",
-      "type": "개념",
-      "part": 1,
-      "question": "바이러스 불활화·제거 기술과 효과 범위의 연결로 옳은 것은?",
+      "type": "연결",
+      "part": 2,
+      "question": "바이러스 제거 기술과 효과의 연결로 옳은 것은?",
       "choices": [
-        "Heat inactivation – 바이러스 핵산만 표적으로 함",
-        "S&D(Tween, Triton X-100) – 외피 바이러스에 효과(외피를 표적)",
-        "Low pH(pH 3–4) – 외피 없는 작은 바이러스에 특히 효과적",
-        "Virus filtration – 외피 바이러스에만 효과",
-        "Chromatography – 외피 없는 바이러스에는 효과 없음"
+        "낮은 pH – 외피 없는 바이러스에 특히 효과",
+        "S&D(용매·계면활성제) – 외피 바이러스에 효과",
+        "바이러스 필터 – 외피 바이러스에만 효과",
+        "크로마토그래피 – 외피 없는 바이러스에 효과 없음",
+        "열처리 – DNA만 표적"
       ],
       "answer": 2,
-      "explanation": "Viable technologies 표: **S&D·Low pH → envelope 표적, 외피 바이러스에 효과** / **Heat → 단백질 표적**(비외피에는 제한적) / **Chromatography → 음전하 표면 흡착, 외피·비외피 모두** / **Virus filtration → 크기 기준, 외피·비외피 모두**. 그래서 외피 없는 바이러스는 흡착·여과 단계가 책임진다.",
+      "explanation": "**S&D·낮은 pH는 외피를 공격하므로 외피 바이러스에, 크로마토그래피(흡착)·바이러스 필터(크기)는 외피 유무와 상관없이 효과가 있다.**",
       "choiceNotes": [
-        "틀리다 — 열은 단백질을 표적으로 한다.",
-        "옳다 — S&D는 외피를 녹인다.",
-        "틀리다 — low pH도 외피 표적이다.",
-        "틀리다 — 크기 기준이라 외피 유무와 무관하게 작동한다.",
-        "틀리다 — 크로마토그래피는 둘 다 제거한다."
+        "틀리다 — 외피 바이러스에 효과.",
+        "옳다 — 외피를 녹인다.",
+        "틀리다 — 크기로 걸러 모두에 효과.",
+        "틀리다 — 모두에 효과.",
+        "틀리다 — 단백질을 표적."
       ],
       "source": "WK06 PDF p.11 (Viable Technologies for Viral Clearance), p.15 (Integrated & Orthogonal Platform)",
       "tags": [
@@ -165,51 +170,52 @@
     },
     {
       "id": "wk06-007",
-      "type": "상황판단",
-      "question": "외피가 없는 작은 바이러스(parvovirus 등)에 대한 공정의 제거능이 부족하다는 평가가 나왔다. 가장 효과적인 보강 방향은?",
+      "type": "개념",
+      "question": "외피 없는 작은 바이러스(파보바이러스 등)를 없애는 데 가장 효과적인 방법은?",
       "choices": [
-        "최종 무균 여과 필터를 0.2 µm로 바꾼다.",
-        "Low pH 유지 시간을 늘린다.",
-        "S&D 처리 단계를 추가한다.",
-        "크기 기반의 small virus retentive filtration과 흡착(크로마토그래피·membrane) 단계를 확보·강화한다.",
-        "UF/DF 농축 배수를 높인다."
+        "0.2 µm 무균 필터",
+        "낮은 pH 처리",
+        "S&D 처리",
+        "바이러스 필터와 흡착 크로마토그래피",
+        "UF/DF"
       ],
       "answer": 4,
-      "explanation": "Low pH·S&D는 **외피를 표적**으로 하므로 비외피 바이러스에는 효과가 제한적이다. 비외피 소형 바이러스(PPV·MVM, 18–26 nm, 저항성 매우 높음)는 **크기로 거르는 virus filtration**과 **흡착(크로마토그래피·membrane chroma)**이 담당한다(Targets all viruses). 0.2 µm 무균 필터는 바이러스를 거르지 못한다(일반 원리).",
+      "explanation": "**외피 없는 작은 바이러스는 낮은 pH·S&D가 잘 듣지 않아, 크기로 거르는 바이러스 필터와 흡착 단계가 맡는다.** 0.2 µm 무균 필터는 바이러스를 거르지 못한다(일반 원리).",
       "choiceNotes": [
-        "틀리다 — 세균 제거용 필터로 바이러스는 통과한다.",
-        "틀리다 — 외피 바이러스에 대한 대책이다.",
-        "틀리다 — 외피를 녹이는 원리라 비외피에는 효과가 제한적이다.",
-        "옳다 — 크기 여과 + 흡착이 모든 바이러스를 표적으로 한다.",
-        "틀리다 — UF/DF는 농축·버퍼 교환 단계다."
+        "틀리다 — 0.2 µm는 바이러스를 못 거른다.",
+        "틀리다 — 외피 바이러스용.",
+        "틀리다 — 외피 바이러스용.",
+        "옳다.",
+        "틀리다 — 농축 단계다."
       ],
       "source": "WK06 PDF p.11, p.14 (PPV·MVM very high resistance), p.15, p.18 (Small Virus Retentive Filtration)",
       "tags": [
         "Parvovirus",
         "Virus filtration",
         "대응"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-008",
       "type": "개념",
       "part": 1,
-      "question": "직교(orthogonal) 바이러스 제거 전략의 의미로 가장 적절한 것은?",
+      "question": "직교(orthogonal) 바이러스 제거 전략이란?",
       "choices": [
-        "작용 원리가 서로 다른 단계(불활화·흡착·크기 여과)를 조합해, 한 단계가 놓친 바이러스를 다른 원리로 제거하도록 하는 것",
-        "바이러스 제거를 공정 마지막에 한 번에 몰아서 하는 것",
-        "상류(배양) 공정에서만 바이러스를 관리하는 것",
-        "바이러스 시험을 원료 관리로 대신하는 것",
-        "같은 원리의 단계를 여러 번 반복해 제거 효과를 높이는 것"
+        "원리가 다른 단계를 여러 개 겹쳐 쓰는 것",
+        "같은 단계를 여러 번 반복하는 것",
+        "마지막에 한 번에 제거하는 것",
+        "배양 단계에서만 관리하는 것",
+        "시험으로 대신하는 것"
       ],
       "answer": 1,
-      "explanation": "Integrated & Orthogonal Virus Clearance Platform: **Inactivation(low pH, 외피 바이러스) → Adsorption(크로마토그래피·membrane, 모든 바이러스) → Filtration(virus filter, 모든 바이러스)**처럼 **원리가 다른 단계를 겹겹이** 둔다. 가이드라인은 최소 2개의 orthogonal 단계를 요구한다.",
+      "explanation": "**불활화·흡착·크기 여과처럼 원리가 다른 단계를 겹쳐, 한 단계가 놓친 바이러스를 다른 단계가 잡게 하는 전략이다.** 최소 2개 이상 필요하다.",
       "choiceNotes": [
-        "옳다 — 서로 다른 원리의 조합.",
-        "틀리다 — 여러 단계에 분산된다.",
-        "틀리다 — 하류의 제거능 입증이 핵심이다.",
-        "틀리다 — 공정 제거능 검증이 필요하다.",
-        "틀리다 — 같은 원리 반복은 orthogonal이 아니다."
+        "옳다 — 불활화·흡착·여과.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.8, p.10, p.15 (Integrated & Orthogonal Virus Clearance Technology Platform)",
       "tags": [
@@ -219,336 +225,348 @@
     },
     {
       "id": "wk06-009",
-      "type": "개념",
-      "question": "모델 바이러스의 특성에 대한 설명으로 옳지 않은 것은?",
+      "type": "연결",
+      "question": "모델 바이러스의 특징으로 옳지 않은 것은?",
       "choices": [
-        "PPV·MVM은 외피가 없고 작으며(약 18–26 nm) 저항성이 매우 높다.",
-        "MuLV는 외피가 있는 레트로바이러스로 저항성이 낮은 편이다.",
-        "외피 유무에 따라 S&D·low pH 처리의 효과가 달라진다.",
-        "바이러스 크기는 virus filter를 고르는 데 중요한 정보다.",
-        "외피 없는 작은 바이러스는 low pH 처리만으로 쉽게 불활화된다."
+        "PPV·MVM – 외피 없고 작으며 저항성이 매우 높다",
+        "MuLV – 외피가 있고 저항성이 낮다",
+        "외피 유무에 따라 S&D·낮은 pH 효과가 다르다",
+        "바이러스 크기는 필터 선택에 중요하다",
+        "외피 없는 작은 바이러스는 낮은 pH로 쉽게 죽는다"
       ],
       "answer": 5,
-      "explanation": "표: **PPV·MVM – 비외피, ssDNA, 18–26 nm, Very high resistance** / **MuLV – 외피, ssRNA, 80–130 nm, Low** / SV-40 비외피 Very high 등. 비외피 소형 바이러스는 가장 다루기 어려운 바이러스로, low pH만으로는 부족하다.",
+      "explanation": "**외피 없는 작은 바이러스(PPV·MVM)는 가장 다루기 어려워 낮은 pH만으로는 부족하다.**",
       "choiceNotes": [
+        "옳은 진술 — 18~26 nm.",
         "옳은 진술.",
         "옳은 진술.",
-        "옳은 진술 — 둘 다 외피를 표적으로 한다.",
-        "옳은 진술 — 크기 기반 여과.",
-        "틀린 진술(정답) — 저항성이 매우 높아 low pH만으로는 부족하다."
+        "옳은 진술.",
+        "틀린 진술(정답) — 낮은 pH로는 부족하다."
       ],
       "source": "WK06 PDF p.13 (Model Viruses for Plasma Products), p.14 (Animal Cell Culture Products), p.11",
       "tags": [
         "Model virus",
         "Resistance"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk06-010",
-      "type": "상황판단",
-      "question": "DSP 소모품 원가를 줄이라는 지시를 받았다. 강의의 Amgen 사례(DSP 소모품 비용 구성)를 근거로 우선 검토할 대상으로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "강의의 DSP 소모품 비용에서 가장 큰 비중을 차지한 것은?",
       "choices": [
-        "바이러스 불활화 단계를 생략하는 방안",
-        "염(salt)·버퍼 원료",
-        "Protein A 레진(가장 큰 비중)과 virus filter(두 번째로 큰 비중)의 사용 전략 — 레진 부피·사이클 수, 필터 크기와 배치 위치",
+        "염·버퍼",
         "TFF 멤브레인",
-        "무균 여과를 생략하는 방안"
+        "Protein A 레진",
+        "depth 필터",
+        "무균 필터"
       ],
       "answer": 3,
-      "explanation": "Virus Filtration in DSP 원그래프: **Protein A 45%, Virus filter 22%**, depth filter 9%, abs filter 9%, resin 3·2(7·4%), salts·TFF 각 2%. 비용 비중이 큰 항목부터 최적화하는 것이 효과적이며, Case 1에서도 Protein A 레진 부피·사이클 수를 조정하는 시나리오를 다뤘다. 무균 여과나 바이러스 단계 생략은 품질·안전성 요건상 선택지가 아니다.",
+      "explanation": "**DSP 소모품 비용은 Protein A 레진(약 45 %)이 가장 크고, 그다음이 바이러스 필터(약 22 %)다.** 비용을 줄이려면 큰 항목부터 본다.",
       "choiceNotes": [
-        "틀리다 — 바이러스 안전성 요건을 어긴다.",
-        "틀리다 — 비중이 작다(약 2%).",
-        "옳다 — 비용 비중이 가장 큰 두 항목.",
-        "틀리다 — 비중이 작다(약 2%).",
-        "틀리다 — 무균 보증 요건을 어긴다."
+        "틀리다 — 약 2 %.",
+        "틀리다 — 약 2 %.",
+        "옳다 — 약 45 %.",
+        "틀리다 — 약 9 %.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.16 (Virus Filtration in DSP — 비용 구성), p.22–23 (Protein A resin 비용)",
       "tags": [
         "COGS",
         "Protein A",
         "Virus filter"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-011",
-      "type": "상황판단",
-      "question": "Titer 0.1 g/L, 배양액 10,000 L에서 항체 1 kg을 얻으려는데 Protein A 공정에 약 50시간이 걸린다. 강의에서 제시한 해결책으로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "배양액 부피가 너무 커서 Protein A 공정이 오래 걸릴 때 강의에서 제시한 해결책은?",
       "choices": [
-        "바이러스 불활화를 Protein A보다 먼저 한다.",
-        "Protein A 컬럼 높이를 크게 높인다.",
-        "Clarification 후 UF/DF로 약 20배 농축해 Protein A에 넣을 부피를 줄인다(10,000 L → 500 L, 약 2.5시간).",
-        "Protein A를 생략하고 AEX로 바로 포획한다.",
-        "배양액을 희석해 유속을 높인다."
+        "Protein A를 생략한다",
+        "배양액을 희석한다",
+        "Protein A 전에 UF/DF로 농축해 부피를 줄인다",
+        "바이러스 불활화를 먼저 한다",
+        "컬럼 높이를 크게 높인다"
       ],
       "answer": 3,
-      "explanation": "Case 1: 저 titer라 처리 부피가 크면 유속(200 L/h)에 묶여 공정 시간이 길어진다. Solution: **Clarification과 Protein A 사이에 UF/DF(20배 농축)를 넣어 부피를 500 L로 줄이면 2.5시간**에 처리할 수 있다. 레진 부피(DBC 기준)는 항체 양에 따라 정해지므로 부피를 줄이는 것이 시간 단축의 핵심이다.",
+      "explanation": "**처리 시간은 부피와 유속에 묶이므로, Protein A 앞에서 UF/DF로 약 20배 농축하면 시간이 크게 줄어든다**(10,000 L, 50시간 → 500 L, 2.5시간).",
       "choiceNotes": [
-        "틀리다 — 순서 변경은 부피 문제를 해결하지 못한다.",
-        "틀리다 — 처리 부피 문제는 그대로다.",
-        "옳다 — 사전 농축으로 부피·시간 단축.",
-        "틀리다 — 포획 단계를 없애면 정제 성능·플랫폼이 무너진다.",
-        "틀리다 — 부피가 더 늘어난다."
+        "틀리다.",
+        "틀리다 — 더 커진다.",
+        "옳다 — 10,000 L → 500 L, 약 2.5시간.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.20–21 (Mab Platform Process – Case 1, Solution)",
       "tags": [
         "Case study",
         "UF/DF",
         "Protein A"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-012",
-      "type": "상황판단",
-      "question": "Protein A 레진 구매비를 줄이기 위해 레진 부피를 절반으로 줄이고 같은 양을 3 cycle로 나눠 처리하기로 했다. 이 선택의 trade-off로 옳은 것은?",
+      "type": "개념",
+      "question": "Protein A 레진을 절반만 사고 3번 나눠 돌리면(3 cycle) 생기는 일은?",
       "choices": [
-        "레진 구매비는 줄지만 공정 시간과 인건비가 늘어난다.",
-        "레진 구매비와 공정 시간이 모두 줄어든다.",
-        "레진 구매비는 그대로이고 품질만 나빠진다.",
-        "cycle 수와 공정 시간은 관계가 없다.",
-        "레진 부피를 줄이면 결합 용량(DBC)이 두 배가 된다."
+        "레진 값은 줄지만 시간·인건비가 는다",
+        "레진 값과 시간이 모두 준다",
+        "레진 값은 같고 품질만 나빠진다",
+        "시간과 관계없다",
+        "결합 용량이 두 배가 된다"
       ],
       "answer": 1,
-      "explanation": "Case 1 Solution: 레진 40 L($800,000, 2.5 h) → **레진 20 L·3 cycle($400,000)**, 대신 **Labor cost & Process time ↑**(약 2 h × 3 = 6 h). 비용·시간·인력은 서로 맞바꾸는 관계이므로 공장 상황에 맞게 균형점을 고른다.",
+      "explanation": "**레진 40 L → 20 L·3 cycle이면 레진 값은 절반($800,000 → $400,000)이지만 공정 시간(약 6시간)과 인건비가 늘어난다.** 비용·시간·인력은 서로 맞바꾸는 관계다.",
       "choiceNotes": [
-        "옳다 — 구매비↓, 시간·인건비↑.",
-        "틀리다 — cycle이 늘어 공정 시간은 늘어난다.",
-        "틀리다 — 레진 구매비는 절반이 된다.",
-        "틀리다 — cycle 수만큼 시간이 늘어난다.",
-        "틀리다 — DBC는 레진 고유 특성이다."
+        "옳다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.22–23 (Case 1 Solution: resin volume 1/2 & 3 cycle)",
       "tags": [
         "Trade-off",
         "Protein A",
         "Cycle"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-013",
-      "type": "연결",
-      "question": "같은 1 kg 생산 목표에서 상류 titer가 0.1 g/L → 1.0 g/L로 올라가면 하류 공정에 생기는 변화로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "같은 1 kg을 만들 때 titer가 0.1 → 1.0 g/L로 오르면 정제 공정은?",
       "choices": [
-        "배양액 부피는 그대로이고 공정 시간도 같다.",
-        "바이러스 제거 단계가 필요 없어진다.",
-        "정제가 배양보다 길어져 배양기 수를 줄여야 한다.",
-        "처리할 배양액 부피가 1/10로 줄어 Protein A 공정 시간이 크게 짧아진다.",
-        "Protein A 레진이 10배 더 필요하다."
+        "부피와 시간이 그대로다",
+        "레진이 10배 더 필요하다",
+        "바이러스 제거가 필요 없어진다",
+        "처리할 부피가 1/10로 줄어 시간이 짧아진다",
+        "정제가 더 오래 걸린다"
       ],
       "answer": 4,
-      "explanation": "Case 1: titer 0.1 → **1.0 g/L이면 배치 부피 10,000 L → 1,000 L, Protein A 공정 시간 50 h → 5 h**. 레진 부피는 처리할 항체 양(1 kg)과 DBC로 정해지므로 같다. **상류 생산성 향상이 하류 부담을 직접 줄인다**는 공정 연결의 예다.",
+      "explanation": "**titer가 10배 오르면 처리할 배양액이 1/10이 되어 Protein A 시간이 크게 줄어든다.** 레진 양은 항체 양으로 정해지므로 같다.",
       "choiceNotes": [
-        "틀리다 — 같은 1 kg을 더 적은 부피에서 얻는다.",
-        "틀리다 — 바이러스 안전성 요건은 그대로다.",
-        "틀리다 — 정제 부담이 줄어든다.",
-        "옳다 — 부피·시간 감소.",
-        "틀리다 — 항체 양이 같으므로 레진 부피도 같다."
+        "틀리다.",
+        "틀리다 — 레진 양은 항체 양으로 정해져 같다.",
+        "틀리다.",
+        "옳다 — 10,000 L → 1,000 L, 50시간 → 5시간.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.24 (Case 1: Titer 0.1 → 1.0 g/L)",
       "tags": [
         "Titer",
         "USP-DSP 연결"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-014",
-      "type": "상황판단",
-      "question": "목표 1 kg, titer 2 g/L, 배치 500 L 공정을 기존 건물에 넣으려는데 GMP suite 층고가 낮고 WFI 공급 용량도 제한적이다. 강의에서 검토 대상으로 제시한 대응으로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "층고가 낮고 WFI가 부족한 건물에 공정을 넣을 때 검토할 방법이 아닌 것은?",
       "choices": [
-        "층고 문제를 무시하고 stainless 배양기를 그대로 설치한다.",
-        "높이가 낮은 single-use 설비 적용(약 2,000 mm vs multi-use 약 2,600 mm), perfusion·multi-train·titer 향상 등을 검토하고, 그래도 안 되면 신규 시설을 고려한다.",
-        "WFI 대신 정수기 물을 사용한다.",
-        "배치 수를 줄이기 위해 titer를 낮춘다.",
-        "WFI 공급 용량은 공정 선택과 관계가 없다."
+        "높이가 낮은 single-use 설비",
+        "WFI 대신 수돗물 사용",
+        "Perfusion 공정",
+        "작은 라인 여러 개(multi trains)",
+        "titer 향상"
       ],
       "answer": 2,
-      "explanation": "Case 2: 'Limited height of GMP suite?', 'Limited capacity of utilities (WFI)?' → 대안 **Single use, Perfusion, Multi trains, Higher titer, New facility**. 높이 비교에서 MU 배양기는 약 2,600 mm, SU는 약 2,000 mm였다. Single-use는 세척·SIP에 드는 WFI·스팀 수요도 줄여 유틸리티 제약에 유리하다(일반 원리).",
+      "explanation": "**강의 대안: single-use, perfusion, multi trains, titer 향상, 신규 시설.** Single-use는 높이가 낮고 세척·멸균용 WFI도 덜 든다.",
       "choiceNotes": [
-        "틀리다 — 층고 제약을 해결하지 못한다.",
-        "옳다 — 강의의 대안 목록.",
-        "틀리다 — 제품 접촉 용수는 규격 용수(WFI 등)여야 한다.",
-        "틀리다 — 생산 목표를 맞추기 어렵다.",
-        "틀리다 — 유틸리티 용량은 공정·설비 선택의 제약 조건이다."
+        "검토 대상 — 약 2,000 mm vs 2,600 mm.",
+        "검토 대상이 아니다(정답) — 품질 요건상 불가.",
+        "검토 대상.",
+        "검토 대상.",
+        "검토 대상."
       ],
       "source": "WK06 PDF p.25 (Case 2), p.26 (Height Comparison MU vs. SU)",
       "tags": [
         "Single-use",
         "Facility 제약",
         "WFI"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-015",
       "type": "개념",
-      "question": "정제수(PW)·주사용수(WFI) 생산 계통에 대한 설명으로 옳지 않은 것은?",
+      "question": "정제수(PW)와 주사용수(WFI) 만드는 과정으로 옳은 것은?",
       "choices": [
-        "원수는 multimedia filter, 연수기(softener), 활성탄 필터 등으로 전처리된다.",
-        "역삼투(RO)와 mixed bed 탈이온(DI)을 거쳐 정제수(PW) 저장 탱크로 보내진다.",
-        "WFI는 정제수를 증류기(still)로 증류해 만들고, WFI 분배 루프로 공급한다.",
-        "저장 탱크에는 tank vent filter가, 분배 루프에는 UV 등 미생물 관리 장치가 설치된다.",
-        "WFI는 원수를 RO에 한 번만 통과시켜 만들기 때문에 PW보다 먼저 생산된다."
+        "WFI를 걸러서 정제수를 만든다",
+        "수돗물을 바로 증류해 정제수를 만든다",
+        "WFI는 RO 한 번이면 된다",
+        "정제수와 WFI는 같은 물이다",
+        "정제수를 증류해서 WFI를 만든다"
       ],
       "answer": 5,
-      "explanation": "계통도: **원수 → Multi-media filter → Softener → Carbon filter → RO → Mixed bed DI → PW 저장 탱크(UV, PW 분배 루프) → Still(증류) → WFI 저장 탱크 → WFI 분배 루프**. 필터: particle filtration, resin trap, carbon fines trap, RO prefilter, tank vent filter, bacterial debris filter, point-of-use bacteria filter. WFI는 PW를 원료로 만든다.",
+      "explanation": "**원수 → 전처리(연수기·활성탄) → RO → 이온교환 → 정제수(PW) → 증류(still) → 주사용수(WFI).**",
       "choiceNotes": [
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "틀린 진술(정답) — WFI는 PW를 증류해 만든다."
+        "틀리다 — 반대다.",
+        "틀리다 — 정제수는 RO·이온교환 등으로 만든다.",
+        "틀리다.",
+        "틀리다 — WFI가 더 높은 등급.",
+        "옳다 — still(증류기)."
       ],
       "source": "WK06 PDF p.27 (PW/WFI 계통도)",
       "tags": [
         "WFI",
         "PW",
         "Clean utility"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-016",
       "type": "개념",
-      "question": "고밀도 세포은행(4.5 mL, 50–100×10⁶ cells/mL)과 perfusion seed(1–10 L)를 쓰는 intensified seed 공정의 이점으로 가장 적절한 것은?",
+      "question": "고밀도 세포은행과 perfusion seed를 쓰는 '강화된 seed 공정'의 장점은?",
       "choices": [
-        "접종 밀도가 낮아져 lag phase가 길어진다.",
-        "여러 단계의 flask·배양기 계대를 줄여 2,000 L 접종까지 기간을 3–4주에서 2주 미만으로 줄인다.",
-        "세포은행이 더 이상 필요 없다.",
-        "생산 배양기를 batch 방식으로 바꿔야 한다.",
-        "무균 관리가 필요 없어진다."
+        "세포은행이 필요 없어진다",
+        "생산 배양기까지 가는 기간이 짧아진다",
+        "무균 관리가 필요 없어진다",
+        "배양 방식을 batch로 바꿔야 한다",
+        "적응기(lag)가 길어진다"
       ],
       "answer": 2,
-      "explanation": "Conventional: 2 mL·15–30×10⁶ cells/mL 세포은행 → 여러 flask → wave(batch) → 배양기 단계들 → **3–4주**. Intensified: **고밀도 세포은행 + perfusion mode(1–10 L) → 최대 2,000 L, 2주 미만**. Seed 단계를 줄이면 시간과 오염 기회가 줄고 공장 일정이 빨라진다.",
+      "explanation": "**고밀도 세포은행 + perfusion seed로 중간 단계를 줄이면 2,000 L 접종까지 3~4주 → 2주 미만으로 짧아진다.**",
       "choiceNotes": [
-        "틀리다 — 고밀도 접종으로 오히려 빨라진다.",
-        "옳다 — seed train 단축.",
-        "틀리다 — 고밀도 세포은행을 쓴다.",
-        "틀리다 — 생산 방식과는 별개다.",
-        "틀리다 — 무균 관리는 항상 필요하다."
+        "틀리다.",
+        "옳다 — 3~4주 → 2주 미만.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.28 (Conventional vs Intensified process)",
       "tags": [
         "Intensified seed",
         "Seed train"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-017",
-      "type": "개념",
-      "question": "연속 생산(USP)에서 perfusion과 concentrated fed-batch를 비교한 설명으로 옳은 것은?",
+      "type": "연결",
+      "question": "Perfusion과 concentrated fed-batch의 차이로 옳은 것은?",
       "choices": [
-        "Concentrated fed-batch는 제품을 permeate로 계속 빼낸다.",
-        "Perfusion에는 cell bleed가 없다.",
-        "Perfusion의 운전 기간은 fed-batch보다 짧다.",
-        "Perfusion은 세포·영양·제품 농도가 장기간(약 30–90일) 정상상태로 유지되며 제품을 계속 회수하고, concentrated fed-batch는 제품이 배양기에 쌓여 12–20일 뒤 수확된다.",
-        "두 방식 모두 세포 유지 장치 없이 운전한다."
+        "Concentrated FB가 제품을 계속 빼낸다",
+        "Perfusion이 더 짧게 운전한다",
+        "둘 다 세포 유지 장치가 없다",
+        "Perfusion은 제품을 계속 빼내고, concentrated FB는 끝에 한 번에 수확",
+        "Perfusion은 세포를 같이 버린다"
       ],
       "answer": 4,
-      "explanation": "Continuous Biomanufacturing 슬라이드: 배양기 + cell retention system(UF 또는 MF) + cell bleed + permeate. **Perfusion: 30–90일, 세포·제품 농도 평탄 유지(연속 회수)** / **Conc. fed-batch: 12–20일, 제품이 배양기에 계속 축적**. 필터가 UF면 제품이 남고, MF면 제품이 permeate로 나간다(WK02와 연결).",
+      "explanation": "**Perfusion은 제품을 계속 회수하며 30~90일 운전, concentrated fed-batch는 제품이 배양기에 쌓였다가 12~20일 뒤 한 번에 수확한다.**",
       "choiceNotes": [
-        "틀리다 — 제품은 배양기에 남는다(UF).",
-        "틀리다 — 세포 밀도 유지를 위해 cell bleed를 한다.",
-        "틀리다 — 훨씬 길게 운전한다.",
-        "옳다.",
-        "틀리다 — 둘 다 세포 유지 장치(UF/MF)를 쓴다."
+        "틀리다 — 반대다.",
+        "틀리다 — 더 길다.",
+        "틀리다.",
+        "옳다 — perfusion 30~90일, conc. FB 12~20일.",
+        "틀리다 — 세포는 남기고 상등액만 뺀다."
       ],
       "source": "WK06 PDF p.29 (Continuous Biomanufacturing – The Reality in USP) · WK02 PDF p.40–42",
       "tags": [
         "Perfusion",
         "Concentrated fed-batch"
-      ]
+      ],
+      "part": 2
     },
     {
       "id": "wk06-018",
       "type": "개념",
-      "question": "Sanofi ASAP 개념이나 4-column PCC(periodic counter-current) 같은 연속 정제 기술의 공통 아이디어로 가장 적절한 것은?",
+      "question": "PCC·ASAP 같은 연속 정제 기술의 공통 아이디어는?",
       "choices": [
-        "여러 컬럼(단계)을 순환·연결해, 한 컬럼이 용출·재생되는 동안 다른 컬럼이 load를 받아 멈춤 없이 연속으로 정제한다.",
-        "레진을 매 cycle 새것으로 바꾼다.",
-        "컬럼을 아주 크게 만들어 한 번에 끝낸다.",
-        "연속 공정에서는 바이러스 여과를 생략한다.",
-        "정제 단계를 없애고 배양액을 바로 충전한다."
+        "여러 컬럼을 번갈아 써서 멈추지 않고 정제한다",
+        "컬럼을 아주 크게 만들어 한 번에 끝낸다",
+        "레진을 매번 새로 바꾼다",
+        "바이러스 여과를 생략한다",
+        "정제 없이 바로 충전한다"
       ],
       "answer": 1,
-      "explanation": "ASAP: **단계별 컬럼 1개(ProA – Mixed mode – AEX)를 연속으로 load·elute**, ProA cycle 1이 용출되면 바로 cycle 2 시작 → nanofiltration → UF/DF. PCC: 4개 컬럼이 **load(2개 직렬)·elution·regeneration을 돌아가며** 수행. 연속 UF/DF(single pass)도 같은 흐름이다. DSP는 batch → semi-continuous → continuous로 발전하고 있다.",
+      "explanation": "**한 컬럼이 용출·재생되는 동안 다른 컬럼이 시료를 받아, 멈춤 없이 연속으로 정제한다.** DSP는 batch → semi-continuous → continuous로 가고 있다.",
       "choiceNotes": [
-        "옳다 — 컬럼 순환으로 연속 처리.",
-        "틀리다 — 레진을 반복 사용한다.",
-        "틀리다 — 오히려 작은 컬럼을 자주 돌린다.",
-        "틀리다 — nanofiltration(바이러스 여과)이 포함된다.",
-        "틀리다 — 정제는 여전히 필요하다."
+        "옳다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.30 (Sanofi ASAP Concept), p.31 (4-column PCC, Continuous UF/DF), p.7 (Where Are We in DSP Technologies?)",
       "tags": [
         "Continuous DSP",
         "PCC",
         "ASAP"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-019",
       "type": "개념",
-      "question": "Protein A를 쓰는 mAb 정제 플랫폼에 대한 설명으로 옳지 않은 것은?",
+      "question": "Protein A 정제 플랫폼에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "3-column 플랫폼은 ProA → low pH VI → depth filtration → CEX → AEX → small virus retentive filtration → UF/DF 순이다.",
-        "2-column 플랫폼은 두 번의 polishing을 multi-modal(MM) 크로마토그래피 하나로 대신할 수 있다.",
-        "AEX 컬럼 대신 AEX membrane(막 흡착)을 쓰는 플랫폼도 있다.",
-        "세 플랫폼 모두 low pH 바이러스 불활화와 바이러스 여과를 포함한다.",
-        "2-column 플랫폼은 Protein A 포획 단계를 생략한다."
+        "3-column은 Protein A 뒤 CEX·AEX 두 번 polishing한다",
+        "2-column은 polishing을 multi-modal 하나로 대신한다",
+        "AEX 컬럼 대신 AEX 막을 쓰기도 한다",
+        "모든 플랫폼에 낮은 pH와 바이러스 여과가 있다",
+        "2-column은 Protein A를 쓰지 않는다"
       ],
       "answer": 5,
-      "explanation": "Current Platforms Using ProA: **Three-column**(ProA → low pH VI → depth → CEX → AEX → small virus retentive filtration → UF/DF → formulation & fill), **Two-column**(ProA → low pH VI → depth → **Multi-modal** → virus filtration → UF/DF), **Two-column/membrane**(ProA → low pH VI → depth → **AEX membrane** → virus filtration → UF/DF). 모두 ProA로 포획한다.",
+      "explanation": "**세 플랫폼 모두 Protein A로 항체를 포획한다.** 차이는 polishing 구성(CEX+AEX / multi-modal / AEX 막)이다.",
       "choiceNotes": [
         "옳은 진술.",
         "옳은 진술.",
         "옳은 진술.",
         "옳은 진술.",
-        "틀린 진술(정답) — 모든 플랫폼이 ProA를 쓴다."
+        "틀린 진술(정답) — 모두 Protein A로 포획한다."
       ],
       "source": "WK06 PDF p.18 (Current Platforms Using ProA for mAb Purification)",
       "tags": [
         "Platform",
         "Multi-modal",
         "Membrane"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-020",
-      "type": "상황판단",
-      "question": "여러 상업용 항체의 정제 공정 비교표를 보면 제품마다 단계와 순서가 조금씩 다르다. 이 표에서 얻을 수 있는 설계 교훈으로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "여러 상업 항체의 정제 공정을 비교하면 알 수 있는 것은?",
       "choices": [
-        "Protein A는 상업 공정에서 쓰이지 않는다.",
-        "모든 항체는 반드시 똑같은 순서의 공정을 써야 허가된다.",
-        "대부분 Protein A 포획, 저 pH 불활화, 이온교환 polishing, 바이러스 여과, UF/DF라는 공통 틀(platform)을 갖되, 제품 특성에 맞춰 단계와 순서를 조정한다.",
-        "정제 단계 수가 많을수록 항상 더 좋은 공정이다.",
-        "UF/DF는 공정 맨 앞에서만 쓸 수 있다."
+        "모든 항체가 똑같은 순서를 써야 한다",
+        "단계가 많을수록 좋다",
+        "공통 틀(플랫폼)을 쓰되 제품에 맞게 조금씩 바꾼다",
+        "Protein A는 거의 안 쓴다",
+        "UF/DF는 맨 앞에만 쓴다"
       ],
       "answer": 3,
-      "explanation": "비교표에서 대부분 **clarify → Protein A → 저 pH(바이러스 불활화) → 이온교환(Q·S) → 바이러스 여과 → UF/DF → filter/fill**의 공통 흐름이 보이고, 일부 제품은 UF를 앞에 두거나 HIC·SEC를 추가하는 등 **제품 특성에 따라 변형**한다. 플랫폼을 기본으로 삼으면 개발 기간과 위험을 줄일 수 있다.",
+      "explanation": "**대부분 Protein A → 낮은 pH → 이온교환 → 바이러스 여과 → UF/DF라는 공통 틀을 쓰고, 제품 특성에 맞게 단계·순서를 조정한다.**",
       "choiceNotes": [
-        "틀리다 — 대부분 Protein A로 포획한다.",
-        "틀리다 — 제품마다 다르다.",
-        "옳다 — 공통 플랫폼 + 제품별 조정.",
-        "틀리다 — 단계가 늘면 수율·비용·시간 부담이 커진다.",
-        "틀리다 — 앞쪽과 뒤쪽 모두에서 쓰인다."
+        "틀리다.",
+        "틀리다 — 수율·비용 부담이 커진다.",
+        "옳다.",
+        "틀리다 — 대부분 Protein A로 포획.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.6, p.17 (Commercial MAb purification schemes)",
       "tags": [
         "Platform",
         "Purification scheme"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-021",
-      "type": "연결",
-      "question": "SuperPro Designer 같은 공정 시뮬레이션 도구로 mAb 공정 흐름도를 만들 때 얻을 수 있는 정보로 옳지 않은 것은?",
+      "type": "개념",
+      "question": "SuperPro Designer 같은 공정 시뮬레이션으로 얻을 수 없는 것은?",
       "choices": [
-        "버퍼·배지 사용량과 이를 바탕으로 한 유틸리티 산정 근거",
-        "공정 순서와 장비 간 연결 관계",
-        "제품의 임상 유효성 결과",
-        "단계별 흐름의 부피(L/batch) 같은 물질수지",
-        "필요한 장비 목록과 크기"
+        "단계별 부피(물질수지)",
+        "장비 목록과 크기",
+        "임상시험 효과",
+        "버퍼·배지 사용량",
+        "공정 순서"
       ],
       "answer": 3,
-      "explanation": "강의의 mAb 공정 흐름도(2 g/L titer)는 inoculum prep부터 production, primary recovery, Protein A, 바이러스 불활화, IEX·HIC, viral exclusion, final filtration까지 **장비와 stream별 부피**를 보여 준다. 이는 WK07의 **PFD·물질수지 → 장비 크기 → 유틸리티 용량**으로 이어지는 시설 설계의 출발점이다. 임상 유효성은 시뮬레이션으로 얻을 수 없다.",
+      "explanation": "**공정 시뮬레이션은 물질수지·장비 크기·버퍼 사용량·공정 순서를 계산하는 도구이고, 임상 효과는 알 수 없다.**",
       "choiceNotes": [
         "얻을 수 있다.",
         "얻을 수 있다.",
@@ -561,113 +579,231 @@
         "Process simulation",
         "PFD",
         "Mass balance"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-022",
       "type": "개념",
-      "question": "DSP 기술의 발전 방향에 대한 설명으로 가장 적절한 것은?",
+      "question": "DSP(정제) 기술이 발전하는 방향은?",
       "choices": [
-        "회분식(batch) 컬럼 중심에서 membrane adsorber·body feed 같은 기술을 도입하며 semi-continuous를 거쳐 continuous 방향으로 가고 있다.",
-        "polishing 컬럼 수를 계속 늘리는 방향으로 가고 있다.",
-        "바이러스 불활화 단계를 없애는 방향으로 가고 있다.",
-        "원심분리·여과 같은 clarification은 더 이상 쓰이지 않는다.",
-        "현재 공정에서는 UF/DF를 쓰지 않는다."
+        "회분식에서 연속식으로",
+        "연속식에서 회분식으로",
+        "단계를 계속 늘리는 쪽으로",
+        "바이러스 단계를 없애는 쪽으로",
+        "UF/DF를 없애는 쪽으로"
       ],
       "answer": 1,
-      "explanation": "Where Are We in DSP Technologies?: Yesterday(원심분리, AC 컬럼, low pH, CEX·AEX·HIC/SEC 컬럼, VF, UF/DF, SF) → Today(polishing을 **membrane adsorber**로) → Tomorrow(**body feed**, 통합 MA) → Near future(MA+VF+UF/DF+SF 통합) → 즉 **Batch → Semi-continuous → Continuous**로 간다.",
+      "explanation": "**DSP는 batch → semi-continuous → continuous로 가고 있고, membrane adsorber·body feed 같은 기술로 단계를 통합한다.**",
       "choiceNotes": [
-        "옳다.",
-        "틀리다 — 단계를 통합·단순화하는 방향이다.",
-        "틀리다 — low pH는 계속 포함된다.",
-        "틀리다 — clarification은 body feed 등으로 바뀌며 유지된다.",
-        "틀리다 — UF/DF는 계속 쓰인다."
+        "옳다 — batch → semi-continuous → continuous.",
+        "틀리다.",
+        "틀리다 — 통합·단순화한다.",
+        "틀리다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.7 (Where Are We in DSP Technologies?)",
       "tags": [
         "DSP trend",
         "Continuous"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-023",
-      "type": "연결",
-      "question": "전통적인 mAb 공정 템플릿(1,000 L, 1 g/L)에서 장비 외에 공간을 크게 차지하는 요소와 그 설계상 의미로 가장 적절한 것은?",
+      "type": "개념",
+      "question": "항체 정제 시설에서 장비 말고 공간을 많이 차지하는 것은?",
       "choices": [
-        "사무 공간 — 정제실 바로 옆에 두어야 한다.",
-        "동결보존 탱크 — 모든 단계마다 필요하다.",
-        "배양기 — 정제 단계마다 하나씩 필요하다.",
-        "버퍼 탱크와 pool/hold 탱크 — 단계마다 필요한 버퍼 부피와 탱크 공간이 시설 배치와 유틸리티(WFI 등) 설계를 좌우한다.",
-        "QC 실험실 — 정제 공정과 같은 방에 두어야 한다."
+        "사무실",
+        "QC 실험실",
+        "배양기",
+        "버퍼 탱크와 보관(pool) 탱크",
+        "동결 탱크"
       ],
       "answer": 4,
-      "explanation": "템플릿 그림은 단계마다 **wash·equil·elute·clean 버퍼 탱크(수십~수백 L)**와 **pool/hold 탱크**를 보여 준다. 그래서 시설 설계에서는 물질수지로 버퍼 부피를 산정하고(버퍼 크기·분배), 복도에 버퍼 palletank를 두는 배치까지 고려한다(WK07). 버퍼 제조에는 WFI가 많이 들어간다.",
+      "explanation": "**정제는 단계마다 세척·평형·용출·재생 버퍼 탱크와 pool 탱크가 필요해 공간과 WFI를 많이 쓴다.** 그래서 물질수지로 버퍼 부피를 계산해 배치한다.",
       "choiceNotes": [
-        "틀리다 — 강의 템플릿의 요점이 아니다.",
-        "틀리다 — 동결은 최종 벌크 단계다.",
-        "틀리다 — 배양기는 상류 설비다.",
-        "옳다.",
-        "틀리다 — 강의 템플릿의 요점이 아니다."
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 배양은 상류 공정.",
+        "옳다 — 단계마다 버퍼가 많이 필요하다.",
+        "틀리다."
       ],
       "source": "WK06 PDF p.4 (Traditional mAb template) · WK07 PDF p.29 (Buffer sizing), p.32 (Buffer palletanks in corridors)",
       "tags": [
         "Buffer",
         "Facility design"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-024",
-      "type": "상황판단",
-      "question": "Low pH 바이러스 불활화 단계에서 pH가 검증된 범위보다 높게 유지된 채 정해진 시간이 지났다. 가장 적절한 판단은?",
+      "type": "개념",
+      "question": "낮은 pH 바이러스 불활화 단계에서 pH가 기준을 벗어났다. 어떻게 처리하는가?",
       "choices": [
-        "뒤에 바이러스 여과가 있으므로 문제없다고 보고 그대로 진행한다.",
-        "이 단계의 불활화 효과를 검증된 조건대로 보증할 수 없으므로 일탈로 기록하고, 영향 평가 후 처리 방안을 정한다.",
-        "pH를 크게 낮춰 남은 시간을 줄인다.",
-        "시간만 지켰으면 pH는 상관없다.",
-        "기록하지 않고 다음 단계로 넘긴다."
+        "뒤에 필터가 있으니 무시한다",
+        "일탈로 기록하고 영향을 평가한다",
+        "시간만 지켰으면 괜찮다",
+        "기록하지 않고 진행한다",
+        "pH를 크게 낮춰 시간을 줄인다"
       ],
       "answer": 2,
-      "explanation": "바이러스 제거능은 **단계별로 검증된 조건(pH·시간 등)**에서만 인정된다. 가이드라인도 불활화의 **시간 의존성**을 알아야 한다고 한다. 조건을 벗어나면 그 단계의 제거능을 주장할 수 없으므로, 다른 단계가 있다고 넘어가지 말고 **일탈 처리 → 영향 평가 → 처리 결정**을 한다(일반 GMP 원칙). Orthogonal 전략은 각 단계가 제 몫을 한다는 전제에서 성립한다.",
+      "explanation": "**바이러스 제거능은 검증된 조건(pH·시간)에서만 인정되므로, 벗어나면 일탈로 기록하고 영향을 평가한다**(일반 GMP 원칙).",
       "choiceNotes": [
-        "틀리다 — 각 단계의 검증된 몫이 합쳐져야 전체 제거능이 된다.",
-        "옳다 — 일탈 처리와 영향 평가.",
-        "틀리다 — 검증되지 않은 조건이며 제품 품질도 해칠 수 있다.",
-        "틀리다 — pH와 시간 모두 검증 조건이다.",
-        "틀리다 — 기록 없는 진행은 GMP 위반이다."
+        "틀리다 — 각 단계가 제 몫을 해야 한다.",
+        "옳다.",
+        "틀리다 — pH와 시간 모두 조건이다.",
+        "틀리다 — GMP 위반.",
+        "틀리다 — 검증되지 않은 조건."
       ],
       "source": "WK06 PDF p.9 (time dependence for inactivation), p.11 (Low pH, pH 3–4), p.15",
       "tags": [
         "Low pH",
         "일탈",
         "Virus inactivation"
-      ]
+      ],
+      "part": 1
     },
     {
       "id": "wk06-025",
       "type": "개념",
       "part": 1,
-      "question": "1940년대에 확립된 Cohn의 cold ethanol fractionation(혈장 분획)에 대한 설명으로 옳은 것은?",
+      "question": "Cohn의 저온 에탄올 분획법에 대한 설명으로 옳은 것은?",
       "choices": [
-        "재조합 항체의 Protein A 정제 공정을 말한다.",
-        "바이러스 감소 효과가 전혀 없다.",
-        "알부민이 가장 먼저 분리된다.",
-        "IVIG는 분획 공정을 거치지 않고 얻는다.",
-        "혈장 단백질을 에탄올·온도 조건으로 단계적으로 침전·분리하며, 일부 분획 단계가 바이러스 감소 단계로도 작동한다."
+        "항체를 Protein A로 정제하는 방법이다",
+        "바이러스 감소 효과가 전혀 없다",
+        "알부민이 가장 먼저 나온다",
+        "면역글로불린은 분획하지 않고 얻는다",
+        "혈장 단백질을 에탄올·온도로 단계적으로 나눈다"
       ],
       "answer": 5,
-      "explanation": "Cold Ethanol Fractionation: Cohn pool → Fractionation I(fibrinogen 분리) → II+III(알부민과 면역글로불린 분리) → Precipitate II+III → IVIG / Supernatant → IV-1, IV-4(**virus reduction steps**) → Crude V → **Albumin**. 혈장 유래 제품도 바이러스 안전성을 여러 단계로 확보한다.",
+      "explanation": "**혈장 단백질을 에탄올·온도 조건으로 침전시켜 fibrinogen → 면역글로불린 → 알부민 순으로 나누며, 일부 단계는 바이러스 감소 단계다.**",
       "choiceNotes": [
-        "틀리다 — 혈장 분획 공정이다.",
-        "틀리다 — IV-1, IV-4 단계가 바이러스 감소 단계로 표시된다.",
-        "틀리다 — 먼저 fibrinogen이 분리되고 알부민은 마지막 쪽이다.",
+        "틀리다.",
+        "틀리다 — 일부 단계가 바이러스 감소 단계.",
+        "틀리다 — 알부민은 마지막 쪽.",
         "틀리다 — Precipitate II+III에서 얻는다.",
-        "옳다."
+        "옳다 — 1940년대 확립."
       ],
       "source": "WK06 PDF p.12 (Classical Blood Plasma Fractionation), p.13",
       "tags": [
         "Plasma fractionation",
         "Virus reduction"
       ]
+    },
+    {
+      "id": "wk06-029",
+      "type": "연결",
+      "question": "크로마토그래피 종류와 분리 원리의 연결로 옳은 것은?",
+      "choices": [
+        "SEC – 분자 크기 차이",
+        "HIC – 분자 크기 차이",
+        "AEX – 소수성 차이",
+        "CEX – 음전하 분자를 양전하 레진에 붙임",
+        "SEC – 고염에서 소수성 차이"
+      ],
+      "answer": 1,
+      "explanation": "**SEC(크기 배제)는 분자 크기 차이로 분리한다.** CEX는 양전하 분자를 음전하 레진에 붙여 HCP·응집체를 없애고, AEX는 음전하 DNA·바이러스를 양전하 레진에 붙여 없애며, HIC는 고염 조건에서 소수성 차이로 분리한다.",
+      "choiceNotes": [
+        "옳다 — 크기 배제.",
+        "틀리다 — HIC는 소수성 차이다.",
+        "틀리다 — AEX는 음전하 분자를 양전하 레진에 붙인다.",
+        "틀리다 — 그것은 AEX다.",
+        "틀리다 — 그것은 HIC다."
+      ],
+      "source": "WK06 PDF p.3, p.5–7, p.18",
+      "tags": [
+        "CEX",
+        "AEX",
+        "HIC",
+        "SEC"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk06-030",
+      "type": "연결",
+      "question": "정제에서 없애는 불순물에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "HCP – 단백질끼리 뭉친 덩어리",
+        "HCP – 생산 세포에서 나온 단백질 불순물",
+        "응집체 – 생산 세포의 DNA",
+        "응집체는 면역원성 위험이 없다",
+        "HCP는 Protein A 단계에서 전혀 줄지 않는다"
+      ],
+      "answer": 2,
+      "explanation": "**HCP(Host Cell Protein)는 생산 세포에서 나온 단백질 불순물이고, 응집체(Aggregate)는 단백질 분자가 서로 뭉친 불순물이다.** 응집체는 면역원성 위험이 있어 polishing에서 없앤다. Protein A 포획 단계에서 단백질·지질·DNA 같은 불순물 대부분이 한 번에 제거된다.",
+      "choiceNotes": [
+        "틀리다 — 그것은 응집체다.",
+        "옳다.",
+        "틀리다 — 응집체는 단백질끼리 뭉친 것이다.",
+        "틀리다 — 면역원성 위험이 있어 없앤다.",
+        "틀리다 — Protein A 단계에서 불순물 대부분이 줄어든다."
+      ],
+      "source": "WK06 PDF p.5",
+      "tags": [
+        "HCP",
+        "Aggregate"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk06-031",
+      "type": "연결",
+      "question": "UF/DF 용어와 뜻의 연결로 옳지 않은 것은?",
+      "choices": [
+        "Retentate – 막을 통과하지 못하고 남는 액체",
+        "DF buffer – 새로 넣어 기존 용액을 바꾸는 버퍼",
+        "Retentate – 막을 통과해 빠져나간 액체",
+        "UF – 막으로 단백질을 농축한다",
+        "Single-pass UF/DF – 탱크로 되돌리지 않고 한 번 통과"
+      ],
+      "answer": 3,
+      "explanation": "**Retentate는 UF 막을 통과하지 못하고 남는 쪽 액체로, 농축된 단백질이 들어 있다.** 막을 통과해 나온 액체는 permeate(filtrate)다. DF는 새 버퍼(DF buffer)를 넣어 기존 용액을 바꿔 치우는 과정이고, 연속(single-pass) UF/DF는 순환 없이 한 번 통과시키며 농축·버퍼 교환을 한다.",
+      "choiceNotes": [
+        "옳은 진술 — 농축된 단백질이 들어 있다.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 막을 통과한 액체는 permeate다.",
+        "옳은 진술.",
+        "옳은 진술 — 연속으로 농축·버퍼 교환."
+      ],
+      "source": "WK06 PDF p.31",
+      "tags": [
+        "Retentate",
+        "Diafiltration buffer",
+        "Continuous (single-pass) UF/DF",
+        "UF/DF"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk06-032",
+      "type": "연결",
+      "question": "모델 바이러스와 대표하는 바이러스의 연결로 옳은 것은?",
+      "choices": [
+        "PRV – 작은 비외피 파보바이러스",
+        "MVM – 내인성 레트로바이러스",
+        "MuLV – 큰 외피 바이러스(CMV·HSV)",
+        "BVDV – C형 간염 바이러스(HCV)",
+        "BVDV – 사람 B19 파보바이러스"
+      ],
+      "answer": 4,
+      "explanation": "**BVDV는 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델이다.** MuLV – 내인성 레트로바이러스 모델(외피 있음), MVM – 동물세포 공정의 작은 비외피 모델(저항성 매우 높음), PRV – CMV·HSV 같은 큰 외피 바이러스 모델, PPV – 혈장 제품의 B19 모델.",
+      "choiceNotes": [
+        "틀리다 — PRV는 큰 외피 바이러스 모델이다.",
+        "틀리다 — 그것은 MuLV다.",
+        "틀리다 — 그것은 PRV다.",
+        "옳다 — 혈장 제품 검증.",
+        "틀리다 — B19 모델은 PPV다."
+      ],
+      "source": "WK06 PDF p.8, p.13–14",
+      "tags": [
+        "BVDV",
+        "PRV",
+        "MVM",
+        "MuLV"
+      ],
+      "part": 2
     }
   ]
 }

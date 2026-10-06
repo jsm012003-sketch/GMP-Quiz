@@ -7,91 +7,91 @@
    "no": 1,
    "term": "Clarification (청징)",
    "group": "dsp",
-   "def": "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
+   "def": "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
    "src": "WK06 PDF p.3, p.18"
   },
   {
    "no": 2,
    "term": "Depth filtration",
    "group": "dsp",
-   "def": "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
+   "def": "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
    "src": "WK06 PDF p.5, p.19"
   },
   {
    "no": 3,
    "term": "Protein A chromatography",
    "group": "dsp",
-   "def": "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
+   "def": "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
    "src": "WK06 PDF p.5, p.18–19"
   },
   {
    "no": 4,
    "term": "Low pH viral inactivation",
    "group": "dsp",
-   "def": "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
+   "def": "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
    "src": "WK06 PDF p.11, p.15"
   },
   {
    "no": 5,
    "term": "CEX (양이온 교환 크로마토그래피)",
    "group": "dsp",
-   "def": "양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
+   "def": "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
    "src": "WK06 PDF p.5, p.18"
   },
   {
    "no": 6,
    "term": "AEX (음이온 교환 크로마토그래피)",
    "group": "dsp",
-   "def": "음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
+   "def": "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
    "src": "WK06 PDF p.5, p.18"
   },
   {
    "no": 7,
    "term": "HIC (소수성 상호작용 크로마토그래피)",
    "group": "dsp",
-   "def": "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
+   "def": "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
    "src": "WK06 PDF p.3, p.6"
   },
   {
    "no": 8,
    "term": "SEC (크기 배제 크로마토그래피)",
    "group": "dsp",
-   "def": "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
+   "def": "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
    "src": "WK06 PDF p.6, p.7"
   },
   {
    "no": 9,
    "term": "Multi-modal chromatography",
    "group": "dsp",
-   "def": "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
+   "def": "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
    "src": "WK06 PDF p.18 (Two-column platform)"
   },
   {
    "no": 10,
    "term": "Membrane adsorber (막 흡착)",
    "group": "dsp",
-   "def": "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
+   "def": "레진 컬럼 대신 막에 흘려 불순물을 빠르게 붙잡는 polishing 기술.",
    "src": "WK06 PDF p.7, p.15, p.18"
   },
   {
    "no": 11,
    "term": "Virus filtration (nanofiltration)",
    "group": "dsp",
-   "def": "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
+   "def": "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
    "src": "WK06 PDF p.11, p.15–16"
   },
   {
    "no": 12,
    "term": "UF/DF (한외여과/정용여과)",
    "group": "dsp",
-   "def": "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
+   "def": "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
    "src": "WK06 PDF p.5, p.18, p.31"
   },
   {
    "no": 13,
    "term": "Retentate",
    "group": "uf",
-   "def": "UF 막을 통과하지 못하고 남는 쪽 액체로, 농축된 단백질이 들어 있다.",
+   "def": "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "src": "WK06 PDF p.31"
   },
   {
@@ -105,280 +105,280 @@
    "no": 15,
    "term": "Continuous (single-pass) UF/DF",
    "group": "uf",
-   "def": "탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
+   "def": "탱크로 되돌리지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
    "src": "WK06 PDF p.31"
   },
   {
    "no": 16,
    "term": "Bulk drug substance",
    "group": "dsp",
-   "def": "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
+   "def": "정제를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
    "src": "WK06 PDF p.3, p.5"
   },
   {
    "no": 17,
    "term": "HCP (Host Cell Protein)",
    "group": "imp",
-   "def": "생산 세포에서 유래한 단백질 불순물.",
+   "def": "생산 세포에서 나온 단백질 불순물.",
    "src": "WK06 PDF p.5"
   },
   {
    "no": 18,
    "term": "Aggregate (응집체)",
    "group": "imp",
-   "def": "단백질 분자가 서로 뭉친 불순물로, 면역원성 위험이 있어 polishing에서 제거한다.",
+   "def": "단백질끼리 뭉친 불순물(면역원성 위험).",
    "src": "WK06 PDF p.5"
   },
   {
    "no": 19,
    "term": "DBC (Dynamic Binding Capacity)",
    "group": "chrom",
-   "def": "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
+   "def": "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
    "src": "WK06 PDF p.20"
   },
   {
    "no": 20,
    "term": "Linear flow rate (선속도)",
    "group": "chrom",
-   "def": "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
+   "def": "컬럼 단면을 지나는 유속(cm/hr).",
    "src": "WK06 PDF p.20"
   },
   {
    "no": 21,
    "term": "Resin cycling (다회 사이클)",
    "group": "chrom",
-   "def": "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
+   "def": "작은 컬럼으로 여러 번 나눠 돌려 레진 비용을 줄이는 운전(시간은 늘어남).",
    "src": "WK06 PDF p.23"
   },
   {
    "no": 22,
    "term": "Safety factor (설계 여유)",
    "group": "chrom",
-   "def": "계산된 레진 부피 등에 일부러 더하는 여유분.",
+   "def": "계산한 값에 일부러 더하는 여유분.",
    "src": "WK06 PDF p.20"
   },
   {
    "no": 23,
    "term": "Platform process",
    "group": "chrom",
-   "def": "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
+   "def": "여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "src": "WK06 PDF p.6, p.17–18"
   },
   {
    "no": 24,
    "term": "S&D (Solvent/Detergent)",
    "group": "vc",
-   "def": "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
+   "def": "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
    "src": "WK06 PDF p.11"
   },
   {
    "no": 25,
    "term": "Heat inactivation (열 불활화)",
    "group": "vc",
-   "def": "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+   "def": "열로 바이러스 단백질을 변성시켜 죽이는 방법.",
    "src": "WK06 PDF p.11"
   },
   {
    "no": 26,
    "term": "Orthogonal (직교) 전략",
    "group": "vc",
-   "def": "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
+   "def": "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
    "src": "WK06 PDF p.8, p.10, p.15"
   },
   {
    "no": 27,
    "term": "Viral clearance (바이러스 제거능)",
    "group": "vc",
-   "def": "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
+   "def": "정제 공정이 바이러스를 불활화·제거하는 능력.",
    "src": "WK06 PDF p.9"
   },
   {
    "no": 28,
    "term": "Virus spiking study (바이러스 제거 검증)",
    "group": "vc",
-   "def": "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
+   "def": "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
    "src": "WK06 PDF p.8 (일반 원리 보충)"
   },
   {
    "no": 29,
    "term": "ICH Q5A (R1)",
    "group": "reg",
-   "def": "사람·동물 세포주 유래 바이오의약품의 바이러스 안전성 평가 가이드라인으로, 3~4종 바이러스로 공정 제거능을 평가하도록 한다.",
+   "def": "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
    "src": "WK06 PDF p.9"
   },
   {
    "no": 30,
    "term": "EMEA 임상시험용 의약품 바이러스 가이드라인",
    "group": "reg",
-   "def": "임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
+   "def": "임상시험 전 바이러스 감소 검증과 orthogonal 단계 2개 이상을 요구하는 유럽 가이드라인.",
    "src": "WK06 PDF p.8"
   },
   {
    "no": 31,
    "term": "Case B cell",
    "group": "reg",
-   "def": "내인성 레트로바이러스(유사 입자)를 가진 생산 세포로, MuLV 같은 특이 모델 바이러스로 완전 제거를 입증해야 한다.",
+   "def": "내인성 레트로바이러스 유사 입자를 가진 생산 세포(MuLV로 제거 입증).",
    "src": "WK06 PDF p.8"
   },
   {
    "no": 32,
    "term": "Enveloped virus (외피 바이러스)",
    "group": "virus",
-   "def": "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
+   "def": "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
    "src": "WK06 PDF p.11, p.15"
   },
   {
    "no": 33,
    "term": "Non-enveloped virus (비외피 바이러스)",
    "group": "virus",
-   "def": "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
+   "def": "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
    "src": "WK06 PDF p.11, p.14"
   },
   {
    "no": 34,
    "term": "Model virus (모델 바이러스)",
    "group": "virus",
-   "def": "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
+   "def": "실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
    "src": "WK06 PDF p.13–14"
   },
   {
    "no": 35,
    "term": "MuLV (Murine Leukaemia Virus)",
    "group": "virus",
-   "def": "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
+   "def": "외피가 있는 레트로바이러스 — 내인성 레트로바이러스 모델.",
    "src": "WK06 PDF p.8, p.14"
   },
   {
    "no": 36,
    "term": "MVM (Minute Virus of Mice)",
    "group": "virus",
-   "def": "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
+   "def": "외피가 없는 작은 파보바이러스(저항성 매우 높음) — 동물세포 공정 모델.",
    "src": "WK06 PDF p.14"
   },
   {
    "no": 37,
    "term": "PPV (Porcine Parvovirus)",
    "group": "virus",
-   "def": "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
+   "def": "외피가 없는 작은 파보바이러스 — 혈장 제품에서 사람 B19 모델.",
    "src": "WK06 PDF p.13–14"
   },
   {
    "no": 38,
    "term": "SV-40 (Simian Virus 40)",
    "group": "virus",
-   "def": "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
+   "def": "외피가 없는 중간 크기 dsDNA 바이러스(저항성 매우 높음).",
    "src": "WK06 PDF p.14"
   },
   {
    "no": 39,
    "term": "PRV (Pseudorabies Virus)",
    "group": "virus",
-   "def": "외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
+   "def": "외피가 있는 큰 바이러스 — CMV·HSV 같은 큰 외피 바이러스 모델.",
    "src": "WK06 PDF p.13–14"
   },
   {
    "no": 40,
    "term": "Reo-3 (Reovirus 3)",
    "group": "virus",
-   "def": "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
+   "def": "외피가 없는 dsRNA 바이러스(저항성 중간).",
    "src": "WK06 PDF p.14"
   },
   {
    "no": 41,
    "term": "BVDV",
    "group": "virus",
-   "def": "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
+   "def": "외피가 있는 RNA 바이러스 — 혈장 제품에서 C형 간염 바이러스 모델.",
    "src": "WK06 PDF p.13"
   },
   {
    "no": 42,
    "term": "Cohn cold ethanol fractionation",
    "group": "plasma",
-   "def": "1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다.",
+   "def": "에탄올·온도를 바꿔 혈장 단백질을 단계적으로 침전시키는 분획법.",
    "src": "WK06 PDF p.12"
   },
   {
    "no": 43,
    "term": "IVIG (정맥용 면역글로불린)",
    "group": "plasma",
-   "def": "혈장 분획의 Precipitate II+III에서 얻는 면역글로불린 제제.",
+   "def": "혈장 분획에서 얻는 정맥 주사용 면역글로불린 제제.",
    "src": "WK06 PDF p.12"
   },
   {
    "no": 44,
    "term": "Body feed",
    "group": "trend",
-   "def": "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
+   "def": "여과 보조제를 배양액에 직접 섞어 청징 효율을 높이는 방법.",
    "src": "WK06 PDF p.7 (Where Are We in DSP Technologies?) · 정의는 일반 원리"
   },
   {
    "no": 45,
    "term": "PCC (Periodic Counter-Current chromatography)",
    "group": "trend",
-   "def": "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
+   "def": "여러 컬럼이 결합·용출·재생을 돌아가며 맡아 연속 포획하는 기술.",
    "src": "WK06 PDF p.30–31"
   },
   {
    "no": 46,
    "term": "Sanofi ASAP concept",
    "group": "trend",
-   "def": "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+   "def": "단계별 컬럼 1개씩을 연속으로 이어 정제하는 Sanofi의 연속 정제 개념.",
    "src": "WK06 PDF p.30"
   },
   {
    "no": 47,
    "term": "Semi-continuous → Continuous DSP",
    "group": "trend",
-   "def": "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
+   "def": "회분식 컬럼 단계를 막·통합 단계로 바꿔 정제를 연속 흐름으로 만들어 가는 방향.",
    "src": "WK06 PDF p.7"
   },
   {
    "no": 48,
    "term": "Intensified seed (고밀도 세포은행)",
    "group": "trend",
-   "def": "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
+   "def": "고밀도로 얼린 세포은행과 관류 seed로 seed 단계를 줄이는 방식.",
    "src": "WK06 PDF p.28"
   },
   {
    "no": 49,
    "term": "PW (Purified Water, 정제수)",
    "group": "water",
-   "def": "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
+   "def": "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
    "src": "WK06 PDF p.27 (PW/WFI 계통도)"
   },
   {
    "no": 50,
    "term": "WFI (Water for Injection, 주사용수)",
    "group": "water",
-   "def": "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
+   "def": "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
    "src": "WK06 PDF p.27"
   },
   {
    "no": 51,
    "term": "RO (Reverse Osmosis, 역삼투)",
    "group": "water",
-   "def": "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
+   "def": "압력을 걸어 반투막으로 이온·유기물을 걸러 내는 물 처리.",
    "src": "WK06 PDF p.27"
   },
   {
    "no": 52,
    "term": "Softener (연수기)",
    "group": "water",
-   "def": "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+   "def": "원수의 칼슘·마그네슘(경도 이온)을 없애는 전처리 장치.",
    "src": "WK06 PDF p.27"
   },
   {
    "no": 53,
    "term": "Distribution loop (분배 루프)",
    "group": "water",
-   "def": "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+   "def": "정제수·주사용수를 계속 순환시켜 고여서 미생물이 자라지 않게 하는 배관.",
    "src": "WK06 PDF p.27"
   },
   {
    "no": 54,
    "term": "SuperPro Designer",
    "group": "sim",
-   "def": "공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어.",
+   "def": "물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어.",
    "src": "WK06 PDF p.3 · OT PDF p.13"
   },
   {
@@ -392,7 +392,7 @@
    "no": 56,
    "term": "Multi trains (다중 생산 라인)",
    "group": "sim",
-   "def": "큰 설비 하나 대신 작은 생산 라인 여러 개를 나란히 운영해 공간·유틸리티 제약을 풀고 유연성을 얻는 방식.",
+   "def": "큰 라인 하나 대신 작은 생산 라인 여러 개를 나란히 운영하는 방식.",
    "src": "WK06 PDF p.25"
   }
  ]

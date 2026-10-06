@@ -4,7 +4,9 @@
 새 자료를 반영할 때마다 이 표를 갱신하고, 미출제 후보부터 문항을 만든다.
 
 > 앱 자체도 사용자가 아직 풀지 않은 문항을 먼저 출제하고, 개념 단위로 아직 안 다룬 개념을 보여 준다(시작 화면의 「출제 현황」).
-> 아래 표는 **본문 문항**(개념·연결·상황판단) 기준이다. 용어 정리 문항은 맨 아래 「용어 정리」 절 참고.
+> 아래 표는 **본문 문항**(PART I 개념 확인·PART II 헷갈리는 개념 구분) 기준이다. 용어 정리 문항은 맨 아래 「용어 정리」 절 참고.
+>
+> 2026.10 난이도 재조정: 실제 시험이 쉬운 오픈북이라 고난도(상황 대응) 문항을 모두 쉬운 말의 개념 확인·개념 구분 문항으로 다시 쓰고(같은 id), 용어집의 헷갈리는 짝으로 PART II 문항 33개를 더했다.
 
 ## OT — Introduction to Design Project (2026.09.07)
 
@@ -15,6 +17,7 @@
 | ROI 기반 Go/Stop, CAPEX·OPEX | ot-003, int-010 |
 | 텀 프로젝트 공정 정의 필수 항목(PFD/BFD, URS, mass balance) | ot-004 |
 | Bioprocess Upstream/Downstream 흐름 | ot-005, int-009 |
+| CAPEX vs OPEX, BFD vs PFD | ot-007, ot-008 |
 | mRNA 백신 전환(BluejayTech 배경, 반응표·PFD) | int-002 |
 
 미출제 후보: 단위공정 QC 시험 7(Microbial Air Monitoring)·8(Data Analytics)의 적용 단계, Mass balance·Equipment list 예시 해석.
@@ -30,7 +33,7 @@
 | DoE(Ambr 15 24 vessel)로 조건 탐색 | wk02-005 |
 | pH 저하 시 접근(원인 → 샘플링·IPC 확인) | wk02-006, int-008 |
 | Design space set point·hypercube | wk02-007, int-005 |
-| QbD 흐름(QTPP→CQA→위험평가→DoE→관리전략) | wk02-008 |
+| QbD 첫 단계(QTPP)와 흐름 | wk02-008 |
 | CPP vs CQA(Bioprocessing 4.0) | wk02-009 |
 | N-1 perfusion high inoculum fed-batch | wk02-010, int-010 |
 | Concentrated FB(UF) vs Dynamic perfusion(MF) | wk02-011, int-003 |
@@ -39,7 +42,7 @@
 | kLa·OTR/OUR 개념 | wk02-015 |
 | Tip speed의 의미(shear) | wk02-016 |
 | P/V 일정 scale-up 원리 | wk02-017 |
-| OTR ≥ OUR, 교반·통기 design space 대응 | wk02-018, wk02-019 |
+| kLa 높이는 방법, 교반·통기 범위 이탈 문제 | wk02-018, wk02-019 |
 | Superficial gas velocity 영향 | wk02-020 |
 | Scale-down model 전제 | wk02-021 |
 | Spent media 아미노산 역할 | wk02-022 |
@@ -47,7 +50,7 @@
 | Perfusion PAT(BioPAT Trace·ViaMass, cell bleed) | wk02-024 |
 | Sampling·IPC 항목 | wk02-025, int-007 |
 | Modality(AAV·CAR-T·mRNA·Adeno·MSC) | wk02-026 |
-| Seed train 해동 후 viability 저하 대응 | wk02-027 |
+| 해동 직후 세포 상태와 계대배양 | wk02-027 |
 | VIP vs Coefficient plot | wk02-028 |
 | HEK293T AAV 최적화(pH·stirring CPP) | wk02-029 |
 | Upstream hybrid models | wk02-030 |
@@ -67,8 +70,11 @@
 | 부착 세포 한계(microcarrier), 아미노산 배지 설계 | wk02-054, wk02-055 |
 | AAV(HEK293) 회수, mRNA·LNP 흐름 | wk02-056, wk02-057 |
 | 데이터 분석·문제 해결 역량, design space의 '공간', SDM 활용 | wk02-058, wk02-059, wk02-060 |
+| **(개념 구분)** Basal medium vs supplement, lactate vs ammonium 출처, micro vs ring sparger | wk02-065, wk02-066, wk02-067 |
+| Screening vs optimization design, DS vs DP, VCD vs viability | wk02-068, wk02-069, wk02-070 |
+| 교반·통기 지표(P/V·tip speed·mixing time·VVM·kLa), 줄기세포(MSC·iPSC·HSC) | wk02-071, wk02-072 |
 
-미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), Basal medium vs Media supplements 구성, 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, Ring vs Micro sparger·single-use 광학 센서, Mixing time 정의, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상).
+미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, single-use 광학 센서, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상).
 
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
@@ -87,8 +93,9 @@
 | 점도와 충전량 IPC | gmp01-012 |
 | 무균 충전 환경(Grade A/B, EM, 미디어필, 갱의) | gmp01-013 |
 | 전체 제조 흐름 01~05·공통 관리 | gmp01-014 |
+| **(개념 구분)** 부형제 역할, 용기별 밀봉, IPC 중량검사 vs 전수검사 | gmp01-017, gmp01-018, gmp01-019 |
 
-미출제 후보: 바이오 부형제 예시(완충제·pH 조절제·보존제·안정화제)의 역할 구분, 액상 vs 동결건조 원료 형태, 컨테이너 구성(PFS: 바늘 보호 캡·바늘·유리용기·피스톤 / 백: 포트·마개), 칭량 단계 원료 확인·투입 순서.
+미출제 후보: 액상 vs 동결건조 원료 형태, 컨테이너 세부 구성(PFS: 바늘 보호 캡·바늘·유리용기·피스톤), 칭량 단계 원료 확인·투입 순서.
 
 ## GMP02 — RABS 시스템과 무균공정시뮬레이션 (2026.09.30)
 
@@ -104,13 +111,15 @@
 | Inherent vs Corrective 간섭 | gmp02-009 |
 | Intervention 사례 (1)·(3)·(4) | gmp02-010, gmp02-012, gmp02-011 |
 | Intervention 관리 원칙(즉흥 금지) | gmp02-013 |
-| Worst case 실습(2R 제품) | gmp02-014 |
-| Initial APS 전략표(N₂→air, 필터 셋업, 충전량) | gmp02-015 |
-| 신규 작업자 시나리오 | gmp02-016 |
+| Worst case를 쓰는 이유 | gmp02-014 |
+| Initial APS 전략(N₂ 단계 → air) | gmp02-015 |
+| 신규 작업자 자격 판정 | gmp02-016 |
 | Holistic approach(PDA TR22)·스모크 스터디 선행 | gmp02-017 |
 | 대상 선택·GPT·육안검사 | gmp02-018, int-006 |
+| **(개념 구분)** PDA TR22·Annex 1·ISO 13408-1·CCS, Initial vs Routine APS | gmp02-022, gmp02-023 |
+| 실패 조치(근본원인·시정조치·재자격·균 동정), viable vs non-viable | gmp02-024, gmp02-025 |
 
-미출제 후보: RABS 구성요소 5가지(도어·글러브 무결성 주기·스모크 스터디·RTP/알파-베타 포트·VHP 사전 소독과 잔류물), Intervention 사례 (2) EM 배지 교체(settle plate 4시간, 기록 항목), Study design 요소(장비 조립·해제, 교대·휴식 중단, 공정 확인 항목), APS 재검증 계기(설비 변경·중대 일탈·장기 미가동 → 변경관리), ISO 13408-1 무균 공정 정의.
+미출제 후보: RABS 구성요소 5가지(도어·글러브 무결성 주기·스모크 스터디·RTP/알파-베타 포트·VHP 사전 소독과 잔류물), Intervention 사례 (2) EM 배지 교체(settle plate 4시간, 기록 항목), Study design 요소(장비 조립·해제, 교대·휴식 중단, 공정 확인 항목), APS 재검증 계기(설비 변경·중대 일탈·장기 미가동 → 변경관리).
 
 ## GMP03 — Isolator & Qualification (2026.09.30)
 
@@ -132,9 +141,10 @@
 | Aeration·잔류 H₂O₂ | gmp03-014, int-006 |
 | Glove integrity(육안·pressure decay) | gmp03-015, gmp03-016 |
 | Test location 범주 | gmp03-017 |
-| 검증 대상 전환(사람 → 설비 성능) | gmp03-018 |
+| 클린룸 vs 아이솔레이터(사람 → 설비 성능) | gmp03-018 |
+| **(개념 구분)** Maximum vs Minimum/Empty load, 온도·습도 vs CI mapping, D-value·SLR·Population | gmp03-022, gmp03-023, gmp03-024 |
 
-미출제 후보: VHP 파라미터(H₂O₂ 34~37 %, dosing rate, nozzle airflow), 온도·습도 mapping(응축 위험)·CI mapping, Aeration 기준(< 1.0 ppm)과 측정 방법(교정 센서·검지관), Minimum/Empty load 설계 의미, EI(tAK) 원리.
+미출제 후보: VHP 파라미터(H₂O₂ 34~37 %, dosing rate, nozzle airflow), Aeration 기준(< 1.0 ppm)과 측정 방법(교정 센서·검지관), EI(tAK) 원리.
 
 ## WK06 — 항체치료제 공정 설계·정제(DSP)·바이러스 안전성
 
@@ -154,8 +164,10 @@
 | 상업 정제 공정 비교(플랫폼 + 제품별 조정) | wk06-020 |
 | 공정 시뮬레이션 흐름도, 버퍼·hold 탱크 공간 | wk06-021, wk06-023 |
 | Cohn 혈장 분획 | wk06-025 |
+| **(개념 구분)** CEX·AEX·HIC·SEC 원리, HCP vs 응집체 | wk06-029, wk06-030 |
+| UF/DF 용어(retentate·DF buffer·single-pass), 모델 바이러스(BVDV·PRV·MVM·MuLV) | wk06-031, wk06-032 |
 
-미출제 후보: 모델 바이러스 표의 개별 특성 비교(B19·SV-40·HBV 등 외피·크기·저항성), 연속 UF/DF, 혈장 분획 각 fraction의 산물.
+미출제 후보: 모델 바이러스 표의 나머지 특성(SV-40·Reo-3·HBV 등 크기·저항성), 혈장 분획 각 fraction의 산물.
 
 ## WK07 — GMP Engineering (시설 설계·건설·프로젝트 관리)
 
@@ -177,14 +189,19 @@
 | 프로젝트 단계, 통합(Q&V 동시 참여) | wk07-029, wk07-030 |
 | Ballroom·single-use 밀폐 | wk07-031, wk07-032, int-011 |
 | 임상 개발 단계 | wk07-033 |
+| **(개념 구분)** FAT vs SAT, 다목적 vs 전용 시설, PAL vs MAL | wk07-037, wk07-038, wk07-039 |
+| Pure·clean·black steam, 변경 관리·재적격성평가·재교정 | wk07-040, wk07-041 |
+| PV·CV·CSV, PLC/SCADA vs MES/EBR | wk07-042, wk07-043 |
 
-미출제 후보: HVAC 차압 계단(pressure cascade), 폐기물(waste) 흐름, Commissioning and Start-Up, Cost Control and Scheduling, Computer System Validation 범위.
+미출제 후보: HVAC 차압 계단(pressure cascade), 폐기물(waste) 흐름, Commissioning and Start-Up, Cost Control and Scheduling.
 
 ## 통합(공정 연결) 문항
 
 int-001 ~ int-010: 스케줄링, mRNA 전환, 여과 체인, shear·기포, worst case 논리, 잔류 H₂O₂–GPT, 공정별 IPC, 삼투압, DS→DP 전체 흐름, 설비·배양·경제성 trade-off.
 
 int-011 ~ int-015: Ballroom 밀폐 붕괴 대응, titer 상승 → 하류·시설·변경관리, WFI 이상 대응, Q&V 순서(OQ → PV), QbD CPP → URS → Q&V.
+
+int-019 ~ int-020(개념 구분): CIP·SIP·VHP, bracketing·worst case·design space.
 
 ## 용어 정리 (PART I, 자동 생성)
 
