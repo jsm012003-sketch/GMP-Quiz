@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """용어집(glossary/*.json) → 용어 정리 문항(questions/terms-*.json) 생성기.
 
-한 용어당 두 문항과, 같은 묶음(group) 용어 4개씩 짝짓기 문항을 만든다.
+한 용어당 한 문항(아래 d 또는 r 중 하나)과, 같은 묶음(group) 용어 4개씩 짝짓기 문항을 만든다.
+방향(2026.10, 문항 수 절반으로): 약어·기호 용어(MCB, TMP, LRV, kLa …)는 r — 약어를 보고 뜻을 떠올리는 연습,
+낱말 용어(Clarification, Grade A, 최종멸균법 …)는 d — 설명을 보고 이름을 떠올리는 연습. 용어에 "drill": "d"|"r"로 직접 정할 수 있다.
   <prefix>d-<no>  정의 → 용어   ("다음 설명에 해당하는 용어는?")
   <prefix>r-<no>  용어 → 정의   ("「용어」에 대한 설명으로 옳은 것은?")
   <prefix>m-<no>-<no>-<no>-<no>  용어 (가)~(라) ↔ 설명 A~D 짝짓기
@@ -16,6 +18,7 @@ id는 용어 번호(no)로만 정해지므로 용어를 추가해도 기존 id�
 사용법: python3 tools/build_terms.py   (저장소 루트에서)
 """
 import hashlib
+import re
 import json
 import random
 import sys
@@ -30,6 +33,13 @@ LETTERS = ['A', 'B', 'C', 'D']
 
 def rng_for(key):
     return random.Random(int(hashlib.md5(key.encode('utf-8')).hexdigest()[:12], 16))
+
+
+def drill_kind(t):
+    """이 용어에서 만들 문항 방향: 'd'(정의 → 용어) 또는 'r'(용어 → 정의)."""
+    name = short(t['term'])
+    acronym = re.search(r'[A-Z]{2,}', name) or re.fullmatch(r'[A-Za-z0-9/₂ .-]{1,6}', name)
+    return t.get('drill') or ('r' if acronym else 'd')
 
 
 def short(term):
@@ -252,9 +262,11 @@ def main():
         spread = Spreader(g['prefix'])
         qs = []
         for t in terms:
-            qs.append(build_def_to_term(t, terms, g, spread))
+            if drill_kind(t) == 'd':
+                qs.append(build_def_to_term(t, terms, g, spread))
         for t in terms:
-            qs.append(build_term_to_def(t, terms, g, spread))
+            if drill_kind(t) == 'r':
+                qs.append(build_term_to_def(t, terms, g, spread))
         for ch in matching_sets(terms, g.get('matchSealed', 0)):
             qs.append(build_matching(ch, g, spread))
         out = {

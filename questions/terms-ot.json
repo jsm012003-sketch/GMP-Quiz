@@ -169,105 +169,6 @@
    ]
   },
   {
-   "id": "totd-008",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사."
-   ],
-   "choices": [
-    "Biosimilar (바이오시밀러)",
-    "CMO (위탁생산기관)",
-    "PFD (Process Flow Diagram)",
-    "URS (User Requirement Specification)",
-    "OPEX (운영 비용)"
-   ],
-   "answer": 2,
-   "explanation": "**CMO (위탁생산기관)** — 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-   "choiceNotes": [
-    "틀리다 — Biosimilar (바이오시밀러): 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-    "정답 — 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-    "틀리다 — PFD (Process Flow Diagram): 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
-    "틀리다 — URS (User Requirement Specification): 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "틀리다 — OPEX (운영 비용): 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용."
-   ],
-   "source": "OT PDF p.12 (공장 운영 컨셉)",
-   "concepts": [
-    "CMO"
-   ],
-   "tags": [
-    "용어",
-    "CMO"
-   ]
-  },
-  {
-   "id": "totd-009",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도."
-   ],
-   "choices": [
-    "Mass balance (물질수지)",
-    "URS (User Requirement Specification)",
-    "BFD (Block Flow Diagram)",
-    "Bioprocess (바이오공정)",
-    "Downstream process (DSP)"
-   ],
-   "answer": 3,
-   "explanation": "**BFD (Block Flow Diagram)** — 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
-   "choiceNotes": [
-    "틀리다 — Mass balance (물질수지): 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "틀리다 — URS (User Requirement Specification): 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "정답 — 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
-    "틀리다 — Bioprocess (바이오공정): 살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제하는 뒷단 공정."
-   ],
-   "source": "OT PDF p.13 · WK07 PDF p.27",
-   "concepts": [
-    "BFD"
-   ],
-   "tags": [
-    "용어",
-    "BFD"
-   ]
-  },
-  {
-   "id": "totd-010",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도."
-   ],
-   "choices": [
-    "PFD (Process Flow Diagram)",
-    "Mass balance (물질수지)",
-    "URS (User Requirement Specification)",
-    "Single-use vs Multi-use (공장 컨셉)",
-    "CMO (위탁생산기관)"
-   ],
-   "answer": 1,
-   "explanation": "**PFD (Process Flow Diagram)** — 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
-   "choiceNotes": [
-    "정답 — 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
-    "틀리다 — Mass balance (물질수지): 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "틀리다 — URS (User Requirement Specification): 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "틀리다 — Single-use vs Multi-use (공장 컨셉): 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-    "틀리다 — CMO (위탁생산기관): 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사."
-   ],
-   "source": "OT PDF p.13, p.20 · WK07 PDF p.28",
-   "concepts": [
-    "PFD"
-   ],
-   "tags": [
-    "용어",
-    "PFD"
-   ]
-  },
-  {
    "id": "totd-011",
    "type": "용어",
    "part": 1,
@@ -277,18 +178,18 @@
    ],
    "choices": [
     "BFD (Block Flow Diagram)",
+    "Mass balance (물질수지)",
     "URS (User Requirement Specification)",
     "Unit operation (단위공정)",
-    "Mass balance (물질수지)",
     "Biosimilar (바이오시밀러)"
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**Mass balance (물질수지)** — 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
    "choiceNotes": [
     "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
+    "정답 — 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
     "틀리다 — URS (User Requirement Specification): 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
     "틀리다 — Unit operation (단위공정): 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "정답 — 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
     "틀리다 — Biosimilar (바이오시밀러): 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약."
    ],
    "source": "OT PDF p.13, p.22 (Process Mass Balance)",
@@ -301,39 +202,6 @@
    ]
   },
   {
-   "id": "totd-014",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "사용자가 장비에 요구하는 기능과 조건을 적은 문서."
-   ],
-   "choices": [
-    "BFD (Block Flow Diagram)",
-    "Mass balance (물질수지)",
-    "OPEX (운영 비용)",
-    "Upstream process (USP)",
-    "URS (User Requirement Specification)"
-   ],
-   "answer": 5,
-   "explanation": "**URS (User Requirement Specification)** — 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-   "choiceNotes": [
-    "틀리다 — BFD (Block Flow Diagram): 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
-    "틀리다 — Mass balance (물질수지): 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "틀리다 — OPEX (운영 비용): 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "틀리다 — Upstream process (USP): 세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-    "정답 — 사용자가 장비에 요구하는 기능과 조건을 적은 문서."
-   ],
-   "source": "OT PDF p.13 · WK07 PDF p.51",
-   "concepts": [
-    "URS"
-   ],
-   "tags": [
-    "용어",
-    "URS"
-   ]
-  },
-  {
    "id": "totd-015",
    "type": "용어",
    "part": 1,
@@ -343,17 +211,17 @@
    ],
    "choices": [
     "Single-use vs Multi-use (공장 컨셉)",
-    "Scheduling (공정 스케줄링)",
     "Mass balance (물질수지)",
+    "Scheduling (공정 스케줄링)",
     "PFD (Process Flow Diagram)",
     "Biosimilar (바이오시밀러)"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**Scheduling (공정 스케줄링)** — 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
    "choiceNotes": [
     "틀리다 — Single-use vs Multi-use (공장 컨셉): 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-    "정답 — 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
     "틀리다 — Mass balance (물질수지): 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
+    "정답 — 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
     "틀리다 — PFD (Process Flow Diagram): 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
     "틀리다 — Biosimilar (바이오시밀러): 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약."
    ],
@@ -367,105 +235,6 @@
    ]
   },
   {
-   "id": "totd-016",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용."
-   ],
-   "choices": [
-    "OPEX (운영 비용)",
-    "ROI (투자수익률)",
-    "CAPEX (자본적 지출)",
-    "Biosimilar (바이오시밀러)",
-    "Unit operation (단위공정)"
-   ],
-   "answer": 3,
-   "explanation": "**CAPEX (자본적 지출)** — 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-   "choiceNotes": [
-    "틀리다 — OPEX (운영 비용): 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "틀리다 — ROI (투자수익률): 투자한 돈에 비해 얻는 수익의 비율.",
-    "정답 — 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "틀리다 — Biosimilar (바이오시밀러): 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-    "틀리다 — Unit operation (단위공정): 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계."
-   ],
-   "source": "OT PDF p.13, p.27",
-   "concepts": [
-    "CAPEX"
-   ],
-   "tags": [
-    "용어",
-    "CAPEX"
-   ]
-  },
-  {
-   "id": "totd-017",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용."
-   ],
-   "choices": [
-    "OPEX (운영 비용)",
-    "CAPEX (자본적 지출)",
-    "ROI (투자수익률)",
-    "Unit operation (단위공정)",
-    "Downstream process (DSP)"
-   ],
-   "answer": 1,
-   "explanation": "**OPEX (운영 비용)** — 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-   "choiceNotes": [
-    "정답 — 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "틀리다 — CAPEX (자본적 지출): 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "틀리다 — ROI (투자수익률): 투자한 돈에 비해 얻는 수익의 비율.",
-    "틀리다 — Unit operation (단위공정): 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제하는 뒷단 공정."
-   ],
-   "source": "OT PDF p.13, p.27",
-   "concepts": [
-    "OPEX"
-   ],
-   "tags": [
-    "용어",
-    "OPEX"
-   ]
-  },
-  {
-   "id": "totd-018",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "투자한 돈에 비해 얻는 수익의 비율."
-   ],
-   "choices": [
-    "OPEX (운영 비용)",
-    "CAPEX (자본적 지출)",
-    "Mass balance (물질수지)",
-    "ROI (투자수익률)",
-    "Scheduling (공정 스케줄링)"
-   ],
-   "answer": 4,
-   "explanation": "**ROI (투자수익률)** — 투자한 돈에 비해 얻는 수익의 비율.",
-   "choiceNotes": [
-    "틀리다 — OPEX (운영 비용): 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "틀리다 — CAPEX (자본적 지출): 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "틀리다 — Mass balance (물질수지): 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "정답 — 투자한 돈에 비해 얻는 수익의 비율.",
-    "틀리다 — Scheduling (공정 스케줄링): 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것."
-   ],
-   "source": "OT PDF p.27 (Marketability)",
-   "concepts": [
-    "ROI"
-   ],
-   "tags": [
-    "용어",
-    "ROI"
-   ]
-  },
-  {
    "id": "totd-021",
    "type": "용어",
    "part": 1,
@@ -474,20 +243,20 @@
     "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것."
    ],
    "choices": [
+    "Single-use vs Multi-use (공장 컨셉)",
     "Scheduling (공정 스케줄링)",
     "Downstream process (DSP)",
     "Bioprocess (바이오공정)",
-    "CMO (위탁생산기관)",
-    "Single-use vs Multi-use (공장 컨셉)"
+    "CMO (위탁생산기관)"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**Single-use vs Multi-use (공장 컨셉)** — 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
    "choiceNotes": [
+    "정답 — 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
     "틀리다 — Scheduling (공정 스케줄링): 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
     "틀리다 — Downstream process (DSP): 배양액에서 목표 물질을 회수·정제하는 뒷단 공정.",
     "틀리다 — Bioprocess (바이오공정): 살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "틀리다 — CMO (위탁생산기관): 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-    "정답 — 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것."
+    "틀리다 — CMO (위탁생산기관): 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사."
    ],
    "source": "OT PDF p.12",
    "concepts": [
@@ -499,174 +268,24 @@
    ]
   },
   {
-   "id": "totr-001",
-   "type": "용어",
-   "part": 1,
-   "question": "「Bioprocess (바이오공정)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-    "특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약."
-   ],
-   "answer": 1,
-   "explanation": "**Bioprocess (바이오공정)** — 살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Unit operation (단위공정)의 설명이다.",
-    "틀리다 — Upstream process (USP)의 설명이다.",
-    "틀리다 — CMO (위탁생산기관)의 설명이다.",
-    "틀리다 — Biosimilar (바이오시밀러)의 설명이다."
-   ],
-   "source": "OT PDF p.2 (Bioprocess)",
-   "concepts": [
-    "Bioprocess"
-   ],
-   "tags": [
-    "용어",
-    "Bioprocess"
-   ]
-  },
-  {
-   "id": "totr-002",
-   "type": "용어",
-   "part": 1,
-   "question": "「Unit operation (단위공정)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-    "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
-    "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것."
-   ],
-   "answer": 2,
-   "explanation": "**Unit operation (단위공정)** — 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-   "choiceNotes": [
-    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Upstream process (USP)의 설명이다.",
-    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
-    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다."
-   ],
-   "source": "OT PDF p.3 (Unit Operation), p.18",
-   "concepts": [
-    "Unit operation"
-   ],
-   "tags": [
-    "용어",
-    "Unit operation"
-   ]
-  },
-  {
-   "id": "totr-003",
-   "type": "용어",
-   "part": 1,
-   "question": "「Upstream process (USP)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도."
-   ],
-   "answer": 3,
-   "explanation": "**Upstream process (USP)** — 세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-   "choiceNotes": [
-    "틀리다 — Unit operation (단위공정)의 설명이다.",
-    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CMO (위탁생산기관)의 설명이다.",
-    "틀리다 — PFD (Process Flow Diagram)의 설명이다."
-   ],
-   "source": "OT PDF p.2 · WK02 PDF p.15",
-   "concepts": [
-    "Upstream process"
-   ],
-   "tags": [
-    "용어",
-    "Upstream process"
-   ]
-  },
-  {
-   "id": "totr-004",
-   "type": "용어",
-   "part": 1,
-   "question": "「Downstream process (DSP)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
-    "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
-    "투자한 돈에 비해 얻는 수익의 비율.",
-    "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "배양액에서 목표 물질을 회수·정제하는 뒷단 공정."
-   ],
-   "answer": 5,
-   "explanation": "**Downstream process (DSP)** — 배양액에서 목표 물질을 회수·정제하는 뒷단 공정.",
-   "choiceNotes": [
-    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
-    "틀리다 — Upstream process (USP)의 설명이다.",
-    "틀리다 — ROI (투자수익률)의 설명이다.",
-    "틀리다 — URS (User Requirement Specification)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "OT PDF p.2 · WK02 PDF p.15",
-   "concepts": [
-    "Downstream process"
-   ],
-   "tags": [
-    "용어",
-    "Downstream process"
-   ]
-  },
-  {
-   "id": "totr-005",
-   "type": "용어",
-   "part": 1,
-   "question": "「Biosimilar (바이오시밀러)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
-    "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-    "각 단계에 들어가고 나오는 물질의 양을 맞춘 계산."
-   ],
-   "answer": 4,
-   "explanation": "**Biosimilar (바이오시밀러)** — 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-   "choiceNotes": [
-    "틀리다 — CMO (위탁생산기관)의 설명이다.",
-    "틀리다 — OPEX (운영 비용)의 설명이다.",
-    "틀리다 — CAPEX (자본적 지출)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Mass balance (물질수지)의 설명이다."
-   ],
-   "source": "OT PDF p.12 (About Term Project)",
-   "concepts": [
-    "Biosimilar"
-   ],
-   "tags": [
-    "용어",
-    "Biosimilar"
-   ]
-  },
-  {
    "id": "totr-008",
    "type": "용어",
    "part": 1,
    "question": "「CMO (위탁생산기관)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
     "특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
     "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
     "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
+    "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
     "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것."
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**CMO (위탁생산기관)** — 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
     "틀리다 — Unit operation (단위공정)의 설명이다.",
     "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다."
    ],
    "source": "OT PDF p.12 (공장 운영 컨셉)",
@@ -686,18 +305,18 @@
    "choices": [
     "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
     "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
     "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계."
+    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
+    "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도."
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**BFD (Block Flow Diagram)** — 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
    "choiceNotes": [
     "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
     "틀리다 — URS (User Requirement Specification)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CAPEX (자본적 지출)의 설명이다.",
-    "틀리다 — Unit operation (단위공정)의 설명이다."
+    "틀리다 — Unit operation (단위공정)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "OT PDF p.13 · WK07 PDF p.27",
    "concepts": [
@@ -715,19 +334,19 @@
    "question": "「PFD (Process Flow Diagram)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
+    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
     "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
     "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.",
-    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도."
+    "배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계."
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**PFD (Process Flow Diagram)** — 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
    "choiceNotes": [
     "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
     "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다.",
-    "틀리다 — Unit operation (단위공정)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Unit operation (단위공정)의 설명이다."
    ],
    "source": "OT PDF p.13, p.20 · WK07 PDF p.28",
    "concepts": [
@@ -739,53 +358,23 @@
    ]
   },
   {
-   "id": "totr-011",
-   "type": "용어",
-   "part": 1,
-   "question": "「Mass balance (물질수지)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.",
-    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
-    "특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-    "각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양)."
-   ],
-   "answer": 4,
-   "explanation": "**Mass balance (물질수지)** — 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-   "choiceNotes": [
-    "틀리다 — BFD (Block Flow Diagram)의 설명이다.",
-    "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
-    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Upstream process (USP)의 설명이다."
-   ],
-   "source": "OT PDF p.13, p.22 (Process Mass Balance)",
-   "concepts": [
-    "Mass balance"
-   ],
-   "tags": [
-    "용어",
-    "Mass balance"
-   ]
-  },
-  {
    "id": "totr-014",
    "type": "용어",
    "part": 1,
    "question": "「URS (User Requirement Specification)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
-    "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
     "각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
+    "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
     "세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).",
     "장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**URS (User Requirement Specification)** — 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
    "choiceNotes": [
     "틀리다 — PFD (Process Flow Diagram)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Mass balance (물질수지)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Upstream process (USP)의 설명이다.",
     "틀리다 — Scheduling (공정 스케줄링)의 설명이다."
    ],
@@ -799,53 +388,23 @@
    ]
   },
   {
-   "id": "totr-015",
-   "type": "용어",
-   "part": 1,
-   "question": "「Scheduling (공정 스케줄링)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-    "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
-    "특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.",
-    "투자한 돈에 비해 얻는 수익의 비율.",
-    "장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것."
-   ],
-   "answer": 5,
-   "explanation": "**Scheduling (공정 스케줄링)** — 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
-   "choiceNotes": [
-    "틀리다 — Single-use vs Multi-use (공장 컨셉)의 설명이다.",
-    "틀리다 — URS (User Requirement Specification)의 설명이다.",
-    "틀리다 — Biosimilar (바이오시밀러)의 설명이다.",
-    "틀리다 — ROI (투자수익률)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "OT PDF p.23 (Scheduling)",
-   "concepts": [
-    "Scheduling"
-   ],
-   "tags": [
-    "용어",
-    "Scheduling"
-   ]
-  },
-  {
    "id": "totr-016",
    "type": "용어",
    "part": 1,
    "question": "「CAPEX (자본적 지출)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
     "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
     "투자한 돈에 비해 얻는 수익의 비율.",
-    "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
     "사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
     "배양액에서 목표 물질을 회수·정제하는 뒷단 공정."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**CAPEX (자본적 지출)** — 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — OPEX (운영 비용)의 설명이다.",
     "틀리다 — ROI (투자수익률)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — URS (User Requirement Specification)의 설명이다.",
     "틀리다 — Downstream process (DSP)의 설명이다."
    ],
@@ -865,18 +424,18 @@
    "question": "「OPEX (운영 비용)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
-    "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
     "투자한 돈에 비해 얻는 수익의 비율.",
     "다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.",
+    "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
     "각 단계에 들어가고 나오는 물질의 양을 맞춘 계산."
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**OPEX (운영 비용)** — 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
    "choiceNotes": [
     "틀리다 — CAPEX (자본적 지출)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — ROI (투자수익률)의 설명이다.",
     "틀리다 — CMO (위탁생산기관)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Mass balance (물질수지)의 설명이다."
    ],
    "source": "OT PDF p.13, p.27",
@@ -894,20 +453,20 @@
    "part": 1,
    "question": "「ROI (투자수익률)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "투자한 돈에 비해 얻는 수익의 비율.",
     "공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.",
     "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
     "각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.",
-    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정."
+    "살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.",
+    "투자한 돈에 비해 얻는 수익의 비율."
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**ROI (투자수익률)** — 투자한 돈에 비해 얻는 수익의 비율.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — CAPEX (자본적 지출)의 설명이다.",
     "틀리다 — OPEX (운영 비용)의 설명이다.",
     "틀리다 — Mass balance (물질수지)의 설명이다.",
-    "틀리다 — Bioprocess (바이오공정)의 설명이다."
+    "틀리다 — Bioprocess (바이오공정)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "OT PDF p.27 (Marketability)",
    "concepts": [
@@ -916,36 +475,6 @@
    "tags": [
     "용어",
     "ROI"
-   ]
-  },
-  {
-   "id": "totr-021",
-   "type": "용어",
-   "part": 1,
-   "question": "「Single-use vs Multi-use (공장 컨셉)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.",
-    "배양액에서 목표 물질을 회수·정제하는 뒷단 공정.",
-    "원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.",
-    "일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-    "물질 흐름과 사용 장비를 함께 표시한 공정 흐름도."
-   ],
-   "answer": 4,
-   "explanation": "**Single-use vs Multi-use (공장 컨셉)** — 일회용 백을 쓸지, 스테인리스 장비를 세척해 다시 쓸지 정하는 것.",
-   "choiceNotes": [
-    "틀리다 — Scheduling (공정 스케줄링)의 설명이다.",
-    "틀리다 — Downstream process (DSP)의 설명이다.",
-    "틀리다 — OPEX (운영 비용)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — PFD (Process Flow Diagram)의 설명이다."
-   ],
-   "source": "OT PDF p.12",
-   "concepts": [
-    "Single-use vs Multi-use"
-   ],
-   "tags": [
-    "용어",
-    "Single-use vs Multi-use"
    ]
   },
   {
@@ -960,20 +489,20 @@
     "D. 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계."
    ],
    "choices": [
+    "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-C  (나)-D  (다)-B  (라)-A",
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-A  (나)-D  (다)-C  (라)-B",
-    "(가)-D  (나)-A  (다)-C  (라)-B",
-    "(가)-A  (나)-D  (다)-B  (라)-C"
+    "(가)-D  (나)-A  (다)-C  (라)-B"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Bioprocess (바이오공정)** → A. 살아 있는 세포로 물질을 만들고 정제해 완제까지 만드는 전체 공정.\n(나) **Unit operation (단위공정)** → D. 배양·여과·충전처럼 하나의 목적을 가진 개별 공정 단계.\n(다) **Upstream process (USP)** → B. 세포를 키워 목표 물질을 만드는 앞단 공정(배지 준비~생산 배양).\n(라) **Downstream process (DSP)** → C. 배양액에서 목표 물질을 회수·정제하는 뒷단 공정.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Bioprocess의 설명은 A, (라) Downstream process의 설명은 C",
     "틀리다 — (가) Bioprocess의 설명은 A, (다) Upstream process의 설명은 B",
     "틀리다 — (다) Upstream process의 설명은 B, (라) Downstream process의 설명은 C",
-    "틀리다 — (가) Bioprocess의 설명은 A, (나) Unit operation의 설명은 D, (다) Upstream process의 설명은 B, (라) Downstream process의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Bioprocess의 설명은 A, (나) Unit operation의 설명은 D, (다) Upstream process의 설명은 B, (라) Downstream process의 설명은 C"
    ],
    "source": "OT PDF p.2 (Bioprocess) · OT PDF p.3 (Unit Operation), p.18 · OT PDF p.2 · WK02 PDF p.15",
    "concepts": [
@@ -1000,17 +529,17 @@
    ],
    "choices": [
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-B  (나)-C  (다)-D  (라)-A",
+    "(가)-B  (나)-A  (다)-D  (라)-C",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Biosimilar (바이오시밀러)** → B. 특허가 끝난 오리지널 바이오의약품과 동등함을 입증한 복제약.\n(나) **CMO (위탁생산기관)** → C. 다른 회사의 의약품을 계약에 따라 대신 생산해 주는 회사.\n(다) **BFD (Block Flow Diagram)** → D. 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.\n(라) **PFD (Process Flow Diagram)** → A. 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.",
    "choiceNotes": [
     "틀리다 — (가) Biosimilar의 설명은 B, (나) CMO의 설명은 C",
-    "틀리다 — (나) CMO의 설명은 C, (라) PFD의 설명은 A",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) CMO의 설명은 C, (라) PFD의 설명은 A",
     "틀리다 — (다) BFD의 설명은 D, (라) PFD의 설명은 A",
     "틀리다 — (가) Biosimilar의 설명은 B, (나) CMO의 설명은 C, (다) BFD의 설명은 D, (라) PFD의 설명은 A"
    ],
@@ -1039,17 +568,17 @@
    ],
    "choices": [
     "(가)-D  (나)-C  (다)-B  (라)-A",
-    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **BFD (Block Flow Diagram)** → B. 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도.\n(나) **PFD (Process Flow Diagram)** → C. 물질 흐름과 사용 장비를 함께 표시한 공정 흐름도.\n(다) **Mass balance (물질수지)** → D. 각 단계에 들어가고 나오는 물질의 양을 맞춘 계산.\n(라) **URS (User Requirement Specification)** → A. 사용자가 장비에 요구하는 기능과 조건을 적은 문서.",
    "choiceNotes": [
     "틀리다 — (가) BFD의 설명은 B, (다) Mass balance의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) BFD의 설명은 B, (라) URS의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Mass balance의 설명은 D, (라) URS의 설명은 A",
     "틀리다 — (가) BFD의 설명은 B, (나) PFD의 설명은 C, (다) Mass balance의 설명은 D, (라) URS의 설명은 A"
    ],
@@ -1077,20 +606,20 @@
     "D. 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용."
    ],
    "choices": [
-    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-A  (나)-C  (다)-B  (라)-D"
+    "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **Scheduling (공정 스케줄링)** → C. 장비·인력 가동률이 최대가 되도록 배치 일정을 짜는 것.\n(나) **CAPEX (자본적 지출)** → A. 공장 건설·장비 구매처럼 처음에 크게 드는 투자 비용.\n(다) **OPEX (운영 비용)** → D. 원료·소모품·인건비처럼 운영하는 동안 계속 드는 비용.\n(라) **ROI (투자수익률)** → B. 투자한 돈에 비해 얻는 수익의 비율.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Scheduling의 설명은 C, (나) CAPEX의 설명은 A",
     "틀리다 — (가) Scheduling의 설명은 C, (다) OPEX의 설명은 D",
     "틀리다 — (나) CAPEX의 설명은 A, (라) ROI의 설명은 B",
-    "틀리다 — (가) Scheduling의 설명은 C, (나) CAPEX의 설명은 A, (다) OPEX의 설명은 D, (라) ROI의 설명은 B"
+    "틀리다 — (가) Scheduling의 설명은 C, (나) CAPEX의 설명은 A, (다) OPEX의 설명은 D, (라) ROI의 설명은 B",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "OT PDF p.23 (Scheduling) · OT PDF p.13, p.27 · OT PDF p.27 (Marketability)",
    "concepts": [

@@ -4,72 +4,6 @@
  "lecture": "WK07 PDF 용어 정리 (자동 생성: tools/build_terms.py — 직접 고치지 말고 glossary/wk07.json를 고칠 것)",
  "questions": [
   {
-   "id": "tw07d-006",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙."
-   ],
-   "choices": [
-    "Mix-up (혼동)",
-    "임상 3상 (Phase III)",
-    "임상 4상 (Phase IV)",
-    "cGMP",
-    "HVAC"
-   ],
-   "answer": 4,
-   "explanation": "**cGMP** — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-   "choiceNotes": [
-    "틀리다 — Mix-up (혼동): 서로 다른 자재·제품이 뒤섞이는 것.",
-    "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계.",
-    "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "정답 — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
-   ],
-   "source": "WK07 PDF p.16–17",
-   "concepts": [
-    "cGMP"
-   ],
-   "tags": [
-    "용어",
-    "cGMP"
-   ]
-  },
-  {
-   "id": "tw07d-008",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "서로 다른 자재·제품이 뒤섞이는 것."
-   ],
-   "choices": [
-    "cGMP",
-    "Air changes (환기 횟수)",
-    "HVAC",
-    "Pure steam (공정용 순수 증기)",
-    "Mix-up (혼동)"
-   ],
-   "answer": 5,
-   "explanation": "**Mix-up (혼동)** — 서로 다른 자재·제품이 뒤섞이는 것.",
-   "choiceNotes": [
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-    "틀리다 — Air changes (환기 횟수): 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "틀리다 — Pure steam (공정용 순수 증기): 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "정답 — 서로 다른 자재·제품이 뒤섞이는 것."
-   ],
-   "source": "WK07 PDF p.20",
-   "concepts": [
-    "Mix-up"
-   ],
-   "tags": [
-    "용어",
-    "Mix-up"
-   ]
-  },
-  {
    "id": "tw07d-009",
    "type": "용어",
    "part": 1,
@@ -79,18 +13,18 @@
    ],
    "choices": [
     "Dedicated facility / equipment",
-    "Multi-purpose facility",
     "Clean compressed air",
     "Clean steam (가습용)",
+    "Multi-purpose facility",
     "임상 1상 (Phase I)"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**Multi-purpose facility** — 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
    "choiceNotes": [
     "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비.",
-    "정답 — 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
     "틀리다 — Clean steam (가습용): HVAC 가습에 쓰는 깨끗한 증기.",
+    "정답 — 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
     "틀리다 — 임상 1상 (Phase I): 소수 건강인에게 처음 투여해 안전성을 확인하는 단계."
    ],
    "source": "WK07 PDF p.22",
@@ -113,18 +47,18 @@
    "choices": [
     "Multi-purpose facility",
     "Containment (봉쇄)",
-    "Dedicated facility / equipment",
     "Grade B",
-    "임상 3상 (Phase III)"
+    "임상 3상 (Phase III)",
+    "Dedicated facility / equipment"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**Dedicated facility / equipment** — 제품 하나만을 위해 쓰는 전용 시설·장비.",
    "choiceNotes": [
     "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
     "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-    "정답 — 제품 하나만을 위해 쓰는 전용 시설·장비.",
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계."
+    "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계.",
+    "정답 — 제품 하나만을 위해 쓰는 전용 시설·장비."
    ],
    "source": "WK07 PDF p.22–23",
    "concepts": [
@@ -144,17 +78,17 @@
     "고활성·독성 물질이 새어 나가지 않게 가두는 설계."
    ],
    "choices": [
-    "Containment (봉쇄)",
     "High potent drug (고활성 의약품)",
+    "Containment (봉쇄)",
     "Requalification (재적격성평가)",
     "CIP (Cleaning In Place)",
     "Clean steam (가습용)"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Containment (봉쇄)** — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
    "choiceNotes": [
-    "정답 — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
     "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
+    "정답 — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
     "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
     "틀리다 — CIP (Cleaning In Place): 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
     "틀리다 — Clean steam (가습용): HVAC 가습에 쓰는 깨끗한 증기."
@@ -178,17 +112,17 @@
    ],
    "choices": [
     "Containment (봉쇄)",
-    "High potent drug (고활성 의약품)",
     "Clean steam (가습용)",
+    "High potent drug (고활성 의약품)",
     "PLC / SCADA",
     "HVAC"
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**High potent drug (고활성 의약품)** — 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
    "choiceNotes": [
     "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-    "정답 — 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
     "틀리다 — Clean steam (가습용): HVAC 가습에 쓰는 깨끗한 증기.",
+    "정답 — 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
     "틀리다 — PLC / SCADA: 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
     "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
    ],
@@ -202,39 +136,6 @@
    ]
   },
   {
-   "id": "tw07d-016",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
-   ],
-   "choices": [
-    "Clean compressed air",
-    "Grade B",
-    "cGMP",
-    "CIP (Cleaning In Place)",
-    "PLC / SCADA"
-   ],
-   "answer": 4,
-   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
-   "choiceNotes": [
-    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-    "정답 — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
-    "틀리다 — PLC / SCADA: 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템."
-   ],
-   "source": "WK07 PDF p.22, p.46",
-   "concepts": [
-    "CIP"
-   ],
-   "tags": [
-    "용어",
-    "CIP"
-   ]
-  },
-  {
    "id": "tw07d-020",
    "type": "용어",
    "part": 1,
@@ -243,18 +144,18 @@
     "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
    ],
    "choices": [
+    "Q&V (Qualification & Validation)",
     "Clean utility",
     "UPS (무정전 전원장치)",
-    "Q&V (Qualification & Validation)",
     "High potent drug (고활성 의약품)",
     "Requalification (재적격성평가)"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**Q&V (Qualification & Validation)** — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
    "choiceNotes": [
+    "정답 — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
     "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "틀리다 — UPS (무정전 전원장치): 정전 순간에도 끊김 없이 전원을 주는 장치.",
-    "정답 — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
     "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
     "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것."
    ],
@@ -268,105 +169,6 @@
    ]
   },
   {
-   "id": "tw07d-021",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
-   ],
-   "choices": [
-    "Grade C",
-    "Black utility",
-    "Q&V (Qualification & Validation)",
-    "Unidirectional flow (단방향 흐름)",
-    "P&ID (Piping & Instrumentation Diagram)"
-   ],
-   "answer": 5,
-   "explanation": "**P&ID (Piping & Instrumentation Diagram)** — 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
-   "choiceNotes": [
-    "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "틀리다 — Q&V (Qualification & Validation): 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-    "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "정답 — 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
-   ],
-   "source": "WK07 PDF p.28",
-   "concepts": [
-    "P&ID"
-   ],
-   "tags": [
-    "용어",
-    "P&ID"
-   ]
-  },
-  {
-   "id": "tw07d-027",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템."
-   ],
-   "choices": [
-    "PLC / SCADA",
-    "MES / EBR",
-    "SAT (Site Acceptance Test)",
-    "Clean compressed air",
-    "Black utility"
-   ],
-   "answer": 1,
-   "explanation": "**PLC / SCADA** — 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
-   "choiceNotes": [
-    "정답 — 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
-    "틀리다 — MES / EBR: 제조실행시스템과 전자 배치 기록.",
-    "틀리다 — SAT (Site Acceptance Test): 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
-    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
-   ],
-   "source": "WK07 PDF p.33 (Process Automation)",
-   "concepts": [
-    "PLC / SCADA"
-   ],
-   "tags": [
-    "용어",
-    "PLC / SCADA"
-   ]
-  },
-  {
-   "id": "tw07d-029",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "제조실행시스템과 전자 배치 기록."
-   ],
-   "choices": [
-    "PLC / SCADA",
-    "MES / EBR",
-    "At rest (비가동 상태)",
-    "Closed system (밀폐 공정)",
-    "Black utility"
-   ],
-   "answer": 2,
-   "explanation": "**MES / EBR** — 제조실행시스템과 전자 배치 기록.",
-   "choiceNotes": [
-    "틀리다 — PLC / SCADA: 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
-    "정답 — 제조실행시스템과 전자 배치 기록.",
-    "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
-    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
-   ],
-   "source": "WK07 PDF p.52",
-   "concepts": [
-    "MES / EBR"
-   ],
-   "tags": [
-    "용어",
-    "MES / EBR"
-   ]
-  },
-  {
    "id": "tw07d-033",
    "type": "용어",
    "part": 1,
@@ -375,17 +177,17 @@
     "무균 충전 등이 이루어지는 최고 청정 구역."
    ],
    "choices": [
-    "Grade A",
     "Grade C",
+    "Grade A",
     "At rest (비가동 상태)",
     "cGMP",
     "UPS (무정전 전원장치)"
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Grade A** — 무균 충전 등이 이루어지는 최고 청정 구역.",
    "choiceNotes": [
-    "정답 — 무균 충전 등이 이루어지는 최고 청정 구역.",
     "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
+    "정답 — 무균 충전 등이 이루어지는 최고 청정 구역.",
     "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
     "틀리다 — UPS (무정전 전원장치): 정전 순간에도 끊김 없이 전원을 주는 장치."
@@ -443,18 +245,18 @@
    "choices": [
     "Grade A",
     "At rest (비가동 상태)",
+    "Grade C",
     "CSV (Computer System Validation)",
-    "High potent drug (고활성 의약품)",
-    "Grade C"
+    "High potent drug (고활성 의약품)"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Grade C** — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
    "choiceNotes": [
     "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
     "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
+    "정답 — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
     "틀리다 — CSV (Computer System Validation): 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
-    "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
-    "정답 — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
+    "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약."
    ],
    "source": "WK07 PDF p.36",
    "concepts": [
@@ -476,18 +278,18 @@
    "choices": [
     "At rest (비가동 상태)",
     "Operational (가동 상태)",
-    "Grade D",
     "Mix-up (혼동)",
-    "Closed system (밀폐 공정)"
+    "Closed system (밀폐 공정)",
+    "Grade D"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**Grade D** — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
    "choiceNotes": [
     "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태.",
-    "정답 — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
     "틀리다 — Mix-up (혼동): 서로 다른 자재·제품이 뒤섞이는 것.",
-    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
+    "정답 — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급)."
    ],
    "source": "WK07 PDF p.36",
    "concepts": [
@@ -507,19 +309,19 @@
     "설비는 있지만 사람·작업 없이 멈춘 상태."
    ],
    "choices": [
+    "At rest (비가동 상태)",
     "Operational (가동 상태)",
     "Grade B",
     "Unidirectional flow (단방향 흐름)",
-    "At rest (비가동 상태)",
     "Multi-purpose facility"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**At rest (비가동 상태)** — 설비는 있지만 사람·작업 없이 멈춘 상태.",
    "choiceNotes": [
+    "정답 — 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태.",
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
     "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "정답 — 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설."
    ],
    "source": "WK07 PDF p.36–37",
@@ -541,17 +343,17 @@
    ],
    "choices": [
     "Grade B",
-    "Grade A",
     "Operational (가동 상태)",
+    "Grade A",
     "SAT (Site Acceptance Test)",
     "PLC / SCADA"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Operational (가동 상태)** — 정해진 인원이 실제로 작업 중인 상태.",
    "choiceNotes": [
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
     "정답 — 정해진 인원이 실제로 작업 중인 상태.",
+    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
     "틀리다 — SAT (Site Acceptance Test): 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
     "틀리다 — PLC / SCADA: 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템."
    ],
@@ -565,39 +367,6 @@
    ]
   },
   {
-   "id": "tw07d-040",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위."
-   ],
-   "choices": [
-    "CFU (Colony Forming Unit)",
-    "Grade C",
-    "Grade A",
-    "DQ (Design Qualification)",
-    "Air changes (환기 횟수)"
-   ],
-   "answer": 1,
-   "explanation": "**CFU (Colony Forming Unit)** — 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-   "choiceNotes": [
-    "정답 — 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
-    "틀리다 — DQ (Design Qualification): 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "틀리다 — Air changes (환기 횟수): 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값."
-   ],
-   "source": "WK07 PDF p.36",
-   "concepts": [
-    "CFU"
-   ],
-   "tags": [
-    "용어",
-    "CFU"
-   ]
-  },
-  {
    "id": "tw07d-043",
    "type": "용어",
    "part": 1,
@@ -606,17 +375,17 @@
     "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실."
    ],
    "choices": [
-    "Material airlock (MAL)",
     "Personnel airlock (PAL)",
+    "Material airlock (MAL)",
     "CFU (Colony Forming Unit)",
     "Closed system (밀폐 공정)",
     "Containment (봉쇄)"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**Personnel airlock (PAL)** — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
    "choiceNotes": [
-    "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
     "정답 — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
+    "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
     "틀리다 — CFU (Colony Forming Unit): 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
     "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
     "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계."
@@ -642,17 +411,17 @@
     "Personnel airlock (PAL)",
     "Pre-viral / Post-viral 구역",
     "Multi-purpose facility",
-    "Dedicated facility / equipment",
-    "Material airlock (MAL)"
+    "Material airlock (MAL)",
+    "Dedicated facility / equipment"
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**Material airlock (MAL)** — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
    "choiceNotes": [
     "틀리다 — Personnel airlock (PAL): 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
     "틀리다 — Pre-viral / Post-viral 구역: 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
     "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-    "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비.",
-    "정답 — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실."
+    "정답 — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+    "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비."
    ],
    "source": "WK07 PDF p.40",
    "concepts": [
@@ -675,17 +444,17 @@
     "Unidirectional flow (단방향 흐름)",
     "Pre-viral / Post-viral 구역",
     "Closed system (밀폐 공정)",
-    "Pressure zone (압력 구역)",
-    "Clean compressed air"
+    "Clean compressed air",
+    "Pressure zone (압력 구역)"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**Pressure zone (압력 구역)** — 청정도에 따라 실 압력을 다르게 정한 구역.",
    "choiceNotes": [
     "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "틀리다 — Pre-viral / Post-viral 구역: 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
     "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "정답 — 청정도에 따라 실 압력을 다르게 정한 구역.",
-    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
+    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
+    "정답 — 청정도에 따라 실 압력을 다르게 정한 구역."
    ],
    "source": "WK07 PDF p.41, p.49",
    "concepts": [
@@ -705,18 +474,18 @@
     "바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치."
    ],
    "choices": [
-    "Pre-viral / Post-viral 구역",
     "GMP flows",
     "Pressure zone (압력 구역)",
+    "Pre-viral / Post-viral 구역",
     "Ballroom concept",
     "Grade C"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**Pre-viral / Post-viral 구역** — 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
    "choiceNotes": [
-    "정답 — 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
     "틀리다 — GMP flows: 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
     "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
+    "정답 — 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
     "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
     "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
    ],
@@ -730,39 +499,6 @@
    ]
   },
   {
-   "id": "tw07d-049",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계."
-   ],
-   "choices": [
-    "Pressure zone (압력 구역)",
-    "GMP flows",
-    "Pre-viral / Post-viral 구역",
-    "PQ (Performance Qualification)",
-    "Clean compressed air"
-   ],
-   "answer": 2,
-   "explanation": "**GMP flows** — 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
-   "choiceNotes": [
-    "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
-    "정답 — 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
-    "틀리다 — Pre-viral / Post-viral 구역: 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
-    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
-   ],
-   "source": "WK07 PDF p.42",
-   "concepts": [
-    "GMP flows"
-   ],
-   "tags": [
-    "용어",
-    "GMP flows"
-   ]
-  },
-  {
    "id": "tw07d-050",
    "type": "용어",
    "part": 1,
@@ -773,17 +509,17 @@
    "choices": [
     "GMP flows",
     "Pressure zone (압력 구역)",
-    "Unidirectional flow (단방향 흐름)",
     "Containment (봉쇄)",
+    "Unidirectional flow (단방향 흐름)",
     "Personnel airlock (PAL)"
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**Unidirectional flow (단방향 흐름)** — 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
    "choiceNotes": [
     "틀리다 — GMP flows: 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
     "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
-    "정답 — 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
+    "정답 — 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "틀리다 — Personnel airlock (PAL): 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실."
    ],
    "source": "WK07 PDF p.62",
@@ -806,18 +542,18 @@
    "choices": [
     "Clean compressed air",
     "Pure steam (공정용 순수 증기)",
+    "Clean utility",
     "Ballroom concept",
-    "cGMP",
-    "Clean utility"
+    "cGMP"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**Clean utility** — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
    "choiceNotes": [
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
     "틀리다 — Pure steam (공정용 순수 증기): 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
+    "정답 — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-    "정답 — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)."
+    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙."
    ],
    "source": "WK07 PDF p.46",
    "concepts": [
@@ -837,17 +573,17 @@
     "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
    ],
    "choices": [
-    "Clean utility",
     "Black utility",
+    "Clean utility",
     "Clean compressed air",
     "Change control (변경 관리)",
     "Requalification (재적격성평가)"
    ],
-   "answer": 2,
+   "answer": 1,
    "explanation": "**Black utility** — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
    "choiceNotes": [
-    "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "정답 — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
+    "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
     "틀리다 — Change control (변경 관리): 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
     "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것."
@@ -871,19 +607,19 @@
    ],
    "choices": [
     "Black utility",
+    "Pure steam (공정용 순수 증기)",
     "Clean utility",
     "Dedicated facility / equipment",
-    "CFU (Colony Forming Unit)",
-    "Pure steam (공정용 순수 증기)"
+    "CFU (Colony Forming Unit)"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**Pure steam (공정용 순수 증기)** — 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
    "choiceNotes": [
     "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
+    "정답 — 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
     "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비.",
-    "틀리다 — CFU (Colony Forming Unit): 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "정답 — 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
+    "틀리다 — CFU (Colony Forming Unit): 배양하면 집락을 만드는 살아 있는 미생물 수의 단위."
    ],
    "source": "WK07 PDF p.46",
    "concepts": [
@@ -905,18 +641,18 @@
    "choices": [
     "Pure steam (공정용 순수 증기)",
     "Black utility",
-    "Clean steam (가습용)",
     "Grade B",
-    "cGMP"
+    "cGMP",
+    "Clean steam (가습용)"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**Clean steam (가습용)** — HVAC 가습에 쓰는 깨끗한 증기.",
    "choiceNotes": [
     "틀리다 — Pure steam (공정용 순수 증기): 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
     "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "정답 — HVAC 가습에 쓰는 깨끗한 증기.",
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙."
+    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "정답 — HVAC 가습에 쓰는 깨끗한 증기."
    ],
    "source": "WK07 PDF p.46",
    "concepts": [
@@ -961,39 +697,6 @@
    ]
   },
   {
-   "id": "tw07d-058",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
-   ],
-   "choices": [
-    "HVAC",
-    "Air changes (환기 횟수)",
-    "CSV (Computer System Validation)",
-    "Pressure zone (압력 구역)",
-    "FAT (Factory Acceptance Test)"
-   ],
-   "answer": 1,
-   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-   "choiceNotes": [
-    "정답 — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "틀리다 — Air changes (환기 횟수): 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
-    "틀리다 — CSV (Computer System Validation): 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
-    "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
-    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
-   ],
-   "source": "WK07 PDF p.49",
-   "concepts": [
-    "HVAC"
-   ],
-   "tags": [
-    "용어",
-    "HVAC"
-   ]
-  },
-  {
    "id": "tw07d-059",
    "type": "용어",
    "part": 1,
@@ -1002,19 +705,19 @@
     "한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값."
    ],
    "choices": [
+    "Air changes (환기 횟수)",
     "HVAC",
     "Black utility",
     "CIP (Cleaning In Place)",
-    "Air changes (환기 횟수)",
     "Grade A"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**Air changes (환기 횟수)** — 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
    "choiceNotes": [
+    "정답 — 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
     "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
     "틀리다 — Black utility: 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
     "틀리다 — CIP (Cleaning In Place): 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
-    "정답 — 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
     "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역."
    ],
    "source": "WK07 PDF p.49",
@@ -1024,204 +727,6 @@
    "tags": [
     "용어",
     "Air changes"
-   ]
-  },
-  {
-   "id": "tw07d-061",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "정전 순간에도 끊김 없이 전원을 주는 장치."
-   ],
-   "choices": [
-    "UPS (무정전 전원장치)",
-    "HVAC",
-    "Grade A",
-    "GMP flows",
-    "Cleaning Validation (CV)"
-   ],
-   "answer": 1,
-   "explanation": "**UPS (무정전 전원장치)** — 정전 순간에도 끊김 없이 전원을 주는 장치.",
-   "choiceNotes": [
-    "정답 — 정전 순간에도 끊김 없이 전원을 주는 장치.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
-    "틀리다 — GMP flows: 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
-    "틀리다 — Cleaning Validation (CV): 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것."
-   ],
-   "source": "WK07 PDF p.50",
-   "concepts": [
-    "UPS"
-   ],
-   "tags": [
-    "용어",
-    "UPS"
-   ]
-  },
-  {
-   "id": "tw07d-063",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계."
-   ],
-   "choices": [
-    "Requalification (재적격성평가)",
-    "DQ (Design Qualification)",
-    "FAT (Factory Acceptance Test)",
-    "Air changes (환기 횟수)",
-    "Multi-purpose facility"
-   ],
-   "answer": 2,
-   "explanation": "**DQ (Design Qualification)** — 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-   "choiceNotes": [
-    "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "정답 — 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-    "틀리다 — Air changes (환기 횟수): 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
-    "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설."
-   ],
-   "source": "WK07 PDF p.51, p.58",
-   "concepts": [
-    "DQ"
-   ],
-   "tags": [
-    "용어",
-    "DQ"
-   ]
-  },
-  {
-   "id": "tw07d-064",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
-   ],
-   "choices": [
-    "Cleaning Validation (CV)",
-    "DQ (Design Qualification)",
-    "CFU (Colony Forming Unit)",
-    "P&ID (Piping & Instrumentation Diagram)",
-    "FAT (Factory Acceptance Test)"
-   ],
-   "answer": 5,
-   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-   "choiceNotes": [
-    "틀리다 — Cleaning Validation (CV): 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
-    "틀리다 — DQ (Design Qualification): 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "틀리다 — CFU (Colony Forming Unit): 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
-    "정답 — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
-   ],
-   "source": "WK07 PDF p.51",
-   "concepts": [
-    "FAT"
-   ],
-   "tags": [
-    "용어",
-    "FAT"
-   ]
-  },
-  {
-   "id": "tw07d-065",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
-   ],
-   "choices": [
-    "DQ (Design Qualification)",
-    "CSV (Computer System Validation)",
-    "SAT (Site Acceptance Test)",
-    "P&ID (Piping & Instrumentation Diagram)",
-    "CIP (Cleaning In Place)"
-   ],
-   "answer": 3,
-   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
-   "choiceNotes": [
-    "틀리다 — DQ (Design Qualification): 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "틀리다 — CSV (Computer System Validation): 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
-    "정답 — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
-    "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
-    "틀리다 — CIP (Cleaning In Place): 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
-   ],
-   "source": "WK07 PDF p.51",
-   "concepts": [
-    "SAT"
-   ],
-   "tags": [
-    "용어",
-    "SAT"
-   ]
-  },
-  {
-   "id": "tw07d-066",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
-   ],
-   "choices": [
-    "SAT (Site Acceptance Test)",
-    "FAT (Factory Acceptance Test)",
-    "PQ (Performance Qualification)",
-    "CIP (Cleaning In Place)",
-    "Multi-purpose facility"
-   ],
-   "answer": 3,
-   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-   "choiceNotes": [
-    "틀리다 — SAT (Site Acceptance Test): 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
-    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-    "정답 — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "틀리다 — CIP (Cleaning In Place): 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
-    "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설."
-   ],
-   "source": "WK07 PDF p.51, p.58",
-   "concepts": [
-    "PQ"
-   ],
-   "tags": [
-    "용어",
-    "PQ"
-   ]
-  },
-  {
-   "id": "tw07d-067",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계."
-   ],
-   "choices": [
-    "PV (Process Validation)",
-    "Cleaning Validation (CV)",
-    "FAT (Factory Acceptance Test)",
-    "MES / EBR",
-    "HVAC"
-   ],
-   "answer": 1,
-   "explanation": "**PV (Process Validation)** — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
-   "choiceNotes": [
-    "정답 — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
-    "틀리다 — Cleaning Validation (CV): 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
-    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-    "틀리다 — MES / EBR: 제조실행시스템과 전자 배치 기록.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
-   ],
-   "source": "WK07 PDF p.51, p.58",
-   "concepts": [
-    "PV"
-   ],
-   "tags": [
-    "용어",
-    "PV"
    ]
   },
   {
@@ -1258,39 +763,6 @@
    ]
   },
   {
-   "id": "tw07d-069",
-   "type": "용어",
-   "part": 1,
-   "question": "다음 설명에 해당하는 용어는?",
-   "box": [
-    "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것."
-   ],
-   "choices": [
-    "PQ (Performance Qualification)",
-    "DQ (Design Qualification)",
-    "Clean steam (가습용)",
-    "At rest (비가동 상태)",
-    "CSV (Computer System Validation)"
-   ],
-   "answer": 5,
-   "explanation": "**CSV (Computer System Validation)** — 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
-   "choiceNotes": [
-    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "틀리다 — DQ (Design Qualification): 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "틀리다 — Clean steam (가습용): HVAC 가습에 쓰는 깨끗한 증기.",
-    "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
-    "정답 — 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것."
-   ],
-   "source": "WK07 PDF p.58",
-   "concepts": [
-    "CSV"
-   ],
-   "tags": [
-    "용어",
-    "CSV"
-   ]
-  },
-  {
    "id": "tw07d-071",
    "type": "용어",
    "part": 1,
@@ -1301,17 +773,17 @@
    "choices": [
     "Cleaning Validation (CV)",
     "Requalification (재적격성평가)",
-    "Unidirectional flow (단방향 흐름)",
     "Change control (변경 관리)",
+    "Unidirectional flow (단방향 흐름)",
     "Clean compressed air"
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**Change control (변경 관리)** — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
    "choiceNotes": [
     "틀리다 — Cleaning Validation (CV): 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
     "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "정답 — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+    "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
    ],
    "source": "WK07 PDF p.51",
@@ -1366,17 +838,17 @@
    ],
    "choices": [
     "Closed system (밀폐 공정)",
-    "임상 3상 (Phase III)",
     "Ballroom concept",
+    "임상 3상 (Phase III)",
     "UPS (무정전 전원장치)",
     "Clean compressed air"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**Ballroom concept** — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
    "choiceNotes": [
     "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계.",
     "정답 — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
+    "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계.",
     "틀리다 — UPS (무정전 전원장치): 정전 순간에도 끊김 없이 전원을 주는 장치.",
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
    ],
@@ -1401,17 +873,17 @@
     "Ballroom concept",
     "GMP flows",
     "임상 4상 (Phase IV)",
-    "Closed system (밀폐 공정)",
-    "Grade C"
+    "Grade C",
+    "Closed system (밀폐 공정)"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
    "choiceNotes": [
     "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
     "틀리다 — GMP flows: 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
     "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "정답 — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
+    "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
+    "정답 — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
    ],
    "source": "WK07 PDF p.62–63",
    "concepts": [
@@ -1431,18 +903,18 @@
     "소수 건강인에게 처음 투여해 안전성을 확인하는 단계."
    ],
    "choices": [
-    "임상 1상 (Phase I)",
     "임상 2상 (Phase II)",
     "임상 4상 (Phase IV)",
+    "임상 1상 (Phase I)",
     "MES / EBR",
     "Closed system (밀폐 공정)"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**임상 1상 (Phase I)** — 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
    "choiceNotes": [
-    "정답 — 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
     "틀리다 — 임상 2상 (Phase II): 환자에게 효과와 적정 용량을 찾는 단계.",
     "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
+    "정답 — 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
     "틀리다 — MES / EBR: 제조실행시스템과 전자 배치 기록.",
     "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
    ],
@@ -1465,18 +937,18 @@
    ],
    "choices": [
     "임상 3상 (Phase III)",
-    "임상 2상 (Phase II)",
     "임상 4상 (Phase IV)",
     "Grade D",
+    "임상 2상 (Phase II)",
     "Pressure zone (압력 구역)"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**임상 2상 (Phase II)** — 환자에게 효과와 적정 용량을 찾는 단계.",
    "choiceNotes": [
     "틀리다 — 임상 3상 (Phase III): 대규모 비교 시험으로 효과를 확증하는 단계.",
-    "정답 — 환자에게 효과와 적정 용량을 찾는 단계.",
     "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
     "틀리다 — Grade D: 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
+    "정답 — 환자에게 효과와 적정 용량을 찾는 단계.",
     "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역."
    ],
    "source": "WK07 PDF p.15",
@@ -1497,19 +969,19 @@
     "대규모 비교 시험으로 효과를 확증하는 단계."
    ],
    "choices": [
+    "임상 3상 (Phase III)",
     "임상 4상 (Phase IV)",
     "임상 2상 (Phase II)",
     "Grade B",
-    "임상 3상 (Phase III)",
     "Ballroom concept"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**임상 3상 (Phase III)** — 대규모 비교 시험으로 효과를 확증하는 단계.",
    "choiceNotes": [
+    "정답 — 대규모 비교 시험으로 효과를 확증하는 단계.",
     "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
     "틀리다 — 임상 2상 (Phase II): 환자에게 효과와 적정 용량을 찾는 단계.",
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "정답 — 대규모 비교 시험으로 효과를 확증하는 단계.",
     "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념."
    ],
    "source": "WK07 PDF p.15",
@@ -1531,18 +1003,18 @@
    ],
    "choices": [
     "임상 1상 (Phase I)",
-    "임상 4상 (Phase IV)",
     "임상 2상 (Phase II)",
     "Unidirectional flow (단방향 흐름)",
+    "임상 4상 (Phase IV)",
     "P&ID (Piping & Instrumentation Diagram)"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**임상 4상 (Phase IV)** — 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
    "choiceNotes": [
     "틀리다 — 임상 1상 (Phase I): 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-    "정답 — 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
     "틀리다 — 임상 2상 (Phase II): 환자에게 효과와 적정 용량을 찾는 단계.",
     "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
+    "정답 — 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
     "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
    ],
    "source": "WK07 PDF p.15",
@@ -1560,18 +1032,18 @@
    "part": 1,
    "question": "「cGMP」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
     "서로 다른 자재·제품이 뒤섞이는 것.",
     "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
-    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
     "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
     "제조실행시스템과 전자 배치 기록."
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**cGMP** — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Mix-up (혼동)의 설명이다.",
     "틀리다 — Change control (변경 관리)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — DQ (Design Qualification)의 설명이다.",
     "틀리다 — MES / EBR의 설명이다."
    ],
@@ -1590,17 +1062,17 @@
    "part": 1,
    "question": "「Mix-up (혼동)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "서로 다른 자재·제품이 뒤섞이는 것.",
     "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "서로 다른 자재·제품이 뒤섞이는 것.",
     "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
     "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
     "바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**Mix-up (혼동)** — 서로 다른 자재·제품이 뒤섞이는 것.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — cGMP의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Black utility의 설명이다.",
     "틀리다 — HVAC의 설명이다.",
     "틀리다 — Pre-viral / Post-viral 구역의 설명이다."
@@ -1615,126 +1087,6 @@
    ]
   },
   {
-   "id": "tw07r-009",
-   "type": "용어",
-   "part": 1,
-   "question": "「Multi-purpose facility」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제품 하나만을 위해 쓰는 전용 시설·장비.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "서로 다른 자재·제품이 뒤섞이는 것.",
-    "여러 제품을 한 시설에서 번갈아 만드는 다목적 시설."
-   ],
-   "answer": 5,
-   "explanation": "**Multi-purpose facility** — 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-   "choiceNotes": [
-    "틀리다 — Dedicated facility / equipment의 설명이다.",
-    "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
-    "틀리다 — Requalification (재적격성평가)의 설명이다.",
-    "틀리다 — Mix-up (혼동)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.22",
-   "concepts": [
-    "Multi-purpose facility"
-   ],
-   "tags": [
-    "용어",
-    "Multi-purpose facility"
-   ]
-  },
-  {
-   "id": "tw07r-010",
-   "type": "용어",
-   "part": 1,
-   "question": "「Dedicated facility / equipment」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제품 하나만을 위해 쓰는 전용 시설·장비.",
-    "여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "서로 다른 자재·제품이 뒤섞이는 것."
-   ],
-   "answer": 1,
-   "explanation": "**Dedicated facility / equipment** — 제품 하나만을 위해 쓰는 전용 시설·장비.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Multi-purpose facility의 설명이다.",
-    "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
-    "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
-    "틀리다 — Mix-up (혼동)의 설명이다."
-   ],
-   "source": "WK07 PDF p.22–23",
-   "concepts": [
-    "Dedicated facility / equipment"
-   ],
-   "tags": [
-    "용어",
-    "Dedicated facility / equipment"
-   ]
-  },
-  {
-   "id": "tw07r-013",
-   "type": "용어",
-   "part": 1,
-   "question": "「Containment (봉쇄)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
-    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
-    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-    "한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값."
-   ],
-   "answer": 4,
-   "explanation": "**Containment (봉쇄)** — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-   "choiceNotes": [
-    "틀리다 — High potent drug (고활성 의약품)의 설명이다.",
-    "틀리다 — PV (Process Validation)의 설명이다.",
-    "틀리다 — Requalification (재적격성평가)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Air changes (환기 횟수)의 설명이다."
-   ],
-   "source": "WK07 PDF p.23",
-   "concepts": [
-    "Containment"
-   ],
-   "tags": [
-    "용어",
-    "Containment"
-   ]
-  },
-  {
-   "id": "tw07r-015",
-   "type": "용어",
-   "part": 1,
-   "question": "「High potent drug (고활성 의약품)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-    "아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
-    "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
-    "대규모 비교 시험으로 효과를 확증하는 단계."
-   ],
-   "answer": 2,
-   "explanation": "**High potent drug (고활성 의약품)** — 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
-   "choiceNotes": [
-    "틀리다 — Containment (봉쇄)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Pressure zone (압력 구역)의 설명이다.",
-    "틀리다 — P&ID (Piping & Instrumentation Diagram)의 설명이다.",
-    "틀리다 — 임상 3상 (Phase III)의 설명이다."
-   ],
-   "source": "WK07 PDF p.23",
-   "concepts": [
-    "High potent drug"
-   ],
-   "tags": [
-    "용어",
-    "High potent drug"
-   ]
-  },
-  {
    "id": "tw07r-016",
    "type": "용어",
    "part": 1,
@@ -1742,18 +1094,18 @@
    "choices": [
     "설비는 있지만 사람·작업 없이 멈춘 상태.",
     "무균 충전 등이 이루어지는 최고 청정 구역.",
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
     "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "제품 하나만을 위해 쓰는 전용 시설·장비."
+    "제품 하나만을 위해 쓰는 전용 시설·장비.",
+    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
    "choiceNotes": [
     "틀리다 — At rest (비가동 상태)의 설명이다.",
     "틀리다 — Grade A의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "틀리다 — Dedicated facility / equipment의 설명이다."
+    "틀리다 — Dedicated facility / equipment의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK07 PDF p.22, p.46",
    "concepts": [
@@ -1762,36 +1114,6 @@
    "tags": [
     "용어",
     "CIP"
-   ]
-  },
-  {
-   "id": "tw07r-020",
-   "type": "용어",
-   "part": 1,
-   "question": "「Q&V (Qualification & Validation)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
-    "서로 다른 자재·제품이 뒤섞이는 것.",
-    "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
-   ],
-   "answer": 5,
-   "explanation": "**Q&V (Qualification & Validation)** — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-   "choiceNotes": [
-    "틀리다 — Containment (봉쇄)의 설명이다.",
-    "틀리다 — Mix-up (혼동)의 설명이다.",
-    "틀리다 — Pressure zone (압력 구역)의 설명이다.",
-    "틀리다 — PQ (Performance Qualification)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.24, p.51",
-   "concepts": [
-    "Q&V"
-   ],
-   "tags": [
-    "용어",
-    "Q&V"
    ]
   },
   {
@@ -1832,18 +1154,18 @@
    "choices": [
     "제조실행시스템과 전자 배치 기록.",
     "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
+    "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
     "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템."
+    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**PLC / SCADA** — 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
    "choiceNotes": [
     "틀리다 — MES / EBR의 설명이다.",
     "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Black utility의 설명이다.",
-    "틀리다 — Grade C의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Grade C의 설명이다."
    ],
    "source": "WK07 PDF p.33 (Process Automation)",
    "concepts": [
@@ -1860,19 +1182,19 @@
    "part": 1,
    "question": "「MES / EBR」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "제조실행시스템과 전자 배치 기록.",
     "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
     "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
-    "제조실행시스템과 전자 배치 기록.",
     "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실."
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**MES / EBR** — 제조실행시스템과 전자 배치 기록.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — PLC / SCADA의 설명이다.",
     "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
     "틀리다 — PV (Process Validation)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Material airlock (MAL)의 설명이다."
    ],
    "source": "WK07 PDF p.52",
@@ -1885,203 +1207,23 @@
    ]
   },
   {
-   "id": "tw07r-033",
-   "type": "용어",
-   "part": 1,
-   "question": "「Grade A」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "무균 충전 등이 이루어지는 최고 청정 구역.",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "설비는 있지만 사람·작업 없이 멈춘 상태.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
-   ],
-   "answer": 1,
-   "explanation": "**Grade A** — 무균 충전 등이 이루어지는 최고 청정 구역.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Grade C의 설명이다.",
-    "틀리다 — At rest (비가동 상태)의 설명이다.",
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "틀리다 — CIP (Cleaning In Place)의 설명이다."
-   ],
-   "source": "WK07 PDF p.36",
-   "concepts": [
-    "Grade A"
-   ],
-   "tags": [
-    "용어",
-    "Grade A"
-   ]
-  },
-  {
-   "id": "tw07r-034",
-   "type": "용어",
-   "part": 1,
-   "question": "「Grade B」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "설비는 있지만 사람·작업 없이 멈춘 상태.",
-    "최고 청정 구역을 둘러싼 배경 구역.",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계."
-   ],
-   "answer": 2,
-   "explanation": "**Grade B** — 최고 청정 구역을 둘러싼 배경 구역.",
-   "choiceNotes": [
-    "틀리다 — At rest (비가동 상태)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Grade C의 설명이다.",
-    "틀리다 — Requalification (재적격성평가)의 설명이다.",
-    "틀리다 — DQ (Design Qualification)의 설명이다."
-   ],
-   "source": "WK07 PDF p.36",
-   "concepts": [
-    "Grade B"
-   ],
-   "tags": [
-    "용어",
-    "Grade B"
-   ]
-  },
-  {
-   "id": "tw07r-035",
-   "type": "용어",
-   "part": 1,
-   "question": "「Grade C」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "최고 청정 구역을 둘러싼 배경 구역.",
-    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
-   ],
-   "answer": 4,
-   "explanation": "**Grade C** — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-   "choiceNotes": [
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다.",
-    "틀리다 — Grade B의 설명이다.",
-    "틀리다 — GMP flows의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Q&V (Qualification & Validation)의 설명이다."
-   ],
-   "source": "WK07 PDF p.36",
-   "concepts": [
-    "Grade C"
-   ],
-   "tags": [
-    "용어",
-    "Grade C"
-   ]
-  },
-  {
-   "id": "tw07r-036",
-   "type": "용어",
-   "part": 1,
-   "question": "「Grade D」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "최고 청정 구역을 둘러싼 배경 구역.",
-    "최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
-    "무균 충전 등이 이루어지는 최고 청정 구역.",
-    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
-   ],
-   "answer": 2,
-   "explanation": "**Grade D** — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
-   "choiceNotes": [
-    "틀리다 — Grade B의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Grade A의 설명이다.",
-    "틀리다 — Ballroom concept의 설명이다.",
-    "틀리다 — Q&V (Qualification & Validation)의 설명이다."
-   ],
-   "source": "WK07 PDF p.36",
-   "concepts": [
-    "Grade D"
-   ],
-   "tags": [
-    "용어",
-    "Grade D"
-   ]
-  },
-  {
-   "id": "tw07r-037",
-   "type": "용어",
-   "part": 1,
-   "question": "「At rest (비가동 상태)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
-    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "설비는 있지만 사람·작업 없이 멈춘 상태."
-   ],
-   "answer": 5,
-   "explanation": "**At rest (비가동 상태)** — 설비는 있지만 사람·작업 없이 멈춘 상태.",
-   "choiceNotes": [
-    "틀리다 — Grade C의 설명이다.",
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다.",
-    "틀리다 — Clean utility의 설명이다.",
-    "틀리다 — DQ (Design Qualification)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.36–37",
-   "concepts": [
-    "At rest"
-   ],
-   "tags": [
-    "용어",
-    "At rest"
-   ]
-  },
-  {
-   "id": "tw07r-038",
-   "type": "용어",
-   "part": 1,
-   "question": "「Operational (가동 상태)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "정해진 인원이 실제로 작업 중인 상태.",
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
-    "여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-    "환자에게 효과와 적정 용량을 찾는 단계."
-   ],
-   "answer": 1,
-   "explanation": "**Operational (가동 상태)** — 정해진 인원이 실제로 작업 중인 상태.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다.",
-    "틀리다 — Grade D의 설명이다.",
-    "틀리다 — Multi-purpose facility의 설명이다.",
-    "틀리다 — 임상 2상 (Phase II)의 설명이다."
-   ],
-   "source": "WK07 PDF p.36–37",
-   "concepts": [
-    "Operational"
-   ],
-   "tags": [
-    "용어",
-    "Operational"
-   ]
-  },
-  {
    "id": "tw07r-040",
    "type": "용어",
    "part": 1,
    "question": "「CFU (Colony Forming Unit)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "무균 충전 등이 이루어지는 최고 청정 구역.",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
     "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
+    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
     "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
     "정전 순간에도 끊김 없이 전원을 주는 장치."
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**CFU (Colony Forming Unit)** — 배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
    "choiceNotes": [
     "틀리다 — Grade A의 설명이다.",
-    "틀리다 — Grade C의 설명이다.",
     "정답 — 이 용어의 정의다.",
+    "틀리다 — Grade C의 설명이다.",
     "틀리다 — GMP flows의 설명이다.",
     "틀리다 — UPS (무정전 전원장치)의 설명이다."
    ],
@@ -2095,145 +1237,25 @@
    ]
   },
   {
-   "id": "tw07r-043",
-   "type": "용어",
-   "part": 1,
-   "question": "「Personnel airlock (PAL)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
-    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
-    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계."
-   ],
-   "answer": 4,
-   "explanation": "**Personnel airlock (PAL)** — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
-   "choiceNotes": [
-    "틀리다 — Material airlock (MAL)의 설명이다.",
-    "틀리다 — Black utility의 설명이다.",
-    "틀리다 — Clean compressed air의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — GMP flows의 설명이다."
-   ],
-   "source": "WK07 PDF p.40",
-   "concepts": [
-    "Personnel airlock"
-   ],
-   "tags": [
-    "용어",
-    "Personnel airlock"
-   ]
-  },
-  {
-   "id": "tw07r-044",
-   "type": "용어",
-   "part": 1,
-   "question": "「Material airlock (MAL)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
-    "제조실행시스템과 전자 배치 기록.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실."
-   ],
-   "answer": 5,
-   "explanation": "**Material airlock (MAL)** — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
-   "choiceNotes": [
-    "틀리다 — Personnel airlock (PAL)의 설명이다.",
-    "틀리다 — MES / EBR의 설명이다.",
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "틀리다 — FAT (Factory Acceptance Test)의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.40",
-   "concepts": [
-    "Material airlock"
-   ],
-   "tags": [
-    "용어",
-    "Material airlock"
-   ]
-  },
-  {
-   "id": "tw07r-047",
-   "type": "용어",
-   "part": 1,
-   "question": "「Pressure zone (압력 구역)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
-    "대규모 비교 시험으로 효과를 확증하는 단계."
-   ],
-   "answer": 1,
-   "explanation": "**Pressure zone (압력 구역)** — 청정도에 따라 실 압력을 다르게 정한 구역.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Pre-viral / Post-viral 구역의 설명이다.",
-    "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
-    "틀리다 — Material airlock (MAL)의 설명이다.",
-    "틀리다 — 임상 3상 (Phase III)의 설명이다."
-   ],
-   "source": "WK07 PDF p.41, p.49",
-   "concepts": [
-    "Pressure zone"
-   ],
-   "tags": [
-    "용어",
-    "Pressure zone"
-   ]
-  },
-  {
-   "id": "tw07r-048",
-   "type": "용어",
-   "part": 1,
-   "question": "「Pre-viral / Post-viral 구역」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
-   ],
-   "answer": 3,
-   "explanation": "**Pre-viral / Post-viral 구역** — 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
-   "choiceNotes": [
-    "틀리다 — Pressure zone (압력 구역)의 설명이다.",
-    "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Clean steam (가습용)의 설명이다.",
-    "틀리다 — Closed system (밀폐 공정)의 설명이다."
-   ],
-   "source": "WK07 PDF p.41, p.62",
-   "concepts": [
-    "Pre-viral / Post-viral 구역"
-   ],
-   "tags": [
-    "용어",
-    "Pre-viral / Post-viral 구역"
-   ]
-  },
-  {
    "id": "tw07r-049",
    "type": "용어",
    "part": 1,
    "question": "「GMP flows」에 대한 설명으로 옳은 것은?",
    "choices": [
     "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
     "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
     "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계."
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
+    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계."
    ],
-   "answer": 2,
+   "answer": 5,
    "explanation": "**GMP flows** — 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
    "choiceNotes": [
     "틀리다 — Pressure zone (압력 구역)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다.",
     "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
-    "틀리다 — PV (Process Validation)의 설명이다."
+    "틀리다 — PV (Process Validation)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK07 PDF p.42",
    "concepts": [
@@ -2242,186 +1264,6 @@
    "tags": [
     "용어",
     "GMP flows"
-   ]
-  },
-  {
-   "id": "tw07r-050",
-   "type": "용어",
-   "part": 1,
-   "question": "「Unidirectional flow (단방향 흐름)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
-    "자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
-   ],
-   "answer": 3,
-   "explanation": "**Unidirectional flow (단방향 흐름)** — 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
-   "choiceNotes": [
-    "틀리다 — Pre-viral / Post-viral 구역의 설명이다.",
-    "틀리다 — GMP flows의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다.",
-    "틀리다 — Grade C의 설명이다."
-   ],
-   "source": "WK07 PDF p.62",
-   "concepts": [
-    "Unidirectional flow"
-   ],
-   "tags": [
-    "용어",
-    "Unidirectional flow"
-   ]
-  },
-  {
-   "id": "tw07r-051",
-   "type": "용어",
-   "part": 1,
-   "question": "「Clean utility」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
-    "배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
-   ],
-   "answer": 1,
-   "explanation": "**Clean utility** — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Clean steam (가습용)의 설명이다.",
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "틀리다 — Change control (변경 관리)의 설명이다.",
-    "틀리다 — P&ID (Piping & Instrumentation Diagram)의 설명이다."
-   ],
-   "source": "WK07 PDF p.46",
-   "concepts": [
-    "Clean utility"
-   ],
-   "tags": [
-    "용어",
-    "Clean utility"
-   ]
-  },
-  {
-   "id": "tw07r-052",
-   "type": "용어",
-   "part": 1,
-   "question": "「Black utility」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "정전 순간에도 끊김 없이 전원을 주는 장치.",
-    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것."
-   ],
-   "answer": 4,
-   "explanation": "**Black utility** — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-   "choiceNotes": [
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "틀리다 — Clean compressed air의 설명이다.",
-    "틀리다 — UPS (무정전 전원장치)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CSV (Computer System Validation)의 설명이다."
-   ],
-   "source": "WK07 PDF p.48",
-   "concepts": [
-    "Black utility"
-   ],
-   "tags": [
-    "용어",
-    "Black utility"
-   ]
-  },
-  {
-   "id": "tw07r-053",
-   "type": "용어",
-   "part": 1,
-   "question": "「Pure steam (공정용 순수 증기)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
-    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
-   ],
-   "answer": 5,
-   "explanation": "**Pure steam (공정용 순수 증기)** — 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-   "choiceNotes": [
-    "틀리다 — Clean compressed air의 설명이다.",
-    "틀리다 — Clean steam (가습용)의 설명이다.",
-    "틀리다 — DQ (Design Qualification)의 설명이다.",
-    "틀리다 — Ballroom concept의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.46",
-   "concepts": [
-    "Pure steam"
-   ],
-   "tags": [
-    "용어",
-    "Pure steam"
-   ]
-  },
-  {
-   "id": "tw07r-054",
-   "type": "용어",
-   "part": 1,
-   "question": "「Clean steam (가습용)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
-    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위."
-   ],
-   "answer": 2,
-   "explanation": "**Clean steam (가습용)** — HVAC 가습에 쓰는 깨끗한 증기.",
-   "choiceNotes": [
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Black utility의 설명이다.",
-    "틀리다 — cGMP의 설명이다.",
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다."
-   ],
-   "source": "WK07 PDF p.46",
-   "concepts": [
-    "Clean steam"
-   ],
-   "tags": [
-    "용어",
-    "Clean steam"
-   ]
-  },
-  {
-   "id": "tw07r-055",
-   "type": "용어",
-   "part": 1,
-   "question": "「Clean compressed air」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "환자에게 효과와 적정 용량을 찾는 단계.",
-    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
-   ],
-   "answer": 5,
-   "explanation": "**Clean compressed air** — 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-   "choiceNotes": [
-    "틀리다 — Clean utility의 설명이다.",
-    "틀리다 — Clean steam (가습용)의 설명이다.",
-    "틀리다 — 임상 2상 (Phase II)의 설명이다.",
-    "틀리다 — HVAC의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.46",
-   "concepts": [
-    "Clean compressed air"
-   ],
-   "tags": [
-    "용어",
-    "Clean compressed air"
    ]
   },
   {
@@ -2455,55 +1297,25 @@
    ]
   },
   {
-   "id": "tw07r-059",
-   "type": "용어",
-   "part": 1,
-   "question": "「Air changes (환기 횟수)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
-    "설비는 있지만 사람·작업 없이 멈춘 상태.",
-    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템."
-   ],
-   "answer": 2,
-   "explanation": "**Air changes (환기 횟수)** — 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.",
-   "choiceNotes": [
-    "틀리다 — HVAC의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — At rest (비가동 상태)의 설명이다.",
-    "틀리다 — Ballroom concept의 설명이다.",
-    "틀리다 — PLC / SCADA의 설명이다."
-   ],
-   "source": "WK07 PDF p.49",
-   "concepts": [
-    "Air changes"
-   ],
-   "tags": [
-    "용어",
-    "Air changes"
-   ]
-  },
-  {
    "id": "tw07r-061",
    "type": "용어",
    "part": 1,
    "question": "「UPS (무정전 전원장치)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "정전 순간에도 끊김 없이 전원을 주는 장치.",
     "정해진 인원이 실제로 작업 중인 상태.",
     "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
     "무균 충전 등이 이루어지는 최고 청정 구역.",
-    "시판 후 실제 사용에서 장기 안전성을 보는 단계."
+    "시판 후 실제 사용에서 장기 안전성을 보는 단계.",
+    "정전 순간에도 끊김 없이 전원을 주는 장치."
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**UPS (무정전 전원장치)** — 정전 순간에도 끊김 없이 전원을 주는 장치.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Operational (가동 상태)의 설명이다.",
     "틀리다 — Black utility의 설명이다.",
     "틀리다 — Grade A의 설명이다.",
-    "틀리다 — 임상 4상 (Phase IV)의 설명이다."
+    "틀리다 — 임상 4상 (Phase IV)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK07 PDF p.50",
    "concepts": [
@@ -2551,18 +1363,18 @@
    "question": "「FAT (Factory Acceptance Test)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
     "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
     "정해진 인원이 실제로 작업 중인 상태.",
+    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
     "최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급)."
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
    "choiceNotes": [
     "틀리다 — Cleaning Validation (CV)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — DQ (Design Qualification)의 설명이다.",
     "틀리다 — Operational (가동 상태)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Grade D의 설명이다."
    ],
    "source": "WK07 PDF p.51",
@@ -2580,20 +1392,20 @@
    "part": 1,
    "question": "「SAT (Site Acceptance Test)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
     "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
     "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
     "서로 다른 자재·제품이 뒤섞이는 것.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
+    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Requalification (재적격성평가)의 설명이다.",
     "틀리다 — Change control (변경 관리)의 설명이다.",
     "틀리다 — Mix-up (혼동)의 설명이다.",
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "정답 — 이 용어의 정의다."
+    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다."
    ],
    "source": "WK07 PDF p.51",
    "concepts": [
@@ -2611,18 +1423,18 @@
    "question": "「PQ (Performance Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
     "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
     "소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
     "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
    "choiceNotes": [
     "틀리다 — Change control (변경 관리)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
     "틀리다 — 임상 1상 (Phase I)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Q&V (Qualification & Validation)의 설명이다."
    ],
    "source": "WK07 PDF p.51, p.58",
@@ -2642,17 +1454,17 @@
    "choices": [
     "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
     "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
     "서로 다른 자재·제품이 뒤섞이는 것.",
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
     "청정도에 따라 실 압력을 다르게 정한 구역."
    ],
-   "answer": 3,
+   "answer": 4,
    "explanation": "**PV (Process Validation)** — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
    "choiceNotes": [
     "틀리다 — Cleaning Validation (CV)의 설명이다.",
     "틀리다 — Requalification (재적격성평가)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Mix-up (혼동)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Pressure zone (압력 구역)의 설명이다."
    ],
    "source": "WK07 PDF p.51, p.58",
@@ -2665,54 +1477,24 @@
    ]
   },
   {
-   "id": "tw07r-068",
-   "type": "용어",
-   "part": 1,
-   "question": "「Cleaning Validation (CV)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
-    "여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-    "HVAC 가습에 쓰는 깨끗한 증기."
-   ],
-   "answer": 1,
-   "explanation": "**Cleaning Validation (CV)** — 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — PQ (Performance Qualification)의 설명이다.",
-    "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
-    "틀리다 — Multi-purpose facility의 설명이다.",
-    "틀리다 — Clean steam (가습용)의 설명이다."
-   ],
-   "source": "WK07 PDF p.51, p.58",
-   "concepts": [
-    "Cleaning Validation"
-   ],
-   "tags": [
-    "용어",
-    "Cleaning Validation"
-   ]
-  },
-  {
    "id": "tw07r-069",
    "type": "용어",
    "part": 1,
    "question": "「CSV (Computer System Validation)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
+    "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
     "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
     "HVAC 가습에 쓰는 깨끗한 증기.",
-    "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
     "최고 청정 구역을 둘러싼 배경 구역."
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**CSV (Computer System Validation)** — 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
    "choiceNotes": [
     "틀리다 — DQ (Design Qualification)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
     "틀리다 — PQ (Performance Qualification)의 설명이다.",
     "틀리다 — Clean steam (가습용)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Grade B의 설명이다."
    ],
    "source": "WK07 PDF p.58",
@@ -2722,246 +1504,6 @@
    "tags": [
     "용어",
     "CSV"
-   ]
-  },
-  {
-   "id": "tw07r-071",
-   "type": "용어",
-   "part": 1,
-   "question": "「Change control (변경 관리)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
-    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
-   ],
-   "answer": 2,
-   "explanation": "**Change control (변경 관리)** — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
-   "choiceNotes": [
-    "틀리다 — PQ (Performance Qualification)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — FAT (Factory Acceptance Test)의 설명이다.",
-    "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
-    "틀리다 — Black utility의 설명이다."
-   ],
-   "source": "WK07 PDF p.51",
-   "concepts": [
-    "Change control"
-   ],
-   "tags": [
-    "용어",
-    "Change control"
-   ]
-  },
-  {
-   "id": "tw07r-072",
-   "type": "용어",
-   "part": 1,
-   "question": "「Requalification (재적격성평가)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
-    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
-    "정해진 인원이 실제로 작업 중인 상태.",
-    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것."
-   ],
-   "answer": 5,
-   "explanation": "**Requalification (재적격성평가)** — 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
-   "choiceNotes": [
-    "틀리다 — PV (Process Validation)의 설명이다.",
-    "틀리다 — Change control (변경 관리)의 설명이다.",
-    "틀리다 — Operational (가동 상태)의 설명이다.",
-    "틀리다 — Clean compressed air의 설명이다.",
-    "정답 — 이 용어의 정의다."
-   ],
-   "source": "WK07 PDF p.51, p.59",
-   "concepts": [
-    "Requalification"
-   ],
-   "tags": [
-    "용어",
-    "Requalification"
-   ]
-  },
-  {
-   "id": "tw07r-082",
-   "type": "용어",
-   "part": 1,
-   "question": "「Ballroom concept」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "청정도에 따라 실 압력을 다르게 정한 구역.",
-    "환자에게 효과와 적정 용량을 찾는 단계.",
-    "제품 하나만을 위해 쓰는 전용 시설·장비."
-   ],
-   "answer": 1,
-   "explanation": "**Ballroom concept** — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Closed system (밀폐 공정)의 설명이다.",
-    "틀리다 — Pressure zone (압력 구역)의 설명이다.",
-    "틀리다 — 임상 2상 (Phase II)의 설명이다.",
-    "틀리다 — Dedicated facility / equipment의 설명이다."
-   ],
-   "source": "WK07 PDF p.62",
-   "concepts": [
-    "Ballroom concept"
-   ],
-   "tags": [
-    "용어",
-    "Ballroom concept"
-   ]
-  },
-  {
-   "id": "tw07r-084",
-   "type": "용어",
-   "part": 1,
-   "question": "「Closed system (밀폐 공정)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
-    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-    "배양하면 집락을 만드는 살아 있는 미생물 수의 단위.",
-    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실."
-   ],
-   "answer": 3,
-   "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
-   "choiceNotes": [
-    "틀리다 — Ballroom concept의 설명이다.",
-    "틀리다 — Pure steam (공정용 순수 증기)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — CFU (Colony Forming Unit)의 설명이다.",
-    "틀리다 — Personnel airlock (PAL)의 설명이다."
-   ],
-   "source": "WK07 PDF p.62–63",
-   "concepts": [
-    "Closed system"
-   ],
-   "tags": [
-    "용어",
-    "Closed system"
-   ]
-  },
-  {
-   "id": "tw07r-087",
-   "type": "용어",
-   "part": 1,
-   "question": "「임상 1상 (Phase I)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "환자에게 효과와 적정 용량을 찾는 단계.",
-    "시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "서로 다른 자재·제품이 뒤섞이는 것.",
-    "소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
-   ],
-   "answer": 4,
-   "explanation": "**임상 1상 (Phase I)** — 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-   "choiceNotes": [
-    "틀리다 — 임상 2상 (Phase II)의 설명이다.",
-    "틀리다 — 임상 4상 (Phase IV)의 설명이다.",
-    "틀리다 — Mix-up (혼동)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Black utility의 설명이다."
-   ],
-   "source": "WK07 PDF p.15",
-   "concepts": [
-    "임상 1상"
-   ],
-   "tags": [
-    "용어",
-    "임상 1상"
-   ]
-  },
-  {
-   "id": "tw07r-088",
-   "type": "용어",
-   "part": 1,
-   "question": "「임상 2상 (Phase II)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "환자에게 효과와 적정 용량을 찾는 단계.",
-    "시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "대규모 비교 시험으로 효과를 확증하는 단계.",
-    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
-   ],
-   "answer": 1,
-   "explanation": "**임상 2상 (Phase II)** — 환자에게 효과와 적정 용량을 찾는 단계.",
-   "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 임상 4상 (Phase IV)의 설명이다.",
-    "틀리다 — 임상 3상 (Phase III)의 설명이다.",
-    "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
-    "틀리다 — SAT (Site Acceptance Test)의 설명이다."
-   ],
-   "source": "WK07 PDF p.15",
-   "concepts": [
-    "임상 2상"
-   ],
-   "tags": [
-    "용어",
-    "임상 2상"
-   ]
-  },
-  {
-   "id": "tw07r-089",
-   "type": "용어",
-   "part": 1,
-   "question": "「임상 3상 (Phase III)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-    "대규모 비교 시험으로 효과를 확증하는 단계.",
-    "시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "정전 순간에도 끊김 없이 전원을 주는 장치.",
-    "자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙."
-   ],
-   "answer": 2,
-   "explanation": "**임상 3상 (Phase III)** — 대규모 비교 시험으로 효과를 확증하는 단계.",
-   "choiceNotes": [
-    "틀리다 — 임상 1상 (Phase I)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — 임상 4상 (Phase IV)의 설명이다.",
-    "틀리다 — UPS (무정전 전원장치)의 설명이다.",
-    "틀리다 — Unidirectional flow (단방향 흐름)의 설명이다."
-   ],
-   "source": "WK07 PDF p.15",
-   "concepts": [
-    "임상 3상"
-   ],
-   "tags": [
-    "용어",
-    "임상 3상"
-   ]
-  },
-  {
-   "id": "tw07r-090",
-   "type": "용어",
-   "part": 1,
-   "question": "「임상 4상 (Phase IV)」에 대한 설명으로 옳은 것은?",
-   "choices": [
-    "소수 건강인에게 처음 투여해 안전성을 확인하는 단계.",
-    "대규모 비교 시험으로 효과를 확증하는 단계.",
-    "시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-    "HVAC 가습에 쓰는 깨끗한 증기.",
-    "정해진 인원이 실제로 작업 중인 상태."
-   ],
-   "answer": 3,
-   "explanation": "**임상 4상 (Phase IV)** — 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
-   "choiceNotes": [
-    "틀리다 — 임상 1상 (Phase I)의 설명이다.",
-    "틀리다 — 임상 3상 (Phase III)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Clean steam (가습용)의 설명이다.",
-    "틀리다 — Operational (가동 상태)의 설명이다."
-   ],
-   "source": "WK07 PDF p.15",
-   "concepts": [
-    "임상 4상"
-   ],
-   "tags": [
-    "용어",
-    "임상 4상"
    ]
   },
   {
@@ -2978,18 +1520,18 @@
    "choices": [
     "(가)-B  (나)-C  (다)-D  (라)-A",
     "(가)-A  (나)-B  (다)-D  (라)-C",
+    "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-C  (나)-B  (다)-A  (라)-D",
-    "(가)-B  (나)-C  (다)-A  (라)-D",
-    "(가)-C  (나)-B  (다)-D  (라)-A"
+    "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
-   "answer": 5,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **cGMP** → C. 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.\n(나) **Mix-up (혼동)** → B. 서로 다른 자재·제품이 뒤섞이는 것.\n(다) **Multi-purpose facility** → D. 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.\n(라) **Dedicated facility / equipment** → A. 제품 하나만을 위해 쓰는 전용 시설·장비.",
    "choiceNotes": [
     "틀리다 — (가) cGMP의 설명은 C, (나) Mix-up의 설명은 B",
     "틀리다 — (가) cGMP의 설명은 C, (라) Dedicated facility / equipment의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Multi-purpose facility의 설명은 D, (라) Dedicated facility / equipment의 설명은 A",
-    "틀리다 — (가) cGMP의 설명은 C, (나) Mix-up의 설명은 B, (다) Multi-purpose facility의 설명은 D, (라) Dedicated facility / equipment의 설명은 A",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) cGMP의 설명은 C, (나) Mix-up의 설명은 B, (다) Multi-purpose facility의 설명은 D, (라) Dedicated facility / equipment의 설명은 A"
    ],
    "source": "WK07 PDF p.16–17 · WK07 PDF p.20 · WK07 PDF p.22 · WK07 PDF p.22–23",
    "concepts": [
@@ -3015,18 +1557,18 @@
     "D. 고활성·독성 물질이 새어 나가지 않게 가두는 설계."
    ],
    "choices": [
+    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Multi-purpose facility** → C. 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.\n(나) **Dedicated facility / equipment** → A. 제품 하나만을 위해 쓰는 전용 시설·장비.\n(다) **Containment (봉쇄)** → D. 고활성·독성 물질이 새어 나가지 않게 가두는 설계.\n(라) **High potent drug (고활성 의약품)** → B. 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Multi-purpose facility의 설명은 C, (다) Containment의 설명은 D",
     "틀리다 — (나) Dedicated facility / equipment의 설명은 A, (라) High potent drug의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Containment의 설명은 D, (라) High potent drug의 설명은 B",
     "틀리다 — (가) Multi-purpose facility의 설명은 C, (나) Dedicated facility / equipment의 설명은 A, (다) Containment의 설명은 D, (라) High potent drug의 설명은 B"
    ],
@@ -3054,20 +1596,20 @@
     "D. 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
    ],
    "choices": [
-    "(가)-B  (나)-A  (다)-C  (라)-D",
     "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-B  (나)-C  (다)-A  (라)-D",
-    "(가)-A  (나)-B  (다)-D  (라)-C"
+    "(가)-A  (나)-B  (다)-D  (라)-C",
+    "(가)-B  (나)-A  (다)-C  (라)-D"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **Containment (봉쇄)** → B. 고활성·독성 물질이 새어 나가지 않게 가두는 설계.\n(나) **High potent drug (고활성 의약품)** → A. 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.\n(다) **CIP (Cleaning In Place)** → C. 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.\n(라) **Q&V (Qualification & Validation)** → D. 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Containment의 설명은 B, (라) Q&V의 설명은 D",
     "틀리다 — (가) Containment의 설명은 B, (나) High potent drug의 설명은 A",
     "틀리다 — (나) High potent drug의 설명은 A, (다) CIP의 설명은 C",
-    "틀리다 — (가) Containment의 설명은 B, (나) High potent drug의 설명은 A, (다) CIP의 설명은 C, (라) Q&V의 설명은 D"
+    "틀리다 — (가) Containment의 설명은 B, (나) High potent drug의 설명은 A, (다) CIP의 설명은 C, (라) Q&V의 설명은 D",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK07 PDF p.23 · WK07 PDF p.22, p.46 · WK07 PDF p.24, p.51",
    "concepts": [
@@ -3093,19 +1635,19 @@
     "D. 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
    ],
    "choices": [
+    "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-A  (나)-D  (다)-B  (라)-C",
-    "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-B  (나)-A  (다)-C  (라)-D"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **CIP (Cleaning In Place)** → A. 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.\n(나) **Q&V (Qualification & Validation)** → B. 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.\n(다) **P&ID (Piping & Instrumentation Diagram)** → D. 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).\n(라) **PLC / SCADA** → C. 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) P&ID의 설명은 D, (라) PLC / SCADA의 설명은 C",
     "틀리다 — (가) CIP의 설명은 A, (라) PLC / SCADA의 설명은 C",
     "틀리다 — (나) Q&V의 설명은 B, (다) P&ID의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) CIP의 설명은 A, (나) Q&V의 설명은 B, (다) P&ID의 설명은 D, (라) PLC / SCADA의 설명은 C"
    ],
    "source": "WK07 PDF p.22, p.46 · WK07 PDF p.24, p.51 · WK07 PDF p.28 · WK07 PDF p.33 (Process Automation)",
@@ -3135,17 +1677,17 @@
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-D  (나)-C  (다)-B  (라)-A",
-    "(가)-D  (나)-C  (다)-A  (라)-B",
-    "(가)-C  (나)-D  (다)-B  (라)-A"
+    "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-D  (나)-C  (다)-A  (라)-B"
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Q&V (Qualification & Validation)** → C. 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.\n(나) **P&ID (Piping & Instrumentation Diagram)** → D. 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).\n(다) **PLC / SCADA** → B. 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.\n(라) **MES / EBR** → A. 제조실행시스템과 전자 배치 기록.",
    "choiceNotes": [
     "틀리다 — (다) PLC / SCADA의 설명은 B, (라) MES / EBR의 설명은 A",
     "틀리다 — (나) P&ID의 설명은 D, (라) MES / EBR의 설명은 A",
     "틀리다 — (가) Q&V의 설명은 C, (나) P&ID의 설명은 D",
-    "틀리다 — (가) Q&V의 설명은 C, (나) P&ID의 설명은 D, (다) PLC / SCADA의 설명은 B, (라) MES / EBR의 설명은 A",
-    "정답 — 네 쌍 모두 옳다."
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Q&V의 설명은 C, (나) P&ID의 설명은 D, (다) PLC / SCADA의 설명은 B, (라) MES / EBR의 설명은 A"
    ],
    "source": "WK07 PDF p.24, p.51 · WK07 PDF p.28 · WK07 PDF p.33 (Process Automation) · WK07 PDF p.52",
    "concepts": [
@@ -3210,18 +1752,18 @@
     "D. 제조실행시스템과 전자 배치 기록."
    ],
    "choices": [
-    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 1,
+   "answer": 3,
    "explanation": "**용어와 설명의 짝**\n(가) **PLC / SCADA** → A. 장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템.\n(나) **MES / EBR** → D. 제조실행시스템과 전자 배치 기록.\n(다) **Grade A** → C. 무균 충전 등이 이루어지는 최고 청정 구역.\n(라) **Grade B** → B. 최고 청정 구역을 둘러싼 배경 구역.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) PLC / SCADA의 설명은 A, (다) Grade A의 설명은 C",
     "틀리다 — (나) MES / EBR의 설명은 D, (라) Grade B의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) MES / EBR의 설명은 D, (다) Grade A의 설명은 C",
     "틀리다 — (가) PLC / SCADA의 설명은 A, (나) MES / EBR의 설명은 D, (다) Grade A의 설명은 C, (라) Grade B의 설명은 B"
    ],
@@ -3330,17 +1872,17 @@
     "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-C  (나)-B  (다)-A  (라)-D",
-    "(가)-B  (나)-C  (다)-D  (라)-A"
+    "(가)-B  (나)-C  (다)-D  (라)-A",
+    "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
-   "answer": 4,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **Personnel airlock (PAL)** → C. 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.\n(나) **Material airlock (MAL)** → B. 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.\n(다) **Pressure zone (압력 구역)** → A. 청정도에 따라 실 압력을 다르게 정한 구역.\n(라) **Pre-viral / Post-viral 구역** → D. 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
    "choiceNotes": [
     "틀리다 — (다) Pressure zone의 설명은 A, (라) Pre-viral / Post-viral 구역의 설명은 D",
     "틀리다 — (가) Personnel airlock의 설명은 C, (라) Pre-viral / Post-viral 구역의 설명은 D",
     "틀리다 — (나) Material airlock의 설명은 B, (다) Pressure zone의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
-    "틀리다 — (가) Personnel airlock의 설명은 C, (나) Material airlock의 설명은 B, (다) Pressure zone의 설명은 A, (라) Pre-viral / Post-viral 구역의 설명은 D"
+    "틀리다 — (가) Personnel airlock의 설명은 C, (나) Material airlock의 설명은 B, (다) Pressure zone의 설명은 A, (라) Pre-viral / Post-viral 구역의 설명은 D",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK07 PDF p.40 · WK07 PDF p.41, p.49 · WK07 PDF p.41, p.62",
    "concepts": [
@@ -3367,18 +1909,18 @@
    ],
    "choices": [
     "(가)-B  (나)-A  (다)-C  (라)-D",
-    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-C  (나)-B  (다)-A  (라)-D",
+    "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Pressure zone (압력 구역)** → C. 청정도에 따라 실 압력을 다르게 정한 구역.\n(나) **Pre-viral / Post-viral 구역** → A. 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.\n(다) **GMP flows** → B. 자재·인원·제품·폐기물의 이동 경로를 정해 혼동·교차오염을 막는 설계.\n(라) **Unidirectional flow (단방향 흐름)** → D. 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
    "choiceNotes": [
     "틀리다 — (가) Pressure zone의 설명은 C, (다) GMP flows의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) GMP flows의 설명은 B, (라) Unidirectional flow의 설명은 D",
     "틀리다 — (나) Pre-viral / Post-viral 구역의 설명은 A, (다) GMP flows의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Pressure zone의 설명은 C, (나) Pre-viral / Post-viral 구역의 설명은 A, (다) GMP flows의 설명은 B, (라) Unidirectional flow의 설명은 D"
    ],
    "source": "WK07 PDF p.41, p.49 · WK07 PDF p.41, p.62 · WK07 PDF p.42 · WK07 PDF p.62",
@@ -3405,19 +1947,19 @@
     "D. 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
    ],
    "choices": [
+    "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-A  (나)-B  (다)-C  (라)-D",
     "(가)-C  (나)-B  (다)-D  (라)-A",
-    "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-B  (나)-A  (다)-C  (라)-D"
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Clean utility** → A. 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).\n(나) **Black utility** → B. 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).\n(다) **Pure steam (공정용 순수 증기)** → D. 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).\n(라) **Clean steam (가습용)** → C. HVAC 가습에 쓰는 깨끗한 증기.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Black utility의 설명은 B, (다) Pure steam의 설명은 D",
     "틀리다 — (다) Pure steam의 설명은 D, (라) Clean steam의 설명은 C",
     "틀리다 — (가) Clean utility의 설명은 A, (라) Clean steam의 설명은 C",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Clean utility의 설명은 A, (나) Black utility의 설명은 B, (다) Pure steam의 설명은 D, (라) Clean steam의 설명은 C"
    ],
    "source": "WK07 PDF p.46 · WK07 PDF p.48",
@@ -3445,17 +1987,17 @@
    ],
    "choices": [
     "(가)-D  (나)-C  (다)-B  (라)-A",
-    "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Clean compressed air** → A. 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.\n(나) **HVAC** → C. 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.\n(다) **Air changes (환기 횟수)** → B. 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.\n(라) **UPS (무정전 전원장치)** → D. 정전 순간에도 끊김 없이 전원을 주는 장치.",
    "choiceNotes": [
     "틀리다 — (가) Clean compressed air의 설명은 A, (라) UPS의 설명은 D",
-    "틀리다 — (나) HVAC의 설명은 C, (라) UPS의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) HVAC의 설명은 C, (라) UPS의 설명은 D",
     "틀리다 — (가) Clean compressed air의 설명은 A, (다) Air changes의 설명은 B",
     "틀리다 — (가) Clean compressed air의 설명은 A, (나) HVAC의 설명은 C, (다) Air changes의 설명은 B, (라) UPS의 설명은 D"
    ],
@@ -3486,17 +2028,17 @@
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-A  (나)-D  (다)-B  (라)-C",
     "(가)-D  (나)-B  (다)-A  (라)-C",
-    "(가)-D  (나)-B  (다)-C  (라)-A",
-    "(가)-B  (나)-D  (다)-A  (라)-C"
+    "(가)-B  (나)-D  (다)-A  (라)-C",
+    "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
-   "answer": 5,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **HVAC** → B. 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.\n(나) **Air changes (환기 횟수)** → D. 한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값.\n(다) **UPS (무정전 전원장치)** → A. 정전 순간에도 끊김 없이 전원을 주는 장치.\n(라) **DQ (Design Qualification)** → C. 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
    "choiceNotes": [
     "틀리다 — (가) HVAC의 설명은 B, (라) DQ의 설명은 C",
     "틀리다 — (가) HVAC의 설명은 B, (다) UPS의 설명은 A",
     "틀리다 — (가) HVAC의 설명은 B, (나) Air changes의 설명은 D",
-    "틀리다 — (가) HVAC의 설명은 B, (나) Air changes의 설명은 D, (다) UPS의 설명은 A, (라) DQ의 설명은 C",
-    "정답 — 네 쌍 모두 옳다."
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) HVAC의 설명은 B, (나) Air changes의 설명은 D, (다) UPS의 설명은 A, (라) DQ의 설명은 C"
    ],
    "source": "WK07 PDF p.49 · WK07 PDF p.50 · WK07 PDF p.51, p.58",
    "concepts": [
@@ -3561,20 +2103,20 @@
     "D. 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계."
    ],
    "choices": [
-    "(가)-D  (나)-B  (다)-A  (라)-C",
     "(가)-D  (나)-B  (다)-C  (라)-A",
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-A  (나)-B  (다)-D  (라)-C",
-    "(가)-B  (나)-D  (다)-C  (라)-A"
+    "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **DQ (Design Qualification)** → D. 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.\n(나) **FAT (Factory Acceptance Test)** → B. 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.\n(다) **SAT (Site Acceptance Test)** → A. 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.\n(라) **PQ (Performance Qualification)** → C. 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) SAT의 설명은 A, (라) PQ의 설명은 C",
     "틀리다 — (가) DQ의 설명은 D, (나) FAT의 설명은 B",
     "틀리다 — (가) DQ의 설명은 D, (다) SAT의 설명은 A",
-    "틀리다 — (가) DQ의 설명은 D, (나) FAT의 설명은 B, (다) SAT의 설명은 A, (라) PQ의 설명은 C"
+    "틀리다 — (가) DQ의 설명은 D, (나) FAT의 설명은 B, (다) SAT의 설명은 A, (라) PQ의 설명은 C",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK07 PDF p.51, p.58 · WK07 PDF p.51",
    "concepts": [
@@ -3600,20 +2142,20 @@
     "D. 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차."
    ],
    "choices": [
+    "(가)-C  (나)-B  (다)-A  (라)-D",
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-B  (나)-C  (다)-A  (라)-D",
     "(가)-A  (나)-B  (다)-C  (라)-D",
-    "(가)-B  (나)-C  (다)-D  (라)-A",
-    "(가)-C  (나)-B  (다)-A  (라)-D"
+    "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
-   "answer": 5,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **PV (Process Validation)** → C. 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.\n(나) **Cleaning Validation (CV)** → B. 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.\n(다) **CSV (Computer System Validation)** → A. 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.\n(라) **Change control (변경 관리)** → D. 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Cleaning Validation의 설명은 B, (라) Change control의 설명은 D",
     "틀리다 — (가) PV의 설명은 C, (나) Cleaning Validation의 설명은 B",
     "틀리다 — (가) PV의 설명은 C, (다) CSV의 설명은 A",
-    "틀리다 — (가) PV의 설명은 C, (나) Cleaning Validation의 설명은 B, (다) CSV의 설명은 A, (라) Change control의 설명은 D",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) PV의 설명은 C, (나) Cleaning Validation의 설명은 B, (다) CSV의 설명은 A, (라) Change control의 설명은 D"
    ],
    "source": "WK07 PDF p.51, p.58 · WK07 PDF p.58 · WK07 PDF p.51",
    "concepts": [
@@ -3679,18 +2221,18 @@
    ],
    "choices": [
     "(가)-B  (나)-A  (다)-C  (라)-D",
-    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Ballroom concept** → B. 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.\n(나) **Closed system (밀폐 공정)** → D. 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.\n(다) **임상 1상 (Phase I)** → C. 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.\n(라) **임상 2상 (Phase II)** → A. 환자에게 효과와 적정 용량을 찾는 단계.",
    "choiceNotes": [
     "틀리다 — (나) Closed system의 설명은 D, (라) 임상 2상의 설명은 A",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) 임상 1상의 설명은 C, (라) 임상 2상의 설명은 A",
     "틀리다 — (가) Ballroom concept의 설명은 B, (나) Closed system의 설명은 D",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Ballroom concept의 설명은 B, (나) Closed system의 설명은 D, (다) 임상 1상의 설명은 C, (라) 임상 2상의 설명은 A"
    ],
    "source": "WK07 PDF p.62 · WK07 PDF p.62–63 · WK07 PDF p.15",
@@ -3717,20 +2259,20 @@
     "D. 환자에게 효과와 적정 용량을 찾는 단계."
    ],
    "choices": [
-    "(가)-C  (나)-D  (다)-B  (라)-A",
     "(가)-C  (나)-D  (다)-A  (라)-B",
     "(가)-D  (나)-C  (다)-B  (라)-A",
     "(가)-C  (나)-A  (다)-B  (라)-D",
-    "(가)-D  (나)-C  (다)-A  (라)-B"
+    "(가)-D  (나)-C  (다)-A  (라)-B",
+    "(가)-C  (나)-D  (다)-B  (라)-A"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **임상 1상 (Phase I)** → C. 소수 건강인에게 처음 투여해 안전성을 확인하는 단계.\n(나) **임상 2상 (Phase II)** → D. 환자에게 효과와 적정 용량을 찾는 단계.\n(다) **임상 3상 (Phase III)** → B. 대규모 비교 시험으로 효과를 확증하는 단계.\n(라) **임상 4상 (Phase IV)** → A. 시판 후 실제 사용에서 장기 안전성을 보는 단계.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) 임상 3상의 설명은 B, (라) 임상 4상의 설명은 A",
     "틀리다 — (가) 임상 1상의 설명은 C, (나) 임상 2상의 설명은 D",
     "틀리다 — (나) 임상 2상의 설명은 D, (라) 임상 4상의 설명은 A",
-    "틀리다 — (가) 임상 1상의 설명은 C, (나) 임상 2상의 설명은 D, (다) 임상 3상의 설명은 B, (라) 임상 4상의 설명은 A"
+    "틀리다 — (가) 임상 1상의 설명은 C, (나) 임상 2상의 설명은 D, (다) 임상 3상의 설명은 B, (라) 임상 4상의 설명은 A",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK07 PDF p.15",
    "concepts": [
