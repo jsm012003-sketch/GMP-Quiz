@@ -7,6 +7,8 @@
 > 아래 표는 **본문 문항**(PART I 개념 확인·PART II 헷갈리는 개념 구분) 기준이다. 용어 정리 문항은 맨 아래 「용어 정리」 절 참고.
 >
 > 2026.10 난이도 재조정: 실제 시험이 쉬운 오픈북이라 고난도(상황 대응) 문항을 모두 쉬운 말의 개념 확인·개념 구분 문항으로 다시 쓰고(같은 id), 용어집의 헷갈리는 짝으로 PART II 문항 33개를 더했다.
+>
+> 강의 녹음본(2026.10 반영): 09.16(WK03, 슬라이드 없음)·09.23(WK04)·09.30(GMP03) 녹음에서 슬라이드에 없는 강조점·예시를 문항으로 만들었다. 출처는 `<단원> 강의 녹음 mm:ss`. 녹음은 자동 받아쓰기라 잘못 받아쓴 곳이 많아, 뜻이 분명한 부분만 근거로 썼다.
 
 ## OT — Introduction to Design Project (2026.09.07)
 
@@ -76,9 +78,25 @@
 
 미출제 후보: 시장 규모(PBT 2022 2,600억 $ → 2025 4,600억 $), Intensified upstream의 기술 요구(Process equipment·Cell line·Media·Recipe 4요소), 포도당 호기 대사 ATP(36/38) vs 혐기 해당(lactate), Spent media 분석 활용 5단계(Medium QC → Screening → Spent media → Medium & Feed optimization → Monitoring), Glycoform(G0F/G0F) 모니터링과 high glucose feed, single-use 광학 센서, 세포외 환경 구성(albumin·insulin·transferrin 등), PCA score plot 그룹 해석(9일차 VCD 색상).
 
+## WK03 — Downstream Process 1: 크로마토그래피 (2026.09.16, 녹음 기반)
+
+슬라이드(PDF)는 아직 없고 녹음본(약 1시간, 레진 회사 강사)만으로 만들었다. 출처: `WK03 강의 녹음 mm:ss`.
+
+| 출제됨 | 문항 |
+|---|---|
+| 분리 원리(머무는 시간 차이), 분석용(HPLC) vs 생산용 비드, 비드 크기와 분리능·압력 | wk03-001 ~ wk03-003 |
+| IEX 염 농도 용출 순서, 첫 단계 친화(Protein A), Capture–Intermediate–Polishing, Capture에 큰 비드 | wk03-004 ~ wk03-007 |
+| Bind-elute vs Flow-through, flow-through가 유리한 경우, 레진(리간드) 양은 넉넉히 | wk03-008 ~ wk03-010 |
+| 결합 안 하는 SEC, linear gradient vs step elution, 개발 초기 분획 모두 분석 | wk03-011 ~ wk03-013 |
+| 시스템 모니터(UV 280/260·전도도), 압력 상승 시 정지, 정제 후 분석법 | wk03-014 ~ wk03-016 |
+| 탈염(IEX 전 컨디셔닝)·group separation(G-25), V0 vs Vt, SEC는 마지막 polishing | wk03-017 ~ wk03-020 |
+| 레진 공급 다변화(납기 18개월), Superdex Increase vs prep grade, Sephacryl S-100 vs S-400, 팽윤 | wk03-021 ~ wk03-024 |
+
+미출제 후보: 슬라이드가 오면 그 내용(레진 화학 구조·운전 조건 수치 등)을 같은 파일에 이어 붙인다. 녹음 중 HIC·MMC 원리, IEF·2D·SPR·mass 분석, 컬럼 충전(packing) 방법 세부는 받아쓰기가 불분명해 아직 문항으로 쓰지 않았다.
+
 ## WK04 — Downstream Process 2: 여과 및 기타 공정 (2026.09.23)
 
-PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호는 슬라이드 하단 번호와 같은 **전체 160쪽 기준**이다. 손필기·녹음본은 없다.
+PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호는 슬라이드 하단 번호와 같은 **전체 160쪽 기준**이다. 손필기는 없고, 녹음본은 아래 「WK04 강의 녹음」 절에 따로 정리했다.
 
 | 출제됨 | 문항 |
 |---|---|
@@ -106,6 +124,24 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | 불합격 시 조치(PDA TR 26), redundant filtration, PUPSIT | wk04-073 ~ wk04-076, int-023 |
 
 미출제 후보: 원심분리(회분 vs 연속 kSep) 비교, BFS 상세, 필터 하우징·배관 P&ID 기호, 막 제조(evaporation vs quenching 공정), 기체 필터 HEPA 등급(E·H·U) 세부, Laminar vs turbulent cross-flow, A1·A2 value, 확산 시험의 공기 vs 질소 차이, 제조사별 무결성 시험 명칭(forward flow·pressure hold·Hydrocorr), 규제 문서 목록(FDA·EMA·ISO 13408·USP·ASTM).
+
+### WK04 강의 녹음 (09.23 — ① 여과 도입 31분, ② 바이오공정 전체 흐름 약 3시간)
+
+같은 강사가 슬라이드(여과 5개 기준)에 들어가기 전에 바이오공정 전체 흐름을 설명한 내용이다. 출처: `WK04 강의 녹음① mm:ss`, `WK04 강의 녹음② mm:ss`.
+
+| 출제됨 | 문항 |
+|---|---|
+| 혼합물 종류별 분리 기술, 여과가 크로마토그래피보다 훨씬 자주 쓰임 | wk04-077, wk04-078 |
+| 모달리티, 혈장 유래 의약품의 오염 위험, 숙주세포와 세포벽 | wk04-079 ~ wk04-081 |
+| 단일 세포 선별(Beacon), 세포주 특성 분석, MCB 문제 = 프로젝트 위기, WCB를 따로 만드는 이유, EOPCB, 셀뱅크 정기 시험 | wk04-082 ~ wk04-087 |
+| 배양 목적(VCD·titer), 시드 트레인 단계 확대, CHO 배가 시간, batch vs fed-batch 시작, 관류와 시드 트레인 위험, 증식 조건 vs 생산 조건 | wk04-088 ~ wk04-093 |
+| Cell harvest vs Clarification, 꼭 외울 크기, 원심분리 vs depth filter(규모), 원심분리 뒤 depth filter | wk04-094 ~ wk04-097 |
+| Affinity(네잎) vs IEX(세잎), Protein A 용출(낮은 pH), 낮은 pH 바이러스 불활화·응집 처리, VCS, 불순물 4총사 | wk04-098 ~ wk04-103 |
+| CEX pH 5~6, CEX(bind-elute) vs AEX(flow-through), 높은 전도도(mS/cm), 희석 vs UF/DF, VF 추가 이유, LRV | wk04-104 ~ wk04-109 |
+| 수율 vs 순도, 농축과 안정제, 약전, 제형 | wk04-110 ~ wk04-113 |
+| 무균 의약품 제조 3방법, 정제는 비무균, WFI는 무균 아님, 배지 여과 멸균, sparger vs vent 필터 | wk04-114 ~ wk04-118 |
+
+미출제 후보: mRNA·DNA 백신 플랫폼과 위험성, 바이오시밀러 시장 전망, 제약 업계의 보수성(AI는 R&D 위주), CMO vs OEM 용어, 15,000 L N-1~N-5 시드 트레인 예시.
 
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
@@ -174,8 +210,14 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | Test location 범주 | gmp03-017 |
 | 클린룸 vs 아이솔레이터(사람 → 설비 성능) | gmp03-018 |
 | **(개념 구분)** Maximum vs Minimum/Empty load, 온도·습도 vs CI mapping, D-value·SLR·Population | gmp03-022, gmp03-023, gmp03-024 |
+| (녹음) 바이럴 벡터 제품 반출 자재 VHP, 준비 단계 습도를 낮추는 이유 | gmp03-025, gmp03-026 |
+| (녹음) 소독 vs 멸균(3 log vs 6 log), 스팀 vs VHP(침투 vs 표면) | gmp03-027, gmp03-028 |
+| (녹음) CI를 함께 쓰는 이유(BI는 일주일 이상), BI 형태별 멸균 방식 | gmp03-029, gmp03-030 |
+| (녹음) SOP와 가이드라인 정렬, 기록 없으면 안 한 것(GDP), 아이솔레이터 개입도 APS로 검증, 글러브 시험은 작업 전·후 | gmp03-031 ~ gmp03-034 |
 
-미출제 후보: VHP 파라미터(H₂O₂ 34~37 %, dosing rate, nozzle airflow), Aeration 기준(< 1.0 ppm)과 측정 방법(교정 센서·검지관), EI(tAK) 원리.
+녹음 출처: `03 Isolator & Qualification 강의 녹음 mm:ss`(09.30, 앞부분 RABS 설명은 녹음에 없음).
+
+미출제 후보: Rogue BI 대응, VHP 파라미터(H₂O₂ 34~37 %, dosing rate, nozzle airflow), Aeration 기준(< 1.0 ppm)과 측정 방법(교정 센서·검지관), EI(tAK) 원리.
 
 ## WK06 — 항체치료제 공정 설계·정제(DSP)·바이러스 안전성
 
@@ -238,16 +280,17 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 
 ## 용어 정리 (PART I, 자동 생성)
 
-`glossary/<단원>.json` → `python3 tools/build_terms.py` → `questions/terms-<단원>.json`. 용어 1개당 정의→용어(`d`)·용어→정의(`r`) 2문항, 같은 묶음 4개씩 짝짓기(`m`) 1문항.
+`glossary/<단원>.json` → `python3 tools/build_terms.py` → `questions/terms-<단원>.json`. 용어 1개당 정의→용어(`d`)·용어→정의(`r`) 2문항, 같은 묶음 4개씩 짝짓기(`m`) 1문항. 기존 용어집에 덧붙인 용어는 `matchSealed` 뒤 번호로 따로 묶여, 이미 있던 짝짓기 id는 그대로다(WK04·GMP03 녹음 용어).
 
 | 단원 | 용어 수 | 문항 수 | 주요 묶음(group) |
 |---|---|---|---|
 | OT | 21 | 49 | 공정 흐름, 사업(바이오시밀러·CMO), 설계 문서(BFD·PFD·URS), 비용(CAPEX·OPEX·ROI) |
 | WK02 | 133 | 309 | modality, 백신 플랫폼, 숙주·세포은행, 공정 흐름, 배양 방식·공정 강화, 관류 장치, 성장곡선, 배지·대사, 배양기·제어, QbD, scale-up, 교반·통기, 데이터 분석, 원가 |
-| WK04 | 113 | 257 | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험 |
+| WK03 | 49 | 112 | 크로마토그래피 기본, 정제 단계, 레진 종류, 운전 모드·용출, 시스템 구성, 정제 후 분석, SEC·탈염, 레진 준비·공급 (녹음 기반) |
+| WK04 | 156 | 356 | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험, (녹음) 공정 흐름·세포·정제·무균 |
 | GMP01 | 42 | 98 | 제형, 멸균·무균, 조제, 부형제, 충전·용기, 품질 검사, 무균 환경, GMP 공통 |
 | GMP02 | 42 | 99 | 차단 방식, RABS 구성, 규정(Annex 1·ISO 13408-1·PDA TR22), APS, 간섭, worst case, 실패 조치, EM |
-| GMP03 | 48 | 112 | 아이솔레이터 원리·챔버, VHP cycle·조건, 사멸 원리, 적재, BI·CI·EI, cycle development, qualification, test location, glove |
+| GMP03 | 61 | 142 | 아이솔레이터 원리·챔버, VHP cycle·조건, 사멸 원리, 적재, BI·CI·EI, cycle development, qualification, test location, glove, (녹음) 멸균 방식·BI 형태, 운영(SOP·GDP·개입) |
 | WK06 | 56 | 132 | DSP 단계, UF/DF, 불순물, 크로마토그래피 설계, 바이러스 제거·규정·모델 바이러스, 혈장 분획, DSP 트렌드, PW/WFI |
 | WK07 | 90 | 209 | 식당 비유, 규정, 제품·제품 특성, 설계 요소·도면, 자동화, 부지, 청정 등급, 마감·airlock·흐름, clean/black utility, HVAC·전력, Q&V, 프로젝트 단계, 시설 트렌드, 임상 단계 |
 

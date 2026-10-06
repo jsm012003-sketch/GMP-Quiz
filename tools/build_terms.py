@@ -7,6 +7,8 @@
   <prefix>m-<no>-<no>-<no>-<no>  용어 (가)~(라) ↔ 설명 A~D 짝짓기
 
 id는 용어 번호(no)로만 정해지므로 용어를 추가해도 기존 id는 바뀌지 않는다.
+(짝짓기 묶음은 남는 용어를 다음 묶음으로 채우므로, 기존 용어집 끝에 용어를 덧붙일 때는
+ 용어집 머리에 "matchSealed": <덧붙이기 전 마지막 no>를 적어 기존 짝짓기 id를 그대로 둔다.)
 오답 선지는 같은 group(헷갈리기 쉬운 묶음)에서 2개, 같은 단원의 다른 group에서 2개를
 고른다. 선지 선택·정답 위치는 id로 시드를 정해 매번 같은 결과가 나온다.
 
@@ -135,8 +137,17 @@ def build_term_to_def(t, terms, g, spread):
     }
 
 
-def matching_sets(terms):
-    """group 순서대로 4개씩 묶는다. 4개가 안 되는 나머지는 다음(없으면 이전) 묶음 용어로 채운다."""
+def matching_sets(terms, sealed=0):
+    """group 순서대로 4개씩 묶는다. 4개가 안 되는 나머지는 다음(없으면 이전) 묶음 용어로 채운다.
+
+    sealed(용어집의 "matchSealed"): 이 번호까지의 용어는 그 용어들끼리만 예전 그대로 묶고,
+    뒤에 추가한 용어는 따로 묶는다 — 용어를 덧붙여도 이미 배포된 짝짓기 id가 바뀌지 않게 한다.
+    """
+    if sealed:
+        old = [t for t in terms if t['no'] <= sealed]
+        new = [t for t in terms if t['no'] > sealed]
+        # 새 용어 묶음만 고른다(나머지를 채울 때는 새 묶음 → 예전 용어 순으로 쓴다)
+        return matching_sets(old) + [ch for ch in matching_sets(new + old) if ch[0]['no'] > sealed]
     groups = []
     for t in terms:
         if not groups or groups[-1][0] != t['group']:
@@ -242,7 +253,7 @@ def main():
             qs.append(build_def_to_term(t, terms, g, spread))
         for t in terms:
             qs.append(build_term_to_def(t, terms, g, spread))
-        for ch in matching_sets(terms):
+        for ch in matching_sets(terms, g.get('matchSealed', 0)):
             qs.append(build_matching(ch, g, spread))
         out = {
             'week': g['week'],
