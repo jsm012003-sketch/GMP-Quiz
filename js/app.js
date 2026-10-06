@@ -123,6 +123,7 @@
   };
   const unitIndex = (key) => S.units.findIndex((u) => u.key === key);
   const qMeta = (id) => S.qstats[id] || { a: 0, c: 0, last: 0 };
+  const hasRecords = () => S.history.length > 0 || Object.keys(S.qstats).length > 0 || Object.keys(S.wrong).length > 0 || !!store.get('active', null);
   const wrongIdsInBank = () => Object.keys(S.wrong).filter((id) => S.qById.has(id));
   const conceptKey = (label) => String(label).split(' (')[0].toLowerCase().replace(/[^0-9a-z가-힣]/g, '');
   const isEssay = (q) => q.format === 'essay';
@@ -820,6 +821,7 @@
             <div class="coverage-bar" role="img" aria-label="개념 출제 비율 ${fmtNum(pct(cov.conceptCovered, cov.conceptTotal))}%"><span style="width:${pct(cov.conceptCovered, cov.conceptTotal)}%"></span></div>
             <p class="muted small" style="margin:6px 0 0">${cov.total ? `지금 ${cov.round}바퀴째 — 이번 바퀴에 아직 안 나온 문항 ${cov.leftInRound}개. 범위의 모든 문항이 한 번씩 나오기 전에는 같은 문항을 다시 내지 않습니다(복습 칸 제외).` : ''}</p>
             <button type="button" class="btn btn-block" data-action="coverage" style="margin-top:10px">🗺 출제 현황 · 안 다룬 개념 ${cov.uncovered.length}개 보기</button>
+            ${hasRecords() ? '<button type="button" class="btn btn-ghost btn-block" data-action="reset" data-what="all" style="margin-top:6px">↺ 풀이 기록 초기화 (처음 상태로)</button>' : ''}
           </div>
         </section>
 
@@ -2217,10 +2219,10 @@
 
         <section class="card">
           <h2>초기화</h2>
-          <p class="muted small" style="margin-top:0">이 기기(브라우저)에만 저장된 기록입니다. 지우면 되돌릴 수 없습니다.</p>
+          <p class="muted small" style="margin-top:0">문제는 그대로 두고, 이 기기(브라우저)에 저장된 풀이 기록만 지웁니다. 지우면 되돌릴 수 없습니다.</p>
           <div class="btn-row">
-            <button class="btn btn-danger" type="button" data-action="reset" data-what="wrong">오답 노트 비우기</button>
-            <button class="btn btn-danger" type="button" data-action="reset" data-what="all">모든 기록 삭제</button>
+            <button class="btn btn-danger" type="button" data-action="reset" data-what="all">풀이 기록 모두 초기화</button>
+            <button class="btn btn-ghost" type="button" data-action="reset" data-what="wrong">오답 노트만 비우기</button>
           </div>
         </section>
         <div class="btn-row"><button class="btn btn-block" type="button" data-action="home">처음으로</button></div>
@@ -2397,11 +2399,12 @@
           if (!confirm('오답 노트를 모두 비울까요?')) return;
           S.wrong = {};
         } else {
-          if (!confirm('오답 노트, 문항별 출제 이력, 회차 기록을 모두 삭제할까요?')) return;
-          S.wrong = {}; S.qstats = {}; S.history = []; store.del('active'); store.del('result');
+          if (!confirm('지금까지 푼 기록(점수·오답 노트·출제 횟수·풀던 시험지)을 모두 지우고 처음 상태로 돌아갈까요?\n문제는 그대로 남고, 되돌릴 수 없습니다.')) return;
+          S.wrong = {}; S.qstats = {}; S.history = []; S.result = null; S.session = null;
+          store.del('active'); store.del('result');
         }
         persist();
-        renderHistory();
+        render();
         break;
       default: break;
     }
