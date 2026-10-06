@@ -54,6 +54,8 @@
 
 - `js/app.js` 상단 `CONFIG`(과목명, 100점당 제한 시간 90분, 저장 키 접두어), `PARTS`(PART 이름·비율·배점), `STRATEGIES`(복습 비율)를 바꿀 수 있다.
 - 저장 키: `gmpquiz.v1.wrong`(오답 노트), `qstats`(문항별 출제·정답 횟수 — 출제 바퀴 계산 기준), `history`(회차 기록), `prefs`, `active`(진행 중 세션, v2), `result`(마지막 채점지), `print`(인쇄·공유용 시험지).
+- 만든 사람(주인) 잠금: `CONFIG.ownerHash`는 주인 코드의 SHA-256이다. **코드 자체는 저장소·커밋 메시지·PR에 절대 쓰지 않는다.** 주인 아닌 사람은 `GUEST_VIEWS`(shared·exam·result·print·locked)만 볼 수 있다. 저장 키 `owner`(이 기기가 주인), `sharedLast`(받은 시험지).
+- PDF 파일 받기는 `js/vendor/`의 jsPDF·html2canvas를 필요할 때만 불러와 문항 블록을 그림으로 찍어 A4 2단으로 배치한다.
 - 공유 링크 형식: `#set=<id.id.…>&o=<문항별 보기 순서 숫자 이어 붙임>&t=<제목>`. 문항 id로 연결되므로 id를 바꾸면 이미 보낸 링크에서 그 문항이 빠진다.
 - 출제 알고리즘(`compose`): 복습 칸(오답·약점) → 범위에서 출제 횟수가 가장 적은 문항만 후보 → PART·주차 할당량, 처음 다루는 개념 가점, 개념 중복 감점, 무작위로 점수를 매겨 고른다.
 - 문항 데이터는 `index.json` → 각 파일 순으로 fetch 하며, 형식 오류 문항은 건너뛰고 홈 화면 경고에 표시한다.

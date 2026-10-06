@@ -15,7 +15,11 @@
     minutesPer100: 90,          // 시험지 제한 시간: 100점 = 90분 비율
     storagePrefix: 'gmpquiz.v1.',
     historyLimit: 300,
+    // 만든 사람(주인) 확인용: 주인 링크 …#owner=<코드> 의 SHA-256. 코드 자체는 저장소에 두지 않는다.
+    ownerHash: '620a09ea0faa2b46033fb566dbd53b4bc7b8ba7040c380470c8a8944462bc6f9',
   };
+  // 주인이 아닌 사람(공유 링크로 들어온 사람)이 볼 수 있는 화면
+  const GUEST_VIEWS = new Set(['shared', 'exam', 'result', 'print', 'locked', 'error']);
   // 시험지 PART 구성 (실전 비율: I 40 % · II 40~50 % · III 10~20 % 중 쉬운 쪽 — 2026.10 난이도 조정)
   const PARTS = {
     1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 정의와 기본 개념을 정확히 알고 있는지 확인한다.', ratio: 0.40, points: 2 },
@@ -73,6 +77,7 @@
       theme: 'auto', mode: 'study', units: null, count: 20, strategy: 'fresh',
       shuffleQ: true, shuffleC: true, timer: true, name: '',
     }, store.get('prefs', {})),
+    owner: !!store.get('owner', false),
     akFilter: 'all',
     timerId: null,
     observer: null,
@@ -633,6 +638,7 @@
   function go(view, push = true) {
     if (S.view === 'exam') flushElapsed();
     stopTimers();
+    if (!S.owner && !GUEST_VIEWS.has(view)) view = 'locked';
     S.view = view;
     if (push && view !== 'home') history.pushState({ view }, '');
     render();
@@ -641,6 +647,8 @@
 
   function render() {
     stopTimers();
+    if (!S.owner && !GUEST_VIEWS.has(S.view)) S.view = 'locked';
+    document.body.classList.toggle('is-guest', !S.owner);
     document.body.classList.toggle('is-exam', S.view === 'exam');
     switch (S.view) {
       case 'home': renderHome(); break;
@@ -651,6 +659,7 @@
       case 'history': renderHistory(); break;
       case 'print': renderPrint(); break;
       case 'shared': renderShared(); break;
+      case 'locked': renderLocked(); break;
       case 'error': renderError(); break;
       default: break;
     }
@@ -854,6 +863,7 @@
   }
 
   function startSession(mode) {
+    if (!S.owner) return;
     const pool = poolFor(mode);
     if (!pool.length) return;
     const count = mode === 'review' ? pool.length
@@ -1447,6 +1457,7 @@
   }
 
   function makePrintSet() {
+    if (!S.owner) return;
     const p = S.prefs;
     const pool = poolFor(p.mode === 'mock' ? 'mock' : 'study');
     if (!pool.length) return;
@@ -1515,14 +1526,16 @@
           </div>
           <div class="btn-row">
             <button class="btn btn-primary" type="button" data-action="do-print">🖨 인쇄 / PDF 저장</button>
-            <button class="btn" type="button" data-action="share-link">🔗 링크로 공유</button>
+            <button class="btn" type="button" data-action="download-pdf">📄 PDF 파일로 받기</button>
+            ${S.owner ? '<button class="btn" type="button" data-action="share-link">🔗 링크로 공유</button>' : ''}
           </div>
+          <p class="small pdf-status" id="pdfStatus" role="status"></p>
           <div class="btn-row" style="margin-top:10px">
             <button class="btn" type="button" data-action="solve-print">✍️ 이 시험지 직접 풀기</button>
-            <button class="btn" type="button" data-action="make-print">🔄 다른 문제로 다시 만들기</button>
+            ${S.owner ? '<button class="btn" type="button" data-action="make-print">🔄 다른 문제로 다시 만들기</button>' : ''}
           </div>
           <div id="shareBox"></div>
-          <p class="muted small" style="margin:12px 0 0">PDF로 받으려면 인쇄 창에서 대상(프린터)을 「PDF로 저장」으로 고르세요. 링크를 받은 사람은 같은 문제·같은 보기 순서의 시험지를 온라인으로 풀거나 인쇄할 수 있습니다(기록은 그 사람 기기에 저장).</p>
+          <p class="muted small" style="margin:12px 0 0">인쇄 창에 「인쇄 미리보기에 실패했습니다」가 뜨면 대상(프린터)을 <b>「PDF로 저장」</b>으로 바꾸거나, 인쇄 창 없이 바로 만드는 <b>「📄 PDF 파일로 받기」</b>를 쓰세요.${S.owner ? ' 링크를 받은 사람은 이 시험지만 풀거나 인쇄할 수 있고, 문제집의 다른 화면에는 들어갈 수 없습니다.' : ''}</p>
         </section>
       </div>
       <div class="wrap-wide">
@@ -1589,8 +1602,8 @@
             <button class="btn btn-primary" type="button" data-action="solve-shared">✍️ 온라인으로 풀기</button>
             <button class="btn" type="button" data-action="print-shared">🖨 인쇄용으로 보기</button>
           </div>
-          <p class="muted small" style="margin:12px 0 0">풀이 기록은 이 기기에만 저장됩니다. 처음 화면에서 다른 단원 문제도 풀 수 있습니다.</p>
-          <button class="btn btn-ghost btn-block" type="button" data-action="home" style="margin-top:8px">처음 화면으로</button>
+          <p class="muted small" style="margin:12px 0 0">풀이 기록은 이 기기에만 저장됩니다.</p>
+          ${S.owner ? '<button class="btn btn-ghost btn-block" type="button" data-action="home" style="margin-top:8px">처음 화면으로</button>' : ''}
         </section>
       </div>`;
   }
@@ -1608,6 +1621,229 @@
   }
   function clearHash() {
     if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
+  }
+
+  // ---------------------------------------------------------------- 주인 확인 · 잠금 화면
+  async function sha256Hex(text) {
+    if (!(window.crypto && crypto.subtle)) return '';
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+    return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
+  }
+  async function tryOwnerCode(code) {
+    const ok = !!code && (await sha256Hex(code.trim())) === CONFIG.ownerHash;
+    if (ok) { S.owner = true; store.set('owner', true); }
+    return ok;
+  }
+  async function checkOwner() {
+    const m = location.hash.match(/^#owner=([^&]+)/);
+    if (m) {
+      const ok = await tryOwnerCode(decodeURIComponent(m[1]));
+      clearHash();
+      if (ok) setTimeout(() => toast('이 기기를 만든 사람(주인)으로 등록했습니다'), 300);
+    }
+    // 잠금 기능 이전부터 이 기기에서 문제집을 쓰던 사람은 주인으로 본다
+    if (!S.owner && S.history.some((h) => h.mode && h.mode !== 'shared')) { S.owner = true; store.set('owner', true); }
+  }
+
+  function renderLocked() {
+    const last = store.get('sharedLast', null);
+    const lastOk = last && Array.isArray(last.items) && last.items.length && last.items.every((it) => S.qById.has(it.id));
+    const active = store.get('active', null);
+    const activeOk = active && active.v === 2 && active.mode === 'shared' && active.items.every((it) => S.qById.has(it.id));
+    const res = store.get('result', null);
+    const resOk = res && res.session && res.session.mode === 'shared' && res.session.items.every((it) => S.qById.has(it.id));
+    $view.innerHTML = `
+      <div class="wrap">
+        <section class="card locked">
+          <p class="lock-icon" aria-hidden="true">🔒</p>
+          <h1>공유받은 시험지만 열 수 있습니다</h1>
+          <p class="muted">이 문제집은 만든 사람만 전체를 쓸 수 있습니다. 받은 시험지 링크로 들어오면 그 시험지를 풀거나 인쇄할 수 있습니다.</p>
+          ${activeOk ? `<div class="resume"><p>풀던 시험지가 있습니다 (${active.items.filter(isAnswered).length} / ${active.items.length} 답함)</p><div class="btn-row"><button class="btn btn-primary" type="button" data-action="resume">이어서 풀기</button></div></div>` : ''}
+          ${lastOk ? `
+          <div class="locked-set">
+            <p><b>받은 시험지</b> · ${esc(last.title || 'GMP 바이오공정 시험지')} (${last.items.length}문항)</p>
+            <div class="btn-row">
+              <button class="btn" type="button" data-action="open-shared-last">✍️ 다시 풀기 / 🖨 인쇄</button>
+              ${resOk ? '<button class="btn" type="button" data-action="last-result">📋 내 채점지 보기</button>' : ''}
+            </div>
+          </div>` : ''}
+        </section>
+        <details class="card owner-unlock">
+          <summary>만든 사람이신가요?</summary>
+          <p class="muted small">주인 링크로 한 번 열거나 주인 코드를 넣으면 이 기기(브라우저)에서 전체 문제집이 열립니다.</p>
+          <form class="owner-form" data-action="owner-form">
+            <input type="password" name="code" autocomplete="current-password" placeholder="주인 코드" aria-label="주인 코드">
+            <button class="btn btn-primary" type="submit">열기</button>
+          </form>
+        </details>
+      </div>`;
+  }
+
+  // ---------------------------------------------------------------- PDF 파일 만들기(인쇄 창 없이)
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const el = document.createElement('script');
+      el.src = src;
+      el.onload = resolve;
+      el.onerror = () => reject(new Error(`${src} 를 불러오지 못했습니다.`));
+      document.head.appendChild(el);
+    });
+  }
+  async function ensurePdfLibs() {
+    if (!(window.jspdf && window.jspdf.jsPDF)) await loadScript('js/vendor/jspdf-2.5.2.umd.min.js');
+    if (!window.html2canvas) await loadScript('js/vendor/html2canvas-1.4.1.min.js');
+  }
+
+  async function downloadPdf(btn) {
+    const set = S.print;
+    if (!set || S.pdfBusy) return;
+    const status = document.getElementById('pdfStatus');
+    const say = (t) => { if (status) status.textContent = t; };
+    S.pdfBusy = true;
+    if (btn) btn.disabled = true;
+    const host = document.createElement('div');
+    host.className = 'pdf-host';
+    document.body.appendChild(host);
+    try {
+      say('PDF 도구를 불러오는 중…');
+      await ensurePdfLibs();
+      const opts = set.opts || { omr: true, key: true, exp: true };
+      const ps = printPaperSession(set);
+      const groups = partGroups(ps);
+      const titleTxt = set.title || 'GMP 바이오공정';
+      // A4 세로, 여백 12 mm, 2단(단 사이 6 mm)
+      const PW = 210, PH = 297, M = 12, GAP = 6, FW = PW - 2 * M, CW = (FW - GAP) / 2, SP = 2.5;
+      const FULLPX = 840, COLPX = Math.round(FULLPX * CW / FW);
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ unit: 'mm', format: 'a4', compress: true });
+      let y = M;
+      let total = 0, done = 0;
+      const count = () => { total += 1; };
+      const snap = async (html, widthPx) => {
+        host.innerHTML = `<div class="pdf-block" style="width:${widthPx}px">${html}</div>`;
+        const canvas = await window.html2canvas(host.firstElementChild, { scale: 1.5, backgroundColor: '#ffffff', logging: false, useCORS: true });
+        done += 1;
+        say(`PDF 만드는 중… ${Math.min(done, total)} / ${total}`);
+        return canvas;
+      };
+      const add = (canvas, x, top, w, h) => doc.addImage(canvas.toDataURL('image/jpeg', 0.8), 'JPEG', x, top, w, h, undefined, 'FAST');
+      const newPage = () => { doc.addPage(); y = M; };
+      const full = async (html, { breakBefore = false } = {}) => {
+        const c = await snap(html, FULLPX);
+        let h = c.height * FW / c.width;
+        if (breakBefore && y > M) newPage();
+        if (y + h > PH - M && y > M) newPage();
+        if (h > PH - 2 * M) h = PH - 2 * M;
+        add(c, M, y, FW, h);
+        y += h + SP;
+      };
+      // 2단 구역: 왼쪽 단을 먼저 채우고 오른쪽 단으로, 마지막 쪽은 양쪽 높이를 맞춘다
+      const band = async (htmlList) => {
+        const blocks = [];
+        for (const html of htmlList) {
+          const c = await snap(html, COLPX);
+          blocks.push({ c, h: c.height * CW / c.width });
+        }
+        let i = 0;
+        while (i < blocks.length) {
+          let avail = PH - M - y;
+          if (avail < Math.min(40, blocks[i].h)) { newPage(); avail = PH - M - y; }
+          const fill = (start) => {
+            let k = start, sum = 0;
+            while (k < blocks.length && (sum + blocks[k].h <= avail || k === start)) { sum += Math.min(blocks[k].h, avail) + SP; k += 1; }
+            return k;
+          };
+          const lEnd = fill(i);
+          let rEnd = lEnd < blocks.length ? fill(lEnd) : lEnd;
+          let split = lEnd;
+          if (rEnd >= blocks.length) {
+            // 이 쪽에서 구역이 끝나면 두 단 높이가 비슷해지도록 나눈다
+            const pageBlocks = blocks.slice(i, rEnd);
+            const heights = pageBlocks.map((b) => Math.min(b.h, avail) + SP);
+            const totalH = heights.reduce((a, b) => a + b, 0);
+            let best = lEnd, bestDiff = Infinity, acc = 0;
+            for (let k = i; k < rEnd; k += 1) {
+              acc += heights[k - i];
+              const left = acc, right = totalH - acc;
+              if (left <= avail + 0.01 && right <= avail + 0.01) {
+                const diff = Math.abs(left - right) + (right > left ? 0.5 : 0);
+                if (diff < bestDiff) { bestDiff = diff; best = k + 1; }
+              }
+            }
+            split = best;
+            rEnd = blocks.length;
+          }
+          let ly = y, ry = y;
+          for (let k = i; k < split; k += 1) { const h = Math.min(blocks[k].h, avail); add(blocks[k].c, M, ly, CW, h); ly += h + SP; }
+          for (let k = split; k < rEnd; k += 1) { const h = Math.min(blocks[k].h, avail); add(blocks[k].c, M + CW + GAP, ry, CW, h); ry += h + SP; }
+          i = rEnd;
+          if (i < blocks.length) newPage();
+          else y = Math.max(ly, ry) + 1;
+        }
+      };
+
+      // 블록 수(진행 표시용)
+      count(); count();
+      [1, 2, 3].forEach((p) => { if (groups[p].length) { count(); groups[p].forEach(count); } });
+      if (opts.omr) count();
+      if (opts.key) count();
+      if (opts.exp) set.items.forEach(count);
+
+      await full(paperHeadHTML(ps, '', true));
+      await full(`<p class="paper-inst"><b>Instructions:</b> 각 문항에서 가장 적절한 답 하나를 고르시오. 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 답은 답안지(OMR)에 표시하시오.' : ''}</p>`);
+      for (const p of [1, 2, 3]) {
+        if (!groups[p].length) continue;
+        await full(`<section class="paper-part">${partTitleHTML(p, groups[p], false)}</section>`);
+        await band(groups[p].map(({ it, i, q }) => printQuestionHTML(it, i, q)));
+      }
+      if (opts.omr) {
+        const rows = set.items.map((it, i) => {
+          const q = S.qById.get(it.id);
+          return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isEssay(q) ? '<span class="pomr-essay">서술</span>' : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
+        });
+        const per = Math.ceil(rows.length / 3);
+        const cols = [0, 1, 2].map((c) => `<div class="pdf-omr-col">${rows.slice(c * per, (c + 1) * per).join('')}</div>`).join('');
+        await full(`<h3 class="sheet-title">답안지 (OMR) — ${esc(titleTxt)}</h3>
+          <table class="paper-id"><tr><th scope="row">이름</th><td>&nbsp;</td><th scope="row">학번</th><td>&nbsp;</td><th scope="row">점수</th><td>&nbsp;</td></tr></table>
+          <div class="pdf-omr">${cols}</div>`, { breakBefore: true });
+      }
+      if (opts.key || opts.exp) {
+        const keyCells = set.items.map((it, i) => {
+          const q = S.qById.get(it.id);
+          return `<div class="pkey-cell"><span>${i + 1}</span><b>${isEssay(q) ? '서술' : CIRCLED[it.order.indexOf(q.answer - 1)]}</b></div>`;
+        }).join('');
+        await full(`<h3 class="sheet-title">정답${opts.exp ? ' 및 해설' : ''} — ${esc(titleTxt)}</h3>${opts.key ? `<div class="pkey-grid">${keyCells}</div>` : ''}`, { breakBefore: true });
+        if (opts.exp) {
+          await band(set.items.map((it, i) => {
+            const q = S.qById.get(it.id);
+            const ans = isEssay(q) ? '' : CIRCLED[it.order.indexOf(q.answer - 1)];
+            return `<div class="pexp"><p><b>${i + 1}. 정답 ${ans}</b> <span class="muted small">(${esc(unitLabel(q.unit))})</span></p><p>${rich(q.explanation)}</p>${q.source ? `<p class="source"><b>📄</b><span>${esc(q.source)}</span></p>` : ''}</div>`;
+          }));
+        }
+      }
+      const pages = doc.getNumberOfPages();
+      for (let k = 1; k <= pages; k += 1) {
+        doc.setPage(k);
+        doc.setFontSize(8);
+        doc.setTextColor(120);
+        doc.text(`${k} / ${pages}`, PW / 2, PH - 5, { align: 'center' });
+      }
+      const fname = `${titleTxt.replace(/[\\/:*?"<>|]+/g, '').trim() || 'GMP시험지'}_${set.items.length}문항.pdf`;
+      const blob = doc.output('blob');
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = fname;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 60000);
+      say(`PDF 파일을 만들었습니다 (${pages}쪽). 다운로드가 시작되지 않으면 기본 브라우저(Chrome·Safari)에서 다시 눌러 주세요.`);
+    } catch (e) {
+      say(`PDF를 만들지 못했습니다: ${e.message}`);
+    } finally {
+      host.remove();
+      S.pdfBusy = false;
+      if (btn) btn.disabled = false;
+    }
   }
 
   // ---------------------------------------------------------------- 결과
@@ -1803,7 +2039,7 @@
           <p class="score-sub">100점 환산 · 득점 ${entry.earned} / ${entry.points}점 · ${entry.total}문항 중 <b>${entry.correct}</b>문항 정답 · 소요 ${fmtDur(entry.durationSec)}${entry.newCount ? ` · 신규 ${entry.newCount}문항` : ''}</p>
           ${entry.pending ? `<p class="notice" style="margin:12px 0 0">서술형 ${entry.pending}문항이 채점 대기 중입니다. 아래 시험지에서 모범답안과 비교해 ○/✗를 누르면 점수에 반영됩니다.</p>` : ''}
           <div class="btn-row">
-            <button class="btn btn-primary" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>
+            ${S.owner ? `<button class="btn btn-primary" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>` : ''}
             <button class="btn" type="button" data-action="home">처음으로</button>
             <button class="btn" type="button" data-action="print">🖨 인쇄</button>
           </div>
@@ -1874,7 +2110,7 @@
           <p class="score-sub">${entry.total}문항 중 <b>${entry.correct}</b>문항 정답 · 소요 ${fmtDur(entry.durationSec)}${entry.newCount ? ` · 미출제 신규 ${entry.newCount}문항 포함` : ''}</p>`
           : '<p class="empty">푼 문항이 없어 점수를 계산하지 않았습니다.</p>'}
           <div class="btn-row">
-            <button class="btn btn-primary" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>
+            ${S.owner ? `<button class="btn btn-primary" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>` : ''}
             <button class="btn" type="button" data-action="home">처음으로</button>
             <button class="btn" type="button" data-action="print">🖨 인쇄</button>
           </div>
@@ -2057,7 +2293,7 @@
         break;
       case 'last-result': {
         const last = store.get('result', null);
-        if (!last) { renderHome(); return; }
+        if (!last || (!S.owner && last.session.mode !== 'shared')) { render(); return; }
         S.result = last;
         S.akFilter = 'all';
         go('result');
@@ -2119,6 +2355,12 @@
       case 'make-print': makePrintSet(); go('print'); break;
       case 'open-print': S.print = store.get('print', null); go('print'); break;
       case 'share-link': shareLink(); break;
+      case 'download-pdf': downloadPdf(el); break;
+      case 'open-shared-last': {
+        const last = store.get('sharedLast', null);
+        if (last) { S.shared = Object.assign({ missing: 0 }, last); go('shared'); }
+        break;
+      }
       case 'solve-print': if (S.print) startFromSet(S.print); break;
       case 'solve-shared': if (S.shared) startFromSet(S.shared); break;
       case 'print-shared':
@@ -2149,6 +2391,15 @@
         break;
       default: break;
     }
+  });
+
+  document.addEventListener('submit', async (e) => {
+    const form = e.target.closest('[data-action="owner-form"]');
+    if (!form) return;
+    e.preventDefault();
+    const code = form.querySelector('input').value;
+    if (await tryOwnerCode(code)) { toast('전체 문제집을 열었습니다'); go('home', false); }
+    else { toast('코드가 맞지 않습니다'); }
   });
 
   document.addEventListener('change', (e) => {
@@ -2239,9 +2490,11 @@
     history.replaceState({ view: 'home' }, '');
     try {
       await loadBank();
+      await checkOwner();
       S.view = 'home';
       if (/^#set=/.test(location.hash)) {
         S.shared = decodeSet(location.hash);
+        if (S.shared.items.length) store.set('sharedLast', { items: S.shared.items, title: S.shared.title, missing: 0, createdAt: S.shared.createdAt });
         S.view = 'shared';
       }
     } catch (err) {
