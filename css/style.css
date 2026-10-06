@@ -768,3 +768,33 @@ table.data.mini th { color: var(--text); font-size: .84rem; }
   .pomr-row { padding: 2px 0; }
   .pomr-b { width: 22px; height: 24px; }
 }
+
+/* ---------- 공유 링크로 들어온 사람(주인 아님) ---------- */
+.is-guest [data-action="history"] { display: none !important; }
+.locked { text-align: center; }
+.locked h1 { font-size: 1.3rem; margin: 4px 0 8px; }
+.lock-icon { font-size: 2.4rem; margin: 0; }
+.locked-set { margin-top: 16px; text-align: left; border-top: 1px solid var(--border); padding-top: 14px; }
+.locked-set p { margin: 0 0 10px; }
+.owner-unlock summary { cursor: pointer; font-weight: 700; min-height: 40px; display: flex; align-items: center; }
+.owner-form { display: flex; gap: 8px; }
+.owner-form input { flex: 1; min-height: 48px; padding: 0 12px; border: 1.5px solid var(--border-strong); border-radius: 10px; background: var(--surface); min-width: 0; }
+.pdf-status { min-height: 1.2em; margin: 10px 0 0; color: var(--accent-ink); font-weight: 600; }
+
+/* ---------- PDF 만들기용 화면 밖 렌더링 영역(항상 밝은 종이 색) ---------- */
+.pdf-host {
+  position: absolute; left: -12000px; top: 0; z-index: -1;
+  --bg: #fff; --surface: #fff; --surface-2: #f3f4f6; --paper: #fff;
+  --text: #111; --text-2: #333; --muted: #555; --border: #c8ccd3; --border-strong: #888;
+  --accent-ink: #1b5fb3; --pen-red: #c4161c; --pen-blue: #1f4fd6;
+  color: #111; background: #fff;
+  font-family: var(--font); font-size: 14px; line-height: 1.5;
+}
+.pdf-block { background: #fff; padding: 2px 4px; }
+.pdf-block .paper-head { text-align: center; border-bottom: 2px solid #111; padding-bottom: 8px; }
+.pdf-block .pq { margin: 0; break-inside: auto; }
+.pdf-block .qbox { background: #f7f7f7; }
+.pdf-block .part-title { margin-top: 4px; }
+.pdf-omr { display: flex; gap: 22px; margin-top: 8px; }
+.pdf-omr-col { flex: 1; }
+.pdf-block .pexp { border-top: 1px solid #ccc; }
