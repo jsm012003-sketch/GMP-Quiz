@@ -14,8 +14,8 @@
    "choices": [
     "Multi-modal chromatography",
     "CEX (양이온 교환 크로마토그래피)",
-    "Depth filtration",
-    "Membrane adsorber (막 흡착)",
+    "EMEA 임상시험용 의약품 바이러스 가이드라인",
+    "Non-enveloped virus (비외피 바이러스)",
     "Clarification (청징)"
    ],
    "answer": 5,
@@ -23,8 +23,8 @@
    "choiceNotes": [
     "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
-    "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "틀리다 — Membrane adsorber (막 흡착): 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인: 임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "정답 — 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계."
    ],
    "source": "WK06 PDF p.3, p.18",
@@ -48,8 +48,8 @@
     "CEX (양이온 교환 크로마토그래피)",
     "Depth filtration",
     "UF/DF (한외여과/정용여과)",
-    "HIC (소수성 상호작용 크로마토그래피)",
-    "AEX (음이온 교환 크로마토그래피)"
+    "Softener (연수기)",
+    "Semi-continuous → Continuous DSP"
    ],
    "answer": 2,
    "explanation": "**Depth filtration** — 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
@@ -57,8 +57,8 @@
     "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
     "정답 — 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
     "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계."
+    "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향."
    ],
    "source": "WK06 PDF p.5, p.19",
    "concepts": [
@@ -81,8 +81,8 @@
     "HIC (소수성 상호작용 크로마토그래피)",
     "Clarification (청징)",
     "Protein A chromatography",
-    "Bulk drug substance",
-    "Virus filtration (nanofiltration)"
+    "Case B cell",
+    "Cohn cold ethanol fractionation"
    ],
    "answer": 3,
    "explanation": "**Protein A chromatography** — 항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
@@ -90,8 +90,8 @@
     "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
     "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "정답 — 항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
-    "틀리다 — Bulk drug substance: 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계."
+    "틀리다 — Case B cell: 내인성 레트로바이러스(유사 입자)를 가진 생산 세포로, MuLV 같은 특이 모델 바이러스로 완전 제거를 입증해야 한다.",
+    "틀리다 — Cohn cold ethanol fractionation: 1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다."
    ],
    "source": "WK06 PDF p.5, p.18–19",
    "concepts": [
@@ -113,18 +113,18 @@
    "choices": [
     "SEC (크기 배제 크로마토그래피)",
     "CEX (양이온 교환 크로마토그래피)",
-    "Depth filtration",
+    "Safety factor (설계 여유)",
     "Low pH viral inactivation",
-    "HIC (소수성 상호작용 크로마토그래피)"
+    "Continuous (single-pass) UF/DF"
    ],
    "answer": 4,
    "explanation": "**Low pH viral inactivation** — Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
    "choiceNotes": [
     "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
-    "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
+    "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
     "정답 — Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피."
+    "틀리다 — Continuous (single-pass) UF/DF: 탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -147,8 +147,8 @@
     "CEX (양이온 교환 크로마토그래피)",
     "Low pH viral inactivation",
     "Membrane adsorber (막 흡착)",
-    "Clarification (청징)",
-    "Depth filtration"
+    "WFI (Water for Injection, 주사용수)",
+    "Safety factor (설계 여유)"
    ],
    "answer": 1,
    "explanation": "**CEX (양이온 교환 크로마토그래피)** — 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
@@ -156,8 +156,8 @@
     "정답 — 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
     "틀리다 — Low pH viral inactivation: Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
     "틀리다 — Membrane adsorber (막 흡착): 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
-    "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과."
+    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
+    "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분."
    ],
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
@@ -179,18 +179,18 @@
    "choices": [
     "Bulk drug substance",
     "Virus filtration (nanofiltration)",
-    "Protein A chromatography",
+    "EMEA 임상시험용 의약품 바이러스 가이드라인",
     "AEX (음이온 교환 크로마토그래피)",
-    "Membrane adsorber (막 흡착)"
+    "MuLV (Murine Leukaemia Virus)"
    ],
    "answer": 4,
    "explanation": "**AEX (음이온 교환 크로마토그래피)** — 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
    "choiceNotes": [
     "틀리다 — Bulk drug substance: 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
     "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
-    "틀리다 — Protein A chromatography: 항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인: 임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
     "정답 — 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
-    "틀리다 — Membrane adsorber (막 흡착): 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술."
+    "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
    ],
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
@@ -213,8 +213,8 @@
     "Clarification (청징)",
     "Multi-modal chromatography",
     "HIC (소수성 상호작용 크로마토그래피)",
-    "UF/DF (한외여과/정용여과)",
-    "Bulk drug substance"
+    "ICH Q5A (R1)",
+    "SuperPro Designer"
    ],
    "answer": 3,
    "explanation": "**HIC (소수성 상호작용 크로마토그래피)** — 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
@@ -222,8 +222,8 @@
     "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
     "정답 — 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
-    "틀리다 — Bulk drug substance: 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크."
+    "틀리다 — ICH Q5A (R1): 사람·동물 세포주 유래 바이오의약품의 바이러스 안전성 평가 가이드라인으로, 3~4종 바이러스로 공정 제거능을 평가하도록 한다.",
+    "틀리다 — SuperPro Designer: 공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어."
    ],
    "source": "WK06 PDF p.3, p.6",
    "concepts": [
@@ -246,8 +246,8 @@
     "UF/DF (한외여과/정용여과)",
     "SEC (크기 배제 크로마토그래피)",
     "HIC (소수성 상호작용 크로마토그래피)",
-    "Depth filtration",
-    "Multi-modal chromatography"
+    "Safety factor (설계 여유)",
+    "MVM (Minute Virus of Mice)"
    ],
    "answer": 2,
    "explanation": "**SEC (크기 배제 크로마토그래피)** — 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
@@ -255,8 +255,8 @@
     "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
     "정답 — 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
     "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
+    "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
+    "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다."
    ],
    "source": "WK06 PDF p.6, p.7",
    "concepts": [
@@ -278,8 +278,8 @@
    "choices": [
     "Low pH viral inactivation",
     "Clarification (청징)",
-    "CEX (양이온 교환 크로마토그래피)",
-    "HIC (소수성 상호작용 크로마토그래피)",
+    "Intensified seed (고밀도 세포은행)",
+    "PCC (Periodic Counter-Current chromatography)",
     "Multi-modal chromatography"
    ],
    "answer": 5,
@@ -287,8 +287,8 @@
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation: Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
     "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
+    "틀리다 — Intensified seed (고밀도 세포은행): 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
+    "틀리다 — PCC (Periodic Counter-Current chromatography): 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
     "정답 — 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.18 (Two-column platform)",
@@ -312,8 +312,8 @@
     "Membrane adsorber (막 흡착)",
     "CEX (양이온 교환 크로마토그래피)",
     "Multi-modal chromatography",
-    "Bulk drug substance",
-    "AEX (음이온 교환 크로마토그래피)"
+    "Aggregate (응집체)",
+    "Diafiltration buffer (DF buffer)"
    ],
    "answer": 1,
    "explanation": "**Membrane adsorber (막 흡착)** — 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
@@ -321,8 +321,8 @@
     "정답 — 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
     "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
-    "틀리다 — Bulk drug substance: 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계."
+    "틀리다 — Aggregate (응집체): 단백질 분자가 서로 뭉친 불순물로, 면역원성 위험이 있어 polishing에서 제거한다.",
+    "틀리다 — Diafiltration buffer (DF buffer): 정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼."
    ],
    "source": "WK06 PDF p.7, p.15, p.18",
    "concepts": [
@@ -345,8 +345,8 @@
     "Clarification (청징)",
     "Virus filtration (nanofiltration)",
     "Depth filtration",
-    "AEX (음이온 교환 크로마토그래피)",
-    "CEX (양이온 교환 크로마토그래피)"
+    "Distribution loop (분배 루프)",
+    "BVDV"
    ],
    "answer": 2,
    "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
@@ -354,8 +354,8 @@
     "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "정답 — 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다."
+    "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+    "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
    ],
    "source": "WK06 PDF p.11, p.15–16",
    "concepts": [
@@ -377,8 +377,8 @@
    "choices": [
     "CEX (양이온 교환 크로마토그래피)",
     "Clarification (청징)",
-    "Bulk drug substance",
-    "Membrane adsorber (막 흡착)",
+    "Cohn cold ethanol fractionation",
+    "Reo-3 (Reovirus 3)",
     "UF/DF (한외여과/정용여과)"
    ],
    "answer": 5,
@@ -386,8 +386,8 @@
    "choiceNotes": [
     "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
     "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "틀리다 — Bulk drug substance: 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "틀리다 — Membrane adsorber (막 흡착): 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
+    "틀리다 — Cohn cold ethanol fractionation: 1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다.",
+    "틀리다 — Reo-3 (Reovirus 3): 외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
     "정답 — 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계."
    ],
    "source": "WK06 PDF p.5, p.18, p.31",
@@ -509,8 +509,8 @@
    "choices": [
     "HIC (소수성 상호작용 크로마토그래피)",
     "Depth filtration",
-    "Low pH viral inactivation",
-    "Clarification (청징)",
+    "EMEA 임상시험용 의약품 바이러스 가이드라인",
+    "Multi trains (다중 생산 라인)",
     "Bulk drug substance"
    ],
    "answer": 5,
@@ -518,8 +518,8 @@
    "choiceNotes": [
     "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
     "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "틀리다 — Low pH viral inactivation: Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
-    "틀리다 — Clarification (청징): 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인: 임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
+    "틀리다 — Multi trains (다중 생산 라인): 큰 설비 하나 대신 작은 생산 라인 여러 개를 나란히 운영해 공간·유틸리티 제약을 풀고 유연성을 얻는 방식.",
     "정답 — 정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크."
    ],
    "source": "WK06 PDF p.3, p.5",
@@ -609,8 +609,8 @@
     "Safety factor (설계 여유)",
     "DBC (Dynamic Binding Capacity)",
     "Linear flow rate (선속도)",
-    "Resin cycling (다회 사이클)",
-    "Platform process"
+    "MuLV (Murine Leukaemia Virus)",
+    "AEX (음이온 교환 크로마토그래피)"
    ],
    "answer": 2,
    "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
@@ -618,8 +618,8 @@
     "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
     "정답 — 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
     "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "틀리다 — Resin cycling (다회 사이클): 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
-    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다."
+    "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
+    "틀리다 — AEX (음이온 교환 크로마토그래피): 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -642,8 +642,8 @@
     "Platform process",
     "DBC (Dynamic Binding Capacity)",
     "Linear flow rate (선속도)",
-    "Resin cycling (다회 사이클)",
-    "Safety factor (설계 여유)"
+    "Aggregate (응집체)",
+    "SuperPro Designer"
    ],
    "answer": 3,
    "explanation": "**Linear flow rate (선속도)** — 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
@@ -651,8 +651,8 @@
     "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
     "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
     "정답 — 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "틀리다 — Resin cycling (다회 사이클): 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
-    "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분."
+    "틀리다 — Aggregate (응집체): 단백질 분자가 서로 뭉친 불순물로, 면역원성 위험이 있어 polishing에서 제거한다.",
+    "틀리다 — SuperPro Designer: 공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -674,18 +674,18 @@
    "choices": [
     "Linear flow rate (선속도)",
     "Safety factor (설계 여유)",
-    "DBC (Dynamic Binding Capacity)",
+    "HIC (소수성 상호작용 크로마토그래피)",
     "Resin cycling (다회 사이클)",
-    "Platform process"
+    "Case B cell"
    ],
    "answer": 4,
    "explanation": "**Resin cycling (다회 사이클)** — 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
    "choiceNotes": [
     "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
     "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
+    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
     "정답 — 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
-    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다."
+    "틀리다 — Case B cell: 내인성 레트로바이러스(유사 입자)를 가진 생산 세포로, MuLV 같은 특이 모델 바이러스로 완전 제거를 입증해야 한다."
    ],
    "source": "WK06 PDF p.23",
    "concepts": [
@@ -708,8 +708,8 @@
     "Safety factor (설계 여유)",
     "Resin cycling (다회 사이클)",
     "Platform process",
-    "Linear flow rate (선속도)",
-    "DBC (Dynamic Binding Capacity)"
+    "Softener (연수기)",
+    "WFI (Water for Injection, 주사용수)"
    ],
    "answer": 1,
    "explanation": "**Safety factor (설계 여유)** — 계산된 레진 부피 등에 일부러 더하는 여유분.",
@@ -717,8 +717,8 @@
     "정답 — 계산된 레진 부피 등에 일부러 더하는 여유분.",
     "틀리다 — Resin cycling (다회 사이클): 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
     "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
-    "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다."
+    "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -741,8 +741,8 @@
     "Resin cycling (다회 사이클)",
     "Safety factor (설계 여유)",
     "Platform process",
-    "Linear flow rate (선속도)",
-    "DBC (Dynamic Binding Capacity)"
+    "Retentate",
+    "SEC (크기 배제 크로마토그래피)"
    ],
    "answer": 3,
    "explanation": "**Platform process** — 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
@@ -750,8 +750,8 @@
     "틀리다 — Resin cycling (다회 사이클): 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
     "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
     "정답 — 여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
-    "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다."
+    "틀리다 — Retentate: UF 막을 통과하지 못하고 남는 쪽 액체로, 농축된 단백질이 들어 있다.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.6, p.17–18",
    "concepts": [
@@ -774,8 +774,8 @@
     "Orthogonal (직교) 전략",
     "S&D (Solvent/Detergent)",
     "Viral clearance (바이러스 제거능)",
-    "Virus spiking study (바이러스 제거 검증)",
-    "Heat inactivation (열 불활화)"
+    "Resin cycling (다회 사이클)",
+    "SEC (크기 배제 크로마토그래피)"
    ],
    "answer": 2,
    "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
@@ -783,8 +783,8 @@
     "틀리다 — Orthogonal (직교) 전략: 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
     "정답 — 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "틀리다 — Heat inactivation (열 불활화): 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법."
+    "틀리다 — Resin cycling (다회 사이클): 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.11",
    "concepts": [
@@ -806,8 +806,8 @@
    "choices": [
     "Virus spiking study (바이러스 제거 검증)",
     "Viral clearance (바이러스 제거능)",
-    "S&D (Solvent/Detergent)",
-    "Orthogonal (직교) 전략",
+    "Non-enveloped virus (비외피 바이러스)",
+    "SEC (크기 배제 크로마토그래피)",
     "Heat inactivation (열 불활화)"
    ],
    "answer": 5,
@@ -815,8 +815,8 @@
    "choiceNotes": [
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
-    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
-    "틀리다 — Orthogonal (직교) 전략: 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
     "정답 — 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법."
    ],
    "source": "WK06 PDF p.11",
@@ -839,18 +839,18 @@
    "choices": [
     "S&D (Solvent/Detergent)",
     "Heat inactivation (열 불활화)",
-    "Virus spiking study (바이러스 제거 검증)",
+    "Softener (연수기)",
     "Orthogonal (직교) 전략",
-    "Viral clearance (바이러스 제거능)"
+    "CEX (양이온 교환 크로마토그래피)"
    ],
    "answer": 4,
    "explanation": "**Orthogonal (직교) 전략** — 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
    "choiceNotes": [
     "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "틀리다 — Heat inactivation (열 불활화): 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
+    "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
     "정답 — 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
-    "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다."
+    "틀리다 — CEX (양이온 교환 크로마토그래피): 양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다."
    ],
    "source": "WK06 PDF p.8, p.10, p.15",
    "concepts": [
@@ -873,8 +873,8 @@
     "Heat inactivation (열 불활화)",
     "Viral clearance (바이러스 제거능)",
     "Orthogonal (직교) 전략",
-    "Virus spiking study (바이러스 제거 검증)",
-    "S&D (Solvent/Detergent)"
+    "Distribution loop (분배 루프)",
+    "Linear flow rate (선속도)"
    ],
    "answer": 2,
    "explanation": "**Viral clearance (바이러스 제거능)** — 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
@@ -882,8 +882,8 @@
     "틀리다 — Heat inactivation (열 불활화): 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
     "정답 — 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "틀리다 — Orthogonal (직교) 전략: 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법."
+    "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+    "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다."
    ],
    "source": "WK06 PDF p.9",
    "concepts": [
@@ -906,8 +906,8 @@
     "Virus spiking study (바이러스 제거 검증)",
     "Viral clearance (바이러스 제거능)",
     "Heat inactivation (열 불활화)",
-    "Orthogonal (직교) 전략",
-    "S&D (Solvent/Detergent)"
+    "SV-40 (Simian Virus 40)",
+    "MuLV (Murine Leukaemia Virus)"
    ],
    "answer": 1,
    "explanation": "**Virus spiking study (바이러스 제거 검증)** — 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
@@ -915,8 +915,8 @@
     "정답 — 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "틀리다 — Heat inactivation (열 불활화): 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
-    "틀리다 — Orthogonal (직교) 전략: 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
-    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법."
+    "틀리다 — SV-40 (Simian Virus 40): 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
+    "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
    ],
    "source": "WK06 PDF p.8 (일반 원리 보충)",
    "concepts": [
@@ -1038,8 +1038,8 @@
     "MuLV (Murine Leukaemia Virus)",
     "Enveloped virus (외피 바이러스)",
     "SV-40 (Simian Virus 40)",
-    "Model virus (모델 바이러스)",
-    "Non-enveloped virus (비외피 바이러스)"
+    "S&D (Solvent/Detergent)",
+    "Multi-modal chromatography"
    ],
    "answer": 2,
    "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
@@ -1047,8 +1047,8 @@
     "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
     "정답 — 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
     "틀리다 — SV-40 (Simian Virus 40): 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다."
+    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
+    "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -1071,8 +1071,8 @@
     "Enveloped virus (외피 바이러스)",
     "PPV (Porcine Parvovirus)",
     "Non-enveloped virus (비외피 바이러스)",
-    "MVM (Minute Virus of Mice)",
-    "BVDV"
+    "Orthogonal (직교) 전략",
+    "Continuous (single-pass) UF/DF"
    ],
    "answer": 3,
    "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
@@ -1080,8 +1080,8 @@
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
     "틀리다 — PPV (Porcine Parvovirus): 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
     "정답 — 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
-    "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
+    "틀리다 — Orthogonal (직교) 전략: 불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
+    "틀리다 — Continuous (single-pass) UF/DF: 탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식."
    ],
    "source": "WK06 PDF p.11, p.14",
    "concepts": [
@@ -1103,18 +1103,18 @@
    "choices": [
     "SV-40 (Simian Virus 40)",
     "Non-enveloped virus (비외피 바이러스)",
-    "MVM (Minute Virus of Mice)",
+    "Virus filtration (nanofiltration)",
     "Model virus (모델 바이러스)",
-    "PPV (Porcine Parvovirus)"
+    "UF/DF (한외여과/정용여과)"
    ],
    "answer": 4,
    "explanation": "**Model virus (모델 바이러스)** — 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
    "choiceNotes": [
     "틀리다 — SV-40 (Simian Virus 40): 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
-    "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
+    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "정답 — 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "틀리다 — PPV (Porcine Parvovirus): 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스."
+    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -1136,8 +1136,8 @@
    "choices": [
     "PRV (Pseudorabies Virus)",
     "BVDV",
-    "MVM (Minute Virus of Mice)",
-    "Non-enveloped virus (비외피 바이러스)",
+    "Sanofi ASAP concept",
+    "Virus filtration (nanofiltration)",
     "MuLV (Murine Leukaemia Virus)"
    ],
    "answer": 5,
@@ -1145,8 +1145,8 @@
    "choiceNotes": [
     "틀리다 — PRV (Pseudorabies Virus): 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
     "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
-    "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
+    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "정답 — 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
    ],
    "source": "WK06 PDF p.8, p.14",
@@ -1170,8 +1170,8 @@
     "Reo-3 (Reovirus 3)",
     "BVDV",
     "MVM (Minute Virus of Mice)",
-    "MuLV (Murine Leukaemia Virus)",
-    "Model virus (모델 바이러스)"
+    "Heat inactivation (열 불활화)",
+    "HIC (소수성 상호작용 크로마토그래피)"
    ],
    "answer": 3,
    "explanation": "**MVM (Minute Virus of Mice)** — 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
@@ -1179,8 +1179,8 @@
     "틀리다 — Reo-3 (Reovirus 3): 외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
     "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
     "정답 — 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
-    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
+    "틀리다 — Heat inactivation (열 불활화): 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피."
    ],
    "source": "WK06 PDF p.14",
    "concepts": [
@@ -1203,8 +1203,8 @@
     "PPV (Porcine Parvovirus)",
     "MVM (Minute Virus of Mice)",
     "Enveloped virus (외피 바이러스)",
-    "PRV (Pseudorabies Virus)",
-    "Model virus (모델 바이러스)"
+    "Cohn cold ethanol fractionation",
+    "Sanofi ASAP concept"
    ],
    "answer": 1,
    "explanation": "**PPV (Porcine Parvovirus)** — 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
@@ -1212,8 +1212,8 @@
     "정답 — 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
     "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
-    "틀리다 — PRV (Pseudorabies Virus): 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
+    "틀리다 — Cohn cold ethanol fractionation: 1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다.",
+    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -1236,8 +1236,8 @@
     "MuLV (Murine Leukaemia Virus)",
     "SV-40 (Simian Virus 40)",
     "PRV (Pseudorabies Virus)",
-    "BVDV",
-    "Model virus (모델 바이러스)"
+    "S&D (Solvent/Detergent)",
+    "PW (Purified Water, 정제수)"
    ],
    "answer": 2,
    "explanation": "**SV-40 (Simian Virus 40)** — 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
@@ -1245,8 +1245,8 @@
     "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
     "정답 — 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "틀리다 — PRV (Pseudorabies Virus): 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
-    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
+    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
+    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다."
    ],
    "source": "WK06 PDF p.14",
    "concepts": [
@@ -1268,18 +1268,18 @@
    "choices": [
     "Non-enveloped virus (비외피 바이러스)",
     "BVDV",
-    "MVM (Minute Virus of Mice)",
+    "Virus spiking study (바이러스 제거 검증)",
     "PRV (Pseudorabies Virus)",
-    "SV-40 (Simian Virus 40)"
+    "Sanofi ASAP concept"
    ],
    "answer": 4,
    "explanation": "**PRV (Pseudorabies Virus)** — 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
    "choiceNotes": [
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
-    "틀리다 — MVM (Minute Virus of Mice): 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
+    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
     "정답 — 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "틀리다 — SV-40 (Simian Virus 40): 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다."
+    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -1301,8 +1301,8 @@
    "choices": [
     "MuLV (Murine Leukaemia Virus)",
     "Non-enveloped virus (비외피 바이러스)",
-    "Enveloped virus (외피 바이러스)",
-    "PPV (Porcine Parvovirus)",
+    "SEC (크기 배제 크로마토그래피)",
+    "Virus spiking study (바이러스 제거 검증)",
     "Reo-3 (Reovirus 3)"
    ],
    "answer": 5,
@@ -1310,8 +1310,8 @@
    "choiceNotes": [
     "틀리다 — MuLV (Murine Leukaemia Virus): 외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
-    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
-    "틀리다 — PPV (Porcine Parvovirus): 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
+    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
     "정답 — 외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다."
    ],
    "source": "WK06 PDF p.14",
@@ -1335,8 +1335,8 @@
     "BVDV",
     "SV-40 (Simian Virus 40)",
     "PPV (Porcine Parvovirus)",
-    "PRV (Pseudorabies Virus)",
-    "Enveloped virus (외피 바이러스)"
+    "EMEA 임상시험용 의약품 바이러스 가이드라인",
+    "UF/DF (한외여과/정용여과)"
    ],
    "answer": 1,
    "explanation": "**BVDV** — 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
@@ -1344,8 +1344,8 @@
     "정답 — 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
     "틀리다 — SV-40 (Simian Virus 40): 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "틀리다 — PPV (Porcine Parvovirus): 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
-    "틀리다 — PRV (Pseudorabies Virus): 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다."
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인: 임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
+    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계."
    ],
    "source": "WK06 PDF p.13",
    "concepts": [
@@ -1434,8 +1434,8 @@
     "Sanofi ASAP concept",
     "Body feed",
     "Semi-continuous → Continuous DSP",
-    "Intensified seed (고밀도 세포은행)",
-    "PCC (Periodic Counter-Current chromatography)"
+    "Virus spiking study (바이러스 제거 검증)",
+    "Virus filtration (nanofiltration)"
    ],
    "answer": 2,
    "explanation": "**Body feed** — 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
@@ -1443,8 +1443,8 @@
     "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
     "정답 — 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
     "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
-    "틀리다 — Intensified seed (고밀도 세포은행): 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
-    "틀리다 — PCC (Periodic Counter-Current chromatography): 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술."
+    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
+    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계."
    ],
    "source": "WK06 PDF p.7 (Where Are We in DSP Technologies?) · 정의는 일반 원리",
    "concepts": [
@@ -1467,8 +1467,8 @@
     "Sanofi ASAP concept",
     "Semi-continuous → Continuous DSP",
     "PCC (Periodic Counter-Current chromatography)",
-    "Body feed",
-    "Intensified seed (고밀도 세포은행)"
+    "Enveloped virus (외피 바이러스)",
+    "SuperPro Designer"
    ],
    "answer": 3,
    "explanation": "**PCC (Periodic Counter-Current chromatography)** — 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
@@ -1476,8 +1476,8 @@
     "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
     "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
     "정답 — 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
-    "틀리다 — Body feed: 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "틀리다 — Intensified seed (고밀도 세포은행): 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식."
+    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
+    "틀리다 — SuperPro Designer: 공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어."
    ],
    "source": "WK06 PDF p.30–31",
    "concepts": [
@@ -1499,18 +1499,18 @@
    "choices": [
     "Intensified seed (고밀도 세포은행)",
     "PCC (Periodic Counter-Current chromatography)",
-    "Body feed",
+    "Linear flow rate (선속도)",
     "Sanofi ASAP concept",
-    "Semi-continuous → Continuous DSP"
+    "Continuous (single-pass) UF/DF"
    ],
    "answer": 4,
    "explanation": "**Sanofi ASAP concept** — 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
    "choiceNotes": [
     "틀리다 — Intensified seed (고밀도 세포은행): 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
     "틀리다 — PCC (Periodic Counter-Current chromatography): 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
-    "틀리다 — Body feed: 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
+    "틀리다 — Linear flow rate (선속도): 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
     "정답 — 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
-    "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향."
+    "틀리다 — Continuous (single-pass) UF/DF: 탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식."
    ],
    "source": "WK06 PDF p.30",
    "concepts": [
@@ -1533,8 +1533,8 @@
     "Body feed",
     "Semi-continuous → Continuous DSP",
     "Intensified seed (고밀도 세포은행)",
-    "PCC (Periodic Counter-Current chromatography)",
-    "Sanofi ASAP concept"
+    "Diafiltration buffer (DF buffer)",
+    "Model virus (모델 바이러스)"
    ],
    "answer": 2,
    "explanation": "**Semi-continuous → Continuous DSP** — 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
@@ -1542,8 +1542,8 @@
     "틀리다 — Body feed: 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
     "정답 — 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
     "틀리다 — Intensified seed (고밀도 세포은행): 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
-    "틀리다 — PCC (Periodic Counter-Current chromatography): 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
-    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념."
+    "틀리다 — Diafiltration buffer (DF buffer): 정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
+    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
    ],
    "source": "WK06 PDF p.7",
    "concepts": [
@@ -1565,8 +1565,8 @@
    "choices": [
     "Semi-continuous → Continuous DSP",
     "PCC (Periodic Counter-Current chromatography)",
-    "Body feed",
-    "Sanofi ASAP concept",
+    "Diafiltration buffer (DF buffer)",
+    "PRV (Pseudorabies Virus)",
     "Intensified seed (고밀도 세포은행)"
    ],
    "answer": 5,
@@ -1574,8 +1574,8 @@
    "choiceNotes": [
     "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
     "틀리다 — PCC (Periodic Counter-Current chromatography): 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
-    "틀리다 — Body feed: 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+    "틀리다 — Diafiltration buffer (DF buffer): 정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
+    "틀리다 — PRV (Pseudorabies Virus): 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
     "정답 — 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식."
    ],
    "source": "WK06 PDF p.28",
@@ -1599,8 +1599,8 @@
     "PW (Purified Water, 정제수)",
     "WFI (Water for Injection, 주사용수)",
     "Softener (연수기)",
-    "Distribution loop (분배 루프)",
-    "RO (Reverse Osmosis, 역삼투)"
+    "Reo-3 (Reovirus 3)",
+    "BVDV"
    ],
    "answer": 1,
    "explanation": "**PW (Purified Water, 정제수)** — 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
@@ -1608,8 +1608,8 @@
     "정답 — 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
     "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
     "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "틀리다 — RO (Reverse Osmosis, 역삼투): 압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
+    "틀리다 — Reo-3 (Reovirus 3): 외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
+    "틀리다 — BVDV: 외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
    ],
    "source": "WK06 PDF p.27 (PW/WFI 계통도)",
    "concepts": [
@@ -1632,8 +1632,8 @@
     "Softener (연수기)",
     "PW (Purified Water, 정제수)",
     "WFI (Water for Injection, 주사용수)",
-    "Distribution loop (분배 루프)",
-    "RO (Reverse Osmosis, 역삼투)"
+    "Safety factor (설계 여유)",
+    "Semi-continuous → Continuous DSP"
    ],
    "answer": 3,
    "explanation": "**WFI (Water for Injection, 주사용수)** — 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
@@ -1641,8 +1641,8 @@
     "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
     "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
     "정답 — 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
-    "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "틀리다 — RO (Reverse Osmosis, 역삼투): 압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
+    "틀리다 — Safety factor (설계 여유): 계산된 레진 부피 등에 일부러 더하는 여유분.",
+    "틀리다 — Semi-continuous → Continuous DSP: 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -1664,8 +1664,8 @@
    "choices": [
     "PW (Purified Water, 정제수)",
     "Distribution loop (분배 루프)",
-    "WFI (Water for Injection, 주사용수)",
-    "Softener (연수기)",
+    "Retentate",
+    "Multi-modal chromatography",
     "RO (Reverse Osmosis, 역삼투)"
    ],
    "answer": 5,
@@ -1673,8 +1673,8 @@
    "choiceNotes": [
     "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
     "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
-    "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "틀리다 — Retentate: UF 막을 통과하지 못하고 남는 쪽 액체로, 농축된 단백질이 들어 있다.",
+    "틀리다 — Multi-modal chromatography: 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
     "정답 — 압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
    ],
    "source": "WK06 PDF p.27",
@@ -1697,18 +1697,18 @@
    "choices": [
     "RO (Reverse Osmosis, 역삼투)",
     "WFI (Water for Injection, 주사용수)",
-    "Distribution loop (분배 루프)",
+    "Depth filtration",
     "Softener (연수기)",
-    "PW (Purified Water, 정제수)"
+    "Membrane adsorber (막 흡착)"
    ],
    "answer": 4,
    "explanation": "**Softener (연수기)** — 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
    "choiceNotes": [
     "틀리다 — RO (Reverse Osmosis, 역삼투): 압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
     "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
-    "틀리다 — Distribution loop (분배 루프): PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+    "틀리다 — Depth filtration: 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
     "정답 — 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다."
+    "틀리다 — Membrane adsorber (막 흡착): 레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -1731,8 +1731,8 @@
     "RO (Reverse Osmosis, 역삼투)",
     "Distribution loop (분배 루프)",
     "PW (Purified Water, 정제수)",
-    "Softener (연수기)",
-    "WFI (Water for Injection, 주사용수)"
+    "Sanofi ASAP concept",
+    "DBC (Dynamic Binding Capacity)"
    ],
    "answer": 2,
    "explanation": "**Distribution loop (분배 루프)** — PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
@@ -1740,8 +1740,8 @@
     "틀리다 — RO (Reverse Osmosis, 역삼투): 압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
     "정답 — PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
     "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
-    "틀리다 — Softener (연수기): 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다."
+    "틀리다 — Sanofi ASAP concept: 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -1860,8 +1860,8 @@
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
     "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
-    "음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
-    "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계."
+    "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
+    "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
    ],
    "answer": 2,
    "explanation": "**Clarification (청징)** — 원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
@@ -1869,8 +1869,8 @@
     "틀리다 — Bulk drug substance의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다."
+    "틀리다 — MuLV (Murine Leukaemia Virus)의 설명이다.",
+    "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다."
    ],
    "source": "WK06 PDF p.3, p.18",
    "concepts": [
@@ -1889,18 +1889,18 @@
    "choices": [
     "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
     "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
+    "정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크."
+    "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스."
    ],
    "answer": 4,
    "explanation": "**Depth filtration** — 두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation의 설명이다.",
     "틀리다 — Clarification (청징)의 설명이다.",
-    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
+    "틀리다 — Diafiltration buffer (DF buffer)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Bulk drug substance의 설명이다."
+    "틀리다 — PPV (Porcine Parvovirus)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.19",
    "concepts": [
@@ -1920,8 +1920,8 @@
     "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
     "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
-    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
+    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
+    "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
    ],
    "answer": 1,
    "explanation": "**Protein A chromatography** — 항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
@@ -1929,8 +1929,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
     "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — Multi-modal chromatography의 설명이다."
+    "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
+    "틀리다 — MuLV (Murine Leukaemia Virus)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18–19",
    "concepts": [
@@ -1950,8 +1950,8 @@
     "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
     "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
-    "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
-    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
+    "UF 막을 통과하지 못하고 남는 쪽 액체로, 농축된 단백질이 들어 있다.",
+    "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다."
    ],
    "answer": 3,
    "explanation": "**Low pH viral inactivation** — Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
@@ -1959,8 +1959,8 @@
     "틀리다 — Membrane adsorber (막 흡착)의 설명이다.",
     "틀리다 — Depth filtration의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
-    "틀리다 — Multi-modal chromatography의 설명이다."
+    "틀리다 — Retentate의 설명이다.",
+    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -1979,8 +1979,8 @@
    "choices": [
     "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
     "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
-    "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
+    "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
+    "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다."
    ],
    "answer": 5,
@@ -1988,8 +1988,8 @@
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation의 설명이다.",
     "틀리다 — HIC (소수성 상호작용 크로마토그래피)의 설명이다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — Membrane adsorber (막 흡착)의 설명이다.",
+    "틀리다 — Intensified seed (고밀도 세포은행)의 설명이다.",
+    "틀리다 — S&D (Solvent/Detergent)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.5, p.18",
@@ -2009,18 +2009,18 @@
    "choices": [
     "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
+    "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
     "음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
-    "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계."
+    "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관."
    ],
    "answer": 4,
    "explanation": "**AEX (음이온 교환 크로마토그래피)** — 음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
    "choiceNotes": [
     "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — Bulk drug substance의 설명이다.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피)의 설명이다.",
+    "틀리다 — Body feed의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
+    "틀리다 — Distribution loop (분배 루프)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
@@ -2040,8 +2040,8 @@
     "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
     "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계."
+    "탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
+    "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다."
    ],
    "answer": 3,
    "explanation": "**HIC (소수성 상호작용 크로마토그래피)** — 고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
@@ -2049,8 +2049,8 @@
     "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
     "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
-    "틀리다 — Low pH viral inactivation의 설명이다."
+    "틀리다 — Continuous (single-pass) UF/DF의 설명이다.",
+    "틀리다 — MVM (Minute Virus of Mice)의 설명이다."
    ],
    "source": "WK06 PDF p.3, p.6",
    "concepts": [
@@ -2070,8 +2070,8 @@
     "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
     "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피.",
-    "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계."
+    "임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
+    "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법."
    ],
    "answer": 2,
    "explanation": "**SEC (크기 배제 크로마토그래피)** — 분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
@@ -2079,8 +2079,8 @@
     "틀리다 — Membrane adsorber (막 흡착)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인의 설명이다.",
+    "틀리다 — S&D (Solvent/Detergent)의 설명이다."
    ],
    "source": "WK06 PDF p.6, p.7",
    "concepts": [
@@ -2100,8 +2100,8 @@
     "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
     "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
-    "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
-    "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계."
+    "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
+    "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
    ],
    "answer": 1,
    "explanation": "**Multi-modal chromatography** — 이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
@@ -2109,8 +2109,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Bulk drug substance의 설명이다.",
     "틀리다 — Membrane adsorber (막 흡착)의 설명이다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다."
+    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
+    "틀리다 — Model virus (모델 바이러스)의 설명이다."
    ],
    "source": "WK06 PDF p.18 (Two-column platform)",
    "concepts": [
@@ -2129,8 +2129,8 @@
    "choices": [
     "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
-    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
+    "1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다.",
+    "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
     "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술."
    ],
    "answer": 5,
@@ -2138,8 +2138,8 @@
    "choiceNotes": [
     "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
     "틀리다 — Bulk drug substance의 설명이다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
-    "틀리다 — Multi-modal chromatography의 설명이다.",
+    "틀리다 — Cohn cold ethanol fractionation의 설명이다.",
+    "틀리다 — Reo-3 (Reovirus 3)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.7, p.15, p.18",
@@ -2159,18 +2159,18 @@
    "choices": [
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피.",
+    "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
-    "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계."
+    "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다."
    ],
    "answer": 4,
    "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 크기 차이를 이용해 외피 유무와 관계없이 바이러스를 걸러 내는 단계.",
    "choiceNotes": [
     "틀리다 — Depth filtration의 설명이다.",
     "틀리다 — Bulk drug substance의 설명이다.",
-    "틀리다 — Multi-modal chromatography의 설명이다.",
+    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Protein A chromatography의 설명이다."
+    "틀리다 — Reo-3 (Reovirus 3)의 설명이다."
    ],
    "source": "WK06 PDF p.11, p.15–16",
    "concepts": [
@@ -2190,8 +2190,8 @@
     "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
     "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
     "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
-    "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크.",
-    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
+    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법."
    ],
    "answer": 2,
    "explanation": "**UF/DF (한외여과/정용여과)** — 막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
@@ -2199,8 +2199,8 @@
     "틀리다 — Clarification (청징)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — Bulk drug substance의 설명이다.",
-    "틀리다 — Multi-modal chromatography의 설명이다."
+    "틀리다 — Softener (연수기)의 설명이다.",
+    "틀리다 — Body feed의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18, p.31",
    "concepts": [
@@ -2309,8 +2309,8 @@
    "choices": [
     "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술.",
     "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
-    "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
-    "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
+    "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
+    "탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
     "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크."
    ],
    "answer": 5,
@@ -2318,8 +2318,8 @@
    "choiceNotes": [
     "틀리다 — Membrane adsorber (막 흡착)의 설명이다.",
     "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
-    "틀리다 — Protein A chromatography의 설명이다.",
-    "틀리다 — Clarification (청징)의 설명이다.",
+    "틀리다 — MVM (Minute Virus of Mice)의 설명이다.",
+    "틀리다 — Continuous (single-pass) UF/DF의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.3, p.5",
@@ -2399,18 +2399,18 @@
    "choices": [
     "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
     "계산된 레진 부피 등에 일부러 더하는 여유분.",
-    "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
+    "1940년대에 확립된 혈장 분획법으로, 에탄올·온도 조건을 바꿔 가며 fibrinogen, 면역글로불린, 알부민을 단계적으로 침전·분리한다.",
     "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
-    "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다."
+    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
    ],
    "answer": 4,
    "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
    "choiceNotes": [
     "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
     "틀리다 — Safety factor (설계 여유)의 설명이다.",
-    "틀리다 — Linear flow rate (선속도)의 설명이다.",
+    "틀리다 — Cohn cold ethanol fractionation의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Platform process의 설명이다."
+    "틀리다 — Multi-modal chromatography의 설명이다."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -2430,8 +2430,8 @@
     "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
     "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
-    "계산된 레진 부피 등에 일부러 더하는 여유분."
+    "단백질 분자가 서로 뭉친 불순물로, 면역원성 위험이 있어 polishing에서 제거한다.",
+    "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다."
    ],
    "answer": 3,
    "explanation": "**Linear flow rate (선속도)** — 컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
@@ -2439,8 +2439,8 @@
     "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
     "틀리다 — Platform process의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
-    "틀리다 — Safety factor (설계 여유)의 설명이다."
+    "틀리다 — Aggregate (응집체)의 설명이다.",
+    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -2460,8 +2460,8 @@
     "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
     "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
-    "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
-    "계산된 레진 부피 등에 일부러 더하는 여유분."
+    "음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
+    "정제·UF/DF를 마치고 무균 여과해 동결 보관하는 원료의약품 벌크."
    ],
    "answer": 2,
    "explanation": "**Resin cycling (다회 사이클)** — 작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
@@ -2469,8 +2469,8 @@
     "틀리다 — Linear flow rate (선속도)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Platform process의 설명이다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "틀리다 — Safety factor (설계 여유)의 설명이다."
+    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
+    "틀리다 — Bulk drug substance의 설명이다."
    ],
    "source": "WK06 PDF p.23",
    "concepts": [
@@ -2489,18 +2489,18 @@
    "choices": [
     "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
     "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
-    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
+    "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
     "계산된 레진 부피 등에 일부러 더하는 여유분.",
-    "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다."
+    "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다."
    ],
    "answer": 4,
    "explanation": "**Safety factor (설계 여유)** — 계산된 레진 부피 등에 일부러 더하는 여유분.",
    "choiceNotes": [
     "틀리다 — Linear flow rate (선속도)의 설명이다.",
     "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
+    "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Platform process의 설명이다."
+    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -2519,8 +2519,8 @@
    "choices": [
     "계산된 레진 부피 등에 일부러 더하는 여유분.",
     "컬럼 단면을 지나는 유속(cm/hr)으로, 컬럼 크기와 함께 처리 시간을 정한다.",
-    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
-    "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다.",
+    "탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식.",
+    "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다."
    ],
    "answer": 5,
@@ -2528,8 +2528,8 @@
    "choiceNotes": [
     "틀리다 — Safety factor (설계 여유)의 설명이다.",
     "틀리다 — Linear flow rate (선속도)의 설명이다.",
-    "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
+    "틀리다 — Continuous (single-pass) UF/DF의 설명이다.",
+    "틀리다 — PPV (Porcine Parvovirus)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.6, p.17–18",
@@ -2550,8 +2550,8 @@
     "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
-    "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것."
+    "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피.",
+    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술."
    ],
    "answer": 1,
    "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
@@ -2559,8 +2559,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
     "틀리다 — Heat inactivation (열 불활화)의 설명이다.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다."
+    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다.",
+    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다."
    ],
    "source": "WK06 PDF p.11",
    "concepts": [
@@ -2579,18 +2579,18 @@
    "choices": [
     "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
+    "공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어.",
     "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
-    "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법."
+    "탱크로 되돌려 순환시키지 않고 한 번 통과시키며 연속으로 농축·버퍼 교환하는 방식."
    ],
    "answer": 4,
    "explanation": "**Heat inactivation (열 불활화)** — 저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
    "choiceNotes": [
     "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
     "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
+    "틀리다 — SuperPro Designer의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — S&D (Solvent/Detergent)의 설명이다."
+    "틀리다 — Continuous (single-pass) UF/DF의 설명이다."
    ],
    "source": "WK06 PDF p.11",
    "concepts": [
@@ -2609,8 +2609,8 @@
    "choices": [
     "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
-    "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+    "두꺼운 다공성 여과층 안쪽에 입자를 붙잡아 탁도와 미세 입자를 제거하는 여과.",
+    "임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인.",
     "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것."
    ],
    "answer": 5,
@@ -2618,8 +2618,8 @@
    "choiceNotes": [
     "틀리다 — S&D (Solvent/Detergent)의 설명이다.",
     "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Heat inactivation (열 불활화)의 설명이다.",
+    "틀리다 — Depth filtration의 설명이다.",
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.8, p.10, p.15",
@@ -2640,8 +2640,8 @@
     "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
     "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
-    "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
-    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법."
+    "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+    "공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어."
    ],
    "answer": 1,
    "explanation": "**Viral clearance (바이러스 제거능)** — 정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
@@ -2649,8 +2649,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — S&D (Solvent/Detergent)의 설명이다.",
     "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — Heat inactivation (열 불활화)의 설명이다."
+    "틀리다 — Sanofi ASAP concept의 설명이다.",
+    "틀리다 — SuperPro Designer의 설명이다."
    ],
    "source": "WK06 PDF p.9",
    "concepts": [
@@ -2670,8 +2670,8 @@
     "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
     "축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
     "불활화·흡착·여과처럼 원리가 서로 다른 바이러스 제거 단계를 2개 이상 겹쳐, 한 기전이 놓친 바이러스를 다른 기전이 잡게 하는 것.",
-    "용매와 계면활성제(Tween, Triton X-100)로 바이러스 외피 지질을 녹여 외피 바이러스를 불활화하는 방법.",
-    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법."
+    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "고염 조건에서 분자의 소수성 차이로 붙였다 떼어 응집체 등을 분리하는 크로마토그래피."
    ],
    "answer": 2,
    "explanation": "**Virus spiking study (바이러스 제거 검증)** — 축소 공정에 모델 바이러스를 일부러 넣고 단계 전후 바이러스양을 비교해 제거능을 입증하는 시험(최소 2회 독립 실험).",
@@ -2679,8 +2679,8 @@
     "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — S&D (Solvent/Detergent)의 설명이다.",
-    "틀리다 — Heat inactivation (열 불활화)의 설명이다."
+    "틀리다 — Softener (연수기)의 설명이다.",
+    "틀리다 — HIC (소수성 상호작용 크로마토그래피)의 설명이다."
    ],
    "source": "WK06 PDF p.8 (일반 원리 보충)",
    "concepts": [
@@ -2790,8 +2790,8 @@
     "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
     "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
     "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
-    "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
-    "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다."
+    "여러 항체에 공통으로 쓰는 표준 정제 흐름(포획 → 불활화 → polishing → 바이러스 여과 → UF/DF)으로, 개발 기간과 위험을 줄인다.",
+    "레진 컬럼 대신 리간드를 붙인 막에 흘려 빠르게 불순물을 흡착 제거하는 polishing 기술."
    ],
    "answer": 1,
    "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
@@ -2799,8 +2799,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — MuLV (Murine Leukaemia Virus)의 설명이다.",
     "틀리다 — BVDV의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
-    "틀리다 — MVM (Minute Virus of Mice)의 설명이다."
+    "틀리다 — Platform process의 설명이다.",
+    "틀리다 — Membrane adsorber (막 흡착)의 설명이다."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -2819,18 +2819,18 @@
    "choices": [
     "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
+    "생산 세포에서 유래한 단백질 불순물.",
     "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
-    "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다."
+    "이온·소수성 등 여러 상호작용을 한 레진에 결합해, 한 단계로 두 단계 polishing을 대신하게 하는 크로마토그래피."
    ],
    "answer": 4,
    "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
    "choiceNotes": [
     "틀리다 — Model virus (모델 바이러스)의 설명이다.",
     "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
-    "틀리다 — BVDV의 설명이다.",
+    "틀리다 — HCP (Host Cell Protein)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — MVM (Minute Virus of Mice)의 설명이다."
+    "틀리다 — Multi-modal chromatography의 설명이다."
    ],
    "source": "WK06 PDF p.11, p.14",
    "concepts": [
@@ -2850,8 +2850,8 @@
     "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다.",
-    "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
+    "막으로 단백질을 농축하고 버퍼를 바꿔 최종 제형 조건으로 맞추는 단계.",
+    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술."
    ],
    "answer": 2,
    "explanation": "**Model virus (모델 바이러스)** — 실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
@@ -2859,8 +2859,8 @@
     "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — MuLV (Murine Leukaemia Virus)의 설명이다.",
-    "틀리다 — MVM (Minute Virus of Mice)의 설명이다.",
-    "틀리다 — BVDV의 설명이다."
+    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
+    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -2879,8 +2879,8 @@
    "choices": [
     "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
     "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
-    "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
+    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+    "양전하를 띤 분자를 음전하 레진에 붙여 분리하는 polishing 단계로, HCP와 응집체 제거에 쓴다.",
     "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
    ],
    "answer": 5,
@@ -2888,8 +2888,8 @@
    "choiceNotes": [
     "틀리다 — PPV (Porcine Parvovirus)의 설명이다.",
     "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
-    "틀리다 — BVDV의 설명이다.",
+    "틀리다 — Heat inactivation (열 불활화)의 설명이다.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.8, p.14",
@@ -2909,18 +2909,18 @@
    "choices": [
     "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
-    "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
+    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
     "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "외피가 있는 80~130 nm ssRNA 레트로바이러스로 저항성이 낮으며, 내인성 레트로바이러스 모델로 쓴다."
+    "계산된 레진 부피 등에 일부러 더하는 여유분."
    ],
    "answer": 4,
    "explanation": "**MVM (Minute Virus of Mice)** — 외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
    "choiceNotes": [
     "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
     "틀리다 — BVDV의 설명이다.",
-    "틀리다 — PPV (Porcine Parvovirus)의 설명이다.",
+    "틀리다 — Softener (연수기)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — MuLV (Murine Leukaemia Virus)의 설명이다."
+    "틀리다 — Safety factor (설계 여유)의 설명이다."
    ],
    "source": "WK06 PDF p.14",
    "concepts": [
@@ -2940,8 +2940,8 @@
     "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
     "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
-    "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다."
+    "음전하를 띤 DNA·바이러스 등을 양전하 레진(또는 막)에 붙여 제거하는 polishing 단계.",
+    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전."
    ],
    "answer": 1,
    "explanation": "**PPV (Porcine Parvovirus)** — 외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
@@ -2949,8 +2949,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Model virus (모델 바이러스)의 설명이다.",
     "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
-    "틀리다 — Reo-3 (Reovirus 3)의 설명이다."
+    "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
+    "틀리다 — Resin cycling (다회 사이클)의 설명이다."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -2970,8 +2970,8 @@
     "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "외피가 없는 18~26 nm ssDNA 파보바이러스로 저항성이 매우 높아, 동물세포 공정의 소형 비외피 모델로 쓴다.",
-    "외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스."
+    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+    "계산된 레진 부피 등에 일부러 더하는 여유분."
    ],
    "answer": 2,
    "explanation": "**SV-40 (Simian Virus 40)** — 외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
@@ -2979,8 +2979,8 @@
     "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — MVM (Minute Virus of Mice)의 설명이다.",
-    "틀리다 — PRV (Pseudorabies Virus)의 설명이다.",
-    "틀리다 — PPV (Porcine Parvovirus)의 설명이다."
+    "틀리다 — Heat inactivation (열 불활화)의 설명이다.",
+    "틀리다 — Safety factor (설계 여유)의 설명이다."
    ],
    "source": "WK06 PDF p.14",
    "concepts": [
@@ -3000,8 +3000,8 @@
     "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
     "외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
-    "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
-    "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다."
+    "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
+    "분자 크기 차이로 분리해 응집체 등을 제거하는 크로마토그래피."
    ],
    "answer": 3,
    "explanation": "**PRV (Pseudorabies Virus)** — 외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
@@ -3009,8 +3009,8 @@
     "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
     "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
-    "틀리다 — Reo-3 (Reovirus 3)의 설명이다."
+    "틀리다 — Protein A chromatography의 설명이다.",
+    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다."
    ],
    "source": "WK06 PDF p.13–14",
    "concepts": [
@@ -3030,8 +3030,8 @@
     "외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
     "외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
     "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "외피가 없는 18~26 nm 파보바이러스로, 혈장 제품에서는 사람 B19의 모델이 되는 저항성 매우 높은 바이러스.",
-    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
+    "원심분리·depth filtration으로 세포와 세포 찌꺼기를 제거해 맑은 배양 상등액을 얻는 첫 회수 단계.",
+    "임상시험 시작 전 바이러스 감소 검증, 2개 이상의 orthogonal 단계, 외피·소형 비외피 바이러스 포함을 요구하는 유럽 가이드라인."
    ],
    "answer": 2,
    "explanation": "**Reo-3 (Reovirus 3)** — 외피가 없는 60~80 nm dsRNA 바이러스로 저항성은 중간이다.",
@@ -3039,8 +3039,8 @@
     "틀리다 — PRV (Pseudorabies Virus)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
-    "틀리다 — PPV (Porcine Parvovirus)의 설명이다.",
-    "틀리다 — BVDV의 설명이다."
+    "틀리다 — Clarification (청징)의 설명이다.",
+    "틀리다 — EMEA 임상시험용 의약품 바이러스 가이드라인의 설명이다."
    ],
    "source": "WK06 PDF p.14",
    "concepts": [
@@ -3059,8 +3059,8 @@
    "choices": [
     "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
     "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "외피가 없는 40~50 nm dsDNA 바이러스로 저항성이 매우 높다.",
-    "외피가 있는 150~200 nm의 큰 바이러스로 저항성은 중간이며, CMV·HSV 같은 큰 외피 바이러스의 모델로 쓴다.",
+    "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
+    "작은 컬럼으로 같은 배치를 여러 번 나눠 결합·용출해 레진 구매비를 줄이는 대신 시간·인건비가 늘어나는 운전.",
     "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다."
    ],
    "answer": 5,
@@ -3068,8 +3068,8 @@
    "choiceNotes": [
     "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
     "틀리다 — Model virus (모델 바이러스)의 설명이다.",
-    "틀리다 — SV-40 (Simian Virus 40)의 설명이다.",
-    "틀리다 — PRV (Pseudorabies Virus)의 설명이다.",
+    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
+    "틀리다 — Resin cycling (다회 사이클)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.13",
@@ -3150,8 +3150,8 @@
     "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
     "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
     "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
-    "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향."
+    "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+    "공정 흐름·물질수지·장비 크기·비용을 계산하는 공정 시뮬레이션 소프트웨어."
    ],
    "answer": 3,
    "explanation": "**Body feed** — 여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
@@ -3159,8 +3159,8 @@
     "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다.",
     "틀리다 — Sanofi ASAP concept의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Intensified seed (고밀도 세포은행)의 설명이다.",
-    "틀리다 — Semi-continuous → Continuous DSP의 설명이다."
+    "틀리다 — Distribution loop (분배 루프)의 설명이다.",
+    "틀리다 — SuperPro Designer의 설명이다."
    ],
    "source": "WK06 PDF p.7 (Where Are We in DSP Technologies?) · 정의는 일반 원리",
    "concepts": [
@@ -3180,8 +3180,8 @@
     "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
     "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
     "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
-    "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향."
+    "Protein A 용출액을 pH 3~4의 산성으로 일정 시간 유지해 외피 바이러스를 불활화하는 단계.",
+    "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다."
    ],
    "answer": 2,
    "explanation": "**PCC (Periodic Counter-Current chromatography)** — 여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
@@ -3189,8 +3189,8 @@
     "틀리다 — Sanofi ASAP concept의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Body feed의 설명이다.",
-    "틀리다 — Intensified seed (고밀도 세포은행)의 설명이다.",
-    "틀리다 — Semi-continuous → Continuous DSP의 설명이다."
+    "틀리다 — Low pH viral inactivation의 설명이다.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다."
    ],
    "source": "WK06 PDF p.30–31",
    "concepts": [
@@ -3210,8 +3210,8 @@
     "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
     "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
     "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
-    "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술."
+    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
+    "실제 유속 조건에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양으로, 필요한 레진 부피를 정한다."
    ],
    "answer": 3,
    "explanation": "**Sanofi ASAP concept** — 단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
@@ -3219,8 +3219,8 @@
     "틀리다 — Intensified seed (고밀도 세포은행)의 설명이다.",
     "틀리다 — Semi-continuous → Continuous DSP의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Body feed의 설명이다.",
-    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다."
+    "틀리다 — BVDV의 설명이다.",
+    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
    ],
    "source": "WK06 PDF p.30",
    "concepts": [
@@ -3239,18 +3239,18 @@
    "choices": [
     "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
     "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
-    "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념.",
+    "지질 외피가 없는 바이러스로, 저 pH·S&D가 잘 듣지 않아 여과·흡착 단계가 주로 담당한다.",
     "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
-    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술."
+    "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관."
    ],
    "answer": 4,
    "explanation": "**Semi-continuous → Continuous DSP** — 회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
    "choiceNotes": [
     "틀리다 — Body feed의 설명이다.",
     "틀리다 — Intensified seed (고밀도 세포은행)의 설명이다.",
-    "틀리다 — Sanofi ASAP concept의 설명이다.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다."
+    "틀리다 — Distribution loop (분배 루프)의 설명이다."
    ],
    "source": "WK06 PDF p.7",
    "concepts": [
@@ -3270,8 +3270,8 @@
     "고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
     "회분식 컬럼 단계를 막 흡착·통합 단계로 바꿔 가며 정제를 연속 흐름으로 발전시키는 방향.",
     "여과 보조제를 배양액에 직접 섞어 clarification 효율을 높이는, 차세대 DSP 기술로 제시된 방법.",
-    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
-    "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념."
+    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
+    "내인성 레트로바이러스(유사 입자)를 가진 생산 세포로, MuLV 같은 특이 모델 바이러스로 완전 제거를 입증해야 한다."
    ],
    "answer": 1,
    "explanation": "**Intensified seed (고밀도 세포은행)** — 고밀도로 동결한 세포은행과 perfusion seed로 seed 단계를 줄여 2주 안에 생산 규모에 도달하는 방식.",
@@ -3279,8 +3279,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Semi-continuous → Continuous DSP의 설명이다.",
     "틀리다 — Body feed의 설명이다.",
-    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다.",
-    "틀리다 — Sanofi ASAP concept의 설명이다."
+    "틀리다 — Softener (연수기)의 설명이다.",
+    "틀리다 — Case B cell의 설명이다."
    ],
    "source": "WK06 PDF p.28",
    "concepts": [
@@ -3299,8 +3299,8 @@
    "choices": [
     "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
     "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
-    "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
+    "저온살균(60 ℃ 10시간)·건열·HTST처럼 열로 바이러스 단백질을 변성시키는 불활화 방법.",
+    "항체의 Fc 부분에 특이적으로 결합하는 리간드로 항체를 포획해 단백질·지질·DNA 같은 불순물 대부분을 한 번에 제거하는 단계.",
     "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다."
    ],
    "answer": 5,
@@ -3308,8 +3308,8 @@
    "choiceNotes": [
     "틀리다 — Distribution loop (분배 루프)의 설명이다.",
     "틀리다 — Softener (연수기)의 설명이다.",
-    "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다.",
-    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
+    "틀리다 — Heat inactivation (열 불활화)의 설명이다.",
+    "틀리다 — Protein A chromatography의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.27 (PW/WFI 계통도)",
@@ -3330,8 +3330,8 @@
     "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
     "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
     "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
-    "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치."
+    "정제 공정이 바이러스를 불활화·제거하는 능력으로, 전체 공정이 1회 투여량에 들어 있을 추정 바이러스보다 훨씬 많이 제거해야 한다.",
+    "내인성 레트로바이러스(유사 입자)를 가진 생산 세포로, MuLV 같은 특이 모델 바이러스로 완전 제거를 입증해야 한다."
    ],
    "answer": 3,
    "explanation": "**WFI (Water for Injection, 주사용수)** — 정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
@@ -3339,8 +3339,8 @@
     "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
     "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Distribution loop (분배 루프)의 설명이다.",
-    "틀리다 — Softener (연수기)의 설명이다."
+    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
+    "틀리다 — Case B cell의 설명이다."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -3359,8 +3359,8 @@
    "choices": [
     "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
     "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
-    "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
+    "외피가 있는 RNA 바이러스로, 혈장 제품 검증에서 C형 간염 바이러스(HCV)의 모델로 쓴다.",
+    "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
    ],
    "answer": 5,
@@ -3368,8 +3368,8 @@
    "choiceNotes": [
     "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
     "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "틀리다 — Softener (연수기)의 설명이다.",
-    "틀리다 — Distribution loop (분배 루프)의 설명이다.",
+    "틀리다 — BVDV의 설명이다.",
+    "틀리다 — Model virus (모델 바이러스)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.27",
@@ -3390,8 +3390,8 @@
     "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다.",
     "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
     "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
-    "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계."
+    "지질 외피를 가진 바이러스로, 저 pH·S&D 같은 외피 표적 불활화에 약하다.",
+    "실제 오염 가능 바이러스의 크기·외피·유전체·저항성을 대표하도록 골라 제거능 검증에 쓰는 바이러스."
    ],
    "answer": 2,
    "explanation": "**Softener (연수기)** — 원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
@@ -3399,8 +3399,8 @@
     "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Distribution loop (분배 루프)의 설명이다.",
-    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다."
+    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다.",
+    "틀리다 — Model virus (모델 바이러스)의 설명이다."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -3419,18 +3419,18 @@
    "choices": [
     "압력을 가해 반투막으로 이온·유기물·미생물을 걸러 내는 물 처리 단계.",
     "원수의 칼슘·마그네슘 같은 경도 이온을 제거하는 전처리 장치.",
-    "원수를 연수화·활성탄·RO·이온교환으로 처리해 만든 물로, WFI의 원료가 된다.",
+    "여러 컬럼이 결합(직렬 2개)·용출·재생을 돌아가며 맡아 레진을 꽉 채워 쓰면서 연속 포획하는 기술.",
     "PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
-    "정제수를 증류(still)해 만든 가장 높은 등급의 공정 용수로, 주사제와 버퍼 제조·최종 세척에 쓴다."
+    "단계별 컬럼 1개(Protein A – Mixed mode – AEX)를 연속으로 연결해 load·elute를 이어 가는 연속 정제 개념."
    ],
    "answer": 4,
    "explanation": "**Distribution loop (분배 루프)** — PW·WFI를 저장 탱크에서 사용처까지 계속 순환시켜 정체로 인한 미생물 증식을 막는 배관.",
    "choiceNotes": [
     "틀리다 — RO (Reverse Osmosis, 역삼투)의 설명이다.",
     "틀리다 — Softener (연수기)의 설명이다.",
-    "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
+    "틀리다 — PCC (Periodic Counter-Current chromatography)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다."
+    "틀리다 — Sanofi ASAP concept의 설명이다."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [

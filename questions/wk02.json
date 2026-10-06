@@ -34,28 +34,22 @@
     {
       "id": "wk02-002",
       "type": "연결",
-      "question": "배지 준비(Culture Media Preparation) 공정을 설계하고 있다. WK02 수업 필기와 OT의 'Process + Quality Control by Unit'을 종합할 때, 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. 분말 배지는 WFI(주사용수) 이상 등급의 고순도 물에 용해한다.",
-        "ㄴ. 용해 후 삼투압(osmolality)과 pH를 조정한 다음 여과한다.",
-        "ㄷ. 0.2 µm 필터만으로 mycoplasma까지 확실히 제거되므로 0.1 µm 최종 필터는 필요하지 않다.",
-        "ㄹ. 배지 준비 단계의 QC 항목에는 mycoplasma 시험과 bioburden 관리가 포함된다."
-      ],
+      "question": "배지 준비(Culture Media Preparation) 공정에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "ㄱ, ㄴ",
-        "ㄱ, ㄷ",
-        "ㄴ, ㄹ",
-        "ㄱ, ㄴ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "분말 배지는 WFI 이상 등급의 고순도 물에 녹인다.",
+        "녹인 뒤 삼투압과 pH를 맞추고 나서 여과한다.",
+        "0.2 µm 필터만 쓰면 mycoplasma까지 확실히 제거되므로 0.1 µm 필터는 필요 없다.",
+        "배지 준비 단계에서도 mycoplasma 시험과 bioburden 관리를 한다.",
+        "여과는 pre-filter와 final filter의 2단으로 구성한다."
       ],
-      "answer": 4,
-      "explanation": "필기의 배지 준비 3단계: **STEP 1 분말 배지 용해(WFI 이상 고순도 물) → STEP 2 삼투압·pH 조정 → STEP 3 여과**. 여과는 **Pre-filter 0.2 µm로 bioburden(미생물) 감소, Final filter 0.1 µm로 멸균 및 mycoplasma 제거**의 2단 구성이다. OT의 단위공정별 QC 표에서도 Media Preparation에는 Biosafety·Mycoplasma Testing·Bioburden이 표시되어 있다. 따라서 ㄷ만 틀리다.",
+      "answer": 3,
+      "explanation": "**배지 여과는 0.2 µm pre-filter(bioburden 감소) + 0.1 µm final filter(멸균·mycoplasma 제거)의 2단 구성이다.** 필기의 배지 준비 3단계: STEP 1 분말 배지 용해(WFI 이상 고순도 물) → STEP 2 삼투압·pH 조정 → STEP 3 여과. OT의 단위공정별 QC 표에서도 Media Preparation에 Mycoplasma Testing·Bioburden이 표시되어 있다.",
       "choiceNotes": [
-        "ㄹ(QC 항목)도 옳으므로 부족하다.",
-        "ㄷ은 틀린 진술이다 — mycoplasma 제거는 0.1 µm 최종 필터의 역할이다.",
-        "ㄱ(WFI 이상 등급 물에 용해)도 옳으므로 부족하다.",
-        "옳다 — ㄱ·ㄴ·ㄹ은 옳고, ㄷ만 틀리다.",
-        "ㄷ이 틀린 진술이므로 포함하면 안 된다."
+        "옳은 진술 — STEP 1 용해.",
+        "옳은 진술 — STEP 2 조정 후 STEP 3 여과.",
+        "틀린 진술(정답) — mycoplasma 제거는 0.1 µm final filter가 맡는다.",
+        "옳은 진술 — QC 표의 항목.",
+        "옳은 진술 — pre 0.2 µm + final 0.1 µm."
       ],
       "source": "WK02 PDF p.16 (수업 필기: Culture Media Preparation) · OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
       "tags": [
@@ -97,20 +91,20 @@
       "type": "개념",
       "question": "세포 배양 방식에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "회분식(Batch) 배양은 초기 배지만으로 배양하므로 공정이 단순하고 기간이 짧지만 생산성이 낮다.",
-        "유가식(Fed-batch) 배양은 공정 중 영양분을 연속 또는 간헐적으로 공급하며, mAb·백신 생산에서 가장 선호되는 운전 방식이다.",
-        "관류(Perfusion) 배양은 신선한 배지를 공급하는 속도와 같은 속도로 세포가 없는(cell-free) 상등액을 연속 제거한다.",
-        "그래프상 fed-batch는 대략 5~20일, perfusion은 10~80일 수준으로 더 길게 운전될 수 있다.",
-        "Perfusion은 세포와 상등액을 함께 계속 배출하는 방식이므로 spin filter나 ATF 같은 세포 유지 장치가 필요 없다."
+        "회분식(Batch)은 처음 넣은 배지만으로 배양해 단순하지만 생산성이 낮다.",
+        "유가식(Fed-batch)은 배양 중 영양분을 추가하며 항체 생산에 가장 많이 쓴다.",
+        "관류(Perfusion)는 배지를 넣는 만큼 세포 없는 상등액을 빼낸다.",
+        "관류 배양은 fed-batch보다 더 오래 운전할 수 있다.",
+        "관류 배양은 세포를 붙잡아 두는 장치(ATF 등)가 필요 없다."
       ],
       "answer": 5,
       "explanation": "Perfusion의 핵심은 **세포는 배양기 안에 유지(또는 되돌림)하고, 배지 공급과 같은 속도로 cell-free 상등액만 빼내는 것**이다. 이를 위해 **spin filter, ATF 같은 Cell Retention Device**가 필요하다. 나머지는 모두 슬라이드 내용과 일치한다.",
       "choiceNotes": [
-        "옳은 진술 — 슬라이드의 Batch 정의.",
-        "옳은 진술 — 'The favorite operation mode used for mAbs, vaccines'.",
-        "옳은 진술 — 'fresh medium is supplied, cell-free supernatant is continuously removed at the same rate'.",
-        "옳은 진술 — Fed-batch 5–20 days, Perfusion 10–80 days 그래프.",
-        "틀린 진술(정답) — 세포를 유지하기 위해 spin filter·ATF 등 세포 유지 장치가 필수다."
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술 — perfusion이 더 길다.",
+        "틀린 진술(정답) — spin filter·ATF 같은 세포 유지 장치가 필요하다."
       ],
       "source": "WK02 PDF p.30 (Type of Cell Culture Processing), p.33 (Fed Batch vs Perfusion)",
       "tags": [
@@ -301,28 +295,22 @@
     {
       "id": "wk02-011",
       "type": "연결",
-      "question": "ATF(XCell ATF)를 세포 유지 장치로 쓰는 두 강화(intensified) 공정을 비교했다. 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. Concentrated fed-batch는 ATF를 UF(ultrafiltration) 모드로 운전해 제품을 배양기 안에 머물게 하고 배양 종료 시 수확한다.",
-        "ㄴ. Dynamic perfusion은 ATF를 MF(microfiltration) 모드로 운전해 제품이 여과액(permeate)으로 연속 배출되고 direct capture 등으로 바로 처리된다.",
-        "ㄷ. 두 방식 모두 배양기 1기당 정제(downstream) 1라인을 연결해야 한다.",
-        "ㄹ. Dynamic perfusion은 배지를 계속 교환하므로 fed-batch보다 배지 사용량이 늘어난다."
-      ],
+      "question": "ATF를 쓰는 concentrated fed-batch와 dynamic perfusion의 비교로 옳지 않은 것은?",
       "choices": [
-        "ㄱ, ㄴ",
-        "ㄱ, ㄷ",
-        "ㄴ, ㄹ",
-        "ㄱ, ㄴ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "Concentrated fed-batch는 ATF를 UF 모드로 써서 제품을 배양기 안에 남긴다.",
+        "Dynamic perfusion은 ATF를 MF 모드로 써서 제품을 계속 빼낸다.",
+        "Dynamic perfusion은 배지를 계속 교환하므로 배지 사용량이 늘어난다.",
+        "두 방식 모두 배양기 1기당 정제 라인 1개를 연결해야 한다.",
+        "Concentrated fed-batch는 배양이 끝날 때 제품을 한 번에 수확한다."
       ],
       "answer": 4,
-      "explanation": "**Concentrated FB(UF 모드)**: 제품은 배양기에 남고 마지막에 수확, 배지는 계속 교환, 약 2주, >10 g/L/batch(최대 약 4배), **fed-batch처럼 배양기 4~6기가 정제 1라인을 공유**. **Dynamic perfusion(MF 모드)**: 제품을 연속 제거·처리, 배지량 증가, 2~3주, >20 g/L/batch(최대 약 5배), **배양기 1기당 정제 1라인**. 따라서 ㄷ만 틀리다.",
+      "explanation": "**배양기 1기당 정제 1라인이 필요한 것은 dynamic perfusion뿐이다.** Concentrated FB(UF 모드)는 제품을 배양기에 남겼다가 마지막에 수확하므로 fed-batch처럼 배양기 4~6기가 정제 1라인을 공유한다. Dynamic perfusion(MF 모드)은 제품을 연속으로 빼내 바로 정제(direct capture)하므로 배양기 1기당 정제 1라인이다.",
       "choiceNotes": [
-        "ㄹ도 옳으므로 부족하다.",
-        "ㄷ은 틀리다 — concentrated FB는 여러 배양기가 정제 라인을 공유한다.",
-        "ㄱ도 옳으므로 부족하다.",
-        "옳다 — ㄱ·ㄴ·ㄹ.",
-        "ㄷ이 틀린 진술이다."
+        "옳은 진술 — UF 모드, 제품 유지.",
+        "옳은 진술 — MF 모드, 연속 회수.",
+        "옳은 진술 — 배지량 증가.",
+        "틀린 진술(정답) — concentrated FB는 정제 라인을 공유한다.",
+        "옳은 진술 — 종료 시 수확."
       ],
       "source": "WK02 PDF p.40 (Concentrated Continuous Fed-Batch), p.41 (Dynamic Perfusion in Main Bioreactor)",
       "tags": [
@@ -526,22 +514,22 @@
     {
       "id": "wk02-019",
       "type": "개념",
-      "question": "교반(n, rpm)–통기(Q, L/min) Design Space 그림에서, 각 경계를 벗어났을 때의 위험이 바르게 연결된 것은?",
+      "question": "교반·통기 Design Space의 경계를 벗어났을 때 생기는 위험의 연결로 옳지 않은 것은?",
       "choices": [
-        "교반 하한 미만 – Heterogeneity(불균일·침강) / 교반 상한 초과 – Shear stress / 통기 하한 미만 – O₂ limitation·CO₂ accumulation / 통기 상한 초과 – Foam",
-        "교반 하한 미만 – Shear stress / 교반 상한 초과 – Heterogeneity / 통기 하한 미만 – Foam / 통기 상한 초과 – O₂ limitation",
-        "교반 하한 미만 – Foam / 교반 상한 초과 – CO₂ accumulation / 통기 하한 미만 – Heterogeneity / 통기 상한 초과 – Shear stress",
-        "교반 하한 미만 – O₂ limitation / 교반 상한 초과 – Foam / 통기 하한 미만 – Shear stress / 통기 상한 초과 – Heterogeneity",
-        "교반 하한 미만 – Heterogeneity / 교반 상한 초과 – Foam / 통기 하한 미만 – Shear stress / 통기 상한 초과 – CO₂ accumulation"
+        "교반이 너무 약함 – 불균일·침강",
+        "교반이 너무 강함 – shear stress(세포 손상)",
+        "통기가 너무 적음 – 산소 부족·CO₂ 축적",
+        "통기가 너무 많음 – 거품(foam)·flooding",
+        "통기가 너무 많음 – 산소 부족"
       ],
-      "answer": 1,
-      "explanation": "**교반 Min: acceptable mixing time**(기포 분포, 침강 방지) → 그 아래는 Heterogeneity. **교반 Max: shear stress**. **통기 Min: 필요한 kLa(OTR)와 충분한 CO₂ 제거를 얻는 최저 유량** → 그 아래는 Oxygen limitation·CO₂ accumulation. **통기 Max: foam generation / flooding / bubble burst**. Design Space는 P/V(교반), kLa(통기), mixing time으로 특성화한다.",
+      "answer": 5,
+      "explanation": "**교반 하한 = 혼합 부족(불균일), 교반 상한 = shear stress, 통기 하한 = 산소 부족·CO₂ 축적, 통기 상한 = foam·flooding·bubble burst.** Design Space는 P/V(교반), kLa(통기), mixing time으로 특성화한다.",
       "choiceNotes": [
-        "옳다 — 슬라이드 그림의 네 경계와 일치한다.",
-        "틀리다 — 교반 위험의 상·하한이 뒤바뀌었고 통기 위험도 뒤바뀌었다.",
-        "틀리다 — 교반·통기 경계의 위험이 서로 섞였다.",
-        "틀리다 — 교반 하한의 위험은 불균일(heterogeneity)이다.",
-        "틀리다 — Foam은 통기 상한, shear stress는 교반 상한의 위험이다."
+        "옳은 진술 — 교반 Min: mixing time.",
+        "옳은 진술 — 교반 Max: shear.",
+        "옳은 진술 — 통기 Min: kLa·CO₂ 제거.",
+        "옳은 진술 — 통기 Max: foam.",
+        "틀린 진술(정답) — 통기가 많으면 산소는 충분하고 거품이 문제다."
       ],
       "source": "WK02 PDF p.85 (Correlation in Balance), p.86 (Simplified Agitation), p.87 (Simplified Aeration), p.88 (Characterization of the Design Space)",
       "tags": [
@@ -553,28 +541,22 @@
     {
       "id": "wk02-020",
       "type": "개념",
-      "question": "Superficial gas velocity(Vs = Q_gas / A_v)를 증가시켰을 때 슬라이드에서 제시한 영향으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. 산소 전달(oxygen transfer)이 증가한다.",
-        "ㄴ. foam 발생이 증가한다.",
-        "ㄷ. P/V가 감소한다.",
-        "ㄹ. 혼합 시간이 짧아지고 shear stress가 감소한다."
-      ],
+      "question": "Superficial gas velocity(기체 유속)를 높였을 때 슬라이드에서 제시한 영향으로 옳은 것은?",
       "choices": [
-        "ㄱ",
-        "ㄱ, ㄴ",
-        "ㄱ, ㄴ, ㄷ",
-        "ㄴ, ㄷ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ"
+        "거품(foam)이 줄어든다.",
+        "산소 전달이 증가한다.",
+        "P/V가 증가한다.",
+        "shear stress가 사라진다.",
+        "산소 전달에는 영향이 없다."
       ],
-      "answer": 3,
-      "explanation": "슬라이드 'Influencing Factors – Aeration'에서 Vs 증가 시: **An increase in foam generation / A decrease in P/V / An increase in oxygen transfer**. ㄹ은 제시되지 않은 내용이다. VVM은 배양 부피당 분당 기체 유량, Vs는 VVM을 단면적 기준으로 본 값이며, kLa = a·(P/V)^b·vs^c로 두 인자에 모두 영향을 받는다.",
+      "answer": 2,
+      "explanation": "**기체 유속(Vs)이 커지면 산소 전달은 늘지만, 거품이 늘고 P/V는 줄어든다.** 슬라이드 'Influencing Factors – Aeration': An increase in foam generation / A decrease in P/V / An increase in oxygen transfer.",
       "choiceNotes": [
-        "ㄴ·ㄷ도 슬라이드에 제시된 영향이다.",
-        "ㄷ(P/V 감소)도 제시되어 있다.",
-        "옳다 — 산소 전달↑, foam↑, P/V↓.",
-        "ㄹ은 슬라이드에 없는 내용이고 ㄱ이 빠졌다.",
-        "ㄹ은 근거가 없다."
+        "틀리다 — 거품은 늘어난다.",
+        "옳다 — 산소 전달 증가.",
+        "틀리다 — P/V는 감소한다.",
+        "틀리다 — 제시되지 않은 내용이다.",
+        "틀리다 — 산소 전달이 증가한다."
       ],
       "source": "WK02 PDF p.93 (Influencing Factors — Aeration)",
       "tags": [
@@ -858,22 +840,22 @@
       "id": "wk02-031",
       "type": "개념",
       "part": 1,
-      "question": "Bioprocess 흐름에서 Upstream(배양)과 Downstream(정제) 단계 구성이 수업 필기와 슬라이드에 맞게 짝지어진 것은?",
+      "question": "Upstream(배양) 단계에 해당하지 않는 것은?",
       "choices": [
-        "Upstream: Media preparation → Cell banking → Seed train → Production → Centrifugation/Clarification",
-        "Upstream: Cell banking → Capture → Seed train → Production → Viral clearance",
-        "Downstream: Final filling → Sterile filtration → Concentration → Capture",
-        "Downstream: Seed train → Capture → Virus removal filtration → Production",
-        "Upstream: Media preparation → Production → Sterile filtration → Cryopreservation"
+        "배지 준비(Media preparation)",
+        "세포은행(Cell banking)",
+        "Seed train",
+        "생산 배양(Production)",
+        "Capture 크로마토그래피"
       ],
-      "answer": 1,
-      "explanation": "필기: **DS(USP) 배양 – Media preparation → Cell Banking → Seed Train → Production → Centrifugation/Clarification**, **DS(DSP) 정제 – Capture → Viral Clearance → Virus Removal Filtration → Concentration → Sterile Filtration → Cryopreservation**, **DP 완제 – Final Filling**. 즉 원료의약품(DS)은 배양+정제, 완제의약품(DP)은 충전(Fill) 단계다.",
+      "answer": 5,
+      "explanation": "**Capture 크로마토그래피는 Downstream(정제) 첫 단계다.** 필기: DS(USP) 배양 – Media preparation → Cell Banking → Seed Train → Production → Centrifugation/Clarification, DS(DSP) 정제 – Capture → Viral Clearance → Virus Removal Filtration → Concentration → Sterile Filtration → Cryopreservation, DP 완제 – Final Filling.",
       "choiceNotes": [
-        "옳다 — 배양(USP) 단계 순서.",
-        "틀리다 — Capture와 Viral clearance는 정제(DSP) 단계다.",
-        "틀리다 — 순서가 거꾸로이며 Final filling은 DP 단계다.",
-        "틀리다 — Seed train·Production은 배양 단계다.",
-        "틀리다 — Sterile filtration·Cryopreservation은 정제 후반 단계다."
+        "Upstream이다.",
+        "Upstream이다.",
+        "Upstream이다.",
+        "Upstream이다.",
+        "해당하지 않는다(정답) — Downstream이다."
       ],
       "source": "WK02 PDF p.15 (Overview the Stream for Bioprocessing), p.16 (수업 필기: DS(USP)/DS(DSP)/DP)",
       "tags": [

@@ -113,28 +113,22 @@
     {
       "id": "wk07-005",
       "type": "상황판단",
-      "question": "다목적 공장에 고활성(High potent) 제품을 새로 들여오려 한다. 설계 때 반영해야 할 것으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
-      "box": [
-        "ㄱ. 봉쇄(containment) 설비",
-        "ㄴ. 다른 구역과 구분된 HVAC 요건",
-        "ㄷ. 분리된 보관 구역",
-        "ㄹ. 다른 제품과 장비를 그대로 공유해 교차 사용"
-      ],
+      "question": "다목적 공장에 고활성(High potent) 제품을 새로 들여올 때 설계 반영 사항으로 옳지 않은 것은?",
       "choices": [
-        "ㄴ, ㄷ, ㄹ",
-        "ㄱ, ㄴ, ㄷ, ㄹ",
-        "ㄱ",
-        "ㄱ, ㄴ",
-        "ㄱ, ㄴ, ㄷ"
+        "봉쇄(containment) 설비를 갖춘다.",
+        "다른 구역과 구분된 HVAC 요건을 둔다.",
+        "분리된 보관 구역을 둔다.",
+        "다른 제품과 장비를 그대로 공유해 쓴다.",
+        "필요하면 전용(dedicated) 장비를 쓴다."
       ],
-      "answer": 5,
-      "explanation": "Toxicity(High potent drug) → **Containment, HVAC requirements, Separated storage**, 그리고 필요하면 **dedicated equipment**. 장비를 그대로 공유하면 교차오염 위험이 커진다.",
+      "answer": 4,
+      "explanation": "**고활성 제품은 봉쇄와 분리가 원칙이다.** Product Characteristics vs Design Features: Toxicity(High potent drug) → Containment, HVAC requirements, Separated storage(필요하면 dedicated equipment). 장비를 그대로 공유하면 교차오염 위험이 커진다.",
       "choiceNotes": [
-        "ㄹ은 틀리고 ㄱ이 빠졌다.",
-        "ㄹ은 교차오염 위험이 있다.",
-        "ㄴ·ㄷ도 필요하다.",
-        "ㄷ도 필요하다.",
-        "옳다 — ㄱ·ㄴ·ㄷ."
+        "옳은 진술 — Containment.",
+        "옳은 진술 — HVAC requirements.",
+        "옳은 진술 — Separated storage.",
+        "틀린 진술(정답) — 교차오염 위험.",
+        "옳은 진술 — dedicated equipment."
       ],
       "source": "WK07 PDF p.23",
       "tags": [
