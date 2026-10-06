@@ -481,6 +481,121 @@
         "Design space"
       ],
       "part": 2
+    },
+    {
+      "id": "int-021",
+      "type": "연결",
+      "question": "공정 단계와 주로 쓰는 필터의 연결로 옳은 것은?",
+      "choices": [
+        "배지 준비 – UF 카세트",
+        "충전 직전 최종 여과 – 깊이 필터",
+        "배양액 회수(정화) – 깊이 필터",
+        "바이러스 제거 – 0.45 µm 사전 필터",
+        "버퍼 교환 – 제균 필터"
+      ],
+      "answer": 3,
+      "explanation": "**배양액 회수(정화)에는 깊이 필터, 배지 준비와 최종 충전 직전에는 0.2 µm(배지는 +0.1 µm) 제균 막 필터, 바이러스 제거에는 바이러스 필터, 농축·버퍼 교환에는 UF/DF를 쓴다.** 기공 크기: 깊이 필터 ~1 µm, 사전·제균 0.1~0.2 µm, 바이러스 ~0.01 µm, UF ~0.001 µm.",
+      "choiceNotes": [
+        "틀리다 — 배지는 0.2 µm + 0.1 µm 막 필터로 거른다.",
+        "틀리다 — 최종 여과는 0.2 µm 제균 막 필터다.",
+        "옳다 — 세포·찌꺼기를 많이 붙잡는다.",
+        "틀리다 — 바이러스는 약 0.01 µm 급 바이러스 필터로 거른다.",
+        "틀리다 — 버퍼 교환은 UF/DF(TFF)다."
+      ],
+      "source": "WK04 PDF p.20 (Filter for Virus Clearance), p.23 · WK02 PDF p.16 (수업 필기: Culture Media Preparation) · 01 완제의약품 제조 공정 PDF p.13",
+      "tags": [
+        "Depth filter",
+        "Sterilizing-grade filter",
+        "UF/DF",
+        "Virus filtration"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-022",
+      "type": "연결",
+      "question": "vent 필터가 젖는 것을 막는 방법의 연결로 옳은 것은?",
+      "choices": [
+        "배양기 – 가열 하우징만, WFI 탱크 – 소포제",
+        "두 곳 모두 친수성 막 필터를 쓴다",
+        "젖어도 기능에 문제가 없어 대책이 필요 없다",
+        "배양기 – 소포제·배기 냉각기, WFI 탱크 – 가열 하우징",
+        "WFI 탱크 – vent 필터를 없앤다"
+      ],
+      "answer": 4,
+      "explanation": "**배양기는 거품이 vent 필터를 적시지 않게 소포제와 배기 냉각기(응축수 제거)를 쓰고, 뜨거운 WFI 탱크는 수증기가 맺히지 않게 vent 필터 하우징을 데운다.** vent 필터는 소수성 PTFE 막을 쓰며, 젖거나 막히면 배양기는 배치를 잃고 탱크는 진공으로 찌그러질 수 있다.",
+      "choiceNotes": [
+        "틀리다 — WFI 탱크에 소포제를 넣지 않는다.",
+        "틀리다 — 젖지 않는 소수성(PTFE) 막을 쓴다.",
+        "틀리다 — 젖으면 기체가 막혀 배치 손실·탱크 찌그러짐이 생길 수 있다.",
+        "옳다.",
+        "틀리다 — vent가 없으면 탱크가 진공으로 찌그러질 수 있다."
+      ],
+      "source": "WK02 PDF p.23, p.40 · WK02 강의 녹음 01:31:59–01:32:42 · WK04 PDF p.48–51, p.59–61",
+      "tags": [
+        "Vent filter",
+        "Exhaust cooler",
+        "Anti-foam",
+        "Heated vent housing"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-023",
+      "type": "개념",
+      "question": "제균 필터 무결성 시험 시점에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "사용 후에는 하지 않는다",
+        "제조사가 했으면 사용자는 하지 않는다",
+        "필터를 깨뜨려서 시험한다",
+        "사용 전에만 하고 결과는 기록하지 않는다",
+        "멸균 후 사용 전(PUPSIT)과 사용 후 모두 한다"
+      ],
+      "answer": 5,
+      "explanation": "**제균 필터는 멸균 후 사용 전(PUPSIT)과 사용 후에 모두 무결성을 확인한다.** 완제 공정에서도 무균 여과 필터의 완전성을 사용 전·후에 확인하며, 사용자는 제조사가 준 기준으로 기포점·확산 같은 비파괴 시험을 한다.",
+      "choiceNotes": [
+        "틀리다 — 사용 후 시험은 EU·FDA·PDA 모두 요구한다.",
+        "틀리다 — 사용자가 비파괴로 다시 확인한다.",
+        "틀리다 — 사용자는 기포점·확산 같은 비파괴검사를 한다.",
+        "틀리다.",
+        "옳다."
+      ],
+      "source": "01 완제의약품 제조 공정 PDF p.13 · WK04 PDF p.17, p.118–119, p.158",
+      "tags": [
+        "PUPSIT (Pre-Use Post-Sterilization Integrity Test)",
+        "필터 완전성 시험",
+        "Filter integrity test (필터 무결성 시험)"
+      ],
+      "part": 1
+    },
+    {
+      "id": "int-024",
+      "type": "연결",
+      "question": "막 여과에서 제품이 남거나 나가는 쪽의 연결로 옳은 것은?",
+      "choices": [
+        "ATF UF 모드(concentrated FB) – 제품이 배양기에 남는다",
+        "ATF MF 모드(dynamic perfusion) – 제품이 배양기에 남는다",
+        "UF/DF – 제품이 permeate로 나간다",
+        "정화(MF-TFF) – 제품이 retentate에 남는다",
+        "관류 배양 – 세포가 permeate로 빠진다"
+      ],
+      "answer": 1,
+      "explanation": "**막을 통과하지 못하면 retentate(배양기·탱크 쪽), 통과하면 permeate로 나간다.** ATF UF 모드(concentrated fed-batch)는 제품을 배양기에 남기고, MF 모드(dynamic perfusion)는 제품을 permeate로 계속 빼낸다. TFF에서 UF/DF·농축은 제품이 retentate에, 정화는 permeate에 있다.",
+      "choiceNotes": [
+        "옳다 — 끝날 때 한 번에 수확한다.",
+        "틀리다 — MF 모드는 제품을 계속 빼낸다.",
+        "틀리다 — 단백질은 retentate에 남는다.",
+        "틀리다 — 정화는 제품이 permeate로 나온다.",
+        "틀리다 — 세포는 retentate로 붙잡아 둔다."
+      ],
+      "source": "WK02 PDF p.40–41 · WK04 PDF p.86, p.100",
+      "tags": [
+        "Retentate (TFF)",
+        "Permeate (TFF)",
+        "Concentrated fed-batch",
+        "Dynamic perfusion"
+      ],
+      "part": 2
     }
   ]
 }
