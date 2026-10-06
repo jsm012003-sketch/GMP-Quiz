@@ -668,57 +668,6 @@
         "Plasma fractionation",
         "Virus reduction"
       ]
-    },
-    {
-      "id": "wk06-026",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "CHO 세포로 생산하는 항체의 정제 공정에 바이러스 안전성 전략을 세우려 한다. 어떤 단계를 어떻게 조합하고, 검증 시험은 어떻게 설계할지 서술하시오.",
-      "modelAnswer": "원리가 다른 단계를 겹치는 orthogonal 전략을 쓴다: 저 pH(또는 S&D) 불활화로 외피 바이러스를, 크로마토그래피(AEX 등)·membrane 흡착과 virus filtration으로 외피 유무와 관계없이 모든 바이러스를 제거한다(최소 2개 이상의 orthogonal 단계). 검증은 임상시험 시작 전에, 축소 공정에 모델 바이러스를 넣어 단계별 제거능을 측정하며 최소 2회 독립 실험으로 재현성을 보인다. 모델 바이러스는 3~4종으로 외피 바이러스와 작은 비외피 바이러스(MVM 같은 parvovirus)를 포함하고, CHO는 내인성 레트로바이러스 유사 입자를 가진 Case B 세포이므로 MuLV로 완전 제거를 입증한다. 전체 제거능은 1회 투여량 상당 비가공 벌크의 추정 바이러스량보다 충분히 커야 하며, 컬럼 재사용 시 제거능 유지 근거도 확보한다.",
-      "keywords": [
-        "orthogonal(불활화·흡착·여과)",
-        "임상 전 검증·2회 독립 실험",
-        "외피 + 소형 비외피(parvovirus)",
-        "Case B → MuLV",
-        "1회 투여량 대비 충분한 제거능"
-      ],
-      "explanation": "**EMEA·ICH Q5A 가이드라인과 Integrated & Orthogonal 플랫폼을 결합한 답**이다. Low pH·S&D는 외피만 표적으로 하므로 비외피 소형 바이러스는 여과·흡착이 맡는다.",
-      "source": "WK06 PDF p.8–11, p.14–15"
-    },
-    {
-      "id": "wk06-027",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "titer 0.1 g/L, 배양 10,000 L로 항체 1 kg을 만드는 공정에서 Protein A 단계가 약 50시간 걸린다. 공정 시간을 줄이는 방안을 두 가지 이상 들고, 각 방안의 trade-off를 서술하시오.",
-      "modelAnswer": "(1) Clarification과 Protein A 사이에 UF/DF로 20배 농축해 부피를 500 L로 줄이면 같은 유속에서 약 2.5시간으로 줄지만, 농축 단계 장비·시간·버퍼가 추가된다. (2) 레진 부피를 절반(20 L)으로 줄이고 3 cycle로 나누면 레진 구매비가 절반이 되지만 공정 시간(약 6시간)과 인건비가 늘어난다. (3) 상류 titer를 1.0 g/L로 높이면 배치 부피가 1,000 L로 줄어 Protein A 시간이 약 5시간이 되며, 레진 부피는 항체 양과 DBC로 정해지므로 같다(상류 개발 비용·기간 필요). 비용·시간·인력은 서로 맞바꾸는 관계이므로 공장 상황에 맞게 고른다.",
-      "keywords": [
-        "UF/DF 사전 농축",
-        "레진 부피↓·다회 cycle",
-        "titer 향상 → 부피↓",
-        "레진 부피는 항체량·DBC로 결정",
-        "비용·시간·인력 trade-off"
-      ],
-      "explanation": "**저 titer의 큰 부피는 유속에 묶여 처리 시간을 늘린다 — 부피를 줄이는 것이 핵심이다.** Case 1과 Solution 슬라이드의 수치를 근거로 쓴다.",
-      "source": "WK06 PDF p.20–24 (Mab Platform Process – Case 1)"
-    },
-    {
-      "id": "wk06-028",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "기존 건물에 목표 1 kg(titer 2 g/L, 배치 500 L) 항체 공정을 넣으려 하는데, GMP suite 층고가 낮고 WFI 공급 용량도 부족하다. 검토할 수 있는 해결 방안과 그 근거를 서술하시오.",
-      "modelAnswer": "Single-use 장비를 쓰면 stainless(MU)보다 높이가 낮아(예: 약 2,600 mm → 2,000 mm) 층고 제약을 풀 수 있고, 세척(CIP)·증기 멸균(SIP)이 줄어 WFI·스팀 수요도 준다. 또한 perfusion이나 titer 향상으로 같은 생산량을 더 작은 부피로 만들고, 작은 라인 여러 개(multi trains)로 나눠 공간에 맞출 수 있다. 그래도 안 되면 신규 시설을 검토한다. 결정은 물질수지로 유틸리티 소비량을 다시 계산해 근거를 만든다.",
-      "keywords": [
-        "Single-use(높이↓, WFI↓)",
-        "perfusion·titer 향상",
-        "multi trains",
-        "신규 시설",
-        "물질수지로 유틸리티 재산정"
-      ],
-      "explanation": "**Case 2의 대안: Single use, Perfusion, Multi trains, Higher titer, New facility.** 높이 비교(MU 2,600 mm vs SU 2,000 mm)와 WK07의 물질수지 → 유틸리티 용량 흐름을 연결한다.",
-      "source": "WK06 PDF p.25–26 · WK07 PDF p.29"
     }
   ]
 }

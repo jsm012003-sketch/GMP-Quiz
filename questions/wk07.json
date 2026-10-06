@@ -892,57 +892,6 @@
       "tags": [
         "Clinical phase"
       ]
-    },
-    {
-      "id": "wk07-034",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "신규 항체 공장의 conceptual design 단계를 맡았다. 어떤 정보에서 출발해 무엇을 순서대로 정해 나가야 하는지 서술하시오.",
-      "modelAnswer": "생산 예측(어떤 제품을 얼마나)과 제품 특성, 공정 기술, 부지 평가에서 출발한다. 공정을 BFD로 정의한 뒤 물질수지(현재 titer + 약 15 % 설계 여유)를 계산해 PFD와 장비 목록·크기, 버퍼 부피, 필터·컬럼 크기를 정한다. 이를 바탕으로 room layout과 GMP layout(자재·인원·제품·폐기물 흐름, 청정 등급, 압력 구역)을 만들고, clean·black utility 소비량에서 유틸리티 용량을 산정한다. 이 과정에 Q&V를 포함한 모든 분야가 통합 팀으로 참여한다.",
-      "keywords": [
-        "생산 예측·제품 특성",
-        "BFD → 물질수지(+15 %) → PFD·장비",
-        "room·GMP layout(흐름·등급·압력)",
-        "유틸리티 용량",
-        "통합 팀(Q&V 포함)"
-      ],
-      "explanation": "**공정이 시설 설계의 핵심(core)이다.** Step 1 Conceptual design: Production forecast, Process technology, Site evaluation → BFD/PFD(Equipment list) → Layout → GMP layout(Flows, Clean zone, Pressure zone) → Utility capacity.",
-      "source": "WK07 PDF p.21, p.26–29, p.52, p.55"
-    },
-    {
-      "id": "wk07-035",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "항체 공장 배치에서 pre-viral/post-viral 구역 분리, 압력 구역, 자재·인원 airlock을 어떻게 설계할지, 그 목적과 함께 서술하시오.",
-      "modelAnswer": "바이러스 제거 단계 이후(post-viral) 제품이 이전 구역(pre-viral)의 공기·사람·자재로 다시 오염되지 않도록 구역을 나누고 흐름을 한 방향으로 정한다. 청정도에 따라 등급(D/C/B)과 실 압력을 계단식으로 두어 공기가 청정한 곳에서 덜 청정한 곳으로 흐르게 한다. 사람은 personnel airlock에서 손 소독·갱의·신발 교체 후 분리선을 넘고, 자재는 material airlock에서 세척하고 외포장을 벗겨 넘긴다. 폐기물 경로가 제품 경로를 거슬러 지나지 않게 한다. 목적은 혼동과 교차오염 방지다.",
-      "keywords": [
-        "pre/post-viral 분리·단방향",
-        "등급·압력 계단",
-        "PAL(갱의·분리선)",
-        "MAL(세척·탈포장)",
-        "혼동·교차오염 방지"
-      ],
-      "explanation": "**GMP Flows와 Cleanroom Class·Pressure Zone 배치도, Airlock 그림**을 근거로 쓴다. Ballroom 개념의 '현재 방식'도 pre/post virus 분리와 단방향 흐름을 특징으로 든다.",
-      "source": "WK07 PDF p.36, p.40–42, p.62"
-    },
-    {
-      "id": "wk07-036",
-      "type": "서술형",
-      "format": "essay",
-      "part": 3,
-      "question": "새 공장 프로젝트의 Q&V 흐름을 URS부터 상업 생산까지 순서대로 쓰고, 각 단계에서 발견된 문제를 어떻게 다뤄야 하는지 서술하시오.",
-      "modelAnswer": "URS → DQ(설계가 요구사항을 만족하는지) → FAT(제작사에서 출하 전 확인) → IQ/SAT(설치·인수 확인) → OQ(정해진 범위에서 작동 확인) → PQ(실제 조건에서 성능 확인) → PV·CV(공정·세척 밸리데이션) → 상업 생산(주기적 재적격성평가·재밸리데이션). 앞 단계는 다음 단계의 전제이므로 순서를 건너뛰지 않는다. 결함은 가장 이른 단계에서 고치는 것이 비용·일정에 유리하며(예: FAT 결함은 출하 전 제작사가 수정 후 재시험), 사양 변경은 변경 관리로 평가·승인·기록한다. VMP로 전체 범위를 계획하고, 컴퓨터 시스템은 CSV로 검증한다.",
-      "keywords": [
-        "URS → DQ → FAT → IQ/SAT → OQ → PQ → PV",
-        "앞 단계가 전제",
-        "결함은 이른 단계에서",
-        "변경 관리",
-        "VMP·CSV·재적격성"
-      ],
-      "explanation": "**Element 4: Q&V 흐름과 Change control/Requalification**이 핵심이다. 아이솔레이터 적격성평가(URS/DQ → IQ → OQ → CD → PQ → PRQ)와 같은 논리다.",
-      "source": "WK07 PDF p.51, p.58–59 · 03 Isolator & Qualification PDF p.13"
     }
   ]
 }
