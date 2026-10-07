@@ -4,6 +4,34 @@
   "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
   "questions": [
     {
+      "id": "int-002",
+      "type": "연결",
+      "question": "mRNA 백신 공정이 기존 바이러스 백신·항체 공정과 다른 점은?",
+      "choices": [
+        "세포 배양 대신 plasmid와 효소 반응으로 mRNA를 만든다",
+        "동물세포를 대량 배양하는 것이 핵심이다",
+        "불활화 바이러스로 만든다",
+        "CHO 세포에서 단백질을 분비시킨다",
+        "공정 변경이 거의 없다"
+      ],
+      "answer": 1,
+      "explanation": "**mRNA 백신은 E. coli로 만든 plasmid를 주형으로 효소 반응으로 mRNA를 합성하고 LNP로 감싼다.** 세포배양 중심 공장을 쓰려면 PFD·장비를 새로 정해야 한다.",
+      "choiceNotes": [
+        "옳다 — 그래서 공정 설계를 새로 해야 한다.",
+        "틀리다.",
+        "틀리다 — virus 플랫폼이다.",
+        "틀리다 — 재조합 단백질 플랫폼이다.",
+        "틀리다."
+      ],
+      "source": "OT PDF p.5 (Background), p.7 (mRNA 반응표), p.10 (PFD) · WK02 PDF p.10 (Upstream Process in Platform), p.11",
+      "tags": [
+        "mRNA",
+        "Platform",
+        "Term project"
+      ],
+      "part": 2
+    },
+    {
       "id": "int-005",
       "type": "개념",
       "question": "'가장 불리한 조건(worst case)에서 입증한다'는 검증 원칙의 예가 아닌 것은?",
