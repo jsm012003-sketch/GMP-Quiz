@@ -1,7 +1,7 @@
 {
  "week": "WK06",
  "title": "WK06 용어 정리",
- "lecture": "WK06 PDF 용어 정리 (자동 생성: tools/build_terms.py — 직접 고치지 말고 glossary/wk06.json를 고칠 것)",
+ "lecture": "WK06 PDF · WK06 강의 녹음(10.07) 용어 정리 (자동 생성: tools/build_terms.py — 직접 고치지 말고 glossary/wk06.json를 고칠 것)",
  "questions": [
   {
    "id": "tw06d-001",
@@ -14,8 +14,8 @@
    "choices": [
     "CEX (양이온 교환 크로마토그래피)",
     "Depth filtration",
-    "PW (Purified Water, 정제수)",
-    "Viral clearance (바이러스 제거능)",
+    "Non-enveloped virus (비외피 바이러스)",
+    "Model virus (모델 바이러스)",
     "Clarification (청징)"
    ],
    "answer": 5,
@@ -23,8 +23,8 @@
    "choiceNotes": [
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
     "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
+    "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "정답 — 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계."
    ],
    "source": "WK06 PDF p.3, p.18",
@@ -48,8 +48,8 @@
     "AEX (음이온 교환 크로마토그래피)",
     "Depth filtration",
     "SEC (크기 배제 크로마토그래피)",
-    "Retentate",
-    "PW (Purified Water, 정제수)"
+    "Bed height (레진 층 높이)",
+    "HCP (Host Cell Protein)"
    ],
    "answer": 2,
    "explanation": "**Depth filtration** — 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
@@ -57,8 +57,8 @@
     "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
     "정답 — 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
     "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "틀리다 — Retentate: 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물."
    ],
    "source": "WK06 PDF p.5, p.19",
    "concepts": [
@@ -81,8 +81,8 @@
     "Low pH viral inactivation",
     "Clarification (청징)",
     "Protein A chromatography",
-    "Orthogonal (직교) 전략",
-    "ICH Q5A (R1)"
+    "Storage solution (보관 용액)",
+    "Orthogonal (직교) 전략"
    ],
    "answer": 3,
    "explanation": "**Protein A chromatography** — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
@@ -90,8 +90,8 @@
     "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "정답 — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — ICH Q5A (R1): 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인."
+    "틀리다 — Storage solution (보관 용액): 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
    "source": "WK06 PDF p.5, p.18–19",
    "concepts": [
@@ -113,7 +113,7 @@
    "choices": [
     "CEX (양이온 교환 크로마토그래피)",
     "AEX (음이온 교환 크로마토그래피)",
-    "HCP (Host Cell Protein)",
+    "Linear velocity (선속도)",
     "Low pH viral inactivation",
     "Orthogonal (직교) 전략"
    ],
@@ -122,7 +122,7 @@
    "choiceNotes": [
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
     "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
+    "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
     "정답 — 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
@@ -147,8 +147,8 @@
     "Multi-modal chromatography",
     "Low pH viral inactivation",
     "Clarification (청징)",
-    "Enveloped virus (외피 바이러스)",
-    "Orthogonal (직교) 전략"
+    "Storage solution (보관 용액)",
+    "PW (Purified Water, 정제수)"
    ],
    "answer": 1,
    "explanation": "**Multi-modal chromatography** — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
@@ -156,8 +156,8 @@
     "정답 — 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
     "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
+    "틀리다 — Storage solution (보관 용액): 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
    ],
    "source": "WK06 PDF p.18 (Two-column platform)",
    "concepts": [
@@ -179,18 +179,18 @@
    "choices": [
     "Clarification (청징)",
     "CEX (양이온 교환 크로마토그래피)",
-    "Viral clearance (바이러스 제거능)",
+    "Leached Protein A",
     "Virus filtration (nanofiltration)",
-    "Platform process"
+    "Virus spiking study (바이러스 제거 검증)"
    ],
    "answer": 4,
    "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
    "choiceNotes": [
     "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
+    "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
     "정답 — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름."
+    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험."
    ],
    "source": "WK06 PDF p.11, p.15–16",
    "concepts": [
@@ -210,20 +210,20 @@
     "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질)."
    ],
    "choices": [
-    "Orthogonal (직교) 전략",
-    "UF/DF (한외여과/정용여과)",
-    "Retentate",
     "Enveloped virus (외피 바이러스)",
-    "HIC (소수성 상호작용 크로마토그래피)"
+    "PW (Purified Water, 정제수)",
+    "Retentate",
+    "Virus spiking study (바이러스 제거 검증)",
+    "Bed height (레진 층 높이)"
    ],
    "answer": 3,
    "explanation": "**Retentate** — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "choiceNotes": [
-    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "정답 — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피): 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피."
+    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
+    "정답 — 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
+    "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
    ],
    "source": "WK06 PDF p.31",
    "concepts": [
@@ -245,18 +245,18 @@
    "choices": [
     "HCP (Host Cell Protein)",
     "Aggregate (응집체)",
-    "Non-enveloped virus (비외피 바이러스)",
-    "Low pH viral inactivation",
-    "SEC (크기 배제 크로마토그래피)"
+    "Orthogonal (직교) 전략",
+    "Leached Protein A",
+    "Bed height (레진 층 높이)"
    ],
    "answer": 2,
    "explanation": "**Aggregate (응집체)** — 단백질끼리 뭉친 불순물(면역원성 위험).",
    "choiceNotes": [
     "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
     "정답 — 단백질끼리 뭉친 불순물(면역원성 위험).",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
+    "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
+    "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
    ],
    "source": "WK06 PDF p.5",
    "concepts": [
@@ -277,18 +277,18 @@
    ],
    "choices": [
     "DBC (Dynamic Binding Capacity)",
-    "Low pH viral inactivation",
-    "Depth filtration",
-    "PW (Purified Water, 정제수)",
+    "Virus filtration (nanofiltration)",
+    "SEC (크기 배제 크로마토그래피)",
+    "Cassette filter (카세트 필터)",
     "Platform process"
    ],
    "answer": 5,
    "explanation": "**Platform process** — 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "choiceNotes": [
     "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
+    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
+    "틀리다 — Cassette filter (카세트 필터): 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
     "정답 — 여러 항체에 공통으로 쓰는 표준 정제 흐름."
    ],
    "source": "WK06 PDF p.6, p.17–18",
@@ -312,8 +312,8 @@
     "S&D (Solvent/Detergent)",
     "Viral clearance (바이러스 제거능)",
     "Orthogonal (직교) 전략",
-    "UF/DF (한외여과/정용여과)",
-    "HCP (Host Cell Protein)"
+    "NWP (Normalized Water Permeability)",
+    "Linear velocity (선속도)"
    ],
    "answer": 1,
    "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
@@ -321,8 +321,8 @@
     "정답 — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — UF/DF (한외여과/정용여과): 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물."
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
    ],
    "source": "WK06 PDF p.11",
    "concepts": [
@@ -345,8 +345,8 @@
     "S&D (Solvent/Detergent)",
     "Orthogonal (직교) 전략",
     "Virus spiking study (바이러스 제거 검증)",
-    "PW (Purified Water, 정제수)",
-    "DBC (Dynamic Binding Capacity)"
+    "Leached Protein A",
+    "Bed height (레진 층 높이)"
    ],
    "answer": 2,
    "explanation": "**Orthogonal (직교) 전략** — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
@@ -354,8 +354,8 @@
     "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
     "정답 — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
    ],
    "source": "WK06 PDF p.8, p.10, p.15",
    "concepts": [
@@ -377,8 +377,8 @@
    "choices": [
     "Orthogonal (직교) 전략",
     "S&D (Solvent/Detergent)",
-    "Multi-modal chromatography",
-    "AEX (음이온 교환 크로마토그래피)",
+    "Enveloped virus (외피 바이러스)",
+    "PW (Purified Water, 정제수)",
     "Viral clearance (바이러스 제거능)"
    ],
    "answer": 5,
@@ -386,8 +386,8 @@
    "choiceNotes": [
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
-    "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+    "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
+    "틀리다 — PW (Purified Water, 정제수): 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
     "정답 — 정제 공정이 바이러스를 불활화·제거하는 능력."
    ],
    "source": "WK06 PDF p.9",
@@ -410,18 +410,18 @@
    "choices": [
     "Viral clearance (바이러스 제거능)",
     "Orthogonal (직교) 전략",
-    "WFI (Water for Injection, 주사용수)",
+    "Depth filtration",
     "Virus spiking study (바이러스 제거 검증)",
-    "Non-enveloped virus (비외피 바이러스)"
+    "DBC (Dynamic Binding Capacity)"
    ],
    "answer": 4,
    "explanation": "**Virus spiking study (바이러스 제거 검증)** — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
    "choiceNotes": [
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
+    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
     "정답 — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
+    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
    ],
    "source": "WK06 PDF p.8 (일반 원리 보충)",
    "concepts": [
@@ -444,8 +444,8 @@
     "Model virus (모델 바이러스)",
     "Non-enveloped virus (비외피 바이러스)",
     "Enveloped virus (외피 바이러스)",
-    "Clarification (청징)",
-    "Depth filtration"
+    "Multi-modal chromatography",
+    "Low pH viral inactivation"
    ],
    "answer": 3,
    "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
@@ -453,8 +453,8 @@
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "정답 — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-    "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과."
+    "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
+    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -477,8 +477,8 @@
     "Non-enveloped virus (비외피 바이러스)",
     "Enveloped virus (외피 바이러스)",
     "Model virus (모델 바이러스)",
-    "HCP (Host Cell Protein)",
-    "WFI (Water for Injection, 주사용수)"
+    "Clarification (청징)",
+    "Linear velocity (선속도)"
    ],
    "answer": 1,
    "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
@@ -486,8 +486,8 @@
     "정답 — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
-    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수."
+    "틀리다 — Clarification (청징): 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
+    "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
    ],
    "source": "WK06 PDF p.11, p.14",
    "concepts": [
@@ -509,8 +509,8 @@
    "choices": [
     "Enveloped virus (외피 바이러스)",
     "Non-enveloped virus (비외피 바이러스)",
-    "Retentate",
-    "Low pH viral inactivation",
+    "NWP (Normalized Water Permeability)",
+    "HCP (Host Cell Protein)",
     "Model virus (모델 바이러스)"
    ],
    "answer": 5,
@@ -518,8 +518,8 @@
    "choiceNotes": [
     "틀리다 — Enveloped virus (외피 바이러스): 지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
     "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "틀리다 — Retentate: 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
     "정답 — 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스."
    ],
    "source": "WK06 PDF p.13–14",
@@ -532,25 +532,355 @@
    ]
   },
   {
+   "id": "tw06d-057",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지."
+   ],
+   "choices": [
+    "Multi-modal chromatography",
+    "HCP (Host Cell Protein)",
+    "Aggregate (응집체)",
+    "Feed medium (피드 배지)",
+    "Non-enveloped virus (비외피 바이러스)"
+   ],
+   "answer": 4,
+   "explanation": "**Feed medium (피드 배지)** — 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.",
+   "choiceNotes": [
+    "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
+    "틀리다 — HCP (Host Cell Protein): 생산 세포에서 나온 단백질 불순물.",
+    "틀리다 — Aggregate (응집체): 단백질끼리 뭉친 불순물(면역원성 위험).",
+    "정답 — 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
+   ],
+   "source": "WK06 강의 녹음 1:51:08–1:55:17",
+   "concepts": [
+    "Feed medium"
+   ],
+   "tags": [
+    "용어",
+    "Feed medium"
+   ]
+  },
+  {
+   "id": "tw06d-058",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다."
+   ],
+   "choices": [
+    "Cassette filter (카세트 필터)",
+    "Storage solution (보관 용액)",
+    "NWP (Normalized Water Permeability)",
+    "Protein A chromatography",
+    "AEX (음이온 교환 크로마토그래피)"
+   ],
+   "answer": 1,
+   "explanation": "**Cassette filter (카세트 필터)** — 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+   "choiceNotes": [
+    "정답 — 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "틀리다 — Storage solution (보관 용액): 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — Protein A chromatography: 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
+   ],
+   "source": "WK06 강의 녹음 57:45–58:21",
+   "concepts": [
+    "Cassette filter"
+   ],
+   "tags": [
+    "용어",
+    "Cassette filter"
+   ]
+  },
+  {
+   "id": "tw06d-060",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH."
+   ],
+   "choices": [
+    "Over-concentration (과농축)",
+    "Storage solution (보관 용액)",
+    "NWP (Normalized Water Permeability)",
+    "Non-enveloped virus (비외피 바이러스)",
+    "Feed medium (피드 배지)"
+   ],
+   "answer": 2,
+   "explanation": "**Storage solution (보관 용액)** — 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+   "choiceNotes": [
+    "틀리다 — Over-concentration (과농축): 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "정답 — 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
+    "틀리다 — Feed medium (피드 배지): 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지."
+   ],
+   "source": "WK06 강의 녹음 1:06:15–1:06:41, 1:27:32–1:28:13",
+   "concepts": [
+    "Storage solution"
+   ],
+   "tags": [
+    "용어",
+    "Storage solution"
+   ]
+  },
+  {
+   "id": "tw06d-061",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리."
+   ],
+   "choices": [
+    "NWP (Normalized Water Permeability)",
+    "Over-concentration (과농축)",
+    "Sanitization (NaOH 소독)",
+    "Feed medium (피드 배지)",
+    "SIP (Sterilization/Steam In Place)"
+   ],
+   "answer": 3,
+   "explanation": "**Sanitization (NaOH 소독)** — 보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
+   "choiceNotes": [
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — Over-concentration (과농축): 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "정답 — 보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
+    "틀리다 — Feed medium (피드 배지): 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.",
+    "틀리다 — SIP (Sterilization/Steam In Place): 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것."
+   ],
+   "source": "WK06 강의 녹음 1:08:53–1:09:29",
+   "concepts": [
+    "Sanitization"
+   ],
+   "tags": [
+    "용어",
+    "Sanitization"
+   ]
+  },
+  {
+   "id": "tw06d-062",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것."
+   ],
+   "choices": [
+    "Cassette filter (카세트 필터)",
+    "NWP (Normalized Water Permeability)",
+    "Lifecycle study (재사용 수명 검증)",
+    "Over-concentration (과농축)",
+    "Platform process"
+   ],
+   "answer": 4,
+   "explanation": "**Over-concentration (과농축)** — 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+   "choiceNotes": [
+    "틀리다 — Cassette filter (카세트 필터): 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "틀리다 — Lifecycle study (재사용 수명 검증): 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "정답 — 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "틀리다 — Platform process: 여러 항체에 공통으로 쓰는 표준 정제 흐름."
+   ],
+   "source": "WK06 강의 녹음 1:16:41–1:19:49",
+   "concepts": [
+    "Over-concentration"
+   ],
+   "tags": [
+    "용어",
+    "Over-concentration"
+   ]
+  },
+  {
+   "id": "tw06d-064",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것."
+   ],
+   "choices": [
+    "E&L (Extractables & Leachables)",
+    "SIP (Sterilization/Steam In Place)",
+    "Lifecycle study (재사용 수명 검증)",
+    "Over-concentration (과농축)",
+    "SEC (크기 배제 크로마토그래피)"
+   ],
+   "answer": 1,
+   "explanation": "**E&L (Extractables & Leachables)** — 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
+   "choiceNotes": [
+    "정답 — 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
+    "틀리다 — SIP (Sterilization/Steam In Place): 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "틀리다 — Lifecycle study (재사용 수명 검증): 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "틀리다 — Over-concentration (과농축): 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
+   ],
+   "source": "WK06 강의 녹음 1:40:05–1:41:52",
+   "concepts": [
+    "E&L"
+   ],
+   "tags": [
+    "용어",
+    "E&L"
+   ]
+  },
+  {
+   "id": "tw06d-065",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다."
+   ],
+   "choices": [
+    "Lifecycle study (재사용 수명 검증)",
+    "SIP (Sterilization/Steam In Place)",
+    "Leached Protein A",
+    "Bed height (레진 층 높이)",
+    "Cassette filter (카세트 필터)"
+   ],
+   "answer": 3,
+   "explanation": "**Leached Protein A** — 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+   "choiceNotes": [
+    "틀리다 — Lifecycle study (재사용 수명 검증): 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "틀리다 — SIP (Sterilization/Steam In Place): 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "정답 — 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+    "틀리다 — Cassette filter (카세트 필터): 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다."
+   ],
+   "source": "WK06 강의 녹음 1:42:28–1:44:06",
+   "concepts": [
+    "Leached Protein A"
+   ],
+   "tags": [
+    "용어",
+    "Leached Protein A"
+   ]
+  },
+  {
+   "id": "tw06d-066",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구."
+   ],
+   "choices": [
+    "SIP (Sterilization/Steam In Place)",
+    "Lifecycle study (재사용 수명 검증)",
+    "Leached Protein A",
+    "Retentate",
+    "WFI (Water for Injection, 주사용수)"
+   ],
+   "answer": 2,
+   "explanation": "**Lifecycle study (재사용 수명 검증)** — 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+   "choiceNotes": [
+    "틀리다 — SIP (Sterilization/Steam In Place): 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "정답 — 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "틀리다 — Retentate: 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
+    "틀리다 — WFI (Water for Injection, 주사용수): 정제수를 증류해 만든 가장 높은 등급의 공정 용수."
+   ],
+   "source": "WK06 강의 녹음 1:31:00–1:34:10, 1:41:52–1:42:28",
+   "concepts": [
+    "Lifecycle study"
+   ],
+   "tags": [
+    "용어",
+    "Lifecycle study"
+   ]
+  },
+  {
+   "id": "tw06d-067",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
+   ],
+   "choices": [
+    "Bed height (레진 층 높이)",
+    "Aggregate (응집체)",
+    "Non-enveloped virus (비외피 바이러스)",
+    "Cassette filter (카세트 필터)",
+    "Linear velocity (선속도)"
+   ],
+   "answer": 5,
+   "explanation": "**Linear velocity (선속도)** — 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
+   "choiceNotes": [
+    "틀리다 — Bed height (레진 층 높이): 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+    "틀리다 — Aggregate (응집체): 단백질끼리 뭉친 불순물(면역원성 위험).",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
+    "틀리다 — Cassette filter (카세트 필터): 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "정답 — 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
+   ],
+   "source": "WK06 강의 녹음 2:09:22–2:13:48",
+   "concepts": [
+    "Linear velocity"
+   ],
+   "tags": [
+    "용어",
+    "Linear velocity"
+   ]
+  },
+  {
+   "id": "tw06d-068",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+   ],
+   "choices": [
+    "Linear velocity (선속도)",
+    "Protein A chromatography",
+    "E&L (Extractables & Leachables)",
+    "Bed height (레진 층 높이)",
+    "CEX (양이온 교환 크로마토그래피)"
+   ],
+   "answer": 4,
+   "explanation": "**Bed height (레진 층 높이)** — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+   "choiceNotes": [
+    "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
+    "틀리다 — Protein A chromatography: 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "틀리다 — E&L (Extractables & Leachables): 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
+    "정답 — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing."
+   ],
+   "source": "WK06 강의 녹음 2:15:49–2:18:01",
+   "concepts": [
+    "Bed height"
+   ],
+   "tags": [
+    "용어",
+    "Bed height"
+   ]
+  },
+  {
    "id": "tw06r-005",
    "type": "용어",
    "part": 1,
    "question": "「CEX (양이온 교환 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "단백질끼리 뭉친 불순물(면역원성 위험).",
     "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "여러 항체에 공통으로 쓰는 표준 정제 흐름."
+    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+    "회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "정제수를 증류해 만든 가장 높은 등급의 공정 용수."
    ],
-   "answer": 4,
+   "answer": 2,
    "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
    "choiceNotes": [
     "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — Low pH viral inactivation의 설명이다.",
-    "틀리다 — Aggregate (응집체)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Platform process의 설명이다."
+    "틀리다 — Low pH viral inactivation의 설명이다.",
+    "틀리다 — Over-concentration (과농축)의 설명이다.",
+    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
@@ -570,8 +900,8 @@
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-    "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질)."
+    "여러 항체에 공통으로 쓰는 표준 정제 흐름.",
+    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
    ],
    "answer": 1,
    "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
@@ -579,8 +909,8 @@
     "정답 — 이 용어의 정의다.",
     "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
-    "틀리다 — Retentate의 설명이다."
+    "틀리다 — Platform process의 설명이다.",
+    "틀리다 — PW (Purified Water, 정제수)의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
@@ -598,19 +928,19 @@
    "question": "「HIC (소수성 상호작용 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-    "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
+    "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
+    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
+    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험."
    ],
-   "answer": 2,
+   "answer": 3,
    "explanation": "**HIC (소수성 상호작용 크로마토그래피)** — 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation의 설명이다.",
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Clarification (청징)의 설명이다.",
-    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
-    "틀리다 — Orthogonal (직교) 전략의 설명이다."
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Orthogonal (직교) 전략의 설명이다.",
+    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다."
    ],
    "source": "WK06 PDF p.3, p.6",
    "concepts": [
@@ -629,18 +959,18 @@
    "choices": [
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
     "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "정제 공정이 바이러스를 불활화·제거하는 능력.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
+    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**SEC (크기 배제 크로마토그래피)** — 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
     "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
     "틀리다 — Multi-modal chromatography의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
+    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
+    "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
+    "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.6, p.7",
    "concepts": [
@@ -657,20 +987,20 @@
    "part": 1,
    "question": "「UF/DF (한외여과/정용여과)」에 대한 설명으로 옳은 것은?",
    "choices": [
+    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "단백질끼리 뭉친 불순물(면역원성 위험)."
+    "정제 공정이 바이러스를 불활화·제거하는 능력.",
+    "레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다."
    ],
-   "answer": 4,
+   "answer": 1,
    "explanation": "**UF/DF (한외여과/정용여과)** — 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
    "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
     "틀리다 — Clarification (청징)의 설명이다.",
     "틀리다 — AEX (음이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "정답 — 이 용어의 정의다.",
-    "틀리다 — Aggregate (응집체)의 설명이다."
+    "틀리다 — Viral clearance (바이러스 제거능)의 설명이다.",
+    "틀리다 — Leached Protein A의 설명이다."
    ],
    "source": "WK06 PDF p.5, p.18, p.31",
    "concepts": [
@@ -687,20 +1017,20 @@
    "part": 1,
    "question": "「HCP (Host Cell Protein)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "생산 세포에서 나온 단백질 불순물.",
     "단백질끼리 뭉친 불순물(면역원성 위험).",
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "생산 세포에서 나온 단백질 불순물.",
+    "물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
+    "지질 외피가 있어 저 pH·S&D에 약한 바이러스."
    ],
-   "answer": 1,
+   "answer": 2,
    "explanation": "**HCP (Host Cell Protein)** — 생산 세포에서 나온 단백질 불순물.",
    "choiceNotes": [
-    "정답 — 이 용어의 정의다.",
     "틀리다 — Aggregate (응집체)의 설명이다.",
-    "틀리다 — Virus filtration (nanofiltration)의 설명이다.",
-    "틀리다 — Depth filtration의 설명이다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — NWP (Normalized Water Permeability)의 설명이다.",
+    "틀리다 — Linear velocity (선속도)의 설명이다.",
+    "틀리다 — Enveloped virus (외피 바이러스)의 설명이다."
    ],
    "source": "WK06 PDF p.5",
    "concepts": [
@@ -718,19 +1048,19 @@
    "question": "「DBC (Dynamic Binding Capacity)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "여러 항체에 공통으로 쓰는 표준 정제 흐름.",
-    "단백질끼리 뭉친 불순물(면역원성 위험).",
+    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
     "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "생산 세포에서 나온 단백질 불순물.",
-    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
+    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
    "answer": 3,
    "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
    "choiceNotes": [
     "틀리다 — Platform process의 설명이다.",
-    "틀리다 — Aggregate (응집체)의 설명이다.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — HCP (Host Cell Protein)의 설명이다.",
-    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다."
+    "틀리다 — Low pH viral inactivation의 설명이다.",
+    "틀리다 — Orthogonal (직교) 전략의 설명이다."
    ],
    "source": "WK06 PDF p.20",
    "concepts": [
@@ -747,20 +1077,20 @@
    "part": 1,
    "question": "「ICH Q5A (R1)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
+    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
+    "레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
     "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과."
+    "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**ICH Q5A (R1)** — 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
    "choiceNotes": [
-    "틀리다 — Retentate의 설명이다.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다.",
+    "틀리다 — Leached Protein A의 설명이다.",
+    "틀리다 — SIP (Sterilization/Steam In Place)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
-    "틀리다 — Depth filtration의 설명이다."
+    "틀리다 — Linear velocity (선속도)의 설명이다."
    ],
    "source": "WK06 PDF p.9",
    "concepts": [
@@ -778,18 +1108,18 @@
    "question": "「PW (Purified Water, 정제수)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-    "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
+    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+    "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
     "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
    ],
    "answer": 5,
    "explanation": "**PW (Purified Water, 정제수)** — 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
    "choiceNotes": [
     "틀리다 — WFI (Water for Injection, 주사용수)의 설명이다.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다.",
-    "틀리다 — S&D (Solvent/Detergent)의 설명이다.",
+    "틀리다 — Low pH viral inactivation의 설명이다.",
+    "틀리다 — Lifecycle study (재사용 수명 검증)의 설명이다.",
+    "틀리다 — Storage solution (보관 용액)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
    "source": "WK06 PDF p.27 (PW/WFI 계통도)",
@@ -808,19 +1138,19 @@
    "question": "「WFI (Water for Injection, 주사용수)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-    "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
-    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
+    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
     "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
+    "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것."
    ],
-   "answer": 4,
+   "answer": 3,
    "explanation": "**WFI (Water for Injection, 주사용수)** — 정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
    "choiceNotes": [
     "틀리다 — PW (Purified Water, 정제수)의 설명이다.",
-    "틀리다 — HIC (소수성 상호작용 크로마토그래피)의 설명이다.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피)의 설명이다.",
+    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다."
+    "틀리다 — Sanitization (NaOH 소독)의 설명이다.",
+    "틀리다 — SIP (Sterilization/Steam In Place)의 설명이다."
    ],
    "source": "WK06 PDF p.27",
    "concepts": [
@@ -829,6 +1159,66 @@
    "tags": [
     "용어",
     "WFI"
+   ]
+  },
+  {
+   "id": "tw06r-059",
+   "type": "용어",
+   "part": 1,
+   "question": "「NWP (Normalized Water Permeability)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
+    "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피."
+   ],
+   "answer": 1,
+   "explanation": "**NWP (Normalized Water Permeability)** — 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Cassette filter (카세트 필터)의 설명이다.",
+    "틀리다 — Storage solution (보관 용액)의 설명이다.",
+    "틀리다 — Virus spiking study (바이러스 제거 검증)의 설명이다.",
+    "틀리다 — SEC (크기 배제 크로마토그래피)의 설명이다."
+   ],
+   "source": "WK06 강의 녹음 1:20:52–1:26:03",
+   "concepts": [
+    "NWP"
+   ],
+   "tags": [
+    "용어",
+    "NWP"
+   ]
+  },
+  {
+   "id": "tw06r-063",
+   "type": "용어",
+   "part": 1,
+   "question": "「SIP (Sterilization/Steam In Place)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
+    "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계."
+   ],
+   "answer": 2,
+   "explanation": "**SIP (Sterilization/Steam In Place)** — 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+   "choiceNotes": [
+    "틀리다 — E&L (Extractables & Leachables)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Lifecycle study (재사용 수명 검증)의 설명이다.",
+    "틀리다 — DBC (Dynamic Binding Capacity)의 설명이다.",
+    "틀리다 — UF/DF (한외여과/정용여과)의 설명이다."
+   ],
+   "source": "WK06 강의 녹음 59:06–1:01:55",
+   "concepts": [
+    "SIP"
+   ],
+   "tags": [
+    "용어",
+    "SIP"
    ]
   },
   {
@@ -844,18 +1234,18 @@
    ],
    "choices": [
     "(가)-D  (나)-A  (다)-B  (라)-C",
-    "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-D  (나)-A  (다)-C  (라)-B",
     "(가)-A  (나)-D  (다)-B  (라)-C"
    ],
-   "answer": 2,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **Clarification (청징)** → D. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.\n(나) **Depth filtration** → A. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.\n(다) **Protein A chromatography** → C. 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.\n(라) **Low pH viral inactivation** → B. 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
    "choiceNotes": [
     "틀리다 — (다) Protein A chromatography의 설명은 C, (라) Low pH viral inactivation의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Clarification의 설명은 D, (다) Protein A chromatography의 설명은 C",
     "틀리다 — (가) Clarification의 설명은 D, (라) Low pH viral inactivation의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Clarification의 설명은 D, (나) Depth filtration의 설명은 A, (다) Protein A chromatography의 설명은 C, (라) Low pH viral inactivation의 설명은 B"
    ],
    "source": "WK06 PDF p.3, p.18 · WK06 PDF p.5, p.19 · WK06 PDF p.5, p.18–19 · WK06 PDF p.11, p.15",
@@ -882,20 +1272,20 @@
     "D. 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피."
    ],
    "choices": [
-    "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-A  (나)-B  (다)-D  (라)-C",
     "(가)-A  (나)-C  (다)-B  (라)-D",
-    "(가)-C  (나)-A  (다)-B  (라)-D"
+    "(가)-C  (나)-A  (다)-B  (라)-D",
+    "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
-   "answer": 1,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **CEX (양이온 교환 크로마토그래피)** → A. 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.\n(나) **AEX (음이온 교환 크로마토그래피)** → C. 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.\n(다) **HIC (소수성 상호작용 크로마토그래피)** → D. 고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.\n(라) **SEC (크기 배제 크로마토그래피)** → B. 분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) AEX의 설명은 C, (다) HIC의 설명은 D",
     "틀리다 — (나) AEX의 설명은 C, (라) SEC의 설명은 B",
     "틀리다 — (다) HIC의 설명은 D, (라) SEC의 설명은 B",
-    "틀리다 — (가) CEX의 설명은 A, (나) AEX의 설명은 C, (다) HIC의 설명은 D, (라) SEC의 설명은 B"
+    "틀리다 — (가) CEX의 설명은 A, (나) AEX의 설명은 C, (다) HIC의 설명은 D, (라) SEC의 설명은 B",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK06 PDF p.5, p.18 · WK06 PDF p.3, p.6 · WK06 PDF p.6, p.7",
    "concepts": [
@@ -921,18 +1311,18 @@
     "D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "choices": [
+    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-A  (나)-C  (다)-D  (라)-B",
     "(가)-D  (나)-A  (다)-C  (라)-B",
-    "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 3,
+   "answer": 1,
    "explanation": "**용어와 설명의 짝**\n(가) **Multi-modal chromatography** → A. 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.\n(나) **Virus filtration (nanofiltration)** → D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.\n(다) **UF/DF (한외여과/정용여과)** → C. 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.\n(라) **Retentate** → B. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Virus filtration의 설명은 D, (다) UF/DF의 설명은 C",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (나) Virus filtration의 설명은 D",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (라) Retentate의 설명은 B",
     "틀리다 — (가) Multi-modal chromatography의 설명은 A, (나) Virus filtration의 설명은 D, (다) UF/DF의 설명은 C, (라) Retentate의 설명은 B"
    ],
@@ -999,19 +1389,19 @@
     "D. 단백질끼리 뭉친 불순물(면역원성 위험)."
    ],
    "choices": [
-    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-A  (나)-D  (다)-C  (라)-B",
     "(가)-B  (나)-D  (다)-A  (라)-C",
     "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-B  (나)-D  (다)-C  (라)-A",
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
-   "answer": 1,
+   "answer": 4,
    "explanation": "**용어와 설명의 짝**\n(가) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(나) **Aggregate (응집체)** → D. 단백질끼리 뭉친 불순물(면역원성 위험).\n(다) **DBC (Dynamic Binding Capacity)** → C. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n(라) **Platform process** → A. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "choiceNotes": [
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) HCP의 설명은 B, (라) Platform process의 설명은 A",
     "틀리다 — (다) DBC의 설명은 C, (라) Platform process의 설명은 A",
     "틀리다 — (나) Aggregate의 설명은 D, (라) Platform process의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) HCP의 설명은 B, (나) Aggregate의 설명은 D, (다) DBC의 설명은 C, (라) Platform process의 설명은 A"
    ],
    "source": "WK06 PDF p.5 · WK06 PDF p.20 · WK06 PDF p.6, p.17–18",
@@ -1156,19 +1546,19 @@
    ],
    "choices": [
     "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-C  (나)-A  (다)-D  (라)-B",
     "(가)-C  (나)-B  (다)-D  (라)-A",
     "(가)-B  (나)-A  (다)-D  (라)-C",
-    "(가)-A  (나)-C  (다)-B  (라)-D",
-    "(가)-C  (나)-A  (다)-D  (라)-B"
+    "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
-   "answer": 5,
+   "answer": 2,
    "explanation": "**용어와 설명의 짝**\n(가) **Enveloped virus (외피 바이러스)** → C. 지질 외피가 있어 저 pH·S&D에 약한 바이러스.\n(나) **Non-enveloped virus (비외피 바이러스)** → A. 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.\n(다) **Model virus (모델 바이러스)** → D. 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.\n(라) **PW (Purified Water, 정제수)** → B. 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
    "choiceNotes": [
     "틀리다 — (가) Enveloped virus의 설명은 C, (나) Non-enveloped virus의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Non-enveloped virus의 설명은 A, (라) PW의 설명은 B",
     "틀리다 — (가) Enveloped virus의 설명은 C, (라) PW의 설명은 B",
-    "틀리다 — (가) Enveloped virus의 설명은 C, (나) Non-enveloped virus의 설명은 A, (다) Model virus의 설명은 D, (라) PW의 설명은 B",
-    "정답 — 네 쌍 모두 옳다."
+    "틀리다 — (가) Enveloped virus의 설명은 C, (나) Non-enveloped virus의 설명은 A, (다) Model virus의 설명은 D, (라) PW의 설명은 B"
    ],
    "source": "WK06 PDF p.11, p.15 · WK06 PDF p.11, p.14 · WK06 PDF p.13–14 · WK06 PDF p.27 (PW/WFI 계통도)",
    "concepts": [
@@ -1196,18 +1586,18 @@
    "choices": [
     "(가)-C  (나)-A  (다)-B  (라)-D",
     "(가)-D  (나)-B  (다)-A  (라)-C",
-    "(가)-D  (나)-A  (다)-B  (라)-C",
     "(가)-D  (나)-C  (다)-B  (라)-A",
-    "(가)-A  (나)-D  (다)-C  (라)-B"
+    "(가)-A  (나)-D  (다)-C  (라)-B",
+    "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
-   "answer": 3,
+   "answer": 5,
    "explanation": "**용어와 설명의 짝**\n(가) **PW (Purified Water, 정제수)** → D. 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).\n(나) **WFI (Water for Injection, 주사용수)** → A. 정제수를 증류해 만든 가장 높은 등급의 공정 용수.\n(다) **Enveloped virus (외피 바이러스)** → B. 지질 외피가 있어 저 pH·S&D에 약한 바이러스.\n(라) **Non-enveloped virus (비외피 바이러스)** → C. 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
    "choiceNotes": [
     "틀리다 — (가) PW의 설명은 D, (라) Non-enveloped virus의 설명은 C",
     "틀리다 — (나) WFI의 설명은 A, (다) Enveloped virus의 설명은 B",
-    "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) WFI의 설명은 A, (라) Non-enveloped virus의 설명은 C",
-    "틀리다 — (가) PW의 설명은 D, (나) WFI의 설명은 A, (다) Enveloped virus의 설명은 B, (라) Non-enveloped virus의 설명은 C"
+    "틀리다 — (가) PW의 설명은 D, (나) WFI의 설명은 A, (다) Enveloped virus의 설명은 B, (라) Non-enveloped virus의 설명은 C",
+    "정답 — 네 쌍 모두 옳다."
    ],
    "source": "WK06 PDF p.27 (PW/WFI 계통도) · WK06 PDF p.27 · WK06 PDF p.11, p.15 · WK06 PDF p.11, p.14",
    "concepts": [
@@ -1215,6 +1605,201 @@
     "WFI",
     "Enveloped virus",
     "Non-enveloped virus"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "tw06m-057-058-059-060",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Feed medium (피드 배지)\n(나) Cassette filter (카세트 필터)\n(다) NWP (Normalized Water Permeability)\n(라) Storage solution (보관 용액)",
+   "box": [
+    "A. 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "B. 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.",
+    "C. 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
+    "D. 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH."
+   ],
+   "choices": [
+    "(가)-B  (나)-A  (다)-C  (라)-D",
+    "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-B  (나)-A  (다)-D  (라)-C",
+    "(가)-A  (나)-B  (다)-D  (라)-C"
+   ],
+   "answer": 1,
+   "explanation": "**용어와 설명의 짝**\n(가) **Feed medium (피드 배지)** → B. 세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.\n(나) **Cassette filter (카세트 필터)** → A. 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.\n(다) **NWP (Normalized Water Permeability)** → C. 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.\n(라) **Storage solution (보관 용액)** → D. 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+   "choiceNotes": [
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Feed medium의 설명은 B, (라) Storage solution의 설명은 D",
+    "틀리다 — (나) Cassette filter의 설명은 A, (라) Storage solution의 설명은 D",
+    "틀리다 — (다) NWP의 설명은 C, (라) Storage solution의 설명은 D",
+    "틀리다 — (가) Feed medium의 설명은 B, (나) Cassette filter의 설명은 A, (다) NWP의 설명은 C, (라) Storage solution의 설명은 D"
+   ],
+   "source": "WK06 강의 녹음 1:51:08–1:55:17 · WK06 강의 녹음 57:45–58:21 · WK06 강의 녹음 1:20:52–1:26:03 · WK06 강의 녹음 1:06:15–1:06:41, 1:27:32–1:28:13",
+   "concepts": [
+    "Feed medium",
+    "Cassette filter",
+    "NWP",
+    "Storage solution"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "tw06m-058-059-060-061",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Cassette filter (카세트 필터)\n(나) NWP (Normalized Water Permeability)\n(다) Storage solution (보관 용액)\n(라) Sanitization (NaOH 소독)",
+   "box": [
+    "A. 보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
+    "B. 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
+    "C. 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
+    "D. 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다."
+   ],
+   "choices": [
+    "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-C  (나)-D  (다)-A  (라)-B",
+    "(가)-C  (나)-D  (다)-B  (라)-A",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
+    "(가)-D  (나)-C  (다)-A  (라)-B"
+   ],
+   "answer": 3,
+   "explanation": "**용어와 설명의 짝**\n(가) **Cassette filter (카세트 필터)** → C. 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.\n(나) **NWP (Normalized Water Permeability)** → D. 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.\n(다) **Storage solution (보관 용액)** → B. 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.\n(라) **Sanitization (NaOH 소독)** → A. 보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
+   "choiceNotes": [
+    "틀리다 — (가) Cassette filter의 설명은 C, (다) Storage solution의 설명은 B",
+    "틀리다 — (다) Storage solution의 설명은 B, (라) Sanitization의 설명은 A",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) Cassette filter의 설명은 C, (나) NWP의 설명은 D",
+    "틀리다 — (가) Cassette filter의 설명은 C, (나) NWP의 설명은 D, (다) Storage solution의 설명은 B, (라) Sanitization의 설명은 A"
+   ],
+   "source": "WK06 강의 녹음 57:45–58:21 · WK06 강의 녹음 1:20:52–1:26:03 · WK06 강의 녹음 1:06:15–1:06:41, 1:27:32–1:28:13 · WK06 강의 녹음 1:08:53–1:09:29",
+   "concepts": [
+    "Cassette filter",
+    "NWP",
+    "Storage solution",
+    "Sanitization"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "tw06m-062-063-064-065",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Over-concentration (과농축)\n(나) SIP (Sterilization/Steam In Place)\n(다) E&L (Extractables & Leachables)\n(라) Leached Protein A",
+   "box": [
+    "A. 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "B. 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.",
+    "C. 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "D. 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것."
+   ],
+   "choices": [
+    "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-B  (나)-D  (다)-C  (라)-A",
+    "(가)-D  (나)-C  (다)-B  (라)-A",
+    "(가)-C  (나)-B  (다)-A  (라)-D",
+    "(가)-B  (나)-C  (다)-D  (라)-A"
+   ],
+   "answer": 5,
+   "explanation": "**용어와 설명의 짝**\n(가) **Over-concentration (과농축)** → B. 회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것.\n(나) **SIP (Sterilization/Steam In Place)** → C. 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.\n(다) **E&L (Extractables & Leachables)** → D. 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.\n(라) **Leached Protein A** → A. 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+   "choiceNotes": [
+    "틀리다 — (가) Over-concentration의 설명은 B, (라) Leached Protein A의 설명은 A",
+    "틀리다 — (나) SIP의 설명은 C, (다) E&L의 설명은 D",
+    "틀리다 — (가) Over-concentration의 설명은 B, (다) E&L의 설명은 D",
+    "틀리다 — (가) Over-concentration의 설명은 B, (나) SIP의 설명은 C, (다) E&L의 설명은 D, (라) Leached Protein A의 설명은 A",
+    "정답 — 네 쌍 모두 옳다."
+   ],
+   "source": "WK06 강의 녹음 1:16:41–1:19:49 · WK06 강의 녹음 59:06–1:01:55 · WK06 강의 녹음 1:40:05–1:41:52 · WK06 강의 녹음 1:42:28–1:44:06",
+   "concepts": [
+    "Over-concentration",
+    "SIP",
+    "E&L",
+    "Leached Protein A"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "tw06m-063-064-065-066",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) SIP (Sterilization/Steam In Place)\n(나) E&L (Extractables & Leachables)\n(다) Leached Protein A\n(라) Lifecycle study (재사용 수명 검증)",
+   "box": [
+    "A. 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
+    "B. 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
+    "C. 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
+    "D. 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구."
+   ],
+   "choices": [
+    "(가)-D  (나)-B  (다)-C  (라)-A",
+    "(가)-A  (나)-B  (다)-D  (라)-C",
+    "(가)-A  (나)-C  (다)-B  (라)-D",
+    "(가)-A  (나)-B  (다)-C  (라)-D",
+    "(가)-B  (나)-A  (다)-D  (라)-C"
+   ],
+   "answer": 4,
+   "explanation": "**용어와 설명의 짝**\n(가) **SIP (Sterilization/Steam In Place)** → A. 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.\n(나) **E&L (Extractables & Leachables)** → B. 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.\n(다) **Leached Protein A** → C. 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.\n(라) **Lifecycle study (재사용 수명 검증)** → D. 레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
+   "choiceNotes": [
+    "틀리다 — (가) SIP의 설명은 A, (라) Lifecycle study의 설명은 D",
+    "틀리다 — (다) Leached Protein A의 설명은 C, (라) Lifecycle study의 설명은 D",
+    "틀리다 — (나) E&L의 설명은 B, (다) Leached Protein A의 설명은 C",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (가) SIP의 설명은 A, (나) E&L의 설명은 B, (다) Leached Protein A의 설명은 C, (라) Lifecycle study의 설명은 D"
+   ],
+   "source": "WK06 강의 녹음 59:06–1:01:55 · WK06 강의 녹음 1:40:05–1:41:52 · WK06 강의 녹음 1:42:28–1:44:06 · WK06 강의 녹음 1:31:00–1:34:10, 1:41:52–1:42:28",
+   "concepts": [
+    "SIP",
+    "E&L",
+    "Leached Protein A",
+    "Lifecycle study"
+   ],
+   "tags": [
+    "용어",
+    "짝짓기"
+   ]
+  },
+  {
+   "id": "tw06m-067-068-001-002",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Linear velocity (선속도)\n(나) Bed height (레진 층 높이)\n(다) Clarification (청징)\n(라) Depth filtration",
+   "box": [
+    "A. 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
+    "B. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
+    "C. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
+    "D. 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+   ],
+   "choices": [
+    "(가)-A  (나)-D  (다)-B  (라)-C",
+    "(가)-A  (나)-D  (다)-C  (라)-B",
+    "(가)-A  (나)-C  (다)-D  (라)-B",
+    "(가)-D  (나)-A  (다)-C  (라)-B",
+    "(가)-D  (나)-A  (다)-B  (라)-C"
+   ],
+   "answer": 2,
+   "explanation": "**용어와 설명의 짝**\n(가) **Linear velocity (선속도)** → A. 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.\n(나) **Bed height (레진 층 높이)** → D. 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.\n(다) **Clarification (청징)** → C. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.\n(라) **Depth filtration** → B. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
+   "choiceNotes": [
+    "틀리다 — (다) Clarification의 설명은 C, (라) Depth filtration의 설명은 B",
+    "정답 — 네 쌍 모두 옳다.",
+    "틀리다 — (나) Bed height의 설명은 D, (다) Clarification의 설명은 C",
+    "틀리다 — (가) Linear velocity의 설명은 A, (나) Bed height의 설명은 D",
+    "틀리다 — (가) Linear velocity의 설명은 A, (나) Bed height의 설명은 D, (다) Clarification의 설명은 C, (라) Depth filtration의 설명은 B"
+   ],
+   "source": "WK06 강의 녹음 2:09:22–2:13:48 · WK06 강의 녹음 2:15:49–2:18:01 · WK06 PDF p.3, p.18 · WK06 PDF p.5, p.19",
+   "concepts": [
+    "Linear velocity",
+    "Bed height",
+    "Clarification",
+    "Depth filtration"
    ],
    "tags": [
     "용어",

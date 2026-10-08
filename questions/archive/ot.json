@@ -1,8 +1,64 @@
 {
   "week": "OT",
   "title": "Introduction to Design Project (공정 설계·경제성) — 보관(출제 안 함)",
-  "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
+  "note": "1주차(OT)는 시험 범위가 아니라서 단원 전체를 보관했다(2026.10.07, 사용자 요청). 앞서 지엽적이라 걸러 낸 ot-003·004도 함께 있다. index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 questions/ot.json으로 옮기고 index.json에 다시 넣는다.",
   "questions": [
+    {
+      "id": "ot-001",
+      "type": "연결",
+      "question": "공정 단계와 그 단계에서 하는 품질 시험의 연결로 옳지 않은 것은?",
+      "choices": [
+        "세포 증식(seed) – 살아 있는 세포 수 확인",
+        "세포은행 – 마이코플라스마 시험",
+        "세포 증식(seed) – 출하용 무균시험만 하고 완제는 안 함",
+        "수확한 배양액 – 미생물·바이러스 검사",
+        "완제 충전 – 무균시험"
+      ],
+      "answer": 3,
+      "explanation": "**무균시험(Sterility Testing)은 완제 충전(Filling) 단계에서 한다.** OT 도식의 단계별 QC: seed 증식은 세포 수·대사물, 세포은행·배지·수확액은 마이코플라스마, 수확액은 bioburden·바이러스 분석, 완제는 무균시험.",
+      "choiceNotes": [
+        "옳은 진술 — 생존율·세포 수, 대사물 측정.",
+        "옳은 진술 — 세포은행은 마이코플라스마·특성 시험.",
+        "틀린 진술(정답) — 무균시험은 완제 단계에서 한다.",
+        "옳은 진술 — 마이코플라스마·bioburden·바이러스 분석.",
+        "옳은 진술 — 무균시험은 완제(Filling) 단계에서 한다."
+      ],
+      "source": "OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit)",
+      "tags": [
+        "QC by unit",
+        "Sterility testing",
+        "Mycoplasma"
+      ],
+      "part": 2
+    },
+    {
+      "id": "ot-002",
+      "type": "개념",
+      "question": "공장 생산 일정(스케줄)을 짤 때의 설명으로 옳은 것은?",
+      "choices": [
+        "GMP·밸리데이션 때문에 멈추는 기간도 일정에 넣어야 한다.",
+        "365일 쉬지 않고 돌리는 것이 항상 최선이다.",
+        "배양과 정제는 걸리는 시간이 같다.",
+        "배양 1배치는 항상 정제 1배치와 짝이 맞는다.",
+        "장비·인력 가동률은 생각하지 않아도 된다."
+      ],
+      "answer": 1,
+      "explanation": "**공장은 365일 쉬지 않고 돌리는 것이 아니라, GMP·공정 밸리데이션 기간을 고려해 언제·얼마나 멈출지 정해야 한다.** Scheduling 슬라이드: 배양 >>> 정제(배양 1 batch ≠ 정제 1 batch), 장비·인력 가동률을 최대로.",
+      "choiceNotes": [
+        "옳다 — 언제·얼마나 멈출지 계획한다.",
+        "틀리다 — 규제상 멈추는 기간이 필요하다.",
+        "틀리다 — 배양이 정제보다 훨씬 길다.",
+        "틀리다 — 배양 1 batch ≠ 정제 1 batch.",
+        "틀리다 — 가동률을 최대로 하는 것이 목표다."
+      ],
+      "source": "OT PDF p.23 (Example – Scheduling)",
+      "tags": [
+        "Scheduling",
+        "Process validation",
+        "가동률"
+      ],
+      "part": 1
+    },
     {
       "id": "ot-003",
       "type": "개념",
@@ -59,6 +115,88 @@
         "ROI"
       ],
       "part": 1
+    },
+    {
+      "id": "ot-005",
+      "type": "개념",
+      "question": "Upstream(배양) 단계를 순서대로 바르게 나열한 것은?",
+      "choices": [
+        "생산 배양 → seed 배양 → 배지 준비 → 스케일업",
+        "seed 배양 → 생산 배양 → 배지 준비 → 크로마토그래피",
+        "배지 준비 → 생산 배양 → seed 배양 → 충전",
+        "스케일업 → 배지 준비 → 원심분리 → seed 배양",
+        "배지 준비 → seed 배양 → 스케일업 → 생산 배양 → 원심분리"
+      ],
+      "answer": 5,
+      "explanation": "**Upstream: 배지 준비 → seed 배양 → 스케일업 → 생산 배양 → 원심분리·청징(clarification).** 그 뒤 Downstream(크로마토그래피·바이러스 제거·농축·무균 여과·동결)으로 이어진다.",
+      "choiceNotes": [
+        "틀리다 — 순서가 뒤집혔다.",
+        "틀리다 — 크로마토그래피는 정제(Downstream)다.",
+        "틀리다 — 충전은 완제 단계다.",
+        "틀리다 — 순서가 맞지 않는다.",
+        "옳다."
+      ],
+      "source": "OT PDF p.2 (Bioprocess) · WK02 PDF p.15 (Overview the Stream for Bioprocessing)",
+      "tags": [
+        "Bioprocess",
+        "Upstream",
+        "Downstream"
+      ],
+      "part": 1
+    },
+    {
+      "id": "ot-007",
+      "type": "연결",
+      "question": "CAPEX와 OPEX의 구분으로 옳은 것은?",
+      "choices": [
+        "공장 건설비는 CAPEX, 원료·인건비는 OPEX",
+        "공장 건설비는 OPEX, 원료·인건비는 CAPEX",
+        "둘 다 처음에 한 번만 드는 비용이다",
+        "둘 다 운영하는 동안 계속 드는 비용이다",
+        "장비 구매비는 OPEX에 넣는다"
+      ],
+      "answer": 1,
+      "explanation": "**CAPEX는 공장 건설·장비 구매처럼 처음에 크게 드는 투자비, OPEX는 원료·소모품·유틸리티·인건비처럼 운영하는 동안 계속 드는 비용이다.** 텀 프로젝트에서는 둘을 추산해 ROI로 사업 진행(Go)·중단(Stop)을 판단한다.",
+      "choiceNotes": [
+        "옳다.",
+        "틀리다 — 반대로 말했다.",
+        "틀리다 — OPEX는 운영 중 계속 든다.",
+        "틀리다 — CAPEX는 처음에 크게 한 번 든다.",
+        "틀리다 — 장비 구매비는 CAPEX다."
+      ],
+      "source": "OT PDF p.13, p.27 (CAPEX·OPEX·ROI)",
+      "tags": [
+        "CAPEX",
+        "OPEX"
+      ],
+      "part": 2
+    },
+    {
+      "id": "ot-008",
+      "type": "연결",
+      "question": "BFD와 PFD의 차이로 옳은 것은?",
+      "choices": [
+        "BFD가 PFD보다 더 자세한 도면이다",
+        "BFD는 단계만 블록으로, PFD는 흐름·장비까지 그린다",
+        "PFD에는 장비를 표시하지 않는다",
+        "BFD는 배관·밸브까지 그린 도면이다",
+        "두 도면은 같은 것을 부르는 이름이다"
+      ],
+      "answer": 2,
+      "explanation": "**BFD는 주요 공정 단계를 블록으로만 그린 가장 간단한 공정도이고, PFD는 물질수지·물질 흐름과 사용 장비까지 표시한 공정 흐름도다.** 배관·밸브·계측기까지 그린 상세 도면은 P&ID다(WK07).",
+      "choiceNotes": [
+        "틀리다 — BFD가 가장 간단한 개략도다.",
+        "옳다.",
+        "틀리다 — PFD는 사용 장비를 함께 표시한다.",
+        "틀리다 — 배관·밸브까지 그린 것은 P&ID다.",
+        "틀리다."
+      ],
+      "source": "OT PDF p.13, p.20 · WK07 PDF p.27–28",
+      "tags": [
+        "BFD",
+        "PFD"
+      ],
+      "part": 2
     }
   ]
 }
