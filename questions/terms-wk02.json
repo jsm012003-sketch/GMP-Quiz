@@ -768,7 +768,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
+    "마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
    ],
    "choices": [
     "N-1 perfusion high inoculum fed-batch",
@@ -778,10 +778,10 @@
     "Suspension cell (부유 세포)"
    ],
    "answer": 1,
-   "explanation": "**N-1 perfusion high inoculum fed-batch** — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n본배양 운전 방식은 그대로라 허가 측면 변경 부담이 적다.",
+   "explanation": "**N-1 perfusion high inoculum fed-batch** — 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n본배양 운전 방식은 그대로라 허가 측면 변경 부담이 적다.",
    "choiceNotes": [
-    "정답 — 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
-    "틀리다 — Process intensification (PI, 공정 강화): 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
+    "정답 — 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
+    "틀리다 — Process intensification (PI, 공정 강화): 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — HSC (조혈모 줄기세포): 모든 혈액 세포를 만들어 내는 줄기세포.",
     "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체.",
     "틀리다 — Suspension cell (부유 세포): 표면에 붙지 않고 배지 속에 떠서 자라는 세포."
@@ -801,7 +801,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략."
+    "고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략."
    ],
    "choices": [
     "N-1 perfusion high inoculum fed-batch",
@@ -811,11 +811,11 @@
     "CAR-T"
    ],
    "answer": 3,
-   "explanation": "**Process intensification (PI, 공정 강화)** — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
+   "explanation": "**Process intensification (PI, 공정 강화)** — 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
    "choiceNotes": [
-    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
+    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "틀리다 — Diagnostic analytics: '왜 일어났나?'에 답하는 분석.",
-    "정답 — 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
+    "정답 — 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
     "틀리다 — CAR-T: 환자 T세포에 암을 알아보는 수용체 유전자를 넣은 면역세포치료제."
    ],
@@ -1180,7 +1180,7 @@
     "틀리다 — Lactate (젖산): 포도당 대사로 쌓여 pH를 낮추는 대사산물.",
     "틀리다 — Ammonium (암모늄): 글루타민 대사로 쌓이는 독성 노폐물.",
     "틀리다 — CPP (Critical Process Parameter): 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
-    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
+    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략."
    ],
    "source": "WK02 PDF p.47",
    "concepts": [
@@ -1574,7 +1574,7 @@
    "choiceNotes": [
     "틀리다 — Design space (설계 공간): 품질이 보증된다고 입증된 공정 조건의 범위.",
     "틀리다 — Set point (설정값): 제어 시스템이 맞추려는 목표 운전값.",
-    "틀리다 — Process intensification (PI, 공정 강화): 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
+    "틀리다 — Process intensification (PI, 공정 강화): 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
     "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "정답 — 원료·공정 변수·IPC·규격을 어떻게 관리할지 정한 계획."
    ],
@@ -1639,7 +1639,7 @@
    "explanation": "**Scale-up** — 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
    "choiceNotes": [
     "틀리다 — Scale-down model (SDM): 생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.",
-    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
+    "틀리다 — N-1 perfusion high inoculum fed-batch: 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "틀리다 — Microcarrier: 부착 세포를 붙여 배지 속에 띄워 키우는 작은 구슬.",
     "정답 — 소규모 공정 조건을 대형 배양기로 옮겨도 같은 결과가 나오게 하는 것.",
     "틀리다 — CHO 세포: 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
@@ -2190,7 +2190,7 @@
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단",
     "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작",
     "세포주 개발 직후 만든 연구용 세포은행",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략",
+    "마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략",
     "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수"
    ],
    "answer": 3,
@@ -2219,7 +2219,7 @@
    "choices": [
     "생산이 끝난 시점의 세포 — 세포가 변하지 않았는지 확인용",
     "목표 물질을 안정적으로 만들도록 골라낸, 한 세포에서 나온 세포 집단",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략",
+    "마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략",
     "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행",
     "축과 날개로 배양액을 섞는 교반형 배양기"
    ],
@@ -2671,7 +2671,7 @@
     "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등)",
     "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념",
     "항원 유전자를 아데노바이러스 등에 실어 만든 백신",
-    "마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략"
+    "마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략"
    ],
    "answer": 2,
    "explanation": "**CPP (Critical Process Parameter)** — 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).",
@@ -3345,8 +3345,8 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) N-1 perfusion high inoculum fed-batch\n(나) Process intensification (PI, 공정 강화)\n(다) ATF (Alternating Tangential Flow)\n(라) Lag phase (유도기)",
    "box": [
-    "A. 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
-    "B. 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
+    "A. 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.",
+    "B. 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.",
     "C. 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
     "D. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기."
    ],
@@ -3358,7 +3358,7 @@
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **N-1 perfusion high inoculum fed-batch** → B. 마지막 seed를 관류로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n(나) **Process intensification (PI, 공정 강화)** → A. 고밀도·관류 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.\n(다) **ATF (Alternating Tangential Flow)** → C. 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.\n(라) **Lag phase (유도기)** → D. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
+   "explanation": "**용어와 설명의 짝**\n(가) **N-1 perfusion high inoculum fed-batch** → B. 마지막 seed를 perfusion으로 고밀도로 키워 본배양을 높은 밀도로 시작하는 전략.\n(나) **Process intensification (PI, 공정 강화)** → A. 고밀도·perfusion 등으로 생산성을 높여 설비·면적·원가를 줄이는 전략.\n(다) **ATF (Alternating Tangential Flow)** → C. 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.\n(라) **Lag phase (유도기)** → D. 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
    "choiceNotes": [
     "틀리다 — (가) N-1 perfusion high inoculum fed-batch의 설명은 B, (다) ATF의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",

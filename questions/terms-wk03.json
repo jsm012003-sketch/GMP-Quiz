@@ -287,7 +287,7 @@
    "choiceNotes": [
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
     "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
-    "틀리다 — Loading: 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "정답 — 마지막에 남은 미량 불순물을 없애는 단계.",
     "틀리다 — Group separation: 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC."
    ],
@@ -417,7 +417,7 @@
    "answer": 5,
    "explanation": "**Binding capacity (결합 용량)** — 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
    "choiceNotes": [
-    "틀리다 — Loading: 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "틀리다 — Step elution: 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
     "틀리다 — Total volume (Vt): 가장 작은 분자가 마지막에 나오는 부피.",
     "틀리다 — Ligand: 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
@@ -438,7 +438,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계."
+    "Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계."
    ],
    "choices": [
     "Flow-through mode",
@@ -448,12 +448,12 @@
     "MMC (Multimodal Chromatography)"
    ],
    "answer": 4,
-   "explanation": "**Loading** — 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+   "explanation": "**Loading** — Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
    "choiceNotes": [
     "틀리다 — Flow-through mode: 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "틀리다 — Binding capacity (결합 용량): 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
     "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장.",
-    "정답 — 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "정답 — Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "틀리다 — MMC (Multimodal Chromatography): 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진."
    ],
    "source": "WK03 강의 녹음 10:07",
@@ -517,7 +517,7 @@
    "explanation": "**Linear gradient** — 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
    "choiceNotes": [
     "틀리다 — Elution (용출): 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
-    "틀리다 — Loading: 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "정답 — 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
     "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진."
@@ -550,7 +550,7 @@
    "explanation": "**Step elution** — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
    "choiceNotes": [
     "정답 — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
-    "틀리다 — Loading: 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "틀리다 — Bind-elute mode: 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "틀리다 — SDS-PAGE: 단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
     "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm."
@@ -685,7 +685,7 @@
     "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
     "틀리다 — Void volume (V0): 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
     "틀리다 — Bradford·Lowry·BCA assay: 정제한 단백질의 농도를 재는 방법들.",
-    "틀리다 — Loading: 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계."
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계."
    ],
    "source": "WK03 강의 녹음 56:26–58:33",
    "concepts": [
@@ -1326,7 +1326,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bind-elute mode\n(나) Flow-through mode\n(다) Binding capacity (결합 용량)\n(라) Loading",
    "box": [
-    "A. 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "A. Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
@@ -1339,7 +1339,7 @@
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode** → B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(나) **Flow-through mode** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading** → A. 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode** → B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(나) **Flow-through mode** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading** → A. Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
    "choiceNotes": [
     "틀리다 — (가) Bind-elute mode의 설명은 B, (나) Flow-through mode의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",

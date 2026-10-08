@@ -42,7 +42,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
    ],
    "choices": [
     "Continuous centrifuge (연속 원심분리기)",
@@ -52,13 +52,13 @@
     "Wetting agent"
    ],
    "answer": 4,
-   "explanation": "**Product-related impurity (제품 유래 불순물)** — 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
    "choiceNotes": [
     "틀리다 — Continuous centrifuge (연속 원심분리기): load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
     "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
     "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
-    "정답 — 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
-    "틀리다 — Wetting agent: 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물)."
+    "정답 — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물)."
    ],
    "source": "WK04 PDF p.9 (Impurities)",
    "concepts": [
@@ -255,7 +255,7 @@
     "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "틀리다 — Intracellular product (세포 내 산물): 세포 안에 쌓이는 산물 — 미생물에서 흔하다.",
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "정답 — 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것."
    ],
    "source": "WK04 PDF p.13 (IB Process)",
@@ -388,7 +388,7 @@
     "정답 — 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.",
     "틀리다 — BCT (Bacteria Challenge Test): 막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험.",
     "틀리다 — Bubble point test (기포점 시험): 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
-    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식."
+    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식."
    ],
    "source": "WK04 PDF p.23, p.39",
    "concepts": [
@@ -520,7 +520,7 @@
     "틀리다 — MWCO (Molecular Weight Cut-Off): 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
     "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
     "정답 — 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
    ],
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
@@ -801,7 +801,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식."
+    "막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식."
    ],
    "choices": [
     "Absolute rating (절대 등급)",
@@ -811,10 +811,10 @@
     "Soluble–soluble mixture"
    ],
    "answer": 2,
-   "explanation": "**Pore size (기공 크기)** — 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+   "explanation": "**Pore size (기공 크기)** — 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
    "choiceNotes": [
     "틀리다 — Absolute rating (절대 등급): 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
-    "정답 — 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+    "정답 — 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "틀리다 — Nominal rating (공칭 등급): 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
     "틀리다 — Bubble point test (기포점 시험): 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
     "틀리다 — Soluble–soluble mixture: 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다."
@@ -846,7 +846,7 @@
    "answer": 2,
    "explanation": "**Absolute rating (절대 등급)** — 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
    "choiceNotes": [
-    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "정답 — 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "틀리다 — Nominal rating (공칭 등급): 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
     "틀리다 — Permeate (TFF): 막을 지나 빠져나간 쪽 액체.",
@@ -879,7 +879,7 @@
    "answer": 4,
    "explanation": "**Nominal rating (공칭 등급)** — 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
    "choiceNotes": [
-    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "틀리다 — Absolute rating (절대 등급): 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "틀리다 — Cell line characterization (세포주 특성 분석): 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
     "정답 — 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
@@ -1113,7 +1113,7 @@
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
     "정답 — 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "틀리다 — MWCO (Molecular Weight Cut-Off): 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값."
    ],
    "source": "WK04 PDF p.72, p.74–76",
@@ -1178,7 +1178,7 @@
    "choiceNotes": [
     "틀리다 — Retentate (TFF): 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
     "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
-    "틀리다 — Product-related impurity (제품 유래 불순물): 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
     "정답 — 막을 지나 빠져나간 쪽 액체.",
     "틀리다 — Intracellular product (세포 내 산물): 세포 안에 쌓이는 산물 — 미생물에서 흔하다."
    ],
@@ -1374,8 +1374,8 @@
    "answer": 3,
    "explanation": "**Filter integrity test (필터 무결성 시험)** — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
    "choiceNotes": [
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
-    "틀리다 — Wetting agent: 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "정답 — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "틀리다 — Sparger filter: 배양기로 들어가는 공기를 무균으로 거르는 필터.",
     "틀리다 — Concentration (농축): 용매를 빼서 목표 물질의 농도를 높이는 것."
@@ -1441,7 +1441,7 @@
    "explanation": "**Non-destructive test (비파괴검사)** — 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
    "choiceNotes": [
     "정답 — 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
     "틀리다 — Water intrusion test (WIT): 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험."
@@ -1475,8 +1475,8 @@
    "choiceNotes": [
     "틀리다 — Filter integrity test (필터 무결성 시험): 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "정답 — 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.",
-    "틀리다 — Product-related impurity (제품 유래 불순물): 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
     "틀리다 — Brevundimonas diminuta: 제균 필터 시험에 쓰는 아주 작은 세균(worst case)."
    ],
    "source": "WK04 PDF p.125–126",
@@ -1494,7 +1494,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
    ],
    "choices": [
     "Diffusion test (확산 시험)",
@@ -1504,9 +1504,9 @@
     "E. coli (대장균)"
    ],
    "answer": 1,
-   "explanation": "**Diffusion test (확산 시험)** — 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
    "choiceNotes": [
-    "정답 — 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "정답 — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "틀리다 — Filter integrity test (필터 무결성 시험): 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.",
@@ -1539,7 +1539,7 @@
    "answer": 3,
    "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
    "choiceNotes": [
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "정답 — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
     "틀리다 — Fouling: 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상.",
@@ -1560,7 +1560,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물)."
+    "Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물)."
    ],
    "choices": [
     "Non-destructive test (비파괴검사)",
@@ -1570,10 +1570,10 @@
     "Cell line characterization (세포주 특성 분석)"
    ],
    "answer": 2,
-   "explanation": "**Wetting agent** — 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+   "explanation": "**Wetting agent** — Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
    "choiceNotes": [
     "틀리다 — Non-destructive test (비파괴검사): 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
-    "정답 — 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "정답 — Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "틀리다 — Hydrophilic membrane (친수성 막): 물에 잘 젖는 막 — 액체 여과에 쓴다.",
     "틀리다 — Cell line characterization (세포주 특성 분석): 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계."
@@ -1708,7 +1708,7 @@
     "정답 — 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
     "틀리다 — Soluble–soluble mixture: 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.",
     "틀리다 — Filter capacity (L/m²): 막 1 m²가 처리할 수 있는 시료 양.",
-    "틀리다 — Product-related impurity (제품 유래 불순물): 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
    ],
    "source": "WK04 강의 녹음① 18:07–24:25",
    "concepts": [
@@ -2004,7 +2004,7 @@
     "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
     "틀리다 — VCS (Viral Clearance Study): 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.",
     "정답 — 사람과 동물에 함께 옮을 수 있는 감염.",
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태."
    ],
    "source": "WK04 강의 녹음② 1:46:24–1:46:51",
@@ -2103,7 +2103,7 @@
     "정답 — 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
     "틀리다 — Sterile filtration (제균여과): 0.2 µm 필터로 균을 걸러 용액을 무균으로 만드는 방법.",
     "틀리다 — Isotonic (등장성): 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
-    "틀리다 — Product-related impurity (제품 유래 불순물): 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정."
    ],
    "source": "WK04 강의 녹음② 2:16:47–2:17:41",
@@ -2335,7 +2335,7 @@
     "정답 — 열에 약한 동물세포 배지의 균을 필터로 없애는 것.",
     "틀리다 — Pharmacopoeia (약전): 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP).",
     "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
-    "틀리다 — Diffusion test (확산 시험): 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
    ],
    "source": "WK04 강의 녹음② 2:43:03–2:43:23",
    "concepts": [
@@ -2596,10 +2596,10 @@
     "사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다",
     "용매를 빼서 목표 물질의 농도를 높이는 것",
     "농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트)",
-    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험"
+    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test"
    ],
    "answer": 5,
-   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.",
+   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
    "choiceNotes": [
     "틀리다 — Water intrusion test (WIT)의 설명이다.",
     "틀리다 — Non-destructive test (비파괴검사)의 설명이다.",
@@ -2892,7 +2892,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Process-related impurity (공정 유래 불순물)\n(나) Product-related impurity (제품 유래 불순물)\n(다) Precipitation (침전)\n(라) Centrifugation (원심분리)",
    "box": [
-    "A. 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "A. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
     "B. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
     "C. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
     "D. 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
@@ -2905,7 +2905,7 @@
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Process-related impurity (공정 유래 불순물)** → B. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(나) **Product-related impurity (제품 유래 불순물)** → A. 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(다) **Precipitation (침전)** → C. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.\n(라) **Centrifugation (원심분리)** → D. 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Process-related impurity (공정 유래 불순물)** → B. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(나) **Product-related impurity (제품 유래 불순물)** → A. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(다) **Precipitation (침전)** → C. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.\n(라) **Centrifugation (원심분리)** → D. 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
    "choiceNotes": [
     "틀리다 — (다) Precipitation의 설명은 C, (라) Centrifugation의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
@@ -3204,7 +3204,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Hydrophobic membrane (소수성 막)\n(나) Pore size (기공 크기)\n(다) Absolute rating (절대 등급)\n(라) Nominal rating (공칭 등급)",
    "box": [
-    "A. 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+    "A. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.",
     "D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급."
@@ -3217,7 +3217,7 @@
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Hydrophobic membrane (소수성 막)** → C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.\n(나) **Pore size (기공 크기)** → A. 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.\n(다) **Absolute rating (절대 등급)** → B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(라) **Nominal rating (공칭 등급)** → D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Hydrophobic membrane (소수성 막)** → C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.\n(나) **Pore size (기공 크기)** → A. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.\n(다) **Absolute rating (절대 등급)** → B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(라) **Nominal rating (공칭 등급)** → D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
    "choiceNotes": [
     "틀리다 — (다) Absolute rating의 설명은 B, (라) Nominal rating의 설명은 D",
     "틀리다 — (나) Pore size의 설명은 A, (라) Nominal rating의 설명은 D",
@@ -3244,7 +3244,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Pore size (기공 크기)\n(나) Absolute rating (절대 등급)\n(다) Nominal rating (공칭 등급)\n(라) Vent filter",
    "box": [
     "A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
-    "B. 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.",
+    "B. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터."
    ],
@@ -3256,7 +3256,7 @@
     "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Pore size (기공 크기)** → B. 막 구멍의 크기(예: 0.2 µm) — 멤브레인 필터의 표기 방식.\n(나) **Absolute rating (절대 등급)** → C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(다) **Nominal rating (공칭 등급)** → A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.\n(라) **Vent filter** → D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Pore size (기공 크기)** → B. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.\n(나) **Absolute rating (절대 등급)** → C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(다) **Nominal rating (공칭 등급)** → A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.\n(라) **Vent filter** → D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터.",
    "choiceNotes": [
     "틀리다 — (나) Absolute rating의 설명은 C, (다) Nominal rating의 설명은 A",
     "틀리다 — (다) Nominal rating의 설명은 A, (라) Vent filter의 설명은 D",
@@ -3555,8 +3555,8 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Diffusion test (확산 시험)\n(나) Water intrusion test (WIT)\n(다) Wetting agent\n(라) Redundant filtration (이중 제균 여과)",
    "box": [
-    "A. 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
-    "B. 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "A. Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "D. 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험."
    ],
@@ -3568,7 +3568,7 @@
     "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. 무결성 시험 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
    "choiceNotes": [
     "틀리다 — (나) Water intrusion test의 설명은 D, (라) Redundant filtration의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -3594,7 +3594,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) PUPSIT (Pre-Use Post-Sterilization Integrity Test)\n(나) Feed (TFF)\n(다) Retentate (TFF)\n(라) Permeate (TFF)",
    "box": [
-    "A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.",
+    "A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
     "B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
     "C. TFF 막으로 들어가는 액체 흐름.",
     "D. 막을 지나 빠져나간 쪽 액체."
@@ -3607,7 +3607,7 @@
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **PUPSIT (Pre-Use Post-Sterilization Integrity Test)** → A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.\n(나) **Feed (TFF)** → C. TFF 막으로 들어가는 액체 흐름.\n(다) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(라) **Permeate (TFF)** → D. 막을 지나 빠져나간 쪽 액체.",
+   "explanation": "**용어와 설명의 짝**\n(가) **PUPSIT (Pre-Use Post-Sterilization Integrity Test)** → A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.\n(나) **Feed (TFF)** → C. TFF 막으로 들어가는 액체 흐름.\n(다) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(라) **Permeate (TFF)** → D. 막을 지나 빠져나간 쪽 액체.",
    "choiceNotes": [
     "틀리다 — (나) Feed의 설명은 C, (다) Retentate의 설명은 B",
     "틀리다 — (나) Feed의 설명은 C, (라) Permeate의 설명은 D",
@@ -3987,7 +3987,7 @@
     "A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
     "B. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
     "C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.",
-    "D. 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "D. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-B  (라)-D",
@@ -3997,7 +3997,7 @@
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **Media filtration (배지 여과)** → C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.\n(나) **Process-related impurity (공정 유래 불순물)** → A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(다) **Product-related impurity (제품 유래 불순물)** → D. 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(라) **Precipitation (침전)** → B. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Media filtration (배지 여과)** → C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.\n(나) **Process-related impurity (공정 유래 불순물)** → A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(다) **Product-related impurity (제품 유래 불순물)** → D. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(라) **Precipitation (침전)** → B. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
    "choiceNotes": [
     "틀리다 — (다) Product-related impurity의 설명은 D, (라) Precipitation의 설명은 B",
     "틀리다 — (가) Media filtration의 설명은 C, (나) Process-related impurity의 설명은 A",
@@ -4048,14 +4048,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
    ],
    "answers": [
     "Product-related impurity",
     "제품 유래 불순물",
     "Product-related impurity (제품 유래 불순물)"
    ],
-   "explanation": "**Product-related impurity (제품 유래 불순물)** — 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n정답으로 인정하는 표기: Product-related impurity · 제품 유래 불순물 · Product-related impurity (제품 유래 불순물) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n정답으로 인정하는 표기: Product-related impurity · 제품 유래 불순물 · Product-related impurity (제품 유래 불순물) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.9 (Impurities)",
    "concepts": [
     "Product-related impurity"
@@ -4634,7 +4634,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
    ],
    "answers": [
     "Diffusion test",
@@ -4643,7 +4643,7 @@
     "Diffusion",
     "확산"
    ],
-   "explanation": "**Diffusion test (확산 시험)** — 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n정답으로 인정하는 표기: Diffusion test · 확산 시험 · Diffusion test (확산 시험) · Diffusion · 확산 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n정답으로 인정하는 표기: Diffusion test · 확산 시험 · Diffusion test (확산 시험) · Diffusion · 확산 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.127, p.131",
    "concepts": [
     "Diffusion test"
@@ -4713,14 +4713,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험."
+    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test."
    ],
    "answers": [
     "PUPSIT",
     "Pre-Use Post-Sterilization Integrity Test",
     "PUPSIT (Pre-Use Post-Sterilization Integrity Test)"
    ],
-   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.\n정답으로 인정하는 표기: PUPSIT · Pre-Use Post-Sterilization Integrity Test · PUPSIT (Pre-Use Post-Sterilization Integrity Test) (띄어쓰기·대소문자 무시)",
+   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.\n정답으로 인정하는 표기: PUPSIT · Pre-Use Post-Sterilization Integrity Test · PUPSIT (Pre-Use Post-Sterilization Integrity Test) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.17, p.158",
    "concepts": [
     "PUPSIT"

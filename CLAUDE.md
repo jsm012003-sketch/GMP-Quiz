@@ -63,6 +63,7 @@
   - 문제 본문은 한 줄로 짧게, 긴 시나리오를 붙이지 않는다.
   - 선지는 **30자 안팎**, 쉬운 말로 쓴다. 한자어·전문어를 겹쳐 쓰지 않는다.
   - **용어를 억지로 번역하지 않는다(사용자 요청, 2026.10.08)**: 현장·강의에서 쓰는 이름 그대로 쓴다 — 영어로 쓰는 것은 영어(Protein A, Retentate, Clarification, Bind-elute, Flow-through, Aeration, Wetting agent, Bed height …), 우리말로 굳은 것은 우리말(회분식·유가식·관류, 유도기·정지기, 정제수·주사용수, 무균조작법 …). 「흘려보내기(flow-through)」「공기 빼기(Aeration)」「정화(Clarification)」처럼 만든 번역어나 「Ligand (리간드)」 같은 음역 괄호는 쓰지 않는다. 용어집 용어 이름도 같은 기준(괄호에는 실제로 쓰는 다른 이름만).
+  - **업계에서 영어가 표준인 용어는 영어로 쓴다(사용자 요청, 2026.10.08)**: high salt / low salt, enveloped / non-enveloped virus, lipid envelope, positive / negative pressure, low pH(low pH viral inactivation), virus filter, nanofiltration, diafiltration, conductivity, pI, aggregate·multimer·dimer, HCP·HCD, bubble point test, diffusion test, integrity test, depth filter, membrane filter, pre-filter, gel layer, binding capacity·DBC, linear velocity, bed height, batch·fed-batch·perfusion·continuous, lag·log·stationary·death phase, viability·VCD, seed train, spore, shear force, pore size. 영어 낱말 뒤 조사는 발음대로 붙인다(high salt**가**, perfusion**은**, positive pressure**를**). 우리말이 현장 표준인 것(제염, 용출, 교반, 통기, 세척·멸균·소독, 충전, 원심분리, 에어락, 차압, 세포은행, 적격성평가, 정제수·주사용수, 원료·완제의약품, 수율·순도)은 우리말로 쓴다. 단답형 `answers`에는 영어·우리말 표기를 모두 넣어 둔다.
   - **선지 문체(사용자 요청, 2026.10.08)**: 실제 시험 선지처럼 「~한다/~이다」 평서문, 「~해서/~하려고/~때문에」 이유형, 또는 짧은 명사구로 끝낸다. 「~함·~음·~됨」 음슴체와 끝 마침표는 쓰지 않는다. 짝짓기(「A – B」)의 오른쪽도 같은 기준.
   - 오답 선지는 강의 내용과 **분명히 다른** 진술(반대로 말하기, 다른 개념과 바꿔 말하기)로 쓴다. 미묘한 표현 차이로 함정을 만들지 않는다.
   - 용어집 정의도 같은 기준으로 짧게(가급적 35자 안팎) 쓴다 — 정의가 그대로 선지가 된다.

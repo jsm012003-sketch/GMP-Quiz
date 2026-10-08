@@ -44,6 +44,6 @@
     {"no": 39, "term": "Settle plate (낙하균 배지)", "group": "env", "def": "열어 두고 떨어지는 미생물을 받는 배지 접시.", "src": "02 RABS & APS PDF p.21 (Intervention 사례 ②)"},
     {"no": 40, "term": "Viable / Non-viable monitoring", "group": "env", "def": "살아 있는 미생물과 일반 입자를 나눠 재는 환경모니터링.", "src": "02 RABS & APS PDF p.13"},
     {"no": 41, "term": "SOP / WI", "group": "env", "def": "누가 해도 같은 방법으로 하도록 절차를 문서로 정한 것.", "src": "02 RABS & APS PDF p.13, p.23"},
-    {"no": 42, "term": "오버스필 (Overspill)", "group": "part", "def": "Open RABS 안쪽 공기가 양압으로 주변실로 넘쳐 나가는 배기 방식.", "src": "02 RABS & APS PDF p.5", "drop": true}
+    {"no": 42, "term": "오버스필 (Overspill)", "group": "part", "def": "Open RABS 안쪽 공기가 positive pressure로 주변실로 넘쳐 나가는 배기 방식.", "src": "02 RABS & APS PDF p.5", "drop": true}
   ]
 }

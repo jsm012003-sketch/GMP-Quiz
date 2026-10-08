@@ -22,7 +22,7 @@
     {"no": 17, "term": "Bind-elute mode", "group": "mode", "def": "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.", "src": "WK03 강의 녹음 33:05–36:20", "short": true, "answersExtra": ["Bind-elute", "결합 용출 모드", "결합-용출 모드"]},
     {"no": 18, "term": "Flow-through mode", "group": "mode", "def": "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.", "src": "WK03 강의 녹음 33:05–36:20", "short": true, "answersExtra": ["Flow-through", "통과 모드", "플로우스루"]},
     {"no": 19, "term": "Binding capacity (결합 용량)", "group": "mode", "def": "레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.", "src": "WK03 강의 녹음 33:05–36:20"},
-    {"no": 20, "term": "Loading", "group": "mode", "def": "낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.", "src": "WK03 강의 녹음 10:07"},
+    {"no": 20, "term": "Loading", "group": "mode", "def": "Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.", "src": "WK03 강의 녹음 10:07"},
     {"no": 21, "term": "Elution (용출)", "group": "mode", "def": "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.", "src": "WK03 강의 녹음 10:07, 36:31", "short": true},
     {"no": 22, "term": "Linear gradient", "group": "mode", "def": "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.", "src": "WK03 강의 녹음 37:18–39:56"},
     {"no": 23, "term": "Step elution", "group": "mode", "def": "염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.", "src": "WK03 강의 녹음 37:18–39:56"},

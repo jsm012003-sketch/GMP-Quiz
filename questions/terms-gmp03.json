@@ -90,8 +90,8 @@
     "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식.",
     "틀리다 — 구조적 차단 (Isolator 원리): 벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식.",
     "정답 — 챔버와 글러브가 새지 않는 상태.",
-    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
    ],
    "source": "03 Isolator & Qualification PDF p.3",
    "concepts": [
@@ -156,8 +156,8 @@
     "정답 — 실제 무균 작업이 이루어지는 Grade A 작업 공간.",
     "틀리다 — Incoming airlock: 들어오는 자재를 제염하고 대기시키는 완충 공간.",
     "틀리다 — 압력 계위 (Pressure cascade): 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
-    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)."
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)."
    ],
    "source": "03 Isolator & Qualification PDF p.4",
    "concepts": [
@@ -254,7 +254,7 @@
    "choiceNotes": [
     "틀리다 — Aeration: H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
     "틀리다 — Conditioning: H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
     "정답 — 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
     "틀리다 — 압력 계위 (Pressure cascade): 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
    ],
@@ -288,7 +288,7 @@
     "틀리다 — Preparation: 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
     "틀리다 — Decontamination: 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
     "정답 — H₂O₂를 넣어 목표 농도까지 올리는 단계.",
-    "틀리다 — Population: BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "틀리다 — Population: BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
    ],
    "source": "03 Isolator & Qualification PDF p.7",
@@ -418,7 +418,7 @@
    "explanation": "**아포 (Spore)** — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
    "choiceNotes": [
     "틀리다 — Hydroxyl radical (·OH): H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
-    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
     "정답 — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
     "틀리다 — Decontamination: 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
     "틀리다 — PRQ (Periodic Requalification): 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계."
@@ -484,7 +484,7 @@
    "explanation": "**Load pattern (적재 패턴)** — 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
    "choiceNotes": [
     "틀리다 — Occluded surface (가려진 표면): 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
     "틀리다 — Decontamination: 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
     "틀리다 — Hydroxyl radical (·OH): H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
     "정답 — 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것."
@@ -504,7 +504,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)."
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)."
    ],
    "choices": [
     "D-value",
@@ -514,10 +514,10 @@
     "확률적 관리 (Clean room 방식)"
    ],
    "answer": 2,
-   "explanation": "**Population** — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+   "explanation": "**Population** — BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
    "choiceNotes": [
     "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "정답 — BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "정답 — BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
     "틀리다 — IQ (Installation Qualification): 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
     "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
@@ -550,8 +550,8 @@
    "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
    "choiceNotes": [
     "정답 — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
-    "틀리다 — Population: BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
+    "틀리다 — Population: BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — Cycle development (CD): 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
     "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
    ],
@@ -650,7 +650,7 @@
    "choiceNotes": [
     "틀리다 — Pressure decay test: 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
     "틀리다 — D-value: 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
-    "틀리다 — Population: BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "틀리다 — Population: BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
     "틀리다 — Disinfection (소독): 미생물을 줄이는 수준(약 3 log 감소)의 처리.",
     "정답 — 글러브를 당겨 손상을 눈으로 확인하는 점검."
    ],
@@ -684,7 +684,7 @@
     "정답 — 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
     "틀리다 — Glove visual inspection: 글러브를 당겨 손상을 눈으로 확인하는 점검.",
     "틀리다 — Outgoing airlock: 다 쓴 자재와 폐기물을 내보내는 구간.",
-    "틀리다 — BI (Biological Indicator): 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
     "틀리다 — Occluded surface (가려진 표면): 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면."
    ],
    "source": "03 Isolator & Qualification PDF p.16",
@@ -801,14 +801,14 @@
    "part": 1,
    "question": "「BI (Biological Indicator)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)",
-    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다",
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)",
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
     "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치",
     "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가"
    ],
    "answer": 2,
-   "explanation": "**BI (Biological Indicator)** — 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+   "explanation": "**BI (Biological Indicator)** — 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
    "choiceNotes": [
     "틀리다 — Population의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -831,7 +831,7 @@
    "part": 1,
    "question": "「CI (Chemical Indicator)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
     "미생물 수를 10분의 1로 줄이는 데 걸리는 시간",
     "H₂O₂를 넣어 목표 농도까지 올리는 단계",
     "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것",
@@ -863,7 +863,7 @@
    "choices": [
     "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)",
     "미생물 수를 10분의 1로 줄이는 데 걸리는 시간",
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
     "벽으로 작업자와 Grade A 공간을 완전히 나눠 구조로 오염을 막는 방식",
     "다 쓴 자재와 폐기물을 내보내는 구간"
    ],
@@ -891,14 +891,14 @@
    "part": 1,
    "question": "「SLR (Spore Log Reduction)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
     "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표",
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계",
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
     "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가"
    ],
    "answer": 4,
-   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
+   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
    "choiceNotes": [
     "틀리다 — Population의 설명이다.",
     "틀리다 — CI (Chemical Indicator)의 설명이다.",
@@ -924,7 +924,7 @@
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계",
     "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계",
     "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가",
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
     "H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼"
    ],
    "answer": 2,
@@ -955,7 +955,7 @@
     "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가",
     "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가",
     "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)",
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)"
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)"
    ],
    "answer": 3,
    "explanation": "**IQ (Installation Qualification)** — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
@@ -1044,7 +1044,7 @@
     "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계",
     "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가",
     "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표",
-    "BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
     "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계"
    ],
    "answer": 5,
@@ -1258,7 +1258,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Occluded surface (가려진 표면)\n(나) Load pattern (적재 패턴)\n(다) BI (Biological Indicator)\n(라) CI (Chemical Indicator)",
    "box": [
     "A. 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.",
-    "B. 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "B. 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
     "C. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
     "D. 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면."
    ],
@@ -1270,7 +1270,7 @@
     "(가)-A  (나)-D  (다)-C  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Occluded surface (가려진 표면)** → D. 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.\n(나) **Load pattern (적재 패턴)** → A. 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.\n(다) **BI (Biological Indicator)** → B. 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n(라) **CI (Chemical Indicator)** → C. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Occluded surface (가려진 표면)** → D. 포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면.\n(나) **Load pattern (적재 패턴)** → A. 제염할 물건을 챔버 안에 어떤 위치·간격으로 놓을지 정한 것.\n(다) **BI (Biological Indicator)** → B. 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n(라) **CI (Chemical Indicator)** → C. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
    "choiceNotes": [
     "틀리다 — (다) BI의 설명은 B, (라) CI의 설명은 C",
     "틀리다 — (가) Occluded surface의 설명은 D, (다) BI의 설명은 B",
@@ -1298,8 +1298,8 @@
    "box": [
     "A. 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).",
     "B. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
-    "C. BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
-    "D. 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
+    "C. BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "D. 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
    ],
    "choices": [
     "(가)-D  (나)-B  (다)-A  (라)-C",
@@ -1309,7 +1309,7 @@
     "(가)-B  (나)-D  (다)-C  (라)-A"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **BI (Biological Indicator)** → D. 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n(나) **CI (Chemical Indicator)** → B. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.\n(다) **EI (Enzyme Indicator)** → A. 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).\n(라) **Population** → C. BI 하나에 올린 포자 수(6 log 감소를 보이려면 10⁶ 이상).",
+   "explanation": "**용어와 설명의 짝**\n(가) **BI (Biological Indicator)** → D. 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n(나) **CI (Chemical Indicator)** → B. H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.\n(다) **EI (Enzyme Indicator)** → A. 효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀).\n(라) **Population** → C. BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) CI의 설명은 B, (라) Population의 설명은 C",
@@ -1336,7 +1336,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) D-value\n(나) SLR (Spore Log Reduction)\n(다) Total kill time\n(라) Cycle development (CD)",
    "box": [
     "A. 모든 BI가 죽는 최소 주입량과 노출 시간.",
-    "B. 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).",
+    "B. 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
     "C. 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
     "D. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계."
    ],
@@ -1348,7 +1348,7 @@
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **D-value** → C. 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.\n(나) **SLR (Spore Log Reduction)** → B. 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).\n(다) **Total kill time** → A. 모든 BI가 죽는 최소 주입량과 노출 시간.\n(라) **Cycle development (CD)** → D. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **D-value** → C. 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.\n(나) **SLR (Spore Log Reduction)** → B. 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).\n(다) **Total kill time** → A. 모든 BI가 죽는 최소 주입량과 노출 시간.\n(라) **Cycle development (CD)** → D. 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
    "choiceNotes": [
     "틀리다 — (가) D-value의 설명은 C, (다) Total kill time의 설명은 A",
     "틀리다 — (나) SLR의 설명은 B, (다) Total kill time의 설명은 A",
@@ -1757,7 +1757,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
+    "내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
    ],
    "answers": [
     "BI",
@@ -1766,7 +1766,7 @@
     "생물학적 지표",
     "생물학적 지시계"
    ],
-   "explanation": "**BI (Biological Indicator)** — 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n정답으로 인정하는 표기: BI · Biological Indicator · BI (Biological Indicator) · 생물학적 지표 · 생물학적 지시계 (띄어쓰기·대소문자 무시)",
+   "explanation": "**BI (Biological Indicator)** — 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n정답으로 인정하는 표기: BI · Biological Indicator · BI (Biological Indicator) · 생물학적 지표 · 생물학적 지시계 (띄어쓰기·대소문자 무시)",
    "source": "03 Isolator & Qualification PDF p.12, p.14",
    "concepts": [
     "BI"
@@ -1832,7 +1832,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)."
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)."
    ],
    "answers": [
     "SLR",
@@ -1840,7 +1840,7 @@
     "SLR (Spore Log Reduction)",
     "포자 로그 감소"
    ],
-   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).\n정답으로 인정하는 표기: SLR · Spore Log Reduction · SLR (Spore Log Reduction) · 포자 로그 감소 (띄어쓰기·대소문자 무시)",
+   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).\n정답으로 인정하는 표기: SLR · Spore Log Reduction · SLR (Spore Log Reduction) · 포자 로그 감소 (띄어쓰기·대소문자 무시)",
    "source": "03 Isolator & Qualification PDF p.14",
    "concepts": [
     "SLR"

@@ -36,7 +36,7 @@
    "no": 4,
    "term": "Low pH viral inactivation",
    "group": "dsp",
-   "def": "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
+   "def": "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
    "src": "WK06 PDF p.11, p.15",
    "short": true,
    "answers": [
@@ -53,7 +53,7 @@
    "no": 5,
    "term": "CEX (양이온 교환 크로마토그래피)",
    "group": "dsp",
-   "def": "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
+   "def": "음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
    "src": "WK06 PDF p.5, p.18",
    "short": true,
    "answersExtra": [
@@ -75,14 +75,14 @@
    "no": 7,
    "term": "HIC (소수성 상호작용 크로마토그래피)",
    "group": "dsp",
-   "def": "고염 조건에서 소수성 차이로 응집체 등을 분리하는 크로마토그래피.",
+   "def": "High salt 조건에서 소수성 차이로 aggregate 등을 분리하는 크로마토그래피.",
    "src": "WK06 PDF p.3, p.6"
   },
   {
    "no": 8,
    "term": "SEC (크기 배제 크로마토그래피)",
    "group": "dsp",
-   "def": "분자 크기 차이로 응집체 등을 분리하는 크로마토그래피.",
+   "def": "분자 크기 차이로 aggregate 등을 분리하는 크로마토그래피.",
    "src": "WK06 PDF p.6, p.7"
   },
   {
@@ -133,7 +133,7 @@
    "no": 14,
    "term": "Diafiltration buffer (DF buffer)",
    "group": "uf",
-   "def": "정용여과 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
+   "def": "Diafiltration 때 새로 넣어 기존 용액을 바꿔 치우는 목표 버퍼.",
    "src": "WK06 PDF p.31",
    "drop": true
   },
@@ -223,7 +223,7 @@
    "no": 24,
    "term": "S&D (Solvent/Detergent)",
    "group": "vc",
-   "def": "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
+   "def": "용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.",
    "src": "WK06 PDF p.11",
    "short": true,
    "answersExtra": [
@@ -294,7 +294,7 @@
    "no": 32,
    "term": "Enveloped virus (외피 바이러스)",
    "group": "virus",
-   "def": "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
+   "def": "Lipid envelope가 있어 low pH·S&D에 약한 바이러스.",
    "src": "WK06 PDF p.11, p.15",
    "short": true
   },
@@ -302,7 +302,7 @@
    "no": 33,
    "term": "Non-enveloped virus (비외피 바이러스)",
    "group": "virus",
-   "def": "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
+   "def": "Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
    "src": "WK06 PDF p.11, p.14",
    "short": true
   },
@@ -349,7 +349,7 @@
    "no": 39,
    "term": "PRV (Pseudorabies Virus)",
    "group": "virus",
-   "def": "외피가 있는 큰 바이러스 — CMV·HSV 같은 큰 외피 바이러스 모델.",
+   "def": "외피가 있는 큰 바이러스 — CMV·HSV 같은 큰 enveloped virus 모델.",
    "src": "WK06 PDF p.13–14",
    "drop": true
   },
@@ -411,9 +411,9 @@
   },
   {
    "no": 47,
-   "term": "Semi-continuous → Continuous DSP",
+   "term": "Semi-continuous → continuous DSP",
    "group": "trend",
-   "def": "회분식 컬럼 단계를 막·통합 단계로 바꿔 정제를 연속 흐름으로 만들어 가는 방향.",
+   "def": "Batch 컬럼 단계를 막·통합 단계로 바꿔 정제를 연속 흐름으로 만들어 가는 방향.",
    "src": "WK06 PDF p.7",
    "drop": true
   },
@@ -421,7 +421,7 @@
    "no": 48,
    "term": "Intensified seed (고밀도 세포은행)",
    "group": "trend",
-   "def": "고밀도로 얼린 세포은행과 관류 seed로 seed 단계를 줄이는 방식.",
+   "def": "고밀도로 얼린 세포은행과 perfusion seed로 seed 단계를 줄이는 방식.",
    "src": "WK06 PDF p.28",
    "drop": true
   },
