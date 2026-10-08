@@ -142,7 +142,7 @@ def build_term_to_def(t, terms, g, spread):
     return {
         'id': qid, 'type': '용어', 'part': 1,
         'question': f"「{t['term']}」에 대한 설명으로 옳은 것은?",
-        'choices': [x['def'] for x in items],
+        'choices': [x['def'].rstrip('.') for x in items],  # 선지는 끝 마침표 없이(시험 선지 문체)
         'answer': pos + 1,
         'explanation': expl,
         'choiceNotes': notes,

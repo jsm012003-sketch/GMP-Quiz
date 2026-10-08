@@ -25,7 +25,7 @@
   // I 용어·개념 확인 55 % · II 헷갈리는 개념 구분 25 % · III 단답형 20 %, 모두 문항당 2점 (50문항 = 100점)
   const PARTS = {
     1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 뜻과 기본 개념을 확인한다.', ratio: 0.55, points: 2 },
-    2: { roman: 'II', name: '헷갈리는 개념 구분', note: '비슷해서 헷갈리기 쉬운 개념을 구분한다.', ratio: 0.25, points: 2 },
+    2: { roman: 'II', name: '개념 구분과 원리 이해', note: '헷갈리기 쉬운 개념을 구분하고, 왜 그렇게 하는지(이유·작용 원리)를 확인한다.', ratio: 0.25, points: 2 },
     3: { roman: 'III', name: '단답형', note: '용어·핵심 사실을 직접 쓴다. 영어·우리말 어느 쪽도 정답이고, 띄어쓰기·대소문자는 보지 않는다.', ratio: 0.20, points: 2 },
   };
   const ESSAY_POINTS = 5;
@@ -797,7 +797,7 @@
       <div class="wrap">
         <section class="hero">
           <h1>복습 문제집</h1>
-          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 실제 시험 형식(객관식 4지선다 + 단답형, 50문항 · 90분)에 맞춰 용어·개념 확인(PART I), 헷갈리는 개념 구분(PART II), 단답형(PART III)을 연습하세요.</p>
+          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 실제 시험 형식(객관식 4지선다 + 단답형, 50문항 · 90분)에 맞춰 용어·개념 확인(PART I), 개념 구분과 원리 이해(PART II), 단답형(PART III)을 연습하세요.</p>
         </section>
 
         ${inAppNoticeHTML('인쇄·PDF 저장')}

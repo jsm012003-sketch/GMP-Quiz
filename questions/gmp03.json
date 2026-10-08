@@ -64,14 +64,14 @@
       "part": 1,
       "question": "VHP 제염 사이클 4단계의 순서로 옳은 것은?",
       "choices": [
-        "농도 올리기 → 준비 → 제염 유지 → 공기 빼기",
-        "준비 → 농도 올리기 → 제염 유지 → 공기 빼기(Aeration)",
-        "준비 → 제염 유지 → 농도 올리기 → 공기 빼기",
-        "준비 → 농도 올리기 → 공기 빼기 → 제염 유지",
-        "공기 빼기 → 준비 → 농도 올리기 → 제염 유지"
+        "Conditioning → Preparation → Decontamination → Aeration",
+        "Preparation → Conditioning → Decontamination → Aeration",
+        "Preparation → Decontamination → Conditioning → Aeration",
+        "Preparation → Conditioning → Aeration → Decontamination",
+        "Aeration → Preparation → Conditioning → Decontamination"
       ],
       "answer": 2,
-      "explanation": "**Preparation(준비) → Conditioning(H₂O₂ 농도 올리기) → Decontamination(목표 농도 유지) → Aeration(H₂O₂ 빼서 기준 이하로).**",
+      "explanation": "**Preparation(제염 준비) → Conditioning(H₂O₂를 목표 농도까지 올림) → Decontamination(목표 농도 유지) → Aeration(H₂O₂를 빼서 기준 이하로).**",
       "choiceNotes": [
         "틀리다.",
         "옳다 — Preparation → Conditioning → Decontamination → Aeration.",
@@ -145,7 +145,7 @@
     {
       "id": "gmp03-007",
       "type": "개념",
-      "question": "VHP가 닿지 않아 제염이 안 되는 '가려진 표면(occluded surface)'의 예가 아닌 것은?",
+      "question": "VHP가 닿지 않아 제염이 안 되는 occluded surface의 예가 아닌 것은?",
       "choices": [
         "겹쳐 쌓은 트레이 사이",
         "나사·힌지 틈",
@@ -230,11 +230,11 @@
       "id": "gmp03-010",
       "type": "개념",
       "part": 1,
-      "question": "VHP 검증용 BI로 종이(paper)보다 금속 원판(steel disk)을 쓰는 이유는?",
+      "question": "VHP 검증용 BI로 paper BI보다 steel disk BI를 쓰는 이유는?",
       "choices": [
         "금속에 포자가 더 많이 들어가서",
         "금속이 색이 변해서",
-        "H₂O₂가 종이에 잘 스며들지 않고 흡착되기 때문",
+        "H₂O₂가 종이에 잘 스며들지 않고 흡착되기 때문에",
         "종이가 비싸서",
         "공기 빼는 시간이 짧아져서"
       ],
@@ -259,11 +259,11 @@
       "type": "연결",
       "question": "아이솔레이터 적격성평가 단계와 내용의 연결로 옳지 않은 것은?",
       "choices": [
-        "IQ – 설치 상태가 도면과 같은지 확인",
-        "OQ – 압력·기류·누설·알람 기능 확인",
-        "PRQ – 처음 설치 때 한 번만 하는 도면 승인",
-        "Cycle development – 제염 조건을 찾음",
-        "PQ(MBQ) – 최악 적재에서 BI 사멸 확인"
+        "IQ – 설치 상태가 도면과 같은지 확인한다",
+        "OQ – 압력·기류·누설·알람 기능을 확인한다",
+        "PRQ – 처음 설치할 때 한 번만 하는 도면 승인이다",
+        "Cycle development – 제염 조건을 찾는다",
+        "PQ(MBQ) – 최악 적재에서 BI 사멸을 확인한다"
       ],
       "answer": 3,
       "explanation": "**URS/DQ → IQ(설치) → OQ(작동) → Cycle development(조건 찾기) → PQ/MBQ(성능 입증) → PRQ(매년 재적격성평가).**",
@@ -314,13 +314,13 @@
     {
       "id": "gmp03-014",
       "type": "개념",
-      "question": "VHP 후 Aeration(공기 빼기)이 중요한 이유가 아닌 것은?",
+      "question": "VHP 후 Aeration이 중요한 이유가 아닌 것은?",
       "choices": [
-        "작업자 안전",
-        "남은 H₂O₂가 살균을 더 잘해서 줄일수록 좋음",
-        "남은 H₂O₂가 배지 성장을 막을 수 있음",
-        "무균시험 결과가 틀어질 수 있음",
-        "플라스틱이 H₂O₂를 머금었다 내보냄"
+        "작업자를 보호해야 한다",
+        "남은 H₂O₂가 살균을 더 잘하므로 Aeration은 짧을수록 좋다",
+        "남은 H₂O₂가 배지의 균 성장을 막을 수 있다",
+        "무균시험 결과가 틀어질 수 있다",
+        "플라스틱이 H₂O₂를 머금었다가 내보낸다"
       ],
       "answer": 2,
       "explanation": "**남은 H₂O₂는 작업자에게 해롭고, 배지 성장을 막아 무균시험·GPT 결과를 틀리게 할 수 있다.** 그래서 검증된 aeration 시간을 지키고 임의로 줄이지 않는다.",
@@ -641,6 +641,97 @@
       ],
       "tags": [
         "OQ"
+      ]
+    },
+    {
+      "id": "gmp03-040",
+      "type": "개념",
+      "part": 2,
+      "question": "아이솔레이터 메인 챔버를 가장 높은 양압으로 두는 이유는?",
+      "choices": [
+        "VHP가 밖으로 새지 않게 하려고",
+        "글러브를 부풀려 작업하기 쉽게 하려고",
+        "챔버 안의 H₂O₂ 농도를 낮추려고",
+        "틈이 있어도 공기가 밖으로 나가 바깥 오염이 들어오지 않게 하려고",
+        "작업 공간보다 온도를 낮추려고"
+      ],
+      "answer": 4,
+      "explanation": "**메인 챔버(가장 높은 양압) > 에어락 > 작업 공간으로 두면, 공기가 늘 깨끗한 곳에서 덜 깨끗한 곳으로 흘러 작은 틈이 있어도 바깥 오염이 안으로 들어오지 않는다.**",
+      "choiceNotes": [
+        "틀리다 — 밖으로 새지 않게 하려면 오히려 음압이어야 한다(독성 물질 봉쇄용).",
+        "틀리다 — 글러브 작업 편의가 목적이 아니다.",
+        "틀리다 — 압력은 H₂O₂ 농도와 관계없다.",
+        "옳다 — 메인 챔버(가장 높은 양압) > 에어락 > 작업 공간으로 두면, 공기가 늘 깨끗한 곳에서 덜 깨끗한 곳으로 흘러 작은 틈이 있어도 바깥 오염이 안으로 들어오지 않는다",
+        "틀리다 — 압력과 온도는 별개다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.4 (Isolator Chamber 구성 — 압력 계위)",
+      "concepts": [
+        "압력 계위"
+      ],
+      "tags": [
+        "압력 계위"
+      ]
+    },
+    {
+      "id": "gmp03-041",
+      "type": "개념",
+      "part": 2,
+      "question": "아포(spore)를 죽이는 데 VHP 노출 시간이 더 오래 필요한 이유는?",
+      "choices": [
+        "아포가 H₂O₂를 만들어 내서",
+        "외피가 두꺼워 라디칼이 늦게 들어가서",
+        "크기가 커서 증기가 닿지 않아서",
+        "물속에서만 살아서",
+        "라디칼을 흡수해 더 강해져서"
+      ],
+      "answer": 2,
+      "explanation": "**아포는 두꺼운 외피로 싸여 ·OH 라디칼이 안으로 늦게 들어가므로, 일반 미생물보다 오래 노출해야 죽는다.** 그래서 VHP 검증의 BI에는 저항성이 큰 아포를 쓴다.",
+      "choiceNotes": [
+        "틀리다 — 아포는 H₂O₂를 만들지 않는다.",
+        "옳다 — 아포는 두꺼운 외피로 싸여 ·OH 라디칼이 안으로 늦게 들어가므로, 일반 미생물보다 오래 노출해야 죽는다",
+        "틀리다 — 증기는 아포 표면에 닿는다. 문제는 안으로 들어가는 속도다.",
+        "틀리다 — 아포는 마른 표면에서도 오래 산다.",
+        "틀리다 — 라디칼은 아포도 결국 죽인다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.8 (VHP 멸균 원리), p.9 (Occluded Surface)",
+      "concepts": [
+        "아포 (Spore)",
+        "Hydroxyl radical"
+      ],
+      "tags": [
+        "아포 (Spore)",
+        "Hydroxyl radical"
+      ]
+    },
+    {
+      "id": "gmp03-042",
+      "type": "개념",
+      "part": 2,
+      "question": "VHP 검증에서 BI를 occluded surface 같은 불리한 위치에 두는 이유는?",
+      "choices": [
+        "BI를 아끼려고",
+        "CI보다 색이 잘 보여서",
+        "Aeration을 빨리 끝내려고",
+        "그 위치에만 미생물이 살아서",
+        "가장 제염되기 어려운 곳에서 죽으면 다른 곳도 보증되어서"
+      ],
+      "answer": 5,
+      "explanation": "**증기가 닿기 어려운 가장 불리한 위치(worst case)에서 BI가 모두 죽으면, 그보다 쉬운 위치는 제염된 것으로 본다.** 그래서 적재를 바꿔 가려진 면을 줄이고, 남는 불리한 위치에 BI·CI를 둔다.",
+      "choiceNotes": [
+        "틀리다 — 개수를 줄이려는 것이 아니다.",
+        "틀리다 — BI는 색이 아니라 생사로 판정한다.",
+        "틀리다 — Aeration과는 관계없다.",
+        "틀리다 — 미생물은 어디에나 있을 수 있다.",
+        "옳다 — 증기가 닿기 어려운 가장 불리한 위치(worst case)에서 BI가 모두 죽으면, 그보다 쉬운 위치는 제염된 것으로 본다"
+      ],
+      "source": "03 Isolator & Qualification PDF p.9 (Occluded Surface), p.11 (Load Pattern과 Worst Case) · 02 RABS & APS PDF p.24 (APS를 설계해 봅시다), p.25 (실습 결과 — Worst case), p.14 (충전량 원칙)",
+      "concepts": [
+        "BI (Biological Indicator)",
+        "Worst case"
+      ],
+      "tags": [
+        "BI (Biological Indicator)",
+        "Worst case"
       ]
     }
   ]

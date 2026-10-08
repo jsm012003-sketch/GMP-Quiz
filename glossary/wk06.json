@@ -6,7 +6,7 @@
  "terms": [
   {
    "no": 1,
-   "term": "Clarification (청징)",
+   "term": "Clarification",
    "group": "dsp",
    "def": "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
    "src": "WK06 PDF p.3, p.18"
@@ -491,14 +491,14 @@
   },
   {
    "no": 57,
-   "term": "Feed medium (피드 배지)",
+   "term": "Feed medium",
    "group": "culture",
    "def": "세포가 충분히 늘어난 뒤 생산을 높이려고 넣는, 생산에 필요한 성분 위주의 배지.",
    "src": "WK06 강의 녹음 1:51:08–1:55:17"
   },
   {
    "no": 58,
-   "term": "Cassette filter (카세트 필터)",
+   "term": "Cassette filter",
    "group": "cff",
    "def": "막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
    "src": "WK06 강의 녹음 57:45–58:21"
@@ -516,14 +516,14 @@
   },
   {
    "no": 60,
-   "term": "Storage solution (보관 용액)",
+   "term": "Storage solution",
    "group": "cff",
    "def": "다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
    "src": "WK06 강의 녹음 1:06:15–1:06:41, 1:27:32–1:28:13"
   },
   {
    "no": 61,
-   "term": "Sanitization (NaOH 소독)",
+   "term": "Sanitization",
    "group": "cff",
    "def": "보관 중 자랐을지 모르는 균을 NaOH로 죽이는 처리.",
    "src": "WK06 강의 녹음 1:08:53–1:09:29"
@@ -568,7 +568,7 @@
   },
   {
    "no": 66,
-   "term": "Lifecycle study (재사용 수명 검증)",
+   "term": "Lifecycle study",
    "group": "clean",
    "def": "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구.",
    "src": "WK06 강의 녹음 1:31:00–1:34:10, 1:41:52–1:42:28"
@@ -587,7 +587,7 @@
   },
   {
    "no": 68,
-   "term": "Bed height (레진 층 높이)",
+   "term": "Bed height",
    "group": "scale",
    "def": "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
    "src": "WK06 강의 녹음 2:15:49–2:18:01",
@@ -596,7 +596,8 @@
     "베드 높이",
     "층 높이",
     "레진 높이",
-    "베드 하이트"
+    "베드 하이트",
+    "레진 층 높이"
    ]
   }
  ]

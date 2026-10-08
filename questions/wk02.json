@@ -94,11 +94,11 @@
       "type": "연결",
       "question": "세포 배양 방식에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "회분식(Batch): 처음 넣은 배지로만 키운다",
-        "관류는 세포를 붙잡는 장치가 필요 없다",
-        "유가식(Fed-batch): 중간에 영양분을 더 넣는다",
-        "관류(Perfusion): 세포 없는 상등액을 계속 뺀다",
-        "항체 생산에는 유가식을 가장 많이 쓴다"
+        "Batch는 처음 넣은 배지로만 키운다",
+        "Perfusion은 세포를 붙잡아 두는 장치가 필요 없다",
+        "Fed-batch는 중간에 영양분을 더 넣는다",
+        "Perfusion은 세포 없는 상등액을 계속 빼낸다",
+        "항체 생산에는 Fed-batch를 가장 많이 쓴다"
       ],
       "answer": 2,
       "explanation": "**관류 배양은 세포를 배양기에 붙잡아 두는 장치(spin filter, ATF 등 Cell Retention Device)가 필요하다.** 세포는 남기고, 배지를 넣는 속도만큼 세포 없는 상등액만 빼낸다. 회분식은 처음 배지만으로 키워 단순하지만 생산성이 낮고, 유가식은 중간에 영양분을 추가하며 항체 생산에 가장 많이 쓴다.",
@@ -123,8 +123,8 @@
       "type": "개념",
       "question": "QbD(Quality by Design)에서 가장 먼저 정하는 것은?",
       "choices": [
-        "QTPP(목표 제품 품질 프로파일)",
-        "관리 전략(Control strategy)",
+        "QTPP",
+        "Control strategy",
         "Design Space",
         "위험평가",
         "DoE 실험 조건"
@@ -152,8 +152,8 @@
       "type": "연결",
       "question": "다음 중 CQA(핵심 품질 특성)에 해당하는 것은?",
       "choices": [
-        "Feed rate(공급 속도)",
-        "DO(용존 산소)",
+        "Feed rate",
+        "DO",
         "배양 온도",
         "pH",
         "당쇄화(Glycosylation)"
@@ -293,7 +293,7 @@
         "소규모의 rpm을 그대로 쓴다",
         "최대 rpm으로 돌린다",
         "생산 규모에서 여러 rpm을 시험한다",
-        "P/V(단위 부피당 동력)를 같게 맞춘다",
+        "P/V를 같게 맞춘다",
         "통기량만 맞추고 교반은 무시한다"
       ],
       "answer": 4,
@@ -374,10 +374,10 @@
       "type": "연결",
       "question": "'다음 배치에서 lactate가 쌓이지 않게 하려면 무엇을 바꿔야 하나?'에 답하는 분석은?",
       "choices": [
-        "Descriptive(기술) 분석",
-        "Diagnostic(진단) 분석",
-        "Predictive(예측) 분석",
-        "Prescriptive(처방) 분석",
+        "Descriptive analytics",
+        "Diagnostic analytics",
+        "Predictive analytics",
+        "Prescriptive analytics",
         "Nutrient soft sensor"
       ],
       "answer": 4,
@@ -430,11 +430,11 @@
       "part": 1,
       "question": "Upstream(배양) 단계가 아닌 것은?",
       "choices": [
-        "배지 준비(Media preparation)",
-        "세포은행(Cell banking)",
+        "Media preparation",
+        "Cell banking",
         "Capture 크로마토그래피",
         "Seed train",
-        "생산 배양(Production)"
+        "Production culture"
       ],
       "answer": 3,
       "explanation": "**Capture 크로마토그래피는 Downstream(정제)의 첫 단계다.** 배양(USP): 배지 준비 → 세포은행 → Seed train → 생산 배양 → 원심분리·청징. 정제(DSP): Capture → 바이러스 불활화 → 바이러스 제거 여과 → 농축 → 무균 여과. 완제(DP): 충전.",
@@ -596,10 +596,10 @@
       "type": "연결",
       "question": "일반적인 fed-batch에서 항체가 주로 만들어지는 시기는?",
       "choices": [
-        "Lag phase(유도기)",
-        "Stationary phase(정지기)",
-        "Log phase(대수기)",
-        "Death phase(사멸기)",
+        "Lag phase",
+        "Stationary phase",
+        "Log phase",
+        "Death phase",
         "접종 직후"
       ],
       "answer": 2,
@@ -738,7 +738,7 @@
         "공장 부지 면적이라서",
         "set point 하나만 정하면 돼서",
         "통계 프로그램 이름이라서",
-        "배양기 위쪽 빈 공간(head space)이라서",
+        "배양기의 head space를 뜻해서",
         "한 점이 아니라 벗어나면 안 되는 범위라서"
       ],
       "answer": 5,
@@ -1099,6 +1099,163 @@
       "tags": [
         "P/V",
         "Scale-up"
+      ]
+    },
+    {
+      "id": "wk02-081",
+      "type": "개념",
+      "part": 2,
+      "question": "배양이 진행되며 pH가 떨어지는 주된 원인과 그 대응으로 옳은 것은?",
+      "choices": [
+        "Ammonium이 쌓여 pH가 내려가므로 CO₂를 넣는다",
+        "Lactate가 쌓여 pH가 내려가므로 염기를 넣는다",
+        "산소가 너무 많이 녹아 pH가 내려가므로 N₂를 넣는다",
+        "포도당이 모자라 pH가 내려가므로 배지를 빼낸다",
+        "세포가 염기를 만들어 pH가 내려가므로 산을 넣는다"
+      ],
+      "answer": 2,
+      "explanation": "**포도당이 해당 과정만 거쳐 lactate(젖산)가 쌓이면 pH가 내려가므로, 배양기는 염기(sodium bicarbonate 등)를 넣어 pH를 맞춘다.** pH가 너무 오르면 반대로 CO₂를 넣는다. 그래서 lactate는 배양 중 샘플링으로 꼭 확인하는 대사물이다.",
+      "choiceNotes": [
+        "틀리다 — ammonium은 글루타민에서 나오고, CO₂를 넣으면 pH가 더 내려간다.",
+        "옳다 — 포도당이 해당 과정만 거쳐 lactate(젖산)가 쌓이면 pH가 내려가므로, 배양기는 염기(sodium bicarbonate 등)를 넣어 pH를 맞춘다",
+        "틀리다 — 산소(DO)는 pH와 직접 관계가 없다. N₂는 DO가 너무 높을 때 쓴다.",
+        "틀리다 — pH를 낮추는 것은 포도당 부족이 아니라 포도당에서 나온 lactate다.",
+        "틀리다 — pH가 떨어질 때 산을 넣으면 더 떨어진다."
+      ],
+      "source": "WK02 PDF p.46–47 · WK02 강의 녹음 02:08:07 · WK02 강의 녹음 01:25:39–01:26:35, 01:37:41–01:38:35",
+      "concepts": [
+        "Lactate",
+        "pH control (염기·CO₂)"
+      ],
+      "tags": [
+        "Lactate",
+        "pH control (염기·CO₂)"
+      ]
+    },
+    {
+      "id": "wk02-082",
+      "type": "개념",
+      "part": 2,
+      "question": "Micro sparger가 ring sparger보다 산소 전달에 유리한 이유는?",
+      "choices": [
+        "기포가 커서 배양액 위로 빨리 떠올라서",
+        "CO₂를 더 많이 만들어 산소를 밀어내서",
+        "교반 날개처럼 배양액을 섞어 주어서",
+        "기포가 작아 같은 기체량에서 배양액과 닿는 면적이 넓어서",
+        "거품을 없애 산소가 잘 들어가게 해서"
+      ],
+      "answer": 4,
+      "explanation": "**기포가 작을수록 같은 양의 기체에서 배양액과 닿는 표면적이 넓고 오래 머물러, 산소가 더 잘 녹아든다(kLa 상승).** 그래서 micro sparger는 산소 전달에, 큰 기포를 내는 ring sparger는 CO₂ 제거에 유리하다(원리는 일반 원리).",
+      "choiceNotes": [
+        "틀리다 — 기포가 크고 빨리 떠오르면 오히려 산소가 덜 녹는다.",
+        "틀리다 — sparger는 CO₂를 만들지 않는다. CO₂ 제거는 큰 기포의 ring sparger가 유리하다.",
+        "틀리다 — 배양액을 섞는 것은 impeller다.",
+        "옳다 — 기포가 작을수록 같은 양의 기체에서 배양액과 닿는 표면적이 넓고 오래 머물러, 산소가 더 잘 녹아든다(kLa 상승)",
+        "틀리다 — 거품을 없애는 것은 anti-foam이다."
+      ],
+      "source": "WK02 PDF p.22–23",
+      "concepts": [
+        "Micro sparger",
+        "Ring sparger",
+        "kLa"
+      ],
+      "tags": [
+        "Micro sparger",
+        "Ring sparger",
+        "kLa"
+      ]
+    },
+    {
+      "id": "wk02-083",
+      "type": "개념",
+      "part": 2,
+      "question": "Scale-up에서 소규모와 같은 rpm을 쓰면 안 되는 이유는?",
+      "choices": [
+        "큰 impeller는 같은 rpm에서도 tip speed와 전단력이 훨씬 커져서",
+        "큰 배양기에서는 rpm을 잴 수 없어서",
+        "rpm이 같으면 산소가 지나치게 많이 녹아서",
+        "큰 배양기는 교반이 필요 없어서",
+        "rpm은 세포 성장과 관계가 없어서"
+      ],
+      "answer": 1,
+      "explanation": "**impeller가 커지면 같은 rpm에서도 날개 끝 속도(tip speed)와 동력이 훨씬 커져 세포가 받는 전단력이 커진다.** 그래서 rpm이 아니라 P/V(단위 부피당 동력)를 같게 맞추는 rpm을 출발점으로 삼는다.",
+      "choiceNotes": [
+        "옳다 — impeller가 커지면 같은 rpm에서도 날개 끝 속도(tip speed)와 동력이 훨씬 커져 세포가 받는 전단력이 커진다",
+        "틀리다 — rpm은 어느 규모에서나 잴 수 있다.",
+        "틀리다 — 문제는 산소가 아니라 큰 impeller가 만드는 큰 힘(shear)이다.",
+        "틀리다 — 큰 배양기일수록 섞고 산소를 녹이려면 교반이 필요하다.",
+        "틀리다 — 교반 세기는 산소 전달·전단력을 통해 세포에 직접 영향을 준다."
+      ],
+      "source": "WK02 PDF p.89 (P/V — 필기 Scale-up) · WK02 강의 녹음 02:35:42–02:36:14, 02:39:01–02:40:31",
+      "concepts": [
+        "Scale-up",
+        "Tip speed",
+        "P/V"
+      ],
+      "tags": [
+        "Scale-up",
+        "Tip speed",
+        "P/V"
+      ]
+    },
+    {
+      "id": "wk02-084",
+      "type": "개념",
+      "part": 2,
+      "question": "동물세포가 미생물보다 강한 교반·통기에 약한 이유는?",
+      "choices": [
+        "세포벽이 두꺼워 산소가 들어가지 못해서",
+        "크기가 아주 작아 기포에 붙지 않아서",
+        "포도당을 영양분으로 쓰지 않아서",
+        "항체를 만들 때만 일시적으로 약해져서",
+        "세포벽 없이 얇은 세포막만 있어 전단력에 찢어지기 쉬워서"
+      ],
+      "answer": 5,
+      "explanation": "**동물세포는 세포벽이 없고 얇은 세포막만 있어, 강한 교반이 만드는 작은 소용돌이(eddies)와 기포가 터질 때의 힘에 쉽게 찢어진다.** 미생물(대장균 등)은 세포벽이 있어 훨씬 강하다.",
+      "choiceNotes": [
+        "틀리다 — 세포벽은 미생물에 있고 동물세포에는 없다.",
+        "틀리다 — 동물세포는 약 15 µm로 세균보다 크다.",
+        "틀리다 — 동물세포도 포도당을 주된 영양분으로 쓴다.",
+        "틀리다 — 항체 생산 여부와 관계없이 막이 약하다.",
+        "옳다 — 동물세포는 세포벽이 없고 얇은 세포막만 있어, 강한 교반이 만드는 작은 소용돌이(eddies)와 기포가 터질 때의 힘에 쉽게 찢어진다"
+      ],
+      "source": "WK02 PDF p.89 (P/V — Why is this important?), p.91 (The Meaning of Torque Measurement), p.92 (Shear Force via Stirring) · WK04 강의 녹음② 14:05–15:27 (숙주세포)",
+      "concepts": [
+        "Shear force (전단력)",
+        "Cell wall"
+      ],
+      "tags": [
+        "Shear force (전단력)",
+        "Cell wall"
+      ]
+    },
+    {
+      "id": "wk02-085",
+      "type": "개념",
+      "part": 2,
+      "question": "N-1 perfusion으로 고밀도 접종하면 연간 배치 수가 늘어나는 이유는?",
+      "choices": [
+        "생산 배양기를 perfusion으로 바꿔 계속 수확해서",
+        "Seed train 단계가 더 늘어나서",
+        "생산 배양기가 처음부터 고밀도로 시작해 운전 기간이 짧아져서",
+        "생산 배양기에 배지를 덜 넣어서",
+        "정제 공정을 생략할 수 있어서"
+      ],
+      "answer": 3,
+      "explanation": "**N-1을 perfusion으로 키워 아주 높은 밀도로 접종하면, 생산 배양기가 세포를 늘리는 기간이 줄어 한 배치가 빨리 끝나고 연간 배치 수가 늘어난다.** 생산 배양기의 fed-batch 방식은 그대로라 도입이 쉽고 titer도 높아질 수 있다.",
+      "choiceNotes": [
+        "틀리다 — 생산 배양기는 그대로 fed-batch다. 바뀌는 것은 N-1이다.",
+        "틀리다 — seed train은 늘지 않는다. 마지막 seed(N-1)만 관류로 키운다.",
+        "옳다 — N-1을 perfusion으로 키워 아주 높은 밀도로 접종하면, 생산 배양기가 세포를 늘리는 기간이 줄어 한 배치가 빨리 끝나고 연간 배치 수가 늘어난다",
+        "틀리다 — 배지 양 때문이 아니다(오히려 배지 비용은 조금 는다).",
+        "틀리다 — 정제는 그대로 한다."
+      ],
+      "source": "WK02 PDF p.38 (N-1 Perfusion High Inoculum Fed-Batch), p.39 (N-1 Perfusion from Seed to Main)",
+      "concepts": [
+        "N-1 perfusion high inoculum fed-batch"
+      ],
+      "tags": [
+        "N-1 perfusion high inoculum fed-batch"
       ]
     }
   ]
