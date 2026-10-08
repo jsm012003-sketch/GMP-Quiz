@@ -8,16 +8,16 @@
       "type": "연결",
       "question": "항체 정제 단계와 목적의 연결로 옳지 않은 것은?",
       "choices": [
-        "Protein A – 항체를 붙잡고 불순물 대부분 제거",
-        "낮은 pH 처리 – 바이러스 불활화",
+        "Protein A – 항체를 붙잡고 불순물 대부분을 제거",
+        "Low pH 처리 – 바이러스 불활화",
         "UF/DF – 바이러스를 크기로 걸러내는 단계",
         "Depth filtration – 탁도 제거",
-        "CEX – 응집체·숙주 단백질 제거"
+        "CEX – aggregate·HCP 제거"
       ],
       "answer": 3,
-      "explanation": "**UF/DF는 농축과 버퍼 교환 단계이고, 바이러스를 크기로 거르는 것은 별도의 virus filtration이다.** 흐름: Protein A → 낮은 pH → depth filtration → AEX → CEX → virus filtration → UF/DF.",
+      "explanation": "**UF/DF는 농축과 버퍼 교환 단계이고, 바이러스를 크기로 거르는 것은 별도의 virus filtration이다.** 흐름: Protein A → low pH → depth filtration → AEX → CEX → virus filtration → UF/DF.",
       "choiceNotes": [
-        "옳은 진술 — 포획(capture).",
+        "옳은 진술 — Capture 단계다.",
         "옳은 진술.",
         "틀린 진술(정답) — UF/DF는 농축·버퍼 교환. 바이러스는 virus filtration.",
         "옳은 진술.",
@@ -63,19 +63,19 @@
       "type": "개념",
       "question": "바이러스 제거 시험의 모델 바이러스 선정으로 옳은 것은?",
       "choices": [
-        "외피 있는 바이러스 1종",
-        "제거가 쉬운 큰 바이러스만",
-        "모델 바이러스 없이 수율로 대신",
-        "외피 있는 것 + 작은 외피 없는 것을 포함해 3~4종",
-        "생산 세포 바이러스만"
+        "Enveloped virus 1종만 쓴다",
+        "제거가 쉬운 큰 바이러스만 쓴다",
+        "모델 바이러스 없이 수율로 대신한다",
+        "Enveloped virus와 작은 non-enveloped virus를 포함해 3~4종을 쓴다",
+        "생산 세포에서 나올 바이러스만 쓴다"
       ],
       "answer": 4,
-      "explanation": "**외피 바이러스와 작은 비외피 바이러스(가능하면 parvovirus)를 포함해 보통 3~4종을 쓴다**(ICH Q5A·EMEA).",
+      "explanation": "**Enveloped virus와 작은 non-enveloped virus(가능하면 parvovirus)를 포함해 보통 3~4종을 쓴다**(ICH Q5A·EMEA).",
       "choiceNotes": [
         "틀리다.",
         "틀리다.",
         "틀리다.",
-        "옳다 — 작은 비외피는 parvovirus 권장.",
+        "옳다 — 작은 non-enveloped virus로는 parvovirus를 권장한다.",
         "틀리다."
       ],
       "source": "WK06 PDF p.8 (EMEA), p.9 (ICH Q5A: 3–4 viruses), p.14 (Model Viruses for Animal Cell Culture Products)",
@@ -91,16 +91,16 @@
       "part": 2,
       "question": "바이러스 제거 기술과 효과의 연결로 옳은 것은?",
       "choices": [
-        "낮은 pH – 외피 없는 바이러스에 특히 효과",
-        "S&D(용매·계면활성제) – 외피 바이러스에 효과",
-        "바이러스 필터 – 외피 바이러스에만 효과",
-        "크로마토그래피 – 외피 없는 바이러스에 효과 없음",
-        "열처리 – DNA만 표적"
+        "Low pH – non-enveloped virus에 특히 효과가 있다",
+        "S&D – enveloped virus에 효과가 있다",
+        "Virus filter – enveloped virus에만 효과가 있다",
+        "크로마토그래피 – non-enveloped virus에는 효과가 없다",
+        "열처리 – DNA만 표적으로 한다"
       ],
       "answer": 2,
-      "explanation": "**S&D·낮은 pH는 외피를 공격하므로 외피 바이러스에, 크로마토그래피(흡착)·바이러스 필터(크기)는 외피 유무와 상관없이 효과가 있다.**",
+      "explanation": "**S&D·low pH는 외피를 공격하므로 enveloped virus에, 크로마토그래피(흡착)·virus filter(크기)는 외피 유무와 상관없이 효과가 있다.**",
       "choiceNotes": [
-        "틀리다 — 외피 바이러스에 효과.",
+        "틀리다 — Enveloped virus에 효과.",
         "옳다 — 외피를 녹인다.",
         "틀리다 — 크기로 걸러 모두에 효과.",
         "틀리다 — 모두에 효과.",
@@ -116,20 +116,20 @@
     {
       "id": "wk06-007",
       "type": "개념",
-      "question": "외피 없는 작은 바이러스(파보바이러스 등)를 없애는 데 가장 효과적인 방법은?",
+      "question": "작은 non-enveloped virus(parvovirus 등)를 없애는 데 가장 효과적인 방법은?",
       "choices": [
         "0.2 µm 무균 필터",
-        "낮은 pH 처리",
+        "Low pH 처리",
         "S&D 처리",
-        "바이러스 필터와 흡착 크로마토그래피",
+        "Virus filter와 흡착 크로마토그래피",
         "UF/DF"
       ],
       "answer": 4,
-      "explanation": "**외피 없는 작은 바이러스는 낮은 pH·S&D가 잘 듣지 않아, 크기로 거르는 바이러스 필터와 흡착 단계가 맡는다.** 0.2 µm 무균 필터는 바이러스를 거르지 못한다(일반 원리).",
+      "explanation": "**작은 non-enveloped virus는 low pH·S&D가 잘 듣지 않아, 크기로 거르는 virus filter와 흡착 단계가 맡는다.** 0.2 µm 무균 필터는 바이러스를 거르지 못한다(일반 원리).",
       "choiceNotes": [
         "틀리다 — 0.2 µm는 바이러스를 못 거른다.",
-        "틀리다 — 외피 바이러스용.",
-        "틀리다 — 외피 바이러스용.",
+        "틀리다 — Enveloped virus용.",
+        "틀리다 — Enveloped virus용.",
         "옳다.",
         "틀리다 — 농축 단계다."
       ],
@@ -145,7 +145,7 @@
       "id": "wk06-008",
       "type": "개념",
       "part": 1,
-      "question": "직교(orthogonal) 바이러스 제거 전략이란?",
+      "question": "Orthogonal 바이러스 제거 전략이란?",
       "choices": [
         "원리가 다른 단계를 여러 개 겹쳐 쓰는 것",
         "같은 단계를 여러 번 반복하는 것",
@@ -174,13 +174,13 @@
       "question": "강의의 DSP 소모품 비용에서 가장 큰 비중을 차지한 것은?",
       "choices": [
         "염·버퍼",
-        "TFF 멤브레인",
+        "TFF membrane",
         "Protein A 레진",
-        "depth 필터",
-        "무균 필터"
+        "Depth filter",
+        "제균 필터"
       ],
       "answer": 3,
-      "explanation": "**DSP 소모품 비용은 Protein A 레진(약 45 %)이 가장 크고, 그다음이 바이러스 필터(약 22 %)다.** 비용을 줄이려면 큰 항목부터 본다.",
+      "explanation": "**DSP 소모품 비용은 Protein A 레진(약 45 %)이 가장 크고, 그다음이 virus filter(약 22 %)다.** 비용을 줄이려면 큰 항목부터 본다.",
       "choiceNotes": [
         "틀리다 — 약 2 %.",
         "틀리다 — 약 2 %.",
@@ -208,7 +208,7 @@
         "컬럼 높이를 크게 높인다"
       ],
       "answer": 3,
-      "explanation": "**처리 시간은 부피와 유속에 묶이므로, Protein A 앞에서 UF/DF로 약 20배 농축하면 시간이 크게 줄어든다**(10,000 L, 50시간 → 500 L, 2.5시간). 강의: titer가 낮아 부피만 크고 단백질은 적을 때, 선속도와 레진 양은 그대로 두고 부피만 줄이는 아이디어다. 서너 시간을 더 들여 50시간을 몇 시간으로 줄이는 것이 공정 디자인이다.",
+      "explanation": "**처리 시간은 부피와 유속에 묶이므로, Protein A 앞에서 UF/DF로 약 20배 농축하면 시간이 크게 줄어든다**(10,000 L, 50시간 → 500 L, 2.5시간). 강의: titer가 낮아 부피만 크고 단백질은 적을 때, linear velocity와 레진 양은 그대로 두고 부피만 줄이는 아이디어다. 서너 시간을 더 들여 50시간을 몇 시간으로 줄이는 것이 공정 디자인이다.",
       "choiceNotes": [
         "틀리다.",
         "틀리다 — 더 커진다.",
@@ -255,7 +255,7 @@
     {
       "id": "wk06-013",
       "type": "개념",
-      "question": "같은 양의 항체를 만들 때 배양 titer(생산 농도)가 크게 오르면 정제 공정은?",
+      "question": "같은 양의 항체를 만들 때 배양 titer가 크게 오르면 정제 공정은?",
       "choices": [
         "부피와 시간이 그대로다",
         "레진이 훨씬 더 많이 필요하다",
@@ -314,12 +314,12 @@
       "choices": [
         "모든 항체가 똑같은 순서를 써야 한다",
         "단계가 많을수록 좋다",
-        "공통 틀(플랫폼)을 쓰되 제품에 맞게 조금씩 바꾼다",
+        "공통 platform을 쓰되 제품에 맞게 조금씩 바꾼다",
         "Protein A는 거의 안 쓴다",
         "UF/DF는 맨 앞에만 쓴다"
       ],
       "answer": 3,
-      "explanation": "**대부분 Protein A → 낮은 pH → 이온교환 → 바이러스 여과 → UF/DF라는 공통 틀을 쓰고, 제품 특성에 맞게 단계·순서를 조정한다.**",
+      "explanation": "**대부분 Protein A → low pH → 이온교환 → 바이러스 여과 → UF/DF라는 공통 틀을 쓰고, 제품 특성에 맞게 단계·순서를 조정한다.**",
       "choiceNotes": [
         "틀리다.",
         "틀리다 — 수율·비용 부담이 커진다.",
@@ -339,8 +339,8 @@
       "type": "개념",
       "question": "DSP(정제) 기술이 발전하는 방향은?",
       "choices": [
-        "회분식에서 연속식으로",
-        "연속식에서 회분식으로",
+        "Batch에서 continuous로",
+        "Continuous에서 batch로",
         "단계를 계속 늘리는 쪽으로",
         "바이러스 단계를 없애는 쪽으로",
         "UF/DF를 없애는 쪽으로"
@@ -369,11 +369,11 @@
         "SEC – 분자 크기 차이",
         "HIC – 분자 크기 차이",
         "AEX – 소수성 차이",
-        "CEX – 음전하 분자를 양전하 레진에 붙임",
-        "SEC – 고염에서 소수성 차이"
+        "CEX – 음전하 분자와 양전하 레진의 결합",
+        "SEC – high salt에서 소수성 차이"
       ],
       "answer": 1,
-      "explanation": "**SEC(크기 배제)는 분자 크기 차이로 분리한다.** CEX는 양전하 분자를 음전하 레진에 붙여 HCP·응집체를 없애고, AEX는 음전하 DNA·바이러스를 양전하 레진에 붙여 없애며, HIC는 고염 조건에서 소수성 차이로 분리한다.",
+      "explanation": "**SEC(크기 배제)는 분자 크기 차이로 분리한다.** CEX는 양전하 분자를 음전하 레진에 붙여 HCP·aggregate를 없애고, AEX는 음전하 DNA·바이러스를 양전하 레진에 붙여 없애며, HIC는 high salt 조건에서 소수성 차이로 분리한다.",
       "choiceNotes": [
         "옳다 — 크기 배제.",
         "틀리다 — HIC는 소수성 차이다.",
@@ -397,16 +397,16 @@
       "choices": [
         "HCP – 단백질끼리 뭉친 덩어리",
         "HCP – 생산 세포에서 나온 단백질 불순물",
-        "응집체 – 생산 세포의 DNA",
-        "응집체는 면역원성 위험이 없다",
+        "Aggregate – 생산 세포의 DNA",
+        "Aggregate는 면역원성 위험이 없다",
         "HCP는 Protein A 단계에서 전혀 줄지 않는다"
       ],
       "answer": 2,
-      "explanation": "**HCP(Host Cell Protein)는 생산 세포에서 나온 단백질 불순물이고, 응집체(Aggregate)는 단백질 분자가 서로 뭉친 불순물이다.** 응집체는 면역원성 위험이 있어 polishing에서 없앤다. Protein A 포획 단계에서 단백질·지질·DNA 같은 불순물 대부분이 한 번에 제거된다.",
+      "explanation": "**HCP(Host Cell Protein)는 생산 세포에서 나온 단백질 불순물이고, aggregate는 단백질 분자가 서로 뭉친 불순물이다.** Aggregate는 면역원성 위험이 있어 polishing에서 없앤다. Protein A 포획 단계에서 단백질·지질·DNA 같은 불순물 대부분이 한 번에 제거된다.",
       "choiceNotes": [
-        "틀리다 — 그것은 응집체다.",
+        "틀리다 — 그것은 aggregate다.",
         "옳다.",
-        "틀리다 — 응집체는 단백질끼리 뭉친 것이다.",
+        "틀리다 — Aggregate는 단백질끼리 뭉친 것이다.",
         "틀리다 — 면역원성 위험이 있어 없앤다.",
         "틀리다 — Protein A 단계에서 불순물 대부분이 줄어든다."
       ],
@@ -450,13 +450,13 @@
       "id": "wk06-033",
       "type": "연결",
       "part": 2,
-      "question": "기본 배지(Basal)와 피드 배지(Feed)의 구분으로 옳은 것은?",
+      "question": "Basal medium과 feed medium의 구분으로 옳은 것은?",
       "choices": [
         "두 배지는 성분이 같고 양만 다르다",
-        "기본 배지는 생산용, 피드는 세포 증식용",
-        "피드 배지는 정제에 쓰는 버퍼다",
-        "피드 배지는 배양 첫날에 한 번만 넣는다",
-        "기본 배지는 증식용, 피드는 생산(titer)용"
+        "Basal medium은 생산용, feed medium은 증식용이다",
+        "Feed medium은 정제에 쓰는 버퍼다",
+        "Feed medium은 배양 첫날에 한 번만 넣는다",
+        "Basal medium은 증식용, feed medium은 생산(titer)용이다"
       ],
       "answer": 5,
       "explanation": "**처음에는 세포가 잘 자라도록 모든 성분을 갖춘 기본 배지(main/basal medium)를 주고, 세포가 충분히 늘어난 뒤에는 단백질 생산에 필요한 성분 위주의 피드 배지(feed medium)를 준다.** 강의 비유: 맥주 효모는 산소를 주어 잘 자라게(증식) 한 뒤 산소를 끊어 알코올을 만들게(생산) 한다 — 증식 조건과 생산 조건이 다르다. 그래서 증식만 하면 되는 시드 단계(N-1까지)는 기본 배지만으로 키우고, 증식과 생산을 모두 하는 생산 배양기(N)는 처음에 기본 배지로 키운 뒤 피드를 더 주는 fed-batch로 운전한다.",
@@ -547,17 +547,17 @@
       "part": 1,
       "question": "대규모 공정에서 CEX 용출액을 AEX에 넣기 전에 하는 일은?",
       "choices": [
-        "염을 더 넣어 전도도를 높인다",
+        "염을 더 넣어 conductivity를 높인다",
         "pH를 3으로 낮춰 둔다",
         "아무 처리 없이 바로 넣는다",
         "UF/DF로 염을 빼고 버퍼를 바꾼다",
         "제균 여과만 하고 넣는다"
       ],
       "answer": 4,
-      "explanation": "**CEX는 높은 염(high salt, 높은 전도도)으로 항체를 떼어 내므로, 용출액을 그대로 AEX에 넣으면 불순물이 붙지 않는다 — 그래서 UF/DF로 염을 빼고 버퍼를 바꾼다.** 강의: 규모가 작으면 물을 부어 희석해도 되지만 15,000 L 규모에서 희석하면 탱크와 물이 너무 커진다. 공정 설계에서 CEX 다음 AEX 사이에 아무 단계도 없다면 잘못된 설계다.",
+      "explanation": "**CEX는 high salt(high conductivity)로 항체를 떼어 내므로, 용출액을 그대로 AEX에 넣으면 불순물이 붙지 않는다 — 그래서 UF/DF로 염을 빼고 버퍼를 바꾼다.** 강의: 규모가 작으면 물을 부어 희석해도 되지만 15,000 L 규모에서 희석하면 탱크와 물이 너무 커진다. 공정 설계에서 CEX 다음 AEX 사이에 아무 단계도 없다면 잘못된 설계다.",
       "choiceNotes": [
         "틀리다 — 염이 많으면 AEX에 불순물이 안 붙는다.",
-        "틀리다 — 낮은 pH는 Protein A 용출·바이러스 불활화 조건이다.",
+        "틀리다 — Low pH는 Protein A 용출·바이러스 불활화 조건이다.",
         "틀리다 — 염 때문에 AEX가 제 역할을 못 한다.",
         "옳다 — 대규모에서는 CFF(UF/DF)로 염을 뺀다.",
         "틀리다 — 제균 여과로는 염이 빠지지 않는다."
@@ -702,7 +702,7 @@
       "part": 1,
       "question": "다시 쓸 TFF 카세트를 오래 보관하는 방법으로 옳은 것은?",
       "choices": [
-        "WFI(주사용수)만 채워 둔다",
+        "WFI만 채워 둔다",
         "제품 버퍼를 넣은 채 둔다",
         "진한 NaOH에 담가 둔다",
         "균이 못 자라게 묽은 알코올·NaOH에 둔다",
@@ -734,7 +734,7 @@
       "question": "UF/DF 끝에 목표보다 더 농축한 뒤 버퍼로 헹궈 회수하는 이유는?",
       "choices": [
         "장치에 남는 제품까지 거둬 수율을 높이려고",
-        "응집체를 일부러 만들려고",
+        "Aggregate를 일부러 만들려고",
         "막을 세척하는 단계라서",
         "버퍼를 한 방울도 쓰지 않으려고",
         "바이러스를 불활화하려고"
@@ -743,7 +743,7 @@
       "explanation": "**농축한 액을 빼내도 장치·튜브 안에 진한 제품이 남는다 — 그래서 일부러 목표보다 더 농축(과농축)해 빼낸 뒤, 남은 것을 버퍼로 여러 번 헹궈 회수하고 버퍼로 최종 농도를 맞춰 수율을 거의 100 %로 만든다.** 강의: 제형 단계 항체는 1 L에 수억~10억 원이라 남는 한 방울이 직원 한 달 월급일 수 있다. 현장 관리자·엔지니어라면 알아야 할 단계다.",
       "choiceNotes": [
         "옳다 — 남는 제품(돈)을 거둬 수율 확보.",
-        "틀리다 — 응집체는 피해야 할 불순물이다.",
+        "틀리다 — Aggregate는 피해야 할 불순물이다.",
         "틀리다 — 세척(CIP)은 회수 뒤에 따로 한다.",
         "틀리다 — 헹굼에 버퍼를 쓴다.",
         "틀리다."
@@ -893,7 +893,7 @@
         "CEX→AEX는 마지막 AEX에 빈자리가 많다"
       ],
       "answer": 5,
-      "explanation": "**CEX→AEX는 앞의 CEX에서 불순물이 대부분 빠져 마지막 AEX에 빈 결합 자리가 많이 남아 바이러스를 더 잘 붙잡으므로 안정적이고(표준), AEX→CEX는 AEX를 흘려보내기(flow-through)로 써도 전도도·pH가 거의 안 바뀌어 바로 CEX로 이어 갈 수 있어 편하다.** 강의: CEX→AEX는 CEX 용출액의 염을 빼는 UF/DF가 사이에 필요해 번거롭지만 바이러스 안전성 때문에 고른다. AEX→CEX를 고르면 바이러스 제거(VCS)를 다른 방법으로 보완해야 한다. 연속 공정에는 AEX→CEX가 편하다.",
+      "explanation": "**CEX→AEX는 앞의 CEX에서 불순물이 대부분 빠져 마지막 AEX에 빈 결합 자리가 많이 남아 바이러스를 더 잘 붙잡으므로 안정적이고(표준), AEX→CEX는 AEX를 flow-through로 써도 conductivity·pH가 거의 안 바뀌어 바로 CEX로 이어 갈 수 있어 편하다.** 강의: CEX→AEX는 CEX 용출액의 염을 빼는 UF/DF가 사이에 필요해 번거롭지만 바이러스 안전성 때문에 고른다. AEX→CEX를 고르면 바이러스 제거(VCS)를 다른 방법으로 보완해야 한다. 연속 공정에는 AEX→CEX가 편하다.",
       "choiceNotes": [
         "틀리다 — CEX 용출액은 염이 많아 UF/DF가 필요하다.",
         "틀리다 — 마지막 AEX의 여유 자리에 따라 다르다.",
@@ -917,20 +917,20 @@
       "id": "wk06-048",
       "type": "연결",
       "part": 2,
-      "question": "이량체·삼량체(다량체)가 문제인 제품의 polishing에 HIC를 쓰는 이유는?",
+      "question": "Dimer·trimer 같은 multimer가 문제인 제품의 polishing에 HIC를 쓰는 이유는?",
       "choices": [
         "뭉치면 전하가 바뀌어 IEX로 쉽게 나뉘어서",
         "뭉칠수록 소수성 부위가 늘어 잘 나뉘어서",
-        "Protein A가 다량체만 골라 붙여서",
-        "다량체는 녹지 않아 원심분리로 빼서",
+        "Protein A가 multimer만 골라 붙여서",
+        "Multimer는 녹지 않아 원심분리로 빼서",
         "HIC는 분자 크기로만 나누어서"
       ],
       "answer": 2,
-      "explanation": "**단백질이 2~3개 뭉쳐도 여전히 녹아 있어(soluble) 크로마토그래피로 나눠야 하는데, 뭉친 만큼 소수성 부위가 2배·3배로 늘어 단량체와 차이가 커지므로 HIC가 유리하다.** 강의: 정제가 진행될수록 농도가 높아져 분자끼리 가까워지므로 다량체는 생길 수밖에 없다. Protein A는 다량체도 그대로 붙고, IEX는 뭉쳐도 전하 부호가 같아 나누기 어렵다. 실험해서 정제가 가장 잘 되는 조합을 고르는 것이 공정 개발이다.",
+      "explanation": "**단백질이 2~3개 뭉쳐도 여전히 녹아 있어(soluble) 크로마토그래피로 나눠야 하는데, 뭉친 만큼 소수성 부위가 2배·3배로 늘어 monomer와 차이가 커지므로 HIC가 유리하다.** 강의: 정제가 진행될수록 농도가 높아져 분자끼리 가까워지므로 multimer는 생길 수밖에 없다. Protein A는 multimer도 그대로 붙고, IEX는 뭉쳐도 전하 부호가 같아 나누기 어렵다. 실험해서 정제가 가장 잘 되는 조합을 고르는 것이 공정 개발이다.",
       "choiceNotes": [
         "틀리다 — 뭉쳐도 전하 부호는 같다.",
         "옳다 — 소수성 차이가 커진다.",
-        "틀리다 — 다량체도 Fc가 있어 함께 붙는다.",
+        "틀리다 — Multimer도 Fc가 있어 함께 붙는다.",
         "틀리다 — 2~3개 뭉친 것은 여전히 녹아 있다.",
         "틀리다 — 크기로 나누는 것은 SEC다."
       ],
@@ -951,13 +951,13 @@
       "question": "크로마토그래피 규모를 키울 때 같게 유지하는 것은?",
       "choices": [
         "컬럼 지름과 레진 양",
-        "유량(L/h)과 레진 양",
-        "컬럼 높이만 계속 높인다",
-        "선속도와 레진 층 높이(bed height)",
+        "Flow rate(L/h)와 레진 양",
+        "Bed height만 계속 높인다",
+        "Linear velocity와 bed height",
         "공정 시간과 컬럼 지름"
       ],
       "answer": 4,
-      "explanation": "**같은 공정으로 인정받으려면 선속도(linear velocity)와 레진 층 높이(bed height)를 같게 두고, 늘어난 단백질 양만큼 컬럼 지름을 키워 레진 양을 늘린다.** 강의: 분자 하나가 지나가는 속도(선속도)가 같아야 붙을 확률이 같고, 층 높이가 같아야 '붙을지 말지 고민하는 횟수'가 같다. 유량 = 선속도 × 컬럼 단면적이라 지름이 커지면 유량은 커진다. 현업에서는 bed height 20 cm를 많이 쓴다.",
+      "explanation": "**같은 공정으로 인정받으려면 linear velocity와 bed height를 같게 두고, 늘어난 단백질 양만큼 컬럼 지름을 키워 레진 양을 늘린다.** 강의: 분자 하나가 지나가는 속도(linear velocity)가 같아야 붙을 확률이 같고, bed height가 같아야 '붙을지 말지 고민하는 횟수'가 같다. 유량 = linear velocity × 컬럼 단면적이라 지름이 커지면 유량은 커진다. 현업에서는 bed height 20 cm를 많이 쓴다.",
       "choiceNotes": [
         "틀리다 — 지름과 레진 양은 규모에 맞춰 키운다.",
         "틀리다 — 유량은 단면적에 따라 커진다.",
@@ -981,7 +981,7 @@
       "id": "wk06-050",
       "type": "개념",
       "part": 1,
-      "question": "크로마토그래피에서 선속도를 너무 느리게 하면 생길 수 있는 일은?",
+      "question": "크로마토그래피에서 linear velocity를 너무 느리게 하면 생길 수 있는 일은?",
       "choices": [
         "압력이 크게 올라 컬럼이 깨진다",
         "레진이 필요 없어진다",
@@ -990,13 +990,13 @@
         "불순물도 더 붙어 순도가 떨어질 수 있다"
       ],
       "answer": 5,
-      "explanation": "**천천히 흘리면 목표 단백질이 붙을 확률도 높지만 불순물이 붙을 확률도 함께 높아지므로, 최적 선속도는 실험으로 찾는다.** 강의: 전체적으로 음전하인 불순물도 표면에 양전하 부분이 있어, 천천히 흘리면 그 부분 때문에 레진에 붙어 버릴 수 있다.",
+      "explanation": "**천천히 흘리면 목표 단백질이 붙을 확률도 높지만 불순물이 붙을 확률도 함께 높아지므로, 최적 linear velocity는 실험으로 찾는다.** 강의: 전체적으로 음전하인 불순물도 표면에 양전하 부분이 있어, 천천히 흘리면 그 부분 때문에 레진에 붙어 버릴 수 있다.",
       "choiceNotes": [
         "틀리다 — 압력은 빠르게 흘릴 때 올라간다.",
         "틀리다.",
         "틀리다 — 오히려 더 잘 붙는다.",
         "틀리다 — 느릴수록 좋은 것은 아니다.",
-        "옳다 — 그래서 최적 선속도를 실험으로 정한다."
+        "옳다 — 그래서 최적 linear velocity를 실험으로 정한다."
       ],
       "source": "WK06 강의 녹음 2:14:25–2:15:49 (선속도와 결합 확률)",
       "concepts": [
@@ -1010,19 +1010,19 @@
       "id": "wk06-051",
       "type": "연결",
       "part": 2,
-      "question": "결합 용량(Binding capacity)과 DBC(동적 결합 용량)의 구분으로 옳은 것은?",
+      "question": "Binding capacity와 DBC의 구분으로 옳은 것은?",
       "choices": [
         "DBC는 실제 유속에서 붙는 양이라 더 낮다",
         "DBC는 이론상 최대 결합량이다",
         "두 값은 언제나 같다",
         "DBC는 컬럼 부피를 뜻한다",
-        "결합 용량은 유속이 빠를수록 커진다"
+        "Binding capacity는 유속이 빠를수록 커진다"
       ],
       "answer": 1,
-      "explanation": "**결합 용량은 레진(리간드)이 이론적으로 붙잡을 수 있는 최대량이고, DBC(Dynamic Binding Capacity)는 실제 유속·bed height 조건에서 실제로 붙는 양이라 더 낮다 — 공정 설계에는 DBC를 쓴다.** 강의: 천천히 보내면 잘 붙고 빨리 보내면 덜 붙으므로 실제 조건으로 확인해야 한다. 단위는 레진 부피당 단백질 질량(mg/mL, 생산 규모에서는 g/L)으로 쓴다.",
+      "explanation": "**Binding capacity는 레진(리간드)이 이론적으로 붙잡을 수 있는 최대량이고, DBC(Dynamic Binding Capacity)는 실제 유속·bed height 조건에서 실제로 붙는 양이라 더 낮다 — 공정 설계에는 DBC를 쓴다.** 강의: 천천히 보내면 잘 붙고 빨리 보내면 덜 붙으므로 실제 조건으로 확인해야 한다. 단위는 레진 부피당 단백질 질량(mg/mL, 생산 규모에서는 g/L)으로 쓴다.",
       "choiceNotes": [
         "옳다.",
-        "틀리다 — 그것은 (정적) 결합 용량이다.",
+        "틀리다 — 그것은 (정적) binding capacity이다.",
         "틀리다 — 유속 조건에 따라 DBC가 낮다.",
         "틀리다 — 컬럼 부피는 CV다.",
         "틀리다 — 빠를수록 덜 붙는다."
@@ -1043,9 +1043,9 @@
       "part": 2,
       "question": "생산 현장에서 물 등급과 쓰임의 연결로 옳은 것은?",
       "choices": [
-        "PW(정제수) – 주사제를 만드는 물",
-        "WFI(주사용수) – 의약품 제조·장비 헹굼",
-        "WFI(주사용수) – 바닥 청소용 물",
+        "PW – 주사제를 만드는 물",
+        "WFI – 의약품 제조·장비 헹굼(flushing)",
+        "WFI – 바닥 청소용 물",
         "PW – WFI보다 높은 등급의 물",
         "수돗물 – 카세트 보관액을 밀어내는 물"
       ],
@@ -1066,6 +1066,276 @@
       "tags": [
         "WFI",
         "PW"
+      ]
+    },
+    {
+      "id": "wk06-053",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "항체 정제(DSP) 소모품 비용에서 가장 큰 비중을 차지하는 것은?",
+      "answers": [
+        "Protein A 레진",
+        "Protein A",
+        "Protein A resin",
+        "프로틴 A 레진",
+        "단백질 A 레진",
+        "프로틴A"
+      ],
+      "explanation": "**DSP 소모품 비용은 Protein A 레진(약 45 %)이 가장 크고, 그다음이 virus filter(약 22 %)다.** 녹음: Protein A 레진은 1 L에 수천만 원이라 보통 여러 사이클로 나눠 돌린다.",
+      "source": "WK06 PDF p.16 (비용 구성), p.22–23 (Protein A resin 비용) · WK06 강의 녹음 2:40:12–2:41:43",
+      "concepts": [
+        "Protein A",
+        "COGS"
+      ],
+      "tags": [
+        "Protein A",
+        "COGS"
+      ]
+    },
+    {
+      "id": "wk06-054",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "정제수(PW)를 어떤 처리로 주사용수(WFI)로 만드는가?",
+      "answers": [
+        "증류",
+        "Distillation",
+        "증류기",
+        "still"
+      ],
+      "explanation": "**원수 → 전처리(연수기·활성탄) → RO → 이온교환 → 정제수(PW) → 증류 → 주사용수(WFI).** 의약품 제조·장비 헹굼에는 WFI, 바닥 청소 같은 일에는 PW를 쓴다.",
+      "source": "WK06 PDF p.27 (PW/WFI 계통도) · WK06 강의 녹음 1:07:14–1:08:53",
+      "concepts": [
+        "WFI",
+        "PW"
+      ],
+      "tags": [
+        "WFI",
+        "PW"
+      ]
+    },
+    {
+      "id": "wk06-055",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "원리가 다른 바이러스 제거 단계를 최소 몇 개 겹쳐야 하는가(직교 전략)?",
+      "answers": [
+        "2",
+        "2개",
+        "두 개",
+        "2 개",
+        "2단계"
+      ],
+      "explanation": "**원리가 다른 단계를 최소 2개 이상 겹친다(orthogonal 전략)** — 불활화·흡착·크기 여과가 서로 놓친 바이러스를 잡게 한다. 바이러스 제거 검증은 임상 시작 전에, 모델 바이러스 3~4종으로 한다.",
+      "source": "WK06 PDF p.8, p.10, p.15 (Integrated & Orthogonal Virus Clearance Technology Platform)",
+      "concepts": [
+        "Orthogonal (직교) 전략"
+      ],
+      "tags": [
+        "Orthogonal (직교) 전략"
+      ]
+    },
+    {
+      "id": "wk06-056",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "현장 UF/DF에서 농축(UF)과 버퍼 교환(DF) 중 먼저 하는 것은?",
+      "answers": [
+        "농축",
+        "UF",
+        "Ultrafiltration",
+        "한외여과",
+        "농축(UF)"
+      ],
+      "explanation": "**먼저 농축(UF)해 부피를 줄인 뒤 버퍼 교환(DF)을 한다 — 버퍼·시간·돈이 훨씬 적게 든다.** 강사가 소개한 제약사 신입 면접 기출 문제다.",
+      "source": "WK06 강의 녹음 36:45–41:27 (면접 기출: 왜 농축 다음에 DF?)",
+      "concepts": [
+        "UF/DF"
+      ],
+      "tags": [
+        "UF/DF"
+      ]
+    },
+    {
+      "id": "wk06-057",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "다회용 장비를 제자리에서 세척(CIP)하고 멸균(SIP)할 때, 먼저 하는 것은?",
+      "answers": [
+        "CIP",
+        "세척",
+        "Cleaning In Place",
+        "CIP(세척)"
+      ],
+      "explanation": "**CIP(세척)를 먼저 하고 SIP(멸균)를 한다** — 찌꺼기가 남은 채 멸균하면 의미가 없다. 큰 배양기 SIP에는 열을 잘 전하고 독성이 남지 않는 습열(스팀)을 쓴다.",
+      "source": "WK06 강의 녹음 58:47–1:03:16 (CIP·SIP)",
+      "concepts": [
+        "CIP",
+        "SIP"
+      ],
+      "tags": [
+        "CIP",
+        "SIP"
+      ]
+    },
+    {
+      "id": "wk06-058",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "TFF 카세트·레진의 막힌 단백질을 녹여 세척·소독할 때 주로 쓰는 약품은?",
+      "answers": [
+        "NaOH",
+        "수산화나트륨",
+        "가성소다",
+        "양잿물",
+        "Sodium hydroxide",
+        "수산화 나트륨"
+      ],
+      "explanation": "**NaOH(약 0.1~1 M)로 막힌 단백질을 녹여 세척하고, 균도 죽인다(sanitization).** 오래 보관할 때는 묽은 NaOH나 20 % 에탄올에 담가 두고, 쓰기 전에 WFI로 밀어낸다.",
+      "source": "WK06 강의 녹음 1:03:28–1:04:21, 1:08:53–1:09:29 (NaOH 세척·소독)",
+      "concepts": [
+        "Sanitization",
+        "Storage solution"
+      ],
+      "tags": [
+        "Sanitization",
+        "Storage solution"
+      ]
+    },
+    {
+      "id": "wk06-059",
+      "type": "개념",
+      "part": 2,
+      "question": "Non-enveloped virus에 low pH·S&D가 잘 듣지 않는 이유는?",
+      "choices": [
+        "공격할 lipid envelope가 없어서",
+        "크기가 커서 필터에 걸리기 때문에",
+        "pH가 낮을수록 더 빨리 늘어나서",
+        "유전물질(DNA·RNA)이 없어서",
+        "항체와 붙어 보호받아서"
+      ],
+      "answer": 1,
+      "explanation": "**Low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 깨뜨려 죽이는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다.** 그래서 작은 non-enveloped virus(parvovirus 등)는 크기로 거르는 virus filter와 흡착 크로마토그래피가 맡는다(orthogonal 전략).",
+      "choiceNotes": [
+        "옳다 — low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 깨뜨려 죽이는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다",
+        "틀리다 — Non-enveloped virus는 작다(약 20 nm). 그래서 필터로 거르기도 어렵다.",
+        "틀리다 — Low pH에서 늘어나는 것이 아니라 버틴다.",
+        "틀리다 — 바이러스는 모두 유전물질이 있다.",
+        "틀리다 — 항체 결합과는 관계없다."
+      ],
+      "source": "WK06 PDF p.11 (Viable Technologies for Viral Clearance), p.15 (Integrated & Orthogonal Platform) · WK06 PDF p.11, p.14 (PPV·MVM very high resistance), p.15, p.18 (Small Virus Retentive Filtration)",
+      "concepts": [
+        "Non-enveloped virus",
+        "S&D",
+        "Low pH viral inactivation"
+      ],
+      "tags": [
+        "Non-enveloped virus",
+        "S&D",
+        "Low pH viral inactivation"
+      ]
+    },
+    {
+      "id": "wk06-060",
+      "type": "개념",
+      "part": 2,
+      "question": "크로마토그래피 scale-up 때 linear velocity와 bed height를 같게 두는 이유는?",
+      "choices": [
+        "레진 양을 줄이려고",
+        "컬럼 압력을 없애려고",
+        "분자가 레진과 만나 붙을 확률을 규모와 상관없이 같게 하려고",
+        "Flow rate(L/h)를 같게 하려고",
+        "공정 시간을 규모만큼 늘리려고"
+      ],
+      "answer": 3,
+      "explanation": "**분자가 지나가는 속도(linear velocity)가 같아야 붙을 확률이 같고, bed height가 같아야 레진과 만나는 횟수가 같다 — 그래야 규모가 달라도 '같은 공정'이다.** 늘어난 단백질 양은 컬럼 지름을 키워 감당한다.",
+      "choiceNotes": [
+        "틀리다 — 규모가 커지면 레진 양은 늘어난다.",
+        "틀리다 — 압력을 없앨 수는 없다.",
+        "옳다 — 분자가 지나가는 속도(linear velocity)가 같아야 붙을 확률이 같고, bed height가 같아야 레진과 만나는 횟수가 같다 — 그래야 규모가 달라도 '같은 공정'이다",
+        "틀리다 — 지름이 커지면 flow rate는 커진다.",
+        "틀리다 — 같은 공정이면 공정 시간도 비슷하게 유지된다."
+      ],
+      "source": "WK06 강의 녹음 2:08:21–2:18:01 (선속도·bed height, 같은 공정의 조건)",
+      "concepts": [
+        "Linear velocity",
+        "Bed height",
+        "Scale-up"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Bed height",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "wk06-061",
+      "type": "개념",
+      "part": 2,
+      "question": "Protein A 레진을 여러 번 쓰면 결합량이 줄어들 수 있는 이유는?",
+      "choices": [
+        "레진 비드가 점점 커져서",
+        "항체가 레진을 녹여서",
+        "버퍼의 염이 쌓여 리간드가 늘어나서",
+        "바이러스가 리간드를 모두 차지해서",
+        "세척을 거듭하며 리간드(Protein A)가 떨어져 나가서"
+      ],
+      "answer": 5,
+      "explanation": "**Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 붙잡을 자리가 줄어든다.** 떨어진 리간드는 제품에 섞이는 불순물(leached Protein A)이 되므로 QC로 확인하고, 결합량과 leached Protein A가 기준 안일 때까지만 다시 쓴다.",
+      "choiceNotes": [
+        "틀리다 — 비드 크기는 변하지 않는다.",
+        "틀리다 — 항체는 레진을 녹이지 않는다.",
+        "틀리다 — 염이 리간드를 늘리지는 않는다.",
+        "틀리다 — 바이러스가 결합량을 정하지 않는다.",
+        "옳다 — Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 붙잡을 자리가 줄어든다"
+      ],
+      "source": "WK06 강의 녹음 1:42:28–1:44:06 (리간드 탈락, leached Protein A QC) · WK06 강의 녹음 1:31:00–1:34:10, 1:39:46–1:40:13, 1:44:37–1:45:46 (재사용 횟수 판단)",
+      "concepts": [
+        "Protein A",
+        "Leached Protein A",
+        "Lifecycle study"
+      ],
+      "tags": [
+        "Protein A",
+        "Leached Protein A",
+        "Lifecycle study"
+      ]
+    },
+    {
+      "id": "wk06-062",
+      "type": "개념",
+      "part": 2,
+      "question": "Protein A 용출액을 low pH로 정해진 시간 둔 뒤 pH를 다시 올리는 이유는?",
+      "choices": [
+        "Low pH에서는 바이러스가 늘어나서",
+        "Low pH에 너무 오래 두면 항체가 변성·응집할 수 있어서",
+        "pH를 올려야 Protein A에 다시 붙어서",
+        "pH를 올리면 염이 사라져서",
+        "Low pH에서는 UV로 항체를 볼 수 없어서"
+      ],
+      "answer": 2,
+      "explanation": "**Low pH는 enveloped virus를 깨뜨리지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다.** 강의: 오래 두면 처음엔 투명하던 용출액이 뿌옇게 변성되므로, 생긴 불용물은 필터로 거른다.",
+      "choiceNotes": [
+        "틀리다 — Low pH는 enveloped virus를 깨뜨린다.",
+        "옳다 — Low pH는 enveloped virus를 깨뜨리지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다",
+        "틀리다 — 이미 용출된 항체를 다시 붙이려는 것이 아니다.",
+        "틀리다 — pH와 염 농도는 별개다.",
+        "틀리다 — UV 측정과는 관계없다."
+      ],
+      "source": "WK04 강의 녹음② 1:48:17–1:49:46 (Low pH viral inactivation) · WK06 강의 녹음 22:07–24:08 (VI 후 변성과 pH 조정)",
+      "concepts": [
+        "Low pH viral inactivation",
+        "Aggregate"
+      ],
+      "tags": [
+        "Low pH viral inactivation",
+        "Aggregate"
       ]
     }
   ]

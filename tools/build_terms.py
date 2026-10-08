@@ -7,6 +7,10 @@
   <prefix>d-<no>  정의 → 용어   ("다음 설명에 해당하는 용어는?")
   <prefix>r-<no>  용어 → 정의   ("「용어」에 대한 설명으로 옳은 것은?")
   <prefix>m-<no>-<no>-<no>-<no>  용어 (가)~(라) ↔ 설명 A~D 짝짓기
+  <prefix>s-<no>  단답형 — 설명을 보고 용어를 직접 쓴다("short": true 인 핵심 용어만, PART III, 2026.10.08)
+     정답 목록은 용어 이름에서 만든다: 'MCB (Master Cell Bank)' → MCB · Master Cell Bank · 전체 표기.
+     괄호가 다른 이름이 아니라 설명일 때('Grade A (충전 지점)')는 "answers"로 정답 목록을 직접 주고,
+     덧붙일 표기는 "answersExtra"에 넣는다.
 
 id는 용어 번호(no)로만 정해지므로 용어를 추가해도 기존 id는 바뀌지 않는다.
 (짝짓기 묶음은 남는 용어를 다음 묶음으로 채우므로, 기존 용어집 끝에 용어를 덧붙일 때는
@@ -138,10 +142,73 @@ def build_term_to_def(t, terms, g, spread):
     return {
         'id': qid, 'type': '용어', 'part': 1,
         'question': f"「{t['term']}」에 대한 설명으로 옳은 것은?",
-        'choices': [x['def'] for x in items],
+        'choices': [x['def'].rstrip('.') for x in items],  # 선지는 끝 마침표 없이(시험 선지 문체)
         'answer': pos + 1,
         'explanation': expl,
         'choiceNotes': notes,
+        'source': t['src'],
+        'concepts': [short(t['term'])],
+        'tags': ['용어', short(t['term'])],
+    }
+
+
+SUFFIXES = [' culture', ' chromatography', ' mode', ' test', ' 배양', ' 크로마토그래피', ' 모드', ' 시험', ' 세포']
+
+
+def norm_answer(a):
+    return re.sub(r"[\s.,·•()\[\]{}'\"`/\\:;~!?^_\-–—−=+*&%]", '', a.lower())
+
+
+def short_answers(t):
+    """단답형 정답 목록(영어·우리말·약어 표기). 띄어쓰기·대소문자·문장부호는 앱이 무시하고 비교한다."""
+    name = t['term']
+    if t.get('answers'):
+        cands = list(t['answers'])
+    else:
+        cands = []
+        m = re.match(r'^(.*?)\s*\((.*)\)\s*(.*)$', name)
+        if m:
+            main, par, tail = (x.strip() for x in m.groups())
+            pars = [x.strip() for x in re.split(r',\s*', par) if x.strip()]
+            if tail:  # 'Orthogonal (직교) 전략'
+                cands += [f"{main} {tail}", main] + [f"{x} {tail}" for x in pars] + pars
+            else:
+                cands += [main] + pars
+        else:
+            main = name
+            cands.append(name)
+        for part in re.split(r'\s+/\s+', main):
+            if part != main:
+                cands.append(part)
+        cands.append(name)
+    cands += t.get('answersExtra', [])
+    more = []
+    for c in cands:
+        for suf in SUFFIXES:
+            if c.endswith(suf) and len(c) > len(suf) + 1:
+                more.append(c[: -len(suf)])
+    out, seen = [], set()
+    for c in cands + more:
+        k = norm_answer(c)
+        if k and k not in seen:
+            seen.add(k)
+            out.append(c.strip())
+    return out
+
+
+def build_short(t, g):
+    qid = f"{g['prefix']}s-{t['no']:03d}"
+    answers = short_answers(t)
+    expl = f"**{t['term']}** — {t['def']}"
+    if t.get('note'):
+        expl += f"\n{t['note']}"
+    expl += "\n정답으로 인정하는 표기: " + ' · '.join(answers[:5]) + " (띄어쓰기·대소문자 무시)"
+    return {
+        'id': qid, 'type': '단답', 'part': 3, 'format': 'short',
+        'question': '다음 설명에 해당하는 용어를 쓰시오.',
+        'box': [t['def']],
+        'answers': answers,
+        'explanation': expl,
         'source': t['src'],
         'concepts': [short(t['term'])],
         'tags': ['용어', short(t['term'])],
@@ -269,6 +336,9 @@ def main():
                 qs.append(build_term_to_def(t, terms, g, spread))
         for ch in matching_sets(terms, g.get('matchSealed', 0)):
             qs.append(build_matching(ch, g, spread))
+        for t in terms:
+            if t.get('short'):
+                qs.append(build_short(t, g))
         out = {
             'week': g['week'],
             'title': f"{g['week']} 용어 정리",

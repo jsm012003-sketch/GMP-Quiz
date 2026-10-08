@@ -5,6 +5,7 @@
 - questions/index.json 에 적힌 파일을 모두 읽어 형식 오류, 중복 id,
   정답 번호 범위, 보기별 해설(choiceNotes) 개수 등을 확인한다.
 - 서술형(format: "essay")은 보기 대신 modelAnswer(모범답안)와 keywords(채점 요소)를 확인한다.
+- 단답형(format: "short")은 보기 대신 answers(정답 목록 — 영어·우리말 등 맞는 표기를 모두)를 확인한다.
 - part(1~3, 시험지 PART)와 파트별 문항 수도 함께 보여 준다.
 - questions/archive/ 의 걸러 낸 문항 id를 다시 쓰지 않았는지 확인한다.
 - 오류가 있으면 종료 코드 1 을 돌려준다.
@@ -16,10 +17,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 QDIR = ROOT / "questions"
-TYPES = {"용어", "개념", "연결", "상황판단", "계산", "서술형"}
+TYPES = {"용어", "개념", "연결", "단답", "상황판단", "계산", "서술형"}
 # 실제 시험(용어·원리 확인)에 나오지 않아 새로 출제하지 않는 유형 — 앱 호환용으로만 남김 (2026.10)
 RETIRED_TYPES = {"계산", "서술형", "상황판단"}
-DEFAULT_PART = {"용어": 1, "개념": 2, "연결": 2, "계산": 2, "상황판단": 3, "서술형": 3}
+DEFAULT_PART = {"용어": 1, "개념": 2, "연결": 2, "단답": 3, "계산": 2, "상황판단": 3, "서술형": 3}
 
 
 def main() -> int:
@@ -64,6 +65,20 @@ def main() -> int:
             if part not in (1, 2, 3):
                 errors.append(f"{where}: part 는 1~3 이어야 합니다 (현재 {part!r})")
             parts[part] += 1
+            if part == 3 and q.get("format") != "short":
+                warnings.append(f"{where}: PART III는 단답형 전용입니다(2026.10.08) — 객관식은 part 1·2로")
+            if q.get("format") == "short":
+                ans = q.get("answers")
+                if not isinstance(ans, list) or not ans or any(not str(a).strip() for a in ans):
+                    errors.append(f"{where}: 단답형에 answers(정답 목록)가 없습니다")
+                if part != 3:
+                    errors.append(f"{where}: 단답형은 part 3(PART III 단답형)이어야 합니다")
+                if not q.get("explanation"):
+                    warnings.append(f"{where}: explanation(해설) 없음")
+                if not q.get("source"):
+                    warnings.append(f"{where}: source(출처) 없음")
+                types[qtype] += 1
+                continue
             if q.get("format") == "essay":
                 if not str(q.get("modelAnswer", "")).strip():
                     errors.append(f"{where}: 서술형에 modelAnswer(모범답안)가 없습니다")

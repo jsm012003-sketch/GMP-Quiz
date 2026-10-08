@@ -798,3 +798,22 @@ table.data.mini th { color: var(--text); font-size: .84rem; }
 .pdf-omr { display: flex; gap: 22px; margin-top: 8px; }
 .pdf-omr-col { flex: 1; }
 .pdf-block .pexp { border-top: 1px solid #ccc; }
+
+/* ---------- 단답형 (2026.10.08) ---------- */
+.short-form { display: flex; gap: 8px; margin-top: 12px; }
+.short-input {
+  flex: 1; min-width: 0; font: inherit; font-size: 1.05rem; padding: 10px 12px;
+  border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface, transparent); color: inherit;
+}
+.short-input[readonly] { opacity: .85; }
+.short-line { display: flex; align-items: center; gap: 8px; margin: 8px 0 4px; }
+.short-line > span:first-child { font-weight: 700; }
+.paper .short-input { border-radius: 4px; padding: 6px 8px; font-size: 1rem; }
+.short-key { border: 1px dashed var(--ok-border); background: var(--ok-weak); border-radius: 10px; padding: 8px 12px; margin: 8px 0; }
+.short-key p { margin: 2px 0; }
+.short-key .ma-title { display: inline-block; min-width: 3em; font-weight: 700; }
+.print-short { margin: 8px 0 4px; }
+.print-short span { display: inline-block; width: 70%; border-bottom: 1px solid var(--border-strong); height: 1.2em; vertical-align: bottom; }
+.pkey-short-title { font-weight: 700; margin: 12px 0 4px; }
+.pkey-short { margin: 0; padding-left: 2.2em; columns: 2; column-gap: 24px; font-size: .92rem; }
+.pkey-short b { color: var(--pen-red); }

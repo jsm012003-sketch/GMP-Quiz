@@ -12,7 +12,8 @@
     course: 'GMP 바이오공정',
     courseEn: 'Bioprocess & GMP',
     questionsDir: 'questions/',
-    minutesPer100: 90,          // 시험지 제한 시간: 100점 = 90분 비율
+    minutesPer100: 90,          // 시험지 제한 시간: 100점 = 90분 비율 (실제 시험: 50문항 · 90분)
+    choicesShown: 4,            // 객관식은 4지선다로 보여 준다(문항에 보기 5개가 있으면 오답 1개를 무작위로 뺀다)
     storagePrefix: 'gmpquiz.v1.',
     historyLimit: 300,
     // 만든 사람(주인) 확인용: 주인 링크 …#owner=<코드> 의 SHA-256. 코드 자체는 저장소에 두지 않는다.
@@ -20,16 +21,15 @@
   };
   // 주인이 아닌 사람(공유 링크로 들어온 사람)이 볼 수 있는 화면
   const GUEST_VIEWS = new Set(['shared', 'exam', 'result', 'print', 'locked', 'error']);
-  // 시험지 PART 구성: I 용어·개념 확인 70 % · II 헷갈리는 개념 구분 30 %, 문항당 2.5점 (40문항 = 100점)
-  // 실제 시험은 '딱 보면 답이 보이는' 수준이라 쉬운 PART I 비중을 크게 둔다(2026.10)
+  // 시험지 PART 구성(2026.10.08 실제 시험 형식 발표: 객관식 4지선다 + 단답형, 50문항, 90분)
+  // I 용어·개념 확인 55 % · II 헷갈리는 개념 구분 25 % · III 단답형 20 %, 모두 문항당 2점 (50문항 = 100점)
   const PARTS = {
-    1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 뜻과 기본 개념을 확인한다.', ratio: 0.70, points: 2.5 },
-    2: { roman: 'II', name: '헷갈리는 개념 구분', note: '비슷해서 헷갈리기 쉬운 개념을 구분한다.', ratio: 0.30, points: 2.5 },
-    // 고난도(상황 대응)는 실제 시험에 나오지 않아 출제하지 않는다(ratio 0 → 범위에서 제외). 2026.10
-    3: { roman: 'III', name: '개념 이해와 대응 (고난도)', note: '공정 전체를 이해하고 상황에 맞게 대응한다.', ratio: 0, points: 4 },
+    1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 뜻과 기본 개념을 확인한다.', ratio: 0.55, points: 2 },
+    2: { roman: 'II', name: '개념 구분과 원리 이해', note: '헷갈리기 쉬운 개념을 구분하고, 왜 그렇게 하는지(이유·작용 원리)를 확인한다.', ratio: 0.25, points: 2 },
+    3: { roman: 'III', name: '단답형', note: '용어·핵심 사실을 직접 쓴다. 영어·우리말 어느 쪽도 정답이고, 띄어쓰기·대소문자는 보지 않는다.', ratio: 0.20, points: 2 },
   };
   const ESSAY_POINTS = 5;
-  const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3 };
+  const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   const STRATEGIES = {
     fresh: { label: '미출제 우선', review: 0.2, desc: '복습 20%' },
     balance: { label: '균형', review: 0.4, desc: '복습 40%' },
@@ -39,8 +39,8 @@
   const COUNT_OPTIONS = [10, 20, 30, 40, 50];
   const MODES = {
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
-    unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 표지·PART I~III·OMR·타이머가 있는 시험' },
-    mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 문항 비율대로 출제되는 실전 시험' },
+    unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
+    mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
     shared: { label: '공유 시험지', icon: '🔗', kind: 'exam', desc: '' },
   };
@@ -127,7 +127,27 @@
   const wrongIdsInBank = () => Object.keys(S.wrong).filter((id) => S.qById.has(id));
   const conceptKey = (label) => String(label).split(' (')[0].toLowerCase().replace(/[^0-9a-z가-힣]/g, '');
   const isEssay = (q) => q.format === 'essay';
+  const isShort = (q) => q.format === 'short';
+  const isWritten = (q) => isEssay(q) || isShort(q); // 보기 없이 글로 답하는 문항
   const pointsOf = (q) => (isEssay(q) ? ESSAY_POINTS : PARTS[q.part].points);
+  // 단답형 채점: 띄어쓰기·대소문자·문장부호를 무시하고 정답 목록 중 하나와 같으면 정답
+  const normAns = (t) => String(t == null ? '' : t).normalize('NFKC').toLowerCase()
+    .replace(/[\s.,·•()[\]{}'"`/\\:;~!?^_\-–—−=+*&%]/g, '');
+  function autoGrade(q, text) {
+    const t = normAns(text);
+    return !!t && q.answers.some((a) => normAns(a) === t);
+  }
+  // 객관식 보기 순서: 보기가 CONFIG.choicesShown개보다 많으면 오답을 무작위로 빼고(정답은 늘 남김) 섞는다
+  function makeOrder(q, shuffleOn = S.prefs.shuffleC) {
+    if (isWritten(q)) return [];
+    let idx = range(q.choices.length);
+    const extra = idx.length - CONFIG.choicesShown;
+    if (extra > 0) {
+      const drop = new Set(shuffle(idx.filter((i) => i !== q.answer - 1)).slice(0, extra));
+      idx = idx.filter((i) => !drop.has(i));
+    }
+    return shuffleOn ? shuffle(idx) : idx;
+  }
 
   function persist() {
     store.set('wrong', S.wrong);
@@ -168,6 +188,12 @@
     if (typeof q.question !== 'string' || !q.question.trim()) return `${where}: question(문제 본문)이 없습니다.`;
     if (q.format === 'essay') {
       if (typeof q.modelAnswer !== 'string' || !q.modelAnswer.trim()) return `${where}: 서술형에 modelAnswer(모범답안)가 없습니다.`;
+      return null;
+    }
+    if (q.format === 'short') {
+      if (!Array.isArray(q.answers) || !q.answers.length || q.answers.some((a) => typeof a !== 'string' || !a.trim())) {
+        return `${where}: 단답형에 answers(정답 목록)가 없습니다.`;
+      }
       return null;
     }
     if (!Array.isArray(q.choices) || q.choices.length < 2 || q.choices.length > CIRCLED.length) {
@@ -213,9 +239,11 @@
         if (err) { S.warnings.push(err); return; }
         seen.add(q.id);
         const essay = q.format === 'essay';
-        const notes = !essay && Array.isArray(q.choiceNotes) && q.choiceNotes.length === q.choices.length ? q.choiceNotes : null;
-        if (!essay && q.choiceNotes && !notes) S.warnings.push(`${file} / ${q.id}: choiceNotes 개수가 보기 개수와 달라 보기별 해설을 숨겼습니다.`);
-        const type = q.type || (essay ? '서술형' : '');
+        const shortQ = q.format === 'short';
+        const written = essay || shortQ;
+        const notes = !written && Array.isArray(q.choiceNotes) && q.choiceNotes.length === q.choices.length ? q.choiceNotes : null;
+        if (!written && q.choiceNotes && !notes) S.warnings.push(`${file} / ${q.id}: choiceNotes 개수가 보기 개수와 달라 보기별 해설을 숨겼습니다.`);
+        const type = q.type || (essay ? '서술형' : (shortQ ? '단답' : ''));
         let part = Number(q.part);
         if (![1, 2, 3].includes(part)) part = DEFAULT_PART[type] || 2;
         const labels = (Array.isArray(q.concepts) && q.concepts.length ? q.concepts
@@ -225,11 +253,12 @@
           unit: key,
           type,
           part,
-          format: essay ? 'essay' : 'mc',
+          format: essay ? 'essay' : (shortQ ? 'short' : 'mc'),
           question: q.question,
           box: Array.isArray(q.box) ? q.box.filter((b) => typeof b === 'string') : null,
-          choices: essay ? [] : q.choices,
-          answer: essay ? 0 : q.answer,
+          choices: written ? [] : q.choices,
+          answer: written ? 0 : q.answer,
+          answers: shortQ ? q.answers : [],
           modelAnswer: essay ? q.modelAnswer : '',
           keywords: essay && Array.isArray(q.keywords) ? q.keywords : [],
           explanation: q.explanation || '',
@@ -416,7 +445,7 @@
     }
     const base = p.shuffleQ ? shuffle(picked) : picked.slice().sort((a, b) => unitIndex(a.unit) - unitIndex(b.unit));
     // 시험지: PART I → II → III, PART III 안에서는 객관식 다음 서술형
-    return base.sort((a, b) => a.part - b.part || (isEssay(a) - isEssay(b)));
+    return base.sort((a, b) => a.part - b.part || (isWritten(a) - isWritten(b)) || (isEssay(a) - isEssay(b)));
   }
 
   function buildSession(mode, pool, count) {
@@ -456,7 +485,7 @@
 
     const items = picked.map((q, i) => ({
       id: q.id,
-      order: isEssay(q) ? [] : (orders && orders[i] ? orders[i].slice() : (p.shuffleC ? shuffle(range(q.choices.length)) : range(q.choices.length))),
+      order: isWritten(q) ? [] : (orders && orders[i] && orders[i].length ? orders[i].slice() : makeOrder(q, p.shuffleC)),
       pick: null,
       text: '',
       self: null,
@@ -512,17 +541,17 @@
 
   function isCorrect(item) {
     const q = S.qById.get(item.id);
-    if (isEssay(q)) return item.self === true;
+    if (isWritten(q)) return item.self === true;
     return item.pick != null && item.pick === q.answer - 1;
   }
   // 학습 모드: 채점까지 끝났는지 / 시험 모드: 답을 적었는지
   function isDone(item) {
     const q = S.qById.get(item.id);
-    return isEssay(q) ? item.self != null : item.pick != null;
+    return isWritten(q) ? item.self != null : item.pick != null;
   }
   function isAnswered(item) {
     const q = S.qById.get(item.id);
-    return isEssay(q) ? !!(item.text || '').trim() : item.pick != null;
+    return isWritten(q) ? !!(item.text || '').trim() : item.pick != null;
   }
 
   // 결과 요약(점수·파트별·단원별)을 세션 상태로부터 다시 계산한다
@@ -557,7 +586,10 @@
       s.items.forEach((it) => {
         const q = S.qById.get(it.id);
         if (!q) return;
-        if (isEssay(q)) {
+        if (isShort(q)) {
+          it.self = autoGrade(q, it.text);
+          recordAnswer(it.id, it.self, now);
+        } else if (isEssay(q)) {
           if (!(it.text || '').trim()) { it.self = false; recordAnswer(it.id, false, now); }
         } else {
           recordAnswer(it.id, isCorrect(it), now);
@@ -765,7 +797,7 @@
       <div class="wrap">
         <section class="hero">
           <h1>복습 문제집</h1>
-          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 용어·개념 확인(PART I)과 헷갈리는 개념 구분(PART II)을 시험지 형식으로 연습하세요.</p>
+          <p>강의 PDF·녹음을 바탕으로 만든 문항입니다. 실제 시험 형식(객관식 4지선다 + 단답형, 50문항 · 90분)에 맞춰 용어·개념 확인(PART I), 개념 구분과 원리 이해(PART II), 단답형(PART III)을 연습하세요.</p>
         </section>
 
         ${inAppNoticeHTML('인쇄·PDF 저장')}
@@ -962,6 +994,15 @@
   function sourceHTML(q) {
     return q.source ? `<p class="source"><b>📄 출처</b><span>${esc(q.source)}</span></p>` : '';
   }
+  function shortAnswerHTML(q, it, { mine = true } = {}) {
+    const seen = new Set([normAns(q.answers[0])]);
+    const others = q.answers.slice(1).filter((a) => { const k = normAns(a); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 3);
+    return `
+      <div class="short-key">
+        ${mine ? `<p class="short-mine"><span class="ma-title">내 답</span> ${(it && (it.text || '').trim()) ? esc(it.text) : '<span class="muted">(쓰지 않음)</span>'}</p>` : ''}
+        <p class="short-ans"><span class="ma-title">정답</span> <b>${esc(q.answers[0])}</b>${others.length ? ` <span class="muted small">(${others.map(esc).join(' · ')}도 정답)</span>` : ''}</p>
+      </div>`;
+  }
   function modelAnswerHTML(q) {
     return `
       <div class="model-answer">
@@ -984,7 +1025,30 @@
     const last = s.idx === n - 1;
     let body;
 
-    if (isEssay(q)) {
+    if (isShort(q)) {
+      const ok = done && isCorrect(item);
+      body = `
+        <form class="short-form" data-action="short-form">
+          <input type="text" class="short-input" name="ans" value="${esc(item.text)}" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false"
+            placeholder="답을 쓰세요 (영어·우리말 모두 정답)" aria-label="단답형 답" ${done ? 'readonly' : ''}>
+          ${done ? '' : '<button class="btn btn-primary" type="submit">확인</button>'}
+        </form>
+        ${done ? '' : '<button class="btn btn-ghost btn-block" type="button" data-action="short-giveup" style="margin-top:8px">모르겠어요 — 정답 보기</button>'}
+        ${done ? `
+        <section class="feedback ${ok ? 'ok' : 'bad'}" aria-live="polite">
+          <p class="fb-title">${ok ? '✓ 정답입니다' : '✗ 오답입니다'}</p>
+          ${shortAnswerHTML(q, item)}
+          <p class="fb-exp">${rich(q.explanation)}</p>
+          ${sourceHTML(q)}
+          <div class="self-grade">
+            <span>자동 채점 결과 (뜻이 같은데 틀림으로 나왔다면 바꾸세요)</span>
+            <div class="btn-row">
+              <button type="button" class="btn grade-o" data-action="study-grade" data-value="1" aria-pressed="${item.self === true}">○ 맞음</button>
+              <button type="button" class="btn grade-x" data-action="study-grade" data-value="0" aria-pressed="${item.self === false}">✗ 틀림</button>
+            </div>
+          </div>
+        </section>` : ''}`;
+    } else if (isEssay(q)) {
       body = `
         <textarea class="essay-input" data-action="study-essay" rows="6" placeholder="답안을 적어 보세요 (적지 않고 모범답안을 봐도 됩니다)" ${item.shown ? 'readonly' : ''}>${esc(item.text)}</textarea>
         ${item.shown ? `
@@ -1052,13 +1116,33 @@
         <div class="study-actions">
           ${done ? `<button class="btn btn-primary btn-block" type="button" data-action="next">${last ? '결과 보기' : '다음 문제 →'}</button>` : ''}
           ${s.idx > 0 ? `<button class="btn btn-ghost btn-block" type="button" data-action="prev" style="margin-top:8px">← 이전 문제 보기</button>` : ''}
-          ${isEssay(q) ? '' : `<p class="kbd-hint">PC: 숫자키 1–${q.choices.length}로 선택, Enter로 다음</p>`}
+          ${isEssay(q) ? '' : (isShort(q) ? '<p class="kbd-hint">Enter로 확인 · 다시 Enter로 다음</p>' : `<p class="kbd-hint">PC: 숫자키 1–${item.order.length}로 선택, Enter로 다음</p>`)}
         </div>
       </div>`;
     if (done || item.shown) {
       const fb = $view.querySelector('.feedback');
       if (fb && fb.getBoundingClientRect().top > window.innerHeight * 0.75) fb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
+    if (isShort(q) && !done && window.matchMedia('(hover: hover)').matches) {
+      const inp = $view.querySelector('.short-input');
+      if (inp) inp.focus({ preventScroll: true });
+    }
+  }
+
+  // 학습 모드 단답형: 확인(빈 답은 '모르겠어요'로만 넘긴다)
+  function studyShort(text, giveUp = false) {
+    const s = S.session;
+    const item = s.items[s.idx];
+    if (isDone(item)) { studyNext(); return; }
+    const t = String(text || '').slice(0, 120);
+    if (!giveUp && !t.trim()) { toast('답을 쓰거나 「모르겠어요」를 누르세요'); return; }
+    const q = S.qById.get(item.id);
+    item.text = giveUp ? '' : t;
+    item.self = giveUp ? false : autoGrade(q, t);
+    recordAnswer(item.id, item.self, Date.now());
+    persist();
+    saveActive();
+    renderStudy();
   }
 
   function studyPick(disp) {
@@ -1178,8 +1262,9 @@
           <div class="paper-inst">
             <p><b>Instructions</b></p>
             <ul>
-              <li>객관식은 가장 적절한 답 하나를 고르시오. 시험지의 보기를 누르면 <span class="pen-blue">파란 펜</span>으로 표시되고 답안지(OMR)에 바로 옮겨집니다.</li>
-              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점${s.report && s.report.partDist[3] ? ` · PART III ${PARTS[3].points}점` : ''}${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
+              <li>객관식(4지선다)은 가장 적절한 답 하나를 고르시오. 시험지의 보기를 누르면 <span class="pen-blue">파란 펜</span>으로 표시되고 답안지(OMR)에 바로 옮겨집니다.</li>
+              <li>단답형은 답을 칸에 쓰시오. 영어·우리말 어느 쪽도 정답이며 띄어쓰기·대소문자는 보지 않습니다(자동 채점, 결과 화면에서 바꿀 수 있음).</li>
+              <li>배점: PART I 문항당 ${PARTS[1].points}점 · PART II ${PARTS[2].points}점${s.report && s.report.partDist[3] ? ` · PART III(단답형) ${PARTS[3].points}점` : ''}${s.items.some((it) => isEssay(S.qById.get(it.id))) ? ` · 서술형 ${ESSAY_POINTS}점` : ''}. 총 ${s.totalPoints}점${s.timeLimitSec ? `, 제한 시간 ${minutes}분(100점 = 90분). 시간이 끝나면 자동 제출됩니다` : ''}.</li>
               <li>짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다.</li>
               <li>창을 닫아도 처음 화면의 「이어서 풀기」로 남은 시간 그대로 이어 풀 수 있습니다.</li>
             </ul>
@@ -1196,6 +1281,16 @@
   function examQuestionHTML(it, i, q) {
     const pts = pointsOf(q);
     const stem = `<p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pts}점)</span></p>`;
+    if (isShort(q)) {
+      return `
+        <div class="pq" id="pq-${i}" data-i="${i}">
+          ${stem}
+          ${boxHTML(q)}
+          <label class="short-line"><span>답:</span>
+            <input type="text" class="short-input" data-action="short" data-i="${i}" value="${esc(it.text)}" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="${i + 1}번 단답형 답">
+          </label>
+        </div>`;
+    }
     if (isEssay(q)) {
       return `
         <div class="pq" id="pq-${i}" data-i="${i}">
@@ -1233,8 +1328,8 @@
           ${groups[p].map(({ it, i, q }) => `
             <div class="omr-row" id="omr-${i}">
               <button type="button" class="omr-no" data-action="jump" data-i="${i}" aria-label="${i + 1}번 문항으로 이동">${i + 1}</button>
-              ${isEssay(q)
-                ? `<button type="button" class="omr-essay ${isAnswered(it) ? 'is-on' : ''}" data-action="jump" data-i="${i}">서술형 ${isAnswered(it) ? '작성함' : '미작성'}</button>`
+              ${isWritten(q)
+                ? `<button type="button" class="omr-essay ${isAnswered(it) ? 'is-on' : ''}" data-action="jump" data-i="${i}">${writtenLabel(q, isAnswered(it))}</button>`
                 : it.order.map((orig, disp) => `<button type="button" class="omr-b" data-action="mark" data-i="${i}" data-disp="${disp}" aria-pressed="${it.pick === orig}" aria-label="${i + 1}번 ${disp + 1}">${disp + 1}</button>`).join('')}
             </div>`).join('')}`).join('')}
       </div>
@@ -1312,15 +1407,17 @@
     updateAnswerCounts();
   }
 
+  const writtenLabel = (q, answered) => `${isShort(q) ? '단답' : '서술형'} ${answered ? '작성함' : '미작성'}`;
   function examEssayInput(i, value) {
     const s = S.session;
     const it = s.items[i];
+    const q = S.qById.get(it.id);
     const before = isAnswered(it);
-    it.text = value.slice(0, 4000);
+    it.text = value.slice(0, isShort(q) ? 120 : 4000);
     saveActive();
     if (before !== isAnswered(it)) {
       const b = document.querySelector(`#omr-${i} .omr-essay`);
-      if (b) { b.classList.toggle('is-on', isAnswered(it)); b.textContent = `서술형 ${isAnswered(it) ? '작성함' : '미작성'}`; }
+      if (b) { b.classList.toggle('is-on', isAnswered(it)); b.textContent = writtenLabel(q, isAnswered(it)); }
       updateAnswerCounts();
     }
   }
@@ -1431,11 +1528,12 @@
     setTimeout(() => { el.classList.remove('is-on'); setTimeout(() => el.remove(), 300); }, 2600);
   }
 
-  // 공유 링크: #set=<id.id.…>&o=<문항별 보기 순서 숫자를 이어 붙인 것>&t=<제목>
+  // 공유 링크: #set=<id.id.…>&v=2&o=<문항마다 '보기 개수 + 보기 순서 숫자'를 이어 붙인 것>&t=<제목>
+  // (v 없는 예전 링크는 문항마다 보기 전체 개수만큼 숫자를 이어 붙였다)
   function encodeSet(set) {
     const ids = set.items.map((it) => it.id).join('.');
-    const o = set.items.map((it) => it.order.join('')).join('');
-    return `set=${ids}&o=${o}${set.title ? `&t=${encodeURIComponent(set.title)}` : ''}`;
+    const o = set.items.map((it) => `${it.order.length}${it.order.join('')}`).join('');
+    return `set=${ids}&v=2&o=${o}${set.title ? `&t=${encodeURIComponent(set.title)}` : ''}`;
   }
   function shareURL(set) {
     return `${location.origin}${location.pathname}#${encodeSet(set)}`;
@@ -1445,17 +1543,22 @@
     const ids = (params.get('set') || '').split('.').filter(Boolean);
     const o = params.get('o') || '';
     const title = (params.get('t') || '').slice(0, 60);
+    const v2 = params.get('v') === '2';
     const items = [];
     let missing = 0;
     let pos = 0;
     ids.forEach((id) => {
       const q = S.qById.get(id);
-      if (!q) { missing += 1; return; }
-      const n = isEssay(q) ? 0 : q.choices.length;
+      let n;
+      if (v2) { n = Number(o[pos]) || 0; pos += 1; } else n = q && !isWritten(q) ? q.choices.length : 0;
       const digits = o.slice(pos, pos + n).split('').map(Number);
       pos += n;
-      const valid = digits.length === n && new Set(digits).size === n && digits.every((d) => d >= 0 && d < n);
-      items.push({ id, order: isEssay(q) ? [] : (valid ? digits : shuffle(range(n))) });
+      if (!q) { missing += 1; return; }
+      if (isWritten(q)) { items.push({ id, order: [] }); return; }
+      const len = q.choices.length;
+      const valid = digits.length === n && n >= 2 && new Set(digits).size === n &&
+        digits.every((d) => d >= 0 && d < len) && digits.includes(q.answer - 1);
+      items.push({ id, order: valid ? digits : makeOrder(q, true) });
     });
     return { items, missing, title, createdAt: Date.now() };
   }
@@ -1484,10 +1587,23 @@
     S.print = {
       title: (prev && prev.title) || '',
       opts: Object.assign({ omr: true, key: true, exp: true }, prev && prev.opts),
-      items: picked.map((q) => ({ id: q.id, order: isEssay(q) ? [] : (p.shuffleC ? shuffle(range(q.choices.length)) : range(q.choices.length)) })),
+      items: picked.map((q) => ({ id: q.id, order: makeOrder(q, p.shuffleC) })),
       createdAt: Date.now(),
     };
     store.set('print', S.print);
+  }
+
+  // 정답표: 객관식은 번호 칸, 단답형은 아래에 답을 따로 적는다
+  const keyText = (q, it) => (isShort(q) ? q.answers[0] : (isEssay(q) ? '' : CIRCLED[it.order.indexOf(q.answer - 1)]));
+  function printKeyHTML(set) {
+    const cells = set.items.map((it, i) => {
+      const q = S.qById.get(it.id);
+      return `<div class="pkey-cell"><span>${i + 1}</span><b>${isWritten(q) ? (isShort(q) ? '단답' : '서술') : keyText(q, it)}</b></div>`;
+    }).join('');
+    const shorts = set.items.map((it, i) => ({ q: S.qById.get(it.id), i })).filter(({ q }) => isShort(q));
+    return `<div class="pkey-grid">${cells}</div>${shorts.length ? `
+      <p class="pkey-short-title">단답형 정답</p>
+      <ol class="pkey-short">${shorts.map(({ q, i }) => `<li value="${i + 1}"><b>${esc(q.answers[0])}</b>${q.answers.length > 1 ? ` <span class="muted">(${q.answers.slice(1, 3).map(esc).join(' · ')})</span>` : ''}</li>`).join('')}</ol>` : ''}`;
   }
 
   function printPaperSession(set) {
@@ -1500,7 +1616,7 @@
       <div class="pq">
         <p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span></p>
         ${boxHTML(q)}
-        ${isEssay(q) ? '<div class="print-lines"></div>' : `<ol class="pq-choices print-choices">${it.order.map((orig, disp) => `
+        ${isShort(q) ? '<p class="print-short">답: <span></span></p>' : isEssay(q) ? '<div class="print-lines"></div>' : `<ol class="pq-choices print-choices">${it.order.map((orig, disp) => `
           <li><span class="cnum">${CIRCLED[disp]}</span><span>${rich(q.choices[orig])}</span></li>`).join('')}</ol>`}
       </div>`;
   }
@@ -1516,15 +1632,12 @@
     const n = set.items.length;
     const omrRows = set.items.map((it, i) => {
       const q = S.qById.get(it.id);
-      return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isEssay(q) ? '<span class="pomr-essay">서술</span>' : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
+      return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isWritten(q) ? `<span class="pomr-essay">${isShort(q) ? '단답' : '서술'}</span>` : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
     }).join('');
-    const keyCells = set.items.map((it, i) => {
-      const q = S.qById.get(it.id);
-      return `<div class="pkey-cell"><span>${i + 1}</span><b>${isEssay(q) ? '서술' : CIRCLED[it.order.indexOf(q.answer - 1)]}</b></div>`;
-    }).join('');
+    const keyCells = printKeyHTML(set);
     const expList = set.items.map((it, i) => {
       const q = S.qById.get(it.id);
-      const ans = isEssay(q) ? '' : CIRCLED[it.order.indexOf(q.answer - 1)];
+      const ans = keyText(q, it);
       return `<div class="pexp"><p><b>${i + 1}. 정답 ${ans}</b> <span class="muted small">(${esc(unitLabel(q.unit))})</span></p><p>${rich(q.explanation)}</p>${q.source ? `<p class="source"><b>📄</b><span>${esc(q.source)}</span></p>` : ''}</div>`;
     }).join('');
 
@@ -1557,7 +1670,7 @@
       <div class="wrap-wide">
         <article class="paper print-paper" aria-label="인쇄용 시험지">
           ${paperHeadHTML(ps, '', true)}
-          <p class="paper-inst"><b>Instructions:</b> 각 문항에서 가장 적절한 답 하나를 고르시오. 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 답은 답안지(OMR)에 표시하시오.' : ''}</p>
+          <p class="paper-inst"><b>Instructions:</b> 객관식(4지선다)은 가장 적절한 답 하나를 고르고, 단답형은 답을 쓰시오(영어·우리말 모두 정답). 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 객관식 답은 답안지(OMR)에 표시하시오.' : ''}</p>
           ${[1, 2, 3].map((pp) => groups[pp].length ? `
           <section class="paper-part">
             ${partTitleHTML(pp, groups[pp], false)}
@@ -1574,7 +1687,7 @@
         ${opts.key || opts.exp ? `
         <section class="paper print-sheet page-break" aria-label="정답과 해설">
           <h3 class="sheet-title">정답${opts.exp ? ' 및 해설' : ''} — ${esc(set.title || 'GMP 바이오공정')}</h3>
-          ${opts.key ? `<div class="pkey-grid">${keyCells}</div>` : ''}
+          ${opts.key ? keyCells : ''}
           ${opts.exp ? `<div class="pexp-list">${expList}</div>` : ''}
         </section>` : ''}
       </div>`;
@@ -1806,7 +1919,7 @@
       if (opts.exp) set.items.forEach(count);
 
       await full(paperHeadHTML(ps, '', true));
-      await full(`<p class="paper-inst"><b>Instructions:</b> 각 문항에서 가장 적절한 답 하나를 고르시오. 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 답은 답안지(OMR)에 표시하시오.' : ''}</p>`);
+      await full(`<p class="paper-inst"><b>Instructions:</b> 객관식(4지선다)은 가장 적절한 답 하나를 고르고, 단답형은 답을 쓰시오(영어·우리말 모두 정답). 「&lt;보기&gt;」가 있는 짝짓기 문항은 네 쌍이 모두 맞아야 정답입니다. 배점은 ( ) 안에 있습니다.${opts.omr ? ' 객관식 답은 답안지(OMR)에 표시하시오.' : ''}</p>`);
       for (const p of [1, 2, 3]) {
         if (!groups[p].length) continue;
         await full(`<section class="paper-part">${partTitleHTML(p, groups[p], false)}</section>`);
@@ -1815,7 +1928,7 @@
       if (opts.omr) {
         const rows = set.items.map((it, i) => {
           const q = S.qById.get(it.id);
-          return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isEssay(q) ? '<span class="pomr-essay">서술</span>' : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
+          return `<div class="pomr-row"><span class="pomr-no">${i + 1}</span>${isWritten(q) ? `<span class="pomr-essay">${isShort(q) ? '단답' : '서술'}</span>` : it.order.map((_, d) => `<span class="pomr-b">${d + 1}</span>`).join('')}</div>`;
         });
         const per = Math.ceil(rows.length / 3);
         const cols = [0, 1, 2].map((c) => `<div class="pdf-omr-col">${rows.slice(c * per, (c + 1) * per).join('')}</div>`).join('');
@@ -1824,15 +1937,11 @@
           <div class="pdf-omr">${cols}</div>`, { breakBefore: true });
       }
       if (opts.key || opts.exp) {
-        const keyCells = set.items.map((it, i) => {
-          const q = S.qById.get(it.id);
-          return `<div class="pkey-cell"><span>${i + 1}</span><b>${isEssay(q) ? '서술' : CIRCLED[it.order.indexOf(q.answer - 1)]}</b></div>`;
-        }).join('');
-        await full(`<h3 class="sheet-title">정답${opts.exp ? ' 및 해설' : ''} — ${esc(titleTxt)}</h3>${opts.key ? `<div class="pkey-grid">${keyCells}</div>` : ''}`, { breakBefore: true });
+        await full(`<h3 class="sheet-title">정답${opts.exp ? ' 및 해설' : ''} — ${esc(titleTxt)}</h3>${opts.key ? printKeyHTML(set) : ''}`, { breakBefore: true });
         if (opts.exp) {
           await band(set.items.map((it, i) => {
             const q = S.qById.get(it.id);
-            const ans = isEssay(q) ? '' : CIRCLED[it.order.indexOf(q.answer - 1)];
+            const ans = keyText(q, it);
             return `<div class="pexp"><p><b>${i + 1}. 정답 ${ans}</b> <span class="muted small">(${esc(unitLabel(q.unit))})</span></p><p>${rich(q.explanation)}</p>${q.source ? `<p class="source"><b>📄</b><span>${esc(q.source)}</span></p>` : ''}</div>`;
           }));
         }
@@ -1933,6 +2042,17 @@
           ${shown.length ? shown.map(({ it, i }) => {
             const q = S.qById.get(it.id);
             const ok = isCorrect(it);
+            if (isShort(q)) {
+              return `
+              <div class="ak-item ${ok ? 'ok' : 'bad'}">
+                <div class="ak-top"><span class="ak-num">${i + 1}.</span><span class="ak-mark">${ok ? '○ 맞음' : '✗ 틀림'}</span>${tagsHTML(q, null)}</div>
+                <p class="ak-q">${rich(q.question)}</p>
+                ${boxHTML(q)}
+                ${shortAnswerHTML(q, it)}
+                <p class="ak-exp">${rich(q.explanation)}</p>
+                ${sourceHTML(q)}
+              </div>`;
+            }
             if (isEssay(q)) {
               return `
               <div class="ak-item ${ok ? 'ok' : 'bad'}">
@@ -1978,6 +2098,28 @@
     const mark = pending ? '<span class="red-mark mark-wait" aria-label="채점 대기">?</span>'
       : (ok ? '<span class="red-mark mark-o" aria-label="맞음"></span>' : '<span class="red-mark mark-slash" aria-label="틀림"></span>');
     const stem = `<p class="pq-stem"><span class="pq-no">${mark}${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span></p>`;
+    if (isShort(q)) {
+      return `
+        <div class="pq graded ${ok ? 'is-ok' : 'is-bad'}" id="pq-${i}">
+          ${stem}
+          ${boxHTML(q)}
+          <p class="short-line handwrite-blue"><span>답:</span> ${(it.text || '').trim() ? esc(it.text) : '<span class="muted">(쓰지 않음)</span>'}</p>
+          <details class="pq-exp" ${ok ? '' : 'open'}>
+            <summary><b class="key-red">정답 ${esc(q.answers[0])}</b> · ${ok ? '맞음' : '틀림'} — 해설 ${ok ? '보기' : ''}</summary>
+            ${shortAnswerHTML(q, it, { mine: false })}
+            <p>${rich(q.explanation)}</p>
+            ${sourceHTML(q)}
+            ${(it.text || '').trim() ? `
+            <div class="self-grade no-print">
+              <span>자동 채점 결과 (뜻이 같은데 틀림으로 나왔다면 바꾸세요)</span>
+              <div class="btn-row">
+                <button type="button" class="btn grade-o" data-action="grade-essay" data-i="${i}" data-value="1" aria-pressed="${it.self === true}">○ 맞음 (+${pointsOf(q)}점)</button>
+                <button type="button" class="btn grade-x" data-action="grade-essay" data-i="${i}" data-value="0" aria-pressed="${it.self === false}">✗ 틀림</button>
+              </div>
+            </div>` : ''}
+          </details>
+        </div>`;
+    }
     if (isEssay(q)) {
       return `
         <div class="pq graded ${pending ? 'is-pending' : (ok ? 'is-ok' : 'is-bad')}" id="pq-${i}">
@@ -2336,6 +2478,7 @@
         break;
       }
       case 'study-grade': studyGrade(el.dataset.value === '1'); break;
+      case 'short-giveup': studyShort('', true); break;
       case 'grade-essay': gradeEssayInResult(Number(el.dataset.i), el.dataset.value === '1'); break;
       case 'next': studyNext(); break;
       case 'prev':
@@ -2361,7 +2504,7 @@
         if (window.matchMedia('(max-width: 1099px)').matches) toggleOmr(false);
         if (t) {
           t.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          const ta = t.querySelector('textarea');
+          const ta = t.querySelector('textarea, input.short-input');
           if (ta) setTimeout(() => ta.focus({ preventScroll: true }), 350);
         }
         break;
@@ -2411,6 +2554,12 @@
   });
 
   document.addEventListener('submit', async (e) => {
+    const sf = e.target.closest('[data-action="short-form"]');
+    if (sf) {
+      e.preventDefault();
+      if (S.session && S.view === 'study') studyShort(sf.querySelector('input').value);
+      return;
+    }
     const form = e.target.closest('[data-action="owner-form"]');
     if (!form) return;
     e.preventDefault();
@@ -2454,7 +2603,7 @@
     } else if (t.dataset.action === 'name') {
       S.prefs.name = t.value.slice(0, 40);
       savePrefs();
-    } else if (t.dataset.action === 'essay' && S.session) {
+    } else if ((t.dataset.action === 'essay' || t.dataset.action === 'short') && S.session) {
       examEssayInput(Number(t.dataset.i), t.value);
     } else if (t.dataset.action === 'study-essay' && S.session) {
       S.session.items[S.session.idx].text = t.value.slice(0, 4000);
@@ -2469,9 +2618,9 @@
     const s = S.session;
     const item = s.items[s.idx];
     const q = S.qById.get(item.id);
-    if (!isEssay(q) && /^[1-9]$/.test(e.key) && item.pick == null) {
+    if (!isWritten(q) && /^[1-9]$/.test(e.key) && item.pick == null) {
       const d = Number(e.key) - 1;
-      if (d < q.choices.length) { e.preventDefault(); studyPick(d); }
+      if (d < item.order.length) { e.preventDefault(); studyPick(d); }
     } else if ((e.key === 'Enter' || e.key === 'ArrowRight') && isDone(item)) {
       if (e.target && e.target.tagName === 'BUTTON' && e.key === 'Enter') return;
       e.preventDefault();

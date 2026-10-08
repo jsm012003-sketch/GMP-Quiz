@@ -13,18 +13,18 @@
    ],
    "choices": [
     "Resolution (분리능)",
-    "Chromatography (크로마토그래피)",
+    "Chromatography",
     "HPLC (고성능 액체 크로마토그래피)",
-    "Linear gradient (직선 기울기 용출)",
+    "Linear gradient",
     "UV 280 nm"
    ],
    "answer": 2,
-   "explanation": "**Chromatography (크로마토그래피)** — 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
+   "explanation": "**Chromatography** — 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
    "choiceNotes": [
     "틀리다 — Resolution (분리능): 섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도.",
     "정답 — 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
     "틀리다 — HPLC (고성능 액체 크로마토그래피): 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.",
-    "틀리다 — Linear gradient (직선 기울기 용출): 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
+    "틀리다 — Linear gradient: 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
     "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장."
    ],
    "source": "WK03 강의 녹음 07:56–08:30",
@@ -45,20 +45,20 @@
     "컬럼 안에 채워져 움직이지 않는 레진."
    ],
    "choices": [
-    "Resin bead (레진 비드)",
+    "Resin bead",
     "HPLC (고성능 액체 크로마토그래피)",
     "Stationary phase (고정상)",
     "UV 260 nm",
-    "Polishing (최종 정제)"
+    "Polishing"
    ],
    "answer": 3,
    "explanation": "**Stationary phase (고정상)** — 컬럼 안에 채워져 움직이지 않는 레진.",
    "choiceNotes": [
-    "틀리다 — Resin bead (레진 비드): 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
+    "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — HPLC (고성능 액체 크로마토그래피): 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.",
     "정답 — 컬럼 안에 채워져 움직이지 않는 레진.",
     "틀리다 — UV 260 nm: 핵산(DNA·RNA) 양을 보는 자외선 흡광 파장.",
-    "틀리다 — Polishing (최종 정제): 마지막에 남은 미량 불순물을 없애는 단계."
+    "틀리다 — Polishing: 마지막에 남은 미량 불순물을 없애는 단계."
    ],
    "source": "WK03 강의 녹음 15:01–17:36",
    "concepts": [
@@ -80,7 +80,7 @@
    "choices": [
     "Mobile phase (이동상)",
     "Fraction (분획)",
-    "Resin bead (레진 비드)",
+    "Resin bead",
     "Binding capacity (결합 용량)",
     "Conductivity (전도도)"
    ],
@@ -89,7 +89,7 @@
    "choiceNotes": [
     "정답 — 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
     "틀리다 — Fraction (분획): 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
-    "틀리다 — Resin bead (레진 비드): 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
+    "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — Binding capacity (결합 용량): 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
     "틀리다 — Conductivity (전도도): 용액에 녹은 염의 농도를 나타내는 값."
    ],
@@ -113,16 +113,16 @@
    "choices": [
     "Fraction (분획)",
     "Resolution (분리능)",
-    "Flow-through mode (통과 모드)",
-    "Resin bead (레진 비드)",
+    "Flow-through mode",
+    "Resin bead",
     "Affinity chromatography (친화 크로마토그래피)"
    ],
    "answer": 4,
-   "explanation": "**Resin bead (레진 비드)** — 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
+   "explanation": "**Resin bead** — 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
    "choiceNotes": [
     "틀리다 — Fraction (분획): 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
     "틀리다 — Resolution (분리능): 섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도.",
-    "틀리다 — Flow-through mode (통과 모드): 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
+    "틀리다 — Flow-through mode: 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "정답 — 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — Affinity chromatography (친화 크로마토그래피): 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
    ],
@@ -144,7 +144,7 @@
     "섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도."
    ],
    "choices": [
-    "Resin bead (레진 비드)",
+    "Resin bead",
     "Stationary phase (고정상)",
     "HIC (Hydrophobic Interaction Chromatography)",
     "ELISA",
@@ -153,7 +153,7 @@
    "answer": 5,
    "explanation": "**Resolution (분리능)** — 섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도.",
    "choiceNotes": [
-    "틀리다 — Resin bead (레진 비드): 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
+    "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
     "틀리다 — HIC (Hydrophobic Interaction Chromatography): 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
     "틀리다 — ELISA: 항체 반응으로 특정 단백질의 양을 재는 방법.",
@@ -177,7 +177,7 @@
     "컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것."
    ],
    "choices": [
-    "Chromatography (크로마토그래피)",
+    "Chromatography",
     "Stationary phase (고정상)",
     "SEC (Size Exclusion, Gel filtration)",
     "Binding capacity (결합 용량)",
@@ -186,7 +186,7 @@
    "answer": 5,
    "explanation": "**Fraction (분획)** — 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
    "choiceNotes": [
-    "틀리다 — Chromatography (크로마토그래피): 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
+    "틀리다 — Chromatography: 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
     "틀리다 — SEC (Size Exclusion, Gel filtration): 레진에 붙이지 않고 분자 크기로만 나누는 방법.",
     "틀리다 — Binding capacity (결합 용량): 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
@@ -211,16 +211,16 @@
    ],
    "choices": [
     "Intermediate purification (중간 정제)",
-    "Polishing (최종 정제)",
-    "Capture (포획 단계)",
+    "Polishing",
+    "Capture",
     "SDS-PAGE",
     "Mobile phase (이동상)"
    ],
    "answer": 3,
-   "explanation": "**Capture (포획 단계)** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+   "explanation": "**Capture** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
    "choiceNotes": [
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
-    "틀리다 — Polishing (최종 정제): 마지막에 남은 미량 불순물을 없애는 단계.",
+    "틀리다 — Polishing: 마지막에 남은 미량 불순물을 없애는 단계.",
     "정답 — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
     "틀리다 — SDS-PAGE: 단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
     "틀리다 — Mobile phase (이동상): 컬럼을 따라 흐르며 시료를 옮기는 버퍼."
@@ -243,18 +243,18 @@
     "첫 단계 뒤에 남은 불순물을 더 줄이는 단계."
    ],
    "choices": [
-    "Capture (포획 단계)",
+    "Capture",
     "Intermediate purification (중간 정제)",
-    "Polishing (최종 정제)",
+    "Polishing",
     "Mobile phase (이동상)",
     "HIC (Hydrophobic Interaction Chromatography)"
    ],
    "answer": 2,
    "explanation": "**Intermediate purification (중간 정제)** — 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
    "choiceNotes": [
-    "틀리다 — Capture (포획 단계): 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
     "정답 — 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
-    "틀리다 — Polishing (최종 정제): 마지막에 남은 미량 불순물을 없애는 단계.",
+    "틀리다 — Polishing: 마지막에 남은 미량 불순물을 없애는 단계.",
     "틀리다 — Mobile phase (이동상): 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
     "틀리다 — HIC (Hydrophobic Interaction Chromatography): 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
    ],
@@ -277,19 +277,19 @@
    ],
    "choices": [
     "Intermediate purification (중간 정제)",
-    "Capture (포획 단계)",
-    "Loading (시료 주입)",
-    "Polishing (최종 정제)",
-    "Group separation (그룹 분리)"
+    "Capture",
+    "Loading",
+    "Polishing",
+    "Group separation"
    ],
    "answer": 4,
-   "explanation": "**Polishing (최종 정제)** — 마지막에 남은 미량 불순물을 없애는 단계.",
+   "explanation": "**Polishing** — 마지막에 남은 미량 불순물을 없애는 단계.",
    "choiceNotes": [
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
-    "틀리다 — Capture (포획 단계): 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
-    "틀리다 — Loading (시료 주입): 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "정답 — 마지막에 남은 미량 불순물을 없애는 단계.",
-    "틀리다 — Group separation (그룹 분리): 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC."
+    "틀리다 — Group separation: 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC."
    ],
    "source": "WK03 강의 녹음 29:54–31:11",
    "concepts": [
@@ -311,7 +311,7 @@
    "choices": [
     "Affinity chromatography (친화 크로마토그래피)",
     "SEC (Size Exclusion, Gel filtration)",
-    "Ligand (리간드)",
+    "Ligand",
     "UV 280 nm",
     "Void volume (V0)"
    ],
@@ -320,7 +320,7 @@
    "choiceNotes": [
     "정답 — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
     "틀리다 — SEC (Size Exclusion, Gel filtration): 레진에 붙이지 않고 분자 크기로만 나누는 방법.",
-    "틀리다 — Ligand (리간드): 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
+    "틀리다 — Ligand: 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
     "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장.",
     "틀리다 — Void volume (V0): 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피."
    ],
@@ -342,18 +342,18 @@
     "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식."
    ],
    "choices": [
-    "Bind-elute mode (결합-용출 모드)",
+    "Bind-elute mode",
     "Elution (용출)",
-    "Step elution (계단식 용출)",
+    "Step elution",
     "Stationary phase (고정상)",
     "Bradford·Lowry·BCA assay"
    ],
    "answer": 1,
-   "explanation": "**Bind-elute mode (결합-용출 모드)** — 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
+   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
    "choiceNotes": [
     "정답 — 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "틀리다 — Elution (용출): 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
-    "틀리다 — Step elution (계단식 용출): 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
+    "틀리다 — Step elution: 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
     "틀리다 — Bradford·Lowry·BCA assay: 정제한 단백질의 농도를 재는 방법들."
    ],
@@ -375,16 +375,16 @@
     "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
    ],
    "choices": [
-    "Bind-elute mode (결합-용출 모드)",
+    "Bind-elute mode",
     "Elution (용출)",
-    "Flow-through mode (통과 모드)",
+    "Flow-through mode",
     "MMC (Multimodal Chromatography)",
     "Resolution (분리능)"
    ],
    "answer": 3,
-   "explanation": "**Flow-through mode (통과 모드)** — 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
+   "explanation": "**Flow-through mode** — 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
    "choiceNotes": [
-    "틀리다 — Bind-elute mode (결합-용출 모드): 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "틀리다 — Elution (용출): 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
     "정답 — 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "틀리다 — MMC (Multimodal Chromatography): 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
@@ -408,19 +408,19 @@
     "레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
    ],
    "choices": [
-    "Loading (시료 주입)",
-    "Step elution (계단식 용출)",
+    "Loading",
+    "Step elution",
     "Total volume (Vt)",
-    "Ligand (리간드)",
+    "Ligand",
     "Binding capacity (결합 용량)"
    ],
    "answer": 5,
    "explanation": "**Binding capacity (결합 용량)** — 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
    "choiceNotes": [
-    "틀리다 — Loading (시료 주입): 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
-    "틀리다 — Step elution (계단식 용출): 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Step elution: 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
     "틀리다 — Total volume (Vt): 가장 작은 분자가 마지막에 나오는 부피.",
-    "틀리다 — Ligand (리간드): 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
+    "틀리다 — Ligand: 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
     "정답 — 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
    ],
    "source": "WK03 강의 녹음 33:05–36:20",
@@ -438,22 +438,22 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계."
+    "Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계."
    ],
    "choices": [
-    "Flow-through mode (통과 모드)",
+    "Flow-through mode",
     "Binding capacity (결합 용량)",
     "UV 280 nm",
-    "Loading (시료 주입)",
+    "Loading",
     "MMC (Multimodal Chromatography)"
    ],
    "answer": 4,
-   "explanation": "**Loading (시료 주입)** — 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+   "explanation": "**Loading** — Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
    "choiceNotes": [
-    "틀리다 — Flow-through mode (통과 모드): 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
+    "틀리다 — Flow-through mode: 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "틀리다 — Binding capacity (결합 용량): 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
     "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장.",
-    "정답 — 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "정답 — Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "틀리다 — MMC (Multimodal Chromatography): 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진."
    ],
    "source": "WK03 강의 녹음 10:07",
@@ -474,18 +474,18 @@
     "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것."
    ],
    "choices": [
-    "Step elution (계단식 용출)",
+    "Step elution",
     "Elution (용출)",
-    "Bind-elute mode (결합-용출 모드)",
+    "Bind-elute mode",
     "Bradford·Lowry·BCA assay",
     "SEC (Size Exclusion, Gel filtration)"
    ],
    "answer": 2,
    "explanation": "**Elution (용출)** — 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
    "choiceNotes": [
-    "틀리다 — Step elution (계단식 용출): 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
+    "틀리다 — Step elution: 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
     "정답 — 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
-    "틀리다 — Bind-elute mode (결합-용출 모드): 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "틀리다 — Bradford·Lowry·BCA assay: 정제한 단백질의 농도를 재는 방법들.",
     "틀리다 — SEC (Size Exclusion, Gel filtration): 레진에 붙이지 않고 분자 크기로만 나누는 방법."
    ],
@@ -508,18 +508,18 @@
    ],
    "choices": [
     "Elution (용출)",
-    "Loading (시료 주입)",
-    "Linear gradient (직선 기울기 용출)",
-    "Resin bead (레진 비드)",
+    "Loading",
+    "Linear gradient",
+    "Resin bead",
     "Stationary phase (고정상)"
    ],
    "answer": 3,
-   "explanation": "**Linear gradient (직선 기울기 용출)** — 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
+   "explanation": "**Linear gradient** — 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
    "choiceNotes": [
     "틀리다 — Elution (용출): 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
-    "틀리다 — Loading (시료 주입): 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "정답 — 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
-    "틀리다 — Resin bead (레진 비드): 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
+    "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진."
    ],
    "source": "WK03 강의 녹음 37:18–39:56",
@@ -540,20 +540,20 @@
     "염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출."
    ],
    "choices": [
-    "Step elution (계단식 용출)",
-    "Loading (시료 주입)",
-    "Bind-elute mode (결합-용출 모드)",
+    "Step elution",
+    "Loading",
+    "Bind-elute mode",
     "SDS-PAGE",
-    "Resin bead (레진 비드)"
+    "Resin bead"
    ],
    "answer": 1,
-   "explanation": "**Step elution (계단식 용출)** — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
+   "explanation": "**Step elution** — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
    "choiceNotes": [
     "정답 — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
-    "틀리다 — Loading (시료 주입): 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
-    "틀리다 — Bind-elute mode (결합-용출 모드): 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "틀리다 — SDS-PAGE: 단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
-    "틀리다 — Resin bead (레진 비드): 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm."
+    "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm."
    ],
    "source": "WK03 강의 녹음 37:18–39:56",
    "concepts": [
@@ -608,7 +608,7 @@
    "choices": [
     "SDS-PAGE",
     "Bradford·Lowry·BCA assay",
-    "Chromatography (크로마토그래피)",
+    "Chromatography",
     "Intermediate purification (중간 정제)",
     "Western blot"
    ],
@@ -617,7 +617,7 @@
    "choiceNotes": [
     "틀리다 — SDS-PAGE: 단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
     "틀리다 — Bradford·Lowry·BCA assay: 정제한 단백질의 농도를 재는 방법들.",
-    "틀리다 — Chromatography (크로마토그래피): 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
+    "틀리다 — Chromatography: 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
     "정답 — 항체로 특정 단백질이 있는지 확인하는 방법."
    ],
@@ -640,19 +640,19 @@
    ],
    "choices": [
     "Column volume (CV)",
-    "Group separation (그룹 분리)",
+    "Group separation",
     "HPLC (고성능 액체 크로마토그래피)",
     "Desalting (탈염)",
-    "Flow-through mode (통과 모드)"
+    "Flow-through mode"
    ],
    "answer": 4,
    "explanation": "**Desalting (탈염)** — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
    "choiceNotes": [
     "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
-    "틀리다 — Group separation (그룹 분리): 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
+    "틀리다 — Group separation: 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
     "틀리다 — HPLC (고성능 액체 크로마토그래피): 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.",
     "정답 — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
-    "틀리다 — Flow-through mode (통과 모드): 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
+    "틀리다 — Flow-through mode: 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
    ],
    "source": "WK03 강의 녹음 42:18–42:56",
    "concepts": [
@@ -672,20 +672,20 @@
     "큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC."
    ],
    "choices": [
-    "Group separation (그룹 분리)",
+    "Group separation",
     "Column volume (CV)",
     "Void volume (V0)",
     "Bradford·Lowry·BCA assay",
-    "Loading (시료 주입)"
+    "Loading"
    ],
    "answer": 1,
-   "explanation": "**Group separation (그룹 분리)** — 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
+   "explanation": "**Group separation** — 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
    "choiceNotes": [
     "정답 — 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
     "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
     "틀리다 — Void volume (V0): 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
     "틀리다 — Bradford·Lowry·BCA assay: 정제한 단백질의 농도를 재는 방법들.",
-    "틀리다 — Loading (시료 주입): 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계."
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계."
    ],
    "source": "WK03 강의 녹음 56:26–58:33",
    "concepts": [
@@ -801,20 +801,20 @@
    "part": 1,
    "question": "「HPLC (고성능 액체 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
-    "컬럼 안에 채워져 움직이지 않는 레진.",
-    "염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
-    "10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.",
-    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
+    "컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm",
+    "컬럼 안에 채워져 움직이지 않는 레진",
+    "염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비)",
+    "10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비",
+    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식"
    ],
    "answer": 4,
    "explanation": "**HPLC (고성능 액체 크로마토그래피)** — 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.",
    "choiceNotes": [
-    "틀리다 — Resin bead (레진 비드)의 설명이다.",
+    "틀리다 — Resin bead의 설명이다.",
     "틀리다 — Stationary phase (고정상)의 설명이다.",
     "틀리다 — Desalting (탈염)의 설명이다.",
     "정답 — 이 용어의 정의다.",
-    "틀리다 — Flow-through mode (통과 모드)의 설명이다."
+    "틀리다 — Flow-through mode의 설명이다."
    ],
    "source": "WK03 강의 녹음 05:39–07:12, 24:19",
    "concepts": [
@@ -831,11 +831,11 @@
    "part": 1,
    "question": "「IEX (Ion Exchange, 이온교환)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
-    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.",
-    "레진에 붙이지 않고 분자 크기로만 나누는 방법.",
-    "가장 작은 분자가 마지막에 나오는 부피.",
-    "레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법",
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법",
+    "가장 작은 분자가 마지막에 나오는 부피",
+    "레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다"
    ],
    "answer": 2,
    "explanation": "**IEX (Ion Exchange, 이온교환)** — 전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.",
@@ -861,11 +861,11 @@
    "part": 1,
    "question": "「HIC (Hydrophobic Interaction Chromatography)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
-    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
-    "컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
-    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
-    "용액에 녹은 염의 농도를 나타내는 값."
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진",
+    "컬럼을 따라 흐르며 시료를 옮기는 버퍼",
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법",
+    "용액에 녹은 염의 농도를 나타내는 값"
    ],
    "answer": 4,
    "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
@@ -891,18 +891,18 @@
    "part": 1,
    "question": "「MMC (Multimodal Chromatography)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "레진에 붙이지 않고 분자 크기로만 나누는 방법.",
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
-    "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
-    "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
-    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진."
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법",
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식",
+    "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것",
+    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진"
    ],
    "answer": 5,
    "explanation": "**MMC (Multimodal Chromatography)** — 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
    "choiceNotes": [
     "틀리다 — SEC (Size Exclusion, Gel filtration)의 설명이다.",
     "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
-    "틀리다 — Bind-elute mode (결합-용출 모드)의 설명이다.",
+    "틀리다 — Bind-elute mode의 설명이다.",
     "틀리다 — Elution (용출)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
@@ -921,11 +921,11 @@
    "part": 1,
    "question": "「SEC (Size Exclusion, Gel filtration)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
-    "레진에 붙이지 않고 분자 크기로만 나누는 방법.",
-    "컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
-    "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출."
+    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진",
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법",
+    "컬럼을 따라 흐르며 시료를 옮기는 버퍼",
+    "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출"
    ],
    "answer": 3,
    "explanation": "**SEC (Size Exclusion, Gel filtration)** — 레진에 붙이지 않고 분자 크기로만 나누는 방법.",
@@ -934,7 +934,7 @@
     "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Mobile phase (이동상)의 설명이다.",
-    "틀리다 — Linear gradient (직선 기울기 용출)의 설명이다."
+    "틀리다 — Linear gradient의 설명이다."
    ],
    "source": "WK03 강의 녹음 14:25, 36:31",
    "concepts": [
@@ -949,22 +949,22 @@
    "id": "tw03r-016",
    "type": "용어",
    "part": 1,
-   "question": "「Ligand (리간드)」에 대한 설명으로 옳은 것은?",
+   "question": "「Ligand」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
-    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.",
-    "가장 작은 분자가 마지막에 나오는 부피.",
-    "큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC."
+    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자",
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법",
+    "가장 작은 분자가 마지막에 나오는 부피",
+    "큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC"
    ],
    "answer": 1,
-   "explanation": "**Ligand (리간드)** — 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
+   "explanation": "**Ligand** — 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
     "틀리다 — IEX (Ion Exchange, 이온교환)의 설명이다.",
     "틀리다 — Total volume (Vt)의 설명이다.",
-    "틀리다 — Group separation (그룹 분리)의 설명이다."
+    "틀리다 — Group separation의 설명이다."
    ],
    "source": "WK03 강의 녹음 33:05–36:20",
    "concepts": [
@@ -981,11 +981,11 @@
    "part": 1,
    "question": "「UV 280 nm」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장.",
-    "단백질 양을 보는 자외선 흡광 파장.",
-    "용액에 녹은 염의 농도를 나타내는 값.",
-    "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
-    "가장 작은 분자가 마지막에 나오는 부피."
+    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장",
+    "단백질 양을 보는 자외선 흡광 파장",
+    "용액에 녹은 염의 농도를 나타내는 값",
+    "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출",
+    "가장 작은 분자가 마지막에 나오는 부피"
    ],
    "answer": 2,
    "explanation": "**UV 280 nm** — 단백질 양을 보는 자외선 흡광 파장.",
@@ -993,7 +993,7 @@
     "틀리다 — UV 260 nm의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — Conductivity (전도도)의 설명이다.",
-    "틀리다 — Linear gradient (직선 기울기 용출)의 설명이다.",
+    "틀리다 — Linear gradient의 설명이다.",
     "틀리다 — Total volume (Vt)의 설명이다."
    ],
    "source": "WK03 강의 녹음 15:01–17:36",
@@ -1011,18 +1011,18 @@
    "part": 1,
    "question": "「UV 260 nm」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "단백질 양을 보는 자외선 흡광 파장.",
-    "용액에 녹은 염의 농도를 나타내는 값.",
-    "큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
-    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
-    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장."
+    "단백질 양을 보는 자외선 흡광 파장",
+    "용액에 녹은 염의 농도를 나타내는 값",
+    "큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC",
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법",
+    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장"
    ],
    "answer": 5,
    "explanation": "**UV 260 nm** — 핵산(DNA·RNA) 양을 보는 자외선 흡광 파장.",
    "choiceNotes": [
     "틀리다 — UV 280 nm의 설명이다.",
     "틀리다 — Conductivity (전도도)의 설명이다.",
-    "틀리다 — Group separation (그룹 분리)의 설명이다.",
+    "틀리다 — Group separation의 설명이다.",
     "틀리다 — HIC (Hydrophobic Interaction Chromatography)의 설명이다.",
     "정답 — 이 용어의 정의다."
    ],
@@ -1041,11 +1041,11 @@
    "part": 1,
    "question": "「Bradford·Lowry·BCA assay」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "정제한 단백질의 농도를 재는 방법들.",
-    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
-    "항체 반응으로 특정 단백질의 양을 재는 방법.",
-    "용액에 녹은 염의 농도를 나타내는 값.",
-    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자."
+    "정제한 단백질의 농도를 재는 방법들",
+    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동",
+    "항체 반응으로 특정 단백질의 양을 재는 방법",
+    "용액에 녹은 염의 농도를 나타내는 값",
+    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자"
    ],
    "answer": 1,
    "explanation": "**Bradford·Lowry·BCA assay** — 정제한 단백질의 농도를 재는 방법들.",
@@ -1054,7 +1054,7 @@
     "틀리다 — SDS-PAGE의 설명이다.",
     "틀리다 — ELISA의 설명이다.",
     "틀리다 — Conductivity (전도도)의 설명이다.",
-    "틀리다 — Ligand (리간드)의 설명이다."
+    "틀리다 — Ligand의 설명이다."
    ],
    "source": "WK03 강의 녹음 40:25–41:40",
    "concepts": [
@@ -1071,18 +1071,18 @@
    "part": 1,
    "question": "「SDS-PAGE」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "정제한 단백질의 농도를 재는 방법들.",
-    "항체로 특정 단백질이 있는지 확인하는 방법.",
-    "물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
-    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
-    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장."
+    "정제한 단백질의 농도를 재는 방법들",
+    "항체로 특정 단백질이 있는지 확인하는 방법",
+    "물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법",
+    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동",
+    "핵산(DNA·RNA) 양을 보는 자외선 흡광 파장"
    ],
    "answer": 4,
    "explanation": "**SDS-PAGE** — 단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
    "choiceNotes": [
     "틀리다 — Bradford·Lowry·BCA assay의 설명이다.",
     "틀리다 — Western blot의 설명이다.",
-    "틀리다 — Chromatography (크로마토그래피)의 설명이다.",
+    "틀리다 — Chromatography의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — UV 260 nm의 설명이다."
    ],
@@ -1101,11 +1101,11 @@
    "part": 1,
    "question": "「ELISA」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동.",
-    "항체로 특정 단백질이 있는지 확인하는 방법.",
-    "항체 반응으로 특정 단백질의 양을 재는 방법.",
-    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.",
-    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
+    "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동",
+    "항체로 특정 단백질이 있는지 확인하는 방법",
+    "항체 반응으로 특정 단백질의 양을 재는 방법",
+    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법",
+    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식"
    ],
    "answer": 3,
    "explanation": "**ELISA** — 항체 반응으로 특정 단백질의 양을 재는 방법.",
@@ -1114,7 +1114,7 @@
     "틀리다 — Western blot의 설명이다.",
     "정답 — 이 용어의 정의다.",
     "틀리다 — IEX (Ion Exchange, 이온교환)의 설명이다.",
-    "틀리다 — Flow-through mode (통과 모드)의 설명이다."
+    "틀리다 — Flow-through mode의 설명이다."
    ],
    "source": "WK03 강의 녹음 40:25–41:40",
    "concepts": [
@@ -1129,7 +1129,7 @@
    "id": "tw03m-001-002-003-004",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Chromatography (크로마토그래피)\n(나) HPLC (고성능 액체 크로마토그래피)\n(다) Stationary phase (고정상)\n(라) Mobile phase (이동상)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Chromatography\n(나) HPLC (고성능 액체 크로마토그래피)\n(다) Stationary phase (고정상)\n(라) Mobile phase (이동상)",
    "box": [
     "A. 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
     "B. 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
@@ -1144,7 +1144,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **Chromatography (크로마토그래피)** → A. 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.\n(나) **HPLC (고성능 액체 크로마토그래피)** → C. 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.\n(다) **Stationary phase (고정상)** → D. 컬럼 안에 채워져 움직이지 않는 레진.\n(라) **Mobile phase (이동상)** → B. 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Chromatography** → A. 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.\n(나) **HPLC (고성능 액체 크로마토그래피)** → C. 10 µm 이하 작은 비드와 높은 압력으로 정제 결과를 분석하는 장비.\n(다) **Stationary phase (고정상)** → D. 컬럼 안에 채워져 움직이지 않는 레진.\n(라) **Mobile phase (이동상)** → B. 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
    "choiceNotes": [
     "틀리다 — (나) HPLC의 설명은 C, (라) Mobile phase의 설명은 B",
     "틀리다 — (나) HPLC의 설명은 C, (다) Stationary phase의 설명은 D",
@@ -1168,7 +1168,7 @@
    "id": "tw03m-005-006-007-008",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Resin bead (레진 비드)\n(나) Resolution (분리능)\n(다) Fraction (분획)\n(라) Capture (포획 단계)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Resin bead\n(나) Resolution (분리능)\n(다) Fraction (분획)\n(라) Capture",
    "box": [
     "A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
@@ -1183,7 +1183,7 @@
     "(가)-A  (나)-D  (다)-B  (라)-C"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Resin bead (레진 비드)** → A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.\n(나) **Resolution (분리능)** → D. 섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도.\n(다) **Fraction (분획)** → B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.\n(라) **Capture (포획 단계)** → C. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Resin bead** → A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.\n(나) **Resolution (분리능)** → D. 섞인 물질을 서로 얼마나 잘 떼어 내는지의 정도.\n(다) **Fraction (분획)** → B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.\n(라) **Capture** → C. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
    "choiceNotes": [
     "틀리다 — (가) Resin bead의 설명은 A, (다) Fraction의 설명은 B",
     "틀리다 — (가) Resin bead의 설명은 A, (라) Capture의 설명은 C",
@@ -1207,7 +1207,7 @@
    "id": "tw03m-008-009-010-011",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Capture (포획 단계)\n(나) Intermediate purification (중간 정제)\n(다) Polishing (최종 정제)\n(라) Affinity chromatography (친화 크로마토그래피)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Capture\n(나) Intermediate purification (중간 정제)\n(다) Polishing\n(라) Affinity chromatography (친화 크로마토그래피)",
    "box": [
     "A. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
     "B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
@@ -1222,7 +1222,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Capture (포획 단계)** → A. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n(나) **Intermediate purification (중간 정제)** → C. 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.\n(다) **Polishing (최종 정제)** → D. 마지막에 남은 미량 불순물을 없애는 단계.\n(라) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Capture** → A. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n(나) **Intermediate purification (중간 정제)** → C. 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.\n(다) **Polishing** → D. 마지막에 남은 미량 불순물을 없애는 단계.\n(라) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
    "choiceNotes": [
     "틀리다 — (가) Capture의 설명은 A, (다) Polishing의 설명은 D",
     "틀리다 — (다) Polishing의 설명은 D, (라) Affinity chromatography의 설명은 B",
@@ -1285,7 +1285,7 @@
    "id": "tw03m-015-016-017-018",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) SEC (Size Exclusion, Gel filtration)\n(나) Ligand (리간드)\n(다) Bind-elute mode (결합-용출 모드)\n(라) Flow-through mode (통과 모드)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) SEC (Size Exclusion, Gel filtration)\n(나) Ligand\n(다) Bind-elute mode\n(라) Flow-through mode",
    "box": [
     "A. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "B. 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.",
@@ -1300,7 +1300,7 @@
     "(가)-B  (나)-D  (다)-C  (라)-A"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **SEC (Size Exclusion, Gel filtration)** → D. 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n(나) **Ligand (리간드)** → B. 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.\n(다) **Bind-elute mode (결합-용출 모드)** → A. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(라) **Flow-through mode (통과 모드)** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
+   "explanation": "**용어와 설명의 짝**\n(가) **SEC (Size Exclusion, Gel filtration)** → D. 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n(나) **Ligand** → B. 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.\n(다) **Bind-elute mode** → A. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(라) **Flow-through mode** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
    "choiceNotes": [
     "틀리다 — (다) Bind-elute mode의 설명은 A, (라) Flow-through mode의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -1324,9 +1324,9 @@
    "id": "tw03m-017-018-019-020",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bind-elute mode (결합-용출 모드)\n(나) Flow-through mode (통과 모드)\n(다) Binding capacity (결합 용량)\n(라) Loading (시료 주입)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bind-elute mode\n(나) Flow-through mode\n(다) Binding capacity (결합 용량)\n(라) Loading",
    "box": [
-    "A. 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+    "A. Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
     "B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.",
     "C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.",
     "D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
@@ -1339,7 +1339,7 @@
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode (결합-용출 모드)** → B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(나) **Flow-through mode (통과 모드)** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading (시료 주입)** → A. 낮은 염 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode** → B. 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n(나) **Flow-through mode** → C. 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진이 붙잡을 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading** → A. Low salt 조건에서 시료를 컬럼에 흘려 붙이는 단계.",
    "choiceNotes": [
     "틀리다 — (가) Bind-elute mode의 설명은 B, (나) Flow-through mode의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -1363,7 +1363,7 @@
    "id": "tw03m-021-022-023-027",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Elution (용출)\n(나) Linear gradient (직선 기울기 용출)\n(다) Step elution (계단식 용출)\n(라) UV 280 nm",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Elution (용출)\n(나) Linear gradient\n(다) Step elution\n(라) UV 280 nm",
    "box": [
     "A. 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.",
     "B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
@@ -1378,7 +1378,7 @@
     "(가)-B  (나)-A  (다)-C  (라)-D"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **Elution (용출)** → A. 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.\n(나) **Linear gradient (직선 기울기 용출)** → B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.\n(다) **Step elution (계단식 용출)** → D. 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.\n(라) **UV 280 nm** → C. 단백질 양을 보는 자외선 흡광 파장.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Elution (용출)** → A. 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.\n(나) **Linear gradient** → B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.\n(다) **Step elution** → D. 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.\n(라) **UV 280 nm** → C. 단백질 양을 보는 자외선 흡광 파장.",
    "choiceNotes": [
     "틀리다 — (다) Step elution의 설명은 D, (라) UV 280 nm의 설명은 C",
     "틀리다 — (가) Elution의 설명은 A, (나) Linear gradient의 설명은 B",
@@ -1480,7 +1480,7 @@
    "id": "tw03m-035-036-038-039",
    "type": "용어",
    "part": 1,
-   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Desalting (탈염)\n(나) Group separation (그룹 분리)\n(다) Void volume (V0)\n(라) Total volume (Vt)",
+   "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Desalting (탈염)\n(나) Group separation\n(다) Void volume (V0)\n(라) Total volume (Vt)",
    "box": [
     "A. 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
     "B. 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.",
@@ -1495,7 +1495,7 @@
     "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Desalting (탈염)** → C. 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).\n(나) **Group separation (그룹 분리)** → B. 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.\n(다) **Void volume (V0)** → A. 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.\n(라) **Total volume (Vt)** → D. 가장 작은 분자가 마지막에 나오는 부피.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Desalting (탈염)** → C. 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).\n(나) **Group separation** → B. 큰 분자와 작은 분자를 두 무리로 거칠게 나누는 SEC.\n(다) **Void volume (V0)** → A. 구멍에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.\n(라) **Total volume (Vt)** → D. 가장 작은 분자가 마지막에 나오는 부피.",
    "choiceNotes": [
     "틀리다 — (나) Group separation의 설명은 B, (다) Void volume의 설명은 A",
     "틀리다 — (나) Group separation의 설명은 B, (라) Total volume의 설명은 D",
@@ -1552,6 +1552,333 @@
    "tags": [
     "용어",
     "짝짓기"
+   ]
+  },
+  {
+   "id": "tw03s-003",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼 안에 채워져 움직이지 않는 레진."
+   ],
+   "answers": [
+    "Stationary phase",
+    "고정상",
+    "Stationary phase (고정상)"
+   ],
+   "explanation": "**Stationary phase (고정상)** — 컬럼 안에 채워져 움직이지 않는 레진.\n정답으로 인정하는 표기: Stationary phase · 고정상 · Stationary phase (고정상) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Stationary phase"
+   ],
+   "tags": [
+    "용어",
+    "Stationary phase"
+   ]
+  },
+  {
+   "id": "tw03s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼을 따라 흐르며 시료를 옮기는 버퍼."
+   ],
+   "answers": [
+    "Mobile phase",
+    "이동상",
+    "Mobile phase (이동상)"
+   ],
+   "explanation": "**Mobile phase (이동상)** — 컬럼을 따라 흐르며 시료를 옮기는 버퍼.\n정답으로 인정하는 표기: Mobile phase · 이동상 · Mobile phase (이동상) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Mobile phase"
+   ],
+   "tags": [
+    "용어",
+    "Mobile phase"
+   ]
+  },
+  {
+   "id": "tw03s-008",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+   ],
+   "answers": [
+    "Capture",
+    "포획",
+    "캡처",
+    "포획 단계"
+   ],
+   "explanation": "**Capture** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n정답으로 인정하는 표기: Capture · 포획 · 캡처 · 포획 단계 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Capture"
+   ],
+   "tags": [
+    "용어",
+    "Capture"
+   ]
+  },
+  {
+   "id": "tw03s-010",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "마지막에 남은 미량 불순물을 없애는 단계."
+   ],
+   "answers": [
+    "Polishing",
+    "폴리싱",
+    "최종 정제 단계",
+    "최종 정제"
+   ],
+   "explanation": "**Polishing** — 마지막에 남은 미량 불순물을 없애는 단계.\n정답으로 인정하는 표기: Polishing · 폴리싱 · 최종 정제 단계 · 최종 정제 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Polishing"
+   ],
+   "tags": [
+    "용어",
+    "Polishing"
+   ]
+  },
+  {
+   "id": "tw03s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+   ],
+   "answers": [
+    "Affinity chromatography",
+    "친화 크로마토그래피",
+    "Affinity chromatography (친화 크로마토그래피)",
+    "Affinity",
+    "친화"
+   ],
+   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.\n정답으로 인정하는 표기: Affinity chromatography · 친화 크로마토그래피 · Affinity chromatography (친화 크로마토그래피) · Affinity · 친화 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 11:32–13:36",
+   "concepts": [
+    "Affinity chromatography"
+   ],
+   "tags": [
+    "용어",
+    "Affinity chromatography"
+   ]
+  },
+  {
+   "id": "tw03s-012",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법."
+   ],
+   "answers": [
+    "IEX",
+    "Ion Exchange",
+    "이온교환",
+    "IEX (Ion Exchange, 이온교환)"
+   ],
+   "explanation": "**IEX (Ion Exchange, 이온교환)** — 전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.\n정답으로 인정하는 표기: IEX · Ion Exchange · 이온교환 · IEX (Ion Exchange, 이온교환) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 10:07",
+   "concepts": [
+    "IEX"
+   ],
+   "tags": [
+    "용어",
+    "IEX"
+   ]
+  },
+  {
+   "id": "tw03s-013",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
+   ],
+   "answers": [
+    "HIC",
+    "Hydrophobic Interaction Chromatography",
+    "HIC (Hydrophobic Interaction Chromatography)",
+    "소수성 상호작용 크로마토그래피",
+    "소수성 크로마토그래피",
+    "소수성 상호작용",
+    "소수성"
+   ],
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.\n정답으로 인정하는 표기: HIC · Hydrophobic Interaction Chromatography · HIC (Hydrophobic Interaction Chromatography) · 소수성 상호작용 크로마토그래피 · 소수성 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 11:32–13:36, 36:31",
+   "concepts": [
+    "HIC"
+   ],
+   "tags": [
+    "용어",
+    "HIC"
+   ]
+  },
+  {
+   "id": "tw03s-015",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법."
+   ],
+   "answers": [
+    "SEC",
+    "Size Exclusion",
+    "Gel filtration",
+    "SEC (Size Exclusion, Gel filtration)",
+    "크기 배제 크로마토그래피",
+    "겔 여과",
+    "크기 배제"
+   ],
+   "explanation": "**SEC (Size Exclusion, Gel filtration)** — 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n정답으로 인정하는 표기: SEC · Size Exclusion · Gel filtration · SEC (Size Exclusion, Gel filtration) · 크기 배제 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 14:25, 36:31",
+   "concepts": [
+    "SEC"
+   ],
+   "tags": [
+    "용어",
+    "SEC"
+   ]
+  },
+  {
+   "id": "tw03s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자."
+   ],
+   "answers": [
+    "Ligand",
+    "리간드"
+   ],
+   "explanation": "**Ligand** — 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.\n정답으로 인정하는 표기: Ligand · 리간드 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Ligand"
+   ],
+   "tags": [
+    "용어",
+    "Ligand"
+   ]
+  },
+  {
+   "id": "tw03s-017",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식."
+   ],
+   "answers": [
+    "Bind-elute mode",
+    "Bind-elute",
+    "결합 용출 모드",
+    "결합 용출"
+   ],
+   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n정답으로 인정하는 표기: Bind-elute mode · Bind-elute · 결합 용출 모드 · 결합 용출 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Bind-elute mode"
+   ],
+   "tags": [
+    "용어",
+    "Bind-elute mode"
+   ]
+  },
+  {
+   "id": "tw03s-018",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
+   ],
+   "answers": [
+    "Flow-through mode",
+    "Flow-through",
+    "통과 모드",
+    "플로우스루",
+    "통과"
+   ],
+   "explanation": "**Flow-through mode** — 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n정답으로 인정하는 표기: Flow-through mode · Flow-through · 통과 모드 · 플로우스루 · 통과 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Flow-through mode"
+   ],
+   "tags": [
+    "용어",
+    "Flow-through mode"
+   ]
+  },
+  {
+   "id": "tw03s-021",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것."
+   ],
+   "answers": [
+    "Elution",
+    "용출",
+    "Elution (용출)"
+   ],
+   "explanation": "**Elution (용출)** — 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.\n정답으로 인정하는 표기: Elution · 용출 · Elution (용출) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 10:07, 36:31",
+   "concepts": [
+    "Elution"
+   ],
+   "tags": [
+    "용어",
+    "Elution"
+   ]
+  },
+  {
+   "id": "tw03s-035",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비)."
+   ],
+   "answers": [
+    "Desalting",
+    "탈염",
+    "Desalting (탈염)"
+   ],
+   "explanation": "**Desalting (탈염)** — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).\n정답으로 인정하는 표기: Desalting · 탈염 · Desalting (탈염) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 42:18–42:56",
+   "concepts": [
+    "Desalting"
+   ],
+   "tags": [
+    "용어",
+    "Desalting"
    ]
   }
  ]
