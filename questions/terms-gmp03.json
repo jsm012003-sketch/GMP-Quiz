@@ -1601,6 +1601,305 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tg03s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
+   ],
+   "answers": [
+    "압력 계위",
+    "Pressure cascade",
+    "압력 계위 (Pressure cascade)",
+    "압력 차",
+    "차압 계위"
+   ],
+   "explanation": "**압력 계위 (Pressure cascade)** — 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.\n정답으로 인정하는 표기: 압력 계위 · Pressure cascade · 압력 계위 (Pressure cascade) · 압력 차 · 차압 계위 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.4",
+   "concepts": [
+    "압력 계위"
+   ],
+   "tags": [
+    "용어",
+    "압력 계위"
+   ]
+  },
+  {
+   "id": "tg03s-008",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "검증된 조건으로 제염을 준비하는 VHP 첫 단계."
+   ],
+   "answers": [
+    "Preparation",
+    "준비",
+    "준비 단계"
+   ],
+   "explanation": "**Preparation (VHP 1단계)** — 검증된 조건으로 제염을 준비하는 VHP 첫 단계.\n정답으로 인정하는 표기: Preparation · 준비 · 준비 단계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Preparation"
+   ],
+   "tags": [
+    "용어",
+    "Preparation"
+   ]
+  },
+  {
+   "id": "tg03s-009",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "H₂O₂를 넣어 목표 농도까지 올리는 단계."
+   ],
+   "answers": [
+    "Conditioning",
+    "컨디셔닝",
+    "컨디셔닝 단계"
+   ],
+   "explanation": "**Conditioning (VHP 2단계)** — H₂O₂를 넣어 목표 농도까지 올리는 단계.\n정답으로 인정하는 표기: Conditioning · 컨디셔닝 · 컨디셔닝 단계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Conditioning"
+   ],
+   "tags": [
+    "용어",
+    "Conditioning"
+   ]
+  },
+  {
+   "id": "tg03s-010",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계."
+   ],
+   "answers": [
+    "Decontamination",
+    "제염",
+    "제염 단계"
+   ],
+   "explanation": "**Decontamination (VHP 3단계)** — 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.\n정답으로 인정하는 표기: Decontamination · 제염 · 제염 단계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Decontamination"
+   ],
+   "tags": [
+    "용어",
+    "Decontamination"
+   ]
+  },
+  {
+   "id": "tg03s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계."
+   ],
+   "answers": [
+    "Aeration",
+    "에어레이션",
+    "환기",
+    "공기 빼기"
+   ],
+   "explanation": "**Aeration (VHP 4단계)** — H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.\n정답으로 인정하는 표기: Aeration · 에어레이션 · 환기 · 공기 빼기 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.7, p.17",
+   "concepts": [
+    "Aeration"
+   ],
+   "tags": [
+    "용어",
+    "Aeration"
+   ]
+  },
+  {
+   "id": "tg03s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태."
+   ],
+   "answers": [
+    "아포",
+    "Spore",
+    "아포 (Spore)",
+    "포자"
+   ],
+   "explanation": "**아포 (Spore)** — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.\n정답으로 인정하는 표기: 아포 · Spore · 아포 (Spore) · 포자 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.8",
+   "concepts": [
+    "아포"
+   ],
+   "tags": [
+    "용어",
+    "아포"
+   ]
+  },
+  {
+   "id": "tg03s-022",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
+   ],
+   "answers": [
+    "BI",
+    "Biological Indicator",
+    "BI (Biological Indicator)",
+    "생물학적 지표",
+    "생물학적 지시계"
+   ],
+   "explanation": "**BI (Biological Indicator)** — 내성 포자를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n정답으로 인정하는 표기: BI · Biological Indicator · BI (Biological Indicator) · 생물학적 지표 · 생물학적 지시계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "BI"
+   ],
+   "tags": [
+    "용어",
+    "BI"
+   ]
+  },
+  {
+   "id": "tg03s-023",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
+   ],
+   "answers": [
+    "CI",
+    "Chemical Indicator",
+    "CI (Chemical Indicator)",
+    "화학적 지표",
+    "화학적 지시계"
+   ],
+   "explanation": "**CI (Chemical Indicator)** — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.\n정답으로 인정하는 표기: CI · Chemical Indicator · CI (Chemical Indicator) · 화학적 지표 · 화학적 지시계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "CI"
+   ],
+   "tags": [
+    "용어",
+    "CI"
+   ]
+  },
+  {
+   "id": "tg03s-027",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간."
+   ],
+   "answers": [
+    "D-value",
+    "D값"
+   ],
+   "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.\n정답으로 인정하는 표기: D-value · D값 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12",
+   "concepts": [
+    "D-value"
+   ],
+   "tags": [
+    "용어",
+    "D-value"
+   ]
+  },
+  {
+   "id": "tg03s-028",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요)."
+   ],
+   "answers": [
+    "SLR",
+    "Spore Log Reduction",
+    "SLR (Spore Log Reduction)",
+    "포자 로그 감소"
+   ],
+   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 포자 수를 log로 나타낸 값(6 log 이상 필요).\n정답으로 인정하는 표기: SLR · Spore Log Reduction · SLR (Spore Log Reduction) · 포자 로그 감소 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.14",
+   "concepts": [
+    "SLR"
+   ],
+   "tags": [
+    "용어",
+    "SLR"
+   ]
+  },
+  {
+   "id": "tg03s-036",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가."
+   ],
+   "answers": [
+    "IQ",
+    "Installation Qualification",
+    "IQ (Installation Qualification)",
+    "설치 적격성평가"
+   ],
+   "explanation": "**IQ (Installation Qualification)** — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.\n정답으로 인정하는 표기: IQ · Installation Qualification · IQ (Installation Qualification) · 설치 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "IQ"
+   ],
+   "tags": [
+    "용어",
+    "IQ"
+   ]
+  },
+  {
+   "id": "tg03s-037",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가."
+   ],
+   "answers": [
+    "OQ",
+    "Operational Qualification",
+    "OQ (Operational Qualification)",
+    "운전 적격성평가",
+    "작동 적격성평가"
+   ],
+   "explanation": "**OQ (Operational Qualification)** — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.\n정답으로 인정하는 표기: OQ · Operational Qualification · OQ (Operational Qualification) · 운전 적격성평가 · 작동 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "OQ"
+   ],
+   "tags": [
+    "용어",
+    "OQ"
+   ]
   }
  ]
 }

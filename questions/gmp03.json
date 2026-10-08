@@ -531,6 +531,117 @@
         "Glove visual inspection"
       ],
       "part": 1
+    },
+    {
+      "id": "gmp03-035",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "아이솔레이터 압력 순서 「메인 챔버 > ( ) > 작업 공간」에서 빈칸은?",
+      "answers": [
+        "에어락",
+        "Airlock",
+        "에어 락",
+        "air lock"
+      ],
+      "explanation": "**메인 챔버(가장 높은 양압) > 에어락 > 작업 공간 — 공기는 늘 깨끗한 곳에서 덜 깨끗한 곳으로 흐른다.**",
+      "source": "03 Isolator & Qualification PDF p.4 (Isolator Chamber 구성 — 압력 계위)",
+      "concepts": [
+        "압력 계위"
+      ],
+      "tags": [
+        "압력 계위"
+      ]
+    },
+    {
+      "id": "gmp03-036",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "아이솔레이터 VHP가 목표로 하는 포자 감소량은 몇 log 이상인가?",
+      "answers": [
+        "6",
+        "6log",
+        "6 log",
+        "6로그",
+        "10^6"
+      ],
+      "explanation": "**아이솔레이터 VHP는 멸균 수준인 6 log 이상 감소(SLR ≥ 6)를 목표로 한다.** 그래서 BI 하나에 포자를 10⁶개 이상 올린다. 소독은 보통 약 3 log 수준이다.",
+      "source": "03 Isolator & Qualification PDF p.16 (Acceptance Criteria) · 강의 녹음 12:55–13:18",
+      "concepts": [
+        "SLR"
+      ],
+      "tags": [
+        "SLR"
+      ]
+    },
+    {
+      "id": "gmp03-037",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "VHP(과산화수소 증기)가 미생물을 죽일 때 만드는 활성 라디칼은?",
+      "answers": [
+        "·OH",
+        "OH",
+        "Hydroxyl radical",
+        "하이드록실 라디칼",
+        "수산화 라디칼",
+        "히드록실 라디칼",
+        "OH 라디칼"
+      ],
+      "explanation": "**VHP는 표면에 흡착한 뒤 ·OH(하이드록실) 라디칼을 만들어 세포막·단백질·핵산을 산화시켜 죽인다.** 그래서 증기가 '닿은 표면'만 제염되고, 아포는 침투가 늦어 더 긴 노출이 필요하다.",
+      "source": "03 Isolator & Qualification PDF p.8 (VHP 멸균 원리), p.9",
+      "concepts": [
+        "Hydroxyl radical"
+      ],
+      "tags": [
+        "Hydroxyl radical"
+      ]
+    },
+    {
+      "id": "gmp03-038",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "소독(disinfection)은 미생물을 보통 약 몇 log 줄이는 수준인가?",
+      "answers": [
+        "3",
+        "3log",
+        "3 log",
+        "3로그"
+      ],
+      "explanation": "**소독은 약 3 log 감소, 멸균은 6 log 이상 감소 수준이다.** 아이솔레이터 VHP는 멸균 수준(6 log)을 목표로 한다.",
+      "source": "03 Isolator & Qualification 강의 녹음 12:55–13:18, 17:56–18:14 (Log reduction)",
+      "concepts": [
+        "Disinfection",
+        "Sterilization"
+      ],
+      "tags": [
+        "Disinfection",
+        "Sterilization"
+      ]
+    },
+    {
+      "id": "gmp03-039",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "적격성평가 순서 「IQ → ( ) → PQ」에서 빈칸은?",
+      "answers": [
+        "OQ",
+        "Operational Qualification",
+        "운전 적격성평가",
+        "작동 적격성평가"
+      ],
+      "explanation": "**IQ(설치) → OQ(작동) → PQ(성능) 순서다.** 아이솔레이터는 URS/DQ → IQ → OQ → Cycle development → PQ/MBQ → PRQ(매년 재적격성평가)로 진행한다.",
+      "source": "03 Isolator & Qualification PDF p.15 (Qualification 접근법)",
+      "concepts": [
+        "OQ"
+      ],
+      "tags": [
+        "OQ"
+      ]
     }
   ]
 }

@@ -4016,6 +4016,919 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tw04s-001",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓)."
+   ],
+   "answers": [
+    "Process-related impurity",
+    "공정 유래 불순물",
+    "Process-related impurity (공정 유래 불순물)"
+   ],
+   "explanation": "**Process-related impurity (공정 유래 불순물)** — 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n정답으로 인정하는 표기: Process-related impurity · 공정 유래 불순물 · Process-related impurity (공정 유래 불순물) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.9 (Impurities)",
+   "concepts": [
+    "Process-related impurity"
+   ],
+   "tags": [
+    "용어",
+    "Process-related impurity"
+   ]
+  },
+  {
+   "id": "tw04s-002",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+   ],
+   "answers": [
+    "Product-related impurity",
+    "제품 유래 불순물",
+    "Product-related impurity (제품 유래 불순물)"
+   ],
+   "explanation": "**Product-related impurity (제품 유래 불순물)** — 응집체·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n정답으로 인정하는 표기: Product-related impurity · 제품 유래 불순물 · Product-related impurity (제품 유래 불순물) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.9 (Impurities)",
+   "concepts": [
+    "Product-related impurity"
+   ],
+   "tags": [
+    "용어",
+    "Product-related impurity"
+   ]
+  },
+  {
+   "id": "tw04s-003",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법."
+   ],
+   "answers": [
+    "Precipitation",
+    "침전",
+    "Precipitation (침전)"
+   ],
+   "explanation": "**Precipitation (침전)** — 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.\n정답으로 인정하는 표기: Precipitation · 침전 · Precipitation (침전) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.11 (Precipitation)",
+   "concepts": [
+    "Precipitation"
+   ],
+   "tags": [
+    "용어",
+    "Precipitation"
+   ]
+  },
+  {
+   "id": "tw04s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+   ],
+   "answers": [
+    "Centrifugation",
+    "원심분리",
+    "Centrifugation (원심분리)"
+   ],
+   "explanation": "**Centrifugation (원심분리)** — 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.\n정답으로 인정하는 표기: Centrifugation · 원심분리 · Centrifugation (원심분리) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.10, p.12 (Centrifuge)",
+   "concepts": [
+    "Centrifugation"
+   ],
+   "tags": [
+    "용어",
+    "Centrifugation"
+   ]
+  },
+  {
+   "id": "tw04s-006",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세균 안에서 잘못 접혀 뭉친 단백질 덩어리."
+   ],
+   "answers": [
+    "Inclusion body",
+    "봉입체",
+    "Inclusion body (봉입체)"
+   ],
+   "explanation": "**Inclusion body (봉입체)** — 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.\n정답으로 인정하는 표기: Inclusion body · 봉입체 · Inclusion body (봉입체) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.14 (Case Study – r-Insulin)",
+   "concepts": [
+    "Inclusion body"
+   ],
+   "tags": [
+    "용어",
+    "Inclusion body"
+   ]
+  },
+  {
+   "id": "tw04s-014",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정."
+   ],
+   "answers": [
+    "Clarification",
+    "정화",
+    "Clarification (정화)",
+    "청징"
+   ],
+   "explanation": "**Clarification (정화)** — 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.\n정답으로 인정하는 표기: Clarification · 정화 · Clarification (정화) · 청징 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.23 (Filtration: Unit Operation)",
+   "concepts": [
+    "Clarification"
+   ],
+   "tags": [
+    "용어",
+    "Clarification"
+   ]
+  },
+  {
+   "id": "tw04s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터."
+   ],
+   "answers": [
+    "Sterilizing-grade filter",
+    "제균 필터",
+    "Sterilizing-grade filter (제균 필터)",
+    "제균 여과 필터",
+    "멸균 필터",
+    "0.2 µm 필터"
+   ],
+   "explanation": "**Sterilizing-grade filter (제균 필터)** — 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.\n정답으로 인정하는 표기: Sterilizing-grade filter · 제균 필터 · Sterilizing-grade filter (제균 필터) · 제균 여과 필터 · 멸균 필터 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.24 (제균 Filter의 정의)",
+   "concepts": [
+    "Sterilizing-grade filter"
+   ],
+   "tags": [
+    "용어",
+    "Sterilizing-grade filter"
+   ]
+  },
+  {
+   "id": "tw04s-017",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험."
+   ],
+   "answers": [
+    "BCT",
+    "Bacteria Challenge Test",
+    "BCT (Bacteria Challenge Test)",
+    "세균 도전 시험",
+    "세균 챌린지 시험",
+    "세균 도전",
+    "세균 챌린지"
+   ],
+   "explanation": "**BCT (Bacteria Challenge Test)** — 막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험.\n정답으로 인정하는 표기: BCT · Bacteria Challenge Test · BCT (Bacteria Challenge Test) · 세균 도전 시험 · 세균 챌린지 시험 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.24, p.121",
+   "concepts": [
+    "BCT"
+   ],
+   "tags": [
+    "용어",
+    "BCT"
+   ]
+  },
+  {
+   "id": "tw04s-018",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제균 필터 시험에 쓰는 아주 작은 세균(worst case)."
+   ],
+   "answers": [
+    "Brevundimonas diminuta",
+    "B. diminuta",
+    "브레분디모나스 디미누타"
+   ],
+   "explanation": "**Brevundimonas diminuta** — 제균 필터 시험에 쓰는 아주 작은 세균(worst case).\n정답으로 인정하는 표기: Brevundimonas diminuta · B. diminuta · 브레분디모나스 디미누타 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.24 (Bacteria Challenge Test)",
+   "concepts": [
+    "Brevundimonas diminuta"
+   ],
+   "tags": [
+    "용어",
+    "Brevundimonas diminuta"
+   ]
+  },
+  {
+   "id": "tw04s-020",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과."
+   ],
+   "answers": [
+    "DEF",
+    "Dead-End Filtration",
+    "DEF (Dead-End Filtration)",
+    "막다른 여과",
+    "데드엔드 여과"
+   ],
+   "explanation": "**DEF (Dead-End Filtration)** — 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.\n정답으로 인정하는 표기: DEF · Dead-End Filtration · DEF (Dead-End Filtration) · 막다른 여과 · 데드엔드 여과 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.26 (Mechanism)",
+   "concepts": [
+    "DEF"
+   ],
+   "tags": [
+    "용어",
+    "DEF"
+   ]
+  },
+  {
+   "id": "tw04s-021",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과."
+   ],
+   "answers": [
+    "CFF / TFF",
+    "Crossflow·Tangential Flow Filtration",
+    "CFF",
+    "TFF",
+    "CFF / TFF (Crossflow·Tangential Flow Filtration)",
+    "접선 흐름 여과",
+    "십자류 여과",
+    "크로스플로우 여과"
+   ],
+   "explanation": "**CFF / TFF (Crossflow·Tangential Flow Filtration)** — 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과.\n정답으로 인정하는 표기: CFF / TFF · Crossflow·Tangential Flow Filtration · CFF · TFF · CFF / TFF (Crossflow·Tangential Flow Filtration) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.26, p.85",
+   "concepts": [
+    "CFF / TFF"
+   ],
+   "tags": [
+    "용어",
+    "CFF / TFF"
+   ]
+  },
+  {
+   "id": "tw04s-022",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "0.1~100 µm 구멍으로 세포·입자를 거르는 여과."
+   ],
+   "answers": [
+    "Microfiltration",
+    "MF",
+    "정밀여과",
+    "Microfiltration (MF, 정밀여과)"
+   ],
+   "explanation": "**Microfiltration (MF, 정밀여과)** — 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.\n정답으로 인정하는 표기: Microfiltration · MF · 정밀여과 · Microfiltration (MF, 정밀여과) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.32 (Size에 따른 분리)",
+   "concepts": [
+    "Microfiltration"
+   ],
+   "tags": [
+    "용어",
+    "Microfiltration"
+   ]
+  },
+  {
+   "id": "tw04s-023",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과."
+   ],
+   "answers": [
+    "Ultrafiltration",
+    "UF",
+    "한외여과",
+    "Ultrafiltration (UF, 한외여과)"
+   ],
+   "explanation": "**Ultrafiltration (UF, 한외여과)** — nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.\n정답으로 인정하는 표기: Ultrafiltration · UF · 한외여과 · Ultrafiltration (UF, 한외여과) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.32 (Size에 따른 분리)",
+   "concepts": [
+    "Ultrafiltration"
+   ],
+   "tags": [
+    "용어",
+    "Ultrafiltration"
+   ]
+  },
+  {
+   "id": "tw04s-024",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다."
+   ],
+   "answers": [
+    "Nanofiltration",
+    "NF",
+    "나노여과",
+    "Nanofiltration (NF, 나노여과)"
+   ],
+   "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.\n정답으로 인정하는 표기: Nanofiltration · NF · 나노여과 · Nanofiltration (NF, 나노여과) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.32, p.40",
+   "concepts": [
+    "Nanofiltration"
+   ],
+   "tags": [
+    "용어",
+    "Nanofiltration"
+   ]
+  },
+  {
+   "id": "tw04s-025",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과."
+   ],
+   "answers": [
+    "Reverse osmosis",
+    "RO",
+    "역삼투",
+    "Reverse osmosis (RO, 역삼투)"
+   ],
+   "explanation": "**Reverse osmosis (RO, 역삼투)** — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n정답으로 인정하는 표기: Reverse osmosis · RO · 역삼투 · Reverse osmosis (RO, 역삼투) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.32 (Size에 따른 분리)",
+   "concepts": [
+    "Reverse osmosis"
+   ],
+   "tags": [
+    "용어",
+    "Reverse osmosis"
+   ]
+  },
+  {
+   "id": "tw04s-026",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값."
+   ],
+   "answers": [
+    "MWCO",
+    "Molecular Weight Cut-Off",
+    "MWCO (Molecular Weight Cut-Off)",
+    "분자량 컷오프",
+    "분자량 차단"
+   ],
+   "explanation": "**MWCO (Molecular Weight Cut-Off)** — 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.\n정답으로 인정하는 표기: MWCO · Molecular Weight Cut-Off · MWCO (Molecular Weight Cut-Off) · 분자량 컷오프 · 분자량 차단 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.46 (Pore Size / MWCO)",
+   "concepts": [
+    "MWCO"
+   ],
+   "tags": [
+    "용어",
+    "MWCO"
+   ]
+  },
+  {
+   "id": "tw04s-028",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "얇은 막 표면에서 걸러, 압력이 높아도 입자가 뒤로 넘어가지 않는 필터."
+   ],
+   "answers": [
+    "Membrane filter",
+    "멤브레인 필터",
+    "Membrane filter (멤브레인 필터)"
+   ],
+   "explanation": "**Membrane filter (멤브레인 필터)** — 얇은 막 표면에서 걸러, 압력이 높아도 입자가 뒤로 넘어가지 않는 필터.\n정답으로 인정하는 표기: Membrane filter · 멤브레인 필터 · Membrane filter (멤브레인 필터) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.40 (Membrane Filter)",
+   "concepts": [
+    "Membrane filter"
+   ],
+   "tags": [
+    "용어",
+    "Membrane filter"
+   ]
+  },
+  {
+   "id": "tw04s-029",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "두꺼운 섬유층 안에 입자를 많이 붙잡지만 압력이 높으면 샐 수 있는 필터."
+   ],
+   "answers": [
+    "Depth filter",
+    "깊이 필터",
+    "Depth filter (깊이 필터)",
+    "뎁스 필터",
+    "심층 필터"
+   ],
+   "explanation": "**Depth filter (깊이 필터)** — 두꺼운 섬유층 안에 입자를 많이 붙잡지만 압력이 높으면 샐 수 있는 필터.\n정답으로 인정하는 표기: Depth filter · 깊이 필터 · Depth filter (깊이 필터) · 뎁스 필터 · 심층 필터 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.41 (Depth filter)",
+   "concepts": [
+    "Depth filter"
+   ],
+   "tags": [
+    "용어",
+    "Depth filter"
+   ]
+  },
+  {
+   "id": "tw04s-039",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "물을 밀어내는 막 — 기체·vent 여과에 쓴다."
+   ],
+   "answers": [
+    "Hydrophobic membrane",
+    "소수성 막",
+    "Hydrophobic membrane (소수성 막)",
+    "Hydrophobic filter",
+    "소수성 필터"
+   ],
+   "explanation": "**Hydrophobic membrane (소수성 막)** — 물을 밀어내는 막 — 기체·vent 여과에 쓴다.\n정답으로 인정하는 표기: Hydrophobic membrane · 소수성 막 · Hydrophobic membrane (소수성 막) · Hydrophobic filter · 소수성 필터 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.40, p.51, p.124",
+   "concepts": [
+    "Hydrophobic membrane"
+   ],
+   "tags": [
+    "용어",
+    "Hydrophobic membrane"
+   ]
+  },
+  {
+   "id": "tw04s-078",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다."
+   ],
+   "answers": [
+    "Retentate",
+    "리텐테이트",
+    "잔류액",
+    "농축액"
+   ],
+   "explanation": "**Retentate (TFF)** — 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n정답으로 인정하는 표기: Retentate · 리텐테이트 · 잔류액 · 농축액 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.86 (CFF System의 구성)",
+   "concepts": [
+    "Retentate"
+   ],
+   "tags": [
+    "용어",
+    "Retentate"
+   ]
+  },
+  {
+   "id": "tw04s-079",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막을 지나 빠져나간 쪽 액체."
+   ],
+   "answers": [
+    "Permeate",
+    "퍼미에이트",
+    "투과액",
+    "Filtrate",
+    "여과액"
+   ],
+   "explanation": "**Permeate (TFF)** — 막을 지나 빠져나간 쪽 액체.\n정답으로 인정하는 표기: Permeate · 퍼미에이트 · 투과액 · Filtrate · 여과액 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.86 (CFF System의 구성)",
+   "concepts": [
+    "Permeate"
+   ],
+   "tags": [
+    "용어",
+    "Permeate"
+   ]
+  },
+  {
+   "id": "tw04s-080",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다."
+   ],
+   "answers": [
+    "TMP",
+    "Transmembrane Pressure",
+    "TMP (Transmembrane Pressure)",
+    "막간 압력",
+    "막 횡단 압력"
+   ],
+   "explanation": "**TMP (Transmembrane Pressure)** — 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.\n정답으로 인정하는 표기: TMP · Transmembrane Pressure · TMP (Transmembrane Pressure) · 막간 압력 · 막 횡단 압력 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.88, p.90",
+   "concepts": [
+    "TMP"
+   ],
+   "tags": [
+    "용어",
+    "TMP"
+   ]
+  },
+  {
+   "id": "tw04s-086",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것."
+   ],
+   "answers": [
+    "Diafiltration",
+    "다이아필트레이션",
+    "Diafiltration (다이아필트레이션)",
+    "DF",
+    "정용여과"
+   ],
+   "explanation": "**Diafiltration (다이아필트레이션)** — 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.\n정답으로 인정하는 표기: Diafiltration · 다이아필트레이션 · Diafiltration (다이아필트레이션) · DF · 정용여과 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.100, p.103",
+   "concepts": [
+    "Diafiltration"
+   ],
+   "tags": [
+    "용어",
+    "Diafiltration"
+   ]
+  },
+  {
+   "id": "tw04s-100",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험."
+   ],
+   "answers": [
+    "Bubble point test",
+    "기포점 시험",
+    "Bubble point test (기포점 시험)",
+    "Bubble point",
+    "기포점"
+   ],
+   "explanation": "**Bubble point test (기포점 시험)** — 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.\n정답으로 인정하는 표기: Bubble point test · 기포점 시험 · Bubble point test (기포점 시험) · Bubble point · 기포점 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.125–126",
+   "concepts": [
+    "Bubble point test"
+   ],
+   "tags": [
+    "용어",
+    "Bubble point test"
+   ]
+  },
+  {
+   "id": "tw04s-101",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+   ],
+   "answers": [
+    "Diffusion test",
+    "확산 시험",
+    "Diffusion test (확산 시험)",
+    "Diffusion",
+    "확산"
+   ],
+   "explanation": "**Diffusion test (확산 시험)** — 기포점보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n정답으로 인정하는 표기: Diffusion test · 확산 시험 · Diffusion test (확산 시험) · Diffusion · 확산 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.127, p.131",
+   "concepts": [
+    "Diffusion test"
+   ],
+   "tags": [
+    "용어",
+    "Diffusion test"
+   ]
+  },
+  {
+   "id": "tw04s-103",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험."
+   ],
+   "answers": [
+    "Water intrusion test",
+    "WIT",
+    "Water intrusion test (WIT)",
+    "물 침투 시험",
+    "Water intrusion",
+    "물 침투"
+   ],
+   "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.\n정답으로 인정하는 표기: Water intrusion test · WIT · Water intrusion test (WIT) · 물 침투 시험 · Water intrusion (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.137–139",
+   "concepts": [
+    "Water intrusion test"
+   ],
+   "tags": [
+    "용어",
+    "Water intrusion test"
+   ]
+  },
+  {
+   "id": "tw04s-112",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것."
+   ],
+   "answers": [
+    "Redundant filtration",
+    "이중 제균 여과",
+    "Redundant filtration (이중 제균 여과)",
+    "이중 여과",
+    "중복 여과"
+   ],
+   "explanation": "**Redundant filtration (이중 제균 여과)** — 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.\n정답으로 인정하는 표기: Redundant filtration · 이중 제균 여과 · Redundant filtration (이중 제균 여과) · 이중 여과 · 중복 여과 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.157",
+   "concepts": [
+    "Redundant filtration"
+   ],
+   "tags": [
+    "용어",
+    "Redundant filtration"
+   ]
+  },
+  {
+   "id": "tw04s-113",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험."
+   ],
+   "answers": [
+    "PUPSIT",
+    "Pre-Use Post-Sterilization Integrity Test",
+    "PUPSIT (Pre-Use Post-Sterilization Integrity Test)"
+   ],
+   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 무결성 시험.\n정답으로 인정하는 표기: PUPSIT · Pre-Use Post-Sterilization Integrity Test · PUPSIT (Pre-Use Post-Sterilization Integrity Test) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 PDF p.17, p.158",
+   "concepts": [
+    "PUPSIT"
+   ],
+   "tags": [
+    "용어",
+    "PUPSIT"
+   ]
+  },
+  {
+   "id": "tw04s-120",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율."
+   ],
+   "answers": [
+    "Yield",
+    "수율",
+    "Yield (수율)"
+   ],
+   "explanation": "**Yield (수율)** — 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.\n정답으로 인정하는 표기: Yield · 수율 · Yield (수율) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 2:13:07–2:13:43",
+   "concepts": [
+    "Yield"
+   ],
+   "tags": [
+    "용어",
+    "Yield"
+   ]
+  },
+  {
+   "id": "tw04s-121",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 물질이 불순물 없이 깨끗한 정도."
+   ],
+   "answers": [
+    "Purity",
+    "순도",
+    "Purity (순도)"
+   ],
+   "explanation": "**Purity (순도)** — 목표 물질이 불순물 없이 깨끗한 정도.\n정답으로 인정하는 표기: Purity · 순도 · Purity (순도) (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 2:13:07–2:13:43",
+   "concepts": [
+    "Purity"
+   ],
+   "tags": [
+    "용어",
+    "Purity"
+   ]
+  },
+  {
+   "id": "tw04s-137",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수."
+   ],
+   "answers": [
+    "VCS",
+    "Viral Clearance Study",
+    "VCS (Viral Clearance Study)",
+    "바이러스 제거 검증",
+    "바이러스 클리어런스 스터디"
+   ],
+   "explanation": "**VCS (Viral Clearance Study)** — 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.\n정답으로 인정하는 표기: VCS · Viral Clearance Study · VCS (Viral Clearance Study) · 바이러스 제거 검증 · 바이러스 클리어런스 스터디 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 1:47:26–1:48:13",
+   "concepts": [
+    "VCS"
+   ],
+   "tags": [
+    "용어",
+    "VCS"
+   ]
+  },
+  {
+   "id": "tw04s-139",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+   ],
+   "answers": [
+    "HCD",
+    "Host Cell DNA",
+    "HCD (Host Cell DNA)",
+    "숙주세포 DNA"
+   ],
+   "explanation": "**HCD (Host Cell DNA)** — 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).\n정답으로 인정하는 표기: HCD · Host Cell DNA · HCD (Host Cell DNA) · 숙주세포 DNA (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 1:56:00–1:56:46",
+   "concepts": [
+    "HCD"
+   ],
+   "tags": [
+    "용어",
+    "HCD"
+   ]
+  },
+  {
+   "id": "tw04s-140",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)."
+   ],
+   "answers": [
+    "Endotoxin",
+    "엔도톡신",
+    "Endotoxin (엔도톡신)",
+    "내독소"
+   ],
+   "explanation": "**Endotoxin (엔도톡신)** — 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).\n정답으로 인정하는 표기: Endotoxin · 엔도톡신 · Endotoxin (엔도톡신) · 내독소 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 1:54:15–1:57:03",
+   "concepts": [
+    "Endotoxin"
+   ],
+   "tags": [
+    "용어",
+    "Endotoxin"
+   ]
+  },
+  {
+   "id": "tw04s-141",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8."
+   ],
+   "answers": [
+    "pI",
+    "등전점",
+    "pI (등전점)",
+    "pl"
+   ],
+   "explanation": "**pI (등전점)** — 단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8.\n정답으로 인정하는 표기: pI · 등전점 · pI (등전점) · pl (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 1:53:29–1:54:15, 1:57:18",
+   "concepts": [
+    "pI"
+   ],
+   "tags": [
+    "용어",
+    "pI"
+   ]
+  },
+  {
+   "id": "tw04s-142",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값."
+   ],
+   "answers": [
+    "LRV",
+    "Log Reduction Value",
+    "LRV (Log Reduction Value)",
+    "로그 감소값"
+   ],
+   "explanation": "**LRV (Log Reduction Value)** — 바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값.\n정답으로 인정하는 표기: LRV · Log Reduction Value · LRV (Log Reduction Value) · 로그 감소값 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 2:09:15–2:10:17",
+   "concepts": [
+    "LRV"
+   ],
+   "tags": [
+    "용어",
+    "LRV"
+   ]
+  },
+  {
+   "id": "tw04s-147",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계."
+   ],
+   "answers": [
+    "Formulation",
+    "제형",
+    "Formulation (제형)",
+    "포뮬레이션",
+    "제제화"
+   ],
+   "explanation": "**Formulation (제형)** — 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.\n정답으로 인정하는 표기: Formulation · 제형 · Formulation (제형) · 포뮬레이션 · 제제화 (띄어쓰기·대소문자 무시)",
+   "source": "WK04 강의 녹음② 2:16:47–2:17:41",
+   "concepts": [
+    "Formulation"
+   ],
+   "tags": [
+    "용어",
+    "Formulation"
+   ]
   }
  ]
 }

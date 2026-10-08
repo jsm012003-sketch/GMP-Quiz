@@ -309,6 +309,117 @@
         "Settle plate"
       ],
       "part": 2
+    },
+    {
+      "id": "gmp02-026",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "APS 배양은 20~25 ℃ 7일과 30~35 ℃ 7일을 합쳐 총 며칠인가?",
+      "answers": [
+        "14",
+        "14일",
+        "2주",
+        "14 일"
+      ],
+      "explanation": "**APS는 배지(SCDM)를 충전한 용기를 뒤집어 20~25 ℃ 7일 + 30~35 ℃ 7일, 총 14일 배양한다.** 뒤집는 이유는 배지가 마개 안쪽까지 닿게 하려고.",
+      "source": "02 RABS & APS PDF p.12 (APS 설계 개념: 배양 조건), p.15 (배지 선택·배양)",
+      "concepts": [
+        "APS",
+        "2단계 배양"
+      ],
+      "tags": [
+        "APS",
+        "2단계 배양"
+      ]
+    },
+    {
+      "id": "gmp02-027",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "신규 라인의 Initial APS는 연속 몇 회 성공해야 하는가?",
+      "answers": [
+        "3",
+        "3회",
+        "세 번",
+        "3번",
+        "연속 3회"
+      ],
+      "explanation": "**Initial APS는 신규 라인이나 중대 변경 뒤 연속 3회 성공해야 하고, Routine APS는 6개월마다(연 2회) 반복한다.** 하나라도 균이 자라면(zero growth 실패) 원인 조사·시정조치 뒤 다시 한다.",
+      "source": "02 RABS & APS PDF p.12, p.14",
+      "concepts": [
+        "Initial APS"
+      ],
+      "tags": [
+        "Initial APS"
+      ]
+    },
+    {
+      "id": "gmp02-028",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "Routine APS는 몇 개월마다 반복하는가?",
+      "answers": [
+        "6",
+        "6개월",
+        "6 개월",
+        "반년",
+        "6달"
+      ],
+      "explanation": "**Routine APS는 6개월마다(연 2회) 정기적으로 반복한다.** 작업자는 연 1회 이상 APS에 참여한다.",
+      "source": "02 RABS & APS PDF p.12, p.14",
+      "concepts": [
+        "Routine APS"
+      ],
+      "tags": [
+        "Routine APS"
+      ]
+    },
+    {
+      "id": "gmp02-029",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "RABS 내부는 Grade A, RABS를 둘러싼 주변 방은 Grade 무엇인가?",
+      "answers": [
+        "B",
+        "Grade B",
+        "B등급",
+        "B 등급"
+      ],
+      "explanation": "**RABS는 내부 Grade A, 주변 방 Grade B로 관리한다.** 주변을 Grade C/D로 낮출 수 있는 것은 완전 밀폐·자동 제균(VHP)하는 아이솔레이터다.",
+      "source": "02 RABS & APS PDF p.4 (RABS 정의와 기본 요건), p.9",
+      "concepts": [
+        "RABS",
+        "Grade B"
+      ],
+      "tags": [
+        "RABS",
+        "Grade B"
+      ]
+    },
+    {
+      "id": "gmp02-030",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "HEPA 필터에서 나와 열린 용기에 처음 닿는 깨끗한 공기를 무엇이라 하는가?",
+      "answers": [
+        "First air",
+        "퍼스트 에어",
+        "first-air",
+        "최초 공기"
+      ],
+      "explanation": "**First air는 HEPA에서 나와 아무것도 거치지 않고 열린 용기·제품 접촉부에 처음 닿는 공기다.** 간섭 때 손이 열린 용기 위를 지나면 이 공기를 막아 오염 위험이 커진다.",
+      "source": "02 RABS & APS PDF p.22 (Intervention 사례 ④), p.23 (Intervention 관리)",
+      "concepts": [
+        "First air"
+      ],
+      "tags": [
+        "First air"
+      ]
     }
   ]
 }

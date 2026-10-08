@@ -1805,6 +1805,541 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tw06s-003",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계."
+   ],
+   "answers": [
+    "Protein A chromatography",
+    "Protein A",
+    "단백질 A",
+    "프로틴 A",
+    "Protein A 크로마토그래피"
+   ],
+   "explanation": "**Protein A chromatography** — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.\n정답으로 인정하는 표기: Protein A chromatography · Protein A · 단백질 A · 프로틴 A · Protein A 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5, p.18–19",
+   "concepts": [
+    "Protein A chromatography"
+   ],
+   "tags": [
+    "용어",
+    "Protein A chromatography"
+   ]
+  },
+  {
+   "id": "tw06s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계."
+   ],
+   "answers": [
+    "Low pH viral inactivation",
+    "Low pH inactivation",
+    "낮은 pH 바이러스 불활화",
+    "저 pH 바이러스 불활화",
+    "저pH 불활화",
+    "낮은 pH 불활화",
+    "VI"
+   ],
+   "explanation": "**Low pH viral inactivation** — 산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.\n정답으로 인정하는 표기: Low pH viral inactivation · Low pH inactivation · 낮은 pH 바이러스 불활화 · 저 pH 바이러스 불활화 · 저pH 불활화 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.11, p.15",
+   "concepts": [
+    "Low pH viral inactivation"
+   ],
+   "tags": [
+    "용어",
+    "Low pH viral inactivation"
+   ]
+  },
+  {
+   "id": "tw06s-005",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing."
+   ],
+   "answers": [
+    "CEX",
+    "양이온 교환 크로마토그래피",
+    "CEX (양이온 교환 크로마토그래피)",
+    "양이온 교환"
+   ],
+   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.\n정답으로 인정하는 표기: CEX · 양이온 교환 크로마토그래피 · CEX (양이온 교환 크로마토그래피) · 양이온 교환 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5, p.18",
+   "concepts": [
+    "CEX"
+   ],
+   "tags": [
+    "용어",
+    "CEX"
+   ]
+  },
+  {
+   "id": "tw06s-006",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
+   ],
+   "answers": [
+    "AEX",
+    "음이온 교환 크로마토그래피",
+    "AEX (음이온 교환 크로마토그래피)",
+    "음이온 교환"
+   ],
+   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.\n정답으로 인정하는 표기: AEX · 음이온 교환 크로마토그래피 · AEX (음이온 교환 크로마토그래피) · 음이온 교환 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5, p.18",
+   "concepts": [
+    "AEX"
+   ],
+   "tags": [
+    "용어",
+    "AEX"
+   ]
+  },
+  {
+   "id": "tw06s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
+   ],
+   "answers": [
+    "Virus filtration",
+    "nanofiltration",
+    "Virus filtration (nanofiltration)",
+    "바이러스 여과",
+    "바이러스 필터",
+    "VF",
+    "나노여과"
+   ],
+   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.\n정답으로 인정하는 표기: Virus filtration · nanofiltration · Virus filtration (nanofiltration) · 바이러스 여과 · 바이러스 필터 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.11, p.15–16",
+   "concepts": [
+    "Virus filtration"
+   ],
+   "tags": [
+    "용어",
+    "Virus filtration"
+   ]
+  },
+  {
+   "id": "tw06s-012",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계."
+   ],
+   "answers": [
+    "UF/DF",
+    "한외여과/정용여과",
+    "UF/DF (한외여과/정용여과)"
+   ],
+   "explanation": "**UF/DF (한외여과/정용여과)** — 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.\n정답으로 인정하는 표기: UF/DF · 한외여과/정용여과 · UF/DF (한외여과/정용여과) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5, p.18, p.31",
+   "concepts": [
+    "UF/DF"
+   ],
+   "tags": [
+    "용어",
+    "UF/DF"
+   ]
+  },
+  {
+   "id": "tw06s-017",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "생산 세포에서 나온 단백질 불순물."
+   ],
+   "answers": [
+    "HCP",
+    "Host Cell Protein",
+    "HCP (Host Cell Protein)",
+    "숙주세포 단백질"
+   ],
+   "explanation": "**HCP (Host Cell Protein)** — 생산 세포에서 나온 단백질 불순물.\n정답으로 인정하는 표기: HCP · Host Cell Protein · HCP (Host Cell Protein) · 숙주세포 단백질 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5",
+   "concepts": [
+    "HCP"
+   ],
+   "tags": [
+    "용어",
+    "HCP"
+   ]
+  },
+  {
+   "id": "tw06s-018",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "단백질끼리 뭉친 불순물(면역원성 위험)."
+   ],
+   "answers": [
+    "Aggregate",
+    "응집체",
+    "Aggregate (응집체)",
+    "Aggregation",
+    "응집"
+   ],
+   "explanation": "**Aggregate (응집체)** — 단백질끼리 뭉친 불순물(면역원성 위험).\n정답으로 인정하는 표기: Aggregate · 응집체 · Aggregate (응집체) · Aggregation · 응집 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.5",
+   "concepts": [
+    "Aggregate"
+   ],
+   "tags": [
+    "용어",
+    "Aggregate"
+   ]
+  },
+  {
+   "id": "tw06s-019",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+   ],
+   "answers": [
+    "DBC",
+    "Dynamic Binding Capacity",
+    "DBC (Dynamic Binding Capacity)",
+    "동적 결합 용량"
+   ],
+   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n정답으로 인정하는 표기: DBC · Dynamic Binding Capacity · DBC (Dynamic Binding Capacity) · 동적 결합 용량 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.20",
+   "concepts": [
+    "DBC"
+   ],
+   "tags": [
+    "용어",
+    "DBC"
+   ]
+  },
+  {
+   "id": "tw06s-024",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법."
+   ],
+   "answers": [
+    "S&D",
+    "Solvent/Detergent",
+    "S&D (Solvent/Detergent)",
+    "용매 계면활성제"
+   ],
+   "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.\n정답으로 인정하는 표기: S&D · Solvent/Detergent · S&D (Solvent/Detergent) · 용매 계면활성제 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.11",
+   "concepts": [
+    "S&D"
+   ],
+   "tags": [
+    "용어",
+    "S&D"
+   ]
+  },
+  {
+   "id": "tw06s-026",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
+   ],
+   "answers": [
+    "Orthogonal 전략",
+    "Orthogonal",
+    "직교 전략",
+    "직교",
+    "Orthogonal (직교) 전략"
+   ],
+   "explanation": "**Orthogonal (직교) 전략** — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.\n정답으로 인정하는 표기: Orthogonal 전략 · Orthogonal · 직교 전략 · 직교 · Orthogonal (직교) 전략 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.8, p.10, p.15",
+   "concepts": [
+    "Orthogonal"
+   ],
+   "tags": [
+    "용어",
+    "Orthogonal"
+   ]
+  },
+  {
+   "id": "tw06s-029",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인."
+   ],
+   "answers": [
+    "ICH Q5A",
+    "Q5A",
+    "ICH Q5A(R1)"
+   ],
+   "explanation": "**ICH Q5A (R1)** — 세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.\n정답으로 인정하는 표기: ICH Q5A · Q5A · ICH Q5A(R1) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.9",
+   "concepts": [
+    "ICH Q5A"
+   ],
+   "tags": [
+    "용어",
+    "ICH Q5A"
+   ]
+  },
+  {
+   "id": "tw06s-032",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "지질 외피가 있어 저 pH·S&D에 약한 바이러스."
+   ],
+   "answers": [
+    "Enveloped virus",
+    "외피 바이러스",
+    "Enveloped virus (외피 바이러스)"
+   ],
+   "explanation": "**Enveloped virus (외피 바이러스)** — 지질 외피가 있어 저 pH·S&D에 약한 바이러스.\n정답으로 인정하는 표기: Enveloped virus · 외피 바이러스 · Enveloped virus (외피 바이러스) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.11, p.15",
+   "concepts": [
+    "Enveloped virus"
+   ],
+   "tags": [
+    "용어",
+    "Enveloped virus"
+   ]
+  },
+  {
+   "id": "tw06s-033",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스."
+   ],
+   "answers": [
+    "Non-enveloped virus",
+    "비외피 바이러스",
+    "Non-enveloped virus (비외피 바이러스)"
+   ],
+   "explanation": "**Non-enveloped virus (비외피 바이러스)** — 지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.\n정답으로 인정하는 표기: Non-enveloped virus · 비외피 바이러스 · Non-enveloped virus (비외피 바이러스) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.11, p.14",
+   "concepts": [
+    "Non-enveloped virus"
+   ],
+   "tags": [
+    "용어",
+    "Non-enveloped virus"
+   ]
+  },
+  {
+   "id": "tw06s-049",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)."
+   ],
+   "answers": [
+    "PW",
+    "Purified Water",
+    "정제수",
+    "PW (Purified Water, 정제수)"
+   ],
+   "explanation": "**PW (Purified Water, 정제수)** — 원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).\n정답으로 인정하는 표기: PW · Purified Water · 정제수 · PW (Purified Water, 정제수) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.27 (PW/WFI 계통도)",
+   "concepts": [
+    "PW"
+   ],
+   "tags": [
+    "용어",
+    "PW"
+   ]
+  },
+  {
+   "id": "tw06s-050",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "정제수를 증류해 만든 가장 높은 등급의 공정 용수."
+   ],
+   "answers": [
+    "WFI",
+    "Water for Injection",
+    "주사용수",
+    "WFI (Water for Injection, 주사용수)"
+   ],
+   "explanation": "**WFI (Water for Injection, 주사용수)** — 정제수를 증류해 만든 가장 높은 등급의 공정 용수.\n정답으로 인정하는 표기: WFI · Water for Injection · 주사용수 · WFI (Water for Injection, 주사용수) (띄어쓰기·대소문자 무시)",
+   "source": "WK06 PDF p.27",
+   "concepts": [
+    "WFI"
+   ],
+   "tags": [
+    "용어",
+    "WFI"
+   ]
+  },
+  {
+   "id": "tw06s-059",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다."
+   ],
+   "answers": [
+    "NWP",
+    "Normalized Water Permeability",
+    "NWP (Normalized Water Permeability)",
+    "정규화 물 투과도"
+   ],
+   "explanation": "**NWP (Normalized Water Permeability)** — 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.\n정답으로 인정하는 표기: NWP · Normalized Water Permeability · NWP (Normalized Water Permeability) · 정규화 물 투과도 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 강의 녹음 1:20:52–1:26:03",
+   "concepts": [
+    "NWP"
+   ],
+   "tags": [
+    "용어",
+    "NWP"
+   ]
+  },
+  {
+   "id": "tw06s-063",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것."
+   ],
+   "answers": [
+    "SIP",
+    "Sterilization/Steam In Place",
+    "SIP (Sterilization/Steam In Place)",
+    "Steam In Place",
+    "Sterilization In Place"
+   ],
+   "explanation": "**SIP (Sterilization/Steam In Place)** — 장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.\n정답으로 인정하는 표기: SIP · Sterilization/Steam In Place · SIP (Sterilization/Steam In Place) · Steam In Place · Sterilization In Place (띄어쓰기·대소문자 무시)",
+   "source": "WK06 강의 녹음 59:06–1:01:55",
+   "concepts": [
+    "SIP"
+   ],
+   "tags": [
+    "용어",
+    "SIP"
+   ]
+  },
+  {
+   "id": "tw06s-064",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것."
+   ],
+   "answers": [
+    "E&L",
+    "Extractables & Leachables",
+    "E&L (Extractables & Leachables)",
+    "추출물 침출물",
+    "E&L study"
+   ],
+   "explanation": "**E&L (Extractables & Leachables)** — 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.\n정답으로 인정하는 표기: E&L · Extractables & Leachables · E&L (Extractables & Leachables) · 추출물 침출물 · E&L study (띄어쓰기·대소문자 무시)",
+   "source": "WK06 강의 녹음 1:40:05–1:41:52",
+   "concepts": [
+    "E&L"
+   ],
+   "tags": [
+    "용어",
+    "E&L"
+   ]
+  },
+  {
+   "id": "tw06s-067",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
+   ],
+   "answers": [
+    "Linear velocity",
+    "선속도",
+    "Linear velocity (선속도)",
+    "Linear flow rate"
+   ],
+   "explanation": "**Linear velocity (선속도)** — 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.\n정답으로 인정하는 표기: Linear velocity · 선속도 · Linear velocity (선속도) · Linear flow rate (띄어쓰기·대소문자 무시)",
+   "source": "WK06 강의 녹음 2:09:22–2:13:48",
+   "concepts": [
+    "Linear velocity"
+   ],
+   "tags": [
+    "용어",
+    "Linear velocity"
+   ]
+  },
+  {
+   "id": "tw06s-068",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+   ],
+   "answers": [
+    "Bed height",
+    "레진 층 높이",
+    "Bed height (레진 층 높이)",
+    "베드 높이",
+    "층 높이",
+    "레진 높이",
+    "베드 하이트"
+   ],
+   "explanation": "**Bed height (레진 층 높이)** — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.\n정답으로 인정하는 표기: Bed height · 레진 층 높이 · Bed height (레진 층 높이) · 베드 높이 · 층 높이 (띄어쓰기·대소문자 무시)",
+   "source": "WK06 강의 녹음 2:15:49–2:18:01",
+   "concepts": [
+    "Bed height"
+   ],
+   "tags": [
+    "용어",
+    "Bed height"
+   ]
   }
  ]
 }

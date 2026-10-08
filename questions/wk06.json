@@ -1067,6 +1067,146 @@
         "WFI",
         "PW"
       ]
+    },
+    {
+      "id": "wk06-053",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "항체 정제(DSP) 소모품 비용에서 가장 큰 비중을 차지하는 것은?",
+      "answers": [
+        "Protein A 레진",
+        "Protein A",
+        "Protein A resin",
+        "프로틴 A 레진",
+        "단백질 A 레진",
+        "프로틴A"
+      ],
+      "explanation": "**DSP 소모품 비용은 Protein A 레진(약 45 %)이 가장 크고, 그다음이 바이러스 필터(약 22 %)다.** 녹음: Protein A 레진은 1 L에 수천만 원이라 보통 여러 사이클로 나눠 돌린다.",
+      "source": "WK06 PDF p.16 (비용 구성), p.22–23 (Protein A resin 비용) · WK06 강의 녹음 2:40:12–2:41:43",
+      "concepts": [
+        "Protein A",
+        "COGS"
+      ],
+      "tags": [
+        "Protein A",
+        "COGS"
+      ]
+    },
+    {
+      "id": "wk06-054",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "정제수(PW)를 어떤 처리로 주사용수(WFI)로 만드는가?",
+      "answers": [
+        "증류",
+        "Distillation",
+        "증류기",
+        "still"
+      ],
+      "explanation": "**원수 → 전처리(연수기·활성탄) → RO → 이온교환 → 정제수(PW) → 증류 → 주사용수(WFI).** 의약품 제조·장비 헹굼에는 WFI, 바닥 청소 같은 일에는 PW를 쓴다.",
+      "source": "WK06 PDF p.27 (PW/WFI 계통도) · WK06 강의 녹음 1:07:14–1:08:53",
+      "concepts": [
+        "WFI",
+        "PW"
+      ],
+      "tags": [
+        "WFI",
+        "PW"
+      ]
+    },
+    {
+      "id": "wk06-055",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "원리가 다른 바이러스 제거 단계를 최소 몇 개 겹쳐야 하는가(직교 전략)?",
+      "answers": [
+        "2",
+        "2개",
+        "두 개",
+        "2 개",
+        "2단계"
+      ],
+      "explanation": "**원리가 다른 단계를 최소 2개 이상 겹친다(orthogonal 전략)** — 불활화·흡착·크기 여과가 서로 놓친 바이러스를 잡게 한다. 바이러스 제거 검증은 임상 시작 전에, 모델 바이러스 3~4종으로 한다.",
+      "source": "WK06 PDF p.8, p.10, p.15 (Integrated & Orthogonal Virus Clearance Technology Platform)",
+      "concepts": [
+        "Orthogonal (직교) 전략"
+      ],
+      "tags": [
+        "Orthogonal (직교) 전략"
+      ]
+    },
+    {
+      "id": "wk06-056",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "현장 UF/DF에서 농축(UF)과 버퍼 교환(DF) 중 먼저 하는 것은?",
+      "answers": [
+        "농축",
+        "UF",
+        "Ultrafiltration",
+        "한외여과",
+        "농축(UF)"
+      ],
+      "explanation": "**먼저 농축(UF)해 부피를 줄인 뒤 버퍼 교환(DF)을 한다 — 버퍼·시간·돈이 훨씬 적게 든다.** 강사가 소개한 제약사 신입 면접 기출 문제다.",
+      "source": "WK06 강의 녹음 36:45–41:27 (면접 기출: 왜 농축 다음에 DF?)",
+      "concepts": [
+        "UF/DF"
+      ],
+      "tags": [
+        "UF/DF"
+      ]
+    },
+    {
+      "id": "wk06-057",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "다회용 장비를 제자리에서 세척(CIP)하고 멸균(SIP)할 때, 먼저 하는 것은?",
+      "answers": [
+        "CIP",
+        "세척",
+        "Cleaning In Place",
+        "CIP(세척)"
+      ],
+      "explanation": "**CIP(세척)를 먼저 하고 SIP(멸균)를 한다** — 찌꺼기가 남은 채 멸균하면 의미가 없다. 큰 배양기 SIP에는 열을 잘 전하고 독성이 남지 않는 습열(스팀)을 쓴다.",
+      "source": "WK06 강의 녹음 58:47–1:03:16 (CIP·SIP)",
+      "concepts": [
+        "CIP",
+        "SIP"
+      ],
+      "tags": [
+        "CIP",
+        "SIP"
+      ]
+    },
+    {
+      "id": "wk06-058",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "TFF 카세트·레진의 막힌 단백질을 녹여 세척·소독할 때 주로 쓰는 약품은?",
+      "answers": [
+        "NaOH",
+        "수산화나트륨",
+        "가성소다",
+        "양잿물",
+        "Sodium hydroxide",
+        "수산화 나트륨"
+      ],
+      "explanation": "**NaOH(약 0.1~1 M)로 막힌 단백질을 녹여 세척하고, 균도 죽인다(sanitization).** 오래 보관할 때는 묽은 NaOH나 20 % 에탄올에 담가 두고, 쓰기 전에 WFI로 밀어낸다.",
+      "source": "WK06 강의 녹음 1:03:28–1:04:21, 1:08:53–1:09:29 (NaOH 세척·소독)",
+      "concepts": [
+        "Sanitization",
+        "Storage solution"
+      ],
+      "tags": [
+        "Sanitization",
+        "Storage solution"
+      ]
     }
   ]
 }

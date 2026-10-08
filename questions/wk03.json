@@ -468,6 +468,74 @@
         "Polishing"
       ],
       "part": 1
+    },
+    {
+      "id": "wk03-025",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "정제 3단계 「Capture → ( ) → Polishing」에서 빈칸은?",
+      "answers": [
+        "Intermediate",
+        "Intermediate purification",
+        "중간 정제",
+        "중간정제"
+      ],
+      "explanation": "**정제는 Capture(목표 물질 처음 잡기) → Intermediate(남은 불순물 줄이기) → Polishing(마지막 미량 불순물 제거) 순서다.** Capture 단계 시료가 가장 지저분해 큰 비드를 쓴다.",
+      "source": "WK03 강의 녹음 29:54–31:11 (Capture–Intermediate–Polishing)",
+      "concepts": [
+        "Intermediate purification"
+      ],
+      "tags": [
+        "Intermediate purification"
+      ]
+    },
+    {
+      "id": "wk03-026",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "크로마토그래피 시스템에서 단백질을 보는 UV 파장은 몇 nm인가?",
+      "answers": [
+        "280",
+        "280nm",
+        "280 nm"
+      ],
+      "explanation": "**단백질은 UV 280 nm, 핵산(DNA·RNA)은 260 nm로 본다.** 시스템은 UV와 함께 전도도(염 농도)·pH를 모니터한다.",
+      "source": "WK03 강의 녹음 15:01–17:36, 18:54–23:07 (시스템 구성)",
+      "concepts": [
+        "UV 280 nm"
+      ],
+      "tags": [
+        "UV 280 nm"
+      ]
+    },
+    {
+      "id": "wk03-027",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "이온교환(IEX)에서 레진에 붙은 단백질을 떼어 낼 때 주로 높이는 것은?",
+      "answers": [
+        "염 농도",
+        "염",
+        "소금",
+        "salt",
+        "Salt concentration",
+        "전도도",
+        "염농도",
+        "NaCl"
+      ],
+      "explanation": "**IEX는 낮은 염에서 붙이고 염 농도(전도도)를 올려 떼어 낸다 — 약하게 붙은 것부터 차례로 나온다.** pH를 바꿔 떼는 방법도 있지만 단백질 구조가 바뀔 수 있어 현장에서는 주로 염(NaCl)을 쓴다.",
+      "source": "WK03 강의 녹음 10:07 (이온교환 예시) · WK06 강의 녹음 26:32–28:14 (IEX 용출 = high salt)",
+      "concepts": [
+        "IEX",
+        "Elution"
+      ],
+      "tags": [
+        "IEX",
+        "Elution"
+      ]
     }
   ]
 }

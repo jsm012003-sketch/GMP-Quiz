@@ -1382,6 +1382,310 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tg02s-001",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템."
+   ],
+   "answers": [
+    "RABS",
+    "Restricted Access Barrier System",
+    "RABS (Restricted Access Barrier System)",
+    "래브스"
+   ],
+   "explanation": "**RABS (Restricted Access Barrier System)** — 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.\n정답으로 인정하는 표기: RABS · Restricted Access Barrier System · RABS (Restricted Access Barrier System) · 래브스 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.4 (RABS의 정의와 목적)",
+   "concepts": [
+    "RABS"
+   ],
+   "tags": [
+    "용어",
+    "RABS"
+   ]
+  },
+  {
+   "id": "tg02s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비."
+   ],
+   "answers": [
+    "Isolator",
+    "아이솔레이터",
+    "Isolator (아이솔레이터)"
+   ],
+   "explanation": "**Isolator (아이솔레이터)** — 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.\n정답으로 인정하는 표기: Isolator · 아이솔레이터 · Isolator (아이솔레이터) (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.9–10",
+   "concepts": [
+    "Isolator"
+   ],
+   "tags": [
+    "용어",
+    "Isolator"
+   ]
+  },
+  {
+   "id": "tg02s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수)."
+   ],
+   "answers": [
+    "스모크 스터디",
+    "Smoke study",
+    "스모크 스터디 (Smoke study)"
+   ],
+   "explanation": "**스모크 스터디 (Smoke study)** — 연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수).\n정답으로 인정하는 표기: 스모크 스터디 · Smoke study · 스모크 스터디 (Smoke study) (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.7, p.11",
+   "concepts": [
+    "스모크 스터디"
+   ],
+   "tags": [
+    "용어",
+    "스모크 스터디"
+   ]
+  },
+  {
+   "id": "tg02s-012",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법."
+   ],
+   "answers": [
+    "VHP",
+    "Vaporized Hydrogen Peroxide",
+    "VHP (Vaporized Hydrogen Peroxide)",
+    "과산화수소 증기"
+   ],
+   "explanation": "**VHP (Vaporized Hydrogen Peroxide)** — 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.\n정답으로 인정하는 표기: VHP · Vaporized Hydrogen Peroxide · VHP (Vaporized Hydrogen Peroxide) · 과산화수소 증기 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.7, p.9",
+   "concepts": [
+    "VHP"
+   ],
+   "tags": [
+    "용어",
+    "VHP"
+   ]
+  },
+  {
+   "id": "tg02s-013",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략."
+   ],
+   "answers": [
+    "CCS",
+    "Contamination Control Strategy",
+    "CCS (Contamination Control Strategy)",
+    "오염 관리 전략"
+   ],
+   "explanation": "**CCS (Contamination Control Strategy)** — 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.\n정답으로 인정하는 표기: CCS · Contamination Control Strategy · CCS (Contamination Control Strategy) · 오염 관리 전략 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.3, p.9",
+   "concepts": [
+    "CCS"
+   ],
+   "tags": [
+    "용어",
+    "CCS"
+   ]
+  },
+  {
+   "id": "tg02s-017",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증."
+   ],
+   "answers": [
+    "APS",
+    "Aseptic Process Simulation",
+    "APS (Aseptic Process Simulation)",
+    "무균공정시뮬레이션",
+    "무균 공정 모의시험",
+    "미디어 필",
+    "Media fill"
+   ],
+   "explanation": "**APS (Aseptic Process Simulation)** — 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.\n정답으로 인정하는 표기: APS · Aseptic Process Simulation · APS (Aseptic Process Simulation) · 무균공정시뮬레이션 · 무균 공정 모의시험 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.11",
+   "concepts": [
+    "APS"
+   ],
+   "tags": [
+    "용어",
+    "APS"
+   ]
+  },
+  {
+   "id": "tg02s-018",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "여러 미생물이 잘 자라 APS에 쓰는 배지."
+   ],
+   "answers": [
+    "SCDM",
+    "Soybean-Casein Digest Medium",
+    "SCDM (Soybean-Casein Digest Medium)"
+   ],
+   "explanation": "**SCDM (Soybean-Casein Digest Medium)** — 여러 미생물이 잘 자라 APS에 쓰는 배지.\n정답으로 인정하는 표기: SCDM · Soybean-Casein Digest Medium · SCDM (Soybean-Casein Digest Medium) (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.15",
+   "concepts": [
+    "SCDM"
+   ],
+   "tags": [
+    "용어",
+    "SCDM"
+   ]
+  },
+  {
+   "id": "tg02s-019",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험."
+   ],
+   "answers": [
+    "GPT",
+    "Growth Promotion Test",
+    "GPT (Growth Promotion Test)",
+    "배지 성능 시험",
+    "성장 촉진 시험",
+    "배지 성능",
+    "성장 촉진"
+   ],
+   "explanation": "**GPT (Growth Promotion Test)** — APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.\n정답으로 인정하는 표기: GPT · Growth Promotion Test · GPT (Growth Promotion Test) · 배지 성능 시험 · 성장 촉진 시험 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.15, p.19",
+   "concepts": [
+    "GPT"
+   ],
+   "tags": [
+    "용어",
+    "GPT"
+   ]
+  },
+  {
+   "id": "tg02s-026",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함)."
+   ],
+   "answers": [
+    "Intervention",
+    "간섭",
+    "Intervention (간섭)"
+   ],
+   "explanation": "**Intervention (간섭)** — 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).\n정답으로 인정하는 표기: Intervention · 간섭 · Intervention (간섭) (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.17",
+   "concepts": [
+    "Intervention"
+   ],
+   "tags": [
+    "용어",
+    "Intervention"
+   ]
+  },
+  {
+   "id": "tg02s-027",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작."
+   ],
+   "answers": [
+    "Inherent intervention",
+    "일상적 간섭",
+    "Inherent intervention (일상적 간섭)",
+    "Inherent",
+    "일상 간섭"
+   ],
+   "explanation": "**Inherent intervention (일상적 간섭)** — 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.\n정답으로 인정하는 표기: Inherent intervention · 일상적 간섭 · Inherent intervention (일상적 간섭) · Inherent · 일상 간섭 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.17",
+   "concepts": [
+    "Inherent intervention"
+   ],
+   "tags": [
+    "용어",
+    "Inherent intervention"
+   ]
+  },
+  {
+   "id": "tg02s-028",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작."
+   ],
+   "answers": [
+    "Corrective intervention",
+    "조치 간섭",
+    "Corrective intervention (조치 간섭)",
+    "Corrective",
+    "조치적 간섭"
+   ],
+   "explanation": "**Corrective intervention (조치 간섭)** — 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.\n정답으로 인정하는 표기: Corrective intervention · 조치 간섭 · Corrective intervention (조치 간섭) · Corrective · 조치적 간섭 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.17",
+   "concepts": [
+    "Corrective intervention"
+   ],
+   "tags": [
+    "용어",
+    "Corrective intervention"
+   ]
+  },
+  {
+   "id": "tg02s-029",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다."
+   ],
+   "answers": [
+    "Worst case",
+    "최악 조건",
+    "Worst case (최악 조건)",
+    "워스트 케이스"
+   ],
+   "explanation": "**Worst case (최악 조건)** — 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.\n정답으로 인정하는 표기: Worst case · 최악 조건 · Worst case (최악 조건) · 워스트 케이스 (띄어쓰기·대소문자 무시)",
+   "source": "02 RABS & APS PDF p.12, p.16, p.24",
+   "concepts": [
+    "Worst case"
+   ],
+   "tags": [
+    "용어",
+    "Worst case"
+   ]
   }
  ]
 }

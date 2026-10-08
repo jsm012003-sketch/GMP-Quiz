@@ -2285,6 +2285,629 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tw07s-006",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙."
+   ],
+   "answers": [
+    "cGMP",
+    "current GMP",
+    "current Good Manufacturing Practice"
+   ],
+   "explanation": "**cGMP** — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.\n정답으로 인정하는 표기: cGMP · current GMP · current Good Manufacturing Practice (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.16–17",
+   "concepts": [
+    "cGMP"
+   ],
+   "tags": [
+    "용어",
+    "cGMP"
+   ]
+  },
+  {
+   "id": "tw07s-008",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "서로 다른 자재·제품이 뒤섞이는 것."
+   ],
+   "answers": [
+    "Mix-up",
+    "혼동",
+    "Mix-up (혼동)",
+    "믹스업"
+   ],
+   "explanation": "**Mix-up (혼동)** — 서로 다른 자재·제품이 뒤섞이는 것.\n정답으로 인정하는 표기: Mix-up · 혼동 · Mix-up (혼동) · 믹스업 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.20",
+   "concepts": [
+    "Mix-up"
+   ],
+   "tags": [
+    "용어",
+    "Mix-up"
+   ]
+  },
+  {
+   "id": "tw07s-013",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "고활성·독성 물질이 새어 나가지 않게 가두는 설계."
+   ],
+   "answers": [
+    "Containment",
+    "봉쇄",
+    "Containment (봉쇄)",
+    "밀폐 봉쇄"
+   ],
+   "explanation": "**Containment (봉쇄)** — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.\n정답으로 인정하는 표기: Containment · 봉쇄 · Containment (봉쇄) · 밀폐 봉쇄 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.23",
+   "concepts": [
+    "Containment"
+   ],
+   "tags": [
+    "용어",
+    "Containment"
+   ]
+  },
+  {
+   "id": "tw07s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
+   ],
+   "answers": [
+    "CIP",
+    "Cleaning In Place",
+    "CIP (Cleaning In Place)",
+    "정치 세척",
+    "제자리 세척"
+   ],
+   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.\n정답으로 인정하는 표기: CIP · Cleaning In Place · CIP (Cleaning In Place) · 정치 세척 · 제자리 세척 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.22, p.46",
+   "concepts": [
+    "CIP"
+   ],
+   "tags": [
+    "용어",
+    "CIP"
+   ]
+  },
+  {
+   "id": "tw07s-020",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
+   ],
+   "answers": [
+    "Q&V",
+    "Qualification & Validation",
+    "Q&V (Qualification & Validation)",
+    "적격성평가 및 밸리데이션",
+    "적격성 평가와 밸리데이션"
+   ],
+   "explanation": "**Q&V (Qualification & Validation)** — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.\n정답으로 인정하는 표기: Q&V · Qualification & Validation · Q&V (Qualification & Validation) · 적격성평가 및 밸리데이션 · 적격성 평가와 밸리데이션 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.24, p.51",
+   "concepts": [
+    "Q&V"
+   ],
+   "tags": [
+    "용어",
+    "Q&V"
+   ]
+  },
+  {
+   "id": "tw07s-033",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "무균 충전 등이 이루어지는 최고 청정 구역."
+   ],
+   "answers": [
+    "Grade A",
+    "A등급"
+   ],
+   "explanation": "**Grade A** — 무균 충전 등이 이루어지는 최고 청정 구역.\n정답으로 인정하는 표기: Grade A · A등급 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade A"
+   ],
+   "tags": [
+    "용어",
+    "Grade A"
+   ]
+  },
+  {
+   "id": "tw07s-034",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "최고 청정 구역을 둘러싼 배경 구역."
+   ],
+   "answers": [
+    "Grade B",
+    "B등급"
+   ],
+   "explanation": "**Grade B** — 최고 청정 구역을 둘러싼 배경 구역.\n정답으로 인정하는 표기: Grade B · B등급 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade B"
+   ],
+   "tags": [
+    "용어",
+    "Grade B"
+   ]
+  },
+  {
+   "id": "tw07s-035",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
+   ],
+   "answers": [
+    "Grade C",
+    "C등급"
+   ],
+   "explanation": "**Grade C** — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.\n정답으로 인정하는 표기: Grade C · C등급 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade C"
+   ],
+   "tags": [
+    "용어",
+    "Grade C"
+   ]
+  },
+  {
+   "id": "tw07s-036",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급)."
+   ],
+   "answers": [
+    "Grade D",
+    "D등급"
+   ],
+   "explanation": "**Grade D** — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).\n정답으로 인정하는 표기: Grade D · D등급 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade D"
+   ],
+   "tags": [
+    "용어",
+    "Grade D"
+   ]
+  },
+  {
+   "id": "tw07s-037",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "설비는 있지만 사람·작업 없이 멈춘 상태."
+   ],
+   "answers": [
+    "At rest",
+    "비가동 상태",
+    "At rest (비가동 상태)",
+    "비가동"
+   ],
+   "explanation": "**At rest (비가동 상태)** — 설비는 있지만 사람·작업 없이 멈춘 상태.\n정답으로 인정하는 표기: At rest · 비가동 상태 · At rest (비가동 상태) · 비가동 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36–37",
+   "concepts": [
+    "At rest"
+   ],
+   "tags": [
+    "용어",
+    "At rest"
+   ]
+  },
+  {
+   "id": "tw07s-038",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "정해진 인원이 실제로 작업 중인 상태."
+   ],
+   "answers": [
+    "Operational",
+    "가동 상태",
+    "Operational (가동 상태)",
+    "가동",
+    "in operation"
+   ],
+   "explanation": "**Operational (가동 상태)** — 정해진 인원이 실제로 작업 중인 상태.\n정답으로 인정하는 표기: Operational · 가동 상태 · Operational (가동 상태) · 가동 · in operation (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.36–37",
+   "concepts": [
+    "Operational"
+   ],
+   "tags": [
+    "용어",
+    "Operational"
+   ]
+  },
+  {
+   "id": "tw07s-043",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실."
+   ],
+   "answers": [
+    "Personnel airlock",
+    "PAL",
+    "Personnel airlock (PAL)",
+    "인원 에어락",
+    "사람 에어락"
+   ],
+   "explanation": "**Personnel airlock (PAL)** — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.\n정답으로 인정하는 표기: Personnel airlock · PAL · Personnel airlock (PAL) · 인원 에어락 · 사람 에어락 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.40",
+   "concepts": [
+    "Personnel airlock"
+   ],
+   "tags": [
+    "용어",
+    "Personnel airlock"
+   ]
+  },
+  {
+   "id": "tw07s-044",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실."
+   ],
+   "answers": [
+    "Material airlock",
+    "MAL",
+    "Material airlock (MAL)",
+    "자재 에어락",
+    "물품 에어락"
+   ],
+   "explanation": "**Material airlock (MAL)** — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.\n정답으로 인정하는 표기: Material airlock · MAL · Material airlock (MAL) · 자재 에어락 · 물품 에어락 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.40",
+   "concepts": [
+    "Material airlock"
+   ],
+   "tags": [
+    "용어",
+    "Material airlock"
+   ]
+  },
+  {
+   "id": "tw07s-051",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)."
+   ],
+   "answers": [
+    "Clean utility",
+    "청정 유틸리티",
+    "클린 유틸리티"
+   ],
+   "explanation": "**Clean utility** — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).\n정답으로 인정하는 표기: Clean utility · 청정 유틸리티 · 클린 유틸리티 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.46",
+   "concepts": [
+    "Clean utility"
+   ],
+   "tags": [
+    "용어",
+    "Clean utility"
+   ]
+  },
+  {
+   "id": "tw07s-052",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
+   ],
+   "answers": [
+    "Black utility",
+    "블랙 유틸리티",
+    "일반 유틸리티"
+   ],
+   "explanation": "**Black utility** — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).\n정답으로 인정하는 표기: Black utility · 블랙 유틸리티 · 일반 유틸리티 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.48",
+   "concepts": [
+    "Black utility"
+   ],
+   "tags": [
+    "용어",
+    "Black utility"
+   ]
+  },
+  {
+   "id": "tw07s-058",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
+   ],
+   "answers": [
+    "HVAC",
+    "공조",
+    "공조 시스템"
+   ],
+   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.\n정답으로 인정하는 표기: HVAC · 공조 · 공조 시스템 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.49",
+   "concepts": [
+    "HVAC"
+   ],
+   "tags": [
+    "용어",
+    "HVAC"
+   ]
+  },
+  {
+   "id": "tw07s-063",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계."
+   ],
+   "answers": [
+    "DQ",
+    "Design Qualification",
+    "DQ (Design Qualification)",
+    "설계 적격성평가"
+   ],
+   "explanation": "**DQ (Design Qualification)** — 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.\n정답으로 인정하는 표기: DQ · Design Qualification · DQ (Design Qualification) · 설계 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "DQ"
+   ],
+   "tags": [
+    "용어",
+    "DQ"
+   ]
+  },
+  {
+   "id": "tw07s-064",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
+   ],
+   "answers": [
+    "FAT",
+    "Factory Acceptance Test",
+    "FAT (Factory Acceptance Test)",
+    "공장 인수 시험",
+    "공장 출하 전 시험",
+    "공장 인수",
+    "공장 출하 전"
+   ],
+   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.\n정답으로 인정하는 표기: FAT · Factory Acceptance Test · FAT (Factory Acceptance Test) · 공장 인수 시험 · 공장 출하 전 시험 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "FAT"
+   ],
+   "tags": [
+    "용어",
+    "FAT"
+   ]
+  },
+  {
+   "id": "tw07s-065",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
+   ],
+   "answers": [
+    "SAT",
+    "Site Acceptance Test",
+    "SAT (Site Acceptance Test)",
+    "현장 인수 시험",
+    "현장 인수"
+   ],
+   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.\n정답으로 인정하는 표기: SAT · Site Acceptance Test · SAT (Site Acceptance Test) · 현장 인수 시험 · 현장 인수 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "SAT"
+   ],
+   "tags": [
+    "용어",
+    "SAT"
+   ]
+  },
+  {
+   "id": "tw07s-066",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+   ],
+   "answers": [
+    "PQ",
+    "Performance Qualification",
+    "PQ (Performance Qualification)",
+    "성능 적격성평가"
+   ],
+   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.\n정답으로 인정하는 표기: PQ · Performance Qualification · PQ (Performance Qualification) · 성능 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PQ"
+   ],
+   "tags": [
+    "용어",
+    "PQ"
+   ]
+  },
+  {
+   "id": "tw07s-067",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계."
+   ],
+   "answers": [
+    "PV",
+    "Process Validation",
+    "PV (Process Validation)",
+    "공정 밸리데이션"
+   ],
+   "explanation": "**PV (Process Validation)** — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.\n정답으로 인정하는 표기: PV · Process Validation · PV (Process Validation) · 공정 밸리데이션 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PV"
+   ],
+   "tags": [
+    "용어",
+    "PV"
+   ]
+  },
+  {
+   "id": "tw07s-068",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것."
+   ],
+   "answers": [
+    "Cleaning Validation",
+    "CV",
+    "Cleaning Validation (CV)",
+    "세척 밸리데이션"
+   ],
+   "explanation": "**Cleaning Validation (CV)** — 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.\n정답으로 인정하는 표기: Cleaning Validation · CV · Cleaning Validation (CV) · 세척 밸리데이션 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "Cleaning Validation"
+   ],
+   "tags": [
+    "용어",
+    "Cleaning Validation"
+   ]
+  },
+  {
+   "id": "tw07s-071",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차."
+   ],
+   "answers": [
+    "Change control",
+    "변경 관리",
+    "Change control (변경 관리)",
+    "Change management"
+   ],
+   "explanation": "**Change control (변경 관리)** — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.\n정답으로 인정하는 표기: Change control · 변경 관리 · Change control (변경 관리) · Change management (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "Change control"
+   ],
+   "tags": [
+    "용어",
+    "Change control"
+   ]
+  },
+  {
+   "id": "tw07s-082",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념."
+   ],
+   "answers": [
+    "Ballroom concept",
+    "볼룸 컨셉",
+    "볼룸"
+   ],
+   "explanation": "**Ballroom concept** — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.\n정답으로 인정하는 표기: Ballroom concept · 볼룸 컨셉 · 볼룸 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.62",
+   "concepts": [
+    "Ballroom concept"
+   ],
+   "tags": [
+    "용어",
+    "Ballroom concept"
+   ]
+  },
+  {
+   "id": "tw07s-084",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+   ],
+   "answers": [
+    "Closed system",
+    "밀폐 공정",
+    "Closed system (밀폐 공정)",
+    "Closed process",
+    "밀폐 시스템",
+    "폐쇄계"
+   ],
+   "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.\n정답으로 인정하는 표기: Closed system · 밀폐 공정 · Closed system (밀폐 공정) · Closed process · 밀폐 시스템 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.62–63",
+   "concepts": [
+    "Closed system"
+   ],
+   "tags": [
+    "용어",
+    "Closed system"
+   ]
   }
  ]
 }

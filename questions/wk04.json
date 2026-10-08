@@ -1665,6 +1665,252 @@
         "Vent filter (벤트 필터)"
       ],
       "part": 2
+    },
+    {
+      "id": "wk04-119",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "제균(sterilizing-grade) 필터의 기공 크기는 몇 µm인가?",
+      "answers": [
+        "0.2",
+        "0.2µm",
+        "0.2 µm",
+        "0.22",
+        "0.2um",
+        "0.2마이크로미터"
+      ],
+      "explanation": "**제균 필터는 0.2 µm(0.22 µm 포함) 막이다.** 마이코플라스마까지 거르려면 0.1 µm를 쓴다. 꼭 외울 크기: 동물세포 약 15 µm, 제균 필터 0.2 µm, 외피 바이러스 약 100 nm, 비외피 바이러스 약 20 nm.",
+      "source": "WK04 PDF p.24 (제균 Filter의 정의) · WK04 강의 녹음② 1:26:03–1:27:50 (크기 정리)",
+      "concepts": [
+        "Sterilizing-grade filter"
+      ],
+      "tags": [
+        "Sterilizing-grade filter"
+      ]
+    },
+    {
+      "id": "wk04-120",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "막 여과의 구멍 크기 순서 「MF → UF → ( ) → RO」에서 빈칸은?",
+      "answers": [
+        "NF",
+        "Nanofiltration",
+        "나노여과",
+        "나노 여과"
+      ],
+      "explanation": "**MF(정밀여과) → UF(한외여과) → NF(나노여과) → RO(역삼투) 순으로 구멍이 작아진다.** 세포·입자는 MF, 단백질 농축은 UF, 바이러스는 NF 영역, 이온까지는 RO로 거른다.",
+      "source": "WK04 PDF p.29–32 (Size에 따른 분리)",
+      "concepts": [
+        "Nanofiltration",
+        "Microfiltration",
+        "Ultrafiltration"
+      ],
+      "tags": [
+        "Nanofiltration",
+        "Microfiltration",
+        "Ultrafiltration"
+      ]
+    },
+    {
+      "id": "wk04-121",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "Protein A 레진에서 항체를 떼어 내는(용출) pH는 약 얼마인가? (숫자)",
+      "answers": [
+        "3~3.5",
+        "3-3.5",
+        "3.5",
+        "3",
+        "3~4",
+        "약 3.5",
+        "3에서 3.5",
+        "pH 3.5",
+        "pH 3"
+      ],
+      "explanation": "**Protein A 용출은 낮은 pH(약 3~3.5, 넓게 3~4.5)에서 한다.** 강사가 \"외우라\"고 강조한 값이다. 용출액이 이미 낮은 pH라 바로 뒤에서 30분~1시간 유지해 바이러스를 불활화한다.",
+      "source": "WK04 강의 녹음② 1:42:58–1:45:18 (Protein A 결합·용출) · WK06 강의 녹음 21:00–22:30",
+      "concepts": [
+        "Protein A",
+        "Elution"
+      ],
+      "tags": [
+        "Protein A",
+        "Elution"
+      ]
+    },
+    {
+      "id": "wk04-122",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "항체를 CEX에 붙일 때 맞추는 pH 범위는? (숫자)",
+      "answers": [
+        "5~6",
+        "5-6",
+        "5에서 6",
+        "pH 5~6",
+        "5~6사이"
+      ],
+      "explanation": "**항체의 등전점(pI)은 약 7~8이라 pH 5~6에서는 + 전하를 띠어 CEX에 붙고, pI가 2~4쯤인 불순물은 − 전하라 붙지 않는다.** 한 번 맞춘 pH 5~6은 제형 직전까지 그대로 간다.",
+      "source": "WK04 강의 녹음② 1:53:29–1:58:46 (CEX 조건) · WK06 강의 녹음 24:08–25:32",
+      "concepts": [
+        "CEX",
+        "pI"
+      ],
+      "tags": [
+        "CEX",
+        "pI"
+      ]
+    },
+    {
+      "id": "wk04-123",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "강의의 '불순물 4총사' 「HCP · HCD · 엔도톡신 · ( )」에서 빈칸은?",
+      "answers": [
+        "바이러스",
+        "Virus",
+        "virus"
+      ],
+      "explanation": "**불순물 4총사는 HCP(숙주세포 단백질), HCD(숙주세포 DNA), 엔도톡신, 바이러스다.** 이들의 pI는 대략 2~4라 pH 5~6에서 − 전하를 띠어, 항체(+)와 이온교환으로 나눌 수 있다.",
+      "source": "WK04 강의 녹음② 1:54:15–1:57:03 (불순물 4총사) · WK06 강의 녹음 24:37",
+      "concepts": [
+        "HCP",
+        "HCD",
+        "Endotoxin",
+        "Virus"
+      ],
+      "tags": [
+        "HCP",
+        "HCD",
+        "Endotoxin",
+        "Virus"
+      ]
+    },
+    {
+      "id": "wk04-124",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "강의에서 외우라고 한 비외피(non-enveloped) 바이러스의 크기는 약 몇 nm인가?",
+      "answers": [
+        "20",
+        "20nm",
+        "20 nm",
+        "약 20"
+      ],
+      "explanation": "**외피 바이러스는 약 100 nm, 비외피 바이러스는 약 20 nm다.** 비외피 바이러스는 작고 저항성이 커서 바이러스 필터(나노여과)로 걸러야 한다.",
+      "source": "WK04 강의 녹음② 1:26:03–1:27:50 (크기 정리)",
+      "concepts": [
+        "Non-enveloped virus"
+      ],
+      "tags": [
+        "Non-enveloped virus"
+      ]
+    },
+    {
+      "id": "wk04-125",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "친수성 필터의 무결성 시험(기포점·확산)에 쓰는 표준 적심 액은?",
+      "answers": [
+        "물",
+        "Water",
+        "정제수",
+        "DI water",
+        "증류수",
+        "WFI"
+      ],
+      "explanation": "**친수성 필터는 물(20 ℃ 정제수), 소수성 필터는 60/40 IPA/물로 적신다.** 소수성 필터를 적시지 않고 하려면 물을 밀어 넣는 WIT(Water intrusion test)를 쓴다.",
+      "source": "WK04 PDF p.134 (Bubble Point Test – Standard wetting agents)",
+      "concepts": [
+        "Wetting agent",
+        "Bubble point test"
+      ],
+      "tags": [
+        "Wetting agent",
+        "Bubble point test"
+      ]
+    },
+    {
+      "id": "wk04-126",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "무균 의약품을 만드는 세 방법 「최종 멸균 · 제균여과 · ( )」에서 빈칸은?",
+      "answers": [
+        "무균 공정",
+        "무균공정",
+        "Aseptic processing",
+        "Aseptic process",
+        "무균조작",
+        "무균 조작",
+        "무균조작법"
+      ],
+      "explanation": "**무균 의약품은 최종 멸균, 제균여과, 무균 공정(aseptic processing) 세 가지로 만든다.** 단백질은 열에 약해 제균여과를 쓰고, 세포치료제는 세포가 0.2 µm 필터에 걸려 처음부터 끝까지 무균 공정으로 만든다.",
+      "source": "WK04 강의 녹음② 2:45:42–2:48:18 (무균 의약품 제조 방법)",
+      "concepts": [
+        "Aseptic processing",
+        "Terminal sterilization",
+        "Sterile filtration"
+      ],
+      "tags": [
+        "Aseptic processing",
+        "Terminal sterilization",
+        "Sterile filtration"
+      ]
+    },
+    {
+      "id": "wk04-127",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "항체 공정에서 AEX는 불순물만 붙이고 항체는 흘려보낸다. 이 운전 모드는?",
+      "answers": [
+        "Flow-through",
+        "Flow-through mode",
+        "통과 모드",
+        "플로우스루",
+        "FT"
+      ],
+      "explanation": "**항체 공정에서 AEX는 flow-through(통과) 모드, CEX는 bind-elute(결합-용출) 모드로 쓴다.** AEX는 − 전하인 HCP·HCD·엔도톡신·바이러스를 붙여 바이러스 제거에도 기여한다.",
+      "source": "WK04 강의 녹음② 1:58:31–2:07:54 (CEX·AEX 모드)",
+      "concepts": [
+        "AEX",
+        "Flow-through mode"
+      ],
+      "tags": [
+        "AEX",
+        "Flow-through mode"
+      ]
+    },
+    {
+      "id": "wk04-128",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "미생물(대장균)과 동물세포(CHO)의 공정상 가장 큰 차이가 되는 세포 구조는?",
+      "answers": [
+        "세포벽",
+        "Cell wall",
+        "cellwall"
+      ],
+      "explanation": "**미생물에는 세포벽이 있고 동물세포에는 없다 — 그래서 미생물은 산물이 세포 안에 쌓여 세포를 모아 깨고(harvest), 동물세포는 산물을 밖으로 내보내 세포를 없앤다(clarification).**",
+      "source": "WK04 강의 녹음② 14:05–15:27 (숙주세포) · WK06 강의 녹음 08:02",
+      "concepts": [
+        "Cell wall",
+        "Host cell"
+      ],
+      "tags": [
+        "Cell wall",
+        "Host cell"
+      ]
     }
   ]
 }

@@ -4040,6 +4040,814 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tw02s-022",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포."
+   ],
+   "answers": [
+    "CHO 세포",
+    "CHO cell",
+    "CHO"
+   ],
+   "explanation": "**CHO 세포** — 햄스터 난소 유래 세포주로, 항체를 분비하는 대표 생산 세포.\n정답으로 인정하는 표기: CHO 세포 · CHO cell · CHO (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.47–49, p.55",
+   "concepts": [
+    "CHO 세포"
+   ],
+   "tags": [
+    "용어",
+    "CHO 세포"
+   ]
+  },
+  {
+   "id": "tw02s-027",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계."
+   ],
+   "answers": [
+    "CLD",
+    "Cell Line Development",
+    "CLD (Cell Line Development)",
+    "세포주 개발"
+   ],
+   "explanation": "**CLD (Cell Line Development)** — 유전자를 넣은 세포 중 생산성이 가장 높은 클론을 골라내는 단계.\n정답으로 인정하는 표기: CLD · Cell Line Development · CLD (Cell Line Development) · 세포주 개발 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 강의 녹음 56:41–59:34",
+   "concepts": [
+    "CLD"
+   ],
+   "tags": [
+    "용어",
+    "CLD"
+   ]
+  },
+  {
+   "id": "tw02s-028",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세포주 개발 직후 만든 연구용 세포은행."
+   ],
+   "answers": [
+    "RCB",
+    "Research Cell Bank",
+    "RCB (Research Cell Bank)",
+    "연구 세포은행"
+   ],
+   "explanation": "**RCB (Research Cell Bank)** — 세포주 개발 직후 만든 연구용 세포은행.\n정답으로 인정하는 표기: RCB · Research Cell Bank · RCB (Research Cell Bank) · 연구 세포은행 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
+   "concepts": [
+    "RCB"
+   ],
+   "tags": [
+    "용어",
+    "RCB"
+   ]
+  },
+  {
+   "id": "tw02s-029",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행."
+   ],
+   "answers": [
+    "MCB",
+    "Master Cell Bank",
+    "MCB (Master Cell Bank)",
+    "마스터 세포은행",
+    "주 세포은행"
+   ],
+   "explanation": "**MCB (Master Cell Bank)** — 선별 클론을 GMP 시설에서 키워 수백 vial로 동결한 최상위(원본) 세포은행.\nCHO 기준 vial당 약 1×10⁷ cells, 200~300 vial.\n정답으로 인정하는 표기: MCB · Master Cell Bank · MCB (Master Cell Bank) · 마스터 세포은행 · 주 세포은행 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
+   "concepts": [
+    "MCB"
+   ],
+   "tags": [
+    "용어",
+    "MCB"
+   ]
+  },
+  {
+   "id": "tw02s-030",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작."
+   ],
+   "answers": [
+    "WCB",
+    "Working Cell Bank",
+    "WCB (Working Cell Bank)",
+    "작업 세포은행"
+   ],
+   "explanation": "**WCB (Working Cell Bank)** — 원본 은행 vial을 녹여 키워 다시 동결한 작업용 세포은행 — 생산은 여기서 시작.\n정답으로 인정하는 표기: WCB · Working Cell Bank · WCB (Working Cell Bank) · 작업 세포은행 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: Cell Banking)",
+   "concepts": [
+    "WCB"
+   ],
+   "tags": [
+    "용어",
+    "WCB"
+   ]
+  },
+  {
+   "id": "tw02s-033",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정."
+   ],
+   "answers": [
+    "Seed train",
+    "종배양",
+    "Seed train (종배양)",
+    "시드 트레인"
+   ],
+   "explanation": "**Seed train (종배양)** — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.\n정답으로 인정하는 표기: Seed train · 종배양 · Seed train (종배양) · 시드 트레인 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.15, p.36",
+   "concepts": [
+    "Seed train"
+   ],
+   "tags": [
+    "용어",
+    "Seed train"
+   ]
+  },
+  {
+   "id": "tw02s-039",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크."
+   ],
+   "answers": [
+    "DS",
+    "Drug Substance",
+    "원료의약품",
+    "DS (Drug Substance, 원료의약품)"
+   ],
+   "explanation": "**DS (Drug Substance, 원료의약품)** — 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.\n정답으로 인정하는 표기: DS · Drug Substance · 원료의약품 · DS (Drug Substance, 원료의약품) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: DS(USP)/DS(DSP)/DP)",
+   "concepts": [
+    "DS"
+   ],
+   "tags": [
+    "용어",
+    "DS"
+   ]
+  },
+  {
+   "id": "tw02s-040",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약."
+   ],
+   "answers": [
+    "DP",
+    "Drug Product",
+    "완제의약품",
+    "DP (Drug Product, 완제의약품)"
+   ],
+   "explanation": "**DP (Drug Product, 완제의약품)** — 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.\n정답으로 인정하는 표기: DP · Drug Product · 완제의약품 · DP (Drug Product, 완제의약품) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 · GMP01 PDF p.4",
+   "concepts": [
+    "DP"
+   ],
+   "tags": [
+    "용어",
+    "DP"
+   ]
+  },
+  {
+   "id": "tw02s-042",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음)."
+   ],
+   "answers": [
+    "Batch culture",
+    "회분식 배양",
+    "Batch culture (회분식 배양)",
+    "Batch",
+    "회분식"
+   ],
+   "explanation": "**Batch culture (회분식 배양)** — 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).\n정답으로 인정하는 표기: Batch culture · 회분식 배양 · Batch culture (회분식 배양) · Batch · 회분식 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.30 (Type of Cell Culture Processing)",
+   "concepts": [
+    "Batch culture"
+   ],
+   "tags": [
+    "용어",
+    "Batch culture"
+   ]
+  },
+  {
+   "id": "tw02s-043",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식."
+   ],
+   "answers": [
+    "Fed-batch culture",
+    "유가식 배양",
+    "Fed-batch culture (유가식 배양)",
+    "Fed-batch",
+    "유가식"
+   ],
+   "explanation": "**Fed-batch culture (유가식 배양)** — 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.\n약 2주 운전, 정제 라인 하나에 배양기 4~6기.\n정답으로 인정하는 표기: Fed-batch culture · 유가식 배양 · Fed-batch culture (유가식 배양) · Fed-batch · 유가식 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.30, p.33, p.37",
+   "concepts": [
+    "Fed-batch culture"
+   ],
+   "tags": [
+    "용어",
+    "Fed-batch culture"
+   ]
+  },
+  {
+   "id": "tw02s-044",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식."
+   ],
+   "answers": [
+    "Continuous culture",
+    "연속식 배양",
+    "Continuous culture (연속식 배양)",
+    "Continuous",
+    "연속식"
+   ],
+   "explanation": "**Continuous culture (연속식 배양)** — 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.\n정답으로 인정하는 표기: Continuous culture · 연속식 배양 · Continuous culture (연속식 배양) · Continuous · 연속식 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.30 · WK02 강의 녹음 01:01:34",
+   "concepts": [
+    "Continuous culture"
+   ],
+   "tags": [
+    "용어",
+    "Continuous culture"
+   ]
+  },
+  {
+   "id": "tw02s-045",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식."
+   ],
+   "answers": [
+    "Perfusion culture",
+    "관류 배양",
+    "Perfusion culture (관류 배양)",
+    "Perfusion",
+    "관류"
+   ],
+   "explanation": "**Perfusion culture (관류 배양)** — 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.\n정답으로 인정하는 표기: Perfusion culture · 관류 배양 · Perfusion culture (관류 배양) · Perfusion · 관류 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.33 · WK02 강의 녹음 01:01:34–01:02:26",
+   "concepts": [
+    "Perfusion culture"
+   ],
+   "tags": [
+    "용어",
+    "Perfusion culture"
+   ]
+  },
+  {
+   "id": "tw02s-052",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치."
+   ],
+   "answers": [
+    "ATF",
+    "Alternating Tangential Flow",
+    "ATF (Alternating Tangential Flow)"
+   ],
+   "explanation": "**ATF (Alternating Tangential Flow)** — 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.\n정답으로 인정하는 표기: ATF · Alternating Tangential Flow · ATF (Alternating Tangential Flow) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.42 · WK02 강의 녹음 02:14:39–02:16:44",
+   "concepts": [
+    "ATF"
+   ],
+   "tags": [
+    "용어",
+    "ATF"
+   ]
+  },
+  {
+   "id": "tw02s-057",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기."
+   ],
+   "answers": [
+    "Lag phase",
+    "유도기",
+    "Lag phase (유도기)",
+    "적응기",
+    "지연기"
+   ],
+   "explanation": "**Lag phase (유도기)** — 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.\n정답으로 인정하는 표기: Lag phase · 유도기 · Lag phase (유도기) · 적응기 · 지연기 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.31 (General Animal Cell Growth Curve)",
+   "concepts": [
+    "Lag phase"
+   ],
+   "tags": [
+    "용어",
+    "Lag phase"
+   ]
+  },
+  {
+   "id": "tw02s-058",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세포 수가 빠르게(대수적으로) 늘어나는 시기."
+   ],
+   "answers": [
+    "Log phase",
+    "대수기",
+    "Log phase (대수기)",
+    "대수증식기",
+    "Exponential phase",
+    "지수기"
+   ],
+   "explanation": "**Log phase (대수기)** — 세포 수가 빠르게(대수적으로) 늘어나는 시기.\n정답으로 인정하는 표기: Log phase · 대수기 · Log phase (대수기) · 대수증식기 · Exponential phase (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.31",
+   "concepts": [
+    "Log phase"
+   ],
+   "tags": [
+    "용어",
+    "Log phase"
+   ]
+  },
+  {
+   "id": "tw02s-059",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기."
+   ],
+   "answers": [
+    "Stationary phase",
+    "정지기",
+    "Stationary phase (정지기)"
+   ],
+   "explanation": "**Stationary phase (정지기)** — 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.\n정답으로 인정하는 표기: Stationary phase · 정지기 · Stationary phase (정지기) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.31 · WK02 강의 녹음 02:03:39–02:07:29",
+   "concepts": [
+    "Stationary phase"
+   ],
+   "tags": [
+    "용어",
+    "Stationary phase"
+   ]
+  },
+  {
+   "id": "tw02s-060",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기."
+   ],
+   "answers": [
+    "Death phase",
+    "사멸기",
+    "Death phase (사멸기)"
+   ],
+   "explanation": "**Death phase (사멸기)** — 독성 물질이 쌓여 살아 있는 세포 수가 줄어드는 시기.\n정답으로 인정하는 표기: Death phase · 사멸기 · Death phase (사멸기) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.31",
+   "concepts": [
+    "Death phase"
+   ],
+   "tags": [
+    "용어",
+    "Death phase"
+   ]
+  },
+  {
+   "id": "tw02s-061",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양액 1 mL당 살아 있는 세포 수."
+   ],
+   "answers": [
+    "VCD",
+    "Viable Cell Density",
+    "VCD (Viable Cell Density)",
+    "생세포 밀도",
+    "생세포 농도"
+   ],
+   "explanation": "**VCD (Viable Cell Density)** — 배양액 1 mL당 살아 있는 세포 수.\n정답으로 인정하는 표기: VCD · Viable Cell Density · VCD (Viable Cell Density) · 생세포 밀도 · 생세포 농도 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.58–62",
+   "concepts": [
+    "VCD"
+   ],
+   "tags": [
+    "용어",
+    "VCD"
+   ]
+  },
+  {
+   "id": "tw02s-062",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "전체 세포 중 살아 있는 세포의 비율(%)."
+   ],
+   "answers": [
+    "Viability",
+    "생존율",
+    "Viability (생존율)"
+   ],
+   "explanation": "**Viability (생존율)** — 전체 세포 중 살아 있는 세포의 비율(%).\n정답으로 인정하는 표기: Viability · 생존율 · Viability (생존율) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.25, p.58",
+   "concepts": [
+    "Viability"
+   ],
+   "tags": [
+    "용어",
+    "Viability"
+   ]
+  },
+  {
+   "id": "tw02s-064",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략."
+   ],
+   "answers": [
+    "Temperature shift",
+    "온도 전환",
+    "Temperature shift (온도 전환)",
+    "온도 변환"
+   ],
+   "explanation": "**Temperature shift (온도 전환)** — 목표 밀도까지 37 ℃로 키운 뒤 32 ℃ 정도로 낮춰 생산을 유도하는 전략.\n정답으로 인정하는 표기: Temperature shift · 온도 전환 · Temperature shift (온도 전환) · 온도 변환 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (필기), p.22 · WK02 강의 녹음 01:16:27–01:19:46",
+   "concepts": [
+    "Temperature shift"
+   ],
+   "tags": [
+    "용어",
+    "Temperature shift"
+   ]
+  },
+  {
+   "id": "tw02s-070",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "포도당 대사로 쌓여 pH를 낮추는 대사산물."
+   ],
+   "answers": [
+    "Lactate",
+    "젖산",
+    "Lactate (젖산)"
+   ],
+   "explanation": "**Lactate (젖산)** — 포도당 대사로 쌓여 pH를 낮추는 대사산물.\n정답으로 인정하는 표기: Lactate · 젖산 · Lactate (젖산) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.47 · WK02 강의 녹음 01:16:27",
+   "concepts": [
+    "Lactate"
+   ],
+   "tags": [
+    "용어",
+    "Lactate"
+   ]
+  },
+  {
+   "id": "tw02s-075",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리."
+   ],
+   "answers": [
+    "IPC",
+    "In-Process Control",
+    "IPC (In-Process Control)",
+    "공정 중 관리",
+    "공정 관리"
+   ],
+   "explanation": "**IPC (In-Process Control)** — 공정 중 샘플을 분석해 정상 범위인지 확인·조정하는 관리.\n정답으로 인정하는 표기: IPC · In-Process Control · IPC (In-Process Control) · 공정 중 관리 · 공정 관리 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.19, p.48",
+   "concepts": [
+    "IPC"
+   ],
+   "tags": [
+    "용어",
+    "IPC"
+   ]
+  },
+  {
+   "id": "tw02s-091",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념."
+   ],
+   "answers": [
+    "QbD",
+    "Quality by Design",
+    "QbD (Quality by Design)",
+    "설계 기반 품질"
+   ],
+   "explanation": "**QbD (Quality by Design)** — 품질을 마지막 시험이 아니라 처음 설계부터 만들어 넣는다는 개념.\n정답으로 인정하는 표기: QbD · Quality by Design · QbD (Quality by Design) · 설계 기반 품질 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: QbD), p.80",
+   "concepts": [
+    "QbD"
+   ],
+   "tags": [
+    "용어",
+    "QbD"
+   ]
+  },
+  {
+   "id": "tw02s-092",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계)."
+   ],
+   "answers": [
+    "QTPP",
+    "Quality Target Product Profile",
+    "QTPP (Quality Target Product Profile)",
+    "목표 제품 품질 프로파일"
+   ],
+   "explanation": "**QTPP (Quality Target Product Profile)** — 제품이 갖춰야 할 목표 품질을 정리한 것(QbD 첫 단계).\n정답으로 인정하는 표기: QTPP · Quality Target Product Profile · QTPP (Quality Target Product Profile) · 목표 제품 품질 프로파일 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: QbD 흐름)",
+   "concepts": [
+    "QTPP"
+   ],
+   "tags": [
+    "용어",
+    "QTPP"
+   ]
+  },
+  {
+   "id": "tw02s-093",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성."
+   ],
+   "answers": [
+    "CQA",
+    "Critical Quality Attribute",
+    "CQA (Critical Quality Attribute)",
+    "핵심 품질 특성",
+    "중요 품질 특성"
+   ],
+   "explanation": "**CQA (Critical Quality Attribute)** — 안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성.\n정답으로 인정하는 표기: CQA · Critical Quality Attribute · CQA (Critical Quality Attribute) · 핵심 품질 특성 · 중요 품질 특성 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16, p.80",
+   "concepts": [
+    "CQA"
+   ],
+   "tags": [
+    "용어",
+    "CQA"
+   ]
+  },
+  {
+   "id": "tw02s-094",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등)."
+   ],
+   "answers": [
+    "CPP",
+    "Critical Process Parameter",
+    "CPP (Critical Process Parameter)",
+    "핵심 공정 변수",
+    "중요 공정 변수",
+    "중요 공정 파라미터"
+   ],
+   "explanation": "**CPP (Critical Process Parameter)** — 변하면 품질에 영향을 줘 감시·제어해야 하는 공정 변수(pH, 교반 등).\n정답으로 인정하는 표기: CPP · Critical Process Parameter · CPP (Critical Process Parameter) · 핵심 공정 변수 · 중요 공정 변수 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.12, p.80",
+   "concepts": [
+    "CPP"
+   ],
+   "tags": [
+    "용어",
+    "CPP"
+   ]
+  },
+  {
+   "id": "tw02s-095",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "품질이 보증된다고 입증된 공정 조건의 범위."
+   ],
+   "answers": [
+    "Design space",
+    "설계 공간",
+    "Design space (설계 공간)",
+    "디자인 스페이스"
+   ],
+   "explanation": "**Design space (설계 공간)** — 품질이 보증된다고 입증된 공정 조건의 범위.\n정답으로 인정하는 표기: Design space · 설계 공간 · Design space (설계 공간) · 디자인 스페이스 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.71, p.86–88 · WK02 강의 녹음 02:23:30–02:24:56",
+   "concepts": [
+    "Design space"
+   ],
+   "tags": [
+    "용어",
+    "Design space"
+   ]
+  },
+  {
+   "id": "tw02s-097",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법."
+   ],
+   "answers": [
+    "DoE",
+    "Design of Experiments",
+    "실험계획법",
+    "DoE (Design of Experiments, 실험계획법)"
+   ],
+   "explanation": "**DoE (Design of Experiments, 실험계획법)** — 여러 요인을 통계적으로 조합해 적은 실험으로 최적 범위를 찾는 방법.\n정답으로 인정하는 표기: DoE · Design of Experiments · 실험계획법 · DoE (Design of Experiments, 실험계획법) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.13, p.56–58",
+   "concepts": [
+    "DoE"
+   ],
+   "tags": [
+    "용어",
+    "DoE"
+   ]
+  },
+  {
+   "id": "tw02s-101",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델."
+   ],
+   "answers": [
+    "Scale-down model",
+    "SDM",
+    "Scale-down model (SDM)",
+    "스케일다운 모델",
+    "축소 모델"
+   ],
+   "explanation": "**Scale-down model (SDM)** — 생산 규모와 같은 결과를 내도록 모양 비율을 맞춘 소형 배양 모델.\n정답으로 인정하는 표기: Scale-down model · SDM · Scale-down model (SDM) · 스케일다운 모델 · 축소 모델 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.16 (수업 필기: SDM), p.98",
+   "concepts": [
+    "Scale-down model"
+   ],
+   "tags": [
+    "용어",
+    "Scale-down model"
+   ]
+  },
+  {
+   "id": "tw02s-110",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수."
+   ],
+   "answers": [
+    "kLa",
+    "부피 산소 전달 계수",
+    "kLa (부피 산소 전달 계수)"
+   ],
+   "explanation": "**kLa (부피 산소 전달 계수)** — 기포 속 산소가 배양액으로 녹아드는 효율을 나타내는 계수.\n정답으로 인정하는 표기: kLa · 부피 산소 전달 계수 · kLa (부피 산소 전달 계수) (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.93, p.97",
+   "concepts": [
+    "kLa"
+   ],
+   "tags": [
+    "용어",
+    "kLa"
+   ]
+  },
+  {
+   "id": "tw02s-111",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "기체에서 배양액으로 산소가 공급되는 속도."
+   ],
+   "answers": [
+    "OTR",
+    "Oxygen Transfer Rate",
+    "OTR (Oxygen Transfer Rate)",
+    "산소 전달 속도"
+   ],
+   "explanation": "**OTR (Oxygen Transfer Rate)** — 기체에서 배양액으로 산소가 공급되는 속도.\n정답으로 인정하는 표기: OTR · Oxygen Transfer Rate · OTR (Oxygen Transfer Rate) · 산소 전달 속도 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.95",
+   "concepts": [
+    "OTR"
+   ],
+   "tags": [
+    "용어",
+    "OTR"
+   ]
+  },
+  {
+   "id": "tw02s-112",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "세포가 산소를 소비하는 속도."
+   ],
+   "answers": [
+    "OUR",
+    "Oxygen Uptake Rate",
+    "OUR (Oxygen Uptake Rate)",
+    "산소 소비 속도",
+    "산소 섭취 속도"
+   ],
+   "explanation": "**OUR (Oxygen Uptake Rate)** — 세포가 산소를 소비하는 속도.\n정답으로 인정하는 표기: OUR · Oxygen Uptake Rate · OUR (Oxygen Uptake Rate) · 산소 소비 속도 · 산소 섭취 속도 (띄어쓰기·대소문자 무시)",
+   "source": "WK02 PDF p.95",
+   "concepts": [
+    "OUR"
+   ],
+   "tags": [
+    "용어",
+    "OUR"
+   ]
   }
  ]
 }

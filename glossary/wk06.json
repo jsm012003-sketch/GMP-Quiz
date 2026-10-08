@@ -23,28 +23,53 @@
    "term": "Protein A chromatography",
    "group": "dsp",
    "def": "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
-   "src": "WK06 PDF p.5, p.18–19"
+   "src": "WK06 PDF p.5, p.18–19",
+   "short": true,
+   "answersExtra": [
+    "Protein A",
+    "단백질 A",
+    "프로틴 A",
+    "Protein A 크로마토그래피"
+   ]
   },
   {
    "no": 4,
    "term": "Low pH viral inactivation",
    "group": "dsp",
    "def": "산성(pH 3~4)에 일정 시간 두어 외피 바이러스를 죽이는 단계.",
-   "src": "WK06 PDF p.11, p.15"
+   "src": "WK06 PDF p.11, p.15",
+   "short": true,
+   "answers": [
+    "Low pH viral inactivation",
+    "Low pH inactivation",
+    "낮은 pH 바이러스 불활화",
+    "저 pH 바이러스 불활화",
+    "저pH 불활화",
+    "낮은 pH 불활화",
+    "VI"
+   ]
   },
   {
    "no": 5,
    "term": "CEX (양이온 교환 크로마토그래피)",
    "group": "dsp",
    "def": "음전하 레진에 양전하 분자를 붙여 HCP·응집체를 없애는 polishing.",
-   "src": "WK06 PDF p.5, p.18"
+   "src": "WK06 PDF p.5, p.18",
+   "short": true,
+   "answersExtra": [
+    "양이온 교환"
+   ]
   },
   {
    "no": 6,
    "term": "AEX (음이온 교환 크로마토그래피)",
    "group": "dsp",
    "def": "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
-   "src": "WK06 PDF p.5, p.18"
+   "src": "WK06 PDF p.5, p.18",
+   "short": true,
+   "answersExtra": [
+    "음이온 교환"
+   ]
   },
   {
    "no": 7,
@@ -80,14 +105,22 @@
    "term": "Virus filtration (nanofiltration)",
    "group": "dsp",
    "def": "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
-   "src": "WK06 PDF p.11, p.15–16"
+   "src": "WK06 PDF p.11, p.15–16",
+   "short": true,
+   "answersExtra": [
+    "바이러스 여과",
+    "바이러스 필터",
+    "VF",
+    "나노여과"
+   ]
   },
   {
    "no": 12,
    "term": "UF/DF (한외여과/정용여과)",
    "group": "dsp",
    "def": "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-   "src": "WK06 PDF p.5, p.18, p.31"
+   "src": "WK06 PDF p.5, p.18, p.31",
+   "short": true
   },
   {
    "no": 13,
@@ -125,21 +158,35 @@
    "term": "HCP (Host Cell Protein)",
    "group": "imp",
    "def": "생산 세포에서 나온 단백질 불순물.",
-   "src": "WK06 PDF p.5"
+   "src": "WK06 PDF p.5",
+   "short": true,
+   "answersExtra": [
+    "숙주세포 단백질",
+    "숙주 세포 단백질"
+   ]
   },
   {
    "no": 18,
    "term": "Aggregate (응집체)",
    "group": "imp",
    "def": "단백질끼리 뭉친 불순물(면역원성 위험).",
-   "src": "WK06 PDF p.5"
+   "src": "WK06 PDF p.5",
+   "short": true,
+   "answersExtra": [
+    "Aggregation",
+    "응집"
+   ]
   },
   {
    "no": 19,
    "term": "DBC (Dynamic Binding Capacity)",
    "group": "chrom",
    "def": "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-   "src": "WK06 PDF p.20"
+   "src": "WK06 PDF p.20",
+   "short": true,
+   "answersExtra": [
+    "동적 결합 용량"
+   ]
   },
   {
    "no": 20,
@@ -177,7 +224,12 @@
    "term": "S&D (Solvent/Detergent)",
    "group": "vc",
    "def": "용매와 계면활성제로 외피 지질을 녹여 외피 바이러스를 죽이는 방법.",
-   "src": "WK06 PDF p.11"
+   "src": "WK06 PDF p.11",
+   "short": true,
+   "answersExtra": [
+    "용매 계면활성제",
+    "용매·계면활성제"
+   ]
   },
   {
    "no": 25,
@@ -192,7 +244,8 @@
    "term": "Orthogonal (직교) 전략",
    "group": "vc",
    "def": "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
-   "src": "WK06 PDF p.8, p.10, p.15"
+   "src": "WK06 PDF p.8, p.10, p.15",
+   "short": true
   },
   {
    "no": 27,
@@ -213,7 +266,13 @@
    "term": "ICH Q5A (R1)",
    "group": "reg",
    "def": "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인.",
-   "src": "WK06 PDF p.9"
+   "src": "WK06 PDF p.9",
+   "short": true,
+   "answers": [
+    "ICH Q5A",
+    "Q5A",
+    "ICH Q5A(R1)"
+   ]
   },
   {
    "no": 30,
@@ -236,14 +295,16 @@
    "term": "Enveloped virus (외피 바이러스)",
    "group": "virus",
    "def": "지질 외피가 있어 저 pH·S&D에 약한 바이러스.",
-   "src": "WK06 PDF p.11, p.15"
+   "src": "WK06 PDF p.11, p.15",
+   "short": true
   },
   {
    "no": 33,
    "term": "Non-enveloped virus (비외피 바이러스)",
    "group": "virus",
    "def": "지질 외피가 없어 저 pH·S&D가 잘 안 듣는 바이러스.",
-   "src": "WK06 PDF p.11, p.14"
+   "src": "WK06 PDF p.11, p.14",
+   "short": true
   },
   {
    "no": 34,
@@ -369,14 +430,16 @@
    "term": "PW (Purified Water, 정제수)",
    "group": "water",
    "def": "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료).",
-   "src": "WK06 PDF p.27 (PW/WFI 계통도)"
+   "src": "WK06 PDF p.27 (PW/WFI 계통도)",
+   "short": true
   },
   {
    "no": 50,
    "term": "WFI (Water for Injection, 주사용수)",
    "group": "water",
    "def": "정제수를 증류해 만든 가장 높은 등급의 공정 용수.",
-   "src": "WK06 PDF p.27"
+   "src": "WK06 PDF p.27",
+   "short": true
   },
   {
    "no": 51,
@@ -445,7 +508,11 @@
    "term": "NWP (Normalized Water Permeability)",
    "group": "cff",
    "def": "물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
-   "src": "WK06 강의 녹음 1:20:52–1:26:03"
+   "src": "WK06 강의 녹음 1:20:52–1:26:03",
+   "short": true,
+   "answersExtra": [
+    "정규화 물 투과도"
+   ]
   },
   {
    "no": 60,
@@ -473,14 +540,24 @@
    "term": "SIP (Sterilization/Steam In Place)",
    "group": "clean",
    "def": "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것.",
-   "src": "WK06 강의 녹음 59:06–1:01:55"
+   "src": "WK06 강의 녹음 59:06–1:01:55",
+   "short": true,
+   "answersExtra": [
+    "Steam In Place",
+    "Sterilization In Place"
+   ]
   },
   {
    "no": 64,
    "term": "E&L (Extractables & Leachables)",
    "group": "clean",
    "def": "플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
-   "src": "WK06 강의 녹음 1:40:05–1:41:52"
+   "src": "WK06 강의 녹음 1:40:05–1:41:52",
+   "short": true,
+   "answersExtra": [
+    "추출물 침출물",
+    "E&L study"
+   ]
   },
   {
    "no": 65,
@@ -501,14 +578,26 @@
    "term": "Linear velocity (선속도)",
    "group": "scale",
    "def": "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
-   "src": "WK06 강의 녹음 2:09:22–2:13:48"
+   "src": "WK06 강의 녹음 2:09:22–2:13:48",
+   "short": true,
+   "answersExtra": [
+    "Linear flow rate",
+    "선 속도"
+   ]
   },
   {
    "no": 68,
    "term": "Bed height (레진 층 높이)",
    "group": "scale",
    "def": "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
-   "src": "WK06 강의 녹음 2:15:49–2:18:01"
+   "src": "WK06 강의 녹음 2:15:49–2:18:01",
+   "short": true,
+   "answersExtra": [
+    "베드 높이",
+    "층 높이",
+    "레진 높이",
+    "베드 하이트"
+   ]
   }
  ]
 }

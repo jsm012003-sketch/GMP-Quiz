@@ -1553,6 +1553,338 @@
     "용어",
     "짝짓기"
    ]
+  },
+  {
+   "id": "tw03s-003",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼 안에 채워져 움직이지 않는 레진."
+   ],
+   "answers": [
+    "Stationary phase",
+    "고정상",
+    "Stationary phase (고정상)"
+   ],
+   "explanation": "**Stationary phase (고정상)** — 컬럼 안에 채워져 움직이지 않는 레진.\n정답으로 인정하는 표기: Stationary phase · 고정상 · Stationary phase (고정상) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Stationary phase"
+   ],
+   "tags": [
+    "용어",
+    "Stationary phase"
+   ]
+  },
+  {
+   "id": "tw03s-004",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "컬럼을 따라 흐르며 시료를 옮기는 버퍼."
+   ],
+   "answers": [
+    "Mobile phase",
+    "이동상",
+    "Mobile phase (이동상)"
+   ],
+   "explanation": "**Mobile phase (이동상)** — 컬럼을 따라 흐르며 시료를 옮기는 버퍼.\n정답으로 인정하는 표기: Mobile phase · 이동상 · Mobile phase (이동상) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Mobile phase"
+   ],
+   "tags": [
+    "용어",
+    "Mobile phase"
+   ]
+  },
+  {
+   "id": "tw03s-008",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+   ],
+   "answers": [
+    "Capture",
+    "포획 단계",
+    "Capture (포획 단계)",
+    "포획",
+    "캡처"
+   ],
+   "explanation": "**Capture (포획 단계)** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n정답으로 인정하는 표기: Capture · 포획 단계 · Capture (포획 단계) · 포획 · 캡처 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Capture"
+   ],
+   "tags": [
+    "용어",
+    "Capture"
+   ]
+  },
+  {
+   "id": "tw03s-010",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "마지막에 남은 미량 불순물을 없애는 단계."
+   ],
+   "answers": [
+    "Polishing",
+    "최종 정제",
+    "Polishing (최종 정제)",
+    "폴리싱",
+    "최종 정제 단계"
+   ],
+   "explanation": "**Polishing (최종 정제)** — 마지막에 남은 미량 불순물을 없애는 단계.\n정답으로 인정하는 표기: Polishing · 최종 정제 · Polishing (최종 정제) · 폴리싱 · 최종 정제 단계 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Polishing"
+   ],
+   "tags": [
+    "용어",
+    "Polishing"
+   ]
+  },
+  {
+   "id": "tw03s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+   ],
+   "answers": [
+    "Affinity chromatography",
+    "친화 크로마토그래피",
+    "Affinity chromatography (친화 크로마토그래피)",
+    "Affinity",
+    "친화"
+   ],
+   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.\n정답으로 인정하는 표기: Affinity chromatography · 친화 크로마토그래피 · Affinity chromatography (친화 크로마토그래피) · Affinity · 친화 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 11:32–13:36",
+   "concepts": [
+    "Affinity chromatography"
+   ],
+   "tags": [
+    "용어",
+    "Affinity chromatography"
+   ]
+  },
+  {
+   "id": "tw03s-012",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법."
+   ],
+   "answers": [
+    "IEX",
+    "Ion Exchange",
+    "이온교환",
+    "IEX (Ion Exchange, 이온교환)"
+   ],
+   "explanation": "**IEX (Ion Exchange, 이온교환)** — 전하 차이로 붙였다가 염 농도를 올려 떼어 내는 방법.\n정답으로 인정하는 표기: IEX · Ion Exchange · 이온교환 · IEX (Ion Exchange, 이온교환) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 10:07",
+   "concepts": [
+    "IEX"
+   ],
+   "tags": [
+    "용어",
+    "IEX"
+   ]
+  },
+  {
+   "id": "tw03s-013",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
+   ],
+   "answers": [
+    "HIC",
+    "Hydrophobic Interaction Chromatography",
+    "HIC (Hydrophobic Interaction Chromatography)",
+    "소수성 상호작용 크로마토그래피",
+    "소수성 크로마토그래피",
+    "소수성 상호작용",
+    "소수성"
+   ],
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.\n정답으로 인정하는 표기: HIC · Hydrophobic Interaction Chromatography · HIC (Hydrophobic Interaction Chromatography) · 소수성 상호작용 크로마토그래피 · 소수성 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 11:32–13:36, 36:31",
+   "concepts": [
+    "HIC"
+   ],
+   "tags": [
+    "용어",
+    "HIC"
+   ]
+  },
+  {
+   "id": "tw03s-015",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법."
+   ],
+   "answers": [
+    "SEC",
+    "Size Exclusion",
+    "Gel filtration",
+    "SEC (Size Exclusion, Gel filtration)",
+    "크기 배제 크로마토그래피",
+    "겔 여과",
+    "크기 배제"
+   ],
+   "explanation": "**SEC (Size Exclusion, Gel filtration)** — 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n정답으로 인정하는 표기: SEC · Size Exclusion · Gel filtration · SEC (Size Exclusion, Gel filtration) · 크기 배제 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 14:25, 36:31",
+   "concepts": [
+    "SEC"
+   ],
+   "tags": [
+    "용어",
+    "SEC"
+   ]
+  },
+  {
+   "id": "tw03s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "레진에 달려 목표 물질을 붙잡는 손 역할의 분자."
+   ],
+   "answers": [
+    "Ligand",
+    "리간드",
+    "Ligand (리간드)"
+   ],
+   "explanation": "**Ligand (리간드)** — 레진에 달려 목표 물질을 붙잡는 손 역할의 분자.\n정답으로 인정하는 표기: Ligand · 리간드 · Ligand (리간드) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Ligand"
+   ],
+   "tags": [
+    "용어",
+    "Ligand"
+   ]
+  },
+  {
+   "id": "tw03s-017",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식."
+   ],
+   "answers": [
+    "Bind-elute mode",
+    "결합-용출 모드",
+    "Bind-elute mode (결합-용출 모드)",
+    "Bind-elute",
+    "결합-용출"
+   ],
+   "explanation": "**Bind-elute mode (결합-용출 모드)** — 목표 물질을 레진에 붙였다가 떼어 내 회수하는 운전 방식.\n정답으로 인정하는 표기: Bind-elute mode · 결합-용출 모드 · Bind-elute mode (결합-용출 모드) · Bind-elute · 결합-용출 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Bind-elute mode"
+   ],
+   "tags": [
+    "용어",
+    "Bind-elute mode"
+   ]
+  },
+  {
+   "id": "tw03s-018",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "불순물만 붙이고 목표 물질은 흘려보내는 운전 방식."
+   ],
+   "answers": [
+    "Flow-through mode",
+    "통과 모드",
+    "Flow-through mode (통과 모드)",
+    "Flow-through",
+    "플로우스루",
+    "통과"
+   ],
+   "explanation": "**Flow-through mode (통과 모드)** — 불순물만 붙이고 목표 물질은 흘려보내는 운전 방식.\n정답으로 인정하는 표기: Flow-through mode · 통과 모드 · Flow-through mode (통과 모드) · Flow-through · 플로우스루 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Flow-through mode"
+   ],
+   "tags": [
+    "용어",
+    "Flow-through mode"
+   ]
+  },
+  {
+   "id": "tw03s-021",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것."
+   ],
+   "answers": [
+    "Elution",
+    "용출",
+    "Elution (용출)"
+   ],
+   "explanation": "**Elution (용출)** — 붙어 있던 물질을 염·pH 등을 바꿔 떼어 내는 것.\n정답으로 인정하는 표기: Elution · 용출 · Elution (용출) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 10:07, 36:31",
+   "concepts": [
+    "Elution"
+   ],
+   "tags": [
+    "용어",
+    "Elution"
+   ]
+  },
+  {
+   "id": "tw03s-035",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비)."
+   ],
+   "answers": [
+    "Desalting",
+    "탈염",
+    "Desalting (탈염)"
+   ],
+   "explanation": "**Desalting (탈염)** — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).\n정답으로 인정하는 표기: Desalting · 탈염 · Desalting (탈염) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 42:18–42:56",
+   "concepts": [
+    "Desalting"
+   ],
+   "tags": [
+    "용어",
+    "Desalting"
+   ]
   }
  ]
 }

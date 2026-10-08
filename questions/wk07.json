@@ -580,6 +580,146 @@
         "MES / EBR"
       ],
       "part": 2
+    },
+    {
+      "id": "wk07-044",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "도면을 만드는 순서 「BFD → PFD → ( )」에서 빈칸은?",
+      "answers": [
+        "P&ID",
+        "PID",
+        "P & ID",
+        "Piping and Instrumentation Diagram",
+        "배관 계장도"
+      ],
+      "explanation": "**BFD(블록 개략도) → PFD(물질수지·장비 포함 공정 흐름도) → P&ID(배관·계장 상세도)** 순서로 점점 자세해진다.",
+      "source": "WK07 PDF p.27 (BFD), p.28 (PFD)",
+      "concepts": [
+        "P&ID",
+        "BFD",
+        "PFD"
+      ],
+      "tags": [
+        "P&ID",
+        "BFD",
+        "PFD"
+      ]
+    },
+    {
+      "id": "wk07-045",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "Q&V 순서 「URS → DQ → FAT → IQ → OQ → ( ) → PV」에서 빈칸은?",
+      "answers": [
+        "PQ",
+        "Performance Qualification",
+        "성능 적격성평가",
+        "성능 적격성 평가"
+      ],
+      "explanation": "**URS → DQ → FAT → IQ/SAT → OQ → PQ → PV 순서다.** 설비가 제대로 작동함(OQ)·성능을 냄(PQ)을 먼저 입증해야 공정 밸리데이션(PV)을 할 수 있다.",
+      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation)",
+      "concepts": [
+        "PQ",
+        "Q&V"
+      ],
+      "tags": [
+        "PQ",
+        "Q&V"
+      ]
+    },
+    {
+      "id": "wk07-046",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "최종멸균 제품의 충전이나 무균 여과할 제품의 조제를 하는 청정 등급은?",
+      "answers": [
+        "C",
+        "Grade C",
+        "C등급",
+        "C 등급"
+      ],
+      "explanation": "**Grade A = 무균 충전, B = A의 배경, C = 최종멸균 제품 충전·여과할 제품 조제, D = 밀폐계 조제·아이솔레이터 주변.**",
+      "source": "WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
+      "concepts": [
+        "Grade C"
+      ],
+      "tags": [
+        "Grade C"
+      ]
+    },
+    {
+      "id": "wk07-047",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "작업 중(operational)에도 비가동(at rest)과 같은 입자 기준을 지켜야 하는 청정 등급은?",
+      "answers": [
+        "A",
+        "Grade A",
+        "A등급",
+        "A 등급"
+      ],
+      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태다.",
+      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
+      "concepts": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ],
+      "tags": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ]
+    },
+    {
+      "id": "wk07-048",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "응축하면 주사용수 수준이 되며 장비 멸균(SIP)에 쓰는 증기는?",
+      "answers": [
+        "Pure steam",
+        "순수 증기",
+        "공정용 순수 증기",
+        "퓨어 스팀",
+        "순수증기"
+      ],
+      "explanation": "**Pure steam(공정용 순수 증기)은 제품 접촉면 멸균(SIP)에 쓰고, 응축하면 주사용수 수준이다.** Clean steam은 HVAC 가습용, Black steam은 난방용으로 제품에 닿지 않는다.",
+      "source": "WK07 PDF p.46, p.48",
+      "concepts": [
+        "Pure steam"
+      ],
+      "tags": [
+        "Pure steam"
+      ]
+    },
+    {
+      "id": "wk07-049",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "임상시험 중 소수의 건강한 사람에게 안전성을 확인하는 단계는?",
+      "answers": [
+        "1상",
+        "임상 1상",
+        "Phase I",
+        "Phase 1",
+        "제1상",
+        "1상 임상"
+      ],
+      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
+      "source": "WK07 PDF p.15 (Phases of clinical development)",
+      "concepts": [
+        "임상 1상 (Phase I)"
+      ],
+      "tags": [
+        "임상 1상 (Phase I)"
+      ]
     }
   ]
 }
