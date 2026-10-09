@@ -135,6 +135,25 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 
 미출제 후보: 없음(진로·시장 이야기는 출제하지 않는다).
 
+### WK04 보강 (10.09 — 사용자 정리 노트 「GMP 4주차 정리: 다운스트림 공정」 반영)
+
+09.23 판서·10.07 강의·WK04 교안을 정리한 노트와 기존 문항을 맞춰 보고, ★(강사 강조) 포인트 중 빠진 것만 더했다. 같은 포인트가 WK06(10.07 녹음) 문항에 이미 있으면 다시 내지 않았다(카세트 사이클·NWP·보관 용액·CIP/SIP·과농축 회수·P→C→A·HIC 다량체·E&L 등). 출처는 `WK04 판서 정리(09.23)`와 교안 쪽수를 함께 적었다.
+
+| 출제됨 | 문항 |
+|---|---|
+| (보관함에서 되살림) Vmax vs Pmax·Tmax, flux vs capacity, cassette vs hollow fiber, MF vs UF 항체 위치, CHO doubling time, IEX 용출 = high conductivity(mS/cm) | wk04-037, 038, 050, 051, 090, 106 |
+| VI vs VF, upstream prevention vs downstream clearance, 완제에서 VF를 다시 안 하고 제균여과만 하는 이유 | wk04-134 ~ wk04-136 |
+| pH vs pI와 전하, pH 6~7이 아니라 5~6인 이유 | wk04-137, wk04-138 |
+| Bioburden reduction vs sterile filtration, gas filter vs vent filter, SIP 뒤 vent filter가 필요한 이유 | wk04-139 ~ wk04-141 |
+| Cassette를 바로 세척하는 이유(aging), integrity test를 하지 않는 필터(depth), bubble point = 최대 구멍 | wk04-142 ~ wk04-144 |
+| Inclusion body 장점, 대장균 공정의 endotoxin, IPC vs 출하시험, SC 고농도 제형의 이유와 대가, mycoplasma와 0.1 µm 필터 | wk04-145 ~ wk04-149 |
+| (단답) seed train 단계당 약 5배, 항체 약 150 kDa | wk04-150, wk04-151 |
+| (WK06) Extractables vs leachables | wk06-063 |
+
+용어집 추가(no 157~159, `matchSealed` [113, 156]): Bioburden reduction, Gas filter, Mycoplasma.
+
+출제하지 않음(지엽적·계산): 1 M NaCl 전도도 수치(해설로만), DF 잔류율(DV별 %), 휴미라 펜 농축 배수 계산, 혈장 성분 비율, 필터 재질별 표·제품명(Sartopore·Durapore 등), 막 제조법, 기체 여과 메커니즘 5종·MPPS, WFI vent 하우징 부품, diaphragm valve, 젠자임·일본 혈장 사례, 세척제 선택(교안에 설명 없음).
+
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
 | 출제됨 | 문항 |
@@ -336,7 +355,7 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 |---|---|---|---|
 | WK02 | 90 | 152 (단답 32) | modality, 백신 플랫폼, 숙주·세포은행, 공정 흐름, 배양 방식·공정 강화, 관류 장치, 성장곡선, 배지·대사, 배양기·제어, QbD, scale-up, 교반·통기, 데이터 분석, 원가 |
 | WK03 | 35 | 59 (단답 13) | 크로마토그래피 기본, 정제 단계, 레진 종류, 운전 모드·용출, 시스템 구성, 정제 후 분석, SEC·탈염, 레진 준비·공급 (녹음 기반) |
-| WK04 | 89 | 154 (단답 36) | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험, (녹음) 공정 흐름·세포·정제·무균 |
+| WK04 | 92 | 158 (단답 36) | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험, (녹음) 공정 흐름·세포·정제·무균 |
 | GMP01 | 41 | 68 (단답 13) | 제형, 멸균·무균, 조제, 부형제, 충전·용기, 품질 검사, 무균 환경, GMP 공통 |
 | GMP02 | 30 | 53 (단답 12) | 차단 방식, RABS 구성, 규정(Annex 1·ISO 13408-1·PDA TR22), APS, 간섭, worst case, 실패 조치, EM |
 | GMP03 | 34 | 59 (단답 12) | 아이솔레이터 원리·챔버, VHP cycle·조건, 사멸 원리, 적재, BI·CI·EI, cycle development, qualification, test location, glove, (녹음) 멸균 방식·BI 형태, 운영(SOP·GDP·개입) |
@@ -354,7 +373,7 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 | OT (단원 전체 제외) | 7개 — ot-{001, 002, 003, 004, 005, 007, 008} (+ int-002) | 6개 — Patent expiration, Market share, Equipment list, Utility consumption, 감가상각, Milestone |
 | WK02 | 35개 — wk02-{005, 006, 007, 011, 013, 016, 019, 020, 022, 024, 026, 027, 028, 029, 030, 033, 036, 037, 040, 041, 042, 043, 045, 046, 048, 049, 051, 052, 053, 055, 056, 058, 060, 068, 071} | 43개 — PBT, VBT, TIL / NK 세포치료제, Recombinant protein platform, Virus platform, Bolus feed, Concentrated fed-batch, Dynamic perfusion, CRD, Hollow fiber membrane, Cell bleed, Permeate, Direct capture, Peak VCD, Inoculation density, Spent media analysis, pCO₂, Sampling port, Offline analysis, Exhaust cooler, Screening design, Optimization design, Ambr 15, Geometrical similarity, MSAT, Mixing time, Torque, VVM, Superficial gas velocity, Gassing-out method, Foam / Flooding, MVDA, PCA, VIP plot, Coefficient plot, Hybrid model, Soft sensor, Golden batch, Biopharma 4.0, Digital twin, Capital charge, Footprint, Major change |
 | WK03 | 7개 — wk03-{007, 013, 015, 021, 022, 023, 024} | 14개 — Gradient mixer, Air trap, Pressure sensor, Fraction collector, Sephadex G-25, Fine fractionation, Superdex Increase, Superdex prep grade, Sephacryl S-100, Sephacryl S-400, Swelling, Packing, Scale-up, Supply diversification |
-| WK04 | 57개 — wk04-{002, 004, 007, 009, 011, 012, 013, 019, 022, 023, 024, 026, 027, 028, 029, 031, 032, 033, 034, 035, 037, 038, 039, 041, 042, 043, 044, 045, 049, 050, 051, 052, 054, 055, 056, 057, 058, 061, 064, 065, 066, 069, 070, 071, 072, 073, 074, 078, 080, 084, 087, 090, 092, 093, 101, 106, 107} | 67개 — BFS, Media mitigation, Driving pressure difference, Combination filter, PES, Cellulose acetate, PP, Glass fiber, Diatomaceous earth, Asymmetric membrane, Membrane casting, Retention rate, Beta ratio, Tank collapse, Double vent system, Heated vent housing, Sieve effect, Impaction, Interception, Diffusion, Electrostatic interaction, MPPS, HEPA filter grade, Aerosol challenge test, Vmax, Pmax, Tmax, Pleated membrane, Sanitary clamp / Ferrule, SS 316L, Peristaltic pump, Diaphragm pump, Rotary lobe pump, Self-priming, Pressurized transfer, Gravity transfer, Crossflow rate, Optimum TMP, Continuous diafiltration, Batch diafiltration, Cassette, Hollow fiber module, Spiral-wound module, CWF, NWP, Membrane life cycle, System hold-up volume, Pressure drop test, Wetting angle, Surface tension, Min. bubble point, Max. bubble point, IT test limit, Reference wetting fluid, PDA TR 26, Plasma-derived product, Upstream process, Downstream process, Biosimilar, Beacon, Doubling time, Feeding strategy, Process development, High conductivity, mS/cm, Dilution, Utility |
+| WK04 | 51개 — wk04-{002, 004, 007, 009, 011, 012, 013, 019, 022, 023, 024, 026, 027, 028, 029, 031, 032, 033, 034, 035, 039, 041, 042, 043, 044, 045, 049, 052, 054, 055, 056, 057, 058, 061, 064, 065, 066, 069, 070, 071, 072, 073, 074, 078, 080, 084, 087, 092, 093, 101, 107} | 67개 — BFS, Media mitigation, Driving pressure difference, Combination filter, PES, Cellulose acetate, PP, Glass fiber, Diatomaceous earth, Asymmetric membrane, Membrane casting, Retention rate, Beta ratio, Tank collapse, Double vent system, Heated vent housing, Sieve effect, Impaction, Interception, Diffusion, Electrostatic interaction, MPPS, HEPA filter grade, Aerosol challenge test, Vmax, Pmax, Tmax, Pleated membrane, Sanitary clamp / Ferrule, SS 316L, Peristaltic pump, Diaphragm pump, Rotary lobe pump, Self-priming, Pressurized transfer, Gravity transfer, Crossflow rate, Optimum TMP, Continuous diafiltration, Batch diafiltration, Cassette, Hollow fiber module, Spiral-wound module, CWF, NWP, Membrane life cycle, System hold-up volume, Pressure drop test, Wetting angle, Surface tension, Min. bubble point, Max. bubble point, IT test limit, Reference wetting fluid, PDA TR 26, Plasma-derived product, Upstream process, Downstream process, Biosimilar, Beacon, Doubling time, Feeding strategy, Process development, High conductivity, mS/cm, Dilution, Utility |
 | GMP01 | 4개 — gmp01-{004, 007, 011, 012} | 1개 — pH 조절제 |
 | GMP02 | 11개 — gmp02-{007, 008, 010, 012, 013, 015, 016, 017, 018, 022, 024} | 12개 — RTP, ISO 13408-1, PDA TR22, 100 % 육안 검사, APS Holistic approach, Line speed, H/D 비, APS 충전량, 반복 APS, 재자격, 균 동정, 오버스필 |
 | GMP03 | 12개 — gmp03-{003, 013, 016, 017, 022, 023, 025, 026, 029, 030, 031, 033} | 27개 — Dwell time, Distribution, Dosing rate, Maximum load, Minimum / Empty load, 흡착성 재질, Geobacillus stearothermophilus, Steel disk carrier, Fractional study, Temperature & humidity mapping, CI mapping, Edges of enclosure, Airflow challenging areas, Process critical positions, Leak rate, Audit trail, 잔류 H₂O₂ 허용 기준, Sterility testing isolator, Paper strip BI, Ampoule BI, Rogue BI, SOP, Glove port, Inherent intervention, C&Q, Chamber leak test, Bracketing |

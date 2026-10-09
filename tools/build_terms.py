@@ -218,14 +218,18 @@ def build_short(t, g):
 def matching_sets(terms, sealed=0):
     """group 순서대로 4개씩 묶는다. 4개가 안 되는 나머지는 다음(없으면 이전) 묶음 용어로 채운다.
 
-    sealed(용어집의 "matchSealed"): 이 번호까지의 용어는 그 용어들끼리만 예전 그대로 묶고,
+    sealed(용어집의 "matchSealed", 숫자 또는 [숫자, …]): 이 번호까지의 용어는 그 용어들끼리만 예전 그대로 묶고,
     뒤에 추가한 용어는 따로 묶는다 — 용어를 덧붙여도 이미 배포된 짝짓기 id가 바뀌지 않게 한다.
     """
     if sealed:
-        old = [t for t in terms if t['no'] <= sealed]
-        new = [t for t in terms if t['no'] > sealed]
+        # 여러 번 덧붙였으면 [113, 156]처럼 목록으로 적는다 — 덧붙인 차례마다 따로 묶는다
+        seals = sorted(sealed) if isinstance(sealed, list) else [sealed]
+        last = seals[-1]
+        old = [t for t in terms if t['no'] <= last]
+        new = [t for t in terms if t['no'] > last]
         # 새 용어 묶음만 고른다(나머지를 채울 때는 새 묶음 → 예전 용어 순으로 쓴다)
-        return matching_sets(old) + [ch for ch in matching_sets(new + old) if ch[0]['no'] > sealed]
+        prev = seals[:-1]
+        return matching_sets(old, prev if prev else 0) + [ch for ch in matching_sets(new + old) if ch[0]['no'] > last]
     groups = []
     for t in terms:
         if not groups or groups[-1][0] != t['group']:

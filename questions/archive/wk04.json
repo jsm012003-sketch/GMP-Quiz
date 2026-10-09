@@ -551,62 +551,6 @@
       "part": 1
     },
     {
-      "id": "wk04-037",
-      "type": "연결",
-      "question": "Vmax와 Pmax(Tmax) 시험의 차이로 옳은 것은?",
-      "choices": [
-        "Vmax는 일정 유속, Pmax는 일정 압력에서 한다",
-        "Vmax는 주로 깊이 필터에 쓴다",
-        "Tmax는 압력 한계에서 끝낸다",
-        "Vmax는 일정 압력, Pmax는 일정 유속 조건에서 한다",
-        "두 시험은 같은 조건에서 한다"
-      ],
-      "answer": 4,
-      "explanation": "**Vmax(constant pressure)는 일정 압력에서 유량이 끝점까지 줄 때까지의 최대 여과량으로 주로 멤브레인에, Pmax·Tmax(constant flow)는 일정 유속에서 압력·탁도가 끝점에 이를 때까지의 최대 여과량으로 주로 깊이 필터에 쓴다.**",
-      "choiceNotes": [
-        "틀리다 — 반대다.",
-        "틀리다 — Vmax는 주로 멤브레인이다.",
-        "틀리다 — 탁도(turbidity) 한계에서 끝낸다.",
-        "옳다.",
-        "틀리다."
-      ],
-      "source": "WK04 PDF p.66–67 (Sizing Test Classification)",
-      "tags": [
-        "Vmax (Constant pressure method)",
-        "Pmax (Constant flow method)",
-        "Tmax (Constant flow method)"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk04-038",
-      "type": "연결",
-      "question": "필터 면적을 정할 때 시료 성질과 중요한 결과값의 연결로 옳은 것은?",
-      "choices": [
-        "막힘이 적은 시료 – flux, 막힘이 많은 시료 – capacity",
-        "막힘이 적은 시료 – capacity, 막힘이 많은 시료 – flux",
-        "모든 시료 – 필터 가격",
-        "막힘이 많은 시료 – 결과값 필요 없음",
-        "두 값은 같은 뜻이다"
-      ],
-      "answer": 1,
-      "explanation": "**막힘(plugging)이 없거나 적은 시료는 flux(단위 면적·시간당 통과량, LMH)가, 막힘이 많은 시료는 capacity(단위 면적당 처리량, L/m²)가 막 면적 결정에 중요하다.**",
-      "choiceNotes": [
-        "옳다.",
-        "틀리다 — 반대다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — flux는 L/m²/h, capacity는 L/m²다."
-      ],
-      "source": "WK04 PDF p.68 (Filter Sizing Result)",
-      "tags": [
-        "Flux (LMH)",
-        "Filter capacity (L/m²)",
-        "Plugging"
-      ],
-      "part": 2
-    },
-    {
       "id": "wk04-039",
       "type": "개념",
       "question": "작은 필터 시험 결과로 큰 공정 필터를 정할 때 지켜야 할 것은?",
@@ -795,62 +739,6 @@
         "Gel layer (겔층)"
       ],
       "part": 1
-    },
-    {
-      "id": "wk04-050",
-      "type": "연결",
-      "question": "TFF 모듈 종류와 특징의 연결로 옳은 것은?",
-      "choices": [
-        "중공사(hollow fiber) – holder가 꼭 필요",
-        "카세트 – holder 없이 쓴다",
-        "카세트 – 고점도·고농도에 좋지만 holder가 필요",
-        "Spiral-wound – 막 sheet를 겹겹이 쌓는다",
-        "중공사 – 방사선 멸균에 약하다"
-      ],
-      "answer": 3,
-      "explanation": "**카세트(flat sheet, Sartocon)는 고점도·고농도(>200 g/L)에 강하고 flux가 높으며 CIP로 여러 번 써 원가를 낮추지만 holder가 필요하다. 중공사(hollow fiber)는 holder 없이 쓰는 독립형으로 닫힌 구조·방사선 내성·작은 설치 면적이 장점이다.** Spiral-wound는 막을 말아 감은 형태다.",
-      "choiceNotes": [
-        "틀리다 — holder가 필요 없는 독립형이다.",
-        "틀리다 — holder가 필요하다.",
-        "옳다 — 고성능, CIP 재사용, SIP·autoclave 가능.",
-        "틀리다 — 쌓는 것은 flat plate(카세트), spiral은 말아 감는다.",
-        "틀리다 — 방사선에 강하다."
-      ],
-      "source": "WK04 PDF p.95–96 (Membrane(Module) Type Selection)",
-      "tags": [
-        "Cassette (flat sheet module)",
-        "Hollow fiber module",
-        "Spiral-wound module"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk04-051",
-      "type": "연결",
-      "question": "TFF 용도와 제품 회수 위치의 연결로 옳은 것은?",
-      "choices": [
-        "농축 – 제품이 permeate로 나온다",
-        "다이아필트레이션 – 제품이 permeate로 나온다",
-        "정화(clarification) – 제품이 permeate로 나온다",
-        "관류 배양 – 세포가 permeate로 빠진다",
-        "정화 – 한외여과(UF)를 쓴다"
-      ],
-      "answer": 3,
-      "explanation": "**정화는 제품이 permeate로 나오고(MF), 농축·다이아필트레이션은 제품이 retentate에 남으며(MF·UF), 관류(perfusion)는 세포를 retentate로 붙잡아 둔다(MF).**",
-      "choiceNotes": [
-        "틀리다 — retentate에 남는다.",
-        "틀리다 — retentate에 남는다.",
-        "옳다 — 세포·찌꺼기는 막에 남고 제품은 통과한다.",
-        "틀리다 — 세포는 retentate에 남는다.",
-        "틀리다 — 정밀여과(MF)를 쓴다."
-      ],
-      "source": "WK04 PDF p.100 (TFF의 목적에 따른 분류)",
-      "tags": [
-        "Clarification",
-        "Concentration",
-        "Diafiltration"
-      ],
-      "part": 2
     },
     {
       "id": "wk04-052",
@@ -1388,33 +1276,6 @@
       "part": 1
     },
     {
-      "id": "wk04-090",
-      "type": "개념",
-      "question": "강의에서 꼭 알라고 한 CHO 세포의 배가 시간(Doubling time)은?",
-      "choices": [
-        "약 하루",
-        "약 1시간",
-        "약 일주일",
-        "약 한 달",
-        "약 1년"
-      ],
-      "answer": 1,
-      "explanation": "**CHO 세포의 배가 시간은 약 하루라서, 이를 알면 다음 배양기로 옮길(계대) 시점을 미리 짤 수 있다.**",
-      "choiceNotes": [
-        "옳다 — 이걸 알면 계대 일정을 짤 수 있다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다."
-      ],
-      "source": "WK04 강의 녹음② 59:28–1:00:35 (Doubling time)",
-      "tags": [
-        "Doubling time",
-        "CHO 세포"
-      ],
-      "part": 1
-    },
-    {
       "id": "wk04-092",
       "type": "개념",
       "question": "관류(Perfusion) 배양이 긴 시드 트레인의 위험을 줄이는 방법은?",
@@ -1492,33 +1353,6 @@
       "tags": [
         "Aggregate",
         "Low pH viral inactivation"
-      ],
-      "part": 1
-    },
-    {
-      "id": "wk04-106",
-      "type": "개념",
-      "question": "IEX 용출 조건을 현업에서 부르는 말과 단위로 옳은 것은?",
-      "choices": [
-        "낮은 pH, nm",
-        "높은 전도도(High conductivity), mS/cm",
-        "높은 온도, ℃",
-        "높은 압력, bar",
-        "낮은 전도도, g/L"
-      ],
-      "answer": 2,
-      "explanation": "**IEX 용출 조건은 염 농도를 높이는 것(high salt)이고, 현업에서는 높은 전도도(high conductivity)라고 하며 단위는 mS/cm다.** 강의: 실습을 해 봤다면 면접에서 이런 질문에 바로 답할 수 있어야 한다.",
-      "choiceNotes": [
-        "틀리다 — 그것은 Protein A 용출이다.",
-        "옳다 — 염이 많을수록 전도도가 높다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — 반대이고 단위도 다르다."
-      ],
-      "source": "WK04 강의 녹음② 1:59:45–2:01:56 (IEX 용출 조건)",
-      "tags": [
-        "Conductivity",
-        "IEX"
       ],
       "part": 1
     },

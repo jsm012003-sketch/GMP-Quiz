@@ -444,6 +444,70 @@
       "part": 1
     },
     {
+      "id": "wk04-037",
+      "type": "연결",
+      "part": 2,
+      "question": "Vmax와 Pmax(Tmax) sizing test의 차이로 옳은 것은?",
+      "choices": [
+        "Vmax는 일정 유속, Pmax는 일정 압력에서 한다",
+        "Vmax는 주로 depth filter에 쓴다",
+        "Tmax는 압력이 끝점에 이르면 끝낸다",
+        "Vmax는 일정 압력, Pmax는 일정 유속에서 한다",
+        "두 시험은 같은 조건에서 한다"
+      ],
+      "answer": 4,
+      "explanation": "**Vmax는 압력을 고정하고 유속이 끝점까지 떨어지기 전의 최대 여과량(주로 membrane filter), Pmax·Tmax는 유속을 고정하고 압력·탁도가 끝점에 이르기 전의 최대 여과량(주로 depth filter)이다.** Membrane은 입자를 놓치지 않아 실패 = 막힘이므로 유속 감소로 보고, depth filter는 압력이 오르면 잡은 입자를 흘릴 수 있어 압력·탁도로 감시한다. Pmax는 '최대 압력', Tmax는 '최대 탁도'가 아니라 최대 여과량(L/m²)이다.",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "틀리다 — Vmax는 주로 membrane filter에 쓴다.",
+        "틀리다 — Tmax는 여과액 탁도(turbidity)가 끝점에 이르면 끝낸다.",
+        "옳다 — Vmax는 압력을 고정하고 유속이 끝점까지 떨어지기 전의 최대 여과량(주로 membrane filter), Pmax·Tmax는 유속을 고정하고 압력·탁도가 끝점에 이르기 전의 최대 여과량(주로 depth filter)이다",
+        "틀리다 — 고정하는 값(압력 vs 유속)과 끝점이 다르다."
+      ],
+      "source": "WK04 PDF p.66–67 (Sizing Test Classification) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Vmax",
+        "Pmax",
+        "Filter sizing test"
+      ],
+      "tags": [
+        "Vmax",
+        "Pmax",
+        "Filter sizing test"
+      ]
+    },
+    {
+      "id": "wk04-038",
+      "type": "연결",
+      "part": 2,
+      "question": "Filter sizing에서 flux와 capacity의 구분으로 옳은 것은?",
+      "choices": [
+        "Flux는 L/m²/h, capacity는 L/m²로 나타낸다",
+        "Flux는 L/m², capacity는 L/m²/h로 나타낸다",
+        "두 값은 같은 뜻이다",
+        "Capacity는 필터 한 개의 가격을 뜻한다",
+        "Flux가 크면 capacity도 반드시 크다"
+      ],
+      "answer": 1,
+      "explanation": "**Flux(LMH)는 막 1 m²가 1시간에 통과시키는 양으로 크로마토그래피의 linear velocity에 해당하고, capacity(L/m²)는 막 1 m²가 막히기 전까지 처리하는 양이다.** 그래서 여과 시간 = capacity ÷ flux이고, scale-up은 flux와 capacity를 시험과 같게 두고 면적만 부피에 비례해 키운다. 막힘이 적은 시료는 flux가, 막힘이 많은 시료는 capacity가 면적을 정한다.",
+      "choiceNotes": [
+        "옳다 — Flux(LMH)는 막 1 m²가 1시간에 통과시키는 양으로 크로마토그래피의 linear velocity에 해당하고, capacity(L/m²)는 막 1 m²가 막히기 전까지 처리하는 양이다",
+        "틀리다 — 반대다.",
+        "틀리다 — flux는 빠르기, capacity는 막히기 전까지 처리하는 양이다.",
+        "틀리다 — 가격과는 관계없다.",
+        "틀리다 — 두 값은 따로 정해진다. flux를 바꾸면 capacity도 다시 시험해야 한다."
+      ],
+      "source": "WK04 PDF p.68 (Filter Sizing Result) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Flux (LMH)",
+        "Filter capacity (L/m²)"
+      ],
+      "tags": [
+        "Flux (LMH)",
+        "Filter capacity (L/m²)"
+      ]
+    },
+    {
       "id": "wk04-040",
       "type": "연결",
       "question": "카트리지 필터와 캡슐 필터의 차이로 옳은 것은?",
@@ -554,6 +618,72 @@
         "Optimum TMP"
       ],
       "part": 1
+    },
+    {
+      "id": "wk04-050",
+      "type": "연결",
+      "part": 2,
+      "question": "TFF 모듈 cassette와 hollow fiber의 비교로 옳은 것은?",
+      "choices": [
+        "Cassette는 고농도 UF/DF에 강하지만 holder가 필요하다",
+        "Hollow fiber는 스테인리스 holder가 꼭 필요하다",
+        "Cassette는 일회용이라 CIP를 하지 않는다",
+        "Hollow fiber는 세포가 든 액체에 쓰면 쉽게 막힌다",
+        "Cassette는 perfusion 세포 분리에 주로 쓴다"
+      ],
+      "answer": 1,
+      "explanation": "**Cassette는 평판 막과 spacer로 난류를 만들어 flux가 높고 고농도(>200 g/L) UF/DF에 강하며 CIP로 재사용하지만 스테인리스 holder가 필요하고, hollow fiber는 속 빈 관 다발이라 세포·입자가 있어도 잘 안 막혀 perfusion 세포 분리·백신·일회용 공정에 쓴다(큰 펌프 필요).** 규칙: 지저분하거나 크거나 일회용이면 hollow fiber, 깨끗한 단백질을 고효율로 재사용하면 cassette.",
+      "choiceNotes": [
+        "옳다 — Cassette는 평판 막과 spacer로 난류를 만들어 flux가 높고 고농도(>200 g/L) UF/DF에 강하며 CIP로 재사용하지만 스테인리스 holder가 필요하고, hollow fiber는 속 빈 관 다발이라 세포·입자가 있어도 잘 안 막혀 perfusion 세포 분리·백신·일회용 공정에 쓴다(큰 펌프 필요)",
+        "틀리다 — hollow fiber는 holder 없이 쓰는 독립형이다.",
+        "틀리다 — cassette는 CIP로 여러 번 다시 써 원가(CoG)를 낮춘다.",
+        "틀리다 — 속이 뚫린 채널이라 세포·입자가 있어도 잘 안 막힌다.",
+        "틀리다 — perfusion 세포 분리에는 hollow fiber를 쓴다."
+      ],
+      "source": "WK04 PDF p.95–96 (Membrane(Module) Type Selection) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Cassette filter",
+        "Hollow fiber"
+      ],
+      "tags": [
+        "Cassette filter",
+        "Hollow fiber"
+      ]
+    },
+    {
+      "id": "wk04-051",
+      "type": "연결",
+      "part": 2,
+      "question": "MF-TFF와 UF-TFF에서 항체가 있는 쪽의 연결로 옳은 것은?",
+      "choices": [
+        "MF – permeate, UF – retentate",
+        "MF – retentate, UF – permeate",
+        "MF·UF 모두 permeate로 빠져나간다",
+        "MF·UF 모두 retentate에 남는다",
+        "MF는 항체를 막 표면에 붙여 잡는다"
+      ],
+      "answer": 1,
+      "explanation": "**MF는 세포·찌꺼기를 걸러 내는 것이라 항체는 막을 지나 permeate로 나오고(clarification), UF는 단백질을 남기는 것이라 항체가 retentate에 남는다(농축·DF).** Perfusion에서는 MF로 세포를 retentate에 붙잡아 두고 상등액만 뺀다.",
+      "choiceNotes": [
+        "옳다 — MF는 세포·찌꺼기를 걸러 내는 것이라 항체는 막을 지나 permeate로 나오고(clarification), UF는 단백질을 남기는 것이라 항체가 retentate에 남는다(농축·DF)",
+        "틀리다 — 반대다.",
+        "틀리다 — UF에서 항체는 막을 못 지나 retentate에 남는다.",
+        "틀리다 — MF에서 항체는 막을 지나 permeate로 나온다.",
+        "틀리다 — MF는 크기로 거르는 여과다. 붙여 잡는 것은 크로마토그래피다."
+      ],
+      "source": "WK04 PDF p.100 (TFF의 목적에 따른 분류) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Microfiltration",
+        "Ultrafiltration",
+        "Retentate",
+        "Permeate"
+      ],
+      "tags": [
+        "Microfiltration",
+        "Ultrafiltration",
+        "Retentate",
+        "Permeate"
+      ]
     },
     {
       "id": "wk04-053",
@@ -1044,6 +1174,37 @@
       "part": 1
     },
     {
+      "id": "wk04-090",
+      "type": "개념",
+      "question": "강의에서 꼭 알라고 한 CHO 세포의 doubling time은?",
+      "choices": [
+        "약 하루",
+        "약 1시간",
+        "약 일주일",
+        "약 한 달",
+        "약 1년"
+      ],
+      "answer": 1,
+      "explanation": "**CHO 세포의 doubling time은 약 하루(약 24시간)라, 이를 알면 다음 배양기로 옮길 시점(seed train 일정)을 미리 짤 수 있다.** 동물세포는 단계마다 약 5배씩 키우므로 한 단계에 약 2.3일이 걸린다.",
+      "choiceNotes": [
+        "옳다 — 이걸 알면 계대 일정을 짤 수 있다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다."
+      ],
+      "source": "WK04 강의 녹음② 59:28–1:00:35 (Doubling time) · WK04 판서 정리(09.23)",
+      "tags": [
+        "Doubling time",
+        "Seed train"
+      ],
+      "part": 1,
+      "concepts": [
+        "Doubling time",
+        "Seed train"
+      ]
+    },
+    {
       "id": "wk04-091",
       "type": "연결",
       "question": "Batch와 Fed-batch를 시작하는 방법의 차이로 옳은 것은?",
@@ -1369,6 +1530,37 @@
         "Flow-through mode"
       ],
       "part": 2
+    },
+    {
+      "id": "wk04-106",
+      "type": "개념",
+      "part": 1,
+      "question": "IEX 용출 조건을 현업에서 부르는 말과 그 단위로 옳은 것은?",
+      "choices": [
+        "High conductivity, mS/cm",
+        "Low pH, nm",
+        "높은 온도, ℃",
+        "높은 압력, bar",
+        "Low conductivity, g/L"
+      ],
+      "answer": 1,
+      "explanation": "**IEX는 염 농도를 높여(high salt) 떼어 내며, 현업에서는 이를 high conductivity라고 하고 단위는 mS/cm(작으면 µS/cm)다.** 강의: 1 M NaCl의 conductivity는 25 ℃에서 약 85 mS/cm 수준 — 면접에서 물을 수 있는 값이다.",
+      "choiceNotes": [
+        "옳다 — IEX는 염 농도를 높여(high salt) 떼어 내며, 현업에서는 이를 high conductivity라고 하고 단위는 mS/cm(작으면 µS/cm)다",
+        "틀리다 — low pH는 Protein A 용출 조건이다.",
+        "틀리다 — 온도로 떼어 내지 않는다.",
+        "틀리다 — 압력으로 떼어 내지 않는다.",
+        "틀리다 — 반대이고 단위도 다르다."
+      ],
+      "source": "WK04 강의 녹음② 1:59:45–2:01:56 (IEX 용출 조건) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Conductivity",
+        "IEX"
+      ],
+      "tags": [
+        "Conductivity",
+        "IEX"
+      ]
     },
     {
       "id": "wk04-108",
@@ -2067,6 +2259,541 @@
       "tags": [
         "PUPSIT",
         "Filter integrity test"
+      ]
+    },
+    {
+      "id": "wk04-134",
+      "type": "연결",
+      "part": 2,
+      "question": "VI와 VF의 구분으로 옳은 것은?",
+      "choices": [
+        "VI는 필터로 거르고, VF는 low pH로 죽인다",
+        "VF는 enveloped virus에만 효과가 있다",
+        "VI는 low pH로 바이러스를 죽이고, VF는 약 20 nm 필터로 걸러 낸다",
+        "VI는 non-enveloped virus에 가장 잘 듣는다",
+        "두 단계는 원리가 같아 하나만 하면 된다"
+      ],
+      "answer": 3,
+      "explanation": "**VI(Virus Inactivation)는 low pH로 바이러스를 죽이는 단계, VF(Virus Filter)는 약 20 nm 필터로 바이러스를 걸러 내는 단계다 — 이름이 비슷해 헷갈리기 쉽다.** 바이러스 처리 3단계: low pH VI(죽임) → AEX(흡착 제거) → VF(걸러 제거). 단계마다 5~6 LRV를 기대하고 합쳐 10대 후반 LRV를 확보한다.",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "틀리다 — VF는 크기로 거르므로 외피 유무와 상관없이 효과가 있다.",
+        "옳다 — VI(Virus Inactivation)는 low pH로 바이러스를 죽이는 단계, VF(Virus Filter)는 약 20 nm 필터로 바이러스를 걸러 내는 단계다 — 이름이 비슷해 헷갈리기 쉽다",
+        "틀리다 — low pH는 lipid envelope를 깨뜨려 enveloped virus에 듣는다.",
+        "틀리다 — 원리가 달라야 서로 놓친 바이러스를 잡는다(orthogonal)."
+      ],
+      "source": "WK04 강의 녹음② 2:08:04–2:10:40 (바이러스 제거 단계) · WK04 강의 녹음② 1:48:17–1:49:46 (Low pH viral inactivation) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Low pH viral inactivation",
+        "Virus filtration"
+      ],
+      "tags": [
+        "Low pH viral inactivation",
+        "Virus filtration"
+      ]
+    },
+    {
+      "id": "wk04-135",
+      "type": "개념",
+      "part": 1,
+      "question": "바이러스 관리에서 upstream과 downstream의 역할로 옳은 것은?",
+      "choices": [
+        "Upstream에서 모두 제거하므로 downstream은 필요 없다",
+        "Upstream은 들어오지 않게 막고, downstream은 제거한다",
+        "Downstream은 막기만 하고 제거는 하지 않는다",
+        "두 공정 모두 바이러스와 관계없다",
+        "Upstream은 VF로 바이러스를 걸러 낸다"
+      ],
+      "answer": 2,
+      "explanation": "**Upstream은 바이러스가 들어오지 않게 막고(prevention), downstream은 들어왔을 수 있는 바이러스를 없앤다(clearance).** 배양기에는 숙주세포가 있어 바이러스가 들어오면 증식하므로 배지를 미리 처리(mitigation)해 막고, 정제에서는 원리가 다른 단계로 제거하고 VCS로 증명한다.",
+      "choiceNotes": [
+        "틀리다 — 배양 중 막아도 downstream에서 제거·증명(VCS)해야 한다.",
+        "옳다 — Upstream은 바이러스가 들어오지 않게 막고(prevention), downstream은 들어왔을 수 있는 바이러스를 없앤다(clearance)",
+        "틀리다 — downstream은 low pH·AEX·VF로 제거(clearance)한다.",
+        "틀리다 — 배양기에는 숙주세포가 있어 바이러스가 들어오면 늘어난다.",
+        "틀리다 — VF는 downstream 단계다."
+      ],
+      "source": "WK04 강의 녹음② 1:46:07–1:48:13 (VCS) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "VCS (Viral Clearance Study)",
+        "Viral clearance"
+      ],
+      "tags": [
+        "VCS (Viral Clearance Study)",
+        "Viral clearance"
+      ]
+    },
+    {
+      "id": "wk04-136",
+      "type": "개념",
+      "part": 2,
+      "question": "VF 뒤 완제 단계에서 바이러스 여과는 다시 하지 않지만 0.2 µm 제균여과는 충전 직전에 하는 이유는?",
+      "choices": [
+        "세균이 바이러스보다 작아서",
+        "0.2 µm 필터가 바이러스도 걸러 내서",
+        "VF가 제균 필터보다 값이 싸서",
+        "완제 단계에는 세균이 들어올 수 없어서",
+        "바이러스는 숙주세포 없이 늘지 못하지만 세균은 혼자 자랄 수 있어서"
+      ],
+      "answer": 5,
+      "explanation": "**바이러스는 숙주세포 안에서만 늘 수 있는데 clarification 뒤에는 세포가 없어 VF 이후 늘어날 수 없고, 세균은 혼자 자라며 어디서나 들어올 수 있어 충전 직전에 0.2 µm 제균여과를 한다.** VF 이후 넣는 원료(WFI, 합성 시약, 비동물 유래 부형제)로 바이러스 유입도 막는다. VF는 비싸고 느리며, 고농도 완제 용액은 점도가 높아 VF에 맞지 않는다.",
+      "choiceNotes": [
+        "틀리다 — 세균(약 1 µm)이 바이러스(20~100 nm)보다 훨씬 크다.",
+        "틀리다 — 0.2 µm 필터는 바이러스를 거르지 못한다.",
+        "틀리다 — VF는 비싸고 느리다.",
+        "틀리다 — 세균은 어디서나 들어올 수 있어 충전 직전에 거른다.",
+        "옳다 — 바이러스는 숙주세포 안에서만 늘 수 있는데 clarification 뒤에는 세포가 없어 VF 이후 늘어날 수 없고, 세균은 혼자 자라며 어디서나 들어올 수 있어 충전 직전에 0.2 µm 제균여과를 한다"
+      ],
+      "source": "WK04 강의 녹음② 2:44:29–2:45:22, 2:48:18 (정제는 비무균) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Virus filtration",
+        "Sterile filtration (제균여과)"
+      ],
+      "tags": [
+        "Virus filtration",
+        "Sterile filtration (제균여과)"
+      ]
+    },
+    {
+      "id": "wk04-137",
+      "type": "개념",
+      "part": 1,
+      "question": "용액의 pH가 단백질의 pI보다 낮을 때 그 단백질의 전하는?",
+      "choices": [
+        "− 전하를 띤다",
+        "전하가 0이 된다",
+        "pH와 관계없이 늘 − 전하다",
+        "+ 전하를 띤다",
+        "pH와 관계없이 늘 + 전하다"
+      ],
+      "answer": 4,
+      "explanation": "**pH < pI이면 H⁺가 많아 단백질이 H⁺를 받아 + 전하, pH > pI이면 H⁺를 내놓아 − 전하, pH = pI이면 전체 전하가 0이다.** 항체 pI는 약 7~8이라 pH 5~6에서 + 전하를 띠어 CEX에 붙는다. DNA는 인산 뼈대 때문에 거의 모든 pH에서 강한 − 전하라 AEX에 잘 붙는다.",
+      "choiceNotes": [
+        "틀리다 — pH가 pI보다 높을 때 − 전하다.",
+        "틀리다 — pH = pI일 때 전체 전하가 0이다.",
+        "틀리다 — 전하는 pH에 따라 바뀐다.",
+        "옳다 — pH < pI이면 H⁺가 많아 단백질이 H⁺를 받아 + 전하, pH > pI이면 H⁺를 내놓아 − 전하, pH = pI이면 전체 전하가 0이다",
+        "틀리다 — pH가 pI보다 높으면 − 전하가 된다."
+      ],
+      "source": "WK04 강의 녹음② 1:53:29–1:58:46, 2:04:09–2:04:51 (CEX 조건) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "pI (등전점)"
+      ],
+      "tags": [
+        "pI (등전점)"
+      ]
+    },
+    {
+      "id": "wk04-138",
+      "type": "개념",
+      "part": 2,
+      "question": "CEX에서 pH를 6~7이 아니라 5~6으로 맞추는 이유는?",
+      "choices": [
+        "pI(7~8)에서 멀어야 항체의 + 전하가 강해 단단히 붙어서",
+        "pH 6~7에서는 항체가 − 전하를 띠어서",
+        "pH가 낮을수록 바이러스가 늘어나서",
+        "pH 5~6에서 항체가 pI에 더 가까워져서",
+        "pH 6~7에서는 conductivity가 0이 되어서"
+      ],
+      "answer": 1,
+      "explanation": "**전하는 pI에서 멀수록 강해지는데, pH 6~7은 항체 pI(7~8)에 너무 가까워 + 전하가 약하므로 5~6을 쓴다.** 너무 낮추면 대부분 부위가 +가 되어 서로 밀어내 구조가 풀리고 응집하므로, 5~6으로 맞춘 뒤 공정 끝까지 유지한다.",
+      "choiceNotes": [
+        "옳다 — 전하는 pI에서 멀수록 강해지는데, pH 6~7은 항체 pI(7~8)에 너무 가까워 + 전하가 약하므로 5~6을 쓴다",
+        "틀리다 — pH 6~7도 pI보다 낮아 + 전하지만 너무 약하다.",
+        "틀리다 — pH는 바이러스 증식과 관계없다.",
+        "틀리다 — 반대다. 5~6이 pI에서 더 멀다.",
+        "틀리다 — pH와 conductivity는 따로 바뀐다."
+      ],
+      "source": "WK04 강의 녹음② 1:53:29–1:58:46, 2:04:09–2:04:51 (CEX 조건) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "pI (등전점)",
+        "CEX"
+      ],
+      "tags": [
+        "pI (등전점)",
+        "CEX"
+      ]
+    },
+    {
+      "id": "wk04-139",
+      "type": "연결",
+      "part": 2,
+      "question": "Bioburden reduction 여과와 sterile filtration의 구분으로 옳은 것은?",
+      "choices": [
+        "Sterile filtration은 세균 챌린지와 integrity test로 무균 보증을 검증한다",
+        "Bioburden reduction도 무균을 보증한다",
+        "둘은 pore size가 같으면 같은 뜻이다",
+        "Sterile filtration에는 integrity test가 필요 없다",
+        "Bioburden reduction은 충전 직전 마지막 여과다"
+      ],
+      "answer": 1,
+      "explanation": "**Bioburden reduction은 균 수를 줄이는 여과이고, sterile filtration은 B. diminuta 10⁷ CFU/cm² 챌린지로 검증한 필터를 integrity test로 확인해 무균을 보증하는 여과다.** 같은 0.2 µm급 membrane이라도 검증과 시험이 있어야 sterile이다.",
+      "choiceNotes": [
+        "옳다 — Bioburden reduction은 균 수를 줄이는 여과이고, sterile filtration은 B. diminuta 10⁷ CFU/cm² 챌린지로 검증한 필터를 integrity test로 확인해 무균을 보증하는 여과다",
+        "틀리다 — 균 수를 줄일 뿐 무균을 보증하지 않는다.",
+        "틀리다 — 같은 0.2 µm급이라도 검증 여부가 다르다.",
+        "틀리다 — 사용 전·후 integrity test를 한다.",
+        "틀리다 — 충전 직전 마지막 여과는 sterile filtration이다."
+      ],
+      "source": "WK04 PDF p.24 (제균 Filter의 정의), p.121 · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Bioburden reduction",
+        "Sterilizing-grade filter"
+      ],
+      "tags": [
+        "Bioburden reduction",
+        "Sterilizing-grade filter"
+      ]
+    },
+    {
+      "id": "wk04-140",
+      "type": "연결",
+      "part": 2,
+      "question": "Gas filter와 vent filter의 구분으로 옳은 것은?",
+      "choices": [
+        "Vent filter는 압축기로 기체를 한 방향으로 넣는다",
+        "Gas filter는 기체를 한 방향으로 공급하고, vent filter는 탱크가 양방향으로 숨 쉬게 한다",
+        "Gas filter는 친수성 막을 써야 한다",
+        "Vent filter는 젖어도 공기가 잘 통한다",
+        "둘 다 액체를 거르는 필터다"
+      ],
+      "answer": 2,
+      "explanation": "**Gas filter는 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급하고, vent filter는 수위·온도 변화에 따라 탱크가 숨 쉬도록 양방향으로 공기를 통과시킨다.** 둘 다 물에 젖지 않는 소수성 막(주로 PTFE)을 쓴다. Vent filter는 젖거나 막히면 진공으로 탱크가 찌그러질 수 있다.",
+      "choiceNotes": [
+        "틀리다 — 그것은 gas filter다. vent는 수위·온도 변화로 양방향 흐른다.",
+        "옳다 — Gas filter는 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급하고, vent filter는 수위·온도 변화에 따라 탱크가 숨 쉬도록 양방향으로 공기를 통과시킨다",
+        "틀리다 — 둘 다 소수성 막(주로 PTFE)을 쓴다.",
+        "틀리다 — 젖으면 공기가 못 지나가 진공 사고가 날 수 있다.",
+        "틀리다 — 둘 다 기체 필터다."
+      ],
+      "source": "WK04 PDF p.50–51 (Gas / Vent Filter, Hydrophobic PTFE) · WK04 강의 녹음② 2:41:42–2:42:45 (배양기 필터) · WK04 PDF p.48–50 · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Gas filter",
+        "Vent filter"
+      ],
+      "tags": [
+        "Gas filter",
+        "Vent filter"
+      ]
+    },
+    {
+      "id": "wk04-141",
+      "type": "개념",
+      "part": 2,
+      "question": "탱크를 SIP한 뒤 식힐 때 제균 vent filter가 꼭 필요한 이유는?",
+      "choices": [
+        "스팀을 빨리 빼서 멸균 시간을 줄이려고",
+        "탱크 안 액체를 거르려고",
+        "스팀이 응축하며 생긴 강한 진공을 무균 공기로 채워야 해서",
+        "진공을 더 강하게 만들려고",
+        "탱크 온도를 재려고"
+      ],
+      "answer": 3,
+      "explanation": "**SIP 뒤 탱크가 식으면 스팀이 물로 응축하며 강한 진공이 생기므로, 제균 vent filter로 무균 공기를 들여 압력을 맞춰야 오염 없이 탱크가 찌그러지지 않는다.** 그래서 vent filter는 젖지 않는 소수성 PTFE를 쓰고, WFI 탱크처럼 습한 곳은 하우징을 데워 응축을 막는다.",
+      "choiceNotes": [
+        "틀리다 — 멸균 시간과는 관계없다.",
+        "틀리다 — vent filter는 기체 필터다.",
+        "옳다 — SIP 뒤 탱크가 식으면 스팀이 물로 응축하며 강한 진공이 생기므로, 제균 vent filter로 무균 공기를 들여 압력을 맞춰야 오염 없이 탱크가 찌그러지지 않는다",
+        "틀리다 — 진공을 풀어 주는 것이 목적이다.",
+        "틀리다 — 온도는 센서로 잰다."
+      ],
+      "source": "WK04 PDF p.50–51 (Gas / Vent Filter, Hydrophobic PTFE) · WK04 PDF p.48–49 (Importance of Understanding Gas Filters) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Vent filter",
+        "SIP"
+      ],
+      "tags": [
+        "Vent filter",
+        "SIP"
+      ]
+    },
+    {
+      "id": "wk04-142",
+      "type": "개념",
+      "part": 2,
+      "question": "TFF cassette를 쓴 뒤 마르기 전에 바로 세척하는 이유는?",
+      "choices": [
+        "마른 막이 더 잘 씻겨서",
+        "NaOH가 마른 막에만 스며들어서",
+        "세척을 늦출수록 NWP가 올라가서",
+        "오래 두면 오염물이 굳고 단단히 붙어 지우기 어려워져서",
+        "오래 두면 오염물이 저절로 녹아 나와서"
+      ],
+      "answer": 4,
+      "explanation": "**사용 후 오래 두면 오염물이 탈수·압밀·산화·cross-linking으로 굳고(aging), 약한 물리 흡착이 화학 결합으로 바뀌어 지우기 어려워지므로 마르기 전에 빨리 세척한다(dirty hold time 관리).** 세척이 덜 되면 fouling이 남아 막 수명이 준다.",
+      "choiceNotes": [
+        "틀리다 — 마르면 오염물이 막에 눌어붙는다.",
+        "틀리다 — 젖은 막이 세척액과 잘 닿는다.",
+        "틀리다 — 늦출수록 막혀 NWP는 오히려 떨어진다.",
+        "옳다 — 사용 후 오래 두면 오염물이 탈수·압밀·산화·cross-linking으로 굳고(aging), 약한 물리 흡착이 화학 결합으로 바뀌어 지우기 어려워지므로 마르기 전에 빨리 세척한다(dirty hold time 관리)",
+        "틀리다 — 저절로 녹지 않는다."
+      ],
+      "source": "WK06 강의 녹음 57:45–58:47, 1:05:28–1:06:34 (카세트 필터·레진 재사용) · WK04 PDF p.107–109 (Cassettes Cleaning) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Fouling",
+        "Cassette filter"
+      ],
+      "tags": [
+        "Fouling",
+        "Cassette filter"
+      ]
+    },
+    {
+      "id": "wk04-143",
+      "type": "개념",
+      "part": 1,
+      "question": "Integrity test를 하지 않는 필터는?",
+      "choices": [
+        "제균(sterile) 필터",
+        "Virus filter",
+        "TFF cassette",
+        "제균 vent filter",
+        "Depth filter"
+      ],
+      "answer": 5,
+      "explanation": "**Depth filter는 두꺼운 섬유층 안에 확률적으로 입자를 잡는 필터라 구멍 크기를 보증하지 않으므로 integrity test를 하지 않는다.** Integrity test는 sterile filter, virus filter, cassette처럼 구멍 크기로 확실히 거르는(absolute) membrane에 한다. HEPA는 에어로졸 스캔으로 따로 확인한다.",
+      "choiceNotes": [
+        "틀리다 — 사용 전·후 integrity test를 한다.",
+        "틀리다 — integrity test 대상이다.",
+        "틀리다 — 쓰기 전에 integrity test를 해 막 손상을 확인한다.",
+        "틀리다 — 기체 제균 필터도 integrity test(WIT 등)를 한다.",
+        "옳다 — Depth filter는 두꺼운 섬유층 안에 확률적으로 입자를 잡는 필터라 구멍 크기를 보증하지 않으므로 integrity test를 하지 않는다"
+      ],
+      "source": "WK04 PDF p.40–41 (Membrane / Depth filter) · WK04 PDF p.116–117 (Why Integrity Testing?) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Depth filter",
+        "Filter integrity test"
+      ],
+      "tags": [
+        "Depth filter",
+        "Filter integrity test"
+      ]
+    },
+    {
+      "id": "wk04-144",
+      "type": "개념",
+      "part": 2,
+      "question": "Bubble point test가 막의 가장 큰 구멍을 확인하는 시험인 이유는?",
+      "choices": [
+        "가장 작은 구멍부터 먼저 뚫려서",
+        "압력을 올리면 가장 큰 구멍부터 액체가 밀려나 뚫려서",
+        "모든 구멍이 같은 압력에서 동시에 뚫려서",
+        "막 면적을 재는 시험이라서",
+        "Wetting agent가 큰 구멍에는 들어가지 않아서"
+      ],
+      "answer": 2,
+      "explanation": "**Bubble point는 구멍 반지름에 반비례해, 압력을 올리면 가장 큰 구멍이 먼저 뚫린다 — 그래서 막의 최대 구멍 크기를 보여 주는 worst case 시험이다.** 큰 면적 필터는 확산 흐름이 커 bubble point가 흐려지므로 diffusion test를 더 쓴다.",
+      "choiceNotes": [
+        "틀리다 — 작은 구멍일수록 액체를 세게 붙잡아 늦게 뚫린다.",
+        "옳다 — Bubble point는 구멍 반지름에 반비례해, 압력을 올리면 가장 큰 구멍이 먼저 뚫린다 — 그래서 막의 최대 구멍 크기를 보여 주는 worst case 시험이다",
+        "틀리다 — 구멍이 클수록 낮은 압력에서 뚫린다.",
+        "틀리다 — 면적이 아니라 구멍 크기를 본다.",
+        "틀리다 — 젖은 막이라 큰 구멍에도 액체가 차 있다."
+      ],
+      "source": "WK04 PDF p.125–126 (Bubble Point Test) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Bubble point test"
+      ],
+      "tags": [
+        "Bubble point test"
+      ]
+    },
+    {
+      "id": "wk04-145",
+      "type": "개념",
+      "part": 1,
+      "question": "대장균의 inclusion body(봉입체)에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "그대로 활성이 있어 바로 약으로 쓴다",
+        "세포 밖 배양액에 녹아 있다",
+        "원심분리로 쉽게 모이고 단백분해효소로부터 보호된다",
+        "Refolding 없이 정제만 하면 된다",
+        "동물세포(CHO)에서 주로 생긴다"
+      ],
+      "answer": 3,
+      "explanation": "**봉입체는 과량 생산된 단백질이 잘못 접혀 뭉친 덩어리로, 발현량이 많고 원심분리로 쉽게 모이며 순도가 높고 단백분해효소로부터 보호되는 장점이 있다.** 대신 활성이 없어 세척 뒤 녹이고(solubilization) 다시 접어야(refolding) 한다(예: 대장균 재조합 인슐린).",
+      "choiceNotes": [
+        "틀리다 — 잘못 접힌 덩어리라 활성이 없다.",
+        "틀리다 — 세포 안에 뭉쳐 쌓인다.",
+        "옳다 — 봉입체는 과량 생산된 단백질이 잘못 접혀 뭉친 덩어리로, 발현량이 많고 원심분리로 쉽게 모이며 순도가 높고 단백분해효소로부터 보호되는 장점이 있다",
+        "틀리다 — 녹이고(solubilization) 다시 접어야(refolding) 한다.",
+        "틀리다 — 대장균 같은 미생물에서 과량 생산할 때 생긴다."
+      ],
+      "source": "WK04 PDF p.14 (Case Study – r-Insulin) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Inclusion body (봉입체)",
+        "Refolding (재접힘)"
+      ],
+      "tags": [
+        "Inclusion body (봉입체)",
+        "Refolding (재접힘)"
+      ]
+    },
+    {
+      "id": "wk04-146",
+      "type": "개념",
+      "part": 2,
+      "question": "대장균 공정에서 endotoxin 관리가 특히 중요한 이유는?",
+      "choices": [
+        "세포를 깰 때 바깥막 성분인 endotoxin(LPS)이 많이 나와서",
+        "CHO 세포가 endotoxin을 분비해서",
+        "Endotoxin은 low pH에서 늘어나서",
+        "Endotoxin이 항체의 약효를 높여서",
+        "대장균에는 세포벽이 없어서"
+      ],
+      "answer": 1,
+      "explanation": "**Endotoxin은 그람음성균 바깥막의 LPS로, 대장균은 산물이 세포 안에 있어 세포를 깨야 하므로(lysis) 이때 endotoxin이 대량으로 나온다.** 극미량으로도 발열을 일으키는 불순물 4총사 중 하나다.",
+      "choiceNotes": [
+        "옳다 — Endotoxin은 그람음성균 바깥막의 LPS로, 대장균은 산물이 세포 안에 있어 세포를 깨야 하므로(lysis) 이때 endotoxin이 대량으로 나온다",
+        "틀리다 — endotoxin은 그람음성균(대장균 등)의 바깥막 성분이다.",
+        "틀리다 — pH로 늘어나지 않는다.",
+        "틀리다 — 극미량으로도 열을 일으키는 불순물이다.",
+        "틀리다 — 대장균에는 세포벽이 있다."
+      ],
+      "source": "WK04 강의 녹음② 1:54:15–1:57:03 (불순물 4총사) · WK04 PDF p.13 (IB Process) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Endotoxin",
+        "Cell lysis (세포 파쇄)"
+      ],
+      "tags": [
+        "Endotoxin",
+        "Cell lysis (세포 파쇄)"
+      ]
+    },
+    {
+      "id": "wk04-147",
+      "type": "연결",
+      "part": 2,
+      "question": "IPC와 출하시험의 구분으로 옳은 것은?",
+      "choices": [
+        "IPC는 출하 직전에 한 번만 한다",
+        "출하시험은 공정 중에 다음 단계 진행을 판단한다",
+        "IPC 결과는 기록하지 않아도 된다",
+        "두 시험은 같은 뜻이다",
+        "IPC는 공정 중 다음 단계 진행을, 출하시험은 최종 출하를 판단한다"
+      ],
+      "answer": 5,
+      "explanation": "**IPC(In-Process Control)는 공정 중에 농도(A280)·pH·삼투압 등을 재서 다음 단계로 가도 되는지 판단하는 검사이고, 출하시험은 다 만든 제품을 내보내도 되는지 판단하는 최종 검사다.** Formulation 단계도 농축·DF·integrity test·IPC로 이루어진다.",
+      "choiceNotes": [
+        "틀리다 — IPC는 공정 중간중간에 한다.",
+        "틀리다 — 반대다.",
+        "틀리다 — GMP에서는 기록하지 않으면 하지 않은 것이다.",
+        "틀리다 — 판단하는 시점과 목적이 다르다.",
+        "옳다 — IPC(In-Process Control)는 공정 중에 농도(A280)·pH·삼투압 등을 재서 다음 단계로 가도 되는지 판단하는 검사이고, 출하시험은 다 만든 제품을 내보내도 되는지 판단하는 최종 검사다"
+      ],
+      "source": "WK04 PDF p.17 (F&F) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "IPC (In-Process Control)"
+      ],
+      "tags": [
+        "IPC (In-Process Control)"
+      ]
+    },
+    {
+      "id": "wk04-148",
+      "type": "개념",
+      "part": 2,
+      "question": "피하(SC) 자가주사용 항체를 아주 고농도로 만드는 이유와 그 대가로 옳은 것은?",
+      "choices": [
+        "주사 부피를 늘리려고 — 대가는 없다",
+        "Aggregate를 줄이려고 — 대신 점도가 낮아진다",
+        "주사 부피를 줄이려고 — 대신 aggregate와 점도가 늘어난다",
+        "보관 온도를 높이려고 — 대신 무균이 깨진다",
+        "원가를 없애려고 — 대신 약효가 준다"
+      ],
+      "answer": 3,
+      "explanation": "**피하(SC) 자가주사는 한 번에 넣을 수 있는 부피가 작아 항체를 아주 고농도로 만들고, 그 대가로 분자끼리 가까워져 aggregate가 늘고 점도가 높아진다.** 강의 예: titer 2 g/L 배양액을 펜 제형 100 g/L로 약 50배 농축한다. 그래서 안정제를 넣고, multimer가 많으면 동결건조한다.",
+      "choiceNotes": [
+        "틀리다 — 피하주사는 부피가 작아야 한다.",
+        "틀리다 — 고농도일수록 aggregate와 점도가 늘어난다.",
+        "옳다 — 피하(SC) 자가주사는 한 번에 넣을 수 있는 부피가 작아 항체를 아주 고농도로 만들고, 그 대가로 분자끼리 가까워져 aggregate가 늘고 점도가 높아진다",
+        "틀리다 — 농도와 무균은 관계없다.",
+        "틀리다 — 원가가 목적이 아니다."
+      ],
+      "source": "WK04 강의 녹음② 2:13:56–2:14:44 (농도 상승과 안정제) · WK04 강의 녹음② 2:16:13–2:17:50 (제형) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Formulation (제형)",
+        "Aggregate"
+      ],
+      "tags": [
+        "Formulation (제형)",
+        "Aggregate"
+      ]
+    },
+    {
+      "id": "wk04-149",
+      "type": "개념",
+      "part": 2,
+      "question": "배지 여과에 0.2 µm 제균 필터에 더해 0.1 µm 필터를 쓰는 이유는?",
+      "choices": [
+        "0.1 µm 필터가 바이러스를 모두 걸러서",
+        "세포벽이 없는 작은 mycoplasma가 0.2 µm 필터를 빠져나갈 수 있어서",
+        "0.2 µm 필터는 세균을 거르지 못해서",
+        "배지 속 단백질을 농축하려고",
+        "필터를 오래 쓰려고"
+      ],
+      "answer": 2,
+      "explanation": "**Mycoplasma는 세포벽이 없어 모양이 잘 바뀌는 아주 작은 세균(약 0.2~0.3 µm)이라 0.2 µm 필터를 비집고 지나갈 수 있으므로, 배지에는 0.1 µm 필터를 더한다.** 배양기에 들어가면 세포와 함께 자라 배치를 망친다.",
+      "choiceNotes": [
+        "틀리다 — 바이러스(20~100 nm)는 0.1 µm 필터로도 다 거르지 못한다.",
+        "옳다 — Mycoplasma는 세포벽이 없어 모양이 잘 바뀌는 아주 작은 세균(약 0.2~0.3 µm)이라 0.2 µm 필터를 비집고 지나갈 수 있으므로, 배지에는 0.1 µm 필터를 더한다",
+        "틀리다 — 0.2 µm 필터는 일반 세균을 거른다.",
+        "틀리다 — 여과로 배지를 농축하지 않는다.",
+        "틀리다 — 필터 수명과는 관계없다."
+      ],
+      "source": "WK02 PDF p.16 (수업 필기: Culture Media Preparation) · OT(Introduction to Design Project) PDF p.4 (Process + Quality Control by Unit) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Mycoplasma",
+        "Media filtration (배지 여과)"
+      ],
+      "tags": [
+        "Mycoplasma",
+        "Media filtration (배지 여과)"
+      ]
+    },
+    {
+      "id": "wk04-150",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "동물세포 seed train에서 한 단계마다 보통 약 몇 배씩 키워 다음 배양기로 옮기는가?",
+      "answers": [
+        "5",
+        "5배",
+        "약 5배",
+        "다섯 배",
+        "5x"
+      ],
+      "explanation": "**동물세포는 단계마다 약 5배씩 키운다** — 예: 15,000 L ← 3,000 L ← 600 L ← 120 L ← 24 L ← 약 5 L. WCB vial을 바로 큰 배양기에 넣으면 세포가 너무 묽어 잘 자라지 않는다. CHO doubling time이 약 24시간이라 한 단계에 약 2.3일이 걸린다.",
+      "source": "WK04 강의 녹음② 57:01–58:49, 1:01:31 (시드 트레인) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "Seed train"
+      ],
+      "tags": [
+        "Seed train"
+      ]
+    },
+    {
+      "id": "wk04-151",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "강의에서 외우라고 한 항체(IgG)의 분자량은 약 몇 kDa인가?",
+      "answers": [
+        "150",
+        "150kDa",
+        "150 kDa",
+        "약 150"
+      ],
+      "explanation": "**항체는 약 150 kDa이다.** 그래서 30 kDa 같은 UF 막(MWCO)은 항체를 retentate에 붙잡아 농축할 수 있다. 함께 외울 크기: 동물세포 약 10 µm, 미생물 약 1 µm, 제균 필터 0.2 µm, enveloped virus 약 100 nm, non-enveloped virus 약 20 nm.",
+      "source": "WK04 강의 녹음② 1:26:03–1:27:50 (크기 정리) · WK04 PDF p.46 (Pore Size / MWCO) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "MWCO",
+        "Ultrafiltration"
+      ],
+      "tags": [
+        "MWCO",
+        "Ultrafiltration"
       ]
     }
   ]

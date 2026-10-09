@@ -1337,6 +1337,35 @@
         "Low pH viral inactivation",
         "Aggregate"
       ]
+    },
+    {
+      "id": "wk06-063",
+      "type": "연결",
+      "part": 2,
+      "question": "Extractables와 leachables의 구분으로 옳은 것은?",
+      "choices": [
+        "Leachables는 극한 조건에서, extractables는 실제 공정에서 나온 것이다",
+        "Extractables는 극한 조건에서 나올 수 있는 것, leachables는 실제 공정에서 나온 것이다",
+        "둘 다 막에 붙은 단백질 찌꺼기다",
+        "Leachables는 세척 후 남은 NaOH만 뜻한다",
+        "Extractables는 제품에서 생긴 aggregate다"
+      ],
+      "answer": 2,
+      "explanation": "**Extractables는 강한 용매·고온 같은 극한 조건에서 소모품(플라스틱 등)에서 나올 수 있는 물질, leachables는 실제 공정 조건에서 제품으로 녹아 나온 물질이다.** E&L 연구로 몇 번 다시 써도 이런 물질이 나오지 않는지 확인해 재사용 횟수를 정한다.",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "옳다 — Extractables는 강한 용매·고온 같은 극한 조건에서 소모품(플라스틱 등)에서 나올 수 있는 물질, leachables는 실제 공정 조건에서 제품으로 녹아 나온 물질이다",
+        "틀리다 — 플라스틱 등 소모품에서 녹아 나오는 물질이다.",
+        "틀리다 — NaOH 잔류는 flushing으로 관리하는 것이다.",
+        "틀리다 — aggregate는 제품 유래 불순물이다."
+      ],
+      "source": "WK06 강의 녹음 1:40:05–1:41:52 (Extractables & Leachables) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "E&L (Extractables & Leachables)"
+      ],
+      "tags": [
+        "E&L (Extractables & Leachables)"
+      ]
     }
   ]
 }
