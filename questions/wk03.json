@@ -1211,6 +1211,101 @@
       "tags": [
         "UV 260 nm"
       ]
+    },
+    {
+      "id": "wk03-051",
+      "type": "연결",
+      "part": 2,
+      "question": "SEC의 desalting과 fine fractionation 운전 조건의 구분으로 옳은 것은?",
+      "choices": [
+        "Desalting은 긴 컬럼에 시료를 0.5~4 %만 넣는다",
+        "Fine fractionation은 넓고 짧은 컬럼에 시료를 30 %까지 넣는다",
+        "두 방법은 컬럼과 시료 조건이 같다",
+        "Fine fractionation은 높은 유속으로 빨리 끝낸다",
+        "Fine fractionation은 긴 컬럼에 시료를 조금만 넣고 낮은 유속으로 돌린다"
+      ],
+      "answer": 5,
+      "explanation": "**Fine fractionation은 시료를 컬럼 부피의 0.5~4 %만 넣고, 낮은 유속, 긴 컬럼(bed height 30~60 cm 이상), 낮은 배압으로 운전하는 마지막 polishing 단계다.** 반대로 desalting(group separation)은 넓고 짧은 컬럼에 비교적 큰 bead를 쓰고 시료를 컬럼 부피의 30 %까지 넣으며 높은 유속도 된다.",
+      "choiceNotes": [
+        "틀리다 — 반대다 — desalting은 넓고 짧은 컬럼에 컬럼 부피의 30 %까지 넣는다.",
+        "틀리다 — 그것은 desalting 조건이다.",
+        "틀리다 — 목적이 달라 조건이 정반대다.",
+        "틀리다 — Fine fractionation은 낮은 유속으로 운전한다.",
+        "옳다 — Fine fractionation은 시료를 컬럼 부피의 0.5~4 %만 넣고, 낮은 유속, 긴 컬럼(bed height 30~60 cm 이상), 낮은 배압으로 운전하는 마지막 polishing 단계다"
+      ],
+      "source": "WK03 교재 p.20 (Fine fractionation) · WK03 교재 (2.3 Desalting과 Buffer exchange)",
+      "concepts": [
+        "Fine fractionation (정밀 분리)",
+        "Desalting (탈염)"
+      ],
+      "tags": [
+        "Fine fractionation (정밀 분리)",
+        "Desalting (탈염)"
+      ]
+    },
+    {
+      "id": "wk03-052",
+      "type": "개념",
+      "part": 2,
+      "question": "Fine fractionation에서 시료 부피를 작게(컬럼 부피의 0.5~4 %) 넣는 이유는?",
+      "choices": [
+        "시료 부피가 크면 peak가 넓어져 크기가 비슷한 분자끼리 겹쳐서",
+        "시료가 적을수록 레진에 더 강하게 결합해서",
+        "시료를 많이 넣으면 pore가 커져서",
+        "시료 부피가 작을수록 염이 더 잘 붙어서",
+        "시료가 적어야 컬럼 배압이 높아져서"
+      ],
+      "answer": 1,
+      "explanation": "**시료 부피가 커질수록 peak가 넓어지고(peak broadening) 옆 peak와 가까워지므로, 크기가 비슷한 분자까지 나누는 fine fractionation은 시료를 컬럼 부피의 0.5~4 %만 넣는다.** 교재 실험: 시료 부피를 0.8 → 2.2 mL로 늘리자 BSA peak가 넓어지며 NaCl peak와 가까워졌다. 크기 차이가 큰 desalting은 30 %까지 넣어도 된다.",
+      "choiceNotes": [
+        "옳다 — 시료 부피가 커질수록 peak가 넓어지고(peak broadening) 옆 peak와 가까워지므로, 크기가 비슷한 분자까지 나누는 fine fractionation은 시료를 컬럼 부피의 0.5~4 %만 넣는다",
+        "틀리다 — SEC는 결합시키지 않고 크기로만 나눈다.",
+        "틀리다 — Pore 크기는 시료 양으로 바뀌지 않는다.",
+        "틀리다 — SEC에서는 아무것도 결합하지 않는다.",
+        "틀리다 — Fine fractionation은 낮은 배압으로 운전한다."
+      ],
+      "source": "WK03 교재 p.20 (Fine fractionation) · WK03 교재 (2.5 Group separation 실험 예, 1.18 효율)",
+      "concepts": [
+        "Fine fractionation (정밀 분리)",
+        "Peak broadening"
+      ],
+      "tags": [
+        "Fine fractionation (정밀 분리)",
+        "Peak broadening"
+      ]
+    },
+    {
+      "id": "wk03-053",
+      "type": "개념",
+      "part": 2,
+      "question": "Fractionation range가 좁은 SEC 레진이 그 범위 안에서 분해능이 높은 이유는?",
+      "choices": [
+        "범위가 좁을수록 레진에 결합하는 힘이 커져서",
+        "Kav–log Mr 기울기가 가팔라 크기 차이가 용출 위치 차이로 크게 벌어져서",
+        "범위가 좁을수록 모든 분자가 V0에서 함께 나와서",
+        "범위가 좁을수록 bead size가 커져서",
+        "범위가 좁으면 시료를 더 많이 넣을 수 있어서"
+      ],
+      "answer": 2,
+      "explanation": "**Fractionation range가 좁은 레진은 Kav–log Mr 직선의 기울기가 가팔라, 같은 분자량 차이도 Kav(용출 위치) 차이가 커지므로 그 범위 안에서 selectivity와 분해능이 높다.** 교재 필기: 「범위↓ resolution↑」. 대신 나눌 수 있는 분자량 범위는 좁아서, 목표 분자 크기에 맞는 레진을 고른다.",
+      "choiceNotes": [
+        "틀리다 — SEC는 결합시키지 않는다.",
+        "옳다 — Fractionation range가 좁은 레진은 Kav–log Mr 직선의 기울기가 가팔라, 같은 분자량 차이도 Kav(용출 위치) 차이가 커지므로 그 범위 안에서 selectivity와 분해능이 높다",
+        "틀리다 — V0에서 함께 나오면 분리되지 않는다.",
+        "틀리다 — Bead size는 레진 종류마다 따로 정해진다.",
+        "틀리다 — 시료 부피 제한은 fractionation range와 따로다."
+      ],
+      "source": "WK03 교재 p.21 (Comparison of the selectivity) · WK03 교재 (1.21 분획 범위와 Kav)",
+      "concepts": [
+        "Fractionation range",
+        "Selectivity (선택성)",
+        "Kav"
+      ],
+      "tags": [
+        "Fractionation range",
+        "Selectivity (선택성)",
+        "Kav"
+      ]
     }
   ]
 }

@@ -143,7 +143,7 @@ python3 -m http.server 8000
 | 단원 | 문항(본문) | 용어 정리 | 바탕 자료 |
 |---|---|---|---|
 | WK02 | 46 (`wk02.json`, 단답 8) | 152 (`terms-wk02.json`, 용어 90개, 단답 32) | Upstream Process 1 (하태수, 2026.09.09) — 슬라이드, PDF 16쪽 수업 필기, 강의 녹음본 |
-| WK03 | 43 (`wk03.json`, 단답 7) | 106 (`terms-wk03.json`, 용어 67개, 단답 16) | Downstream Process 1 — 크로마토그래피 (2026.09.16) — 강의 녹음본, 교재 「Chromatography Intro & Gel filtration」 정리본 |
+| WK03 | 46 (`wk03.json`, 단답 7) | 106 (`terms-wk03.json`, 용어 67개, 단답 16) | Downstream Process 1 — 크로마토그래피 (2026.09.16) — 강의 녹음본, 교재 「Chromatography Intro & Gel filtration」 정리본 + p.20–21 사진 |
 | WK04 | 100 (`wk04.json`, 단답 12) | 158 (`terms-wk04.json`, 용어 92개, 단답 36) | Downstream Process 2 — 여과 및 기타 공정 (김영태, 2026.09.23) — 슬라이드 160쪽(두 파일, 쪽 번호는 전체 기준), 강의 녹음본 2개(바이오공정 전체 흐름) |
 | GMP01 | 19 (`gmp01.json`, 단답 4) | 68 (용어 41개, 단답 13) | 01 완제 의약품 제조 공정의 이해 (2026.09.30) |
 | GMP02 | 19 (`gmp02.json`, 단답 5) | 53 (용어 30개, 단답 12) | 02 RABS 시스템과 무균공정시뮬레이션(APS) (2026.09.30) |
@@ -152,7 +152,7 @@ python3 -m http.server 8000
 | WK07 | 31 (`wk07.json`, 단답 6) | 92 (용어 47개, 단답 25) | GMP Engineering (시설 설계·건설·프로젝트 관리) |
 | 통합 | 10 (`integrated.json`) | — | 여러 강의를 연결해야 풀 수 있는 공정 통합 문항 |
 
-합계 1104문항(본문 342 + 용어 정리 762). PART I 개념 확인 734문항(본문 139 + 용어 595) · PART II 개념 구분과 원리 이해 150문항 · **PART III 단답형 220문항**(핵심 사실 53 + 핵심 용어 167)입니다. **1주차(OT, 2026.09.07)는 시험 범위가 아니라서 빼 두었습니다**(본문은 `questions/archive/ot.json`, 용어집은 `glossary/archive/ot.json` — 되살리려면 원래 자리로 옮기고 `index.json`에 다시 넣습니다). 2026.10에 지엽적인 문항(제품명·세부 수치·특정 사례 등)을 걸러 대표 문항 위주로 줄였습니다 — 걸러 낸 본문 170문항(OT 포함)은 `questions/archive/`에, 용어 237개는 용어집에 `"drop": true`로 남겨 두었습니다(`docs/coverage.md` 맨 아래 목록). 실제 시험이 쉬운 오픈북이라 고난도·서술형·계산 문항은 내지 않고(단답형은 외운 용어·값을 그대로 쓰는 것만), 문제와 선지를 짧고 쉬운 말로, 실제 시험 선지 문체(「~한다」「~해서」, 음슴체 없음)로 씁니다. 용어는 억지로 번역하지 않고 현장에서 쓰는 이름 그대로 씁니다 — high salt, non-enveloped virus, positive pressure, perfusion, bubble point, pore size, cell lysis, refolding처럼 업계에서 영어가 표준인 것은 영어로, 제염·교반·에어락·용출·파쇄처럼 우리말이 표준인 것은 우리말로(목록은 `CLAUDE.md`). 「다시 접는다(refolding)」「떼어 낸다(용출)」「세포를 깬다(파쇄)」 같은 직역은 쓰지 않습니다.
+합계 1107문항(본문 345 + 용어 정리 762). PART I 개념 확인 734문항(본문 139 + 용어 595) · PART II 개념 구분과 원리 이해 153문항 · **PART III 단답형 220문항**(핵심 사실 53 + 핵심 용어 167)입니다. **1주차(OT, 2026.09.07)는 시험 범위가 아니라서 빼 두었습니다**(본문은 `questions/archive/ot.json`, 용어집은 `glossary/archive/ot.json` — 되살리려면 원래 자리로 옮기고 `index.json`에 다시 넣습니다). 2026.10에 지엽적인 문항(제품명·세부 수치·특정 사례 등)을 걸러 대표 문항 위주로 줄였습니다 — 걸러 낸 본문 170문항(OT 포함)은 `questions/archive/`에, 용어 237개는 용어집에 `"drop": true`로 남겨 두었습니다(`docs/coverage.md` 맨 아래 목록). 실제 시험이 쉬운 오픈북이라 고난도·서술형·계산 문항은 내지 않고(단답형은 외운 용어·값을 그대로 쓰는 것만), 문제와 선지를 짧고 쉬운 말로, 실제 시험 선지 문체(「~한다」「~해서」, 음슴체 없음)로 씁니다. 용어는 억지로 번역하지 않고 현장에서 쓰는 이름 그대로 씁니다 — high salt, non-enveloped virus, positive pressure, perfusion, bubble point, pore size, cell lysis, refolding처럼 업계에서 영어가 표준인 것은 영어로, 제염·교반·에어락·용출·파쇄처럼 우리말이 표준인 것은 우리말로(목록은 `CLAUDE.md`). 「다시 접는다(refolding)」「떼어 낸다(용출)」「세포를 깬다(파쇄)」 같은 직역은 쓰지 않습니다.
 
 ### 용어 정리 문항 만들기
 

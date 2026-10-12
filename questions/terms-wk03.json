@@ -91,7 +91,7 @@
     "틀리다 — Column housing: 고정상(레진)을 채워 넣는 컬럼 본체.",
     "틀리다 — Fraction (분획): 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
     "틀리다 — Breakthrough (돌파): 레진이 포화돼 결합하지 못한 목표 물질이 컬럼 밖으로 새어 나오는 것.",
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC."
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
    ],
    "source": "WK03 강의 녹음 15:01–17:36",
    "concepts": [
@@ -223,7 +223,7 @@
     "틀리다 — Affinity tag: 정제를 쉽게 하려고 단백질 끝에 덧붙인 짧은 서열(예: His-tag).",
     "정답 — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC."
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
    ],
    "source": "WK03 강의 녹음 29:54–31:11",
    "concepts": [
@@ -322,7 +322,7 @@
     "틀리다 — IEX (Ion Exchange, 이온교환): 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.",
     "틀리다 — Ligand: 레진에 고정되어 목표 물질과 결합하는 분자.",
     "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상.",
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC."
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
    ],
    "source": "WK03 강의 녹음 11:32–13:36",
    "concepts": [
@@ -618,7 +618,7 @@
     "틀리다 — DSC (Differential Scanning Calorimetry): 정제한 단백질의 안정성을 보는 열분석 도구.",
     "틀리다 — ELISA: 항체 반응으로 특정 단백질의 양을 재는 방법.",
     "틀리다 — Peak broadening: Peak가 넓게 퍼지는 현상 — bead size·packing·시료 부피·점도·유속이 영향을 준다.",
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
     "정답 — 항체로 특정 단백질이 있는지 확인하는 방법."
    ],
    "source": "WK03 강의 녹음 40:25–41:40",
@@ -648,7 +648,7 @@
    "answer": 4,
    "explanation": "**Desalting (탈염)** — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
    "choiceNotes": [
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
     "틀리다 — Fractionation range: SEC 레진이 크기로 나눌 수 있는 분자량 범위.",
     "틀리다 — Peak broadening: Peak가 넓게 퍼지는 현상 — bead size·packing·시료 부피·점도·유속이 영향을 준다.",
     "정답 — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
@@ -715,7 +715,7 @@
    "explanation": "**Void volume (V0)** — Pore에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
    "choiceNotes": [
     "틀리다 — Desalting (탈염): 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
-    "틀리다 — Fine fractionation (정밀 분리): Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
     "정답 — Pore에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
     "틀리다 — Matrix (매트릭스): 리간드를 고정하는 레진 비드의 바탕 물질 — 친수성·단단함이 필요하다.",
     "틀리다 — Column housing: 고정상(레진)을 채워 넣는 컬럼 본체."
@@ -1248,7 +1248,7 @@
     "정답 — SEC 레진이 크기로 나눌 수 있는 분자량 범위.",
     "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
    ],
-   "source": "WK03 교재 (1.21 분획 범위와 Kav)",
+   "source": "WK03 교재 (1.21 분획 범위와 Kav) · WK03 교재 p.21 (Comparison of the selectivity)",
    "concepts": [
     "Fractionation range"
    ],
@@ -1296,7 +1296,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC."
+    "작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
    ],
    "choices": [
     "Column volume (CV)",
@@ -1306,15 +1306,15 @@
     "Intermediate purification (중간 정제)"
    ],
    "answer": 2,
-   "explanation": "**Fine fractionation (정밀 분리)** — Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+   "explanation": "**Fine fractionation (정밀 분리)** — 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
    "choiceNotes": [
     "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
-    "정답 — Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+    "정답 — 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
     "틀리다 — Kav: SEC 용출 위치를 0(가장 큰 분자)~1(가장 작은 분자)로 나타낸 값.",
     "틀리다 — Mobile phase (이동상): 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계."
    ],
-   "source": "WK03 교재 (2.2 SEC의 목적)",
+   "source": "WK03 교재 (2.2 SEC의 목적) · WK03 교재 p.20 (Fine fractionation)",
    "concepts": [
     "Fine fractionation"
    ],
@@ -2841,7 +2841,7 @@
     "틀리다 — (가) Kav의 설명은 A, (다) Fractionation range의 설명은 C",
     "틀리다 — (가) Kav의 설명은 A, (나) Exclusion limit의 설명은 D, (다) Fractionation range의 설명은 C, (라) Buffer exchange의 설명은 B"
    ],
-   "source": "WK03 교재 (1.21 분획 범위와 Kav) · WK03 교재 (2.2–2.3 SEC의 목적, Desalting과 Buffer exchange)",
+   "source": "WK03 교재 (1.21 분획 범위와 Kav) · WK03 교재 p.21 (Comparison of the selectivity) · WK03 교재 (2.2–2.3 SEC의 목적, Desalting과 Buffer exchange)",
    "concepts": [
     "Kav",
     "Exclusion limit",
@@ -2860,7 +2860,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Fine fractionation (정밀 분리)\n(나) Strong ion exchanger\n(다) Weak ion exchanger\n(라) Equilibration (평형화)",
    "box": [
     "A. pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S).",
-    "B. Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.",
+    "B. 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
     "C. 좁은 pH 범위에서만 전하를 띠고 다른 선택성을 주는 이온교환기(DEAE, CM).",
     "D. 시료를 넣기 전 low salt start buffer로 레진 조건을 맞추는 단계."
    ],
@@ -2872,7 +2872,7 @@
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Fine fractionation (정밀 분리)** → B. Monomer·dimer처럼 크기가 비슷한 분자까지 나누는 SEC.\n(나) **Strong ion exchanger** → A. pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S).\n(다) **Weak ion exchanger** → C. 좁은 pH 범위에서만 전하를 띠고 다른 선택성을 주는 이온교환기(DEAE, CM).\n(라) **Equilibration (평형화)** → D. 시료를 넣기 전 low salt start buffer로 레진 조건을 맞추는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Fine fractionation (정밀 분리)** → B. 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).\n(나) **Strong ion exchanger** → A. pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S).\n(다) **Weak ion exchanger** → C. 좁은 pH 범위에서만 전하를 띠고 다른 선택성을 주는 이온교환기(DEAE, CM).\n(라) **Equilibration (평형화)** → D. 시료를 넣기 전 low salt start buffer로 레진 조건을 맞추는 단계.",
    "choiceNotes": [
     "틀리다 — (나) Strong ion exchanger의 설명은 A, (다) Weak ion exchanger의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -2880,7 +2880,7 @@
     "틀리다 — (나) Strong ion exchanger의 설명은 A, (라) Equilibration의 설명은 D",
     "틀리다 — (가) Fine fractionation의 설명은 B, (나) Strong ion exchanger의 설명은 A, (다) Weak ion exchanger의 설명은 C, (라) Equilibration의 설명은 D"
    ],
-   "source": "WK03 교재 (2.2 SEC의 목적) · WK03 교재 (3.2–3.3 강 vs 약 이온교환기) · WK03 교재 (3.5 IEX 단계)",
+   "source": "WK03 교재 (2.2 SEC의 목적) · WK03 교재 p.20 (Fine fractionation) · WK03 교재 (3.2–3.3 강 vs 약 이온교환기) · WK03 교재 (3.5 IEX 단계)",
    "concepts": [
     "Fine fractionation",
     "Strong ion exchanger",

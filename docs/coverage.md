@@ -72,7 +72,7 @@
 
 ## WK03 — Downstream Process 1: 크로마토그래피 (2026.09.16, 녹음 + 교재)
 
-녹음본(약 1시간, 레진 회사 강사)으로 먼저 만들고(출처 `WK03 강의 녹음 mm:ss`), 2026.10.12에 교재 「Chromatography Intro & Gel filtration」(피크앤밴드) 정리본으로 이어 붙였다(출처 `WK03 교재 (절 번호 제목)` — 정리본에 교재 쪽 번호가 절마다 없어 절 번호로 적음; 교재 p.20–21은 촬영본이 없어 빠짐).
+녹음본(약 1시간, 레진 회사 강사)으로 먼저 만들고(출처 `WK03 강의 녹음 mm:ss`), 2026.10.12에 교재 「Chromatography Intro & Gel filtration」(피크앤밴드) 정리본으로 이어 붙였다(출처 `WK03 교재 (절 번호 제목)` — 정리본에 교재 쪽 번호가 절마다 없어 절 번호로 적음. 정리본에서 빠졌던 교재 p.20–21은 사진으로 받아 `WK03 교재 p.N (슬라이드 제목)`으로 적음).
 
 | 출제됨 | 문항 |
 |---|---|
@@ -90,10 +90,11 @@
 | (교재) Strong(Q·S) vs weak(DEAE·CM) 이온교환기, Q·DEAE = 음이온 교환기(단답), IEX 순서의 마지막 regeneration(단답), 음이온 교환기에 안 붙을 때 pH를 올리는 이유(pI) | wk03-040 ~ wk03-043 |
 | (교재) MMC 정의·쓰는 경우(높은 conductivity·단계 수 줄이기·selectivity 부족), high salt tolerance 원리, HTPD(HTS + DoE) | wk03-044 ~ wk03-047 |
 | (교재) 정제 단계별 우선 항목(Capture speed·capacity / Polishing resolution·recovery), RPC(유기 용매 → 활성 손실), DNA UV 260 nm(단답) | wk03-048 ~ wk03-050 |
+| (교재 p.20–21) Desalting vs fine fractionation 운전 조건(0.5~4 %·낮은 유속·긴 컬럼), 시료 부피를 작게 넣는 이유(peak broadening), 좁은 fractionation range가 분해능이 높은 이유(기울기, 필기 「범위↓ resolution↑」) | wk03-051 ~ wk03-053 |
 
 교재에서 일부러 내지 않은 것: 크로마토그래피 역사·연도(Tsvet, 1903 등), 제품·장비명(Sephadex G-10~G-50 표, Capto MMC·Capto Core 700, ÄKTA pilot·process, AxiChrom, OPUS RoboColumn, MODDE·JMP 등), 버퍼 pKa 목록·휘발성 버퍼, rPro-insulin case study 수치, Rs 공식·Rs와 순도 대응, Vi·Kav 공식 계산, 소수성 아미노산 목록, 레진별 입자 크기 비교 수치, 스케일업 사례 배수. SBC vs DBC와 scale-up 고정 파라미터(bed height·linear velocity)는 WK06에 이미 있어(wk06-049·051·060) 용어(SBC, Breakthrough, Volumetric flow rate)만 더했다.
 
-미출제 후보: 교재 p.20–21(SEC 이론 뒷부분) 사진이 오면 확인해 이어 붙인다.
+교재 p.20–21에서 내지 않은 것: preparative SEC 레진 제품별 분리 범위 표(Superdex·Superose·Sephacryl), 레진별 크로마토그램 비교, fine fractionation 입자 크기(> 12 µm)·bed height 수치(단답형으로는 내지 않음), 판독이 불확실한 손필기(bed height 옆).
 
 ## WK04 — Downstream Process 2: 여과 및 기타 공정 (2026.09.23)
 
@@ -318,7 +319,7 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | 단원 | 문항 | 묻는 원리 |
 |---|---|---|
 | WK02 | wk02-081 ~ wk02-085 | pH 저하(lactate) → 염기, micro sparger(작은 기포·표면적), 같은 rpm 금지(tip speed·전단력), 동물세포가 전단력에 약함(세포벽 없음), N-1 perfusion이 배치 수를 늘림 |
-| WK03 | wk03-028, wk03-029, wk03-035, wk03-037, wk03-043, wk03-046 | HIC high salt 결합(소수성 부위 노출), IEX를 pH가 아닌 염으로 용출(단백질 안정성), selectivity가 efficiency보다 중요(peak 겹침), SEC를 결합 단계 바로 뒤에(버퍼 영향 없음), 음이온 교환기에 안 붙으면 pH↑(pH > pI → − 전하), MMC high salt tolerance(전하 외 상호작용) |
+| WK03 | wk03-028, wk03-029, wk03-035, wk03-037, wk03-043, wk03-046, wk03-052, wk03-053 | HIC high salt 결합(소수성 부위 노출), IEX를 pH가 아닌 염으로 용출(단백질 안정성), selectivity가 efficiency보다 중요(peak 겹침), SEC를 결합 단계 바로 뒤에(버퍼 영향 없음), 음이온 교환기에 안 붙으면 pH↑(pH > pI → − 전하), MMC high salt tolerance(전하 외 상호작용), fine fractionation 시료 부피를 작게(peak broadening), 좁은 fractionation range → 분해능↑(Kav 기울기) |
 | WK04 | wk04-129 ~ wk04-133 | AEX에 바이러스·DNA만 붙음(pI·전하), CFF가 덜 막힘(표면을 쓸어냄), UF 농축 원리(MWCO), 큰 pore → 낮은 bubble point, PUPSIT 이유 |
 | GMP01 | gmp01-024, gmp01-025 | 단백질 주사제 무균조작(열 변성), 동결건조 안정성 |
 | GMP02 | gmp02-031 ~ gmp02-033 | APS 용기 뒤집기, 2단계 온도, 사람이 가장 큰 오염원 |
