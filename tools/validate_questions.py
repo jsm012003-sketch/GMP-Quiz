@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 QDIR = ROOT / "questions"
 TYPES = {"용어", "개념", "연결", "단답", "상황판단", "계산", "서술형"}
 # 실제 시험(용어·원리 확인)에 나오지 않아 새로 출제하지 않는 유형 — 앱 호환용으로만 남김 (2026.10)
-RETIRED_TYPES = {"계산", "서술형", "상황판단"}
+RETIRED_TYPES = {"서술형", "상황판단"}  # 계산은 2026.10.12부터 PART II에서 몇 문항 허용
 DEFAULT_PART = {"용어": 1, "개념": 2, "연결": 2, "단답": 3, "계산": 2, "상황판단": 3, "서술형": 3}
 
 
@@ -60,11 +60,13 @@ def main() -> int:
             if qtype not in TYPES:
                 warnings.append(f"{where}: type '{qtype}' 은(는) {sorted(TYPES)} 중 하나가 아닙니다")
             elif qtype in RETIRED_TYPES or q.get("format") == "essay":
-                warnings.append(f"{where}: '{qtype}' 유형은 출제하지 않습니다(계산·서술형·상황판단 제외 — CLAUDE.md 출제 방향)")
+                warnings.append(f"{where}: '{qtype}' 유형은 출제하지 않습니다(서술형·상황판단 제외 — CLAUDE.md 출제 방향)")
             part = q.get("part", DEFAULT_PART.get(qtype, 2))
             if part not in (1, 2, 3):
                 errors.append(f"{where}: part 는 1~3 이어야 합니다 (현재 {part!r})")
             parts[part] += 1
+            if qtype == "계산" and part != 2:
+                warnings.append(f"{where}: 계산 문항은 PART II(part 2)에 둡니다")
             if part == 3 and q.get("format") != "short":
                 warnings.append(f"{where}: PART III는 단답형 전용입니다(2026.10.08) — 객관식은 part 1·2로")
             if q.get("format") == "short":

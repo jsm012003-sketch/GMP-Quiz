@@ -327,6 +327,18 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | WK06 | wk06-059 ~ wk06-062 | 비외피 바이러스에 low pH·S&D가 안 듣는 이유, linear velocity·bed height 유지 이유, Protein A 결합량 감소(리간드 탈락), VI 뒤 pH를 올리는 이유 |
 | WK07 | wk07-050 ~ wk07-053 | 차압(오염 유입 방지), Grade A 가동 = 비가동 기준, 고활성 봉쇄, Ballroom과 closed system |
 
+## 계산 문항 (PART II, 2026.10.12 — 사용자 요청)
+
+실제 시험에 kLa·P/V 같은 계산과 「슬라이드 숫자만 바꾼」 생산 규모·titer 문제가 나올 수 있어 대표 공식만 낸다. 한두 단계 곱셈·나눗셈, 공식은 문제에 괄호로 주고, 오답은 흔한 실수(단위 변환·반지름↔지름·곱↔나눗셈·cycle 수 누락). 시험지에는 50문항당 2개 이상 들어간다(`STYLE_MIX.calcMin`).
+
+| 단원 | 문항 | 묻는 것 |
+|---|---|---|
+| WK02 | wk02-086 ~ wk02-092 | P/V(W/m³), 같은 P/V로 큰 배양기 동력, 같은 P/V의 rpm(P/V ∝ N³D², 지름 8배 → rpm 1/4), tip speed(πND), 같은 rpm에서 tip speed 배수, OTR = kLa(C*−C), OTR ≥ OUR의 최소 kLa |
+| WK06 | wk06-064 ~ wk06-072, wk06-074, wk06-075 | 생산량 = 부피 × titer, titer = 항체 양 ÷ 부피, 컬럼 부피(π r² h), cycle당 처리량, cycles per batch, Protein A 처리량으로 titer·배양 규모 구하기, 버퍼 총량(CV 수 × CV × cycle), 용출 농도, residence time, 같은 linear velocity에서 부피 유속 |
+| WK06 | wk06-073 (개념) | Protein A 컬럼 지름을 키우면 cycle·공정 시간↓, 버퍼 총량↑, 용출 농도↓(슬라이드 Example: Impact of Protein A column volume) |
+
+미출제 후보(계산): VVM(통기량), DF 부피(diavolume) 수, 필터 면적(부피 ÷ capacity), LRV 합산.
+
 ## 단답형 (PART III, 2026.10.08 — 실제 시험 형식: 4지선다 + 단답형, 50문항)
 
 "외워야 할 Major한 것" 위주로 두 갈래를 만들었다. 강의 구석의 세부 수치·제품명은 단답형으로도 내지 않는다.
