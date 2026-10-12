@@ -120,10 +120,10 @@
    "answer": 5,
    "explanation": "**Lentivirus / Retrovirus vector** — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
    "choiceNotes": [
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.",
     "틀리다 — Viral vector vaccine: 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
     "정답 — 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터."
    ],
    "source": "WK02 PDF p.6",
@@ -188,7 +188,7 @@
    "choiceNotes": [
     "틀리다 — Lentivirus / Retrovirus vector: 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "정답 — mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.",
     "틀리다 — Perfusion culture (관류 배양): 세포는 붙잡아 두고 세포 없는 상등액만 빼며 새 배지를 넣는 방식.",
     "틀리다 — Shear force (전단력): 교반·기포로 세포막에 가해지는 찢는 힘."
    ],
@@ -419,7 +419,7 @@
    "choiceNotes": [
     "틀리다 — Subculture (계대배양): 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
     "정답 — 녹인 세포를 flask → 작은 배양기 → 큰 배양기로 단계적으로 늘리는 과정.",
-    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — ATF (Alternating Tangential Flow): 펌프가 빨았다 밀었다 하며 hollow fiber로 상등액만 거르는 세포 유지 장치.",
     "틀리다 — Bi-/Multi-specific antibody: 두 개 이상의 서로 다른 항원에 동시에 붙도록 만든 항체."
    ],
@@ -451,7 +451,7 @@
    "explanation": "**Subculture (계대배양)** — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것.",
    "choiceNotes": [
     "틀리다 — Production bioreactor (본배양기): 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
-    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — PAT (Process Analytical Technology): 온라인 센서로 실시간 측정해 공정을 감시·제어하는 기술.",
     "틀리다 — Stationary phase (정지기): 증식과 사멸이 비슷해 세포 수가 일정하고 항체가 주로 만들어지는 시기.",
     "정답 — 자란 세포를 새 배지가 든 용기로 옮겨 다시 키우는 것."
@@ -517,7 +517,7 @@
    "explanation": "**Production bioreactor (본배양기)** — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기.",
    "choiceNotes": [
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
-    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "틀리다 — Capture chromatography: 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — Transfection: plasmid 같은 외래 DNA를 동물세포 안으로 넣는 조작.",
     "틀리다 — Prescriptive analytics: '무엇을 해야 하나?'에 답하는 분석.",
     "정답 — 목표 물질을 실제로 대량 생산하는 가장 큰 배양기."
@@ -570,7 +570,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A)."
+    "정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A)."
    ],
    "choices": [
     "Capture chromatography",
@@ -580,13 +580,13 @@
     "AAV (Adeno-Associated Virus)"
    ],
    "answer": 1,
-   "explanation": "**Capture chromatography** — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+   "explanation": "**Capture chromatography** — 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
    "choiceNotes": [
-    "정답 — 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).",
+    "정답 — 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).",
     "틀리다 — DP (Drug Product, 완제의약품): 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "틀리다 — Cryopreservation (동결 보존): 세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것.",
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터."
    ],
    "source": "WK02 PDF p.15 · WK06 PDF p.18",
    "concepts": [
@@ -651,7 +651,7 @@
     "틀리다 — Fed-batch culture (유가식 배양): 중간에 영양분(feed)을 더 넣고 끝날 때 한 번에 수확하는 방식.",
     "정답 — 처음 넣은 배지만으로 끝까지 키우는 방식(단순, 생산성 낮음).",
     "틀리다 — Continuous culture (연속식 배양): 배지를 계속 넣으며 세포가 든 배양액을 같은 속도로 빼내는 방식.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.",
     "틀리다 — MSC (중간엽 줄기세포): 골수·제대·지방에서 얻어 세포치료제 원료로 쓰는 줄기세포."
    ],
    "source": "WK02 PDF p.30 (Type of Cell Culture Processing)",
@@ -1278,7 +1278,7 @@
     "틀리다 — Vent filter (배기 필터): 배양기 위 배기 라인의 무균 필터 — 거품에 젖으면 기능을 잃는다.",
     "틀리다 — Ring sparger: 고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치.",
     "틀리다 — VCD (Viable Cell Density): 배양액 1 mL당 살아 있는 세포 수.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.",
     "정답 — 배양기 축에 달려 돌며 배양액을 섞는 날개."
    ],
    "source": "WK02 PDF p.20–23",
@@ -1444,7 +1444,7 @@
     "정답 — 거품을 줄이려고 넣는 첨가제.",
     "틀리다 — Impeller: 배양기 축에 달려 돌며 배양액을 섞는 날개.",
     "틀리다 — Lag phase (유도기): 새 환경에 적응하느라 세포 수가 거의 늘지 않는 초기 시기.",
-    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터."
+    "틀리다 — AAV (Adeno-Associated Virus): HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터."
    ],
    "source": "WK02 PDF p.40 · WK02 강의 녹음 01:31:59",
    "concepts": [
@@ -1890,11 +1890,11 @@
     "환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터",
     "항원 유전자를 아데노바이러스 등에 실어 만든 백신",
     "기체에서 배양액으로 산소가 공급되는 속도",
-    "HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터",
+    "HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터",
     "안전성·유효성을 위해 범위 안에 있어야 하는 제품의 품질 특성"
    ],
    "answer": 4,
-   "explanation": "**AAV (Adeno-Associated Virus)** — HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.\nLuxturna(2017), Zolgensma(2019).",
+   "explanation": "**AAV (Adeno-Associated Virus)** — HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.\nLuxturna(2017), Zolgensma(2019).",
    "choiceNotes": [
     "틀리다 — Lentivirus / Retrovirus vector의 설명이다.",
     "틀리다 — Viral vector vaccine의 설명이다.",
@@ -2339,7 +2339,7 @@
    "choices": [
     "원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약",
     "세포 vial이나 벌크를 아주 낮은 온도로 얼려 오래 보관하는 것",
-    "정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A)",
+    "정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A)",
     "세포의 주 에너지원인 당",
     "고리 모양 관에서 큰 기포를 내 CO₂ 제거에 유리한 기체 주입 장치"
    ],
@@ -2916,7 +2916,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) AAV (Adeno-Associated Virus)\n(나) Lentivirus / Retrovirus vector\n(다) Viral vector vaccine\n(라) Nucleic acid vaccine (mRNA/pDNA)",
    "box": [
-    "A. HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.",
+    "A. HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.",
     "B. 항원 유전자를 아데노바이러스 등에 실어 만든 백신.",
     "C. 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.",
     "D. mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신."
@@ -2929,7 +2929,7 @@
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **AAV (Adeno-Associated Virus)** → A. HEK293 세포 안에서 만들어 세포를 깨서 회수하는 유전자치료 벡터.\n(나) **Lentivirus / Retrovirus vector** → C. 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.\n(다) **Viral vector vaccine** → B. 항원 유전자를 아데노바이러스 등에 실어 만든 백신.\n(라) **Nucleic acid vaccine (mRNA/pDNA)** → D. mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
+   "explanation": "**용어와 설명의 짝**\n(가) **AAV (Adeno-Associated Virus)** → A. HEK293 세포 안에서 만들어 cell lysis로 회수하는 유전자치료 벡터.\n(나) **Lentivirus / Retrovirus vector** → C. 환자 세포에 유전자를 넣어 CAR-T 등을 만들 때 쓰는 바이러스 벡터.\n(다) **Viral vector vaccine** → B. 항원 유전자를 아데노바이러스 등에 실어 만든 백신.\n(라) **Nucleic acid vaccine (mRNA/pDNA)** → D. mRNA나 plasmid DNA를 넣어 몸 안에서 항원을 만들게 하는 백신.",
    "choiceNotes": [
     "틀리다 — (가) AAV의 설명은 A, (나) Lentivirus / Retrovirus vector의 설명은 C",
     "틀리다 — (가) AAV의 설명은 A, (라) Nucleic acid vaccine의 설명은 D",
@@ -3231,7 +3231,7 @@
     "A. 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.",
     "B. 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
     "C. 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.",
-    "D. 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A)."
+    "D. 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A)."
    ],
    "choices": [
     "(가)-D  (나)-C  (다)-A  (라)-B",
@@ -3241,7 +3241,7 @@
     "(가)-C  (나)-D  (다)-A  (라)-B"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Harvest / Clarification** → C. 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.\n(나) **Capture chromatography** → D. 정제 첫 단계에서 목표 단백질만 붙잡아 농축하는 크로마토그래피(항체는 Protein A).\n(다) **DS (Drug Substance, 원료의약품)** → A. 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.\n(라) **DP (Drug Product, 완제의약품)** → B. 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Harvest / Clarification** → C. 배양 후 원심분리·여과로 세포를 걷어 내 맑은 상등액을 얻는 단계.\n(나) **Capture chromatography** → D. 정제 첫 단계에서 목표 단백질만 결합시켜 농축하는 크로마토그래피(항체는 Protein A).\n(다) **DS (Drug Substance, 원료의약품)** → A. 배양·정제로 얻은, 아직 완제가 아닌 약효 성분 벌크.\n(라) **DP (Drug Product, 완제의약품)** → B. 원료의약품을 제형화·충전해 환자에게 쓰는 최종 형태로 만든 약.",
    "choiceNotes": [
     "틀리다 — (가) Harvest / Clarification의 설명은 C, (나) Capture chromatography의 설명은 D",
     "틀리다 — (가) Harvest / Clarification의 설명은 C, (다) DS의 설명은 A",

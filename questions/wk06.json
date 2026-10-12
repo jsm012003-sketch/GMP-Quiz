@@ -8,7 +8,7 @@
       "type": "연결",
       "question": "항체 정제 단계와 목적의 연결로 옳지 않은 것은?",
       "choices": [
-        "Protein A – 항체를 붙잡고 불순물 대부분을 제거",
+        "Protein A – 항체를 결합시켜 불순물 대부분을 제거",
         "Low pH 처리 – 바이러스 불활화",
         "UF/DF – 바이러스를 크기로 걸러내는 단계",
         "Depth filtration – 탁도 제거",
@@ -554,7 +554,7 @@
         "제균 여과만 하고 넣는다"
       ],
       "answer": 4,
-      "explanation": "**CEX는 high salt(high conductivity)로 항체를 떼어 내므로, 용출액을 그대로 AEX에 넣으면 불순물이 붙지 않는다 — 그래서 UF/DF로 염을 빼고 버퍼를 바꾼다.** 강의: 규모가 작으면 물을 부어 희석해도 되지만 15,000 L 규모에서 희석하면 탱크와 물이 너무 커진다. 공정 설계에서 CEX 다음 AEX 사이에 아무 단계도 없다면 잘못된 설계다.",
+      "explanation": "**CEX는 high salt(high conductivity)로 항체를 용출하므로, 용출액을 그대로 AEX에 넣으면 불순물이 붙지 않는다 — 그래서 UF/DF로 염을 빼고 버퍼를 바꾼다.** 강의: 규모가 작으면 물을 부어 희석해도 되지만 15,000 L 규모에서 희석하면 탱크와 물이 너무 커진다. 공정 설계에서 CEX 다음 AEX 사이에 아무 단계도 없다면 잘못된 설계다.",
       "choiceNotes": [
         "틀리다 — 염이 많으면 AEX에 불순물이 안 붙는다.",
         "틀리다 — Low pH는 Protein A 용출·바이러스 불활화 조건이다.",
@@ -799,7 +799,7 @@
       "choices": [
         "레진의 결합량을 잰다",
         "바이러스 제거능을 검증한다",
-        "필터 구멍 크기를 잰다",
+        "필터 pore size를 잰다",
         "플라스틱에서 녹아 나온 물질을 확인한다",
         "배지 성분을 분석한다"
       ],
@@ -1221,9 +1221,9 @@
         "항체와 붙어 보호받아서"
       ],
       "answer": 1,
-      "explanation": "**Low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 깨뜨려 죽이는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다.** 그래서 작은 non-enveloped virus(parvovirus 등)는 크기로 거르는 virus filter와 흡착 크로마토그래피가 맡는다(orthogonal 전략).",
+      "explanation": "**Low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 파괴해 불활화하는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다.** 그래서 작은 non-enveloped virus(parvovirus 등)는 크기로 거르는 virus filter와 흡착 크로마토그래피가 맡는다(orthogonal 전략).",
       "choiceNotes": [
-        "옳다 — low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 깨뜨려 죽이는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다",
+        "옳다 — low pH와 S&D(용매·계면활성제)는 바이러스의 lipid envelope를 파괴해 불활화하는데, non-enveloped virus는 그 외피가 없어 잘 듣지 않는다",
         "틀리다 — Non-enveloped virus는 작다(약 20 nm). 그래서 필터로 거르기도 어렵다.",
         "틀리다 — Low pH에서 늘어나는 것이 아니라 버틴다.",
         "틀리다 — 바이러스는 모두 유전물질이 있다.",
@@ -1281,19 +1281,19 @@
       "question": "Protein A 레진을 여러 번 쓰면 결합량이 줄어들 수 있는 이유는?",
       "choices": [
         "레진 비드가 점점 커져서",
-        "항체가 레진을 녹여서",
+        "항체가 레진을 분해해서",
         "버퍼의 염이 쌓여 리간드가 늘어나서",
         "바이러스가 리간드를 모두 차지해서",
         "세척을 거듭하며 리간드(Protein A)가 떨어져 나가서"
       ],
       "answer": 5,
-      "explanation": "**Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 붙잡을 자리가 줄어든다.** 떨어진 리간드는 제품에 섞이는 불순물(leached Protein A)이 되므로 QC로 확인하고, 결합량과 leached Protein A가 기준 안일 때까지만 다시 쓴다.",
+      "explanation": "**Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 결합할 자리가 줄어든다.** 떨어진 리간드는 제품에 섞이는 불순물(leached Protein A)이 되므로 QC로 확인하고, 결합량과 leached Protein A가 기준 안일 때까지만 다시 쓴다.",
       "choiceNotes": [
         "틀리다 — 비드 크기는 변하지 않는다.",
-        "틀리다 — 항체는 레진을 녹이지 않는다.",
+        "틀리다 — 항체는 레진을 분해하지 않는다.",
         "틀리다 — 염이 리간드를 늘리지는 않는다.",
         "틀리다 — 바이러스가 결합량을 정하지 않는다.",
-        "옳다 — Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 붙잡을 자리가 줄어든다"
+        "옳다 — Protein A 리간드도 단백질이라 세척(NaOH 등)을 거듭하면 조금씩 떨어져 나가, 결합할 자리가 줄어든다"
       ],
       "source": "WK06 강의 녹음 1:42:28–1:44:06 (리간드 탈락, leached Protein A QC) · WK06 강의 녹음 1:31:00–1:34:10, 1:39:46–1:40:13, 1:44:37–1:45:46 (재사용 횟수 판단)",
       "concepts": [
@@ -1320,10 +1320,10 @@
         "Low pH에서는 UV로 항체를 볼 수 없어서"
       ],
       "answer": 2,
-      "explanation": "**Low pH는 enveloped virus를 깨뜨리지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다.** 강의: 오래 두면 처음엔 투명하던 용출액이 뿌옇게 변성되므로, 생긴 불용물은 필터로 거른다.",
+      "explanation": "**Low pH는 enveloped virus의 lipid envelope를 파괴하지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다.** 강의: 오래 두면 처음엔 투명하던 용출액이 뿌옇게 변성되므로, 생긴 불용물은 필터로 거른다.",
       "choiceNotes": [
-        "틀리다 — Low pH는 enveloped virus를 깨뜨린다.",
-        "옳다 — Low pH는 enveloped virus를 깨뜨리지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다",
+        "틀리다 — Low pH는 enveloped virus의 lipid envelope를 파괴한다.",
+        "옳다 — Low pH는 enveloped virus의 lipid envelope를 파괴하지만 항체에게도 좋지 않아, 정해진 시간(30분~1시간)만 둔 뒤 pH를 다음 단계(CEX)에 맞게 5~6으로 올린다",
         "틀리다 — 이미 용출된 항체를 다시 붙이려는 것이 아니다.",
         "틀리다 — pH와 염 농도는 별개다.",
         "틀리다 — UV 측정과는 관계없다."
@@ -1336,6 +1336,35 @@
       "tags": [
         "Low pH viral inactivation",
         "Aggregate"
+      ]
+    },
+    {
+      "id": "wk06-063",
+      "type": "연결",
+      "part": 2,
+      "question": "Extractables와 leachables의 구분으로 옳은 것은?",
+      "choices": [
+        "Leachables는 극한 조건에서, extractables는 실제 공정에서 나온 것이다",
+        "Extractables는 극한 조건에서 나올 수 있는 것, leachables는 실제 공정에서 나온 것이다",
+        "둘 다 막에 붙은 단백질 찌꺼기다",
+        "Leachables는 세척 후 남은 NaOH만 뜻한다",
+        "Extractables는 제품에서 생긴 aggregate다"
+      ],
+      "answer": 2,
+      "explanation": "**Extractables는 강한 용매·고온 같은 극한 조건에서 소모품(플라스틱 등)에서 나올 수 있는 물질, leachables는 실제 공정 조건에서 제품으로 녹아 나온 물질이다.** E&L 연구로 몇 번 다시 써도 이런 물질이 나오지 않는지 확인해 재사용 횟수를 정한다.",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "옳다 — Extractables는 강한 용매·고온 같은 극한 조건에서 소모품(플라스틱 등)에서 나올 수 있는 물질, leachables는 실제 공정 조건에서 제품으로 녹아 나온 물질이다",
+        "틀리다 — 플라스틱 등 소모품에서 녹아 나오는 물질이다.",
+        "틀리다 — NaOH 잔류는 flushing으로 관리하는 것이다.",
+        "틀리다 — aggregate는 제품 유래 불순물이다."
+      ],
+      "source": "WK06 강의 녹음 1:40:05–1:41:52 (Extractables & Leachables) · WK04 판서 정리(09.23)",
+      "concepts": [
+        "E&L (Extractables & Leachables)"
+      ],
+      "tags": [
+        "E&L (Extractables & Leachables)"
       ]
     }
   ]

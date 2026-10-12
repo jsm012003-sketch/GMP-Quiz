@@ -22,7 +22,7 @@
    "no": 3,
    "term": "Protein A chromatography",
    "group": "dsp",
-   "def": "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+   "def": "항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
    "src": "WK06 PDF p.5, p.18–19",
    "short": true,
    "answersExtra": [
@@ -104,7 +104,7 @@
    "no": 11,
    "term": "Virus filtration (nanofiltration)",
    "group": "dsp",
-   "def": "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
+   "def": "바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
    "src": "WK06 PDF p.11, p.15–16",
    "short": true,
    "answersExtra": [
@@ -181,7 +181,7 @@
    "no": 19,
    "term": "DBC (Dynamic Binding Capacity)",
    "group": "chrom",
-   "def": "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+   "def": "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
    "src": "WK06 PDF p.20",
    "short": true,
    "answersExtra": [

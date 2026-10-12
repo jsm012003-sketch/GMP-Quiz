@@ -9,7 +9,8 @@
    - PDF: `pdftotext -layout`으로 쪽별 텍스트를 뽑고, 텍스트가 거의 없는 쪽(그래프·사진·스캔·손필기)은 이미지로 직접 확인한다. 손필기 주석은 확대(`pdftoppm -r 300 -x -y -W -H`)해서 읽고, 확실히 읽히지 않는 내용은 문항 근거로 쓰지 않는다.
    - 녹음 텍스트: 타임스탬프를 출처(`<단원> 강의 녹음 mm:ss`, 한 강의가 여러 파일이면 `녹음①·②`)로 쓴다. 슬라이드에 없는 강조점·예시는 우선 출제 대상이다. 자동 받아쓰기라 오류가 많으니 뜻이 분명한 부분만 근거로 쓰고, 기존 문항과 같은 포인트는 피한다. UTF-16 파일은 `iconv -f UTF-16 -t UTF-8`로 바꿔 읽는다.
    - **녹음본 위주로 출제(사용자 요청, 2026.10.07)**: 녹음과 PDF가 함께 있으면 문항의 포인트는 녹음에서 강사가 강조한 내용으로 잡고, 거기서 뻗어 나오는 사례·예시·구체적 수치는 PDF(같은 단원 또는 앞 단원)에서 찾아 해설·`source`에 함께 적는다(`WK06 강의 녹음 mm:ss · WK06 PDF p.N`).
-   - 녹음만 있고 슬라이드가 없는 강의(예: WK03)도 새 단원 파일로 만들고, 나중에 슬라이드가 오면 같은 파일에 이어 붙인다.
+   - 녹음만 있고 슬라이드가 없는 강의(예: WK03)도 새 단원 파일로 만들고, 나중에 슬라이드가 오면 같은 파일에 이어 붙인다(WK03은 2026.10.12에 교재 정리본을 이어 붙임 — 출처 `WK03 교재 (절 번호 제목)`).
+   - 사용자가 정리한 교재 요약(md)도 자료로 쓴다. `[필기]` 표시는 강의 근거로 쓰되 "(판독 불확실)"인 내용은 문항 근거로 쓰지 않고, `[출제]` 표시는 출제 후보로 보되 연도·제품명·세부 수치는 아래 기준대로 거른다.
 2. 새 파일 `questions/<단원>.json`을 만들거나(새 강의) 기존 파일에 문항을 추가한다(같은 강의의 녹음본·보충 자료).
 3. **용어 정리**: 강의에 나온 용어를 빠짐없이 `glossary/<단원>.json`에 추가하고(정의는 강의 근거로, 정의 문장에 용어 이름을 그대로 넣지 않는다), `python3 tools/build_terms.py`로 `questions/terms-<단원>.json`을 만든다. `terms-*.json`은 직접 고치지 않는다. 지엽적인 용어(제품명·부품·문서 번호 등)는 넣지 않거나 `"drop": true`로 둔다. 용어당 문항은 한 방향만 만든다(약어·기호 → 용어→정의, 낱말 → 정의→용어; 바꾸려면 용어에 `"drill": "d"|"r"`). 기존 용어집 끝에 용어를 덧붙일 때는 새 용어에 이어지는 `no`를 주고, 용어집 머리의 `"matchSealed"`를 덧붙이기 전 마지막 `no`로 적는다(이미 있으면 그대로 둔다) — 그래야 기존 짝짓기 문항 id가 바뀌지 않는다.
 4. `questions/index.json`에 파일명을 추가한다(본문 파일을 먼저, `terms-*.json`은 뒤에 — 단원 제목은 먼저 나온 파일의 `title`).
@@ -63,7 +64,8 @@
   - 문제 본문은 한 줄로 짧게, 긴 시나리오를 붙이지 않는다.
   - 선지는 **30자 안팎**, 쉬운 말로 쓴다. 한자어·전문어를 겹쳐 쓰지 않는다.
   - **용어를 억지로 번역하지 않는다(사용자 요청, 2026.10.08)**: 현장·강의에서 쓰는 이름 그대로 쓴다 — 영어로 쓰는 것은 영어(Protein A, Retentate, Clarification, Bind-elute, Flow-through, Aeration, Wetting agent, Bed height …), 우리말로 굳은 것은 우리말(회분식·유가식·관류, 유도기·정지기, 정제수·주사용수, 무균조작법 …). 「흘려보내기(flow-through)」「공기 빼기(Aeration)」「정화(Clarification)」처럼 만든 번역어나 「Ligand (리간드)」 같은 음역 괄호는 쓰지 않는다. 용어집 용어 이름도 같은 기준(괄호에는 실제로 쓰는 다른 이름만).
-  - **업계에서 영어가 표준인 용어는 영어로 쓴다(사용자 요청, 2026.10.08)**: high salt / low salt, enveloped / non-enveloped virus, lipid envelope, positive / negative pressure, low pH(low pH viral inactivation), virus filter, nanofiltration, diafiltration, conductivity, pI, aggregate·multimer·dimer, HCP·HCD, bubble point test, diffusion test, integrity test, depth filter, membrane filter, pre-filter, gel layer, binding capacity·DBC, linear velocity, bed height, batch·fed-batch·perfusion·continuous, lag·log·stationary·death phase, viability·VCD, seed train, spore, shear force, pore size. 영어 낱말 뒤 조사는 발음대로 붙인다(high salt**가**, perfusion**은**, positive pressure**를**). 우리말이 현장 표준인 것(제염, 용출, 교반, 통기, 세척·멸균·소독, 충전, 원심분리, 에어락, 차압, 세포은행, 적격성평가, 정제수·주사용수, 원료·완제의약품, 수율·순도)은 우리말로 쓴다. 단답형 `answers`에는 영어·우리말 표기를 모두 넣어 둔다.
+  - **업계에서 영어가 표준인 용어는 영어로 쓴다(사용자 요청, 2026.10.08)**: high salt / low salt, enveloped / non-enveloped virus, lipid envelope, positive / negative pressure, low pH(low pH viral inactivation), virus filter, nanofiltration, diafiltration, conductivity, pI, aggregate·multimer·dimer, HCP·HCD, bubble point test, diffusion test, integrity test, depth filter, membrane filter, pre-filter, gel layer, binding capacity·DBC, linear velocity, bed height, batch·fed-batch·perfusion·continuous, lag·log·stationary·death phase, viability·VCD, seed train, spore, shear force, pore size(막·레진의 pore — 「구멍」으로 쓰지 않음), inclusion body·cell lysis·solubilization·refolding, ligand, selectivity·efficiency, retention time. 영어 낱말 뒤 조사는 발음대로 붙인다(high salt**가**, perfusion**은**, positive pressure**를**). 우리말이 현장 표준인 것(제염, 용출, 결합·통과, 파쇄, 불활화, 교반, 통기, 세척·멸균·소독, 충전, 원심분리, 에어락, 차압, 세포은행, 적격성평가, 정제수·주사용수, 원료·완제의약품, 수율·순도)은 우리말로 쓴다. 단답형 `answers`에는 영어·우리말 표기를 모두 넣어 둔다.
+  - **공정 동작을 낱말 풀이로 쓰지 않는다(사용자 요청, 2026.10.12 — 「세포를 깨서 봉입체를 씻고, 녹인 뒤 다시 접는다」가 어색함)**: 세포를 깬다 → 파쇄한다(cell lysis), 녹인 뒤 다시 접는다 → solubilization·refolding, 떼어 낸다 → 용출한다, 붙였다 뗀다·흘려보낸다 → 결합시킨 뒤 용출한다·통과시킨다, 바이러스가 깨진다 → 불활화된다(lipid envelope를 파괴한다), 붙잡는 손 → ligand, 숨 쉰다 → 공기가 드나든다. 쉬운 말은 좋지만 공정 용어 자리에는 현장 용어를 쓴다.
   - **선지 문체(사용자 요청, 2026.10.08)**: 실제 시험 선지처럼 「~한다/~이다」 평서문, 「~해서/~하려고/~때문에」 이유형, 또는 짧은 명사구로 끝낸다. 「~함·~음·~됨」 음슴체와 끝 마침표는 쓰지 않는다. 짝짓기(「A – B」)의 오른쪽도 같은 기준.
   - 오답 선지는 강의 내용과 **분명히 다른** 진술(반대로 말하기, 다른 개념과 바꿔 말하기)로 쓴다. 미묘한 표현 차이로 함정을 만들지 않는다.
   - 용어집 정의도 같은 기준으로 짧게(가급적 35자 안팎) 쓴다 — 정의가 그대로 선지가 된다.
@@ -72,7 +74,7 @@
   - 세부 수치·규격·부품(클램프 규격, 펌프 종류, 재질 목록, 시험 조건 수치), 규정 문서 번호(PDA TR, 21 CFR 조항 등)
   - 데이터 분석 도구 세부(VIP plot, soft sensor 등), 상황 대응 절차의 세부 단계
   - 이미 있는 문항과 같은 포인트(한 포인트는 한 문항만). 녹음본 강조점도 대표 개념일 때만 낸다.
-  - 단원 규모 기준(2026.10): 본문은 단원당 대략 10~35문항(큰 단원 WK04는 녹음 포함 약 60), 용어는 단원당 대략 15~90개.
+  - 단원 규모 기준(2026.10): 본문은 단원당 대략 10~35문항(큰 단원 WK04는 녹음·판서 정리 노트 포함 약 100, WK03은 녹음 + 교재 약 45 — 단답형·원리 문항 포함), 용어는 단원당 대략 15~90개.
 - **쉬운 문제 대비(용어 정리)**: 강의에 나온 모든 용어를 용어집에 넣어 정의↔용어·짝짓기 문항으로 외우게 한다. 헷갈리기 쉬운 용어는 같은 `group`으로 묶어야 오답 선지가 변별력을 갖는다(예: RCB·MCB·WCB·EPC).
 - 여러 강의를 이어야 풀리는 문항은 `questions/integrated.json`(week `통합`)에 넣는다.
 - **미출제 요소**: 새 자료를 반영할 때마다 `docs/coverage.md`의 미출제 목록을 우선 출제하고, 이미 있는 문항과 같은 포인트를 반복하지 않는다. (앱은 사용자가 아직 안 푼 문항을 우선 출제하므로, 새 문항이 곧 다음 시험지의 미출제 요소가 된다.)

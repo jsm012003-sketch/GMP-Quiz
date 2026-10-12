@@ -70,9 +70,9 @@
 
 미출제 후보: 포도당 호기 대사 vs 혐기 해당(lactate 생성)의 차이.
 
-## WK03 — Downstream Process 1: 크로마토그래피 (2026.09.16, 녹음 기반)
+## WK03 — Downstream Process 1: 크로마토그래피 (2026.09.16, 녹음 + 교재)
 
-슬라이드(PDF)는 아직 없고 녹음본(약 1시간, 레진 회사 강사)만으로 만들었다. 출처: `WK03 강의 녹음 mm:ss`.
+녹음본(약 1시간, 레진 회사 강사)으로 먼저 만들고(출처 `WK03 강의 녹음 mm:ss`), 2026.10.12에 교재 「Chromatography Intro & Gel filtration」(피크앤밴드) 정리본으로 이어 붙였다(출처 `WK03 교재 (절 번호 제목)` — 정리본에 교재 쪽 번호가 절마다 없어 절 번호로 적음. 정리본에서 빠졌던 교재 p.20–21은 사진으로 받아 `WK03 교재 p.N (슬라이드 제목)`으로 적음).
 
 | 출제됨 | 문항 |
 |---|---|
@@ -84,7 +84,17 @@
 | 탈염(IEX 전 컨디셔닝)·group separation(G-25), V0 vs Vt, SEC는 마지막 polishing | wk03-017 ~ wk03-020 |
 | 레진 공급 다변화(납기 18개월), Superdex Increase vs prep grade, Sephacryl S-100 vs S-400, 팽윤 | wk03-021 ~ wk03-024 |
 
-미출제 후보: 슬라이드가 오면 그 대표 내용을 같은 파일에 이어 붙인다(HIC·MMC 원리 등).
+| (교재) Analytical vs Preparative, 용출 방법(salt·pH·경쟁 물질), 정제 후 분석(안정성 = DSC) | wk03-030 ~ wk03-032 |
+| (교재) 이상적인 매트릭스(친수성·비특이 결합 없음·rigid), selectivity vs efficiency, selectivity가 더 중요한 이유 | wk03-033 ~ wk03-035 |
+| (교재) Kav = 0(가장 큰 분자, 단답), SEC를 IEX·HIC·AC 바로 뒤에 둘 수 있는 이유, group separation vs fine fractionation, desalting 조건(30 %, 넓고 짧은 컬럼) | wk03-036 ~ wk03-039 |
+| (교재) Strong(Q·S) vs weak(DEAE·CM) 이온교환기, Q·DEAE = 음이온 교환기(단답), IEX 순서의 마지막 regeneration(단답), 음이온 교환기에 안 붙을 때 pH를 올리는 이유(pI) | wk03-040 ~ wk03-043 |
+| (교재) MMC 정의·쓰는 경우(높은 conductivity·단계 수 줄이기·selectivity 부족), high salt tolerance 원리, HTPD(HTS + DoE) | wk03-044 ~ wk03-047 |
+| (교재) 정제 단계별 우선 항목(Capture speed·capacity / Polishing resolution·recovery), RPC(유기 용매 → 활성 손실), DNA UV 260 nm(단답) | wk03-048 ~ wk03-050 |
+| (교재 p.20–21) Desalting vs fine fractionation 운전 조건(0.5~4 %·낮은 유속·긴 컬럼), 시료 부피를 작게 넣는 이유(peak broadening), 좁은 fractionation range가 분해능이 높은 이유(기울기, 필기 「범위↓ resolution↑」) | wk03-051 ~ wk03-053 |
+
+교재에서 일부러 내지 않은 것: 크로마토그래피 역사·연도(Tsvet, 1903 등), 제품·장비명(Sephadex G-10~G-50 표, Capto MMC·Capto Core 700, ÄKTA pilot·process, AxiChrom, OPUS RoboColumn, MODDE·JMP 등), 버퍼 pKa 목록·휘발성 버퍼, rPro-insulin case study 수치, Rs 공식·Rs와 순도 대응, Vi·Kav 공식 계산, 소수성 아미노산 목록, 레진별 입자 크기 비교 수치, 스케일업 사례 배수. SBC vs DBC와 scale-up 고정 파라미터(bed height·linear velocity)는 WK06에 이미 있어(wk06-049·051·060) 용어(SBC, Breakthrough, Volumetric flow rate)만 더했다.
+
+교재 p.20–21에서 내지 않은 것: preparative SEC 레진 제품별 분리 범위 표(Superdex·Superose·Sephacryl), 레진별 크로마토그램 비교, fine fractionation 입자 크기(> 12 µm)·bed height 수치(단답형으로는 내지 않음), 판독이 불확실한 손필기(bed height 옆).
 
 ## WK04 — Downstream Process 2: 여과 및 기타 공정 (2026.09.23)
 
@@ -134,6 +144,25 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | 무균 의약품 제조 3방법, 정제는 비무균, WFI는 무균 아님, 배지 여과 멸균, sparger vs vent 필터 | wk04-114 ~ wk04-118 |
 
 미출제 후보: 없음(진로·시장 이야기는 출제하지 않는다).
+
+### WK04 보강 (10.09 — 사용자 정리 노트 「GMP 4주차 정리: 다운스트림 공정」 반영)
+
+09.23 판서·10.07 강의·WK04 교안을 정리한 노트와 기존 문항을 맞춰 보고, ★(강사 강조) 포인트 중 빠진 것만 더했다. 같은 포인트가 WK06(10.07 녹음) 문항에 이미 있으면 다시 내지 않았다(카세트 사이클·NWP·보관 용액·CIP/SIP·과농축 회수·P→C→A·HIC 다량체·E&L 등). 출처는 `WK04 판서 정리(09.23)`와 교안 쪽수를 함께 적었다.
+
+| 출제됨 | 문항 |
+|---|---|
+| (보관함에서 되살림) Vmax vs Pmax·Tmax, flux vs capacity, cassette vs hollow fiber, MF vs UF 항체 위치, CHO doubling time, IEX 용출 = high conductivity(mS/cm) | wk04-037, 038, 050, 051, 090, 106 |
+| VI vs VF, upstream prevention vs downstream clearance, 완제에서 VF를 다시 안 하고 제균여과만 하는 이유 | wk04-134 ~ wk04-136 |
+| pH vs pI와 전하, pH 6~7이 아니라 5~6인 이유 | wk04-137, wk04-138 |
+| Bioburden reduction vs sterile filtration, gas filter vs vent filter, SIP 뒤 vent filter가 필요한 이유 | wk04-139 ~ wk04-141 |
+| Cassette를 바로 세척하는 이유(aging), integrity test를 하지 않는 필터(depth), bubble point = 최대 구멍 | wk04-142 ~ wk04-144 |
+| Inclusion body 장점, 대장균 공정의 endotoxin, IPC vs 출하시험, SC 고농도 제형의 이유와 대가, mycoplasma와 0.1 µm 필터 | wk04-145 ~ wk04-149 |
+| (단답) seed train 단계당 약 5배, 항체 약 150 kDa | wk04-150, wk04-151 |
+| (WK06) Extractables vs leachables | wk06-063 |
+
+용어집 추가(no 157~159, `matchSealed` [113, 156]): Bioburden reduction, Gas filter, Mycoplasma.
+
+출제하지 않음(지엽적·계산): 1 M NaCl 전도도 수치(해설로만), DF 잔류율(DV별 %), 휴미라 펜 농축 배수 계산, 혈장 성분 비율, 필터 재질별 표·제품명(Sartopore·Durapore 등), 막 제조법, 기체 여과 메커니즘 5종·MPPS, WFI vent 하우징 부품, diaphragm valve, 젠자임·일본 혈장 사례, 세척제 선택(교안에 설명 없음).
 
 ## GMP01 — 완제 의약품 제조 공정의 이해 (2026.09.30)
 
@@ -290,8 +319,8 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | 단원 | 문항 | 묻는 원리 |
 |---|---|---|
 | WK02 | wk02-081 ~ wk02-085 | pH 저하(lactate) → 염기, micro sparger(작은 기포·표면적), 같은 rpm 금지(tip speed·전단력), 동물세포가 전단력에 약함(세포벽 없음), N-1 perfusion이 배치 수를 늘림 |
-| WK03 | wk03-028, wk03-029 | HIC 고염 결합(소수성 부위 노출), IEX를 pH가 아닌 염으로 용출(단백질 안정성) |
-| WK04 | wk04-129 ~ wk04-133 | AEX에 바이러스·DNA만 붙음(pI·전하), CFF가 덜 막힘(표면을 쓸어냄), UF 농축 원리(MWCO), 큰 구멍 → 낮은 기포점, PUPSIT 이유 |
+| WK03 | wk03-028, wk03-029, wk03-035, wk03-037, wk03-043, wk03-046, wk03-052, wk03-053 | HIC high salt 결합(소수성 부위 노출), IEX를 pH가 아닌 염으로 용출(단백질 안정성), selectivity가 efficiency보다 중요(peak 겹침), SEC를 결합 단계 바로 뒤에(버퍼 영향 없음), 음이온 교환기에 안 붙으면 pH↑(pH > pI → − 전하), MMC high salt tolerance(전하 외 상호작용), fine fractionation 시료 부피를 작게(peak broadening), 좁은 fractionation range → 분해능↑(Kav 기울기) |
+| WK04 | wk04-129 ~ wk04-133 | AEX에 바이러스·DNA만 붙음(pI·전하), CFF가 덜 막힘(표면을 쓸어냄), UF 농축 원리(MWCO), 큰 pore → 낮은 bubble point, PUPSIT 이유 |
 | GMP01 | gmp01-024, gmp01-025 | 단백질 주사제 무균조작(열 변성), 동결건조 안정성 |
 | GMP02 | gmp02-031 ~ gmp02-033 | APS 용기 뒤집기, 2단계 온도, 사람이 가장 큰 오염원 |
 | GMP03 | gmp03-040 ~ gmp03-042 | 메인 챔버 양압, 아포 저항성, 불리한 위치의 BI(worst case) |
@@ -302,13 +331,13 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 
 "외워야 할 Major한 것" 위주로 두 갈래를 만들었다. 강의 구석의 세부 수치·제품명은 단답형으로도 내지 않는다.
 
-1. **핵심 용어 쓰기**(용어집 `"short": true` → `terms-*.json`의 `<prefix>s-<no>`, 164문항): 설명을 보고 용어를 쓴다. 단원별 — WK02 32, WK03 13, WK04 36, GMP01 13, GMP02 12, GMP03 12, WK06 21, WK07 25.
-2. **핵심 사실 쓰기**(본문 파일, 47문항):
+1. **핵심 용어 쓰기**(용어집 `"short": true` → `terms-*.json`의 `<prefix>s-<no>`, 167문항): 설명을 보고 용어를 쓴다. 단원별 — WK02 32, WK03 16, WK04 36, GMP01 13, GMP02 12, GMP03 12, WK06 21, WK07 25.
+2. **핵심 사실 쓰기**(본문 파일, 53문항):
 
 | 단원 | 문항 | 묻는 것 |
 |---|---|---|
 | WK02 | wk02-073 ~ wk02-080 | 세포은행 순서(MCB), 생산 시작 은행(WCB), temperature shift 32 ℃, QbD 순서(CQA), 항체 생산 시기(정지기), OTR ≥ OUR, 암모늄 출처(글루타민), scale-up 기준(P/V) |
-| WK03 | wk03-025 ~ wk03-027 | 정제 3단계(Intermediate), 단백질 UV 280 nm, IEX 용출(염 농도) |
+| WK03 | wk03-025 ~ wk03-027, wk03-036, wk03-041, wk03-042, wk03-050 | 정제 3단계(Intermediate), 단백질 UV 280 nm, IEX 용출(염 농도), 가장 큰 분자의 Kav(0), Q·DEAE(음이온 교환기), IEX 마지막 단계(Regeneration), DNA UV 260 nm |
 | WK04 | wk04-119 ~ wk04-128 | 제균 필터 0.2 µm, MF→UF→NF→RO, Protein A 용출 pH 3~3.5, CEX pH 5~6, 불순물 4총사(바이러스), 비외피 바이러스 20 nm, 친수성 필터 적심 액(물), 무균 의약품 3방법(무균 공정), AEX flow-through, 미생물 vs 동물세포(세포벽) |
 | GMP01 | gmp01-020 ~ gmp01-023 | SAL 10⁻⁶, 동결건조 반마개, 바이알 알루미늄 캡, 완제 흐름(혼합·조제) |
 | GMP02 | gmp02-026 ~ gmp02-030 | APS 배양 14일, Initial APS 연속 3회, Routine APS 6개월, RABS 주변 Grade B, First air |
@@ -335,8 +364,8 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 | 단원 | 용어 수 | 문항 수 | 주요 묶음(group) |
 |---|---|---|---|
 | WK02 | 90 | 152 (단답 32) | modality, 백신 플랫폼, 숙주·세포은행, 공정 흐름, 배양 방식·공정 강화, 관류 장치, 성장곡선, 배지·대사, 배양기·제어, QbD, scale-up, 교반·통기, 데이터 분석, 원가 |
-| WK03 | 35 | 59 (단답 13) | 크로마토그래피 기본, 정제 단계, 레진 종류, 운전 모드·용출, 시스템 구성, 정제 후 분석, SEC·탈염, 레진 준비·공급 (녹음 기반) |
-| WK04 | 89 | 154 (단답 36) | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험, (녹음) 공정 흐름·세포·정제·무균 |
+| WK03 | 67 | 106 (단답 16) | 크로마토그래피 기본, 정제 단계, 레진 종류, 운전 모드·용출, 시스템 구성, 정제 후 분석, SEC·탈염, (교재) 분석용 vs 분취용, 매트릭스·retention time, 분획 방식, selectivity·efficiency, Kav·exclusion limit, 강·약 이온교환기·IEX 단계, SBC·breakthrough, HTPD·HTS, RPC·IMAC |
+| WK04 | 92 | 158 (단답 36) | DSP 방법·불순물, 여과 기본·용도, 여과 방식·크기(MF·UF·NF·RO), 필터 재질·구조, 기공 등급, 기체 여과·vent, 필터 크기 산정, 필터 형태·펌프, TFF, 무결성 시험, (녹음) 공정 흐름·세포·정제·무균 |
 | GMP01 | 41 | 68 (단답 13) | 제형, 멸균·무균, 조제, 부형제, 충전·용기, 품질 검사, 무균 환경, GMP 공통 |
 | GMP02 | 30 | 53 (단답 12) | 차단 방식, RABS 구성, 규정(Annex 1·ISO 13408-1·PDA TR22), APS, 간섭, worst case, 실패 조치, EM |
 | GMP03 | 34 | 59 (단답 12) | 아이솔레이터 원리·챔버, VHP cycle·조건, 사멸 원리, 적재, BI·CI·EI, cycle development, qualification, test location, glove, (녹음) 멸균 방식·BI 형태, 운영(SOP·GDP·개입) |
@@ -353,8 +382,8 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 |---|---|---|
 | OT (단원 전체 제외) | 7개 — ot-{001, 002, 003, 004, 005, 007, 008} (+ int-002) | 6개 — Patent expiration, Market share, Equipment list, Utility consumption, 감가상각, Milestone |
 | WK02 | 35개 — wk02-{005, 006, 007, 011, 013, 016, 019, 020, 022, 024, 026, 027, 028, 029, 030, 033, 036, 037, 040, 041, 042, 043, 045, 046, 048, 049, 051, 052, 053, 055, 056, 058, 060, 068, 071} | 43개 — PBT, VBT, TIL / NK 세포치료제, Recombinant protein platform, Virus platform, Bolus feed, Concentrated fed-batch, Dynamic perfusion, CRD, Hollow fiber membrane, Cell bleed, Permeate, Direct capture, Peak VCD, Inoculation density, Spent media analysis, pCO₂, Sampling port, Offline analysis, Exhaust cooler, Screening design, Optimization design, Ambr 15, Geometrical similarity, MSAT, Mixing time, Torque, VVM, Superficial gas velocity, Gassing-out method, Foam / Flooding, MVDA, PCA, VIP plot, Coefficient plot, Hybrid model, Soft sensor, Golden batch, Biopharma 4.0, Digital twin, Capital charge, Footprint, Major change |
-| WK03 | 7개 — wk03-{007, 013, 015, 021, 022, 023, 024} | 14개 — Gradient mixer, Air trap, Pressure sensor, Fraction collector, Sephadex G-25, Fine fractionation, Superdex Increase, Superdex prep grade, Sephacryl S-100, Sephacryl S-400, Swelling, Packing, Scale-up, Supply diversification |
-| WK04 | 57개 — wk04-{002, 004, 007, 009, 011, 012, 013, 019, 022, 023, 024, 026, 027, 028, 029, 031, 032, 033, 034, 035, 037, 038, 039, 041, 042, 043, 044, 045, 049, 050, 051, 052, 054, 055, 056, 057, 058, 061, 064, 065, 066, 069, 070, 071, 072, 073, 074, 078, 080, 084, 087, 090, 092, 093, 101, 106, 107} | 67개 — BFS, Media mitigation, Driving pressure difference, Combination filter, PES, Cellulose acetate, PP, Glass fiber, Diatomaceous earth, Asymmetric membrane, Membrane casting, Retention rate, Beta ratio, Tank collapse, Double vent system, Heated vent housing, Sieve effect, Impaction, Interception, Diffusion, Electrostatic interaction, MPPS, HEPA filter grade, Aerosol challenge test, Vmax, Pmax, Tmax, Pleated membrane, Sanitary clamp / Ferrule, SS 316L, Peristaltic pump, Diaphragm pump, Rotary lobe pump, Self-priming, Pressurized transfer, Gravity transfer, Crossflow rate, Optimum TMP, Continuous diafiltration, Batch diafiltration, Cassette, Hollow fiber module, Spiral-wound module, CWF, NWP, Membrane life cycle, System hold-up volume, Pressure drop test, Wetting angle, Surface tension, Min. bubble point, Max. bubble point, IT test limit, Reference wetting fluid, PDA TR 26, Plasma-derived product, Upstream process, Downstream process, Biosimilar, Beacon, Doubling time, Feeding strategy, Process development, High conductivity, mS/cm, Dilution, Utility |
+| WK03 | 7개 — wk03-{007, 013, 015, 021, 022, 023, 024} | 14개 — Gradient mixer, Air trap, Pressure sensor, Fraction collector, Sephadex G-25, Fine fractionation(교재 반영 때 no 71로 다시 넣음), Superdex Increase, Superdex prep grade, Sephacryl S-100, Sephacryl S-400, Swelling, Packing, Scale-up, Supply diversification |
+| WK04 | 51개 — wk04-{002, 004, 007, 009, 011, 012, 013, 019, 022, 023, 024, 026, 027, 028, 029, 031, 032, 033, 034, 035, 039, 041, 042, 043, 044, 045, 049, 052, 054, 055, 056, 057, 058, 061, 064, 065, 066, 069, 070, 071, 072, 073, 074, 078, 080, 084, 087, 092, 093, 101, 107} | 67개 — BFS, Media mitigation, Driving pressure difference, Combination filter, PES, Cellulose acetate, PP, Glass fiber, Diatomaceous earth, Asymmetric membrane, Membrane casting, Retention rate, Beta ratio, Tank collapse, Double vent system, Heated vent housing, Sieve effect, Impaction, Interception, Diffusion, Electrostatic interaction, MPPS, HEPA filter grade, Aerosol challenge test, Vmax, Pmax, Tmax, Pleated membrane, Sanitary clamp / Ferrule, SS 316L, Peristaltic pump, Diaphragm pump, Rotary lobe pump, Self-priming, Pressurized transfer, Gravity transfer, Crossflow rate, Optimum TMP, Continuous diafiltration, Batch diafiltration, Cassette, Hollow fiber module, Spiral-wound module, CWF, NWP, Membrane life cycle, System hold-up volume, Pressure drop test, Wetting angle, Surface tension, Min. bubble point, Max. bubble point, IT test limit, Reference wetting fluid, PDA TR 26, Plasma-derived product, Upstream process, Downstream process, Biosimilar, Beacon, Doubling time, Feeding strategy, Process development, High conductivity, mS/cm, Dilution, Utility |
 | GMP01 | 4개 — gmp01-{004, 007, 011, 012} | 1개 — pH 조절제 |
 | GMP02 | 11개 — gmp02-{007, 008, 010, 012, 013, 015, 016, 017, 018, 022, 024} | 12개 — RTP, ISO 13408-1, PDA TR22, 100 % 육안 검사, APS Holistic approach, Line speed, H/D 비, APS 충전량, 반복 APS, 재자격, 균 동정, 오버스필 |
 | GMP03 | 12개 — gmp03-{003, 013, 016, 017, 022, 023, 025, 026, 029, 030, 031, 033} | 27개 — Dwell time, Distribution, Dosing rate, Maximum load, Minimum / Empty load, 흡착성 재질, Geobacillus stearothermophilus, Steel disk carrier, Fractional study, Temperature & humidity mapping, CI mapping, Edges of enclosure, Airflow challenging areas, Process critical positions, Leak rate, Audit trail, 잔류 H₂O₂ 허용 기준, Sterility testing isolator, Paper strip BI, Ampoule BI, Rogue BI, SOP, Glove port, Inherent intervention, C&Q, Chamber leak test, Bracketing |
