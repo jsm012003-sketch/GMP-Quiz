@@ -1366,6 +1366,386 @@
       "tags": [
         "E&L (Extractables & Leachables)"
       ]
+    },
+    {
+      "id": "wk06-064",
+      "type": "계산",
+      "part": 2,
+      "question": "5,000 L 배양기에서 titer 2 g/L로 배양하면 한 배치에서 만들어지는 항체 양은?",
+      "choices": [
+        "1 kg",
+        "100 kg",
+        "2.5 kg",
+        "10 kg",
+        "0.4 kg"
+      ],
+      "answer": 4,
+      "explanation": "**생산량 = 배양 부피 × titer = 5,000 L × 2 g/L = 10,000 g = 10 kg이다(회수율은 따로 곱한다).** Titer는 배양액 1 L에 든 목표 단백질 양(g/L)이다.",
+      "choiceNotes": [
+        "틀리다 — 단위를 한 자리 잘못 맞춘 값이다.",
+        "틀리다 — 단위를 한 자리 잘못 맞춘 값이다.",
+        "틀리다 — 5,000 ÷ 2를 g으로 본 값이다. 곱해야 한다.",
+        "옳다 — 생산량 = 배양 부피 × titer = 5,000 L × 2 g/L = 10,000 g = 10 kg이다(회수율은 따로 곱한다)",
+        "틀리다 — 계산이 맞지 않는다(5,000 L × 2 g/L = 10 kg)."
+      ],
+      "source": "WK06 PDF p.24 (Case 1: Titer 0.1 → 1.0 g/L) · 강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer"
+      ],
+      "tags": [
+        "Titer"
+      ]
+    },
+    {
+      "id": "wk06-065",
+      "type": "계산",
+      "part": 2,
+      "question": "1,000 L 배양액을 모두 정제해 항체 2.5 kg을 얻었다면 titer는? (회수율 100 %)",
+      "choices": [
+        "0.25 g/L",
+        "25 g/L",
+        "2.5 g/L",
+        "0.4 g/L",
+        "250 g/L"
+      ],
+      "answer": 3,
+      "explanation": "**Titer = 항체 양 ÷ 배양 부피 = 2,500 g ÷ 1,000 L = 2.5 g/L다.** 강의: 항체 공정 titer는 보통 1 L당 2~3 g 수준이다.",
+      "choiceNotes": [
+        "틀리다 — kg을 g으로 바꿀 때 자릿수를 잘못 맞춘 값이다.",
+        "틀리다 — kg을 g으로 바꿀 때 자릿수를 잘못 맞춘 값이다.",
+        "옳다 — Titer = 항체 양 ÷ 배양 부피 = 2,500 g ÷ 1,000 L = 2.5 g/L다",
+        "틀리다 — 부피 ÷ 양을 한 값이다.",
+        "틀리다 — 단위를 두 자리 잘못 맞춘 값이다."
+      ],
+      "source": "WK06 PDF p.24 (Case 1: Titer 0.1 → 1.0 g/L) · 강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer"
+      ],
+      "tags": [
+        "Titer"
+      ]
+    },
+    {
+      "id": "wk06-066",
+      "type": "계산",
+      "part": 2,
+      "question": "Bed height 20 cm, 지름 40 cm인 Protein A 컬럼의 레진 부피(CV = π × 반지름² × 높이)는 약 얼마인가?",
+      "choices": [
+        "약 100 L",
+        "약 2.5 L",
+        "약 50 L",
+        "약 8 L",
+        "약 25 L"
+      ],
+      "answer": 5,
+      "explanation": "**CV = π × (20 cm)² × 20 cm ≈ 25,100 cm³ ≈ 25 L다(1 L = 1,000 cm³).** 컬럼 부피는 원통 부피(단면적 × bed height)로 구한다.",
+      "choiceNotes": [
+        "틀리다 — 반지름 대신 지름을 넣은 값이다.",
+        "틀리다 — mL → L 자릿수를 잘못 맞춘 값이다.",
+        "틀리다 — π × 20² × 20을 두 번 센 값이다.",
+        "틀리다 — π를 곱하지 않은 값이다.",
+        "옳다 — CV = π × (20 cm)² × 20 cm ≈ 25,100 cm³ ≈ 25 L다(1 L = 1,000 cm³)"
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈) · WK03 강의 녹음 (Column volume)",
+      "concepts": [
+        "Column volume (CV)",
+        "Bed height"
+      ],
+      "tags": [
+        "Column volume (CV)",
+        "Bed height"
+      ]
+    },
+    {
+      "id": "wk06-067",
+      "type": "계산",
+      "part": 2,
+      "question": "레진 25 L, binding capacity 40 g/L인 Protein A 컬럼에 한 cycle에 넣을 수 있는 항체 양은?",
+      "choices": [
+        "1 kg",
+        "0.625 kg",
+        "100 g",
+        "10 kg",
+        "65 g"
+      ],
+      "answer": 1,
+      "explanation": "**한 cycle 처리량 = 레진 부피 × binding capacity = 25 L × 40 g/L = 1,000 g = 1 kg이다.** 실제 운전은 DBC보다 낮게(여유를 두고) 넣는다.",
+      "choiceNotes": [
+        "옳다 — 한 cycle 처리량 = 레진 부피 × binding capacity = 25 L × 40 g/L = 1,000 g = 1 kg이다",
+        "틀리다 — 25 ÷ 40을 한 값이다.",
+        "틀리다 — 단위를 한 자리 잘못 맞춘 값이다.",
+        "틀리다 — 단위를 한 자리 잘못 맞춘 값이다.",
+        "틀리다 — 25와 40을 더한 값이다."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈) · WK06 강의 녹음 (DBC)",
+      "concepts": [
+        "Binding capacity",
+        "Protein A"
+      ],
+      "tags": [
+        "Binding capacity",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-068",
+      "type": "계산",
+      "part": 2,
+      "question": "2,000 L 배양기의 titer가 3 g/L이고 Protein A 한 cycle 처리량이 1.5 kg이면 cycles per batch는?",
+      "choices": [
+        "2",
+        "6",
+        "9",
+        "4",
+        "8"
+      ],
+      "answer": 4,
+      "explanation": "**한 배치 항체 = 2,000 L × 3 g/L = 6 kg이고, 6 kg ÷ 1.5 kg = 4 cycles다.** 슬라이드처럼 레진 부피가 작으면 cycle을 여러 번 돌려 한 배치를 처리한다.",
+      "choiceNotes": [
+        "틀리다 — 1.5 kg의 2배로 계산한 값이다.",
+        "틀리다 — 6 kg을 1 kg씩 나눈 값이다.",
+        "틀리다 — 6 kg × 1.5를 한 값이다. 나눠야 한다.",
+        "옳다 — 한 배치 항체 = 2,000 L × 3 g/L = 6 kg이고, 6 kg ÷ 1.5 kg = 4 cycles다",
+        "틀리다 — 계산이 맞지 않는다(6 kg ÷ 1.5 kg = 4)."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Cycles per batch",
+        "Titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Cycles per batch",
+        "Titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-069",
+      "type": "계산",
+      "part": 2,
+      "question": "레진 20 L 컬럼에 40 g/L씩 5 cycle을 돌려 2,000 L 배양액의 항체를 모두 처리했다. 이 배양의 titer는?",
+      "choices": [
+        "0.4 g/L",
+        "4 g/L",
+        "2 g/L",
+        "8 g/L",
+        "0.5 g/L"
+      ],
+      "answer": 3,
+      "explanation": "**처리한 항체 = 20 L × 40 g/L × 5 = 4,000 g이고, titer = 4,000 g ÷ 2,000 L = 2 g/L다.** Protein A 컬럼 크기·cycle 수와 배양 규모·titer는 이렇게 서로 이어진다.",
+      "choiceNotes": [
+        "틀리다 — cycle 수를 곱하지 않은 값이다.",
+        "틀리다 — 부피를 1,000 L로 본 값이다.",
+        "옳다 — 처리한 항체 = 20 L × 40 g/L × 5 = 4,000 g이고, titer = 4,000 g ÷ 2,000 L = 2 g/L다",
+        "틀리다 — 계산이 맞지 않는다(4,000 g ÷ 2,000 L = 2 g/L).",
+        "틀리다 — 부피 ÷ 양을 한 값이다."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ],
+      "tags": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-070",
+      "type": "계산",
+      "part": 2,
+      "question": "Titer 2 g/L 배양액을 레진 30 L 컬럼(40 g/L)으로 한 배치에 4 cycle 처리한다. 배양기 부피는?",
+      "choices": [
+        "600 L",
+        "4,800 L",
+        "9,600 L",
+        "1,200 L",
+        "2,400 L"
+      ],
+      "answer": 5,
+      "explanation": "**한 배치 항체 = 30 L × 40 g/L × 4 = 4,800 g이고, 배양 부피 = 4,800 g ÷ 2 g/L = 2,400 L다.** 생산 규모는 한 배치 항체 양을 titer로 나눠 구한다.",
+      "choiceNotes": [
+        "틀리다 — cycle 수를 곱하지 않은 값이다.",
+        "틀리다 — titer로 나누지 않은 값(g)이다.",
+        "틀리다 — titer로 나누지 않고 곱한 값이다.",
+        "틀리다 — cycle 수를 2로 본 값이다.",
+        "옳다 — 한 배치 항체 = 30 L × 40 g/L × 4 = 4,800 g이고, 배양 부피 = 4,800 g ÷ 2 g/L = 2,400 L다"
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ],
+      "tags": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-071",
+      "type": "계산",
+      "part": 2,
+      "question": "레진 20 L 컬럼을 equilibration 5 CV로 한 배치에 4 cycle 돌릴 때 equilibration buffer 총량은?",
+      "choices": [
+        "100 L",
+        "400 L",
+        "80 L",
+        "2,000 L",
+        "25 L"
+      ],
+      "answer": 2,
+      "explanation": "**버퍼 양 = 레진 부피 × CV 수 × cycle 수 = 20 L × 5 × 4 = 400 L다.** 슬라이드: 버퍼는 모두 CV 단위(equilibration 5 CV, wash 5 CV, elution 2 CV, regeneration 3 CV)로 정한다.",
+      "choiceNotes": [
+        "틀리다 — cycle 수를 곱하지 않은 한 cycle 양이다.",
+        "옳다 — 버퍼 양 = 레진 부피 × CV 수 × cycle 수 = 20 L × 5 × 4 = 400 L다",
+        "틀리다 — CV 수(5)를 곱하지 않은 값이다.",
+        "틀리다 — 계산이 맞지 않는다(20 L × 5 × 4 = 400 L).",
+        "틀리다 — 20 + 5를 한 값이다."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Column volume (CV)",
+        "Cycles per batch"
+      ],
+      "tags": [
+        "Column volume (CV)",
+        "Cycles per batch"
+      ]
+    },
+    {
+      "id": "wk06-072",
+      "type": "계산",
+      "part": 2,
+      "question": "한 cycle에 항체 800 g을 넣고 2 CV(레진 20 L)로 용출하면 용출액 농도는? (회수율 100 %)",
+      "choices": [
+        "40 g/L",
+        "10 g/L",
+        "16 g/L",
+        "20 g/L",
+        "400 g/L"
+      ],
+      "answer": 4,
+      "explanation": "**용출 부피 = 2 × 20 L = 40 L이고, 농도 = 800 g ÷ 40 L = 20 g/L다.** 슬라이드에서도 concentration out은 처리한 항체 양을 volume out으로 나눈 값이다.",
+      "choiceNotes": [
+        "틀리다 — 용출 부피를 1 CV(20 L)로 본 값이다.",
+        "틀리다 — 용출 부피를 4 CV로 본 값이다.",
+        "틀리다 — 800 ÷ 50을 한 값이다.",
+        "옳다 — 용출 부피 = 2 × 20 L = 40 L이고, 농도 = 800 g ÷ 40 L = 20 g/L다",
+        "틀리다 — 부피를 2 L로 본 값이다."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Elution (용출)",
+        "Column volume (CV)"
+      ],
+      "tags": [
+        "Elution (용출)",
+        "Column volume (CV)"
+      ]
+    },
+    {
+      "id": "wk06-073",
+      "type": "개념",
+      "part": 2,
+      "question": "같은 bed height에서 Protein A 컬럼 지름을 키울 때(레진 부피 증가) 나타나는 변화로 옳은 것은?",
+      "choices": [
+        "Cycle 수와 공정 시간이 줄고, 버퍼 총량은 늘어난다",
+        "Cycle 수가 늘고 공정 시간이 길어진다",
+        "버퍼 총량이 줄고 용출액 농도가 높아진다",
+        "레진 1 L당 binding capacity가 커진다",
+        "Linear velocity를 낮춰야 한다"
+      ],
+      "answer": 1,
+      "explanation": "**레진 부피가 커지면 한 cycle 처리량이 늘어 cycles per batch와 공정 시간이 줄지만, 버퍼를 CV 단위로 쓰므로 버퍼 총량과 용출 부피는 늘고 용출액 농도는 낮아진다.** 슬라이드 예: cycles 8 → 4, 공정 시간 13 h → 7 h, 용출 농도 14.6 → 12.9 g/L, 버퍼(equilibration) 565 → 636.",
+      "choiceNotes": [
+        "옳다 — 레진 부피가 커지면 한 cycle 처리량이 늘어 cycles per batch와 공정 시간이 줄지만, 버퍼를 CV 단위로 쓰므로 버퍼 총량과 용출 부피는 늘고 용출액 농도는 낮아진다",
+        "틀리다 — 레진이 많아 한 cycle에 더 많이 처리하므로 cycle이 준다.",
+        "틀리다 — 버퍼는 CV 단위라 레진이 크면 총량이 늘고, 용출 부피가 커져 농도는 낮아진다.",
+        "틀리다 — g/L 값은 레진 성질이라 그대로다.",
+        "틀리다 — scale-up 때 linear velocity는 같게 둔다."
+      ],
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Cycles per batch",
+        "Column volume (CV)",
+        "Protein A"
+      ],
+      "tags": [
+        "Cycles per batch",
+        "Column volume (CV)",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-074",
+      "type": "계산",
+      "part": 2,
+      "question": "Bed height 20 cm, linear velocity 300 cm/h일 때 residence time(bed height ÷ linear velocity)은?",
+      "choices": [
+        "15분",
+        "60분",
+        "4분",
+        "0.07분",
+        "6,000분"
+      ],
+      "answer": 3,
+      "explanation": "**Residence time = 20 cm ÷ 300 cm/h = 1/15 h = 4분이다.** 분자가 레진과 만나는 시간이라, scale-up 때 bed height와 linear velocity를 같게 두면 residence time도 같게 유지된다.",
+      "choiceNotes": [
+        "틀리다 — 300 ÷ 20을 한 값이다.",
+        "틀리다 — 계산이 맞지 않는다(20 ÷ 300 h = 4분).",
+        "옳다 — Residence time = 20 cm ÷ 300 cm/h = 1/15 h = 4분이다",
+        "틀리다 — 시간(h)을 분으로 바꾸지 않은 값이다.",
+        "틀리다 — 곱한 값이다."
+      ],
+      "source": "WK06 강의 녹음 2:08:21–2:18:01 (선속도·bed height)",
+      "concepts": [
+        "Linear velocity",
+        "Bed height",
+        "Residence time"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Bed height",
+        "Residence time"
+      ]
+    },
+    {
+      "id": "wk06-075",
+      "type": "계산",
+      "part": 2,
+      "question": "Linear velocity를 같게 두고 컬럼 지름을 1 cm에서 10 cm로 키우면 부피 유속(mL/min)은 몇 배가 되는가?",
+      "choices": [
+        "10배",
+        "1배(그대로)",
+        "1,000배",
+        "100배",
+        "20배"
+      ],
+      "answer": 4,
+      "explanation": "**부피 유속 = linear velocity × 단면적이고 단면적은 지름²에 비례하므로 10² = 100배가 된다.** Scale-up은 linear velocity(cm/h)와 bed height를 고정하고 지름·부피 유속(L/h)을 키운다.",
+      "choiceNotes": [
+        "틀리다 — 지름에 비례한다고 본 값이다 — 유속은 단면적(지름²)에 비례한다.",
+        "틀리다 — linear velocity가 같아도 단면적이 커져 부피 유속은 늘어난다.",
+        "틀리다 — 지름³에 비례한다고 본 값이다.",
+        "옳다 — 부피 유속 = linear velocity × 단면적이고 단면적은 지름²에 비례하므로 10² = 100배가 된다",
+        "틀리다 — 지름 × 2를 한 값이다."
+      ],
+      "source": "WK06 강의 녹음 2:08:21–2:18:01 (선속도·bed height) · WK03 교재 (7.4–7.5 스케일업 고정·변동 파라미터)",
+      "concepts": [
+        "Linear velocity",
+        "Scale-up",
+        "Volumetric flow rate"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Scale-up",
+        "Volumetric flow rate"
+      ]
     }
   ]
 }

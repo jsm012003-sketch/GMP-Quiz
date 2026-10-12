@@ -25,11 +25,20 @@
   // I 용어·개념 확인 55 % · II 헷갈리는 개념 구분 25 % · III 단답형 20 %, 모두 문항당 2점 (50문항 = 100점)
   const PARTS = {
     1: { roman: 'I', name: '용어 정의 및 개념 확인', note: '용어의 뜻과 기본 개념을 확인한다.', ratio: 0.55, points: 2 },
-    2: { roman: 'II', name: '개념 구분과 원리 이해', note: '헷갈리기 쉬운 개념을 구분하고, 왜 그렇게 하는지(이유·작용 원리)를 확인한다.', ratio: 0.25, points: 2 },
+    2: { roman: 'II', name: '개념 구분과 원리 이해', note: '헷갈리기 쉬운 개념을 구분하고, 왜 그렇게 하는지(이유·작용 원리)를 확인한다. 간단한 계산 문항도 있다.', ratio: 0.25, points: 2 },
     3: { roman: 'III', name: '단답형', note: '용어·핵심 사실을 직접 쓴다. 영어·우리말 어느 쪽도 정답이고, 띄어쓰기·대소문자는 보지 않는다.', ratio: 0.20, points: 2 },
   };
   const ESSAY_POINTS = 5;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
+  // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
+  //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
+  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.04 };
+  function questionStyle(id, type) {
+    if (/^t[a-z]\d+m-/.test(id)) return 'match';
+    if (/^t[a-z]\d+d-/.test(id)) return 'termName';
+    if (type === '계산') return 'calc';
+    return 'prose';
+  }
   const STRATEGIES = {
     fresh: { label: '미출제 우선', review: 0.2, desc: '복습 20%' },
     balance: { label: '균형', review: 0.4, desc: '복습 40%' },
@@ -264,6 +273,7 @@
           explanation: q.explanation || '',
           notes,
           source: q.source || '',
+          style: questionStyle(q.id, type),
           ckeys: [],
         };
         labels.forEach((label) => {
@@ -369,6 +379,11 @@
       if (add > 0) { quota[p] += add; spare -= add; }
     }
     const essayCap = quota[3] >= 2 ? Math.max(1, Math.floor(quota[3] / 3)) : (quota[3] === 1 && n <= 3 ? 1 : 0);
+    // 짝짓기·용어 이름 고르기는 상한, 계산 문항은 하한(문항이 모자라면 아래에서 상한을 푼다)
+    const styleCap = { match: Math.round(n * STYLE_MIX.match), termName: Math.round(n * STYLE_MIX.termName) };
+    const calcMin = n >= 20 ? Math.round(n * STYLE_MIX.calcMin) : 0;
+    const styleCnt = { match: 0, termName: 0, calc: 0, prose: 0 };
+    let capsOn = true;
     // 주차 할당량 — 범위 문항 수 비율
     const unitKeys = S.units.map((u) => u.key).filter((k) => pool.some((q) => q.unit === k));
     const sizes = unitKeys.map((k) => pool.filter((q) => q.unit === k).length);
@@ -384,7 +399,8 @@
     const inPaper = new Set();
     let essays = 0;
 
-    const allowed = (q) => !pickedIds.has(q.id) && (!isEssay(q) || essays < essayCap);
+    const allowed = (q) => !pickedIds.has(q.id) && (!isEssay(q) || essays < essayCap)
+      && (!capsOn || !(q.style in styleCap) || styleCnt[q.style] < styleCap[q.style]);
     function score(q, isReview) {
       let s = Math.random() * 6;
       s += partCnt[q.part] < quota[q.part] ? 40 : -40;
@@ -407,6 +423,7 @@
       picked.push(best);
       pickedIds.add(best.id);
       partCnt[best.part] += 1;
+      styleCnt[best.style] = (styleCnt[best.style] || 0) + 1;
       unitCnt[best.unit] = (unitCnt[best.unit] || 0) + 1;
       best.ckeys.forEach((k) => inPaper.add(k));
       if (isEssay(best)) essays += 1;
@@ -418,13 +435,22 @@
     const nReview = Math.min(Math.round(n * (STRATEGIES[strategy] || STRATEGIES.fresh).review), weak.length);
     for (let i = 0; i < nReview; i++) if (!take(weak, true)) break;
 
+    // 계산 문항 몇 개는 꼭 넣는다(출제 횟수가 적은 것부터)
+    while (styleCnt.calc < calcMin) {
+      const calc = pool.filter((q) => q.style === 'calc' && allowed(q));
+      if (!calc.length) break;
+      const lowA = Math.min(...calc.map((q) => qMeta(q.id).a));
+      if (!take(calc.filter((q) => qMeta(q.id).a === lowA), false)) break;
+    }
+
     // 출제 바퀴는 PART마다 따로 센다 — PART II처럼 문항이 적은 PART가 한 바퀴를 먼저 돌아도
     // PART I이 다 돌 때까지 빠지지 않도록. 단, 시험지 한 장 몫보다 문항이 적은 PART는
     // 전체 바퀴를 따른다(같은 몇 문항이 매번 반복되지 않도록).
     const ownRound = (p) => avail[p] >= nominal[p];
     let guard = 0;
     while (picked.length < n && guard++ < n * 4) {
-      const rest = pool.filter(allowed);
+      let rest = pool.filter(allowed);
+      if (!rest.length && capsOn) { capsOn = false; rest = pool.filter(allowed); }
       if (!rest.length) break;
       let all = Infinity;
       const low = {};

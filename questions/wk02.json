@@ -1257,6 +1257,219 @@
       "tags": [
         "N-1 perfusion high inoculum fed-batch"
       ]
+    },
+    {
+      "id": "wk02-086",
+      "type": "계산",
+      "part": 2,
+      "question": "50 L 배양기에 교반 동력 10 W를 넣을 때 P/V는?",
+      "choices": [
+        "20 W/m³",
+        "500 W/m³",
+        "200 W/m³",
+        "2,000 W/m³",
+        "5 W/m³"
+      ],
+      "answer": 3,
+      "explanation": "**P/V = 10 W ÷ 50 L = 0.2 W/L = 200 W/m³이다.** P/V는 배양액 단위 부피당 교반 동력으로, scale-up 때 같게 맞추는 대표 기준이다(1 m³ = 1,000 L).",
+      "choiceNotes": [
+        "틀리다 — 10 W ÷ 0.05 m³ = 200 W/m³다(0.5 m³로 잘못 바꾼 값).",
+        "틀리다 — 계산이 맞지 않는다(10 W ÷ 0.05 m³ = 200 W/m³).",
+        "옳다 — P/V = 10 W ÷ 50 L = 0.2 W/L = 200 W/m³이다",
+        "틀리다 — 50 L를 0.005 m³로 잘못 바꾼 값이다.",
+        "틀리다 — 50 ÷ 10을 한 값이다."
+      ],
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed)",
+      "concepts": [
+        "P/V"
+      ],
+      "tags": [
+        "P/V"
+      ]
+    },
+    {
+      "id": "wk02-087",
+      "type": "계산",
+      "part": 2,
+      "question": "P/V 200 W/m³로 맞춘 공정을 같은 P/V로 2,000 L 배양기에 옮길 때 필요한 교반 동력은?",
+      "choices": [
+        "10 W",
+        "4,000 W",
+        "40 W",
+        "400 W",
+        "100 W"
+      ],
+      "answer": 4,
+      "explanation": "**같은 P/V면 동력은 부피에 비례하므로 P = 200 W/m³ × 2 m³ = 400 W다.** Scale-up은 소규모의 P/V를 구하고 큰 배양기에서 같은 P/V가 되는 rpm을 출발점으로 삼는다.",
+      "choiceNotes": [
+        "틀리다 — 소규모(50 L)의 동력을 그대로 쓴 값이다 — 부피가 커지면 동력도 커진다.",
+        "틀리다 — 2,000 L를 20 m³로 잘못 바꾼 값이다.",
+        "틀리다 — 2,000 L를 0.2 m³로 잘못 바꾼 값이다.",
+        "옳다 — 같은 P/V면 동력은 부피에 비례하므로 P = 200 W/m³ × 2 m³ = 400 W다",
+        "틀리다 — 200 ÷ 2를 한 값이다."
+      ],
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed) · WK02 강의 녹음 02:35:42–02:36:14",
+      "concepts": [
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "P/V",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "wk02-088",
+      "type": "계산",
+      "part": 2,
+      "question": "모양이 닮은 배양기에서 impeller 지름이 8배 커질 때 같은 P/V를 지키는 rpm은? (소규모 200 rpm, P/V ∝ N³D²)",
+      "choices": [
+        "25 rpm",
+        "50 rpm",
+        "200 rpm",
+        "100 rpm",
+        "1,600 rpm"
+      ],
+      "answer": 2,
+      "explanation": "**P/V ∝ N³D²이므로 N³ ∝ 1/D² → N ∝ D^(−2/3)이고, D가 8배면 N은 8^(−2/3) = 1/4배가 되어 200 → 50 rpm이다(일반 원리: P = Np·ρ·N³·D⁵, V ∝ D³).** 큰 배양기는 같은 P/V에서도 rpm이 훨씬 낮다 — 그래서 소규모와 같은 rpm을 쓰면 안 된다.",
+      "choiceNotes": [
+        "틀리다 — N이 1/8로 준 값이다 — N³ ∝ 1/D²라 1/4이 된다.",
+        "옳다 — P/V ∝ N³D²이므로 N³ ∝ 1/D² → N ∝ D^(−2/3)이고, D가 8배면 N은 8^(−2/3) = 1/4배가 되어 200 → 50 rpm이다(일반 원리: P = Np·ρ·N³·D⁵, V ∝ D³)",
+        "틀리다 — 같은 rpm을 쓰면 P/V가 64배로 커진다.",
+        "틀리다 — N이 1/2로 준 값이다.",
+        "틀리다 — rpm을 지름 배수만큼 곱한 값이다."
+      ],
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed) · WK02 강의 녹음 02:39:01–02:40:31",
+      "concepts": [
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "P/V",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "wk02-089",
+      "type": "계산",
+      "part": 2,
+      "question": "Impeller 지름 0.6 m, 100 rpm일 때 tip speed(πND)는 약 얼마인가?",
+      "choices": [
+        "약 188 m/s",
+        "약 1.0 m/s",
+        "약 6.3 m/s",
+        "약 3.1 m/s",
+        "약 0.5 m/s"
+      ],
+      "answer": 4,
+      "explanation": "**Tip speed = π × D × N = 3.14 × 0.6 m × (100/60) s⁻¹ ≈ 3.1 m/s다(일반 원리).** Tip speed는 날개 끝이 움직이는 속도로, 날개 근처 shear force를 규모 간에 비교하는 지표다.",
+      "choiceNotes": [
+        "틀리다 — rpm을 초당 회전수로 바꾸지 않은 값(실제로는 m/min)이다.",
+        "틀리다 — π를 곱하지 않은 값이다.",
+        "틀리다 — 지름 대신 지름의 2배를 쓴 값이다.",
+        "옳다 — Tip speed = π × D × N = 3.14 × 0.6 m × (100/60) s⁻¹ ≈ 3.1 m/s다(일반 원리)",
+        "틀리다 — π를 곱하지 않고 반지름(0.3 m)을 쓴 값이다."
+      ],
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed)",
+      "concepts": [
+        "Tip speed"
+      ],
+      "tags": [
+        "Tip speed"
+      ]
+    },
+    {
+      "id": "wk02-090",
+      "type": "계산",
+      "part": 2,
+      "question": "같은 100 rpm에서 impeller 지름이 0.2 m에서 1.0 m로 커지면 tip speed는 몇 배가 되는가?",
+      "choices": [
+        "25배",
+        "125배",
+        "1배(그대로)",
+        "1/5배",
+        "5배"
+      ],
+      "answer": 5,
+      "explanation": "**Tip speed = πND라 rpm이 같으면 지름에 비례해 1.0 ÷ 0.2 = 5배가 된다.** 그래서 소규모와 같은 rpm을 대형 배양기에 쓰면 날개 끝 shear force가 크게 늘어 세포가 다칠 수 있다.",
+      "choiceNotes": [
+        "틀리다 — D²에 비례한다고 본 값이다.",
+        "틀리다 — D³에 비례한다고 본 값이다.",
+        "틀리다 — rpm이 같아도 지름이 크면 날개 끝이 더 빨리 돈다.",
+        "틀리다 — 반대로 나눈 값이다.",
+        "옳다 — Tip speed = πND라 rpm이 같으면 지름에 비례해 1.0 ÷ 0.2 = 5배가 된다"
+      ],
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed) · WK02 강의 녹음 02:39:01–02:40:31",
+      "concepts": [
+        "Tip speed",
+        "Shear force"
+      ],
+      "tags": [
+        "Tip speed",
+        "Shear force"
+      ]
+    },
+    {
+      "id": "wk02-091",
+      "type": "계산",
+      "part": 2,
+      "question": "kLa 10 h⁻¹, C* 0.20 mmol/L, 배양액 용존산소 C 0.05 mmol/L일 때 OTR = kLa(C*−C)는?",
+      "choices": [
+        "1.5 mmol/L/h",
+        "2.0 mmol/L/h",
+        "0.5 mmol/L/h",
+        "2.5 mmol/L/h",
+        "0.15 mmol/L/h"
+      ],
+      "answer": 1,
+      "explanation": "**OTR = kLa × (C* − C) = 10 h⁻¹ × (0.20 − 0.05) mmol/L = 1.5 mmol/L/h다(일반 원리).** kLa는 기포 속 산소가 배양액으로 녹아드는 효율이고, C*−C(포화 농도와 현재 농도의 차이)가 산소를 밀어 넣는 힘이다.",
+      "choiceNotes": [
+        "옳다 — OTR = kLa × (C* − C) = 10 h⁻¹ × (0.20 − 0.05) mmol/L = 1.5 mmol/L/h다(일반 원리)",
+        "틀리다 — C를 빼지 않고 C*만 곱한 값이다.",
+        "틀리다 — C*가 아니라 C를 곱한 값이다.",
+        "틀리다 — C*와 C를 더한 값이다.",
+        "틀리다 — kLa를 곱하지 않은 값이다."
+      ],
+      "source": "WK02 PDF p.93–97 (kLa, OTR ≥ OUR)",
+      "concepts": [
+        "kLa",
+        "OTR/OUR"
+      ],
+      "tags": [
+        "kLa",
+        "OTR/OUR"
+      ]
+    },
+    {
+      "id": "wk02-092",
+      "type": "계산",
+      "part": 2,
+      "question": "OUR이 3 mmol/L/h이고 C*−C를 0.15 mmol/L로 둘 때, OTR ≥ OUR을 만족하는 최소 kLa는?",
+      "choices": [
+        "0.45 h⁻¹",
+        "20 h⁻¹",
+        "2 h⁻¹",
+        "200 h⁻¹",
+        "5 h⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "**OTR = kLa(C*−C) ≥ OUR이어야 하므로 kLa ≥ 3 ÷ 0.15 = 20 h⁻¹이다(일반 원리).** 세포는 배지에 녹은 산소만 쓸 수 있어 공급 속도(OTR)가 소비 속도(OUR) 이상이어야 하고, kLa는 교반(P/V)·통기를 높여 올린다.",
+      "choiceNotes": [
+        "틀리다 — 곱한 값이다 — kLa = OUR ÷ (C*−C).",
+        "옳다 — OTR = kLa(C*−C) ≥ OUR이어야 하므로 kLa ≥ 3 ÷ 0.15 = 20 h⁻¹이다(일반 원리)",
+        "틀리다 — 자릿수를 잘못 맞춘 값이다(3 ÷ 1.5).",
+        "틀리다 — 자릿수를 잘못 맞춘 값이다(3 ÷ 0.015).",
+        "틀리다 — 계산이 맞지 않는다(3 ÷ 0.15 = 20 h⁻¹)."
+      ],
+      "source": "WK02 PDF p.93–97 (kLa, OTR ≥ OUR)",
+      "concepts": [
+        "kLa",
+        "OTR/OUR"
+      ],
+      "tags": [
+        "kLa",
+        "OTR/OUR"
+      ]
     }
   ]
 }
