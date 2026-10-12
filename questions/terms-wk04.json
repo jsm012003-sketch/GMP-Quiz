@@ -89,7 +89,7 @@
    "choiceNotes": [
     "정답 — 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
     "틀리다 — Inclusion body (봉입체): 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
-    "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것.",
+    "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것.",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
     "틀리다 — Cell line characterization (세포주 특성 분석): 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계."
    ],
@@ -120,7 +120,7 @@
    "answer": 5,
    "explanation": "**Centrifugation (원심분리)** — 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
    "choiceNotes": [
-    "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
     "틀리다 — Intracellular product (세포 내 산물): 세포 안에 쌓이는 산물 — 미생물에서 흔하다.",
     "틀리다 — Soluble–insoluble mixture: 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
@@ -153,7 +153,7 @@
    "answer": 2,
    "explanation": "**Continuous centrifuge (연속 원심분리기)** — load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
    "choiceNotes": [
-    "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "정답 — load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
     "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
     "틀리다 — Titer: 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
@@ -207,7 +207,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "녹여 낸 단백질을 다시 올바른 구조로 접는 단계."
+    "Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계."
    ],
    "choices": [
     "Process-related impurity (공정 유래 불순물)",
@@ -217,10 +217,10 @@
     "Secretion (분비)"
    ],
    "answer": 2,
-   "explanation": "**Refolding (재접힘)** — 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+   "explanation": "**Refolding (재접힘)** — Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
    "choiceNotes": [
     "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
-    "정답 — 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "정답 — Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
     "틀리다 — E. coli (대장균): 가장 널리 쓰는 미생물 숙주 — 세포벽이 있다.",
     "틀리다 — Secretion (분비): 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식."
@@ -240,7 +240,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것."
+    "세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것."
    ],
    "choices": [
     "Process-related impurity (공정 유래 불순물)",
@@ -250,13 +250,13 @@
     "Cell lysis (세포 파쇄)"
    ],
    "answer": 5,
-   "explanation": "**Cell lysis (세포 파쇄)** — 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것.",
+   "explanation": "**Cell lysis (세포 파쇄)** — 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것.",
    "choiceNotes": [
     "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "틀리다 — Sterile filtration (제균여과): 0.2 µm 필터로 균을 걸러 용액을 무균으로 만드는 방법.",
     "틀리다 — Feed (TFF): TFF 막으로 들어가는 액체 흐름.",
-    "정답 — 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것."
+    "정답 — 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것."
    ],
    "source": "WK04 PDF p.13 (IB Process)",
    "concepts": [
@@ -286,7 +286,7 @@
    "explanation": "**Fill & Finish (F&F)** — 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
    "choiceNotes": [
     "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
-    "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
     "정답 — 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "틀리다 — Concentration (농축): 용매를 빼서 목표 물질의 농도를 높이는 것."
@@ -504,7 +504,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "0.1~100 µm 구멍으로 세포·입자를 거르는 여과."
+    "0.1~100 µm pore로 세포·입자를 거르는 여과."
    ],
    "choices": [
     "Nanofiltration (NF, 나노여과)",
@@ -514,12 +514,12 @@
     "Pharmacopoeia (약전)"
    ],
    "answer": 4,
-   "explanation": "**Microfiltration (MF, 정밀여과)** — 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+   "explanation": "**Microfiltration (MF, 정밀여과)** — 0.1~100 µm pore로 세포·입자를 거르는 여과.",
    "choiceNotes": [
-    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.",
+    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "틀리다 — MWCO (Molecular Weight Cut-Off): 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
     "틀리다 — Cell harvest: 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.",
-    "정답 — 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "정답 — 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — Pharmacopoeia (약전): 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP)."
    ],
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
@@ -537,7 +537,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과."
+    "nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과."
    ],
    "choices": [
     "Microfiltration (MF, 정밀여과)",
@@ -547,10 +547,10 @@
     "TMP (Transmembrane Pressure)"
    ],
    "answer": 2,
-   "explanation": "**Ultrafiltration (UF, 한외여과)** — nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.",
+   "explanation": "**Ultrafiltration (UF, 한외여과)** — nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
    "choiceNotes": [
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
-    "정답 — nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
+    "정답 — nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
     "틀리다 — MWCO (Molecular Weight Cut-Off): 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
     "틀리다 — Modality: 만드는 방법(생산 공정)이 비슷한 의약품의 묶음.",
     "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다."
@@ -570,7 +570,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다."
+    "2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다."
    ],
    "choices": [
     "Ultrafiltration (UF, 한외여과)",
@@ -580,13 +580,13 @@
     "Nanofiltration (NF, 나노여과)"
    ],
    "answer": 5,
-   "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.",
+   "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
    "choiceNotes": [
-    "틀리다 — Ultrafiltration (UF, 한외여과): nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.",
+    "틀리다 — Ultrafiltration (UF, 한외여과): nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
     "틀리다 — Reverse osmosis (RO, 역삼투): 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
     "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
     "틀리다 — Filter capacity (L/m²): 막 1 m²가 처리할 수 있는 시료 양.",
-    "정답 — 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다."
+    "정답 — 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다."
    ],
    "source": "WK04 PDF p.32, p.40",
    "concepts": [
@@ -615,7 +615,7 @@
    "answer": 3,
    "explanation": "**Reverse osmosis (RO, 역삼투)** — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
    "choiceNotes": [
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — CFF / TFF (Crossflow Filtration · Tangential Flow Filtration): 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과.",
     "정답 — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
     "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
@@ -636,7 +636,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리."
+    "Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리."
    ],
    "choices": [
     "Size exclusion (크기 배제)",
@@ -646,10 +646,10 @@
     "Sterile WFI (무균 주사용수)"
    ],
    "answer": 1,
-   "explanation": "**Size exclusion (크기 배제)** — 구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
+   "explanation": "**Size exclusion (크기 배제)** — Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
    "choiceNotes": [
-    "정답 — 구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
-    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.",
+    "정답 — Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
+    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.",
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
     "틀리다 — Sterile WFI (무균 주사용수): 주사용수를 제균여과해 무균으로 만든 물 — 바이알 최종 세척에 쓴다."
@@ -801,7 +801,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식."
+    "막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식."
    ],
    "choices": [
     "Absolute rating (절대 등급)",
@@ -811,10 +811,10 @@
     "Destructive test (파괴검사)"
    ],
    "answer": 2,
-   "explanation": "**Pore size (기공 크기)** — 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+   "explanation": "**Pore size (기공 크기)** — 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
    "choiceNotes": [
     "틀리다 — Absolute rating (절대 등급): 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
-    "정답 — 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+    "정답 — 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "틀리다 — Nominal rating (공칭 등급): 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
     "틀리다 — Secretion (분비): 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식.",
     "틀리다 — Destructive test (파괴검사): 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등)."
@@ -846,10 +846,10 @@
    "answer": 2,
    "explanation": "**Absolute rating (절대 등급)** — 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
    "choiceNotes": [
-    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+    "틀리다 — Pore size (기공 크기): 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "정답 — 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "틀리다 — Nominal rating (공칭 등급): 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
-    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "틀리다 — Depth filter (깊이 필터): 두꺼운 섬유층 안에 입자를 많이 붙잡지만 압력이 높으면 샐 수 있는 필터."
    ],
    "source": "WK04 PDF p.44",
@@ -879,7 +879,7 @@
    "answer": 4,
    "explanation": "**Nominal rating (공칭 등급)** — 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
    "choiceNotes": [
-    "틀리다 — Pore size (기공 크기): 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+    "틀리다 — Pore size (기공 크기): 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "틀리다 — Absolute rating (절대 등급): 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "틀리다 — Soluble–soluble mixture: 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.",
     "정답 — 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
@@ -914,7 +914,7 @@
    "choiceNotes": [
     "정답 — 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터.",
     "틀리다 — Clarification: 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — Terminal sterilization (최종 멸균): 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
     "틀리다 — EOPCB (End of Production Cell Bank): 생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행."
    ],
@@ -981,7 +981,7 @@
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험.",
     "틀리다 — Flux (LMH): 막 1 m²를 1시간에 통과하는 양(L/m²/h).",
     "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
-    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "정답 — 막 1 m²가 처리할 수 있는 시료 양."
    ],
    "source": "WK04 PDF p.68",
@@ -1047,7 +1047,7 @@
     "정답 — 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
     "틀리다 — Filter housing: 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
    ],
    "source": "WK04 PDF p.72 (Cartridge and Capsule)",
@@ -1312,7 +1312,7 @@
     "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
     "정답 — 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
     "틀리다 — Destructive test (파괴검사): 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등).",
-    "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것."
+    "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것."
    ],
    "source": "WK04 PDF p.100, p.103",
    "concepts": [
@@ -1343,7 +1343,7 @@
    "choiceNotes": [
     "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
     "틀리다 — Feed (TFF): TFF 막으로 들어가는 액체 흐름.",
-    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.",
+    "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "정답 — 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과."
    ],
@@ -1375,7 +1375,7 @@
    "explanation": "**Filter integrity test (필터 무결성 시험)** — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
    "choiceNotes": [
     "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
-    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "정답 — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "틀리다 — Plugging (막힘): 입자가 쌓여 압력은 오르고 유량은 줄어드는 현상.",
     "틀리다 — Cell harvest: 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계."
@@ -1442,8 +1442,8 @@
    "choiceNotes": [
     "정답 — 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
     "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
-    "틀리다 — Water intrusion test (WIT): 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "틀리다 — Water intrusion test (WIT): 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — Media filtration (배지 여과): 열에 약한 동물세포 배지의 균을 필터로 없애는 것."
    ],
    "source": "WK04 PDF p.118",
@@ -1527,7 +1527,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험."
+    "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험."
    ],
    "choices": [
     "PUPSIT (Pre-Use Post-Sterilization Integrity Test)",
@@ -1537,11 +1537,11 @@
     "Filtration (여과)"
    ],
    "answer": 3,
-   "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
+   "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
    "choiceNotes": [
     "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
-    "정답 — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.",
+    "정답 — 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
     "틀리다 — Permeate (TFF): 막을 지나 빠져나간 쪽 액체.",
     "틀리다 — Filtration (여과): 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것."
    ],
@@ -1560,7 +1560,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물)."
+    "Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물)."
    ],
    "choices": [
     "Non-destructive test (비파괴검사)",
@@ -1570,10 +1570,10 @@
     "Fouling"
    ],
    "answer": 2,
-   "explanation": "**Wetting agent** — Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+   "explanation": "**Wetting agent** — Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
    "choiceNotes": [
     "틀리다 — Non-destructive test (비파괴검사): 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
-    "정답 — Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "정답 — Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "틀리다 — Hydrophilic membrane (친수성 막): 물에 잘 젖는 막 — 액체 여과에 쓴다.",
     "틀리다 — Fouling: 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상."
@@ -1707,7 +1707,7 @@
     "틀리다 — Yield (수율): 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
     "정답 — 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
     "틀리다 — Soluble–soluble mixture: 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.",
-    "틀리다 — Wetting agent: Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "틀리다 — Intracellular product (세포 내 산물): 세포 안에 쌓이는 산물 — 미생물에서 흔하다."
    ],
    "source": "WK04 강의 녹음① 18:07–24:25",
@@ -1807,7 +1807,7 @@
     "틀리다 — Cell line characterization (세포주 특성 분석): 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
     "틀리다 — Filtrate (여과액): 필터를 통과해 뒤로 나온 액체.",
     "정답 — 미생물에는 있고 동물세포에는 없는 바깥 껍질 — 산물이 세포 안에 쌓이는 이유.",
-    "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계."
+    "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계."
    ],
    "source": "WK04 강의 녹음② 15:12, 1:11:11–1:11:54",
    "concepts": [
@@ -1839,7 +1839,7 @@
     "정답 — 세포 안에 쌓이는 산물 — 미생물에서 흔하다.",
     "틀리다 — EOPCB (End of Production Cell Bank): 생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행.",
     "틀리다 — Titer: 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
-    "틀리다 — Refolding (재접힘): 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "틀리다 — Media filtration (배지 여과): 열에 약한 동물세포 배지의 균을 필터로 없애는 것."
    ],
    "source": "WK04 강의 녹음② 1:11:27–1:11:54",
@@ -1923,7 +1923,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것."
+    "세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것."
    ],
    "choices": [
     "Cell line characterization (세포주 특성 분석)",
@@ -1933,13 +1933,13 @@
     "Single cell cloning"
    ],
    "answer": 5,
-   "explanation": "**Single cell cloning** — 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것.",
+   "explanation": "**Single cell cloning** — 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것.",
    "choiceNotes": [
     "틀리다 — Cell line characterization (세포주 특성 분석): 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
     "틀리다 — Host cell (숙주세포): 유전 정보를 넣어 목표 단백질을 대신 만들게 하는 세포.",
     "틀리다 — BCT (Bacteria Challenge Test): 막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험.",
     "틀리다 — Isotonic (등장성): 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
-    "정답 — 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것."
+    "정답 — 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것."
    ],
    "source": "WK04 강의 녹음② 40:41–42:32",
    "concepts": [
@@ -1968,7 +1968,7 @@
    "answer": 2,
    "explanation": "**Cell line characterization (세포주 특성 분석)** — 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
    "choiceNotes": [
-    "틀리다 — Single cell cloning: 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것.",
+    "틀리다 — Single cell cloning: 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것.",
     "정답 — 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
     "틀리다 — Host cell (숙주세포): 유전 정보를 넣어 목표 단백질을 대신 만들게 하는 세포.",
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험.",
@@ -2169,7 +2169,7 @@
     "정답 — 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
     "틀리다 — Gas filter: 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급할 때 거르는 소수성 필터.",
     "틀리다 — Bioburden reduction: 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.",
-    "틀리다 — Size exclusion (크기 배제): 구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
+    "틀리다 — Size exclusion (크기 배제): Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
     "틀리다 — Filtrate (여과액): 필터를 통과해 뒤로 나온 액체."
    ],
    "source": "WK04 강의 녹음② 2:16:13–2:16:47",
@@ -2269,7 +2269,7 @@
     "틀리다 — Sterile filtration (제균여과): 0.2 µm 필터로 균을 걸러 용액을 무균으로 만드는 방법.",
     "정답 — 처음부터 끝까지 무균 상태를 지키며 만드는 방법(세포치료제).",
     "틀리다 — ΔP (Pfeed − Pretentate): TFF 막 입구와 출구의 압력 차 — 높이면 표면을 씻는 흐름이 는다.",
-    "틀리다 — Single cell cloning: 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것."
+    "틀리다 — Single cell cloning: 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것."
    ],
    "source": "WK04 강의 녹음② 2:47:08–2:48:39",
    "concepts": [
@@ -2366,9 +2366,9 @@
    "choiceNotes": [
     "틀리다 — Aseptic processing (무균 공정): 처음부터 끝까지 무균 상태를 지키며 만드는 방법(세포치료제).",
     "틀리다 — Isotonic (등장성): 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
-    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
+    "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "정답 — 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.",
-    "틀리다 — Single cell cloning: 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것."
+    "틀리다 — Single cell cloning: 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것."
    ],
    "source": "WK04 판서 정리(09.23) · WK04 PDF p.40",
    "concepts": [
@@ -2481,7 +2481,7 @@
    "part": 1,
    "question": "「DEF (Dead-End Filtration)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다",
+    "2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다",
     "막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값",
     "세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계",
     "액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과",
@@ -2512,7 +2512,7 @@
    "question": "「CFF / TFF (Crossflow Filtration · Tangential Flow Filtration)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과",
-    "구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리",
+    "Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리",
     "액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과",
     "세포 안에 쌓이는 산물 — 미생물에서 흔하다",
     "사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다"
@@ -2543,7 +2543,7 @@
    "choices": [
     "막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값",
     "액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과",
-    "구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리",
+    "Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리",
     "주사용수를 제균여과해 무균으로 만든 물 — 바이알 최종 세척에 쓴다",
     "열에 약한 동물세포 배지의 균을 필터로 없애는 것"
    ],
@@ -2633,7 +2633,7 @@
    "choices": [
     "막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다",
     "막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다",
-    "소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험",
+    "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험",
     "TFF 막으로 들어가는 액체 흐름",
     "단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8"
    ],
@@ -2691,7 +2691,7 @@
    "part": 1,
    "question": "「PUPSIT (Pre-Use Post-Sterilization Integrity Test)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험",
+    "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험",
     "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test",
     "사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다",
     "나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP)",
@@ -2754,7 +2754,7 @@
     "만드는 방법(생산 공정)이 비슷한 의약품의 묶음",
     "녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다",
     "막 1 m²를 1시간에 통과하는 양(L/m²/h)",
-    "nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과",
+    "nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과",
     "목표 물질이 불순물 없이 깨끗한 정도"
    ],
    "answer": 5,
@@ -3030,10 +3030,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Continuous centrifuge (연속 원심분리기)\n(나) Inclusion body (봉입체)\n(다) Refolding (재접힘)\n(라) Cell lysis (세포 파쇄)",
    "box": [
-    "A. 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.",
+    "A. Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "B. 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
     "C. load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
-    "D. 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것."
+    "D. 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것."
    ],
    "choices": [
     "(가)-D  (나)-B  (다)-A  (라)-C",
@@ -3043,7 +3043,7 @@
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Continuous centrifuge (연속 원심분리기)** → C. load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).\n(나) **Inclusion body (봉입체)** → B. 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.\n(다) **Refolding (재접힘)** → A. 녹여 낸 단백질을 다시 올바른 구조로 접는 단계.\n(라) **Cell lysis (세포 파쇄)** → D. 세포 안에 만들어진 산물을 꺼내려고 세포를 깨는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Continuous centrifuge (연속 원심분리기)** → C. load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).\n(나) **Inclusion body (봉입체)** → B. 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.\n(다) **Refolding (재접힘)** → A. Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.\n(라) **Cell lysis (세포 파쇄)** → D. 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것.",
    "choiceNotes": [
     "틀리다 — (가) Continuous centrifuge의 설명은 C, (라) Cell lysis의 설명은 D",
     "틀리다 — (다) Refolding의 설명은 A, (라) Cell lysis의 설명은 D",
@@ -3187,8 +3187,8 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) DEF (Dead-End Filtration)\n(나) CFF / TFF (Crossflow Filtration · Tangential Flow Filtration)\n(다) Microfiltration (MF, 정밀여과)\n(라) Ultrafiltration (UF, 한외여과)",
    "box": [
     "A. 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.",
-    "B. 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.",
-    "C. nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.",
+    "B. 0.1~100 µm pore로 세포·입자를 거르는 여과.",
+    "C. nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
     "D. 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과."
    ],
    "choices": [
@@ -3199,7 +3199,7 @@
     "(가)-D  (나)-A  (다)-C  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **DEF (Dead-End Filtration)** → A. 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.\n(나) **CFF / TFF (Crossflow Filtration · Tangential Flow Filtration)** → D. 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과.\n(다) **Microfiltration (MF, 정밀여과)** → B. 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.\n(라) **Ultrafiltration (UF, 한외여과)** → C. nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.",
+   "explanation": "**용어와 설명의 짝**\n(가) **DEF (Dead-End Filtration)** → A. 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.\n(나) **CFF / TFF (Crossflow Filtration · Tangential Flow Filtration)** → D. 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과.\n(다) **Microfiltration (MF, 정밀여과)** → B. 0.1~100 µm pore로 세포·입자를 거르는 여과.\n(라) **Ultrafiltration (UF, 한외여과)** → C. nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
    "choiceNotes": [
     "틀리다 — (다) Microfiltration의 설명은 B, (라) Ultrafiltration의 설명은 C",
     "틀리다 — (나) CFF / TFF의 설명은 D, (라) Ultrafiltration의 설명은 C",
@@ -3225,10 +3225,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Nanofiltration (NF, 나노여과)\n(나) Reverse osmosis (RO, 역삼투)\n(다) MWCO (Molecular Weight Cut-Off)\n(라) Size exclusion (크기 배제)",
    "box": [
-    "A. 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.",
+    "A. 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
     "C. 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
-    "D. 구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리."
+    "D. Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리."
    ],
    "choices": [
     "(가)-A  (나)-B  (다)-C  (라)-D",
@@ -3238,7 +3238,7 @@
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Nanofiltration (NF, 나노여과)** → A. 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.\n(나) **Reverse osmosis (RO, 역삼투)** → C. 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n(다) **MWCO (Molecular Weight Cut-Off)** → B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.\n(라) **Size exclusion (크기 배제)** → D. 구멍보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Nanofiltration (NF, 나노여과)** → A. 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.\n(나) **Reverse osmosis (RO, 역삼투)** → C. 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n(다) **MWCO (Molecular Weight Cut-Off)** → B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.\n(라) **Size exclusion (크기 배제)** → D. Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
    "choiceNotes": [
     "틀리다 — (나) Reverse osmosis의 설명은 C, (다) MWCO의 설명은 B",
     "틀리다 — (가) Nanofiltration의 설명은 A, (나) Reverse osmosis의 설명은 C",
@@ -3303,7 +3303,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Hydrophobic membrane (소수성 막)\n(나) Pore size (기공 크기)\n(다) Absolute rating (절대 등급)\n(라) Nominal rating (공칭 등급)",
    "box": [
-    "A. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+    "A. 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.",
     "D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급."
@@ -3316,7 +3316,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Hydrophobic membrane (소수성 막)** → C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.\n(나) **Pore size (기공 크기)** → A. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.\n(다) **Absolute rating (절대 등급)** → B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(라) **Nominal rating (공칭 등급)** → D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Hydrophobic membrane (소수성 막)** → C. 물을 밀어내는 막 — 기체·vent 여과에 쓴다.\n(나) **Pore size (기공 크기)** → A. 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.\n(다) **Absolute rating (절대 등급)** → B. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(라) **Nominal rating (공칭 등급)** → D. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
    "choiceNotes": [
     "틀리다 — (다) Absolute rating의 설명은 B, (라) Nominal rating의 설명은 D",
     "틀리다 — (나) Pore size의 설명은 A, (라) Nominal rating의 설명은 D",
@@ -3343,7 +3343,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Pore size (기공 크기)\n(나) Absolute rating (절대 등급)\n(다) Nominal rating (공칭 등급)\n(라) Vent filter",
    "box": [
     "A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.",
-    "B. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.",
+    "B. 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.",
     "C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.",
     "D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터."
    ],
@@ -3355,7 +3355,7 @@
     "(가)-C  (나)-B  (다)-D  (라)-A"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **Pore size (기공 크기)** → B. 막 구멍의 크기(예: 0.2 µm) — Membrane filter의 표기 방식.\n(나) **Absolute rating (절대 등급)** → C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(다) **Nominal rating (공칭 등급)** → A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.\n(라) **Vent filter** → D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Pore size (기공 크기)** → B. 막에 난 pore의 지름(예: 0.2 µm) — Membrane filter의 표기 방식.\n(나) **Absolute rating (절대 등급)** → C. 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급.\n(다) **Nominal rating (공칭 등급)** → A. 표시한 크기의 입자를 일정 비율만 걸러 내는 등급.\n(라) **Vent filter** → D. 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Absolute rating의 설명은 C, (다) Nominal rating의 설명은 A",
@@ -3654,10 +3654,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Diffusion test (확산 시험)\n(나) Water intrusion test (WIT)\n(다) Wetting agent\n(라) Redundant filtration (이중 제균 여과)",
    "box": [
-    "A. Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).",
+    "A. Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
     "C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
-    "D. 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험."
+    "D. 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험."
    ],
    "choices": [
     "(가)-B  (나)-D  (다)-A  (라)-C",
@@ -3667,7 +3667,7 @@
     "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. Integrity test 전에 막 구멍을 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Water intrusion test의 설명은 D, (라) Redundant filtration의 설명은 C",
@@ -3849,7 +3849,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Secretion (분비)\n(나) Cell harvest\n(다) Single cell cloning\n(라) Cell line characterization (세포주 특성 분석)",
    "box": [
-    "A. 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것.",
+    "A. 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것.",
     "B. 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
     "C. 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.",
     "D. 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식."
@@ -3862,7 +3862,7 @@
     "(가)-C  (나)-D  (다)-B  (라)-A"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **Secretion (분비)** → D. 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식.\n(나) **Cell harvest** → C. 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.\n(다) **Single cell cloning** → A. 세포를 하나씩 따로 떼어 키우며 비교해 좋은 세포를 고르는 것.\n(라) **Cell line characterization (세포주 특성 분석)** → B. 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Secretion (분비)** → D. 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식.\n(나) **Cell harvest** → C. 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.\n(다) **Single cell cloning** → A. 세포를 하나씩 분리해 키우며 비교해 생산성이 좋은 세포를 고르는 것.\n(라) **Cell line characterization (세포주 특성 분석)** → B. 고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계.",
    "choiceNotes": [
     "틀리다 — (나) Cell harvest의 설명은 C, (라) Cell line characterization의 설명은 B",
     "틀리다 — (가) Secretion의 설명은 D, (라) Cell line characterization의 설명은 B",
@@ -4443,7 +4443,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "0.1~100 µm 구멍으로 세포·입자를 거르는 여과."
+    "0.1~100 µm pore로 세포·입자를 거르는 여과."
    ],
    "answers": [
     "Microfiltration",
@@ -4451,7 +4451,7 @@
     "정밀여과",
     "Microfiltration (MF, 정밀여과)"
    ],
-   "explanation": "**Microfiltration (MF, 정밀여과)** — 0.1~100 µm 구멍으로 세포·입자를 거르는 여과.\n정답으로 인정하는 표기: Microfiltration · MF · 정밀여과 · Microfiltration (MF, 정밀여과) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Microfiltration (MF, 정밀여과)** — 0.1~100 µm pore로 세포·입자를 거르는 여과.\n정답으로 인정하는 표기: Microfiltration · MF · 정밀여과 · Microfiltration (MF, 정밀여과) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
     "Microfiltration"
@@ -4468,7 +4468,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과."
+    "nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과."
    ],
    "answers": [
     "Ultrafiltration",
@@ -4476,7 +4476,7 @@
     "한외여과",
     "Ultrafiltration (UF, 한외여과)"
    ],
-   "explanation": "**Ultrafiltration (UF, 한외여과)** — nm 수준 구멍으로 단백질은 남기고 물·염은 빼는 여과.\n정답으로 인정하는 표기: Ultrafiltration · UF · 한외여과 · Ultrafiltration (UF, 한외여과) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Ultrafiltration (UF, 한외여과)** — nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.\n정답으로 인정하는 표기: Ultrafiltration · UF · 한외여과 · Ultrafiltration (UF, 한외여과) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
     "Ultrafiltration"
@@ -4493,7 +4493,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다."
+    "2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다."
    ],
    "answers": [
     "Nanofiltration",
@@ -4501,7 +4501,7 @@
     "나노여과",
     "Nanofiltration (NF, 나노여과)"
    ],
-   "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm 구멍의 여과 — 바이러스 여과도 여기에 속한다.\n정답으로 인정하는 표기: Nanofiltration · NF · 나노여과 · Nanofiltration (NF, 나노여과) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.\n정답으로 인정하는 표기: Nanofiltration · NF · 나노여과 · Nanofiltration (NF, 나노여과) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.32, p.40",
    "concepts": [
     "Nanofiltration"
@@ -4798,7 +4798,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험."
+    "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험."
    ],
    "answers": [
     "Water intrusion test",
@@ -4808,7 +4808,7 @@
     "Water intrusion",
     "물 침투"
    ],
-   "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 구멍으로 스며드는 물의 양을 재는 시험.\n정답으로 인정하는 표기: Water intrusion test · WIT · Water intrusion test (WIT) · 물 침투 시험 · Water intrusion (띄어쓰기·대소문자 무시)",
+   "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.\n정답으로 인정하는 표기: Water intrusion test · WIT · Water intrusion test (WIT) · 물 침투 시험 · Water intrusion (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.137–139",
    "concepts": [
     "Water intrusion test"

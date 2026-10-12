@@ -75,7 +75,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계."
+    "항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계."
    ],
    "choices": [
     "Low pH viral inactivation",
@@ -85,11 +85,11 @@
     "Orthogonal (직교) 전략"
    ],
    "answer": 3,
-   "explanation": "**Protein A chromatography** — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+   "explanation": "**Protein A chromatography** — 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
    "choiceNotes": [
     "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
     "틀리다 — Clarification: 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "정답 — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "정답 — 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
     "틀리다 — Storage solution: 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
@@ -174,7 +174,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
+    "바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "choices": [
     "Clarification",
@@ -184,12 +184,12 @@
     "Virus spiking study (바이러스 제거 검증)"
    ],
    "answer": 4,
-   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
+   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
    "choiceNotes": [
     "틀리다 — Clarification: 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
     "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
-    "정답 — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
+    "정답 — 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험."
    ],
    "source": "WK06 PDF p.11, p.15–16",
@@ -285,8 +285,8 @@
    "answer": 5,
    "explanation": "**Platform process** — 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "choiceNotes": [
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
-    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.",
+    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
+    "틀리다 — Virus filtration (nanofiltration): 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
     "틀리다 — SEC (크기 배제 크로마토그래피): 분자 크기 차이로 aggregate 등을 분리하는 크로마토그래피.",
     "틀리다 — Cassette filter: 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
     "정답 — 여러 항체에 공통으로 쓰는 표준 정제 흐름."
@@ -421,7 +421,7 @@
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — Depth filtration: 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
     "정답 — 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
-    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "틀리다 — DBC (Dynamic Binding Capacity): 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양."
    ],
    "source": "WK06 PDF p.8 (일반 원리 보충)",
    "concepts": [
@@ -585,7 +585,7 @@
     "정답 — 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
     "틀리다 — Storage solution: 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
     "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
-    "틀리다 — Protein A chromatography: 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "틀리다 — Protein A chromatography: 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
     "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
    ],
    "source": "WK06 강의 녹음 57:45–58:21",
@@ -847,7 +847,7 @@
    "explanation": "**Bed height** — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
    "choiceNotes": [
     "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
-    "틀리다 — Protein A chromatography: 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "틀리다 — Protein A chromatography: 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
     "틀리다 — E&L (Extractables & Leachables): 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
     "정답 — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
     "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing."
@@ -959,7 +959,7 @@
    "choices": [
     "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing",
     "여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양",
+    "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양",
     "정제수를 증류해 만든 가장 높은 등급의 공정 용수",
     "분자 크기 차이로 aggregate 등을 분리하는 크로마토그래피"
    ],
@@ -1049,12 +1049,12 @@
    "choices": [
     "여러 항체에 공통으로 쓰는 표준 정제 흐름",
     "Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양",
+    "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양",
     "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계",
     "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것"
    ],
    "answer": 3,
-   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
    "choiceNotes": [
     "틀리다 — Platform process의 설명이다.",
     "틀리다 — Non-enveloped virus (비외피 바이러스)의 설명이다.",
@@ -1200,7 +1200,7 @@
     "플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것",
     "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것",
     "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구",
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양",
+    "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양",
     "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계"
    ],
    "answer": 2,
@@ -1229,7 +1229,7 @@
    "box": [
     "A. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.",
     "B. 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
-    "C. 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.",
+    "C. 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
     "D. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계."
    ],
    "choices": [
@@ -1240,7 +1240,7 @@
     "(가)-A  (나)-D  (다)-B  (라)-C"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Clarification** → D. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.\n(나) **Depth filtration** → A. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.\n(다) **Protein A chromatography** → C. 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.\n(라) **Low pH viral inactivation** → B. 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Clarification** → D. 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.\n(나) **Depth filtration** → A. 두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과.\n(다) **Protein A chromatography** → C. 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.\n(라) **Low pH viral inactivation** → B. 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
    "choiceNotes": [
     "틀리다 — (다) Protein A chromatography의 설명은 C, (라) Low pH viral inactivation의 설명은 B",
     "틀리다 — (가) Clarification의 설명은 D, (다) Protein A chromatography의 설명은 C",
@@ -1308,7 +1308,7 @@
     "A. 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
     "B. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
     "C. 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.",
-    "D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
+    "D. 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "choices": [
     "(가)-A  (나)-D  (다)-C  (라)-B",
@@ -1318,7 +1318,7 @@
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **Multi-modal chromatography** → A. 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.\n(나) **Virus filtration (nanofiltration)** → D. 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.\n(다) **UF/DF (한외여과/정용여과)** → C. 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.\n(라) **Retentate** → B. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
+   "explanation": "**용어와 설명의 짝**\n(가) **Multi-modal chromatography** → A. 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.\n(나) **Virus filtration (nanofiltration)** → D. 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.\n(다) **UF/DF (한외여과/정용여과)** → C. 막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계.\n(라) **Retentate** → B. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Virus filtration의 설명은 D, (다) UF/DF의 설명은 C",
@@ -1344,7 +1344,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Retentate\n(나) HCP (Host Cell Protein)\n(다) Aggregate (응집체)\n(라) DBC (Dynamic Binding Capacity)",
    "box": [
-    "A. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "A. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
     "B. 생산 세포에서 나온 단백질 불순물.",
     "C. 단백질끼리 뭉친 불순물(면역원성 위험).",
     "D. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질)."
@@ -1357,7 +1357,7 @@
     "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Retentate** → D. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).\n(나) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(다) **Aggregate (응집체)** → C. 단백질끼리 뭉친 불순물(면역원성 위험).\n(라) **DBC (Dynamic Binding Capacity)** → A. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Retentate** → D. 막을 통과하지 못하고 남는 쪽 액체(농축된 단백질).\n(나) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(다) **Aggregate (응집체)** → C. 단백질끼리 뭉친 불순물(면역원성 위험).\n(라) **DBC (Dynamic Binding Capacity)** → A. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
    "choiceNotes": [
     "틀리다 — (가) Retentate의 설명은 D, (다) Aggregate의 설명은 C",
     "틀리다 — (가) Retentate의 설명은 D, (나) HCP의 설명은 B",
@@ -1385,7 +1385,7 @@
    "box": [
     "A. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
     "B. 생산 세포에서 나온 단백질 불순물.",
-    "C. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "C. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
     "D. 단백질끼리 뭉친 불순물(면역원성 위험)."
    ],
    "choices": [
@@ -1396,7 +1396,7 @@
     "(가)-D  (나)-B  (다)-A  (라)-C"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(나) **Aggregate (응집체)** → D. 단백질끼리 뭉친 불순물(면역원성 위험).\n(다) **DBC (Dynamic Binding Capacity)** → C. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n(라) **Platform process** → A. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
+   "explanation": "**용어와 설명의 짝**\n(가) **HCP (Host Cell Protein)** → B. 생산 세포에서 나온 단백질 불순물.\n(나) **Aggregate (응집체)** → D. 단백질끼리 뭉친 불순물(면역원성 위험).\n(다) **DBC (Dynamic Binding Capacity)** → C. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.\n(라) **Platform process** → A. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
    "choiceNotes": [
     "틀리다 — (가) HCP의 설명은 B, (라) Platform process의 설명은 A",
     "틀리다 — (다) DBC의 설명은 C, (라) Platform process의 설명은 A",
@@ -1422,7 +1422,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) DBC (Dynamic Binding Capacity)\n(나) Platform process\n(다) S&D (Solvent/Detergent)\n(라) Orthogonal (직교) 전략",
    "box": [
-    "A. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.",
+    "A. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.",
     "B. 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "C. 여러 항체에 공통으로 쓰는 표준 정제 흐름.",
     "D. 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법."
@@ -1435,7 +1435,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **DBC (Dynamic Binding Capacity)** → A. 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n(나) **Platform process** → C. 여러 항체에 공통으로 쓰는 표준 정제 흐름.\n(다) **S&D (Solvent/Detergent)** → D. 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.\n(라) **Orthogonal (직교) 전략** → B. 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **DBC (Dynamic Binding Capacity)** → A. 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.\n(나) **Platform process** → C. 여러 항체에 공통으로 쓰는 표준 정제 흐름.\n(다) **S&D (Solvent/Detergent)** → D. 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.\n(라) **Orthogonal (직교) 전략** → B. 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
    "choiceNotes": [
     "틀리다 — (나) Platform process의 설명은 C, (다) S&D의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
@@ -1813,7 +1813,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계."
+    "항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계."
    ],
    "answers": [
     "Protein A chromatography",
@@ -1822,7 +1822,7 @@
     "프로틴 A",
     "Protein A 크로마토그래피"
    ],
-   "explanation": "**Protein A chromatography** — 항체 Fc에 붙는 리간드로 항체만 붙잡아 불순물 대부분을 한 번에 없애는 단계.\n정답으로 인정하는 표기: Protein A chromatography · Protein A · 단백질 A · 프로틴 A · Protein A 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Protein A chromatography** — 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.\n정답으로 인정하는 표기: Protein A chromatography · Protein A · 단백질 A · 프로틴 A · Protein A 크로마토그래피 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.5, p.18–19",
    "concepts": [
     "Protein A chromatography"
@@ -1917,7 +1917,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계."
+    "바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계."
    ],
    "answers": [
     "Virus filtration",
@@ -1928,7 +1928,7 @@
     "VF",
     "나노여과"
    ],
-   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 구멍의 필터로 바이러스를 크기로 걸러 내는 단계.\n정답으로 인정하는 표기: Virus filtration · nanofiltration · Virus filtration (nanofiltration) · 바이러스 여과 · 바이러스 필터 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.\n정답으로 인정하는 표기: Virus filtration · nanofiltration · Virus filtration (nanofiltration) · 바이러스 여과 · 바이러스 필터 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.11, p.15–16",
    "concepts": [
     "Virus filtration"
@@ -2020,7 +2020,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양."
+    "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양."
    ],
    "answers": [
     "DBC",
@@ -2028,7 +2028,7 @@
     "DBC (Dynamic Binding Capacity)",
     "동적 결합 용량"
    ],
-   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL가 붙잡을 수 있는 목표 단백질 양.\n정답으로 인정하는 표기: DBC · Dynamic Binding Capacity · DBC (Dynamic Binding Capacity) · 동적 결합 용량 (띄어쓰기·대소문자 무시)",
+   "explanation": "**DBC (Dynamic Binding Capacity)** — 실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양.\n정답으로 인정하는 표기: DBC · Dynamic Binding Capacity · DBC (Dynamic Binding Capacity) · 동적 결합 용량 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.20",
    "concepts": [
     "DBC"
