@@ -32,7 +32,7 @@
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
-  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.04 };
+  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.06 };
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
@@ -142,9 +142,40 @@
   // 단답형 채점: 띄어쓰기·대소문자·문장부호를 무시하고 정답 목록 중 하나와 같으면 정답
   const normAns = (t) => String(t == null ? '' : t).normalize('NFKC').toLowerCase()
     .replace(/[\s.,·•()[\]{}'"`/\\:;~!?^_\-–—−=+*&%]/g, '');
-  function autoGrade(q, text) {
+  // 계산 단답형: "num"(정답 값)이 있으면 쓴 답의 첫 숫자가 오차(tol, 기본 2 %) 안이면 정답 — 단위·쉼표는 보지 않는다
+  // 소문항(1) 2) …)은 "subs": [{label, answers, num, tol}] — 칸마다 따로 쓰고, 모두 맞아야 정답
+  const SUB_SEP = '\u001f';
+  const subTexts = (q, text) => { const a = String(text || '').split(SUB_SEP); return q.subs.map((_, k) => a[k] || ''); };
+  const hasText = (text) => !!String(text || '').split(SUB_SEP).join('').trim();
+  function matchAnswer(spec, text) {
     const t = normAns(text);
-    return !!t && q.answers.some((a) => normAns(a) === t);
+    if (!t) return false;
+    if ((spec.answers || []).some((a) => normAns(a) === t)) return true;
+    if (typeof spec.num === 'number') {
+      const m = String(text).normalize('NFKC').replace(/(\d),(?=\d{3})/g, '$1').match(/-?\d+(?:\.\d+)?/);
+      if (m) return Math.abs(parseFloat(m[0]) - spec.num) <= Math.abs(spec.num) * (typeof spec.tol === 'number' ? spec.tol : 0.02) + 1e-9;
+    }
+    return false;
+  }
+  function autoGrade(q, text) {
+    if (q.subs) { const t = subTexts(q, text); return q.subs.every((sb, k) => matchAnswer(sb, t[k])); }
+    return matchAnswer(q, text);
+  }
+  // 쓴 답 보여 주기(소문항이면 「1) 부피: 2400」처럼)
+  function shortTextHTML(q, text) {
+    if (!hasText(text)) return '<span class="muted">(쓰지 않음)</span>';
+    if (!q.subs) return esc(text);
+    return subTexts(q, text).map((t, k) => `<span class="sub-ans">${k + 1}) ${esc(q.subs[k].label)}: ${t.trim() ? esc(t) : '<span class="muted">—</span>'}</span>`).join(' ');
+  }
+  // 단답형 입력 칸(소문항이면 칸 여러 개)
+  function shortInputsHTML(q, text, attrs, { readonly = false, placeholder = '' } = {}) {
+    const common = 'maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false"';
+    if (!q.subs) return `<input type="text" class="short-input" ${attrs} value="${esc(text)}" ${common} ${placeholder ? `placeholder="${esc(placeholder)}"` : ''} aria-label="단답형 답" ${readonly ? 'readonly' : ''}>`;
+    const t = subTexts(q, text);
+    return `<div class="short-subs">${q.subs.map((sb, k) => `
+      <label class="short-sub"><span>${k + 1}) ${esc(sb.label)}</span>
+        <input type="text" class="short-input" ${attrs} data-sub="${k}" value="${esc(t[k])}" ${common} aria-label="${k + 1}) ${esc(sb.label)}" ${readonly ? 'readonly' : ''}>
+      </label>`).join('')}</div>`;
   }
   // 객관식 보기 순서: 보기가 CONFIG.choicesShown개보다 많으면 오답을 무작위로 빼고(정답은 늘 남김) 섞는다
   function makeOrder(q, shuffleOn = S.prefs.shuffleC) {
@@ -202,6 +233,10 @@
     if (q.format === 'short') {
       if (!Array.isArray(q.answers) || !q.answers.length || q.answers.some((a) => typeof a !== 'string' || !a.trim())) {
         return `${where}: 단답형에 answers(정답 목록)가 없습니다.`;
+      }
+      if (q.subs != null && (!Array.isArray(q.subs) || !q.subs.length || q.subs.some((sb) => !sb || typeof sb.label !== 'string'
+        || !((Array.isArray(sb.answers) && sb.answers.length) || typeof sb.num === 'number')))) {
+        return `${where}: subs(소문항)는 label과 answers 또는 num이 있어야 합니다.`;
       }
       return null;
     }
@@ -268,6 +303,9 @@
           choices: written ? [] : q.choices,
           answer: written ? 0 : q.answer,
           answers: shortQ ? q.answers : [],
+          subs: shortQ && Array.isArray(q.subs) ? q.subs.map((sb) => ({ label: sb.label, answers: Array.isArray(sb.answers) ? sb.answers : [], num: sb.num, tol: sb.tol })) : null,
+          num: shortQ ? q.num : undefined,
+          tol: shortQ ? q.tol : undefined,
           modelAnswer: essay ? q.modelAnswer : '',
           keywords: essay && Array.isArray(q.keywords) ? q.keywords : [],
           explanation: q.explanation || '',
@@ -577,7 +615,7 @@
   }
   function isAnswered(item) {
     const q = S.qById.get(item.id);
-    return isWritten(q) ? !!(item.text || '').trim() : item.pick != null;
+    return isWritten(q) ? hasText(item.text) : item.pick != null;
   }
 
   // 결과 요약(점수·파트별·단원별)을 세션 상태로부터 다시 계산한다
@@ -616,7 +654,7 @@
           it.self = autoGrade(q, it.text);
           recordAnswer(it.id, it.self, now);
         } else if (isEssay(q)) {
-          if (!(it.text || '').trim()) { it.self = false; recordAnswer(it.id, false, now); }
+          if (!hasText(it.text)) { it.self = false; recordAnswer(it.id, false, now); }
         } else {
           recordAnswer(it.id, isCorrect(it), now);
         }
@@ -1025,7 +1063,7 @@
     const others = q.answers.slice(1).filter((a) => { const k = normAns(a); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 3);
     return `
       <div class="short-key">
-        ${mine ? `<p class="short-mine"><span class="ma-title">내 답</span> ${(it && (it.text || '').trim()) ? esc(it.text) : '<span class="muted">(쓰지 않음)</span>'}</p>` : ''}
+        ${mine ? `<p class="short-mine"><span class="ma-title">내 답</span> ${shortTextHTML(q, it && it.text)}</p>` : ''}
         <p class="short-ans"><span class="ma-title">정답</span> <b>${esc(q.answers[0])}</b>${others.length ? ` <span class="muted small">(${others.map(esc).join(' · ')}도 정답)</span>` : ''}</p>
       </div>`;
   }
@@ -1055,8 +1093,7 @@
       const ok = done && isCorrect(item);
       body = `
         <form class="short-form" data-action="short-form">
-          <input type="text" class="short-input" name="ans" value="${esc(item.text)}" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false"
-            placeholder="답을 쓰세요 (영어·우리말 모두 정답)" aria-label="단답형 답" ${done ? 'readonly' : ''}>
+          ${shortInputsHTML(q, item.text, 'name="ans"', { readonly: done, placeholder: q.num != null ? '숫자로 쓰세요 (단위는 써도 되고 안 써도 됨)' : '답을 쓰세요 (영어·우리말 모두 정답)' })}
           ${done ? '' : '<button class="btn btn-primary" type="submit">확인</button>'}
         </form>
         ${done ? '' : '<button class="btn btn-ghost btn-block" type="button" data-action="short-giveup" style="margin-top:8px">모르겠어요 — 정답 보기</button>'}
@@ -1160,8 +1197,8 @@
     const s = S.session;
     const item = s.items[s.idx];
     if (isDone(item)) { studyNext(); return; }
-    const t = String(text || '').slice(0, 120);
-    if (!giveUp && !t.trim()) { toast('답을 쓰거나 「모르겠어요」를 누르세요'); return; }
+    const t = String(text || '').slice(0, 400);
+    if (!giveUp && !hasText(t)) { toast('답을 쓰거나 「모르겠어요」를 누르세요'); return; }
     const q = S.qById.get(item.id);
     item.text = giveUp ? '' : t;
     item.self = giveUp ? false : autoGrade(q, t);
@@ -1313,7 +1350,7 @@
           ${stem}
           ${boxHTML(q)}
           <label class="short-line"><span>답:</span>
-            <input type="text" class="short-input" data-action="short" data-i="${i}" value="${esc(it.text)}" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="${i + 1}번 단답형 답">
+            ${shortInputsHTML(q, it.text, `data-action="short" data-i="${i}"`)}
           </label>
         </div>`;
     }
@@ -1439,7 +1476,7 @@
     const it = s.items[i];
     const q = S.qById.get(it.id);
     const before = isAnswered(it);
-    it.text = value.slice(0, isShort(q) ? 120 : 4000);
+    it.text = value.slice(0, isShort(q) ? 400 : 4000);
     saveActive();
     if (before !== isAnswered(it)) {
       const b = document.querySelector(`#omr-${i} .omr-essay`);
@@ -1642,7 +1679,7 @@
       <div class="pq">
         <p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span></p>
         ${boxHTML(q)}
-        ${isShort(q) ? '<p class="print-short">답: <span></span></p>' : isEssay(q) ? '<div class="print-lines"></div>' : `<ol class="pq-choices print-choices">${it.order.map((orig, disp) => `
+        ${isShort(q) ? (q.subs ? q.subs.map((sb, k) => `<p class="print-short">${k + 1}) ${esc(sb.label)}: <span></span></p>`).join('') : '<p class="print-short">답: <span></span></p>') : isEssay(q) ? '<div class="print-lines"></div>' : `<ol class="pq-choices print-choices">${it.order.map((orig, disp) => `
           <li><span class="cnum">${CIRCLED[disp]}</span><span>${rich(q.choices[orig])}</span></li>`).join('')}</ol>`}
       </div>`;
   }
@@ -2129,13 +2166,13 @@
         <div class="pq graded ${ok ? 'is-ok' : 'is-bad'}" id="pq-${i}">
           ${stem}
           ${boxHTML(q)}
-          <p class="short-line handwrite-blue"><span>답:</span> ${(it.text || '').trim() ? esc(it.text) : '<span class="muted">(쓰지 않음)</span>'}</p>
+          <p class="short-line handwrite-blue"><span>답:</span> ${shortTextHTML(q, it.text)}</p>
           <details class="pq-exp" ${ok ? '' : 'open'}>
             <summary><b class="key-red">정답 ${esc(q.answers[0])}</b> · ${ok ? '맞음' : '틀림'} — 해설 ${ok ? '보기' : ''}</summary>
             ${shortAnswerHTML(q, it, { mine: false })}
             <p>${rich(q.explanation)}</p>
             ${sourceHTML(q)}
-            ${(it.text || '').trim() ? `
+            ${hasText(it.text) ? `
             <div class="self-grade no-print">
               <span>자동 채점 결과 (뜻이 같은데 틀림으로 나왔다면 바꾸세요)</span>
               <div class="btn-row">
@@ -2156,7 +2193,7 @@
             ${modelAnswerHTML(q)}
             <p>${rich(q.explanation)}</p>
             ${sourceHTML(q)}
-            ${(it.text || '').trim() ? `
+            ${hasText(it.text) ? `
             <div class="self-grade no-print">
               <span>${pending ? '모범답안과 비교해 채점하세요 →' : '채점 결과 (바꿀 수 있음)'}</span>
               <div class="btn-row">
@@ -2583,7 +2620,7 @@
     const sf = e.target.closest('[data-action="short-form"]');
     if (sf) {
       e.preventDefault();
-      if (S.session && S.view === 'study') studyShort(sf.querySelector('input').value);
+      if (S.session && S.view === 'study') studyShort([...sf.querySelectorAll('input.short-input')].map((x) => x.value.split(SUB_SEP).join('')).join(SUB_SEP));
       return;
     }
     const form = e.target.closest('[data-action="owner-form"]');
@@ -2629,6 +2666,12 @@
     } else if (t.dataset.action === 'name') {
       S.prefs.name = t.value.slice(0, 40);
       savePrefs();
+    } else if (t.dataset.action === 'short' && t.dataset.sub != null && S.session) {
+      const it = S.session.items[Number(t.dataset.i)];
+      const q = S.qById.get(it.id);
+      const parts = subTexts(q, it.text);
+      parts[Number(t.dataset.sub)] = t.value.split(SUB_SEP).join('').slice(0, 120);
+      examEssayInput(Number(t.dataset.i), parts.join(SUB_SEP));
     } else if ((t.dataset.action === 'essay' || t.dataset.action === 'short') && S.session) {
       examEssayInput(Number(t.dataset.i), t.value);
     } else if (t.dataset.action === 'study-essay' && S.session) {

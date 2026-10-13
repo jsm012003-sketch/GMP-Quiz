@@ -65,8 +65,8 @@ def main() -> int:
             if part not in (1, 2, 3):
                 errors.append(f"{where}: part 는 1~3 이어야 합니다 (현재 {part!r})")
             parts[part] += 1
-            if qtype == "계산" and part != 2:
-                warnings.append(f"{where}: 계산 문항은 PART II(part 2)에 둡니다")
+            if qtype == "계산" and part != (3 if q.get("format") == "short" else 2):
+                warnings.append(f"{where}: 계산 문항은 객관식이면 PART II(part 2), 단답형이면 PART III(part 3)에 둡니다")
             if part == 3 and q.get("format") != "short":
                 warnings.append(f"{where}: PART III는 단답형 전용입니다(2026.10.08) — 객관식은 part 1·2로")
             if q.get("format") == "short":
@@ -75,6 +75,20 @@ def main() -> int:
                     errors.append(f"{where}: 단답형에 answers(정답 목록)가 없습니다")
                 if part != 3:
                     errors.append(f"{where}: 단답형은 part 3(PART III 단답형)이어야 합니다")
+                subs = q.get("subs")
+                if subs is not None:
+                    if not isinstance(subs, list) or not subs:
+                        errors.append(f"{where}: subs(소문항)는 비어 있지 않은 배열이어야 합니다")
+                    else:
+                        for k, sb in enumerate(subs, 1):
+                            if not isinstance(sb, dict) or not str(sb.get("label", "")).strip():
+                                errors.append(f"{where}: subs {k}번에 label 없음")
+                            elif not (isinstance(sb.get("num"), (int, float)) or (isinstance(sb.get("answers"), list) and sb["answers"])):
+                                errors.append(f"{where}: subs {k}번에 num(정답 값) 또는 answers 없음")
+                if "num" in q and not isinstance(q["num"], (int, float)):
+                    errors.append(f"{where}: num(정답 값)은 숫자여야 합니다")
+                if qtype == "계산" and subs is None and "num" not in q:
+                    warnings.append(f"{where}: 계산 단답형에는 num(정답 값)을 주면 단위·쉼표가 달라도 채점됩니다")
                 if not q.get("explanation"):
                     warnings.append(f"{where}: explanation(해설) 없음")
                 if not q.get("source"):

@@ -1746,6 +1746,222 @@
         "Scale-up",
         "Volumetric flow rate"
       ]
+    },
+    {
+      "id": "wk06-076",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 Protein A 공정에서 1) 한 배치 항체 양과 2) 배양기 생산 부피를 구하시오.",
+      "box": [
+        "레진 부피 40 L, binding capacity 50 g/L인 컬럼으로 한 배치에 6 cycle을 돌려 배양액의 항체를 모두 처리했다. 배양 titer는 3 g/L이다."
+      ],
+      "subs": [
+        {
+          "label": "한 배치 항체 양 (kg)",
+          "num": 12,
+          "answers": [
+            "12",
+            "12 kg"
+          ]
+        },
+        {
+          "label": "배양기 생산 부피 (L)",
+          "num": 4000,
+          "answers": [
+            "4,000",
+            "4,000 L"
+          ]
+        }
+      ],
+      "answers": [
+        "1) 12 kg  2) 4,000 L"
+      ],
+      "explanation": "**1) 40 L × 50 g/L × 6 cycle = 12,000 g = 12 kg, 2) 12,000 g ÷ 3 g/L = 4,000 L다.** 생산 규모는 한 배치 항체 양을 titer로 나눠 구한다(회수율 100 % 가정).",
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ],
+      "tags": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-077",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 공정에서 1) Protein A가 한 배치에 처리한 항체 양과 2) 배양 titer를 구하시오.",
+      "box": [
+        "2,000 L 배양기의 배양액을 레진 25 L, binding capacity 40 g/L인 Protein A 컬럼으로 한 배치에 4 cycle 돌려 모두 처리했다(회수율 100 %)."
+      ],
+      "subs": [
+        {
+          "label": "처리한 항체 양 (kg)",
+          "num": 4,
+          "answers": [
+            "4",
+            "4 kg"
+          ]
+        },
+        {
+          "label": "Titer (g/L)",
+          "num": 2,
+          "answers": [
+            "2",
+            "2 g/L"
+          ]
+        }
+      ],
+      "answers": [
+        "1) 4 kg  2) 2 g/L"
+      ],
+      "explanation": "**1) 25 L × 40 g/L × 4 cycle = 4,000 g = 4 kg, 2) 4,000 g ÷ 2,000 L = 2 g/L다.** Titer = 항체 양 ÷ 배양 부피.",
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ],
+      "tags": [
+        "Titer",
+        "Cycles per batch",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "wk06-078",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 Protein A 컬럼의 1) 레진 부피와 2) 한 cycle 처리량을 구하시오. (CV = π × 반지름² × 높이, π = 3.14)",
+      "box": [
+        "지름 60 cm, bed height 20 cm, binding capacity 40 g/L인 컬럼"
+      ],
+      "subs": [
+        {
+          "label": "레진 부피 (L)",
+          "num": 56.52,
+          "answers": [
+            "56.52",
+            "56.52 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "한 cycle 처리량 (kg)",
+          "num": 2.26,
+          "answers": [
+            "2.26",
+            "2.26 kg"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "answers": [
+        "1) 56.52 L  2) 2.26 kg"
+      ],
+      "explanation": "**1) 3.14 × (30 cm)² × 20 cm = 56,520 cm³ ≈ 56.5 L, 2) 56.5 L × 40 g/L ≈ 2,260 g ≈ 2.26 kg이다.** 반지름(30 cm)을 넣는다 — 지름을 넣으면 4배가 된다.",
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Column volume (CV)",
+        "Binding capacity"
+      ],
+      "tags": [
+        "Column volume (CV)",
+        "Binding capacity"
+      ]
+    },
+    {
+      "id": "wk06-079",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 조건에서 한 배치에 필요한 1) equilibration buffer와 2) elution buffer 총량을 구하시오.",
+      "box": [
+        "레진 30 L 컬럼, 한 배치 5 cycle. 버퍼는 cycle마다 equilibration 5 CV, elution 2 CV를 쓴다."
+      ],
+      "subs": [
+        {
+          "label": "Equilibration buffer (L)",
+          "num": 750,
+          "answers": [
+            "750",
+            "750 L"
+          ]
+        },
+        {
+          "label": "Elution buffer (L)",
+          "num": 300,
+          "answers": [
+            "300",
+            "300 L"
+          ]
+        }
+      ],
+      "answers": [
+        "1) 750 L  2) 300 L"
+      ],
+      "explanation": "**버퍼 양 = 레진 부피 × CV 수 × cycle 수 — 1) 30 × 5 × 5 = 750 L, 2) 30 × 2 × 5 = 300 L다.** 슬라이드처럼 버퍼는 모두 CV 단위로 정한다.",
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Column volume (CV)",
+        "Cycles per batch"
+      ],
+      "tags": [
+        "Column volume (CV)",
+        "Cycles per batch"
+      ]
+    },
+    {
+      "id": "wk06-080",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "한 cycle에 항체 1.2 kg을 넣고 2 CV(레진 30 L)로 용출했을 때 용출액 농도(g/L)를 구하시오. (회수율 100 %)",
+      "num": 20,
+      "answers": [
+        "20 g/L",
+        "20"
+      ],
+      "explanation": "**용출 부피 = 2 × 30 L = 60 L, 농도 = 1,200 g ÷ 60 L = 20 g/L다.**",
+      "source": "강의 슬라이드 사진 (Example: Impact of Protein A column volume — 숫자는 바꿈)",
+      "concepts": [
+        "Elution (용출)",
+        "Column volume (CV)"
+      ],
+      "tags": [
+        "Elution (용출)",
+        "Column volume (CV)"
+      ]
+    },
+    {
+      "id": "wk06-081",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "Bed height 25 cm, linear velocity 300 cm/h일 때 residence time(분)을 구하시오.",
+      "num": 5,
+      "answers": [
+        "5 분",
+        "5"
+      ],
+      "explanation": "**Residence time = bed height ÷ linear velocity = 25 ÷ 300 h = 1/12 h = 5분이다.**",
+      "source": "WK06 강의 녹음 2:08:21–2:18:01 (선속도·bed height)",
+      "concepts": [
+        "Residence time",
+        "Linear velocity",
+        "Bed height"
+      ],
+      "tags": [
+        "Residence time",
+        "Linear velocity",
+        "Bed height"
+      ]
     }
   ]
 }
