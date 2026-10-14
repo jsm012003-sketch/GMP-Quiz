@@ -1,7 +1,7 @@
 {
   "week": "통합",
   "title": "전 공정 통합 (배양 → 정제 → 완제 → 무균 보증 → 시설) — 보관(출제 안 함)",
-  "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
+  "note": "적중 스타일 전면 리뉴얼(2026.10.14)과 그 전 정리에서 걸러 낸 문항. index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
   "questions": [
     {
       "id": "int-002",
@@ -315,6 +315,287 @@
         "Dynamic perfusion"
       ],
       "part": 2
+    },
+    {
+      "id": "int-001",
+      "type": "연결",
+      "question": "정제 라인 1개를 배양기 여러 대(예: 4대)가 함께 쓰는 이유는?",
+      "choices": [
+        "정제가 배양보다 오래 걸려서",
+        "배양과 정제 시간이 같아서",
+        "배양이 정제보다 훨씬 오래 걸려서",
+        "규정이 1:1을 금지해서",
+        "제품을 계속 회수해서"
+      ],
+      "answer": 3,
+      "explanation": "**배양(약 2주)이 정제보다 훨씬 길어서, 여러 배양기를 시차를 두고 돌려야 정제 라인을 놀리지 않는다**(배양 1 batch ≠ 정제 1 batch). Dynamic perfusion은 배양기 1대당 정제 1라인.",
+      "choiceNotes": [
+        "틀리다 — 반대다.",
+        "틀리다.",
+        "옳다 — fed-batch 약 2주.",
+        "틀리다.",
+        "틀리다 — 그건 dynamic perfusion(1:1)."
+      ],
+      "source": "OT PDF p.23 (Scheduling) · WK02 PDF p.37 (Standard Fed-Batch: 4–6 bioreactors per DSP), p.41 (Dynamic Perfusion: one bioreactor per downstream)",
+      "tags": [
+        "Scheduling",
+        "Fed-batch",
+        "Downstream 연결"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-003",
+      "type": "연결",
+      "question": "공정의 여러 '여과' 중 설명이 옳지 않은 것은?",
+      "choices": [
+        "배지 준비 – 0.1 µm 필터로 멸균·마이코플라스마 제거",
+        "조제 후 – 필터 사용 전·후 integrity test",
+        "APS – 필터 설치 과정도 모사",
+        "ATF 필터 – 제품을 멸균하는 장치",
+        "배지 준비 – 0.2 µm 필터로 미생물 줄이기"
+      ],
+      "answer": 4,
+      "explanation": "**ATF는 제품 멸균 장치가 아니라 세포를 배양기에 붙잡아 두는 세포 유지 장치다.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — ATF는 세포를 붙잡는 장치다.",
+        "옳은 진술."
+      ],
+      "source": "WK02 PDF p.16 (필기: 배지 여과), p.40–41 (ATF UF/MF) · 01 완제 PDF p.13 (필터 완전성 시험) · 02 RABS & APS PDF p.20 (APS 전략)",
+      "tags": [
+        "여과",
+        "Mycoplasma",
+        "Filter integrity",
+        "ATF"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-004",
+      "type": "연결",
+      "question": "배양과 완제 공정에서의 'shear force·거품' 관리로 옳지 않은 것은?",
+      "choices": [
+        "배양기 교반을 너무 세게 하면 세포가 다친다",
+        "단백질은 거품에 영향받지 않아 세게 섞어도 된다",
+        "통기가 지나치면 거품이 생긴다",
+        "스케일업 때 P/V로 전단 환경을 맞춘다",
+        "조제 때 과교반하면 단백질이 변성된다"
+      ],
+      "answer": 2,
+      "explanation": "**Shear force·거품은 세포(배양)와 단백질(완제) 모두에 해롭다.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "틀린 진술(정답) — 단백질도 거품·전단에 변성된다.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술."
+      ],
+      "source": "WK02 PDF p.86–87 (Agitation/Aeration Design Space), p.89–90 (P/V, High rpm) · 01 완제 PDF p.12–13 (전단 응력·기포, 과교반)",
+      "tags": [
+        "Shear",
+        "Foam",
+        "단백질 변성",
+        "Scale-up"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-007",
+      "type": "연결",
+      "question": "공정 단계와 공정 중 관리(IPC) 항목의 연결로 옳지 않은 것은?",
+      "choices": [
+        "배양 – 생세포 수, 포도당·젖산",
+        "조제 – pH·삼투압·함량",
+        "충전 – 충전량 중량 검사",
+        "배양 – 밀봉 완전성(CCI) 검사",
+        "충전 환경 – 부유입자·부유균"
+      ],
+      "answer": 4,
+      "explanation": "**배양은 세포·대사물·가스·삼투압·titer, 조제는 pH·삼투압·함량, 충전은 충전량·CCI·외관, 환경은 입자·미생물·차압을 관리한다.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — CCI는 충전·밀봉 후 용기 검사.",
+        "옳은 진술."
+      ],
+      "source": "WK02 PDF p.16 (필기: Sampling·IPC), p.47 · 01 완제 PDF p.13, p.18, p.19",
+      "tags": [
+        "IPC",
+        "공정별 품질 관리"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-009",
+      "type": "개념",
+      "part": 1,
+      "question": "항체 의약품이 만들어지는 큰 흐름으로 옳은 것은?",
+      "choices": [
+        "배양 → 충전 → 정제 → 출하",
+        "정제 → 배양 → 충전 → 출하",
+        "조제·충전 → 배양 → 정제 → 출하",
+        "세포은행 → 충전 → 배양 → 정제",
+        "세포은행 → 배양 → 정제 → 조제·충전 → 출하"
+      ],
+      "answer": 5,
+      "explanation": "**세포은행 → 배양(USP) → 정제(DSP) → 원료의약품(DS) → 조제·충전(DP) → 시험·출하.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "틀리다.",
+        "옳다."
+      ],
+      "source": "WK02 PDF p.15, p.16 (필기: DS(USP)/DS(DSP)/DP) · 01 완제 PDF p.6 (전체 제조 공정 흐름), p.19",
+      "tags": [
+        "전 공정 흐름",
+        "DS/DP"
+      ]
+    },
+    {
+      "id": "int-014",
+      "type": "개념",
+      "question": "설비 OQ가 끝나지 않았는데 공정 밸리데이션(PV)을 시작해도 되는가?",
+      "choices": [
+        "된다 — PV에서 같이 확인된다",
+        "안 된다 — OQ를 먼저 끝낸다",
+        "된다 — IQ만 끝나면 된다",
+        "된다 — 나중에 날짜를 맞춰 기록한다",
+        "된다 — APS로 대신한다"
+      ],
+      "answer": 2,
+      "explanation": "**Q&V는 순서가 있다: URS → DQ → FAT → IQ → OQ → PQ → PV.** 설비가 제대로 작동함(OQ)을 먼저 입증해야 공정을 검증할 수 있다.",
+      "choiceNotes": [
+        "틀리다.",
+        "옳다 — 앞 단계가 다음 단계의 전제.",
+        "틀리다 — IQ와 OQ는 다르다.",
+        "틀리다 — 데이터 무결성 위반.",
+        "틀리다 — 목적이 다르다."
+      ],
+      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation) · 02 RABS & APS PDF p.12 (APS 설계 개념)",
+      "tags": [
+        "Q&V",
+        "OQ",
+        "PV"
+      ],
+      "part": 1
+    },
+    {
+      "id": "int-019",
+      "type": "연결",
+      "question": "세척·멸균·제염 방법과 쓰임의 연결로 옳은 것은?",
+      "choices": [
+        "CIP – 분해 없이 제자리에서 자동 세척",
+        "SIP – 과산화수소 증기로 표면 제염",
+        "VHP – 증기로 sampling port 멸균",
+        "CIP – 아이솔레이터 내부 제염",
+        "VHP – 장비를 분해해 손으로 세척"
+      ],
+      "answer": 1,
+      "explanation": "**CIP(Cleaning In Place)는 장비를 분해하지 않고 제자리에서 세척액을 순환시켜 자동 세척한다.** SIP는 증기로 장비(예: stainless 배양기 sampling port)를 멸균하고, VHP는 과산화수소 증기로 아이솔레이터·RABS 같은 밀폐 공간 표면을 제염한다.",
+      "choiceNotes": [
+        "옳다 — Cleaning In Place.",
+        "틀리다 — 그것은 VHP다.",
+        "틀리다 — 그것은 SIP다.",
+        "틀리다 — 아이솔레이터 제염은 VHP다.",
+        "틀리다 — 과산화수소 증기로 자동 제염한다."
+      ],
+      "source": "WK07 PDF p.22, p.46 · WK02 PDF p.16 (수업 필기: Sampling Port) · 02 RABS & APS PDF p.7, p.9",
+      "tags": [
+        "CIP",
+        "SIP",
+        "VHP"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-020",
+      "type": "연결",
+      "question": "설계·검증 개념과 뜻의 연결로 옳은 것은?",
+      "choices": [
+        "Worst case – 가장 쉬운 조건에서 입증",
+        "Bracketing – 양 끝 조건만 시험해 사이를 대표",
+        "Design space – set point 한 점",
+        "Bracketing – 모든 조건을 하나씩 다 시험",
+        "Worst case – 실패해도 되는 조건"
+      ],
+      "answer": 2,
+      "explanation": "**Bracketing은 용기 크기·충전 속도 같은 인자의 양 끝 조건을 시험해 그 사이 조건을 대표하게 하는 설계다.** Worst case는 오염 위험이 가장 큰 조건으로, 여기서 입증하면 더 쉬운 조건도 보증된다고 본다. Design space는 품질이 보증된다고 입증된 공정 조건의 범위다(한 점이 아님).",
+      "choiceNotes": [
+        "틀리다 — 가장 불리한 조건에서 입증한다.",
+        "옳다.",
+        "틀리다 — 한 점이 아니라 범위다.",
+        "틀리다 — 양 끝만 시험한다.",
+        "틀리다 — 가장 불리한 조건에서 통과해야 한다."
+      ],
+      "source": "02 RABS & APS PDF p.12, p.16, p.24 · WK02 PDF p.71",
+      "tags": [
+        "Bracketing",
+        "Worst case",
+        "Design space"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-021",
+      "type": "연결",
+      "question": "공정 단계와 주로 쓰는 필터의 연결로 옳은 것은?",
+      "choices": [
+        "배지 준비 – UF 카세트",
+        "충전 직전 최종 여과 – depth filter",
+        "Clarification – depth filter",
+        "바이러스 제거 – 0.45 µm pre-filter",
+        "버퍼 교환 – 제균 필터"
+      ],
+      "answer": 3,
+      "explanation": "**배양액 회수(정화)에는 depth filter, 배지 준비와 최종 충전 직전에는 0.2 µm(배지는 +0.1 µm) 제균 막 필터, 바이러스 제거에는 virus filter, 농축·버퍼 교환에는 UF/DF를 쓴다.** Pore size: depth filter ~1 µm, 사전·제균 0.1~0.2 µm, 바이러스 ~0.01 µm, UF ~0.001 µm.",
+      "choiceNotes": [
+        "틀리다 — 배지는 0.2 µm + 0.1 µm 막 필터로 거른다.",
+        "틀리다 — 최종 여과는 0.2 µm 제균 막 필터다.",
+        "옳다 — 세포·찌꺼기를 많이 붙잡는다.",
+        "틀리다 — 바이러스는 약 0.01 µm 급 virus filter로 거른다.",
+        "틀리다 — 버퍼 교환은 UF/DF(TFF)다."
+      ],
+      "source": "WK04 PDF p.20 (Filter for Virus Clearance), p.23 · WK02 PDF p.16 (수업 필기: Culture Media Preparation) · 01 완제의약품 제조 공정 PDF p.13",
+      "tags": [
+        "Depth filter",
+        "Sterilizing-grade filter",
+        "UF/DF",
+        "Virus filtration"
+      ],
+      "part": 2
+    },
+    {
+      "id": "int-023",
+      "type": "개념",
+      "question": "제균 필터 integrity test 시점에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "사용 후에는 하지 않는다",
+        "제조사가 했으면 사용자는 하지 않는다",
+        "필터를 파괴해서 시험한다",
+        "사용 전에만 하고 결과는 기록하지 않는다",
+        "멸균 후 사용 전(PUPSIT)과 사용 후 모두 한다"
+      ],
+      "answer": 5,
+      "explanation": "**제균 필터는 멸균 후 사용 전(PUPSIT)과 사용 후에 모두 무결성을 확인한다.** 완제 공정에서도 무균 여과 필터의 완전성을 사용 전·후에 확인하며, 사용자는 제조사가 준 기준으로 bubble point·확산 같은 비파괴 시험을 한다.",
+      "choiceNotes": [
+        "틀리다 — 사용 후 시험은 EU·FDA·PDA 모두 요구한다.",
+        "틀리다 — 사용자가 비파괴로 다시 확인한다.",
+        "틀리다 — 사용자는 bubble point·확산 같은 비파괴검사를 한다.",
+        "틀리다.",
+        "옳다."
+      ],
+      "source": "01 완제의약품 제조 공정 PDF p.13 · WK04 PDF p.17, p.118–119, p.158",
+      "tags": [
+        "PUPSIT (Pre-Use Post-Sterilization Integrity Test)",
+        "필터 완전성 시험",
+        "Filter integrity test (필터 무결성 시험)"
+      ],
+      "part": 1
     }
   ]
 }
