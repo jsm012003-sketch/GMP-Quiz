@@ -87,89 +87,6 @@
       "part": 1
     },
     {
-      "id": "wk07-012",
-      "type": "연결",
-      "question": "Single-use(일회용)와 multi-use(스테인리스) 장비의 비교로 옳지 않은 것은?",
-      "choices": [
-        "Single-use는 부품 평가가 전혀 필요 없다",
-        "Single-use는 세척·멸균 부담이 적다",
-        "Single-use는 제품 전환이 빠르다",
-        "Single-use는 소모품 비용이 든다",
-        "Single-use는 높이가 낮아 층고가 낮은 건물에 유리하다"
-      ],
-      "answer": 1,
-      "explanation": "**Single-use는 세척·멸균 부담이 적고 유연하며 높이가 낮지만, 소모품 비용이 들고 제품 접촉 부품의 무결성·추출물 평가가 필요하다.**",
-      "choiceNotes": [
-        "틀린 진술(정답) — 무결성·추출물 평가가 필요하다(일반 원리).",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술 — 공급망 의존도도 커진다.",
-        "옳은 진술."
-      ],
-      "source": "WK07 PDF p.31 (Equipment Selection), p.63 (Single Use System) · WK06 PDF p.26",
-      "tags": [
-        "Single-use",
-        "Multi-use",
-        "Equipment selection"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk07-015",
-      "type": "연결",
-      "question": "작업과 청정 등급의 연결로 옳지 않은 것은?",
-      "choices": [
-        "무균 제품 충전 – Grade A",
-        "Grade A의 배경 – Grade B",
-        "최종멸균 제품 충전 – Grade C",
-        "아이솔레이터 주변(EU 최소) – Grade D",
-        "열린 무균 제품 충전 – Grade D"
-      ],
-      "answer": 5,
-      "explanation": "**Grade A = 무균 충전·무균 조작, B = A의 배경, C = 최종멸균 제품 충전·여과 가능 제품 조제, D = 밀폐계 조제·아이솔레이터 주변.**",
-      "choiceNotes": [
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "옳은 진술.",
-        "틀린 진술(정답) — 무균 충전은 Grade A."
-      ],
-      "source": "WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
-      "tags": [
-        "Cleanroom grade",
-        "Grade A/B/C/D"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk07-016",
-      "type": "연결",
-      "part": 2,
-      "question": "청정 등급의 비가동(at rest)과 가동(operational) 기준의 비교로 옳은 것은?",
-      "choices": [
-        "모든 등급의 두 기준이 같다",
-        "Grade A는 비가동과 가동 기준이 같다",
-        "가동 상태에서는 미생물을 보지 않는다",
-        "Grade D 가동 기준이 가장 엄격하다",
-        "비가동은 사람이 가장 많을 때 잰다"
-      ],
-      "answer": 2,
-      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태.",
-      "choiceNotes": [
-        "틀리다.",
-        "옳다 — B·C는 가동 때 허용치가 높다.",
-        "틀리다.",
-        "틀리다 — D는 가동 기준이 정해져 있지 않다.",
-        "틀리다 — 작업이 멈춘 상태다."
-      ],
-      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
-      "tags": [
-        "At rest",
-        "Operational",
-        "Particle limit"
-      ]
-    },
-    {
       "id": "wk07-017",
       "type": "개념",
       "question": "청정실 마감(벽·바닥·조명) 원칙으로 옳지 않은 것은?",
@@ -304,116 +221,6 @@
         "Pressure cascade"
       ],
       "part": 1
-    },
-    {
-      "id": "wk07-027",
-      "type": "개념",
-      "part": 1,
-      "question": "설비 적격성평가·밸리데이션(Q&V)의 순서로 옳은 것은?",
-      "choices": [
-        "URS → IQ → DQ → FAT → PQ → OQ",
-        "FAT → URS → OQ → IQ → PV",
-        "PQ → OQ → IQ → DQ → URS",
-        "URS → DQ → FAT → IQ → OQ → PQ → PV",
-        "IQ → URS → OQ → DQ → PQ"
-      ],
-      "answer": 4,
-      "explanation": "**URS(요구사항) → DQ(설계 확인) → FAT(공장 출하 전 시험) → IQ/SAT(설치) → OQ(작동) → PQ(성능) → PV(공정 밸리데이션).** 전 과정에 변경 관리가 붙는다.",
-      "choiceNotes": [
-        "틀리다.",
-        "틀리다.",
-        "틀리다 — 거꾸로다.",
-        "옳다.",
-        "틀리다."
-      ],
-      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation) · 03 Isolator PDF p.15",
-      "tags": [
-        "V-model",
-        "URS",
-        "FAT/SAT",
-        "IQ/OQ/PQ"
-      ]
-    },
-    {
-      "id": "wk07-031",
-      "type": "개념",
-      "part": 1,
-      "question": "Ballroom concept에 대한 설명으로 옳은 것은?",
-      "choices": [
-        "제품마다 건물을 따로 짓는다",
-        "모든 공정을 열어 놓고 한 방에서 한다",
-        "밀폐 공정을 전제로 여러 제품을 한 넓은 공간에서 만든다",
-        "바이러스 구역을 더 잘게 나눈다",
-        "개방 공정일수록 유리하다"
-      ],
-      "answer": 3,
-      "explanation": "**밀폐(closed) 공정과 품질 위험 관리를 전제로, 여러 제품을 한 공간에서 동시에 만들며 청정 요구와 구역 분리를 줄이는 시설 개념이다.**",
-      "choiceNotes": [
-        "틀리다.",
-        "틀리다 — 밀폐가 전제다.",
-        "옳다 — 품질 위험 관리도 전제.",
-        "틀리다 — 구역 분리를 줄인다.",
-        "틀리다."
-      ],
-      "source": "WK07 PDF p.62 (Ball Room Concept) · 03 Isolator PDF p.6",
-      "tags": [
-        "Ballroom",
-        "Closed system",
-        "QRM"
-      ]
-    },
-    {
-      "id": "wk07-033",
-      "type": "연결",
-      "question": "임상시험 단계와 특징의 연결로 옳지 않은 것은?",
-      "choices": [
-        "1상 – 소수 건강인, 안전성 확인",
-        "2상 – 환자, 효과와 용량 탐색",
-        "3상 – 대규모, 효과 확증",
-        "1상 – 수천 명 환자에서 효과 확증",
-        "4상 – 시판 후 장기 안전성 관찰"
-      ],
-      "answer": 4,
-      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
-      "choiceNotes": [
-        "옳은 진술 — 약 20~100명.",
-        "옳은 진술 — 약 100~500명.",
-        "옳은 진술 — 약 1,000~5,000명.",
-        "틀린 진술(정답) — 그건 3상이다.",
-        "옳은 진술."
-      ],
-      "source": "WK07 PDF p.15 (Phases of clinical development) · WK02 강의 녹음 01:35:02",
-      "tags": [
-        "Clinical phase"
-      ],
-      "part": 2
-    },
-    {
-      "id": "wk07-037",
-      "type": "연결",
-      "question": "FAT와 SAT의 차이로 옳은 것은?",
-      "choices": [
-        "FAT는 설치 현장, SAT는 제작사 공장에서 한다",
-        "FAT는 제작사 공장, SAT는 설치 현장에서 한다",
-        "SAT는 장비를 출하하기 전에 한다",
-        "둘 다 공정 밸리데이션(PV)의 다른 이름이다",
-        "FAT를 하면 SAT는 생략한다"
-      ],
-      "answer": 2,
-      "explanation": "**FAT(Factory Acceptance Test)는 장비를 출하하기 전에 제작사 공장에서, SAT(Site Acceptance Test)는 현장에 설치한 뒤 사양대로 들어왔고 연결됐는지 확인하는 시험이다.**",
-      "choiceNotes": [
-        "틀리다 — 반대로 말했다.",
-        "옳다.",
-        "틀리다 — 출하 전 시험은 FAT다.",
-        "틀리다 — 장비 인수 시험이다.",
-        "틀리다 — 현장 설치·연결은 따로 확인한다."
-      ],
-      "source": "WK07 PDF p.51",
-      "tags": [
-        "FAT",
-        "SAT"
-      ],
-      "part": 2
     },
     {
       "id": "wk07-038",
@@ -555,33 +362,6 @@
       "part": 2
     },
     {
-      "id": "wk07-043",
-      "type": "연결",
-      "question": "공정 자동화 시스템의 구분으로 옳은 것은?",
-      "choices": [
-        "MES는 현장 장비를 직접 제어하는 컨트롤러다",
-        "EBR은 종이로 쓰는 배치 기록이다",
-        "SCADA는 전자 배치 기록이다",
-        "PLC는 생산 일정을 관리하는 시스템이다",
-        "PLC는 장비를 직접 제어하고, MES는 생산 실행을 관리한다"
-      ],
-      "answer": 5,
-      "explanation": "**PLC는 현장 장비를 직접 제어하는 컨트롤러, SCADA는 이를 모아 감시·운전하는 상위 시스템이고, MES는 생산 실행을 관리하는 제조실행시스템, EBR은 종이 대신 전자로 쓰는 배치 기록이다.**",
-      "choiceNotes": [
-        "틀리다 — 그것은 PLC다.",
-        "틀리다 — 전자 배치 기록(Electronic Batch Record)이다.",
-        "틀리다 — SCADA는 장비를 모아 감시·운전하는 시스템이다.",
-        "틀리다 — 생산 실행 관리는 MES다.",
-        "옳다."
-      ],
-      "source": "WK07 PDF p.33, p.52",
-      "tags": [
-        "PLC / SCADA",
-        "MES / EBR"
-      ],
-      "part": 2
-    },
-    {
       "id": "wk07-044",
       "type": "단답",
       "part": 3,
@@ -608,29 +388,6 @@
       ]
     },
     {
-      "id": "wk07-045",
-      "type": "단답",
-      "part": 3,
-      "format": "short",
-      "question": "Q&V 순서 「URS → DQ → FAT → IQ → OQ → ( ) → PV」에서 빈칸은?",
-      "answers": [
-        "PQ",
-        "Performance Qualification",
-        "성능 적격성평가",
-        "성능 적격성 평가"
-      ],
-      "explanation": "**URS → DQ → FAT → IQ/SAT → OQ → PQ → PV 순서다.** 설비가 제대로 작동함(OQ)·성능을 냄(PQ)을 먼저 입증해야 공정 밸리데이션(PV)을 할 수 있다.",
-      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation)",
-      "concepts": [
-        "PQ",
-        "Q&V"
-      ],
-      "tags": [
-        "PQ",
-        "Q&V"
-      ]
-    },
-    {
       "id": "wk07-046",
       "type": "단답",
       "part": 3,
@@ -649,76 +406,6 @@
       ],
       "tags": [
         "Grade C"
-      ]
-    },
-    {
-      "id": "wk07-047",
-      "type": "단답",
-      "part": 3,
-      "format": "short",
-      "question": "작업 중(operational)에도 비가동(at rest)과 같은 입자 기준을 지켜야 하는 청정 등급은?",
-      "answers": [
-        "A",
-        "Grade A",
-        "A등급",
-        "A 등급"
-      ],
-      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태다.",
-      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
-      "concepts": [
-        "Grade A",
-        "At rest",
-        "Operational"
-      ],
-      "tags": [
-        "Grade A",
-        "At rest",
-        "Operational"
-      ]
-    },
-    {
-      "id": "wk07-048",
-      "type": "단답",
-      "part": 3,
-      "format": "short",
-      "question": "응축하면 주사용수 수준이 되며 장비 멸균(SIP)에 쓰는 증기는?",
-      "answers": [
-        "Pure steam",
-        "순수 증기",
-        "공정용 순수 증기",
-        "퓨어 스팀",
-        "순수증기"
-      ],
-      "explanation": "**Pure steam(공정용 순수 증기)은 제품 접촉면 멸균(SIP)에 쓰고, 응축하면 주사용수 수준이다.** Clean steam은 HVAC 가습용, Black steam은 난방용으로 제품에 닿지 않는다.",
-      "source": "WK07 PDF p.46, p.48",
-      "concepts": [
-        "Pure steam"
-      ],
-      "tags": [
-        "Pure steam"
-      ]
-    },
-    {
-      "id": "wk07-049",
-      "type": "단답",
-      "part": 3,
-      "format": "short",
-      "question": "임상시험 중 소수의 건강한 사람에게 안전성을 확인하는 단계는?",
-      "answers": [
-        "1상",
-        "임상 1상",
-        "Phase I",
-        "Phase 1",
-        "제1상",
-        "1상 임상"
-      ],
-      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
-      "source": "WK07 PDF p.15 (Phases of clinical development)",
-      "concepts": [
-        "임상 1상 (Phase I)"
-      ],
-      "tags": [
-        "임상 1상 (Phase I)"
       ]
     },
     {
@@ -750,39 +437,6 @@
       "tags": [
         "HVAC",
         "Pressure zone (압력 구역)"
-      ]
-    },
-    {
-      "id": "wk07-051",
-      "type": "개념",
-      "part": 2,
-      "question": "Grade A만 작업 중에도 비가동 때와 같은 입자 기준을 지키는 이유는?",
-      "choices": [
-        "제품이 열린 채 노출되는 곳이라 작업 중 오염이 곧 제품 오염이 되어서",
-        "Grade A에는 사람이 전혀 없어서",
-        "Grade A에는 측정 장비를 둘 수 없어서",
-        "비가동 기준이 가동 기준보다 느슨해서",
-        "규정에 청정 등급 구분이 없어서"
-      ],
-      "answer": 1,
-      "explanation": "**Grade A는 무균 충전처럼 제품이 열린 상태로 노출되는 곳이라, 작업 중에도 비가동과 같은 기준을 지켜야 한다.** B·C는 작업 중 허용 입자 수가 더 높다.",
-      "choiceNotes": [
-        "옳다 — Grade A는 무균 충전처럼 제품이 열린 상태로 노출되는 곳이라, 작업 중에도 비가동과 같은 기준을 지켜야 한다",
-        "틀리다 — Grade A 주변에서도 사람이 작업한다(간섭).",
-        "틀리다 — Grade A도 입자·미생물을 측정한다.",
-        "틀리다 — 비가동 기준이 더 엄격하다.",
-        "틀리다 — 규정은 Grade A~D를 나눈다."
-      ],
-      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational) · WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
-      "concepts": [
-        "Grade A",
-        "At rest",
-        "Operational"
-      ],
-      "tags": [
-        "Grade A",
-        "At rest",
-        "Operational"
       ]
     },
     {
@@ -845,6 +499,205 @@
       "tags": [
         "Ballroom concept",
         "Closed system (밀폐 공정)"
+      ]
+    },
+    {
+      "id": "wk07-058",
+      "type": "개념",
+      "part": 2,
+      "question": "설계 3단계 CD·BD·DD를 그림 그리기에 빗댄 설명으로 옳은 것은?",
+      "choices": [
+        "CD는 주름까지, DD는 뼈대만",
+        "세 단계는 순서 없이 동시에 끝난다",
+        "CD는 뼈대, BD는 살, DD는 주름 하나까지",
+        "BD가 가장 먼저이고 CD가 마지막이다",
+        "DD는 건물과 관계없는 장비 단계이다"
+      ],
+      "answer": 3,
+      "explanation": "**CD(Conceptual, 개념 설계)는 흔들리면 안 되는 뼈대, BD(Basic, 기본 설계)는 그 위의 살, DD(Detail, 상세 설계)는 점 하나 주름 하나까지 그린다.** 학생 과제는 CD의 일부이다.",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 순서대로 발전한다.",
+        "옳다 — CD(Conceptual, 개념 설계)는 흔들리면 안 되는 뼈대, BD(Basic, 기본 설계)는 그 위의 살, DD(Detail, 상세 설계)는 점 하나 주름 하나까지 그린다.",
+        "틀리다 — CD가 처음이다.",
+        "틀리다 — 건물·공장 설계 단계이다."
+      ],
+      "source": "WK07 강의 녹음 31:09–32:27, 35:12–35:48 (CD·BD·DD)",
+      "concepts": [
+        "CD/BD/DD"
+      ],
+      "tags": [
+        "CD/BD/DD"
+      ]
+    },
+    {
+      "id": "wk07-062",
+      "type": "개념",
+      "part": 2,
+      "question": "GMP와 BSL의 압력 요구가 정반대인 이유로 옳은 것은?",
+      "choices": [
+        "GMP는 음압, BSL은 양압",
+        "둘 다 양압이다",
+        "둘 다 압력과 관계없다",
+        "GMP는 온도로, BSL은 습도로 관리한다",
+        "GMP는 밖의 오염을 막으려 양압, BSL은 안의 위험물을 가두려 음압"
+      ],
+      "answer": 5,
+      "explanation": "**GMP: 깨끗한 방에 공기를 더 넣어 양압 → 문을 열어도 밖의 것이 못 들어옴. BSL: 위험한 방을 음압 → 안의 바이러스가 밖으로 못 나감.** 둘을 함께 만족시키는 것이 airlock이다.",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — BSL은 음압이다.",
+        "틀리다 — 압력으로 관리한다.",
+        "틀리다 — 압력으로 관리한다.",
+        "옳다 — GMP: 깨끗한 방에 공기를 더 넣어 양압 → 문을 열어도 밖의 것이 못 들어옴. BSL: 위험한 방을 음압 → 안의 바이러스가 밖으로 못 나감."
+      ],
+      "source": "WK07 강의 녹음 1:16:24–1:19:26 (GMP vs BSL)",
+      "concepts": [
+        "BSL",
+        "Airlock"
+      ],
+      "tags": [
+        "BSL",
+        "Airlock"
+      ]
+    },
+    {
+      "id": "wk07-063",
+      "type": "연결",
+      "part": 2,
+      "question": "Airlock과 interlock의 구분으로 옳은 것은?",
+      "choices": [
+        "Airlock은 문 잠금, interlock은 차압 공간",
+        "두 말은 같은 장치이다",
+        "Airlock은 차압으로 공기 흐름 관리, interlock은 문이 동시에 안 열리게",
+        "Interlock은 공기를 걸러 내는 필터이다",
+        "Airlock은 전기 차단기이다"
+      ],
+      "answer": 3,
+      "explanation": "**Airlock은 압력 차를 둔 중간 공간, interlock은 한쪽 문이 열려 있으면 다른 문을 잠가 두 문이 동시에 열리지 않게 하는 장치이다.** 문이 오래 열려도 경보가 울린다.",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 다른 개념이다.",
+        "옳다 — Airlock은 압력 차를 둔 중간 공간, interlock은 한쪽 문이 열려 있으면 다른 문을 잠가 두 문이 동시에 열리지 않게 하는 장치이다.",
+        "틀리다 — HEPA의 설명이다.",
+        "틀리다 — 관계없다."
+      ],
+      "source": "WK07 강의 녹음 2:44:35–2:45:41 (Interlock)",
+      "concepts": [
+        "Airlock",
+        "Interlock"
+      ],
+      "tags": [
+        "Airlock",
+        "Interlock"
+      ]
+    },
+    {
+      "id": "wk07-064",
+      "type": "개념",
+      "part": 1,
+      "question": "CNC(Controlled Not Classified) 공간의 뜻은?",
+      "choices": [
+        "Grade A와 같은 최고 청정 공간",
+        "출입이 금지된 창고",
+        "컴퓨터로 제어하는 기계 공간",
+        "청정 등급은 없지만 깨끗하게 관리하는 완충 공간",
+        "음압 BSL 실험실"
+      ],
+      "answer": 4,
+      "explanation": "**클린룸 이름을 붙이면 등급 유지를 증명(환경 모니터링)해야 하므로, 등급은 없지만 오염이 클린룸에 번지지 않게 관리하는 완충 공간을 둔다.** CNC → (갱의) → Grade D → C → B 순으로 들어간다.",
+      "choiceNotes": [
+        "틀리다 — CNC는 등급이 없다.",
+        "틀리다 — 뜻이 아니다.",
+        "틀리다 — CNC 가공과 혼동했다.",
+        "옳다 — 클린룸 이름을 붙이면 등급 유지를 증명(환경 모니터링)해야 하므로, 등급은 없지만 오염이 클린룸에 번지지 않게 관리하는 완충 공간을 둔다.",
+        "틀리다 — 뜻이 아니다."
+      ],
+      "source": "WK07 강의 녹음 2:45:41–2:47:13 (CNC)",
+      "concepts": [
+        "CNC"
+      ],
+      "tags": [
+        "CNC"
+      ]
+    },
+    {
+      "id": "wk07-066",
+      "type": "개념",
+      "part": 2,
+      "question": "Lot과 batch에 대한 강의 설명으로 옳은 것은?",
+      "choices": [
+        "며칠에 나눠 만든 것도 처방이 같으면 한 lot이다",
+        "같은 batch에서 동시에 만든 균일한 최종 제품 단위가 lot이다",
+        "Lot은 원료에만 쓰는 말이다",
+        "Lot 번호가 다르면 QC를 한 번만 해도 된다",
+        "Lot은 회수와 관계없다"
+      ],
+      "answer": 2,
+      "explanation": "**생산 관점의 단위가 batch, 같은 batch에서 나온 최종 제품 관점의 단위가 lot이다. USP 표현은 uniform.** 문제가 생기면 그 lot 전량 회수와 기록 재검토를 한다.",
+      "choiceNotes": [
+        "틀리다 — 만든 시점이 다르면 같은 lot으로 인정하지 않는다.",
+        "옳다 — 생산 관점의 단위가 batch, 같은 batch에서 나온 최종 제품 관점의 단위가 lot이다. USP 표현은 uniform.",
+        "틀리다 — 제품에도 쓴다.",
+        "틀리다 — lot마다 따로 한다.",
+        "틀리다 — 문제가 생기면 그 lot을 전량 회수한다."
+      ],
+      "source": "WK07 강의 녹음 2:20:49–2:24:30 (Lot vs Batch)",
+      "concepts": [
+        "Lot",
+        "Batch"
+      ],
+      "tags": [
+        "Lot",
+        "Batch"
+      ]
+    },
+    {
+      "id": "wk07-071",
+      "type": "개념",
+      "part": 2,
+      "question": "GMP 공간의 벽·바닥 모서리를 둥글게(round) 마감하는 이유는?",
+      "choices": [
+        "물·먼지가 고이지 않게 해 미생물 번식을 막으려고",
+        "보기 좋게 하려고",
+        "공기 압력을 높이려고",
+        "전기 배선을 숨기려고",
+        "공사비를 줄이려고"
+      ],
+      "answer": 1,
+      "explanation": "**각진 모서리에는 물·먼지가 고여 곰팡이·미생물이 자라기 쉬워, 모든 GMP 공간의 모서리를 둥글게 마감한다.**",
+      "choiceNotes": [
+        "옳다 — 각진 모서리에는 물·먼지가 고여 곰팡이·미생물이 자라기 쉬워, 모든 GMP 공간의 모서리를 둥글게 마감한다.",
+        "틀리다 — 위생이 이유이다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — 오히려 더 든다."
+      ],
+      "source": "WK07 강의 녹음 1:54:16–1:54:41, 2:43:55–2:44:14",
+      "concepts": [
+        "Coved corner"
+      ],
+      "tags": [
+        "Coved corner"
+      ]
+    },
+    {
+      "id": "wk07-073",
+      "type": "단답",
+      "part": 3,
+      "question": "공장 건설 용어 「Engineering · Procurement · Construction」의 약어는?",
+      "format": "short",
+      "answers": [
+        "EPC",
+        "이피씨"
+      ],
+      "explanation": "**EPC이다.**",
+      "source": "WK07 강의 녹음 14:58–15:46",
+      "concepts": [
+        "EPC"
+      ],
+      "tags": [
+        "EPC"
       ]
     }
   ]

@@ -32,7 +32,11 @@
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
-  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.06 };
+  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.04 };
+  // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
+  const FINAL_UNITS = ['FINAL'];
+  const FINAL_CALC_SHARE = 0.3;
+  const isFixedScope = (mode) => mode === 'mock' || mode === 'final';
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
@@ -50,6 +54,7 @@
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
+    final: { label: '시험 적중 파이널 모의고사', icon: '🎯', kind: 'exam', desc: '출제 예상 키워드의 계산·고난도 문항만 모은 실전 시험 (50문항 · 90분)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
     shared: { label: '공유 시험지', icon: '🔗', kind: 'exam', desc: '' },
   };
@@ -402,7 +407,7 @@
    *  3) 후보 점수: PART 비율·주차 비율이 모자란 쪽 가점, 처음 다루는 개념 가점,
    *     이미 시험지에 들어간 개념과 겹치면 감점, 약간의 무작위(매번 새 구성).
    */
-  function compose(pool, n, strategy) {
+  function compose(pool, n, strategy, opts = {}) {
     n = Math.min(n, pool.length);
     if (!n) return { picked: [], review: new Set() };
     // PART 할당량 — 범위에 없는 PART 몫은 다른 PART로 넘긴다
@@ -419,7 +424,7 @@
     const essayCap = quota[3] >= 2 ? Math.max(1, Math.floor(quota[3] / 3)) : (quota[3] === 1 && n <= 3 ? 1 : 0);
     // 짝짓기·용어 이름 고르기는 상한, 계산 문항은 하한(문항이 모자라면 아래에서 상한을 푼다)
     const styleCap = { match: Math.round(n * STYLE_MIX.match), termName: Math.round(n * STYLE_MIX.termName) };
-    const calcMin = n >= 20 ? Math.round(n * STYLE_MIX.calcMin) : 0;
+    const calcMin = n >= 20 ? Math.round(n * (opts.calcShare || STYLE_MIX.calcMin)) : 0;
     const styleCnt = { match: 0, termName: 0, calc: 0, prose: 0 };
     let capsOn = true;
     // 주차 할당량 — 범위 문항 수 비율
@@ -522,7 +527,7 @@
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
-      ({ picked, review } = compose(pool, count, p.strategy));
+      ({ picked, review } = compose(pool, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : {}));
     }
     picked = mode === 'review' ? picked : orderPicked(picked, kind);
     return sessionFrom(mode, picked, { review, poolSize: pool.length });
@@ -803,9 +808,24 @@
   const activePart = (q) => PARTS[q.part].ratio > 0;
   function poolFor(mode) {
     if (mode === 'mock') return S.units.flatMap((u) => u.questions).filter(activePart);
+    if (mode === 'final') return S.units.filter((u) => FINAL_UNITS.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
     if (mode === 'review') return wrongIdsInBank().map((id) => S.qById.get(id));
     const keys = selectedUnitKeys();
     return S.units.filter((u) => keys.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
+  }
+
+  // 범위에 없는 PART 몫을 다른 PART로 넘긴 실제 구성(compose와 같은 규칙)
+  function adjustedQuotas(pool, n) {
+    const quota = partQuotas(n);
+    const avail = { 1: 0, 2: 0, 3: 0 };
+    pool.forEach((q) => { avail[q.part] += 1; });
+    let spare = 0;
+    [1, 2, 3].forEach((p) => { if (quota[p] > avail[p]) { spare += quota[p] - avail[p]; quota[p] = avail[p]; } });
+    for (const p of [2, 1, 3]) {
+      const add = Math.min(spare, avail[p] - quota[p]);
+      if (add > 0) { quota[p] += add; spare -= add; }
+    }
+    return quota;
   }
 
   function estimatePoints(n) {
@@ -832,10 +852,10 @@
     const lastOk = last && last.session && last.entry && Array.isArray(last.session.items) &&
       last.session.items.every((it) => S.qById.has(it.id));
     const cum = cumulativeByUnit();
-    const isMock = mode === 'mock';
+    const isMock = isFixedScope(mode);
 
     const unitRows = S.units.map((u) => {
-      const checked = isMock || keys.includes(u.key);
+      const checked = mode === 'final' ? FINAL_UNITS.includes(u.key) : (isMock || keys.includes(u.key));
       const seenN = u.questions.filter((q) => qMeta(q.id).a).length;
       const c = cum[u.key];
       return `
@@ -852,7 +872,7 @@
 
     const estPts = estimatePoints(count);
     const minutes = Math.round(estPts * CONFIG.minutesPer100 / 100);
-    const quota = partQuotas(count);
+    const quota = adjustedQuotas(pool, count);
     const summary = poolN
       ? `${MODES[mode].label} · ${count}문항${kind === 'exam' ? ` · 약 ${estPts}점${p.timer ? ` · 약 ${minutes}분` : ''}` : ''} · ${STRATEGIES[p.strategy].label}(${STRATEGIES[p.strategy].desc})`
       : '범위를 하나 이상 선택하세요';
@@ -890,7 +910,7 @@
         <section class="card">
           <div class="card-head"><h2>1. 모드 선택</h2></div>
           <div class="mode-grid" role="group" aria-label="모드">
-            ${['study', 'unitExam', 'mock'].map((m) => `
+            ${['study', 'unitExam', 'mock', 'final'].map((m) => `
               <button type="button" class="mode-card" data-action="mode" data-value="${m}" aria-pressed="${mode === m}">
                 <span class="mode-icon" aria-hidden="true">${MODES[m].icon}</span>
                 <span class="mode-name">${MODES[m].label}</span>
@@ -902,7 +922,7 @@
         <section class="card">
           <div class="card-head">
             <h2>2. 범위 선택</h2>
-            <span class="muted small">${isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
+            <span class="muted small">${mode === 'final' ? '파이널 문항 자동 선택' : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
           </div>
           <div class="unit-list">${unitRows}</div>
           ${isMock ? '' : `
@@ -988,8 +1008,9 @@
 
   // ---------------------------------------------------------------- 출제 현황 화면
   function renderCoverage() {
-    const mode = S.prefs.mode === 'mock' ? 'mock' : S.prefs.mode;
-    const scopeKeys = mode === 'mock' ? S.units.map((u) => u.key) : selectedUnitKeys();
+    const mode = S.prefs.mode;
+    const scopeKeys = mode === 'mock' ? S.units.map((u) => u.key)
+      : mode === 'final' ? S.units.map((u) => u.key).filter((k) => FINAL_UNITS.includes(k)) : selectedUnitKeys();
     const covered = coveredConceptKeys();
     const pool = S.units.filter((u) => scopeKeys.includes(u.key)).flatMap((u) => u.questions);
     const all = coverageFor(pool);
@@ -1018,7 +1039,7 @@
       <div class="wrap">
         <section class="card">
           <h2>출제 현황</h2>
-          <p class="muted small" style="margin-top:0">범위: ${mode === 'mock' ? '전범위' : esc(scopeKeys.map(unitLabel).join(', ') || '선택 없음')}</p>
+          <p class="muted small" style="margin-top:0">범위: ${mode === 'mock' ? '전범위' : mode === 'final' ? '시험 적중 파이널' : esc(scopeKeys.map(unitLabel).join(', ') || '선택 없음')}</p>
           <div class="stat-tiles">
             <div class="stat-tile"><div class="stat-label">출제된 문항</div><div class="stat-value">${all.served}<small> / ${all.total}</small></div></div>
             <div class="stat-tile"><div class="stat-label">다룬 개념</div><div class="stat-value">${all.conceptCovered}<small> / ${all.conceptTotal}</small></div></div>
@@ -1245,6 +1266,7 @@
   function examTitle(mode, title) {
     if (title) return `${esc(title)} / Practice Exam`;
     if (mode === 'shared') return '공유 시험지 / Shared Exam';
+    if (mode === 'final') return '시험 적중 파이널 모의고사 / Final Mock Exam';
     return mode === 'mock' ? '전범위 모의고사 / Full-Range Mock Exam' : '실전 평가 / Practice Exam';
   }
   function partGroups(session) {
@@ -1641,10 +1663,11 @@
   function makePrintSet() {
     if (!S.owner) return;
     const p = S.prefs;
-    const pool = poolFor(p.mode === 'mock' ? 'mock' : 'study');
+    const pool = poolFor(isFixedScope(p.mode) ? p.mode : 'study');
     if (!pool.length) return;
     const count = p.count === 'all' ? pool.length : Math.min(p.count, pool.length);
-    let picked = count >= pool.length ? pool.slice() : compose(pool, count, 'fresh').picked;
+    let picked = count >= pool.length ? pool.slice()
+      : compose(pool, count, 'fresh', p.mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : {}).picked;
     picked = orderPicked(picked, 'exam');
     const prev = store.get('print', null);
     S.print = {
