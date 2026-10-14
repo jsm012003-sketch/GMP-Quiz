@@ -1,0 +1,1456 @@
+{
+ "week": "WK07",
+ "title": "WK07 핵심 용어",
+ "lecture": "WK07 PDF 핵심 용어 (자동 생성: tools/build_terms.py — 용어집의 short·core 표시로 고른다)",
+ "questions": [
+  {
+   "id": "tw07r-006",
+   "type": "용어",
+   "part": 1,
+   "question": "「cGMP」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "서로 다른 자재·제품이 뒤섞이는 것",
+    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙",
+    "환자에게 효과와 적정 용량을 찾는 단계",
+    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다",
+    "대규모 비교 시험으로 효과를 확증하는 단계"
+   ],
+   "answer": 2,
+   "explanation": "**cGMP** — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+   "choiceNotes": [
+    "틀리다 — Mix-up (혼동)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — 임상 2상 (Phase II)의 설명이다.",
+    "틀리다 — Airlock의 설명이다.",
+    "틀리다 — 임상 3상 (Phase III)의 설명이다."
+   ],
+   "source": "WK07 PDF p.16–17",
+   "concepts": [
+    "cGMP"
+   ],
+   "tags": [
+    "용어",
+    "cGMP"
+   ]
+  },
+  {
+   "id": "tw07r-008",
+   "type": "용어",
+   "part": 1,
+   "question": "「Mix-up (혼동)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙",
+    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정",
+    "서로 다른 자재·제품이 뒤섞이는 것",
+    "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
+    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실"
+   ],
+   "answer": 3,
+   "explanation": "**Mix-up (혼동)** — 서로 다른 자재·제품이 뒤섞이는 것.",
+   "choiceNotes": [
+    "틀리다 — cGMP의 설명이다.",
+    "틀리다 — Mass balance의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — WCW (Wet cell weight)의 설명이다.",
+    "틀리다 — Material airlock (MAL)의 설명이다."
+   ],
+   "source": "WK07 PDF p.20",
+   "concepts": [
+    "Mix-up"
+   ],
+   "tags": [
+    "용어",
+    "Mix-up"
+   ]
+  },
+  {
+   "id": "tw07d-013",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "고활성·독성 물질이 새어 나가지 않게 가두는 설계."
+   ],
+   "choices": [
+    "High potent drug (고활성 의약품)",
+    "Containment (봉쇄)",
+    "OQ (Operational Qualification)",
+    "WCW (Wet cell weight)",
+    "Pure steam"
+   ],
+   "answer": 2,
+   "explanation": "**Containment (봉쇄)** — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
+   "choiceNotes": [
+    "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
+    "정답 — 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
+    "틀리다 — OQ (Operational Qualification): 장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계.",
+    "틀리다 — WCW (Wet cell weight): Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게.",
+    "틀리다 — Pure steam: 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
+   ],
+   "source": "WK07 PDF p.23",
+   "concepts": [
+    "Containment"
+   ],
+   "tags": [
+    "용어",
+    "Containment"
+   ]
+  },
+  {
+   "id": "tw07r-016",
+   "type": "용어",
+   "part": 1,
+   "question": "「CIP (Cleaning In Place)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템",
+    "한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치",
+    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)",
+    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동",
+    "대규모 비교 시험으로 효과를 확증하는 단계"
+   ],
+   "answer": 1,
+   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Interlock의 설명이다.",
+    "틀리다 — Clean utility의 설명이다.",
+    "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
+    "틀리다 — 임상 3상 (Phase III)의 설명이다."
+   ],
+   "source": "WK07 PDF p.22, p.46",
+   "concepts": [
+    "CIP"
+   ],
+   "tags": [
+    "용어",
+    "CIP"
+   ]
+  },
+  {
+   "id": "tw07s-016",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
+   ],
+   "answers": [
+    "CIP",
+    "Cleaning In Place",
+    "CIP (Cleaning In Place)",
+    "정치 세척",
+    "제자리 세척"
+   ],
+   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.\n정답으로 인정하는 표기: CIP · Cleaning In Place · CIP (Cleaning In Place) · 정치 세척 · 제자리 세척 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.22, p.46",
+   "concepts": [
+    "CIP"
+   ],
+   "tags": [
+    "용어",
+    "CIP"
+   ]
+  },
+  {
+   "id": "tw07d-020",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
+   ],
+   "choices": [
+    "Q&V (Qualification & Validation)",
+    "Scheduling",
+    "HVAC",
+    "IQ (Installation Qualification)",
+    "Post-flushing"
+   ],
+   "answer": 1,
+   "explanation": "**Q&V (Qualification & Validation)** — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
+   "choiceNotes": [
+    "정답 — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
+    "틀리다 — Scheduling: 장비·사람이 놀지 않고 납기에 맞도록 공정·구매 일정을 짜는 일.",
+    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
+    "틀리다 — IQ (Installation Qualification): 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.",
+    "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다."
+   ],
+   "source": "WK07 PDF p.24, p.51",
+   "concepts": [
+    "Q&V"
+   ],
+   "tags": [
+    "용어",
+    "Q&V"
+   ]
+  },
+  {
+   "id": "tw07s-020",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동."
+   ],
+   "answers": [
+    "Q&V",
+    "Qualification & Validation",
+    "Q&V (Qualification & Validation)",
+    "적격성평가 및 밸리데이션",
+    "적격성 평가와 밸리데이션"
+   ],
+   "explanation": "**Q&V (Qualification & Validation)** — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.\n정답으로 인정하는 표기: Q&V · Qualification & Validation · Q&V (Qualification & Validation) · 적격성평가 및 밸리데이션 · 적격성 평가와 밸리데이션 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.24, p.51",
+   "concepts": [
+    "Q&V"
+   ],
+   "tags": [
+    "용어",
+    "Q&V"
+   ]
+  },
+  {
+   "id": "tw07d-033",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "무균 충전 등이 이루어지는 최고 청정 구역."
+   ],
+   "choices": [
+    "Grade C",
+    "Grade A",
+    "Grade D",
+    "Personnel airlock (PAL)",
+    "PV (Process Validation)"
+   ],
+   "answer": 2,
+   "explanation": "**Grade A** — 무균 충전 등이 이루어지는 최고 청정 구역.",
+   "choiceNotes": [
+    "틀리다 — Grade C: 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
+    "정답 — 무균 충전 등이 이루어지는 최고 청정 구역.",
+    "틀리다 — Grade D: 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
+    "틀리다 — Personnel airlock (PAL): 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
+    "틀리다 — PV (Process Validation): 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계."
+   ],
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade A"
+   ],
+   "tags": [
+    "용어",
+    "Grade A"
+   ]
+  },
+  {
+   "id": "tw07d-034",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "최고 청정 구역을 둘러싼 배경 구역."
+   ],
+   "choices": [
+    "Class 100",
+    "Grade A",
+    "Post-flushing",
+    "Grade B",
+    "Clean compressed air"
+   ],
+   "answer": 4,
+   "explanation": "**Grade B** — 최고 청정 구역을 둘러싼 배경 구역.",
+   "choiceNotes": [
+    "틀리다 — Class 100: 0.5 µm 이상 입자가 1 ft³당 100개 이하인 미국식 청정 등급(Grade A 수준).",
+    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
+    "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다.",
+    "정답 — 최고 청정 구역을 둘러싼 배경 구역.",
+    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기."
+   ],
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade B"
+   ],
+   "tags": [
+    "용어",
+    "Grade B"
+   ]
+  },
+  {
+   "id": "tw07d-035",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역."
+   ],
+   "choices": [
+    "Grade A",
+    "At rest (비가동 상태)",
+    "Grade C",
+    "Pressure zone (압력 구역)",
+    "PQ (Performance Qualification)"
+   ],
+   "answer": 3,
+   "explanation": "**Grade C** — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
+   "choiceNotes": [
+    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
+    "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
+    "정답 — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
+    "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+   ],
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade C"
+   ],
+   "tags": [
+    "용어",
+    "Grade C"
+   ]
+  },
+  {
+   "id": "tw07d-036",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급)."
+   ],
+   "choices": [
+    "Operational (가동 상태)",
+    "At rest (비가동 상태)",
+    "Requalification (재적격성평가)",
+    "자재",
+    "Grade D"
+   ],
+   "answer": 5,
+   "explanation": "**Grade D** — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
+   "choiceNotes": [
+    "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태.",
+    "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
+    "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
+    "틀리다 — 자재: QC 승인을 받아 생산에 쓸 수 있게 된 원료를 관리하는 쪽.",
+    "정답 — 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급)."
+   ],
+   "source": "WK07 PDF p.36",
+   "concepts": [
+    "Grade D"
+   ],
+   "tags": [
+    "용어",
+    "Grade D"
+   ]
+  },
+  {
+   "id": "tw07d-037",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "설비는 있지만 사람·작업 없이 멈춘 상태."
+   ],
+   "choices": [
+    "At rest (비가동 상태)",
+    "Operational (가동 상태)",
+    "Grade B",
+    "HVAC",
+    "FAT (Factory Acceptance Test)"
+   ],
+   "answer": 1,
+   "explanation": "**At rest (비가동 상태)** — 설비는 있지만 사람·작업 없이 멈춘 상태.",
+   "choiceNotes": [
+    "정답 — 설비는 있지만 사람·작업 없이 멈춘 상태.",
+    "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태.",
+    "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
+    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
+    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
+   ],
+   "source": "WK07 PDF p.36–37",
+   "concepts": [
+    "At rest"
+   ],
+   "tags": [
+    "용어",
+    "At rest"
+   ]
+  },
+  {
+   "id": "tw07d-038",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "정해진 인원이 실제로 작업 중인 상태."
+   ],
+   "choices": [
+    "Grade B",
+    "Operational (가동 상태)",
+    "Grade A",
+    "Annex 1 revision",
+    "PQ (Performance Qualification)"
+   ],
+   "answer": 2,
+   "explanation": "**Operational (가동 상태)** — 정해진 인원이 실제로 작업 중인 상태.",
+   "choiceNotes": [
+    "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
+    "정답 — 정해진 인원이 실제로 작업 중인 상태.",
+    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
+    "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+   ],
+   "source": "WK07 PDF p.36–37",
+   "concepts": [
+    "Operational"
+   ],
+   "tags": [
+    "용어",
+    "Operational"
+   ]
+  },
+  {
+   "id": "tw07d-043",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실."
+   ],
+   "choices": [
+    "Personnel airlock (PAL)",
+    "Interlock",
+    "Material airlock (MAL)",
+    "Multi-purpose facility",
+    "Pre-viral / Post-viral 구역"
+   ],
+   "answer": 1,
+   "explanation": "**Personnel airlock (PAL)** — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
+   "choiceNotes": [
+    "정답 — 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
+    "틀리다 — Interlock: 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.",
+    "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+    "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
+    "틀리다 — Pre-viral / Post-viral 구역: 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치."
+   ],
+   "source": "WK07 PDF p.40",
+   "concepts": [
+    "Personnel airlock"
+   ],
+   "tags": [
+    "용어",
+    "Personnel airlock"
+   ]
+  },
+  {
+   "id": "tw07d-044",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실."
+   ],
+   "choices": [
+    "Interlock",
+    "Airlock",
+    "Grade D",
+    "Material airlock (MAL)",
+    "UPS (무정전 전원장치)"
+   ],
+   "answer": 4,
+   "explanation": "**Material airlock (MAL)** — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+   "choiceNotes": [
+    "틀리다 — Interlock: 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.",
+    "틀리다 — Airlock: 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "틀리다 — Grade D: 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
+    "정답 — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+    "틀리다 — UPS (무정전 전원장치): 정전 순간에도 끊김 없이 전원을 주는 장치."
+   ],
+   "source": "WK07 PDF p.40",
+   "concepts": [
+    "Material airlock"
+   ],
+   "tags": [
+    "용어",
+    "Material airlock"
+   ]
+  },
+  {
+   "id": "tw07d-051",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)."
+   ],
+   "choices": [
+    "Clean compressed air",
+    "Pure steam",
+    "Clean utility",
+    "cGMP",
+    "임상 4상 (Phase IV)"
+   ],
+   "answer": 3,
+   "explanation": "**Clean utility** — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
+   "choiceNotes": [
+    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
+    "틀리다 — Pure steam: 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
+    "정답 — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
+    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계."
+   ],
+   "source": "WK07 PDF p.46",
+   "concepts": [
+    "Clean utility"
+   ],
+   "tags": [
+    "용어",
+    "Clean utility"
+   ]
+  },
+  {
+   "id": "tw07d-052",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)."
+   ],
+   "choices": [
+    "Black utility",
+    "Clean utility",
+    "Clean compressed air",
+    "URS (User Requirement Specification)",
+    "자재"
+   ],
+   "answer": 1,
+   "explanation": "**Black utility** — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
+   "choiceNotes": [
+    "정답 — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
+    "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
+    "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
+    "틀리다 — URS (User Requirement Specification): 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.",
+    "틀리다 — 자재: QC 승인을 받아 생산에 쓸 수 있게 된 원료를 관리하는 쪽."
+   ],
+   "source": "WK07 PDF p.48",
+   "concepts": [
+    "Black utility"
+   ],
+   "tags": [
+    "용어",
+    "Black utility"
+   ]
+  },
+  {
+   "id": "tw07r-058",
+   "type": "용어",
+   "part": 1,
+   "question": "「HVAC」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값",
+    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다",
+    "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실",
+    "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동",
+    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템"
+   ],
+   "answer": 5,
+   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
+   "choiceNotes": [
+    "틀리다 — Air changes (환기 횟수)의 설명이다.",
+    "틀리다 — Airlock의 설명이다.",
+    "틀리다 — Personnel airlock (PAL)의 설명이다.",
+    "틀리다 — Q&V (Qualification & Validation)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "WK07 PDF p.49",
+   "concepts": [
+    "HVAC"
+   ],
+   "tags": [
+    "용어",
+    "HVAC"
+   ]
+  },
+  {
+   "id": "tw07s-058",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
+   ],
+   "answers": [
+    "HVAC",
+    "공조",
+    "공조 시스템"
+   ],
+   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.\n정답으로 인정하는 표기: HVAC · 공조 · 공조 시스템 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.49",
+   "concepts": [
+    "HVAC"
+   ],
+   "tags": [
+    "용어",
+    "HVAC"
+   ]
+  },
+  {
+   "id": "tw07r-063",
+   "type": "용어",
+   "part": 1,
+   "question": "「DQ (Design Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
+    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "시판 후 실제 사용에서 장기 안전성을 보는 단계",
+    "무균 충전 등이 이루어지는 최고 청정 구역",
+    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계"
+   ],
+   "answer": 5,
+   "explanation": "**DQ (Design Qualification)** — 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.",
+   "choiceNotes": [
+    "틀리다 — PV (Process Validation)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "틀리다 — 임상 4상 (Phase IV)의 설명이다.",
+    "틀리다 — Grade A의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "DQ"
+   ],
+   "tags": [
+    "용어",
+    "DQ"
+   ]
+  },
+  {
+   "id": "tw07s-063",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계."
+   ],
+   "answers": [
+    "DQ",
+    "Design Qualification",
+    "DQ (Design Qualification)",
+    "설계 적격성평가"
+   ],
+   "explanation": "**DQ (Design Qualification)** — 설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계.\n정답으로 인정하는 표기: DQ · Design Qualification · DQ (Design Qualification) · 설계 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "DQ"
+   ],
+   "tags": [
+    "용어",
+    "DQ"
+   ]
+  },
+  {
+   "id": "tw07r-064",
+   "type": "용어",
+   "part": 1,
+   "question": "「FAT (Factory Acceptance Test)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것",
+    "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계",
+    "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
+    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험",
+    "무균 충전 등이 이루어지는 최고 청정 구역"
+   ],
+   "answer": 4,
+   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
+   "choiceNotes": [
+    "틀리다 — Cleaning Validation (CV)의 설명이다.",
+    "틀리다 — OQ (Operational Qualification)의 설명이다.",
+    "틀리다 — WCW (Wet cell weight)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Grade A의 설명이다."
+   ],
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "FAT"
+   ],
+   "tags": [
+    "용어",
+    "FAT"
+   ]
+  },
+  {
+   "id": "tw07s-064",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
+   ],
+   "answers": [
+    "FAT",
+    "Factory Acceptance Test",
+    "FAT (Factory Acceptance Test)",
+    "공장 인수 시험",
+    "공장 출하 전 시험",
+    "공장 인수",
+    "공장 출하 전"
+   ],
+   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.\n정답으로 인정하는 표기: FAT · Factory Acceptance Test · FAT (Factory Acceptance Test) · 공장 인수 시험 · 공장 출하 전 시험 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "FAT"
+   ],
+   "tags": [
+    "용어",
+    "FAT"
+   ]
+  },
+  {
+   "id": "tw07r-065",
+   "type": "용어",
+   "part": 1,
+   "question": "「SAT (Site Acceptance Test)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차",
+    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "개념 설계 → 기본 설계 → 상세 설계로 이어지는 설계 3단계",
+    "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기"
+   ],
+   "answer": 1,
+   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Change control (변경 관리)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "틀리다 — CD · BD · DD의 설명이다.",
+    "틀리다 — Clean compressed air의 설명이다."
+   ],
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "SAT"
+   ],
+   "tags": [
+    "용어",
+    "SAT"
+   ]
+  },
+  {
+   "id": "tw07s-065",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
+   ],
+   "answers": [
+    "SAT",
+    "Site Acceptance Test",
+    "SAT (Site Acceptance Test)",
+    "현장 인수 시험",
+    "현장 인수"
+   ],
+   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.\n정답으로 인정하는 표기: SAT · Site Acceptance Test · SAT (Site Acceptance Test) · 현장 인수 시험 · 현장 인수 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "SAT"
+   ],
+   "tags": [
+    "용어",
+    "SAT"
+   ]
+  },
+  {
+   "id": "tw07r-066",
+   "type": "용어",
+   "part": 1,
+   "question": "「PQ (Performance Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계",
+    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계",
+    "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계",
+    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정",
+    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념"
+   ],
+   "answer": 2,
+   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
+   "choiceNotes": [
+    "틀리다 — OQ (Operational Qualification)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — DQ (Design Qualification)의 설명이다.",
+    "틀리다 — Mass balance의 설명이다.",
+    "틀리다 — Ballroom concept의 설명이다."
+   ],
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PQ"
+   ],
+   "tags": [
+    "용어",
+    "PQ"
+   ]
+  },
+  {
+   "id": "tw07s-066",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+   ],
+   "answers": [
+    "PQ",
+    "Performance Qualification",
+    "PQ (Performance Qualification)",
+    "성능 적격성평가"
+   ],
+   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.\n정답으로 인정하는 표기: PQ · Performance Qualification · PQ (Performance Qualification) · 성능 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PQ"
+   ],
+   "tags": [
+    "용어",
+    "PQ"
+   ]
+  },
+  {
+   "id": "tw07r-067",
+   "type": "용어",
+   "part": 1,
+   "question": "「PV (Process Validation)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것",
+    "건물 공사가 완전히 끝난 상태",
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
+    "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게"
+   ],
+   "answer": 4,
+   "explanation": "**PV (Process Validation)** — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.",
+   "choiceNotes": [
+    "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
+    "틀리다 — Requalification (재적격성평가)의 설명이다.",
+    "틀리다 — 완공의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — WCW (Wet cell weight)의 설명이다."
+   ],
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PV"
+   ],
+   "tags": [
+    "용어",
+    "PV"
+   ]
+  },
+  {
+   "id": "tw07s-067",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계."
+   ],
+   "answers": [
+    "PV",
+    "Process Validation",
+    "PV (Process Validation)",
+    "공정 밸리데이션"
+   ],
+   "explanation": "**PV (Process Validation)** — 공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계.\n정답으로 인정하는 표기: PV · Process Validation · PV (Process Validation) · 공정 밸리데이션 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "PV"
+   ],
+   "tags": [
+    "용어",
+    "PV"
+   ]
+  },
+  {
+   "id": "tw07d-068",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것."
+   ],
+   "choices": [
+    "Change control (변경 관리)",
+    "Cleaning Validation (CV)",
+    "Requalification (재적격성평가)",
+    "High potent drug (고활성 의약품)",
+    "Batch"
+   ],
+   "answer": 2,
+   "explanation": "**Cleaning Validation (CV)** — 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
+   "choiceNotes": [
+    "틀리다 — Change control (변경 관리): 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+    "정답 — 세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것.",
+    "틀리다 — Requalification (재적격성평가): 운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것.",
+    "틀리다 — High potent drug (고활성 의약품): 아주 적은 양으로도 작용·독성이 강해 봉쇄가 필요한 약.",
+    "틀리다 — Batch: 같은 조건으로 한 번에 생산하는 생산 관점의 제조 단위."
+   ],
+   "source": "WK07 PDF p.51, p.58",
+   "concepts": [
+    "Cleaning Validation"
+   ],
+   "tags": [
+    "용어",
+    "Cleaning Validation"
+   ]
+  },
+  {
+   "id": "tw07d-071",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차."
+   ],
+   "choices": [
+    "SAT (Site Acceptance Test)",
+    "CSV (Computer System Validation)",
+    "Change control (변경 관리)",
+    "Lot",
+    "Clean utility"
+   ],
+   "answer": 3,
+   "explanation": "**Change control (변경 관리)** — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+   "choiceNotes": [
+    "틀리다 — SAT (Site Acceptance Test): 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
+    "틀리다 — CSV (Computer System Validation): 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
+    "정답 — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+    "틀리다 — Lot: 같은 batch에서 동시에 만들어 균일(uniform)한 최종 제품 단위.",
+    "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)."
+   ],
+   "source": "WK07 PDF p.51",
+   "concepts": [
+    "Change control"
+   ],
+   "tags": [
+    "용어",
+    "Change control"
+   ]
+  },
+  {
+   "id": "tw07d-082",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념."
+   ],
+   "choices": [
+    "Annex 1 revision",
+    "Ballroom concept",
+    "Closed system (밀폐 공정)",
+    "Containment (봉쇄)",
+    "At rest (비가동 상태)"
+   ],
+   "answer": 2,
+   "explanation": "**Ballroom concept** — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
+   "choiceNotes": [
+    "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
+    "정답 — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
+    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
+    "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
+    "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태."
+   ],
+   "source": "WK07 PDF p.62",
+   "concepts": [
+    "Ballroom concept"
+   ],
+   "tags": [
+    "용어",
+    "Ballroom concept"
+   ]
+  },
+  {
+   "id": "tw07d-084",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+   ],
+   "choices": [
+    "Ballroom concept",
+    "Annex 1 revision",
+    "Post-flushing",
+    "Multi-purpose facility",
+    "Closed system (밀폐 공정)"
+   ],
+   "answer": 5,
+   "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
+   "choiceNotes": [
+    "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
+    "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
+    "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다.",
+    "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
+    "정답 — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+   ],
+   "source": "WK07 PDF p.62–63",
+   "concepts": [
+    "Closed system"
+   ],
+   "tags": [
+    "용어",
+    "Closed system"
+   ]
+  },
+  {
+   "id": "tw07r-091",
+   "type": "용어",
+   "part": 1,
+   "question": "「EPC」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
+    "공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태",
+    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템",
+    "설비는 있지만 사람·작업 없이 멈춘 상태",
+    "Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어"
+   ],
+   "answer": 5,
+   "explanation": "**EPC** — Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.",
+   "choiceNotes": [
+    "틀리다 — WCW (Wet cell weight)의 설명이다.",
+    "틀리다 — 준공의 설명이다.",
+    "틀리다 — CIP (Cleaning In Place)의 설명이다.",
+    "틀리다 — At rest (비가동 상태)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "WK07 강의 녹음 14:58–21:09",
+   "concepts": [
+    "EPC"
+   ],
+   "tags": [
+    "용어",
+    "EPC"
+   ]
+  },
+  {
+   "id": "tw07s-091",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어."
+   ],
+   "answers": [
+    "EPC",
+    "이피씨"
+   ],
+   "explanation": "**EPC** — Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.\n정답으로 인정하는 표기: EPC · 이피씨 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 강의 녹음 14:58–21:09",
+   "concepts": [
+    "EPC"
+   ],
+   "tags": [
+    "용어",
+    "EPC"
+   ]
+  },
+  {
+   "id": "tw07d-092",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태."
+   ],
+   "choices": [
+    "준공",
+    "완공",
+    "Engineering (설계)",
+    "Dedicated facility / equipment",
+    "Operational (가동 상태)"
+   ],
+   "answer": 1,
+   "explanation": "**준공** — 공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태.",
+   "choiceNotes": [
+    "정답 — 공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태.",
+    "틀리다 — 완공: 건물 공사가 완전히 끝난 상태.",
+    "틀리다 — Engineering (설계): 이 수업에서 GMP 공장(건물)을 짓기 위한 설계를 뜻하는 말.",
+    "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비.",
+    "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태."
+   ],
+   "source": "WK07 강의 녹음 11:36–13:48",
+   "concepts": [
+    "준공"
+   ],
+   "tags": [
+    "용어",
+    "준공"
+   ]
+  },
+  {
+   "id": "tw07d-096",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정."
+   ],
+   "choices": [
+    "EPC",
+    "완공",
+    "Mass balance",
+    "cGMP",
+    "Mix-up (혼동)"
+   ],
+   "answer": 3,
+   "explanation": "**Mass balance** — 공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정.",
+   "choiceNotes": [
+    "틀리다 — EPC: Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.",
+    "틀리다 — 완공: 건물 공사가 완전히 끝난 상태.",
+    "정답 — 공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정.",
+    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "틀리다 — Mix-up (혼동): 서로 다른 자재·제품이 뒤섞이는 것."
+   ],
+   "source": "WK07 강의 녹음 36:09–41:38",
+   "concepts": [
+    "Mass balance"
+   ],
+   "tags": [
+    "용어",
+    "Mass balance"
+   ]
+  },
+  {
+   "id": "tw07r-098",
+   "type": "용어",
+   "part": 1,
+   "question": "「URS (User Requirement Specification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
+    "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것",
+    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템",
+    "제품 하나만을 위해 쓰는 전용 시설·장비"
+   ],
+   "answer": 3,
+   "explanation": "**URS (User Requirement Specification)** — 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.",
+   "choiceNotes": [
+    "틀리다 — PV (Process Validation)의 설명이다.",
+    "틀리다 — Requalification (재적격성평가)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — PLC / SCADA의 설명이다.",
+    "틀리다 — Dedicated facility / equipment의 설명이다."
+   ],
+   "source": "WK07 강의 녹음 2:50:28–2:53:54",
+   "concepts": [
+    "URS"
+   ],
+   "tags": [
+    "용어",
+    "URS"
+   ]
+  },
+  {
+   "id": "tw07s-098",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서."
+   ],
+   "answers": [
+    "URS",
+    "User Requirement Specification",
+    "URS (User Requirement Specification)",
+    "사용자 요구 규격서"
+   ],
+   "explanation": "**URS (User Requirement Specification)** — 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.\n정답으로 인정하는 표기: URS · User Requirement Specification · URS (User Requirement Specification) · 사용자 요구 규격서 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 강의 녹음 2:50:28–2:53:54",
+   "concepts": [
+    "URS"
+   ],
+   "tags": [
+    "용어",
+    "URS"
+   ]
+  },
+  {
+   "id": "tw07r-099",
+   "type": "용어",
+   "part": 1,
+   "question": "「IQ (Installation Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것",
+    "환자에게 효과와 적정 용량을 찾는 단계",
+    "부속이 다 있고 도면대로 설치되었는지 확인하는 단계",
+    "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실"
+   ],
+   "answer": 4,
+   "explanation": "**IQ (Installation Qualification)** — 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.",
+   "choiceNotes": [
+    "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
+    "틀리다 — CSV (Computer System Validation)의 설명이다.",
+    "틀리다 — 임상 2상 (Phase II)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Material airlock (MAL)의 설명이다."
+   ],
+   "source": "WK07 강의 녹음 2:55:54–2:56:42",
+   "concepts": [
+    "IQ"
+   ],
+   "tags": [
+    "용어",
+    "IQ"
+   ]
+  },
+  {
+   "id": "tw07s-099",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "부속이 다 있고 도면대로 설치되었는지 확인하는 단계."
+   ],
+   "answers": [
+    "IQ",
+    "Installation Qualification",
+    "IQ (Installation Qualification)",
+    "설치 적격성평가"
+   ],
+   "explanation": "**IQ (Installation Qualification)** — 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.\n정답으로 인정하는 표기: IQ · Installation Qualification · IQ (Installation Qualification) · 설치 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 강의 녹음 2:55:54–2:56:42",
+   "concepts": [
+    "IQ"
+   ],
+   "tags": [
+    "용어",
+    "IQ"
+   ]
+  },
+  {
+   "id": "tw07r-100",
+   "type": "용어",
+   "part": 1,
+   "question": "「OQ (Operational Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험",
+    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)",
+    "개념 설계 → 기본 설계 → 상세 설계로 이어지는 설계 3단계",
+    "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계"
+   ],
+   "answer": 5,
+   "explanation": "**OQ (Operational Qualification)** — 장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계.",
+   "choiceNotes": [
+    "틀리다 — FAT (Factory Acceptance Test)의 설명이다.",
+    "틀리다 — URS (User Requirement Specification)의 설명이다.",
+    "틀리다 — Black utility의 설명이다.",
+    "틀리다 — CD · BD · DD의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "WK07 강의 녹음 2:56:42–2:57:31",
+   "concepts": [
+    "OQ"
+   ],
+   "tags": [
+    "용어",
+    "OQ"
+   ]
+  },
+  {
+   "id": "tw07s-100",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계."
+   ],
+   "answers": [
+    "OQ",
+    "Operational Qualification",
+    "OQ (Operational Qualification)",
+    "운전 적격성평가"
+   ],
+   "explanation": "**OQ (Operational Qualification)** — 장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계.\n정답으로 인정하는 표기: OQ · Operational Qualification · OQ (Operational Qualification) · 운전 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "WK07 강의 녹음 2:56:42–2:57:31",
+   "concepts": [
+    "OQ"
+   ],
+   "tags": [
+    "용어",
+    "OQ"
+   ]
+  },
+  {
+   "id": "tw07d-102",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다."
+   ],
+   "choices": [
+    "Material airlock (MAL)",
+    "Airlock",
+    "Personnel airlock (PAL)",
+    "PQ (Performance Qualification)",
+    "P&ID (Piping & Instrumentation Diagram)"
+   ],
+   "answer": 2,
+   "explanation": "**Airlock** — 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+   "choiceNotes": [
+    "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+    "정답 — 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "틀리다 — Personnel airlock (PAL): 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
+    "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
+   ],
+   "source": "WK07 강의 녹음 1:16:04–1:25:07",
+   "concepts": [
+    "Airlock"
+   ],
+   "tags": [
+    "용어",
+    "Airlock"
+   ]
+  },
+  {
+   "id": "tw07d-103",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치."
+   ],
+   "choices": [
+    "Material airlock (MAL)",
+    "Airlock",
+    "Scheduling",
+    "P&ID (Piping & Instrumentation Diagram)",
+    "Interlock"
+   ],
+   "answer": 5,
+   "explanation": "**Interlock** — 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.",
+   "choiceNotes": [
+    "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
+    "틀리다 — Airlock: 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "틀리다 — Scheduling: 장비·사람이 놀지 않고 납기에 맞도록 공정·구매 일정을 짜는 일.",
+    "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
+    "정답 — 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치."
+   ],
+   "source": "WK07 강의 녹음 2:44:35–2:45:41",
+   "concepts": [
+    "Interlock"
+   ],
+   "tags": [
+    "용어",
+    "Interlock"
+   ]
+  },
+  {
+   "id": "tw07d-105",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "QC 입고 검사 중인 원료를 승인 전까지 따로 두는 구역."
+   ],
+   "choices": [
+    "Pre-viral / Post-viral 구역",
+    "Unidirectional flow (단방향 흐름)",
+    "Post-flushing",
+    "Quarantine zone (격리 구역)",
+    "Pure steam"
+   ],
+   "answer": 4,
+   "explanation": "**Quarantine zone (격리 구역)** — QC 입고 검사 중인 원료를 승인 전까지 따로 두는 구역.",
+   "choiceNotes": [
+    "틀리다 — Pre-viral / Post-viral 구역: 바이러스 제거 전후 정제 구역을 나눠 재오염을 막는 배치.",
+    "틀리다 — Unidirectional flow (단방향 흐름): 자재와 사람이 되돌아오지 않고 한 방향으로만 이동하는 원칙.",
+    "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다.",
+    "정답 — QC 입고 검사 중인 원료를 승인 전까지 따로 두는 구역.",
+    "틀리다 — Pure steam: 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준)."
+   ],
+   "source": "WK07 강의 녹음 2:19:32–2:20:14",
+   "concepts": [
+    "Quarantine zone"
+   ],
+   "tags": [
+    "용어",
+    "Quarantine zone"
+   ]
+  },
+  {
+   "id": "tw07r-108",
+   "type": "용어",
+   "part": 1,
+   "question": "「Lot」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "같은 조건으로 한 번에 생산하는 생산 관점의 제조 단위",
+    "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)",
+    "같은 batch에서 동시에 만들어 균일(uniform)한 최종 제품 단위",
+    "최고 청정 구역을 둘러싼 배경 구역",
+    "URS부터 PQ·PV까지 장비 도입 순서를 V자로 그린 모델"
+   ],
+   "answer": 3,
+   "explanation": "**Lot** — 같은 batch에서 동시에 만들어 균일(uniform)한 최종 제품 단위.",
+   "choiceNotes": [
+    "틀리다 — Batch의 설명이다.",
+    "틀리다 — Black utility의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Grade B의 설명이다.",
+    "틀리다 — V-model의 설명이다."
+   ],
+   "source": "WK07 강의 녹음 2:20:49–2:24:30",
+   "concepts": [
+    "Lot"
+   ],
+   "tags": [
+    "용어",
+    "Lot"
+   ]
+  },
+  {
+   "id": "tw07d-111",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "0.5 µm 이상 입자가 1 ft³당 100개 이하인 미국식 청정 등급(Grade A 수준)."
+   ],
+   "choices": [
+    "Grade D",
+    "Class 100",
+    "Grade A",
+    "Change control (변경 관리)",
+    "완공"
+   ],
+   "answer": 2,
+   "explanation": "**Class 100** — 0.5 µm 이상 입자가 1 ft³당 100개 이하인 미국식 청정 등급(Grade A 수준).",
+   "choiceNotes": [
+    "틀리다 — Grade D: 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
+    "정답 — 0.5 µm 이상 입자가 1 ft³당 100개 이하인 미국식 청정 등급(Grade A 수준).",
+    "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
+    "틀리다 — Change control (변경 관리): 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
+    "틀리다 — 완공: 건물 공사가 완전히 끝난 상태."
+   ],
+   "source": "WK07 강의 녹음 2:42:18–2:43:26",
+   "concepts": [
+    "Class 100"
+   ],
+   "tags": [
+    "용어",
+    "Class 100"
+   ]
+  }
+ ]
+}

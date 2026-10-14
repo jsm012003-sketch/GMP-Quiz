@@ -313,6 +313,28 @@ def leak_warnings(g):
     return out
 
 
+CORE_ACRONYM = re.compile(r'^[A-Z0-9][A-Z0-9/&\-·]{1,}\b')
+
+
+def core_kinds(t):
+    """시험지에 넣는 핵심 용어 문항(2026.10.14 리뉴얼 뒤 복원, 약 250문항).
+
+    기본: "short": true 인 핵심 용어의 d/r 문항 1개 + 그중 약어 용어(MCB, CQA …)는 단답형도.
+    용어에 "core": false 로 빼거나, "core": "mc" | "s" | "both" 로 직접 정할 수 있다.
+    """
+    c = t.get('core')
+    if c is False:
+        return set()
+    if c in ('mc', 's', 'both'):
+        return {'mc', 's'} if c == 'both' else {c}
+    if not t.get('short'):
+        return set()
+    kinds = {'mc'}
+    if CORE_ACRONYM.match(short(t['term'])):
+        kinds.add('s')
+    return kinds
+
+
 def main():
     files = sorted(GLOSSARY.glob('*.json'))
     if not files:
@@ -343,6 +365,22 @@ def main():
         for t in terms:
             if t.get('short'):
                 qs.append(build_short(t, g))
+        # 핵심 용어만 골라 시험지용 파일로(id는 terms-*.json과 같다)
+        by_id = {q['id']: q for q in qs}
+        core = []
+        for t in terms:
+            k = core_kinds(t)
+            if 'mc' in k:
+                core.append(by_id[f"{g['prefix']}{drill_kind(t)}-{t['no']:03d}"])
+            if 's' in k and t.get('short'):
+                core.append(by_id[f"{g['prefix']}s-{t['no']:03d}"])
+        core_out = {
+            'week': g['week'],
+            'title': f"{g['week']} 핵심 용어",
+            'lecture': f"{g['lecture']} 핵심 용어 (자동 생성: tools/build_terms.py — 용어집의 short·core 표시로 고른다)",
+            'questions': core,
+        }
+        (QDIR / f"core-{f.stem}.json").write_text(json.dumps(core_out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         out = {
             'week': g['week'],
             'title': f"{g['week']} 용어 정리",
@@ -353,7 +391,7 @@ def main():
         (QDIR / name).write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         produced.append(name)
         total += len(qs)
-        print(f"{name:20s} 용어 {len(terms):3d}개 → {len(qs):4d}문항")
+        print(f"{name:20s} 용어 {len(terms):3d}개 → {len(qs):4d}문항 · 핵심 core-{f.stem}.json {len(core):3d}문항")
     for w in warns:
         print('경고:', w)
     print(f"총 {total}문항 생성")

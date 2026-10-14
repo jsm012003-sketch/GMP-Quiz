@@ -442,6 +442,21 @@ int-019 ~ int-020(개념 구분): CIP·SIP·VHP, bracketing·worst case·design 
 
 int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방지(배양기 vs WFI 탱크), 제균 필터 무결성 시험 시점(GMP01 + WK04), ATF·TFF의 retentate/permeate.
 
+## 핵심 용어 (2026.10.14 복원 — `core-*.json`, 246문항)
+
+리뉴얼 때 출제 범위에서 뺀 용어 문항(805문항) 중 핵심만 다시 넣었다. 용어집 `"short": true` 핵심 용어 178개의 객관식(d/r) 1문항씩 + 그중 약어 용어 68개의 단답형. 짝짓기는 넣지 않았다. id는 `terms-*.json`과 같다.
+
+| 단원 | 문항 | 객관식 | 단답형(약어) |
+|---|---|---|---|
+| WK02 | 47 | 32 | 15 |
+| WK03 | 21 | 16 | 5 |
+| WK04 | 45 | 36 | 9 |
+| GMP01 | 16 | 13 | 3 |
+| GMP02 | 18 | 12 | 6 |
+| GMP03 | 18 | 12 | 6 |
+| WK06 | 33 | 21 | 12 |
+| WK07 | 48 | 36 | 12 |
+
 ## 용어 정리 (PART I + 단답형 PART III, 자동 생성)
 
 `glossary/<단원>.json` → `python3 tools/build_terms.py` → `questions/terms-<단원>.json`. 용어 1개당 1문항 — 약어·기호(MCB, TMP …)는 용어→정의(`r`), 낱말(Clarification, 최종멸균법 …)은 정의→용어(`d`) (2026.10, 절반으로 줄임; 용어에 `"drill"`로 직접 지정 가능), 같은 묶음 4개씩 짝짓기(`m`) 1문항. 기존 용어집에 덧붙인 용어는 `matchSealed` 뒤 번호로 따로 묶여, 이미 있던 짝짓기 id는 그대로다(WK04·GMP03 녹음 용어).

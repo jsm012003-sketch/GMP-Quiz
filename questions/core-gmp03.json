@@ -1,0 +1,539 @@
+{
+ "week": "GMP03",
+ "title": "GMP03 핵심 용어",
+ "lecture": "03 Isolator PDF 핵심 용어 (자동 생성: tools/build_terms.py — 용어집의 short·core 표시로 고른다)",
+ "questions": [
+  {
+   "id": "tg03d-004",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
+   ],
+   "choices": [
+    "Main chamber",
+    "Incoming airlock",
+    "Sterilization (멸균)",
+    "Pressure decay test",
+    "압력 계위 (Pressure cascade)"
+   ],
+   "answer": 5,
+   "explanation": "**압력 계위 (Pressure cascade)** — 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치.",
+   "choiceNotes": [
+    "틀리다 — Main chamber: 실제 무균 작업이 이루어지는 Grade A 작업 공간.",
+    "틀리다 — Incoming airlock: 들어오는 자재를 제염하고 대기시키는 완충 공간.",
+    "틀리다 — Sterilization (멸균): 미생물을 6 log 이상 줄이는 수준의 처리.",
+    "틀리다 — Pressure decay test: 글러브 안에 압력을 넣고 떨어지는 정도로 누설을 재는 시험.",
+    "정답 — 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
+   ],
+   "source": "03 Isolator & Qualification PDF p.4",
+   "concepts": [
+    "압력 계위"
+   ],
+   "tags": [
+    "용어",
+    "압력 계위"
+   ]
+  },
+  {
+   "id": "tg03d-008",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "검증된 조건으로 제염을 준비하는 VHP 첫 단계."
+   ],
+   "choices": [
+    "Aeration",
+    "Conditioning",
+    "BI (Biological Indicator)",
+    "Preparation",
+    "압력 계위 (Pressure cascade)"
+   ],
+   "answer": 4,
+   "explanation": "**Preparation** — 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
+   "choiceNotes": [
+    "틀리다 — Aeration: H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
+    "틀리다 — Conditioning: H₂O₂를 넣어 목표 농도까지 올리는 단계.",
+    "틀리다 — BI (Biological Indicator): 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+    "정답 — 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
+    "틀리다 — 압력 계위 (Pressure cascade): 청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치."
+   ],
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Preparation"
+   ],
+   "tags": [
+    "용어",
+    "Preparation"
+   ]
+  },
+  {
+   "id": "tg03d-009",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "H₂O₂를 넣어 목표 농도까지 올리는 단계."
+   ],
+   "choices": [
+    "Preparation",
+    "Decontamination",
+    "Conditioning",
+    "Population",
+    "확률적 관리 (Clean room 방식)"
+   ],
+   "answer": 3,
+   "explanation": "**Conditioning** — H₂O₂를 넣어 목표 농도까지 올리는 단계.",
+   "choiceNotes": [
+    "틀리다 — Preparation: 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
+    "틀리다 — Decontamination: 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
+    "정답 — H₂O₂를 넣어 목표 농도까지 올리는 단계.",
+    "틀리다 — Population: BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
+   ],
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Conditioning"
+   ],
+   "tags": [
+    "용어",
+    "Conditioning"
+   ]
+  },
+  {
+   "id": "tg03d-010",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계."
+   ],
+   "choices": [
+    "Decontamination",
+    "Preparation",
+    "Aeration",
+    "CI (Chemical Indicator)",
+    "아포 (Spore)"
+   ],
+   "answer": 1,
+   "explanation": "**Decontamination** — 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
+   "choiceNotes": [
+    "정답 — 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
+    "틀리다 — Preparation: 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
+    "틀리다 — Aeration: H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
+    "틀리다 — CI (Chemical Indicator): H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
+    "틀리다 — 아포 (Spore): 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태."
+   ],
+   "source": "03 Isolator & Qualification PDF p.7",
+   "concepts": [
+    "Decontamination"
+   ],
+   "tags": [
+    "용어",
+    "Decontamination"
+   ]
+  },
+  {
+   "id": "tg03d-011",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계."
+   ],
+   "choices": [
+    "Conditioning",
+    "Preparation",
+    "Glove visual inspection",
+    "Aeration",
+    "Incoming airlock"
+   ],
+   "answer": 4,
+   "explanation": "**Aeration** — H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
+   "choiceNotes": [
+    "틀리다 — Conditioning: H₂O₂를 넣어 목표 농도까지 올리는 단계.",
+    "틀리다 — Preparation: 검증된 조건으로 제염을 준비하는 VHP 첫 단계.",
+    "틀리다 — Glove visual inspection: 글러브를 당겨 손상을 눈으로 확인하는 점검.",
+    "정답 — H₂O₂를 빼서 남은 농도를 안전 기준 아래로 낮추는 단계.",
+    "틀리다 — Incoming airlock: 들어오는 자재를 제염하고 대기시키는 완충 공간."
+   ],
+   "source": "03 Isolator & Qualification PDF p.7, p.17",
+   "concepts": [
+    "Aeration"
+   ],
+   "tags": [
+    "용어",
+    "Aeration"
+   ]
+  },
+  {
+   "id": "tg03d-016",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태."
+   ],
+   "choices": [
+    "Hydroxyl radical (·OH)",
+    "SLR (Spore Log Reduction)",
+    "아포 (Spore)",
+    "Decontamination",
+    "PRQ (Periodic Requalification)"
+   ],
+   "answer": 3,
+   "explanation": "**아포 (Spore)** — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
+   "choiceNotes": [
+    "틀리다 — Hydroxyl radical (·OH): H₂O₂가 분해되며 생겨 세포막·단백질·핵산을 산화시키는 강한 라디칼.",
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
+    "정답 — 외피가 두꺼워 라디칼이 늦게 들어가는, 저항성이 매우 높은 미생물 형태.",
+    "틀리다 — Decontamination: 목표 농도를 정해진 시간 동안 유지해 미생물을 죽이는 단계.",
+    "틀리다 — PRQ (Periodic Requalification): 제염 성능이 계속 유지되는지 매년 다시 확인하는 단계."
+   ],
+   "source": "03 Isolator & Qualification PDF p.8",
+   "concepts": [
+    "아포"
+   ],
+   "tags": [
+    "용어",
+    "아포"
+   ]
+  },
+  {
+   "id": "tg03r-022",
+   "type": "용어",
+   "part": 1,
+   "question": "「BI (Biological Indicator)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
+    "청정한 곳일수록 압력을 높여 공기가 깨끗한 쪽에서 덜 깨끗한 쪽으로 흐르게 하는 배치",
+    "worst case 적재에서 BI가 모두 죽고 6 log 감소를 입증하는 미생물 성능 평가"
+   ],
+   "answer": 2,
+   "explanation": "**BI (Biological Indicator)** — 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.",
+   "choiceNotes": [
+    "틀리다 — Population의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — SLR (Spore Log Reduction)의 설명이다.",
+    "틀리다 — 압력 계위 (Pressure cascade)의 설명이다.",
+    "틀리다 — MBQ (Microbiological Qualification, PQ)의 설명이다."
+   ],
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "BI"
+   ],
+   "tags": [
+    "용어",
+    "BI"
+   ]
+  },
+  {
+   "id": "tg03s-022",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다."
+   ],
+   "answers": [
+    "BI",
+    "Biological Indicator",
+    "BI (Biological Indicator)",
+    "생물학적 지표",
+    "생물학적 지시계"
+   ],
+   "explanation": "**BI (Biological Indicator)** — 내성 spore를 올린 지표 — 살았는지 죽었는지로 제염 효과를 직접 입증한다.\n정답으로 인정하는 표기: BI · Biological Indicator · BI (Biological Indicator) · 생물학적 지표 · 생물학적 지시계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "BI"
+   ],
+   "tags": [
+    "용어",
+    "BI"
+   ]
+  },
+  {
+   "id": "tg03r-023",
+   "type": "용어",
+   "part": 1,
+   "question": "「CI (Chemical Indicator)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
+    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간",
+    "H₂O₂를 넣어 목표 농도까지 올리는 단계",
+    "모든 작업을 바로·정확히 기록하는 원칙 — 기록이 없으면 안 한 것",
+    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표"
+   ],
+   "answer": 5,
+   "explanation": "**CI (Chemical Indicator)** — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.",
+   "choiceNotes": [
+    "틀리다 — SLR (Spore Log Reduction)의 설명이다.",
+    "틀리다 — D-value의 설명이다.",
+    "틀리다 — Conditioning의 설명이다.",
+    "틀리다 — GDP (Good Documentation Practice)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "CI"
+   ],
+   "tags": [
+    "용어",
+    "CI"
+   ]
+  },
+  {
+   "id": "tg03s-023",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표."
+   ],
+   "answers": [
+    "CI",
+    "Chemical Indicator",
+    "CI (Chemical Indicator)",
+    "화학적 지표",
+    "화학적 지시계"
+   ],
+   "explanation": "**CI (Chemical Indicator)** — H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표.\n정답으로 인정하는 표기: CI · Chemical Indicator · CI (Chemical Indicator) · 화학적 지표 · 화학적 지시계 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12, p.14",
+   "concepts": [
+    "CI"
+   ],
+   "tags": [
+    "용어",
+    "CI"
+   ]
+  },
+  {
+   "id": "tg03d-027",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간."
+   ],
+   "choices": [
+    "D-value",
+    "SLR (Spore Log Reduction)",
+    "Population",
+    "Cycle development (CD)",
+    "확률적 관리 (Clean room 방식)"
+   ],
+   "answer": 1,
+   "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
+   "choiceNotes": [
+    "정답 — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.",
+    "틀리다 — SLR (Spore Log Reduction): 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
+    "틀리다 — Population: BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상).",
+    "틀리다 — Cycle development (CD): 시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계.",
+    "틀리다 — 확률적 관리 (Clean room 방식): 작업자가 같은 공간에서 무균복과 행동 규칙으로 오염을 줄이는 방식."
+   ],
+   "source": "03 Isolator & Qualification PDF p.12",
+   "concepts": [
+    "D-value"
+   ],
+   "tags": [
+    "용어",
+    "D-value"
+   ]
+  },
+  {
+   "id": "tg03s-027",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "미생물 수를 10분의 1로 줄이는 데 걸리는 시간."
+   ],
+   "answers": [
+    "D-value",
+    "D값"
+   ],
+   "explanation": "**D-value** — 미생물 수를 10분의 1로 줄이는 데 걸리는 시간.\n정답으로 인정하는 표기: D-value · D값 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.12",
+   "concepts": [
+    "D-value"
+   ],
+   "tags": [
+    "용어",
+    "D-value"
+   ]
+  },
+  {
+   "id": "tg03r-028",
+   "type": "용어",
+   "part": 1,
+   "question": "「SLR (Spore Log Reduction)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)",
+    "H₂O₂에 노출됐는지를 색 변화로 보여 주는 보조 지표",
+    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계",
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)",
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가"
+   ],
+   "answer": 4,
+   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).",
+   "choiceNotes": [
+    "틀리다 — Population의 설명이다.",
+    "틀리다 — CI (Chemical Indicator)의 설명이다.",
+    "틀리다 — Cycle development (CD)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — OQ (Operational Qualification)의 설명이다."
+   ],
+   "source": "03 Isolator & Qualification PDF p.14",
+   "concepts": [
+    "SLR"
+   ],
+   "tags": [
+    "용어",
+    "SLR"
+   ]
+  },
+  {
+   "id": "tg03s-028",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요)."
+   ],
+   "answers": [
+    "SLR",
+    "Spore Log Reduction",
+    "SLR (Spore Log Reduction)",
+    "포자 로그 감소"
+   ],
+   "explanation": "**SLR (Spore Log Reduction)** — 제염으로 줄어든 spore 수를 log로 나타낸 값(6 log 이상 필요).\n정답으로 인정하는 표기: SLR · Spore Log Reduction · SLR (Spore Log Reduction) · 포자 로그 감소 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.14",
+   "concepts": [
+    "SLR"
+   ],
+   "tags": [
+    "용어",
+    "SLR"
+   ]
+  },
+  {
+   "id": "tg03r-036",
+   "type": "용어",
+   "part": 1,
+   "question": "「IQ (Installation Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "제염 성능이 계속 유지되는지 매년 다시 확인하는 단계",
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가",
+    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가",
+    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)",
+    "BI 하나에 올린 spore 수(6 log 감소를 보이려면 10⁶ 이상)"
+   ],
+   "answer": 3,
+   "explanation": "**IQ (Installation Qualification)** — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.",
+   "choiceNotes": [
+    "틀리다 — PRQ (Periodic Requalification)의 설명이다.",
+    "틀리다 — OQ (Operational Qualification)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — EI (Enzyme Indicator)의 설명이다.",
+    "틀리다 — Population의 설명이다."
+   ],
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "IQ"
+   ],
+   "tags": [
+    "용어",
+    "IQ"
+   ]
+  },
+  {
+   "id": "tg03s-036",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "설치 상태가 사양·도면과 맞는지 확인하는 적격성평가."
+   ],
+   "answers": [
+    "IQ",
+    "Installation Qualification",
+    "IQ (Installation Qualification)",
+    "설치 적격성평가"
+   ],
+   "explanation": "**IQ (Installation Qualification)** — 설치 상태가 사양·도면과 맞는지 확인하는 적격성평가.\n정답으로 인정하는 표기: IQ · Installation Qualification · IQ (Installation Qualification) · 설치 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "IQ"
+   ],
+   "tags": [
+    "용어",
+    "IQ"
+   ]
+  },
+  {
+   "id": "tg03r-037",
+   "type": "용어",
+   "part": 1,
+   "question": "「OQ (Operational Qualification)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가",
+    "설계 요구사항을 정하고 설계가 이를 만족하는지 확인하는 첫 단계",
+    "시험을 통해 적재·주입량·시간 같은 운전 조건을 정하는 단계",
+    "포개진 면·나사 틈처럼 H₂O₂ 증기가 닿지 않는 표면",
+    "효소 활성으로 log 감소를 추정하는 간접 지표(최종 판정에는 안 씀)"
+   ],
+   "answer": 1,
+   "explanation": "**OQ (Operational Qualification)** — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — URS / DQ (아이솔레이터)의 설명이다.",
+    "틀리다 — Cycle development (CD)의 설명이다.",
+    "틀리다 — Occluded surface (가려진 표면)의 설명이다.",
+    "틀리다 — EI (Enzyme Indicator)의 설명이다."
+   ],
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "OQ"
+   ],
+   "tags": [
+    "용어",
+    "OQ"
+   ]
+  },
+  {
+   "id": "tg03s-037",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가."
+   ],
+   "answers": [
+    "OQ",
+    "Operational Qualification",
+    "OQ (Operational Qualification)",
+    "운전 적격성평가",
+    "작동 적격성평가"
+   ],
+   "explanation": "**OQ (Operational Qualification)** — 압력·기류·알람 등이 의도대로 작동하는지 확인하는 적격성평가.\n정답으로 인정하는 표기: OQ · Operational Qualification · OQ (Operational Qualification) · 운전 적격성평가 · 작동 적격성평가 (띄어쓰기·대소문자 무시)",
+   "source": "03 Isolator & Qualification PDF p.13",
+   "concepts": [
+    "OQ"
+   ],
+   "tags": [
+    "용어",
+    "OQ"
+   ]
+  }
+ ]
+}

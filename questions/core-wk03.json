@@ -1,0 +1,646 @@
+{
+ "week": "WK03",
+ "title": "WK03 핵심 용어",
+ "lecture": "WK03 강의 녹음 핵심 용어 (자동 생성: tools/build_terms.py — 용어집의 short·core 표시로 고른다)",
+ "questions": [
+  {
+   "id": "tw03d-003",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "컬럼 안에 채워져 움직이지 않는 레진."
+   ],
+   "choices": [
+    "Resolution (분리능)",
+    "Monolith",
+    "Stationary phase (고정상)",
+    "Weak ion exchanger",
+    "Strong ion exchanger"
+   ],
+   "answer": 3,
+   "explanation": "**Stationary phase (고정상)** — 컬럼 안에 채워져 움직이지 않는 레진.",
+   "choiceNotes": [
+    "틀리다 — Resolution (분리능): 섞인 물질을 서로 얼마나 잘 나누는지의 정도.",
+    "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상.",
+    "정답 — 컬럼 안에 채워져 움직이지 않는 레진.",
+    "틀리다 — Weak ion exchanger: 좁은 pH 범위에서만 전하를 띠고 다른 선택성을 주는 이온교환기(DEAE, CM).",
+    "틀리다 — Strong ion exchanger: pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S)."
+   ],
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Stationary phase"
+   ],
+   "tags": [
+    "용어",
+    "Stationary phase"
+   ]
+  },
+  {
+   "id": "tw03d-004",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "컬럼을 따라 흐르며 시료를 옮기는 버퍼."
+   ],
+   "choices": [
+    "Mobile phase (이동상)",
+    "Column housing",
+    "Fraction (분획)",
+    "Breakthrough (돌파)",
+    "Fine fractionation (정밀 분리)"
+   ],
+   "answer": 1,
+   "explanation": "**Mobile phase (이동상)** — 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
+   "choiceNotes": [
+    "정답 — 컬럼을 따라 흐르며 시료를 옮기는 버퍼.",
+    "틀리다 — Column housing: 고정상(레진)을 채워 넣는 컬럼 본체.",
+    "틀리다 — Fraction (분획): 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
+    "틀리다 — Breakthrough (돌파): 레진이 포화돼 결합하지 못한 목표 물질이 컬럼 밖으로 새어 나오는 것.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
+   ],
+   "source": "WK03 강의 녹음 15:01–17:36",
+   "concepts": [
+    "Mobile phase"
+   ],
+   "tags": [
+    "용어",
+    "Mobile phase"
+   ]
+  },
+  {
+   "id": "tw03d-008",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+   ],
+   "choices": [
+    "Intermediate purification (중간 정제)",
+    "Affinity tag",
+    "Capture",
+    "Stationary phase (고정상)",
+    "Fine fractionation (정밀 분리)"
+   ],
+   "answer": 3,
+   "explanation": "**Capture** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+   "choiceNotes": [
+    "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
+    "틀리다 — Affinity tag: 정제를 쉽게 하려고 단백질 끝에 덧붙인 짧은 서열(예: His-tag).",
+    "정답 — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
+   ],
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Capture"
+   ],
+   "tags": [
+    "용어",
+    "Capture"
+   ]
+  },
+  {
+   "id": "tw03d-010",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "마지막에 남은 미량 불순물을 없애는 단계."
+   ],
+   "choices": [
+    "Intermediate purification (중간 정제)",
+    "Capture",
+    "Chromatography",
+    "Polishing",
+    "Strong ion exchanger"
+   ],
+   "answer": 4,
+   "explanation": "**Polishing** — 마지막에 남은 미량 불순물을 없애는 단계.",
+   "choiceNotes": [
+    "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
+    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Chromatography: 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
+    "정답 — 마지막에 남은 미량 불순물을 없애는 단계.",
+    "틀리다 — Strong ion exchanger: pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S)."
+   ],
+   "source": "WK03 강의 녹음 29:54–31:11",
+   "concepts": [
+    "Polishing"
+   ],
+   "tags": [
+    "용어",
+    "Polishing"
+   ]
+  },
+  {
+   "id": "tw03d-011",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+   ],
+   "choices": [
+    "Affinity chromatography (친화 크로마토그래피)",
+    "IEX (Ion Exchange, 이온교환)",
+    "Ligand",
+    "Monolith",
+    "Fine fractionation (정밀 분리)"
+   ],
+   "answer": 1,
+   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+   "choiceNotes": [
+    "정답 — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+    "틀리다 — IEX (Ion Exchange, 이온교환): 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.",
+    "틀리다 — Ligand: 레진에 고정되어 목표 물질과 결합하는 분자.",
+    "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상.",
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
+   ],
+   "source": "WK03 강의 녹음 11:32–13:36",
+   "concepts": [
+    "Affinity chromatography"
+   ],
+   "tags": [
+    "용어",
+    "Affinity chromatography"
+   ]
+  },
+  {
+   "id": "tw03r-012",
+   "type": "용어",
+   "part": 1,
+   "question": "「IEX (Ion Exchange, 이온교환)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법",
+    "고정상(레진)을 채워 넣는 컬럼 본체",
+    "첫 단계 뒤에 남은 불순물을 더 줄이는 단계",
+    "전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법"
+   ],
+   "answer": 5,
+   "explanation": "**IEX (Ion Exchange, 이온교환)** — 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.",
+   "choiceNotes": [
+    "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
+    "틀리다 — SEC (Size Exclusion, Gel filtration)의 설명이다.",
+    "틀리다 — Column housing의 설명이다.",
+    "틀리다 — Intermediate purification (중간 정제)의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "WK03 강의 녹음 10:07",
+   "concepts": [
+    "IEX"
+   ],
+   "tags": [
+    "용어",
+    "IEX"
+   ]
+  },
+  {
+   "id": "tw03s-012",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법."
+   ],
+   "answers": [
+    "IEX",
+    "Ion Exchange",
+    "이온교환",
+    "IEX (Ion Exchange, 이온교환)"
+   ],
+   "explanation": "**IEX (Ion Exchange, 이온교환)** — 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.\n정답으로 인정하는 표기: IEX · Ion Exchange · 이온교환 · IEX (Ion Exchange, 이온교환) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 10:07",
+   "concepts": [
+    "IEX"
+   ],
+   "tags": [
+    "용어",
+    "IEX"
+   ]
+  },
+  {
+   "id": "tw03r-013",
+   "type": "용어",
+   "part": 1,
+   "question": "「HIC (Hydrophobic Interaction Chromatography)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "유기 용매로 용출해 생물 활성을 잃을 위험이 있는 소수성 기반 분리",
+    "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출",
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법",
+    "SEC 레진이 크기로 나눌 수 있는 분자량 범위"
+   ],
+   "answer": 4,
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
+   "choiceNotes": [
+    "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
+    "틀리다 — RPC (Reversed-Phase Chromatography)의 설명이다.",
+    "틀리다 — Linear gradient의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Fractionation range의 설명이다."
+   ],
+   "source": "WK03 강의 녹음 11:32–13:36, 36:31",
+   "concepts": [
+    "HIC"
+   ],
+   "tags": [
+    "용어",
+    "HIC"
+   ]
+  },
+  {
+   "id": "tw03s-013",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
+   ],
+   "answers": [
+    "HIC",
+    "Hydrophobic Interaction Chromatography",
+    "HIC (Hydrophobic Interaction Chromatography)",
+    "소수성 상호작용 크로마토그래피",
+    "소수성 크로마토그래피",
+    "소수성 상호작용",
+    "소수성"
+   ],
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.\n정답으로 인정하는 표기: HIC · Hydrophobic Interaction Chromatography · HIC (Hydrophobic Interaction Chromatography) · 소수성 상호작용 크로마토그래피 · 소수성 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 11:32–13:36, 36:31",
+   "concepts": [
+    "HIC"
+   ],
+   "tags": [
+    "용어",
+    "HIC"
+   ]
+  },
+  {
+   "id": "tw03r-015",
+   "type": "용어",
+   "part": 1,
+   "question": "「SEC (Size Exclusion, Gel filtration)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "유기 용매로 용출해 생물 활성을 잃을 위험이 있는 소수성 기반 분리",
+    "Peak가 나올 때만 받는 분획 방식",
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법",
+    "HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발"
+   ],
+   "answer": 4,
+   "explanation": "**SEC (Size Exclusion, Gel filtration)** — 레진에 붙이지 않고 분자 크기로만 나누는 방법.",
+   "choiceNotes": [
+    "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
+    "틀리다 — RPC (Reversed-Phase Chromatography)의 설명이다.",
+    "틀리다 — Peak fractionation의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — HTPD (High-Throughput Process Development)의 설명이다."
+   ],
+   "source": "WK03 강의 녹음 14:25, 36:31",
+   "concepts": [
+    "SEC"
+   ],
+   "tags": [
+    "용어",
+    "SEC"
+   ]
+  },
+  {
+   "id": "tw03s-015",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "레진에 붙이지 않고 분자 크기로만 나누는 방법."
+   ],
+   "answers": [
+    "SEC",
+    "Size Exclusion",
+    "Gel filtration",
+    "SEC (Size Exclusion, Gel filtration)",
+    "크기 배제 크로마토그래피",
+    "겔 여과",
+    "크기 배제"
+   ],
+   "explanation": "**SEC (Size Exclusion, Gel filtration)** — 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n정답으로 인정하는 표기: SEC · Size Exclusion · Gel filtration · SEC (Size Exclusion, Gel filtration) · 크기 배제 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "source": "WK03 강의 녹음 14:25, 36:31",
+   "concepts": [
+    "SEC"
+   ],
+   "tags": [
+    "용어",
+    "SEC"
+   ]
+  },
+  {
+   "id": "tw03r-016",
+   "type": "용어",
+   "part": 1,
+   "question": "「Ligand」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "레진에 고정되어 목표 물질과 결합하는 분자",
+    "전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법",
+    "전하·소수성 등 여러 성질을 함께 써서 붙이는 레진",
+    "컬럼 단면적 × 높이로 구하는 원통 부피",
+    "SEC 용출 위치를 0(가장 큰 분자)~1(가장 작은 분자)로 나타낸 값"
+   ],
+   "answer": 1,
+   "explanation": "**Ligand** — 레진에 고정되어 목표 물질과 결합하는 분자.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — IEX (Ion Exchange, 이온교환)의 설명이다.",
+    "틀리다 — MMC (Multimodal Chromatography)의 설명이다.",
+    "틀리다 — Column volume (CV)의 설명이다.",
+    "틀리다 — Kav의 설명이다."
+   ],
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Ligand"
+   ],
+   "tags": [
+    "용어",
+    "Ligand"
+   ]
+  },
+  {
+   "id": "tw03d-017",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식."
+   ],
+   "choices": [
+    "Bind-elute mode",
+    "SBC (Static Binding Capacity)",
+    "Breakthrough (돌파)",
+    "UV 280 nm",
+    "Fractionation range"
+   ],
+   "answer": 1,
+   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+   "choiceNotes": [
+    "정답 — 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "틀리다 — SBC (Static Binding Capacity): 비커에서 batch로 잰 레진의 총 결합 용량.",
+    "틀리다 — Breakthrough (돌파): 레진이 포화돼 결합하지 못한 목표 물질이 컬럼 밖으로 새어 나오는 것.",
+    "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장.",
+    "틀리다 — Fractionation range: SEC 레진이 크기로 나눌 수 있는 분자량 범위."
+   ],
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Bind-elute mode"
+   ],
+   "tags": [
+    "용어",
+    "Bind-elute mode"
+   ]
+  },
+  {
+   "id": "tw03d-018",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식."
+   ],
+   "choices": [
+    "Bind-elute mode",
+    "Binding capacity (결합 용량)",
+    "Flow-through mode",
+    "ELISA",
+    "Monolith"
+   ],
+   "answer": 3,
+   "explanation": "**Flow-through mode** — 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+   "choiceNotes": [
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "틀리다 — Binding capacity (결합 용량): 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
+    "정답 — 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "틀리다 — ELISA: 항체 반응으로 특정 단백질의 양을 재는 방법.",
+    "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상."
+   ],
+   "source": "WK03 강의 녹음 33:05–36:20",
+   "concepts": [
+    "Flow-through mode"
+   ],
+   "tags": [
+    "용어",
+    "Flow-through mode"
+   ]
+  },
+  {
+   "id": "tw03d-021",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것."
+   ],
+   "choices": [
+    "Flow-through mode",
+    "Elution (용출)",
+    "Loading",
+    "Western blot",
+    "Efficiency (효율)"
+   ],
+   "answer": 2,
+   "explanation": "**Elution (용출)** — 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.",
+   "choiceNotes": [
+    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "정답 — 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.",
+    "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계.",
+    "틀리다 — Western blot: 항체로 특정 단백질이 있는지 확인하는 방법.",
+    "틀리다 — Efficiency (효율): 충진된 bed에서 좁고 대칭적인 peak로 용출시키는 능력."
+   ],
+   "source": "WK03 강의 녹음 10:07, 36:31",
+   "concepts": [
+    "Elution"
+   ],
+   "tags": [
+    "용어",
+    "Elution"
+   ]
+  },
+  {
+   "id": "tw03d-035",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비)."
+   ],
+   "choices": [
+    "Fine fractionation (정밀 분리)",
+    "Fractionation range",
+    "Peak broadening",
+    "Desalting (탈염)",
+    "UV 260 nm"
+   ],
+   "answer": 4,
+   "explanation": "**Desalting (탈염)** — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
+   "choiceNotes": [
+    "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing).",
+    "틀리다 — Fractionation range: SEC 레진이 크기로 나눌 수 있는 분자량 범위.",
+    "틀리다 — Peak broadening: Peak가 넓게 퍼지는 현상 — bead size·packing·시료 부피·점도·유속이 영향을 준다.",
+    "정답 — 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
+    "틀리다 — UV 260 nm: 핵산(DNA·RNA) 양을 보는 자외선 흡광 파장."
+   ],
+   "source": "WK03 강의 녹음 42:18–42:56",
+   "concepts": [
+    "Desalting"
+   ],
+   "tags": [
+    "용어",
+    "Desalting"
+   ]
+  },
+  {
+   "id": "tw03r-052",
+   "type": "용어",
+   "part": 1,
+   "question": "「DSC (Differential Scanning Calorimetry)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "정제한 단백질의 안정성을 보는 열분석 도구",
+    "정제한 단백질의 농도를 재는 방법들",
+    "항체로 특정 단백질이 있는지 확인하는 방법",
+    "Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계",
+    "시료의 버퍼를 다른 버퍼로 바꾸는 것 — desalting과 함께 group separation으로 한다"
+   ],
+   "answer": 1,
+   "explanation": "**DSC (Differential Scanning Calorimetry)** — 정제한 단백질의 안정성을 보는 열분석 도구.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Bradford·Lowry·BCA assay의 설명이다.",
+    "틀리다 — Western blot의 설명이다.",
+    "틀리다 — Loading의 설명이다.",
+    "틀리다 — Buffer exchange의 설명이다."
+   ],
+   "source": "WK03 교재 (1.13 정제 후 분석·특성 평가)",
+   "concepts": [
+    "DSC"
+   ],
+   "tags": [
+    "용어",
+    "DSC"
+   ]
+  },
+  {
+   "id": "tw03s-052",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "정제한 단백질의 안정성을 보는 열분석 도구."
+   ],
+   "answers": [
+    "DSC",
+    "Differential Scanning Calorimetry",
+    "DSC (Differential Scanning Calorimetry)"
+   ],
+   "explanation": "**DSC (Differential Scanning Calorimetry)** — 정제한 단백질의 안정성을 보는 열분석 도구.\n정답으로 인정하는 표기: DSC · Differential Scanning Calorimetry · DSC (Differential Scanning Calorimetry) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 교재 (1.13 정제 후 분석·특성 평가)",
+   "concepts": [
+    "DSC"
+   ],
+   "tags": [
+    "용어",
+    "DSC"
+   ]
+  },
+  {
+   "id": "tw03d-064",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "두 peak 사이가 얼마나 떨어져 있는지 — 분해능에 가장 중요한 요인."
+   ],
+   "choices": [
+    "Efficiency (효율)",
+    "Peak broadening",
+    "Column volume (CV)",
+    "Selectivity (선택성)",
+    "Volumetric flow rate (부피 유속)"
+   ],
+   "answer": 4,
+   "explanation": "**Selectivity (선택성)** — 두 peak 사이가 얼마나 떨어져 있는지 — 분해능에 가장 중요한 요인.",
+   "choiceNotes": [
+    "틀리다 — Efficiency (효율): 충진된 bed에서 좁고 대칭적인 peak로 용출시키는 능력.",
+    "틀리다 — Peak broadening: Peak가 넓게 퍼지는 현상 — bead size·packing·시료 부피·점도·유속이 영향을 준다.",
+    "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
+    "정답 — 두 peak 사이가 얼마나 떨어져 있는지 — 분해능에 가장 중요한 요인.",
+    "틀리다 — Volumetric flow rate (부피 유속): 단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다."
+   ],
+   "source": "WK03 교재 (1.17 선택성)",
+   "concepts": [
+    "Selectivity"
+   ],
+   "tags": [
+    "용어",
+    "Selectivity"
+   ]
+  },
+  {
+   "id": "tw03r-076",
+   "type": "용어",
+   "part": 1,
+   "question": "「HTPD (High-Throughput Process Development)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다",
+    "96-well plate·로봇으로 많은 조건을 한꺼번에 시험하는 스크리닝",
+    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발",
+    "염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출"
+   ],
+   "answer": 4,
+   "explanation": "**HTPD (High-Throughput Process Development)** — HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발.",
+   "choiceNotes": [
+    "틀리다 — Volumetric flow rate (부피 유속)의 설명이다.",
+    "틀리다 — HTS (High-Throughput Screening)의 설명이다.",
+    "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — Step elution의 설명이다."
+   ],
+   "source": "WK03 교재 (5.1 HTPD)",
+   "concepts": [
+    "HTPD"
+   ],
+   "tags": [
+    "용어",
+    "HTPD"
+   ]
+  },
+  {
+   "id": "tw03s-076",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발."
+   ],
+   "answers": [
+    "HTPD",
+    "High-Throughput Process Development",
+    "HTPD (High-Throughput Process Development)"
+   ],
+   "explanation": "**HTPD (High-Throughput Process Development)** — HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발.\n정답으로 인정하는 표기: HTPD · High-Throughput Process Development · HTPD (High-Throughput Process Development) (띄어쓰기·대소문자 무시)",
+   "source": "WK03 교재 (5.1 HTPD)",
+   "concepts": [
+    "HTPD"
+   ],
+   "tags": [
+    "용어",
+    "HTPD"
+   ]
+  }
+ ]
+}
