@@ -287,7 +287,22 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 | Pure·clean·black steam, 변경 관리·재적격성평가·재교정 | wk07-040, wk07-041 |
 | PV·CV·CSV, PLC/SCADA vs MES/EBR | wk07-042, wk07-043 |
 
-미출제 후보: HVAC 차압 계단(pressure cascade), 폐기물(waste) 흐름, Commissioning and Start-Up, Cost Control and Scheduling.
+미출제 후보: HVAC 차압 계단(pressure cascade), 폐기물(waste) 흐름, Commissioning and Start-Up.
+
+### WK07 강의 녹음 (10.14 — 약 3시간, 김영태)
+
+7주차 녹음에서 슬라이드에 없는 강조점을 냈다(출처 `WK07 강의 녹음 h:mm:ss`). 김영태 부장님은 "강의 자료가 아니라 말한 것 위주로 출제했다", "오늘 한 것도 나온다"고 했다.
+
+| 출제됨 | 문항 |
+|---|---|
+| EPC, 준공 vs 완공, 소방법 vs GMP 동선, 프로젝트 정의(돈·사람·시간) | wk07-054 ~ wk07-057 |
+| CD·BD·DD(뼈대·살·주름), mass balance 조기 확정, 배지 준비 묶음, 장비·사람 scheduling | wk07-058 ~ wk07-061 |
+| GMP(양압) vs BSL(음압), airlock vs interlock, CNC | wk07-062 ~ wk07-064 |
+| 물류 vs 자재(quarantine), lot vs batch(uniform), lot별 입고 QC | wk07-065 ~ wk07-067 |
+| 전기 스펙(V 동일·A 이상), 세파 항생제 입지 제한, 레시피 → PFD → 장비 목록, 둥근 모서리, URS의 의미 | wk07-068 ~ wk07-072 |
+| 단답형: EPC, 준공, URS, OQ, Airlock | wk07-073 ~ wk07-077 |
+
+용어집 추가(no 91~113, `matchSealed` 90): EPC, 준공, 완공, Engineering, CD·BD·DD, Mass balance, Scheduling, URS, IQ, OQ, V-model, Airlock, Interlock, BSL, Quarantine zone, 물류, 자재, Lot, Batch, Annex 1 revision, Class 100, WCW, Post-flushing.
 
 ### WK06 강의 녹음 (10.07 — 약 3시간, 김영태)
 
@@ -311,6 +326,37 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 출제하지 않음: 공정 흐름 복습(wk04-077~113과 같은 포인트), 세포치료제에 제균 여과를 못 쓰는 이유(wk04-114와 같은 포인트), 컬럼 부피·Protein A 레진 양·공정 시간 계산 실습, 현업 시나리오 1·2(사이클 수 선택), 유리 컬럼 제품(XK·HiScale), SuperPro Designer·Gantt chart 같은 도구, 진로·면접 일화.
 
 미출제 후보: 없음(녹음의 대표 포인트는 모두 냈다).
+
+## 적중 — 시험 출제 예상 키워드 집중 (2026.10.14, `questions/keyword.json`, week `적중`, prefix `kw`)
+
+10.14 7주차 수업 끝 출제 예상 리뷰(WK07 녹음 02:29:41–02:38:30)에서 짚은 키워드를 2~7주차 교안·녹음으로 문항화했다(사용자 요청 — "예상 키워드로 문제를 대폭 양산"). 키워드별 해설서(docx·PDF, 각주로 출처 표시)와 같은 순서이다. 기존 단원과 같은 개념이라도 리뷰 키워드를 중심으로 다른 각도(이유·구분·역문제)로 냈다.
+
+| 키워드 묶음 | 문항 |
+|---|---|
+| Resolution·Efficiency·Selectivity, 비드 크기와 압력 | kw-001 ~ kw-019 |
+| IEX 원리, Strong/Weak 4종(Q·DEAE·S·CM), 레진 4총사·클로버 비유 | kw-020 ~ kw-034 |
+| SEC(Kav, desalting 30 %, 정밀 분리), MMC, Gradient(linear vs step) | kw-035 ~ kw-056 |
+| Purification(수율·순도, CIPP, DBC 10 %, 안전 여유), 컬럼 계산 4문항 | kw-057 ~ kw-070 |
+| 완제 특징, Formulation, 무균 의약품 3가지, APS, RABS, VHP·BI·CI, Isolator OQ | kw-071 ~ kw-116 |
+| Cell line·Modality, Platform, CPP, 공정 흐름·Clarification, 성장 곡선·seed train, Tip speed, IPC·DO·pH | kw-117 ~ kw-149 |
+| PD·PC → Design space, 배양 모드 | kw-150 ~ kw-160 |
+| 여과 5개 구분법, 불순물 4총사, mass balance, pI와 역문제, 크로마토 1 cycle | kw-161 ~ kw-194 |
+| 혈장 분획, 같은 크로마토 공정 조건, 여과 범용성, 전체 순서, 잘못 쓰는 단어, 물(3차수 → PW·WFI), HEPA, Class 100, Q vs V | kw-195 ~ kw-234 |
+
+## FINAL — 시험 적중 파이널 모의고사 (2026.10.14, `questions/final.json`, week `FINAL`, prefix `fin`)
+
+**예외 단원**: 이 단원만 계산 문항과 이유·상황 판단 고난도 문항을 모았다(사용자 요청 — "계산 문항과 어려운 문항도 대비"). 앱의 🎯 「시험 적중 파이널 모의고사」 모드가 이 단원만으로 50문항을 만들고, 계산 문항을 30 % 이상 넣는다(`FINAL_CALC_SHARE`). PART I 문항은 없고(시험지에서 PART II로 넘김), PART II 객관식 90 · PART III 단답 18이다.
+
+| 묶음 | 문항 |
+|---|---|
+| 계산 — Rs·Kav, 컬럼 부피·지름·유속·체류 시간·scale-up 유속, WK06 Case 1(레진·비용·cycle·시간), 버퍼 총량, 용출 농도 | fin-001 ~ fin-018 |
+| 계산 — titer, 배양 부피(회수율·손실 포함), DS 양·바이알 수, 배치 수, UF 농축·DF 버퍼, LRV | fin-019 ~ fin-030 |
+| 계산 — tip speed, 같은 tip speed·같은 P/V scale-up, P/V 배수, OTR·최소 kLa·DO 판단, VVM, seed train, doubling, Class 환산, 전력, NWP, titer와 공정 시간 | fin-031 ~ fin-045 |
+| 고난도 — selectivity vs efficiency 판단, 작은 비드와 압력, weak 레진 pH 범위, step의 공동 용출, desalting 생략, AEX pH와 수율, 변이체 pI, DBC와 유속, SEC 섹션 연결, MMC, scale-up에서 깨지는 변경, VI 뒤 즉시 중화 | fin-046 ~ fin-058 |
+| 고난도 — parvovirus 제거 단계, orthogonal, ICH Q5A, 친수성 vent 사고, bubble point 불합격, PUPSIT, gel layer, NWP 교체, 대규모 clarification | fin-059 ~ fin-067 |
+| 고난도 — temperature shift, N-1 perfusion 허가, tip speed scale-up과 DO, kLa 높이기, design space 판단, IPC 원인 확인 | fin-068 ~ fin-073 |
+| 고난도 — APS 재검증 횟수·충전량·라인 속도, Closed RABS intervention, BI vs CI 판정, load 감소, aeration 단축, OQ 판별, 글러브 불합격, GMP vs BSL, lot 회수, quarantine, URS 사례, 어댑터, Grade A, PV 전제, 아이솔레이터 발주 | fin-074 ~ fin-090 |
+| 단답 — Kav 0, BI·BCT 균, aeration 1 ppm, ISO 5, 불순물 pI, VI pH, interlock, quarantine, BD, lot, CFF, MWCO, zero growth, 6 log, 20 nm, N-1 perfusion, WFI | fin-091 ~ fin-108 |
 
 ## 이유·작용 원리 문항 (PART II, 2026.10.08 — 난이도를 살짝 올림)
 
