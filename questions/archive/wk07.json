@@ -1,7 +1,7 @@
 {
   "week": "WK07",
   "title": "GMP Engineering (시설 설계·건설·프로젝트 관리) — 보관(출제 안 함)",
-  "note": "지엽적이라 걸러 낸 문항(2026.10). index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
+  "note": "적중 스타일 전면 리뉴얼(2026.10.14)과 그 전 정리에서 걸러 낸 문항. index.json에 없어 출제되지 않는다. id는 영구 예약 — 다른 문항에 재사용하지 않는다. 되살리려면 원래 파일로 옮긴다.",
   "questions": [
     {
       "id": "wk07-001",
@@ -522,6 +522,825 @@
         "Closed processing"
       ],
       "part": 1
+    },
+    {
+      "id": "wk07-012",
+      "type": "연결",
+      "question": "Single-use(일회용)와 multi-use(스테인리스) 장비의 비교로 옳지 않은 것은?",
+      "choices": [
+        "Single-use는 부품 평가가 전혀 필요 없다",
+        "Single-use는 세척·멸균 부담이 적다",
+        "Single-use는 제품 전환이 빠르다",
+        "Single-use는 소모품 비용이 든다",
+        "Single-use는 높이가 낮아 층고가 낮은 건물에 유리하다"
+      ],
+      "answer": 1,
+      "explanation": "**Single-use는 세척·멸균 부담이 적고 유연하며 높이가 낮지만, 소모품 비용이 들고 제품 접촉 부품의 무결성·추출물 평가가 필요하다.**",
+      "choiceNotes": [
+        "틀린 진술(정답) — 무결성·추출물 평가가 필요하다(일반 원리).",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술 — 공급망 의존도도 커진다.",
+        "옳은 진술."
+      ],
+      "source": "WK07 PDF p.31 (Equipment Selection), p.63 (Single Use System) · WK06 PDF p.26",
+      "tags": [
+        "Single-use",
+        "Multi-use",
+        "Equipment selection"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-015",
+      "type": "연결",
+      "question": "작업과 청정 등급의 연결로 옳지 않은 것은?",
+      "choices": [
+        "무균 제품 충전 – Grade A",
+        "Grade A의 배경 – Grade B",
+        "최종멸균 제품 충전 – Grade C",
+        "아이솔레이터 주변(EU 최소) – Grade D",
+        "열린 무균 제품 충전 – Grade D"
+      ],
+      "answer": 5,
+      "explanation": "**Grade A = 무균 충전·무균 조작, B = A의 배경, C = 최종멸균 제품 충전·여과 가능 제품 조제, D = 밀폐계 조제·아이솔레이터 주변.**",
+      "choiceNotes": [
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "옳은 진술.",
+        "틀린 진술(정답) — 무균 충전은 Grade A."
+      ],
+      "source": "WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
+      "tags": [
+        "Cleanroom grade",
+        "Grade A/B/C/D"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-016",
+      "type": "연결",
+      "part": 2,
+      "question": "청정 등급의 비가동(at rest)과 가동(operational) 기준의 비교로 옳은 것은?",
+      "choices": [
+        "모든 등급의 두 기준이 같다",
+        "Grade A는 비가동과 가동 기준이 같다",
+        "가동 상태에서는 미생물을 보지 않는다",
+        "Grade D 가동 기준이 가장 엄격하다",
+        "비가동은 사람이 가장 많을 때 잰다"
+      ],
+      "answer": 2,
+      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태.",
+      "choiceNotes": [
+        "틀리다.",
+        "옳다 — B·C는 가동 때 허용치가 높다.",
+        "틀리다.",
+        "틀리다 — D는 가동 기준이 정해져 있지 않다.",
+        "틀리다 — 작업이 멈춘 상태다."
+      ],
+      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
+      "tags": [
+        "At rest",
+        "Operational",
+        "Particle limit"
+      ]
+    },
+    {
+      "id": "wk07-027",
+      "type": "개념",
+      "part": 1,
+      "question": "설비 적격성평가·밸리데이션(Q&V)의 순서로 옳은 것은?",
+      "choices": [
+        "URS → IQ → DQ → FAT → PQ → OQ",
+        "FAT → URS → OQ → IQ → PV",
+        "PQ → OQ → IQ → DQ → URS",
+        "URS → DQ → FAT → IQ → OQ → PQ → PV",
+        "IQ → URS → OQ → DQ → PQ"
+      ],
+      "answer": 4,
+      "explanation": "**URS(요구사항) → DQ(설계 확인) → FAT(공장 출하 전 시험) → IQ/SAT(설치) → OQ(작동) → PQ(성능) → PV(공정 밸리데이션).** 전 과정에 변경 관리가 붙는다.",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다.",
+        "틀리다 — 거꾸로다.",
+        "옳다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation) · 03 Isolator PDF p.15",
+      "tags": [
+        "V-model",
+        "URS",
+        "FAT/SAT",
+        "IQ/OQ/PQ"
+      ]
+    },
+    {
+      "id": "wk07-031",
+      "type": "개념",
+      "part": 1,
+      "question": "Ballroom concept에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "제품마다 건물을 따로 짓는다",
+        "모든 공정을 열어 놓고 한 방에서 한다",
+        "밀폐 공정을 전제로 여러 제품을 한 넓은 공간에서 만든다",
+        "바이러스 구역을 더 잘게 나눈다",
+        "개방 공정일수록 유리하다"
+      ],
+      "answer": 3,
+      "explanation": "**밀폐(closed) 공정과 품질 위험 관리를 전제로, 여러 제품을 한 공간에서 동시에 만들며 청정 요구와 구역 분리를 줄이는 시설 개념이다.**",
+      "choiceNotes": [
+        "틀리다.",
+        "틀리다 — 밀폐가 전제다.",
+        "옳다 — 품질 위험 관리도 전제.",
+        "틀리다 — 구역 분리를 줄인다.",
+        "틀리다."
+      ],
+      "source": "WK07 PDF p.62 (Ball Room Concept) · 03 Isolator PDF p.6",
+      "tags": [
+        "Ballroom",
+        "Closed system",
+        "QRM"
+      ]
+    },
+    {
+      "id": "wk07-033",
+      "type": "연결",
+      "question": "임상시험 단계와 특징의 연결로 옳지 않은 것은?",
+      "choices": [
+        "1상 – 소수 건강인, 안전성 확인",
+        "2상 – 환자, 효과와 용량 탐색",
+        "3상 – 대규모, 효과 확증",
+        "1상 – 수천 명 환자에서 효과 확증",
+        "4상 – 시판 후 장기 안전성 관찰"
+      ],
+      "answer": 4,
+      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
+      "choiceNotes": [
+        "옳은 진술 — 약 20~100명.",
+        "옳은 진술 — 약 100~500명.",
+        "옳은 진술 — 약 1,000~5,000명.",
+        "틀린 진술(정답) — 그건 3상이다.",
+        "옳은 진술."
+      ],
+      "source": "WK07 PDF p.15 (Phases of clinical development) · WK02 강의 녹음 01:35:02",
+      "tags": [
+        "Clinical phase"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-037",
+      "type": "연결",
+      "question": "FAT와 SAT의 차이로 옳은 것은?",
+      "choices": [
+        "FAT는 설치 현장, SAT는 제작사 공장에서 한다",
+        "FAT는 제작사 공장, SAT는 설치 현장에서 한다",
+        "SAT는 장비를 출하하기 전에 한다",
+        "둘 다 공정 밸리데이션(PV)의 다른 이름이다",
+        "FAT를 하면 SAT는 생략한다"
+      ],
+      "answer": 2,
+      "explanation": "**FAT(Factory Acceptance Test)는 장비를 출하하기 전에 제작사 공장에서, SAT(Site Acceptance Test)는 현장에 설치한 뒤 사양대로 들어왔고 연결됐는지 확인하는 시험이다.**",
+      "choiceNotes": [
+        "틀리다 — 반대로 말했다.",
+        "옳다.",
+        "틀리다 — 출하 전 시험은 FAT다.",
+        "틀리다 — 장비 인수 시험이다.",
+        "틀리다 — 현장 설치·연결은 따로 확인한다."
+      ],
+      "source": "WK07 PDF p.51",
+      "tags": [
+        "FAT",
+        "SAT"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-043",
+      "type": "연결",
+      "question": "공정 자동화 시스템의 구분으로 옳은 것은?",
+      "choices": [
+        "MES는 현장 장비를 직접 제어하는 컨트롤러다",
+        "EBR은 종이로 쓰는 배치 기록이다",
+        "SCADA는 전자 배치 기록이다",
+        "PLC는 생산 일정을 관리하는 시스템이다",
+        "PLC는 장비를 직접 제어하고, MES는 생산 실행을 관리한다"
+      ],
+      "answer": 5,
+      "explanation": "**PLC는 현장 장비를 직접 제어하는 컨트롤러, SCADA는 이를 모아 감시·운전하는 상위 시스템이고, MES는 생산 실행을 관리하는 제조실행시스템, EBR은 종이 대신 전자로 쓰는 배치 기록이다.**",
+      "choiceNotes": [
+        "틀리다 — 그것은 PLC다.",
+        "틀리다 — 전자 배치 기록(Electronic Batch Record)이다.",
+        "틀리다 — SCADA는 장비를 모아 감시·운전하는 시스템이다.",
+        "틀리다 — 생산 실행 관리는 MES다.",
+        "옳다."
+      ],
+      "source": "WK07 PDF p.33, p.52",
+      "tags": [
+        "PLC / SCADA",
+        "MES / EBR"
+      ],
+      "part": 2
+    },
+    {
+      "id": "wk07-045",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "Q&V 순서 「URS → DQ → FAT → IQ → OQ → ( ) → PV」에서 빈칸은?",
+      "answers": [
+        "PQ",
+        "Performance Qualification",
+        "성능 적격성평가",
+        "성능 적격성 평가"
+      ],
+      "explanation": "**URS → DQ → FAT → IQ/SAT → OQ → PQ → PV 순서다.** 설비가 제대로 작동함(OQ)·성능을 냄(PQ)을 먼저 입증해야 공정 밸리데이션(PV)을 할 수 있다.",
+      "source": "WK07 PDF p.51 (Element 4: Qualification & Validation)",
+      "concepts": [
+        "PQ",
+        "Q&V"
+      ],
+      "tags": [
+        "PQ",
+        "Q&V"
+      ]
+    },
+    {
+      "id": "wk07-047",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "작업 중(operational)에도 비가동(at rest)과 같은 입자 기준을 지켜야 하는 청정 등급은?",
+      "answers": [
+        "A",
+        "Grade A",
+        "A등급",
+        "A 등급"
+      ],
+      "explanation": "**Grade A는 작업 중에도 비가동과 같은 기준을 지켜야 하고, B·C는 작업 중 허용 입자 수가 더 높다.** 비가동은 작업을 멈추고 15~20분 정화한 상태다.",
+      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational)",
+      "concepts": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ],
+      "tags": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ]
+    },
+    {
+      "id": "wk07-048",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "응축하면 주사용수 수준이 되며 장비 멸균(SIP)에 쓰는 증기는?",
+      "answers": [
+        "Pure steam",
+        "순수 증기",
+        "공정용 순수 증기",
+        "퓨어 스팀",
+        "순수증기"
+      ],
+      "explanation": "**Pure steam(공정용 순수 증기)은 제품 접촉면 멸균(SIP)에 쓰고, 응축하면 주사용수 수준이다.** Clean steam은 HVAC 가습용, Black steam은 난방용으로 제품에 닿지 않는다.",
+      "source": "WK07 PDF p.46, p.48",
+      "concepts": [
+        "Pure steam"
+      ],
+      "tags": [
+        "Pure steam"
+      ]
+    },
+    {
+      "id": "wk07-049",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "임상시험 중 소수의 건강한 사람에게 안전성을 확인하는 단계는?",
+      "answers": [
+        "1상",
+        "임상 1상",
+        "Phase I",
+        "Phase 1",
+        "제1상",
+        "1상 임상"
+      ],
+      "explanation": "**1상 안전성(소수 건강인) → 2상 효과·용량(환자) → 3상 대규모 확증 → 4상 시판 후 관찰.**",
+      "source": "WK07 PDF p.15 (Phases of clinical development)",
+      "concepts": [
+        "임상 1상 (Phase I)"
+      ],
+      "tags": [
+        "임상 1상 (Phase I)"
+      ]
+    },
+    {
+      "id": "wk07-051",
+      "type": "개념",
+      "part": 2,
+      "question": "Grade A만 작업 중에도 비가동 때와 같은 입자 기준을 지키는 이유는?",
+      "choices": [
+        "제품이 열린 채 노출되는 곳이라 작업 중 오염이 곧 제품 오염이 되어서",
+        "Grade A에는 사람이 전혀 없어서",
+        "Grade A에는 측정 장비를 둘 수 없어서",
+        "비가동 기준이 가동 기준보다 느슨해서",
+        "규정에 청정 등급 구분이 없어서"
+      ],
+      "answer": 1,
+      "explanation": "**Grade A는 무균 충전처럼 제품이 열린 상태로 노출되는 곳이라, 작업 중에도 비가동과 같은 기준을 지켜야 한다.** B·C는 작업 중 허용 입자 수가 더 높다.",
+      "choiceNotes": [
+        "옳다 — Grade A는 무균 충전처럼 제품이 열린 상태로 노출되는 곳이라, 작업 중에도 비가동과 같은 기준을 지켜야 한다",
+        "틀리다 — Grade A 주변에서도 사람이 작업한다(간섭).",
+        "틀리다 — Grade A도 입자·미생물을 측정한다.",
+        "틀리다 — 비가동 기준이 더 엄격하다.",
+        "틀리다 — 규정은 Grade A~D를 나눈다."
+      ],
+      "source": "WK07 PDF p.36–37 (Cleanroom Class: At rest / Operational) · WK07 PDF p.36 (Cleanroom Class) · 01 완제 PDF p.18",
+      "concepts": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ],
+      "tags": [
+        "Grade A",
+        "At rest",
+        "Operational"
+      ]
+    },
+    {
+      "id": "wk07-054",
+      "type": "개념",
+      "part": 1,
+      "question": "건설 용어 EPC의 세 글자가 뜻하는 것은?",
+      "choices": [
+        "Equipment·Process·Cleaning",
+        "Environment·Personnel·Control",
+        "Evaluation·Planning·Commissioning",
+        "Electric·Pressure·Cooling",
+        "Engineering(설계)·Procurement(구매)·Construction(시공)"
+      ],
+      "answer": 5,
+      "explanation": "**EPC = Engineering(설계) · Procurement(구매) · Construction(시공).** 건물을 짓는 모든 곳에서 쓰는 용어로, 셋을 한꺼번에 맡는 대형 EPC 회사도 있다.",
+      "choiceNotes": [
+        "틀리다 — EPC의 뜻이 아니다.",
+        "틀리다 — EPC의 뜻이 아니다.",
+        "틀리다 — EPC의 뜻이 아니다.",
+        "틀리다 — EPC의 뜻이 아니다.",
+        "옳다 — EPC = Engineering(설계) · Procurement(구매) · Construction(시공)."
+      ],
+      "source": "WK07 강의 녹음 14:58–21:09 (EPC)",
+      "concepts": [
+        "EPC"
+      ],
+      "tags": [
+        "EPC"
+      ]
+    },
+    {
+      "id": "wk07-055",
+      "type": "연결",
+      "part": 2,
+      "question": "준공과 완공의 구분으로 옳은 것은?",
+      "choices": [
+        "준공은 들어가 일해도 될 만큼 끝나 허가가 난 것, 완공은 공사가 완전히 끝난 것",
+        "준공은 공사 시작, 완공은 공사 중간",
+        "두 말은 같은 뜻이다",
+        "완공이 되어야만 준공 허가가 난다",
+        "준공은 설계 완료를 뜻한다"
+      ],
+      "answer": 1,
+      "explanation": "**완공은 공사가 완전히 끝난 것이고, 준공은 다 끝나지 않았어도 들어가 일하는 데 위험이 없을 만큼 끝나 허가가 떨어진 것이다.** 준공 직후 장비 반입·설치가 시작된다.",
+      "choiceNotes": [
+        "옳다 — 완공은 공사가 완전히 끝난 것이고, 준공은 다 끝나지 않았어도 들어가 일하는 데 위험이 없을 만큼 끝나 허가가 떨어진 것이다.",
+        "틀리다 — 뜻이 아니다.",
+        "틀리다 — 강의는 둘을 구분했다.",
+        "틀리다 — 준공은 완전히 끝나지 않아도 난다.",
+        "틀리다 — 공사 단계의 용어이다."
+      ],
+      "source": "WK07 강의 녹음 11:36–13:48 (준공 vs 완공)",
+      "concepts": [
+        "준공 vs 완공"
+      ],
+      "tags": [
+        "준공 vs 완공"
+      ]
+    },
+    {
+      "id": "wk07-056",
+      "type": "개념",
+      "part": 2,
+      "question": "소방법의 대피 동선 요구와 GMP 청정 동선이 부딪힐 때 강의에서 말한 해결은?",
+      "choices": [
+        "GMP를 우선해 대피 동선을 길게 둔다",
+        "소방법을 우선해 청정 구역을 없앤다",
+        "비상시에도 갱의 후 대피한다",
+        "GMP 동선과 별도로 비상 탈출구를 만든다",
+        "문을 모두 없앤다"
+      ],
+      "answer": 4,
+      "explanation": "**둘 다 중요하므로, 비상 상황에는 청정 상태를 무시하고 바로 나갈 수 있는 비상 탈출구를 따로 만든다.** 일반 건물과 GMP 공장의 큰 차이 중 하나이다.",
+      "choiceNotes": [
+        "틀리다 — 둘 다 중요하다고 했다.",
+        "틀리다 — 둘 다 만족시켜야 한다.",
+        "틀리다 — 비상시에는 클린룸을 무시하고 나간다.",
+        "옳다 — 둘 다 중요하므로, 비상 상황에는 청정 상태를 무시하고 바로 나갈 수 있는 비상 탈출구를 따로 만든다.",
+        "틀리다 — 해결책이 아니다."
+      ],
+      "source": "WK07 강의 녹음 21:27–23:18 (소방법 vs GMP)",
+      "concepts": [
+        "소방법",
+        "GMP 동선"
+      ],
+      "tags": [
+        "소방법",
+        "GMP 동선"
+      ]
+    },
+    {
+      "id": "wk07-057",
+      "type": "개념",
+      "part": 1,
+      "question": "강의에서 내린 \"프로젝트\"의 정의에 들어가는 세 가지 리소스는?",
+      "choices": [
+        "레진, 필터, 배지",
+        "돈, 사람, 시간",
+        "pH, DO, 온도",
+        "URS, FAT, PQ",
+        "Grade A, B, C"
+      ],
+      "answer": 2,
+      "explanation": "**프로젝트 = 많은 리소스(돈·사람·시간)를 들여 특정 목적을 달성하려는 노력.** 예: 약 1조 원, 수천 명, 5년.",
+      "choiceNotes": [
+        "틀리다 — 공정 자재이다.",
+        "옳다 — 프로젝트 = 많은 리소스(돈·사람·시간)를 들여 특정 목적을 달성하려는 노력.",
+        "틀리다 — 배양 파라미터이다.",
+        "틀리다 — Q&V 단계이다.",
+        "틀리다 — 청정 등급이다."
+      ],
+      "source": "WK07 강의 녹음 25:59–27:16 (Project의 정의)",
+      "concepts": [
+        "Project"
+      ],
+      "tags": [
+        "Project"
+      ]
+    },
+    {
+      "id": "wk07-059",
+      "type": "개념",
+      "part": 2,
+      "question": "공장 CD 단계에서 mass balance를 일찍 확정하는 이유는?",
+      "choices": [
+        "Mass balance가 정해져야 scheduling·장비 목록이 정해져서",
+        "Mass balance는 준공 뒤에야 정할 수 있어서",
+        "Mass balance는 디자인 색깔을 정해서",
+        "Mass balance가 있으면 URS가 필요 없어서",
+        "법으로 첫날 정하게 되어 있어서"
+      ],
+      "answer": 1,
+      "explanation": "**공정이 정해지면 mass balance → scheduling → equipment list·utility가 차례로 정해진다. 그래서 CD 초기(약 3주차)에 mass balance를 확정한다.**",
+      "choiceNotes": [
+        "옳다 — 공정이 정해지면 mass balance → scheduling → equipment list·utility가 차례로 정해진다. 그래서 CD 초기(약 3주차)에 mass balance를 확정한다.",
+        "틀리다 — CD 약 3주차에 확정한다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — URS도 필요하다.",
+        "틀리다 — 규정이 아니다."
+      ],
+      "source": "WK07 강의 녹음 36:09–36:32, 1:14:30–1:15:31",
+      "concepts": [
+        "Mass balance",
+        "Scheduling"
+      ],
+      "tags": [
+        "Mass balance",
+        "Scheduling"
+      ]
+    },
+    {
+      "id": "wk07-060",
+      "type": "개념",
+      "part": 2,
+      "question": "Seed train의 배지를 한 번에 몰아 만들지 않고 단계별로 적당히 묶어 만드는 이유는?",
+      "choices": [
+        "한꺼번에 만들면 무조건 더 싸서",
+        "배지는 하루만 지나도 법적으로 폐기해야 해서",
+        "단계별 배지 조성이 모두 달라서",
+        "한꺼번에 만들면 보관 공간·냉장·변성 확인 부담이 커서",
+        "배양기가 배지를 만들기 때문이라서"
+      ],
+      "answer": 4,
+      "explanation": "**N-5 배지까지 한꺼번에 만들면 큰 부피를 냉장 보관해야 하고 변성 여부도 계속 확인해야 한다. 그래서 초기 단계는 적당히 묶고, 큰 N-1·N은 시점에 맞춰 만든다.**",
+      "choiceNotes": [
+        "틀리다 — 보관 부담이 커진다.",
+        "틀리다 — 규정이 아니다.",
+        "틀리다 — 같은 basal medium이라 했다.",
+        "옳다 — N-5 배지까지 한꺼번에 만들면 큰 부피를 냉장 보관해야 하고 변성 여부도 계속 확인해야 한다. 그래서 초기 단계는 적당히 묶고, 큰 N-1·N은 시점에 맞춰 만든다.",
+        "틀리다 — 배지는 따로 만든다."
+      ],
+      "source": "WK07 강의 녹음 42:20–45:18 (배지 준비와 스케줄)",
+      "concepts": [
+        "Scheduling",
+        "Media prep"
+      ],
+      "tags": [
+        "Scheduling",
+        "Media prep"
+      ]
+    },
+    {
+      "id": "wk07-061",
+      "type": "개념",
+      "part": 2,
+      "question": "강의에서 장비와 사람을 \"놀지 않게\" scheduling해야 한다고 한 이유는?",
+      "choices": [
+        "장비는 쉬면 고장이 나서",
+        "장비 투자와 인건비가 쉬는 동안에도 들어서",
+        "GMP는 휴식을 금지해서",
+        "배양은 하루만 하면 끝나서",
+        "정제와 배양을 같은 사람이 해서"
+      ],
+      "answer": 2,
+      "explanation": "**장비와 인건비는 쉬는 동안에도 비용이 나간다 → 공정 사이 빈 시간을 다른 배치·제품으로 채우도록 일정과 공장 컨셉을 짠다.**",
+      "choiceNotes": [
+        "틀리다 — 이유로 든 것이 아니다.",
+        "옳다 — 장비와 인건비는 쉬는 동안에도 비용이 나간다 → 공정 사이 빈 시간을 다른 배치·제품으로 채우도록 일정과 공장 컨셉을 짠다.",
+        "틀리다 — 규정이 아니다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — 이유가 아니다."
+      ],
+      "source": "WK07 강의 녹음 1:10:42–1:14:30 (Scheduling)",
+      "concepts": [
+        "Scheduling"
+      ],
+      "tags": [
+        "Scheduling"
+      ]
+    },
+    {
+      "id": "wk07-065",
+      "type": "연결",
+      "part": 2,
+      "question": "GMP 관점에서 물류와 자재의 구분으로 강의와 맞는 것은?",
+      "choices": [
+        "장비는 물류, 원료는 자재가 관리한다",
+        "물류와 자재는 같은 팀이다",
+        "자재가 먼저 받고 물류가 나중에 관리한다",
+        "검사 중인 물건은 아무 곳에 둬도 된다",
+        "QC 입고 검사 전은 물류, 승인 뒤는 자재가 관리한다"
+      ],
+      "answer": 5,
+      "explanation": "**박스째 받는 것은 물류, QC 입고 검사(검사 중에는 quarantine zone) → 승인 뒤 생산에 쓰도록 자재가 관리. 출하 쪽은 반대로 자재 → QC 출하 승인 → 물류.**",
+      "choiceNotes": [
+        "틀리다 — 구분 기준이 아니다.",
+        "틀리다 — 검사 전후로 나뉜다.",
+        "틀리다 — 순서가 거꾸로이다.",
+        "틀리다 — quarantine zone에 따로 둔다.",
+        "옳다 — 박스째 받는 것은 물류, QC 입고 검사(검사 중에는 quarantine zone) → 승인 뒤 생산에 쓰도록 자재가 관리. 출하 쪽은 반대로 자재 → QC 출하 승인 → 물류."
+      ],
+      "source": "WK07 강의 녹음 2:16:30–2:20:33, 2:26:51–2:28:01",
+      "concepts": [
+        "물류 vs 자재",
+        "Quarantine"
+      ],
+      "tags": [
+        "물류 vs 자재",
+        "Quarantine"
+      ]
+    },
+    {
+      "id": "wk07-067",
+      "type": "개념",
+      "part": 2,
+      "question": "원료 100개를 받았는데 lot이 2개로 나뉘어 있다. 입고 QC는?",
+      "choices": [
+        "100개 모두 한 번에 1번만 한다",
+        "100번 한다",
+        "Lot마다 따로 2번 한다",
+        "하지 않아도 된다",
+        "공급사가 했으니 생략한다"
+      ],
+      "answer": 3,
+      "explanation": "**같은 lot은 균일하므로 한 번의 결과를 적용할 수 있지만 lot이 다르면 따로 해야 한다 → 2번.** 그래서 공급 계약에서 lot이 잘게 쪼개지지 않게 협의한다.",
+      "choiceNotes": [
+        "틀리다 — lot이 다르면 같은 결과를 적용할 수 없다.",
+        "틀리다 — lot이 2개면 2번이다.",
+        "옳다 — 같은 lot은 균일하므로 한 번의 결과를 적용할 수 있지만 lot이 다르면 따로 해야 한다 → 2번.",
+        "틀리다 — 입고 검사가 필요하다.",
+        "틀리다 — 입고 검사는 필요하다."
+      ],
+      "source": "WK07 강의 녹음 2:24:45–2:25:40",
+      "concepts": [
+        "Lot",
+        "입고 검사"
+      ],
+      "tags": [
+        "Lot",
+        "입고 검사"
+      ]
+    },
+    {
+      "id": "wk07-068",
+      "type": "개념",
+      "part": 2,
+      "question": "장비 어댑터의 전기 스펙에 대한 강의 설명으로 옳은 것은?",
+      "choices": [
+        "전압은 반드시 같아야 하고, 전류는 더 커도 된다",
+        "전류는 반드시 같아야 하고, 전압은 더 커도 된다",
+        "잭 모양만 맞으면 된다",
+        "전압·전류 모두 아무거나 된다",
+        "전류가 작을수록 좋다"
+      ],
+      "answer": 1,
+      "explanation": "**전압(V)이 다르면 장비가 고장 나고, 전류(A)는 필요량 이상이면 장비가 필요한 만큼만 당긴다. P = V × I, 큰 장비는 380 V로 전류를 낮춘다.**",
+      "choiceNotes": [
+        "옳다 — 전압(V)이 다르면 장비가 고장 나고, 전류(A)는 필요량 이상이면 장비가 필요한 만큼만 당긴다. P = V × I, 큰 장비는 380 V로 전류를 낮춘다.",
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 모양이 같아도 스펙이 다르면 고장 난다.",
+        "틀리다 — 전압이 다르면 연기가 난다.",
+        "틀리다 — 필요량 이상이어야 한다."
+      ],
+      "source": "WK07 강의 녹음 2:08:06–2:12:26 (전기 스펙)",
+      "concepts": [
+        "Electricity"
+      ],
+      "tags": [
+        "Electricity"
+      ]
+    },
+    {
+      "id": "wk07-069",
+      "type": "개념",
+      "part": 2,
+      "question": "세파(cephalosporin) 계열 항생제 생산에 대해 강의가 든 GMP 제한은?",
+      "choices": [
+        "세파는 어디서나 함께 만들 수 있다",
+        "세파는 클린룸 없이 만든다",
+        "세파는 바이러스라서 BSL이 필요하다",
+        "세파는 동결건조만 허용된다",
+        "알레르기 위험 때문에 주변 범위에서 다른 의약품 생산이 제한된다"
+      ],
+      "answer": 5,
+      "explanation": "**세파 계열은 알레르기 반응(수포, 호흡 곤란)이 심할 수 있어, 근처에서 세파를 만들면 일정 범위 안에서 다른 의약품을 만들지 못한다.** 공장 입지(site) 검토 요소이다.",
+      "choiceNotes": [
+        "틀리다 — 제한이 있다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — 항생제이다.",
+        "틀리다 — 관계없다.",
+        "옳다 — 세파 계열은 알레르기 반응(수포, 호흡 곤란)이 심할 수 있어, 근처에서 세파를 만들면 일정 범위 안에서 다른 의약품을 만들지 못한다."
+      ],
+      "source": "WK07 강의 녹음 2:13:10–2:14:17 (세파 항생제와 site)",
+      "concepts": [
+        "Site",
+        "Cephalosporin"
+      ],
+      "tags": [
+        "Site",
+        "Cephalosporin"
+      ]
+    },
+    {
+      "id": "wk07-070",
+      "type": "개념",
+      "part": 2,
+      "question": "돈가스 가게 비유에서 레시피가 먼저 확정되어야 하는 이유는?",
+      "choices": [
+        "레시피가 가게 인테리어를 정해서",
+        "레시피는 마지막에 정해도 되어서",
+        "레시피가 직원 이름을 정해서",
+        "레시피(공정)가 정해져야 PFD·장비 목록·유틸리티가 정해져서",
+        "레시피는 QC와 관계없어서"
+      ],
+      "answer": 4,
+      "explanation": "**공정(레시피)이 확정 → PFD → 규모(하루 500개) → 장비 크기·수 → 사람·유틸리티(전기·물) → 건물 규모 순으로 정해진다.**",
+      "choiceNotes": [
+        "틀리다 — 비유의 요지가 아니다.",
+        "틀리다 — 가장 먼저 정한다.",
+        "틀리다 — 관계없다.",
+        "옳다 — 공정(레시피)이 확정 → PFD → 규모(하루 500개) → 장비 크기·수 → 사람·유틸리티(전기·물) → 건물 규모 순으로 정해진다.",
+        "틀리다 — 비유의 요지가 아니다."
+      ],
+      "source": "WK07 강의 녹음 2:05:55–2:08:06 (돈가스 가게 비유)",
+      "concepts": [
+        "PFD",
+        "Equipment list"
+      ],
+      "tags": [
+        "PFD",
+        "Equipment list"
+      ]
+    },
+    {
+      "id": "wk07-072",
+      "type": "개념",
+      "part": 1,
+      "question": "7주차에서 \"URS만 잘 써도 취업된다\"고 한 이유로 맞는 것은?",
+      "choices": [
+        "URS는 시험 과목 이름이라서",
+        "URS를 쓰면 장비가 무료라서",
+        "장비를 정확히 알아야 쓸 수 있어 신입에게 URS부터 시켜서",
+        "URS는 영업 문서라서",
+        "URS는 준공 허가서라서"
+      ],
+      "answer": 3,
+      "explanation": "**공장을 운영할 사람을 키우려면 장비 구매(URS 작성)부터 시킨다. 세부 기능까지 적어야 해 어렵지만, 그걸 해 봐야 장비를 잘 돌릴 수 있다.** 채용 공고의 URS 경험 요구로 회사의 투자 계획을 짐작할 수도 있다.",
+      "choiceNotes": [
+        "틀리다 — 아니다.",
+        "틀리다 — 관계없다.",
+        "옳다 — 공장을 운영할 사람을 키우려면 장비 구매(URS 작성)부터 시킨다. 세부 기능까지 적어야 해 어렵지만, 그걸 해 봐야 장비를 잘 돌릴 수 있다.",
+        "틀리다 — 사용자 요구 규격서이다.",
+        "틀리다 — 관계없다."
+      ],
+      "source": "WK07 강의 녹음 2:50:28–2:52:16 (URS)",
+      "concepts": [
+        "URS"
+      ],
+      "tags": [
+        "URS"
+      ]
+    },
+    {
+      "id": "wk07-074",
+      "type": "단답",
+      "part": 3,
+      "question": "완전히 끝나지 않았어도 들어가 일해도 될 만큼 공사가 끝나 허가가 난 상태는?",
+      "format": "short",
+      "answers": [
+        "준공",
+        "준공허가",
+        "준공 허가"
+      ],
+      "explanation": "**준공이다.** 완공은 공사가 완전히 끝난 것.",
+      "source": "WK07 강의 녹음 11:36–13:48",
+      "concepts": [
+        "준공 vs 완공"
+      ],
+      "tags": [
+        "준공 vs 완공"
+      ]
+    },
+    {
+      "id": "wk07-075",
+      "type": "단답",
+      "part": 3,
+      "question": "사용자가 필요한 장비의 요구 사항을 자세히 적는 문서(V-model의 시작)의 약어는?",
+      "format": "short",
+      "answers": [
+        "URS",
+        "User Requirement Specification",
+        "사용자 요구 규격서",
+        "사용자요구규격"
+      ],
+      "explanation": "**URS(User Requirement Specification)이다.**",
+      "source": "WK07 강의 녹음 2:50:28–2:51:00",
+      "concepts": [
+        "URS"
+      ],
+      "tags": [
+        "URS"
+      ]
+    },
+    {
+      "id": "wk07-076",
+      "type": "단답",
+      "part": 3,
+      "question": "V-model에서 장비를 동작시켜 기능을 확인하는 단계(예: pH 1~14 여러 점 확인)의 약어는?",
+      "format": "short",
+      "answers": [
+        "OQ",
+        "Operational Qualification",
+        "운전 적격성평가",
+        "운전적격성평가"
+      ],
+      "explanation": "**OQ(Operational Qualification)이다.** IQ는 설치, PQ는 실제 공정 조건.",
+      "source": "WK07 강의 녹음 2:56:42–2:57:31",
+      "concepts": [
+        "OQ"
+      ],
+      "tags": [
+        "OQ"
+      ]
+    },
+    {
+      "id": "wk07-077",
+      "type": "단답",
+      "part": 3,
+      "question": "GMP(양압)와 BSL(음압)을 함께 만족시키려고 두 공간 사이에 압력을 따로 둔 중간 공간은?",
+      "format": "short",
+      "answers": [
+        "Airlock",
+        "에어락",
+        "에어록"
+      ],
+      "explanation": "**Airlock이다.**",
+      "source": "WK07 강의 녹음 1:19:10–1:23:36",
+      "concepts": [
+        "Airlock"
+      ],
+      "tags": [
+        "Airlock"
+      ]
     }
   ]
 }
