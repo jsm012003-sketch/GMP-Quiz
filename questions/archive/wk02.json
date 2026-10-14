@@ -1923,6 +1923,129 @@
         "kLa",
         "OTR/OUR"
       ]
+    },
+    {
+      "id": "wk02-093",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "100 L 배양기에 교반 동력 30 W를 넣을 때 P/V(W/m³)를 구하시오.",
+      "num": 300,
+      "answers": [
+        "300 W/m³",
+        "300"
+      ],
+      "explanation": "**P/V = 30 W ÷ 0.1 m³ = 300 W/m³(= 0.3 W/L)이다.** 1 m³ = 1,000 L.",
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed)",
+      "concepts": [
+        "P/V"
+      ],
+      "tags": [
+        "P/V"
+      ]
+    },
+    {
+      "id": "wk02-094",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 scale-up에서 1) 소규모 배양기의 P/V와 2) 생산 배양기에 필요한 교반 동력을 구하시오.",
+      "box": [
+        "20 L 배양기에서 교반 동력 4 W로 잘 배양됐다. 같은 P/V로 2,000 L 생산 배양기로 옮긴다."
+      ],
+      "subs": [
+        {
+          "label": "소규모 P/V (W/m³)",
+          "num": 200,
+          "answers": [
+            "200",
+            "200 W/m³"
+          ]
+        },
+        {
+          "label": "생산 배양기 교반 동력 (W)",
+          "num": 400,
+          "answers": [
+            "400",
+            "400 W"
+          ]
+        }
+      ],
+      "answers": [
+        "1) 200 W/m³  2) 400 W"
+      ],
+      "explanation": "**1) 4 W ÷ 0.02 m³ = 200 W/m³, 2) 200 W/m³ × 2 m³ = 400 W다.** 같은 P/V면 동력은 부피에 비례한다.",
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed) · WK02 강의 녹음 02:35:42–02:36:14",
+      "concepts": [
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "P/V",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "wk02-095",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "다음 배양에서 1) 현재 OTR과 2) OUR 2.4 mmol/L/h를 감당할 최소 kLa를 구하시오. (OTR = kLa(C*−C))",
+      "box": [
+        "kLa 15 h⁻¹, 포화 용존산소 C* 0.20 mmol/L, 배양액 용존산소 C 0.08 mmol/L (2)에서도 C*−C는 그대로)"
+      ],
+      "subs": [
+        {
+          "label": "현재 OTR (mmol/L/h)",
+          "num": 1.8,
+          "answers": [
+            "1.8",
+            "1.8 mmol/L/h"
+          ]
+        },
+        {
+          "label": "최소 kLa (h⁻¹)",
+          "num": 20,
+          "answers": [
+            "20",
+            "20 h⁻¹"
+          ]
+        }
+      ],
+      "answers": [
+        "1) 1.8 mmol/L/h  2) 20 h⁻¹"
+      ],
+      "explanation": "**1) 15 × (0.20 − 0.08) = 1.8 mmol/L/h, 2) OTR ≥ OUR이려면 kLa ≥ 2.4 ÷ 0.12 = 20 h⁻¹이다(일반 원리).** 지금 OTR(1.8)이 OUR(2.4)보다 작아 교반(P/V)·통기를 올려 kLa를 높여야 한다.",
+      "source": "WK02 PDF p.93–97 (kLa, OTR ≥ OUR)",
+      "concepts": [
+        "kLa",
+        "OTR/OUR"
+      ],
+      "tags": [
+        "kLa",
+        "OTR/OUR"
+      ]
+    },
+    {
+      "id": "wk02-096",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "question": "Impeller 지름 0.5 m, 120 rpm일 때 tip speed(πND, m/s)를 구하시오. (π = 3.14)",
+      "num": 3.14,
+      "answers": [
+        "3.14 m/s",
+        "3.14"
+      ],
+      "tol": 0.03,
+      "explanation": "**Tip speed = 3.14 × 0.5 m × (120/60) s⁻¹ = 3.14 m/s다.** rpm을 초당 회전수로 바꾸는 것을 잊지 않는다.",
+      "source": "WK02 PDF p.89, p.92 (P/V, Tip speed)",
+      "concepts": [
+        "Tip speed"
+      ],
+      "tags": [
+        "Tip speed"
+      ]
     }
   ]
 }

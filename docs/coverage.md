@@ -400,12 +400,14 @@ PDF가 두 파일(1–80쪽, 81–160쪽)로 왔으며, `source`의 쪽 번호�
 
 ## 계산 문항 (PART II, 2026.10.12 — 사용자 요청)
 
-실제 시험에 kLa·P/V 같은 계산과 「슬라이드 숫자만 바꾼」 생산 규모·titer 문제가 나올 수 있어 대표 공식만 낸다. 한두 단계 곱셈·나눗셈, 공식은 문제에 괄호로 주고, 오답은 흔한 실수(단위 변환·반지름↔지름·곱↔나눗셈·cycle 수 누락). 시험지에는 50문항당 2개 이상 들어간다(`STYLE_MIX.calcMin`).
+실제 시험에 kLa·P/V 같은 계산과 「슬라이드 숫자만 바꾼」 생산 규모·titer 문제가 나올 수 있어 대표 공식만 낸다. 한두 단계 곱셈·나눗셈, 공식은 문제에 괄호로 주고, 오답은 흔한 실수(단위 변환·반지름↔지름·곱↔나눗셈·cycle 수 누락). 시험지에는 50문항당 3개 이상 들어간다(`STYLE_MIX.calcMin`, 객관식·주관식 섞임). 주관식(PART III 단답형, 2026.10.13)은 숫자로 채점하고(`num`, 단위·쉼표 무시, 기본 오차 2 %), 여러 값을 묻는 문제는 「1) … 2) …」 칸을 나눈다(`subs`).
 
 | 단원 | 문항 | 묻는 것 |
 |---|---|---|
 | WK02 | wk02-086 ~ wk02-092 | P/V(W/m³), 같은 P/V로 큰 배양기 동력, 같은 P/V의 rpm(P/V ∝ N³D², 지름 8배 → rpm 1/4), tip speed(πND), 같은 rpm에서 tip speed 배수, OTR = kLa(C*−C), OTR ≥ OUR의 최소 kLa |
 | WK06 | wk06-064 ~ wk06-072, wk06-074, wk06-075 | 생산량 = 부피 × titer, titer = 항체 양 ÷ 부피, 컬럼 부피(π r² h), cycle당 처리량, cycles per batch, Protein A 처리량으로 titer·배양 규모 구하기, 버퍼 총량(CV 수 × CV × cycle), 용출 농도, residence time, 같은 linear velocity에서 부피 유속 |
+| WK02 (주관식) | wk02-093 ~ wk02-096 | P/V, 1) 소규모 P/V 2) 같은 P/V의 생산 배양기 동력, 1) OTR 2) 최소 kLa, tip speed |
+| WK06 (주관식) | wk06-076 ~ wk06-081 | 1) 한 배치 항체 양 2) 배양기 생산 부피, 1) 처리한 항체 양 2) titer, 1) 레진 부피 2) cycle 처리량, 1) equilibration 2) elution buffer 총량, 용출 농도, residence time |
 | WK06 | wk06-073 (개념) | Protein A 컬럼 지름을 키우면 cycle·공정 시간↓, 버퍼 총량↑, 용출 농도↓(슬라이드 Example: Impact of Protein A column volume) |
 
 미출제 후보(계산): VVM(통기량), DF 부피(diavolume) 수, 필터 면적(부피 ÷ capacity), LRV 합산.
@@ -439,6 +441,21 @@ int-011 ~ int-015: Ballroom 밀폐 붕괴 대응, titer 상승 → 하류·시�
 int-019 ~ int-020(개념 구분): CIP·SIP·VHP, bracketing·worst case·design space.
 
 int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방지(배양기 vs WFI 탱크), 제균 필터 무결성 시험 시점(GMP01 + WK04), ATF·TFF의 retentate/permeate.
+
+## 핵심 용어 (2026.10.14 복원 — `core-*.json`, 246문항)
+
+리뉴얼 때 출제 범위에서 뺀 용어 문항(805문항) 중 핵심만 다시 넣었다. 용어집 `"short": true` 핵심 용어 178개의 객관식(d/r) 1문항씩 + 그중 약어 용어 68개의 단답형. 짝짓기는 넣지 않았다. id는 `terms-*.json`과 같다.
+
+| 단원 | 문항 | 객관식 | 단답형(약어) |
+|---|---|---|---|
+| WK02 | 47 | 32 | 15 |
+| WK03 | 21 | 16 | 5 |
+| WK04 | 45 | 36 | 9 |
+| GMP01 | 16 | 13 | 3 |
+| GMP02 | 18 | 12 | 6 |
+| GMP03 | 18 | 12 | 6 |
+| WK06 | 33 | 21 | 12 |
+| WK07 | 48 | 36 | 12 |
 
 ## 용어 정리 (PART I + 단답형 PART III, 자동 생성)
 

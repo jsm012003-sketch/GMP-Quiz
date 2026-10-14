@@ -817,3 +817,9 @@ table.data.mini th { color: var(--text); font-size: .84rem; }
 .pkey-short-title { font-weight: 700; margin: 12px 0 4px; }
 .pkey-short { margin: 0; padding-left: 2.2em; columns: 2; column-gap: 24px; font-size: .92rem; }
 .pkey-short b { color: var(--pen-red); }
+/* 계산 단답형 소문항 칸 (2026.10.13) */
+.short-subs { display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.short-sub { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.short-sub > span { font-weight: 600; min-width: 9em; }
+.short-sub .short-input { flex: 1; min-width: 8em; }
+.sub-ans { display: inline-block; margin-right: 12px; }

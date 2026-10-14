@@ -1,0 +1,504 @@
+{
+ "week": "GMP01",
+ "title": "GMP01 핵심 용어",
+ "lecture": "01 완제 PDF 핵심 용어 (자동 생성: tools/build_terms.py — 용어집의 short·core 표시로 고른다)",
+ "questions": [
+  {
+   "id": "tg01d-001",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "주성분에 부형제를 더해 환자가 실제로 쓰는 최종 형태의 약."
+   ],
+   "choices": [
+    "API (Active Pharmaceutical Ingredient)",
+    "완제의약품 (Drug Product)",
+    "부형제 (Excipient)",
+    "Grade A",
+    "충전 (Filling)"
+   ],
+   "answer": 2,
+   "explanation": "**완제의약품 (Drug Product)** — 주성분에 부형제를 더해 환자가 실제로 쓰는 최종 형태의 약.",
+   "choiceNotes": [
+    "틀리다 — API (Active Pharmaceutical Ingredient): 약효를 나타내는 주성분.",
+    "정답 — 주성분에 부형제를 더해 환자가 실제로 쓰는 최종 형태의 약.",
+    "틀리다 — 부형제 (Excipient): 약효 없이 안정성·사용성을 높이려고 주성분과 함께 넣는 물질.",
+    "틀리다 — Grade A: 무균 충전이 일어나는 가장 엄격한 청정 구역.",
+    "틀리다 — 충전 (Filling): 제품을 정해진 양만큼 용기에 담는 공정."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.4",
+   "concepts": [
+    "완제의약품"
+   ],
+   "tags": [
+    "용어",
+    "완제의약품"
+   ]
+  },
+  {
+   "id": "tg01r-002",
+   "type": "용어",
+   "part": 1,
+   "question": "「API (Active Pharmaceutical Ingredient)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "정제·주사제처럼 투여하기 알맞게 만든 약의 형태",
+    "약효 없이 안정성·사용성을 높이려고 주성분과 함께 넣는 물질",
+    "연고·패치처럼 피부나 점막에 바르거나 붙이는 약",
+    "충전량이 규격보다 많거나 적은 불량",
+    "약효를 나타내는 주성분"
+   ],
+   "answer": 5,
+   "explanation": "**API (Active Pharmaceutical Ingredient)** — 약효를 나타내는 주성분.",
+   "choiceNotes": [
+    "틀리다 — 제형 (Dosage form)의 설명이다.",
+    "틀리다 — 부형제 (Excipient)의 설명이다.",
+    "틀리다 — 외용제의 설명이다.",
+    "틀리다 — 과충전 / 미충전의 설명이다.",
+    "정답 — 이 용어의 정의다."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.10–11",
+   "concepts": [
+    "API"
+   ],
+   "tags": [
+    "용어",
+    "API"
+   ]
+  },
+  {
+   "id": "tg01s-002",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "약효를 나타내는 주성분."
+   ],
+   "answers": [
+    "API",
+    "Active Pharmaceutical Ingredient",
+    "API (Active Pharmaceutical Ingredient)",
+    "원료의약품",
+    "주성분"
+   ],
+   "explanation": "**API (Active Pharmaceutical Ingredient)** — 약효를 나타내는 주성분.\n정답으로 인정하는 표기: API · Active Pharmaceutical Ingredient · API (Active Pharmaceutical Ingredient) · 원료의약품 · 주성분 (띄어쓰기·대소문자 무시)",
+   "source": "01 완제의약품 제조 공정 PDF p.10–11",
+   "concepts": [
+    "API"
+   ],
+   "tags": [
+    "용어",
+    "API"
+   ]
+  },
+  {
+   "id": "tg01d-003",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "약효 없이 안정성·사용성을 높이려고 주성분과 함께 넣는 물질."
+   ],
+   "choices": [
+    "완제의약품 (Drug Product)",
+    "제형 (Dosage form)",
+    "바이알 (Vial)",
+    "과교반 (Over-agitation)",
+    "부형제 (Excipient)"
+   ],
+   "answer": 5,
+   "explanation": "**부형제 (Excipient)** — 약효 없이 안정성·사용성을 높이려고 주성분과 함께 넣는 물질.",
+   "choiceNotes": [
+    "틀리다 — 완제의약품 (Drug Product): 주성분에 부형제를 더해 환자가 실제로 쓰는 최종 형태의 약.",
+    "틀리다 — 제형 (Dosage form): 정제·주사제처럼 투여하기 알맞게 만든 약의 형태.",
+    "틀리다 — 바이알 (Vial): 고무마개를 끼우고 알루미늄 캡으로 밀봉하는 유리병.",
+    "틀리다 — 과교반 (Over-agitation): 너무 세게·오래 섞어 거품과 단백질 변성이 생기는 것.",
+    "정답 — 약효 없이 안정성·사용성을 높이려고 주성분과 함께 넣는 물질."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.10",
+   "concepts": [
+    "부형제"
+   ],
+   "tags": [
+    "용어",
+    "부형제"
+   ]
+  },
+  {
+   "id": "tg01d-009",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "용기에 담아 밀봉한 뒤 용기째 열로 멸균하는 방법."
+   ],
+   "choices": [
+    "무균조작법 (Aseptic processing)",
+    "필터 완전성 시험 (Filter integrity test)",
+    "완제의약품 (Drug Product)",
+    "최종멸균법 (Terminal sterilization)",
+    "Grade B"
+   ],
+   "answer": 4,
+   "explanation": "**최종멸균법 (Terminal sterilization)** — 용기에 담아 밀봉한 뒤 용기째 열로 멸균하는 방법.",
+   "choiceNotes": [
+    "틀리다 — 무균조작법 (Aseptic processing): 열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법.",
+    "틀리다 — 필터 완전성 시험 (Filter integrity test): 필터가 손상 없이 제 성능을 내는지 사용 전·후에 확인하는 시험.",
+    "틀리다 — 완제의약품 (Drug Product): 주성분에 부형제를 더해 환자가 실제로 쓰는 최종 형태의 약.",
+    "정답 — 용기에 담아 밀봉한 뒤 용기째 열로 멸균하는 방법.",
+    "틀리다 — Grade B: 무균 충전 구역을 둘러싼 배경 청정 구역."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.7",
+   "concepts": [
+    "최종멸균법"
+   ],
+   "tags": [
+    "용어",
+    "최종멸균법"
+   ]
+  },
+  {
+   "id": "tg01d-010",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법."
+   ],
+   "choices": [
+    "필터 완전성 시험 (Filter integrity test)",
+    "SAL (Sterility Assurance Level)",
+    "무균조작법 (Aseptic processing)",
+    "Batch Record (제조기록서)",
+    "경구 고형제"
+   ],
+   "answer": 3,
+   "explanation": "**무균조작법 (Aseptic processing)** — 열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법.",
+   "choiceNotes": [
+    "틀리다 — 필터 완전성 시험 (Filter integrity test): 필터가 손상 없이 제 성능을 내는지 사용 전·후에 확인하는 시험.",
+    "틀리다 — SAL (Sterility Assurance Level): 멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하).",
+    "정답 — 열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법.",
+    "틀리다 — Batch Record (제조기록서): 배치마다 누가 언제 무엇을 어떻게 했는지 적은 문서.",
+    "틀리다 — 경구 고형제: 정제·캡슐처럼 입으로 먹는 고체 형태의 약."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.7",
+   "concepts": [
+    "무균조작법"
+   ],
+   "tags": [
+    "용어",
+    "무균조작법"
+   ]
+  },
+  {
+   "id": "tg01r-011",
+   "type": "용어",
+   "part": 1,
+   "question": "「SAL (Sterility Assurance Level)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법",
+    "멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하)",
+    "용기에 담아 밀봉한 뒤 용기째 열로 멸균하는 방법",
+    "무균 충전 구역을 둘러싼 배경 청정 구역",
+    "산·염기가 들어와도 pH가 크게 변하지 않게 버티는 부형제"
+   ],
+   "answer": 2,
+   "explanation": "**SAL (Sterility Assurance Level)** — 멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하).",
+   "choiceNotes": [
+    "틀리다 — 무균조작법 (Aseptic processing)의 설명이다.",
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — 최종멸균법 (Terminal sterilization)의 설명이다.",
+    "틀리다 — Grade B의 설명이다.",
+    "틀리다 — 완충제 (Buffer)의 설명이다."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.7",
+   "concepts": [
+    "SAL"
+   ],
+   "tags": [
+    "용어",
+    "SAL"
+   ]
+  },
+  {
+   "id": "tg01s-011",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하)."
+   ],
+   "answers": [
+    "SAL",
+    "Sterility Assurance Level",
+    "SAL (Sterility Assurance Level)",
+    "멸균 보증 수준"
+   ],
+   "explanation": "**SAL (Sterility Assurance Level)** — 멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하).\n정답으로 인정하는 표기: SAL · Sterility Assurance Level · SAL (Sterility Assurance Level) · 멸균 보증 수준 (띄어쓰기·대소문자 무시)",
+   "source": "01 완제의약품 제조 공정 PDF p.7",
+   "concepts": [
+    "SAL"
+   ],
+   "tags": [
+    "용어",
+    "SAL"
+   ]
+  },
+  {
+   "id": "tg01d-013",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "필터가 손상 없이 제 성능을 내는지 사용 전·후에 확인하는 시험."
+   ],
+   "choices": [
+    "무균조작법 (Aseptic processing)",
+    "SAL (Sterility Assurance Level)",
+    "반마개 (Partial stoppering)",
+    "필터 완전성 시험 (Filter integrity test)",
+    "교차오염 (Cross-contamination)"
+   ],
+   "answer": 4,
+   "explanation": "**필터 완전성 시험 (Filter integrity test)** — 필터가 손상 없이 제 성능을 내는지 사용 전·후에 확인하는 시험.",
+   "choiceNotes": [
+    "틀리다 — 무균조작법 (Aseptic processing): 열에 약한 약을 무균 여과해 무균 환경에서 충전하는 방법.",
+    "틀리다 — SAL (Sterility Assurance Level): 멸균 후 미생물이 살아 있을 확률(주사제는 10⁻⁶ 이하).",
+    "틀리다 — 반마개 (Partial stoppering): 동결건조 중 수증기가 빠지도록 고무마개를 덜 끼운 상태.",
+    "정답 — 필터가 손상 없이 제 성능을 내는지 사용 전·후에 확인하는 시험.",
+    "틀리다 — 교차오염 (Cross-contamination): 다른 제품·물질이 섞여 들어가 오염되는 것."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.13",
+   "concepts": [
+    "필터 완전성 시험"
+   ],
+   "tags": [
+    "용어",
+    "필터 완전성 시험"
+   ]
+  },
+  {
+   "id": "tg01d-017",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "조제 후 다음 공정까지 보관할 수 있는 최대 시간."
+   ],
+   "choices": [
+    "혼합 (Compounding)",
+    "칭량 (Weighing)",
+    "Hold time (보관 허용 시간)",
+    "주사제",
+    "앰플 (Ampoule)"
+   ],
+   "answer": 3,
+   "explanation": "**Hold time (보관 허용 시간)** — 조제 후 다음 공정까지 보관할 수 있는 최대 시간.",
+   "choiceNotes": [
+    "틀리다 — 혼합 (Compounding): 주성분과 부형제를 정확한 비율로 섞어 균일한 약액을 만드는 공정.",
+    "틀리다 — 칭량 (Weighing): 원료를 확인하고 정해진 양을 정확히 다는 단계.",
+    "정답 — 조제 후 다음 공정까지 보관할 수 있는 최대 시간.",
+    "틀리다 — 주사제: 혈관·근육에 직접 넣어 무균이 절대 기준인 약.",
+    "틀리다 — 앰플 (Ampoule): 유리 끝을 불로 녹여 붙여 밀봉하는 유리 용기."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.12–13",
+   "concepts": [
+    "Hold time"
+   ],
+   "tags": [
+    "용어",
+    "Hold time"
+   ]
+  },
+  {
+   "id": "tg01d-030",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "얼린 뒤 압력을 낮춰 얼음을 수증기로 날려 말리는 공정."
+   ],
+   "choices": [
+    "알루미늄 캡핑 (Crimping)",
+    "반마개 (Partial stoppering)",
+    "동결건조 (Lyophilization)",
+    "과교반 (Over-agitation)",
+    "교차오염 (Cross-contamination)"
+   ],
+   "answer": 3,
+   "explanation": "**동결건조 (Lyophilization)** — 얼린 뒤 압력을 낮춰 얼음을 수증기로 날려 말리는 공정.",
+   "choiceNotes": [
+    "틀리다 — 알루미늄 캡핑 (Crimping): 바이알 고무마개 위를 금속 캡으로 말아 눌러 고정하는 단계.",
+    "틀리다 — 반마개 (Partial stoppering): 동결건조 중 수증기가 빠지도록 고무마개를 덜 끼운 상태.",
+    "정답 — 얼린 뒤 압력을 낮춰 얼음을 수증기로 날려 말리는 공정.",
+    "틀리다 — 과교반 (Over-agitation): 너무 세게·오래 섞어 거품과 단백질 변성이 생기는 것.",
+    "틀리다 — 교차오염 (Cross-contamination): 다른 제품·물질이 섞여 들어가 오염되는 것."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.16",
+   "concepts": [
+    "동결건조"
+   ],
+   "tags": [
+    "용어",
+    "동결건조"
+   ]
+  },
+  {
+   "id": "tg01r-031",
+   "type": "용어",
+   "part": 1,
+   "question": "「CCI (Container Closure Integrity)」에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "용기와 마개가 새지 않고 미생물을 막을 만큼 밀봉된 상태",
+    "충전 중 용기 무게로 충전량이 규격 안인지 확인하는 시험",
+    "충전량이 규격보다 많거나 적은 불량",
+    "산·염기가 들어와도 pH가 크게 변하지 않게 버티는 부형제",
+    "주성분과 부형제를 정확한 비율로 섞어 균일한 약액을 만드는 공정"
+   ],
+   "answer": 1,
+   "explanation": "**CCI (Container Closure Integrity)** — 용기와 마개가 새지 않고 미생물을 막을 만큼 밀봉된 상태.",
+   "choiceNotes": [
+    "정답 — 이 용어의 정의다.",
+    "틀리다 — IPC 중량검사의 설명이다.",
+    "틀리다 — 과충전 / 미충전의 설명이다.",
+    "틀리다 — 완충제 (Buffer)의 설명이다.",
+    "틀리다 — 혼합 (Compounding)의 설명이다."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.19",
+   "concepts": [
+    "CCI"
+   ],
+   "tags": [
+    "용어",
+    "CCI"
+   ]
+  },
+  {
+   "id": "tg01s-031",
+   "type": "단답",
+   "part": 3,
+   "format": "short",
+   "question": "다음 설명에 해당하는 용어를 쓰시오.",
+   "box": [
+    "용기와 마개가 새지 않고 미생물을 막을 만큼 밀봉된 상태."
+   ],
+   "answers": [
+    "CCI",
+    "Container Closure Integrity",
+    "CCI (Container Closure Integrity)",
+    "밀봉 완전성",
+    "용기 마개 완전성"
+   ],
+   "explanation": "**CCI (Container Closure Integrity)** — 용기와 마개가 새지 않고 미생물을 막을 만큼 밀봉된 상태.\n정답으로 인정하는 표기: CCI · Container Closure Integrity · CCI (Container Closure Integrity) · 밀봉 완전성 · 용기 마개 완전성 (띄어쓰기·대소문자 무시)",
+   "source": "01 완제의약품 제조 공정 PDF p.19",
+   "concepts": [
+    "CCI"
+   ],
+   "tags": [
+    "용어",
+    "CCI"
+   ]
+  },
+  {
+   "id": "tg01d-032",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "충전한 모든 용기를 하나하나 검사해 불량품을 빼는 것."
+   ],
+   "choices": [
+    "전수검사 (100 % inspection)",
+    "CCI (Container Closure Integrity)",
+    "IPC 중량검사",
+    "동결건조 (Lyophilization)",
+    "API (Active Pharmaceutical Ingredient)"
+   ],
+   "answer": 1,
+   "explanation": "**전수검사 (100 % inspection)** — 충전한 모든 용기를 하나하나 검사해 불량품을 빼는 것.",
+   "choiceNotes": [
+    "정답 — 충전한 모든 용기를 하나하나 검사해 불량품을 빼는 것.",
+    "틀리다 — CCI (Container Closure Integrity): 용기와 마개가 새지 않고 미생물을 막을 만큼 밀봉된 상태.",
+    "틀리다 — IPC 중량검사: 충전 중 용기 무게로 충전량이 규격 안인지 확인하는 시험.",
+    "틀리다 — 동결건조 (Lyophilization): 얼린 뒤 압력을 낮춰 얼음을 수증기로 날려 말리는 공정.",
+    "틀리다 — API (Active Pharmaceutical Ingredient): 약효를 나타내는 주성분."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.19",
+   "concepts": [
+    "전수검사"
+   ],
+   "tags": [
+    "용어",
+    "전수검사"
+   ]
+  },
+  {
+   "id": "tg01d-035",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "무균 충전이 일어나는 가장 엄격한 청정 구역."
+   ],
+   "choices": [
+    "미디어 필 (Media fill)",
+    "Grade A",
+    "Grade B",
+    "경구 고형제",
+    "주사제"
+   ],
+   "answer": 2,
+   "explanation": "**Grade A** — 무균 충전이 일어나는 가장 엄격한 청정 구역.",
+   "choiceNotes": [
+    "틀리다 — 미디어 필 (Media fill): 제품 대신 배지를 충전해 무균 작업에 오염이 없는지 확인하는 시험.",
+    "정답 — 무균 충전이 일어나는 가장 엄격한 청정 구역.",
+    "틀리다 — Grade B: 무균 충전 구역을 둘러싼 배경 청정 구역.",
+    "틀리다 — 경구 고형제: 정제·캡슐처럼 입으로 먹는 고체 형태의 약.",
+    "틀리다 — 주사제: 혈관·근육에 직접 넣어 무균이 절대 기준인 약."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.18",
+   "concepts": [
+    "Grade A"
+   ],
+   "tags": [
+    "용어",
+    "Grade A"
+   ]
+  },
+  {
+   "id": "tg01d-038",
+   "type": "용어",
+   "part": 1,
+   "question": "다음 설명에 해당하는 용어는?",
+   "box": [
+    "제품 대신 배지를 충전해 무균 작업에 오염이 없는지 확인하는 시험."
+   ],
+   "choices": [
+    "환경 모니터링 (EM)",
+    "무균 갱의 (Aseptic gowning)",
+    "반마개 (Partial stoppering)",
+    "미디어 필 (Media fill)",
+    "동결건조 (Lyophilization)"
+   ],
+   "answer": 4,
+   "explanation": "**미디어 필 (Media fill)** — 제품 대신 배지를 충전해 무균 작업에 오염이 없는지 확인하는 시험.",
+   "choiceNotes": [
+    "틀리다 — 환경 모니터링 (EM): 부유입자·부유균·낙하균·차압을 계속 재서 청정 상태를 감시하는 활동.",
+    "틀리다 — 무균 갱의 (Aseptic gowning): 무균 구역에 들어가기 전 정해진 절차로 무균복을 입는 것.",
+    "틀리다 — 반마개 (Partial stoppering): 동결건조 중 수증기가 빠지도록 고무마개를 덜 끼운 상태.",
+    "정답 — 제품 대신 배지를 충전해 무균 작업에 오염이 없는지 확인하는 시험.",
+    "틀리다 — 동결건조 (Lyophilization): 얼린 뒤 압력을 낮춰 얼음을 수증기로 날려 말리는 공정."
+   ],
+   "source": "01 완제의약품 제조 공정 PDF p.18",
+   "concepts": [
+    "미디어 필"
+   ],
+   "tags": [
+    "용어",
+    "미디어 필"
+   ]
+  }
+ ]
+}
