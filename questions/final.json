@@ -1,0 +1,3143 @@
+{
+  "week": "FINAL",
+  "title": "시험 적중 파이널 모의고사 (계산·고난도)",
+  "lecture": "출제 예상 키워드의 계산 문항과 이유·상황 판단 고난도 문항 — 2~7주차 전 범위 (2026.10.14 작성, 시험 직전 대비용)",
+  "questions": [
+    {
+      "id": "fin-001",
+      "type": "계산",
+      "part": 2,
+      "question": "두 peak의 retention volume이 12 mL와 16 mL, 바닥 폭이 1.6 mL와 2.4 mL이다. Rs는? (Rs = ΔV_R ÷ 평균 W_b)",
+      "choices": [
+        "1.0",
+        "0.5",
+        "4.0",
+        "3.5",
+        "2.0"
+      ],
+      "answer": 5,
+      "explanation": "**Rs = (16 − 12) ÷ [(1.6 + 2.4) ÷ 2] = 4 ÷ 2 = 2.0.** 1.5보다 크므로 바닥까지 갈라진다(순도 99.9 % 이상 수준).",
+      "choiceNotes": [
+        "틀리다 — 분모에 폭의 합(4.0)을 그대로 넣은 실수.",
+        "틀리다 — 분자와 분모를 뒤집은 실수.",
+        "틀리다 — 분모를 빠뜨린 실수.",
+        "틀리다 — 두 V_R의 평균(14)을 폭의 합(4)으로 나눈 실수.",
+        "옳다 — 4 ÷ [(1.6 + 2.4) ÷ 2] = 4 ÷ 2 = 2.0."
+      ],
+      "source": "WK03 교재 1.16 (분해능)",
+      "concepts": [
+        "Resolution"
+      ],
+      "tags": [
+        "Resolution"
+      ]
+    },
+    {
+      "id": "fin-002",
+      "type": "계산",
+      "part": 2,
+      "question": "Retention volume 20 mL와 23 mL, 바닥 폭이 둘 다 2 mL인 두 peak의 Rs와 그 의미는?",
+      "choices": [
+        "3.0 — 완전 분리",
+        "1.5 — 순도 99.9 % 이상 수준",
+        "0.75 — 거의 겹침",
+        "1.0 — 순도 약 98 % 수준",
+        "0.67 — 거의 겹침"
+      ],
+      "answer": 2,
+      "explanation": "**Rs = 3 ÷ [(2 + 2) ÷ 2] = 1.5 → 교재 필기 기준 순도 99.9 % 이상.**",
+      "choiceNotes": [
+        "틀리다 — 분모(평균 폭 2)를 빠뜨린 실수.",
+        "옳다 — 3 ÷ 2 = 1.5.",
+        "틀리다 — 분모에 폭의 합(4)을 넣은 실수.",
+        "틀리다 — Rs 값을 잘못 계산한 실수.",
+        "틀리다 — 분자·분모를 뒤집은 실수."
+      ],
+      "source": "WK03 교재 1.16 (필기: Rs 1.5 → 99.9 % 이상)",
+      "concepts": [
+        "Resolution"
+      ],
+      "tags": [
+        "Resolution"
+      ]
+    },
+    {
+      "id": "fin-003",
+      "type": "계산",
+      "part": 2,
+      "question": "V_0 = 8 mL, V_t = 24 mL인 SEC 컬럼에서 V_e = 16 mL로 나온 단백질의 Kav는?",
+      "choices": [
+        "0.67",
+        "2.0",
+        "0.5",
+        "0.33",
+        "1.0"
+      ],
+      "answer": 3,
+      "explanation": "**Kav = (V_e − V_0) ÷ (V_t − V_0) = 8 ÷ 16 = 0.5.** 0이면 가장 큰 분자, 1이면 가장 작은 분자이다.",
+      "choiceNotes": [
+        "틀리다 — 16 ÷ 24로 V_0를 빼지 않은 실수.",
+        "틀리다 — 분자·분모를 뒤집은 실수.",
+        "옳다 — (16 − 8) ÷ (24 − 8) = 8 ÷ 16.",
+        "틀리다 — 8 ÷ 24로 분모에서 V_0를 빼지 않은 실수.",
+        "틀리다 — 가장 작은 분자의 값과 혼동."
+      ],
+      "source": "WK03 교재 1.21 (Kav)",
+      "concepts": [
+        "Kav"
+      ],
+      "tags": [
+        "Kav"
+      ]
+    },
+    {
+      "id": "fin-004",
+      "type": "계산",
+      "part": 2,
+      "question": "V_0 = 30 mL, V_t = 90 mL인 SEC 컬럼에서 Kav = 0.25인 단백질은 몇 mL에서 나오는가?",
+      "choices": [
+        "45 mL",
+        "22.5 mL",
+        "15 mL",
+        "52.5 mL",
+        "75 mL"
+      ],
+      "answer": 1,
+      "explanation": "**V_e = 30 + 0.25 × (90 − 30) = 45 mL.**",
+      "choiceNotes": [
+        "옳다 — V_e = V_0 + Kav × (V_t − V_0) = 30 + 0.25 × 60.",
+        "틀리다 — 0.25 × 90으로 V_0를 무시한 실수.",
+        "틀리다 — 0.25 × 60만 하고 V_0를 더하지 않은 실수.",
+        "틀리다 — 0.25 × 90에 V_0를 더한 실수.",
+        "틀리다 — Kav를 0.75로 착각한 실수."
+      ],
+      "source": "WK03 교재 1.21 (Kav)",
+      "concepts": [
+        "Kav"
+      ],
+      "tags": [
+        "Kav"
+      ]
+    },
+    {
+      "id": "fin-005",
+      "type": "계산",
+      "part": 2,
+      "question": "안지름 30 cm, bed height 20 cm 컬럼의 부피(1 CV)는 약 몇 L인가?",
+      "choices": [
+        "56.5 L",
+        "1.41 L",
+        "9.4 L",
+        "14.1 L",
+        "4.5 L"
+      ],
+      "answer": 4,
+      "explanation": "**V = π × (30/2)² × 20 = 14,137 cm³ ≈ 14.1 L.**",
+      "choiceNotes": [
+        "틀리다 — 지름 30을 반지름으로 넣은 실수(π × 30² × 20).",
+        "틀리다 — 자릿수 실수.",
+        "틀리다 — π × 15 × 20으로 r²를 빠뜨린 실수.",
+        "옳다 — π × 15² × 20 = 14,137 cm³.",
+        "틀리다 — π를 빠뜨린 실수(15² × 20 = 4,500 cm³)."
+      ],
+      "source": "WK06 강의 녹음 2:22:04–2:27:56 (컬럼 계산)",
+      "concepts": [
+        "Column volume"
+      ],
+      "tags": [
+        "Column volume"
+      ]
+    },
+    {
+      "id": "fin-006",
+      "type": "계산",
+      "part": 2,
+      "question": "Protein A 레진 40 L를 bed height 30 cm로 채우면 컬럼 안지름은 약 몇 cm인가?",
+      "choices": [
+        "약 21 cm",
+        "약 1,333 cm",
+        "약 41 cm",
+        "약 36.5 cm",
+        "약 82 cm"
+      ],
+      "answer": 3,
+      "explanation": "**단면적 = 40,000 cm³ ÷ 30 cm = 1,333 cm² → r = √(1,333 ÷ π) = 20.6 cm → 지름 ≈ 41 cm.**",
+      "choiceNotes": [
+        "틀리다 — 반지름을 지름으로 착각한 실수.",
+        "틀리다 — 단면적을 지름으로 착각한 실수.",
+        "옳다 — 단면적 = 40,000 ÷ 30 = 1,333 cm² → 지름 = 2 × √(1,333/π) ≈ 41.2.",
+        "틀리다 — √1,333을 지름으로 쓴 실수(π를 빠뜨림).",
+        "틀리다 — 반지름의 4배를 지름으로 쓴 실수."
+      ],
+      "source": "WK06 PDF p.20–24 (Mab Platform Process – Case 1) · WK06 강의 녹음 2:29:44–2:44:23",
+      "concepts": [
+        "Column volume"
+      ],
+      "tags": [
+        "Column volume"
+      ]
+    },
+    {
+      "id": "fin-007",
+      "type": "계산",
+      "part": 2,
+      "question": "레진 40 L, bed height 30 cm 컬럼을 150 cm/h로 돌릴 때 부피 유속은?",
+      "choices": [
+        "6,000 L/h",
+        "5 L/h",
+        "20 L/h",
+        "200 L/h",
+        "1,333 L/h"
+      ],
+      "answer": 4,
+      "explanation": "**부피 유속 = (40,000 ÷ 30) cm² × 150 cm/h = 200,000 mL/h = 200 L/h.** WK06 Case 1의 값이다.",
+      "choiceNotes": [
+        "틀리다 — 40 L × 150으로 곱한 실수.",
+        "틀리다 — 30 ÷ 150 × 25처럼 근거 없는 계산.",
+        "틀리다 — 자릿수 실수.",
+        "옳다 — 단면적 1,333 cm² × 150 cm/h = 200,000 mL/h.",
+        "틀리다 — 단면적을 유속으로 착각한 실수."
+      ],
+      "source": "WK06 PDF p.20–24 (Mab Platform Process – Case 1) · WK06 강의 녹음 2:29:44–2:44:23",
+      "concepts": [
+        "Linear velocity",
+        "Flow rate"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Flow rate"
+      ]
+    },
+    {
+      "id": "fin-008",
+      "type": "계산",
+      "part": 2,
+      "question": "배양액 10,000 L를 200 L/h로 Protein A에 걸면 로딩에만 몇 시간이 걸리는가?",
+      "choices": [
+        "2,000,000 h",
+        "0.02 h",
+        "5 h",
+        "2.5 h",
+        "50 h"
+      ],
+      "answer": 5,
+      "explanation": "**10,000 L ÷ 200 L/h = 50 h.** 그래서 WK06에서 UF/DF 20배 농축(500 L → 2.5 h)이나 titer 향상을 해법으로 다뤘다.",
+      "choiceNotes": [
+        "틀리다 — 곱한 실수.",
+        "틀리다 — 나눗셈을 뒤집은 실수.",
+        "틀리다 — titer 1.0 g/L일 때의 값.",
+        "틀리다 — 20배 농축했을 때의 값.",
+        "옳다 — 10,000 ÷ 200."
+      ],
+      "source": "WK06 PDF p.20–24 (Mab Platform Process – Case 1) · WK06 강의 녹음 2:29:44–2:44:23",
+      "concepts": [
+        "Process time"
+      ],
+      "tags": [
+        "Process time"
+      ]
+    },
+    {
+      "id": "fin-009",
+      "type": "계산",
+      "part": 2,
+      "question": "항체 1 kg, Protein A DBC 50 mg/mL, safety factor 100 %일 때 필요한 레진 부피는?",
+      "choices": [
+        "20 L",
+        "40 L",
+        "400 L",
+        "50 L",
+        "10 L"
+      ],
+      "answer": 2,
+      "explanation": "**1,000,000 mg ÷ 50 mg/mL = 20 L → safety factor 100 %(× 2) → 40 L.**",
+      "choiceNotes": [
+        "틀리다 — safety factor를 빠뜨린 실수.",
+        "옳다 — 1,000,000 mg ÷ 50 mg/mL = 20,000 mL, × 2 = 40 L.",
+        "틀리다 — 자릿수 실수.",
+        "틀리다 — DBC 숫자를 그대로 L로 쓴 실수.",
+        "틀리다 — safety factor로 나눈 실수."
+      ],
+      "source": "WK06 PDF p.20–24 (Mab Platform Process – Case 1) · WK06 강의 녹음 2:29:44–2:44:23",
+      "concepts": [
+        "DBC",
+        "Safety factor"
+      ],
+      "tags": [
+        "DBC",
+        "Safety factor"
+      ]
+    },
+    {
+      "id": "fin-010",
+      "type": "계산",
+      "part": 2,
+      "question": "Protein A 레진 40 L, 가격 $20,000/L이면 레진 비용은?",
+      "choices": [
+        "$800,000",
+        "$80,000",
+        "$500",
+        "$400,000",
+        "$8,000,000"
+      ],
+      "answer": 1,
+      "explanation": "**40 L × $20,000/L = $800,000.** 레진을 절반(20 L)으로 줄이고 3 cycle을 돌리면 $400,000.",
+      "choiceNotes": [
+        "옳다 — 40 × 20,000.",
+        "틀리다 — 자릿수 실수.",
+        "틀리다 — 20,000 ÷ 40으로 나눈 실수.",
+        "틀리다 — 레진 20 L일 때의 값.",
+        "틀리다 — 자릿수 실수."
+      ],
+      "source": "WK06 PDF p.22–23",
+      "concepts": [
+        "Resin cost"
+      ],
+      "tags": [
+        "Resin cost"
+      ]
+    },
+    {
+      "id": "fin-011",
+      "type": "계산",
+      "part": 2,
+      "question": "레진 20 L를 bed height 30 cm로 채우고 150 cm/h로 돌리면 부피 유속은?",
+      "choices": [
+        "200 L/h",
+        "3,000 L/h",
+        "50 L/h",
+        "100 L/h",
+        "667 L/h"
+      ],
+      "answer": 4,
+      "explanation": "**단면적 = 20,000 ÷ 30 = 667 cm² → 667 × 150 = 100,000 mL/h = 100 L/h.** 같은 bed height에서 레진이 절반이면 유속도 절반이다.",
+      "choiceNotes": [
+        "틀리다 — 레진 40 L일 때의 값.",
+        "틀리다 — 20 × 150으로 곱한 실수.",
+        "틀리다 — 절반을 한 번 더 나눈 실수.",
+        "옳다 — 20,000 ÷ 30 = 667 cm² × 150 = 100,000 mL/h.",
+        "틀리다 — 단면적을 유속으로 착각한 실수."
+      ],
+      "source": "WK06 PDF p.23",
+      "concepts": [
+        "Linear velocity",
+        "Flow rate"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Flow rate"
+      ]
+    },
+    {
+      "id": "fin-012",
+      "type": "계산",
+      "part": 2,
+      "question": "UF로 20배 농축한 500 L를 레진 20 L(100 L/h)로 3 cycle 나눠 처리하면 총 로딩 시간은 약?",
+      "choices": [
+        "약 1.7 h",
+        "약 15 h",
+        "약 5 h(강의 표기 약 2 h × 3 = 6 h)",
+        "약 2.5 h",
+        "약 50 h"
+      ],
+      "answer": 3,
+      "explanation": "**500 L ÷ 3 ≈ 170 L/cycle, 100 L/h → 약 1.7 h/cycle(강의는 약 2 h로 반올림) × 3 cycle → 약 5~6 h.** 레진 값은 절반이지만 시간과 인건비가 는다.",
+      "choiceNotes": [
+        "틀리다 — cycle 수를 빠뜨린 실수.",
+        "틀리다 — cycle마다 500 L를 다 건 실수.",
+        "옳다 — 500 ÷ 3 ≈ 167 L/cycle → 1.67 h × 3 = 5 h, 강의는 반올림해 2 h × 3.",
+        "틀리다 — 200 L/h(레진 40 L)로 계산한 실수.",
+        "틀리다 — 농축 전 10,000 L로 계산한 실수."
+      ],
+      "source": "WK06 PDF p.23 (resin volume 1/2 & 3 cycle process)",
+      "concepts": [
+        "Cycle",
+        "Process time"
+      ],
+      "tags": [
+        "Cycle",
+        "Process time"
+      ]
+    },
+    {
+      "id": "fin-013",
+      "type": "계산",
+      "part": 2,
+      "question": "항체 2 kg을 처리한다. 25 L 컬럼, DBC 40 mg/mL에서 DBC의 80 %만 쓴다면 몇 cycle이 필요한가?",
+      "choices": [
+        "3 cycle",
+        "2 cycle",
+        "2.5 cycle",
+        "4 cycle",
+        "1 cycle"
+      ],
+      "answer": 1,
+      "explanation": "**cycle당 처리량 = 25,000 mL × 40 mg/mL × 0.8 = 800 g → 2,000 ÷ 800 = 2.5 → 3 cycle(올림).**",
+      "choiceNotes": [
+        "옳다 — 25,000 × 40 × 0.8 = 800 g/cycle → 2,000 ÷ 800 = 2.5 → 올림 3.",
+        "틀리다 — 2.5를 내림한 실수.",
+        "틀리다 — cycle 수는 정수로 올림해야 한다.",
+        "틀리다 — 80 %를 두 번 적용한 실수.",
+        "틀리다 — mg과 g을 섞은 실수."
+      ],
+      "source": "WK06 강의 녹음 2:53:53–2:54:27 · WK03 교재 3.8",
+      "concepts": [
+        "Cycle",
+        "DBC"
+      ],
+      "tags": [
+        "Cycle",
+        "DBC"
+      ]
+    },
+    {
+      "id": "fin-014",
+      "type": "계산",
+      "part": 2,
+      "question": "1 CV = 25 L, cycle당 EQ 5 + Wash 3 + Elution 3 + Strip 3 + CIP 3 + Re-EQ 5 CV를 3 cycle 돌린다. 버퍼 총량은?",
+      "choices": [
+        "550 L",
+        "66 L",
+        "1,875 L",
+        "75 L",
+        "1,650 L"
+      ],
+      "answer": 5,
+      "explanation": "**버퍼 = (5+3+3+3+3+5) CV × 25 L × 3 cycle = 22 × 25 × 3 = 1,650 L.**",
+      "choiceNotes": [
+        "틀리다 — cycle 수를 빠뜨린 실수.",
+        "틀리다 — CV를 L로 바꾸지 않은 실수(22 × 3).",
+        "틀리다 — CV 합을 25로 잘못 더한 실수.",
+        "틀리다 — 1 CV × 3만 한 실수.",
+        "옳다 — 22 CV × 25 L × 3."
+      ],
+      "source": "WK06 강의 녹음 2:55:05–2:55:51 (CV와 단계별 버퍼 양)",
+      "concepts": [
+        "Buffer volume",
+        "CV"
+      ],
+      "tags": [
+        "Buffer volume",
+        "CV"
+      ]
+    },
+    {
+      "id": "fin-015",
+      "type": "계산",
+      "part": 2,
+      "question": "Bed height 25 cm 컬럼을 300 cm/h로 돌릴 때 체류 시간은?",
+      "choices": [
+        "12분",
+        "5분",
+        "0.083분",
+        "7,500분",
+        "50분"
+      ],
+      "answer": 2,
+      "explanation": "**체류 시간 = h ÷ u = 25 ÷ 300 h = 0.0833 h = 5분.**",
+      "choiceNotes": [
+        "틀리다 — 300 ÷ 25 = 12를 분으로 쓴 실수.",
+        "옳다 — 25 ÷ 300 = 0.0833 h = 5분.",
+        "틀리다 — 시간을 분으로 바꾸지 않은 실수.",
+        "틀리다 — 곱한 실수.",
+        "틀리다 — 근거 없는 계산."
+      ],
+      "source": "WK03 교재 7.4 · 일반 원리",
+      "concepts": [
+        "Residence time"
+      ],
+      "tags": [
+        "Residence time"
+      ]
+    },
+    {
+      "id": "fin-016",
+      "type": "계산",
+      "part": 2,
+      "question": "Bed height 20 cm 컬럼에서 체류 시간 4분을 맞추려면 linear velocity는?",
+      "choices": [
+        "5 cm/h",
+        "80 cm/h",
+        "1.33 cm/h",
+        "300 cm/h",
+        "20 cm/h"
+      ],
+      "answer": 4,
+      "explanation": "**u = 20 cm ÷ (4/60) h = 300 cm/h.**",
+      "choiceNotes": [
+        "틀리다 — 20 ÷ 4를 그대로 쓴 실수.",
+        "틀리다 — 20 × 4로 곱한 실수.",
+        "틀리다 — 4 ÷ 60 × 20처럼 거꾸로 한 실수.",
+        "옳다 — u = h ÷ t = 20 cm ÷ (4/60 h).",
+        "틀리다 — 체류 시간을 1시간으로 착각한 실수."
+      ],
+      "source": "WK03 교재 7.4 · 일반 원리",
+      "concepts": [
+        "Residence time",
+        "Linear velocity"
+      ],
+      "tags": [
+        "Residence time",
+        "Linear velocity"
+      ]
+    },
+    {
+      "id": "fin-017",
+      "type": "계산",
+      "part": 2,
+      "question": "안지름 1.6 cm 컬럼(150 cm/h)에서 정한 조건을 같은 bed height의 안지름 60 cm 컬럼에 쓰면 부피 유속은?",
+      "choices": [
+        "약 5.6 L/h",
+        "약 0.3 L/h",
+        "약 424 L/h",
+        "약 1,696 L/h",
+        "150 L/h"
+      ],
+      "answer": 3,
+      "explanation": "**같은 공정이면 linear velocity(150 cm/h)를 유지 → 큰 컬럼 단면적 2,827 cm² × 150 = 424,115 mL/h ≈ 424 L/h.**",
+      "choiceNotes": [
+        "틀리다 — 안지름 비(37.5)만 곱한 실수.",
+        "틀리다 — 작은 컬럼의 유속(301 mL/h)이다.",
+        "옳다 — π × 30² × 150 = 424,115 mL/h.",
+        "틀리다 — 지름을 반지름으로 넣은 실수.",
+        "틀리다 — cm/h를 L/h로 그대로 읽은 실수."
+      ],
+      "source": "WK03 교재 7.4–7.6 · WK06 강의 녹음 2:08:21–2:19:37",
+      "concepts": [
+        "Scale-up",
+        "Linear velocity"
+      ],
+      "tags": [
+        "Scale-up",
+        "Linear velocity"
+      ]
+    },
+    {
+      "id": "fin-018",
+      "type": "계산",
+      "part": 2,
+      "question": "Protein A 용출을 3 CV(1 CV = 20 L)로 받았고 항체 600 g이 나왔다. 용출액 농도는?",
+      "choices": [
+        "10 g/L",
+        "30 g/L",
+        "200 g/L",
+        "3.3 g/L",
+        "0.1 g/L"
+      ],
+      "answer": 1,
+      "explanation": "**용출 부피 = 3 × 20 = 60 L → 600 g ÷ 60 L = 10 g/L.**",
+      "choiceNotes": [
+        "옳다 — 600 g ÷ 60 L.",
+        "틀리다 — 1 CV(20 L)로 나눈 실수.",
+        "틀리다 — 3 CV를 L로 바꾸지 않은 실수.",
+        "틀리다 — 600 ÷ 180으로 근거 없이 나눈 실수.",
+        "틀리다 — 나눗셈을 뒤집은 실수."
+      ],
+      "source": "WK06 강의 녹음 2:55:05–2:55:51 · 일반 원리",
+      "concepts": [
+        "Elution",
+        "CV"
+      ],
+      "tags": [
+        "Elution",
+        "CV"
+      ]
+    },
+    {
+      "id": "fin-019",
+      "type": "계산",
+      "part": 2,
+      "question": "배양 10,000 L를 수확해 항체 15 kg이 들어 있었다. Titer는?",
+      "choices": [
+        "0.15 g/L",
+        "1.5 g/L",
+        "15 g/L",
+        "666 g/L",
+        "150 g/L"
+      ],
+      "answer": 2,
+      "explanation": "**Titer = 항체 양 ÷ 부피 = 15,000 g ÷ 10,000 L = 1.5 g/L.**",
+      "choiceNotes": [
+        "틀리다 — 자릿수 실수.",
+        "옳다 — 15,000 g ÷ 10,000 L.",
+        "틀리다 — kg을 g으로 바꾸지 않고 10,000 ÷ 1,000을 섞은 실수.",
+        "틀리다 — 나눗셈을 뒤집은 실수.",
+        "틀리다 — 자릿수 실수."
+      ],
+      "source": "WK06 PDF p.20 · WK07 강의 녹음 02:35:06 (\"타이터 얼마?\")",
+      "concepts": [
+        "Titer"
+      ],
+      "tags": [
+        "Titer"
+      ]
+    },
+    {
+      "id": "fin-020",
+      "type": "계산",
+      "part": 2,
+      "question": "원료의약품 4.2 kg이 필요하다. Titer 2 g/L, 정제 회수율 70 %이면 배양 부피는?",
+      "choices": [
+        "2,100 L",
+        "1,470 L",
+        "5,880 L",
+        "8,400 L",
+        "3,000 L"
+      ],
+      "answer": 5,
+      "explanation": "**배양 부피 = 목표량 ÷ (titer × 회수율) = 4,200 ÷ 1.4 = 3,000 L.**",
+      "choiceNotes": [
+        "틀리다 — 회수율을 빠뜨린 실수(4,200 ÷ 2).",
+        "틀리다 — 회수율을 곱한 실수(2,100 × 0.7).",
+        "틀리다 — 4,200 × 2 × 0.7로 곱한 실수.",
+        "틀리다 — titer로 나누지 않고 곱한 실수(4,200 × 2).",
+        "옳다 — 4,200 ÷ (2 × 0.7) = 3,000."
+      ],
+      "source": "WK07 강의 녹음 02:34:53–02:35:12 · WK06 PDF p.20",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "fin-021",
+      "type": "계산",
+      "part": 2,
+      "question": "15,000 L 배양기에 배지 12,000 L, titer 3 g/L, 정제 회수율 60 %이면 원료의약품은?",
+      "choices": [
+        "27 kg",
+        "36 kg",
+        "60 kg",
+        "45 kg",
+        "21.6 kg"
+      ],
+      "answer": 5,
+      "explanation": "**배지 부피 기준: 12,000 L × 3 g/L × 0.6 = 21,600 g = 21.6 kg.** 배양기 크기(15,000 L)와 배지 부피(약 12,000 L)를 구분한다.",
+      "choiceNotes": [
+        "틀리다 — 배양기 부피 15,000 L × 3 × 0.6으로 계산한 실수.",
+        "틀리다 — 회수율을 빠뜨린 실수.",
+        "틀리다 — 12,000 × 3 ÷ 0.6으로 나눈 실수.",
+        "틀리다 — 15,000 × 3으로 배양기 부피와 회수율 누락이 겹친 실수.",
+        "옳다 — 12,000 × 3 × 0.6."
+      ],
+      "source": "WK07 강의 녹음 36:45–38:07 (15,000 L → 12,000 L)",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "fin-022",
+      "type": "계산",
+      "part": 2,
+      "question": "원료의약품 21.6 kg을 바이알당 150 mg씩 담으면 몇 개인가?",
+      "choices": [
+        "144,000개",
+        "144개",
+        "14,400개",
+        "3,240,000개",
+        "1,440,000개"
+      ],
+      "answer": 1,
+      "explanation": "**21.6 kg = 21,600,000 mg → ÷ 150 mg = 144,000개.**",
+      "choiceNotes": [
+        "옳다 — 21,600,000 mg ÷ 150.",
+        "틀리다 — g ÷ 150으로 단위를 섞은 실수.",
+        "틀리다 — 자릿수 실수.",
+        "틀리다 — 곱한 실수(21,600 × 150).",
+        "틀리다 — 자릿수 실수."
+      ],
+      "source": "WK07 강의 녹음 02:35:06 (\"DP 몇 개\")",
+      "concepts": [
+        "DP 개수"
+      ],
+      "tags": [
+        "DP 개수"
+      ]
+    },
+    {
+      "id": "fin-023",
+      "type": "계산",
+      "part": 2,
+      "question": "바이알 100,000개(1개 100 mg)를 출하하려 한다. 손실 10 %를 고려하고 titer 2.5 g/L, 회수율 55 %이면 배양 부피는?",
+      "choices": [
+        "7,273 L",
+        "8,000 L",
+        "4,400 L",
+        "15,125 L",
+        "80,000 L"
+      ],
+      "answer": 2,
+      "explanation": "**필요 DS = 100,000 × 100 mg = 10 kg → 손실 10 % 고려 11 kg → 11,000 ÷ (2.5 × 0.55) = 8,000 L.** 강의의 \"100개 만들려면 110개\" 개념이다.",
+      "choiceNotes": [
+        "틀리다 — 손실 10 %를 빠뜨린 실수(10,000 ÷ 1.375).",
+        "옳다 — 10 kg × 1.1 = 11,000 g → 11,000 ÷ (2.5 × 0.55).",
+        "틀리다 — 회수율을 빠뜨린 실수(11,000 ÷ 2.5).",
+        "틀리다 — 곱한 실수(11,000 × 1.375).",
+        "틀리다 — 자릿수 실수."
+      ],
+      "source": "WK07 강의 녹음 39:26–41:38 (100개 → 110개)",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "fin-024",
+      "type": "계산",
+      "part": 2,
+      "question": "연간 수요가 원료의약품 50 kg이고 한 배치가 12.5 kg을 만든다. 1년에 몇 배치가 필요한가?",
+      "choices": [
+        "625배치",
+        "0.25배치",
+        "5배치",
+        "4배치",
+        "12배치"
+      ],
+      "answer": 4,
+      "explanation": "**배치 수 = 연간 수요 ÷ 배치당 생산량 = 50 ÷ 12.5 = 4배치.** 이것이 scheduling·장비 수 결정의 출발점이다.",
+      "choiceNotes": [
+        "틀리다 — 곱한 실수.",
+        "틀리다 — 나눗셈을 뒤집은 실수.",
+        "틀리다 — 근거 없이 올린 값.",
+        "옳다 — 50 ÷ 12.5.",
+        "틀리다 — 월 단위로 착각한 실수."
+      ],
+      "source": "WK07 강의 녹음 1:14:30–1:15:31 (mass balance → scheduling)",
+      "concepts": [
+        "Mass balance",
+        "Scheduling"
+      ],
+      "tags": [
+        "Mass balance",
+        "Scheduling"
+      ]
+    },
+    {
+      "id": "fin-025",
+      "type": "계산",
+      "part": 2,
+      "question": "항체 농도 2 g/L인 500 L를 UF로 25 L까지 농축했다. 농축 배수와 농도는? (손실 없음)",
+      "choices": [
+        "20배, 0.1 g/L",
+        "25배, 50 g/L",
+        "20배, 40 g/L",
+        "2배, 4 g/L",
+        "20배, 2 g/L"
+      ],
+      "answer": 3,
+      "explanation": "**농축 배수 = 500 ÷ 25 = 20배, 농도 = 2 × 20 = 40 g/L.** UF는 부피를 줄여 농도를 올린다.",
+      "choiceNotes": [
+        "틀리다 — 농도를 배수로 나눈 실수.",
+        "틀리다 — 농축 후 부피를 배수로 착각한 실수.",
+        "옳다 — 500 ÷ 25 = 20 → 2 × 20 = 40.",
+        "틀리다 — 근거 없는 계산.",
+        "틀리다 — 농축해도 농도가 그대로라고 본 실수."
+      ],
+      "source": "WK06 PDF p.21 (UF/DF 20x concentration) · WK06 강의 녹음 42:08–45:30",
+      "concepts": [
+        "UF",
+        "Concentration factor"
+      ],
+      "tags": [
+        "UF",
+        "Concentration factor"
+      ]
+    },
+    {
+      "id": "fin-026",
+      "type": "계산",
+      "part": 2,
+      "question": "25 L로 농축한 액을 7 diavolume으로 DF하면 필요한 교환 버퍼는?",
+      "choices": [
+        "3.6 L",
+        "175 L",
+        "32 L",
+        "3,500 L",
+        "25 L"
+      ],
+      "answer": 2,
+      "explanation": "**DF 버퍼 = diavolume 수 × 유지 부피 = 7 × 25 L = 175 L.** 농축 전(500 L)에 했다면 3,500 L가 들었다 → UF 먼저, DF 나중.",
+      "choiceNotes": [
+        "틀리다 — 25 ÷ 7로 나눈 실수.",
+        "옳다 — 7 × 25 L.",
+        "틀리다 — 7 + 25로 더한 실수.",
+        "틀리다 — 농축 전 500 L × 7로 계산한 실수.",
+        "틀리다 — 한 번만 교환한 실수."
+      ],
+      "source": "WK06 강의 녹음 42:08–45:30 (UF 다음 DF)",
+      "concepts": [
+        "DF",
+        "Diavolume"
+      ],
+      "tags": [
+        "DF",
+        "Diavolume"
+      ]
+    },
+    {
+      "id": "fin-027",
+      "type": "계산",
+      "part": 2,
+      "question": "농축 전 500 L 상태에서 바로 7 diavolume DF를 하면 버퍼가 얼마 더 드는가? (농축 후 25 L에서 할 때와 비교)",
+      "choices": [
+        "175 L 더 든다",
+        "20배 적게 든다",
+        "차이가 없다",
+        "3,325 L 더 든다",
+        "475 L 더 든다"
+      ],
+      "answer": 4,
+      "explanation": "**500 × 7 = 3,500 L vs 25 × 7 = 175 L → 3,325 L 더 든다.** 그래서 UF로 먼저 농축한 뒤 DF를 한다.",
+      "choiceNotes": [
+        "틀리다 — 농축 후 필요량을 차이로 착각한 실수.",
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 부피에 비례한다.",
+        "옳다 — 500 × 7 − 25 × 7 = 3,500 − 175.",
+        "틀리다 — 부피 차만 계산한 실수."
+      ],
+      "source": "WK06 강의 녹음 42:08–45:30",
+      "concepts": [
+        "UF",
+        "DF"
+      ],
+      "tags": [
+        "UF",
+        "DF"
+      ]
+    },
+    {
+      "id": "fin-028",
+      "type": "계산",
+      "part": 2,
+      "question": "바이러스 10⁸개가 들어간 단계에서 10²개가 나왔다. 이 단계의 LRV는?",
+      "choices": [
+        "10⁶",
+        "4",
+        "2",
+        "8",
+        "6"
+      ],
+      "answer": 5,
+      "explanation": "**LRV = log₁₀(처리 전 ÷ 처리 후) = log₁₀(10⁶) = 6.** 강의에서 단계당 대략 5~6 log라고 했다.",
+      "choiceNotes": [
+        "틀리다 — log를 취하지 않은 실수.",
+        "틀리다 — 근거 없는 계산.",
+        "틀리다 — 나온 양의 지수만 쓴 실수.",
+        "틀리다 — 들어간 양의 지수만 쓴 실수.",
+        "옳다 — log₁₀(10⁸ ÷ 10²) = 6."
+      ],
+      "source": "WK04 강의 녹음② 2:09:15–2:10:17 (LRV)",
+      "concepts": [
+        "LRV"
+      ],
+      "tags": [
+        "LRV"
+      ]
+    },
+    {
+      "id": "fin-029",
+      "type": "계산",
+      "part": 2,
+      "question": "Low pH VI 4 log, AEX 3 log, virus filtration 5 log이다. 전체 LRV는?",
+      "choices": [
+        "60 log",
+        "5 log",
+        "12 log",
+        "4 log",
+        "10¹² log"
+      ],
+      "answer": 3,
+      "explanation": "**단계별 LRV를 더한다: 4 + 3 + 5 = 12 log.** 여러 단계(orthogonal)를 두는 이유이기도 하다.",
+      "choiceNotes": [
+        "틀리다 — 곱한 실수.",
+        "틀리다 — 가장 큰 값만 쓴 실수.",
+        "옳다 — 4 + 3 + 5.",
+        "틀리다 — 평균을 쓴 실수.",
+        "틀리다 — log 값을 다시 지수로 바꾼 실수."
+      ],
+      "source": "WK04 강의 녹음② 2:09:15–2:10:17 · WK06 PDF p.8–9",
+      "concepts": [
+        "LRV",
+        "Orthogonal"
+      ],
+      "tags": [
+        "LRV",
+        "Orthogonal"
+      ]
+    },
+    {
+      "id": "fin-030",
+      "type": "계산",
+      "part": 2,
+      "question": "처리 전 5 × 10⁷, 처리 후 5 × 10² 입자였다. LRV는?",
+      "choices": [
+        "5",
+        "7",
+        "2",
+        "10⁵",
+        "0.5"
+      ],
+      "answer": 1,
+      "explanation": "**5 × 10⁷ ÷ 5 × 10² = 10⁵ → LRV 5.**",
+      "choiceNotes": [
+        "옳다 — log₁₀(5×10⁷ ÷ 5×10²) = log₁₀(10⁵).",
+        "틀리다 — 처리 전 지수만 쓴 실수.",
+        "틀리다 — 처리 후 지수만 쓴 실수.",
+        "틀리다 — log를 취하지 않은 실수.",
+        "틀리다 — 근거 없는 계산."
+      ],
+      "source": "WK04 강의 녹음② 2:09:15–2:10:17",
+      "concepts": [
+        "LRV"
+      ],
+      "tags": [
+        "LRV"
+      ]
+    },
+    {
+      "id": "fin-031",
+      "type": "계산",
+      "part": 2,
+      "question": "임펠러 지름 0.4 m, 90 rpm일 때 tip speed는?",
+      "choices": [
+        "1.88 m/s",
+        "113 m/s",
+        "0.6 m/s",
+        "3.77 m/s",
+        "0.94 m/s"
+      ],
+      "answer": 1,
+      "explanation": "**N = 90 ÷ 60 = 1.5 rps → π × 1.5 × 0.4 = 1.88 m/s.**",
+      "choiceNotes": [
+        "옳다 — π × 1.5 rps × 0.4 m.",
+        "틀리다 — rpm을 rps로 바꾸지 않은 실수.",
+        "틀리다 — π를 빠뜨린 실수.",
+        "틀리다 — 반지름 대신 지름 두 배를 넣은 실수.",
+        "틀리다 — 반지름(0.2 m)을 넣은 실수."
+      ],
+      "source": "WK02 PDF p.91 (Tipspeed = π∗n∗d)",
+      "concepts": [
+        "Tip speed"
+      ],
+      "tags": [
+        "Tip speed"
+      ]
+    },
+    {
+      "id": "fin-032",
+      "type": "계산",
+      "part": 2,
+      "question": "D = 0.1 m 임펠러를 300 rpm으로 돌리던 조건을 D = 0.5 m 배양기에서 같은 tip speed로 맞추면 회전수는?",
+      "choices": [
+        "1,500 rpm",
+        "60 rpm",
+        "300 rpm",
+        "12 rpm",
+        "103 rpm"
+      ],
+      "answer": 2,
+      "explanation": "**tip speed 일정 → N × D 일정 → N₂ = 300 × (0.1/0.5) = 60 rpm.**",
+      "choiceNotes": [
+        "틀리다 — 지름 비를 거꾸로 곱한 실수.",
+        "옳다 — N₂ = 300 × 0.1 ÷ 0.5.",
+        "틀리다 — 회전수를 그대로 둔 실수.",
+        "틀리다 — 지름 비를 두 번 나눈 실수.",
+        "틀리다 — P/V 일정 식(지수 2/3)을 쓴 값."
+      ],
+      "source": "WK02 PDF p.88, 91",
+      "concepts": [
+        "Tip speed",
+        "Scale-up"
+      ],
+      "tags": [
+        "Tip speed",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "fin-033",
+      "type": "계산",
+      "part": 2,
+      "question": "모양이 닮은 배양기에서 지름이 3배일 때 tip speed를 같게 두면 P/V는 몇 배가 되는가? (P/V ∝ N³D²)",
+      "choices": [
+        "3배",
+        "1/27배",
+        "1배",
+        "1/3배",
+        "9배"
+      ],
+      "answer": 4,
+      "explanation": "**tip speed 일정이면 N₂ = N₁/3 → P/V ∝ (1/3)³ × 3² = 1/3.** 교안: \"constant tip speed scale-up은 P/V와 mixing time이 줄어든다\".",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 계산한 실수.",
+        "틀리다 — D² 항을 빠뜨린 실수.",
+        "틀리다 — tip speed가 같으면 P/V도 같다고 본 실수.",
+        "옳다 — N은 1/3배 → (1/3)³ × 3² = 1/3.",
+        "틀리다 — N 변화를 빠뜨린 실수."
+      ],
+      "source": "WK02 PDF p.88 · 일반 원리(P/V ∝ N³D²)",
+      "concepts": [
+        "P/V",
+        "Tip speed"
+      ],
+      "tags": [
+        "P/V",
+        "Tip speed"
+      ]
+    },
+    {
+      "id": "fin-034",
+      "type": "계산",
+      "part": 2,
+      "question": "D = 0.1 m에서 200 rpm으로 잘 키운 조건을 모양이 닮은 D = 0.8 m 배양기로 P/V 일정 scale-up하면 회전수는? [N₂ = N₁ × (D₁/D₂)^(2/3)]",
+      "choices": [
+        "25 rpm",
+        "100 rpm",
+        "50 rpm",
+        "800 rpm",
+        "200 rpm"
+      ],
+      "answer": 3,
+      "explanation": "**(1/8)^(2/3) = 1/4 → 200 × 1/4 = 50 rpm.** 같은 조건에서 tip speed 일정이면 25 rpm이 된다.",
+      "choiceNotes": [
+        "틀리다 — tip speed 일정 식(× 1/8)을 쓴 값.",
+        "틀리다 — 지수를 1/3로 착각한 실수(1/2).",
+        "옳다 — (0.1/0.8)^(2/3) = (1/8)^(2/3) = 1/4 → 200 × 1/4.",
+        "틀리다 — 지름 비를 거꾸로 곱한 실수.",
+        "틀리다 — 회전수를 그대로 둔 실수."
+      ],
+      "source": "WK02 PDF p.88, 91 · 일반 원리",
+      "concepts": [
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "P/V",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "fin-035",
+      "type": "계산",
+      "part": 2,
+      "question": "같은 배양기에서 회전수만 2배로 올리면 P/V는 몇 배가 되는가? (P/V = Ne·ρ·N³·D⁵/V)",
+      "choices": [
+        "2배",
+        "4배",
+        "32배",
+        "1배",
+        "8배"
+      ],
+      "answer": 5,
+      "explanation": "**P/V는 N³에 비례 → 2³ = 8배.** 동물세포는 동력이 크면 shear로 손상된다.",
+      "choiceNotes": [
+        "틀리다 — N을 1제곱으로 본 실수.",
+        "틀리다 — N²로 본 실수.",
+        "틀리다 — D⁵와 혼동한 실수.",
+        "틀리다 — 변하지 않는다고 본 실수.",
+        "옳다 — N³ → 2³."
+      ],
+      "source": "WK02 PDF p.88, 91 (P/V)",
+      "concepts": [
+        "P/V"
+      ],
+      "tags": [
+        "P/V"
+      ]
+    },
+    {
+      "id": "fin-036",
+      "type": "계산",
+      "part": 2,
+      "question": "kLa 12 h⁻¹, C* 0.20 mmol/L, 현재 DO 0.08 mmol/L일 때 OTR은?",
+      "choices": [
+        "2.4 mmol/L/h",
+        "0.96 mmol/L/h",
+        "3.36 mmol/L/h",
+        "1.44 mmol/L/h",
+        "100 mmol/L/h"
+      ],
+      "answer": 4,
+      "explanation": "**OTR = kLa × (C* − C_L) = 12 × 0.12 = 1.44 mmol/L/h.**",
+      "choiceNotes": [
+        "틀리다 — C*만 곱한 실수(12 × 0.2).",
+        "틀리다 — C_L만 곱한 실수(12 × 0.08).",
+        "틀리다 — 농도를 더한 실수(12 × 0.28).",
+        "옳다 — 12 × (0.20 − 0.08).",
+        "틀리다 — 나눈 실수(12 ÷ 0.12)."
+      ],
+      "source": "WK02 PDF p.95–96 (OTR = kLa(C* − C))",
+      "concepts": [
+        "OTR",
+        "kLa"
+      ],
+      "tags": [
+        "OTR",
+        "kLa"
+      ]
+    },
+    {
+      "id": "fin-037",
+      "type": "계산",
+      "part": 2,
+      "question": "세포의 OUR이 1.8 mmol/L/h이고 C* = 0.20, 유지할 C_L = 0.08 mmol/L이다. 필요한 최소 kLa는?",
+      "choices": [
+        "9 h⁻¹",
+        "22.5 h⁻¹",
+        "0.22 h⁻¹",
+        "6.4 h⁻¹",
+        "15 h⁻¹"
+      ],
+      "answer": 5,
+      "explanation": "**OTR ≥ OUR → kLa × 0.12 ≥ 1.8 → kLa ≥ 15 h⁻¹.**",
+      "choiceNotes": [
+        "틀리다 — C*로만 나눈 실수(1.8 ÷ 0.2).",
+        "틀리다 — C_L로 나눈 실수(1.8 ÷ 0.08).",
+        "틀리다 — 곱한 실수(1.8 × 0.12).",
+        "틀리다 — 농도를 더해 나눈 실수(1.8 ÷ 0.28).",
+        "옳다 — OTR ≥ OUR → kLa ≥ 1.8 ÷ 0.12."
+      ],
+      "source": "WK02 PDF p.94–96",
+      "concepts": [
+        "kLa",
+        "OTR",
+        "OUR"
+      ],
+      "tags": [
+        "kLa",
+        "OTR",
+        "OUR"
+      ]
+    },
+    {
+      "id": "fin-038",
+      "type": "계산",
+      "part": 2,
+      "question": "kLa 12 h⁻¹, C* 0.20, C_L 0.08 mmol/L인 배양기에서 세포 OUR이 1.6 mmol/L/h로 올라갔다. DO는 어떻게 되는가?",
+      "choices": [
+        "OTR > OUR이라 DO가 오른다",
+        "OTR(1.44) < OUR(1.6)이라 DO가 떨어진다",
+        "OTR = OUR이라 DO가 그대로다",
+        "kLa가 저절로 두 배가 된다",
+        "DO는 OUR과 관계없다"
+      ],
+      "answer": 2,
+      "explanation": "**OTR = 12 × 0.12 = 1.44 < OUR 1.6 → 산소 공급이 모자라 DO가 떨어진다.** 교반·통기·O₂ 공급을 늘려 kLa를 올려야 한다.",
+      "choiceNotes": [
+        "틀리다 — OTR 1.44가 더 작다.",
+        "옳다 — 공급이 소비보다 작다.",
+        "틀리다 — 두 값이 다르다.",
+        "틀리다 — kLa는 교반·통기로 바꿔야 한다.",
+        "틀리다 — 소비가 크면 DO가 떨어진다."
+      ],
+      "source": "WK02 PDF p.94–96",
+      "concepts": [
+        "OTR",
+        "OUR"
+      ],
+      "tags": [
+        "OTR",
+        "OUR"
+      ]
+    },
+    {
+      "id": "fin-039",
+      "type": "계산",
+      "part": 2,
+      "question": "2,000 L 배양기에 0.05 VVM으로 통기하면 가스 유량은?",
+      "choices": [
+        "40,000 L/min",
+        "10 L/min",
+        "100 L/min",
+        "6,000 L/min",
+        "0.05 L/min"
+      ],
+      "answer": 3,
+      "explanation": "**VVM = 분당 가스 부피 ÷ 배양기 부피 → 0.05 × 2,000 L = 100 L/min.**",
+      "choiceNotes": [
+        "틀리다 — 나눈 실수(2,000 ÷ 0.05).",
+        "틀리다 — 자릿수 실수.",
+        "옳다 — 0.05 × 2,000.",
+        "틀리다 — 분을 시간으로 착각한 실수(× 60).",
+        "틀리다 — 배양기 부피를 빠뜨린 실수."
+      ],
+      "source": "WK02 PDF p.92, 96 (VVM)",
+      "concepts": [
+        "VVM"
+      ],
+      "tags": [
+        "VVM"
+      ]
+    },
+    {
+      "id": "fin-040",
+      "type": "계산",
+      "part": 2,
+      "question": "단계마다 5배씩 키워 15,000 L 생산 배양기에 이른다. N-2 단계 배양기 부피는?",
+      "choices": [
+        "600 L",
+        "3,000 L",
+        "120 L",
+        "75,000 L",
+        "5,000 L"
+      ],
+      "answer": 1,
+      "explanation": "**N 15,000 L ← N-1 3,000 L ← N-2 600 L ← N-3 120 L ← N-4 24 L.**",
+      "choiceNotes": [
+        "옳다 — 15,000 → N-1 3,000 → N-2 600.",
+        "틀리다 — N-1의 부피이다.",
+        "틀리다 — N-3의 부피이다.",
+        "틀리다 — 거꾸로 곱한 실수.",
+        "틀리다 — 단계를 잘못 센 실수."
+      ],
+      "source": "WK04 강의 녹음② 57:01–1:01:31 · WK07 강의 녹음 36:45–37:00",
+      "concepts": [
+        "Seed train"
+      ],
+      "tags": [
+        "Seed train"
+      ]
+    },
+    {
+      "id": "fin-041",
+      "type": "계산",
+      "part": 2,
+      "question": "Doubling time 1일인 CHO 세포를 2 × 10⁵ cells/mL에서 3.2 × 10⁶ cells/mL까지 키우려면 며칠 걸리는가?",
+      "choices": [
+        "4일",
+        "16일",
+        "8일",
+        "2일",
+        "3일"
+      ],
+      "answer": 1,
+      "explanation": "**3.2 × 10⁶ ÷ 2 × 10⁵ = 16 = 2⁴ → 4번 doubling → 4일.**",
+      "choiceNotes": [
+        "옳다 — 16배 = 2⁴ → 4번 분열.",
+        "틀리다 — 배수를 그대로 일수로 쓴 실수.",
+        "틀리다 — 배수의 절반으로 계산한 실수.",
+        "틀리다 — 분열 횟수를 잘못 센 실수.",
+        "틀리다 — 10⁶과 10⁵의 지수 차를 잘못 쓴 실수."
+      ],
+      "source": "WK04 강의 녹음② 59:28–1:00:35 (Doubling time)",
+      "concepts": [
+        "Doubling time"
+      ],
+      "tags": [
+        "Doubling time"
+      ]
+    },
+    {
+      "id": "fin-042",
+      "type": "계산",
+      "part": 2,
+      "question": "Class 10,000(0.5 µm 이상 10,000개/ft³)을 1 m³당 개수로 바꾸면 약? (1 ft³ ≈ 0.0283 m³)",
+      "choices": [
+        "약 283개",
+        "약 3,530개",
+        "약 35,300,000개",
+        "10,000개",
+        "약 353,000개"
+      ],
+      "answer": 5,
+      "explanation": "**10,000 ÷ 0.0283 ≈ 353,000개/m³ → ISO 7(352,000), Grade B 작업 시·Grade C 비작업 시 수준.**",
+      "choiceNotes": [
+        "틀리다 — 곱한 실수.",
+        "틀리다 — Class 100의 값이다.",
+        "틀리다 — 자릿수 실수.",
+        "틀리다 — 단위를 바꾸지 않은 실수.",
+        "옳다 — 10,000 ÷ 0.0283."
+      ],
+      "source": "WK07 강의 녹음 2:42:18–2:43:26 · WK07 PDF p.36",
+      "concepts": [
+        "Class 100",
+        "Grade"
+      ],
+      "tags": [
+        "Class 100",
+        "Grade"
+      ]
+    },
+    {
+      "id": "fin-043",
+      "type": "계산",
+      "part": 2,
+      "question": "7.6 kW 장비를 380 V로 쓰면 전류는? (P = V × I)",
+      "choices": [
+        "34.5 A",
+        "2,888 A",
+        "0.05 A",
+        "20 A",
+        "2 A"
+      ],
+      "answer": 4,
+      "explanation": "**I = P ÷ V = 7,600 ÷ 380 = 20 A.** 같은 전력이면 전압을 높일수록 전류가 작아 전선 부담이 준다(그래서 큰 장비는 380 V).",
+      "choiceNotes": [
+        "틀리다 — 220 V로 계산한 값.",
+        "틀리다 — 곱한 실수.",
+        "틀리다 — 나눗셈을 뒤집은 실수.",
+        "옳다 — 7,600 ÷ 380.",
+        "틀리다 — 자릿수 실수."
+      ],
+      "source": "WK07 강의 녹음 2:10:54–2:12:26 (전력과 전압)",
+      "concepts": [
+        "Electricity"
+      ],
+      "tags": [
+        "Electricity"
+      ]
+    },
+    {
+      "id": "fin-044",
+      "type": "계산",
+      "part": 2,
+      "question": "NWP 계산에서 0 ℃ 보정계수가 2, 25 ℃가 1이다. 0 ℃에서 잰 투과 flux 50 LMH(TMP 1 bar)의 25 ℃ 환산 NWP는?",
+      "choices": [
+        "25 LMH/bar",
+        "100 LMH/bar",
+        "50 LMH/bar",
+        "200 LMH/bar",
+        "1,250 LMH/bar"
+      ],
+      "answer": 2,
+      "explanation": "**물은 차가울수록 점도가 커 덜 흐르므로 0 ℃ 값에 보정계수 2를 곱해 25 ℃ 기준으로 바꾼다 → 50 × 2 = 100 LMH/bar.**",
+      "choiceNotes": [
+        "틀리다 — 보정계수로 나눈 실수.",
+        "옳다 — 50 ÷ 1 × 2.",
+        "틀리다 — 온도 보정을 빠뜨린 실수.",
+        "틀리다 — 보정계수를 두 번 곱한 실수.",
+        "틀리다 — 온도(25)를 곱한 실수."
+      ],
+      "source": "WK06 강의 녹음 1:20:52 (NWP 온도 보정) · 바이오시밀러 교과서 p.109",
+      "concepts": [
+        "NWP"
+      ],
+      "tags": [
+        "NWP"
+      ]
+    },
+    {
+      "id": "fin-045",
+      "type": "계산",
+      "part": 2,
+      "question": "Titer가 0.5 g/L에서 2.0 g/L로 오르면, 같은 항체량을 같은 Protein A 컬럼(같은 유속)으로 처리하는 로딩 시간은?",
+      "choices": [
+        "4배로 는다",
+        "변하지 않는다",
+        "1/4로 준다",
+        "1/2로 준다",
+        "16배로 는다"
+      ],
+      "answer": 3,
+      "explanation": "**같은 항체량이면 부피 = 양 ÷ titer → titer 4배 → 부피 1/4 → 같은 유속에서 시간 1/4.** WK06 Case 1에서 0.1 → 1.0 g/L로 50 h → 5 h가 된 것과 같다.",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 처리 부피가 줄어 시간이 준다.",
+        "옳다 — 처리 부피가 1/4 → 시간도 1/4.",
+        "틀리다 — 배수를 잘못 계산했다.",
+        "틀리다 — 근거 없는 계산."
+      ],
+      "source": "WK06 PDF p.24",
+      "concepts": [
+        "Titer",
+        "Process time"
+      ],
+      "tags": [
+        "Titer",
+        "Process time"
+      ]
+    },
+    {
+      "id": "fin-046",
+      "type": "개념",
+      "part": 2,
+      "question": "목적 단백질과 불순물 peak가 거의 같은 위치에 겹쳐 나온다. 분해능을 가장 크게 개선할 조치는?",
+      "choices": [
+        "비드를 더 작은 것으로 바꾼다",
+        "컬럼을 다시 충진한다",
+        "시료 부피를 줄인다",
+        "유속을 낮춘다",
+        "레진 종류나 버퍼 pH를 바꿔 selectivity를 높인다"
+      ],
+      "answer": 5,
+      "explanation": "**peak 위치가 같으면 efficiency(폭)를 아무리 개선해도 겹친다 → peak 사이를 벌리는 selectivity(레진·pH)를 바꿔야 한다.** 교재: 분해능에는 선택성이 효율보다 더 중요하다.",
+      "choiceNotes": [
+        "틀리다 — peak 위치가 같으면 폭을 좁혀도 겹친다.",
+        "틀리다 — efficiency만 좋아질 뿐 위치는 같다.",
+        "틀리다 — efficiency 개선일 뿐이다.",
+        "틀리다 — efficiency 개선일 뿐이다.",
+        "옳다 — peak 위치가 같으면 efficiency(폭)를 아무리 개선해도 겹친다 → peak 사이를 벌리는 selectivity(레진·pH)를 바꿔야 한다."
+      ],
+      "source": "WK03 교재 1.17 (선택성) · WK07 강의 녹음 02:29:41 (출제 예상 리뷰)",
+      "concepts": [
+        "Selectivity",
+        "Resolution"
+      ],
+      "tags": [
+        "Selectivity",
+        "Resolution"
+      ]
+    },
+    {
+      "id": "fin-047",
+      "type": "개념",
+      "part": 2,
+      "question": "Polishing 분해능을 높이려고 34 µm 레진을 15 µm 레진으로 바꿀 때 생산 컬럼에서 먼저 확인할 것은?",
+      "choices": [
+        "같은 유속에서 배압(압력)이 한계를 넘지 않는지",
+        "결합 용량이 0이 되는지",
+        "비드가 바이러스를 통과시키는지",
+        "레진 색이 바뀌는지",
+        "Kav가 1이 되는지"
+      ],
+      "answer": 1,
+      "explanation": "**작은 비드는 분해능을 높이지만 압력이 커진다 → 생산 컬럼·장비 압력 한계를 먼저 본다.** 그래서 생산은 큰 비드를 쓰고 HPLC만 매우 작은 비드를 쓴다.",
+      "choiceNotes": [
+        "옳다 — 작은 비드는 분해능을 높이지만 압력이 커진다 → 생산 컬럼·장비 압력 한계를 먼저 본다.",
+        "틀리다 — 근거 없는 걱정이다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — 확인 항목이 아니다.",
+        "틀리다 — SEC 개념이다."
+      ],
+      "source": "WK03 강의 녹음 05:39 · WK03 교재 1.9",
+      "concepts": [
+        "Bead size",
+        "Pressure"
+      ],
+      "tags": [
+        "Bead size",
+        "Pressure"
+      ]
+    },
+    {
+      "id": "fin-048",
+      "type": "개념",
+      "part": 2,
+      "question": "pH 4 버퍼에서 CM 레진에 + 전하 단백질이 거의 붙지 않았다. 가장 그럴듯한 원인은?",
+      "choices": [
+        "CM은 음이온 교환 레진이라서",
+        "pH 4에서 단백질이 − 전하라서",
+        "CM은 pH 2~12에서 늘 같은 전하라서",
+        "CM은 weak CEX라 pH 4에서 작용기가 전하를 잃어서",
+        "CM은 크기로만 나누는 레진이라서"
+      ],
+      "answer": 4,
+      "explanation": "**CM(카복시메틸)은 weak CEX로 pH 6~10에서 쓴다. 산성(pH 4)에서는 COO⁻가 양성자를 받아 전하를 잃는다.** pH 4에서 CEX를 하려면 strong CEX(S·SP, pH 2~12)를 쓴다.",
+      "choiceNotes": [
+        "틀리다 — CM은 양이온 교환 레진이다.",
+        "틀리다 — + 전하라고 했다.",
+        "틀리다 — 그것은 S(SP)의 성질이다.",
+        "옳다 — CM(카복시메틸)은 weak CEX로 pH 6~10에서 쓴다. 산성(pH 4)에서는 COO⁻가 양성자를 받아 전하를 잃는다.",
+        "틀리다 — SEC 설명이다."
+      ],
+      "source": "WK03 교재 3.3 (사용 pH 범위)",
+      "concepts": [
+        "CM",
+        "Strong vs Weak"
+      ],
+      "tags": [
+        "CM",
+        "Strong vs Weak"
+      ]
+    },
+    {
+      "id": "fin-049",
+      "type": "개념",
+      "part": 2,
+      "question": "pH 10에서 음이온 교환을 해야 한다. 알맞은 레진은?",
+      "choices": [
+        "DEAE(weak AEX) — pH 2~9라 pH 10에서도 늘 안정",
+        "Q(strong AEX) — pH 2~12에서 전하 유지",
+        "CM(weak CEX)",
+        "S(strong CEX)",
+        "SEC 레진"
+      ],
+      "answer": 2,
+      "explanation": "**pH 10은 DEAE(2~9) 범위를 벗어나므로 넓은 pH에서 전하가 유지되는 Q를 쓴다.**",
+      "choiceNotes": [
+        "틀리다 — DEAE는 pH 9를 넘으면 전하를 잃는다.",
+        "옳다 — pH 10은 DEAE(2~9) 범위를 벗어나므로 넓은 pH에서 전하가 유지되는 Q를 쓴다.",
+        "틀리다 — 양이온 교환이다.",
+        "틀리다 — 양이온 교환이다.",
+        "틀리다 — 크기 분리이다."
+      ],
+      "source": "WK03 교재 3.3",
+      "concepts": [
+        "Q",
+        "DEAE",
+        "Strong vs Weak"
+      ],
+      "tags": [
+        "Q",
+        "DEAE",
+        "Strong vs Weak"
+      ]
+    },
+    {
+      "id": "fin-050",
+      "type": "개념",
+      "part": 2,
+      "question": "생산 step elution에서 목적 단백질과 비슷한 염 농도에서 떨어지는 불순물이 있을 때의 위험은?",
+      "choices": [
+        "목적 단백질이 영원히 레진에 남는다",
+        "버퍼가 더 많이 든다",
+        "한 번에 농도를 올려 불순물이 함께 용출될 수 있다",
+        "peak가 더 묽어진다",
+        "위험이 전혀 없다"
+      ],
+      "answer": 3,
+      "explanation": "**Step은 정한 농도로 한 번에 올리므로 그 농도 근처에서 떨어지는 불순물이 함께 나올 수 있다.** 그래서 처음엔 linear gradient로 성분별 용출 농도를 확인하고 step 조건을 정한다.",
+      "choiceNotes": [
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — step은 버퍼를 아낀다.",
+        "옳다 — Step은 정한 농도로 한 번에 올리므로 그 농도 근처에서 떨어지는 불순물이 함께 나올 수 있다.",
+        "틀리다 — step은 진하게 받는다.",
+        "틀리다 — 공동 용출 위험이 있다."
+      ],
+      "source": "WK03 교재 3.9 · WK03 강의 녹음 37:51–39:56",
+      "concepts": [
+        "Step elution",
+        "Gradient"
+      ],
+      "tags": [
+        "Step elution",
+        "Gradient"
+      ]
+    },
+    {
+      "id": "fin-051",
+      "type": "개념",
+      "part": 2,
+      "question": "CEX 용출액(high salt)을 desalting 없이 바로 AEX(flow-through)에 걸면 생기는 문제는?",
+      "choices": [
+        "항체가 AEX에 강하게 붙어 버린다",
+        "AEX 레진이 녹는다",
+        "염이 결합을 막아 불순물·바이러스가 AEX에 붙지 않는다",
+        "바이러스가 low pH로 불활화된다",
+        "문제가 없다"
+      ],
+      "answer": 3,
+      "explanation": "**고염에서는 이온 결합이 약해져 AEX가 불순물·바이러스를 잡지 못한다 → CEX와 AEX 사이에 UF/DF로 염을 뺀다.**",
+      "choiceNotes": [
+        "틀리다 — 고염에서는 오히려 결합이 약해진다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "옳다 — 고염에서는 이온 결합이 약해져 AEX가 불순물·바이러스를 잡지 못한다 → CEX와 AEX 사이에 UF/DF로 염을 뺀다.",
+        "틀리다 — VI와 관계없다.",
+        "틀리다 — 불순물 제거가 실패한다."
+      ],
+      "source": "WK04 강의 녹음② 2:05:01 · WK06 강의 녹음 1:58:36–2:08:09",
+      "concepts": [
+        "UF/DF",
+        "AEX"
+      ],
+      "tags": [
+        "UF/DF",
+        "AEX"
+      ]
+    },
+    {
+      "id": "fin-052",
+      "type": "개념",
+      "part": 2,
+      "question": "pI 7.5 항체를 pH 8.5 버퍼로 AEX flow-through에 걸면 생길 문제는?",
+      "choices": [
+        "불순물이 + 전하가 되어 AEX를 통과한다",
+        "항체가 + 전하가 되어 더 잘 통과한다",
+        "바이러스가 더 잘 붙어 문제가 없다",
+        "pH와 결합은 관계없다",
+        "항체가 − 전하가 되어 AEX에 붙어 수율이 떨어진다"
+      ],
+      "answer": 5,
+      "explanation": "**pH 8.5 > pI 7.5 → 항체 − 전하 → + 레진(AEX)에 붙어 flow-through 수율이 떨어진다.** AEX FT는 항체 pI 근처 이하 pH에서 한다.",
+      "choiceNotes": [
+        "틀리다 — 불순물(pI 2~4)은 여전히 −이다.",
+        "틀리다 — pH > pI라 − 전하이다.",
+        "틀리다 — 항체 손실이 문제다.",
+        "틀리다 — IEX 결합은 pH·pI로 정해진다.",
+        "옳다 — pH 8.5 > pI 7.5 → 항체 − 전하 → + 레진(AEX)에 붙어 flow-through 수율이 떨어진다."
+      ],
+      "source": "WK04 강의 녹음② 1:58:31–2:07:54 · WK07 강의 녹음 02:35:12–02:35:29",
+      "concepts": [
+        "pI",
+        "AEX",
+        "역문제"
+      ],
+      "tags": [
+        "pI",
+        "AEX",
+        "역문제"
+      ]
+    },
+    {
+      "id": "fin-053",
+      "type": "개념",
+      "part": 2,
+      "question": "어떤 항체 변이체의 pI가 6.2로 낮다. pH 6 CEX에서 결합이 약할 때의 대응은?",
+      "choices": [
+        "버퍼 pH를 5 근처로 낮춰 + 전하를 키운다",
+        "버퍼 pH를 8로 올린다",
+        "염 농도를 크게 올려 결합시킨다",
+        "AEX로 바꿔 bind-elute 한다",
+        "대응할 방법이 없다"
+      ],
+      "answer": 1,
+      "explanation": "**pH와 pI의 거리가 멀수록 전하가 크다 → pI 6.2보다 충분히 낮은 pH(약 5)로 내려 + 전하를 키운다.** 결합 안 될 때 CEX는 pH를 낮춘다(교재 troubleshooting).",
+      "choiceNotes": [
+        "옳다 — pH와 pI의 거리가 멀수록 전하가 크다 → pI 6.2보다 충분히 낮은 pH(약 5)로 내려 + 전하를 키운다.",
+        "틀리다 — − 전하가 되어 더 안 붙는다.",
+        "틀리다 — 고염은 결합을 약하게 한다.",
+        "틀리다 — pI가 낮아도 pH 6에서 약 + 전하라 맞지 않는다.",
+        "틀리다 — pH를 낮추면 된다."
+      ],
+      "source": "WK03 교재 3.13 (문제 해결) · WK04 강의 녹음② 1:53:29–1:58:46",
+      "concepts": [
+        "pI",
+        "CEX",
+        "Troubleshooting"
+      ],
+      "tags": [
+        "pI",
+        "CEX",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "id": "fin-054",
+      "type": "개념",
+      "part": 2,
+      "question": "같은 레진에서 유속을 크게 올리면 DBC가 낮아지는 이유는?",
+      "choices": [
+        "유속이 빠르면 레진 기공이 커져서",
+        "유속이 빠르면 pH가 바뀌어서",
+        "SBC가 함께 두 배가 되어서",
+        "체류 시간이 짧아져 단백질이 붙기 전에 빠져나가서",
+        "DBC는 유속과 관계없다"
+      ],
+      "answer": 4,
+      "explanation": "**DBC는 실제 유속에서의 용량이라 체류 시간이 짧을수록 낮아진다(일반 원리).** 그래서 DBC를 잴 때와 같은 linear velocity·bed height로 운전한다.",
+      "choiceNotes": [
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — 이유가 아니다.",
+        "틀리다 — SBC는 유속과 무관한 총용량이다.",
+        "옳다 — DBC는 실제 유속에서의 용량이라 체류 시간이 짧을수록 낮아진다(일반 원리).",
+        "틀리다 — DBC는 운전 조건(유속)에 따라 달라진다."
+      ],
+      "source": "WK03 교재 3.8 (DBC — 실제 운전 조건) · 일반 원리",
+      "concepts": [
+        "DBC",
+        "Residence time"
+      ],
+      "tags": [
+        "DBC",
+        "Residence time"
+      ]
+    },
+    {
+      "id": "fin-055",
+      "type": "개념",
+      "part": 2,
+      "question": "SEC 정밀 분리 컬럼 길이를 늘리려 할 때 생산 규모에서 쓰는 방법은?",
+      "choices": [
+        "유속을 크게 올려 길이 효과를 낸다",
+        "같은 지름 컬럼 여러 개를 이어 붙인다",
+        "시료를 컬럼 부피의 30 %로 늘린다",
+        "비드를 더 크게 바꾼다",
+        "지름만 키우고 길이는 그대로 둔다"
+      ],
+      "answer": 2,
+      "explanation": "**SEC는 지름을 키워 scale-up하고, 길이가 더 필요하면 컬럼 섹션을 이어 붙인다(예: 60 cm를 20 cm × 3).**",
+      "choiceNotes": [
+        "틀리다 — 정밀 분리는 느리게 해야 한다.",
+        "옳다 — SEC는 지름을 키워 scale-up하고, 길이가 더 필요하면 컬럼 섹션을 이어 붙인다(예: 60 cm를 20 cm × 3).",
+        "틀리다 — 정밀 분리는 몇 %만 넣는다.",
+        "틀리다 — 분해능이 떨어진다.",
+        "틀리다 — 길이가 필요하면 섹션을 잇는다."
+      ],
+      "source": "WK03 교재 7.6 (기술별 스케일업)",
+      "concepts": [
+        "SEC",
+        "Scale-up"
+      ],
+      "tags": [
+        "SEC",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "fin-056",
+      "type": "개념",
+      "part": 2,
+      "question": "고염 Protein A·CEX 용출액을 희석 없이 바로 다음 결합 단계에 걸고 싶다. 알맞은 선택은?",
+      "choices": [
+        "일반 weak CEX",
+        "SEC desalting 없이 일반 AEX",
+        "Protein A 재사용",
+        "High salt tolerance가 있는 MMC 레진",
+        "Depth filter"
+      ],
+      "answer": 4,
+      "explanation": "**MMC는 정전기 외 소수성·수소결합으로 붙잡아 수십 mS/cm에서도 DBC를 유지 → 희석·desalting 없이 걸 수 있다.**",
+      "choiceNotes": [
+        "틀리다 — 고염에서 결합 용량이 급격히 떨어진다.",
+        "틀리다 — 고염에서 결합이 약하다.",
+        "틀리다 — capture 레진이다.",
+        "옳다 — MMC는 정전기 외 소수성·수소결합으로 붙잡아 수십 mS/cm에서도 DBC를 유지 → 희석·desalting 없이 걸 수 있다.",
+        "틀리다 — 결합 정제 단계가 아니다."
+      ],
+      "source": "WK03 교재 4.3–4.5 (MMC)",
+      "concepts": [
+        "MMC",
+        "High salt tolerance"
+      ],
+      "tags": [
+        "MMC",
+        "High salt tolerance"
+      ]
+    },
+    {
+      "id": "fin-057",
+      "type": "개념",
+      "part": 2,
+      "question": "작은 컬럼 공정을 큰 컬럼으로 옮기면서 \"같은 공정\"이 깨지는 변경은?",
+      "choices": [
+        "지름을 키워 부피 유속을 늘린다",
+        "같은 linear velocity를 유지한다",
+        "버퍼를 같은 CV 비율로 흘린다",
+        "레진 부피당 load를 같게 한다",
+        "Bed height를 20 cm에서 10 cm로 낮추고 지름을 키운다"
+      ],
+      "answer": 5,
+      "explanation": "**Bed height가 바뀌면 같은 선속도에서도 체류 시간이 달라져 다른 공정이 된다.** 높이·선속도·버퍼(CV 비율)·load 비율은 고정, 지름·부피 유속·총량은 변동.",
+      "choiceNotes": [
+        "옳은 진술 — 변동 파라미터라 괜찮다.",
+        "옳은 진술 — 고정해야 할 것을 지켰다.",
+        "옳은 진술 — 고정해야 할 것을 지켰다.",
+        "옳은 진술 — 고정해야 할 것을 지켰다.",
+        "틀린 진술(정답) — bed height는 고정 파라미터이다."
+      ],
+      "source": "WK06 강의 녹음 2:08:21–2:19:37 · WK03 교재 7.4–7.6",
+      "concepts": [
+        "같은 공정 조건",
+        "Scale-up"
+      ],
+      "tags": [
+        "같은 공정 조건",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "fin-058",
+      "type": "개념",
+      "part": 2,
+      "question": "Protein A 용출액의 low pH VI 뒤 즉시 중화하고 depth filter를 거치는 이유로 가장 정확한 것은?",
+      "choices": [
+        "low pH에서 시간이 갈수록 변성·aggregate가 늘어서",
+        "중화해야 바이러스가 불활화되어서",
+        "depth filter가 바이러스를 모두 걸러서",
+        "중화하면 항체가 Protein A에 다시 붙어서",
+        "low pH에서 항체가 더 안정해져서"
+      ],
+      "answer": 1,
+      "explanation": "**pH 3.5 부근에서 변성으로 탁도(약 100 NTU)가 올라가고 시간이 갈수록 늘어 → VI(30~60분) 뒤 즉시 중화하고 glass fiber depth + PES membrane으로 거른다.**",
+      "choiceNotes": [
+        "옳다 — pH 3.5 부근에서 변성으로 탁도(약 100 NTU)가 올라가고 시간이 갈수록 늘어 → VI(30~60분) 뒤 즉시 중화하고 glass fiber depth + PES membrane으로 거른다.",
+        "틀리다 — 불활화는 low pH에서 일어난다.",
+        "틀리다 — virus filter의 역할이다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — 변성이 늘어난다."
+      ],
+      "source": "바이오시밀러 교과서 p.246–247 · WK07 강의 녹음 2:00:34–2:01:02",
+      "concepts": [
+        "Viral inactivation",
+        "Depth filter"
+      ],
+      "tags": [
+        "Viral inactivation",
+        "Depth filter"
+      ]
+    },
+    {
+      "id": "fin-059",
+      "type": "개념",
+      "part": 2,
+      "question": "Parvovirus(non-enveloped, 18~26 nm)를 제거하는 데 가장 기대할 수 있는 단계는?",
+      "choices": [
+        "Low pH VI만",
+        "Virus filtration(20 nm)과 AEX",
+        "S/D 처리만",
+        "Clarification depth filter만",
+        "Protein A 용출만"
+      ],
+      "answer": 2,
+      "explanation": "**Low pH·S/D는 lipid envelope를 파괴하므로 non-enveloped virus에는 약하다 → 크기로 거르는 virus filtration과 전하로 잡는 AEX가 모든 바이러스를 겨냥한다.**",
+      "choiceNotes": [
+        "틀리다 — envelope가 없어 low pH가 잘 듣지 않는다.",
+        "옳다 — Low pH·S/D는 lipid envelope를 파괴하므로 non-enveloped virus에는 약하다 → 크기로 거르는 virus filtration과 전하로 잡는 AEX가 모든 바이러스를 겨냥한다.",
+        "틀리다 — envelope를 겨냥한 방법이다.",
+        "틀리다 — 바이러스 크기를 거르지 못한다.",
+        "틀리다 — 바이러스 clearance의 주 단계가 아니다."
+      ],
+      "source": "WK06 PDF p.11, p.14–15 (Model viruses, Orthogonal)",
+      "concepts": [
+        "Virus clearance",
+        "Non-enveloped virus"
+      ],
+      "tags": [
+        "Virus clearance",
+        "Non-enveloped virus"
+      ]
+    },
+    {
+      "id": "fin-060",
+      "type": "개념",
+      "part": 2,
+      "question": "가이드라인이 바이러스 감소 단계를 적어도 두 개의 orthogonal 단계로 평가하라고 하는 이유는?",
+      "choices": [
+        "같은 원리 단계를 두 번 하면 LRV가 곱해져서",
+        "한 단계는 늘 실패하기 때문에",
+        "원리가 다른 단계가 서로의 빈틈을 메워서",
+        "두 단계면 바이러스 시험이 필요 없어서",
+        "orthogonal은 같은 필터를 두 번 쓰는 뜻이라서"
+      ],
+      "answer": 3,
+      "explanation": "**불활화(low pH), 흡착(AEX), 크기 제거(VF)처럼 원리가 다른 단계를 겹치면 한 원리가 놓친 바이러스를 다른 원리가 잡는다.** EMEA 가이드라인: at least two orthogonal steps.",
+      "choiceNotes": [
+        "틀리다 — LRV는 더하며, 같은 원리는 같은 약점을 가진다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "옳다 — 불활화(low pH), 흡착(AEX), 크기 제거(VF)처럼 원리가 다른 단계를 겹치면 한 원리가 놓친 바이러스를 다른 원리가 잡는다.",
+        "틀리다 — 시험은 필요하다.",
+        "틀리다 — 원리가 다른 단계를 뜻한다."
+      ],
+      "source": "WK06 PDF p.8 (Virus Safety Guidelines), p.15",
+      "concepts": [
+        "Orthogonal",
+        "Virus clearance"
+      ],
+      "tags": [
+        "Orthogonal",
+        "Virus clearance"
+      ]
+    },
+    {
+      "id": "fin-061",
+      "type": "개념",
+      "part": 2,
+      "question": "ICH Q5A가 요구하는 전체 정제 공정의 바이러스 제거 수준은?",
+      "choices": [
+        "정확히 1 log만 제거",
+        "바이러스 시험만 통과하면 제거는 필요 없다",
+        "한 단계에서 모두 제거",
+        "단일 투여량 원료에 있을 것으로 추정되는 양보다 훨씬 많이 제거",
+        "enveloped virus만 제거"
+      ],
+      "answer": 4,
+      "explanation": "**\"The entire purification process should be able to eliminate substantially more virus than is estimated to be present in a single-dose-equivalent of unprocessed bulk.\"**",
+      "choiceNotes": [
+        "틀리다 — 부족하다.",
+        "틀리다 — 제거·불활화를 평가해야 한다.",
+        "틀리다 — 여러 단계를 평가한다.",
+        "옳다 — \"The entire purification process should be able to eliminate substantially more virus than is estimated to be present in a single-dose-equivalent of unprocessed bulk.\".",
+        "틀리다 — non-enveloped도 포함해야 한다."
+      ],
+      "source": "WK06 PDF p.9 (ICH Q5A)",
+      "concepts": [
+        "Virus clearance"
+      ],
+      "tags": [
+        "Virus clearance"
+      ]
+    },
+    {
+      "id": "fin-062",
+      "type": "개념",
+      "part": 2,
+      "question": "탱크 vent filter를 친수성 PES로 달았더니 CIP 뒤 탱크가 찌그러졌다. 원인과 대책은?",
+      "choices": [
+        "젖은 필터로 공기가 못 드나들어서 — 소수성 PTFE로 바꾼다",
+        "PES가 녹아서 — 나일론으로 바꾼다",
+        "공기가 너무 많이 들어가서 — 필터를 없앤다",
+        "pore가 커서 — 0.1 µm 친수성으로 바꾼다",
+        "탱크가 원래 약해서 — 필터와 관계없다"
+      ],
+      "answer": 1,
+      "explanation": "**친수성 필터는 젖으면 기체가 통과하지 못해 탱크 안팎 압력 차가 생긴다 → 기체·vent 여과는 소수성(PTFE)을 쓴다.** 교과서에 실제 사례로 나온다.",
+      "choiceNotes": [
+        "옳다 — 친수성 필터는 젖으면 기체가 통과하지 못해 탱크 안팎 압력 차가 생긴다 → 기체·vent 여과는 소수성(PTFE)을 쓴다.",
+        "틀리다 — 원인이 아니다.",
+        "틀리다 — 거꾸로 말했다.",
+        "틀리다 — 젖으면 같은 문제가 생긴다.",
+        "틀리다 — 필터 젖음이 원인이다."
+      ],
+      "source": "바이오시밀러 교과서 p.100–101 · WK04 PDF p.50–51",
+      "concepts": [
+        "Vent filter",
+        "Hydrophobic"
+      ],
+      "tags": [
+        "Vent filter",
+        "Hydrophobic"
+      ]
+    },
+    {
+      "id": "fin-063",
+      "type": "개념",
+      "part": 2,
+      "question": "사용 후 sterile filter의 bubble point가 제조사 기준(예: 3.2 bar)보다 낮게 나왔다. 해석과 조치는?",
+      "choices": [
+        "pore가 더 작아진 것 — 합격",
+        "필터가 더 깨끗해진 것 — 합격",
+        "큰 pore나 찢어짐 가능성 — 불합격, 여과액 처리 판단",
+        "온도 영향일 뿐 — 그대로 출하",
+        "bubble point는 사용 후에 의미가 없다"
+      ],
+      "answer": 3,
+      "explanation": "**bubble point는 pore가 클수록 낮다 → 기준 이하면 결함이 있는 필터로 보고, 내부 규정에 따라 여과액을 폐기하거나 다시 여과한다.**",
+      "choiceNotes": [
+        "틀리다 — bubble point가 낮으면 pore가 크다.",
+        "틀리다 — 근거 없는 해석이다.",
+        "옳다 — bubble point는 pore가 클수록 낮다 → 기준 이하면 결함이 있는 필터로 보고, 내부 규정에 따라 여과액을 폐기하거나 다시 여과한다.",
+        "틀리다 — 불합격 기준이다.",
+        "틀리다 — 사용 후 시험이 특히 중요하다."
+      ],
+      "source": "바이오시밀러 교과서 p.125–127 (Bubble point test)",
+      "concepts": [
+        "Integrity test",
+        "Bubble point"
+      ],
+      "tags": [
+        "Integrity test",
+        "Bubble point"
+      ]
+    },
+    {
+      "id": "fin-064",
+      "type": "개념",
+      "part": 2,
+      "question": "최종 sterile filter에 대해 PUPSIT이 강조하는 시험 시점은?",
+      "choices": [
+        "필터를 사기 전 제조사 공장에서",
+        "멸균을 마친 뒤 사용하기 전",
+        "사용 후에만",
+        "필터를 멸균하기 전에만",
+        "출하 1년 뒤"
+      ],
+      "answer": 2,
+      "explanation": "**PUPSIT(Pre-Use, Post-Sterilization Integrity Test): 멸균 과정에서 필터가 손상되지 않았는지 사용 전에 확인한다.** 사용 후 시험은 지역 공통으로 중요하다.",
+      "choiceNotes": [
+        "틀리다 — FAT 개념과 혼동했다.",
+        "옳다 — PUPSIT(Pre-Use, Post-Sterilization Integrity Test): 멸균 과정에서 필터가 손상되지 않았는지 사용 전에 확인한다.",
+        "틀리다 — 사용 후는 기본이고 PUPSIT은 사용 전이다.",
+        "틀리다 — pre-sterilization 시험이다.",
+        "틀리다 — 근거 없는 시점이다."
+      ],
+      "source": "바이오시밀러 교과서 p.123–124",
+      "concepts": [
+        "Integrity test",
+        "PUPSIT"
+      ],
+      "tags": [
+        "Integrity test",
+        "PUPSIT"
+      ]
+    },
+    {
+      "id": "fin-065",
+      "type": "개념",
+      "part": 2,
+      "question": "CFF에서 flux가 TMP를 올려도 늘지 않는다. 이때 알맞은 조치는?",
+      "choices": [
+        "TMP를 계속 더 올린다",
+        "막을 DEF 방식으로 바꾼다",
+        "Retentate를 버린다",
+        "Permeate를 feed로 되돌린다",
+        "Crossflow 유속을 올려 gel layer를 줄인다"
+      ],
+      "answer": 5,
+      "explanation": "**gel layer 지배 구간에서는 TMP를 올려도 flux가 안 늘어난다 → crossflow를 높여 표면 난류로 gel layer를 얇게 한다(cassette screen의 역할과 같음).**",
+      "choiceNotes": [
+        "틀리다 — gel layer 구간에서는 효과가 없다.",
+        "틀리다 — 농축 공정에 맞지 않다.",
+        "틀리다 — 제품이 retentate에 있다.",
+        "틀리다 — 해결책이 아니다.",
+        "옳다 — gel layer 지배 구간에서는 TMP를 올려도 flux가 안 늘어난다 → crossflow를 높여 표면 난류로 gel layer를 얇게 한다(cassette screen의 역할과 같음)."
+      ],
+      "source": "바이오시밀러 교과서 p.108–110 · WK06 강의 녹음 29:41–45:30",
+      "concepts": [
+        "CFF",
+        "Gel layer",
+        "TMP"
+      ],
+      "tags": [
+        "CFF",
+        "Gel layer",
+        "TMP"
+      ]
+    },
+    {
+      "id": "fin-066",
+      "type": "개념",
+      "part": 2,
+      "question": "재사용하는 CFF cassette를 교체할 시점을 판단하는 지표로 교과서에 나온 것은?",
+      "choices": [
+        "cassette 색이 바뀌었을 때",
+        "한 번이라도 썼을 때",
+        "TMP가 0일 때",
+        "제품 농도가 올라갔을 때",
+        "CIP 뒤 NWP가 초기 대비 약 30~50 % 떨어졌을 때"
+      ],
+      "answer": 5,
+      "explanation": "**CIP 전후 clean water flux를 온도 보정한 NWP로 비교하고, 초기 대비 약 30~50 % 떨어지면 교체하는 경우가 많다(회사 규정에 따름).**",
+      "choiceNotes": [
+        "틀리다 — 지표가 아니다.",
+        "틀리다 — 수십~백 번 넘게 재사용한다.",
+        "틀리다 — 지표가 아니다.",
+        "틀리다 — 농축 결과일 뿐이다.",
+        "옳다 — CIP 전후 clean water flux를 온도 보정한 NWP로 비교하고, 초기 대비 약 30~50 % 떨어지면 교체하는 경우가 많다(회사 규정에 따름)."
+      ],
+      "source": "바이오시밀러 교과서 p.109 · WK06 강의 녹음 1:20:52",
+      "concepts": [
+        "NWP",
+        "CFF"
+      ],
+      "tags": [
+        "NWP",
+        "CFF"
+      ]
+    },
+    {
+      "id": "fin-067",
+      "type": "개념",
+      "part": 2,
+      "question": "Clarification에 depth filter만 쓰다가 배양 규모를 15,000 L로 키울 때의 판단으로 옳은 것은?",
+      "choices": [
+        "depth filter 면적만 1,000배로 늘린다",
+        "clarification을 생략한다",
+        "원심분리를 앞에 두고 depth·membrane으로 마무리한다",
+        "Protein A에 세포째 건다",
+        "virus filter로 세포를 거른다"
+      ],
+      "answer": 3,
+      "explanation": "**대략 2,000~3,000 L 이상은 연속 원심분리로 대부분을 걷어 내고, 남은 세포를 depth filter, 그 뒤 membrane filter로 마무리한다.**",
+      "choiceNotes": [
+        "틀리다 — 대규모에서는 원심분리가 경제적이다.",
+        "틀리다 — 세포 제거는 필수이다.",
+        "옳다 — 대략 2,000~3,000 L 이상은 연속 원심분리로 대부분을 걷어 내고, 남은 세포를 depth filter, 그 뒤 membrane filter로 마무리한다.",
+        "틀리다 — 컬럼이 막힌다.",
+        "틀리다 — 목적이 다르다."
+      ],
+      "source": "WK04 강의 녹음② 1:28:44–1:37:26",
+      "concepts": [
+        "Clarification",
+        "Centrifuge"
+      ],
+      "tags": [
+        "Clarification",
+        "Centrifuge"
+      ]
+    },
+    {
+      "id": "fin-068",
+      "type": "개념",
+      "part": 2,
+      "question": "생산 배양에서 세포 밀도가 목표에 도달했을 때 37 → 32 ℃로 낮추는 근본 이유는?",
+      "choices": [
+        "세포 성장을 더 빠르게 하려고",
+        "배지를 덜 쓰려고",
+        "바이러스를 불활화하려고",
+        "성장(log)을 늦추고 생산(stationary) 기간을 길게 끌려고",
+        "pH를 7로 맞추려고"
+      ],
+      "answer": 4,
+      "explanation": "**목표 밀도까지 키운 뒤 온도를 낮춰 증식을 늦추고 세포를 오래 살려 stationary phase 생산을 늘린다(품질도 유리).**",
+      "choiceNotes": [
+        "틀리다 — 성장은 늦어진다.",
+        "틀리다 — 주된 이유가 아니다.",
+        "틀리다 — VI와 관계없다.",
+        "옳다 — 목표 밀도까지 키운 뒤 온도를 낮춰 증식을 늦추고 세포를 오래 살려 stationary phase 생산을 늘린다(품질도 유리).",
+        "틀리다 — 온도와 pH는 별개 제어이다."
+      ],
+      "source": "WK02 PDF p.21, p.30 · WK02 강의 녹음 01:16:27",
+      "concepts": [
+        "Temperature shift",
+        "Growth curve"
+      ],
+      "tags": [
+        "Temperature shift",
+        "Growth curve"
+      ]
+    },
+    {
+      "id": "fin-069",
+      "type": "개념",
+      "part": 2,
+      "question": "N-1 perfusion high-inoculum fed-batch가 허가 측면에서 도입이 쉬운 이유는?",
+      "choices": [
+        "생산 단계(N)는 기존 fed-batch 그대로라서",
+        "생산 단계까지 모두 perfusion으로 바꿔서",
+        "세포주를 새로 만들어서",
+        "배지를 쓰지 않아서",
+        "Clarification이 필요 없어서"
+      ],
+      "answer": 1,
+      "explanation": "**N-1만 perfusion으로 바꿔 접종 밀도를 높일 뿐, 생산 단계는 fed-batch 그대로라 기존 공정·허가에 미치는 변화가 작다.**",
+      "choiceNotes": [
+        "옳다 — N-1만 perfusion으로 바꿔 접종 밀도를 높일 뿐, 생산 단계는 fed-batch 그대로라 기존 공정·허가에 미치는 변화가 작다.",
+        "틀리다 — N 단계는 fed-batch이다.",
+        "틀리다 — 세포주는 같다.",
+        "틀리다 — 배지는 쓴다.",
+        "틀리다 — 필요하다."
+      ],
+      "source": "WK02 PDF p.37 (Easy to adopt) · WK02 강의 녹음 02:09:46",
+      "concepts": [
+        "N-1 perfusion"
+      ],
+      "tags": [
+        "N-1 perfusion"
+      ]
+    },
+    {
+      "id": "fin-070",
+      "type": "개념",
+      "part": 2,
+      "question": "P/V 일정이 아니라 tip speed 일정으로 scale-up했더니 큰 배양기에서 DO가 잘 유지되지 않았다. 원인으로 가장 그럴듯한 것은?",
+      "choices": [
+        "shear가 무한히 커져서",
+        "P/V와 mixing이 줄어 산소 전달(kLa)이 떨어져서",
+        "세포가 산소를 쓰지 않게 되어서",
+        "배양 온도가 올라가서",
+        "pH 센서가 이중화되어서"
+      ],
+      "answer": 2,
+      "explanation": "**tip speed 일정 scale-up은 P/V와 mixing time을 나쁘게 만들고, kLa는 P/V와 연관되므로 산소 전달이 떨어진다.**",
+      "choiceNotes": [
+        "틀리다 — tip speed가 같으면 최대 shear는 비슷하다.",
+        "옳다 — tip speed 일정 scale-up은 P/V와 mixing time을 나쁘게 만들고, kLa는 P/V와 연관되므로 산소 전달이 떨어진다.",
+        "틀리다 — OUR은 그대로다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — 관계없다."
+      ],
+      "source": "WK02 PDF p.88, p.90 (torque와 kLa), p.92 (kLa ∝ (P/V)^a)",
+      "concepts": [
+        "Tip speed",
+        "kLa",
+        "P/V"
+      ],
+      "tags": [
+        "Tip speed",
+        "kLa",
+        "P/V"
+      ]
+    },
+    {
+      "id": "fin-071",
+      "type": "개념",
+      "part": 2,
+      "question": "kLa를 높이는 방법으로 옳지 않은 것은?",
+      "choices": [
+        "교반을 멈춘다",
+        "교반 속도를 높인다(shear 한계 안에서)",
+        "통기량(VVM)을 늘린다(거품 한계 안에서)",
+        "작은 기포를 내는 micro sparger를 쓴다",
+        "임펠러 동력(P/V)을 키운다"
+      ],
+      "answer": 1,
+      "explanation": "**kLa는 교반(P/V)과 통기(superficial gas velocity), 기포 크기로 높인다(교안: kLa = a × (P/V)^b × v_s^c).** 단 shear·거품 한계가 design space의 최대값이다. 순산소 공급은 kLa가 아니라 C*를 높여 OTR을 올리는 방법이다.",
+      "choiceNotes": [
+        "틀린 진술(정답) — 교반은 기포를 쪼개고 섞어 kLa를 높인다.",
+        "옳은 진술 — kLa를 높인다.",
+        "옳은 진술 — kLa를 높인다.",
+        "옳은 진술 — 기포 표면적이 커진다.",
+        "옳은 진술 — kLa는 P/V와 함께 커진다."
+      ],
+      "source": "WK02 PDF p.85–86, 92",
+      "concepts": [
+        "kLa",
+        "Design space"
+      ],
+      "tags": [
+        "kLa",
+        "Design space"
+      ]
+    },
+    {
+      "id": "fin-072",
+      "type": "개념",
+      "part": 2,
+      "question": "pH 7.0이 set point인 배양에서 하룻밤 pH가 7.05로 갔다. 제품 판단에 필요한 정보는?",
+      "choices": [
+        "set point 하나만 알면 된다",
+        "배양기 크기",
+        "작업자 이름",
+        "라벨 문구",
+        "PC로 확인한 허용 범위(design space) 안인지"
+      ],
+      "answer": 5,
+      "explanation": "**PD는 set point(pH 7)를 주고, PC는 벗어나도 품질이 유지되는 범위를 준다. 그 범위(design space) 안이면 영향 없음, 밖이면 일탈 조사.** 리뷰의 \"pH 7.001이면 실패인가?\" 질문이다.",
+      "choiceNotes": [
+        "틀리다 — 범위를 알아야 판단한다.",
+        "틀리다 — 판단 근거가 아니다.",
+        "틀리다 — 기록은 하지만 판단 근거가 아니다.",
+        "틀리다 — 관계없다.",
+        "옳다 — PD는 set point(pH 7)를 주고, PC는 벗어나도 품질이 유지되는 범위를 준다. 그 범위(design space) 안이면 영향 없음, 밖이면 일탈 조사."
+      ],
+      "source": "WK07 강의 녹음 02:33:02–02:34:10 · WK02 PDF p.97",
+      "concepts": [
+        "PD",
+        "PC",
+        "Design space"
+      ],
+      "tags": [
+        "PD",
+        "PC",
+        "Design space"
+      ]
+    },
+    {
+      "id": "fin-073",
+      "type": "개념",
+      "part": 2,
+      "question": "배양 IPC에서 lactate가 계속 오르고 pH가 떨어진다. 먼저 할 일로 알맞은 것은?",
+      "choices": [
+        "바로 배양을 폐기한다",
+        "샘플로 glucose·lactate·pCO₂를 확인해 원인을 본다",
+        "pH 센서를 떼어 낸다",
+        "온도를 50 ℃로 올린다",
+        "Feed를 무조건 두 배로 넣는다"
+      ],
+      "answer": 2,
+      "explanation": "**pH 변화의 원인(lactate 축적, CO₂ 축적, 센서 이상)을 샘플·IPC로 확인한 뒤 염기·통기·feed 전략을 조정한다.**",
+      "choiceNotes": [
+        "틀리다 — 원인 확인이 먼저다.",
+        "옳다 — pH 변화의 원인(lactate 축적, CO₂ 축적, 센서 이상)을 샘플·IPC로 확인한 뒤 염기·통기·feed 전략을 조정한다.",
+        "틀리다 — 제어를 잃는다.",
+        "틀리다 — 세포가 죽는다.",
+        "틀리다 — 원인 확인 없이 바꾸지 않는다."
+      ],
+      "source": "WK02 PDF p.24 (Offline Analysis) · WK02 강의 녹음 01:25:39–01:26:35",
+      "concepts": [
+        "IPC",
+        "pH control"
+      ],
+      "tags": [
+        "IPC",
+        "pH control"
+      ]
+    },
+    {
+      "id": "fin-074",
+      "type": "개념",
+      "part": 2,
+      "question": "APS 양성(오염 1개)이 나왔고 원인이 명확히 밝혀졌다. 교안의 재검증 기준은?",
+      "choices": [
+        "원인과 상관없이 재검증 없이 생산 재개",
+        "원인 규명 시 연속 10회",
+        "원인 규명 시 1회 검증 run, 원인 불명이면 연속 3회",
+        "원인 불명이면 1회",
+        "오염 1개는 허용 범위라 조치하지 않는다"
+      ],
+      "answer": 3,
+      "explanation": "**교안: 부적합 시 원인 규명되면 1회 검증 run, 원인 불명이면 연속 3회 run(Annex 1/PDA).** 직전 성공 APS 이후 배치 기록 검토와 미출하 배치 조사도 한다.",
+      "choiceNotes": [
+        "틀리다 — 재검증 뒤에만 생산을 재개한다.",
+        "틀리다 — 교안 기준이 아니다.",
+        "옳다 — 교안: 부적합 시 원인 규명되면 1회 검증 run, 원인 불명이면 연속 3회 run(Annex 1/PDA).",
+        "틀리다 — 불명이면 연속 3회이다.",
+        "틀리다 — zero growth가 기준이다."
+      ],
+      "source": "02 RABS & APS PDF p.15 (11 부적합 시 조사), p.19",
+      "concepts": [
+        "APS"
+      ],
+      "tags": [
+        "APS"
+      ]
+    },
+    {
+      "id": "fin-075",
+      "type": "개념",
+      "part": 2,
+      "question": "APS에서 배지 충전량을 실제 제품 충전량과 같게 하지 않아도 되는 이유는?",
+      "choices": [
+        "충전량은 결과에 전혀 의미가 없어서",
+        "APS는 충전 정밀도 시험이라서",
+        "배지가 비싸 최소로만 넣으라는 규정이라서",
+        "용기를 뒤집어 마개·밀봉부에 배지가 닿기만 하면 되어서",
+        "실제 충전량을 넣으면 균이 안 자라서"
+      ],
+      "answer": 4,
+      "explanation": "**충전량은 실제와 무관하게 용기·마개·밀봉부가 배지에 닿는 충분량이면 된다.**",
+      "choiceNotes": [
+        "틀리다 — 닿을 만큼은 넣어야 한다.",
+        "틀리다 — 무균성 시험이다.",
+        "틀리다 — 규정 이유가 아니다.",
+        "옳다 — 충전량은 실제와 무관하게 용기·마개·밀봉부가 배지에 닿는 충분량이면 된다.",
+        "틀리다 — 근거 없는 진술이다."
+      ],
+      "source": "02 RABS & APS PDF p.14 (3 충전량)",
+      "concepts": [
+        "APS"
+      ],
+      "tags": [
+        "APS"
+      ]
+    },
+    {
+      "id": "fin-076",
+      "type": "개념",
+      "part": 2,
+      "question": "APS 라인 속도를 정하는 교안의 원칙으로 옳은 것은?",
+      "choices": [
+        "늘 가장 느린 속도로만 한다",
+        "간섭이 잦으면 빠르게, 노출이 길면 느리게 — 위험이 큰 쪽",
+        "늘 실제 평균 속도로만 한다",
+        "속도는 APS와 관계없다",
+        "가장 빠른 속도는 금지된다"
+      ],
+      "answer": 2,
+      "explanation": "**라인 속도: 간섭이 잦으면 빠르게, 노출 시간이 길면 느리게 — 오염 위험이 가장 높은 속도를 고른다.**",
+      "choiceNotes": [
+        "틀리다 — 위험이 큰 쪽을 고른다.",
+        "옳다 — 라인 속도: 간섭이 잦으면 빠르게, 노출 시간이 길면 느리게 — 오염 위험이 가장 높은 속도를 고른다.",
+        "틀리다 — worst case를 반영한다.",
+        "틀리다 — 설계 파라미터이다.",
+        "틀리다 — 위험하면 빠른 쪽을 고른다."
+      ],
+      "source": "02 RABS & APS PDF p.14 (4 라인 속도)",
+      "concepts": [
+        "APS",
+        "Worst case"
+      ],
+      "tags": [
+        "APS",
+        "Worst case"
+      ]
+    },
+    {
+      "id": "fin-077",
+      "type": "개념",
+      "part": 2,
+      "question": "Closed RABS에서 작업 중 도어 intervention이 필요해졌다. 원칙에 맞는 대응은?",
+      "choices": [
+        "도어를 열지 않고 글러브포트로만 처리한다",
+        "도어를 잠깐 열고 빠르게 처리한다",
+        "작업자가 들어가 직접 처리한다",
+        "기록 없이 처리한다",
+        "Open RABS로 바꿔 계속 생산한다"
+      ],
+      "answer": 1,
+      "explanation": "**Closed RABS는 글러브포트 전용, 도어 intervention 불가. 도어를 열었다면 라인 정지·재소독 절차를 따른다.** APS에 반영되지 않은 새 intervention을 즉흥으로 하지 않는다.",
+      "choiceNotes": [
+        "옳다 — Closed RABS는 글러브포트 전용, 도어 intervention 불가. 도어를 열었다면 라인 정지·재소독 절차를 따른다.",
+        "틀리다 — Closed RABS는 도어 intervention 불가이다.",
+        "틀리다 — 차단 원칙 위반이다.",
+        "틀리다 — 모든 intervention은 기록한다.",
+        "틀리다 — 즉흥 변경은 금지된다."
+      ],
+      "source": "02 RABS & APS PDF p.7–8, p.23 (Intervention 관리)",
+      "concepts": [
+        "RABS",
+        "Intervention"
+      ],
+      "tags": [
+        "RABS",
+        "Intervention"
+      ]
+    },
+    {
+      "id": "fin-078",
+      "type": "개념",
+      "part": 2,
+      "question": "VHP 검증에서 CI는 모두 색이 바뀌었는데 BI 하나가 자랐다. 판정은?",
+      "choices": [
+        "CI가 모두 바뀌었으니 합격",
+        "BI 하나는 허용 범위라 합격",
+        "Cycle 실패 — BI가 사멸을 직접 입증하는 유일한 수단이라서",
+        "CI를 다시 하면 된다",
+        "Aeration만 늘리면 합격"
+      ],
+      "answer": 3,
+      "explanation": "**CI 색 변화는 노출 여부의 보조 증거일 뿐, 사멸의 직접 증거는 BI뿐이다 → 각 위치 BI 3개 모두 사멸(0/3)이 아니면 실패.**",
+      "choiceNotes": [
+        "틀리다 — CI는 보조 수단이라 BI를 대체하지 못한다.",
+        "틀리다 — 0/3이 기준이다.",
+        "옳다 — CI 색 변화는 노출 여부의 보조 증거일 뿐, 사멸의 직접 증거는 BI뿐이다 → 각 위치 BI 3개 모두 사멸(0/3)이 아니면 실패.",
+        "틀리다 — BI 결과가 결정적이다.",
+        "틀리다 — aeration은 잔류 제거 단계이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.14, p.16 (Acceptance Criteria)",
+      "concepts": [
+        "BI",
+        "CI"
+      ],
+      "tags": [
+        "BI",
+        "CI"
+      ]
+    },
+    {
+      "id": "fin-079",
+      "type": "개념",
+      "part": 2,
+      "question": "검증된 최대 적재(maximum load)보다 적재량을 줄여 VHP를 돌리려 한다. 교안의 판단 논리는?",
+      "choices": [
+        "적재가 줄면 무조건 재검증한다",
+        "적재가 줄면 H₂O₂를 두 배로 넣는다",
+        "적재가 줄면 BI가 필요 없다",
+        "적재를 줄이는 것은 금지된다",
+        "분포·접촉에 유리해 cycle 변경 없이 성능이 유지된다고 본다"
+      ],
+      "answer": 5,
+      "explanation": "**보고서로 입증된 maximum load pattern보다 수량·밀도가 줄면 분포·접촉 측면에서 유리하므로, 파라미터·시험방법·허용기준 변경 없이 성능이 유지된다고 평가한다.**",
+      "choiceNotes": [
+        "틀리다 — 교안은 유리한 조건으로 본다.",
+        "틀리다 — cycle 변경 없음이 논리이다.",
+        "틀리다 — 검증 체계는 유지된다.",
+        "틀리다 — 금지가 아니다.",
+        "옳다 — 보고서로 입증된 maximum load pattern보다 수량·밀도가 줄면 분포·접촉 측면에서 유리하므로, 파라미터·시험방법·허용기준 변경 없이 성능이 유지된다고 평가한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.11 (적재 조건 변경 시의 판단 논리)",
+      "concepts": [
+        "VHP",
+        "Load pattern"
+      ],
+      "tags": [
+        "VHP",
+        "Load pattern"
+      ]
+    },
+    {
+      "id": "fin-080",
+      "type": "개념",
+      "part": 2,
+      "question": "VHP 뒤 aeration을 임의로 단축하면 생길 수 있는 문제로 옳은 것은?",
+      "choices": [
+        "BI가 더 잘 죽는다",
+        "CI 색이 돌아온다",
+        "챔버 압력이 0이 되어 좋다",
+        "잔류 H₂O₂가 작업자 노출과 배지 성장 저해를 일으킨다",
+        "아무 문제도 없다"
+      ],
+      "answer": 4,
+      "explanation": "**잔류 H₂O₂는 작업자 안전, 배지 성장 저해·시험 결과 왜곡을 일으킨다. 재질에 흡착됐다 서서히 나오므로, 검증된 aeration 시간을 recipe에 반영하고 임의 단축을 금지한다.**",
+      "choiceNotes": [
+        "틀리다 — aeration은 사멸 단계가 아니다.",
+        "틀리다 — 관계없다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "옳다 — 잔류 H₂O₂는 작업자 안전, 배지 성장 저해·시험 결과 왜곡을 일으킨다. 재질에 흡착됐다 서서히 나오므로, 검증된 aeration 시간을 recipe에 반영하고 임의 단축을 금지한다.",
+        "틀리다 — 검증된 aeration 시간은 단축 금지이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.17 (Aeration과 잔류 H₂O₂ 관리)",
+      "concepts": [
+        "Aeration",
+        "VHP"
+      ],
+      "tags": [
+        "Aeration",
+        "VHP"
+      ]
+    },
+    {
+      "id": "fin-081",
+      "type": "개념",
+      "part": 2,
+      "question": "아이솔레이터 시운전에서 \"문 두 개가 동시에 열리지 않는지\", \"압력 이탈 시 경보가 울리는지\"를 확인했다. 이 시험은?",
+      "choices": [
+        "IQ",
+        "PQ(MBQ)",
+        "OQ",
+        "PRQ",
+        "Cycle development"
+      ],
+      "answer": 3,
+      "explanation": "**인터록·알람·압력·기류·누설 기능 검증은 OQ이다.**",
+      "choiceNotes": [
+        "틀리다 — 설치·도면 일치 확인이다.",
+        "틀리다 — worst case load에서 BI 사멸 입증이다.",
+        "옳다 — 인터록·알람·압력·기류·누설 기능 검증은 OQ이다.",
+        "틀리다 — 연간 재적격성평가이다.",
+        "틀리다 — VHP 파라미터 도출이다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.15 (Qualification 접근법)",
+      "concepts": [
+        "OQ",
+        "Interlock"
+      ],
+      "tags": [
+        "OQ",
+        "Interlock"
+      ]
+    },
+    {
+      "id": "fin-082",
+      "type": "개념",
+      "part": 2,
+      "question": "배치가 끝난 뒤 아이솔레이터 글러브 pressure decay 시험이 불합격이었다. 가장 알맞은 조치는?",
+      "choices": [
+        "글러브 교체와 함께 그 배치의 무균성 영향평가·일탈 처리",
+        "다음 배치 전에 교체만 하면 끝",
+        "결과를 기록하지 않는다",
+        "육안 검사로 다시 해서 합격 처리",
+        "글러브 시험은 배치와 무관하다"
+      ],
+      "answer": 1,
+      "explanation": "**충전 전후 글러브 시험은 무균성 훼손 여부를 확인하는 것 — 불합격이면 교체·영향평가·일탈 처리로 연계한다.**",
+      "choiceNotes": [
+        "옳다 — 충전 전후 글러브 시험은 무균성 훼손 여부를 확인하는 것 — 불합격이면 교체·영향평가·일탈 처리로 연계한다.",
+        "틀리다 — 이미 만든 배치 영향평가가 필요하다.",
+        "틀리다 — 모두 기록하고 추세를 본다.",
+        "틀리다 — 불합격 결과를 덮을 수 없다.",
+        "틀리다 — 충전 전후 시험으로 무균성 훼손을 확인한다."
+      ],
+      "source": "03 Isolator & Qualification PDF p.18 (Glove Integrity — 조치)",
+      "concepts": [
+        "Glove integrity"
+      ],
+      "tags": [
+        "Glove integrity"
+      ]
+    },
+    {
+      "id": "fin-083",
+      "type": "개념",
+      "part": 2,
+      "question": "에볼라 백신(바이러스 배양)을 GMP 시설에서 만든다. GMP와 BSL 압력 요구를 함께 만족시키는 설계는?",
+      "choices": [
+        "작업실을 양압으로만 둔다",
+        "작업실을 음압으로만 둔다",
+        "문을 늘 열어 둔다",
+        "두 공간 사이에 차압을 둔 airlock을 둔다",
+        "interlock을 없앤다"
+      ],
+      "answer": 4,
+      "explanation": "**GMP는 양압(밖의 것이 못 들어옴), BSL은 음압(안의 것이 못 나감)이라 반대 → 중간에 압력을 따로 둔 airlock으로 둘 다 만족시킨다.**",
+      "choiceNotes": [
+        "틀리다 — 바이러스가 밖으로 샐 수 있다.",
+        "틀리다 — 밖의 오염이 들어올 수 있다.",
+        "틀리다 — 차압이 무너진다.",
+        "옳다 — GMP는 양압(밖의 것이 못 들어옴), BSL은 음압(안의 것이 못 나감)이라 반대 → 중간에 압력을 따로 둔 airlock으로 둘 다 만족시킨다.",
+        "틀리다 — 두 문이 동시에 열리면 차압이 깨진다."
+      ],
+      "source": "WK07 강의 녹음 1:16:04–1:25:07 (Airlock — GMP vs BSL)",
+      "concepts": [
+        "Airlock",
+        "BSL"
+      ],
+      "tags": [
+        "Airlock",
+        "BSL"
+      ]
+    },
+    {
+      "id": "fin-084",
+      "type": "개념",
+      "part": 2,
+      "question": "3일에 나눠 만든 같은 처방의 제품을 한 lot 번호로 묶었다가 둘째 날 원료 문제로 식중독이 났다. 강의가 지적한 문제는?",
+      "choices": [
+        "lot 번호를 붙인 것 자체가 잘못이다",
+        "셋째 날 원료가 원인이다",
+        "하루에 300개를 만든 것이 문제다",
+        "lot과 batch는 관계없다",
+        "균일(uniform)하지 않은 것을 한 lot으로 묶어 회수 범위가 커졌다"
+      ],
+      "answer": 5,
+      "explanation": "**USP: 같은 조건에서 동시에 만든 균일(uniform)한 단위만 같은 lot이다. 날짜가 다르면 다른 batch로 관리해야 문제 lot만 회수할 수 있다.**",
+      "choiceNotes": [
+        "틀리다 — lot 관리는 필수이다.",
+        "틀리다 — 둘째 날 원료가 문제였다.",
+        "틀리다 — 용량 문제가 아니다.",
+        "틀리다 — 같은 batch에서 만든 균일한 단위가 lot이다.",
+        "옳다 — USP: 같은 조건에서 동시에 만든 균일(uniform)한 단위만 같은 lot이다. 날짜가 다르면 다른 batch로 관리해야 문제 lot만 회수할 수 있다."
+      ],
+      "source": "WK07 강의 녹음 2:20:49–2:24:30 (Lot vs Batch)",
+      "concepts": [
+        "Lot",
+        "Batch"
+      ],
+      "tags": [
+        "Lot",
+        "Batch"
+      ]
+    },
+    {
+      "id": "fin-085",
+      "type": "개념",
+      "part": 2,
+      "question": "입고된 원료의 QC 입고 검사가 진행 중이다. 이 원료를 둘 곳과 다룰 부서로 옳은 것은?",
+      "choices": [
+        "바로 생산 라인으로 보낸다",
+        "격리 구역(quarantine)에 따로 두고, 승인 뒤 자재로 넘긴다",
+        "물류 창고 일반 선반에 섞어 둔다",
+        "자재 창고에 먼저 두고 나중에 검사한다",
+        "QC 실험실에 전량 보관한다"
+      ],
+      "answer": 2,
+      "explanation": "**물류(입고) → 입고 검사 중 quarantine zone → QC 승인 → 자재. 세 공간은 명확히 구분해 관리하며, GMP 실사는 창고부터 본다.**",
+      "choiceNotes": [
+        "틀리다 — 검사 승인 전 사용 금지이다.",
+        "옳다 — 물류(입고) → 입고 검사 중 quarantine zone → QC 승인 → 자재. 세 공간은 명확히 구분해 관리하며, GMP 실사는 창고부터 본다.",
+        "틀리다 — 명확히 분리해야 한다.",
+        "틀리다 — 승인 뒤에 자재가 된다.",
+        "틀리다 — 격리 구역에 둔다."
+      ],
+      "source": "WK07 강의 녹음 2:16:30–2:20:33 (물류 vs 자재)",
+      "concepts": [
+        "Quarantine",
+        "물류 vs 자재"
+      ],
+      "tags": [
+        "Quarantine",
+        "물류 vs 자재"
+      ]
+    },
+    {
+      "id": "fin-086",
+      "type": "개념",
+      "part": 2,
+      "question": "일본에서 장비를 샀는데 115 V로 와서 쓰지 못했다. 강의 기준으로 빠진 문서와 단계는?",
+      "choices": [
+        "PQ에서 전압을 확인하지 않았다",
+        "PV 보고서를 쓰지 않았다",
+        "URS에 전압 요구(220 V)를 적지 않았다",
+        "FAT를 너무 일찍 했다",
+        "Revalidation 주기가 짧았다"
+      ],
+      "answer": 3,
+      "explanation": "**URS에 \"한국에서 쓰니 220 V로\" 같은 요구를 적지 않으면 제조사는 자국 기준(115 V)으로 만든다.** 천장 2.3 m인데 2.5 m 배양기를 산 사례도 같은 원인이다.",
+      "choiceNotes": [
+        "틀리다 — 구매 사양은 URS에서 정한다.",
+        "틀리다 — 공정 밸리데이션 문제가 아니다.",
+        "옳다 — URS에 \"한국에서 쓰니 220 V로\" 같은 요구를 적지 않으면 제조사는 자국 기준(115 V)으로 만든다.",
+        "틀리다 — 근본 원인이 아니다.",
+        "틀리다 — 관계없다."
+      ],
+      "source": "WK07 강의 녹음 2:52:27–2:53:54 (URS 사례)",
+      "concepts": [
+        "URS"
+      ],
+      "tags": [
+        "URS"
+      ]
+    },
+    {
+      "id": "fin-087",
+      "type": "개념",
+      "part": 2,
+      "question": "전압 12 V, 500 mA가 필요한 장비에 맞는 어댑터는?",
+      "choices": [
+        "24 V, 500 mA 어댑터",
+        "5 V, 2 A 어댑터",
+        "12 V, 200 mA 어댑터",
+        "12 V, 1 A 어댑터",
+        "9 V, 500 mA 어댑터"
+      ],
+      "answer": 4,
+      "explanation": "**전압(V)은 반드시 같아야 하고, 전류(A)는 필요량 이상이면 장비가 필요한 만큼만 당겨 쓴다 → 12 V, 1 A.**",
+      "choiceNotes": [
+        "틀리다 — 전압은 반드시 같아야 한다.",
+        "틀리다 — 전압이 다르면 고장 난다.",
+        "틀리다 — 전류 용량이 모자란다.",
+        "옳다 — 전압(V)은 반드시 같아야 하고, 전류(A)는 필요량 이상이면 장비가 필요한 만큼만 당겨 쓴다 → 12 V, 1 A.",
+        "틀리다 — 전압이 다르다."
+      ],
+      "source": "WK07 강의 녹음 2:08:43–2:09:48 (전기 스펙)",
+      "concepts": [
+        "Electricity"
+      ],
+      "tags": [
+        "Electricity"
+      ]
+    },
+    {
+      "id": "fin-088",
+      "type": "연결",
+      "part": 2,
+      "question": "청정 등급의 at rest와 operational 기준을 비교할 때 Grade A만의 특징은?",
+      "choices": [
+        "작업 중에는 기준이 없다",
+        "작업 중 기준이 100배 느슨하다",
+        "미생물 기준이 없다",
+        "5 µm 입자만 본다",
+        "작업 중에도 비작업 때와 같은 입자 기준(3,520/m³)을 지킨다"
+      ],
+      "answer": 5,
+      "explanation": "**Grade A는 at rest·operational 모두 0.5 µm 3,520/m³(ISO 5) — 제품이 열린 채 노출되는 곳이라 작업 중 오염이 곧 제품 오염이다.**",
+      "choiceNotes": [
+        "틀리다 — Grade D operational이 미정이다.",
+        "틀리다 — Grade B의 at rest→operational 변화이다.",
+        "틀리다 — Grade A는 <1 CFU/m³ 수준이다.",
+        "틀리다 — 0.5 µm도 본다.",
+        "옳다 — Grade A는 at rest·operational 모두 0.5 µm 3,520/m³(ISO 5) — 제품이 열린 채 노출되는 곳이라 작업 중 오염이 곧 제품 오염이다."
+      ],
+      "source": "WK07 PDF p.36 (Cleanroom Class)",
+      "concepts": [
+        "Grade",
+        "Class 100"
+      ],
+      "tags": [
+        "Grade",
+        "Class 100"
+      ]
+    },
+    {
+      "id": "fin-089",
+      "type": "개념",
+      "part": 2,
+      "question": "공정 밸리데이션(PV)을 시작하기 전에 반드시 끝나 있어야 하는 것은?",
+      "choices": [
+        "그 공정에 쓰는 장비들의 IQ·OQ·PQ",
+        "다음 해의 revalidation",
+        "제품 출하",
+        "PRQ",
+        "Cleaning validation 폐지"
+      ],
+      "answer": 1,
+      "explanation": "**Qualification은 validation의 전제 조건이다 → 장비 IQ·OQ·PQ가 끝나야 그 장비로 PV를 한다.**",
+      "choiceNotes": [
+        "옳다 — Qualification은 validation의 전제 조건이다 → 장비 IQ·OQ·PQ가 끝나야 그 장비로 PV를 한다.",
+        "틀리다 — 순서가 거꾸로이다.",
+        "틀리다 — PV 뒤의 일이다.",
+        "틀리다 — 연간 재적격성평가이다.",
+        "틀리다 — 관계없다."
+      ],
+      "source": "WK07 강의 녹음 2:57:42–2:58:55",
+      "concepts": [
+        "Qualification",
+        "Validation"
+      ],
+      "tags": [
+        "Qualification",
+        "Validation"
+      ]
+    },
+    {
+      "id": "fin-090",
+      "type": "개념",
+      "part": 2,
+      "question": "공장 일정(scheduling)에서 아이솔레이터 발주를 설계 초기에 넣어야 하는 이유는?",
+      "choices": [
+        "아이솔레이터는 준공 뒤에만 살 수 있어서",
+        "납기가 1~2년이라 준공 시점에 맞추려면 미리 주문해야 해서",
+        "발주가 빠를수록 가격이 0이 되어서",
+        "아이솔레이터는 설치가 필요 없어서",
+        "GMP가 발주 시기를 정해서"
+      ],
+      "answer": 2,
+      "explanation": "**아이솔레이터·RABS 납기는 짧으면 1년, 길면 2년 — 준공 직후 시운전하려면 그만큼 앞서 발주한다.** \"업계의 호흡이 길다\"는 강의의 요지이다.",
+      "choiceNotes": [
+        "틀리다 — 거꾸로 말했다.",
+        "옳다 — 아이솔레이터·RABS 납기는 짧으면 1년, 길면 2년 — 준공 직후 시운전하려면 그만큼 앞서 발주한다.",
+        "틀리다 — 근거 없는 진술이다.",
+        "틀리다 — 설치·적격성평가가 필요하다.",
+        "틀리다 — 규정이 아니라 납기 때문이다."
+      ],
+      "source": "WK07 강의 녹음 1:00:37–1:02:07",
+      "concepts": [
+        "Scheduling",
+        "Isolator"
+      ],
+      "tags": [
+        "Scheduling",
+        "Isolator"
+      ]
+    },
+    {
+      "id": "fin-091",
+      "type": "단답",
+      "part": 3,
+      "question": "Kav 값이 0인 분자는 SEC에서 어떤 크기의 분자인가? (한 낱말)",
+      "format": "short",
+      "answers": [
+        "가장 큰 분자",
+        "큰 분자",
+        "가장큰",
+        "큰",
+        "Large",
+        "최대"
+      ],
+      "explanation": "**가장 큰 분자(기공에 못 들어가 V0에서 나옴)이다.** Kav 1은 가장 작은 분자.",
+      "source": "WK03 교재 1.21",
+      "concepts": [
+        "Kav"
+      ],
+      "tags": [
+        "Kav"
+      ]
+    },
+    {
+      "id": "fin-092",
+      "type": "단답",
+      "part": 3,
+      "question": "VHP 검증 BI에 쓰는 균의 속(genus) 이름은?",
+      "format": "short",
+      "answers": [
+        "Geobacillus",
+        "Geobacillus stearothermophilus",
+        "G. stearothermophilus",
+        "지오바실러스"
+      ],
+      "explanation": "**Geobacillus stearothermophilus(10⁶ 이상)이다.**",
+      "source": "03 Isolator & Qualification PDF p.16",
+      "concepts": [
+        "BI"
+      ],
+      "tags": [
+        "BI"
+      ]
+    },
+    {
+      "id": "fin-093",
+      "type": "단답",
+      "part": 3,
+      "question": "제균 등급 필터의 BCT에 쓰는 균은?",
+      "format": "short",
+      "answers": [
+        "Brevundimonas diminuta",
+        "B. diminuta",
+        "Brevundimonas",
+        "브레분디모나스 디미누타"
+      ],
+      "explanation": "**Brevundimonas diminuta(1 cm²당 10⁷ 이상)이다.**",
+      "source": "바이오시밀러 교과서 p.99 · WK04 PDF p.24",
+      "concepts": [
+        "BCT",
+        "Sterile filter"
+      ],
+      "tags": [
+        "BCT",
+        "Sterile filter"
+      ]
+    },
+    {
+      "id": "fin-094",
+      "type": "단답",
+      "part": 3,
+      "question": "VHP aeration 뒤 잔류 H₂O₂ 기준은 몇 ppm 미만인가?",
+      "format": "short",
+      "answers": [
+        "1",
+        "1ppm",
+        "1.0",
+        "1.0ppm",
+        "1 ppm"
+      ],
+      "explanation": "**< 1.0 ppm이다.**",
+      "source": "03 Isolator & Qualification PDF p.10 (Aeration Time)",
+      "concepts": [
+        "Aeration"
+      ],
+      "tags": [
+        "Aeration"
+      ]
+    },
+    {
+      "id": "fin-095",
+      "type": "단답",
+      "part": 3,
+      "question": "Class 100에 해당하는 ISO 14644-1 등급 숫자는?",
+      "format": "short",
+      "answers": [
+        "5",
+        "ISO 5",
+        "ISO5",
+        "ISO Class 5"
+      ],
+      "explanation": "**ISO 5(= Grade A)이다.**",
+      "source": "WK07 PDF p.36 · WK07 강의 녹음 2:42:18",
+      "concepts": [
+        "Class 100"
+      ],
+      "tags": [
+        "Class 100"
+      ]
+    },
+    {
+      "id": "fin-096",
+      "type": "단답",
+      "part": 3,
+      "question": "불순물 4총사의 pI는 약 얼마인가?",
+      "format": "short",
+      "answers": [
+        "2~4",
+        "2-4",
+        "2에서4",
+        "2~4정도"
+      ],
+      "explanation": "**약 2~4이다.** 항체 pI 약 7~8과 함께 외운다.",
+      "source": "WK07 강의 녹음 02:35:24 (출제 예상 리뷰)",
+      "concepts": [
+        "pI",
+        "Impurity 4총사"
+      ],
+      "tags": [
+        "pI",
+        "Impurity 4총사"
+      ]
+    },
+    {
+      "id": "fin-097",
+      "type": "단답",
+      "part": 3,
+      "question": "Protein A 용출과 low pH VI에 쓰는 pH 범위는?",
+      "format": "short",
+      "answers": [
+        "3~3.5",
+        "3-3.5",
+        "3",
+        "3.5",
+        "pH3~3.5",
+        "3에서3.5"
+      ],
+      "explanation": "**pH 3~3.5(30~60분 유지)이다.**",
+      "source": "WK04 강의 녹음② 1:48:17–1:49:46 · WK06 강의 녹음 19:44–22:29",
+      "concepts": [
+        "Viral inactivation"
+      ],
+      "tags": [
+        "Viral inactivation"
+      ]
+    },
+    {
+      "id": "fin-098",
+      "type": "단답",
+      "part": 3,
+      "question": "한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치는? (airlock과 다른 개념)",
+      "format": "short",
+      "answers": [
+        "Interlock",
+        "인터록",
+        "인터락"
+      ],
+      "explanation": "**Interlock이다.** Airlock은 차압으로 공기 흐름을 관리하는 공간이다.",
+      "source": "WK07 강의 녹음 2:44:35–2:45:41",
+      "concepts": [
+        "Interlock"
+      ],
+      "tags": [
+        "Interlock"
+      ]
+    },
+    {
+      "id": "fin-099",
+      "type": "단답",
+      "part": 3,
+      "question": "QC 입고 검사가 끝나기 전 원료를 따로 두는 격리 구역은?",
+      "format": "short",
+      "answers": [
+        "Quarantine",
+        "쿼런틴",
+        "격리구역",
+        "Quarantine zone",
+        "쿼런틴 존"
+      ],
+      "explanation": "**Quarantine zone이다.** 승인 뒤 자재로 넘어간다.",
+      "source": "WK07 강의 녹음 2:19:32–2:20:14",
+      "concepts": [
+        "Quarantine"
+      ],
+      "tags": [
+        "Quarantine"
+      ]
+    },
+    {
+      "id": "fin-100",
+      "type": "단답",
+      "part": 3,
+      "question": "설계 3단계 「CD → ( ) → DD」에서 빈칸(기본 설계)은?",
+      "format": "short",
+      "answers": [
+        "BD",
+        "Basic design",
+        "Basic Engineering",
+        "기본설계",
+        "기본 설계"
+      ],
+      "explanation": "**BD(Basic design, 기본 설계)이다.** CD 개념 설계(뼈대) → BD 기본 설계(살) → DD 상세 설계(주름 하나까지).",
+      "source": "WK07 강의 녹음 31:09–32:27 · WK07 PDF p.54",
+      "concepts": [
+        "CD/BD/DD"
+      ],
+      "tags": [
+        "CD/BD/DD"
+      ]
+    },
+    {
+      "id": "fin-101",
+      "type": "단답",
+      "part": 3,
+      "question": "같은 조건에서 동시에 만들어 균일(uniform)하다고 인정되는 최종 제품 단위는? (생산 관점은 batch)",
+      "format": "short",
+      "answers": [
+        "Lot",
+        "로트",
+        "롯트",
+        "lot"
+      ],
+      "explanation": "**Lot이다.** USP는 이를 uniform이라는 말로 표현한다.",
+      "source": "WK07 강의 녹음 2:22:56–2:23:44",
+      "concepts": [
+        "Lot",
+        "Batch"
+      ],
+      "tags": [
+        "Lot",
+        "Batch"
+      ]
+    },
+    {
+      "id": "fin-102",
+      "type": "단답",
+      "part": 3,
+      "question": "여과 메커니즘에서 액체가 막 면을 따라 흐르며 재순환하는 방식의 약어는? (미주에서는 TFF)",
+      "format": "short",
+      "answers": [
+        "CFF",
+        "Cross flow filtration",
+        "크로스플로우",
+        "TFF",
+        "Tangential flow filtration"
+      ],
+      "explanation": "**CFF(Cross flow filtration)이다.** 막에 수직으로 흐르는 방식은 DEF(NFF).",
+      "source": "바이오시밀러 교과서 p.95–97",
+      "concepts": [
+        "CFF"
+      ],
+      "tags": [
+        "CFF"
+      ]
+    },
+    {
+      "id": "fin-103",
+      "type": "단답",
+      "part": 3,
+      "question": "UF 막의 크기를 분자량(kDa)으로 나타낸 값을 무엇이라 하는가?",
+      "format": "short",
+      "answers": [
+        "MWCO",
+        "Molecular weight cut off",
+        "분자량 컷오프",
+        "Cut off",
+        "컷오프"
+      ],
+      "explanation": "**MWCO(molecular weight cut off)이다.**",
+      "source": "바이오시밀러 교과서 p.87",
+      "concepts": [
+        "MWCO"
+      ],
+      "tags": [
+        "MWCO"
+      ]
+    },
+    {
+      "id": "fin-104",
+      "type": "단답",
+      "part": 3,
+      "question": "APS 판정의 목표(오염 용기 수)는 몇 개인가?",
+      "format": "short",
+      "answers": [
+        "0",
+        "0개",
+        "zero",
+        "zero growth",
+        "영"
+      ],
+      "explanation": "**0개(zero growth)이다.** 1개라도 자라면 실패.",
+      "source": "02 RABS & APS PDF p.19",
+      "concepts": [
+        "APS"
+      ],
+      "tags": [
+        "APS"
+      ]
+    },
+    {
+      "id": "fin-105",
+      "type": "단답",
+      "part": 3,
+      "question": "VHP·멸균이 목표로 하는 spore log reduction은 몇 log 이상인가?",
+      "format": "short",
+      "answers": [
+        "6",
+        "6log",
+        "6 log",
+        "6로그"
+      ],
+      "explanation": "**6 log 이상이다(소독은 약 3 log).**",
+      "source": "03 Isolator & Qualification PDF p.16 · 03 Isolator & Qualification 강의 녹음 12:55–13:18",
+      "concepts": [
+        "SLR"
+      ],
+      "tags": [
+        "SLR"
+      ]
+    },
+    {
+      "id": "fin-106",
+      "type": "단답",
+      "part": 3,
+      "question": "항체 공정에서 바이러스 제거 필터의 pore size는 약 몇 nm인가?",
+      "format": "short",
+      "answers": [
+        "20",
+        "20nm",
+        "20 nm"
+      ],
+      "explanation": "**약 20 nm이다.** RO를 빼면 바이오 공정에서 가장 작은 pore이다.",
+      "source": "바이오시밀러 교과서 p.87",
+      "concepts": [
+        "Virus filtration"
+      ],
+      "tags": [
+        "Virus filtration"
+      ]
+    },
+    {
+      "id": "fin-107",
+      "type": "단답",
+      "part": 3,
+      "question": "Seed train 마지막 단계(N-1)만 perfusion으로 돌려 높은 밀도로 접종하는 모드를 무엇이라 하는가? (약칭 가능)",
+      "format": "short",
+      "answers": [
+        "N-1 perfusion",
+        "N-1 perfusion high inoculum fed-batch",
+        "N-1 퍼퓨전",
+        "High inoculum fed-batch",
+        "N-1 관류"
+      ],
+      "explanation": "**N-1 perfusion high-inoculum fed-batch이다.**",
+      "source": "WK02 PDF p.37",
+      "concepts": [
+        "N-1 perfusion"
+      ],
+      "tags": [
+        "N-1 perfusion"
+      ]
+    },
+    {
+      "id": "fin-108",
+      "type": "단답",
+      "part": 3,
+      "question": "정제수(PW)를 증류해 만들며 제품 제조와 장비 최종 헹굼에 쓰는 물의 약어는?",
+      "format": "short",
+      "answers": [
+        "WFI",
+        "Water for injection",
+        "주사용수"
+      ],
+      "explanation": "**WFI(주사용수)이다.** 무균은 아니다.",
+      "source": "WK06 PDF p.27 · WK06 강의 녹음 1:07:14–1:08:53",
+      "concepts": [
+        "WFI"
+      ],
+      "tags": [
+        "WFI"
+      ]
+    }
+  ]
+}

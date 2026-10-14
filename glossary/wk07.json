@@ -2,6 +2,7 @@
   "week": "WK07",
   "prefix": "tw07",
   "lecture": "WK07 PDF",
+  "matchSealed": 90,
   "terms": [
     {"no": 1, "term": "Facility (생산 시설)", "group": "analogy", "def": "식당 비유의 '식당' — 의약품을 만드는 건물과 설비 전체.", "src": "WK07 GMP Engineering PDF p.5", "drop": true},
     {"no": 2, "term": "Starting material (Raw material)", "group": "analogy", "def": "식당 비유의 '재료' — 제조에 넣는 주성분·부형제 등 원자재.", "src": "WK07 PDF p.7", "drop": true},
@@ -92,6 +93,29 @@
     {"no": 87, "term": "임상 1상 (Phase I)", "group": "clin", "def": "소수 건강인에게 처음 투여해 안전성을 확인하는 단계.", "src": "WK07 PDF p.15"},
     {"no": 88, "term": "임상 2상 (Phase II)", "group": "clin", "def": "환자에게 효과와 적정 용량을 찾는 단계.", "src": "WK07 PDF p.15"},
     {"no": 89, "term": "임상 3상 (Phase III)", "group": "clin", "def": "대규모 비교 시험으로 효과를 확증하는 단계.", "src": "WK07 PDF p.15"},
-    {"no": 90, "term": "임상 4상 (Phase IV)", "group": "clin", "def": "시판 후 실제 사용에서 장기 안전성을 보는 단계.", "src": "WK07 PDF p.15"}
+    {"no": 90, "term": "임상 4상 (Phase IV)", "group": "clin", "def": "시판 후 실제 사용에서 장기 안전성을 보는 단계.", "src": "WK07 PDF p.15"},
+    {"no": 91, "term": "EPC", "group": "proj", "def": "Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.", "src": "WK07 강의 녹음 14:58–21:09", "short": true, "answersExtra": ["이피씨"]},
+    {"no": 92, "term": "준공", "group": "proj", "def": "공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태.", "src": "WK07 강의 녹음 11:36–13:48", "short": true, "drill": "d"},
+    {"no": 93, "term": "완공", "group": "proj", "def": "건물 공사가 완전히 끝난 상태.", "src": "WK07 강의 녹음 11:36–13:48", "drill": "d"},
+    {"no": 94, "term": "Engineering (설계)", "group": "proj", "def": "이 수업에서 GMP 공장(건물)을 짓기 위한 설계를 뜻하는 말.", "src": "WK07 강의 녹음 29:30–30:58", "drill": "d"},
+    {"no": 95, "term": "CD · BD · DD", "group": "proj", "def": "개념 설계 → 기본 설계 → 상세 설계로 이어지는 설계 3단계.", "src": "WK07 강의 녹음 31:09–32:27 · WK07 PDF p.54", "drill": "r"},
+    {"no": 96, "term": "Mass balance", "group": "proj", "def": "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정.", "src": "WK07 강의 녹음 36:09–41:38", "short": true, "answersExtra": ["매스 밸런스", "물질 수지", "물질수지"]},
+    {"no": 97, "term": "Scheduling", "group": "proj", "def": "장비·사람이 놀지 않고 납기에 맞도록 공정·구매 일정을 짜는 일.", "src": "WK07 강의 녹음 52:00–1:14:30", "drill": "d", "answersExtra": ["스케줄링"]},
+    {"no": 98, "term": "URS (User Requirement Specification)", "group": "qv", "def": "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.", "src": "WK07 강의 녹음 2:50:28–2:53:54", "short": true, "answersExtra": ["사용자 요구 규격서", "사용자요구규격서"]},
+    {"no": 99, "term": "IQ (Installation Qualification)", "group": "qv", "def": "부속이 다 있고 도면대로 설치되었는지 확인하는 단계.", "src": "WK07 강의 녹음 2:55:54–2:56:42", "short": true, "answersExtra": ["설치 적격성평가", "설치적격성평가"]},
+    {"no": 100, "term": "OQ (Operational Qualification)", "group": "qv", "def": "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계.", "src": "WK07 강의 녹음 2:56:42–2:57:31", "short": true, "answersExtra": ["운전 적격성평가", "운전적격성평가"]},
+    {"no": 101, "term": "V-model", "group": "qv", "def": "URS부터 PQ·PV까지 장비 도입 순서를 V자로 그린 모델.", "src": "WK07 강의 녹음 2:49:42–2:50:28", "drill": "d", "answersExtra": ["V 모델", "브이모델"]},
+    {"no": 102, "term": "Airlock", "group": "airlock", "def": "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.", "src": "WK07 강의 녹음 1:16:04–1:25:07", "short": true, "answersExtra": ["에어락", "에어록"]},
+    {"no": 103, "term": "Interlock", "group": "airlock", "def": "한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.", "src": "WK07 강의 녹음 2:44:35–2:45:41", "short": true, "answersExtra": ["인터록", "인터락"]},
+    {"no": 104, "term": "BSL (Biosafety level)", "group": "flow", "def": "위험한 병원체가 밖으로 새지 않게 음압 등으로 봉쇄하는 기준.", "src": "WK07 강의 녹음 1:17:14–1:19:03", "answersExtra": ["바이오세이프티 레벨", "생물안전등급"]},
+    {"no": 105, "term": "Quarantine zone (격리 구역)", "group": "flow", "def": "QC 입고 검사 중인 원료를 승인 전까지 따로 두는 구역.", "src": "WK07 강의 녹음 2:19:32–2:20:14", "short": true, "answersExtra": ["쿼런틴", "격리구역", "Quarantine"]},
+    {"no": 106, "term": "물류", "group": "flow", "def": "QC 입고 검사 전의 물건을 받아 보관하고, 출하 승인 뒤 내보내는 쪽.", "src": "WK07 강의 녹음 2:18:40–2:19:32", "drill": "d"},
+    {"no": 107, "term": "자재", "group": "flow", "def": "QC 승인을 받아 생산에 쓸 수 있게 된 원료를 관리하는 쪽.", "src": "WK07 강의 녹음 2:19:04–2:19:32", "drill": "d"},
+    {"no": 108, "term": "Lot", "group": "lot", "def": "같은 batch에서 동시에 만들어 균일(uniform)한 최종 제품 단위.", "src": "WK07 강의 녹음 2:20:49–2:24:30", "short": true, "answersExtra": ["로트", "롯트"]},
+    {"no": 109, "term": "Batch", "group": "lot", "def": "같은 조건으로 한 번에 생산하는 생산 관점의 제조 단위.", "src": "WK07 강의 녹음 2:22:56–2:23:16", "drill": "d", "answersExtra": ["배치"]},
+    {"no": 110, "term": "Annex 1 revision", "group": "trend", "def": "무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.", "src": "WK07 강의 녹음 57:34–1:00:26", "drill": "d"},
+    {"no": 111, "term": "Class 100", "group": "grade", "def": "0.5 µm 이상 입자가 1 ft³당 100개 이하인 미국식 청정 등급(Grade A 수준).", "src": "WK07 강의 녹음 2:42:18–2:43:26", "short": true, "answersExtra": ["클래스 100", "클래스100"]},
+    {"no": 112, "term": "WCW (Wet cell weight)", "group": "proj", "def": "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게.", "src": "WK07 강의 녹음 47:40–48:44", "drill": "r"},
+    {"no": 113, "term": "Post-flushing", "group": "proj", "def": "필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다.", "src": "WK07 강의 녹음 49:54–50:14", "drill": "d", "answersExtra": ["포스트 플러싱"]}
   ]
 }

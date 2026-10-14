@@ -488,7 +488,7 @@ table.data td.num { text-align: right; font-variant-numeric: tabular-nums; }
   .view { padding-left: 24px; padding-right: 24px; }
   .progress-head { margin: 0 -24px; padding-left: 24px; padding-right: 24px; }
   .start-bar { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; border-top: 0; box-shadow: none; }
-  .mode-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-grid { grid-template-columns: repeat(4, 1fr); }
   .mode-card { grid-template-columns: 1fr; text-align: left; align-content: start; }
   .mode-card .mode-icon { grid-row: auto; margin-bottom: 4px; }
   .paper { margin: 20px 0 0; padding: 32px 36px 36px; border: 1px solid var(--border); border-radius: 6px; box-shadow: var(--shadow); }
