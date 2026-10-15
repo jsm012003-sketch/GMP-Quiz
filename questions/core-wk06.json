@@ -9,7 +9,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계."
+    "항체 Fc에 결합하는 ligand로 불순물 대부분을 한 번에 제거하는 단계."
    ],
    "choices": [
     "Low pH viral inactivation",
@@ -19,11 +19,11 @@
     "Orthogonal (직교) 전략"
    ],
    "answer": 3,
-   "explanation": "**Protein A chromatography** — 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
+   "explanation": "**Protein A chromatography** — 항체 Fc에 결합하는 ligand로 불순물 대부분을 한 번에 제거하는 단계.",
    "choiceNotes": [
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
+    "틀리다 — Low pH viral inactivation: pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계.",
     "틀리다 — Clarification: 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "정답 — 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
+    "정답 — 항체 Fc에 결합하는 ligand로 불순물 대부분을 한 번에 제거하는 단계.",
     "틀리다 — Storage solution: 다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
@@ -42,7 +42,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계."
+    "pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계."
    ],
    "choices": [
     "CEX (양이온 교환 크로마토그래피)",
@@ -52,12 +52,12 @@
     "Orthogonal (직교) 전략"
    ],
    "answer": 4,
-   "explanation": "**Low pH viral inactivation** — 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
+   "explanation": "**Low pH viral inactivation** — pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계.",
    "choiceNotes": [
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
-    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing.",
+    "틀리다 — AEX (음이온 교환 크로마토그래피): 양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing.",
     "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
-    "정답 — 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
+    "정답 — pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것."
    ],
    "source": "WK06 PDF p.11, p.15",
@@ -76,13 +76,13 @@
    "question": "「CEX (양이온 교환 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "두꺼운 여과층 안쪽에 입자를 붙잡아 탁한 것을 없애는 여과",
-    "음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing",
-    "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계",
+    "음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing",
+    "pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계",
     "회수 손실을 줄이려고 목표보다 더 진하게 농축한 뒤 버퍼로 헹궈 맞추는 것",
     "정제수를 증류해 만든 가장 높은 등급의 공정 용수"
    ],
    "answer": 2,
-   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
+   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing.",
    "choiceNotes": [
     "틀리다 — Depth filtration의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -106,7 +106,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing."
+    "음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing."
    ],
    "answers": [
     "CEX",
@@ -114,7 +114,7 @@
     "CEX (양이온 교환 크로마토그래피)",
     "양이온 교환"
    ],
-   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.\n정답으로 인정하는 표기: CEX · 양이온 교환 크로마토그래피 · CEX (양이온 교환 크로마토그래피) · 양이온 교환 (띄어쓰기·대소문자 무시)",
+   "explanation": "**CEX (양이온 교환 크로마토그래피)** — 음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing.\n정답으로 인정하는 표기: CEX · 양이온 교환 크로마토그래피 · CEX (양이온 교환 크로마토그래피) · 양이온 교환 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
     "CEX"
@@ -130,14 +130,14 @@
    "part": 1,
    "question": "「AEX (음이온 교환 크로마토그래피)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing",
+    "양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계",
     "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계",
     "여러 항체에 공통으로 쓰는 표준 정제 흐름",
     "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)"
    ],
    "answer": 1,
-   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Clarification의 설명이다.",
@@ -161,7 +161,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing."
+    "양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing."
    ],
    "answers": [
     "AEX",
@@ -169,7 +169,7 @@
     "AEX (음이온 교환 크로마토그래피)",
     "음이온 교환"
    ],
-   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.\n정답으로 인정하는 표기: AEX · 음이온 교환 크로마토그래피 · AEX (음이온 교환 크로마토그래피) · 음이온 교환 (띄어쓰기·대소문자 무시)",
+   "explanation": "**AEX (음이온 교환 크로마토그래피)** — 양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing.\n정답으로 인정하는 표기: AEX · 음이온 교환 크로마토그래피 · AEX (음이온 교환 크로마토그래피) · 음이온 교환 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.5, p.18",
    "concepts": [
     "AEX"
@@ -185,7 +185,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계."
+    "pore size 약 20 nm의 막으로 바이러스를 크기 차이로 제거하는 단계."
    ],
    "choices": [
     "Clarification",
@@ -195,12 +195,12 @@
     "Virus spiking study (바이러스 제거 검증)"
    ],
    "answer": 4,
-   "explanation": "**Virus filtration (nanofiltration)** — 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
+   "explanation": "**Virus filtration (nanofiltration)** — pore size 약 20 nm의 막으로 바이러스를 크기 차이로 제거하는 단계.",
    "choiceNotes": [
     "틀리다 — Clarification: 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing.",
     "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
-    "정답 — 바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
+    "정답 — pore size 약 20 nm의 막으로 바이러스를 크기 차이로 제거하는 단계.",
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험."
    ],
    "source": "WK06 PDF p.11, p.15–16",
@@ -220,7 +220,7 @@
    "choices": [
     "막으로 단백질을 농축하고 버퍼를 최종 조건으로 바꾸는 단계",
     "원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계",
-    "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing",
+    "양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing",
     "정제 공정이 바이러스를 불활화·제거하는 능력",
     "레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다"
    ],
@@ -276,7 +276,7 @@
     "생산 세포에서 나온 단백질 불순물",
     "물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다",
     "컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다",
-    "Lipid envelope가 있어 low pH·S&D에 약한 바이러스"
+    "low pH·S&D 처리로 쉽게 불활화되는 바이러스"
    ],
    "answer": 2,
    "explanation": "**HCP (Host Cell Protein)** — 생산 세포에서 나온 단백질 불순물.",
@@ -343,7 +343,7 @@
     "정답 — 단백질끼리 뭉친 불순물(면역원성 위험).",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
-    "틀리다 — Bed height: 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+    "틀리다 — Bed height: 컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다."
    ],
    "source": "WK06 PDF p.5",
    "concepts": [
@@ -361,9 +361,9 @@
    "question": "「DBC (Dynamic Binding Capacity)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "여러 항체에 공통으로 쓰는 표준 정제 흐름",
-    "Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스",
+    "low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스",
     "실제 유속에서 레진 1 mL에 결합하는 목표 단백질 양",
-    "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계",
+    "pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계",
     "원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것"
    ],
    "answer": 3,
@@ -415,7 +415,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법."
+    "화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법."
    ],
    "choices": [
     "S&D (Solvent/Detergent)",
@@ -425,9 +425,9 @@
     "Linear velocity (선속도)"
    ],
    "answer": 1,
-   "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.",
+   "explanation": "**S&D (Solvent/Detergent)** — 화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법.",
    "choiceNotes": [
-    "정답 — 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.",
+    "정답 — 화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법.",
     "틀리다 — Viral clearance (바이러스 제거능): 정제 공정이 바이러스를 불활화·제거하는 능력.",
     "틀리다 — Orthogonal (직교) 전략: 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — NWP (Normalized Water Permeability): 물 투과량을 물 온도로 보정한 값 — 세척 전후 막 상태를 비교한다.",
@@ -449,7 +449,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법."
+    "화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법."
    ],
    "answers": [
     "S&D",
@@ -457,7 +457,7 @@
     "S&D (Solvent/Detergent)",
     "용매 계면활성제"
    ],
-   "explanation": "**S&D (Solvent/Detergent)** — 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.\n정답으로 인정하는 표기: S&D · Solvent/Detergent · S&D (Solvent/Detergent) · 용매 계면활성제 (띄어쓰기·대소문자 무시)",
+   "explanation": "**S&D (Solvent/Detergent)** — 화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법.\n정답으로 인정하는 표기: S&D · Solvent/Detergent · S&D (Solvent/Detergent) · 용매 계면활성제 (띄어쓰기·대소문자 무시)",
    "source": "WK06 PDF p.11",
    "concepts": [
     "S&D"
@@ -485,11 +485,11 @@
    "answer": 2,
    "explanation": "**Orthogonal (직교) 전략** — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
    "choiceNotes": [
-    "틀리다 — S&D (Solvent/Detergent): 용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.",
+    "틀리다 — S&D (Solvent/Detergent): 화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법.",
     "정답 — 원리가 다른 바이러스 제거 단계를 2개 이상 겹쳐 서로 보완하게 하는 것.",
     "틀리다 — Virus spiking study (바이러스 제거 검증): 축소 공정에 모델 바이러스를 일부러 넣어 제거능을 입증하는 시험.",
     "틀리다 — Leached Protein A: 레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다.",
-    "틀리다 — Bed height: 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+    "틀리다 — Bed height: 컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다."
    ],
    "source": "WK06 PDF p.8, p.10, p.15",
    "concepts": [
@@ -506,7 +506,7 @@
    "part": 1,
    "question": "「ICH Q5A (R1)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing",
+    "음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing",
     "레진에서 떨어져 나와 제품에 섞인 리간드 단백질 — QC로 꼭 확인한다",
     "장비를 조립한 채로 스팀을 채워 내부를 멸균하는 것",
     "세포주 유래 바이오의약품의 바이러스 안전성 평가 국제 가이드라인",
@@ -560,7 +560,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Lipid envelope가 있어 low pH·S&D에 약한 바이러스."
+    "low pH·S&D 처리로 쉽게 불활화되는 바이러스."
    ],
    "choices": [
     "Model virus (모델 바이러스)",
@@ -570,13 +570,13 @@
     "Low pH viral inactivation"
    ],
    "answer": 3,
-   "explanation": "**Enveloped virus (외피 바이러스)** — Lipid envelope가 있어 low pH·S&D에 약한 바이러스.",
+   "explanation": "**Enveloped virus (외피 바이러스)** — low pH·S&D 처리로 쉽게 불활화되는 바이러스.",
    "choiceNotes": [
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
-    "정답 — Lipid envelope가 있어 low pH·S&D에 약한 바이러스.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스.",
+    "정답 — low pH·S&D 처리로 쉽게 불활화되는 바이러스.",
     "틀리다 — Multi-modal chromatography: 여러 상호작용을 한 레진에 합쳐 polishing 두 단계를 하나로 줄이는 크로마토그래피.",
-    "틀리다 — Low pH viral inactivation: 산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계."
+    "틀리다 — Low pH viral inactivation: pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계."
    ],
    "source": "WK06 PDF p.11, p.15",
    "concepts": [
@@ -593,7 +593,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스."
+    "low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스."
    ],
    "choices": [
     "Non-enveloped virus (비외피 바이러스)",
@@ -603,10 +603,10 @@
     "Linear velocity (선속도)"
    ],
    "answer": 1,
-   "explanation": "**Non-enveloped virus (비외피 바이러스)** — Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
+   "explanation": "**Non-enveloped virus (비외피 바이러스)** — low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스.",
    "choiceNotes": [
-    "정답 — Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
-    "틀리다 — Enveloped virus (외피 바이러스): Lipid envelope가 있어 low pH·S&D에 약한 바이러스.",
+    "정답 — low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스.",
+    "틀리다 — Enveloped virus (외피 바이러스): low pH·S&D 처리로 쉽게 불활화되는 바이러스.",
     "틀리다 — Model virus (모델 바이러스): 실제 오염 가능 바이러스를 대표하도록 골라 제거능 검증에 쓰는 바이러스.",
     "틀리다 — Clarification: 원심분리·depth 여과로 세포와 찌꺼기를 걸러 맑은 상등액을 얻는 첫 단계.",
     "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
@@ -627,7 +627,7 @@
    "question": "「PW (Purified Water, 정제수)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "정제수를 증류해 만든 가장 높은 등급의 공정 용수",
-    "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계",
+    "pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계",
     "레진·막을 몇 번 다시 써도 공정·품질에 문제없는지 확인하는 연구",
     "다시 쓸 막·레진을 균이 자라지 않게 담가 두는 묽은 알코올·NaOH",
     "원수를 연수화·활성탄·RO 등으로 처리한 물(WFI의 원료)"
@@ -918,9 +918,9 @@
    "answer": 5,
    "explanation": "**Linear velocity (선속도)** — 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
    "choiceNotes": [
-    "틀리다 — Bed height: 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+    "틀리다 — Bed height: 컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다.",
     "틀리다 — Aggregate (응집체): 단백질끼리 뭉친 불순물(면역원성 위험).",
-    "틀리다 — Non-enveloped virus (비외피 바이러스): Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
+    "틀리다 — Non-enveloped virus (비외피 바이러스): low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스.",
     "틀리다 — Cassette filter: 막을 겹겹이 쌓은 판 모양 TFF 필터 — 비싸서 세척해 다시 쓴다.",
     "정답 — 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다."
    ],
@@ -939,7 +939,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다."
+    "컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다."
    ],
    "choices": [
     "Linear velocity (선속도)",
@@ -949,13 +949,13 @@
     "CEX (양이온 교환 크로마토그래피)"
    ],
    "answer": 4,
-   "explanation": "**Bed height** — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+   "explanation": "**Bed height** — 컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다.",
    "choiceNotes": [
     "틀리다 — Linear velocity (선속도): 컬럼 안을 액체가 내려가는 빠르기(cm/h) — 규모를 키워도 같게 둔다.",
-    "틀리다 — Protein A chromatography: 항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
+    "틀리다 — Protein A chromatography: 항체 Fc에 결합하는 ligand로 불순물 대부분을 한 번에 제거하는 단계.",
     "틀리다 — E&L (Extractables & Leachables): 플라스틱 등에서 녹아 나와 제품에 섞일 수 있는 물질을 조사하는 것.",
-    "정답 — 컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
-    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing."
+    "정답 — 컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다.",
+    "틀리다 — CEX (양이온 교환 크로마토그래피): 음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing."
    ],
    "source": "WK06 강의 녹음 2:15:49–2:18:01",
    "concepts": [

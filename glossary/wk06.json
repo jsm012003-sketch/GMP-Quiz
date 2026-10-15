@@ -22,7 +22,7 @@
    "no": 3,
    "term": "Protein A chromatography",
    "group": "dsp",
-   "def": "항체 Fc에 결합하는 리간드로 불순물 대부분을 한 번에 없애는 단계.",
+   "def": "항체 Fc에 결합하는 ligand로 불순물 대부분을 한 번에 제거하는 단계.",
    "src": "WK06 PDF p.5, p.18–19",
    "short": true,
    "answersExtra": [
@@ -36,7 +36,7 @@
    "no": 4,
    "term": "Low pH viral inactivation",
    "group": "dsp",
-   "def": "산성(pH 3~4)에 일정 시간 두어 enveloped virus를 죽이는 단계.",
+   "def": "pH 3~4에서 일정 시간 유지해 enveloped virus를 불활화하는 단계.",
    "src": "WK06 PDF p.11, p.15",
    "short": true,
    "answers": [
@@ -53,7 +53,7 @@
    "no": 5,
    "term": "CEX (양이온 교환 크로마토그래피)",
    "group": "dsp",
-   "def": "음전하 레진에 양전하 분자를 붙여 HCP·aggregate를 없애는 polishing.",
+   "def": "음전하 레진에 항체를 결합시켜 aggregate·HCP를 제거하는 polishing.",
    "src": "WK06 PDF p.5, p.18",
    "short": true,
    "answersExtra": [
@@ -64,7 +64,7 @@
    "no": 6,
    "term": "AEX (음이온 교환 크로마토그래피)",
    "group": "dsp",
-   "def": "양전하 레진에 음전하 DNA·바이러스를 붙여 없애는 polishing.",
+   "def": "양전하 레진에 DNA·바이러스를 결합시키고 항체는 통과시키는 polishing.",
    "src": "WK06 PDF p.5, p.18",
    "short": true,
    "answersExtra": [
@@ -104,7 +104,7 @@
    "no": 11,
    "term": "Virus filtration (nanofiltration)",
    "group": "dsp",
-   "def": "바이러스보다 작은 pore의 필터로 바이러스를 크기로 걸러 내는 단계.",
+   "def": "pore size 약 20 nm의 막으로 바이러스를 크기 차이로 제거하는 단계.",
    "src": "WK06 PDF p.11, p.15–16",
    "short": true,
    "answersExtra": [
@@ -223,7 +223,7 @@
    "no": 24,
    "term": "S&D (Solvent/Detergent)",
    "group": "vc",
-   "def": "용매와 계면활성제로 lipid envelope를 녹여 enveloped virus를 죽이는 방법.",
+   "def": "화학 처리로 lipid envelope를 녹여 enveloped virus를 불활화하는 방법.",
    "src": "WK06 PDF p.11",
    "short": true,
    "answersExtra": [
@@ -294,7 +294,7 @@
    "no": 32,
    "term": "Enveloped virus (외피 바이러스)",
    "group": "virus",
-   "def": "Lipid envelope가 있어 low pH·S&D에 약한 바이러스.",
+   "def": "low pH·S&D 처리로 쉽게 불활화되는 바이러스.",
    "src": "WK06 PDF p.11, p.15",
    "short": true
   },
@@ -302,7 +302,7 @@
    "no": 33,
    "term": "Non-enveloped virus (비외피 바이러스)",
    "group": "virus",
-   "def": "Lipid envelope가 없어 low pH·S&D가 잘 안 듣는 바이러스.",
+   "def": "low pH·S&D에 강해 주로 virus filter로 제거하는 바이러스.",
    "src": "WK06 PDF p.11, p.14",
    "short": true
   },
@@ -589,7 +589,7 @@
    "no": 68,
    "term": "Bed height",
    "group": "scale",
-   "def": "컬럼에 채운 레진 층의 높이 — 규모를 키워도 같게 두고 지름만 키운다.",
+   "def": "컬럼에 충전한 레진의 길이(cm) — scale-up 때 같게 두고 지름만 키운다.",
    "src": "WK06 강의 녹음 2:15:49–2:18:01",
    "short": true,
    "answersExtra": [

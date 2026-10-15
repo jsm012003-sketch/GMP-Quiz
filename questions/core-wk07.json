@@ -10,13 +10,13 @@
    "question": "「cGMP」에 대한 설명으로 옳은 것은?",
    "choices": [
     "서로 다른 자재·제품이 뒤섞이는 것",
-    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙",
+    "최신 과학·기술 수준에 맞춰 제조·품질관리를 하라는 원칙 — 시설 설계의 첫 원칙",
     "환자에게 효과와 적정 용량을 찾는 단계",
-    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다",
+    "차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다",
     "대규모 비교 시험으로 효과를 확증하는 단계"
    ],
    "answer": 2,
-   "explanation": "**cGMP** — 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+   "explanation": "**cGMP** — 최신 과학·기술 수준에 맞춰 제조·품질관리를 하라는 원칙 — 시설 설계의 첫 원칙.",
    "choiceNotes": [
     "틀리다 — Mix-up (혼동)의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -39,8 +39,8 @@
    "part": 1,
    "question": "「Mix-up (혼동)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙",
-    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정",
+    "최신 과학·기술 수준에 맞춰 제조·품질관리를 하라는 원칙 — 시설 설계의 첫 원칙",
+    "공정의 투입량과 산출량·손실을 맞추는 계산 — 개념 설계 초기에 확정한다",
     "서로 다른 자재·제품이 뒤섞이는 것",
     "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
     "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실"
@@ -102,14 +102,14 @@
    "part": 1,
    "question": "「CIP (Cleaning In Place)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템",
+    "장비를 분해하지 않고 배관 안으로 세척액을 순환시켜 자동 세척하는 시스템",
     "한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치",
     "제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등)",
     "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동",
     "대규모 비교 시험으로 효과를 확증하는 단계"
    ],
    "answer": 1,
-   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.",
+   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 배관 안으로 세척액을 순환시켜 자동 세척하는 시스템.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Interlock의 설명이다.",
@@ -133,7 +133,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템."
+    "장비를 분해하지 않고 배관 안으로 세척액을 순환시켜 자동 세척하는 시스템."
    ],
    "answers": [
     "CIP",
@@ -142,7 +142,7 @@
     "정치 세척",
     "제자리 세척"
    ],
-   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템.\n정답으로 인정하는 표기: CIP · Cleaning In Place · CIP (Cleaning In Place) · 정치 세척 · 제자리 세척 (띄어쓰기·대소문자 무시)",
+   "explanation": "**CIP (Cleaning In Place)** — 장비를 분해하지 않고 배관 안으로 세척액을 순환시켜 자동 세척하는 시스템.\n정답으로 인정하는 표기: CIP · Cleaning In Place · CIP (Cleaning In Place) · 정치 세척 · 제자리 세척 (띄어쓰기·대소문자 무시)",
    "source": "WK07 PDF p.22, p.46",
    "concepts": [
     "CIP"
@@ -172,8 +172,8 @@
    "choiceNotes": [
     "정답 — 시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동.",
     "틀리다 — Scheduling: 장비·사람이 놀지 않고 납기에 맞도록 공정·구매 일정을 짜는 일.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "틀리다 — IQ (Installation Qualification): 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.",
+    "틀리다 — HVAC: 풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템.",
+    "틀리다 — IQ (Installation Qualification): 구성품이 모두 갖춰지고 도면대로 설치되었는지 확인하는 단계.",
     "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다."
    ],
    "source": "WK07 PDF p.24, p.51",
@@ -299,7 +299,7 @@
     "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "정답 — 최종멸균 제품 충전, 무균 여과할 제품 조제에 쓰는 구역.",
     "틀리다 — Pressure zone (압력 구역): 청정도에 따라 실 압력을 다르게 정한 구역.",
-    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계."
    ],
    "source": "WK07 PDF p.36",
    "concepts": [
@@ -364,8 +364,8 @@
     "정답 — 설비는 있지만 사람·작업 없이 멈춘 상태.",
     "틀리다 — Operational (가동 상태): 정해진 인원이 실제로 작업 중인 상태.",
     "틀리다 — Grade B: 최고 청정 구역을 둘러싼 배경 구역.",
-    "틀리다 — HVAC: 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
-    "틀리다 — FAT (Factory Acceptance Test): 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
+    "틀리다 — HVAC: 풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템.",
+    "틀리다 — FAT (Factory Acceptance Test): 제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험."
    ],
    "source": "WK07 PDF p.36–37",
    "concepts": [
@@ -398,7 +398,7 @@
     "정답 — 정해진 인원이 실제로 작업 중인 상태.",
     "틀리다 — Grade A: 무균 충전 등이 이루어지는 최고 청정 구역.",
     "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
-    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계."
    ],
    "source": "WK07 PDF p.36–37",
    "concepts": [
@@ -461,7 +461,7 @@
    "explanation": "**Material airlock (MAL)** — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
    "choiceNotes": [
     "틀리다 — Interlock: 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.",
-    "틀리다 — Airlock: 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "틀리다 — Airlock: 차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
     "틀리다 — Grade D: 최종멸균 제품을 밀폐 조제하는 구역(EU 아이솔레이터 주변 최소 등급).",
     "정답 — 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
     "틀리다 — UPS (무정전 전원장치): 정전 순간에도 끊김 없이 전원을 주는 장치."
@@ -496,7 +496,7 @@
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
     "틀리다 — Pure steam: 장비 멸균(SIP)처럼 제품 접촉면에 쓰는 증기(응축하면 주사용수 수준).",
     "정답 — 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "틀리다 — cGMP: 최신 과학·기술 수준에 맞춰 제조·품질관리를 하라는 원칙 — 시설 설계의 첫 원칙.",
     "틀리다 — 임상 4상 (Phase IV): 시판 후 실제 사용에서 장기 안전성을 보는 단계."
    ],
    "source": "WK07 PDF p.46",
@@ -529,7 +529,7 @@
     "정답 — 제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등).",
     "틀리다 — Clean utility: 제품이나 제품 접촉 자재에 닿는 유틸리티(WFI·순수 증기 등).",
     "틀리다 — Clean compressed air: 오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기.",
-    "틀리다 — URS (User Requirement Specification): 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.",
+    "틀리다 — URS (User Requirement Specification): 구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준).",
     "틀리다 — 자재: QC 승인을 받아 생산에 쓸 수 있게 된 원료를 관리하는 쪽."
    ],
    "source": "WK07 PDF p.48",
@@ -548,13 +548,13 @@
    "question": "「HVAC」에 대한 설명으로 옳은 것은?",
    "choices": [
     "한 시간에 방 공기가 몇 번 바뀌는지 나타낸 값",
-    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다",
+    "차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다",
     "사람이 청정 구역에 들어갈 때 소독·갱의하는 전실",
     "시설·설비·공정이 의도대로 작동하고 품질을 낸다는 것을 문서로 입증하는 활동",
-    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템"
+    "풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템"
    ],
    "answer": 5,
-   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.",
+   "explanation": "**HVAC** — 풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템.",
    "choiceNotes": [
     "틀리다 — Air changes (환기 횟수)의 설명이다.",
     "틀리다 — Airlock의 설명이다.",
@@ -578,14 +578,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템."
+    "풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템."
    ],
    "answers": [
     "HVAC",
     "공조",
     "공조 시스템"
    ],
-   "explanation": "**HVAC** — 풍량·여과·실 압력·습도·온도를 관리하는 공조 시스템.\n정답으로 인정하는 표기: HVAC · 공조 · 공조 시스템 (띄어쓰기·대소문자 무시)",
+   "explanation": "**HVAC** — 풍량·여과·실압·습도·온도를 제어해 청정 환경을 유지하는 설비 시스템.\n정답으로 인정하는 표기: HVAC · 공조 · 공조 시스템 (띄어쓰기·대소문자 무시)",
    "source": "WK07 PDF p.49",
    "concepts": [
     "HVAC"
@@ -602,7 +602,7 @@
    "question": "「DQ (Design Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
-    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준)",
     "시판 후 실제 사용에서 장기 안전성을 보는 단계",
     "무균 충전 등이 이루어지는 최고 청정 구역",
     "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계"
@@ -659,11 +659,11 @@
     "세척 절차가 잔류물을 기준 이하로 일관되게 없앤다는 것을 입증하는 것",
     "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계",
     "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험",
+    "제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험",
     "무균 충전 등이 이루어지는 최고 청정 구역"
    ],
    "answer": 4,
-   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.",
+   "explanation": "**FAT (Factory Acceptance Test)** — 제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험.",
    "choiceNotes": [
     "틀리다 — Cleaning Validation (CV)의 설명이다.",
     "틀리다 — OQ (Operational Qualification)의 설명이다.",
@@ -687,7 +687,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험."
+    "제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험."
    ],
    "answers": [
     "FAT",
@@ -698,7 +698,7 @@
     "공장 인수",
     "공장 출하 전"
    ],
-   "explanation": "**FAT (Factory Acceptance Test)** — 출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험.\n정답으로 인정하는 표기: FAT · Factory Acceptance Test · FAT (Factory Acceptance Test) · 공장 인수 시험 · 공장 출하 전 시험 (띄어쓰기·대소문자 무시)",
+   "explanation": "**FAT (Factory Acceptance Test)** — 제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험.\n정답으로 인정하는 표기: FAT · Factory Acceptance Test · FAT (Factory Acceptance Test) · 공장 인수 시험 · 공장 출하 전 시험 (띄어쓰기·대소문자 무시)",
    "source": "WK07 PDF p.51",
    "concepts": [
     "FAT"
@@ -714,14 +714,14 @@
    "part": 1,
    "question": "「SAT (Site Acceptance Test)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험",
     "검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차",
-    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준)",
     "개념 설계 → 기본 설계 → 상세 설계로 이어지는 설계 3단계",
     "오일·수분·입자를 없애 제품 접촉면에 쓸 수 있는 압축 공기"
    ],
    "answer": 1,
-   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
+   "explanation": "**SAT (Site Acceptance Test)** — 사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Change control (변경 관리)의 설명이다.",
@@ -745,7 +745,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험."
+    "사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험."
    ],
    "answers": [
     "SAT",
@@ -754,7 +754,7 @@
     "현장 인수 시험",
     "현장 인수"
    ],
-   "explanation": "**SAT (Site Acceptance Test)** — 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.\n정답으로 인정하는 표기: SAT · Site Acceptance Test · SAT (Site Acceptance Test) · 현장 인수 시험 · 현장 인수 (띄어쓰기·대소문자 무시)",
+   "explanation": "**SAT (Site Acceptance Test)** — 사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험.\n정답으로 인정하는 표기: SAT · Site Acceptance Test · SAT (Site Acceptance Test) · 현장 인수 시험 · 현장 인수 (띄어쓰기·대소문자 무시)",
    "source": "WK07 PDF p.51",
    "concepts": [
     "SAT"
@@ -771,13 +771,13 @@
    "question": "「PQ (Performance Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계",
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계",
+    "실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계",
     "설계가 사용자 요구사항을 만족하는지 문서로 확인하는 단계",
-    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정",
+    "공정의 투입량과 산출량·손실을 맞추는 계산 — 개념 설계 초기에 확정한다",
     "밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념"
    ],
    "answer": 2,
-   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
+   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계.",
    "choiceNotes": [
     "틀리다 — OQ (Operational Qualification)의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -801,7 +801,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계."
+    "실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계."
    ],
    "answers": [
     "PQ",
@@ -809,7 +809,7 @@
     "PQ (Performance Qualification)",
     "성능 적격성평가"
    ],
-   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.\n정답으로 인정하는 표기: PQ · Performance Qualification · PQ (Performance Qualification) · 성능 적격성평가 (띄어쓰기·대소문자 무시)",
+   "explanation": "**PQ (Performance Qualification)** — 실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계.\n정답으로 인정하는 표기: PQ · Performance Qualification · PQ (Performance Qualification) · 성능 적격성평가 (띄어쓰기·대소문자 무시)",
    "source": "WK07 PDF p.51, p.58",
    "concepts": [
     "PQ"
@@ -825,7 +825,7 @@
    "part": 1,
    "question": "「PV (Process Validation)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험",
     "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것",
     "건물 공사가 완전히 끝난 상태",
     "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
@@ -925,7 +925,7 @@
    "answer": 3,
    "explanation": "**Change control (변경 관리)** — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
    "choiceNotes": [
-    "틀리다 — SAT (Site Acceptance Test): 현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험.",
+    "틀리다 — SAT (Site Acceptance Test): 사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험.",
     "틀리다 — CSV (Computer System Validation): 컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것.",
     "정답 — 검증 상태에 영향을 줄 변경을 미리 평가·승인·기록하는 절차.",
     "틀리다 — Lot: 같은 batch에서 동시에 만들어 균일(uniform)한 최종 제품 단위.",
@@ -960,7 +960,7 @@
    "choiceNotes": [
     "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
     "정답 — 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
-    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
+    "틀리다 — Closed system (밀폐 공정): 제품이 공정 중 실내 공기 등 주변 환경에 노출되지 않도록 설계한 공정.",
     "틀리다 — Containment (봉쇄): 고활성·독성 물질이 새어 나가지 않게 가두는 설계.",
     "틀리다 — At rest (비가동 상태): 설비는 있지만 사람·작업 없이 멈춘 상태."
    ],
@@ -979,7 +979,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+    "제품이 공정 중 실내 공기 등 주변 환경에 노출되지 않도록 설계한 공정."
    ],
    "choices": [
     "Ballroom concept",
@@ -989,13 +989,13 @@
     "Closed system (밀폐 공정)"
    ],
    "answer": 5,
-   "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정.",
+   "explanation": "**Closed system (밀폐 공정)** — 제품이 공정 중 실내 공기 등 주변 환경에 노출되지 않도록 설계한 공정.",
    "choiceNotes": [
     "틀리다 — Ballroom concept: 밀폐 공정을 바탕으로 넓은 한 공간에서 여러 제품을 함께 만드는 시설 개념.",
     "틀리다 — Annex 1 revision: 무균 의약품 EU GMP 부록 개정. 가능하면 아이솔레이터를 쓰라는 방향.",
     "틀리다 — Post-flushing: 필터에 묻은 제품을 버퍼로 밀어 회수하는 일. 부피가 늘어난다.",
     "틀리다 — Multi-purpose facility: 여러 제품을 한 시설에서 번갈아 만드는 다목적 시설.",
-    "정답 — 제품이 공정 중 주변 공기에 노출되지 않도록 닫힌 공정."
+    "정답 — 제품이 공정 중 실내 공기 등 주변 환경에 노출되지 않도록 설계한 공정."
    ],
    "source": "WK07 PDF p.62–63",
    "concepts": [
@@ -1013,13 +1013,13 @@
    "question": "「EPC」에 대한 설명으로 옳은 것은?",
    "choices": [
     "Clarification으로 빠지는 세포 부피를 추정하는 젖은 세포 무게",
-    "공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태",
-    "장비를 분해하지 않고 제자리에서 세척액을 돌려 자동 세척하는 시스템",
+    "잔여 공사가 있어도 시설을 사용해도 된다는 허가가 난 상태",
+    "장비를 분해하지 않고 배관 안으로 세척액을 순환시켜 자동 세척하는 시스템",
     "설비는 있지만 사람·작업 없이 멈춘 상태",
-    "Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어"
+    "설계·구매·시공을 한 업체가 일괄 수행하는 건설 사업 방식"
    ],
    "answer": 5,
-   "explanation": "**EPC** — Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.",
+   "explanation": "**EPC** — 설계·구매·시공을 한 업체가 일괄 수행하는 건설 사업 방식.",
    "choiceNotes": [
     "틀리다 — WCW (Wet cell weight)의 설명이다.",
     "틀리다 — 준공의 설명이다.",
@@ -1043,13 +1043,13 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어."
+    "설계·구매·시공을 한 업체가 일괄 수행하는 건설 사업 방식."
    ],
    "answers": [
     "EPC",
     "이피씨"
    ],
-   "explanation": "**EPC** — Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.\n정답으로 인정하는 표기: EPC · 이피씨 (띄어쓰기·대소문자 무시)",
+   "explanation": "**EPC** — 설계·구매·시공을 한 업체가 일괄 수행하는 건설 사업 방식.\n정답으로 인정하는 표기: EPC · 이피씨 (띄어쓰기·대소문자 무시)",
    "source": "WK07 강의 녹음 14:58–21:09",
    "concepts": [
     "EPC"
@@ -1065,7 +1065,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태."
+    "잔여 공사가 있어도 시설을 사용해도 된다는 허가가 난 상태."
    ],
    "choices": [
     "준공",
@@ -1075,9 +1075,9 @@
     "Operational (가동 상태)"
    ],
    "answer": 1,
-   "explanation": "**준공** — 공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태.",
+   "explanation": "**준공** — 잔여 공사가 있어도 시설을 사용해도 된다는 허가가 난 상태.",
    "choiceNotes": [
-    "정답 — 공사가 다 끝나지 않았어도 들어가 일해도 될 만큼 끝나 허가가 난 상태.",
+    "정답 — 잔여 공사가 있어도 시설을 사용해도 된다는 허가가 난 상태.",
     "틀리다 — 완공: 건물 공사가 완전히 끝난 상태.",
     "틀리다 — Engineering (설계): 이 수업에서 GMP 공장(건물)을 짓기 위한 설계를 뜻하는 말.",
     "틀리다 — Dedicated facility / equipment: 제품 하나만을 위해 쓰는 전용 시설·장비.",
@@ -1098,7 +1098,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정."
+    "공정의 투입량과 산출량·손실을 맞추는 계산 — 개념 설계 초기에 확정한다."
    ],
    "choices": [
     "EPC",
@@ -1108,12 +1108,12 @@
     "Mix-up (혼동)"
    ],
    "answer": 3,
-   "explanation": "**Mass balance** — 공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정.",
+   "explanation": "**Mass balance** — 공정의 투입량과 산출량·손실을 맞추는 계산 — 개념 설계 초기에 확정한다.",
    "choiceNotes": [
-    "틀리다 — EPC: Engineering(설계)·Procurement(구매)·Construction(시공)을 함께 이르는 건설 용어.",
+    "틀리다 — EPC: 설계·구매·시공을 한 업체가 일괄 수행하는 건설 사업 방식.",
     "틀리다 — 완공: 건물 공사가 완전히 끝난 상태.",
-    "정답 — 공정에 들어간 양과 나온 양·손실을 맞추는 계산. CD 초기에 확정.",
-    "틀리다 — cGMP: 최신 기준으로 제조·품질관리를 하라는 현행 GMP — 시설 설계 첫 원칙.",
+    "정답 — 공정의 투입량과 산출량·손실을 맞추는 계산 — 개념 설계 초기에 확정한다.",
+    "틀리다 — cGMP: 최신 과학·기술 수준에 맞춰 제조·품질관리를 하라는 원칙 — 시설 설계의 첫 원칙.",
     "틀리다 — Mix-up (혼동): 서로 다른 자재·제품이 뒤섞이는 것."
    ],
    "source": "WK07 강의 녹음 36:09–41:38",
@@ -1133,12 +1133,12 @@
    "choices": [
     "공정이 반복해서 규격에 맞는 제품을 만든다는 것을 입증하는 단계",
     "운영 중 설비가 검증된 성능을 유지하는지 주기적으로 다시 확인하는 것",
-    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준)",
     "장비를 직접 제어하는 컨트롤러와, 이를 모아 감시하는 상위 시스템",
     "제품 하나만을 위해 쓰는 전용 시설·장비"
    ],
    "answer": 3,
-   "explanation": "**URS (User Requirement Specification)** — 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.",
+   "explanation": "**URS (User Requirement Specification)** — 구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준).",
    "choiceNotes": [
     "틀리다 — PV (Process Validation)의 설명이다.",
     "틀리다 — Requalification (재적격성평가)의 설명이다.",
@@ -1162,7 +1162,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서."
+    "구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준)."
    ],
    "answers": [
     "URS",
@@ -1170,7 +1170,7 @@
     "URS (User Requirement Specification)",
     "사용자 요구 규격서"
    ],
-   "explanation": "**URS (User Requirement Specification)** — 필요한 장비의 요구 사항을 사용자가 자세히 적은 문서.\n정답으로 인정하는 표기: URS · User Requirement Specification · URS (User Requirement Specification) · 사용자 요구 규격서 (띄어쓰기·대소문자 무시)",
+   "explanation": "**URS (User Requirement Specification)** — 구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준).\n정답으로 인정하는 표기: URS · User Requirement Specification · URS (User Requirement Specification) · 사용자 요구 규격서 (띄어쓰기·대소문자 무시)",
    "source": "WK07 강의 녹음 2:50:28–2:53:54",
    "concepts": [
     "URS"
@@ -1186,14 +1186,14 @@
    "part": 1,
    "question": "「IQ (Installation Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "현장 설치 후 장비가 사양대로 들어오고 연결됐는지 확인하는 시험",
+    "사용자 시설에 설치한 뒤 장비가 사양대로 연결·작동하는지 확인하는 시험",
     "컴퓨터 시스템이 의도대로 작동하고 데이터를 믿을 수 있음을 입증하는 것",
     "환자에게 효과와 적정 용량을 찾는 단계",
-    "부속이 다 있고 도면대로 설치되었는지 확인하는 단계",
+    "구성품이 모두 갖춰지고 도면대로 설치되었는지 확인하는 단계",
     "자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실"
    ],
    "answer": 4,
-   "explanation": "**IQ (Installation Qualification)** — 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.",
+   "explanation": "**IQ (Installation Qualification)** — 구성품이 모두 갖춰지고 도면대로 설치되었는지 확인하는 단계.",
    "choiceNotes": [
     "틀리다 — SAT (Site Acceptance Test)의 설명이다.",
     "틀리다 — CSV (Computer System Validation)의 설명이다.",
@@ -1217,7 +1217,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "부속이 다 있고 도면대로 설치되었는지 확인하는 단계."
+    "구성품이 모두 갖춰지고 도면대로 설치되었는지 확인하는 단계."
    ],
    "answers": [
     "IQ",
@@ -1225,7 +1225,7 @@
     "IQ (Installation Qualification)",
     "설치 적격성평가"
    ],
-   "explanation": "**IQ (Installation Qualification)** — 부속이 다 있고 도면대로 설치되었는지 확인하는 단계.\n정답으로 인정하는 표기: IQ · Installation Qualification · IQ (Installation Qualification) · 설치 적격성평가 (띄어쓰기·대소문자 무시)",
+   "explanation": "**IQ (Installation Qualification)** — 구성품이 모두 갖춰지고 도면대로 설치되었는지 확인하는 단계.\n정답으로 인정하는 표기: IQ · Installation Qualification · IQ (Installation Qualification) · 설치 적격성평가 (띄어쓰기·대소문자 무시)",
    "source": "WK07 강의 녹음 2:55:54–2:56:42",
    "concepts": [
     "IQ"
@@ -1241,8 +1241,8 @@
    "part": 1,
    "question": "「OQ (Operational Qualification)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "출하 전 제작사 공장에서 장비가 사양대로 만들어졌는지 확인하는 시험",
-    "필요한 장비의 요구 사항을 사용자가 자세히 적은 문서",
+    "제작사에서 장비가 사양대로 만들어졌는지 납품 전에 확인하는 시험",
+    "구매할 장비·시설에 필요한 기능·성능을 발주자가 정리한 문서(DQ의 기준)",
     "제품에 닿지 않아 품질에 영향이 없는 유틸리티(냉각수 등)",
     "개념 설계 → 기본 설계 → 상세 설계로 이어지는 설계 3단계",
     "장비를 작동시켜 정해진 기능대로 움직이는지 확인하는 단계"
@@ -1296,7 +1296,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다."
+    "차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다."
    ],
    "choices": [
     "Material airlock (MAL)",
@@ -1306,12 +1306,12 @@
     "P&ID (Piping & Instrumentation Diagram)"
    ],
    "answer": 2,
-   "explanation": "**Airlock** — 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+   "explanation": "**Airlock** — 차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
    "choiceNotes": [
     "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
-    "정답 — 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "정답 — 차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
     "틀리다 — Personnel airlock (PAL): 사람이 청정 구역에 들어갈 때 소독·갱의하는 전실.",
-    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 일관되게 성능을 내는지 확인하는 단계.",
+    "틀리다 — PQ (Performance Qualification): 실제 운전 조건에서 설비가 요구 수준을 일관되게 만족하는지 확인하는 단계.",
     "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반)."
    ],
    "source": "WK07 강의 녹음 1:16:04–1:25:07",
@@ -1342,7 +1342,7 @@
    "explanation": "**Interlock** — 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치.",
    "choiceNotes": [
     "틀리다 — Material airlock (MAL): 자재를 닦고 포장을 벗겨 청정 구역으로 넘기는 전실.",
-    "틀리다 — Airlock: 차압을 둔 중간 공간. GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
+    "틀리다 — Airlock: 차압을 둔 중간 전실 — GMP(양압)와 BSL(음압)을 함께 만족시킨다.",
     "틀리다 — Scheduling: 장비·사람이 놀지 않고 납기에 맞도록 공정·구매 일정을 짜는 일.",
     "틀리다 — P&ID (Piping & Instrumentation Diagram): 배관·밸브·계측기까지 자세히 그린 도면(PFD 기반).",
     "정답 — 한쪽 문이 열려 있으면 다른 문이 잠기게 하는 장치."

@@ -207,7 +207,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+    "수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계."
    ],
    "choices": [
     "Intermediate purification (중간 정제)",
@@ -217,11 +217,11 @@
     "Fine fractionation (정밀 분리)"
    ],
    "answer": 3,
-   "explanation": "**Capture** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+   "explanation": "**Capture** — 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
    "choiceNotes": [
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
     "틀리다 — Affinity tag: 정제를 쉽게 하려고 단백질 끝에 덧붙인 짧은 서열(예: His-tag).",
-    "정답 — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "정답 — 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "틀리다 — Stationary phase (고정상): 컬럼 안에 채워져 움직이지 않는 레진.",
     "틀리다 — Fine fractionation (정밀 분리): 작은 시료로 크기가 비슷한 분자까지 나누는 SEC(마지막 polishing)."
    ],
@@ -252,7 +252,7 @@
    "answer": 2,
    "explanation": "**Intermediate purification (중간 정제)** — 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
    "choiceNotes": [
-    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Capture: 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "정답 — 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
     "틀리다 — Polishing: 마지막에 남은 미량 불순물을 없애는 단계.",
     "틀리다 — Ligand: 레진에 고정되어 목표 물질과 결합하는 분자.",
@@ -286,7 +286,7 @@
    "explanation": "**Polishing** — 마지막에 남은 미량 불순물을 없애는 단계.",
    "choiceNotes": [
     "틀리다 — Intermediate purification (중간 정제): 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
-    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Capture: 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "틀리다 — Chromatography: 물질마다 레진에 머무는 시간이 다른 점을 이용해 혼합물을 나누는 방법.",
     "정답 — 마지막에 남은 미량 불순물을 없애는 단계.",
     "틀리다 — Strong ion exchanger: pH 2~12의 넓은 범위에서 전하를 유지하는 이온교환기(Q, S)."
@@ -306,7 +306,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법."
    ],
    "choices": [
     "Affinity chromatography (친화 크로마토그래피)",
@@ -316,9 +316,9 @@
     "Fine fractionation (정밀 분리)"
    ],
    "answer": 1,
-   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.",
    "choiceNotes": [
-    "정답 — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+    "정답 — 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.",
     "틀리다 — IEX (Ion Exchange, 이온교환): 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.",
     "틀리다 — Ligand: 레진에 고정되어 목표 물질과 결합하는 분자.",
     "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상.",
@@ -339,7 +339,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식."
+    "목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식."
    ],
    "choices": [
     "Bind-elute mode",
@@ -349,9 +349,9 @@
     "Fractionation range"
    ],
    "answer": 1,
-   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
    "choiceNotes": [
-    "정답 — 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "정답 — 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
     "틀리다 — SBC (Static Binding Capacity): 비커에서 batch로 잰 레진의 총 결합 용량.",
     "틀리다 — Breakthrough (돌파): 레진이 포화돼 결합하지 못한 목표 물질이 컬럼 밖으로 새어 나오는 것.",
     "틀리다 — UV 280 nm: 단백질 양을 보는 자외선 흡광 파장.",
@@ -372,7 +372,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식."
+    "불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식."
    ],
    "choices": [
     "Bind-elute mode",
@@ -382,11 +382,11 @@
     "Monolith"
    ],
    "answer": 3,
-   "explanation": "**Flow-through mode** — 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+   "explanation": "**Flow-through mode** — 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
    "choiceNotes": [
-    "틀리다 — Bind-elute mode: 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
     "틀리다 — Binding capacity (결합 용량): 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
-    "정답 — 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "정답 — 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "틀리다 — ELISA: 항체 반응으로 특정 단백질의 양을 재는 방법.",
     "틀리다 — Monolith: 입자가 아닌 한 덩어리의 다공성 구조로 된 고정상."
    ],
@@ -417,7 +417,7 @@
    "answer": 5,
    "explanation": "**Binding capacity (결합 용량)** — 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.",
    "choiceNotes": [
-    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "틀리다 — Breakthrough (돌파): 레진이 포화돼 결합하지 못한 목표 물질이 컬럼 밖으로 새어 나오는 것.",
     "틀리다 — Buffer exchange: 시료의 버퍼를 다른 버퍼로 바꾸는 것 — desalting과 함께 group separation으로 한다.",
     "틀리다 — Equilibration (평형화): 시료를 넣기 전 low salt start buffer로 레진 조건을 맞추는 단계.",
@@ -471,7 +471,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것."
+    "염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것."
    ],
    "choices": [
     "Flow-through mode",
@@ -481,10 +481,10 @@
     "Efficiency (효율)"
    ],
    "answer": 2,
-   "explanation": "**Elution (용출)** — 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.",
+   "explanation": "**Elution (용출)** — 염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것.",
    "choiceNotes": [
-    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
-    "정답 — 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.",
+    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
+    "정답 — 염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것.",
     "틀리다 — Loading: Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계.",
     "틀리다 — Western blot: 항체로 특정 단백질이 있는지 확인하는 방법.",
     "틀리다 — Efficiency (효율): 충진된 bed에서 좁고 대칭적인 peak로 용출시키는 능력."
@@ -550,10 +550,10 @@
    "explanation": "**Step elution** — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
    "choiceNotes": [
     "정답 — 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
-    "틀리다 — Bind-elute mode: 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
     "틀리다 — Eluate (용출액): 컬럼에서 빠져나오는 액체.",
     "틀리다 — Western blot: 항체로 특정 단백질이 있는지 확인하는 방법.",
-    "틀리다 — Affinity chromatography (친화 크로마토그래피): 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+    "틀리다 — Affinity chromatography (친화 크로마토그래피): 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법."
    ],
    "source": "WK03 강의 녹음 37:18–39:56",
    "concepts": [
@@ -783,7 +783,7 @@
     "틀리다 — Kav: SEC 용출 위치를 0(가장 큰 분자)~1(가장 작은 분자)로 나타낸 값.",
     "틀리다 — Buffer exchange: 시료의 버퍼를 다른 버퍼로 바꾸는 것 — desalting과 함께 group separation으로 한다.",
     "틀리다 — Matrix (매트릭스): 리간드를 고정하는 레진 비드의 바탕 물질 — 친수성·단단함이 필요하다.",
-    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Capture: 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "정답 — 컬럼 단면적 × 높이로 구하는 원통 부피."
    ],
    "source": "WK03 강의 녹음 43:25–44:31",
@@ -914,8 +914,8 @@
    "choiceNotes": [
     "틀리다 — Fraction (분획): 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
     "틀리다 — Resin bead: 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
-    "틀리다 — HIC (Hydrophobic Interaction Chromatography): 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
-    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "틀리다 — HIC (Hydrophobic Interaction Chromatography): high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피.",
+    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "정답 — 시료 성분이 컬럼에서 나오기까지 걸리는 시간 — 고정상과 강하게 상호작용할수록 길다."
    ],
    "source": "WK03 교재 (1.5 컬럼 크로마토그래피의 원리)",
@@ -979,7 +979,7 @@
    "explanation": "**Isocratic elution** — 버퍼 조건을 바꾸지 않고 같은 조건으로 계속 흘려 분리하는 용출.",
    "choiceNotes": [
     "정답 — 버퍼 조건을 바꾸지 않고 같은 조건으로 계속 흘려 분리하는 용출.",
-    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "틀리다 — Flow-through mode: 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "틀리다 — Step elution: 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.",
     "틀리다 — Total volume (Vt): 가장 작은 분자가 마지막에 나오는 부피.",
     "틀리다 — Retention time (RT): 시료 성분이 컬럼에서 나오기까지 걸리는 시간 — 고정상과 강하게 상호작용할수록 길다."
@@ -1081,7 +1081,7 @@
     "틀리다 — Straight fractionation: 일정 부피마다 계속 나눠 받는 분획 방식.",
     "틀리다 — Equilibration (평형화): 시료를 넣기 전 low salt start buffer로 레진 조건을 맞추는 단계.",
     "틀리다 — Void volume (V0): Pore에 못 들어가는 가장 큰 분자가 먼저 나오는 부피.",
-    "틀리다 — Bind-elute mode: 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식."
+    "틀리다 — Bind-elute mode: 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식."
    ],
    "source": "WK03 교재 (1.12 분획 방식)",
    "concepts": [
@@ -1246,7 +1246,7 @@
     "틀리다 — Column volume (CV): 컬럼 단면적 × 높이로 구하는 원통 부피.",
     "틀리다 — SBC (Static Binding Capacity): 비커에서 batch로 잰 레진의 총 결합 용량.",
     "정답 — SEC 레진이 크기로 나눌 수 있는 분자량 범위.",
-    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+    "틀리다 — Capture: 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계."
    ],
    "source": "WK03 교재 (1.21 분획 범위와 Kav) · WK03 교재 p.21 (Comparison of the selectivity)",
    "concepts": [
@@ -1507,7 +1507,7 @@
    "explanation": "**Affinity tag** — 정제를 쉽게 하려고 단백질 끝에 덧붙인 짧은 서열(예: His-tag).",
    "choiceNotes": [
     "정답 — 정제를 쉽게 하려고 단백질 끝에 덧붙인 짧은 서열(예: His-tag).",
-    "틀리다 — Capture: 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "틀리다 — Capture: 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "틀리다 — Polishing: 마지막에 남은 미량 불순물을 없애는 단계.",
     "틀리다 — Desalting (탈염): 염·작은 분자를 빼고 버퍼를 바꾸는 보조 단계(다음 IEX 준비).",
     "틀리다 — Volumetric flow rate (부피 유속): 단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다."
@@ -1557,7 +1557,7 @@
    "part": 1,
    "question": "「IEX (Ion Exchange, 이온교환)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법",
     "레진에 붙이지 않고 분자 크기로만 나누는 방법",
     "고정상(레진)을 채워 넣는 컬럼 본체",
     "첫 단계 뒤에 남은 불순물을 더 줄이는 단계",
@@ -1587,14 +1587,14 @@
    "part": 1,
    "question": "「HIC (Hydrophobic Interaction Chromatography)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법",
     "유기 용매로 용출해 생물 활성을 잃을 위험이 있는 소수성 기반 분리",
     "염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출",
-    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법",
+    "high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피",
     "SEC 레진이 크기로 나눌 수 있는 분자량 범위"
    ],
    "answer": 4,
-   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.",
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피.",
    "choiceNotes": [
     "틀리다 — Affinity chromatography (친화 크로마토그래피)의 설명이다.",
     "틀리다 — RPC (Reversed-Phase Chromatography)의 설명이다.",
@@ -1647,7 +1647,7 @@
    "part": 1,
    "question": "「SEC (Size Exclusion, Gel filtration)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법",
     "유기 용매로 용출해 생물 활성을 잃을 위험이 있는 소수성 기반 분리",
     "Peak가 나올 때만 받는 분획 방식",
     "레진에 붙이지 않고 분자 크기로만 나누는 방법",
@@ -1771,7 +1771,7 @@
     "단백질을 크기별 띠(밴드)로 나눠 순도를 보는 전기영동",
     "정제한 단백질의 농도를 재는 방법들",
     "단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다",
-    "레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것"
+    "염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것"
    ],
    "answer": 3,
    "explanation": "**Bradford·Lowry·BCA assay** — 정제한 단백질의 농도를 재는 방법들.",
@@ -1977,7 +1977,7 @@
    "part": 1,
    "question": "「SBC (Static Binding Capacity)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식",
+    "불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식",
     "레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다",
     "Pore에 못 들어가는 가장 큰 분자가 먼저 나오는 부피",
     "리간드를 고정하는 레진 비드의 바탕 물질 — 친수성·단단함이 필요하다",
@@ -2039,7 +2039,7 @@
    "choices": [
     "단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다",
     "96-well plate·로봇으로 많은 조건을 한꺼번에 시험하는 스크리닝",
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법",
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법",
     "HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발",
     "염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출"
    ],
@@ -2070,7 +2070,7 @@
     "96-well plate·로봇으로 많은 조건을 한꺼번에 시험하는 스크리닝",
     "HTS와 DoE로 많은 정제 조건을 작은 규모에서 빠르게 찾는 공정 개발",
     "단위 시간에 흐르는 부피(L/h) — scale-up 때 컬럼 지름에 맞춰 늘린다",
-    "레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것",
+    "염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것",
     "가장 작은 분자가 마지막에 나오는 부피"
    ],
    "answer": 1,
@@ -2198,7 +2198,7 @@
    "box": [
     "A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.",
     "B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.",
-    "C. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+    "C. 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
     "D. 섞인 물질을 서로 얼마나 잘 나누는지의 정도."
    ],
    "choices": [
@@ -2209,7 +2209,7 @@
     "(가)-D  (나)-A  (다)-C  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Resin bead** → A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.\n(나) **Resolution (분리능)** → D. 섞인 물질을 서로 얼마나 잘 나누는지의 정도.\n(다) **Fraction (분획)** → B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.\n(라) **Capture** → C. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Resin bead** → A. 컬럼을 채우는 작은 알갱이 — 생산용은 보통 30~90 µm.\n(나) **Resolution (분리능)** → D. 섞인 물질을 서로 얼마나 잘 나누는지의 정도.\n(다) **Fraction (분획)** → B. 컬럼에서 나오는 용액을 시간 순서대로 나눠 받은 것.\n(라) **Capture** → C. 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
    "choiceNotes": [
     "틀리다 — (가) Resin bead의 설명은 A, (다) Fraction의 설명은 B",
     "틀리다 — (가) Resin bead의 설명은 A, (라) Capture의 설명은 C",
@@ -2235,8 +2235,8 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Capture\n(나) Intermediate purification (중간 정제)\n(다) Polishing\n(라) Affinity chromatography (친화 크로마토그래피)",
    "box": [
-    "A. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.",
-    "B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+    "A. 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.",
+    "B. 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.",
     "C. 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.",
     "D. 마지막에 남은 미량 불순물을 없애는 단계."
    ],
@@ -2248,7 +2248,7 @@
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Capture** → A. 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n(나) **Intermediate purification (중간 정제)** → C. 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.\n(다) **Polishing** → D. 마지막에 남은 미량 불순물을 없애는 단계.\n(라) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Capture** → A. 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.\n(나) **Intermediate purification (중간 정제)** → C. 첫 단계 뒤에 남은 불순물을 더 줄이는 단계.\n(다) **Polishing** → D. 마지막에 남은 미량 불순물을 없애는 단계.\n(라) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.",
    "choiceNotes": [
     "틀리다 — (가) Capture의 설명은 A, (다) Polishing의 설명은 D",
     "틀리다 — (다) Polishing의 설명은 D, (라) Affinity chromatography의 설명은 B",
@@ -2275,9 +2275,9 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Affinity chromatography (친화 크로마토그래피)\n(나) IEX (Ion Exchange, 이온교환)\n(다) HIC (Hydrophobic Interaction Chromatography)\n(라) MMC (Multimodal Chromatography)",
    "box": [
     "A. 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.",
-    "B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.",
+    "B. 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.",
     "C. 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
-    "D. 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
+    "D. high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피."
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-D  (라)-B",
@@ -2287,7 +2287,7 @@
     "(가)-A  (나)-B  (다)-C  (라)-D"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.\n(나) **IEX (Ion Exchange, 이온교환)** → A. 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.\n(다) **HIC (Hydrophobic Interaction Chromatography)** → D. 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.\n(라) **MMC (Multimodal Chromatography)** → C. 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Affinity chromatography (친화 크로마토그래피)** → B. 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.\n(나) **IEX (Ion Exchange, 이온교환)** → A. 전하 차이로 레진에 결합시킨 뒤 염 농도를 올려 용출하는 방법.\n(다) **HIC (Hydrophobic Interaction Chromatography)** → D. high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피.\n(라) **MMC (Multimodal Chromatography)** → C. 전하·소수성 등 여러 성질을 함께 써서 붙이는 레진.",
    "choiceNotes": [
     "틀리다 — (가) Affinity chromatography의 설명은 B, (라) MMC의 설명은 C",
     "틀리다 — (다) HIC의 설명은 D, (라) MMC의 설명은 C",
@@ -2313,9 +2313,9 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) SEC (Size Exclusion, Gel filtration)\n(나) Ligand\n(다) Bind-elute mode\n(라) Flow-through mode",
    "box": [
-    "A. 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
+    "A. 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
     "B. 레진에 고정되어 목표 물질과 결합하는 분자.",
-    "C. 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "C. 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "D. 레진에 붙이지 않고 분자 크기로만 나누는 방법."
    ],
    "choices": [
@@ -2326,7 +2326,7 @@
     "(가)-B  (나)-D  (다)-C  (라)-A"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **SEC (Size Exclusion, Gel filtration)** → D. 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n(나) **Ligand** → B. 레진에 고정되어 목표 물질과 결합하는 분자.\n(다) **Bind-elute mode** → A. 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.\n(라) **Flow-through mode** → C. 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+   "explanation": "**용어와 설명의 짝**\n(가) **SEC (Size Exclusion, Gel filtration)** → D. 레진에 붙이지 않고 분자 크기로만 나누는 방법.\n(나) **Ligand** → B. 레진에 고정되어 목표 물질과 결합하는 분자.\n(다) **Bind-elute mode** → A. 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.\n(라) **Flow-through mode** → C. 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (다) Bind-elute mode의 설명은 A, (라) Flow-through mode의 설명은 C",
@@ -2353,8 +2353,8 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bind-elute mode\n(나) Flow-through mode\n(다) Binding capacity (결합 용량)\n(라) Loading",
    "box": [
     "A. Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계.",
-    "B. 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.",
-    "C. 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.",
+    "B. 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.",
+    "C. 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.",
     "D. 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다."
    ],
    "choices": [
@@ -2365,7 +2365,7 @@
     "(가)-C  (나)-B  (다)-A  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode** → B. 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.\n(나) **Flow-through mode** → C. 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading** → A. Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Bind-elute mode** → B. 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.\n(나) **Flow-through mode** → C. 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.\n(다) **Binding capacity (결합 용량)** → D. 레진에 결합할 수 있는 단백질의 최대량 — 목표량보다 넉넉해야 한다.\n(라) **Loading** → A. Low salt 조건에서 시료를 컬럼에 흘려 레진에 결합시키는 단계.",
    "choiceNotes": [
     "틀리다 — (가) Bind-elute mode의 설명은 B, (나) Flow-through mode의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -2391,7 +2391,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Elution (용출)\n(나) Linear gradient\n(다) Step elution\n(라) UV 280 nm",
    "box": [
-    "A. 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.",
+    "A. 염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것.",
     "B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.",
     "C. 단백질 양을 보는 자외선 흡광 파장.",
     "D. 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출."
@@ -2404,7 +2404,7 @@
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Elution (용출)** → A. 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.\n(나) **Linear gradient** → B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.\n(다) **Step elution** → D. 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.\n(라) **UV 280 nm** → C. 단백질 양을 보는 자외선 흡광 파장.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Elution (용출)** → A. 염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것.\n(나) **Linear gradient** → B. 염 농도를 일정하게 조금씩 올려 전체 패턴을 보는 용출.\n(다) **Step elution** → D. 염 농도를 2~3단계로 한 번에 바꾸는 단순한 용출.\n(라) **UV 280 nm** → C. 단백질 양을 보는 자외선 흡광 파장.",
    "choiceNotes": [
     "틀리다 — (다) Step elution의 설명은 D, (라) UV 280 nm의 설명은 C",
     "틀리다 — (가) Elution의 설명은 A, (나) Linear gradient의 설명은 B",
@@ -3103,7 +3103,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "배양액에서 목표 단백질을 처음 잡는 첫 정제 단계."
+    "수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계."
    ],
    "answers": [
     "Capture",
@@ -3111,7 +3111,7 @@
     "캡처",
     "포획 단계"
    ],
-   "explanation": "**Capture** — 배양액에서 목표 단백질을 처음 잡는 첫 정제 단계.\n정답으로 인정하는 표기: Capture · 포획 · 캡처 · 포획 단계 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Capture** — 수확한 배양액에서 목표 단백질을 선택적으로 결합·농축하는 첫 정제 단계.\n정답으로 인정하는 표기: Capture · 포획 · 캡처 · 포획 단계 (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 29:54–31:11",
    "concepts": [
     "Capture"
@@ -3153,7 +3153,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법."
+    "목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법."
    ],
    "answers": [
     "Affinity chromatography",
@@ -3162,7 +3162,7 @@
     "Affinity",
     "친화"
    ],
-   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 붙는 리간드로 한 번에 크게 정제하는 방법.\n정답으로 인정하는 표기: Affinity chromatography · 친화 크로마토그래피 · Affinity chromatography (친화 크로마토그래피) · Affinity · 친화 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Affinity chromatography (친화 크로마토그래피)** — 목표 물질에만 특이적으로 결합하는 ligand로 한 번에 고순도로 정제하는 방법.\n정답으로 인정하는 표기: Affinity chromatography · 친화 크로마토그래피 · Affinity chromatography (친화 크로마토그래피) · Affinity · 친화 (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 11:32–13:36",
    "concepts": [
     "Affinity chromatography"
@@ -3204,7 +3204,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법."
+    "high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피."
    ],
    "answers": [
     "HIC",
@@ -3215,7 +3215,7 @@
     "소수성 상호작용",
     "소수성"
    ],
-   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — 소수성(물을 싫어하는 성질) 차이로 붙여 나누는 방법.\n정답으로 인정하는 표기: HIC · Hydrophobic Interaction Chromatography · HIC (Hydrophobic Interaction Chromatography) · 소수성 상호작용 크로마토그래피 · 소수성 크로마토그래피 (띄어쓰기·대소문자 무시)",
+   "explanation": "**HIC (Hydrophobic Interaction Chromatography)** — high salt에서 레진에 결합시키고 염 농도를 낮춰 용출하는 크로마토그래피.\n정답으로 인정하는 표기: HIC · Hydrophobic Interaction Chromatography · HIC (Hydrophobic Interaction Chromatography) · 소수성 상호작용 크로마토그래피 · 소수성 크로마토그래피 (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 11:32–13:36, 36:31",
    "concepts": [
     "HIC"
@@ -3283,7 +3283,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식."
+    "목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식."
    ],
    "answers": [
     "Bind-elute mode",
@@ -3291,7 +3291,7 @@
     "결합 용출 모드",
     "결합 용출"
    ],
-   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 결합시킨 뒤 용출해 회수하는 운전 방식.\n정답으로 인정하는 표기: Bind-elute mode · Bind-elute · 결합 용출 모드 · 결합 용출 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Bind-elute mode** — 목표 물질을 레진에 흡착시킨 뒤 버퍼 조건을 바꿔 회수하는 운전 방식.\n정답으로 인정하는 표기: Bind-elute mode · Bind-elute · 결합 용출 모드 · 결합 용출 (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 33:05–36:20",
    "concepts": [
     "Bind-elute mode"
@@ -3308,7 +3308,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식."
+    "불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식."
    ],
    "answers": [
     "Flow-through mode",
@@ -3317,7 +3317,7 @@
     "플로우스루",
     "통과"
    ],
-   "explanation": "**Flow-through mode** — 불순물만 레진에 결합시키고 목표 물질은 통과시키는 운전 방식.\n정답으로 인정하는 표기: Flow-through mode · Flow-through · 통과 모드 · 플로우스루 · 통과 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Flow-through mode** — 불순물만 레진에 결합시키고 목표 물질은 컬럼 밖으로 바로 회수하는 운전 방식.\n정답으로 인정하는 표기: Flow-through mode · Flow-through · 통과 모드 · 플로우스루 · 통과 (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 33:05–36:20",
    "concepts": [
     "Flow-through mode"
@@ -3334,14 +3334,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것."
+    "염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것."
    ],
    "answers": [
     "Elution",
     "용출",
     "Elution (용출)"
    ],
-   "explanation": "**Elution (용출)** — 레진에 결합한 물질을 염 농도·pH 등을 바꿔 떨어뜨려 회수하는 것.\n정답으로 인정하는 표기: Elution · 용출 · Elution (용출) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Elution (용출)** — 염 농도·pH를 바꿔 레진에 결합한 물질을 해리시켜 회수하는 것.\n정답으로 인정하는 표기: Elution · 용출 · Elution (용출) (띄어쓰기·대소문자 무시)",
    "source": "WK03 강의 녹음 10:07, 36:31",
    "concepts": [
     "Elution"
