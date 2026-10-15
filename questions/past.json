@@ -30,7 +30,8 @@
       "tags": [
         "Cell line characterization",
         "Upstream"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-002",
@@ -57,7 +58,8 @@
       ],
       "tags": [
         "Data analytics"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-003",
@@ -93,7 +95,8 @@
       "tags": [
         "Modality",
         "유전자치료제"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-004",
@@ -127,7 +130,8 @@
       "tags": [
         "Seed train",
         "Log phase"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-005",
@@ -159,7 +163,8 @@
       ],
       "tags": [
         "Mobile phase"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-006",
@@ -190,7 +195,8 @@
         "IEX",
         "Affinity chromatography",
         "SEC"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-007",
@@ -218,7 +224,8 @@
       ],
       "tags": [
         "HIC"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-008",
@@ -245,7 +252,8 @@
       ],
       "tags": [
         "여과 구분"
-      ]
+      ],
+      "lec": 4
     },
     {
       "id": "past-009",
@@ -272,7 +280,8 @@
       ],
       "tags": [
         "CIP"
-      ]
+      ],
+      "lec": 6
     },
     {
       "id": "past-010",
@@ -301,7 +310,8 @@
       "tags": [
         "Perfusion culture",
         "CFF / TFF"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-011",
@@ -332,7 +342,8 @@
         "DBC",
         "Scale-up",
         "Safety factor"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-012",
@@ -359,7 +370,8 @@
       ],
       "tags": [
         "Water system PQ"
-      ]
+      ],
+      "lec": 7
     },
     {
       "id": "past-013",
@@ -388,7 +400,8 @@
       "tags": [
         "IQ",
         "HVAC"
-      ]
+      ],
+      "lec": 7
     },
     {
       "id": "past-014",
@@ -417,7 +430,8 @@
       "tags": [
         "DoE",
         "Extrapolation"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-015",
@@ -447,7 +461,8 @@
       "tags": [
         "PAT",
         "Capacitance sensor"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-016",
@@ -474,7 +489,8 @@
       ],
       "tags": [
         "CTD"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-017",
@@ -503,7 +519,8 @@
       "tags": [
         "QbD",
         "QbT"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-018",
@@ -532,7 +549,8 @@
       "tags": [
         "PAR",
         "NOR"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-019",
@@ -559,7 +577,8 @@
       ],
       "tags": [
         "동결건조"
-      ]
+      ],
+      "lec": 5
     },
     {
       "id": "past-020",
@@ -586,7 +605,8 @@
       ],
       "tags": [
         "PK/PD"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-021",
@@ -615,7 +635,8 @@
       "tags": [
         "Viral clearance",
         "세포은행"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-022",
@@ -642,7 +663,8 @@
       ],
       "tags": [
         "비임상시험"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-023",
@@ -669,7 +691,8 @@
       ],
       "tags": [
         "바이오시밀러"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-024",
@@ -692,7 +715,8 @@
       ],
       "tags": [
         "MFDS"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-025",
@@ -721,7 +745,8 @@
       "tags": [
         "PIC/S",
         "ICH"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-026",
@@ -748,7 +773,8 @@
       ],
       "tags": [
         "QMS"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-027",
@@ -775,7 +801,8 @@
       ],
       "tags": [
         "약사법"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-028",
@@ -804,7 +831,8 @@
       "tags": [
         "QC",
         "QA"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-029",
@@ -834,7 +862,8 @@
       "tags": [
         "Data integrity",
         "ALCOA"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-030",
@@ -869,7 +898,8 @@
       "tags": [
         "CLD",
         "Clonality"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-031",
@@ -898,7 +928,8 @@
       "tags": [
         "CLD",
         "Expression construct"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-032",
@@ -932,7 +963,8 @@
         "MCB",
         "WCB",
         "EOPC"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-033",
@@ -959,7 +991,8 @@
       ],
       "tags": [
         "배지 성분"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-034",
@@ -986,7 +1019,8 @@
       ],
       "tags": [
         "배지 성분"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-035",
@@ -1013,7 +1047,8 @@
       ],
       "tags": [
         "PAT"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-036",
@@ -1042,7 +1077,8 @@
       "tags": [
         "DoE",
         "Extrapolation"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-037",
@@ -1072,7 +1108,8 @@
       "tags": [
         "PCA",
         "Data analytics"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-038",
@@ -1102,7 +1139,8 @@
       "tags": [
         "PAT",
         "Capacitance sensor"
-      ]
+      ],
+      "lec": 2
     }
   ]
 }
