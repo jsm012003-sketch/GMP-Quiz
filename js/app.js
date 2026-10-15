@@ -32,11 +32,19 @@
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
-  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.04 };
+  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.12 }; // 계산 50문항에 6개 이상(2026.10.15)
   // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
   const FINAL_UNITS = ['기출']; // 2026.10.15: 파이널 모드 = 작년 2학기 중간고사 기출(questions/past.json)
   const FINAL_CALC_SHARE = 0;
   const isFixedScope = (mode) => mode === 'mock' || mode === 'final';
+  // 시험지는 강의 주차 순서로(2026.10.15 사용자 요청): 문항의 "lec"(2~8), 없으면 키워드 절로 짐작
+  const PAPER_WEEK_ORDER = true;
+  const KW_LEC = { A: 3, B: 5, C: 2, D: 2, E: 6 };
+  const KW_LEC_EXACT = { A8: 6, E1: 4, E2: 4, E4: 4, E5: 4, E6: 4, E8: 4, E10: 4, E12: 7, E13: 7, E14: 7, E15: 7 };
+  const lecOf = (q) => q.lec || KW_LEC_EXACT[q.kw] || KW_LEC[(q.kw || ' ')[0]] || 9;
+  const kwRank = (q) => (q.kw ? ('ABCDE'.indexOf(q.kw[0]) * 100 + Number(q.kw.slice(1))) : 999);
+  // 출제자가 짚은 키워드(해설서 절 A0~E15)는 시험지마다 한 문항 이상(50문항 이상일 때)
+  const KW_COVER_MIN_N = 40;
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
@@ -318,6 +326,8 @@
           notes,
           source: q.source || '',
           style: questionStyle(q.id, type),
+          kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
+          lec: Number(q.lec) || 0,
           ckeys: [],
         };
         labels.forEach((label) => {
@@ -479,6 +489,17 @@
     const nReview = Math.min(Math.round(n * (STRATEGIES[strategy] || STRATEGIES.fresh).review), weak.length);
     for (let i = 0; i < nReview; i++) if (!take(weak, true)) break;
 
+    // 키워드마다 한 문항(출제 횟수가 적은 것부터) — 계산 하한보다 먼저
+    if (n >= KW_COVER_MIN_N) {
+      const kws = shuffle([...new Set(pool.map((q) => q.kw).filter(Boolean))]);
+      kws.forEach((k) => {
+        if (picked.length >= n || picked.some((q) => q.kw === k)) return;
+        const c = pool.filter((q) => q.kw === k && allowed(q));
+        if (!c.length) return;
+        const lowA = Math.min(...c.map((q) => qMeta(q.id).a));
+        take(c.filter((q) => qMeta(q.id).a === lowA), false);
+      });
+    }
     // 계산 문항 몇 개는 꼭 넣는다(출제 횟수가 적은 것부터)
     while (styleCnt.calc < calcMin) {
       const calc = pool.filter((q) => q.style === 'calc' && allowed(q));
@@ -514,6 +535,8 @@
       return p.shuffleQ ? shuffle(picked) : picked.slice().sort((a, b) => a.part - b.part || unitIndex(a.unit) - unitIndex(b.unit));
     }
     const base = p.shuffleQ ? shuffle(picked) : picked.slice().sort((a, b) => unitIndex(a.unit) - unitIndex(b.unit));
+    // 2026.10.15: 실제 시험처럼 강의 주차 순서(lec) → 키워드 절 순서. 같은 주차 안은 섞인 순서 그대로
+    if (PAPER_WEEK_ORDER) return base.map((q, k) => [q, k]).sort((x, y) => lecOf(x[0]) - lecOf(y[0]) || kwRank(x[0]) - kwRank(y[0]) || x[1] - y[1]).map((x) => x[0]);
     // 시험지: PART I → II → III, PART III 안에서는 객관식 다음 서술형
     return base.sort((a, b) => a.part - b.part || (isWritten(a) - isWritten(b)) || (isEssay(a) - isEssay(b)));
   }
@@ -1278,12 +1301,20 @@
     const groups = { 1: [], 2: [], 3: [] };
     session.items.forEach((it, i) => {
       const q = S.qById.get(it.id);
-      if (q) groups[q.part].push({ it, i, q });
+      if (q) groups[PAPER_WEEK_ORDER ? 1 : q.part].push({ it, i, q });
     });
+    groups[1].flat = PAPER_WEEK_ORDER;
     return groups;
   }
   function partTitleHTML(p, list, graded) {
     if (!list.length) return '';
+    if (list.flat) {
+      const pts0 = list.reduce((a, { q }) => a + pointsOf(q), 0);
+      const nShort = list.filter(({ q }) => isShort(q)).length;
+      const earned0 = graded ? list.reduce((a, { it, q }) => a + (isCorrect(it) ? pointsOf(q) : 0), 0) : 0;
+      return `<h3 class="part-title">객관식(4지선다) ${list.length - nShort} · 단답형 ${nShort} <span class="part-pts">(${list.length}문항 = ${pts0}점)</span>${graded ? `<span class="part-score">${earned0} / ${pts0}점</span>` : ''}</h3>
+      <p class="part-note">실제 시험처럼 강의 주차 순서(2주차 → 7주차)로 문항을 배치했다.</p>`;
+    }
     const mc = list.filter(({ q }) => !isEssay(q));
     const es = list.filter(({ q }) => isEssay(q));
     const pts = list.reduce((a, { q }) => a + pointsOf(q), 0);
@@ -1414,7 +1445,7 @@
       </div>
       <div class="omr-body">
         ${[1, 2, 3].filter((p) => groups[p].length).map((p) => `
-          <p class="omr-part">PART ${PARTS[p].roman}</p>
+          <p class="omr-part">${groups[p].flat ? '전 문항' : `PART ${PARTS[p].roman}`}</p>
           ${groups[p].map(({ it, i, q }) => `
             <div class="omr-row" id="omr-${i}">
               <button type="button" class="omr-no" data-action="jump" data-i="${i}" aria-label="${i + 1}번 문항으로 이동">${i + 1}</button>

@@ -6,6 +6,11 @@
 - **예상** `expect.json` 388문항: 해설서 절별 — A0–A3 65(크로마토 기본·Resolution·Efficiency·IEX), A4–A10 64(SEC·MMC·Gradient·Purification·컬럼 계산·Scale-up), B1–B7 65(완제·Formulation·무균 3방법·APS·RABS·VHP·Isolator OQ), C1–D2 65(Cell line·Platform·CPP·Clarification·성장·Tip speed·IPC·Design space·배양 모드), E1–E8 65(여과 구분·Impurity·Mass balance·pI·1 cycle·혈장 분획·같은 공정 조건·여과 범용성), E9–부록 64(공정 순서·잘못 쓰는 단어·PW/WFI·HEPA·Class 100·Q vs V·7주차 후보).
 - 근거가 불확실해 뺀 것: 판독 불확실 필기, 제품명 단독 문항, 세부 수치(H13·H14, 18.2 MΩ·cm, 700 kD 단답 등).
 
+### 2026.10.15 2차 디벨롭
+- 교안(Drive GMP 폴더)으로 예상 문항 328개를 다듬고(보기별 해설 자세히, 계산 문항의 공식 삭제, 교안 쪽 출처 추가) 새 문항 242개(대부분 계산)를 더했다 — column 부피·DBC·cycle·버퍼·유속·residence time·scale-up·Rs·Kav(ex-066~099, 165~199), APS·log 감소·bulk·충전(ex-266~299), tip speed·P/V·OTR·kLa·doubling·seed train·VVM(ex-366~399), mass balance·UF/DF·filter sizing·cycle(ex-466~499, 600~637), Class 환산·전력·flux(ex-565~597).
+- 기출 38문항의 해설을 보기마다 교안 근거로 다시 썼다.
+- 미출제·보충 필요: WK04 PDF·바이오시밀러 교과서(스캔본)의 슬라이드 원문 확인, D-value·H₂O₂ 잔류 감소 계산(교안에 공식 없음).
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)

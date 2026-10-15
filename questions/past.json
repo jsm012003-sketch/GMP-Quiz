@@ -15,14 +15,14 @@
         "Scale up study"
       ],
       "answer": 3,
-      "explanation": "**Cell line characterization은 세포주 개발(CLD) 단계에서 고른 세포주의 특성을 확인·증명하는 일이라, 세포배양 운영(operation)에는 들어가지 않는다.** 배양 운영은 bioreactor 배양, offline sampling으로 배양 조건 분석, scale-up study처럼 배양 공정을 돌리고 키우는 일이다.",
+      "explanation": "**Cell line characterization은 세포주 개발(CLD)·세포은행 단계에서 하는 일이라 세포배양 운영 과정에 들어가지 않는다.** 교안의 「Main Parts for Cell Culture Process」는 배양 운영을 네 부분으로 나눈다 — (1) bioreactor 배양(design space 안의 최적 운전 조건, seed(subculture) → main 배양, pH·DO·mixing·온도 제어), (2) offline sampling으로 배양 조건 분석(세포 대사·건강 상태, 영양분 농도), (3) big data 분석으로 제품 수율·품질 향상과 QbD 검증, (4) small scale → production scale의 scale study. 세포주의 정체성·안정성·외래 인자 확인 같은 특성 분석은 MCB·WCB를 만들 때 한다(일반 원리).",
       "choiceNotes": [
-        "옳은 진술 — bioreactor 배양은 배양 운영의 중심이다.",
-        "옳은 진술 — offline sampling으로 VCD·대사물질 등을 분석해 조건을 관리한다.",
-        "틀린 진술(정답) — 세포주 특성 분석은 CLD·세포은행 단계의 일이다.",
-        "옳은 진술 — scale-up study도 배양 공정 운영에 속한다."
+        "옳은 진술 — 교안이 든 첫째 부분이다. Design space 안에서 seed부터 main 배양까지 pH·DO·교반·온도를 제어하며 bioreactor로 배양한다.",
+        "옳은 진술 — 교안이 든 둘째 부분이다. 시료를 꺼내 VCD·viability·glucose·lactate·삼투압 등을 재서(IPC) 세포 대사와 건강 상태를 보고 조건을 관리한다.",
+        "틀린 진술(정답) — 세포주의 정체성·유전적 안정성·외래 인자 등을 확인하는 특성 분석은 CLD 뒤 세포은행(MCB·WCB)을 만들 때 하는 일이다. 배양을 돌리고 키우는 운영 단계의 일이 아니다.",
+        "옳은 진술 — 교안이 든 넷째 부분이다. 소형 배양기에서 찾은 조건을 생산 규모 배양기로 옮기는 scale-up study도 배양 공정 운영에 속한다."
       ],
-      "source": "작년 2학기 중간고사 기출 3번",
+      "source": "작년 2학기 중간고사 기출 3번 · WK02 PDF p.18 (Main Parts for Cell Culture Process)",
       "concepts": [
         "Cell line characterization",
         "Upstream"
@@ -30,7 +30,8 @@
       "tags": [
         "Cell line characterization",
         "Upstream"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-002",
@@ -44,20 +45,21 @@
         "배양공정의 Hybrid Modeling을 위해서 아미노산 대사의 분석은 반드시 필요하다."
       ],
       "answer": 1,
-      "explanation": "**데이터 분석은 Descriptive(무슨 일이 있었나) → Diagnostic(왜 일어났나) → Predictive(앞으로 어떻게 될까) → Prescriptive(무엇을 해야 하나)의 단계로 나아간다.** 품질은 최종 결과만이 아니라 과정(QbD·PAT)에서 관리하고, 진단은 예측보다 먼저 오는 단계다.",
+      "explanation": "**데이터 분석은 Descriptive → Diagnostic → Predictive → Prescriptive의 네 단계로 이루어진다.** 교안의 Data Analytics Continuum은 과거를 보는 Descriptive(무슨 일이 있었나)·Diagnostic(왜 일어났나)에서 미래를 보는 Predictive(무엇이 일어날까)·Prescriptive(일어나게 하거나 막으려면 무엇을 할까)로 갈수록 복잡도와 가치가 커진다고 정리한다. 품질은 최종 결과만이 아니라 원료부터 공정 parameter·IPC까지의 과정 데이터를 MVDA로 연결해 관리하고(QbD), hybrid model은 기전 지식과 데이터 모델을 합친 방법이라 특정 분석 항목이 반드시 필요하지는 않다.",
       "choiceNotes": [
-        "옳다 — Data analytics continuum의 네 단계다.",
-        "틀리다 — QbD 관점에서는 결과보다 과정(공정 변수 관리)을 중시한다.",
-        "틀리다 — 순서가 반대다. 진단(왜) 다음이 예측(앞으로)이다.",
-        "틀리다 — Hybrid model에 아미노산 대사 분석이 반드시 필요한 것은 아니다."
+        "옳다 — 교안 continuum의 네 단계 그대로다. 앞의 둘(Descriptive·Diagnostic)은 과거를, 뒤의 둘(Predictive·Prescriptive)은 미래를 다룬다.",
+        "틀리다 — 교안은 원료(raw material)부터 제품까지의 상관관계와 공정 parameter·IPC 데이터를 함께 분석해 품질에 영향을 주는 인자를 찾는다. QbD도 최종 시험보다 과정 관리로 품질을 보증하는 개념이다.",
+        "틀리다 — 순서가 거꾸로다. 진단(Diagnostic, 왜 일어났나)은 과거 데이터를 보는 둘째 단계이고, 예측(Predictive)은 그다음 셋째 단계다.",
+        "틀리다 — Hybrid model은 물질수지 같은 기전 지식과 데이터 기반 모델을 합쳐 세포 대사·건강 상태, 영양분 농도를 추정한다. 아미노산 분석(spent media analysis)은 쓸 수 있는 데이터 가운데 하나일 뿐 「반드시」 필요한 항목이 아니다."
       ],
-      "source": "작년 2학기 중간고사 기출 8번",
+      "source": "작년 2학기 중간고사 기출 8번 · WK02 PDF p.78 (What is Data Analytics?), p.79 (The Data Analytics Continuum), p.82 (Upstream Hybrid Modeling)",
       "concepts": [
         "Data analytics"
       ],
       "tags": [
         "Data analytics"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-003",
@@ -78,14 +80,14 @@
         "유전자치료제"
       ],
       "answer": 4,
-      "explanation": "**유전 물질 또는 유전자가 변형된 세포를 체내에 도입해 비정상 유전자를 보완·대체하거나 새 기능을 더하는 의약품은 유전자치료제다.** mRNA·DNA·viral vector·cell-based therapy가 이에 속하고, 2023년 노벨 생리의학상(mRNA 염기 변형)도 이 분야의 성과다.",
+      "explanation": "**유전 물질 또는 유전자를 변형한 세포를 체내에 넣어 비정상 유전자를 보완·대체하거나 새 기능을 더하는 의약품은 유전자치료제다.** 식약처 분류(생물학적 제제, 유전자재조합 의약품, 세포배양 의약품, 세포치료제, 유전자치료제, 동등생물의약품) 가운데 제시문의 mRNA·DNA·viral vector·cell-based therapy가 여기에 속한다(일반 원리). 교안의 바이러스 기반 치료제(AAV·Lentivirus 유전자치료, mRNA·pDNA)와 gene-modified cell therapy(CAR-T)가 그 예이고, 2023년 노벨 생리의학상(mRNA 염기 변형)도 이 분야의 성과다.",
       "choiceNotes": [
-        "틀리다 — 생물학적 제제는 백신·혈장분획제제처럼 생물체 유래 물질로 만든 의약품이다.",
-        "틀리다 — 유전자재조합 의약품은 재조합 DNA 기술로 만든 단백질(인슐린·항체 등)이다.",
-        "틀리다 — 바이오시밀러는 허가된 오리지널 바이오의약품과 동등성을 입증한 의약품이다.",
-        "옳다 — 유전 물질을 체내에 도입하는 치료제다."
+        "틀리다 — 생물학적 제제는 생물체에서 유래한 물질이나 생물체를 이용해 만든 백신·혈장분획제제·항독소 등이다. 유전 물질을 환자 몸에 넣어 치료하는 제제가 아니다.",
+        "틀리다 — 유전자재조합 의약품은 재조합 DNA 기술로 숙주세포(CHO·E. coli 등)에서 만든 단백질(인슐린·성장호르몬·항체 등)이다. 유전자는 숙주세포에 넣을 뿐, 환자에게 들어가는 것은 단백질이다.",
+        "틀리다 — 동등생물의약품(바이오시밀러)은 이미 허가된 오리지널 바이오의약품과 품질·비임상·임상 동등성을 입증한 의약품이다. 기술 종류가 아니라 허가 경로에 따른 분류다.",
+        "옳다 — mRNA·DNA·viral vector로 유전 물질을 넣거나 유전자를 변형한 세포를 넣어 결함 유전자를 보완·대체하는 것이 유전자치료제다."
       ],
-      "source": "작년 2학기 중간고사 기출 11번",
+      "source": "작년 2학기 중간고사 기출 11번 · 해설서 C1 · WK02 PDF p.4–7 (Biopharma Industry in Modalities)",
       "concepts": [
         "Modality",
         "유전자치료제"
@@ -93,7 +95,8 @@
       "tags": [
         "Modality",
         "유전자치료제"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-004",
@@ -112,14 +115,14 @@
         "Death Phase"
       ],
       "answer": 2,
-      "explanation": "**계대배양은 세포가 가장 활발히 분열하는 Log(exponential) phase에서 한다.** 이때 viability가 높고 다음 배양기에서 lag phase가 짧아진다. Stationary phase 이후에는 영양 고갈·노폐물 축적으로 세포 상태가 나빠진다.",
+      "explanation": "**계대배양은 세포가 가장 활발히 분열하는 Log(exponential) phase에서 한다.** 교안의 성장 곡선에서 log phase는 세포 수가 대수적으로 늘고 생리 활성이 가장 강한 시기다. 이때 옮기면 viability가 높고 다음 배양기에서 lag phase가 짧다. Stationary phase는 증식과 사멸이 비슷해 세포 수가 일정하고 단백질 생산 유전자가 활성화되어 제품을 만드는 시기라, seed train에서 옮기기에는 늦다. CHO 세포는 약 하루에 한 번 분열해 단계마다 약 5배씩, 3일 간격으로 키워 올린다.",
       "choiceNotes": [
-        "틀리다 — 막 접종해 적응하는 시기라 세포 수가 적다.",
-        "옳다 — 분열이 가장 활발하고 viability가 높다.",
-        "틀리다 — 성장이 멈추고 산물을 만드는 시기라 옮기기에 늦다.",
-        "틀리다 — 세포가 죽어 가는 시기다."
+        "틀리다 — Lag phase는 새 환경에 적응하며 효소 단백질을 만들고 호흡 활성·RNA가 늘어나는 시기라 세포 수가 거의 늘지 않는다. 이때 옮기면 적응기만 되풀이된다.",
+        "옳다 — Log phase는 세포 수가 대수적으로 늘고 생리 활성이 가장 강한 시기다. 이때 옮겨야 viability가 높고 다음 단계에서 바로 자란다.",
+        "틀리다 — Stationary phase는 증식 수와 사멸 수가 비슷해 세포 수가 일정하고 제품(product release)을 만드는 시기다. 영양 고갈·노폐물 축적이 시작돼 계대 시기로는 늦다.",
+        "틀리다 — Death phase는 살아 있는 세포 수가 줄어드는 시기라 옮겨도 다음 배양이 잘 자라지 않는다."
       ],
-      "source": "작년 2학기 중간고사 기출 12번",
+      "source": "작년 2학기 중간고사 기출 12번 · 해설서 C5 · WK02 PDF p.30 (General Animal Cell Growth Curve), p.35 (General Fed-batch from Seed to Main Bioreactor) · WK04 강의 녹음② 57:01–1:01:31 (seed train, doubling time)",
       "concepts": [
         "Seed train",
         "Log phase"
@@ -127,7 +130,8 @@
       "tags": [
         "Seed train",
         "Log phase"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-005",
@@ -146,12 +150,12 @@
         "104.5°"
       ],
       "answer": 3,
-      "explanation": "**순수한 물의 pH는 7.0(중성)이라 「pH 8.0」은 물의 속성이 아니다.** 물은 극성 분자(친수성)이고, H–O–H 결합각은 약 104.5°이며, 한 분자가 수소결합으로 주변 분자와 이어진다(일반 원리).",
+      "explanation": "**순수한 물은 25 ℃에서 pH 7.0(중성)이라 「pH 8.0」은 물의 속성이 아니다.** 물은 산소의 전기음성도가 커서 전하가 치우친 극성 분자(친수성)이고, 두 고립 전자쌍 때문에 H–O–H 결합각이 약 104.5°로 굽어 있다. 한 분자는 O–H 공유결합 2개를 갖고 주변 분자와 최대 4개의 수소결합을 이루며, 이 수소결합은 공유결합보다 훨씬 약하다(일반 원리). 이런 극성 덕분에 물은 크로마토그래피 이동상(버퍼)에서 단백질을 녹이는 용매 역할을 한다.",
       "choiceNotes": [
-        "옳은 진술 — 물은 극성 분자이고 친수성이다.",
-        "옳은 진술 — 출제 보기 그대로 물의 결합 특성으로 제시된 값이다(일반 원리: 물 분자는 수소결합 네트워크를 이룬다).",
-        "틀린 진술(정답) — 순수한 물은 25 ℃에서 pH 7.0이다.",
-        "옳은 진술 — 물 분자의 결합각은 약 104.5°다."
+        "옳은 진술 — 산소 쪽이 부분 음전하, 수소 쪽이 부분 양전하를 띠는 극성 분자라 이온·극성 물질과 잘 어울리는 친수성이다.",
+        "옳은 진술 — 정답 표시상 옳은 진술로 처리된 보기다. 물 분자는 공유결합(O–H) 외에 주변 분자와 수소결합 네트워크를 이루며, 수소결합은 공유결합보다 훨씬 약한 결합이다(일반 원리).",
+        "틀린 진술(정답) — 순수한 물은 H⁺와 OH⁻ 농도가 같아 25 ℃에서 pH 7.0이다. 공기 중 CO₂가 녹으면 오히려 약산성(pH 5~6)으로 내려가고, 염기를 넣지 않는 한 pH 8이 되지 않는다.",
+        "옳은 진술 — 산소의 두 고립 전자쌍이 결합 전자쌍을 밀어내 정사면체각(109.5°)보다 작은 약 104.5°로 굽은 구조다."
       ],
       "source": "작년 2학기 중간고사 기출 13번",
       "concepts": [
@@ -159,7 +163,8 @@
       ],
       "tags": [
         "Mobile phase"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-006",
@@ -173,14 +178,14 @@
         "Gel permeation chromatography는 혼합물의 크기에 의해 분리가 되는 원리로, 크기가 큰 순서부터 작은 순서로 용출이 된다."
       ],
       "answer": 3,
-      "explanation": "**ionic strength(염 농도)로 결합·용출을 조절해 전하 차이로 분리하는 것은 IEX(이온교환)이고, affinity chromatography는 ligand와의 특이적 결합으로 분리한다.** GPC(SEC)는 크기로 분리해 큰 분자가 먼저 나온다.",
+      "explanation": "**ionic strength(염 농도)로 결합·용출을 조절해 순 표면 전하 차이로 분리하는 것은 IEX(이온교환)이고, affinity chromatography는 ligand와의 특이 결합으로 분리한다.** 교재의 IEX 단계는 낮은 이온 강도의 start buffer로 붙인 뒤 gradient로 이온 강도를 올려 버퍼 이온이 결합 자리를 두고 경쟁하게 해 약하게 붙은 것부터 용출한다. GPC(SEC·gel filtration)는 분자가 레진에 붙지 않고 크기로 나뉘어 큰 분자(Kav = 0)가 먼저, 작은 분자(Kav = 1)가 나중에 나온다. 이동상·고정상 상태에 따른 GLC·LLC·GSC·LSC 분류는 일반 원리다.",
       "choiceNotes": [
-        "옳은 진술 — 성분마다 고정상과의 상호작용이 달라 이동 속도가 다르다.",
-        "옳은 진술 — 이동상(G/L)과 고정상(S/L) 조합으로 GLC·LLC·GSC·LSC로 나눈다.",
-        "틀린 진술(정답) — ionic strength로 분리하는 것은 IEX다.",
-        "옳은 진술 — 큰 분자는 pore에 못 들어가 먼저 나온다."
+        "옳은 진술 — 성분마다 고정상과 상호작용하는 세기가 달라, 약하게 상호작용하는 성분은 빨리, 강하게 상호작용하는 성분은 늦게 이동한다(retention time 차이).",
+        "옳은 진술 — 이동상이 기체(G)인지 액체(L)인지, 고정상이 액체(분배)인지 고체(흡착, S)인지로 GLC·LLC·GSC·LSC로 나눈다. 바이오 공정의 레진 컬럼은 액체 이동상–고체 고정상(LSC) 쪽이다.",
+        "틀린 진술(정답) — 이온 강도로 붙이고 떼는 것은 IEX다. Affinity는 Protein A–Fc처럼 ligand와 목적 분자의 특이 결합으로 붙이고, pH 변화나 경쟁 물질로 용출한다.",
+        "옳은 진술 — 큰 분자는 pore에 못 들어가 비드 사이 공간(V₀)으로 빨리 나오고, 작은 분자는 pore 끝까지 들어갔다 나와 늦게 나온다. 그래서 큰 것부터 작은 것 순서로 용출된다."
       ],
-      "source": "작년 2학기 중간고사 기출 15번",
+      "source": "작년 2학기 중간고사 기출 15번 · 해설서 A0, A3, A4 · WK03 교재 p.6–7 (GC vs LC, retention time), p.14–15 (Kav), p.18–19 (SEC 원리), p.24–25 (IEX 원리)",
       "concepts": [
         "IEX",
         "Affinity chromatography",
@@ -190,7 +195,8 @@
         "IEX",
         "Affinity chromatography",
         "SEC"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-007",
@@ -205,20 +211,21 @@
         "Third law of thermodynamics"
       ],
       "answer": 3,
-      "explanation": "**HIC의 결합은 엔트로피 증가로 일어난다 — 열역학 제2법칙.** high salt에서 단백질 소수성 부위를 둘러싼 질서 있는 물 분자가 풀려나면 계의 엔트로피가 커져(ΔG = ΔH − TΔS < 0) 소수성 부위가 레진 ligand와 결합한다. 염 농도를 낮추면 이 힘이 약해져 소수성이 약한 것부터 용출된다(일반 원리).",
+      "explanation": "**HIC의 결합은 엔트로피 증가로 일어나므로 열역학 제2법칙으로 설명한다.** 1~1.5 M ammonium sulphate 같은 high salt는 단백질 표면의 물 분자를 빼앗아 소수성 부위를 드러낸다. 소수성 부위가 레진의 소수성 ligand와 붙으면 그 주위에 질서 있게 늘어서 있던 물 분자가 풀려나 계의 엔트로피가 커지고(ΔS > 0), ΔG = ΔH − TΔS < 0이 되어 결합이 저절로 일어난다(일반 원리). 교재 그림처럼 염 농도를 낮추는 gradient에서는 표면 소수성이 약한 단백질부터 용출되고(Cytochrome c → RNase A → Lysozyme → α-chymotrypsin), HIC는 높은 이온 강도에서 시작해 낮은 이온 강도로 끝난다.",
       "choiceNotes": [
-        "틀리다 — 열평형(온도)의 법칙이다.",
-        "틀리다 — 에너지 보존 법칙이다.",
-        "옳다 — 엔트로피 증가가 소수성 결합의 원동력이다.",
-        "틀리다 — 절대영도에서 엔트로피에 관한 법칙이다."
+        "틀리다 — 제0법칙은 두 물체가 각각 제3의 물체와 열평형이면 서로도 열평형이라는 법칙으로, 온도 측정의 근거다. 소수성 결합의 원동력과 관계가 없다.",
+        "틀리다 — 제1법칙은 에너지 보존 법칙(ΔU = Q − W)이다. 결합이 「왜 저절로」 일어나는지는 에너지 보존만으로 설명되지 않는다.",
+        "옳다 — 고립계의 엔트로피는 늘어나는 쪽으로 변한다는 제2법칙이다. 소수성 부위를 둘러싼 물 분자가 풀려나는 엔트로피 증가가 HIC 결합의 원동력이다.",
+        "틀리다 — 제3법칙은 절대영도(0 K)에서 완전한 결정의 엔트로피가 0이 된다는 법칙이다. 상온 수용액에서 일어나는 결합과 관계가 없다."
       ],
-      "source": "작년 2학기 중간고사 기출 17번",
+      "source": "작년 2학기 중간고사 기출 17번 · WK03 교재 p.6–7 (소수성 아미노산, 표면 소수성에 따른 용출), p.52–55 (기술별 적합성 표 — HIC는 높은 이온 강도로 시작)",
       "concepts": [
         "HIC"
       ],
       "tags": [
         "HIC"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-008",
@@ -232,20 +239,21 @@
         "Medium: Liquid/Gas"
       ],
       "answer": 1,
-      "explanation": "**크기(Size exclusion)에 따른 구분은 MF·UF·NF·RO이고, UF/DF는 농축·버퍼 교환 공정 이름이라 구분 기준의 예가 아니다.** 여과는 재질(membrane/depth), 메커니즘(NFF/DEF vs CFF/TFF), 대상 유체(liquid/gas) 등으로 나눈다.",
+      "explanation": "**크기(Size exclusion)에 따른 구분은 MF·UF·NF·RO이고, UF/DF는 공정 이름이라 크기 구분의 예가 아니다.** 여과는 다섯 가지로 나눈다 — (1) 크기: MF(µm 수준, 0.2 µm sterile filter) → UF(MWCO 1~300 kD) → NF(20 nm virus filter) → RO(이온 수준), (2) 재질: membrane / depth, (3) 메커니즘: DEF(NFF) / CFF(TFF), (4) 목적: sterile·particle removal·concentration·DF, (5) 액체 / 기체. 현장의 「UF/DF」는 UF membrane을 CFF 방식으로 써서 농축과 diafiltration을 하는 공정이고, DF는 목적에 따른 구분에 들어간다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 크기 구분은 MF/UF/NF/RO다. DF(diafiltration)는 크기 등급이 아니다.",
-        "옳은 진술 — 재질로 membrane과 depth filter를 나눈다.",
-        "옳은 진술 — 흐름 방식으로 NFF(DEF)와 CFF(TFF)를 나눈다.",
-        "옳은 진술 — 거르는 대상이 액체인지 기체인지로 나눈다."
+        "틀린 진술(정답) — 크기로 나누면 MF·UF·NF·RO다. UF/DF는 UF 막으로 농축(UF)한 뒤 버퍼를 바꾸는(DF) 공정 이름이라 크기 등급이 아니고, DF는 「목적」에 따른 구분 항목이다.",
+        "옳은 진술 — 재질·구조로 membrane(CA·PES·PVDF·PTFE, 표면에서 sieve)과 depth(PP·glass fiber·cellulose, 두꺼운 층 안쪽에서 포집)로 나눈다.",
+        "옳은 진술 — 흐름 방식으로 NFF(DEF, 필터 면에 수직으로 들어가고 나오기만 함)와 CFF(TFF, 막 면을 따라 흐르며 retentate는 재순환, permeate만 통과)로 나눈다.",
+        "옳은 진술 — 액체 여과는 친수성 필터(sieve + 흡착), 기체 여과는 소수성 필터(sieve + 그 밖의 4가지 메커니즘, vent filter)를 쓴다."
       ],
-      "source": "작년 2학기 중간고사 기출 23번",
+      "source": "작년 2학기 중간고사 기출 23번 · 해설서 E1 · 교과서 p.85–101 (여과의 분류) · WK06 강의 녹음 12:19–14:51 (여과 5가지 구분 복습)",
       "concepts": [
         "여과 구분"
       ],
       "tags": [
         "여과 구분"
-      ]
+      ],
+      "lec": 4
     },
     {
       "id": "past-009",
@@ -259,20 +267,21 @@
         "배관 line은 액체가 고이는 부분이 없도록 적당한 기울기를 유지하여야 한다."
       ],
       "answer": 1,
-      "explanation": "**spray ball은 tank 내부(내벽)에 세척액을 뿌리는 장치라, 「외부 세척」은 CIP와 관련이 없다.** CIP는 조립된 상태로 내부를 세척하는 것으로, 배관은 약 1.5 m/s 이상의 선속도로 난류를 만들고, dead leg을 없애며, 세척액이 고이지 않게 기울기를 준다.",
+      "explanation": "**Spray ball은 탱크 내부를 세척하는 장치라 「tank 외부 세척」은 CIP와 관련이 없다.** CIP(Clean In Place)는 분해하지 않고 조립된 상태 그대로 제품 접촉면(내부)을 씻는 것이고, 찌꺼기가 남으면 멸균이 의미 없으므로 CIP를 먼저 하고 SIP를 한다. 배관은 세척액을 빠르게·고압으로 흘려 벽면을 씻고, 탱크는 상단 안쪽에 단 spray ball로 고압 세척액을 360°로 뿌려 씻는다. 난류를 만드는 약 1.5 m/s 유속, dead leg 없는 설계, 배수 기울기는 위생 배관 설계의 일반 원리다.",
       "choiceNotes": [
-        "틀린 진술(정답) — spray ball은 tank 내부 세척용이다.",
-        "옳은 진술 — 난류(turbulence)를 만들어 배관 벽을 세척한다.",
-        "옳은 진술 — dead leg에는 세척액이 닿지 않아 오염이 남는다.",
-        "옳은 진술 — 배수가 잘 되도록 기울기(slope)를 둔다."
+        "틀린 진술(정답) — Spray ball은 탱크 상단 안쪽에 달린 구멍 많은 공 모양 노즐로, 고압 세척액을 360°로 뿌려 탱크 「내부」 벽을 씻는다. 외부 세척 도구가 아니다.",
+        "옳은 진술 — 배관 CIP는 세척액의 유속과 압력으로 벽면을 씻는다. 벽면의 경계층까지 씻으려면 난류가 필요해 보통 1.5 m/s 이상의 유속을 권장한다(일반 원리).",
+        "옳은 진술 — Dead leg(흐름이 닿지 않는 막힌 가지관)에는 세척액이 돌지 않아 잔류물·미생물이 남으므로, 설계 단계에서 없애거나 최소화한다(일반 원리).",
+        "옳은 진술 — 세척액·헹굼수가 고이면 미생물이 자라고 SIP 때 응축수가 남으므로, 배관에 기울기(slope)를 주어 완전히 배수되게 한다(일반 원리)."
       ],
-      "source": "작년 2학기 중간고사 기출 34번",
+      "source": "작년 2학기 중간고사 기출 34번 · WK06 강의 녹음 1:01:58–1:02:45 (CIP 다음 SIP, 배관 고속 세척, 탱크 상단 spray ball) · WK07 PDF p.46 (Clean Utilities — CIP/WIP)",
       "concepts": [
         "CIP"
       ],
       "tags": [
         "CIP"
-      ]
+      ],
+      "lec": 6
     },
     {
       "id": "past-010",
@@ -286,14 +295,14 @@
         "일반적인 항체 공정에서 배양이 끝난 후, 더욱 높은 titer를 위해 cell을 lysis해야 한다."
       ],
       "answer": 3,
-      "explanation": "**Perfusion은 세포는 배양기에 남기고 상등액만 빼내야 하므로 ATF·TFF 같은 cross flow filtration 장치가 핵심이다.** 미생물(대장균)은 세포벽 때문에 산물이 세포 안(intracellular, inclusion body)에 쌓이고, 세포은행에는 EOPCB도 있으며, 항체는 세포 밖으로 분비되어 lysis가 필요 없다.",
+      "explanation": "**Perfusion은 세포를 배양기에 남기고 상등액만 빼내야 하므로 ATF·TFF 같은 cross flow filtration 장치가 핵심이다.** 교안의 perfusion은 신선한 배지를 넣는 만큼 cell-free 상등액을 같은 속도로 빼고, 세포는 spin filter·ATF(hollow fiber membrane) 같은 cell retention device로 배양기에 남긴다. 미생물(대장균)은 세포벽 때문에 산물이 세포 안(inclusion body)에 쌓이고, 세포은행에는 생산 끝의 세포를 확인하는 EOPCB(EPC)도 있으며, CHO가 만드는 항체는 배지로 분비되어 세포를 파쇄하지 않고 clarification으로 세포를 없앤다.",
       "choiceNotes": [
-        "틀리다 — 미생물 산물은 주로 intracellular(inclusion body)다.",
-        "틀리다 — EOPCB(End of Production Cell Bank)로 배양 후 세포의 안정성도 확인한다.",
-        "옳다 — perfusion의 세포 분리 장치가 ATF·TFF다.",
-        "틀리다 — 항체는 분비 산물이라 세포를 제거(clarification)한다."
+        "틀리다 — 대장균 같은 미생물은 세포벽이 있고 산물이 주로 세포 안(intracellular, 흔히 inclusion body)에 쌓여, 세포를 모아 파쇄(cell lysis)한 뒤 solubilization·refolding을 거친다. Extracellular가 아니다.",
+        "틀리다 — RCB·MCB·WCB 외에 생산이 끝난 시점의 세포를 모은 EOPCB(EPC)가 있다. 배양이 끝난 세포를 MCB·WCB와 비교해 유전적 안정성이 유지됐는지 확인하므로 배양 후 세포도 보관·확인한다.",
+        "옳다 — Perfusion의 cell retention device(ATF·TFF)는 배양액을 hollow fiber 막 면을 따라 흐르게 해 세포가 막을 막지 않게 하면서 cell-free 상등액만 permeate로 빼낸다.",
+        "틀리다 — 항체는 세포 밖으로 분비되므로 세포를 깨지 않고 원심분리·depth filter로 세포를 없앤다(clarification). 세포를 파쇄하면 HCP·HCD가 쏟아져 정제 부담만 커진다."
       ],
-      "source": "작년 2학기 중간고사 기출 36번",
+      "source": "작년 2학기 중간고사 기출 36번 · 해설서 C1 · WK02 PDF p.32 (Perfusion Culture — cell retention devices: spin filter, ATF), p.41 (CRD for Perfusion Culture), p.15–16 (수업 필기: Cell Banking) · WK04 강의 녹음② 14:05–15:27 (숙주세포), 43:24–49:36 (MCB, WCB, EOPCB)",
       "concepts": [
         "Perfusion culture",
         "CFF / TFF"
@@ -301,7 +310,8 @@
       "tags": [
         "Perfusion culture",
         "CFF / TFF"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-011",
@@ -315,14 +325,14 @@
         "실제 공정에서는 이론적으로 필요한 resin의 양보다 더 많은 양의 resin을 사용하여 공정을 진행하고 이를 safety factor(safety margin)이라고 한다."
       ],
       "answer": 2,
-      "explanation": "**DBC는 실제 유속(운전 조건)에서 breakthrough를 측정해 실험으로 정하는 값이지, 이론 계산만으로 정하지 않는다.** 10 kg ÷ 50 g/L = 200 L가 이론 레진 부피이고, 실제로는 safety factor를 두어 더 많이 쓴다. Scale-up은 bed height·linear velocity를 고정하고 지름을 키운다.",
+      "explanation": "**DBC는 실제 운전 조건에서 breakthrough를 측정해 실험으로 정하는 값이지, 이론 계산만으로 정하지 않는다.** 교재는 SBC(비커 batch, 총 용량)와 달리 DBC를 실제 유속·bed height에서의 결합 용량으로 정의하고, 흘러나오는 농도가 넣은 농도의 10 %(C/C₀ = 0.1)가 되는 지점으로 잡는다. 이론 레진 부피는 10 kg ÷ 50 g/L(= 50 mg/mL) = 200 L이고, 실제로는 safety factor를 두어 더 많이 쓴다(예: 100 %면 400 L). Scale-up에서는 bed height·linear velocity(cm/h)를 고정하고 지름을 키워 부피 유속(L/h)만 늘린다.",
       "choiceNotes": [
-        "옳은 진술 — bed height(와 linear velocity)를 고정하고 지름을 키운다.",
-        "틀린 진술(정답) — DBC는 실험(breakthrough curve)으로 정한다.",
-        "옳은 진술 — 50 mg/mL = 50 g/L, 10,000 g ÷ 50 g/L = 200 L.",
-        "옳은 진술 — 계산값보다 여유 있게 레진을 쓴다."
+        "옳은 진술 — 흡착 크로마토그래피 scale-up은 bed height와 linear velocity를 고정하고 컬럼 지름을 키운다. 그래야 residence time이 같아 분리 결과가 유지되고, 부피 유속과 처리량만 늘어난다.",
+        "틀린 진술(정답) — DBC는 실제 유속·bed height에서 시료를 흘려 breakthrough curve를 그리고 10 % 돌파 지점으로 정하는 실험값이다. 빨리 흘리면 덜 붙는 등 조건마다 달라 이론 계산만으로는 정할 수 없다.",
+        "옳은 진술 — 50 mg/mL = 50 g/L이므로 10 kg = 10,000 g ÷ 50 g/L = 200 L다. mg로 계산해도 10,000,000 mg ÷ 50 mg/mL = 200,000 mL = 200 L로 같다.",
+        "옳은 진술 — 계산값보다 레진을 넉넉히 쓰는 것이 safety factor다. 레진 사용 횟수에 따라 DBC가 떨어질 수 있어, 교재도 DBC 최대 용량의 50~75 %만 쓰라고 권한다."
       ],
-      "source": "작년 2학기 중간고사 기출 41번",
+      "source": "작년 2학기 중간고사 기출 41번 · 해설서 A7 (결합 용량과 안전 여유), A9 · WK03 교재 p.31 (SBC·DBC, 10 % breakthrough), p.56–58 (Fixed·Variable parameters) · WK06 강의 녹음 2:27:56–2:30:48 (DBC, safety factor)",
       "concepts": [
         "DBC",
         "Scale-up",
@@ -332,7 +342,8 @@
         "DBC",
         "Scale-up",
         "Safety factor"
-      ]
+      ],
+      "lec": 3
     },
     {
       "id": "past-012",
@@ -346,20 +357,21 @@
         "통상 2주간 시행"
       ],
       "answer": 1,
-      "explanation": "**계절 변동에도 품질이 일정한지 보는 것은 1년에 걸친 Phase III의 목적이다.** Phase I(약 2~4주)은 모든 사용점에서 매일 검체를 채취해 운전 조건·세척·위생화 절차를 확정하고, Phase II는 확정한 절차로 같은 기간 일관성을 확인한다(일반 원리).",
+      "explanation": "**계절 변동에도 품질이 일정한지 보는 것은 1년에 걸친 Phase III의 목적이다.** 제조용수(PW·WFI) 시스템의 PQ는 세 단계로 한다 — Phase I(약 2~4주): 모든 사용점에서 매일 검체를 채취해 운전 범위와 운전·세척·sanitization SOP를 확정, Phase II(약 2~4주): 확정한 SOP로 운전해 같은 강도로 일관성 확인, Phase III(1년): 채취 빈도를 줄여 원수 수질·온도의 계절 변동까지 장기 성능 확인(일반 원리). 정제수·주사용수는 제품에 직접 닿는 clean utility라 적격성평가 대상이다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 계절 영향 확인은 Phase III(1년)다.",
-        "옳은 진술 — Phase I에서 운전 조건과 SOP를 확정한다.",
-        "옳은 진술 — Phase I에는 모든 사용점에서 매일 채취한다.",
-        "옳은 진술 — Phase I은 보통 2~4주 진행한다."
+        "틀린 진술(정답) — 계절(원수 수질·온도 변화)의 영향까지 확인하려면 1년이 필요하므로 Phase III의 목적이다. 몇 주 단위인 Phase I로는 계절 변동을 볼 수 없다.",
+        "옳은 진술 — Phase I은 시스템 구성 요소의 운전 범위(가동 조건)와 운전·세척·sanitization·유지관리 SOP를 정하고 확정하는 단계다.",
+        "옳은 진술 — Phase I에는 모든 사용점(point of use)과 주요 지점에서 매일 검체를 채취한다. Phase III에서 채취 빈도를 줄인다.",
+        "옳은 진술 — Phase I은 통상 2~4주 시행하고, 이어서 확정한 SOP로 다시 2~4주 일관성을 보는 단계가 Phase II다."
       ],
-      "source": "작년 2학기 중간고사 기출 45번",
+      "source": "작년 2학기 중간고사 기출 45번 · 해설서 E11 (PW·WFI) · WK07 PDF p.46 (Clean Utilities — Purified Water, WFI), p.58 (Step 4: Validation & Qualification)",
       "concepts": [
         "Water system PQ"
       ],
       "tags": [
         "Water system PQ"
-      ]
+      ],
+      "lec": 7
     },
     {
       "id": "past-013",
@@ -373,14 +385,14 @@
         "교정 확인"
       ],
       "answer": 1,
-      "explanation": "**Airflow pattern(smoke study) 확인은 실제로 공기를 돌려 보는 운전 적격성(OQ)·성능 적격성(PQ) 항목이라 설치 적격성(IQ)이 아니다.** IQ는 설계대로 설치됐는지 — 도면·문서, 중요 부품 설치, 계기 교정 상태 — 를 확인한다.",
+      "explanation": "**Airflow pattern(smoke study) 확인은 HVAC를 실제로 운전해 봐야 하는 기능 시험이라 설치 적격성평가(IQ)가 아니라 OQ(필요하면 PQ) 항목이다.** IQ는 부속이 다 있고 도면대로 제자리에 설치됐는지 — 도면·문서, 중요 부품 설치, 계기 교정 상태 — 를 본다. OQ는 장비를 동작시켜 기능을 검증하는 단계로, 아이솔레이터 OQ도 Pressure·Airflow·Leak·Alarm·Interlock을 본다. HVAC의 기능(필요 환기 횟수, air filtration, 차압 계위, 온습도 제어)은 운전 상태에서만 확인된다(일반 원리).",
       "choiceNotes": [
-        "틀린 진술(정답) — 기류 패턴은 운전해 봐야 확인하는 OQ/PQ 항목이다.",
-        "옳은 진술 — 중요 부품이 사양대로 설치됐는지 IQ에서 본다.",
-        "옳은 진술 — 도면·문서와 설치 상태를 대조하는 것이 IQ다.",
-        "옳은 진술 — 계기 교정 상태 확인도 IQ 항목이다."
+        "틀린 진술(정답) — 연기로 기류 방향·난류를 보는 airflow pattern 시험은 공기를 실제로 돌려야 하므로 OQ·PQ 항목이다. 설치 상태만 보는 IQ에서는 확인할 수 없다.",
+        "옳은 진술 — AHU·HEPA filter·damper 같은 중요 부품이 사양대로 제자리에 설치됐는지 보는 것이 IQ다.",
+        "옳은 진술 — 승인된 도면(덕트·P&ID)과 실제 설치를 대조하고 사양서·자재 증명·매뉴얼이 갖춰졌는지 보는 것이 IQ다.",
+        "옳은 진술 — 차압계·온습도 센서 같은 계기의 교정(calibration) 상태를 IQ에서 확인한다. 교정되지 않은 계기로는 이어지는 OQ 측정값을 믿을 수 없다."
       ],
-      "source": "작년 2학기 중간고사 기출 48번",
+      "source": "작년 2학기 중간고사 기출 48번 · 해설서 E14 (IQ·OQ·PQ), B7 (OQ 항목) · WK07 PDF p.49 (HVAC Functions), p.58 (Step 4: Qualification DQ·IQ·OQ·PQ) · WK07 강의 녹음 2:50:28–2:58:44",
       "concepts": [
         "IQ",
         "HVAC"
@@ -388,7 +400,8 @@
       "tags": [
         "IQ",
         "HVAC"
-      ]
+      ],
+      "lec": 7
     },
     {
       "id": "past-014",
@@ -402,14 +415,14 @@
         "Factor"
       ],
       "answer": 3,
-      "explanation": "**실험한 요인 범위 밖의 결과를 예측하는 것을 extrapolation(외삽)이라 한다.** 범위 안을 예측하는 것은 interpolation(내삽)이다. Response는 결과값, Factor는 요인, Design space는 품질이 보증된 조건 범위다.",
+      "explanation": "**실험한 요인 범위 밖의 결과를 예측하는 것을 extrapolation(외삽)이라 한다.** 범위 안을 예측하는 것은 interpolation(내삽)이다. 외삽 영역은 모델이 실험으로 검증되지 않아 불확실성이 크므로, 공정 조건은 실험 범위 안에서 정한다(일반 원리). 교안의 DoE 예에서 factor는 pH(6.9/7.1/7.3)·교반(800/1,300 rpm)·접종 밀도(0.3/0.5 × 10⁶ cells/mL), response는 VCD·viability였고, 그 결과로 실험 범위 안에서 design space와 set point(pH 6.96, 1,009 rpm)를 정했다.",
       "choiceNotes": [
-        "틀리다 — 측정한 결과값(반응)이다.",
-        "틀리다 — 품질이 보증된다고 입증된 조건 범위다.",
-        "옳다 — 범위 밖 예측이 외삽이다.",
-        "틀리다 — 실험에서 바꾸는 변수다."
+        "틀리다 — Response는 요인을 바꾼 결과로 측정하는 값(VCD·viability·titer 등)이다. 예측 기법의 이름이 아니다.",
+        "틀리다 — Design space는 품질이 보증된다고 실험으로 입증된 공정 조건들의 다차원 범위다. 실험 범위 「안」에서 얻은 결론이라 범위 밖 예측과 반대 개념이다.",
+        "옳다 — 실험한 요인 범위 밖의 반응을 모델로 내다보는 것이 extrapolation이다. 범위 안을 예측하는 interpolation보다 불확실성이 크다.",
+        "틀리다 — Factor는 실험에서 일부러 바꾸는 변수(pH·교반 속도·접종 밀도 등)다. 결과를 예측하는 기법이 아니다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부) 8번",
+      "source": "작년 2학기 중간고사 기출 (2부) 8번 · 해설서 D1 · WK02 PDF p.13 (DoE — screening·optimization design), p.57 (Condition with 24 vessel — factors·response), p.70 (Conclusion in Design Space)",
       "concepts": [
         "DoE",
         "Extrapolation"
@@ -417,7 +430,8 @@
       "tags": [
         "DoE",
         "Extrapolation"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-015",
@@ -432,14 +446,14 @@
         "실시간으로 살아있는 세포의 양을 보여준다."
       ],
       "answer": 1,
-      "explanation": "**정전용량(capacitance, biomass) 센서는 살아 있는 세포의 부피(viable biovolume)를 실시간으로 보여 주지만, 생존율(viability %)은 직접 재지 못한다.** 교류 전기장에서 막이 온전한 세포만 분극되어 축전기처럼 작동하므로 신호가 살아 있는 세포의 양·크기에 비례한다(일반 원리).",
+      "explanation": "**정전용량(capacitance) 센서는 살아 있는 세포의 양(viable cell volume)을 실시간으로 보여 주지만, 생존율(viability %)은 직접 재지 못한다.** 교류 전기장을 걸면 막이 온전한 세포 안의 이온이 막 쪽으로 몰려 분극되어 세포 하나하나가 작은 축전기처럼 작동하고, 신호는 살아 있는 세포의 총 부피에 비례한다. 막이 깨진 죽은 세포·찌꺼기·기포는 분극되지 않는다(일반 원리). 교안은 이 online VCD(viable biomass) 센서를 bioreactor PAT로 소개하고, perfusion 배양에서 그 값으로 cell bleed를 조절해 세포밀도를 유지한다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 생존율(%)은 전체 세포 수가 있어야 계산된다. 센서는 살아 있는 세포의 양만 본다.",
-        "옳은 진술 — 막이 온전한 세포 안의 이온이 전기장에 분극된다.",
-        "옳은 진술 — 신호는 살아 있는 세포의 부피에 비례해 세포가 커지면 커진다.",
-        "옳은 진술 — 살아 있는 세포의 양(VCV)을 실시간으로 보여 준다."
+        "틀린 진술(정답) — 생존율은 살아 있는 세포 ÷ 전체 세포(죽은 세포 포함)라 죽은 세포 수가 필요한데, 이 센서는 막이 온전한 세포만 감지한다. 그림의 viability 곡선은 시료를 꺼내 따로 잰 offline 값이다.",
+        "옳은 진술 — 교류 전기장에서 막이 온전한 세포 안의 자유 전하(이온)가 막 안쪽에 쌓여 분극되고, 그 정전용량(pF/cm)을 잰다.",
+        "옳은 진술 — 신호는 세포 수가 아니라 살아 있는 세포의 총 부피에 비례한다. 그림처럼 배양 후반 VCD가 줄어도 세포 지름이 커지면 신호가 유지된다.",
+        "옳은 진술 — 죽은 세포·찌꺼기·기포는 분극되지 않으므로 살아 있는 세포의 양(biovolume)만 실시간으로 보여 준다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부) 12번",
+      "source": "작년 2학기 중간고사 기출 (2부) 12번 · WK02 PDF p.19 (Online Viable Cell Density, Online Total Cell Mass), p.23 (Connection of Viamass Sensor), p.42 (Perfusion Bioreactor Set Up with PAT Integration)",
       "concepts": [
         "PAT",
         "Capacitance sensor"
@@ -447,7 +461,8 @@
       "tags": [
         "PAT",
         "Capacitance sensor"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-016",
@@ -461,12 +476,12 @@
         "총 5개의 module로 구성되어 있으며 module 2, 3, 4, 5는 모든 국가에 공통적으로 적용된다."
       ],
       "answer": 3,
-      "explanation": "**품질에 영향을 주는 parameter를 일부러 빼는 것은 허가 자료의 투명성에 어긋나는 잘못된 진술이다.** CTD(Common Technical Document)는 ICH가 정한 허가 신청 자료 양식으로, Module 1(지역별 행정 자료)과 공통 Module 2~5(요약, 품질, 비임상, 임상)로 구성된다(일반 원리).",
+      "explanation": "**품질에 영향을 주는 parameter를 일부러 빼는 것은 허가 자료가 실제 공정과 달라지는 잘못된 진술이다.** CTD(Common Technical Document)는 ICH가 정한 허가 신청 자료의 국제 공통 양식으로, Module 1(지역별 행정 자료)과 공통인 Module 2(요약)·3(품질)·4(비임상)·5(임상)로 구성된다. CPP와 관리 전략은 Module 3에 빠짐없이 적고, 공정 유연성은 QbD로 design space를 승인받아 확보한다(일반 원리).",
       "choiceNotes": [
-        "옳은 진술 — Common Technical Document의 약자다.",
-        "옳은 진술 — 허가를 위해 규제기관에 내는 자료다.",
-        "틀린 진술(정답) — 품질에 영향을 주는 parameter는 빠짐없이 기술해야 한다.",
-        "옳은 진술 — Module 1만 지역별이고 2~5는 공통이다."
+        "옳은 진술 — Common Technical Document의 약자로, 여러 나라에 같은 구성으로 낼 수 있게 만든 허가 신청 자료 양식이다.",
+        "옳은 진술 — 품목 허가를 받으려고 규제기관(MFDS·FDA·EMA 등)에 내는 최종 자료 묶음이다.",
+        "틀린 진술(정답) — 품질에 영향을 주는 parameter(CPP)는 Module 3(품질)의 공정 설명과 관리 전략에 모두 적어야 한다. 빼면 허가 내용과 실제 공정이 달라져 허가 위반이 된다.",
+        "옳은 진술 — Module 1은 신청서·라벨 같은 각국 행정 자료라 지역마다 다르고, Module 2~5(요약·품질·비임상·임상)는 공통이다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부) 23번",
       "concepts": [
@@ -474,7 +489,8 @@
       ],
       "tags": [
         "CTD"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-017",
@@ -488,14 +504,14 @@
         "QbT는 실험에 따른 결과 분석을 통해 제품의 품질 기준을 설정하나, QbD는 품질 기준을 우선 설정 후 공정개발을 통해 이를 달성한다."
       ],
       "answer": 4,
-      "explanation": "**QbT는 만든 뒤 시험해서 품질을 확인하는 방식이고, QbD는 목표 품질(QTPP·CQA)을 먼저 정한 뒤 공정을 설계해 그 품질을 달성한다.** QbD에서는 design space 안의 변경이 허가 후에도 유연하게 허용된다(일반 원리).",
+      "explanation": "**QbT는 만든 뒤 시험 결과로 품질을 확인하는 방식이고, QbD는 목표 품질(QTPP·CQA)을 먼저 정한 뒤 공정을 설계해 그 품질을 달성한다.** 교안 필기의 QbD는 불량을 마지막 시험에서 걸러 내는 것이 아니라 설계 단계부터 품질을 만들어 나가는 것이다 — QTPP → CQA → 위험평가 → DoE·design space → control strategy → 생산 데이터 축적·개선. 승인받은 design space 안에서 조건을 옮기는 것은 변경으로 보지 않아 허가 후에도 유연하게 운영할 수 있다(ICH Q8의 개념, 일반 원리).",
       "choiceNotes": [
-        "틀리다 — DoE는 QbT 방식의 개발에서도 쓸 수 있어 둘의 차이가 아니다.",
-        "틀리다 — QbD는 design space 안에서의 변경을 허가 후에도 허용한다.",
-        "틀리다 — QbD의 목표는 공정 조건 도출이 아니라 목표 품질을 설계로 보증하는 것이다.",
-        "옳다 — QbD는 품질 목표를 먼저 정하고 공정으로 달성한다."
+        "틀리다 — DoE는 QbD에서 특히 중요하지만 QbT 방식의 공정 개발에서도 쓸 수 있는 통계 도구라 둘을 가르는 기준이 아니다. 차이는 품질 기준을 언제 정하고 무엇으로 보증하느냐(시험 vs 설계)다.",
+        "틀리다 — QbD는 승인된 design space 안의 조건 이동을 변경으로 보지 않아 허가 후에도 유연하다. QbT도 변경 허가 절차를 거치면 공정을 바꿀 수 있다.",
+        "틀리다 — 안정적인 공정 조건 도출은 수단일 뿐이다. QbD의 목표는 목표 품질(QTPP·CQA)을 먼저 정하고 그 품질을 설계·관리 전략으로 늘 보증하는 것이다.",
+        "옳다 — QbT는 실험(시험) 결과를 보고 품질 기준을 정해 확인하고, QbD는 QTPP·CQA로 품질 기준을 먼저 정한 뒤 위험평가·DoE로 공정을 개발해 달성한다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부) 25번",
+      "source": "작년 2학기 중간고사 기출 (2부) 25번 · 해설서 D1 · WK02 PDF p.15–16 (수업 필기: QbD 흐름)",
       "concepts": [
         "QbD",
         "QbT"
@@ -503,7 +519,8 @@
       "tags": [
         "QbD",
         "QbT"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-018",
@@ -517,14 +534,14 @@
         "Characterization Range"
       ],
       "answer": 3,
-      "explanation": "**품질 기준을 만족한다고 입증된 공정 변수 범위가 PAR(Proven Acceptable Range)이다.** NOR(Normal Operating Range)는 평소 운전하는 더 좁은 범위로 PAR 안에 있고, Set point는 목표값, Characterization range는 특성 연구에서 시험한 범위다(일반 원리).",
+      "explanation": "**품질 기준을 만족한다고 입증된 공정 parameter 범위가 PAR(Proven Acceptable Range)이다.** 범위의 크기는 Set point(한 점) ⊂ NOR(평소 운전 범위) ⊂ PAR(품질 만족이 입증된 범위) ⊂ Characterization range(특성 연구에서 시험한 범위) 순이다(일반 원리). PD로 최적점(set point)을 찾고, PC로 조건이 얼마나 흔들려도 품질이 유지되는지 확인해 PAR을 정하며, 여러 parameter의 허용 범위가 함께 만드는 다차원 공간이 design space다.",
       "choiceNotes": [
-        "틀리다 — 제어 목표값이다.",
-        "틀리다 — 평소 운전 범위로 PAR보다 좁다.",
-        "옳다 — 품질 기준 만족이 입증된 범위다.",
-        "틀리다 — 공정 특성 연구에서 시험한 범위다."
+        "틀리다 — Set point(set value)는 제어 목표로 정한 한 점의 값이다(교안 예: pH 6.96, 1,009 rpm). 범위가 아니다.",
+        "틀리다 — NOR은 평소 운전에서 허용하는 변동 범위로 PAR 안쪽에 더 좁게 잡는다. 품질 만족이 입증된 바깥 경계는 PAR이다.",
+        "옳다 — 공정 특성 연구(PC)로 그 범위 안에서 운전하면 품질 기준을 만족한다고 입증한 범위가 PAR이다.",
+        "틀리다 — Characterization range는 특성 연구(PC·DoE)에서 일부러 넓게 시험한 범위다. 그 끝에서는 품질 기준을 벗어날 수도 있고, 그 결과로 PAR을 정한다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부) 27번",
+      "source": "작년 2학기 중간고사 기출 (2부) 27번 · 해설서 D1 (PD·PC·Design space) · WK02 PDF p.70 (Conclusion in Design Space — set point)",
       "concepts": [
         "PAR",
         "NOR"
@@ -532,7 +549,8 @@
       "tags": [
         "PAR",
         "NOR"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-019",
@@ -546,20 +564,21 @@
         "Vacuum pump"
       ],
       "answer": 1,
-      "explanation": "**동결건조기 condenser가 얼음으로 포집할 수 있는 수분의 양을 ice capacity(kg)라 하며, 동결건조기의 크기를 나타낸다.** Vapor pressure는 증기압, hydraulic cylinder는 선반을 눌러 마개를 닫는 장치, vacuum pump는 진공을 만드는 장치다.",
+      "explanation": "**동결건조기 condenser가 얼음으로 붙잡을 수 있는 최대 수분 양을 ice capacity(kg)라 하며, 동결건조기의 크기를 나타낸다.** 동결건조 제품은 반마개 상태로 충전한 뒤 동결건조하고 완전 밀봉한다. 건조 중 제품에서 승화한 수증기는 증기압 차이로 −50 ℃ 이하의 condenser로 옮겨 가 얼음으로 붙는데, condenser가 담을 수 있는 얼음 양이 한 batch에 넣을 수 있는 물의 양을 정한다(일반 원리).",
       "choiceNotes": [
-        "옳다 — condenser의 얼음 포집 용량이다.",
-        "틀리다 — 승화의 원동력인 증기압이다.",
-        "틀리다 — stoppering용 유압 장치다.",
-        "틀리다 — 챔버 진공을 만드는 장치다."
+        "옳다 — Condenser가 한 번에 포집할 수 있는 얼음의 양(kg)이 ice capacity이고, 한 batch 처리량을 정하므로 장비 크기를 대표한다.",
+        "틀리다 — Vapor pressure(증기압)는 얼음이 승화하려는 압력이다. 제품 쪽과 차가운 condenser 쪽의 증기압 차이가 수증기를 옮기는 원동력일 뿐 용량을 뜻하지 않는다.",
+        "틀리다 — Hydraulic cylinder는 건조가 끝난 뒤 선반을 눌러 반쯤 꽂힌 고무마개를 완전히 닫는(stoppering) 유압 장치다.",
+        "틀리다 — Vacuum pump는 챔버·condenser를 낮은 압력으로 만들어 승화가 일어나게 하는 장치다. 수분을 포집하는 곳은 condenser다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부) 40번",
+      "source": "작년 2학기 중간고사 기출 (2부) 40번 · 01 완제의약품 제조 공정 PDF p.16 (동결건조 연계 — 반마개 충전 → 동결건조 → 완전 밀봉)",
       "concepts": [
         "동결건조"
       ],
       "tags": [
         "동결건조"
-      ]
+      ],
+      "lec": 5
     },
     {
       "id": "past-020",
@@ -573,12 +592,12 @@
         "3상 임상시험의 디자인 중에서 배정된 시험대상자가 임상시험 초기부터 종료까지 동일 의약품을 투약받는 설계를 ‘평행설계 임상시험(Parallel Design)’이라 한다."
       ],
       "answer": 1,
-      "explanation": "**흡수·분포·대사·배설(ADME)을 속도론으로 보는 것은 약물동태학(Pharmacokinetics, PK)이다.** 약력학(Pharmacodynamics, PD)은 약물이 몸에 미치는 효과(농도–반응)를 본다(일반 원리).",
+      "explanation": "**흡수·분포·대사·배설(ADME)을 혈중 농도로 속도론 관점에서 보는 것은 약물동태학(Pharmacokinetics, PK)이다.** PK는 몸이 약에 하는 일, 약력학(Pharmacodynamics, PD)은 약이 몸에 하는 일(농도에 따른 효과·작용 기전)을 본다. 세포·오가노이드 기반 대체시험법, AI 신약개발, 평행설계의 설명은 옳다(일반 원리).",
       "choiceNotes": [
-        "틀린 진술(정답) — ADME 속도론은 PK(약물동태학)다.",
-        "옳은 진술 — 세포·오가노이드 기반 대체시험법으로 동물 사용을 줄인다.",
-        "옳은 진술 — AI 신약개발의 설명이다.",
-        "옳은 진술 — 평행설계는 한 대상자가 끝까지 한 약만 투약받는다."
+        "틀린 진술(정답) — ADME를 시간에 따른 혈중 농도로 보는 것은 PK(약물동태학)다. PD(약력학)는 약물 농도와 효과(반응)의 관계를 본다.",
+        "옳은 진술 — 세포·오가노이드·장기칩 같은 대체시험법으로 독성·효력을 평가해 동물 사용을 줄이거나 대체할 수 있다(3R 원칙).",
+        "옳은 진술 — 연구·진료·허가·유전체 데이터를 바탕으로 후보물질 설계와 비임상·임상 설계를 도와 실패 위험·시간·비용을 줄이는 접근이다.",
+        "옳은 진술 — 평행설계는 대상자를 무작위로 군에 나눠 처음부터 끝까지 한 가지 약만 투여한다. 한 대상자가 기간을 나눠 두 약을 모두 받는 교차설계(crossover)와 대비된다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -586,7 +605,8 @@
       ],
       "tags": [
         "PK/PD"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-021",
@@ -600,14 +620,14 @@
         "‘바이러스 검증’을 위하여 실제 생산 제조공정에 알고 있는 농도의 바이러스를 첨가하여 공정 전/후의 바이러스 감소 정도를 평가한다."
       ],
       "answer": 4,
-      "explanation": "**바이러스 제거 검증(viral clearance study)은 실제 생산 공정이 아니라 생산 공정을 축소한 scale-down model에 알고 있는 양의 모델 바이러스를 spiking해 공정 전후 감소(LRV)를 잰다.** 실제 생산 설비에 바이러스를 넣는 일은 없다.",
+      "explanation": "**바이러스 제거 검증(viral clearance study)은 실제 생산 공정이 아니라 생산 공정을 축소한 scale-down model에 알고 있는 양의 모델 바이러스를 spiking해 단계 전후의 감소(LRV)를 잰다.** LRV = log₁₀(처리 전 바이러스 양 ÷ 처리 후 양)이고, 여러 단계의 LRV를 더해 전체 제거능을 보인다. 실제 생산 설비에 바이러스를 넣으면 설비가 오염되므로 그렇게 하지 않는다(일반 원리). 특성분석 자료로 규격·시험법을 정하고, 세포은행은 같은 조건의 단일 배양으로 얻은 균일한 세포 부유액을 여러 용기에 나눈 것이다.",
       "choiceNotes": [
-        "옳은 진술 — 특성분석 자료가 규격·시험법 설정의 기초가 된다.",
-        "옳은 진술 — 제조 경험·정량오차·안정성에 근거해 설정한다.",
-        "옳은 진술 — 세포은행의 정의다.",
-        "틀린 진술(정답) — 실제 생산 공정이 아니라 scale-down model에서 한다."
+        "옳은 진술 — 1차 구조·당쇄·전하 변이체·응집체 같은 단백질 특성분석 결과가 어떤 시험 항목과 규격으로 품질을 관리할지 정하는 기초 자료가 된다.",
+        "옳은 진술 — 시험 항목의 기준(규격)은 제조 경험(batch 분석 결과), 시험법의 정량오차, 안정성 자료에 근거해 품질 보증에 필요한 값으로 제조사가 설정한다.",
+        "옳은 진술 — 세포은행의 정의다. MCB·WCB 바이알이 모두 같은 세포 부유액이라야 batch마다 같은 품질이 나온다.",
+        "틀린 진술(정답) — 모델 바이러스 spiking은 실제 생산 공정이 아니라 생산 공정을 축소해 같은 성능을 보이게 만든 scale-down model에서 한다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 해설서 C1 (세포은행) · WK04 강의 녹음② 2:09:15–2:10:17 (LRV)",
       "concepts": [
         "Viral clearance",
         "세포은행"
@@ -615,7 +635,8 @@
       "tags": [
         "Viral clearance",
         "세포은행"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-022",
@@ -629,12 +650,12 @@
         "‘비임상시험관리기준(GLP)’은 의약품의 허가를 위하여 실시하는 비임상시험의 과정 및 결과에 대한 신뢰성을 확보하기 위하여 도입되었으며 독성시험은 원칙적으로 GLP 기준에서 실시하여야 한다."
       ],
       "answer": 1,
-      "explanation": "**백신 효력은 실제 질병 방어 효과를 보는 면역후 공격시험(challenge test)이 우선 권고되고, 공격시험이 어려울 때 면역원성시험(항체 형성)으로 대신한다(일반 원리).** 단백질 의약품은 아미노산으로 분해되는 경로가 알려져 있어 통상적인 대사 연구를 생략할 수 있다.",
+      "explanation": "**백신 효력은 실제 병원체로 방어 효과를 보는 면역후 공격시험(challenge test)이 우선 권고되고, 공격시험 모델이 없거나 어려울 때 면역원성시험(항체 형성·정량)으로 대신한다(일반 원리).** 단백질 의약품은 아미노산·펩타이드로 분해되는 경로가 알려져 있어 통상적인 대사 연구를 생략할 수 있고, 안정성시험은 경시 변화로 저장 방법·사용기간을 정하며, 허가용 독성시험은 원칙적으로 GLP 기관에서 한다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 공격시험이 우선이고 면역원성시험은 대안이다.",
-        "옳은 진술 — 생명공학의약품은 통상 대사 연구를 생략할 수 있다.",
-        "옳은 진술 — 안정성시험의 정의다.",
-        "옳은 진술 — 독성시험은 원칙적으로 GLP에서 한다."
+        "틀린 진술(정답) — 우선 권고되는 것은 질병 방어 효과를 직접 보는 면역후 공격시험이다. 항체 형성만 보는 면역원성시험은 방어 효과를 간접적으로 보여 줄 뿐이라 공격시험이 어려울 때의 대안이다.",
+        "옳은 진술 — 생명공학의약품(단백질)은 아미노산으로 분해되는 경로가 알려져 있어, 저분자 의약품처럼 대사체를 찾는 통상적인 대사 연구를 생략할 수 있다.",
+        "옳은 진술 — 시간이 지나며 생기는 품질 변화를 보아 저장 방법과 사용(유효)기간을 정하는 시험이 안정성시험이다.",
+        "옳은 진술 — GLP는 비임상시험의 계획·수행·기록·보고의 신뢰성을 확보하려는 기준이며, 허가용 독성시험은 원칙적으로 GLP 기준에서 한다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -642,7 +663,8 @@
       ],
       "tags": [
         "비임상시험"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-023",
@@ -656,12 +678,12 @@
         "오리지널 제품대비 시장에서 제품의 가격을 약 60~80% 정도 낮출 수 있다."
       ],
       "answer": 1,
-      "explanation": "**바이오시밀러는 오리지널의 제조 공정 정보(세포주·배양·정제 조건)가 공개되지 않아 스스로 공정을 개발해 동등성을 입증해야 하므로 개발 진입장벽이 낮지 않다(기출 정답 ⓐ).** 동등성 입증 위주라 개발 리스크가 신약보다 적고, 조건을 충족하면 적응증 외삽(extrapolation)이 가능하며, 가격을 오리지널보다 낮춰 시장에 낸다.",
+      "explanation": "**바이오시밀러는 오리지널의 제조 공정 정보(세포주·배지·배양·정제 조건)가 공개되지 않아 스스로 공정을 개발해 동등성을 입증해야 하므로 개발 진입장벽이 낮지 않다.** 복잡한 생산·분석 기술과 큰 설비가 필요하다. 반면 이미 효능이 확인된 오리지널과의 동등성 입증이 중심이라 신약보다 개발 리스크가 적고(보통 임상 1상 PK와 3상 동등성 시험), 조건을 충족하면 적응증 외삽(extrapolation)이 가능하며, 오리지널보다 낮은 가격으로 시장에 낸다(일반 원리).",
       "choiceNotes": [
-        "틀린 진술(정답) — 오리지널의 공정 정보는 공개되지 않아 진입장벽이 높다(복잡한 생산·분석 기술 필요).",
-        "옳은 진술 — 신약보다 개발 리스크가 적다.",
-        "옳은 진술 — 적응증 외삽이 가능하다.",
-        "옳은 진술 — 오리지널보다 가격을 낮춰 출시한다."
+        "틀린 진술(정답) — 오리지널의 공정 정보는 영업 비밀이라 공개되지 않는다. 개발사가 세포주부터 공정을 새로 만들어 품질 동등성을 보여야 하므로 진입장벽이 높다(임상 2상을 보통 생략한다는 부분만 맞다).",
+        "옳은 진술 — 효능·안전성이 이미 확인된 오리지널과 동등함을 보이는 개발이라, 새 표적·기전을 검증해야 하는 신약보다 실패 위험이 적고 기간이 짧다.",
+        "옳은 진술 — 한 적응증에서 동등성을 입증하고 작용 기전이 같은 등 조건을 충족하면, 오리지널의 다른 적응증을 추가 임상 없이 인정받을 수 있다(적응증 외삽).",
+        "옳은 진술 — 개발 비용이 적어 오리지널보다 낮은 가격으로 출시해 환자 접근성을 높이고 의료비를 줄인다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -669,7 +691,8 @@
       ],
       "tags": [
         "바이오시밀러"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-024",
@@ -685,14 +708,15 @@
         "Ministry of Food and Drug Safety",
         "식품의약품안전처(MFDS)"
       ],
-      "explanation": "**의약품 품목허가(신고)는 식품의약품안전처(MFDS)가 주관한다.** 그림의 신청 → 접수 → 예비심사 → 심사(의약품심사부 등)·평가·실태조사(지방청) → 허가(신고)증 발급 모두 식약처와 그 소속(허가총괄담당관, 6개 지방청)이 맡는다.",
+      "explanation": "**의약품 품목허가(신고)를 주관하는 곳은 식품의약품안전처(MFDS, Ministry of Food and Drug Safety)다.** 그림의 절차는 신청(제조·수입업자) → 접수(허가총괄담당관, 6개 지방청) → 예비심사(제출 자료 구비 여부·수수료 확인) → 심사(안전성·유효성, 기준 및 시험방법, 원료의약품등록(DMF) 자료 — 의약품심사부·신속심사과·지방청 유해물질분석과)와 평가·실태조사(제조시설과 관리기준 평가 — 수입은 의약품품질과, 제조는 6개 지방청) → 허가(신고)증 발급이다. 그림에 나온 부서는 모두 식약처와 그 소속 기관이다(일반 원리).",
       "source": "작년 2학기 중간고사 기출 (2부) 단답형",
       "concepts": [
         "MFDS"
       ],
       "tags": [
         "MFDS"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-025",
@@ -706,12 +730,12 @@
         "FDA – 미국 식품의약품국"
       ],
       "answer": 3,
-      "explanation": "**PIC/S(Pharmaceutical Inspection Co-operation Scheme)는 의약품 실사 상호협력기구(GMP 실사 협력)이고, 「의약품 국제 규제조화」는 ICH(International Council for Harmonisation)다.** PMDA는 일본의 의약품의료기기종합기구다.",
+      "explanation": "**PIC/S(Pharmaceutical Inspection Co-operation Scheme)는 각국 GMP 실사기관의 협력체(의약품실사상호협력기구)이고, 「의약품 국제 규제조화」는 ICH(International Council for Harmonisation)의 역할이다.** PIC/S는 GMP 기준과 실사 방식을 맞추고, ICH는 품질(Q)·안전성(S)·유효성(E)·복합(M) 가이드라인과 CTD 양식을 만든다. MFDS는 대한민국 식품의약품안전처, PMDA는 일본 의약품의료기기종합기구, FDA는 미국 식품의약국이다(일반 원리).",
       "choiceNotes": [
-        "옳은 진술 — 대한민국 식약처다.",
-        "옳은 진술 — 일본의 의약품의료기기종합기구다.",
-        "틀린 진술(정답) — PIC/S는 GMP 실사 상호협력기구다. 규제조화는 ICH.",
-        "옳은 진술 — 미국 식품의약국이다."
+        "옳은 진술 — MFDS(Ministry of Food and Drug Safety)는 대한민국 식품의약품안전처로, 의약품 허가와 GMP 실사를 맡는다.",
+        "옳은 진술 — PMDA(Pharmaceuticals and Medical Devices Agency)는 일본의 의약품의료기기종합기구로, 허가 심사와 GMP 조사를 한다.",
+        "틀린 진술(정답) — PIC/S는 GMP 실사 협력 기구다. 의약품 규제를 국제적으로 조화하는 가이드라인을 만드는 곳은 ICH다.",
+        "옳은 진술 — FDA(Food and Drug Administration)는 미국의 의약품·식품 허가 기관으로, cGMP 규정을 집행한다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부) 21번",
       "concepts": [
@@ -721,7 +745,8 @@
       "tags": [
         "PIC/S",
         "ICH"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-026",
@@ -735,12 +760,12 @@
         "연구품질경영시스템(Quality Management System)에 대한 명확한 기준 (법규 등)이 없어 이에 대한 운영 기준 확립이 어렵다."
       ],
       "answer": 1,
-      "explanation": "**연구 단계 품질경영시스템은 법적 의무가 아니라 데이터 신뢰성을 위해 구축하는 것이 「바람직한」 자율 체계다.** Good Review Practice(GRevP)는 규제기관의 심사 업무 기준이지 연구소의 준수 의무가 아니다(일반 원리).",
+      "explanation": "**연구 단계 품질경영시스템은 법적 의무가 아니라 데이터 신뢰성을 위해 구축하는 것이 「바람직한」 자율 체계다.** Good Review Practice(GRP)는 규제기관이 허가 자료를 심사하는 업무 기준이지 연구소의 준수 의무가 아니다. 생산에는 GMP, 비임상에는 GLP, 임상에는 GCP가 있지만 연구개발 단계 QMS에는 명확한 법규가 없어, 의약품 전주기 품질관리 개념 아래 각 회사가 raw data 추적성 같은 운영 기준을 세운다(일반 원리).",
       "choiceNotes": [
-        "틀린 진술(정답) — GRevP는 심사기관의 기준이며, 연구 QMS는 의무가 아니다.",
-        "옳은 진술 — raw data까지 추적성을 확보하는 것이 바람직하다.",
-        "옳은 진술 — 의약품 전주기 품질관리 개념으로 중요성이 커졌다.",
-        "옳은 진술 — 명확한 법규가 없어 운영 기준 확립이 어렵다."
+        "틀린 진술(정답) — Good Review Practice는 심사기관(규제기관)의 업무 기준이라 연구소에 QMS 구축 의무를 지우지 않는다. 연구 단계 QMS는 의무가 아니라 권장 사항이다.",
+        "옳은 진술 — 보고서 결과를 원자료(raw data)까지 거슬러 확인할 수 있게(추적성) 하면 연구 데이터를 믿을 수 있고 나중에 허가 자료로도 쓸 수 있다.",
+        "옳은 진술 — 개발 → 기술 이전 → 상업 생산 → 단종까지 전주기에 걸쳐 품질을 관리한다는 개념(ICH Q10)이 들어오면서 연구개발 단계의 품질관리도 중요해졌다.",
+        "옳은 진술 — GMP·GLP·GCP와 달리 연구개발 단계 QMS에는 명확한 법규가 없어 회사마다 운영 기준을 세우기 어렵다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -748,7 +773,8 @@
       ],
       "tags": [
         "QMS"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-027",
@@ -762,12 +788,12 @@
         "약사법은 보건복지부장관령으로 만들어진다."
       ],
       "answer": 4,
-      "explanation": "**약사법은 국회가 제정하는 법률이지 장관령이 아니다.** 하위 법령은 대통령령(시행령·시설기준령), 총리령(시행규칙 — 의약품 등의 안전에 관한 규칙 등), 식약처 고시로 이어진다. (엄밀히는 「의약품 등의 안전에 관한 규칙」도 총리령이라 이 보기도 정확하지 않지만, 출제 의도상 가장 명백히 틀린 것은 약사법의 위계다 — 기출 정답은 약사법 쪽.)",
+      "explanation": "**약사법은 국회가 제정하는 「법률」이지 장관이 만드는 명령이 아니다.** 법령의 위계는 법률(약사법) → 대통령령(시행령, 의약품 등의 제조업 및 수입자의 시설기준령) → 총리령(시행규칙 — 식약처가 국무총리 소속이라 식약처 소관 규칙은 총리령, 예: 생물학적 제제 등의 제조·판매관리 규칙, 의약품 등의 안전에 관한 규칙) → 식약처 고시 순이다(일반 원리). 엄밀히는 「의약품 등의 안전에 관한 규칙」도 총리령이라 그 보기도 정확하지 않지만, 정답 표시는 가장 명백히 틀린 약사법의 위계 쪽이다.",
       "choiceNotes": [
-        "옳은 진술 — 시설기준령은 대통령령이다.",
-        "옳은 진술 — 총리령이다.",
-        "옳은 진술로 출제 — 엄밀히는 「의약품 등의 안전에 관한 규칙」도 총리령이다.",
-        "틀린 진술(정답) — 약사법은 법률이다."
+        "옳은 진술 — 법률이 위임한 시설 기준을 정한 대통령령이다.",
+        "옳은 진술 — 식약처 소관 시행규칙이라 총리령이다.",
+        "옳은 진술로 출제 — 정답 표시상 옳은 보기로 처리됐다. 엄밀히는 「의약품 등의 안전에 관한 규칙」도 총리령이고, 식약처장이 정하는 것은 그 아래의 「고시」다.",
+        "틀린 진술(정답) — 약사법은 국회가 만드는 법률로, 법령 위계의 맨 위에 있다. 그 아래로 대통령령 → 총리령 → 고시가 이어진다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -775,7 +801,8 @@
       ],
       "tags": [
         "약사법"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-028",
@@ -789,14 +816,14 @@
         "제품 제조 시 사용하는 가스에 대한 품질관리"
       ],
       "answer": 3,
-      "explanation": "**제조 기록·시험 결과를 검토해 출하를 승인하는 것은 QA(품질보증)의 역할이다.** QC(품질관리)는 검체 채취, 시험, 시험 성적서 작성, 원료·가스·용수의 품질 시험을 맡는다.",
+      "explanation": "**제조는 생산 부서, 출하 승인은 제조 기록·시험 결과를 검토하는 QA(품질보증)의 역할이라 QC의 역할이 아니다.** QC(품질관리)는 원료·중간체·완제품의 검체 채취, 시험, 시험 성적서 작성, 원료·가스·용수의 품질 시험을 맡는다. 완제 교안의 공정 흐름도 마지막 단계를 「완제품 시험 및 출하승인」으로 두어, 시험(QC) 결과를 바탕으로 출하를 승인(QA)한다.",
       "choiceNotes": [
-        "옳은 진술 — QC가 검체를 채취한다.",
-        "옳은 진술 — QC가 시험 성적서를 쓴다.",
-        "틀린 진술(정답) — 출하 승인은 QA(품질책임자)의 일이다.",
-        "옳은 진술 — 공정 가스 품질 시험도 QC가 한다."
+        "옳은 진술 — 원료·중간체·완제품의 검체 채취(sampling)는 QC의 일이다.",
+        "옳은 진술 — 시험을 수행하고 결과를 시험 성적서(CoA)로 정리하는 것은 QC다.",
+        "틀린 진술(정답) — 완제품 제조는 생산 부서, 출하 승인은 batch record·시험 결과·일탈을 검토하는 QA(품질책임자)의 일이다. QC는 시험 결과를 넘겨줄 뿐 출하를 결정하지 않는다.",
+        "옳은 진술 — 질소·압축공기처럼 제품에 닿는 공정 가스도 원료처럼 규격을 정해 QC가 시험·관리한다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 01 완제의약품 제조 공정 PDF p.5 (전체 제조 공정 흐름 — 시험·출하: 완제품 시험 및 출하승인) · WK07 PDF p.44 (QC)",
       "concepts": [
         "QC",
         "QA"
@@ -804,7 +831,8 @@
       "tags": [
         "QC",
         "QA"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-029",
@@ -819,12 +847,12 @@
         "영구성"
       ],
       "answer": 1,
-      "explanation": "**값을 덧칠해 고치면서 누가 언제 왜 고쳤는지(서명·날짜·사유)를 남기지 않아, 기록을 한 사람을 알 수 있어야 한다는 기인성(Attributable)을 어겼다(기출 정답).** 기록을 고칠 때는 원래 값이 보이게 한 줄을 긋고 수정자 서명·날짜·사유를 적는다(ALCOA+: Attributable, Legible, Contemporaneous, Original, Accurate + Complete, Consistent, Enduring, Available).",
+      "explanation": "**값을 덧칠해 고치면서 누가·언제·왜 고쳤는지(서명·날짜·사유)를 남기지 않아, 기록한 사람이 드러나야 한다는 기인성(Attributable)을 어긴 것으로 정답이 표시됐다.** 그림은 7.75를 알아볼 수 없게 덧칠하고 8.75를 적었다. 기록을 고칠 때는 원래 값이 보이게 한 줄을 긋고 수정자 서명·날짜·사유를 적는다(원래 값을 지운 점은 Legible·Original에도 어긋난다). 데이터 완전성 원칙 ALCOA+는 Attributable(기인성), Legible(판독성), Contemporaneous(동시성), Original(원본성), Accurate(정확성)에 Complete, Consistent, Enduring(영구성), Available(가용성)을 더한 것이다(일반 원리).",
       "choiceNotes": [
-        "옳다 — 수정한 사람의 서명·날짜가 없어 누가 고쳤는지 알 수 없다.",
-        "틀리다 — 작업과 동시에 기록해야 한다는 항목이다.",
-        "틀리다 — 필요할 때 기록을 찾아볼 수 있어야 한다는 항목이다.",
-        "틀리다 — 기록이 오래 보존돼야 한다는 항목이다(수정 방식의 핵심은 기록자 확인)."
+        "옳다 — 수정한 사람의 서명·날짜·사유가 없어 누가 고쳤는지 알 수 없으므로 기인성 위반이다.",
+        "틀리다 — 동시성(Contemporaneous)은 작업과 동시에 그 자리에서 기록해야 한다는 항목이다. 그림만으로는 기록 시점의 문제가 드러나지 않는다.",
+        "틀리다 — 가용성(Available)은 기록을 필요할 때 찾아보고 검토할 수 있어야 한다는 항목이라 수정 방식과 관계가 없다.",
+        "틀리다 — 영구성(Enduring)은 지워지지 않는 필기구·매체로 보존 기간 동안 기록이 남아야 한다는 항목이다(연필·수정액 금지). 그림의 핵심은 수정자를 알 수 없다는 점이다."
       ],
       "source": "작년 2학기 중간고사 기출 (2부)",
       "concepts": [
@@ -834,7 +862,8 @@
       "tags": [
         "Data integrity",
         "ALCOA"
-      ]
+      ],
+      "lec": 8
     },
     {
       "id": "past-030",
@@ -854,14 +883,14 @@
         "Compliance"
       ],
       "answer": 2,
-      "explanation": "**MCB 안의 이질성을 줄이려면 세포주가 단일 세포에서 유래했다는 것(clonality, monoclonal)을 보여야 한다.** non-clonal 세포은행은 공정이 바뀔 때마다 선택압으로 세포 집단이 달라져 제품이 변할 수 있고, ICH Q5D·EMA도 clonal 세포주를 기대한다.",
+      "explanation": "**MCB 안의 이질성을 줄이려면 세포주가 단일 세포에서 유래했다는 것(clonality)을 보여야 한다.** 세포주는 유전자를 넣은 세포 가운데 생산성이 좋은 클론 하나를 골라 만들며, 하나에서 출발해야 모든 세포가 같은 유전 정보를 가져 매번 같은 품질의 제품이 나온다. 제시문도 non-clonal 세포은행은 공정이 바뀔 때마다 선택압으로 세포 집단이 달라져 제품이 변할 수 있고, 단일 규정 문서가 명시하지는 않지만 clonal 세포주를 기대한다고 적었다.",
       "choiceNotes": [
-        "틀리다 — 안정성은 다른 평가 항목이다.",
-        "옳다 — 단일 세포 유래(clonality)를 기대한다.",
-        "틀리다 — 문맥과 맞지 않는 낱말이다.",
-        "틀리다 — 규정 준수 일반을 뜻한다."
+        "틀리다 — Stability(세포주 안정성)는 장기 계대·생산 끝까지 생산성과 유전 정보가 유지되는지 보는 별도 평가 항목이다. 제시문의 핵심어인 이질성(heterogeneity)·non-clonal과 맞지 않는다.",
+        "옳다 — 단일 세포 유래(clonality)가 확보돼야 MCB 안의 세포가 모두 같아 이질성이 줄고 공정이 바뀌어도 세포 집단이 변하지 않는다.",
+        "틀리다 — Effectively는 부사라 「Basis for the Expectation of ____」의 명사 자리에 맞지 않고, 이질성·non-clonal이라는 제시문 내용과도 관계가 없다.",
+        "틀리다 — Compliance(규정 준수)는 일반적인 말이다. 제시문은 단일 규정이 명시하지 않는다고 했으므로 규정 준수가 아니라 clonal 세포주에 대한 기대를 다룬다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 해설서 C1 (Cell line — 하나의 클론에서 출발) · WK04 강의 녹음② 39:12–42:32 (단일 세포 선별)",
       "concepts": [
         "CLD",
         "Clonality"
@@ -869,7 +898,8 @@
       "tags": [
         "CLD",
         "Clonality"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-031",
@@ -883,14 +913,14 @@
         "Host Cell Line"
       ],
       "answer": 2,
-      "explanation": "**원하는 유전자를 세포에 넣는 운반체(vector)가 expression construct다.** CLD의 네 요소는 host cell line(숙주 세포), expression construct(유전자 운반체), media system(배지), upstream process(배양 공정)이다.",
+      "explanation": "**원하는 유전자를 담아 세포에 넣는 운반체(vector)가 expression construct다.** CLD의 네 요소는 host cell line(유전자를 받아들이는 숙주세포), expression construct(목적 유전자와 promoter·선별 marker를 담은 발현 벡터), media system(배지·feed), upstream process(배양 공정)이다. 다음 문항 그림의 CLD 흐름도 Gene → Expression construct → Host cell line → clone screening → high productive clone 순이다.",
       "choiceNotes": [
-        "틀리다 — 배양 공정 요소다.",
-        "옳다 — 유전자를 담아 세포에 도입하는 vector다.",
-        "틀리다 — 배지 요소다.",
-        "틀리다 — 유전자를 받아들이는 숙주 세포다."
+        "틀리다 — Upstream process는 세포주를 배양해 제품을 만드는 공정 조건(배양 모드·pH·DO·온도 등)이라 유전자를 넣는 요소가 아니다.",
+        "옳다 — 목적 유전자를 promoter·선별 marker와 함께 담아 숙주세포에 도입(transfection)하는 발현 벡터가 expression construct다.",
+        "틀리다 — Media system은 세포가 자라고 단백질을 만들도록 영양을 주는 배지·feed다.",
+        "틀리다 — Host cell line은 유전자를 「받아들이는」 숙주세포(CHO·HEK293 등)이지 유전자를 넣는 도구가 아니다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 해설서 C1 (Cell line과 CLD)",
       "concepts": [
         "CLD",
         "Expression construct"
@@ -898,7 +928,8 @@
       "tags": [
         "CLD",
         "Expression construct"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-032",
@@ -913,14 +944,14 @@
         "RCB – MCB – WCB – EOPC – UBH"
       ],
       "answer": 4,
-      "explanation": "**CLD 끝에 RCB(Research Cell Bank)를 만들고, 이를 키워 MCB → WCB를 만든 뒤, 생산 배양이 끝난 세포는 EOPC(End of Production Cells)로 확인하고 수확액은 UBH(Unprocessed Bulk Harvest)가 된다.**",
+      "explanation": "**CLD 끝에 RCB(Research Cell Bank)를 만들고, 이를 키워 MCB → WCB를 만든 뒤, 생산 배양이 끝난 세포는 EOPC(End of Production Cells)로 확인하고 수확액은 UBH(Unprocessed Bulk Harvest)가 된다.** RCB는 세포주 개발 직후의 세포, MCB는 선별 클론을 GMP 시설에서 키워 나눠 동결한 은행(GMP가 처음 적용), WCB는 MCB 바이알 하나를 녹여 키운 뒤 다시 나눠 동결한 작업용 은행이고 실제 생산은 WCB 바이알로 시작한다. EOPC는 생산이 끝난 세포가 처음과 달라지지 않았는지 확인하는 데 쓴다.",
       "choiceNotes": [
-        "틀리다 — 순서가 거꾸로다.",
-        "틀리다 — RCB가 MCB보다 먼저다.",
-        "틀리다 — MCB가 WCB보다 먼저다.",
-        "옳다 — RCB → MCB → WCB → EOPC → UBH."
+        "틀리다 — WCB를 맨 앞에 둔 거꾸로 된 순서다. WCB는 MCB 바이알로 만드는 작업용 은행이라 MCB보다 앞설 수 없다.",
+        "틀리다 — CLD 직후(그림 A)에 만드는 것은 RCB다. MCB를 RCB보다 앞에 두었고 WCB를 생산 배양(EOPC) 뒤에 놓았다.",
+        "틀리다 — RCB 다음에 WCB, 그 뒤에 MCB를 두었다. MCB 바이알 하나로 WCB 여러 개를 만들므로(그림 B → C) MCB가 먼저다.",
+        "옳다 — RCB(A) → MCB(B) → WCB(C) → 생산 배양 끝의 세포 EOPC(D) → harvest한 미정제 배양액 UBH(E) 순이다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 해설서 C1 · WK02 PDF p.15–16 (수업 필기: Cell Banking — RCB, MCB, WCB, EPC) · WK04 강의 녹음② 43:24–49:36 (MCB, WCB, EOPCB)",
       "concepts": [
         "RCB",
         "MCB",
@@ -932,7 +963,8 @@
         "MCB",
         "WCB",
         "EOPC"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-033",
@@ -946,20 +978,21 @@
         "Hydrolysates"
       ],
       "answer": 2,
-      "explanation": "**Transferrin은 철 이온과 결합해 세포 안으로 운반하는 단백질이라, 자유 철 이온이 활성산소를 만들거나 침전되는 것을 줄인다(일반 원리).** Phenol red는 pH 지시약, hydrocortisone은 호르몬, hydrolysate는 가수분해 영양 보충물이다.",
+      "explanation": "**Transferrin은 철 이온과 결합해 세포 안으로 운반하는 carrier protein이라, 자유 철 이온이 활성산소를 만들거나 침전되는 것을 줄인다(일반 원리).** 교안의 배지 구성에서 basal medium에는 bulk salt·trace element가, media supplement에는 serum·hydrolysate·growth factor·carrier protein이 들어가고, 세포 밖 환경 목록의 protein 항목에 albumin·insulin·transferrin이 있다. Phenol red는 pH 지시약, hydrocortisone은 스테로이드 호르몬, hydrolysate는 가수분해 영양 보충물이다.",
       "choiceNotes": [
-        "틀리다 — pH 지시약이다.",
-        "옳다 — 철을 결합·운반한다.",
-        "틀리다 — 스테로이드 호르몬이다.",
-        "틀리다 — 펩타이드 영양 보충물이다."
+        "틀리다 — Phenol red는 배지 색으로 pH를 보여 주는 지시약(산성 노랑, 알칼리 빨강)이라 금속 이온과 결합하지 않는다.",
+        "옳다 — 철(Fe³⁺)을 단단히 붙잡아 자유 철이 활성산소를 만드는 반응(Fenton 반응)과 침전을 막고, transferrin 수용체를 통해 세포 안으로 철을 넣어 준다.",
+        "틀리다 — Hydrocortisone은 세포 증식·분화를 조절하는 스테로이드 호르몬(glucocorticoid)이라 금속 이온을 묶지 않는다.",
+        "틀리다 — Hydrolysate는 식물·효모 단백질을 가수분해한 펩타이드·아미노산 보충물로 영양을 더하는 성분이다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · WK02 PDF p.45 (Energy Source for Cell Growth from Media — trace elements, carrier proteins), p.58 (The Extracellular Environment — Albumin, Insulin, Transferrin, Trace Metals)",
       "concepts": [
         "배지 성분"
       ],
       "tags": [
         "배지 성분"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-034",
@@ -973,20 +1006,21 @@
         "Hormone – 상온 (37°C)에서 불안정함"
       ],
       "answer": 2,
-      "explanation": "**Hydrolysate(식물·효모 가수분해물)는 값이 싸고 영양이 풍부하지만, 성분이 정해지지 않아 lot 간 차이(lot variation)가 크다.** 그래서 chemically defined 배지로 대체하는 추세다(일반 원리).",
+      "explanation": "**Hydrolysate(식물·효모 가수분해물)는 값이 싸고 영양이 풍부하지만, 성분이 정해지지 않은 혼합물이라 lot 간 차이(lot variation)가 크다.** 그래서 chemically defined 배지로 대체하는 추세다. 교안은 배지를 basal medium(당·아미노산·지방산·비타민·염·미량 원소·pH 버퍼)과 media supplement(serum·hydrolysate·phospholipid·growth factor·carrier protein)로 나눈다. 각 보충 성분의 장단점은 일반 원리다.",
       "choiceNotes": [
-        "옳은 진술 — FBS는 증식·생존을 돕지만 동물 유래·lot 차이 문제가 있다.",
-        "틀린 진술(정답) — lot variation이 크다는 것이 hydrolysate의 단점이다.",
-        "옳은 진술 — growth factor는 효과가 크지만 비싸다.",
-        "옳은 진술 — 호르몬은 37 ℃에서 불안정하다."
+        "옳은 진술 — FBS에는 성장인자·호르몬·carrier protein이 들어 있어 증식·생존을 높인다. 다만 동물 유래라 외래 바이러스 위험과 lot 차이가 있어 생산 공정은 serum-free 배지를 쓴다.",
+        "틀린 진술(정답) — Hydrolysate는 싸지만 성분이 정해지지 않아 lot마다 조성이 달라 배양 성능이 흔들린다. Lot variation이 큰 것이 단점이다.",
+        "옳은 진술 — EGF·IGF 같은 growth factor는 아주 적은 양으로 증식·분화·이동·분비를 조절하지만 재조합 단백질이라 비싸다.",
+        "옳은 진술 — Insulin 같은 단백질 호르몬은 37 ℃ 배양 온도에서 분해되기 쉬워 냉장 보관하고 필요할 때 넣는다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · WK02 PDF p.45 (Energy Source for Cell Growth from Media — Basal Medium, Media Supplements)",
       "concepts": [
         "배지 성분"
       ],
       "tags": [
         "배지 성분"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-035",
@@ -1000,20 +1034,21 @@
         "Methanol"
       ],
       "answer": 1,
-      "explanation": "**Dialysis(투석) 방식 online 분석기는 막을 통과한 저분자 대사물질(glucose·lactate)을 효소 센서로 잰다(기출 정답, 일반 원리).** IgG 같은 큰 단백질은 투석막을 통과하지 못하고, methanol은 미생물(Pichia) 공정 지표다.",
+      "explanation": "**Dialysis(투석) 방식 online 분석기는 막을 통과한 저분자 대사물질을 효소 센서로 재며, 대표 항목이 glucose와 lactate다(기출 정답, 일반 원리).** 교안의 bioreactor PAT 목록에도 online 측정 항목은 「Online Glucose, Lactate」로 나오고, perfusion 배양 그림에서는 이 online glucose·lactate 값으로 glucose 농도를 제어한다. Glutamine·ammonium은 시료를 꺼내 재는 IPC 항목으로 다루고, IgG 같은 큰 단백질은 투석막을 통과하지 못하며, methanol은 Pichia 같은 효모 공정의 지표다.",
       "choiceNotes": [
-        "옳다 — glucose와 함께 대표적인 dialysis 측정 대사물질이다.",
-        "틀리다 — 출제 기준상 dialysis 대표 측정 항목이 아니다.",
-        "틀리다 — 큰 단백질이라 투석막을 통과하지 못한다.",
-        "틀리다 — 동물세포 배양 지표가 아니다."
+        "옳다 — Glucose와 함께 dialysis probe로 online 측정하는 대표 대사물질이다. 교안의 perfusion PAT도 online glucose·lactate를 쓴다.",
+        "틀리다 — Glutamine은 교안에서 시료를 꺼내 분석하는 offline IPC 항목(Gln·Glu·NH₄⁺)으로 다루며, online dialysis 측정 항목으로는 glucose·lactate만 나온다.",
+        "틀리다 — IgG(약 150 kDa)는 투석막을 통과하지 못하는 큰 단백질이다. 교안은 titer를 offline 분석이나 spectroscopy(online titer)로 본다.",
+        "틀리다 — Methanol은 Pichia 같은 효모 발현계에서 유도·탄소원으로 쓰는 물질이라 동물세포 배양의 dialysis 측정 대상이 아니다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · WK02 PDF p.19 (Main Parts for Cell Culture Technologies — Online Glucose, Lactate), p.42 (Perfusion Bioreactor Set Up with PAT Integration), p.46 (Process Parameters by Offline Analysis)",
       "concepts": [
         "PAT"
       ],
       "tags": [
         "PAT"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-036",
@@ -1027,14 +1062,14 @@
         "Setpoint"
       ],
       "answer": 2,
-      "explanation": "**실험 범위 밖을 예측하는 것은 extrapolation(외삽), 범위 안은 interpolation(내삽)이다.** (같은 해 시험에 보기만 바꿔 다시 나온 문항이다.)",
+      "explanation": "**실험 범위 밖을 예측하는 것은 extrapolation(외삽), 범위 안을 예측하는 것은 interpolation(내삽)이다.** 외삽 영역은 실험으로 검증되지 않아 불확실성이 크므로 공정 조건은 실험 범위 안에서 정한다(일반 원리). 교안 DoE 예에서는 pH·교반·접종 밀도를 factor로 바꿔 VCD·viability를 보고, 실험 범위 안에서 design space와 set point(pH 6.96, 1,009 rpm)를 정했다. (같은 해 시험에 보기만 바꿔 다시 나온 문항이다.)",
       "choiceNotes": [
-        "틀리다 — 품질이 보증된 조건 범위다.",
-        "옳다 — 범위 밖 예측이다.",
-        "틀리다 — 실험 변수다.",
-        "틀리다 — 제어 목표값이다."
+        "틀리다 — Design space는 품질이 보증된다고 실험으로 입증된 공정 조건의 다차원 범위다. 실험 범위 「안」의 결론이라 범위 밖 예측과 반대다.",
+        "옳다 — 실험한 요인 범위 밖의 반응을 모델로 내다보는 것이 extrapolation이다.",
+        "틀리다 — Factor는 실험에서 일부러 바꾸는 변수(pH·교반 속도·접종 밀도 등)다.",
+        "틀리다 — Setpoint는 제어 목표로 정한 한 점의 값(교안 예: pH 6.96)이다. 예측 기법이 아니다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · 해설서 D1 · WK02 PDF p.13 (DoE — screening·optimization design), p.57 (Condition with 24 vessel), p.70 (Conclusion in Design Space)",
       "concepts": [
         "DoE",
         "Extrapolation"
@@ -1042,7 +1077,8 @@
       "tags": [
         "DoE",
         "Extrapolation"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-037",
@@ -1057,14 +1093,14 @@
         "위와 같은 그래프를 Hotelling T2 라고 부른다."
       ],
       "answer": 4,
-      "explanation": "**그림은 PCA score plot이고, Hotelling's T2는 그 위에 그린 95 % 신뢰 타원(이상치 판단 기준)이지 그래프 이름이 아니다(기출 정답).** 각 점은 샘플(국가), 점 크기는 특정 변수(Garlic) 값, 점 위치는 loading으로 데이터를 투영해 얻은 score(t[1], t[2])로 정해진다.",
+      "explanation": "**그림은 PCA score plot이고, Hotelling's T2는 그 위에 그린 95 % 신뢰 타원(이상치 판단 기준)이지 그래프 이름이 아니다(기출 정답).** 그림 아래의 「Ellipse: Hotelling's T2 (95%)」가 그 뜻이다. 각 점은 샘플(국가) 하나, 점 크기는 특정 변수(Garlic) 값, 점 위치는 데이터를 loading(주성분 방향) 위에 투영한 score(t[1], t[2])로 정해진다. 교안은 이런 MVDA(PCA)로 배치 사이의 그룹과 이상 배치를 비교한다.",
       "choiceNotes": [
-        "옳은 진술 — 각 점은 샘플(국가) 하나다.",
-        "옳은 진술 — 점 크기는 Garlic 변수 값으로 정했다.",
-        "옳은 진술 — score는 데이터를 loading 방향으로 투영한 값이라 위치는 loading에 따라 정해진다.",
-        "틀린 진술(정답) — 그래프는 score plot이고 T2는 신뢰 타원이다."
+        "옳은 진술 — 점 하나가 샘플(observation) 하나이고, 이름표(Sweden·Italy 등)가 샘플 이름이다. 색은 지역으로 나눴다.",
+        "옳은 진술 — 그림 제목의 「Size based on DS1.Variable(Garlic)」처럼 점 크기를 특정 변수(Garlic) 값으로 정했다.",
+        "옳은 진술 — score는 각 샘플 데이터를 loading 벡터 위에 투영한 값(t = X·p)이라, 점의 위치는 loading에 따라 정해진다.",
+        "틀린 진술(정답) — 그래프 이름은 score plot(t[1]–t[2])이다. Hotelling's T2는 그 위의 95 % 신뢰 타원으로, 타원 밖의 점을 이상치로 본다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · WK02 PDF p.50–51 (Advanced Data Analysis — PCA), p.53 (Group Analysis from Batch to Batch), p.76 (MVDA)",
       "concepts": [
         "PCA",
         "Data analytics"
@@ -1072,7 +1108,8 @@
       "tags": [
         "PCA",
         "Data analytics"
-      ]
+      ],
+      "lec": 2
     },
     {
       "id": "past-038",
@@ -1087,14 +1124,14 @@
         "실시간으로 살아있는 세포의 양을 보여준다."
       ],
       "answer": 1,
-      "explanation": "**정전용량(capacitance) 센서는 살아 있는 세포의 양(viable biovolume)을 보여 줄 뿐, 생존율(%)은 직접 측정하지 못한다.** 실시간 신호라 feed·perfusion 속도 같은 공정 제어에도 쓴다. (같은 해 시험에 보기를 바꿔 다시 나온 문항이다.)",
+      "explanation": "**정전용량(capacitance) 센서는 살아 있는 세포의 양(viable cell volume)을 보여 줄 뿐, 생존율(%)은 직접 측정하지 못한다.** 막이 온전한 세포만 교류 전기장에서 분극되어 신호를 내므로 죽은 세포 수를 알 수 없다. 실시간 신호라 모니터링과 공정 제어를 함께 할 수 있어, 교안의 perfusion 배양은 online VCD 값으로 cell bleed를 조절해 세포밀도를 유지한다(feed 속도 제어에도 쓴다, 일반 원리). (같은 해 시험에 보기를 바꿔 다시 나온 문항이다.)",
       "choiceNotes": [
-        "틀린 진술(정답) — 생존율(%)은 전체 세포 수가 필요해 이 센서로 직접 알 수 없다.",
-        "옳은 진술 — 막이 온전한 세포가 전기장에서 분극된다.",
-        "옳은 진술 — 실시간 값으로 모니터링과 제어를 함께 한다.",
-        "옳은 진술 — 살아 있는 세포의 양을 실시간으로 보여 준다."
+        "틀린 진술(정답) — 생존율은 살아 있는 세포 ÷ 전체 세포라 죽은 세포 수가 필요한데, 이 센서는 막이 온전한 세포만 감지한다. 생존율은 시료를 꺼내 offline으로 잰다.",
+        "옳은 진술 — 교류 전기장에서 막이 온전한 세포 안의 자유 전하(이온)가 막 안쪽에 쌓여 분극되고, 그 정전용량을 잰다.",
+        "옳은 진술 — 실시간 값을 그대로 제어 신호로 쓸 수 있다. 교안의 perfusion 배양은 online VCD로 cell bleed를 조절한다.",
+        "옳은 진술 — 죽은 세포·찌꺼기·기포는 분극되지 않아 살아 있는 세포의 양만 실시간으로 보여 준다."
       ],
-      "source": "작년 2학기 중간고사 기출 (2부)",
+      "source": "작년 2학기 중간고사 기출 (2부) · WK02 PDF p.19 (Online Viable Cell Density), p.23 (Connection of Viamass Sensor), p.42 (Perfusion Bioreactor Set Up with PAT Integration — Control of VCD by Cell Bleed)",
       "concepts": [
         "PAT",
         "Capacitance sensor"
@@ -1102,7 +1139,8 @@
       "tags": [
         "PAT",
         "Capacitance sensor"
-      ]
+      ],
+      "lec": 2
     }
   ]
 }
