@@ -1,3 +1,13 @@
+# 출제 현황
+
+## 2026.10.15 기출 스타일 전면 재구성 (현재 출제 범위)
+
+- **기출** `past.json` 38문항: 작년 2학기 중간고사 1부(3·8·11·12·13·15·17·23·34·36·41·45·48번)와 2부(DoE, capacitance 센서, CTD, QbT/QbD, PAR, ice capacity, PK/PD, 품질·비임상·바이오시밀러, MFDS 허가 주관(단답), 약어 짝, 연구 QMS, 약사법, QC 역할, 데이터 완전성, CLD clonality·expression construct, 세포은행 순서, transferrin, 배지 성분, dialysis 센서, PCA score plot).
+- **예상** `expect.json` 388문항: 해설서 절별 — A0–A3 65(크로마토 기본·Resolution·Efficiency·IEX), A4–A10 64(SEC·MMC·Gradient·Purification·컬럼 계산·Scale-up), B1–B7 65(완제·Formulation·무균 3방법·APS·RABS·VHP·Isolator OQ), C1–D2 65(Cell line·Platform·CPP·Clarification·성장·Tip speed·IPC·Design space·배양 모드), E1–E8 65(여과 구분·Impurity·Mass balance·pI·1 cycle·혈장 분획·같은 공정 조건·여과 범용성), E9–부록 64(공정 순서·잘못 쓰는 단어·PW/WFI·HEPA·Class 100·Q vs V·7주차 후보).
+- 근거가 불확실해 뺀 것: 판독 불확실 필기, 제품명 단독 문항, 세부 수치(H13·H14, 18.2 MΩ·cm, 700 kD 단답 등).
+
+## 이전 구성 (archive)
+
 # 출제 현황 (Coverage)
 
 강의별로 **이미 출제한 주제**와 **아직 출제하지 않은 주제(다음 업데이트 후보)** 를 정리한다.
