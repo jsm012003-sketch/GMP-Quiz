@@ -122,8 +122,8 @@ def main() -> int:
                 warnings.append(f"{where}: explanation(해설) 없음")
             if not q.get("source"):
                 warnings.append(f"{where}: source(출처) 없음")
-            if len(choices) != 5:
-                warnings.append(f"{where}: 5지선다가 아닙니다 ({len(choices)}개)")
+            if len(choices) not in (4, 5):  # 2026.10.15부터 작년 기출처럼 4지선다(ⓐ~ⓓ)가 기본
+                warnings.append(f"{where}: 4·5지선다가 아닙니다 ({len(choices)}개)")
             for mark in ("①", "②", "③", "④", "⑤"):
                 if mark in str(q.get("explanation", "")):
                     warnings.append(f"{where}: 해설에 보기 번호({mark})가 있습니다 — 보기를 섞으면 번호가 바뀝니다")

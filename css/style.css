@@ -823,3 +823,6 @@ table.data.mini th { color: var(--text); font-size: .84rem; }
 .short-sub > span { font-weight: 600; min-width: 9em; }
 .short-sub .short-input { flex: 1; min-width: 8em; }
 .sub-ans { display: inline-block; margin-right: 12px; }
+/* 그림 문항 (2026.10.15 — 작년 기출의 센서·그래프·흐름도) */
+.qimg { margin: 8px 0 10px; text-align: center; }
+.qimg img { max-width: 100%; height: auto; border: 1px solid var(--line, #ddd); border-radius: 6px; background: #fff; }

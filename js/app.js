@@ -34,8 +34,8 @@
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
   const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.04 };
   // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
-  const FINAL_UNITS = ['FINAL'];
-  const FINAL_CALC_SHARE = 0.3;
+  const FINAL_UNITS = ['기출']; // 2026.10.15: 파이널 모드 = 작년 2학기 중간고사 기출(questions/past.json)
+  const FINAL_CALC_SHARE = 0;
   const isFixedScope = (mode) => mode === 'mock' || mode === 'final';
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
@@ -48,13 +48,13 @@
     balance: { label: '균형', review: 0.4, desc: '복습 40%' },
     weak: { label: '약점 집중', review: 0.7, desc: '복습 70%' },
   };
-  const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
+  const CIRCLED = ['ⓐ', 'ⓑ', 'ⓒ', 'ⓓ', 'ⓔ', 'ⓕ', 'ⓖ', 'ⓗ', 'ⓘ', 'ⓙ']; // 작년 기출처럼 ⓐ~ⓓ (2026.10.15)
   const COUNT_OPTIONS = [10, 20, 30, 40, 50];
   const MODES = {
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
-    final: { label: '시험 적중 파이널 모의고사', icon: '🎯', kind: 'exam', desc: '출제 예상 키워드의 계산·고난도 문항만 모은 실전 시험 (50문항 · 90분)' },
+    final: { label: '작년 중간고사 기출', icon: '🎯', kind: 'exam', desc: '작년 2학기 중간고사 기출문제를 원문 그대로 푸는 시험 (해설 포함)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
     shared: { label: '공유 시험지', icon: '🔗', kind: 'exam', desc: '' },
   };
@@ -305,6 +305,7 @@
           format: essay ? 'essay' : (shortQ ? 'short' : 'mc'),
           question: q.question,
           box: Array.isArray(q.box) ? q.box.filter((b) => typeof b === 'string') : null,
+          images: (Array.isArray(q.image) ? q.image : (q.image ? [q.image] : [])).filter((x) => typeof x === 'string'),
           choices: written ? [] : q.choices,
           answer: written ? 0 : q.answer,
           answers: shortQ ? q.answers : [],
@@ -524,12 +525,14 @@
     let review = new Set();
     if (mode === 'review') {
       picked = shuffle(pool);
+    } else if (mode === 'final') {
+      picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
       ({ picked, review } = compose(pool, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : {}));
     }
-    picked = mode === 'review' ? picked : orderPicked(picked, kind);
+    picked = (mode === 'review' || mode === 'final') ? picked : orderPicked(picked, kind);
     return sessionFrom(mode, picked, { review, poolSize: pool.length });
   }
 
@@ -922,7 +925,7 @@
         <section class="card">
           <div class="card-head">
             <h2>2. 범위 선택</h2>
-            <span class="muted small">${mode === 'final' ? '파이널 문항 자동 선택' : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
+            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
           </div>
           <div class="unit-list">${unitRows}</div>
           ${isMock ? '' : `
@@ -1039,7 +1042,7 @@
       <div class="wrap">
         <section class="card">
           <h2>출제 현황</h2>
-          <p class="muted small" style="margin-top:0">범위: ${mode === 'mock' ? '전범위' : mode === 'final' ? '시험 적중 파이널' : esc(scopeKeys.map(unitLabel).join(', ') || '선택 없음')}</p>
+          <p class="muted small" style="margin-top:0">범위: ${mode === 'mock' ? '전범위' : mode === 'final' ? '작년 중간고사 기출' : esc(scopeKeys.map(unitLabel).join(', ') || '선택 없음')}</p>
           <div class="stat-tiles">
             <div class="stat-tile"><div class="stat-label">출제된 문항</div><div class="stat-value">${all.served}<small> / ${all.total}</small></div></div>
             <div class="stat-tile"><div class="stat-label">다룬 개념</div><div class="stat-value">${all.conceptCovered}<small> / ${all.conceptTotal}</small></div></div>
@@ -1057,8 +1060,10 @@
 
   // ---------------------------------------------------------------- 공통 조각
   function boxHTML(q) {
-    if (!q.box || !q.box.length) return '';
-    return `<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p>${rich(b)}</p>`).join('')}</div>`;
+    // 그림 문항(기출의 센서·그래프 등): "image": "img/past/…png" 또는 배열
+    const imgs = (q.images || []).map((src) => `<figure class="qimg"><img src="${esc(src)}" alt="문항 그림"></figure>`).join('');
+    if (!q.box || !q.box.length) return imgs;
+    return `${imgs}<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p>${rich(b)}</p>`).join('')}</div>`;
   }
   function tagsHTML(q, item) {
     const u = unitOf(q.unit);
@@ -1266,7 +1271,7 @@
   function examTitle(mode, title) {
     if (title) return `${esc(title)} / Practice Exam`;
     if (mode === 'shared') return '공유 시험지 / Shared Exam';
-    if (mode === 'final') return '시험 적중 파이널 모의고사 / Final Mock Exam';
+    if (mode === 'final') return '작년 2학기 중간고사 기출 / Past Exam';
     return mode === 'mock' ? '전범위 모의고사 / Full-Range Mock Exam' : '실전 평가 / Practice Exam';
   }
   function partGroups(session) {
