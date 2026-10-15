@@ -9,7 +9,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비."
+    "외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비."
    ],
    "choices": [
     "Closed RABS",
@@ -19,13 +19,13 @@
     "Worst case (최악 조건)"
    ],
    "answer": 3,
-   "explanation": "**Isolator** — 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.",
+   "explanation": "**Isolator** — 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.",
    "choiceNotes": [
     "틀리다 — Closed RABS: 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식.",
-    "틀리다 — RABS (Restricted Access Barrier System): 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.",
-    "정답 — 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.",
-    "틀리다 — SCDM (Soybean-Casein Digest Medium): 여러 미생물이 잘 자라 APS에 쓰는 배지.",
-    "틀리다 — Worst case (최악 조건): 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다."
+    "틀리다 — RABS (Restricted Access Barrier System): 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.",
+    "정답 — 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.",
+    "틀리다 — SCDM (Soybean-Casein Digest Medium): 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.",
+    "틀리다 — Worst case (최악 조건): 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다."
    ],
    "source": "02 RABS & APS PDF p.9–10",
    "concepts": [
@@ -56,8 +56,8 @@
    "choiceNotes": [
     "정답 — 차단벽 없이 무균복만으로 작업자와 공정을 나누는 개방형 무균 환경.",
     "틀리다 — Open RABS: 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.",
-    "틀리다 — Isolator: 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.",
-    "틀리다 — Intervention (간섭): 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "틀리다 — Isolator: 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.",
+    "틀리다 — Intervention (간섭): 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "틀리다 — SOP / WI: 누가 해도 같은 방법으로 하도록 절차를 문서로 정한 것."
    ],
    "source": "02 RABS & APS PDF p.9–10",
@@ -120,7 +120,7 @@
    "answer": 4,
    "explanation": "**단일방향 기류 (Unidirectional airflow)** — 공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름.",
    "choiceNotes": [
-    "틀리다 — VHP (Vaporized Hydrogen Peroxide): 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.",
+    "틀리다 — VHP (Vaporized Hydrogen Peroxide): 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.",
     "틀리다 — HEPA 필터: 아주 작은 입자까지 걸러 깨끗한 공기를 보내는 고성능 공기 필터.",
     "틀리다 — Bracketing: 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.",
     "정답 — 공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름.",
@@ -155,7 +155,7 @@
    "choiceNotes": [
     "틀리다 — 글러브포트 (Glove port): 벽에 달린 장갑으로, 벽을 열지 않고 안쪽을 조작하게 하는 장치.",
     "정답 — HEPA에서 나와 다른 곳을 거치지 않고 제품에 처음 닿는 깨끗한 공기.",
-    "틀리다 — VHP (Vaporized Hydrogen Peroxide): 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.",
+    "틀리다 — VHP (Vaporized Hydrogen Peroxide): 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.",
     "틀리다 — Corrective intervention (조치 간섭): 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.",
     "틀리다 — EU GMP Annex 1: 무균 의약품 제조에 관한 EU GMP 부속서."
    ],
@@ -219,9 +219,9 @@
    "answer": 2,
    "explanation": "**2단계 배양 (APS incubation)** — 배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건.",
    "choiceNotes": [
-    "틀리다 — SCDM (Soybean-Casein Digest Medium): 여러 미생물이 잘 자라 APS에 쓰는 배지.",
+    "틀리다 — SCDM (Soybean-Casein Digest Medium): 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.",
     "정답 — 배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건.",
-    "틀리다 — APS (Aseptic Process Simulation): 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.",
+    "틀리다 — APS (Aseptic Process Simulation): 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.",
     "틀리다 — Viable / Non-viable monitoring: 살아 있는 미생물과 일반 입자를 나눠 재는 환경모니터링.",
     "틀리다 — 단일방향 기류 (Unidirectional airflow): 공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름."
    ],
@@ -255,7 +255,7 @@
     "정답 — 배지 용기 중 하나라도 오염되면 실패로 보는 APS 합격 기준.",
     "틀리다 — Initial APS: 새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요).",
     "틀리다 — Routine APS: 6개월마다 정기적으로 반복하는 APS.",
-    "틀리다 — Intervention (간섭): 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "틀리다 — Intervention (간섭): 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "틀리다 — 근본원인 조사 (Root cause investigation): 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치."
    ],
    "source": "02 RABS & APS PDF p.19 (Annex 1, 9.46)",
@@ -273,7 +273,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함)."
+    "무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행)."
    ],
    "choices": [
     "Corrective intervention (조치 간섭)",
@@ -283,12 +283,12 @@
     "스모크 스터디 (Smoke study)"
    ],
    "answer": 4,
-   "explanation": "**Intervention (간섭)** — 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+   "explanation": "**Intervention (간섭)** — 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
    "choiceNotes": [
     "틀리다 — Corrective intervention (조치 간섭): 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.",
     "틀리다 — Inherent intervention (일상적 간섭): 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.",
     "틀리다 — 시정조치 (Corrective action): 밝혀낸 원인을 없애기 위해 실행하는 조치.",
-    "정답 — 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "정답 — 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "틀리다 — 스모크 스터디 (Smoke study): 연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수)."
    ],
    "source": "02 RABS & APS PDF p.17",
@@ -319,7 +319,7 @@
    "explanation": "**Inherent intervention (일상적 간섭)** — 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.",
    "choiceNotes": [
     "틀리다 — Corrective intervention (조치 간섭): 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.",
-    "틀리다 — Intervention (간섭): 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "틀리다 — Intervention (간섭): 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "틀리다 — 시정조치 (Corrective action): 밝혀낸 원인을 없애기 위해 실행하는 조치.",
     "틀리다 — Open RABS: 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.",
     "정답 — 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작."
@@ -352,7 +352,7 @@
    "explanation": "**Corrective intervention (조치 간섭)** — 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.",
    "choiceNotes": [
     "틀리다 — Inherent intervention (일상적 간섭): 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.",
-    "틀리다 — Intervention (간섭): 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "틀리다 — Intervention (간섭): 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "틀리다 — Initial APS: 새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요).",
     "정답 — 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.",
     "틀리다 — 기존 클린룸 (Conventional cleanroom): 차단벽 없이 무균복만으로 작업자와 공정을 나누는 개방형 무균 환경."
@@ -372,7 +372,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다."
+    "오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다."
    ],
    "choices": [
     "Bracketing",
@@ -382,11 +382,11 @@
     "Viable / Non-viable monitoring"
    ],
    "answer": 3,
-   "explanation": "**Worst case (최악 조건)** — 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
+   "explanation": "**Worst case (최악 조건)** — 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
    "choiceNotes": [
     "틀리다 — Bracketing: 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.",
     "틀리다 — SOP / WI: 누가 해도 같은 방법으로 하도록 절차를 문서로 정한 것.",
-    "정답 — 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
+    "정답 — 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
     "틀리다 — 근본원인 조사 (Root cause investigation): 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.",
     "틀리다 — Viable / Non-viable monitoring: 살아 있는 미생물과 일반 입자를 나눠 재는 환경모니터링."
    ],
@@ -418,7 +418,7 @@
    "explanation": "**Bracketing** — 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.",
    "choiceNotes": [
     "정답 — 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.",
-    "틀리다 — Worst case (최악 조건): 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
+    "틀리다 — Worst case (최악 조건): 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
     "틀리다 — Closed RABS: 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식.",
     "틀리다 — 시정조치 (Corrective action): 밝혀낸 원인을 없애기 위해 실행하는 조치.",
     "틀리다 — First air: HEPA에서 나와 다른 곳을 거치지 않고 제품에 처음 닿는 깨끗한 공기."
@@ -451,9 +451,9 @@
    "explanation": "**근본원인 조사 (Root cause investigation)** — 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.",
    "choiceNotes": [
     "틀리다 — 시정조치 (Corrective action): 밝혀낸 원인을 없애기 위해 실행하는 조치.",
-    "틀리다 — RABS (Restricted Access Barrier System): 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.",
-    "틀리다 — Intervention (간섭): 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
-    "틀리다 — CCS (Contamination Control Strategy): 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.",
+    "틀리다 — RABS (Restricted Access Barrier System): 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.",
+    "틀리다 — Intervention (간섭): 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
+    "틀리다 — CCS (Contamination Control Strategy): 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.",
     "정답 — 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치."
    ],
    "source": "02 RABS & APS PDF p.19",
@@ -485,7 +485,7 @@
    "choiceNotes": [
     "틀리다 — 근본원인 조사 (Root cause investigation): 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.",
     "정답 — 밝혀낸 원인을 없애기 위해 실행하는 조치.",
-    "틀리다 — RABS (Restricted Access Barrier System): 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.",
+    "틀리다 — RABS (Restricted Access Barrier System): 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.",
     "틀리다 — GPT (Growth Promotion Test): APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.",
     "틀리다 — 단일방향 기류 (Unidirectional airflow): 공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름."
    ],
@@ -518,7 +518,7 @@
    "choiceNotes": [
     "틀리다 — SOP / WI: 누가 해도 같은 방법으로 하도록 절차를 문서로 정한 것.",
     "틀리다 — Viable / Non-viable monitoring: 살아 있는 미생물과 일반 입자를 나눠 재는 환경모니터링.",
-    "틀리다 — CCS (Contamination Control Strategy): 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.",
+    "틀리다 — CCS (Contamination Control Strategy): 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.",
     "틀리다 — 글러브포트 (Glove port): 벽에 달린 장갑으로, 벽을 열지 않고 안쪽을 조작하게 하는 장치.",
     "정답 — 열어 두고 떨어지는 미생물을 받는 배지 접시."
    ],
@@ -552,8 +552,8 @@
     "정답 — 살아 있는 미생물과 일반 입자를 나눠 재는 환경모니터링.",
     "틀리다 — SOP / WI: 누가 해도 같은 방법으로 하도록 절차를 문서로 정한 것.",
     "틀리다 — Settle plate (낙하균 배지): 열어 두고 떨어지는 미생물을 받는 배지 접시.",
-    "틀리다 — APS (Aseptic Process Simulation): 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.",
-    "틀리다 — SCDM (Soybean-Casein Digest Medium): 여러 미생물이 잘 자라 APS에 쓰는 배지."
+    "틀리다 — APS (Aseptic Process Simulation): 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.",
+    "틀리다 — SCDM (Soybean-Casein Digest Medium): 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다."
    ],
    "source": "02 RABS & APS PDF p.13",
    "concepts": [
@@ -572,12 +572,12 @@
    "choices": [
     "작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식",
     "차단벽 없이 무균복만으로 작업자와 공정을 나누는 개방형 무균 환경",
-    "차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템",
-    "무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함)",
+    "물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템",
+    "무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행)",
     "문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치"
    ],
    "answer": 3,
-   "explanation": "**RABS (Restricted Access Barrier System)** — 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.",
+   "explanation": "**RABS (Restricted Access Barrier System)** — 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.",
    "choiceNotes": [
     "틀리다 — Closed RABS의 설명이다.",
     "틀리다 — 기존 클린룸 (Conventional cleanroom)의 설명이다.",
@@ -602,9 +602,9 @@
    "choices": [
     "작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식",
     "작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식",
-    "완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비",
-    "오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법"
+    "외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비",
+    "오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다",
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법"
    ],
    "answer": 2,
    "explanation": "**Open RABS** — 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.",
@@ -630,11 +630,11 @@
    "part": 1,
    "question": "「Closed RABS」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템",
+    "물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템",
     "작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식",
     "배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건",
     "작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법"
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법"
    ],
    "answer": 4,
    "explanation": "**Closed RABS** — 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식.",
@@ -692,12 +692,12 @@
    "choices": [
     "공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름",
     "HEPA에서 나와 다른 곳을 거치지 않고 제품에 처음 닿는 깨끗한 공기",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법",
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법",
     "6개월마다 정기적으로 반복하는 APS",
     "장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작"
    ],
    "answer": 3,
-   "explanation": "**VHP (Vaporized Hydrogen Peroxide)** — 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.",
+   "explanation": "**VHP (Vaporized Hydrogen Peroxide)** — 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.",
    "choiceNotes": [
     "틀리다 — 단일방향 기류 (Unidirectional airflow)의 설명이다.",
     "틀리다 — First air의 설명이다.",
@@ -721,13 +721,13 @@
    "question": "「CCS (Contamination Control Strategy)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "무균 의약품 제조에 관한 EU GMP 부속서",
-    "시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략",
+    "시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획",
     "공기가 한 방향·일정 속도로 흘러 오염 입자를 밖으로 쓸어내는 흐름",
     "HEPA에서 나와 다른 곳을 거치지 않고 제품에 처음 닿는 깨끗한 공기",
-    "여러 미생물이 잘 자라 APS에 쓰는 배지"
+    "다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다"
    ],
    "answer": 2,
-   "explanation": "**CCS (Contamination Control Strategy)** — 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.",
+   "explanation": "**CCS (Contamination Control Strategy)** — 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.",
    "choiceNotes": [
     "틀리다 — EU GMP Annex 1의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -750,11 +750,11 @@
    "part": 1,
    "question": "「EU GMP Annex 1」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략",
+    "시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획",
     "차단벽 없이 무균복만으로 작업자와 공정을 나누는 개방형 무균 환경",
     "벽에 달린 장갑으로, 벽을 열지 않고 안쪽을 조작하게 하는 장치",
     "무균 의약품 제조에 관한 EU GMP 부속서",
-    "완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비"
+    "외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비"
    ],
    "answer": 4,
    "explanation": "**EU GMP Annex 1** — 무균 의약품 제조에 관한 EU GMP 부속서.",
@@ -780,14 +780,14 @@
    "part": 1,
    "question": "「APS (Aseptic Process Simulation)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "여러 미생물이 잘 자라 APS에 쓰는 배지",
+    "다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다",
     "새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요)",
-    "무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함)",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법",
-    "제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증"
+    "무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행)",
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법",
+    "제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증"
    ],
    "answer": 5,
-   "explanation": "**APS (Aseptic Process Simulation)** — 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.",
+   "explanation": "**APS (Aseptic Process Simulation)** — 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.",
    "choiceNotes": [
     "틀리다 — SCDM (Soybean-Casein Digest Medium)의 설명이다.",
     "틀리다 — Initial APS의 설명이다.",
@@ -812,12 +812,12 @@
    "choices": [
     "APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험",
     "새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요)",
-    "여러 미생물이 잘 자라 APS에 쓰는 배지",
+    "다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다",
     "밝혀낸 원인을 없애기 위해 실행하는 조치",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법"
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법"
    ],
    "answer": 3,
-   "explanation": "**SCDM (Soybean-Casein Digest Medium)** — 여러 미생물이 잘 자라 APS에 쓰는 배지.",
+   "explanation": "**SCDM (Soybean-Casein Digest Medium)** — 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.",
    "choiceNotes": [
     "틀리다 — GPT (Growth Promotion Test)의 설명이다.",
     "틀리다 — Initial APS의 설명이다.",
@@ -843,8 +843,8 @@
     "APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험",
     "새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요)",
     "6개월마다 정기적으로 반복하는 APS",
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법",
-    "오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다"
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법",
+    "오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다"
    ],
    "answer": 1,
    "explanation": "**GPT (Growth Promotion Test)** — APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.",
@@ -901,7 +901,7 @@
    "question": "「Routine APS」에 대한 설명으로 옳은 것은?",
    "choices": [
     "배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건",
-    "여러 미생물이 잘 자라 APS에 쓰는 배지",
+    "다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다",
     "연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수)",
     "6개월마다 정기적으로 반복하는 APS",
     "차단벽 없이 무균복만으로 작업자와 공정을 나누는 개방형 무균 환경"
@@ -961,8 +961,8 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) RABS (Restricted Access Barrier System)\n(나) Open RABS\n(다) Closed RABS\n(라) Isolator",
    "box": [
     "A. 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.",
-    "B. 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.",
-    "C. 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.",
+    "B. 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.",
+    "C. 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.",
     "D. 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식."
    ],
    "choices": [
@@ -973,7 +973,7 @@
     "(가)-A  (나)-B  (다)-C  (라)-D"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **RABS (Restricted Access Barrier System)** → B. 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.\n(나) **Open RABS** → A. 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.\n(다) **Closed RABS** → D. 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식.\n(라) **Isolator** → C. 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.",
+   "explanation": "**용어와 설명의 짝**\n(가) **RABS (Restricted Access Barrier System)** → B. 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.\n(나) **Open RABS** → A. 작업 중 예외적으로 문을 열 수 있고 내부 공기를 주변실로 내보내는 차단 방식.\n(다) **Closed RABS** → D. 작업 중 완전히 닫아 두고 글러브포트·밀폐 이송만 쓰는 차단 방식.\n(라) **Isolator** → C. 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) RABS의 설명은 B, (라) Isolator의 설명은 C",
@@ -1079,8 +1079,8 @@
    "box": [
     "A. 무균 의약품 제조에 관한 EU GMP 부속서.",
     "B. 연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수).",
-    "C. 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.",
-    "D. 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략."
+    "C. 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.",
+    "D. 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획."
    ],
    "choices": [
     "(가)-D  (나)-C  (다)-B  (라)-A",
@@ -1090,7 +1090,7 @@
     "(가)-B  (나)-C  (다)-D  (라)-A"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **스모크 스터디 (Smoke study)** → B. 연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수).\n(나) **VHP (Vaporized Hydrogen Peroxide)** → C. 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.\n(다) **CCS (Contamination Control Strategy)** → D. 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.\n(라) **EU GMP Annex 1** → A. 무균 의약품 제조에 관한 EU GMP 부속서.",
+   "explanation": "**용어와 설명의 짝**\n(가) **스모크 스터디 (Smoke study)** → B. 연기로 공기 흐름을 눈으로 확인하는 시험(APS 전에 필수).\n(나) **VHP (Vaporized Hydrogen Peroxide)** → C. 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.\n(다) **CCS (Contamination Control Strategy)** → D. 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.\n(라) **EU GMP Annex 1** → A. 무균 의약품 제조에 관한 EU GMP 부속서.",
    "choiceNotes": [
     "틀리다 — (가) 스모크 스터디의 설명은 B, (다) CCS의 설명은 D",
     "틀리다 — (다) CCS의 설명은 D, (라) EU GMP Annex 1의 설명은 A",
@@ -1116,10 +1116,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) CCS (Contamination Control Strategy)\n(나) EU GMP Annex 1\n(다) APS (Aseptic Process Simulation)\n(라) SCDM (Soybean-Casein Digest Medium)",
    "box": [
-    "A. 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.",
-    "B. 여러 미생물이 잘 자라 APS에 쓰는 배지.",
+    "A. 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.",
+    "B. 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.",
     "C. 무균 의약품 제조에 관한 EU GMP 부속서.",
-    "D. 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증."
+    "D. 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증."
    ],
    "choices": [
     "(가)-B  (나)-C  (다)-D  (라)-A",
@@ -1129,7 +1129,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **CCS (Contamination Control Strategy)** → A. 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.\n(나) **EU GMP Annex 1** → C. 무균 의약품 제조에 관한 EU GMP 부속서.\n(다) **APS (Aseptic Process Simulation)** → D. 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.\n(라) **SCDM (Soybean-Casein Digest Medium)** → B. 여러 미생물이 잘 자라 APS에 쓰는 배지.",
+   "explanation": "**용어와 설명의 짝**\n(가) **CCS (Contamination Control Strategy)** → A. 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.\n(나) **EU GMP Annex 1** → C. 무균 의약품 제조에 관한 EU GMP 부속서.\n(다) **APS (Aseptic Process Simulation)** → D. 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.\n(라) **SCDM (Soybean-Casein Digest Medium)** → B. 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.",
    "choiceNotes": [
     "틀리다 — (가) CCS의 설명은 A, (라) SCDM의 설명은 B",
     "정답 — 네 쌍 모두 옳다.",
@@ -1155,10 +1155,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) APS (Aseptic Process Simulation)\n(나) SCDM (Soybean-Casein Digest Medium)\n(다) GPT (Growth Promotion Test)\n(라) 2단계 배양 (APS incubation)",
    "box": [
-    "A. 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.",
+    "A. 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.",
     "B. APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.",
     "C. 배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건.",
-    "D. 여러 미생물이 잘 자라 APS에 쓰는 배지."
+    "D. 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다."
    ],
    "choices": [
     "(가)-A  (나)-D  (다)-B  (라)-C",
@@ -1168,7 +1168,7 @@
     "(가)-D  (나)-A  (다)-C  (라)-B"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **APS (Aseptic Process Simulation)** → A. 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.\n(나) **SCDM (Soybean-Casein Digest Medium)** → D. 여러 미생물이 잘 자라 APS에 쓰는 배지.\n(다) **GPT (Growth Promotion Test)** → B. APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.\n(라) **2단계 배양 (APS incubation)** → C. 배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건.",
+   "explanation": "**용어와 설명의 짝**\n(가) **APS (Aseptic Process Simulation)** → A. 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.\n(나) **SCDM (Soybean-Casein Digest Medium)** → D. 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.\n(다) **GPT (Growth Promotion Test)** → B. APS 배지가 실제로 미생물을 키울 수 있는지 확인하는 시험.\n(라) **2단계 배양 (APS incubation)** → C. 배지 용기를 낮은 온도 7일, 높은 온도 7일 배양해 세균·진균을 모두 찾는 조건.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (가) APS의 설명은 A, (다) GPT의 설명은 B",
@@ -1194,7 +1194,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Initial APS\n(나) Routine APS\n(다) Zero growth\n(라) Intervention (간섭)",
    "box": [
-    "A. 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "A. 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "B. 6개월마다 정기적으로 반복하는 APS.",
     "C. 새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요).",
     "D. 배지 용기 중 하나라도 오염되면 실패로 보는 APS 합격 기준."
@@ -1207,7 +1207,7 @@
     "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Initial APS** → C. 새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요).\n(나) **Routine APS** → B. 6개월마다 정기적으로 반복하는 APS.\n(다) **Zero growth** → D. 배지 용기 중 하나라도 오염되면 실패로 보는 APS 합격 기준.\n(라) **Intervention (간섭)** → A. 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+   "explanation": "**용어와 설명의 짝**\n(가) **Initial APS** → C. 새 라인이나 큰 변경 뒤 하는 첫 검증(연속 3회 성공 필요).\n(나) **Routine APS** → B. 6개월마다 정기적으로 반복하는 APS.\n(다) **Zero growth** → D. 배지 용기 중 하나라도 오염되면 실패로 보는 APS 합격 기준.\n(라) **Intervention (간섭)** → A. 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
    "choiceNotes": [
     "틀리다 — (가) Initial APS의 설명은 C, (다) Zero growth의 설명은 D",
     "틀리다 — (나) Routine APS의 설명은 B, (라) Intervention의 설명은 A",
@@ -1234,8 +1234,8 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Intervention (간섭)\n(나) Inherent intervention (일상적 간섭)\n(다) Corrective intervention (조치 간섭)\n(라) Worst case (최악 조건)",
    "box": [
     "A. 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.",
-    "B. 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
-    "C. 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).",
+    "B. 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
+    "C. 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).",
     "D. 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작."
    ],
    "choices": [
@@ -1246,7 +1246,7 @@
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Intervention (간섭)** → C. 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).\n(나) **Inherent intervention (일상적 간섭)** → A. 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.\n(다) **Corrective intervention (조치 간섭)** → D. 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.\n(라) **Worst case (최악 조건)** → B. 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Intervention (간섭)** → C. 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).\n(나) **Inherent intervention (일상적 간섭)** → A. 장비 셋업·마개 보충처럼 공정 중 정상적으로 생기는 조작.\n(다) **Corrective intervention (조치 간섭)** → D. 용기 파손·마개 걸림처럼 문제에 대응해 드물게 하는 조작.\n(라) **Worst case (최악 조건)** → B. 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
    "choiceNotes": [
     "틀리다 — (가) Intervention의 설명은 C, (라) Worst case의 설명은 B",
     "틀리다 — (가) Intervention의 설명은 C, (나) Inherent intervention의 설명은 A",
@@ -1272,7 +1272,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Worst case (최악 조건)\n(나) Bracketing\n(다) 근본원인 조사 (Root cause investigation)\n(라) 시정조치 (Corrective action)",
    "box": [
-    "A. 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.",
+    "A. 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.",
     "B. 밝혀낸 원인을 없애기 위해 실행하는 조치.",
     "C. 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.",
     "D. 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계."
@@ -1285,7 +1285,7 @@
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Worst case (최악 조건)** → A. 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.\n(나) **Bracketing** → D. 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.\n(다) **근본원인 조사 (Root cause investigation)** → C. 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.\n(라) **시정조치 (Corrective action)** → B. 밝혀낸 원인을 없애기 위해 실행하는 조치.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Worst case (최악 조건)** → A. 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.\n(나) **Bracketing** → D. 양 끝 조건(가장 큰 것·작은 것)만 시험해 그 사이를 대표하게 하는 설계.\n(다) **근본원인 조사 (Root cause investigation)** → C. 문제가 생겼을 때 가장 가능성 높은 원인을 밝히는 첫 조치.\n(라) **시정조치 (Corrective action)** → B. 밝혀낸 원인을 없애기 위해 실행하는 조치.",
    "choiceNotes": [
     "틀리다 — (다) 근본원인 조사의 설명은 C, (라) 시정조치의 설명은 B",
     "정답 — 네 쌍 모두 옳다.",
@@ -1390,7 +1390,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템."
+    "물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템."
    ],
    "answers": [
     "RABS",
@@ -1398,7 +1398,7 @@
     "RABS (Restricted Access Barrier System)",
     "래브스"
    ],
-   "explanation": "**RABS (Restricted Access Barrier System)** — 차단벽과 한 방향 기류로 Grade A 충전 구역을 작업자와 떼어 놓는 시스템.\n정답으로 인정하는 표기: RABS · Restricted Access Barrier System · RABS (Restricted Access Barrier System) · 래브스 (띄어쓰기·대소문자 무시)",
+   "explanation": "**RABS (Restricted Access Barrier System)** — 물리적 차단벽과 단방향 기류로 Grade A 충전 구역을 작업자와 분리하는 시스템.\n정답으로 인정하는 표기: RABS · Restricted Access Barrier System · RABS (Restricted Access Barrier System) · 래브스 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.4 (RABS의 정의와 목적)",
    "concepts": [
     "RABS"
@@ -1415,13 +1415,13 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비."
+    "외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비."
    ],
    "answers": [
     "Isolator",
     "아이솔레이터"
    ],
-   "explanation": "**Isolator** — 완전 밀폐와 자동 제균(VHP)으로 내부를 Grade A로 유지하는 차단 설비.\n정답으로 인정하는 표기: Isolator · 아이솔레이터 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Isolator** — 외부와 완전히 밀폐되고 VHP로 자동 제염해 내부를 Grade A로 유지하는 설비.\n정답으로 인정하는 표기: Isolator · 아이솔레이터 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.9–10",
    "concepts": [
     "Isolator"
@@ -1462,7 +1462,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법."
+    "강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법."
    ],
    "answers": [
     "VHP",
@@ -1470,7 +1470,7 @@
     "VHP (Vaporized Hydrogen Peroxide)",
     "과산화수소 증기"
    ],
-   "explanation": "**VHP (Vaporized Hydrogen Peroxide)** — 과산화수소 증기로 밀폐 공간 안쪽 표면을 자동 제염하는 방법.\n정답으로 인정하는 표기: VHP · Vaporized Hydrogen Peroxide · VHP (Vaporized Hydrogen Peroxide) · 과산화수소 증기 (띄어쓰기·대소문자 무시)",
+   "explanation": "**VHP (Vaporized Hydrogen Peroxide)** — 강한 산화제 증기를 밀폐 공간에 채워 표면을 자동 제염하는 방법.\n정답으로 인정하는 표기: VHP · Vaporized Hydrogen Peroxide · VHP (Vaporized Hydrogen Peroxide) · 과산화수소 증기 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.7, p.9",
    "concepts": [
     "VHP"
@@ -1487,7 +1487,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략."
+    "시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획."
    ],
    "answers": [
     "CCS",
@@ -1495,7 +1495,7 @@
     "CCS (Contamination Control Strategy)",
     "오염 관리 전략"
    ],
-   "explanation": "**CCS (Contamination Control Strategy)** — 시설·설비·사람·공정 전체의 오염 위험과 관리 방법을 묶은 오염관리전략.\n정답으로 인정하는 표기: CCS · Contamination Control Strategy · CCS (Contamination Control Strategy) · 오염 관리 전략 (띄어쓰기·대소문자 무시)",
+   "explanation": "**CCS (Contamination Control Strategy)** — 시설·설비·인원·공정 전반의 오염 위험과 관리 대책을 통합한 종합 계획.\n정답으로 인정하는 표기: CCS · Contamination Control Strategy · CCS (Contamination Control Strategy) · 오염 관리 전략 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.3, p.9",
    "concepts": [
     "CCS"
@@ -1512,7 +1512,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증."
+    "제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증."
    ],
    "answers": [
     "APS",
@@ -1523,7 +1523,7 @@
     "미디어 필",
     "Media fill"
    ],
-   "explanation": "**APS (Aseptic Process Simulation)** — 제품 대신 배지로 무균 제조 공정 전체를 똑같이 해 보는 검증.\n정답으로 인정하는 표기: APS · Aseptic Process Simulation · APS (Aseptic Process Simulation) · 무균공정시뮬레이션 · 무균 공정 모의시험 (띄어쓰기·대소문자 무시)",
+   "explanation": "**APS (Aseptic Process Simulation)** — 제품 대신 배지로 무균 제조 공정 전체를 재현해 무균성을 입증하는 검증.\n정답으로 인정하는 표기: APS · Aseptic Process Simulation · APS (Aseptic Process Simulation) · 무균공정시뮬레이션 · 무균 공정 모의시험 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.11",
    "concepts": [
     "APS"
@@ -1540,14 +1540,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "여러 미생물이 잘 자라 APS에 쓰는 배지."
+    "다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다."
    ],
    "answers": [
     "SCDM",
     "Soybean-Casein Digest Medium",
     "SCDM (Soybean-Casein Digest Medium)"
    ],
-   "explanation": "**SCDM (Soybean-Casein Digest Medium)** — 여러 미생물이 잘 자라 APS에 쓰는 배지.\n정답으로 인정하는 표기: SCDM · Soybean-Casein Digest Medium · SCDM (Soybean-Casein Digest Medium) (띄어쓰기·대소문자 무시)",
+   "explanation": "**SCDM (Soybean-Casein Digest Medium)** — 다양한 미생물이 잘 자라는 범용 배지 — APS에 쓴다.\n정답으로 인정하는 표기: SCDM · Soybean-Casein Digest Medium · SCDM (Soybean-Casein Digest Medium) (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.15",
    "concepts": [
     "SCDM"
@@ -1592,14 +1592,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함)."
+    "무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행)."
    ],
    "answers": [
     "Intervention",
     "간섭",
     "Intervention (간섭)"
    ],
-   "explanation": "**Intervention (간섭)** — 무균 공정 지역에 영향을 주는 의도적 조작(대부분 사람이 함).\n정답으로 인정하는 표기: Intervention · 간섭 · Intervention (간섭) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Intervention (간섭)** — 무균 공정 구역에 영향을 주는 의도적 조작(주로 작업자가 수행).\n정답으로 인정하는 표기: Intervention · 간섭 · Intervention (간섭) (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.17",
    "concepts": [
     "Intervention"
@@ -1668,7 +1668,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다."
+    "오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다."
    ],
    "answers": [
     "Worst case",
@@ -1676,7 +1676,7 @@
     "Worst case (최악 조건)",
     "워스트 케이스"
    ],
-   "explanation": "**Worst case (최악 조건)** — 오염 위험이 가장 큰 조건 — 여기서 통과하면 쉬운 조건도 보증된다.\n정답으로 인정하는 표기: Worst case · 최악 조건 · Worst case (최악 조건) · 워스트 케이스 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Worst case (최악 조건)** — 오염 위험이 가장 큰 조건 — 이를 통과하면 덜 가혹한 조건도 보증된다.\n정답으로 인정하는 표기: Worst case · 최악 조건 · Worst case (최악 조건) · 워스트 케이스 (띄어쓰기·대소문자 무시)",
    "source": "02 RABS & APS PDF p.12, p.16, p.24",
    "concepts": [
     "Worst case"

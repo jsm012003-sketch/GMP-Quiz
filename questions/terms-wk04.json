@@ -9,7 +9,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓)."
+    "배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제)."
    ],
    "choices": [
     "Centrifugation (원심분리)",
@@ -19,11 +19,11 @@
     "Filter sizing test"
    ],
    "answer": 3,
-   "explanation": "**Process-related impurity (공정 유래 불순물)** — 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+   "explanation": "**Process-related impurity (공정 유래 불순물)** — 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
    "choiceNotes": [
-    "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
-    "정답 — 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+    "틀리다 — Centrifugation (원심분리): 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
+    "정답 — 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
     "틀리다 — Cell wall (세포벽): 미생물에는 있고 동물세포에는 없는 바깥 껍질 — 산물이 세포 안에 쌓이는 이유.",
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험."
    ],
@@ -42,7 +42,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제)."
    ],
    "choices": [
     "Continuous centrifuge (연속 원심분리기)",
@@ -52,13 +52,13 @@
     "Sterilizing-grade filter (제균 필터)"
    ],
    "answer": 4,
-   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).",
    "choiceNotes": [
     "틀리다 — Continuous centrifuge (연속 원심분리기): load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
-    "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
-    "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
-    "정답 — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
-    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터."
+    "틀리다 — Process-related impurity (공정 유래 불순물): 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
+    "틀리다 — Diafiltration: 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
+    "정답 — Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).",
+    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터."
    ],
    "source": "WK04 PDF p.9 (Impurities)",
    "concepts": [
@@ -75,7 +75,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법."
+    "알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법."
    ],
    "choices": [
     "Precipitation (침전)",
@@ -85,9 +85,9 @@
     "Cell line characterization (세포주 특성 분석)"
    ],
    "answer": 1,
-   "explanation": "**Precipitation (침전)** — 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+   "explanation": "**Precipitation (침전)** — 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
    "choiceNotes": [
-    "정답 — 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+    "정답 — 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
     "틀리다 — Inclusion body (봉입체): 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
     "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것.",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
@@ -108,7 +108,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+    "고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법."
    ],
    "choices": [
     "Refolding (재접힘)",
@@ -118,13 +118,13 @@
     "Centrifugation (원심분리)"
    ],
    "answer": 5,
-   "explanation": "**Centrifugation (원심분리)** — 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+   "explanation": "**Centrifugation (원심분리)** — 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
    "choiceNotes": [
     "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
     "틀리다 — Intracellular product (세포 내 산물): 세포 안에 쌓이는 산물 — 미생물에서 흔하다.",
     "틀리다 — Soluble–insoluble mixture: 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
-    "정답 — 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+    "정답 — 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법."
    ],
    "source": "WK04 PDF p.10, p.12 (Centrifuge)",
    "concepts": [
@@ -155,7 +155,7 @@
    "choiceNotes": [
     "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
     "정답 — load·wash·discharge를 되풀이하며 쉬지 않고 돌리는 원심분리 장비(kSep).",
-    "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+    "틀리다 — Centrifugation (원심분리): 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
     "틀리다 — Titer: 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
     "틀리다 — Modality: 만드는 방법(생산 공정)이 비슷한 의약품의 묶음."
    ],
@@ -186,7 +186,7 @@
    "answer": 3,
    "explanation": "**Inclusion body (봉입체)** — 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
    "choiceNotes": [
-    "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+    "틀리다 — Centrifugation (원심분리): 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "정답 — 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
     "틀리다 — Terminal sterilization (최종 멸균): 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
@@ -219,9 +219,9 @@
    "answer": 2,
    "explanation": "**Refolding (재접힘)** — Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
    "choiceNotes": [
-    "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+    "틀리다 — Process-related impurity (공정 유래 불순물): 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
     "정답 — Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
     "틀리다 — E. coli (대장균): 가장 널리 쓰는 미생물 숙주 — 세포벽이 있다.",
     "틀리다 — Secretion (분비): 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식."
    ],
@@ -252,7 +252,7 @@
    "answer": 5,
    "explanation": "**Cell lysis (세포 파쇄)** — 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것.",
    "choiceNotes": [
-    "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+    "틀리다 — Process-related impurity (공정 유래 불순물): 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "틀리다 — Sterile filtration (제균여과): 0.2 µm 필터로 균을 걸러 용액을 무균으로 만드는 방법.",
     "틀리다 — Feed (TFF): TFF 막으로 들어가는 액체 흐름.",
@@ -285,9 +285,9 @@
    "answer": 4,
    "explanation": "**Fill & Finish (F&F)** — 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
    "choiceNotes": [
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
     "틀리다 — Refolding (재접힘): Solubilization한 단백질을 올바른 3차 구조로 되돌리는 단계.",
-    "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
+    "틀리다 — Endotoxin: 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
     "정답 — 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
     "틀리다 — Concentration (농축): 용매를 빼서 목표 물질의 농도를 높이는 것."
    ],
@@ -320,7 +320,7 @@
    "choiceNotes": [
     "정답 — 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것.",
     "틀리다 — BCT (Bacteria Challenge Test): 막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험.",
-    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
     "틀리다 — Filter housing: 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태."
    ],
@@ -351,10 +351,10 @@
    "answer": 3,
    "explanation": "**Clarification** — 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
    "choiceNotes": [
-    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
     "틀리다 — Pre-filter (사전 여과): 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.",
     "정답 — 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
-    "틀리다 — Reverse osmosis (RO, 역삼투): 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+    "틀리다 — Reverse osmosis (RO, 역삼투): pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
     "틀리다 — Mycoplasma: 세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다."
    ],
    "source": "WK04 PDF p.23 (Filtration: Unit Operation)",
@@ -405,7 +405,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터."
+    "세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터."
    ],
    "choices": [
     "Sterilizing-grade filter (제균 필터)",
@@ -415,9 +415,9 @@
     "Cartridge filter"
    ],
    "answer": 1,
-   "explanation": "**Sterilizing-grade filter (제균 필터)** — 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+   "explanation": "**Sterilizing-grade filter (제균 필터)** — 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
    "choiceNotes": [
-    "정답 — 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+    "정답 — 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
     "틀리다 — Clarification: 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
     "틀리다 — Pre-filter (사전 여과): 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.",
     "틀리다 — E. coli (대장균): 가장 널리 쓰는 미생물 숙주 — 세포벽이 있다.",
@@ -453,7 +453,7 @@
     "틀리다 — Filtrate (여과액): 필터를 통과해 뒤로 나온 액체.",
     "틀리다 — BCT (Bacteria Challenge Test): 막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험.",
     "틀리다 — Isotonic (등장성): 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
-    "틀리다 — Yield (수율): 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
+    "틀리다 — Yield (수율): 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.",
     "정답 — 제균 필터 시험에 쓰는 아주 작은 세균(worst case)."
    ],
    "source": "WK04 PDF p.24 (Bacteria Challenge Test)",
@@ -553,7 +553,7 @@
     "정답 — nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
     "틀리다 — MWCO (Molecular Weight Cut-Off): 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
     "틀리다 — Modality: 만드는 방법(생산 공정)이 비슷한 의약품의 묶음.",
-    "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다."
+    "틀리다 — TMP (Transmembrane Pressure): 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다."
    ],
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
@@ -583,8 +583,8 @@
    "explanation": "**Nanofiltration (NF, 나노여과)** — 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
    "choiceNotes": [
     "틀리다 — Ultrafiltration (UF, 한외여과): nm 수준 pore로 단백질은 남기고 물·염은 빼는 여과.",
-    "틀리다 — Reverse osmosis (RO, 역삼투): 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
-    "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+    "틀리다 — Reverse osmosis (RO, 역삼투): pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+    "틀리다 — Centrifugation (원심분리): 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
     "틀리다 — Filter capacity (L/m²): 막 1 m²가 처리할 수 있는 시료 양.",
     "정답 — 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다."
    ],
@@ -603,7 +603,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과."
+    "pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과."
    ],
    "choices": [
     "Microfiltration (MF, 정밀여과)",
@@ -613,13 +613,13 @@
     "Formulation (제형)"
    ],
    "answer": 3,
-   "explanation": "**Reverse osmosis (RO, 역삼투)** — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+   "explanation": "**Reverse osmosis (RO, 역삼투)** — pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
    "choiceNotes": [
     "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — CFF / TFF (Crossflow Filtration · Tangential Flow Filtration): 액체가 막 표면을 따라 흐르며 일부만 막을 지나가는 여과.",
-    "정답 — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
-    "틀리다 — Formulation (제형): 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계."
+    "정답 — pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
+    "틀리다 — Formulation (제형): 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계."
    ],
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
@@ -684,8 +684,8 @@
     "틀리다 — Depth filter (깊이 필터): 두꺼운 섬유층 안에 입자를 많이 붙잡지만 압력이 높으면 샐 수 있는 필터.",
     "틀리다 — PTFE (Polytetrafluoroethylene): 물을 밀어내는(소수성) 막 재질 — 기체·vent 필터에 쓴다.",
     "정답 — 얇은 막 표면에서 걸러, 압력이 높아도 입자가 뒤로 넘어가지 않는 필터.",
-    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
-    "틀리다 — Centrifugation (원심분리): 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
+    "틀리다 — Centrifugation (원심분리): 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법."
    ],
    "source": "WK04 PDF p.40 (Membrane Filter)",
    "concepts": [
@@ -718,7 +718,7 @@
     "틀리다 — Membrane filter: 얇은 막 표면에서 걸러, 압력이 높아도 입자가 뒤로 넘어가지 않는 필터.",
     "틀리다 — Hydrophobic membrane (소수성 막): 물을 밀어내는 막 — 기체·vent 여과에 쓴다.",
     "틀리다 — Cell harvest: 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "source": "WK04 PDF p.41 (Depth filter)",
    "concepts": [
@@ -783,7 +783,7 @@
     "틀리다 — Membrane filter: 얇은 막 표면에서 걸러, 압력이 높아도 입자가 뒤로 넘어가지 않는 필터.",
     "틀리다 — Hydrophilic membrane (친수성 막): 물에 잘 젖는 막 — 액체 여과에 쓴다.",
     "틀리다 — Clarification: 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
-    "틀리다 — Reverse osmosis (RO, 역삼투): 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+    "틀리다 — Reverse osmosis (RO, 역삼투): pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
     "정답 — 물을 밀어내는 막 — 기체·vent 여과에 쓴다."
    ],
    "source": "WK04 PDF p.40, p.51, p.124",
@@ -980,7 +980,7 @@
    "choiceNotes": [
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험.",
     "틀리다 — Flux (LMH): 막 1 m²를 1시간에 통과하는 양(L/m²/h).",
-    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+    "틀리다 — Sterilizing-grade filter (제균 필터): 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
     "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "정답 — 막 1 m²가 처리할 수 있는 시료 양."
    ],
@@ -1013,7 +1013,7 @@
    "choiceNotes": [
     "틀리다 — Filter sizing test: 공정에 쓸 필터 면적을 정하려고 작은 필터로 미리 해 보는 시험.",
     "틀리다 — Flux (LMH): 막 1 m²를 1시간에 통과하는 양(L/m²/h).",
-    "틀리다 — Yield (수율): 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
+    "틀리다 — Yield (수율): 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.",
     "정답 — 입자가 쌓여 압력은 오르고 유량은 줄어드는 현상.",
     "틀리다 — Bioburden reduction: 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다."
    ],
@@ -1048,7 +1048,7 @@
     "틀리다 — Filter housing: 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
     "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
-    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험."
    ],
    "source": "WK04 PDF p.72 (Cartridge and Capsule)",
    "concepts": [
@@ -1080,7 +1080,7 @@
     "틀리다 — Filter housing: 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
     "틀리다 — Fill & Finish (F&F): 제형화·최종 무균 여과·충전·캡핑으로 완제품을 만드는 마지막 공정.",
-    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
+    "틀리다 — Product-related impurity (제품 유래 불순물): Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).",
     "정답 — 하우징과 필터가 한 몸인 일회용 형태."
    ],
    "source": "WK04 PDF p.72 (Cartridge and Capsule)",
@@ -1113,7 +1113,7 @@
     "틀리다 — Capsule filter: 하우징과 필터가 한 몸인 일회용 형태.",
     "틀리다 — Cartridge filter: 스테인리스 하우징에 끼워 쓰고 필터만 바꾸는 형태.",
     "정답 — 필터를 담아 압력을 견디는 용기(주로 SS 316L).",
-    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.",
     "틀리다 — Vent filter: 탱크에 공기가 드나들게 하면서 오염은 막는 기체 필터."
    ],
    "source": "WK04 PDF p.72, p.74–76",
@@ -1147,7 +1147,7 @@
     "정답 — 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
     "틀리다 — Feed (TFF): TFF 막으로 들어가는 액체 흐름.",
     "틀리다 — Host cell (숙주세포): 유전 정보를 넣어 목표 단백질을 대신 만들게 하는 세포.",
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법."
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법."
    ],
    "source": "WK04 PDF p.86 (CFF System의 구성)",
    "concepts": [
@@ -1177,10 +1177,10 @@
    "explanation": "**Permeate (TFF)** — 막을 지나 빠져나간 쪽 액체.",
    "choiceNotes": [
     "틀리다 — Retentate (TFF): 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
-    "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+    "틀리다 — Diafiltration: 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.",
     "정답 — 막을 지나 빠져나간 쪽 액체.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "source": "WK04 PDF p.86 (CFF System의 구성)",
    "concepts": [
@@ -1212,7 +1212,7 @@
     "정답 — TFF 막 입구와 출구의 압력 차 — 높이면 표면을 씻는 흐름이 는다.",
     "틀리다 — Concentration (농축): 용매를 빼서 목표 물질의 농도를 높이는 것.",
     "틀리다 — Retentate (TFF): 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
     "틀리다 — Purity (순도): 목표 물질이 불순물 없이 깨끗한 정도."
    ],
    "source": "WK04 PDF p.88, p.92",
@@ -1275,10 +1275,10 @@
    "answer": 5,
    "explanation": "**Concentration (농축)** — 용매를 빼서 목표 물질의 농도를 높이는 것.",
    "choiceNotes": [
-    "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+    "틀리다 — Diafiltration: 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
     "틀리다 — Fouling: 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상.",
-    "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
+    "틀리다 — Process-related impurity (공정 유래 불순물): 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
     "정답 — 용매를 빼서 목표 물질의 농도를 높이는 것."
    ],
    "source": "WK04 PDF p.100, p.103",
@@ -1296,7 +1296,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것."
+    "새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것."
    ],
    "choices": [
     "Permeate (TFF)",
@@ -1306,11 +1306,11 @@
     "Cell lysis (세포 파쇄)"
    ],
    "answer": 3,
-   "explanation": "**Diafiltration** — 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+   "explanation": "**Diafiltration** — 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
    "choiceNotes": [
     "틀리다 — Permeate (TFF): 막을 지나 빠져나간 쪽 액체.",
-    "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
-    "정답 — 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+    "틀리다 — TMP (Transmembrane Pressure): 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
+    "정답 — 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
     "틀리다 — Destructive test (파괴검사): 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등).",
     "틀리다 — Cell lysis (세포 파쇄): 세포 안에 만들어진 산물을 꺼내려고 세포막·세포벽을 터뜨리는 것."
    ],
@@ -1341,7 +1341,7 @@
    "answer": 4,
    "explanation": "**Fouling** — 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상.",
    "choiceNotes": [
-    "틀리다 — Diafiltration: 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+    "틀리다 — Diafiltration: 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
     "틀리다 — Feed (TFF): TFF 막으로 들어가는 액체 흐름.",
     "틀리다 — Nanofiltration (NF, 나노여과): 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "정답 — 단백질·지방 등이 막에 달라붙어 성능이 떨어지는 현상.",
@@ -1374,7 +1374,7 @@
    "answer": 3,
    "explanation": "**Filter integrity test (필터 무결성 시험)** — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
    "choiceNotes": [
-    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "틀리다 — Diffusion test (확산 시험): Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.",
     "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
     "정답 — 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "틀리다 — Plugging (막힘): 입자가 쌓여 압력은 오르고 유량은 줄어드는 현상.",
@@ -1410,7 +1410,7 @@
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "틀리다 — Non-destructive test (비파괴검사): 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
     "틀리다 — Clarification: 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
     "정답 — 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등)."
    ],
    "source": "WK04 PDF p.118",
@@ -1441,7 +1441,7 @@
    "explanation": "**Non-destructive test (비파괴검사)** — 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
    "choiceNotes": [
     "정답 — 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.",
     "틀리다 — Water intrusion test (WIT): 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
     "틀리다 — Microfiltration (MF, 정밀여과): 0.1~100 µm pore로 세포·입자를 거르는 여과.",
     "틀리다 — Media filtration (배지 여과): 열에 약한 동물세포 배지의 균을 필터로 없애는 것."
@@ -1461,7 +1461,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험."
+    "젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험."
    ],
    "choices": [
     "Filter integrity test (필터 무결성 시험)",
@@ -1471,11 +1471,11 @@
     "Modality"
    ],
    "answer": 2,
-   "explanation": "**Bubble point test (기포점 시험)** — 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
+   "explanation": "**Bubble point test (기포점 시험)** — 젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험.",
    "choiceNotes": [
     "틀리다 — Filter integrity test (필터 무결성 시험): 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
-    "정답 — 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+    "정답 — 젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험.",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과.",
     "틀리다 — Modality: 만드는 방법(생산 공정)이 비슷한 의약품의 묶음."
    ],
@@ -1494,7 +1494,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험."
    ],
    "choices": [
     "Diffusion test (확산 시험)",
@@ -1504,13 +1504,13 @@
     "HCD (Host Cell DNA)"
    ],
    "answer": 1,
-   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.",
    "choiceNotes": [
-    "정답 — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "정답 — Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "틀리다 — Filter integrity test (필터 무결성 시험): 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "틀리다 — Inclusion body (봉입체): 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "source": "WK04 PDF p.127, p.131",
    "concepts": [
@@ -1539,7 +1539,7 @@
    "answer": 3,
    "explanation": "**Water intrusion test (WIT)** — 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
    "choiceNotes": [
-    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+    "틀리다 — PUPSIT (Pre-Use Post-Sterilization Integrity Test): 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.",
     "틀리다 — Redundant filtration (이중 제균 여과): 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "정답 — 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.",
     "틀리다 — Permeate (TFF): 막을 지나 빠져나간 쪽 액체.",
@@ -1704,7 +1704,7 @@
    "answer": 2,
    "explanation": "**Soluble–insoluble mixture** — 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
    "choiceNotes": [
-    "틀리다 — Yield (수율): 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
+    "틀리다 — Yield (수율): 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.",
     "정답 — 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
     "틀리다 — Soluble–soluble mixture: 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.",
     "틀리다 — Wetting agent: Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
@@ -1740,7 +1740,7 @@
     "정답 — 유전 정보를 넣어 목표 단백질을 대신 만들게 하는 세포.",
     "틀리다 — Titer: 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
     "틀리다 — E. coli (대장균): 가장 널리 쓰는 미생물 숙주 — 세포벽이 있다.",
-    "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
+    "틀리다 — TMP (Transmembrane Pressure): 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
     "틀리다 — Soluble–insoluble mixture: 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다."
    ],
    "source": "WK04 강의 녹음② 12:33–14:46",
@@ -1904,7 +1904,7 @@
    "choiceNotes": [
     "틀리다 — Titer: 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
     "틀리다 — Secretion (분비): 세포가 만든 산물을 밖으로 내보내는 것 — 동물세포의 방식.",
-    "틀리다 — Process-related impurity (공정 유래 불순물): 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+    "틀리다 — Process-related impurity (공정 유래 불순물): 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
     "정답 — 세포 안 산물을 얻으려고 배양 후 세포를 모으는 단계.",
     "틀리다 — Filtration (여과): 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것."
    ],
@@ -2001,8 +2001,8 @@
    "answer": 3,
    "explanation": "**Zoonosis (인수공통 감염)** — 사람과 동물에 함께 옮을 수 있는 감염.",
    "choiceNotes": [
-    "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
-    "틀리다 — VCS (Viral Clearance Study): 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.",
+    "틀리다 — Endotoxin: 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
+    "틀리다 — VCS (Viral Clearance Study): 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.",
     "정답 — 사람과 동물에 함께 옮을 수 있는 감염.",
     "틀리다 — Bioburden reduction: 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.",
     "틀리다 — Soluble–insoluble mixture: 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다."
@@ -2022,7 +2022,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)."
+    "그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물."
    ],
    "choices": [
     "HCD (Host Cell DNA)",
@@ -2032,13 +2032,13 @@
     "Endotoxin"
    ],
    "answer": 5,
-   "explanation": "**Endotoxin** — 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
+   "explanation": "**Endotoxin** — 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
    "choiceNotes": [
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
     "틀리다 — Zoonosis (인수공통 감염): 사람과 동물에 함께 옮을 수 있는 감염.",
-    "틀리다 — TMP (Transmembrane Pressure): 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
+    "틀리다 — TMP (Transmembrane Pressure): 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
     "틀리다 — Filter integrity test (필터 무결성 시험): 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
-    "정답 — 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)."
+    "정답 — 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물."
    ],
    "source": "WK04 강의 녹음② 1:54:15–1:57:03",
    "concepts": [
@@ -2067,9 +2067,9 @@
    "answer": 2,
    "explanation": "**Stabilizer (안정제)** — 농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트).",
    "choiceNotes": [
-    "틀리다 — VCS (Viral Clearance Study): 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.",
+    "틀리다 — VCS (Viral Clearance Study): 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.",
     "정답 — 농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트).",
-    "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
+    "틀리다 — Endotoxin: 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
     "틀리다 — Filtrate (여과액): 필터를 통과해 뒤로 나온 액체.",
     "틀리다 — DEF (Dead-End Filtration): 액체를 막에 수직으로 밀어 넣어 모두 통과시키는 여과."
    ],
@@ -2088,7 +2088,7 @@
    "part": 1,
    "question": "다음 설명에 해당하는 용어는?",
    "box": [
-    "성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계."
+    "원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계."
    ],
    "choices": [
     "Formulation (제형)",
@@ -2098,13 +2098,13 @@
     "Precipitation (침전)"
    ],
    "answer": 1,
-   "explanation": "**Formulation (제형)** — 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+   "explanation": "**Formulation (제형)** — 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
    "choiceNotes": [
-    "정답 — 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+    "정답 — 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
     "틀리다 — Media filtration (배지 여과): 열에 약한 동물세포 배지의 균을 필터로 없애는 것.",
     "틀리다 — Sterile WFI (무균 주사용수): 주사용수를 제균여과해 무균으로 만든 물 — 바이알 최종 세척에 쓴다.",
     "틀리다 — Host cell (숙주세포): 유전 정보를 넣어 목표 단백질을 대신 만들게 하는 세포.",
-    "틀리다 — Precipitation (침전): 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법."
+    "틀리다 — Precipitation (침전): 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법."
    ],
    "source": "WK04 강의 녹음② 2:16:47–2:17:41",
    "concepts": [
@@ -2135,7 +2135,7 @@
    "choiceNotes": [
     "틀리다 — Terminal sterilization (최종 멸균): 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
     "틀리다 — Sparger filter: 배양기로 들어가는 공기를 무균으로 거르는 필터.",
-    "틀리다 — Endotoxin: 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
+    "틀리다 — Endotoxin: 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
     "정답 — 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP).",
     "틀리다 — Filtrate (여과액): 필터를 통과해 뒤로 나온 액체."
    ],
@@ -2236,7 +2236,7 @@
     "정답 — 0.2 µm 필터로 균을 걸러 용액을 무균으로 만드는 방법.",
     "틀리다 — Sparger filter: 배양기로 들어가는 공기를 무균으로 거르는 필터.",
     "틀리다 — Purity (순도): 목표 물질이 불순물 없이 깨끗한 정도.",
-    "틀리다 — HCD (Host Cell DNA): 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "틀리다 — HCD (Host Cell DNA): 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "source": "WK04 강의 녹음② 2:45:42–2:47:42",
    "concepts": [
@@ -2333,7 +2333,7 @@
    "choiceNotes": [
     "틀리다 — Bioburden reduction: 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.",
     "정답 — 열에 약한 동물세포 배지의 균을 필터로 없애는 것.",
-    "틀리다 — Formulation (제형): 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+    "틀리다 — Formulation (제형): 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
     "틀리다 — Clarification: 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
     "틀리다 — Absolute rating (절대 등급): 표시한 크기의 입자를 거의 모두(예: 99.98 % 이상) 걸러 내는 등급."
    ],
@@ -2432,7 +2432,7 @@
    "choiceNotes": [
     "정답 — 세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다.",
     "틀리다 — Isotonic (등장성): 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
-    "틀리다 — Formulation (제형): 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+    "틀리다 — Formulation (제형): 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
     "틀리다 — Inclusion body (봉입체): 세균 안에서 잘못 접혀 뭉친 단백질 덩어리.",
     "틀리다 — Soluble–insoluble mixture: 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다."
    ],
@@ -2454,7 +2454,7 @@
     "제균 필터 시험에 쓰는 아주 작은 세균(worst case)",
     "배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정",
     "필터가 손상 없이 제 성능을 내는지 확인하는 시험",
-    "빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법",
+    "고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법",
     "막 cm²당 10⁷개의 작은 세균을 걸러 여과액이 무균인지 보는 시험"
    ],
    "answer": 5,
@@ -2632,7 +2632,7 @@
    "question": "「Feed (TFF)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다",
-    "막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다",
+    "공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다",
     "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험",
     "TFF 막으로 들어가는 액체 흐름",
     "단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8"
@@ -2663,12 +2663,12 @@
    "choices": [
     "용매를 빼서 목표 물질의 농도를 높이는 것",
     "막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다",
-    "막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다",
+    "공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다",
     "처음부터 끝까지 무균 상태를 지키며 만드는 방법(세포치료제)",
     "첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것"
    ],
    "answer": 3,
-   "explanation": "**TMP (Transmembrane Pressure)** — 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
+   "explanation": "**TMP (Transmembrane Pressure)** — 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
    "choiceNotes": [
     "틀리다 — Concentration (농축)의 설명이다.",
     "틀리다 — Retentate (TFF)의 설명이다.",
@@ -2692,13 +2692,13 @@
    "question": "「PUPSIT (Pre-Use Post-Sterilization Integrity Test)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험",
-    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test",
+    "멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것",
     "사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다",
     "나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP)",
     "세포 안에 쌓이는 산물 — 미생물에서 흔하다"
    ],
    "answer": 2,
-   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.",
    "choiceNotes": [
     "틀리다 — Water intrusion test (WIT)의 설명이다.",
     "정답 — 이 용어의 정의다.",
@@ -2721,14 +2721,14 @@
    "part": 1,
    "question": "「Yield (수율)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율",
+    "배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율",
     "녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다",
     "목표 물질이 불순물 없이 깨끗한 정도",
     "바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값",
     "상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것"
    ],
    "answer": 1,
-   "explanation": "**Yield (수율)** — 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
+   "explanation": "**Yield (수율)** — 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Soluble–soluble mixture의 설명이다.",
@@ -2783,7 +2783,7 @@
    "choices": [
     "고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계",
     "가장 널리 쓰는 미생물 숙주 — 세포벽이 있다",
-    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test",
+    "멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것",
     "생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행",
     "필터가 손상 없이 제 성능을 내는지 확인하는 시험"
    ],
@@ -2813,7 +2813,7 @@
    "choices": [
     "고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계",
     "세포 안에 쌓이는 산물 — 미생물에서 흔하다",
-    "배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓)",
+    "배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제)",
     "제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법",
     "배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L)"
    ],
@@ -2841,14 +2841,14 @@
    "part": 1,
    "question": "「VCS (Viral Clearance Study)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수",
-    "세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)",
+    "모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험",
+    "그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물",
     "바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값",
-    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험",
+    "Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험",
     "제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등)"
    ],
    "answer": 1,
-   "explanation": "**VCS (Viral Clearance Study)** — 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.",
+   "explanation": "**VCS (Viral Clearance Study)** — 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.",
    "choiceNotes": [
     "정답 — 이 용어의 정의다.",
     "틀리다 — Endotoxin의 설명이다.",
@@ -2871,14 +2871,14 @@
    "part": 1,
    "question": "「HCD (Host Cell DNA)」에 대한 설명으로 옳은 것은?",
    "choices": [
-    "세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)",
-    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수",
-    "죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)",
+    "그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물",
+    "모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험",
+    "생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)",
     "나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP)",
     "필터를 담아 압력을 견디는 용기(주로 SS 316L)"
    ],
    "answer": 3,
-   "explanation": "**HCD (Host Cell DNA)** — 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).",
+   "explanation": "**HCD (Host Cell DNA)** — 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).",
    "choiceNotes": [
     "틀리다 — Endotoxin의 설명이다.",
     "틀리다 — VCS (Viral Clearance Study)의 설명이다.",
@@ -2903,7 +2903,7 @@
    "choices": [
     "바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값",
     "단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8",
-    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수",
+    "모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험",
     "막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값",
     "필터가 손상 없이 제 성능을 내는지 확인하는 시험"
    ],
@@ -2932,10 +2932,10 @@
    "question": "「LRV (Log Reduction Value)」에 대한 설명으로 옳은 것은?",
    "choices": [
     "단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8",
-    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수",
+    "모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험",
     "바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값",
     "고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계",
-    "알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법"
+    "알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법"
    ],
    "answer": 3,
    "explanation": "**LRV (Log Reduction Value)** — 바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값.",
@@ -2964,7 +2964,7 @@
     "주사용수를 제균여과해 무균으로 만든 물 — 바이알 최종 세척에 쓴다",
     "세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다",
     "주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다",
-    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험",
+    "Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험",
     "녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다"
    ],
    "answer": 1,
@@ -2991,10 +2991,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Process-related impurity (공정 유래 불순물)\n(나) Product-related impurity (제품 유래 불순물)\n(다) Precipitation (침전)\n(라) Centrifugation (원심분리)",
    "box": [
-    "A. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).",
-    "B. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
-    "C. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
-    "D. 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+    "A. Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).",
+    "B. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
+    "C. 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
+    "D. 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법."
    ],
    "choices": [
     "(가)-B  (나)-A  (다)-D  (라)-C",
@@ -3004,7 +3004,7 @@
     "(가)-A  (나)-B  (다)-D  (라)-C"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Process-related impurity (공정 유래 불순물)** → B. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(나) **Product-related impurity (제품 유래 불순물)** → A. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(다) **Precipitation (침전)** → C. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.\n(라) **Centrifugation (원심분리)** → D. 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Process-related impurity (공정 유래 불순물)** → B. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).\n(나) **Product-related impurity (제품 유래 불순물)** → A. Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).\n(다) **Precipitation (침전)** → C. 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.\n(라) **Centrifugation (원심분리)** → D. 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.",
    "choiceNotes": [
     "틀리다 — (다) Precipitation의 설명은 C, (라) Centrifugation의 설명은 D",
     "틀리다 — (나) Product-related impurity의 설명은 A, (라) Centrifugation의 설명은 D",
@@ -3108,7 +3108,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Filtration (여과)\n(나) Clarification\n(다) Pre-filter (사전 여과)\n(라) Sterilizing-grade filter (제균 필터)",
    "box": [
-    "A. 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+    "A. 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
     "B. 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.",
     "C. 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.",
     "D. 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것."
@@ -3121,7 +3121,7 @@
     "(가)-C  (나)-D  (다)-A  (라)-B"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **Filtration (여과)** → D. 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것.\n(나) **Clarification** → C. 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.\n(다) **Pre-filter (사전 여과)** → B. 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.\n(라) **Sterilizing-grade filter (제균 필터)** → A. 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Filtration (여과)** → D. 상(相)·크기가 다른 물질을 물리적·기계적으로 나누는 것.\n(나) **Clarification** → C. 배양액 속 세포·세포 찌꺼기(수 µm 입자)를 필터로 걸러 내는 공정.\n(다) **Pre-filter (사전 여과)** → B. 최종 필터 앞에서 큰 입자를 먼저 걸러 막힘을 줄이는 필터.\n(라) **Sterilizing-grade filter (제균 필터)** → A. 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.",
    "choiceNotes": [
     "틀리다 — (가) Filtration의 설명은 D, (다) Pre-filter의 설명은 B",
     "틀리다 — (다) Pre-filter의 설명은 B, (라) Sterilizing-grade filter의 설명은 A",
@@ -3227,7 +3227,7 @@
    "box": [
     "A. 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.",
     "B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.",
-    "C. 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
+    "C. pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.",
     "D. Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리."
    ],
    "choices": [
@@ -3238,7 +3238,7 @@
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Nanofiltration (NF, 나노여과)** → A. 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.\n(나) **Reverse osmosis (RO, 역삼투)** → C. 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n(다) **MWCO (Molecular Weight Cut-Off)** → B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.\n(라) **Size exclusion (크기 배제)** → D. Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Nanofiltration (NF, 나노여과)** → A. 2~5 nm pore의 여과 — 바이러스 여과도 여기에 속한다.\n(나) **Reverse osmosis (RO, 역삼투)** → C. pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n(다) **MWCO (Molecular Weight Cut-Off)** → B. 막이 걸러 내는 분자 크기를 분자량(kDa)으로 나타낸 값.\n(라) **Size exclusion (크기 배제)** → D. Pore보다 큰 것은 남기고 작은 것은 통과시키는 분리 원리.",
    "choiceNotes": [
     "틀리다 — (나) Reverse osmosis의 설명은 C, (다) MWCO의 설명은 B",
     "틀리다 — (가) Nanofiltration의 설명은 A, (나) Reverse osmosis의 설명은 C",
@@ -3498,7 +3498,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Feed (TFF)\n(나) Retentate (TFF)\n(다) Permeate (TFF)\n(라) TMP (Transmembrane Pressure)",
    "box": [
-    "A. 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
+    "A. 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
     "B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
     "C. 막을 지나 빠져나간 쪽 액체.",
     "D. TFF 막으로 들어가는 액체 흐름."
@@ -3511,7 +3511,7 @@
     "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Feed (TFF)** → D. TFF 막으로 들어가는 액체 흐름.\n(나) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(다) **Permeate (TFF)** → C. 막을 지나 빠져나간 쪽 액체.\n(라) **TMP (Transmembrane Pressure)** → A. 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Feed (TFF)** → D. TFF 막으로 들어가는 액체 흐름.\n(나) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(다) **Permeate (TFF)** → C. 막을 지나 빠져나간 쪽 액체.\n(라) **TMP (Transmembrane Pressure)** → A. 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.",
    "choiceNotes": [
     "틀리다 — (가) Feed의 설명은 D, (라) TMP의 설명은 A",
     "틀리다 — (나) Retentate의 설명은 B, (라) TMP의 설명은 A",
@@ -3539,7 +3539,7 @@
    "box": [
     "A. TFF 막 입구와 출구의 압력 차 — 높이면 표면을 씻는 흐름이 는다.",
     "B. 막 표면에 단백질이 몰려 생긴 층 — 투과를 막는다.",
-    "C. 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+    "C. 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
     "D. 용매를 빼서 목표 물질의 농도를 높이는 것."
    ],
    "choices": [
@@ -3550,7 +3550,7 @@
     "(가)-B  (나)-A  (다)-C  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **ΔP (Pfeed − Pretentate)** → A. TFF 막 입구와 출구의 압력 차 — 높이면 표면을 씻는 흐름이 는다.\n(나) **Gel layer (겔층)** → B. 막 표면에 단백질이 몰려 생긴 층 — 투과를 막는다.\n(다) **Concentration (농축)** → D. 용매를 빼서 목표 물질의 농도를 높이는 것.\n(라) **Diafiltration** → C. 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **ΔP (Pfeed − Pretentate)** → A. TFF 막 입구와 출구의 압력 차 — 높이면 표면을 씻는 흐름이 는다.\n(나) **Gel layer (겔층)** → B. 막 표면에 단백질이 몰려 생긴 층 — 투과를 막는다.\n(다) **Concentration (농축)** → D. 용매를 빼서 목표 물질의 농도를 높이는 것.\n(라) **Diafiltration** → C. 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.",
    "choiceNotes": [
     "틀리다 — (가) ΔP의 설명은 A, (라) Diafiltration의 설명은 C",
     "정답 — 네 쌍 모두 옳다.",
@@ -3615,7 +3615,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Filter integrity test (필터 무결성 시험)\n(나) Destructive test (파괴검사)\n(다) Non-destructive test (비파괴검사)\n(라) Bubble point test (기포점 시험)",
    "box": [
-    "A. 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
+    "A. 젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험.",
     "B. 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.",
     "C. 필터가 손상 없이 제 성능을 내는지 확인하는 시험.",
     "D. 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등)."
@@ -3628,7 +3628,7 @@
     "(가)-D  (나)-C  (다)-A  (라)-B"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **Filter integrity test (필터 무결성 시험)** → C. 필터가 손상 없이 제 성능을 내는지 확인하는 시험.\n(나) **Destructive test (파괴검사)** → D. 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등).\n(다) **Non-destructive test (비파괴검사)** → B. 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.\n(라) **Bubble point test (기포점 시험)** → A. 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Filter integrity test (필터 무결성 시험)** → C. 필터가 손상 없이 제 성능을 내는지 확인하는 시험.\n(나) **Destructive test (파괴검사)** → D. 제조사가 하는 시험으로, 끝나면 필터를 다시 쓸 수 없다(BCT 등).\n(다) **Non-destructive test (비파괴검사)** → B. 사용자가 하는 간접 시험으로, 필터를 다시 쓸 수 있다.\n(라) **Bubble point test (기포점 시험)** → A. 젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험.",
    "choiceNotes": [
     "틀리다 — (가) Filter integrity test의 설명은 C, (다) Non-destructive test의 설명은 B",
     "틀리다 — (가) Filter integrity test의 설명은 C, (나) Destructive test의 설명은 D",
@@ -3655,7 +3655,7 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Diffusion test (확산 시험)\n(나) Water intrusion test (WIT)\n(다) Wetting agent\n(라) Redundant filtration (이중 제균 여과)",
    "box": [
     "A. Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).",
-    "B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.",
+    "B. Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.",
     "C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
     "D. 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험."
    ],
@@ -3667,7 +3667,7 @@
     "(가)-D  (나)-B  (다)-C  (라)-A"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Diffusion test (확산 시험)** → B. Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.\n(나) **Water intrusion test (WIT)** → D. 소수성 필터에 물을 밀어 넣어 pore로 스며드는 물의 양을 재는 시험.\n(다) **Wetting agent** → A. Integrity test 전에 막의 pore를 채우는 액체(친수성은 물, 소수성은 IPA/물).\n(라) **Redundant filtration (이중 제균 여과)** → C. 첫 제균 필터가 실패할 때를 대비해 두 번째 제균 필터를 연달아 두는 것.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Water intrusion test의 설명은 D, (라) Redundant filtration의 설명은 C",
@@ -3693,7 +3693,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) PUPSIT (Pre-Use Post-Sterilization Integrity Test)\n(나) Feed (TFF)\n(다) Retentate (TFF)\n(라) Permeate (TFF)",
    "box": [
-    "A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.",
+    "A. 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.",
     "B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.",
     "C. TFF 막으로 들어가는 액체 흐름.",
     "D. 막을 지나 빠져나간 쪽 액체."
@@ -3706,7 +3706,7 @@
     "(가)-C  (나)-A  (다)-D  (라)-B"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **PUPSIT (Pre-Use Post-Sterilization Integrity Test)** → A. 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.\n(나) **Feed (TFF)** → C. TFF 막으로 들어가는 액체 흐름.\n(다) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(라) **Permeate (TFF)** → D. 막을 지나 빠져나간 쪽 액체.",
+   "explanation": "**용어와 설명의 짝**\n(가) **PUPSIT (Pre-Use Post-Sterilization Integrity Test)** → A. 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.\n(나) **Feed (TFF)** → C. TFF 막으로 들어가는 액체 흐름.\n(다) **Retentate (TFF)** → B. 막을 지나지 못하고 탱크로 돌아가는 쪽 — 목표 물질이 남는다.\n(라) **Permeate (TFF)** → D. 막을 지나 빠져나간 쪽 액체.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Feed의 설명은 C, (다) Retentate의 설명은 B",
@@ -3735,7 +3735,7 @@
     "A. 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.",
     "B. 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.",
     "C. 만드는 방법(생산 공정)이 비슷한 의약품의 묶음.",
-    "D. 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율."
+    "D. 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율."
    ],
    "choices": [
     "(가)-C  (나)-D  (다)-B  (라)-A",
@@ -3745,7 +3745,7 @@
     "(가)-A  (나)-C  (다)-D  (라)-B"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Modality** → C. 만드는 방법(생산 공정)이 비슷한 의약품의 묶음.\n(나) **Soluble–soluble mixture** → A. 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.\n(다) **Soluble–insoluble mixture** → B. 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.\n(라) **Yield (수율)** → D. 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Modality** → C. 만드는 방법(생산 공정)이 비슷한 의약품의 묶음.\n(나) **Soluble–soluble mixture** → A. 녹은 물질끼리 섞인 것 — 크로마토그래피·침전으로 나눈다.\n(다) **Soluble–insoluble mixture** → B. 녹은 물질과 세포처럼 안 녹는 물질이 섞인 것 — 원심분리·여과로 나눈다.\n(라) **Yield (수율)** → D. 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.",
    "choiceNotes": [
     "틀리다 — (나) Soluble–soluble mixture의 설명은 A, (라) Yield의 설명은 D",
     "정답 — 네 쌍 모두 옳다.",
@@ -3891,7 +3891,7 @@
     "A. 생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행.",
     "B. 사람과 동물에 함께 옮을 수 있는 감염.",
     "C. 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).",
-    "D. 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수."
+    "D. 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험."
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-D  (라)-B",
@@ -3901,7 +3901,7 @@
     "(가)-C  (나)-A  (다)-B  (라)-D"
    ],
    "answer": 4,
-   "explanation": "**용어와 설명의 짝**\n(가) **EOPCB (End of Production Cell Bank)** → A. 생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행.\n(나) **Titer** → C. 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).\n(다) **VCS (Viral Clearance Study)** → D. 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.\n(라) **Zoonosis (인수공통 감염)** → B. 사람과 동물에 함께 옮을 수 있는 감염.",
+   "explanation": "**용어와 설명의 짝**\n(가) **EOPCB (End of Production Cell Bank)** → A. 생산이 끝난 세포를 처음과 비교·보관해 변하지 않았음을 확인하는 은행.\n(나) **Titer** → C. 배양액 1 L에 녹아 있는 목표 단백질의 양(항체 약 2~3 g/L).\n(다) **VCS (Viral Clearance Study)** → D. 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.\n(라) **Zoonosis (인수공통 감염)** → B. 사람과 동물에 함께 옮을 수 있는 감염.",
    "choiceNotes": [
     "틀리다 — (가) EOPCB의 설명은 A, (나) Titer의 설명은 C",
     "틀리다 — (다) VCS의 설명은 D, (라) Zoonosis의 설명은 B",
@@ -3928,9 +3928,9 @@
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) VCS (Viral Clearance Study)\n(나) Zoonosis (인수공통 감염)\n(다) HCD (Host Cell DNA)\n(라) Endotoxin",
    "box": [
     "A. 사람과 동물에 함께 옮을 수 있는 감염.",
-    "B. 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
-    "C. 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.",
-    "D. 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "B. 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
+    "C. 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.",
+    "D. 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-D  (라)-B",
@@ -3940,7 +3940,7 @@
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
    "answer": 1,
-   "explanation": "**용어와 설명의 짝**\n(가) **VCS (Viral Clearance Study)** → C. 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.\n(나) **Zoonosis (인수공통 감염)** → A. 사람과 동물에 함께 옮을 수 있는 감염.\n(다) **HCD (Host Cell DNA)** → D. 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).\n(라) **Endotoxin** → B. 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).",
+   "explanation": "**용어와 설명의 짝**\n(가) **VCS (Viral Clearance Study)** → C. 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.\n(나) **Zoonosis (인수공통 감염)** → A. 사람과 동물에 함께 옮을 수 있는 감염.\n(다) **HCD (Host Cell DNA)** → D. 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).\n(라) **Endotoxin** → B. 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.",
    "choiceNotes": [
     "정답 — 네 쌍 모두 옳다.",
     "틀리다 — (나) Zoonosis의 설명은 A, (라) Endotoxin의 설명은 B",
@@ -3966,7 +3966,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) pI (등전점)\n(나) LRV (Log Reduction Value)\n(다) Stabilizer (안정제)\n(라) Formulation (제형)",
    "box": [
-    "A. 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+    "A. 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
     "B. 바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값.",
     "C. 단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8.",
     "D. 농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트)."
@@ -3979,7 +3979,7 @@
     "(가)-B  (나)-C  (다)-A  (라)-D"
    ],
    "answer": 3,
-   "explanation": "**용어와 설명의 짝**\n(가) **pI (등전점)** → C. 단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8.\n(나) **LRV (Log Reduction Value)** → B. 바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값.\n(다) **Stabilizer (안정제)** → D. 농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트).\n(라) **Formulation (제형)** → A. 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.",
+   "explanation": "**용어와 설명의 짝**\n(가) **pI (등전점)** → C. 단백질의 전체 전하가 0이 되는 pH — 항체는 약 7~8.\n(나) **LRV (Log Reduction Value)** → B. 바이러스 등이 줄어든 정도를 10의 거듭제곱(log)으로 나타낸 값.\n(다) **Stabilizer (안정제)** → D. 농도가 높아진 단백질이 뭉치지 않게 넣는 물질(예: 폴리소르베이트).\n(라) **Formulation (제형)** → A. 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.",
    "choiceNotes": [
     "틀리다 — (가) pI의 설명은 C, (나) LRV의 설명은 B",
     "틀리다 — (가) pI의 설명은 C, (다) Stabilizer의 설명은 D",
@@ -4008,7 +4008,7 @@
     "A. 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP).",
     "B. 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.",
     "C. 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
-    "D. 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계."
+    "D. 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계."
    ],
    "choices": [
     "(가)-D  (나)-B  (다)-A  (라)-C",
@@ -4018,7 +4018,7 @@
     "(가)-D  (나)-A  (다)-B  (라)-C"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Formulation (제형)** → D. 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.\n(나) **Pharmacopoeia (약전)** → A. 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP).\n(다) **Isotonic (등장성)** → B. 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.\n(라) **Terminal sterilization (최종 멸균)** → C. 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Formulation (제형)** → D. 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.\n(나) **Pharmacopoeia (약전)** → A. 나라별로 의약품 기준을 정해 둔 공식 규정집(KP·USP·JP).\n(다) **Isotonic (등장성)** → B. 주사제의 삼투압이 몸과 같은 상태 — 안 맞으면 주사할 때 아프다.\n(라) **Terminal sterilization (최종 멸균)** → C. 제품을 다 만든 뒤 열 등으로 한꺼번에 멸균하는 방법.",
    "choiceNotes": [
     "틀리다 — (나) Pharmacopoeia의 설명은 A, (다) Isotonic의 설명은 B",
     "틀리다 — (가) Formulation의 설명은 D, (라) Terminal sterilization의 설명은 C",
@@ -4083,10 +4083,10 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Media filtration (배지 여과)\n(나) Process-related impurity (공정 유래 불순물)\n(다) Product-related impurity (제품 유래 불순물)\n(라) Precipitation (침전)",
    "box": [
-    "A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
-    "B. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+    "A. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
+    "B. 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
     "C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.",
-    "D. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "D. Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제)."
    ],
    "choices": [
     "(가)-C  (나)-A  (다)-B  (라)-D",
@@ -4096,7 +4096,7 @@
     "(가)-A  (나)-C  (다)-B  (라)-D"
    ],
    "answer": 2,
-   "explanation": "**용어와 설명의 짝**\n(가) **Media filtration (배지 여과)** → C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.\n(나) **Process-related impurity (공정 유래 불순물)** → A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n(다) **Product-related impurity (제품 유래 불순물)** → D. Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n(라) **Precipitation (침전)** → B. 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.",
+   "explanation": "**용어와 설명의 짝**\n(가) **Media filtration (배지 여과)** → C. 열에 약한 동물세포 배지의 균을 필터로 없애는 것.\n(나) **Process-related impurity (공정 유래 불순물)** → A. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).\n(다) **Product-related impurity (제품 유래 불순물)** → D. Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).\n(라) **Precipitation (침전)** → B. 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.",
    "choiceNotes": [
     "틀리다 — (다) Product-related impurity의 설명은 D, (라) Precipitation의 설명은 B",
     "정답 — 네 쌍 모두 옳다.",
@@ -4122,7 +4122,7 @@
    "part": 1,
    "question": "다음 용어와 <보기>의 설명을 바르게 짝지은 것은?\n(가) Bioburden reduction\n(나) Gas filter\n(다) Mycoplasma\n(라) Process-related impurity (공정 유래 불순물)",
    "box": [
-    "A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+    "A. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
     "B. 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.",
     "C. 세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다.",
     "D. 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급할 때 거르는 소수성 필터."
@@ -4135,7 +4135,7 @@
     "(가)-B  (나)-D  (다)-C  (라)-A"
    ],
    "answer": 5,
-   "explanation": "**용어와 설명의 짝**\n(가) **Bioburden reduction** → B. 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.\n(나) **Gas filter** → D. 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급할 때 거르는 소수성 필터.\n(다) **Mycoplasma** → C. 세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다.\n(라) **Process-related impurity (공정 유래 불순물)** → A. 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).",
+   "explanation": "**용어와 설명의 짝**\n(가) **Bioburden reduction** → B. 균 수를 줄이려는 여과 — 무균 보증(챌린지·integrity test 검증)은 하지 않는다.\n(나) **Gas filter** → D. 배양기 sparging·압력 이송처럼 기체를 한 방향으로 공급할 때 거르는 소수성 필터.\n(다) **Mycoplasma** → C. 세포벽이 없는 아주 작은 세균 — 0.2 µm를 빠져나갈 수 있어 배지에 0.1 µm 필터를 쓴다.\n(라) **Process-related impurity (공정 유래 불순물)** → A. 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).",
    "choiceNotes": [
     "틀리다 — (가) Bioburden reduction의 설명은 B, (나) Gas filter의 설명은 D",
     "틀리다 — (가) Bioburden reduction의 설명은 B, (라) Process-related impurity의 설명은 A",
@@ -4162,14 +4162,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓)."
+    "배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제)."
    ],
    "answers": [
     "Process-related impurity",
     "공정 유래 불순물",
     "Process-related impurity (공정 유래 불순물)"
    ],
-   "explanation": "**Process-related impurity (공정 유래 불순물)** — 배지·HCP·DNA·엔도톡신처럼 공정에서 들어온 불순물(안전성↓).\n정답으로 인정하는 표기: Process-related impurity · 공정 유래 불순물 · Process-related impurity (공정 유래 불순물) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Process-related impurity (공정 유래 불순물)** — 배지 성분·HCP·DNA·엔도톡신처럼 제조 과정에서 섞인 불순물(안전성 문제).\n정답으로 인정하는 표기: Process-related impurity · 공정 유래 불순물 · Process-related impurity (공정 유래 불순물) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.9 (Impurities)",
    "concepts": [
     "Process-related impurity"
@@ -4186,14 +4186,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓)."
+    "Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제)."
    ],
    "answers": [
     "Product-related impurity",
     "제품 유래 불순물",
     "Product-related impurity (제품 유래 불순물)"
    ],
-   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화·잘못 접힌 단백질처럼 제품 자체가 변한 불순물(품질↓).\n정답으로 인정하는 표기: Product-related impurity · 제품 유래 불순물 · Product-related impurity (제품 유래 불순물) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Product-related impurity (제품 유래 불순물)** — Aggregate·산화체·잘못 접힌 단백질처럼 목표 단백질이 변한 불순물(품질 문제).\n정답으로 인정하는 표기: Product-related impurity · 제품 유래 불순물 · Product-related impurity (제품 유래 불순물) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.9 (Impurities)",
    "concepts": [
     "Product-related impurity"
@@ -4210,14 +4210,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법."
+    "알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법."
    ],
    "answers": [
     "Precipitation",
     "침전",
     "Precipitation (침전)"
    ],
-   "explanation": "**Precipitation (침전)** — 알코올·PEG 등을 넣어 목표 물질을 가라앉혀 나누는 1차 정제 방법.\n정답으로 인정하는 표기: Precipitation · 침전 · Precipitation (침전) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Precipitation (침전)** — 알코올·PEG 등으로 목표 물질의 용해도를 낮춰 고체로 분리하는 1차 정제 방법.\n정답으로 인정하는 표기: Precipitation · 침전 · Precipitation (침전) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.11 (Precipitation)",
    "concepts": [
     "Precipitation"
@@ -4234,14 +4234,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법."
+    "고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법."
    ],
    "answers": [
     "Centrifugation",
     "원심분리",
     "Centrifugation (원심분리)"
    ],
-   "explanation": "**Centrifugation (원심분리)** — 빠르게 돌려 무거운 세포·찌꺼기를 가라앉혀 나누는 방법.\n정답으로 인정하는 표기: Centrifugation · 원심분리 · Centrifugation (원심분리) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Centrifugation (원심분리)** — 고속 회전으로 무거운 세포·세포 잔해를 침강시켜 분리하는 방법.\n정답으로 인정하는 표기: Centrifugation · 원심분리 · Centrifugation (원심분리) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.10, p.12 (Centrifuge)",
    "concepts": [
     "Centrifugation"
@@ -4306,7 +4306,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터."
+    "세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터."
    ],
    "answers": [
     "Sterilizing-grade filter",
@@ -4316,7 +4316,7 @@
     "멸균 필터",
     "0.2 µm 필터"
    ],
-   "explanation": "**Sterilizing-grade filter (제균 필터)** — 세균 도전 시험에서 여과액이 무균으로 나온 0.2 µm 급 필터.\n정답으로 인정하는 표기: Sterilizing-grade filter · 제균 필터 · Sterilizing-grade filter (제균 필터) · 제균 여과 필터 · 멸균 필터 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Sterilizing-grade filter (제균 필터)** — 세균 도전 시험(BCT)에서 무균 여과액을 내는 것이 입증된 필터.\n정답으로 인정하는 표기: Sterilizing-grade filter · 제균 필터 · Sterilizing-grade filter (제균 필터) · 제균 여과 필터 · 멸균 필터 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.24 (제균 Filter의 정의)",
    "concepts": [
     "Sterilizing-grade filter"
@@ -4518,7 +4518,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과."
+    "pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과."
    ],
    "answers": [
     "Reverse osmosis",
@@ -4526,7 +4526,7 @@
     "역삼투",
     "Reverse osmosis (RO, 역삼투)"
    ],
-   "explanation": "**Reverse osmosis (RO, 역삼투)** — 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n정답으로 인정하는 표기: Reverse osmosis · RO · 역삼투 · Reverse osmosis (RO, 역삼투) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Reverse osmosis (RO, 역삼투)** — pore가 가장 작은 막에 아주 높은 압력을 걸어 이온까지 거르는 여과.\n정답으로 인정하는 표기: Reverse osmosis · RO · 역삼투 · Reverse osmosis (RO, 역삼투) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.32 (Size에 따른 분리)",
    "concepts": [
     "Reverse osmosis"
@@ -4695,7 +4695,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다."
+    "공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다."
    ],
    "answers": [
     "TMP",
@@ -4704,7 +4704,7 @@
     "막간 압력",
     "막 횡단 압력"
    ],
-   "explanation": "**TMP (Transmembrane Pressure)** — 막을 가로질러 걸리는 평균 압력 — 높이면 투과가 늘다 한계에 이른다.\n정답으로 인정하는 표기: TMP · Transmembrane Pressure · TMP (Transmembrane Pressure) · 막간 압력 · 막 횡단 압력 (띄어쓰기·대소문자 무시)",
+   "explanation": "**TMP (Transmembrane Pressure)** — 공급 쪽과 투과 쪽 사이의 평균 압력 차 — 높이면 투과가 늘다 한계에 이른다.\n정답으로 인정하는 표기: TMP · Transmembrane Pressure · TMP (Transmembrane Pressure) · 막간 압력 · 막 횡단 압력 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.88, p.90",
    "concepts": [
     "TMP"
@@ -4721,7 +4721,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것."
+    "새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것."
    ],
    "answers": [
     "Diafiltration",
@@ -4729,7 +4729,7 @@
     "정용여과",
     "다이아 필트레이션"
    ],
-   "explanation": "**Diafiltration** — 새 버퍼를 넣고 빼기를 되풀이해 기존 버퍼를 바꾸는 것.\n정답으로 인정하는 표기: Diafiltration · DF · 정용여과 · 다이아 필트레이션 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Diafiltration** — 새 버퍼를 넣으며 같은 양을 투과시켜 기존 버퍼를 교체하는 것.\n정답으로 인정하는 표기: Diafiltration · DF · 정용여과 · 다이아 필트레이션 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.100, p.103",
    "concepts": [
     "Diafiltration"
@@ -4746,7 +4746,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험."
+    "젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험."
    ],
    "answers": [
     "Bubble point test",
@@ -4755,7 +4755,7 @@
     "Bubble point",
     "기포점"
    ],
-   "explanation": "**Bubble point test (기포점 시험)** — 젖은 막에 압력을 올려 기포가 줄지어 나오는 압력을 재는 시험.\n정답으로 인정하는 표기: Bubble point test · 기포점 시험 · Bubble point test (기포점 시험) · Bubble point · 기포점 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Bubble point test (기포점 시험)** — 젖은 막에 압력을 올려 pore 속 액체가 밀려나기 시작하는 압력을 재는 시험.\n정답으로 인정하는 표기: Bubble point test · 기포점 시험 · Bubble point test (기포점 시험) · Bubble point · 기포점 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.125–126",
    "concepts": [
     "Bubble point test"
@@ -4772,7 +4772,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험."
+    "Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험."
    ],
    "answers": [
     "Diffusion test",
@@ -4781,7 +4781,7 @@
     "Diffusion",
     "확산"
    ],
-   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력(약 80 %)에서 막을 통해 퍼져 나오는 기체량을 재는 시험.\n정답으로 인정하는 표기: Diffusion test · 확산 시험 · Diffusion test (확산 시험) · Diffusion · 확산 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Diffusion test (확산 시험)** — Bubble point보다 낮은 압력에서 젖은 막을 지나는 기체 유량을 재는 시험.\n정답으로 인정하는 표기: Diffusion test · 확산 시험 · Diffusion test (확산 시험) · Diffusion · 확산 (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.127, p.131",
    "concepts": [
     "Diffusion test"
@@ -4851,14 +4851,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test."
+    "멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것."
    ],
    "answers": [
     "PUPSIT",
     "Pre-Use Post-Sterilization Integrity Test",
     "PUPSIT (Pre-Use Post-Sterilization Integrity Test)"
    ],
-   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균한 뒤, 쓰기 직전에 하는 제균 필터 integrity test.\n정답으로 인정하는 표기: PUPSIT · Pre-Use Post-Sterilization Integrity Test · PUPSIT (Pre-Use Post-Sterilization Integrity Test) (띄어쓰기·대소문자 무시)",
+   "explanation": "**PUPSIT (Pre-Use Post-Sterilization Integrity Test)** — 멸균·설치 중 생긴 손상까지 찾으려고 사용 직전에 제균 필터를 검사하는 것.\n정답으로 인정하는 표기: PUPSIT · Pre-Use Post-Sterilization Integrity Test · PUPSIT (Pre-Use Post-Sterilization Integrity Test) (띄어쓰기·대소문자 무시)",
    "source": "WK04 PDF p.17, p.158",
    "concepts": [
     "PUPSIT"
@@ -4875,14 +4875,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율."
+    "배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율."
    ],
    "answers": [
     "Yield",
     "수율",
     "Yield (수율)"
    ],
-   "explanation": "**Yield (수율)** — 배양에서 만든 양을 정제 끝까지 얼마나 지켰는지의 비율.\n정답으로 인정하는 표기: Yield · 수율 · Yield (수율) (띄어쓰기·대소문자 무시)",
+   "explanation": "**Yield (수율)** — 배양에서 생산한 목표 물질 중 정제 후 회수된 양의 비율.\n정답으로 인정하는 표기: Yield · 수율 · Yield (수율) (띄어쓰기·대소문자 무시)",
    "source": "WK04 강의 녹음② 2:13:07–2:13:43",
    "concepts": [
     "Yield"
@@ -4923,7 +4923,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수."
+    "모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험."
    ],
    "answers": [
     "VCS",
@@ -4932,7 +4932,7 @@
     "바이러스 제거 검증",
     "바이러스 클리어런스 스터디"
    ],
-   "explanation": "**VCS (Viral Clearance Study)** — 공정 단계들이 바이러스를 없애는 효과를 증명하는 시험 — 동물 유래 의약품 필수.\n정답으로 인정하는 표기: VCS · Viral Clearance Study · VCS (Viral Clearance Study) · 바이러스 제거 검증 · 바이러스 클리어런스 스터디 (띄어쓰기·대소문자 무시)",
+   "explanation": "**VCS (Viral Clearance Study)** — 모델 바이러스를 spike해 정제 단계별 LRV를 측정하는 시험.\n정답으로 인정하는 표기: VCS · Viral Clearance Study · VCS (Viral Clearance Study) · 바이러스 제거 검증 · 바이러스 클리어런스 스터디 (띄어쓰기·대소문자 무시)",
    "source": "WK04 강의 녹음② 1:47:26–1:48:13",
    "concepts": [
     "VCS"
@@ -4949,7 +4949,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험)."
+    "생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험)."
    ],
    "answers": [
     "HCD",
@@ -4957,7 +4957,7 @@
     "HCD (Host Cell DNA)",
     "숙주세포 DNA"
    ],
-   "explanation": "**HCD (Host Cell DNA)** — 죽은 숙주세포가 터지며 나온 DNA 불순물(면역반응·돌연변이 위험).\n정답으로 인정하는 표기: HCD · Host Cell DNA · HCD (Host Cell DNA) · 숙주세포 DNA (띄어쓰기·대소문자 무시)",
+   "explanation": "**HCD (Host Cell DNA)** — 생산 세포가 사멸·파쇄되며 나온 핵산 불순물(면역반응·돌연변이 위험).\n정답으로 인정하는 표기: HCD · Host Cell DNA · HCD (Host Cell DNA) · 숙주세포 DNA (띄어쓰기·대소문자 무시)",
    "source": "WK04 강의 녹음② 1:56:00–1:56:46",
    "concepts": [
     "HCD"
@@ -4974,14 +4974,14 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리)."
+    "그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물."
    ],
    "answers": [
     "Endotoxin",
     "내독소",
     "엔도톡신"
    ],
-   "explanation": "**Endotoxin** — 세균 세포벽에서 나와 열을 일으키는 독소 불순물(일반 원리).\n정답으로 인정하는 표기: Endotoxin · 내독소 · 엔도톡신 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Endotoxin** — 그람 음성균 세포벽의 LPS로, 발열을 일으키는 불순물.\n정답으로 인정하는 표기: Endotoxin · 내독소 · 엔도톡신 (띄어쓰기·대소문자 무시)",
    "source": "WK04 강의 녹음② 1:54:15–1:57:03",
    "concepts": [
     "Endotoxin"
@@ -5048,7 +5048,7 @@
    "format": "short",
    "question": "다음 설명에 해당하는 용어를 쓰시오.",
    "box": [
-    "성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계."
+    "원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계."
    ],
    "answers": [
     "Formulation",
@@ -5057,7 +5057,7 @@
     "포뮬레이션",
     "제제화"
    ],
-   "explanation": "**Formulation (제형)** — 성분 조성과 농도를 몸에 맞게 맞추는 완제 첫 단계.\n정답으로 인정하는 표기: Formulation · 제형 · Formulation (제형) · 포뮬레이션 · 제제화 (띄어쓰기·대소문자 무시)",
+   "explanation": "**Formulation (제형)** — 원료의약품에 부형제를 더해 투여에 알맞은 조성·농도로 만드는 완제 첫 단계.\n정답으로 인정하는 표기: Formulation · 제형 · Formulation (제형) · 포뮬레이션 · 제제화 (띄어쓰기·대소문자 무시)",
    "source": "WK04 강의 녹음② 2:16:47–2:17:41",
    "concepts": [
     "Formulation"

@@ -146,7 +146,7 @@
     {
       "id": "wk04-046",
       "type": "연결",
-      "question": "TFF에서 목표 물질(단백질)이 남는 쪽은?",
+      "question": "UF-TFF에서 목표 단백질이 모이는 쪽은?",
       "choices": [
         "Permeate",
         "Retentate",
@@ -155,13 +155,13 @@
         "버퍼 탱크"
       ],
       "answer": 2,
-      "explanation": "**TFF는 feed tank → 펌프 → 막(feed)을 지나며, 막을 통과하지 못한 retentate(목표 물질)는 탱크로 돌아가고 작은 물질은 permeate로 빠져나간다.** 세 지점(feed·retentate·permeate)에 압력계가 있다.",
+      "explanation": "**UF-TFF에서 막을 통과하지 못한 목표 단백질은 retentate로 탱크에 돌아가고, 버퍼·염 같은 작은 물질은 permeate로 빠져나간다.** TFF는 feed tank → 펌프 → 막(feed)을 지나며, 세 지점(feed·retentate·permeate)에 압력계가 있다. 세포를 거르는 MF-TFF에서는 반대로 항체가 permeate로 나온다.",
       "choiceNotes": [
-        "틀리다 — 제거할 물질이 빠져나가는 쪽이다.",
-        "옳다.",
-        "틀리다.",
-        "틀리다.",
-        "틀리다."
+        "틀리다 — UF에서는 버퍼·염 같은 작은 물질이 빠져나가는 쪽이다.",
+        "옳다 — 막을 통과하지 못한 큰 분자가 모여 탱크로 돌아간다.",
+        "틀리다 — feed를 막으로 보내는 장치이다.",
+        "틀리다 — TFF의 흐름 지점이 아니다.",
+        "틀리다 — diafiltration 버퍼를 담는 곳이다."
       ],
       "source": "WK04 PDF p.86–87 (CFF System의 구성)",
       "tags": [
@@ -211,20 +211,20 @@
       "type": "연결",
       "question": "Bubble point test와 diffusion test의 차이로 옳은 것은?",
       "choices": [
-        "확산은 기포가 줄지어 나오는 압력을 잰다",
+        "Diffusion test는 기포가 줄지어 나오는 압력을 잰다",
         "Bubble point test는 막을 말린 상태로 한다",
-        "Diffusion test는 bubble point보다 높은 압력에서 한다",
-        "Bubble point test는 기포가 줄지어 나오는 압력을, diffusion test는 그보다 낮은 압력의 기체량을 잰다",
+        "Bubble point보다 높은 압력에서 diffusion test를 한다",
+        "Bubble point는 기포가 줄지어 나오는 압력, diffusion은 그 아래 압력의 기체량을 잰다",
         "두 시험은 원리가 같고 이름만 다르다"
       ],
       "answer": 4,
       "explanation": "**Bubble point test는 압력을 올려 기포가 줄지어 나오는(bulk flow) 압력을 재고, diffusion test는 bubble point보다 낮은 압력(약 80 %)에서 젖은 막을 통해 퍼져 나오는 기체량을 잰다.** 확산 구간은 압력에 비례하다가 bubble point에서 급격히 늘어난다.",
       "choiceNotes": [
-        "틀리다 — 반대다.",
+        "틀리다 — 그것은 bubble point test이다.",
         "틀리다 — 둘 다 젖은 막에서 한다.",
-        "틀리다 — 낮은 압력이다.",
-        "옳다 — Diffusion test는 보통 bubble point의 약 80 %에서.",
-        "틀리다."
+        "틀리다 — diffusion test는 bubble point보다 낮은 압력(약 80 %)에서 한다.",
+        "옳다 — Diffusion test는 보통 bubble point의 약 80 % 압력에서 기체 확산량을 잰다.",
+        "틀리다 — 재는 압력 구간과 측정값이 다르다."
       ],
       "source": "WK04 PDF p.127, p.129–131",
       "tags": [
@@ -324,7 +324,7 @@
         "세포벽을 없애려고",
         "세포마다 DNA가 들어간 양·위치가 달라 생산성이 달라서",
         "배지를 아끼려고",
-        "바이러스를 죽이려고"
+        "바이러스를 불활화하려고"
       ],
       "answer": 3,
       "explanation": "**전기 충격 등으로 넣은 DNA는 세포에 무작위로 들어가 세포마다 생산성이 다르므로, 세포 하나하나(single cell)를 떼어 키우며 비교해 가장 좋은 세포를 고른다.** 강의: 이 일을 하는 장비 예가 Beacon(한 대 약 50억 원)이다.",
@@ -350,16 +350,16 @@
         "세포를 더 빨리 키우려고",
         "배지 성분을 바꾸려고",
         "세포를 파쇄해 산물을 회수하려고",
-        "고른 세포가 정말 좋은지 증명해 규제기관을 설득하려고",
+        "선정한 세포주가 생산에 적합함을 입증하려고",
         "바이알을 세척하려고"
       ],
       "answer": 4,
-      "explanation": "**고른 세포가 정말 좋은지 특성을 정의·확인해 증명하는 단계가 cell line characterization이며, 이와 함께 세포를 늘려 보관한 것이 MCB다.** 강의: 그래서 MCB는 임상·상업 생산에 쓸 수 있다.",
+      "explanation": "**선정한 세포주의 특성을 정의·확인해 생산에 적합함을 입증(규제기관 제출)하는 단계가 cell line characterization이며, 이와 함께 세포를 늘려 보관한 것이 MCB다.** 강의: 그래서 MCB는 임상·상업 생산에 쓸 수 있다.",
       "choiceNotes": [
         "틀리다.",
         "틀리다.",
         "틀리다.",
-        "옳다.",
+        "옳다 — 특성 분석 결과로 세포주의 적합성을 규제기관에 입증한다.",
         "틀리다."
       ],
       "source": "WK04 강의 녹음② 43:24–44:44 (세포주 특성 분석과 MCB)",
@@ -399,7 +399,7 @@
     {
       "id": "wk04-090",
       "type": "개념",
-      "question": "강의에서 꼭 알라고 한 CHO 세포의 doubling time은?",
+      "question": "CHO 세포의 doubling time은 약 얼마인가?",
       "choices": [
         "약 하루",
         "약 1시간",
@@ -410,7 +410,7 @@
       "answer": 1,
       "explanation": "**CHO 세포의 doubling time은 약 하루(약 24시간)라, 이를 알면 다음 배양기로 옮길 시점(seed train 일정)을 미리 짤 수 있다.** 동물세포는 단계마다 약 5배씩 키우므로 한 단계에 약 2.3일이 걸린다.",
       "choiceNotes": [
-        "옳다 — 이걸 알면 계대 일정을 짤 수 있다.",
+        "옳다 — 이를 알면 seed train 일정을 짤 수 있다.",
         "틀리다.",
         "틀리다.",
         "틀리다.",
@@ -457,7 +457,7 @@
     {
       "id": "wk04-095",
       "type": "개념",
-      "question": "강의에서 꼭 외우라고 한 크기로 옳은 것은?",
+      "question": "세포·바이러스·필터의 크기로 옳은 것은?",
       "choices": [
         "Enveloped virus 약 100 nm, non-enveloped virus 약 20 nm",
         "동물세포 약 0.2 µm",
@@ -466,9 +466,9 @@
         "세균 약 20 nm"
       ],
       "answer": 1,
-      "explanation": "**외울 크기: 동물세포 약 15 µm(10~20 µm), 제균 필터 0.2 µm(마이코플라스마는 0.1 µm), enveloped virus 약 100 nm, non-enveloped virus 약 20 nm.** 강의: 동물세포는 가는 머리카락 굵기 정도라 맨눈으로 겨우 보인다.",
+      "explanation": "**대표 크기: 동물세포 약 15 µm(10~20 µm), 제균 필터 0.2 µm(마이코플라스마는 0.1 µm), enveloped virus 약 100 nm, non-enveloped virus 약 20 nm.** 강의: 동물세포는 가는 머리카락 굵기 정도라 맨눈으로 겨우 보인다.",
       "choiceNotes": [
-        "옳다.",
+        "옳다 — enveloped virus는 약 100 nm, non-enveloped virus는 약 20 nm이다.",
         "틀리다 — 동물세포는 약 15 µm(10~20 µm)다.",
         "틀리다 — 제균 필터는 0.2 µm다.",
         "틀리다 — Non-enveloped virus(약 20 nm)가 더 작다.",
@@ -685,7 +685,7 @@
         "pH 3.5",
         "pH 3"
       ],
-      "explanation": "**Protein A 용출은 low pH(약 3~3.5, 넓게 3~4.5)에서 한다.** 강사가 \"외우라\"고 강조한 값이다. 용출액이 이미 low pH라 바로 뒤에서 30분~1시간 유지해 바이러스를 불활화한다.",
+      "explanation": "**Protein A 용출은 low pH(약 3~3.5, 넓게 3~4.5)에서 한다.** 정제 공정의 대표 조건값이다. 용출액이 이미 low pH라 바로 뒤에서 30분~1시간 유지해 바이러스를 불활화한다.",
       "source": "WK04 강의 녹음② 1:42:58–1:45:18 (Protein A 결합·용출) · WK06 강의 녹음 21:00–22:30",
       "concepts": [
         "Protein A",
@@ -701,7 +701,7 @@
       "type": "단답",
       "part": 3,
       "format": "short",
-      "question": "항체를 CEX에 붙일 때 맞추는 pH 범위는? (숫자)",
+      "question": "항체를 CEX에 결합시킬 때 맞추는 pH 범위는? (숫자)",
       "answers": [
         "5~6",
         "5-6",
@@ -709,7 +709,7 @@
         "pH 5~6",
         "5~6사이"
       ],
-      "explanation": "**항체의 pI는 약 7~8이라 pH 5~6에서는 + 전하를 띠어 CEX에 붙고, pI가 2~4쯤인 불순물은 − 전하라 붙지 않는다.** 한 번 맞춘 pH 5~6은 제형 직전까지 그대로 간다.",
+      "explanation": "**항체의 pI는 약 7~8이라 pH 5~6에서는 + 전하를 띠어 CEX에 결합하고, pI가 2~4쯤인 불순물은 − 전하라 결합하지 않고 통과한다.** 한 번 맞춘 pH 5~6은 제형 직전까지 그대로 간다.",
       "source": "WK04 강의 녹음② 1:53:29–1:58:46 (CEX 조건) · WK06 강의 녹음 24:08–25:32",
       "concepts": [
         "CEX",
@@ -725,7 +725,7 @@
       "type": "단답",
       "part": 3,
       "format": "short",
-      "question": "강의에서 외우라고 한 non-enveloped virus의 크기는 약 몇 nm인가?",
+      "question": "Non-enveloped virus의 크기는 약 몇 nm인가?",
       "answers": [
         "20",
         "20nm",
@@ -862,18 +862,18 @@
       "part": 2,
       "question": "VI와 VF의 구분으로 옳은 것은?",
       "choices": [
-        "VI는 필터로 거르고, VF는 low pH로 죽인다",
+        "VI는 필터로 제거하고, VF는 low pH로 불활화한다",
         "VF는 enveloped virus에만 효과가 있다",
-        "VI는 low pH로 바이러스를 죽이고, VF는 약 20 nm 필터로 걸러 낸다",
+        "VI는 low pH로 불활화하고, VF는 약 20 nm 필터로 제거한다",
         "VI는 non-enveloped virus에 가장 잘 듣는다",
         "두 단계는 원리가 같아 하나만 하면 된다"
       ],
       "answer": 3,
-      "explanation": "**VI(Virus Inactivation)는 low pH로 바이러스를 죽이는 단계, VF(Virus Filter)는 약 20 nm 필터로 바이러스를 걸러 내는 단계다 — 이름이 비슷해 헷갈리기 쉽다.** 바이러스 처리 3단계: low pH VI(죽임) → AEX(흡착 제거) → VF(걸러 제거). 단계마다 5~6 LRV를 기대하고 합쳐 10대 후반 LRV를 확보한다.",
+      "explanation": "**VI(Virus Inactivation)는 low pH로 바이러스를 불활화하는 단계, VF(Virus Filtration)는 약 20 nm pore 필터로 바이러스를 크기에 따라 제거하는 단계다 — 이름이 비슷해 헷갈리기 쉽다.** 바이러스 처리 3단계: low pH VI(불활화) → AEX(흡착 제거) → VF(크기 배제 제거). 단계마다 5~6 LRV를 기대하고 합쳐 10대 후반 LRV를 확보한다.",
       "choiceNotes": [
         "틀리다 — 반대다.",
         "틀리다 — VF는 크기로 거르므로 외피 유무와 상관없이 효과가 있다.",
-        "옳다 — VI(Virus Inactivation)는 low pH로 바이러스를 죽이는 단계, VF(Virus Filter)는 약 20 nm 필터로 바이러스를 걸러 내는 단계다 — 이름이 비슷해 헷갈리기 쉽다",
+        "옳다 — VI는 low pH로 lipid envelope를 파괴해 바이러스를 불활화하고, VF는 약 20 nm pore 필터로 바이러스를 제거한다.",
         "틀리다 — low pH는 lipid envelope를 파괴해 enveloped virus에 듣는다.",
         "틀리다 — 원리가 달라야 서로 놓친 바이러스를 잡는다(orthogonal)."
       ],
@@ -931,7 +931,7 @@
         "Depth filter"
       ],
       "answer": 5,
-      "explanation": "**Depth filter는 두꺼운 섬유층 안에 확률적으로 입자를 잡는 필터라 pore size를 보증하지 않으므로 integrity test를 하지 않는다.** Integrity test는 sterile filter, virus filter, cassette처럼 pore size로 확실히 거르는(absolute) membrane에 한다. HEPA는 에어로졸 스캔으로 따로 확인한다.",
+      "explanation": "**Depth filter는 두꺼운 섬유층 안에 확률적으로 입자를 잡는 필터라 pore size를 보증하지 않으므로 integrity test를 하지 않는다.** Integrity test는 sterile filter, virus filter, cassette처럼 pore size로 입자를 걸러 내는 절대 여과(absolute) membrane에 한다. HEPA는 에어로졸 스캔으로 따로 확인한다.",
       "choiceNotes": [
         "틀리다 — 사용 전·후 integrity test를 한다.",
         "틀리다 — integrity test 대상이다.",
@@ -962,7 +962,7 @@
         "대장균에는 세포벽이 없어서"
       ],
       "answer": 1,
-      "explanation": "**Endotoxin은 그람음성균 외막의 LPS로, 대장균은 산물이 세포 안에 있어 cell lysis를 해야 하므로 이때 endotoxin이 대량으로 나온다.** 극미량으로도 발열을 일으키는 불순물 4총사 중 하나다.",
+      "explanation": "**Endotoxin은 그람음성균 외막의 LPS로, 대장균은 산물이 세포 안에 있어 cell lysis를 해야 하므로 이때 endotoxin이 대량으로 나온다.** 극미량으로도 발열을 일으키며, 정제에서 제거할 주요 불순물 4가지(HCP·HCD·endotoxin·virus) 중 하나다.",
       "choiceNotes": [
         "옳다 — Endotoxin은 그람음성균 외막의 LPS로, 대장균은 산물이 세포 안에 있어 cell lysis를 해야 하므로 이때 endotoxin이 대량으로 나온다",
         "틀리다 — endotoxin은 그람음성균(대장균 등)의 바깥막 성분이다.",
@@ -1016,7 +1016,7 @@
       "type": "단답",
       "part": 3,
       "format": "short",
-      "question": "강의에서 외우라고 한 항체(IgG)의 분자량은 약 몇 kDa인가?",
+      "question": "항체(IgG)의 분자량은 약 몇 kDa인가?",
       "answers": [
         "150",
         "150kDa",

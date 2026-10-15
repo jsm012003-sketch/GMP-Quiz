@@ -38,18 +38,18 @@
       "choices": [
         "금속에 spore가 더 많이 들어가서",
         "금속이 색이 변해서",
-        "H₂O₂가 종이에 잘 스며들지 않고 흡착되기 때문에",
+        "H₂O₂가 종이 섬유에 흡착돼 spore에 고르게 닿지 않아서",
         "종이가 비싸서",
-        "공기 빼는 시간이 짧아져서"
+        "Aeration 시간이 짧아져서"
       ],
       "answer": 3,
-      "explanation": "**H₂O₂는 구멍이 많은 종이에 잘 침투하지 못하고 흡착되므로, 매끈한 금속 원판에 spore를 한 층으로 붙인 BI를 쓴다.**",
+      "explanation": "**H₂O₂는 다공성인 종이 섬유에 흡착돼 spore까지 고르게 침투하지 못하므로, 매끈한 금속(steel) 원판에 spore를 한 층으로 올린 BI를 쓴다.**",
       "choiceNotes": [
         "틀리다.",
         "틀리다 — 색 변화는 CI.",
-        "옳다 — 매끈한 원판에 spore를 한 층으로 올린다.",
+        "옳다 — 종이는 H₂O₂를 흡착하므로, 매끈한 금속 원판에 spore를 한 층으로 올려 고르게 노출시킨다.",
         "틀리다.",
-        "틀리다."
+        "틀리다 — BI 담체 선택은 Aeration 시간과 관계없다."
       ],
       "source": "03 Isolator & Qualification PDF p.13 (Biological indicator 담체 비교, 사진 슬라이드)",
       "tags": [
