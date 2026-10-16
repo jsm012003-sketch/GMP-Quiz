@@ -10,17 +10,17 @@
       "question": "다음 중 크로마토그래피에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "흐르는 계(flowing system)에서 흡착 컬럼 위로 성분을 분리하는 방법이다",
-        "Tsvet가 식물 색소를 탄산칼슘 컬럼에 흘려 색깔 띠로 나눈 데서 시작했다",
-        "바이오의약품 생산에서는 주로 기체 크로마토그래피(GC)를 쓴다",
-        "이름은 색(chroma)과 쓰다(graphein)를 합친 말이다"
+        "stationary phase(레진), mobile phase(버퍼), column housing 세 요소로 이루어진다",
+        "바이오의약품 생산에서는 액체 크로마토그래피 중 평판(TLC) 방식을 주로 쓴다",
+        "처음 분리한 대상이 식물 색소여서 색(chroma)이라는 이름이 붙었다"
       ],
       "answer": 3,
-      "explanation": "**바이오의약품 생산에서 쓰는 것은 기체(GC)가 아니라 액체 크로마토그래피(LC)의 컬럼 방식이다.** 교재는 GC와 LC, 평판(TLC)과 컬럼을 대비시킨 뒤 LC와 컬럼 방식을 강조했다. 크로마토그래피는 흐르는 계에서 흡착 컬럼 위로 분리하는 방법이며, Tsvet가 식물 색소를 색깔 띠로 나눈 데서 이름(chroma + graphein)이 나왔다.",
+      "explanation": "**바이오의약품 생산에서 쓰는 것은 액체 크로마토그래피(LC) 가운데 컬럼 방식이다 — 평판(TLC)이 아니다.** 교재는 GC와 LC, 평판(TLC)과 컬럼을 대비시킨 뒤 LC와 컬럼 방식을 강조했다. 크로마토그래피는 흐르는 계에서 흡착 컬럼 위로 분리하는 방법이며, 레진·버퍼·컬럼 housing 세 요소로 이루어진다.",
       "choiceNotes": [
         "옳은 진술 — 교재 정의 그대로이다. 흐르는 이동상(버퍼)이 고정상(레진)을 채운 컬럼을 지나는 동안 성분이 나뉜다.",
-        "옳은 진술 — 러시아 식물학자 Tsvet(1872–1919)가 엽록소 같은 식물 색소를 탄산칼슘 컬럼에 흘려 색깔 띠로 나눈 것이 시작이다(1903).",
-        "틀린 진술(정답) — GC는 끓는점 차이로 나누는, 주로 분석용 기술이다. 생산에서는 단백질 성질 차이를 이용하는 액체 크로마토그래피(LC)의 컬럼 방식을 쓴다.",
-        "옳은 진술 — 그리스어 chroma(색)와 graphein(쓰다)을 합친 이름으로, 처음 분리한 대상이 색소였던 데서 왔다."
+        "옳은 진술 — 레진(고정상), 버퍼(이동상), 관(column housing)이 크로마토그래피의 세 요소이다.",
+        "틀린 진술(정답) — 액체 크로마토그래피(LC)라는 앞부분은 맞지만 방식이 틀렸다. 교재는 평판(TLC)과 컬럼을 대비시킨 뒤 생산에 쓰는 컬럼 방식에 별표를 쳤다.",
+        "옳은 진술 — Tsvet가 엽록소 같은 식물 색소를 탄산칼슘 컬럼에 흘려 색깔 띠로 나눈 데서 chroma(색)+graphein(쓰다)라는 이름이 왔다."
       ],
       "source": "해설서 A0 · WK03 교재 p.3–7 (사진 775–777)",
       "concepts": [
@@ -37,17 +37,17 @@
       "question": "크로마토그래피의 목적에 따른 구분과 관련한 아래의 설명 중 잘못된 것은?",
       "choices": [
         "Analytical은 성분을 확인하고 양을 재는 것이 목적이다",
-        "Preparative는 목적 물질을 실제로 얻어 내는 것이 목적이다",
-        "HPLC는 High performance(pressure) LC를 줄인 말이다",
-        "이 과목에서 다루는 공정 크로마토그래피는 analytical에 해당한다"
+        "이 과목에서 다루는 공정 크로마토그래피는 모두 preparative이다",
+        "HPLC의 H는 고순도를 뜻하는 High purity의 약자이다",
+        "분석용 HPLC는 작은 비드를 채워 높은 압력으로 운전한다"
       ],
-      "answer": 4,
-      "explanation": "**공정(생산) 크로마토그래피는 모두 preparative이다.** 같은 크로마토그래피라도 성분을 확인·정량하는 analytical과 목적 물질을 실제로 얻어 내는 preparative로 나뉘며, 교재 필기는 preparative 옆에 '생산'이라고 적었다.",
+      "answer": 3,
+      "explanation": "**HPLC는 High performance(pressure) Liquid Chromatography의 약자이다.** 크로마토그래피는 목적에 따라 성분을 확인·정량하는 analytical과 목적 물질을 얻어 내는 preparative로 나뉘며, 공정(생산) 크로마토그래피는 모두 preparative이다. 분석용 HPLC는 작은 비드와 높은 압력을 쓴다.",
       "choiceNotes": [
-        "옳은 진술 — analytical은 혼합물 성분을 확인(identify)하고 정량(quantify)하는 것이 목적이며 GC·HPLC가 예이다.",
-        "옳은 진술 — preparative는 원하는 분자를 분리·정제해 다음 공정에 쓰는 것이 목적이며, 교재 필기는 여기에 별표와 '생산'을 적었다.",
-        "옳은 진술 — 교재 필기에 'High performance (pressure) LC'로 풀어 적혀 있다.",
-        "틀린 진술(정답) — 생산 공정의 크로마토그래피는 목적 단백질을 실제로 얻어 내므로 모두 preparative이다. analytical은 QC 분석용 HPLC 같은 쪽이다."
+        "옳은 진술 — analytical은 성분 확인·정량이 목적이다(QC 분석).",
+        "옳은 진술 — 목적 물질을 실제로 얻어 내는 것이 preparative이며, 교재 필기는 preparative 옆에 ★와 \"생산\"을 적었다.",
+        "틀린 진술(정답) — HPLC는 High performance(pressure) LC이다. purity(순도)로 바꿔 쓴 함정이다.",
+        "옳은 진술 — QC의 분석용 HPLC는 10 µm보다 작은 비드를 스테인리스 컬럼에 채워 1000 bar 가까운 압력으로 돌린다."
       ],
       "source": "해설서 A0 · WK03 교재 p.6 (사진 776)",
       "concepts": [
@@ -63,18 +63,18 @@
       "part": 1,
       "question": "Retention time(RT)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "레진과 affinity가 높은 단백질일수록 RT가 짧아진다",
-        "레진과 약하게 상호작용하는 단백질은 RT가 짧다",
         "컬럼에 들어가서 나올 때까지 걸린 시간이다",
-        "단백질마다 표면 전하와 소수성 분포가 달라 RT가 다르다"
+        "단백질마다 표면 전하와 소수성 아미노산 분포가 달라 RT가 다르다",
+        "SEC에서는 레진에 결합하지 않아도 분자 크기에 따라 RT가 달라진다",
+        "레진과 affinity가 높은 단백질일수록 RT가 짧아진다"
       ],
-      "answer": 1,
-      "explanation": "**레진과 강하게 상호작용(high affinity)할수록 RT가 길어진다.** 약하게 상호작용하는 단백질은 빨리, 강하게 상호작용하는 단백질은 오래 머물렀다가 늦게 나온다. 교재 필기는 RT를 'resin과 반응하는 시간 차이'라고 적었다.",
+      "answer": 4,
+      "explanation": "**레진과 affinity가 높을수록(강하게 상호작용할수록) RT는 길어진다(high affinity → RT↑).** 레진과 약하게 상호작용하는 단백질은 빨리 빠져나오고, 강하게 상호작용하는 단백질은 오래 머물렀다 늦게 나온다. 단백질마다 표면 전하·소수성이 달라 RT가 다르다.",
       "choiceNotes": [
-        "틀린 진술(정답) — affinity가 높을수록 오래 머물러 RT가 길어진다(필기: high affinity → RT↑).",
-        "옳은 진술 — 레진과 친화력이 약한 단백질(교재의 단백질 I)은 고정상에 덜 머물러 컬럼을 빨리 통과하므로 RT가 짧다.",
-        "옳은 진술 — RT는 시료가 컬럼에 들어가 peak 꼭대기로 나올 때까지 걸린 시간이며, 필기는 이를 'resin과 반응하는 시간 차이'로 적었다.",
-        "옳은 진술 — 표면의 소수성 아미노산 분포와 전하가 달라 결합 세기가 다르다."
+        "옳은 진술 — retention time의 정의이다(필기 \"resin과 반응하는 시간 차이\").",
+        "옳은 진술 — 표면의 소수성 아미노산(A, V, I, L, M, F, Y, W) 분포와 전하가 달라 레진과의 결합 세기가 다르다.",
+        "옳은 진술 — SEC는 결합 없이 pore에 드나드는 정도가 달라 큰 분자는 빨리, 작은 분자는 늦게 나온다.",
+        "틀린 진술(정답) — 방향이 거꾸로이다. 필기는 \"high affinity → RT↑\" — 레진과 강하게 상호작용할수록 오래 머물러 늦게 나온다."
       ],
       "source": "해설서 A0 · WK03 교재 p.7 (사진 777)",
       "concepts": [
@@ -88,20 +88,20 @@
       "id": "ex-004",
       "type": "개념",
       "part": 1,
-      "question": "단백질을 소수성 차이로 레진에 결합시킨 뒤 소수성이 다른 단백질을 차례로 용출하는 조건으로 옳은 것은?",
+      "question": "소수성 차이로 단백질을 레진에 결합시킨 뒤 차례로 용출하는 HIC에 대한 설명으로 옳은 것은?",
       "choices": [
-        "염 농도를 높여 가며 용출한다",
-        "염 농도를 낮춰 가며 용출한다",
-        "비드 크기를 키워 가며 용출한다",
-        "시료 부피를 늘려 가며 용출한다"
+        "염 농도가 낮은 start buffer에서 결합시킨 뒤 염 농도를 올려 용출한다",
+        "1~1.5 M ammonium sulphate 같은 high salt에서 결합시키고 염 농도를 낮춰 용출한다",
+        "소수성이 가장 약한 단백질이 염이 없는 버퍼에서 마지막에 나온다",
+        "유기 용매로 용출하므로 생물 활성을 잃을 위험이 크다"
       ],
       "answer": 2,
-      "explanation": "**소수성 결합은 염 농도를 낮춰 가며 용출한다.** 교재 p.7 그래프는 염 농도를 낮추면서 소수성이 다른 단백질 네 가지가 차례로 떨어져 나오는 모습을 보여 주고, 필기에 'binding 세기 → salt 농도↓', 'IEX, HIC'가 적혀 있다.",
+      "explanation": "**HIC는 high salt(1~1.5 M ammonium sulphate)에서 소수성 부위로 결합시키고 염 농도를 낮춰 용출한다.** 염이 많으면 물 분자를 끌어가 단백질 표면의 소수성 부위가 드러나 레진의 소수성 리간드와 붙는다(일반 원리). IEX(염↑로 용출)와 방향이 정반대이며, 가장 단단히 붙은 분자는 염이 없는 버퍼에서 나온다.",
       "choiceNotes": [
-        "틀리다 — 염 농도를 높여 가며 용출하는 것은 이온 경쟁을 이용하는 IEX이다. 소수성 결합은 high salt에서 강해지므로 염을 높이면 오히려 더 붙는다.",
-        "옳다 — 교재 그래프는 염 농도를 낮추며 소수성이 다른 네 단백질이 차례로 나오는 모습이다(필기: binding 세기 → salt 농도↓, IEX와 대비되는 HIC).",
-        "틀리다 — 비드 크기는 분해능과 압력을 정하는 레진 선택 요인이며, 운전 중에 바꾸는 용출 조건이 아니다.",
-        "틀리다 — 시료 부피는 peak 폭을 정하는 efficiency 요인이다. 시료를 더 넣으면 peak만 넓어질 뿐 결합한 단백질이 용출되지는 않는다."
+        "틀리다 — IEX의 결합·용출 방향이다. IEX는 염을 올려서 떼고, HIC는 염을 내려서 뗀다 — 두 방향이 정반대라는 점이 가장 잘 나오는 함정이다.",
+        "옳다 — 기출 17번 그림처럼 1~1.5 M ammonium sulphate에서 붙이고 ammonium sulphate를 줄여 가며 용출한다.",
+        "틀리다 — 거꾸로이다. 소수성이 강해 가장 단단히 붙은 분자가 염이 없는 버퍼에서 마지막에 나온다.",
+        "틀리다 — 유기 용매로 용출해 생물 활성 손실 위험이 있는 것은 RPC(reversed phase)이다. HIC는 수용성 염 농도만 바꾼다."
       ],
       "source": "해설서 A0 · WK03 교재 p.7 아래 그림 (사진 778)",
       "concepts": [
@@ -117,18 +117,18 @@
       "part": 1,
       "question": "다음 크로마토그래피 모니터와 짝지어진 설명이 잘못되어 있는 것은?",
       "choices": [
-        "UV 280 nm – 단백질 농도",
-        "pH monitor – 단백질 농도, 단위 mAU",
+        "UV 280 nm – 핵산(DNA·RNA)",
         "Conductivity – 염 농도(이온 강도), 단위 mS/cm",
-        "UV 260 nm – DNA"
+        "Air sensor·air trap – 컬럼에 공기가 들어가 bed가 갈라지는 것을 막는다",
+        "pH monitor – 버퍼의 pH"
       ],
-      "answer": 2,
-      "explanation": "**pH monitor는 버퍼 pH를 보며, 단백질 농도(mAU)는 UV monitor로 본다.** 필기로 강조된 세 모니터는 UV(단백질 280 nm, DNA 260 nm, 단위 mAU), Conductivity(염 농도, mS/cm), pH이다.",
+      "answer": 1,
+      "explanation": "**UV 모니터는 280 nm로 단백질, 260 nm로 DNA(핵산)를 본다.** 크로마토그래피 시스템의 모니터는 UV(단백질 280 nm·DNA 260 nm, 단위 mAU), conductivity(염 농도, mS/cm), pH이다. 공정 시스템에는 CIP 라인, air sensor·air trap, 필터, 압력 제어 밸브 등이 더해진다.",
       "choiceNotes": [
-        "옳은 진술 — UV monitor는 280 nm 흡광으로 단백질을 보며 단위는 mAU이다.",
-        "틀린 진술(정답) — pH monitor는 버퍼 pH를 본다. mAU는 UV 신호의 단위이다.",
-        "옳은 진술 — conductivity monitor는 염 농도(이온 강도)를 mS/cm로 보며, 필기로 1 M NaCl ≈ 85~90 mS/cm가 적혀 있다.",
-        "옳은 진술 — UV 260 nm는 핵산(DNA)의 흡광 파장으로, 280 nm(단백질)와 짝으로 외운다."
+        "틀린 짝(정답) — 280 nm는 단백질, 260 nm가 핵산(DNA)이다. 두 파장을 바꿔 쓴 함정이다.",
+        "옳은 짝 — 전도도로 염 농도를 본다. 필기: 1 M NaCl ≈ 85~90 mS/cm.",
+        "옳은 짝 — 공정 시스템에는 air sensor·air trap이 더해진다. 공기가 들어가면 bed가 갈라져 분리가 망가진다(일반 원리).",
+        "옳은 짝 — 세 모니터(UV·conductivity·pH) 가운데 하나이다."
       ],
       "source": "해설서 A0 · WK03 교재 p.6 (사진 779)",
       "concepts": [
@@ -147,17 +147,17 @@
       "question": "크로마토그래피 시스템 압력과 비드 크기에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "중압 시스템에는 30~50 µm 안팎의 비드를 쓴다",
-        "저압 시스템에는 90~100 µm 안팎의 비드를 쓴다",
-        "Process scale일수록 고압 시스템과 작은 비드를 쓴다",
+        "비드가 작을수록 분해능은 좋아지지만 컬럼 압력이 높아진다",
+        "저압 시스템에는 5 µm 안팎의 작은 비드를 쓴다",
         "Lab → pilot → process로 갈수록 저압·큰 비드 쪽을 쓴다"
       ],
       "answer": 3,
-      "explanation": "**Scale이 커질수록 저압·큰 비드 쪽으로 간다.** 교재 p.8은 시스템을 고압·중압·저압으로 나누고 중압 30~50 µm, 저압 90~100 µm 비드를 적었다. 비드가 작을수록 분해능은 좋지만 압력이 높아진다.",
+      "explanation": "**저압 시스템은 90~100 µm의 큰 비드를 쓴다 — 5 µm 안팎은 고압 시스템이다.** 교재 p.8 필기: 고압 약 5 µm, 중압 30~50 µm, 저압 90~100 µm. 비드가 작을수록 분해능은 좋아지지만 압력이 높아지므로, Lab → pilot → process로 갈수록 저압·큰 비드 쪽이다.",
       "choiceNotes": [
-        "옳은 진술 — 교재 p.8 필기로 중압 시스템에 30~50 µm 비드가 적혀 있다.",
-        "옳은 진술 — 저압 시스템은 90~100 µm의 큰 비드를 써 압력이 낮으며, 생산 컬럼이 이쪽이다.",
-        "틀린 진술(정답) — 반대이다. 큰 컬럼은 높은 압력을 견디기 어려워 저압·큰 비드를 쓴다.",
-        "옳은 진술 — 규모가 커질수록 큰 컬럼이 견딜 수 있는 압력이 낮아 저압·큰 비드 쪽으로 간다(교재 p.8 Lab → Pilot → Process)."
+        "옳은 진술 — 교재 p.8 필기: 중압 30~50 µm.",
+        "옳은 진술 — 비드가 작을수록 peak가 날카로워지지만(분해능↑) 압력도 오른다.",
+        "틀린 진술(정답) — 5 µm 안팎은 고압 시스템의 비드이다. 저압 시스템은 90~100 µm의 큰 비드를 쓴다.",
+        "옳은 진술 — 수십~수백 L를 처리하는 생산용 컬럼은 높은 압력을 견딜 수 없어 저압·큰 비드를 쓴다."
       ],
       "source": "해설서 A0 · WK03 교재 p.8 Variety of chromatography system (사진 781)",
       "concepts": [
@@ -234,17 +234,17 @@
       "question": "레진에 결합한 단백질을 용출하는 방법에 해당되지 않는 것은?",
       "choices": [
         "버퍼의 염 농도를 높인다",
-        "시료를 더 많이 주입해 컬럼에 싣는다",
         "레진의 ligand와 경쟁하는 물질을 넣는다",
+        "Straight fractionation으로 일정한 부피씩 잘라 받는다",
         "버퍼의 pH를 바꾼다"
       ],
-      "answer": 2,
-      "explanation": "**결합한 단백질은 염 농도를 높이거나, pH를 바꾸거나, ligand와 경쟁하는 물질을 넣어 용출한다.** 조건을 바꾸는 모양에 따라 linear gradient, stepwise, isocratic 세 가지 용출 모드가 있다.",
+      "answer": 3,
+      "explanation": "**결합한 단백질은 eluent 조건을 바꿔 용출한다 — 염 농도를 높이거나, pH를 바꾸거나, 경쟁 물질을 넣는다.** 용출액을 받는 방법(straight fractionation — 같은 부피로 잘라 받기, peak fractionation — peak가 나올 때만 받기)은 용출 방법과 다른 개념이다.",
       "choiceNotes": [
-        "옳은 진술 — 염 농도를 높이면 버퍼 이온이 결합 자리를 두고 경쟁해 단백질이 용출된다(교재의 용출 방법, IEX).",
-        "틀린 진술(정답) — 시료를 더 싣는 것은 loading이며 용출 방법이 아니다.",
-        "옳은 진술 — ligand와의 결합을 두고 경쟁하는 물질을 넣는 방법으로, 교재 표의 IMAC이 높은 imidazole로 용출하는 것이 예이다.",
-        "옳은 진술 — pH를 바꾸면 단백질 전하나 ligand 결합이 바뀌어 용출된다(교재 용출 방법, 다중모드 사례의 pH 7.5 용출)."
+        "해당된다 — IEX 등에서 염 농도를 높여 용출한다.",
+        "해당된다 — ligand 결합 자리를 두고 목표 물질과 경쟁하는 물질을 넣는다(예: affinity의 imidazole).",
+        "해당되지 않는다(정답) — straight fractionation은 나오는 액을 받는 방법(분획 받기)이다. 결합한 단백질을 떼어 내는 용출 방법이 아니다.",
+        "해당된다 — Protein A의 low pH 용출처럼 pH를 바꿔 용출한다."
       ],
       "source": "해설서 A0 · WK03 교재 p.10 Elution mode (사진 782)",
       "concepts": [
@@ -261,17 +261,17 @@
       "question": "정제 후 단백질 농도를 재는 방법에 해당되지 않는 것은?",
       "choices": [
         "UV 280 nm",
-        "Bradford assay",
-        "BCA assay",
-        "DSC"
+        "Lowry assay",
+        "SDS-PAGE",
+        "BCA assay"
       ],
-      "answer": 4,
-      "explanation": "**DSC는 안정성 확인 도구이다.** 교재 p.11 표: 단백질 농도 — UV 280 nm, Bradford, Lowry, BCA / 안정성 — DSC.",
+      "answer": 3,
+      "explanation": "**SDS-PAGE는 정체 확인·순도 확인 도구이고, 단백질 농도는 UV 280 nm·Bradford·Lowry·BCA로 잰다.** 교재 p.11: 정체 확인 SDS-PAGE·Western blot·ELISA / 농도 UV 280·Bradford·Lowry·BCA / 활성 enzyme assay·SPR / 순도 SDS-PAGE·IEF·2-D PAGE·GF·MALDI-MS / 크기 균일성 GF·MS·analytical IEX / 안정성 DSC.",
       "choiceNotes": [
-        "옳은 진술 — UV 280 nm 흡광도는 교재 p.11 표의 단백질 농도 도구이다.",
-        "옳은 진술 — Bradford assay는 Lowry·BCA와 함께 교재 표의 단백질 농도 도구이다.",
-        "옳은 진술 — BCA assay도 단백질 농도 도구이다(Lowry, amino acid analysis도 같은 묶음).",
-        "틀린 진술(정답) — DSC(Differential Scanning Calorimetry)는 단백질 안정성을 보는 도구이다. 농도는 UV 280 nm·Bradford·Lowry·BCA로 잰다."
+        "해당된다 — 단백질 농도 측정의 대표 방법이다.",
+        "해당된다 — 교재 p.11 표의 단백질 농도 측정 도구(UV 280 nm, Bradford, Lowry, BCA)에 들어 있다.",
+        "해당되지 않는다(정답) — SDS-PAGE는 정체 확인(identity)과 순도 확인 도구이다. 농도를 재는 방법이 아니다.",
+        "해당된다 — 단백질 농도 측정 도구이다."
       ],
       "source": "해설서 A0 · WK03 교재 p.11 Analysis and characterization after purification (사진 782)",
       "concepts": [
@@ -288,17 +288,17 @@
       "question": "레진(gel media)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "분리할 분자는 확산(diffusion)으로 비드 안까지 들어간다",
-        "비드 안의 pore가 비드 부피의 거의 90 %를 차지한다",
-        "레진은 모두 비드 형태이며 monolith 형태는 쓰지 않는다",
-        "현대 레진은 거의 모두 구형이며 평균 지름이 수 µm~약 100 µm이다"
+        "비드 안의 pore는 비드 부피의 약 10 % 정도에 그친다",
+        "최근에는 비드가 아닌 monolith 형태의 레진도 나오고 있다",
+        "Gel media는 stationary phase, matrix, support라고도 부른다"
       ],
-      "answer": 3,
-      "explanation": "**최근에는 비드가 아닌 monolith 형태 레진도 쓴다.** 컬럼은 레진 입자(bead)로 채워져 있고 분자는 확산으로 비드 안까지 들어가며, pore가 비드 부피의 약 90 %이다. Gel media는 stationary phase, matrix, bead, support라고도 부르며 거의 모두 구형(수 µm~약 100 µm)이다.",
+      "answer": 2,
+      "explanation": "**비드 안의 pore(기공)가 비드 부피의 거의 90 %를 차지한다.** 분리할 분자는 확산으로 비드 안까지 들어간다. 현대 레진은 거의 모두 구형이며 평균 지름이 수 µm~약 100 µm이고, monolith 형태도 나오고 있다.",
       "choiceNotes": [
-        "옳은 진술 — 교재 p.11대로 분리할 분자는 확산(diffusion)으로 비드 안 pore까지 들어갔다 나온다.",
-        "옳은 진술 — 교재 p.11은 pore가 비드 부피의 약 90 %를 차지한다고 적었다.",
-        "틀린 진술(정답) — 최근에는 비드가 아닌 monolith 형태도 나오고 있다.",
-        "옳은 진술 — 교재 p.12대로 현대 고정상은 거의 모두 구형 비드이고 평균 입경은 수 µm~약 100 µm이다."
+        "옳은 진술 — 교재 p.11: 분자는 확산으로 비드 안까지 들어간다.",
+        "틀린 진술(정답) — 숫자를 바꿨다. 비드 안의 pore가 비드 부피의 거의 90 %를 차지한다.",
+        "옳은 진술 — 현대 레진은 거의 모두 구형(수 µm~약 100 µm)이지만 monolith 형태도 나오고 있다.",
+        "옳은 진술 — 교재 p.12: gel media를 stationary phase, matrix, bead, support라고도 부른다."
       ],
       "source": "해설서 A0 · WK03 교재 p.11–12 (사진 782–783)",
       "concepts": [
@@ -314,18 +314,18 @@
       "part": 1,
       "question": "단백질 정제에 좋은 matrix의 조건으로 옳지 않은 것은?",
       "choices": [
-        "단백질과 비특이적으로 잘 결합하는 소수성 작용기가 많아야 한다",
-        "재생·멸균 같은 가혹한 조건을 견딜 만큼 화학적으로 안정해야 한다",
-        "높은 linear flow rate를 견딜 만큼 단단(rigid)해야 한다",
-        "친수성(hydrophilic)이어야 한다"
+        "단백질이 레진에 잘 머물도록 소수성(hydrophobic)이어야 한다",
+        "단백질과 비특이적으로 결합하는 작용기가 없어야 한다",
+        "리간드 결합·재생·멸균 같은 가혹한 조건에 화학적·물리적으로 안정해야 한다",
+        "높은 linear flow rate를 견딜 만큼 단단(rigid)해야 한다"
       ],
       "answer": 1,
-      "explanation": "**좋은 matrix에는 단백질과 비특이적으로 결합하는 작용기가 없어야 한다.** 네 조건: (1) 친수성, (2) 비특이적 결합 작용기 없음, (3) 화학적·물리적 안정성(ligand 결합·재생·멸균), (4) 높은 linear flow rate를 견딜 강성(rigid).",
+      "explanation": "**좋은 matrix는 친수성(hydrophilic)이어야 한다.** 교재 p.12의 네 조건: 친수성, 비특이적 결합 작용기 없음, 리간드 결합·재생·멸균에 화학적·물리적으로 안정, 높은 linear flow rate를 견딜 만큼 단단(rigid).",
       "choiceNotes": [
-        "틀린 진술(정답) — 단백질과 비특이적으로 결합하는 작용기가 없어야 한다(조건 (2)).",
-        "옳은 진술 — 조건 (3)이다. ligand를 붙이는 유도체화와 재생·멸균(NaOH 세척 등)의 극한 조건을 견뎌야 한다.",
-        "옳은 진술 — 조건 (4)이다. 높은 linear flow rate에서도 bed가 눌리지 않도록 단단해야 한다.",
-        "옳은 진술 — 조건 (1)이다. 소수성이 아니라 친수성이어야 단백질이 matrix에 비특이적으로 붙지 않는다."
+        "틀린 진술(정답) — 친수성(hydrophilic)을 소수성으로 바꿨다. matrix가 소수성이면 단백질이 비특이적으로 붙는다.",
+        "옳은 진술 — 비특이적 결합 작용기가 없어야 리간드와의 결합만으로 분리된다.",
+        "옳은 진술 — 필기의 세척액 2 M NaCl·NaOH 같은 조건을 견뎌야 한다.",
+        "옳은 진술 — 높은 유속에서 bed가 눌리지 않도록 단단해야 한다."
       ],
       "source": "해설서 A0 · WK03 교재 p.12 Ideal matrix for protein purification (사진 783)",
       "concepts": [
@@ -341,18 +341,18 @@
       "part": 2,
       "question": "레진 matrix가 화학적으로 안정해야 하는 이유로 가장 적절한 것은?",
       "choices": [
-        "NaOH 같은 CIP 용액으로 세척·재생해야 하기 때문",
-        "단백질과 비특이적으로 결합해야 하기 때문",
-        "컬럼 압력을 일부러 높여야 하기 때문",
-        "UV 280 nm 흡광을 높여야 하기 때문"
+        "높은 linear flow rate에서 bed가 눌리지 않아야 하기 때문",
+        "단백질이 matrix에 비특이적으로 붙지 않아야 하기 때문",
+        "NaOH 같은 CIP 용액으로 세척·재생을 반복해야 하기 때문",
+        "분자가 확산으로 비드 안까지 들어가야 하기 때문"
       ],
-      "answer": 1,
-      "explanation": "**레진은 NaOH 같은 CIP 용액으로 세척·재생하므로 화학적으로 안정해야 한다.** 교재 필기의 세척액은 2 M NaCl과 NaOH이다. 고염은 이온 결합으로 남은 단백질을 제거하고, NaOH는 단백질·DNA·endotoxin을 분해하고 미생물을 없앤다(일반 원리).",
+      "answer": 3,
+      "explanation": "**레진은 NaOH 같은 CIP 용액으로 세척·재생을 반복하므로 화학적으로 안정해야 한다.** 교재 필기의 세척액은 2 M NaCl(이온 결합으로 남은 단백질 제거)과 NaOH(단백질·DNA·endotoxin 분해, 미생물 제거 — 일반 원리)이다. 단단함(rigid)은 높은 유속, 친수성은 비특이적 결합 방지를 위한 조건이다.",
       "choiceNotes": [
-        "옳다 — 레진은 매 cycle 2 M NaCl·NaOH 같은 세척액으로 CIP·재생해 다시 쓰므로 화학적으로 안정해야 한다.",
-        "틀리다 — 비특이적 결합 작용기는 matrix에 없어야 하는 성질(조건 (2))이며, 화학적 안정성과 관계없다.",
-        "틀리다 — 압력과 관련된 것은 강성(rigid)이며, 압력을 높이려는 것이 아니다.",
-        "틀리다 — UV 280 nm 흡광은 단백질 농도를 보는 모니터 값이며, matrix 조건(친수성·비특이 결합 없음·안정성·강성)에 들지 않는다."
+        "틀리다 — 이것은 matrix가 단단(rigid)해야 하는 이유(물리적 조건)이다.",
+        "틀리다 — 이것은 matrix가 친수성이고 비특이적 결합 작용기가 없어야 하는 이유이다.",
+        "옳다 — NaOH는 단백질·DNA·endotoxin을 분해하고 미생물을 없애는 CIP 용액이어서, 이를 견디려면 화학적으로 안정해야 한다.",
+        "틀리다 — 이것은 비드에 pore가 많아야 하는 이유이며(pore가 비드 부피의 약 90 %), 화학적 안정성과 다르다."
       ],
       "source": "해설서 A0 · WK03 교재 p.12 (사진 783)",
       "concepts": [
@@ -368,18 +368,18 @@
       "part": 1,
       "question": "Resolution(Rs)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "두 peak가 서로 얼마나 잘 떨어져 나오는지를 숫자로 나타낸 값이다",
-        "두 peak 꼭대기 사이 거리를 두 peak 바닥 폭의 평균과 비교한다",
-        "peak 바닥 폭이 넓을수록 Rs가 커진다",
-        "두 peak 꼭대기 사이 거리가 멀수록 Rs가 커진다"
+        "두 peak 꼭대기 사이 거리를 두 peak 바닥 폭의 평균과 비교한 값이다",
+        "peak 바닥 폭이 좁아질수록 Rs가 커진다",
+        "Rs가 1이면 나누어 받은 분획의 순도가 99.9 % 이상이다",
+        "분해능은 selectivity와 efficiency 둘 다에 달려 있다"
       ],
       "answer": 3,
-      "explanation": "**Rs = (V_R2 − V_R1) ÷ [(W_b1 + W_b2) ÷ 2] — 분자(peak 사이 거리)가 클수록, 분모(peak 폭)가 작을수록 커진다.** V_R은 peak 꼭대기의 retention volume, W_b는 peak 바닥 폭이다.",
+      "explanation": "**Rs 1이면 순도 약 98 % 이상, Rs 1.5이면 99.9 % 이상이다(교재 필기).** Rs는 두 peak 꼭대기 사이 거리를 두 peak 바닥 폭의 평균과 비교한 값으로, 분자(거리)는 selectivity, 분모(폭)는 efficiency를 반영한다.",
       "choiceNotes": [
-        "옳은 진술 — Rs는 두 peak가 서로 얼마나 잘 떨어져 나오는지를 숫자로 나타낸 값이다.",
-        "옳은 진술 — Rs = (V_R2 − V_R1) ÷ [(W_b1 + W_b2) ÷ 2]로, 꼭대기 사이 거리를 바닥 폭의 평균과 비교한다.",
-        "틀린 진술(정답) — 바닥 폭은 분모이므로 넓을수록 Rs가 작아진다.",
-        "옳은 진술 — 꼭대기 사이 거리는 분자이므로 멀수록 Rs가 커진다. 예: 거리 4 mL, 폭 평균 2 mL이면 Rs 2.0, 거리 2 mL이면 1.0이다."
+        "옳은 진술 — Rs = (V_R2 − V_R1) ÷ [(W_b1 + W_b2) ÷ 2].",
+        "옳은 진술 — 분모(peak 폭)가 작을수록 Rs가 커진다.",
+        "틀린 진술(정답) — 숫자를 바꿨다. 교재 필기는 Rs 1 → 순도 약 98 % 이상, Rs 1.5 → 99.9 % 이상이다.",
+        "옳은 진술 — 교재 요약 \"Resolution = Efficiency + Selectivity\"."
       ],
       "source": "해설서 A1 · WK03 교재 1.16 · WK03 교재 p.13 (사진 783)",
       "concepts": [
@@ -397,16 +397,16 @@
       "choices": [
         "분자(peak 사이 거리) – Efficiency, 분모(peak 폭) – Selectivity",
         "분자(peak 사이 거리) – Selectivity, 분모(peak 폭) – Efficiency",
-        "분자(peak 사이 거리) – Recovery, 분모(peak 폭) – Capacity",
-        "분자(peak 사이 거리) – DBC, 분모(peak 폭) – SBC"
+        "분자(peak 사이 거리) – Selectivity, 분모(peak 폭) – Binding capacity",
+        "분자(peak 사이 거리) – Efficiency, 분모(peak 폭) – Recovery"
       ],
       "answer": 2,
-      "explanation": "**앞의 항(peak 사이 거리)은 Selectivity, 뒤의 항(peak 폭)은 Efficiency를 반영한다.** 교재는 이를 'Resolution = Efficiency + Selectivity'로 요약한다.",
+      "explanation": "**Rs 공식의 분자(peak 사이 거리)는 Selectivity, 분모(peak 폭)는 Efficiency를 반영한다.** 교재 필기: Selectivity ⇒ target peak와 불순물 peak가 얼마나 떨어졌나 / Efficiency ⇒ peak가 sharp.",
       "choiceNotes": [
-        "틀리다 — 두 성질을 뒤바꿨다. peak 사이 거리는 selectivity, peak 폭(날카로움)은 efficiency가 정한다.",
-        "옳다 — 떨어진 정도는 Selectivity, 날카로움은 Efficiency이다.",
-        "틀리다 — Recovery·Capacity는 정제 단계(Capture·Polishing)에서 무엇을 우선할지 고르는 항목이며 Rs 공식의 항이 아니다.",
-        "틀리다 — DBC·SBC는 레진이 단백질을 얼마나 붙잡는지 나타내는 결합 용량으로, peak 거리·폭과 관계없다."
+        "틀리다 — 두 성질을 뒤바꿨다. peak 사이 거리가 selectivity, peak 폭(날카로움)이 efficiency이다.",
+        "옳다 — 앞 항은 peak가 얼마나 떨어져 있는가(selectivity), 뒤 항은 peak가 얼마나 날카로운가(efficiency)를 반영한다.",
+        "틀리다 — 분자는 맞지만 분모가 틀렸다. binding capacity는 레진이 붙잡을 수 있는 양으로, peak 폭과 관계없는 값이다.",
+        "틀리다 — peak 사이 거리는 efficiency가 아니라 selectivity이며, recovery(회수율)는 Rs 식에 들어가지 않는다."
       ],
       "source": "해설서 A1 · WK03 교재 p.16 (사진 785)",
       "concepts": [
@@ -480,18 +480,18 @@
       "part": 2,
       "question": "Resolution이 낮을 때 생산 현장에서 생기는 일로 옳지 않은 것은?",
       "choices": [
-        "peak가 겹칠수록 수율과 순도를 함께 높이기 쉽다",
-        "순도를 지키려고 가운데만 좁게 받으면 수율이 떨어진다",
-        "수율을 지키려고 넓게 받으면 불순물이 함께 들어온다",
-        "목적 단백질 peak와 불순물 peak가 겹친다"
+        "목적 단백질 peak와 불순물 peak가 겹친다",
+        "순도를 지키려고 분획을 넓게 받으면 수율이 떨어진다",
+        "Gradient를 완만하게 주어 peak 사이를 벌리면 개선할 수 있다",
+        "수율과 순도를 동시에 얻기 어려워진다"
       ],
-      "answer": 1,
-      "explanation": "**Resolution은 수율과 순도를 동시에 얻을 수 있느냐를 가르는 지표이다.** 분해능이 낮으면 겹친 구간을 버려 수율이 떨어지거나, 넓게 받아 불순물이 들어온다. 정제의 두 목적은 수율과 순도이다.",
+      "answer": 2,
+      "explanation": "**Resolution이 낮으면 순도를 지키려고 좁게 받으면 수율이, 수율을 지키려고 넓게 받으면 순도가 떨어진다.** 목적 단백질 peak와 불순물 peak가 겹치기 때문이다. 정제의 두 목적이 수율과 순도이므로 Resolution은 둘을 동시에 얻을 수 있느냐를 가르는 지표이다.",
       "choiceNotes": [
-        "틀린 진술(정답) — peak가 겹치면 겹친 구간을 버리면 수율이, 함께 받으면 순도가 떨어져 둘 중 하나를 포기해야 한다.",
-        "옳은 진술 — 겹친 구간을 버리고 가운데만 받으면 목적 단백질 일부도 함께 버려져 수율이 준다.",
-        "옳은 진술 — 겹친 구간까지 넓게 받으면 불순물 peak의 일부가 섞여 순도가 준다.",
-        "옳은 진술 — Rs가 낮다는 것은 peak 사이 거리에 비해 폭이 넓어 목적 peak와 불순물 peak가 겹친다는 뜻이다."
+        "옳은 진술 — Resolution이 낮다는 것은 두 peak가 겹친다는 뜻이다.",
+        "틀린 진술(정답) — 논리를 거꾸로 썼다. 순도를 지키려면 가운데만 좁게 받아야 하므로 수율이 떨어지고, 넓게 받으면 수율은 지키지만 불순물이 함께 들어온다.",
+        "옳은 진술 — 같은 염 농도 변화를 더 많은 CV에 걸쳐 주면 peak 사이가 벌어진다(대신 시간·버퍼가 더 든다).",
+        "옳은 진술 — 정제의 두 목적(수율·순도)을 동시에 얻을 수 있느냐를 가르는 지표가 Resolution이다."
       ],
       "source": "해설서 A1 · WK04 녹음② 2:12:41–2:13:56",
       "concepts": [
@@ -512,18 +512,18 @@
         "컬럼 Y는 peak가 다소 넓었지만 두 peak의 꼭대기 사이가 크게 벌어져 어느 정도 분리되었다."
       ],
       "choices": [
-        "분해능은 Efficiency 하나로만 결정된다",
-        "Efficiency만 높으면 어떤 경우에도 두 peak가 분리된다",
-        "컬럼 X는 Selectivity가 높고, 컬럼 Y는 Efficiency가 높다",
-        "분해능을 정할 때 Selectivity가 Efficiency보다 중요하다"
+        "컬럼 X는 selectivity가 높고, 컬럼 Y는 efficiency가 높다",
+        "컬럼 X의 peak가 겹친 것은 bead가 커서 efficiency가 낮기 때문이다",
+        "분해능을 정할 때 selectivity가 efficiency보다 중요하다",
+        "컬럼 Y의 peak를 더 날카롭게 하려면 ligand를 바꿔 selectivity를 높인다"
       ],
-      "answer": 4,
-      "explanation": "**분해능을 정할 때는 높은 효율보다 선택성이 더 중요하다.** 교재 p.15의 그림 네 개: 선택성이 나쁘면 효율이 높아도 peak가 겹치고, 선택성이 좋으면 효율이 낮아도 peak 사이가 벌어져 어느 정도 분리된다.",
+      "answer": 3,
+      "explanation": "**분해능을 정할 때는 높은 효율보다 선택성이 더 중요하다.** 교재 p.15의 그림 네 개: 선택성이 나쁘면 효율이 높아도 peak가 겹치고, 선택성이 좋으면 효율이 낮아도 peak 사이가 벌어져 어느 정도 분리된다. 레진(ligand)·pH는 selectivity를, 비드 크기·충진·유속·시료 부피는 efficiency를 바꾼다.",
       "choiceNotes": [
-        "틀리다 — 분해능은 efficiency와 selectivity 둘 다에 달려 있다(Resolution = Efficiency + Selectivity). 컬럼 Y는 efficiency가 낮아도 분리되었다.",
-        "틀리다 — 컬럼 X는 peak가 날카로웠지만(efficiency 높음) 꼭대기 위치가 거의 같아(selectivity 낮음) 겹쳤다.",
-        "틀리다 — 거꾸로이다. X는 효율(날카로움)이 높고, Y는 선택성(peak 사이 거리)이 높다.",
-        "옳다 — selectivity가 좋은 Y는 efficiency가 낮아도 어느 정도 분리되어, 교재 결론처럼 selectivity가 더 중요한 요인임을 보여 준다."
+        "틀리다 — 거꾸로이다. X는 peak가 날카로워 efficiency가 높고, Y는 peak 사이가 벌어져 selectivity가 높다.",
+        "틀리다 — X의 peak는 날카로웠다(efficiency 높음). 겹친 이유는 꼭대기 위치가 같아 selectivity가 낮기 때문이다.",
+        "옳다 — selectivity가 좋은 Y는 efficiency가 낮아도 어느 정도 분리되어, 교재 결론처럼 selectivity가 더 중요한 요인임을 보여 준다.",
+        "틀리다 — peak를 날카롭게 하는 것은 efficiency(작은 비드, 충진 품질, 적절한 유속, 작은 시료 부피)이다. ligand를 바꾸면 selectivity(peak 사이 거리)가 바뀐다."
       ],
       "source": "해설서 A1 · WK03 교재 1.17 · WK03 교재 p.14–15 (사진 784)",
       "concepts": [
@@ -541,18 +541,18 @@
       "part": 2,
       "question": "Selectivity를 높이는 방법에 해당되지 않는 것은?",
       "choices": [
-        "레진(ligand)의 종류를 바꾼다",
-        "컬럼을 더 고르게 충진한다",
-        "버퍼의 염 농도 조건을 바꾼다",
-        "버퍼의 pH를 바꾼다"
+        "강 이온교환 레진을 약 이온교환 레진으로 바꾼다",
+        "같은 레진의 더 작은 비드 제품으로 바꾼다",
+        "버퍼의 pH를 단백질 pI들 사이로 옮긴다",
+        "레진의 ligand 종류를 바꾼다"
       ],
       "answer": 2,
-      "explanation": "**Selectivity를 바꾸는 손잡이는 레진 종류(ligand)와 버퍼 조건(pH, 염 농도)이다.** 비드 크기·충진·유속·시료 부피는 Efficiency를 바꾼다.",
+      "explanation": "**Selectivity를 바꾸는 손잡이는 레진의 종류(ligand)와 버퍼 조건(pH, 염 농도)이다.** 비드 크기·충진·유속·시료 부피는 peak 폭, 즉 efficiency를 바꾼다. 약 이온교환기를 함께 시험하는 이유는 강 이온교환기와 다른 선택성을 보이기 때문이다.",
       "choiceNotes": [
-        "옳은 진술 — ligand(레진 종류)를 바꾸면 단백질과 불순물이 붙는 세기의 차이가 달라져 selectivity가 바뀐다(media scouting).",
-        "틀린 진술(정답) — 충진 품질은 peak 폭, 곧 efficiency를 바꾼다. 고르게 충진하면 peak가 날카로워질 뿐 peak 사이 거리는 그대로이다.",
-        "옳은 진술 — 염 농도 같은 버퍼 조건도 결합 세기 차이를 바꿔 selectivity를 바꾸는 손잡이이다.",
-        "옳은 진술 — pH를 바꾸면 단백질마다 pI와의 거리가 달라져 전하 차이가 바뀐다(pH scouting)."
+        "해당된다 — 약 이온교환기는 강 이온교환기와 다른 선택성(alternative selectivity)을 보인다.",
+        "해당되지 않는다(정답) — 비드 크기는 efficiency 요인이다. 같은 레진이면 peak 폭이 좁아질 뿐 peak 사이 거리(selectivity)는 그대로이다.",
+        "해당된다 — pH를 옮기면 단백질 사이 전하 차이가 달라진다(pH scouting).",
+        "해당된다 — 레진 종류를 바꿔 보는 media scouting이 selectivity를 찾는 실험이다."
       ],
       "source": "해설서 A1 · A2 · 부록 3",
       "concepts": [
@@ -574,17 +574,17 @@
         "(나) 같은 약 양이온 교환 컬럼에서 버퍼 pH만 5.0, 6.5, 7.5로 바꿔 가며 분리 결과를 비교한다."
       ],
       "choices": [
-        "Column packing quality",
+        "Efficiency",
         "Dynamic binding capacity",
-        "Bed height",
+        "Column packing quality",
         "Selectivity"
       ],
       "answer": 4,
       "explanation": "**레진을 바꾸거나 pH를 바꿔 보는 실험은 selectivity를 찾는 실험이다.** 교재의 media scouting 예시는 pI 9.3, 10.3, 11 이상인 세 단백질을 강 양이온 교환 레진 두 종류와 약 양이온 교환 레진 한 종류에 걸어 비교했다. 교재 p.31은 같은 약 양이온 교환 컬럼에서 pH만 5.0, 6.5, 7.5로 바꿔 분리가 달라지는 것을 보여 준다.",
       "choiceNotes": [
-        "틀리다 — 충진 품질은 충진 뒤 아세톤 같은 시료를 소량 흘려 HETP·asymmetry로 확인하며, 레진·pH를 바꿔 보는 실험이 아니다(일반 원리).",
+        "틀리다 — efficiency는 비드 크기·충진·유속·시료 부피 같은 요인으로 정해지는 peak 폭(날카로움)이다. 레진 종류와 pH를 바꾸는 실험은 peak 사이 거리를 본다.",
         "틀리다 — DBC는 한 레진에 시료를 계속 흘리며 출구 농도로 그린 breakthrough 곡선(C/C0 10 % 지점)으로 잰다.",
-        "틀리다 — bed height는 컬럼 묶음 요인이며 scale-up 때 고정하는 값이다. 지문의 두 실험은 레진과 pH를 바꿨다.",
+        "틀리다 — 충진 품질은 충진 뒤 아세톤 같은 시료를 소량 흘려 HETP·asymmetry로 확인한다(일반 원리).",
         "옳다 — media scouting과 pH scouting은 모두 selectivity를 찾는 실험이다."
       ],
       "source": "해설서 A1 · WK03 교재 3.4, 3.6–3.7 · WK03 교재 p.27, 31 (사진 790, 792)",
@@ -601,18 +601,18 @@
       "part": 2,
       "question": "같은 레진에서 버퍼 pH만 바꿔도 selectivity가 달라지는 이유로 가장 적절한 것은?",
       "choices": [
-        "단백질마다 pI가 달라 pH를 옮기면 단백질 사이 전하 차이가 달라지기 때문",
-        "pH가 바뀌면 레진 비드의 크기가 바뀌기 때문",
-        "pH가 바뀌면 컬럼의 bed height가 달라지기 때문",
-        "pH가 바뀌면 단백질의 분자량이 바뀌기 때문"
+        "pH를 옮기면 레진 작용기의 전하가 바뀌어 CEX가 AEX처럼 작용하기 때문",
+        "pH를 옮기면 단백질의 pI가 바뀌어 결합 순서가 달라지기 때문",
+        "pH를 옮기면 peak 폭이 좁아져 efficiency가 올라가기 때문",
+        "단백질마다 pI가 달라 pH를 옮기면 단백질 사이 전하 차이가 달라지기 때문"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "**단백질마다 pI가 다르므로 pH를 옮기면 단백질 사이의 전하 차이가 커지거나 작아진다.** 그래서 pH scouting으로 selectivity를 찾는다.",
       "choiceNotes": [
-        "옳다 — pH < pI이면 +, pH > pI이면 − 전하이므로, pH를 옮기면 pI가 다른 단백질 사이의 전하 차이가 커지거나 작아진다.",
-        "틀리다 — 비드 크기는 pH로 바뀌지 않으며 Efficiency 요인이다.",
-        "틀리다 — bed height는 컬럼을 충진할 때 정해지는 컬럼 요인이며, 버퍼 pH로 바뀌지 않는다.",
-        "틀리다 — 분자량은 아미노산 서열로 정해지는 값으로 pH에 따라 바뀌지 않는다. pH가 바꾸는 것은 전하이다."
+        "틀리다 — 작용기 부호는 레진 종류로 정해진다. 약 이온교환기는 pH에 따라 전하를 잃을 수 있지만 CEX가 AEX로 바뀌지는 않는다.",
+        "틀리다 — 원인과 결과를 바꿨다. pI는 단백질 고유의 값이고, 바뀌는 것은 pH와 pI의 거리(단백질의 순전하)이다.",
+        "틀리다 — peak 폭(efficiency)은 비드 크기·충진·유속 등의 영향이다. pH는 peak 사이 거리(selectivity)를 바꾼다.",
+        "옳다 — 교재 p.31: 같은 약 양이온 교환 컬럼에서 pH만 5.0, 6.5, 7.5로 바꾸자 세 단백질의 분리가 달라졌다."
       ],
       "source": "해설서 A1 · WK03 교재 p.31 Selecting optimal pH for better resolution (사진 792)",
       "concepts": [
@@ -747,18 +747,18 @@
       "part": 2,
       "question": "SEC(겔 여과)에서 분해능을 높이는 방법으로 가장 적절한 것은?",
       "choices": [
-        "시료 부피를 늘리고 유속을 최대로 높인다",
-        "컬럼을 짧게 하고 분획 범위가 넓은 레진을 쓴다",
         "컬럼을 30~60 cm 이상으로 길게 하고 분획 범위가 좁은 레진을 쓴다",
-        "단백질을 레진에 강하게 결합시킨 뒤 고염으로 용출한다"
+        "유속을 높여 분자가 컬럼에 머무는 시간을 줄인다",
+        "분획 범위가 넓은 레진을 써서 여러 크기를 한 번에 나눈다",
+        "시료를 컬럼 부피의 최대 30 %까지 넣어 처리량을 높인다"
       ],
-      "answer": 3,
-      "explanation": "**SEC는 컬럼을 길게(30~60 cm 이상) 하고, 분획 범위(fractionation range)가 목적 분자 크기에 맞게 좁은 레진을 쓰면 분해능이 높아진다.** 분획 범위가 좁은 레진일수록 분해능이 높다.",
+      "answer": 1,
+      "explanation": "**SEC 정밀 분리(fine fractionation)의 분해능을 높이려면 긴 컬럼(30~60 cm 이상)과 분획 범위가 좁은 레진을 쓴다.** 시료는 컬럼 부피의 0.5~4 %, 낮은 유속으로 돌린다. 반대로 desalting(group separation)은 넓고 짧은 컬럼에 시료를 최대 30 %까지, 높은 유속으로 넣는다.",
       "choiceNotes": [
-        "틀리다 — 시료 부피를 늘리면 띠가 두껍게 들어가 peak가 넓어지고, 유속을 최대로 올리면 pore를 드나들 시간이 모자란다. fine fractionation은 시료 0.5~4 %·낮은 유속이다.",
-        "틀리다 — 짧은 컬럼과 분획 범위가 넓은 레진은 desalting 같은 group separation 조건으로, 비슷한 크기끼리는 덜 갈라진다.",
-        "옳다 — 교재 p.20 fine fractionation 조건이다. 분획 범위가 좁으면 같은 분자량 차이에도 Kav 차이가 크게 벌어진다.",
-        "틀리다 — SEC는 분자를 레진에 결합시키지 않고 크기로만 나눈다. 결합 후 고염으로 용출하는 것은 IEX 방식이다."
+        "옳다 — 교재 p.20 fine fractionation 조건: 긴 컬럼(bed height 30~60 cm 이상), 분획 범위가 목적 분자에 맞게 좁은 레진.",
+        "틀리다 — 정밀 분리(fine fractionation)는 낮은 유속으로 돌린다. 높은 유속은 크기 차이가 큰 desalting에서나 버틴다.",
+        "틀리다 — 분획 범위가 넓은 레진은 여러 크기를 한 번에 볼 수 있지만 비슷한 크기끼리는 덜 갈라진다. 좁은 범위일수록 Kav 차이가 커져 분해능이 높다.",
+        "틀리다 — 컬럼 부피의 30 %까지 넣는 것은 group separation(desalting) 조건이다. 정밀 분리는 0.5~4 %만 넣는다."
       ],
       "source": "해설서 A1 · WK03 교재 p.20 Fine fractionation (사진 810) · WK03 녹음 54:05–55:59",
       "concepts": [
@@ -779,15 +779,15 @@
         "두 peak 꼭대기 사이가 얼마나 떨어졌는지를 나타낸다",
         "Efficiency를 떨어뜨리는 현상은 peak broadening으로 나타난다",
         "같은 위치에 나오는 peak라도 폭이 좁으면 분해능이 좋아진다",
-        "충진된 bed가 좁고 대칭적인 peak로 용출시키는 능력이다"
+        "이론단수(N)나 HETP로 나타내며 충진 뒤 HETP·asymmetry로 확인한다"
       ],
       "answer": 1,
-      "explanation": "**Efficiency는 peak의 폭(날카로움), Selectivity는 peak 사이 거리이다.** Efficiency는 충진된 bed가 좁고 대칭적인 peak로 용출시키는 능력이며, 효율을 떨어뜨리는 현상은 모두 peak broadening으로 모인다.",
+      "explanation": "**Efficiency는 충진된 bed가 좁고 대칭적인 peak로 용출시키는 능력이다 — peak 사이 거리는 selectivity이다.** 효율을 떨어뜨리는 현상은 peak broadening으로 모이며, 이론단수 N이나 HETP로 나타낸다(일반 원리).",
       "choiceNotes": [
-        "틀린 진술(정답) — peak 사이 거리는 Selectivity이다. Efficiency는 peak 폭(날카로움)이다.",
-        "옳은 진술 — 비드 크기·충진·유속·시료 부피·점도 문제는 모두 peak가 퍼지는 것(peak broadening)으로 나타난다.",
-        "옳은 진술 — 꼭대기 위치가 같아도 폭이 좁으면 옆 peak와 덜 겹쳐 Rs 공식의 분모(폭 평균)가 작아진다.",
-        "옳은 진술 — 교재 1.18의 정의로, 충진된 bed가 좁고 대칭적인 peak로 용출시키는 능력이다."
+        "틀린 진술(정답) — 이것은 selectivity의 정의이다. efficiency는 peak가 얼마나 날카로운가(폭)이다.",
+        "옳은 진술 — 효율을 떨어뜨리는 현상은 모두 peak가 퍼지는 것으로 모인다.",
+        "옳은 진술 — 폭이 좁으면 옆 peak와 덜 겹친다.",
+        "옳은 진술 — 생산 현장에서는 충진 뒤 아세톤·고농도 염을 소량 흘려 HETP와 asymmetry로 충진 품질을 확인한다(일반 원리)."
       ],
       "source": "해설서 A2 · WK03 교재 1.18 · WK03 교재 p.16 Efficiency (사진 785)",
       "concepts": [
@@ -805,16 +805,16 @@
       "choices": [
         "Bead(particle) size",
         "Column packing quality",
-        "레진 ligand의 종류",
-        "Sample volume"
+        "Viscosity of the sample or buffer",
+        "레진 ligand의 종류"
       ],
-      "answer": 3,
-      "explanation": "**레진 ligand의 종류는 Selectivity 요인이다.** 교재 p.16이 별표를 친 효율 핵심 요인 여섯 가지: bead size, column dimensions, column packing quality, sample volume, viscosity, flow rate.",
+      "answer": 4,
+      "explanation": "**교재 p.16의 efficiency 핵심 요인은 bead size, column dimensions, column packing quality, sample volume, viscosity, flow rate이다.** ligand(레진 종류)와 pH는 selectivity를 바꾼다.",
       "choiceNotes": [
-        "옳은 진술 — 비드가 크면 pore를 드나드는 길이 길어 peak가 넓어지므로 efficiency 핵심 요인이다.",
-        "옳은 진술 — 충진이 고르지 않으면 흐름이 갈라져(채널링) peak가 넓어지므로 핵심 요인이다.",
-        "틀린 진술(정답) — ligand 종류는 단백질과 불순물의 결합 세기 차이, 곧 selectivity(peak 사이 거리)를 바꾼다.",
-        "옳은 진술 — 시료 부피가 크면 처음부터 두꺼운 띠로 들어가 peak가 넓어지므로 핵심 요인이다."
+        "해당된다 — 비드가 크면 pore를 드나드는 길이 길어 peak가 퍼진다.",
+        "해당된다 — 충진이 고르지 않으면 채널링으로 peak가 퍼진다.",
+        "해당된다 — 필기: 점도는 \"낮을수록 good\".",
+        "해당되지 않는다(정답) — ligand 종류는 selectivity를 바꾸는 요인이다."
       ],
       "source": "해설서 A2 · WK03 교재 p.16 (사진 785)",
       "concepts": [
@@ -828,20 +828,20 @@
       "id": "ex-030",
       "type": "개념",
       "part": 2,
-      "question": "Efficiency와 유속(flow rate)의 관계에 대한 설명으로 옳지 않은 것은?",
+      "question": "Efficiency와 유속(flow rate)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "유속이 너무 느리면 컬럼 안에서 확산되어 peak가 넓어진다",
-        "유속이 너무 빠르면 분자가 pore 안까지 들어가지 못해 peak 꼬리가 길어진다",
+        "유속을 높일수록 분자가 pore 안까지 충분히 드나들어 peak가 날카로워진다",
         "유속에는 efficiency를 지키는 적절한 범위가 있다",
-        "유속은 빠를수록 언제나 peak가 날카로워진다"
+        "SEC는 낮은 유속 때문에 polishing 공정의 생산성 병목이 된다"
       ],
-      "answer": 4,
-      "explanation": "**유속은 '빠를수록 좋다'도 '느릴수록 좋다'도 아니고 적절한 범위가 있다.** 너무 느리면 오래 머무는 동안 확산으로 peak가 넓어지고, 너무 빠르면 비드 pore 안까지 들어갔다 나올 시간이 모자라 peak 꼬리가 길어진다.",
+      "answer": 2,
+      "explanation": "**유속은 빠를수록 좋은 것이 아니라 적절한 범위가 있다.** 교재 p.16 필기: 낮으면 컬럼 안에서 확산되고, 높으면 pore로 들어가지 못한다. SEC는 정밀 분리에 낮은 유속이 필요해 polishing의 생산성 병목이 된다.",
       "choiceNotes": [
-        "옳은 진술 — 필기 '낮은 경우 ⇒ column에서 확산됨'대로, 너무 느리면 오래 머무는 동안 앞뒤로 퍼져 peak가 넓어진다.",
-        "옳은 진술 — 필기 '높은 경우 ⇒ pore로 들어가지 X'대로, 너무 빠르면 pore를 드나들 시간이 모자라 peak 꼬리가 길어진다.",
-        "옳은 진술 — 너무 느려도 너무 빨라도 peak가 넓어지므로 efficiency를 지키는 적절한 유속 범위가 있다.",
-        "틀린 진술(정답) — 너무 빠르면 pore를 드나들 시간이 모자라 peak가 오히려 나빠진다."
+        "옳은 진술 — 필기: 유속이 낮으면 컬럼 안에서 확산된다.",
+        "틀린 진술(정답) — 논리를 거꾸로 썼다. 유속이 너무 빠르면 분자가 pore에 드나들 시간이 모자라 peak 꼬리가 길어진다(필기: \"높은 경우 ⇒ pore로 들어가지 X\").",
+        "옳은 진술 — 너무 느려도(확산), 너무 빨라도(pore 진입 부족) peak가 퍼진다.",
+        "옳은 진술 — 교재 형광펜 문장: GF는 낮은 유속과 제한된 시료 로딩 때문에 polishing 공정의 생산성 병목이다."
       ],
       "source": "해설서 A2 · WK03 교재 p.16 (사진 785)",
       "concepts": [
@@ -866,7 +866,7 @@
       "choices": [
         "Viscosity of the buffer",
         "Column packing quality",
-        "Selectivity",
+        "Bead(particle) size",
         "Sample volume"
       ],
       "answer": 2,
@@ -874,7 +874,7 @@
       "choiceNotes": [
         "틀리다 — 점도가 높으면 확산이 느려지고 압력이 오르지만, 지문처럼 경로마다 흐름 속도가 다른 현상(채널링)은 충진 문제이다.",
         "옳다 — 충진이 고르지 않으면 채널링으로 같은 분자도 퍼져 나온다.",
-        "틀리다 — selectivity는 peak 사이 거리를 정하는 성질이며 efficiency 요인이 아니다. 지문은 한 분자의 peak가 퍼진 현상이다.",
+        "틀리다 — 비드가 크면 분자가 pore를 드나드는 길이 길어 퍼진다. bed 안 경로마다 흐름 속도가 다른 것과는 원인이 다르다.",
         "틀리다 — 시료 부피가 크면 처음부터 띠가 두껍게 들어가 넓어지는 것으로, bed 안 경로마다 속도가 다른 것과는 다르다."
       ],
       "source": "해설서 A2 · WK03 교재 p.16 (사진 785)",
@@ -920,18 +920,18 @@
       "part": 1,
       "question": "이온교환 크로마토그래피(IEX)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "단백질 크기 차이로 분리하며 단백질이 레진에 결합하지 않는다",
         "단백질마다 전체 전하, 전하 밀도, 표면 전하 분포가 다르다",
-        "레진에 결합한 단백질은 염 농도(이온 강도)를 높여 용출한다",
-        "단백질 표면의 순전하(net surface charge) 차이로 분리한다"
+        "결합한 단백질은 이온 강도를 낮춰 가며 용출한다",
+        "약하게 결합한 단백질이 먼저, 전하가 커서 세게 붙은 것이 나중에 나온다",
+        "공정에서는 염 농도를 conductivity(mS/cm) 센서로 실시간으로 본다"
       ],
-      "answer": 1,
-      "explanation": "**IEX는 단백질 표면 순전하 차이로 분리하고, 결합한 단백질을 염 농도를 높여 용출한다.** 크기로 나누고 결합하지 않는 것은 SEC이다.",
+      "answer": 2,
+      "explanation": "**IEX는 낮은 이온 강도에서 결합시키고 염 농도(이온 강도)를 높여 용출한다 — 낮춰 가며 용출하는 것은 HIC이다.** IEX는 단백질 표면의 순전하 차이로 분리하며, 약하게 붙은 것부터 결합 세기 순서대로 나온다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 크기로 나누고 결합하지 않는 것은 SEC이다. IEX는 반대 전하 레진에 결합시킨 뒤 염 농도를 올려 용출한다.",
-        "옳은 진술 — 교재 3.1대로 전체 전하·전하 밀도·표면 전하 분포가 달라 레진과 상호작용하는 정도가 다르다.",
-        "옳은 진술 — 염 농도를 높이면 Na⁺·Cl⁻이 결합 자리를 두고 경쟁해 단백질이 용출되며, 이 염 농도를 conductivity(mS/cm)로 본다.",
-        "옳은 진술 — IEX는 단백질 표면의 순전하(net surface charge) 차이로 분리한다."
+        "옳은 진술 — 그래서 레진과 상호작용하는 정도가 달라 분리된다.",
+        "틀린 진술(정답) — 방향을 바꿨다. IEX는 low salt에서 결합시키고 이온 강도를 높여 용출한다. 이온 강도를 낮춰 용출하는 것은 HIC이다.",
+        "옳은 진술 — 버퍼 이온이 결합 자리를 두고 경쟁해 결합 세기 순서대로 용출된다.",
+        "옳은 진술 — 전도도로 염 농도(이온 강도)를 본다."
       ],
       "source": "해설서 A3 · WK03 교재 3.1 · WK03 교재 p.25 (사진 789)",
       "concepts": [
@@ -953,7 +953,7 @@
         "단백질 X는 − 전하를 띠어 AEX 레진에 결합한다",
         "단백질 X는 + 전하를 띠어 CEX 레진에 결합한다",
         "단백질 Y는 + 전하를 띠어 CEX 레진에 결합한다",
-        "두 단백질 모두 전하가 없어 어느 레진에도 결합하지 않는다"
+        "단백질 Y는 − 전하를 띠어 CEX 레진에 결합한다"
       ],
       "answer": 2,
       "explanation": "**pH < pI이면 단백질 순전하는 +, pH > pI이면 −이다.** pH 6.0에서 X(pI 8.5)는 + 전하 → CEX(레진 −)에 결합, Y(pI 5.0)는 − 전하 → AEX(레진 +)에 결합한다.",
@@ -961,7 +961,7 @@
         "틀리다 — X는 pH 6.0 < pI 8.5이므로 + 전하이다. − 전하를 띠어 AEX에 붙는 것은 pH > pI인 Y이다.",
         "옳다 — pH 6.0 < pI 8.5이므로 X는 + 전하, − 레진인 CEX에 붙는다.",
         "틀리다 — Y는 pH 6.0 > pI 5.0이라 − 전하이며 AEX에 붙는다.",
-        "틀리다 — 순전하가 0인 것은 pH = pI일 때뿐이다. X는 pI보다 pH가 2.5 낮고 Y는 1.0 높아 둘 다 전하를 띤다."
+        "틀리다 — Y가 − 전하인 것은 맞지만, − 전하 단백질은 + 작용기를 가진 AEX에 붙는다. CEX 레진은 − 전하라 밀어낸다."
       ],
       "source": "해설서 A3 · WK03 교재 3.11 (필기)",
       "concepts": [
@@ -979,18 +979,18 @@
       "part": 2,
       "question": "CEX와 AEX에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "CEX 레진의 작용기는 − 전하를 띤다",
-        "CEX는 + 전하를 띤 단백질을 결합한다",
-        "AEX 레진의 작용기는 + 전하를 띤다",
-        "AEX는 + 전하를 띤 단백질을 결합한다"
+        "S와 CM은 CEX, Q와 DEAE는 AEX의 작용기이다",
+        "pH가 pI보다 낮은 버퍼에서는 단백질이 + 전하를 띤다",
+        "AEX는 음이온을 교환하므로 레진 작용기도 − 전하를 띤다",
+        "항체 공정에서 AEX는 주로 flow-through로 쓴다"
       ],
-      "answer": 4,
-      "explanation": "**CEX: 레진 −, + 단백질 결합 / AEX: 레진 +, − 단백질 결합.** CEX는 양이온을 교환해 붙이는 레진이라 레진 자체는 − 전하이고, AEX는 그 반대이다.",
+      "answer": 3,
+      "explanation": "**CEX는 양이온을 교환해 붙이므로 레진 작용기가 − 전하, AEX는 음이온을 붙이므로 + 전하이다.** + 전하 단백질(pH < pI)은 CEX에, − 전하 단백질(pH > pI)은 AEX에 붙는다. 항체 공정에서 CEX는 bind-elute, AEX는 flow-through이다.",
       "choiceNotes": [
-        "옳은 진술 — CEX는 양이온(cation)을 교환해 붙이는 레진이라 작용기(S: −SO₃⁻, CM: −COO⁻)가 − 전하이다.",
-        "옳은 진술 — − 전하 레진인 CEX에는 pH < pI여서 + 전하를 띤 단백질이 붙는다.",
-        "옳은 진술 — AEX의 작용기(Q: −N⁺(CH₃)₃, DEAE)는 + 전하이며 음이온(anion)을 교환한다.",
-        "틀린 진술(정답) — AEX(레진 +)는 pH > pI여서 − 전하를 띤 단백질을 결합한다. + 전하 단백질은 + 레진과 반발해 통과한다."
+        "옳은 진술 — S(설폰산)·CM(카르복시메틸)은 − 작용기, Q(4차 암모늄)·DEAE(아민)는 + 작용기이다.",
+        "옳은 진술 — 필기: pH < pI이면 순전하 +, pH > pI이면 −.",
+        "틀린 진술(정답) — 논리를 거꾸로 이었다. 음이온(− 전하 단백질)을 붙이려면 레진은 + 전하여야 한다. CEX도 마찬가지로 양이온을 붙이므로 레진은 − 전하이다.",
+        "옳은 진술 — 항체 공정에서 AEX는 불순물을 붙이고 항체를 통과시킨다(CEX는 bind-elute)."
       ],
       "source": "해설서 A3 · 부록 3",
       "concepts": [
@@ -1006,18 +1006,18 @@
       "part": 2,
       "question": "IEX에서 염 농도를 높이면 결합한 단백질이 용출되는 이유로 가장 적절한 것은?",
       "choices": [
-        "염이 레진의 pore size를 줄이기 때문",
-        "염이 단백질의 pI를 바꾸기 때문",
+        "염이 단백질 표면의 소수성 부위를 가려 레진에서 밀어내기 때문",
+        "염이 단백질의 pI를 바꿔 순전하를 0으로 만들기 때문",
         "버퍼의 Na⁺·Cl⁻ 같은 이온이 결합 자리를 두고 단백질과 경쟁하기 때문",
-        "염이 단백질을 불활화해 결합력을 없애기 때문"
+        "염이 버퍼 pH를 pI 쪽으로 옮겨 단백질 전하를 줄이기 때문"
       ],
       "answer": 3,
       "explanation": "**염 농도(이온 강도)를 높이면 Na⁺·Cl⁻ 같은 버퍼 이온이 결합 자리를 두고 단백질과 경쟁해 단백질이 밀려난다.** 약하게 붙은 것이 먼저, 전하가 커서 세게 붙은 것이 나중에 나온다.",
       "choiceNotes": [
-        "틀리다 — IEX는 pore size가 아니라 전하로 분리하며, 염은 레진의 pore size를 바꾸지 않는다.",
-        "틀리다 — pI는 단백질 아미노산 조성으로 정해지는 고유값이며 염으로 바뀌지 않는다. 염이 바꾸는 것은 이온 강도이다.",
-        "옳다 — 이온 강도가 높아지면 Na⁺·Cl⁻ 같은 버퍼 이온이 레진 작용기를 차지해, 정전기로 붙어 있던 단백질이 밀려나 용출된다.",
-        "틀리다 — 염은 단백질을 불활화하지 않고 결합 자리를 두고 경쟁할 뿐이다. 그래서 용출된 단백질은 활성을 유지한다."
+        "틀리다 — 소수성 부위와 염의 관계는 HIC의 원리이다(염이 많을수록 소수성 부위가 드러나 오히려 붙는다).",
+        "틀리다 — pI는 단백질 고유의 값으로 염을 넣어도 바뀌지 않는다.",
+        "옳다 — 교재 Elution 1: 이온 강도를 올리면 버퍼 이온이 결합 자리를 두고 경쟁해 단백질이 밀려난다.",
+        "틀리다 — 염 gradient는 pH가 아니라 이온 강도를 바꾼다. pH를 바꿔 용출하는 것은 별개의 용출 방법이다."
       ],
       "source": "해설서 A3 · WK03 교재 3.5 · WK03 교재 p.28–29 (사진 791) · WK04 녹음② 1:59:45–2:01:56",
       "concepts": [
@@ -1119,18 +1119,18 @@
       "part": 1,
       "question": "Weak 이온교환기(DEAE·CM)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "pH에 따라 작용기가 전하를 잃거나 얻는다",
+        "DEAE는 약 음이온 교환기, CM은 약 양이온 교환기이다",
         "pH 2~12 전 범위에서 작용기 전하가 그대로 유지된다",
-        "Strong 이온교환기와 다른 선택성(alternative selectivity)을 보인다",
-        "정해진 pH 범위 안에서만 쓴다"
+        "강 이온교환기와 다른 선택성(alternative selectivity)을 보인다",
+        "교재에 적힌 정해진 pH 범위 안에서만 쓴다"
       ],
       "answer": 2,
-      "explanation": "**Weak 이온교환기는 pH 범위가 좁지만 Strong과 다른 선택성(alternative selectivity)을 보인다.** DEAE pH 2~9, CM pH 6~10.",
+      "explanation": "**Weak 이온교환기(DEAE·CM)는 pH에 따라 작용기가 전하를 잃거나 얻어 정해진 pH 범위(DEAE 2~9, CM 6~10)에서만 쓴다.** pH 2~12에서 전하가 유지되는 것은 Strong(Q·S)이다. 대신 약 이온교환기는 다른 선택성(alternative selectivity)을 보인다.",
       "choiceNotes": [
-        "옳은 진술 — DEAE·CM은 pH에 따라 작용기가 양성자를 얻거나 잃어 전하가 바뀌므로 쓸 수 있는 pH 범위가 좁다.",
-        "틀린 진술(정답) — pH 2~12에서 전하가 유지되는 것은 Strong(Q·S)이다.",
-        "옳은 진술 — 약 이온교환기는 강 이온교환기와 다른 선택성(alternative selectivity)을 보여 media scouting에 함께 넣는다.",
-        "옳은 진술 — 교재는 약 이온교환기를 표의 pH 범위(DEAE 2~9, CM 6~10) 안에서만 쓰라고 했다."
+        "옳은 진술 — DEAE(Diethylaminoethyl)는 Weak AEX, CM(Carboxymethyl)은 Weak CEX이다.",
+        "틀린 진술(정답) — pH 2~12에서 전하가 유지되는 것은 강 이온교환기(Q·S)이다. DEAE는 pH 2~9, CM은 pH 6~10에서만 쓴다.",
+        "옳은 진술 — 그래서 media scouting에 약 이온교환기를 함께 넣는다.",
+        "옳은 진술 — pH에 따라 작용기가 전하를 잃거나 얻으므로 표의 pH 범위 안에서만 쓴다."
       ],
       "source": "해설서 A3 · 부록 3 · WK03 교재 p.26 (사진 790)",
       "concepts": [
@@ -1174,17 +1174,17 @@
       "question": "IEX 운전 단계와 그 설명의 짝이 잘못되어 있는 것은?",
       "choices": [
         "Equilibration – 낮은 이온 강도의 start buffer로 평형을 맞춘다",
-        "Regeneration – 낮은 이온 강도 버퍼로 목적 단백질을 처음 결합시킨다",
-        "Elution – 이온 강도를 올려 약하게 결합한 단백질부터 용출한다",
+        "Regeneration – 고염 세척으로 남은 단백질을 떼고 다음 cycle을 준비한다",
+        "Elution – 이온 강도를 올려 세게 결합한 단백질부터 용출한다",
         "Sample application·wash – 전하가 없거나 작용기와 같은 전하인 단백질이 나온다"
       ],
-      "answer": 2,
-      "explanation": "**Regeneration은 마지막 고염 세척으로 남은 단백질을 모두 제거하고 다음 cycle을 준비하는 단계이다.** 목적 단백질을 처음 결합시키는 것은 Sample application이다.",
+      "answer": 3,
+      "explanation": "**IEX 용출은 이온 강도를 올리며 약하게 붙은 단백질부터 결합 세기 순서대로 일어난다.** Equilibration(낮은 이온 강도 start buffer) → Sample application·wash(결합 안 하는 단백질 통과) → Elution 1–3(이온 강도↑, 약한 것부터) → Regeneration(고염 세척 후 재평형).",
       "choiceNotes": [
-        "옳은 진술 — 낮은 이온 강도의 start buffer로 평형화하면 작용기 주변을 버퍼 짝이온이 채워 시료를 받을 준비가 된다.",
-        "틀린 진술(정답) — Regeneration은 마지막 고염 세척으로 남은 단백질을 모두 제거하고 재평형하는 단계이다.",
-        "옳은 진술 — gradient로 이온 강도를 올리면 버퍼 이온이 경쟁해 약하게 붙은 단백질부터, 전하가 큰 것은 나중에 나온다.",
-        "옳은 진술 — 전하가 없거나 작용기와 같은 전하인 단백질은 결합하지 않아 시료 주입·start buffer 세척 때 빠져나온다."
+        "옳은 짝 — 작용기 주변을 버퍼 짝이온이 채운다(필기: 그 전에 pre-CIP).",
+        "옳은 짝 — 마지막 고염 세척으로 남은 단백질을 모두 떼고 재평형한다.",
+        "틀린 짝(정답) — 용출 순서를 거꾸로 썼다. 이온 강도를 올리면 약하게 붙은 단백질부터 나오고, 전하가 커서 세게 붙은 단백질이 나중에 나온다.",
+        "옳은 짝 — 반대 전하 단백질만 결합하고 나머지는 통과한다."
       ],
       "source": "해설서 A3 · WK03 교재 p.27–30 (사진 790–792)",
       "concepts": [
@@ -1201,17 +1201,17 @@
       "question": "SBC와 DBC에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "SBC는 비커에 레진과 단백질을 넣는 batch mode로 잰다",
-        "DBC는 컬럼에 시료를 흘리며 출구 농도를 보고 잰다",
-        "실제 공정 설계에는 SBC가 더 true한 용량이므로 SBC를 쓴다",
-        "DBC는 실제 운전 조건(operating conditions)에서의 결합 용량이다"
+        "DBC는 출구 농도가 입구 농도의 10 %가 되는 지점으로 정한다",
+        "교재는 DBC 최대 용량의 90~100 %까지 싣도록 권장한다",
+        "DBC는 실제 운전 조건에서의 결합 용량으로 SBC보다 true한 값이다"
       ],
       "answer": 3,
-      "explanation": "**DBC는 실제 운전 조건에서의 결합 용량으로 SBC보다 더 'true'한 용량이다.** SBC: 총 단백질 용량, 비커 batch mode, 단백질 손실 50 % 지점 / DBC: 컬럼에 흘리며 출구 농도를 봄, 최대 용량의 50~75 %를 쓴다.",
+      "explanation": "**레진은 DBC(실제 운전 조건의 결합 용량)로 설계하며, 교재 권장은 그 최대 용량의 50~75 %만 쓰는 것이다.** SBC는 비커 batch mode로 잰 총 단백질 용량이고, DBC는 컬럼에 흘리며 출구 농도가 10 %가 되는 지점(10 % breakthrough)으로 정한다.",
       "choiceNotes": [
-        "옳은 진술 — SBC는 총 단백질 용량으로, 비커에 레진과 단백질을 넣는 batch mode로 잰다.",
-        "옳은 진술 — DBC는 컬럼에 실제 유속으로 시료를 흘리며 출구 UV로 C/C0를 보고, 10 % breakthrough 지점에서 정한다.",
-        "틀린 진술(정답) — 더 true한 용량은 DBC이며, 공정에는 DBC(최대 용량의 50~75 %)를 쓴다.",
-        "옳은 진술 — 교재 p.31의 정의이며, 그래서 SBC보다 더 'true'한 용량으로 본다."
+        "옳은 진술 — SBC(static binding capacity)는 총 단백질 용량을 batch mode로 잰다.",
+        "옳은 진술 — 필기: \"10 % → Dynamic binding(전체 중 10 % 새는 것) = DBC\".",
+        "틀린 진술(정답) — 숫자를 바꿨다. 교재 권장은 DBC 최대 용량의 50~75 %만 쓰는 것이다(안전 여유).",
+        "옳은 진술 — 교재 p.31: DBC는 operating conditions에서의 결합 용량으로 더 \"true\"한 용량이다."
       ],
       "source": "해설서 A3 · 부록 3 · WK03 교재 3.8 · WK03 교재 p.31 Protein binding capacity (사진 792) · WK06 녹음 2:27:56–2:29:44",
       "concepts": [
@@ -1313,18 +1313,18 @@
       "part": 2,
       "question": "AEX에 Tris처럼 + 전하를 띠는 아민 계열 버퍼를 쓰는 이유로 가장 적절한 것은?",
       "choices": [
-        "버퍼 이온이 레진과 같은 부호라 레진에 붙지 않고 버퍼 역할만 하기 때문",
-        "버퍼 이온이 레진에 강하게 붙어 단백질 결합을 돕기 때문",
-        "버퍼 이온이 단백질의 pI를 높여 주기 때문",
-        "버퍼 이온이 전도도를 0으로 만들기 때문"
+        "버퍼 이온이 레진에 먼저 붙어 단백질 결합 자리를 지켜 주기 때문",
+        "Tris가 단백질의 pI를 높여 − 전하를 키워 주기 때문",
+        "Tris의 pKa가 낮아 산성 pH에서 완충력이 좋기 때문",
+        "버퍼 이온이 레진 작용기와 같은 부호라 레진에 붙지 않고 버퍼 역할만 하기 때문"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "**버퍼 이온이 레진 작용기와 같은 부호의 전하를 띠어야 레진에 붙지 않고 버퍼 역할만 한다(일반 원리).** 그래서 + 레진인 AEX에는 아민 버퍼(Tris), − 레진인 CEX에는 산 버퍼(acetate·phosphate)를 쓴다.",
       "choiceNotes": [
-        "옳다 — + 레진(AEX)에 + 전하 버퍼 이온은 반발해 붙지 않으므로 결합 자리를 빼앗지 않고 pH만 지킨다(일반 원리).",
-        "틀리다 — 버퍼 이온이 레진에 붙으면 결합 자리를 빼앗고 pH가 흔들린다.",
-        "틀리다 — pI는 단백질 아미노산 조성으로 정해지는 고유값이며 버퍼 종류로 바뀌지 않는다. 버퍼가 정하는 것은 pH이다.",
-        "틀리다 — 버퍼 이온도 전하를 띠어 전도도를 만든다(보통 20~50 mM). 전도도를 0으로 만드는 버퍼는 없다."
+        "틀리다 — 거꾸로이다. 버퍼 이온이 레진에 붙으면 결합 자리를 차지해 단백질 결합을 방해하고 pH도 흔들린다. 그래서 레진과 같은 부호의 버퍼를 쓴다.",
+        "틀리다 — pI는 단백질 고유의 값으로 버퍼 종류로 바뀌지 않는다.",
+        "틀리다 — Tris의 pKa는 8.07로 약알칼리 쪽이며, AEX는 단백질이 − 전하를 띠도록 pI보다 높은 pH에서 돌린다.",
+        "옳다 — + 전하 레진(AEX)에는 + 전하 아민 버퍼(Tris), − 전하 레진(CEX)에는 − 전하 산 버퍼(acetate·phosphate)를 쓴다(일반 원리)."
       ],
       "source": "해설서 A3 · WK03 교재 p.34–35 (사진 794)",
       "concepts": [
@@ -1345,16 +1345,16 @@
       "choices": [
         "시료를 desalting해 이온 강도를 낮춘다",
         "UF/DF로 시료의 salt를 제거한다",
-        "버퍼 pH를 낮춰 단백질의 + 전하를 키운다",
-        "버퍼 pH를 높여 단백질을 pI에 더 가깝게 한다"
+        "버퍼 pH를 높여 단백질의 + 전하를 키운다",
+        "어떤 pH에서도 붙지 않으면 컬럼의 detergent 오염을 의심한다"
       ],
-      "answer": 4,
-      "explanation": "**Gradient 전에 나오면 결합이 안 된 것이다 — 시료 이온 강도를 낮추고(desalting, 희석, UF/DF), AEX면 pH↑·CEX면 pH↓.** pH와 pI의 거리가 멀어질수록 전하가 커진다. 어떤 pH에서도 안 붙으면 컬럼의 detergent 오염을 의심한다. 필기는 원인을 'buffer·시료 안에 salt가 많음'으로 적었다.",
+      "answer": 3,
+      "explanation": "**CEX에 결합이 안 되면(gradient 전에 나오면) 시료의 이온 강도를 낮추고(desalting·UF/DF·희석) pH를 낮춰 + 전하를 키운다.** pH와 pI의 거리가 멀어질수록 전하가 커진다. AEX라면 반대로 pH를 높인다. 어떤 pH에서도 안 붙으면 컬럼의 detergent 오염을 의심한다.",
       "choiceNotes": [
-        "옳은 진술 — gradient 전에 나오는 것은 결합이 안 된 것이므로 desalting으로 시료 이온 강도를 낮춰 버퍼 이온의 경쟁을 줄인다.",
-        "옳은 진술 — 필기에 desalting, 희석과 함께 UF/DF가 적혀 있다.",
-        "옳은 진술 — CEX에서 pH를 낮추면 pI와의 거리가 벌어져 + 전하가 커지고 − 레진에 더 잘 붙는다.",
-        "틀린 진술(정답) — CEX에서 pH를 높이면 pI에 가까워져 + 전하가 줄고 결합이 더 약해진다."
+        "옳은 대처 — 필기: 원인은 \"buffer·시료 안에 salt가 많음\", 대처는 desalting(빠르게 salt 제거).",
+        "옳은 대처 — 필기에 desalting·희석과 나란히 UF/DF가 적혀 있다.",
+        "틀린 대처(정답) — 방향을 거꾸로 썼다. pH를 높이면 pI에 가까워져 + 전하가 줄어든다. CEX에서 결합이 안 되면 pH를 낮춘다(AEX는 높인다).",
+        "옳은 대처 — 교재 Troubleshooting_1: pH를 바꿔도 전혀 붙지 않으면 detergent 오염을 의심한다."
       ],
       "source": "해설서 A3 · WK03 교재 3.13 · WK03 교재 p.37 Troubleshooting (사진 795)",
       "concepts": [
@@ -1373,18 +1373,18 @@
         "AEX 컬럼에서 목적 단백질이 gradient 동안에는 나오지 않고 마지막 고염 세척 때에야 나왔다."
       ],
       "choices": [
-        "시료를 desalting해 이온 강도를 낮춘다",
-        "버퍼 pH를 높인다",
-        "버퍼 pH를 낮춘다",
-        "시료 부피를 늘려 더 많이 싣는다"
+        "시료를 desalting해 이온 강도를 더 낮춘다",
+        "버퍼 pH를 낮춰 단백질의 − 전하를 줄인다",
+        "시료 주입 후 UV가 baseline으로 돌아온 뒤 gradient를 시작한다",
+        "Strong AEX(Q)를 Weak AEX(DEAE)로 바꿔 결합 세기를 줄인다"
       ],
-      "answer": 3,
-      "explanation": "**고염 세척 때에야 나오면 너무 세게 결합한 것이다 — AEX면 pH↓, CEX면 pH↑.** pH와 pI의 거리를 줄여 단백질 전하를 줄인다.",
+      "answer": 2,
+      "explanation": "**고염 세척 때에야 나오면 너무 세게 결합한 것이므로 AEX는 pH를 낮추고 CEX는 pH를 높여 전하를 줄인다.** 교재 Troubleshooting의 세 경우: 결합 안 됨(이온 강도↓, AEX pH↑·CEX pH↓) / 너무 세게 결합(AEX pH↓·CEX pH↑) / 덜 씻김(UV baseline 확인 후 용출, 평형 부피↑).",
       "choiceNotes": [
-        "틀리다 — desalting으로 이온 강도를 낮추는 것은 결합이 안 될 때(gradient 전에 나올 때)의 대처이다. 지문처럼 너무 세게 붙을 때는 결합을 더 세게 만든다.",
-        "틀리다 — AEX에서 pH를 높이면 − 전하가 커져 더 세게 붙는다(CEX일 때의 대처).",
-        "옳다 — AEX에서 너무 세게 붙으면 pH↓로 pI에 가깝게 해 − 전하를 줄인다.",
-        "틀리다 — 시료를 더 싣는 것은 결합 세기(전하)를 바꾸지 못하고, DBC를 넘겨 손실만 생긴다."
+        "틀리다 — 이온 강도를 낮추는 것은 결합이 안 될 때의 대처이다. 지문은 너무 세게 붙은 경우라 오히려 더 세게 붙는다.",
+        "옳다 — 고염 세척 때에야 나오면 너무 세게 결합한 것이다. AEX는 pH를 낮춰 pI에 가깝게 하면 − 전하가 줄어 gradient 안에서 나온다(CEX는 pH↑).",
+        "틀리다 — 이것은 gradient를 시작할 때 아직 붙지 않은 단백질이 나오는 경우(덜 씻김)의 대처이다.",
+        "틀리다 — Strong·Weak는 결합 세기가 아니라 넓은 pH 범위에서 작용기 전하가 유지되는가를 뜻한다."
       ],
       "source": "해설서 A3 · WK03 교재 p.37–38 (사진 795–796)",
       "concepts": [
@@ -1400,18 +1400,18 @@
       "part": 2,
       "question": "IEX 문제 해결(Troubleshooting)에 공통으로 적용되는 원리로 가장 적절한 것은?",
       "choices": [
+        "단백질의 pI는 버퍼 pH에 따라 달라진다",
+        "염 농도가 높을수록 단백질이 IEX 레진에 세게 결합한다",
         "pH와 pI의 거리가 멀어질수록 단백질의 전하가 커진다",
-        "pH와 pI의 거리가 가까울수록 단백질의 전하가 커진다",
-        "비드가 작을수록 단백질의 전하가 커진다",
-        "염 농도가 높을수록 단백질이 레진에 세게 결합한다"
+        "Weak 레진일수록 단백질과의 결합이 약해진다"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "**pH와 pI의 거리가 멀어질수록 단백질 전하가 커져 IEX 레진에 세게 붙는다.** 그래서 결합이 안 되면 거리를 벌리고(AEX pH↑·CEX pH↓), 너무 세게 붙으면 거리를 줄인다(AEX pH↓·CEX pH↑).",
       "choiceNotes": [
-        "옳다 — 교재 p.37–38의 세 장이 이 한 문장으로 풀린다.",
-        "틀리다 — 거꾸로이다. pH가 pI에 가까울수록 순전하가 줄고, pH = pI에서는 0이 되어 결합하지 않는다.",
-        "틀리다 — 비드 크기는 분해능·압력을 정하는 efficiency 요인이며, 단백질 전하는 pH와 pI의 관계로 정해진다.",
-        "틀리다 — 염 농도가 높으면 버퍼 이온이 결합 자리를 두고 경쟁해 결합이 약해진다. 그래서 IEX는 낮은 이온 강도에서 결합시킨다."
+        "틀리다 — pI는 단백질 고유의 값이다. 버퍼 pH가 바뀌면 pH와 pI의 거리(순전하)가 바뀔 뿐이다.",
+        "틀리다 — IEX는 거꾸로이다. 염 농도가 높으면 버퍼 이온이 경쟁해 단백질이 떨어진다. 높은 염에서 결합하는 것은 HIC이다.",
+        "옳다 — 교재 p.37–38의 문제 해결 세 장은 이 한 문장으로 풀린다.",
+        "틀리다 — Strong·Weak는 결합 세기가 아니라 작용기 전하가 유지되는 pH 범위의 차이이다."
       ],
       "source": "해설서 A3 · WK03 교재 3.13 · WK03 교재 p.37–38 (사진 795–796)",
       "concepts": [
@@ -1430,17 +1430,17 @@
       "question": "Affinity 레진과 IEX 레진에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "모든 단백질에 맞는 affinity 레진이 있는 것은 아니다",
-        "IEX는 Polishing 단계에서만 쓸 수 있다",
-        "IEX는 거의 모든 단백질에 쓸 수 있다",
-        "항체에는 Protein A라는 affinity 레진이 있어 정제 첫 단계에 쓴다"
+        "항체에는 Protein A라는 affinity 레진이 있어 정제 첫 단계에 쓴다",
+        "교재 표에서 Capture 적합도가 +++인 기술은 affinity 하나뿐이다",
+        "Affinity tag가 없는 단백질은 원하는 순도까지 여러 단계가 필요하다"
       ],
-      "answer": 2,
-      "explanation": "**IEX는 거의 모든 단백질에 쓸 수 있고 Capture·Intermediate·Polishing 세 단계 모두에서 +++를 받았다.** 반면 affinity 레진은 모든 단백질에 있는 것이 아니며, 항체에는 Protein A가 있어 정제 첫 단계에 쓴다.",
+      "answer": 3,
+      "explanation": "**IEX는 거의 모든 단백질에 쓸 수 있어 Capture·Intermediate·Polishing 세 단계 모두 +++이다.** 모든 단백질에 맞는 affinity 레진이 있는 것은 아니며(항체는 Protein A), 교재 p.54 표에서 AC는 Capture +++·Intermediate ++·Polishing +이다.",
       "choiceNotes": [
-        "옳은 진술 — affinity 레진은 특정 단백질(항체의 Protein A 등)에만 있어, 내 단백질에 맞는 것이 없는 경우가 많다.",
-        "틀린 진술(정답) — 교재 p.54 표에서 IEX는 Capture·Intermediate·Polishing 세 단계 모두 가장 높은 점수(+++)이다.",
-        "옳은 진술 — IEX는 단백질에 전하만 있으면 되므로 거의 모든 단백질에 쓸 수 있는 범용 레진이다.",
-        "옳은 진술 — 항체에는 Protein A affinity 레진이 있어 정제 첫 단계(capture)에 쓴다."
+        "옳은 진술 — 그래서 내 단백질에 맞는 affinity가 있으면 행운(네잎클로버)에 빗댔다.",
+        "옳은 진술 — Protein A capture가 항체 플랫폼 공정의 첫 크로마토그래피이다.",
+        "틀린 진술(정답) — IEX도 Capture에서 +++이다. IEX는 Capture·Intermediate·Polishing 세 단계 모두 +++로, 거의 모든 단백질에 쓸 수 있다.",
+        "옳은 진술 — tag가 붙은 단백질·항체는 affinity 한 단계로 원하는 순도에 이르는 경우가 많지만 tag가 없으면 여러 단계가 필요하다."
       ],
       "source": "해설서 A3 · WK03 교재 p.54 (A7)",
       "concepts": [
@@ -2824,18 +2824,18 @@
       "part": 1,
       "question": "SEC(Size Exclusion Chromatography)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "분자를 크기 차이로 나누며 분자가 레진에 결합하지 않는다",
-        "버퍼의 염 농도를 높여야 분자가 레진에 결합해 분리된다",
         "큰 분자는 비드의 pore에 들어가지 못해 먼저 용출된다",
-        "작은 분자는 pore 안까지 들어갔다 나오므로 늦게 용출된다"
+        "전체 분리가 약 1 CV 안에 끝나며 band broadening으로 단백질이 묽어진다",
+        "레진에 결합한 뒤 용출되므로 버퍼 조성이 분리를 크게 좌우한다",
+        "IEX·HIC·affinity 어느 단계 뒤에도 바로 붙일 수 있다"
       ],
-      "answer": 2,
-      "explanation": "**SEC는 분자가 레진에 결합하지 않고 크기 차이로만 분리된다.** 큰 분자는 pore에 못 들어가 먼저, 작은 분자는 pore 속까지 들어갔다 나와 늦게 나온다. 결합하지 않으므로 버퍼 조성이 분리에 거의 영향을 주지 않고, IEX·HIC·affinity 어느 단계 뒤에도 바로 붙일 수 있다.",
+      "answer": 3,
+      "explanation": "**SEC는 분자를 레진에 결합시키지 않고 크기 차이로 나누므로 버퍼 조성이 분리에 거의 영향을 주지 않는다.** 큰 분자는 pore에 못 들어가 먼저, 작은 분자는 pore 속까지 드나들어 늦게 나온다. 분리는 약 1 CV 안에 끝나고 단백질이 묽어진다.",
       "choiceNotes": [
-        "옳은 진술 — IEX·affinity와 달리 SEC는 분자를 레진에 결합시키지 않고 pore에 드나드는 정도로만 크기를 나눈다.",
-        "틀린 진술(정답) — SEC는 분자가 레진에 결합하지 않으므로 버퍼 조성이 분리에 거의 영향을 주지 않는다.",
-        "옳은 진술 — 큰 분자는 pore에 못 들어가 비드 사이 빈 공간(V_0)으로만 지나가므로 가장 먼저 나온다.",
-        "옳은 진술 — 작은 분자는 pore 속까지 들어갔다 나오느라 늦게 나와, 용출 순서가 큰 분자 → 작은 분자가 된다."
+        "옳은 진술 — 큰 분자는 비드 사이 빈 공간으로만 지나가 V_0 근처에서 먼저 나온다.",
+        "옳은 진술 — 교재: \"band broadening 때문에 단백질이 크게 묽어진다.\"",
+        "틀린 진술(정답) — SEC는 분자가 레진에 붙지 않는다. 그래서 버퍼 조성이 분리에 거의 영향을 주지 않는다.",
+        "옳은 진술 — 결합하지 않아 버퍼 조성의 제약이 적으므로 어느 단계 뒤에도 붙일 수 있다."
       ],
       "source": "해설서 A4 · WK03 교재 p.18 (Size exclusion chromatography) · WK03 교재 2.1 (원리)",
       "concepts": [
@@ -2884,18 +2884,18 @@
       "part": 1,
       "question": "SEC에서 분자의 용출 위치를 나타내는 Kav에 관한 설명 중 잘못된 것은?",
       "choices": [
-        "Kav가 1에 가까운 분자일수록 먼저 용출되는 큰 분자이다",
         "Kav = (V_e − V_0) ÷ (V_t − V_0)로 구한다",
-        "Pore에 전혀 들어가지 못하는 큰 분자는 V_e = V_0이므로 Kav가 0이다",
-        "Kav와 분자량의 로그는 일정 구간에서 직선 관계를 보인다"
+        "Pore 끝까지 들어가는 작은 분자는 V_e = V_0이므로 Kav가 1이다",
+        "Kav와 분자량의 로그는 일정 구간에서 직선 관계를 보인다",
+        "직선 구간의 위쪽 끝을 배제 한계(exclusion limit)라고 한다"
       ],
-      "answer": 1,
-      "explanation": "**Kav는 큰 분자(V_0에서 용출)가 0, pore 끝까지 들어가는 작은 분자(V_t에서 용출)가 1이다.** Kav = (V_e − V_0) ÷ (V_t − V_0)이며, Kav–log Mr 직선 구간이 그 레진의 fractionation range, 위쪽 끝이 exclusion limit이다.",
+      "answer": 2,
+      "explanation": "**pore에 전혀 못 들어가는 큰 분자는 V_e = V_0(Kav 0), pore 끝까지 들어가는 작은 분자는 V_e = V_t(Kav 1)이다.** Kav = (V_e − V_0) ÷ (V_t − V_0). Kav와 log Mr의 직선 구간이 분획 범위이고, 그 위쪽 끝이 배제 한계이다.",
       "choiceNotes": [
-        "틀린 진술(정답) — Kav 1은 V_e = V_t인 가장 작은 분자로, 가장 늦게 나온다. 큰 분자는 Kav 0이다.",
-        "옳은 진술 — 교재 p.15의 Kav 식이며, V_e는 분자의 용출 부피, V_0는 void volume, V_t는 컬럼 전체 부피이다.",
-        "옳은 진술 — 필기는 큰 분자 쪽에 \"V0 elution\"이라고 적었다.",
-        "옳은 진술 — Kav와 log Mr이 직선인 구간이 그 레진의 fractionation range이고, 위쪽 끝이 exclusion limit이다."
+        "옳은 진술 — 교재 1.21의 식이다.",
+        "틀린 진술(정답) — Kav 1은 맞지만 부피를 바꿨다. pore 끝까지 들어가는 작은 분자는 V_e = V_t이다. V_e = V_0(Kav 0)은 pore에 전혀 못 들어가는 큰 분자이다.",
+        "옳은 진술 — 이 직선 구간이 레진의 분획 범위(fractionation range)이다.",
+        "옳은 진술 — 배제 한계보다 큰 분자는 모두 V_0에서 함께 나온다."
       ],
       "source": "해설서 A4 · WK03 교재 p.14 (Terms of volume) · WK03 교재 p.15 (Fractionation range)",
       "concepts": [
@@ -2943,15 +2943,15 @@
         "여러 크기의 분자를 한 번에 넓게 훑어보는 데 가장 유리하다",
         "범위가 넓은 레진보다 비슷한 크기끼리 덜 갈라진다",
         "같은 분자량 차이에도 Kav 차이가 크게 벌어져 분해능이 높다",
-        "범위 안의 분자가 모두 V_0에서 함께 용출된다"
+        "범위 밖의 큰 분자까지 크기순으로 잘 갈라 준다"
       ],
       "answer": 3,
       "explanation": "**Fractionation range가 좁은 레진은 같은 분자량 차이에서도 Kav 차이가 커서 분해능이 높다.** 범위가 넓은 레진은 여러 크기를 한 번에 볼 수 있지만 비슷한 크기끼리는 덜 갈라진다. 교재 p.21의 레진 4종 Kav–log Mr 직선 비교가 근거이다.",
       "choiceNotes": [
-        "틀리다 — 여러 크기를 한 번에 넓게 훑어보는 것은 fractionation range가 넓은 레진의 장점이다. 좁은 레진은 범위 밖 분자를 가르지 못한다.",
-        "틀리다 — 거꾸로이다. 비슷한 크기끼리 덜 갈라지는 쪽은 범위가 넓은 레진이다.",
-        "옳다 — 범위가 좁으면 같은 분자량 차이에도 Kav 차이가 크게 벌어져 비슷한 크기끼리 더 잘 갈라진다(교재 p.21 비교).",
-        "틀리다 — V_0에서 함께 나오는 것은 exclusion limit보다 커서 pore에 전혀 못 들어가는 분자이다. 범위 안 분자는 크기에 따라 V_0와 V_t 사이에 나뉘어 나온다."
+        "틀리다 — 여러 크기를 한 번에 보는 데 유리한 것은 분획 범위가 넓은 레진이다.",
+        "틀리다 — 거꾸로이다. 범위가 넓은 레진이 비슷한 크기끼리 덜 갈라진다.",
+        "옳다 — 좁은 범위의 레진은 Kav–log Mr 직선이 가팔라 같은 분자량 차이도 용출 위치 차이가 커진다.",
+        "틀리다 — 배제 한계(범위의 위쪽 끝)보다 큰 분자는 pore에 못 들어가 모두 V_0에서 함께 나온다."
       ],
       "source": "해설서 A4 · WK03 교재 p.21 (Comparison of the selectivity) · WK03 녹음 54:05–55:59",
       "concepts": [
@@ -2969,18 +2969,18 @@
       "part": 2,
       "question": "SEC의 Group separation(desalting·buffer exchange)과 Fine fractionation을 비교한 설명으로 옳지 않은 것은?",
       "choices": [
-        "Fine fractionation은 짧은 컬럼에 높은 유속을 써서 분해능을 높인다",
-        "Desalting은 시료를 컬럼 부피의 최대 30 %까지 넣을 수 있다",
+        "Desalting에는 넓고 짧은 컬럼에 비교적 큰 입자를 쓴다",
         "Fine fractionation은 시료를 컬럼 부피의 0.5~4 %만 넣는다",
-        "Desalting에는 넓고 짧은(broad, short) 컬럼과 높은 유속을 쓴다"
+        "Fine fractionation은 높은 유속으로 돌려야 peak가 퍼지지 않는다",
+        "Monomer와 dimer를 나누는 것은 fine fractionation의 목적이다"
       ],
-      "answer": 1,
-      "explanation": "**Group separation은 시료 30 %까지·넓고 짧은 컬럼·높은 유속, Fine fractionation은 시료 0.5~4 %·긴 컬럼·낮은 유속이다.** 두 쓰임새는 운전 조건이 정반대이며, Fine fractionation은 monomer와 dimer 분리 같은 마지막 polishing에 쓴다.",
+      "answer": 3,
+      "explanation": "**SEC의 두 쓰임새는 운전 조건이 정반대이다 — desalting(넓고 짧은 컬럼, 시료 최대 30 %, 높은 유속)과 fine fractionation(긴 컬럼, 시료 0.5~4 %, 낮은 유속).** fine fractionation은 monomer·dimer 분리 같은 마지막 polishing에 쓴다.",
       "choiceNotes": [
-        "틀린 진술(정답) — Fine fractionation은 긴 컬럼(bed height 30~60 cm 이상)에 낮은 유속을 쓴다.",
-        "옳은 진술 — 단백질과 염은 크기 차이가 커서, 시료를 컬럼 부피의 30 %까지 넣어도 두 peak가 갈라진다(교재 p.23).",
-        "옳은 진술 — 비슷한 크기(monomer·dimer)끼리 나누므로 시료를 컬럼 부피의 0.5~4 %만 넣어 띠를 얇게 한다.",
-        "옳은 진술 — group separation은 크기 차이가 커서 높은 유속에도 버틴다(교재 p.24: 1.7→20 mL/min에서도 분리 유지)."
+        "옳은 진술 — group separation은 broad, short 컬럼과 비교적 큰 입자, 높은 유속을 쓴다.",
+        "옳은 진술 — 정밀 분리는 시료를 아주 적게(0.5~4 %) 넣는다. desalting은 최대 30 %.",
+        "틀린 진술(정답) — 방향을 바꿨다. fine fractionation은 긴 컬럼(30~60 cm 이상)과 낮은 유속으로 돌린다. 높은 유속을 버티는 것은 크기 차이가 큰 desalting이다.",
+        "옳은 진술 — 교재 p.19: fine fractionation은 복잡한 단백질 정제, monomer·dimer 분리, 분자 크기 추정에 쓴다."
       ],
       "source": "해설서 A4 · WK03 교재 p.20 (Fine fractionation) · WK03 교재 p.23 (Desalting and buffer exchange)",
       "concepts": [
@@ -3118,18 +3118,18 @@
       "part": 1,
       "question": "MMC(Multimodal chromatography)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "리간드와 시료 사이에 한 종류보다 많은 상호작용을 주도록 만든 레진이다",
-        "리간드 하나가 한 가지 상호작용만 하도록 설계한 레진이다",
-        "정전기·소수성·수소결합·thiophilic 상호작용이 함께 작용할 수 있다",
-        "Mixed-mode chromatography라고도 부른다"
+        "Mixed-mode chromatography라고도 부른다",
+        "1차 상호작용 작용기에 chemical scaffold로 다른 상호작용 부분을 연결해 고정한다",
+        "여러 상호작용이 서로 섞이지 않도록 한 번에 하나씩만 작용한다",
+        "희석이나 desalting 없이 high salt 시료를 바로 걸 수 있다"
       ],
-      "answer": 2,
-      "explanation": "**MMC는 리간드와 시료 사이에 한 종류보다 많은 상호작용(정전기, 소수성, 수소결합, π–π, thiophilic 등)을 주도록 만든 레진이다.** 전통 레진은 리간드 하나가 한 가지 상호작용만 하지만, 다중모드 레진은 1차 상호작용 작용기에 chemical scaffold로 다른 상호작용 부분을 연결해 매트릭스에 고정한다.",
+      "answer": 3,
+      "explanation": "**MMC는 리간드와 시료 사이에 한 종류보다 많은 상호작용(정전기·소수성·수소결합·π–π·thiophilic)을 주도록 만든 레진이며, 이 상호작용들이 독립적으로 또는 함께(in concert) 작용한다.** 1차 작용기에 chemical scaffold로 다른 상호작용 부분을 연결해 매트릭스에 고정한다.",
       "choiceNotes": [
-        "옳은 진술 — 교재 p.39의 정의로, 리간드와 시료 사이에 두 가지 이상의 상호작용을 준다.",
-        "틀린 진술(정답) — 리간드 하나가 한 가지 상호작용만 하는 것은 전통 레진이다.",
-        "옳은 진술 — 상호작용들이 독립적으로 또는 함께(in concert) 작용한다.",
-        "옳은 진술 — mixed-mode chromatography는 MMC를 가리키는 다른 이름이다."
+        "옳은 진술 — 교재 4.1: multimodal = mixed-mode.",
+        "옳은 진술 — 교재 p.40: 전통 레진은 리간드 하나가 한 가지 상호작용만 하지만, 다중모드 레진은 scaffold로 다른 상호작용 부분을 연결한다.",
+        "틀린 진술(정답) — 교재는 정전기·소수성·수소결합·thiophilic 등의 상호작용이 서로 독립적으로 또는 함께(in concert) 작용한다고 했다.",
+        "옳은 진술 — high salt tolerance 덕분에 희석·desalting 단계를 줄일 수 있다."
       ],
       "source": "해설서 A5 · WK03 교재 p.39 (Multimodal chromatography (MMC)) · WK03 교재 p.40 (Traditional vs Multimodal media)",
       "concepts": [
@@ -3174,18 +3174,18 @@
       "part": 1,
       "question": "다음 중 MMC를 쓰는 경우에 해당되지 않는 것은?",
       "choices": [
-        "결합 없이 분자 크기 차이만으로 분리해야 할 때",
+        "시료의 conductivity가 너무 낮아 일반 IEX에 붙지 않을 때",
         "로딩할 시료의 conductivity가 너무 높을 때",
         "희석이나 desalting을 빼서 정제 단계 수를 줄여야 할 때",
         "기존 레진의 selectivity로는 원하는 순도를 얻기 어려울 때"
       ],
       "answer": 1,
-      "explanation": "**MMC가 새 해법이 되는 경우는 (1) 시료 conductivity가 너무 높을 때, (2) 정제 단계 수를 줄여야 할 때, (3) 기존 레진의 selectivity로 원하는 순도를 얻기 어려울 때이다.** 교재 p.41의 정리이다.",
+      "explanation": "**MMC가 새 해법이 되는 경우는 시료 conductivity가 너무 높을 때, 정제 단계 수를 줄여야 할 때, 기존 레진의 selectivity로 원하는 순도를 얻기 어려울 때이다(교재 p.41).** 일반 IEX는 low salt에서 잘 결합하므로 conductivity가 낮은 시료에는 MMC가 필요하지 않다.",
       "choiceNotes": [
-        "틀린 진술(정답) — 결합 없이 분자 크기로만 나누는 것은 SEC이다. MMC는 여러 상호작용으로 결합시킨 뒤 용출한다.",
-        "옳은 진술 — 교재 p.43처럼 conductivity가 높은 시료(15 mS/cm)에서도 DBC가 유지되어 희석 없이 바로 건다.",
-        "옳은 진술 — 희석·desalting 없이 바로 걸 수 있어 정제 단계 수가 준다.",
-        "옳은 진술 — bispecific 항체, mAb, ADC를 예로 들었다."
+        "해당되지 않는다(정답) — 거꾸로이다. 일반 IEX는 conductivity가 낮을 때 잘 붙는다. MMC가 필요한 것은 conductivity가 너무 높을 때이다.",
+        "해당된다 — 일반 CEX는 약 5 mS/cm를 넘으면 DBC가 거의 0이지만 MMC는 15 mS/cm에서도 30~40 mg/mL를 유지한다.",
+        "해당된다 — 희석·desalting 없이 바로 걸 수 있다.",
+        "해당된다 — 예로 bispecific 항체, mAb, ADC를 들었다."
       ],
       "source": "해설서 A5 · WK03 교재 4.3 (MMC를 쓰는 경우) · WK03 교재 p.41 (MMC offers new solutions, when?)",
       "concepts": [
@@ -3205,18 +3205,18 @@
         "다중모드 양이온 교환 레진은 15 mS/cm에서도 DBC 30~40 mg/mL를 유지한다."
       ],
       "choices": [
-        "시료를 희석해 conductivity를 5 mS/cm 아래로 낮춘 뒤에만 결합시킨다",
+        "다중모드 레진도 시료를 5 mS/cm 아래로 희석한 뒤에만 결합시킨다",
         "High salt 조건에서는 결합하지 않으므로 flow-through 전용으로 쓴다",
         "Protein A·CEX 용출액처럼 염 농도가 높은 액을 희석 없이 다음 단계에 걸 수 있다",
-        "시료 부피를 몇 배로 늘려야 하므로 탱크를 더 크게 준비한다"
+        "15 mS/cm에서는 일반 양이온 교환 레진의 DBC가 더 높다"
       ],
       "answer": 3,
       "explanation": "**다중모드 레진은 high salt tolerance가 있어 염 농도가 높은 액을 희석 없이 바로 걸 수 있다.** 희석하면 부피가 몇 배로 늘어 탱크와 처리 시간이 커지므로, 이것이 생산 현장에서 가장 큰 장점이다.",
       "choiceNotes": [
-        "틀리다 — 희석으로 conductivity를 5 mS/cm 아래로 낮춰야 하는 것은 일반 양이온 교환 레진이다. 다중모드 레진은 15 mS/cm에서도 결합한다.",
-        "틀리다 — 다중모드 레진은 high salt에서도 DBC 30~40 mg/mL를 유지하며 결합(bind-elute)한다. flow-through 전용이 아니다.",
-        "옳다 — 희석하지 않으므로 부피가 늘지 않아 탱크와 처리 시간을 줄인다.",
-        "틀리다 — 희석하면 부피가 몇 배로 늘어 큰 탱크가 필요해진다. 다중모드 레진은 높은 conductivity 시료를 바로 걸어 오히려 이를 피한다."
+        "틀리다 — 5 mS/cm 아래로 낮춰야 하는 것은 일반 양이온 교환 레진이다. 다중모드 레진은 15 mS/cm에서도 결합한다.",
+        "틀리다 — 지문은 high salt에서도 DBC 30~40 mg/mL를 유지한다고 했다. 결합(bind-elute)에 쓸 수 있다.",
+        "옳다 — 희석하면 부피가 몇 배로 늘어 탱크와 처리 시간이 커지므로, 희석 없이 넘길 수 있다는 것이 가장 큰 장점이다.",
+        "틀리다 — 거꾸로이다. 15 mS/cm에서 일반 레진의 DBC는 거의 0이고 다중모드 레진이 30~40 mg/mL로 더 높다."
       ],
       "source": "해설서 A5 · WK03 교재 p.43 (High salt tolerance) · WK03 교재 p.41",
       "concepts": [
@@ -3256,18 +3256,18 @@
       "part": 1,
       "question": "다중모드 IEX 레진을 일반 IEX 레진과 비교한 설명으로 옳은 것은?",
       "choices": [
-        "pI에서 멀리 떨어진 pH에서만 결합시킬 수 있다",
-        "결합 가능한 pH 범위가 일반 IEX보다 좁다",
+        "Weak 이온교환기이므로 정해진 좁은 pH 범위 안에서만 쓴다",
         "결합 가능한 pH 범위가 넓어 pI 근처에서도 결합시킬 수 있다",
-        "High salt 시료에서는 일반 IEX보다 DBC가 더 낮다"
+        "Conductivity가 높은 시료에서는 일반 IEX보다 DBC가 낮다",
+        "상호작용이 한 가지여서 결합·용출 조건을 찾는 실험이 적게 든다"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "**다중모드 IEX는 일반 IEX보다 결합 가능한 pH 범위가 넓어 pI 근처에서도 붙일 수 있다(wider operational window).** 정전기 외에 소수성·수소결합이 함께 작용하기 때문이다.",
       "choiceNotes": [
-        "틀리다 — pI에서 멀리 떨어진 pH에서만 붙는 것은 전하에만 기대는 일반 IEX이다. 다중모드 IEX는 pI 근처에서도 붙는다.",
-        "틀리다 — 반대로 다중모드 IEX는 결합 가능한 pH 범위가 일반 IEX보다 넓다.",
-        "옳다 — 교재 p.41의 wider operational window로, 정전기 외에 소수성·수소결합이 함께 작용해 pI 근처에서도 결합한다.",
-        "틀리다 — high salt에서 DBC가 떨어지는 것은 일반 IEX이다(약 5 mS/cm를 넘으면 거의 0). 다중모드 레진은 15 mS/cm에서도 30~40 mg/mL를 유지한다."
+        "틀리다 — 교재 4.4는 다중모드 IEX가 일반 IEX보다 더 넓은 운전 범위(wider operational window)를 가진다고 했다.",
+        "옳다 — 다중모드 IEX는 결합 가능한 pH 범위가 넓어 pI 근처에서도 붙일 수 있다.",
+        "틀리다 — 거꾸로이다. high salt tolerance 덕분에 conductivity가 높아도 DBC를 유지한다.",
+        "틀리다 — 상호작용이 여러 가지라 조건을 찾는 실험이 많이 든다. 그래서 HTPD로 해결한다."
       ],
       "source": "해설서 A5 · WK03 교재 4.4 (더 넓은 운전 범위) · WK03 교재 p.41 (Wider operational window)",
       "concepts": [
@@ -3291,15 +3291,15 @@
         "pH를 pI 위로 올려 전하를 바꾸고, 염을 높여 이온 경쟁을 함께 일으킨다",
         "pH를 pI 아래로 더 낮춰 + 전하를 키워 용출한다",
         "염을 높여 소수성 결합을 강화하는 방식으로 용출한다",
-        "단백질을 변성시켜 크기를 줄인 뒤 용출한다"
+        "pH를 pI와 같게 맞춰 순전하를 0으로 만든 뒤 용출한다"
       ],
       "answer": 1,
       "explanation": "**pH를 pI 아래에 두면 + 전하로 붙고, pI 위로 올리면서 염을 높이면 전하 반발과 이온 경쟁이 함께 작용해 떨어진다(일반 원리로 해석).** 이 조건은 pH와 NaCl 농도를 격자로 바꿔 결합 용량을 찍어 보는 방식으로 찾았고, bed height 10 cm를 유지한 채 지름만 키워 100배 scale-up해도 크로마토그램 모양이 유지되었다.",
       "choiceNotes": [
-        "옳다 — 전하 반발과 이온 경쟁이 함께 작용해 용출된다(일반 원리로 해석).",
-        "틀리다 — pI 5.3 아래로 pH를 더 낮추면 + 전하가 커져 양이온 교환 레진에 더 세게 붙는다. 결합 최적이 pH 5~5.4, 용출은 pH 7.5였다.",
-        "틀리다 — 염으로 소수성 결합을 키우면 결합이 세질 뿐이다. 이 사례의 용출은 pH를 올려 전하를 바꾸고 염(700 mM 이상)으로 이온 경쟁을 일으킨 것이다.",
-        "틀리다 — 크기 변화는 이 용출 조건과 관계없다. 크기로 나누는 것은 SEC이며, 다중모드 레진은 결합·용출로 분리한다."
+        "옳다 — 결합 pH(5~5.4)는 pI 5.3 근처·아래로 + 전하, 용출 pH 7.5는 pI 위라 − 전하가 되고, 700 mM 이상의 염이 이온 경쟁을 더한다(일반 원리로 해석).",
+        "틀리다 — + 전하를 키우면 양이온 교환 레진에 더 세게 붙는다. 용출 pH 7.5는 pI보다 높다.",
+        "틀리다 — 염을 높여 소수성 결합이 강해지면 오히려 더 붙는다(HIC 원리). 지문의 용출은 pH 변화와 이온 경쟁이다.",
+        "틀리다 — 용출 pH 7.5는 pI 5.3과 같지 않다. pI보다 2 이상 높아 단백질은 − 전하를 띤다."
       ],
       "source": "해설서 A5 · WK03 교재 p.43–45 (Case study, Buffer screening) · WK03 교재 p.46 (Straightforward scale-up)",
       "concepts": [
@@ -3347,17 +3347,17 @@
       "question": "HTPD(High-throughput process development)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "상호작용이 여러 가지인 MMC의 결합·용출 조건을 빠르게 찾는 데 쓴다",
-        "생산 컬럼에서 한 번에 한 조건씩 실험해 최적 조건을 찾는 방법이다",
+        "바꾸는 인자는 레진 종류 하나로 한정하고 pH·염 농도는 고정한다",
         "HTS(high-throughput screening)와 DoE를 도구로 쓴다",
         "결합 용량·세척·용출 조건과 CIP 조건, 레진을 screening한다"
       ],
       "answer": 2,
-      "explanation": "**HTPD는 HTS와 DoE로 많은 조건을 소규모에서 빠르게 screening하는 공정 개발 방법이다.** 공정 개발 → 최적화 → scale-up 동안 plan → perform → analyze → evaluate를 돌리며, 단백질 농도·pH·염 종류와 농도·gradient 기울기·유속·접촉 시간 등을 바꾼다.",
+      "explanation": "**HTPD는 HTS 도구와 DoE를 써서 결합 용량·세척·용출·CIP 조건과 레진을 작은 규모에서 한꺼번에 스크리닝하는 공정 개발 방식이다.** 바꾸는 인자는 단백질 농도, pH, 첨가물·염, gradient 기울기, 유속, 접촉 시간 등이다. plan → perform → analyze → evaluate를 돌린다.",
       "choiceNotes": [
-        "옳은 진술 — MMC는 조건 탐색에 실험이 많이 들어 HTPD로 해결한다.",
-        "틀린 진술(정답) — HTPD는 96-well 수준의 소규모로 많은 조건을 한꺼번에 screening한다.",
-        "옳은 진술 — 교재가 든 HTPD 도구는 HTS(high-throughput screening)와 DoE이다.",
-        "옳은 진술 — 교재 p.49가 든 HTPD 연구 종류(결합 용량·세척·용출 조건, 흡착 kinetics, 레진·CIP 조건 screening)이다."
+        "옳은 진술 — MMC는 조건 찾기에 실험이 많이 들어 HTPD로 해결한다.",
+        "틀린 진술(정답) — 교재 p.49는 단백질 농도, pH, 첨가물·염의 종류와 농도, gradient 기울기, 유속, 접촉 시간 등 여러 인자를 함께 바꾼다고 했다.",
+        "옳은 진술 — 96-well plate·로봇 스크리닝 컬럼(HTS)과 DoE를 쓴다.",
+        "옳은 진술 — HTPD로 보는 것: 결합 용량·세척·용출 조건과 흡착 속도, 레진 screening, CIP 조건 screening."
       ],
       "source": "해설서 A5 · WK03 교재 p.49 (HTPD, Types of studies with HTPD)",
       "concepts": [
@@ -3374,17 +3374,17 @@
       "question": "결합 크로마토그래피의 용출 방식과 그 설명이 잘못 연결된 것은?",
       "choices": [
         "Linear gradient – 처음 보는 시료, 고분해능 분리·분석에 쓴다",
-        "Isocratic – 염 농도를 직선으로 서서히 올려 용출한다",
-        "Step elution – gradient로 최적화가 끝난 생산 공정에 쓴다",
-        "Isocratic – SEC처럼 결합하지 않는 분리에 쓴다"
+        "Step elution – 처음 보는 시료의 용출 조건을 찾을 때 먼저 쓴다",
+        "Isocratic – SEC처럼 결합하지 않는 분리에 쓴다",
+        "pH gradient – 염 대신 버퍼 pH를 점점 바꿔 가며 용출한다"
       ],
       "answer": 2,
-      "explanation": "**용출 방식은 linear gradient(직선으로 서서히), step elution(정한 농도로 한 번에), isocratic(바꾸지 않음) 세 가지이다.** Linear는 처음 보는 시료·고분해능, step은 최적화 뒤 생산, isocratic은 SEC처럼 결합하지 않는 분리에 쓴다.",
+      "explanation": "**Linear gradient는 처음 보는 시료·고분해능 분리에, step elution은 gradient로 최적화가 끝난 생산 공정에 쓴다.** isocratic은 조건을 바꾸지 않는 용출(SEC). gradient는 주로 염 농도를, 때로는 pH를 시간에 따라 바꾼다.",
       "choiceNotes": [
-        "옳은 진술 — 교재대로 linear gradient는 처음 보는 시료로 시작할 때와 고분해능 분리·분석에 쓴다.",
-        "틀린 진술(정답) — Isocratic은 조건을 바꾸지 않는 방식이다. 직선으로 올리는 것은 linear gradient이다.",
-        "옳은 진술 — step elution은 미리 정한 농도로 한 번에 바꾸는 방식으로, gradient로 조건 최적화가 끝난 생산 공정에 쓴다.",
-        "옳은 진술 — isocratic은 버퍼 조건을 바꾸지 않는 방식으로, 결합하지 않는 SEC 분리에 쓴다."
+        "옳은 짝 — 교재 p.32: 처음 보는 시료로 시작할 때, 고분해능 분리나 분석에 쓴다.",
+        "틀린 짝(정답) — 처음 보는 시료에 먼저 쓰는 것은 linear gradient이다. step elution은 gradient로 최적화한 뒤 생산 공정에 쓴다.",
+        "옳은 짝 — isocratic은 조건을 바꾸지 않는 용출로 SEC가 대표적이다.",
+        "옳은 짝 — gradient는 주로 염 농도, 때로는 pH를 바꾼다. MMC 사례는 염과 pH를 함께 올리는 gradient도 비교했다."
       ],
       "source": "해설서 A6 · WK03 교재 1.11 (용출) · WK03 교재 p.10 (Elution mode)",
       "concepts": [
@@ -3483,15 +3483,15 @@
         "레진에 붙지 않은 분자는 gradient를 시작하기 전에 나온다",
         "단단히 붙은 분자는 gradient 뒤 고염 세척 때 나온다",
         "결합이 강한 분자일수록 gradient 초반의 낮은 염 농도에서 먼저 용출된다",
-        "결합이 약한 분자일수록 낮은 염 농도에서 먼저 용출된다"
+        "이웃한 peak의 꼬리가 겹치는 구간이 생겨 섞임(mixing)으로 남는다"
       ],
       "answer": 3,
-      "explanation": "**Gradient는 결합 세기가 다른 분자들을 약한 것부터 순서대로 떼어 내는 장치이다.** 붙지 않은 분자는 gradient 전, 약하게 붙은 분자는 낮은 염 농도, 단단히 붙은 분자는 고염 세척 때 나온다.",
+      "explanation": "**Linear gradient에서는 결합이 약한 분자부터 낮은 염 농도에서 용출된다.** 붙지 않은 분자는 gradient 전, 단단히 붙은 분자는 고염 세척 때 나온다. 이웃 peak 꼬리가 겹치는 구간(섞임)은 step elution으로 줄일 수 있다.",
       "choiceNotes": [
-        "옳은 진술 — 붙지 않은 분자는 시료 주입과 start buffer 세척 중, gradient를 시작하기 전에 흘러나온다.",
-        "옳은 진술 — gradient 끝까지 버틴 단단히 붙은 분자는 고염 세척(4 CV) 때 나온다.",
-        "틀린 진술(정답) — 결합이 강한 분자는 염 농도가 높아져야 떨어지므로 늦게 나온다.",
-        "옳은 진술 — 약하게 붙은 분자는 낮은 염 농도에서도 버퍼 이온에 밀려 먼저 나온다(일반 원리)."
+        "옳은 진술 — 교재 p.32: 붙지 않은 분자는 gradient 전에 나온다.",
+        "옳은 진술 — 고염 세척(4 CV) 때 단단히 붙은 분자가 나온다.",
+        "틀린 진술(정답) — 순서를 거꾸로 썼다. 결합이 약한 분자가 낮은 염 농도에서 먼저, 결합이 강한 분자는 염 농도가 높아진 뒤에 나온다.",
+        "옳은 진술 — 교재 p.33 필기: linear gradient에서는 peak 꼬리가 겹치는 구간에 \"섞임(waste, mixing)\"이 생기고, step으로 끊으면 줄어든다."
       ],
       "source": "해설서 A6 · WK03 교재 p.32 (Typical IEX separation using linear gradient elution)",
       "concepts": [
@@ -3507,18 +3507,18 @@
       "part": 2,
       "question": "Gradient 기울기를 완만하게(같은 농도 변화를 더 많은 CV에 걸쳐) 할 때의 변화로 옳은 것은?",
       "choices": [
-        "Peak가 더 진하게 농축되어 나온다",
-        "분해능은 그대로이고 분리 시간만 짧아진다",
+        "Peak가 더 날카롭고 진하게 농축되어 나온다",
+        "운전 시간은 늘지만 분해능에는 영향이 없다",
         "Peak 사이가 벌어져 분해능이 좋아지지만 시간과 버퍼가 더 든다",
-        "버퍼 소비가 줄어든다"
+        "Step elution처럼 버퍼 소비가 줄어든다"
       ],
       "answer": 3,
       "explanation": "**기울기가 완만할수록 peak 사이가 벌어져 분해능이 좋아지지만, 시간과 버퍼가 더 들고 peak가 묽어진다(일반 원리).** 그래서 최적화 뒤 생산에서는 step elution으로 바꿔 시간·버퍼를 아낀다.",
       "choiceNotes": [
-        "틀리다 — 기울기가 완만할수록 같은 단백질이 더 넓은 부피에 걸쳐 나와 peak가 묽어진다.",
-        "틀리다 — 완만하게 하면 분해능은 좋아지고, 더 많은 CV를 흘려야 하므로 분리 시간은 길어진다.",
-        "옳다 — peak 사이가 벌어져 분해능이 좋아지지만, CV 수가 늘어 시간·버퍼가 더 들고 peak가 묽어진다(일반 원리).",
-        "틀리다 — 같은 농도 변화를 더 많은 CV에 걸쳐 흘리므로 버퍼가 더 든다(10 CV → 20 CV면 gradient 버퍼 2배)."
+        "틀리다 — 완만한 gradient에서는 peak가 묽어진다. 진하게 농축해 받는 것은 step elution의 장점이다.",
+        "틀리다 — 같은 농도 변화를 더 많은 CV에 걸쳐 주면 peak 사이가 벌어져 분해능이 좋아진다.",
+        "옳다 — 분해능↑ 대신 시간·버퍼↑, peak는 묽어진다(일반 원리).",
+        "틀리다 — CV가 늘어나므로 버퍼가 더 든다. 버퍼 소비를 줄이는 것은 step elution이다."
       ],
       "source": "해설서 A6 (Gradient의 의미, 일반 원리)",
       "concepts": [
@@ -3535,17 +3535,17 @@
       "question": "Gradient 길이를 L 단위가 아니라 CV 단위로 정하는 이유로 옳은 것은?",
       "choices": [
         "Scale-up 때 레진 부피 대비 gradient 부피 비율을 고정 파라미터로 두기 때문이다",
-        "컬럼마다 gradient 기울기를 다르게 두기 위해서이다",
-        "큰 컬럼에서는 gradient를 쓰지 않기 때문이다",
-        "레진 부피와 관계없이 버퍼 부피를 같게 두기 위해서이다"
+        "Scale-up 때 gradient 부피(L)를 작은 컬럼과 똑같이 유지하기 위해서이다",
+        "CV 단위로 정하면 부피 유속(L/h)을 고정할 수 있기 때문이다",
+        "CV 단위로 정하면 bed height를 키워도 결과가 같아지기 때문이다"
       ],
       "answer": 1,
       "explanation": "**Scale-up 때 \"gradient 부피 ÷ 레진 부피\" 비율을 고정 파라미터로 두므로, gradient 길이는 CV 단위로 정한다.** 그러면 컬럼이 커져도 같은 분리가 재현되고, 실제 버퍼 양은 CV에 비례해 늘어난다.",
       "choiceNotes": [
-        "옳다 — CV로 정하면 컬럼이 커져도 'gradient 부피 ÷ 레진 부피' 비율이 같게 유지되어 같은 분리가 재현된다.",
-        "틀리다 — CV로 정하는 것은 CV당 농도 변화(기울기)를 컬럼마다 같게 두려는 것이다. 기울기가 달라지면 분리가 재현되지 않는다.",
-        "틀리다 — 큰 컬럼에서도 같은 CV 수로 gradient를 흘린다(예: 20 CV이면 5 mL 컬럼 100 mL, 50 L 컬럼 1,000 L).",
-        "틀리다 — 버퍼 부피는 CV에 비례해 늘어난다. 레진 부피와 관계없이 같게 두면 큰 컬럼의 gradient가 너무 가팔라진다."
+        "옳다 — 교재 p.57 고정 파라미터: gradient volume ÷ media volume.",
+        "틀리다 — 레진 부피가 커지면 gradient 부피(L)도 같은 비율로 커져야 한다. L로 같게 두면 큰 컬럼에서는 gradient가 급해진다.",
+        "틀리다 — 부피 유속(L/h)은 scale-up 때 키우는 변동 파라미터이다. 고정하는 것은 linear flow rate(cm/h)이다.",
+        "틀리다 — bed height는 고정 파라미터이며, scale-up은 지름을 키운다."
       ],
       "source": "해설서 A6 · 해설서 A9 · WK03 교재 7.4 (고정 파라미터) · WK03 교재 p.57",
       "concepts": [
@@ -3591,18 +3591,18 @@
       "part": 1,
       "question": "다음 중 정제 공정으로 제거해야 할 불순물에 해당되지 않는 것은?",
       "choices": [
-        "HCP(host cell protein)",
         "HCD(host cell DNA)",
         "목적 단백질이 뭉친 aggregate",
-        "목적 항체의 monomer"
+        "Formulation 단계에서 넣는 안정화 부형제(excipient)",
+        "배지 성분과 공정 첨가물"
       ],
-      "answer": 4,
-      "explanation": "**배양액에는 목적 단백질 외에 HCP, HCD, endotoxin, virus와 aggregate·잘린 조각·배지 성분·공정 첨가물이 섞여 있어 정제로 걷어 내야 한다.** 이것들은 환자에게 면역 반응이나 감염을 일으킬 수 있다.",
+      "answer": 3,
+      "explanation": "**정제로 걷어 낼 불순물은 HCP·HCD·endotoxin·virus(주요 불순물)와 aggregate·잘린 조각, 배지 성분·공정 첨가물이다.** 이것들은 환자에게 면역 반응이나 감염을 일으킬 수 있다. formulation 단계의 부형제(excipient)는 제품을 안정화하려고 넣는 성분이다.",
       "choiceNotes": [
-        "옳은 진술 — HCP는 숙주 세포가 만든 다른 단백질로, 면역 반응을 일으킬 수 있어 제거한다.",
-        "옳은 진술 — HCD는 숙주 세포에서 나온 DNA로, 제거해야 할 주요 불순물이다.",
-        "옳은 진술 — aggregate는 목적 단백질이 뭉친 것으로 면역 반응을 일으킬 수 있어 polishing에서 제거한다.",
-        "틀린 진술(정답) — monomer는 목적 산물 자체로, 수율을 지켜 회수해야 한다. 제거 대상은 HCP·HCD·endotoxin·virus·aggregate 등이다."
+        "해당된다 — 세포에서 나온 DNA로 주요 불순물이다.",
+        "해당된다 — 목적 단백질이 뭉친 aggregate나 잘린 조각도 제품 유래 불순물이다.",
+        "해당되지 않는다(정답) — 부형제는 제품을 안정화하려고 마지막에 일부러 넣는 성분으로, 정제로 걷어 낼 대상이 아니다.",
+        "해당된다 — 배지 성분과 공정 첨가물도 배양액에 섞여 있어 걷어 내야 한다."
       ],
       "source": "해설서 A7 · WK04 녹음② 1:54:15–1:57:03 (주요 불순물)",
       "concepts": [
@@ -3645,7 +3645,7 @@
       "part": 2,
       "question": "혼합물의 상태와 분리 기술의 연결로 가장 올바른 것은?",
       "choices": [
-        "액체에 녹아 있는 여러 성분 – 원심분리만으로 분리",
+        "액체에 녹아 있는 여러 성분 – 원심분리 또는 여과",
         "고체와 액체가 섞인 배양액 – 원심분리 또는 여과",
         "항체 공정의 Clarification 뒤 – 침전을 주 분리 기술로 사용",
         "고체와 액체가 섞인 배양액 – 크로마토그래피로 세포 제거"
@@ -3653,10 +3653,10 @@
       "answer": 2,
       "explanation": "**고체·액체 혼합물은 원심분리나 여과로, 액체에 녹아 있는 성분은 크로마토그래피·침전 등으로 나눈다.** 항체 공정에서는 침전을 거의 쓰지 않고 Clarification이 끝나면 크로마토그래피로 넘어간다.",
       "choiceNotes": [
-        "틀리다 — 원심분리는 고체와 액체를 나누는 기술이다. 액체에 녹아 있는 성분은 크로마토그래피·침전 등으로 나눈다.",
-        "옳다 — 세포·고형물이 섞인 배양액은 원심분리나 여과로 고체와 액체를 나눈다(Clarification).",
-        "틀리다 — 항체 공정은 침전을 거의 쓰지 않고 크로마토그래피로 넘어간다.",
-        "틀리다 — 세포 제거는 Clarification(원심분리·여과)의 일이다."
+        "틀리다 — 원심분리·여과는 고체와 액체를 나누는 기술이다. 액체에 녹아 있는 성분끼리는 크로마토그래피·침전 등으로 나눈다.",
+        "옳다 — 고체(세포·잔해)와 액체가 섞인 배양액은 원심분리나 여과로 나눈다.",
+        "틀리다 — 항체 공정에서는 침전을 거의 쓰지 않고, Clarification이 끝나면 크로마토그래피로 넘어간다.",
+        "틀리다 — 세포 같은 고형물은 크로마토그래피 전에 원심분리·depth filter로 걷어 낸다. 크로마토그래피는 녹아 있는 성분을 나눈다."
       ],
       "source": "해설서 A7 · WK04 녹음① 18:07–21:52 (혼합물 종류와 분리 기술)",
       "concepts": [
@@ -3707,16 +3707,16 @@
       "choices": [
         "Capture – 목적 분자의 빠른 농축·안정화·분리(isolation)",
         "Intermediate purification – 대부분(bulk)의 불순물 제거",
-        "Polishing – 구조 변이체 같은 미량 불순물을 제거해 요구 순도 달성",
-        "Polishing – Speed와 Capacity를 가장 강조한다"
+        "Polishing – Speed와 Capacity를 가장 강조한다",
+        "전처리(Clarification) – Capture 전에 세포와 세포 잔해를 걷어 낸다"
       ],
-      "answer": 4,
-      "explanation": "**Capture는 Speed·Capacity, Intermediate는 Resolution·Capacity, Polishing은 Resolution·Recovery를 강조한다.** 교재 p.53–54의 삼각형(Resolution·Speed·Capacity·Recovery) 정리이다.",
+      "answer": 3,
+      "explanation": "**Capture는 Speed·Capacity, Intermediate는 Resolution·Capacity, Polishing은 Resolution·Recovery를 강조한다.** Capture는 빠른 농축·안정화·분리, Intermediate는 대부분의 불순물 제거, Polishing은 구조 변이체 같은 미량 불순물을 없애 요구 순도의 최종 제품을 만든다.",
       "choiceNotes": [
-        "옳은 진술 — Capture는 crude·clarified 원료에서 목적 분자를 처음 정제하며 빠른 농축·안정화·분리를 목표로 한다.",
-        "옳은 진술 — Intermediate는 대부분의 불순물을 제거하며 Resolution과 Capacity를 강조한다.",
-        "옳은 진술 — Polishing은 구조 변이체 같은 미량 불순물을 제거해 최종 제품의 요구 순도를 맞춘다.",
-        "틀린 진술(정답) — Polishing은 Resolution과 Recovery를 강조한다. Speed·Capacity는 Capture이다."
+        "옳은 짝 — 교재 p.53: Capture의 목표는 rapid concentration, stabilization, isolation.",
+        "옳은 짝 — Intermediate는 bulk 불순물 제거, Resolution·Capacity를 강조한다.",
+        "틀린 짝(정답) — Speed·Capacity를 강조하는 것은 Capture이다. Polishing은 Resolution·Recovery를 강조해 미량 불순물을 없앤다.",
+        "옳은 짝 — 교재 흐름: 전처리(Preparation·Extraction·Clarification) → Capture → Intermediate → Polishing."
       ],
       "source": "해설서 A7 · WK03 교재 p.53 (Capture, Intermediate purification) · WK03 교재 p.54 (Polishing)",
       "concepts": [
@@ -3757,18 +3757,18 @@
       "part": 2,
       "question": "정제 단계별 기술의 적합성에 대한 설명으로 옳지 않은 것은?",
       "choices": [
-        "RPC는 유기 용매를 써도 생물 활성 손실 위험이 없어 capture에 가장 적합하다",
         "IEX는 capture·intermediate·polishing 세 단계 모두에 잘 맞는다",
-        "AC(affinity)는 capture 단계에 가장 잘 맞는다",
-        "SEC는 시료 부피가 제한되고 시료가 묽어져 polishing에 둔다"
+        "AC(affinity)는 polishing 단계에서 가장 높은 적합도(+++)를 받았다",
+        "RPC는 유기 용매를 써서 생물 활성을 잃을 위험이 있다",
+        "SEC는 capture 적합도가 낮고 polishing에서 +++이다"
       ],
-      "answer": 1,
-      "explanation": "**교재 표에서 IEX는 세 단계 모두 +++, AC는 capture +++, SEC·HIC는 polishing +++이고, RPC는 capture에 맞지 않는다.** 필기 요약은 \"1st 단계: AC, IEX / 2nd: IEX, HIC / 3rd(최종): SEC, HIC, IEX\"이다.",
+      "answer": 2,
+      "explanation": "**AC는 capture에 가장 잘 맞고(+++) polishing은 +이다.** 교재 p.54 필기: 1st 단계 AC·IEX / 2nd IEX·HIC / 3rd(최종) SEC·HIC·IEX. IEX는 세 단계 모두 +++, SEC는 시료 부피가 제한되고 시료가 묽어져 마지막에 둔다.",
       "choiceNotes": [
-        "틀린 진술(정답) — RPC는 유기 용매로 생물 활성 손실 위험이 있고 capture 적합성이 가장 낮다(—).",
-        "옳은 진술 — 교재 p.54 표에서 IEX는 Capture·Intermediate·Polishing 세 단계 모두 +++이고 Capacity도 +++이다.",
-        "옳은 진술 — AC는 capture +++이며, 필기도 '1st step: AC, IEX'이다.",
-        "옳은 진술 — 교재 표에서 SEC는 polishing +++, capture —이며, 시료 부피가 제한되고 시료가 희석된다."
+        "옳은 진술 — IEX는 세 단계 모두 +++이다.",
+        "틀린 진술(정답) — AC는 capture에서 +++이고 polishing은 +이다. 교재 필기도 \"1st 단계: AC, IEX\"라고 적었다.",
+        "옳은 진술 — RPC의 끝 시료 조건은 유기 용매(생물 활성 손실 위험)이다.",
+        "옳은 진술 — SEC는 capture +, intermediate —, polishing +++이다(시료 부피 제한, 시료 희석)."
       ],
       "source": "해설서 A7 · WK03 교재 p.54 (Suitability of purification techniques for each step)",
       "concepts": [
@@ -3825,17 +3825,17 @@
       "question": "항체 플랫폼 공정의 단계를 3단계 정제 전략(CIPP)에 대응시킨 것으로 옳지 않은 것은?",
       "choices": [
         "Protein A – Capture",
-        "CEX(bind-elute) – Intermediate purification",
-        "Clarification – Polishing",
-        "AEX(flow-through) – Polishing"
+        "CEX(bind-elute) – Polishing",
+        "AEX(flow-through) – Polishing",
+        "Clarification – Capture 전의 전처리"
       ],
-      "answer": 3,
-      "explanation": "**항체 공정은 Clarification(전처리) → Protein A(Capture) → Low pH viral inactivation → CEX(bind-elute) → AEX(flow-through) → Virus filtration → UF/DF 순서이다.** CEX·AEX를 intermediate·polishing에 대응시킨 것은 일반 원리에 따른 해석이다. 교재 필기는 \"1단계: 항체 capture, 2단계: 농축액에서 불순물만 잡고 걸러냄\"이라고 줄여 썼다.",
+      "answer": 2,
+      "explanation": "**항체 플랫폼 공정은 Clarification(전처리) → Protein A(Capture) → Low pH viral inactivation → CEX(Intermediate, bind-elute) → AEX(Polishing, flow-through) → Virus filtration → UF/DF이다.** 교재 p.9 필기의 \"1단계: 항체 capture, 2단계: 농축액에서 불순물만 잡고 걸러냄\"이 이 흐름을 줄여 쓴 것이다.",
       "choiceNotes": [
-        "옳은 진술 — Protein A는 clarified 배양액에서 항체를 처음 결합시켜 농축하는 affinity capture 단계이다.",
-        "옳은 진술 — CEX는 Protein A 뒤에서 항체를 결합·용출하며 HCP·aggregate 같은 불순물을 크게 줄인다(일반 원리).",
-        "틀린 진술(정답) — Clarification은 capture 전의 전처리 단계이다.",
-        "옳은 진술 — 항체는 통과시키고 남은 미량 불순물을 잡는다(일반 원리)."
+        "옳은 진술 — Protein A가 항체를 처음 붙잡는 capture이다.",
+        "틀린 진술(정답) — CEX는 Protein A 다음에서 aggregate·HCP 등 대부분의 불순물을 걷어 내는 intermediate purification이다. 마지막 polishing은 AEX(flow-through)이다.",
+        "옳은 진술 — AEX는 항체를 통과시키고 미량 불순물(HCD·virus·endotoxin 등)을 붙잡는 polishing이다.",
+        "옳은 진술 — Clarification은 세포·잔해를 걷어 내는 전처리 단계이다."
       ],
       "source": "해설서 A7 · WK06 PDF p.18 (Mab Platform Process) · WK04 녹음② 1:42:58–2:10:40",
       "concepts": [
@@ -3858,15 +3858,15 @@
         "단계가 하나 늘 때마다 수율이 깎이고 시간과 비용이 들기 때문이다",
         "단계가 늘어날수록 최종 순도가 떨어지기 때문이다",
         "Affinity tag가 없는 단백질은 한 단계로 충분하기 때문이다",
-        "Capture 단계만으로 항상 요구 순도에 이르기 때문이다"
+        "단계를 줄일수록 각 단계의 분해능이 높아지기 때문이다"
       ],
       "answer": 1,
       "explanation": "**단계가 하나 늘 때마다 수율이 깎이고 시간과 비용이 들므로, 정제는 가능한 적은 단계로 설계한다(KEEP IT SIMPLE).** Affinity tag가 붙은 단백질이나 항체는 affinity 한 단계로 원하는 순도에 이르는 경우가 많지만 tag가 없는 단백질은 여러 단계가 필요하다.",
       "choiceNotes": [
-        "옳다 — 교재 p.55의 마지막 메시지(KEEP IT SIMPLE)로, 단계마다 수율 손실과 시간·비용이 쌓인다.",
-        "틀리다 — 단계를 거칠수록 순도는 계단처럼 오른다(CIPP 그림). 단계가 늘수록 깎이는 것은 수율이다.",
-        "틀리다 — 거꾸로이다. affinity tag가 붙은 단백질은 한 단계로 되는 경우가 많고, tag가 없는 단백질은 여러 단계가 필요하다.",
-        "틀리다 — 대부분 intermediate·polishing이 더 필요하다."
+        "옳다 — 교재의 마지막 메시지 \"KEEP IT SIMPLE!\"의 이유이다.",
+        "틀리다 — 단계를 거칠수록 순도는 계단처럼 오른다(CIPP 그림). 깎이는 것은 수율이다.",
+        "틀리다 — 거꾸로이다. tag가 붙은 단백질·항체는 affinity 한 단계로 원하는 순도에 이르는 경우가 많지만, tag가 없는 단백질은 여러 단계가 필요하다.",
+        "틀리다 — 단계 수와 각 단계의 분해능은 관계가 없다. 분해능은 selectivity와 efficiency로 정해진다."
       ],
       "source": "해설서 A7 · WK03 교재 p.52 · WK03 교재 p.55 (Keynote)",
       "concepts": [
@@ -3886,16 +3886,16 @@
       "choices": [
         "생산에서는 SBC가 아니라 DBC를 기준으로 한다",
         "DBC는 흘러나오는 농도가 넣은 농도의 10 %가 되는 지점으로 잡는다",
-        "교재 권장은 최대 결합 용량의 50~75 %만 쓰는 것이다",
-        "계산상 필요한 레진 양과 정확히 같은 양만 충전해 비용을 줄인다"
+        "Safety factor를 두면 레진 비용이 늘므로 계산상 필요한 양만 충전한다",
+        "레진은 비싸서(예: L당 $20,000) 레진 양이 공정 비용을 크게 좌우한다"
       ],
-      "answer": 4,
-      "explanation": "**레진 양은 DBC(10 % breakthrough)로 정하되, 최대 용량의 50~75 %만 쓰고 계산값보다 넉넉하게(safety factor) 충전한다.** 계산상 10이 필요하면 실제로는 12, 15, 20처럼 쓰며, WK06 사례의 safety factor 100 %가 이것이다.",
+      "answer": 3,
+      "explanation": "**레진 양은 DBC로 정하고 safety factor(설계 여유)를 둔다 — 계산상 10이 필요하면 실제로는 12, 15, 20처럼 넉넉하게 쓴다.** DBC는 10 % breakthrough 지점이며, 교재 권장은 최대 결합 용량의 50~75 %만 쓰는 것이다. WK06 사례는 safety factor 100 %(× 2)를 두었다.",
       "choiceNotes": [
-        "옳은 진술 — 생산에서는 비커에서 잰 SBC가 아니라 실제 유속에서 잰 DBC를 기준으로 레진 양을 정한다.",
-        "옳은 진술 — 출구 농도가 입구의 10 %가 되는 지점(10 % breakthrough)을 DBC로 잡는다.",
-        "옳은 진술 — 레진이 꽉 차기 전에 멈춰야 새어 나가는 손실이 없으므로 최대 용량의 50~75 %만 쓴다.",
-        "틀린 진술(정답) — 계산값보다 넉넉하게(safety factor) 레진을 쓰는 것이 현장의 기본이다."
+        "옳은 진술 — DBC가 실제 운전 조건의 결합 용량이다.",
+        "옳은 진술 — 10 % breakthrough(C/C0 = 0.1) 지점이다.",
+        "틀린 진술(정답) — 현장의 기본은 계산값보다 넉넉하게 쓰는 것이다. 교재 권장은 최대 용량의 50~75 %만 쓰는 것이고, WK06 사례도 safety factor 100 %로 레진을 2배 충전했다.",
+        "옳은 진술 — WK06 Case 1: 레진 40 L × $20,000/L = $800,000."
       ],
       "source": "해설서 A7 · WK03 교재 p.31 · WK06 녹음 2:27:56–2:29:44 · WK04 녹음② 1:34:20–1:36:37",
       "concepts": [
@@ -4147,17 +4147,17 @@
       "question": "Protein A 공정 계산 사례에서 얻을 수 있는 결론으로 옳지 않은 것은?",
       "choices": [
         "Titer가 10배 오르면 처리할 배양 부피가 1/10로 줄어 정제 시간도 준다",
-        "레진을 줄이고 cycle을 여러 번 돌리면 레진 값은 아끼지만 인건비가 는다",
-        "Bed 높이를 정하면 단면적이 정해져 부피 유속과 공정 시간이 나온다",
-        "레진을 절반으로 줄이면 레진 비용과 공정 시간이 함께 절반으로 준다"
+        "Bed 높이와 관계없이 레진 부피만 정하면 부피 유속이 정해진다",
+        "Safety factor 100 %를 두면 충전할 레진이 계산값의 2배가 된다",
+        "레진을 절반으로 줄이고 cycle을 늘리면 레진 값은 아끼지만 공정 시간이 는다"
       ],
-      "answer": 4,
-      "explanation": "**Titer가 오르면 처리 부피가 줄어 시간이 줄고, 레진을 줄여 cycle을 늘리면 레진 값은 아끼지만 공정 시간·인건비가 늘어난다.** WK06 Case 1에서 레진 40 L(50 h, $800,000)를 20 L로 줄이면 레진 $400,000이지만 유속이 100 L/h로 줄어 cycle을 돌려야 한다.",
+      "answer": 2,
+      "explanation": "**같은 레진 부피라도 bed 높이를 정해야 단면적이 정해지고, 단면적이 정해져야 부피 유속과 공정 시간이 나온다.** WK06 Case 1의 세 메시지: titer가 10배 오르면 처리 부피가 1/10로 줄어 정제 시간도 준다 / 레진을 줄이고 cycle을 늘리면 레진 값은 아끼지만 시간·인건비가 는다 / bed 높이 → 단면적 → 부피 유속 → 시간.",
       "choiceNotes": [
-        "옳은 진술 — titer 0.1 → 1.0 g/L이면 배양 부피가 10,000 L → 1,000 L로 줄어, 200 L/h에서 공정 시간이 50 h → 5 h로 준다(WK06 PDF p.24).",
-        "옳은 진술 — 레진을 40 L에서 20 L로 줄이면 레진 값은 $800,000 → $400,000이지만, 유속이 100 L/h로 줄고 3 cycle을 돌려 시간·인건비가 는다(WK06 PDF p.22–23).",
-        "옳은 진술 — 같은 레진 40 L라도 bed 30 cm로 정하면 단면적 1,333 cm²가 정해지고, 150 cm/h를 곱해 200 L/h가 나온다(WK06 PDF p.20).",
-        "틀린 진술(정답) — 레진을 줄이면 유속이 줄고 cycle을 여러 번 돌려야 해 공정 시간은 오히려 늘어난다."
+        "옳은 진술 — titer 0.1 → 1.0 g/L: 배양 부피 10,000 L → 1,000 L, 공정 시간 50 h → 5 h.",
+        "틀린 진술(정답) — 같은 레진 부피라도 bed 높이를 정해야 단면적이 정해지고(레진 부피 ÷ bed 높이), 단면적 × 선속도로 부피 유속이 나온다.",
+        "옳은 진술 — 20,000 mL(계산값) × 2 = 40 L.",
+        "옳은 진술 — 레진 20 L + 3 cycle: 레진 $400,000로 줄지만 공정 시간과 인건비가 는다."
       ],
       "source": "해설서 A8 (WK06 Case 1) · WK06 녹음 2:29:44–2:44:23 · WK06 PDF p.20–24 (Mab Platform Process – Case 1)",
       "concepts": [
@@ -4425,16 +4425,16 @@
       "choices": [
         "체류 시간(residence time)을 모두 2분으로 같게 맞추기 위해서",
         "부피 유속(L/h)을 세 컬럼 모두 같게 두기 위해서",
-        "시료 농도를 단계마다 낮추기 위해서",
-        "Bed 높이가 높을수록 DBC를 낮추기 위해서"
+        "선속도를 bed 높이에 반비례하게 낮춰 압력을 맞추기 위해서",
+        "Gradient 부피 ÷ 레진 부피 비율을 같게 하기 위해서"
       ],
       "answer": 1,
       "explanation": "**Bed 높이를 같게 두지 못하면 체류 시간을 맞추도록 선속도를 바꾼다.** 9.7 cm ÷ 2 min = 291 cm/h, 20.7 ÷ 2 = 621 cm/h, 22 ÷ 2 = 660 cm/h로 교재 값과 거의 같고, 처리한 시료도 50 mL → 1,040 mL → 10.8 L로 컬럼 부피에 비례해 늘었다.",
       "choiceNotes": [
-        "옳다 — bed 높이 ÷ 2분으로 선속도를 정했다(9.7 ÷ 2 min ≈ 291 cm/h).",
-        "틀리다 — 부피 유속은 컬럼이 커질수록 단면적에 비례해 커지는 변동 파라미터로, 같게 둘 수 없다.",
-        "틀리다 — 시료 농도는 scale-up 때 같게 두는 고정 파라미터이며, 선속도와 관계없다.",
-        "틀리다 — 선속도는 체류 시간을 맞추려고 바꾼 것이며 DBC를 낮추려는 것이 아니다. 교재 사례의 기준은 residence time 2 min이었다."
+        "옳다 — 체류 시간 = bed 높이 ÷ 선속도. 9.7 cm ÷ 2 min ≈ 291 cm/h, 20.7 ÷ 2 ≈ 621 cm/h, 22 ÷ 2 = 660 cm/h로 교재 값과 거의 같다.",
+        "틀리다 — 부피 유속(L/h)은 scale-up 때 키우는 변동 파라미터이며, 컬럼이 커지면 함께 커진다.",
+        "틀리다 — 거꾸로이다. bed 높이가 높은 컬럼일수록 선속도를 높였다(285 → 624 → 645 cm/h).",
+        "틀리다 — gradient 부피 비율도 고정 파라미터이지만, 선속도는 bed 높이가 달라 체류 시간을 맞추려고 바꾼 것이다."
       ],
       "source": "해설서 A8 (예제 2) · 해설서 A9 · WK03 교재 p.60 (Case study of scaling up_Capture step)",
       "concepts": [
@@ -4541,16 +4541,16 @@
       "choices": [
         "작은 컬럼은 벽이 레진을 받쳐 주는 효과가 작아 흐름이 고르다",
         "벽 효과는 컬럼 지름이 클수록 커진다",
-        "Bed height만 같으면 시스템 요인은 확인할 필요가 없다",
+        "액 분배 장치는 작은 컬럼에서 더 중요하다",
         "큰 컬럼은 액을 단면 전체에 고르게 퍼뜨리기 어려워 액 분배 장치를 확인한다"
       ],
       "answer": 4,
       "explanation": "**교재는 scale-up 때 컬럼의 액 분배 장치(distribution system)와 벽 효과(column wall effect)를 확인하라고 했다.** 큰 컬럼은 액을 단면 전체에 고르게 퍼뜨리기 어렵고, 작은 컬럼은 벽이 레진을 받쳐 주는 효과가 커서 두 컬럼의 흐름이 달라질 수 있다(일반 원리로 해석).",
       "choiceNotes": [
-        "틀리다 — 작은 컬럼일수록 벽이 레진을 받쳐 주는 효과(wall effect)가 커서, 큰 컬럼과 흐름이 달라질 수 있다.",
-        "틀리다 — 지름이 작을수록 단면에서 벽 가까운 부분의 비율이 커서 벽의 영향이 크다.",
-        "틀리다 — 교재는 bed height·선속도와 별도로 distribution system과 column wall effect를 확인하라고 했다.",
-        "옳다 — 큰 컬럼은 액을 넓은 단면 전체에 고르게 퍼뜨리기 어려워 액 분배 장치를 확인한다(일반 원리로 해석)."
+        "틀리다 — 작은 컬럼일수록 벽이 레진을 받쳐 주는 효과가 커서 큰 컬럼과 흐름이 달라질 수 있다(일반 원리로 해석).",
+        "틀리다 — 거꾸로이다. 지름이 작을수록 벽에 닿는 레진의 비율이 커져 벽 효과가 크다.",
+        "틀리다 — 단면이 넓은 큰 컬럼일수록 액을 고르게 퍼뜨리기 어려워 분배 장치가 중요하다.",
+        "옳다 — 교재 p.57은 시스템 요인으로 distribution system과 column wall effect를 확인하라고 했다."
       ],
       "source": "해설서 A9 · WK03 교재 p.57 (Scale up separation method)",
       "concepts": [
@@ -4629,17 +4629,17 @@
       "question": "Process 컬럼에서 정제 단계별 비드 크기의 연결로 옳은 것은?",
       "choices": [
         "Capture – 약 10~15 µm, Polishing – 약 90 µm",
-        "Capture와 Polishing 모두 약 5 µm",
+        "Capture – 약 30~34 µm, Polishing – 약 90 µm",
         "Intermediate – 약 90 µm, Capture – 약 30~34 µm",
         "Capture – 약 90 µm, Polishing – 약 10~15 µm"
       ],
       "answer": 4,
       "explanation": "**Capture 90 µm → Intermediate 30~34 µm → Polishing 10~15 µm로, 뒤 단계일수록 작은 비드를 써서 분해능을 높인다.** Capture는 Speed·Capacity(큰 비드, 높은 유속), Polishing은 Resolution·Recovery(작은 비드)를 강조한다.",
       "choiceNotes": [
-        "틀리다 — 크기가 거꾸로이다. Capture에 90 µm, Polishing에 10~15 µm를 쓴다.",
-        "틀리다 — 5 µm 수준은 고압 분석용 비드이다. 생산 컬럼은 큰 비드를 쓰고 단계별로 크기가 다르다.",
-        "틀리다 — intermediate가 30~34 µm, capture가 90 µm이다.",
-        "옳다 — capture는 큰 비드, polishing은 작은 비드를 쓴다."
+        "틀리다 — 처음과 마무리를 뒤바꿨다. 가장 작은 비드는 분해능이 중요한 Polishing에 쓴다.",
+        "틀리다 — 30~34 µm는 Intermediate, 90 µm는 Capture 비드이다.",
+        "틀리다 — 90 µm는 처리량이 큰 Capture, 30~34 µm는 Intermediate에 쓴다.",
+        "옳다 — 교재 p.9: 90 µm는 처음 단계, 34·30 µm는 중간, 15·10 µm는 마무리."
       ],
       "source": "해설서 A10 (p.9 Lab → Process 비드 배치) · 해설서 부록 2 (단계별 비드) · 해설서 부록 3 (Capture vs Polishing)",
       "concepts": [
