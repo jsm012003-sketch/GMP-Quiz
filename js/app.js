@@ -45,6 +45,8 @@
   const kwRank = (q) => (q.kw ? ('ABCDE'.indexOf(q.kw[0]) * 100 + Number(q.kw.slice(1))) : 999);
   // 출제자가 짚은 키워드(해설서 절 A0~E15)는 시험지마다 한 문항 이상(50문항 이상일 때)
   const KW_COVER_MIN_N = 40;
+  // 여러 칸을 계산하는 고난도 계산 문항("level": "hard")은 20문항 이상 시험지마다 최소 이만큼(2026.10.17)
+  const HARD_CALC_MIN = 1;
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
@@ -328,6 +330,7 @@
           style: questionStyle(q.id, type),
           kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
           lec: Number(q.lec) || 0,
+          hard: q.level === 'hard',
           ckeys: [],
         };
         labels.forEach((label) => {
@@ -499,6 +502,20 @@
         const lowA = Math.min(...c.map((q) => qMeta(q.id).a));
         take(c.filter((q) => qMeta(q.id).a === lowA), false);
       });
+    }
+    // 고난도 계산 문항(제시문 + 여러 칸 계산)을 시험지마다 꼭 넣는다(출제 횟수가 적은 것부터)
+    if (n >= 20) {
+      let need = HARD_CALC_MIN - picked.filter((q) => q.hard).length;
+      while (need-- > 0) {
+        const hard = pool.filter((q) => q.hard && !pickedIds.has(q.id));
+        if (!hard.length) break;
+        const lowA = Math.min(...hard.map((q) => qMeta(q.id).a));
+        const c = hard.filter((q) => qMeta(q.id).a === lowA);
+        const savedCaps = capsOn; capsOn = false;
+        const ok = take(c, false);
+        capsOn = savedCaps;
+        if (!ok) break;
+      }
     }
     // 계산 문항 몇 개는 꼭 넣는다(출제 횟수가 적은 것부터)
     while (styleCnt.calc < calcMin) {
