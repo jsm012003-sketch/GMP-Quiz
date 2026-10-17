@@ -19289,53 +19289,47 @@
       "level": "hard",
       "question": "<보기>의 교반 scale-up에서 다음 값을 각각 계산하시오. (π = 3.14)",
       "box": [
-        "모양이 닮은 두 배양기가 있다. 작은 배양기는 임펠러 지름 0.2 m, 300 rpm으로 잘 배양되었다.",
-        "큰 배양기의 임펠러 지름은 1.0 m이다."
+        "모양이 닮은 두 배양기가 있다. 작은 배양기는 임펠러 지름 0.22 m, 285 rpm으로 잘 배양되었다.",
+        "큰 배양기의 임펠러 지름은 1.15 m이다."
       ],
       "answers": [
-        "1) 3.14 m/s  2) 60 rpm  3) 0.2배(1/5)  4) 약 103 rpm"
+        "1) 3.28 m/s  2) 54.5 rpm  3) 0.191배  4) 94.6 rpm"
       ],
       "subs": [
         {
           "label": "작은 배양기의 tip speed (m/s)",
-          "num": 3.14,
+          "num": 3.2813,
           "answers": [
-            "3.14",
-            "3.14 m/s"
-          ],
-          "tol": 0.03
+            "3.28",
+            "3.28 m/s"
+          ]
         },
         {
           "label": "같은 tip speed가 되는 큰 배양기의 회전수 (rpm)",
-          "num": 60,
+          "num": 54.5217,
           "answers": [
-            "60",
-            "60 rpm"
-          ],
-          "tol": 0.03
+            "54.5",
+            "54.5 rpm"
+          ]
         },
         {
           "label": "그 회전수에서 큰 배양기의 P/V는 작은 배양기의 몇 배인가",
-          "num": 0.2,
+          "num": 0.1913,
           "answers": [
-            "0.2",
-            "1/5",
-            "0.2배"
-          ],
-          "tol": 0.03
+            "0.191",
+            "0.191배"
+          ]
         },
         {
           "label": "같은 P/V가 되는 큰 배양기의 회전수 (rpm)",
-          "num": 102.6,
+          "num": 94.6226,
           "answers": [
-            "103",
-            "102.6",
-            "약 103 rpm"
-          ],
-          "tol": 0.03
+            "94.6",
+            "94.6 rpm"
+          ]
         }
       ],
-      "explanation": "**3.14 m/s → 60 rpm → P/V 1/5 → 같은 P/V는 약 103 rpm.**\n(1) N = 300 ÷ 60 = 5 rps, tip speed = 3.14 × 5 × 0.2 = 3.14 m/s\n(2) N₂ = 300 × 0.2 ÷ 1.0 = 60 rpm\n(3) 닮은꼴이면 P/V ∝ N³D²: (60/300)³ × (1.0/0.2)² = (1/125) × 25 = 1/5\n(4) 같은 P/V: N₂ = 300 × (0.2/1.0)^(2/3) = 300 × 0.342 ≈ 103 rpm\ntip speed를 맞추면 P/V가 줄어들어 섞임이 나빠지므로 실제로는 P/V를 기준으로 scale-up하는 경우가 많다.",
+      "explanation": "**3.28 m/s → 54.5 rpm → P/V 약 0.191배 → 같은 P/V는 약 94.6 rpm.**\n(1) N = 285 ÷ 60 = 4.75 rps, tip speed = 3.14 × 4.75 × 0.22 ≈ 3.28 m/s\n(2) N₂ = 285 × 0.22 ÷ 1.15 ≈ 54.5 rpm\n(3) 닮은꼴이면 P/V ∝ N³D²: (54.5/285)³ × (1.15/0.22)² ≈ 0.191(= 지름 비 0.22/1.15)\n(4) 같은 P/V: N₂ = 285 × (0.22/1.15)^(2/3) ≈ 94.6 rpm\n흔한 실수: rpm을 rps로 바꾸지 않아 tip speed 196.9 m/s, 지수를 3/2로 써서 23.8 rpm.\ntip speed를 맞추면 P/V가 줄어들어 섞임이 나빠지므로 실제로는 P/V를 기준으로 scale-up하는 경우가 많다.",
       "source": "해설서 C6 · WK02 PDF p.88, 91 (shear force, tip speed) · 해설서 부록 1 (예제 9)",
       "concepts": [
         "tip speed",
@@ -19344,7 +19338,8 @@
       "tags": [
         "tip speed",
         "P/V"
-      ]
+      ],
+      "tol": 0.03
     },
     {
       "id": "ex-704",
@@ -19416,10 +19411,10 @@
       "question": "<보기>의 UF/DF 공정에서 다음 값을 각각 계산하시오.",
       "box": [
         "항체 농도 2 g/L인 용액 1,500 L를 손실 없이 50 g/L까지 농축한 뒤, 그 부피를 유지하며 7 diavolume DF를 한다.",
-        "UF cassette의 막 면적은 8 m²이고, 농축 동안 평균 flux는 60 LMH이다."
+        "UF cassette의 막 면적은 8 m²이고, 농축 동안 평균 flux는 55 LMH이다."
       ],
       "answers": [
-        "1) 60 L  2) 3 h  3) 420 L  4) 10,500 L"
+        "1) 60 L  2) 3.27 h  3) 420 L  4) 10,500 L"
       ],
       "subs": [
         {
@@ -19432,11 +19427,10 @@
         },
         {
           "label": "농축에 걸리는 시간 (h)",
-          "num": 3,
+          "num": 3.2727,
           "answers": [
-            "3",
-            "3 h",
-            "3시간"
+            "3.27",
+            "3.27 h"
           ]
         },
         {
@@ -19457,7 +19451,7 @@
           ]
         }
       ],
-      "explanation": "**60 L → 3 h → DF 버퍼 420 L(농축 전에 했다면 10,500 L).**\n(1) 항체 3,000 g ÷ 50 g/L = 60 L(25배 농축)\n(2) 빼낼 permeate = 1,500 − 60 = 1,440 L, 투과 속도 = 60 LMH × 8 m² = 480 L/h, 1,440 ÷ 480 = 3 h\n(3) DF 버퍼 = 7 × 60 L = 420 L\n(4) 7 × 1,500 L = 10,500 L — 그래서 UF로 먼저 농축한 뒤 DF를 한다\n흔한 실수: 투과 부피를 1,500 L 전체로 잡음(3.1 h), 면적을 곱하지 않음.",
+      "explanation": "**60 L → 3.27 h → DF 버퍼 420 L(농축 전에 했다면 10,500 L).**\n(1) 항체 3,000 g ÷ 50 g/L = 60 L(25배 농축)\n(2) 빼낼 permeate = 1,500 − 60 = 1,440 L, 투과 속도 = 55 LMH × 8 m² = 440 L/h, 1,440 ÷ 440 ≈ 3.27 h\n(3) DF 버퍼 = 7 × 60 L = 420 L\n(4) 7 × 1,500 L = 10,500 L — 그래서 UF로 먼저 농축한 뒤 DF를 한다\n흔한 실수: 투과 부피를 1,500 L 전체로 잡음(3.41 h), 면적을 곱하지 않음.",
       "source": "해설서 E1 · WK06 녹음 42:08–45:30 · WK04 PDF p.103 (UF·DF) · 해설서 부록 1",
       "concepts": [
         "UF",
@@ -24677,6 +24671,1064 @@
       ],
       "tags": [
         "Mass balance"
+      ]
+    },
+    {
+      "id": "ex-784",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-703",
+      "question": "<보기>의 scale-down 실험을 설계할 때 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "생산 공정을 흉내 내려고, pilot 배양기(임펠러 지름 0.34 m, 78 rpm)와 모양이 닮은 실험실 배양기를 쓴다.",
+        "실험실 배양기의 임펠러 지름은 0.095 m이다."
+      ],
+      "answers": [
+        "1) 138.8 cm/s  2) 279.2 rpm  3) 3.58 배  4) 182.5 rpm"
+      ],
+      "subs": [
+        {
+          "label": "pilot 배양기의 tip speed (cm/s)",
+          "num": 138.788,
+          "answers": [
+            "138.8",
+            "138.8 cm/s"
+          ]
+        },
+        {
+          "label": "같은 tip speed가 되는 실험실 배양기의 회전수 (rpm)",
+          "num": 279.1579,
+          "answers": [
+            "279.2",
+            "279.2 rpm",
+            "약 279 rpm"
+          ]
+        },
+        {
+          "label": "그 회전수에서 실험실 배양기의 P/V는 pilot의 몇 배인가",
+          "num": 3.5789,
+          "answers": [
+            "3.58",
+            "3.58 배"
+          ]
+        },
+        {
+          "label": "같은 P/V가 되는 실험실 배양기의 회전수 (rpm)",
+          "num": 182.5008,
+          "answers": [
+            "182.5",
+            "182.5 rpm",
+            "약 183 rpm"
+          ]
+        }
+      ],
+      "explanation": "**pilot tip speed 약 138.8 cm/s → 같은 tip speed는 약 279.2 rpm → 그때 P/V는 약 3.58배 → 같은 P/V는 약 182.5 rpm.**\n(1) N = 78 ÷ 60 = 1.3 rps, 3.14 × 1.3 × 0.34 ≈ 1.3879 m/s ≈ 138.8 cm/s\n(2) tip speed가 같으면 N ∝ 1/D: 78 × 0.34 ÷ 0.095 ≈ 279.2 rpm\n(3) P/V ∝ N³D² = (3.5789)³ × (0.095 ÷ 0.34)² ≈ 3.58배(작은 배양기는 같은 tip speed에서 P/V가 커진다)\n(4) P/V가 같으면 N ∝ D^(−2/3): 78 × (0.34 ÷ 0.095)^(2/3) ≈ 78 × 2.3398 ≈ 182.5 rpm\n흔한 실수: m/s를 cm/s로 바꾸지 않아 1.388로 씀, (2)에서 지름 비를 거꾸로 곱해 21.8 rpm, (4)에서 지수 3/2를 써서 528 rpm.",
+      "source": "해설서 C6 · WK02 PDF p.88, 91 (shear force, tip speed, P/V) · 해설서 부록 1 (예제 9)",
+      "concepts": [
+        "Tip speed",
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "Tip speed",
+        "P/V",
+        "Scale-up"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-785",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-745",
+      "question": "<보기>의 교반 조건을 정할 때 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "배양액 680 L가 든 배양기에서 P/V를 22.5 W/m³로 맞추려 한다. 임펠러 지름은 0.37 m, power number(Ne)는 4.6, 배양액 밀도는 1,015 kg/m³이다.",
+        "같은 세포주를 모양이 닮은 배양기(배양액 9,850 L)로 옮기며 P/V를 그대로 유지한다."
+      ],
+      "answers": [
+        "1) 15.3 W  2) 46.7 rpm  3) 0.905 m/s  4) 25.8 rpm"
+      ],
+      "subs": [
+        {
+          "label": "필요한 교반 동력 (W)",
+          "num": 15.3,
+          "answers": [
+            "15.3",
+            "15.3 W"
+          ]
+        },
+        {
+          "label": "맞춰야 할 회전수 (rpm)",
+          "num": 46.7345,
+          "answers": [
+            "46.7",
+            "46.7 rpm",
+            "약 47 rpm"
+          ]
+        },
+        {
+          "label": "그 회전수에서 tip speed (m/s)",
+          "num": 0.9049,
+          "answers": [
+            "0.905",
+            "0.905 m/s"
+          ]
+        },
+        {
+          "label": "큰 배양기의 회전수 (rpm)",
+          "num": 25.802,
+          "answers": [
+            "25.8",
+            "25.8 rpm",
+            "약 26 rpm"
+          ]
+        }
+      ],
+      "explanation": "**동력 15.30 W → 약 46.7 rpm → tip speed 약 0.905 m/s → 큰 배양기 약 25.8 rpm.**\n(1) P = P/V × V = 22.5 × 0.68 m³ = 15.30 W\n(2) P = Ne × ρ × N³ × D⁵ → N³ = 15.30 ÷ (4.6 × 1,015 × 0.006934) ≈ 0.4726, N ≈ 0.7789 rps × 60 ≈ 46.7 rpm\n(3) 3.14 × 0.7789 × 0.37 ≈ 0.905 m/s\n(4) 지름 ∝ 부피^(1/3): 0.37 × (9,850 ÷ 680)^(1/3) ≈ 0.902 m, N₂ = 46.7 × (0.37 ÷ 0.902)^(2/3) ≈ 25.8 rpm\n흔한 실수: 680 L를 m³로 바꾸지 않아 동력을 15,300 W로 씀, 세제곱근 대신 N = P ÷ (NeρD⁵)로 계산, (4)에서 지름을 부피 비(14.49배)만큼 키움.",
+      "source": "해설서 C6 · WK02 PDF p.88, 91 (shear force, tip speed, P/V) · 해설서 부록 1 (예제 9) · WK02 PDF p.89 (P/V)",
+      "concepts": [
+        "P/V",
+        "Tip speed",
+        "Scale-up"
+      ],
+      "tags": [
+        "P/V",
+        "Tip speed",
+        "Scale-up"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-786",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-746",
+      "question": "<보기>의 교반 scale-up에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양액 2.4 L인 bench 배양기는 임펠러 지름 0.058 m, 315 rpm에서 P/V 44.8 W/m³로 잘 배양되었다.",
+        "모양이 닮은 생산 배양기의 임펠러 지름은 0.61 m이며, shear를 같게 하려고 tip speed를 그대로 유지한다."
+      ],
+      "answers": [
+        "1) 2,792 L  2) 29.95 rpm  3) 4.26 W/m³  4) 11.9 W"
+      ],
+      "subs": [
+        {
+          "label": "생산 배양기의 배양 부피 (L)",
+          "num": 2792.0087,
+          "answers": [
+            "2,792",
+            "2792",
+            "2,792 L",
+            "약 2,792 L"
+          ]
+        },
+        {
+          "label": "생산 배양기의 회전수 (rpm)",
+          "num": 29.9508,
+          "answers": [
+            "29.95",
+            "29.95 rpm",
+            "약 30.0 rpm"
+          ]
+        },
+        {
+          "label": "생산 배양기의 P/V (W/m³)",
+          "num": 4.2597,
+          "answers": [
+            "4.26",
+            "4.26 W/m³"
+          ]
+        },
+        {
+          "label": "생산 배양기에 들어가는 교반 동력 (W)",
+          "num": 11.893,
+          "answers": [
+            "11.9",
+            "11.9 W",
+            "약 12 W"
+          ]
+        }
+      ],
+      "explanation": "**배양 부피 약 2,792 L → 약 29.95 rpm → P/V 약 4.26 W/m³ → 동력 약 11.9 W.**\n(1) 지름 비 = 0.61 ÷ 0.058 ≈ 10.5172, 부피 ∝ D³: 2.4 × 10.5172³ ≈ 2,792 L\n(2) tip speed가 같으면 N ∝ 1/D: 315 ÷ 10.5172 ≈ 29.95 rpm\n(3) P/V ∝ N³D² → 44.8 × (1/10.5172)³ × 10.5172² = 44.8 ÷ 10.5172 ≈ 4.26 W/m³\n(4) 4.26 W/m³ × 2.792 m³ ≈ 11.9 W\n흔한 실수: 부피를 지름 비만큼만 키워 25.2 L로 씀, P/V를 그대로 44.8로 둠(tip speed를 유지하면 P/V는 지름 비만큼 줄어든다), L를 m³로 바꾸지 않아 동력을 1,000배 크게 씀.",
+      "source": "해설서 C6 · WK02 PDF p.88, 91 (shear force, tip speed, P/V) · 해설서 부록 1 (예제 9)",
+      "concepts": [
+        "Tip speed",
+        "P/V",
+        "Scale-up"
+      ],
+      "tags": [
+        "Tip speed",
+        "P/V",
+        "Scale-up"
+      ]
+    },
+    {
+      "id": "ex-787",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-736",
+      "question": "<보기>의 Protein A 컬럼으로 처리할 수 있는 수확액 조건을 거꾸로 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 35 cm, bed height 21.5 cm이고 레진 DBC는 42.5 mg/mL이며, 매 cycle DBC의 80 %까지만 싣는다. (π = 3.14)",
+        "공정 시간 제약 때문에 한 batch는 6 cycle 안에 끝내야 한다.",
+        "수확 배양액은 2,860 L이고 clarification 수율은 97.2 %이다."
+      ],
+      "answers": [
+        "1) 20.67 L  2) 702.9 g  3) 4,218 g  4) 1.517 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 20.6749,
+          "answers": [
+            "20.67",
+            "20.67 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 702.9479,
+          "answers": [
+            "702.9",
+            "702.9 g",
+            "약 703 g"
+          ]
+        },
+        {
+          "label": "한 batch에서 처리할 수 있는 최대 항체 (g)",
+          "num": 4217.6872,
+          "answers": [
+            "4,218",
+            "4218",
+            "4,218 g",
+            "약 4,218 g"
+          ]
+        },
+        {
+          "label": "허용되는 수확액의 최대 titer (g/L)",
+          "num": 1.5172,
+          "answers": [
+            "1.517",
+            "1.517 g/L",
+            "약 1.52 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 20.67 L → cycle당 약 702.9 g → 6 cycle 약 4,218 g → 최대 titer 약 1.517 g/L.**\n(1) 3.14 × 17.5² × 21.5 ≈ 20,675 mL ≈ 20.67 L\n(2) 20.67 L × 42.5 g/L × 0.80 ≈ 702.9 g(mg/mL = g/L)\n(3) 702.9 × 6 ≈ 4,218 g — Protein A에 걸 수 있는 양\n(4) 수확액의 항체 = 4,218 ÷ 0.972 ≈ 4,339 g, ÷ 2,860 L ≈ 1.517 g/L\n흔한 실수: 안지름 35 cm를 반지름으로 넣어 1 CV를 82.7 L로 씀, (4)에서 수율을 곱해 1.433 g/L로 씀(거슬러 올라갈 때는 수율로 나눈다), 80 % 적재를 빠뜨림.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·Cycle 수·버퍼 양, 예제 3–5) · WK06 PDF p.20–24",
+      "concepts": [
+        "Column volume",
+        "DBC",
+        "Cycle",
+        "Titer"
+      ],
+      "tags": [
+        "Column volume",
+        "DBC",
+        "Cycle",
+        "Titer"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-788",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-737",
+      "question": "<보기>의 컬럼 운전 조건에서 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "안지름 45 cm, bed height 16.5 cm인 컬럼에 수확액 4,130 L를 7.5 h 안에 모두 loading해야 한다.",
+        "그 유속을 그대로 두고 residence time을 5.0분으로 늘리려면 같은 안지름 컬럼에 레진을 더 높이 충전해야 한다."
+      ],
+      "answers": [
+        "1) 550.7 L/h  2) 346.4 cm/h  3) 2.86 분  4) 28.9 cm"
+      ],
+      "subs": [
+        {
+          "label": "필요한 부피 유속 (L/h)",
+          "num": 550.6667,
+          "answers": [
+            "550.7",
+            "550.7 L/h",
+            "약 551 L/h"
+          ]
+        },
+        {
+          "label": "그때 linear velocity (cm/h)",
+          "num": 346.4129,
+          "answers": [
+            "346.4",
+            "346.4 cm/h",
+            "약 346 cm/h"
+          ]
+        },
+        {
+          "label": "그때 residence time (분)",
+          "num": 2.8579,
+          "answers": [
+            "2.86",
+            "2.86 분"
+          ]
+        },
+        {
+          "label": "residence time 5.0분에 필요한 bed height (cm)",
+          "num": 28.8677,
+          "answers": [
+            "28.9",
+            "28.9 cm",
+            "약 29 cm"
+          ]
+        }
+      ],
+      "explanation": "**유속 약 550.7 L/h → linear velocity 약 346.4 cm/h → residence time 약 2.86분 → bed height 약 28.9 cm.**\n(1) 4,130 L ÷ 7.5 h ≈ 550.7 L/h\n(2) 단면적 = 3.14 × 22.5² ≈ 1589.6 cm², 550,667 mL/h ÷ 1589.6 cm² ≈ 346.4 cm/h\n(3) residence time = bed height ÷ linear velocity = 16.5 ÷ 346.4 h ≈ 2.86분\n(4) 같은 linear velocity에서 bed height = 346.4 cm/h × (5.0 ÷ 60) h ≈ 28.9 cm\n흔한 실수: 지름 45 cm를 반지름으로 넣어 linear velocity를 86.6 cm/h로 씀, h를 분으로 바꾸지 않아 residence time을 0.0476로 씀.",
+      "source": "해설서 A8 (유속, 선속도, 체류 시간) · 해설서 부록 1 예제 3",
+      "concepts": [
+        "Linear velocity",
+        "Residence time",
+        "Flow rate"
+      ],
+      "tags": [
+        "Linear velocity",
+        "Residence time",
+        "Flow rate"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-789",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-739",
+      "question": "<보기>의 CEX 공정에서 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "CEX에 걸 항체는 6,480 g이다. CEX 컬럼은 안지름 50 cm, bed height 23 cm이고 레진 1 L당 항체를 32.5 g까지만 싣는다. 항체는 매 cycle 같은 양씩 나눠 싣는다.",
+        "매 cycle equilibration 6 CV, wash 4 CV, elution 4 CV, strip 3 CV, sanitization 3 CV의 버퍼를 흘린다.",
+        "cycle마다 용출 분획 2.6 CV를 모으며, 이 단계의 항체 회수율은 93.6 %이다."
+      ],
+      "answers": [
+        "1) 45.14 L  2) 5 cycle  3) 4,514 L  4) 10.34 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 45.1375,
+          "answers": [
+            "45.14",
+            "45.14 L"
+          ]
+        },
+        {
+          "label": "cycles per batch",
+          "num": 5,
+          "answers": [
+            "5",
+            "5cycle",
+            "5 cycle",
+            "5회"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 4513.75,
+          "answers": [
+            "4,514",
+            "4514",
+            "4,514 L",
+            "약 4,514 L"
+          ]
+        },
+        {
+          "label": "용출 분획의 항체 농도 (g/L)",
+          "num": 10.3364,
+          "answers": [
+            "10.34",
+            "10.34 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 45.14 L → 5 cycle → 버퍼 약 4,514 L → 용출 분획 약 10.34 g/L.**\n(1) 3.14 × 25² × 23 ≈ 45,138 mL ≈ 45.14 L\n(2) cycle당 최대 = 45.14 × 32.5 ≈ 1,467.0 g, 6,480 ÷ 1,467.0 ≈ 4.42 → 올림 5 cycle\n(3) CV 수 6 + 4 + 4 + 3 + 3 = 20 CV, 20 × 45.14 × 5 ≈ 4,514 L\n(4) cycle당 1,296 g × 0.936 = 1,213.1 g, ÷ (2.6 × 45.14 = 117.36 L) ≈ 10.34 g/L\n흔한 실수: cycle 수를 내림해 4 cycle로 씀(한 cycle에 한도를 넘게 실음), 버퍼에 cycle 수를 곱하지 않아 903 L로 씀, 회수율을 빠뜨려 11.04 g/L로 씀.",
+      "source": "해설서 A8 (CV 단위로 정하는 버퍼 양) · 해설서 부록 1 (예제 5 버퍼 양) · WK03 교재 p.32",
+      "concepts": [
+        "Column volume",
+        "Cycle",
+        "Buffer volume"
+      ],
+      "tags": [
+        "Column volume",
+        "Cycle",
+        "Buffer volume"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-790",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-704",
+      "question": "<보기>의 배양기 운전 기록에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양기의 kLa는 15.8 h⁻¹이고, 공기 포화(DO 100 %) 때 용존산소 농도는 0.208 mmol/L이다.",
+        "생균 밀도(VCD) 9.4 × 10⁶ cells/mL에서 DO가 32 %로 일정하게 유지되었다(산소 전달과 소비가 같은 정상 상태).",
+        "다음 batch에서는 DO set point를 45 %로 올리려 한다."
+      ],
+      "answers": [
+        "1) 2.235 mmol/L/h  2) 0.238 × 10⁻⁹ mmol/cell/h  3) 19.53 h⁻¹  4) 7.6 × 10⁶ cells/mL"
+      ],
+      "subs": [
+        {
+          "label": "현재 OTR (mmol/L/h)",
+          "num": 2.2348,
+          "answers": [
+            "2.235",
+            "2.235 mmol/L/h"
+          ]
+        },
+        {
+          "label": "세포 하나의 산소 소비 속도 (× 10⁻⁹ mmol/cell/h)",
+          "num": 0.2377,
+          "answers": [
+            "0.238",
+            "0.238 × 10⁻⁹ mmol/cell/h"
+          ]
+        },
+        {
+          "label": "같은 VCD에서 DO 45 % 유지에 필요한 최소 kLa (h⁻¹)",
+          "num": 19.5345,
+          "answers": [
+            "19.53",
+            "19.53 h⁻¹"
+          ]
+        },
+        {
+          "label": "현재 kLa로 DO 45 %를 유지할 수 있는 최대 VCD (× 10⁶ cells/mL)",
+          "num": 7.6029,
+          "answers": [
+            "7.6",
+            "7.6 × 10⁶ cells/mL"
+          ]
+        }
+      ],
+      "explanation": "**OTR 2.235 → 세포당 0.238 × 10⁻⁹ mmol/cell/h → kLa 약 19.53 h⁻¹ → 최대 VCD 약 7.60 × 10⁶ cells/mL.**\n(1) OTR = kLa × (C* − C) = 15.8 × 0.208 × (1 − 0.32) ≈ 2.235 mmol/L/h\n(2) 정상 상태에서 OUR = OTR, VCD = 9.4 × 10⁹ cells/L → 2.235 ÷ 9.4 × 10⁹ ≈ 0.238 × 10⁻⁹ mmol/cell/h\n(3) 2.235 ÷ (0.208 × 0.55) ≈ 19.53 h⁻¹\n(4) 현재 kLa의 OTR = 15.8 × 0.208 × 0.55 ≈ 1.808, ÷ 세포당 소비 ≈ 7.60 × 10⁶ cells/mL\n흔한 실수: C − C*가 아니라 C × C*처럼 DO 32 %를 그대로 곱해 OTR을 1.052로 씀, cells/mL를 cells/L로 바꾸지 않아 세포당 소비를 1,000배 크게 씀, (3)에서 0.45를 곱해 23.88 h⁻¹로 씀.",
+      "source": "해설서 C7 · WK02 PDF p.93–96 (Oxygen Transfer Rate ≥ OUR) · 해설서 부록 1 (예제 10)",
+      "concepts": [
+        "OTR",
+        "OUR",
+        "kLa"
+      ],
+      "tags": [
+        "OTR",
+        "OUR",
+        "kLa"
+      ]
+    },
+    {
+      "id": "ex-791",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-748",
+      "question": "<보기>의 배양기에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "gassing-out 시험으로 구한 kLa는 0.412 min⁻¹이다. 공기 포화 때 용존산소 농도는 6.72 mg/L이고, 배양 중 DO는 38 %로 유지된다.",
+        "배양 부피는 2,460 L이며, 산소(O₂)의 분자량은 32 g/mol이다.",
+        "세포 하나의 산소 소비 속도는 0.29 × 10⁻⁹ mmol/cell/h이다."
+      ],
+      "answers": [
+        "1) 24.72 h⁻¹  2) 103 mg/L/h  3) 6.08 kg/day  4) 11.1 × 10⁶ cells/mL"
+      ],
+      "subs": [
+        {
+          "label": "kLa (h⁻¹)",
+          "num": 24.72,
+          "answers": [
+            "24.72",
+            "24.72 h⁻¹"
+          ]
+        },
+        {
+          "label": "OTR (mg/L/h)",
+          "num": 102.9934,
+          "answers": [
+            "103",
+            "103 mg/L/h",
+            "약 103 mg/L/h"
+          ]
+        },
+        {
+          "label": "배양기 전체에 하루 동안 전달되는 산소 (kg/day)",
+          "num": 6.0807,
+          "answers": [
+            "6.08",
+            "6.08 kg/day",
+            "6.08 kg"
+          ]
+        },
+        {
+          "label": "이 OTR로 버틸 수 있는 최대 VCD (× 10⁶ cells/mL)",
+          "num": 11.0984,
+          "answers": [
+            "11.1",
+            "11.1 × 10⁶ cells/mL"
+          ]
+        }
+      ],
+      "explanation": "**kLa 24.72 h⁻¹ → OTR 약 103.0 mg/L/h → 하루 약 6.08 kg → 최대 VCD 약 11.10 × 10⁶ cells/mL.**\n(1) 0.412 min⁻¹ × 60 = 24.72 h⁻¹\n(2) 24.72 × 6.72 × (1 − 0.38) ≈ 103.0 mg/L/h\n(3) 103.0 mg/L/h × 2,460 L × 24 h ≈ 6,081 g ≈ 6.08 kg/day\n(4) OTR = 103.0 ÷ 32 ≈ 3.219 mmol/L/h, ÷ 0.29 × 10⁻⁹ ≈ 1.110e+10 cells/L ≈ 11.10 × 10⁶ cells/mL\n흔한 실수: min⁻¹을 h⁻¹로 바꿀 때 60으로 나눠 0.00687로 씀, mg을 mmol로 바꾸지 않아 VCD를 32배(355 × 10⁶) 크게 씀, DO 38 %를 그대로 곱해 OTR 63.1로 씀.",
+      "source": "해설서 C7 · WK02 PDF p.93–96 (Oxygen Transfer Rate ≥ OUR, kLa gassing-out) · 해설서 부록 1 (예제 10)",
+      "concepts": [
+        "OTR",
+        "kLa"
+      ],
+      "tags": [
+        "OTR",
+        "kLa"
+      ]
+    },
+    {
+      "id": "ex-792",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-749",
+      "question": "<보기>의 배양에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양기의 최대 kLa는 21.4 h⁻¹이고, 공기 포화 때 용존산소 농도는 0.196 mmol/L, DO set point는 30 %이다.",
+        "세포 하나의 산소 소비 속도는 0.285 × 10⁻⁹ mmol/cell/h이고, 0.36 × 10⁶ cells/mL로 접종해 doubling time 0.92일로 log phase 증식한다.",
+        "접종 후 4.75일째의 산소 공급을 점검한다."
+      ],
+      "answers": [
+        "1) 12.9 × 10⁶ cells/mL  2) 3.676 mmol/L/h  3) 26.79 h⁻¹  4) 4.45 일"
+      ],
+      "subs": [
+        {
+          "label": "4.75일째 VCD (× 10⁶ cells/mL)",
+          "num": 12.8983,
+          "answers": [
+            "12.9",
+            "12.9 × 10⁶ cells/mL"
+          ]
+        },
+        {
+          "label": "그때 OUR (mmol/L/h)",
+          "num": 3.676,
+          "answers": [
+            "3.676",
+            "3.676 mmol/L/h"
+          ]
+        },
+        {
+          "label": "그때 DO 30 % 유지에 필요한 kLa (h⁻¹)",
+          "num": 26.7932,
+          "answers": [
+            "26.79",
+            "26.79 h⁻¹"
+          ]
+        },
+        {
+          "label": "최대 kLa로 DO를 지킬 수 있는 마지막 시점 (접종 후 일)",
+          "num": 4.4517,
+          "answers": [
+            "4.45",
+            "4.45 일",
+            "약 4.5일"
+          ]
+        }
+      ],
+      "explanation": "**4.75일째 약 12.90 × 10⁶ cells/mL → OUR 약 3.676 → 필요한 kLa 약 26.79 h⁻¹(최대 21.4를 넘는다) → 한계는 접종 후 약 4.45일.**\n(1) 배가 횟수 = 4.75 ÷ 0.92 ≈ 5.163회, 0.36 × 2^5.163 ≈ 12.90 × 10⁶ cells/mL\n(2) 12.90 × 10⁹ cells/L × 0.285 × 10⁻⁹ ≈ 3.676 mmol/L/h\n(3) 3.676 ÷ (0.196 × 0.70) ≈ 26.79 h⁻¹\n(4) 최대 OTR = 21.4 × 0.196 × 0.70 ≈ 2.936, 버틸 수 있는 VCD ≈ 10.30 × 10⁶, 0.92 × log₂(10.30 ÷ 0.36) ≈ 4.45일\n흔한 실수: 2의 거듭제곱 대신 배가 횟수를 곱해 VCD를 3.72 × 10⁶로 씀, (3)에서 0.30을 곱해 62.5 h⁻¹로 씀.",
+      "source": "해설서 C7 · WK02 PDF p.93–96 (Oxygen Transfer Rate ≥ OUR, kLa gassing-out) · 해설서 부록 1 (예제 10)",
+      "concepts": [
+        "OTR",
+        "OUR",
+        "kLa",
+        "Doubling time"
+      ],
+      "tags": [
+        "OTR",
+        "OUR",
+        "kLa",
+        "Doubling time"
+      ]
+    },
+    {
+      "id": "ex-793",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-705",
+      "question": "<보기>의 UF/DF 기록에서 처음 조건을 거꾸로 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "항체 3.15 g/L인 용액을 UF로 농축했더니 retentate 항체 농도가 72.4 g/L가 되었고, 농축 단계의 항체 회수율은 97.6 %였다.",
+        "이어서 농축한 부피를 유지하며 8 diavolume의 DF를 했고, DF 버퍼는 모두 486 L가 들었다."
+      ],
+      "answers": [
+        "1) 60.75 L  2) 4,398 g  3) 4,506 g  4) 1,431 L"
+      ],
+      "subs": [
+        {
+          "label": "농축 후 retentate 부피 (L)",
+          "num": 60.75,
+          "answers": [
+            "60.75",
+            "60.75 L"
+          ]
+        },
+        {
+          "label": "retentate의 항체 (g)",
+          "num": 4398.3,
+          "answers": [
+            "4,398",
+            "4398",
+            "4,398 g",
+            "약 4,398 g"
+          ]
+        },
+        {
+          "label": "농축 전 용액의 항체 (g)",
+          "num": 4506.4549,
+          "answers": [
+            "4,506",
+            "4506",
+            "4,506 g",
+            "약 4,506 g"
+          ]
+        },
+        {
+          "label": "농축 전 용액 부피 (L)",
+          "num": 1430.6206,
+          "answers": [
+            "1,431",
+            "1431",
+            "1,431 L",
+            "약 1,431 L"
+          ]
+        }
+      ],
+      "explanation": "**retentate 60.75 L → 항체 약 4,398 g → 농축 전 약 4,506 g → 처음 부피 약 1,431 L.**\n(1) diavolume = DF 버퍼 ÷ retentate 부피 → 486 ÷ 8 = 60.75 L\n(2) 60.75 L × 72.4 g/L ≈ 4,398.3 g\n(3) 회수율로 나눠 거슬러 올라간다: 4,398.3 ÷ 0.976 ≈ 4,506.5 g\n(4) 4,506.5 ÷ 3.15 g/L ≈ 1,430.6 L\n흔한 실수: 버퍼에 8을 곱해 retentate를 3,888 L로 씀, (3)에서 회수율을 곱해 4,293 g으로 씀(그러면 처음 부피 1,363 L).",
+      "source": "해설서 E1 · WK06 녹음 42:08–45:30 · WK04 PDF p.103 (UF·DF) · 해설서 부록 1",
+      "concepts": [
+        "UF/DF",
+        "Diavolume",
+        "Recovery"
+      ],
+      "tags": [
+        "UF/DF",
+        "Diavolume",
+        "Recovery"
+      ]
+    },
+    {
+      "id": "ex-794",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-752",
+      "question": "<보기>의 sizing test 결과로 이미 설치된 필터의 처리 한계를 확인하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "막 면적 17.3 cm²인 disc 필터로 압력을 고정해 시험했더니, 유속이 끝점까지 떨어지기 전에 238 mL를 걸렀다.",
+        "공정에는 막 면적 0.55 m²인 cartridge 26개가 설치되어 있고, 필요한 면적은 이론 면적에 safety factor 1.4를 곱해 정한다. 설치한 필터의 평균 flux는 175 LMH이다.",
+        "다음 해에는 배치 부피를 3,980 L로 늘릴 계획이다."
+      ],
+      "answers": [
+        "1) 137.6 L/m²  2) 1,405 L  3) 33.7 분  4) 74개"
+      ],
+      "subs": [
+        {
+          "label": "Vmax (L/m²)",
+          "num": 137.5723,
+          "answers": [
+            "137.6",
+            "137.6 L/m²"
+          ]
+        },
+        {
+          "label": "설치된 필터로 거를 수 있는 최대 배치 부피 (L)",
+          "num": 1405.2023,
+          "answers": [
+            "1,405",
+            "1405",
+            "1,405 L",
+            "약 1,405 L"
+          ]
+        },
+        {
+          "label": "그 배치를 거르는 데 걸리는 시간 (분)",
+          "num": 33.6912,
+          "answers": [
+            "33.7",
+            "33.7 분",
+            "약 34분"
+          ]
+        },
+        {
+          "label": "3,980 L 배치에 필요한 cartridge 수 (개)",
+          "num": 74,
+          "answers": [
+            "74",
+            "74개",
+            "74 개"
+          ]
+        }
+      ],
+      "explanation": "**Vmax 약 137.6 L/m² → 최대 배치 약 1,405 L → 약 33.7분 → 3,980 L에는 74개.**\n(1) 0.238 L ÷ 0.00173 m²(17.3 cm² = 0.00173 m²) ≈ 137.6 L/m²\n(2) 설치 면적 26 × 0.55 = 14.3 m², 이론 면적으로 쓸 수 있는 몫 14.3 ÷ 1.4 ≈ 10.214 m², × 137.6 ≈ 1,405 L\n(3) 1,405 L ÷ (175 × 14.3 = 2,502.5 L/h) ≈ 0.5615 h ≈ 33.7분\n(4) 3,980 ÷ 137.6 × 1.4 ≈ 40.50 m², ÷ 0.55 ≈ 73.64 → 올림 74개\n흔한 실수: cm²를 m²로 바꿀 때 10⁻²를 써서 Vmax를 1.38 L/m²로 씀, (2)에서 safety factor를 곱해 2,754 L로 씀, cartridge 수를 내림해 73개로 씀.",
+      "source": "해설서 E1 · WK04 PDF p.64–70 (Filter sizing, Sizing Test Classification) · 해설서 부록 1",
+      "concepts": [
+        "Filter sizing",
+        "Vmax",
+        "Flux"
+      ],
+      "tags": [
+        "Filter sizing",
+        "Vmax",
+        "Flux"
+      ]
+    },
+    {
+      "id": "ex-795",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-751",
+      "question": "<보기>의 diafiltration 방식을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "retentate 64.8 L의 염을 batch DF로 뺀다. 한 번에 retentate 부피의 1.5배 버퍼를 넣어 섞은 뒤 원래 부피로 농축하며, 처음 염의 0.5 % 미만이 남을 때까지 되풀이한다.",
+        "비교안은 retentate를 먼저 UF로 27.0 L까지 더 농축한 뒤, 같은 방식(1.5배 버퍼)과 같은 반복 횟수로 batch DF를 한다.",
+        "UF 막 면적은 3.8 m²이고, 농축·DF 동안 평균 flux는 44.5 LMH이다."
+      ],
+      "answers": [
+        "1) 6회  2) 583.2 L  3) 243 L  4) 1.66 h"
+      ],
+      "subs": [
+        {
+          "label": "batch DF 반복 횟수 (회)",
+          "num": 6,
+          "answers": [
+            "6",
+            "6회",
+            "6 회"
+          ]
+        },
+        {
+          "label": "처음 안의 DF 버퍼 양 (L)",
+          "num": 583.2,
+          "answers": [
+            "583.2",
+            "583.2 L"
+          ]
+        },
+        {
+          "label": "비교안의 DF 버퍼 양 (L)",
+          "num": 243.0,
+          "answers": [
+            "243",
+            "243 L"
+          ]
+        },
+        {
+          "label": "비교안에서 추가 농축과 DF에 걸리는 시간 (h)",
+          "num": 1.6606,
+          "answers": [
+            "1.66",
+            "1.66 h",
+            "약 1.7 h"
+          ]
+        }
+      ],
+      "explanation": "**6회 → 버퍼 583.2 L → 먼저 농축하면 243.0 L → 추가 농축 + DF 약 1.66 h.**\n(1) 한 번에 염이 1 ÷ 2.5 = 0.4배로 줄어든다. 0.4⁵ ≈ 1.02 %, 0.4⁶ ≈ 0.41 % → 6회\n(2) 64.8 × 1.5 = 97.2 L씩 6회 = 583.2 L\n(3) 27.0 × 1.5 = 40.5 L씩 6회 = 243.0 L(부피를 줄인 뒤 DF하면 버퍼가 부피 비만큼 준다)\n(4) permeate = 추가 농축 (64.8 − 27.0) + DF 243.0 = 280.8 L, ÷ (44.5 × 3.8 = 169.1 L/h) ≈ 1.66 h\n흔한 실수: 희석 배수를 1.5로 보아 한 번에 0.67배로 계산해 14회로 씀, (4)에서 추가 농축 permeate 37.8 L를 빠뜨려 1.44 h로 씀.",
+      "source": "해설서 E1 · WK04 PDF (Diafiltration — batch vs continuous) · WK04 PDF p.103 (UF·DF) · 해설서 부록 2",
+      "concepts": [
+        "Diafiltration",
+        "UF/DF",
+        "Flux"
+      ],
+      "tags": [
+        "Diafiltration",
+        "UF/DF",
+        "Flux"
+      ]
+    },
+    {
+      "id": "ex-796",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-740",
+      "question": "<보기>의 생산 공정을 실험실 컬럼으로 줄여(scale-down) 재현하려 한다. 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "생산 컬럼은 안지름 80 cm, bed height 24.5 cm이고 부피 유속 1,130 L/h로 운전한다.",
+        "실험실 컬럼은 안지름 1.1 cm로 하고, 같은 공정이 되도록 나머지 조건을 정한다."
+      ],
+      "answers": [
+        "1) 224.9 cm/h  2) 6.54 분  3) 3.56 mL/min  4) 23.3 mL"
+      ],
+      "subs": [
+        {
+          "label": "생산 컬럼의 linear velocity (cm/h)",
+          "num": 224.9204,
+          "answers": [
+            "224.9",
+            "224.9 cm/h",
+            "약 225 cm/h"
+          ]
+        },
+        {
+          "label": "residence time (분)",
+          "num": 6.5356,
+          "answers": [
+            "6.54",
+            "6.54 분"
+          ]
+        },
+        {
+          "label": "실험실 컬럼의 부피 유속 (mL/min)",
+          "num": 3.5607,
+          "answers": [
+            "3.56",
+            "3.56 mL/min"
+          ]
+        },
+        {
+          "label": "실험실 컬럼의 레진 부피 (mL)",
+          "num": 23.2713,
+          "answers": [
+            "23.3",
+            "23.3 mL",
+            "약 23 mL"
+          ]
+        }
+      ],
+      "explanation": "**linear velocity 약 224.9 cm/h → residence time 약 6.54분 → 실험실 약 3.56 mL/min → 레진 약 23.3 mL.**\n(1) 단면적 3.14 × 40² = 5,024 cm², 1,130,000 mL/h ÷ 5,024 ≈ 224.9 cm/h\n(2) 24.5 ÷ 224.9 h × 60 ≈ 6.54분\n(3) bed height·linear velocity를 고정하고 단면적만 줄인다: 224.9 × 3.14 × 0.55² ≈ 213.6 mL/h ÷ 60 ≈ 3.56 mL/min\n(4) 3.14 × 0.55² × 24.5 ≈ 23.3 mL(bed height 그대로)\n흔한 실수: 안지름을 반지름으로 넣어 linear velocity를 56.2 cm/h로 씀, 부피 유속을 그대로 두거나 지름 비로만 줄임, mL/h를 mL/min으로 바꾸지 않음.",
+      "source": "해설서 A9 (고정 파라미터: bed height·linear velocity, 변동 파라미터: 안지름·부피 유속) · WK03 교재 p.57–60 · 해설서 부록 1",
+      "concepts": [
+        "Scale-up",
+        "Linear velocity",
+        "Residence time",
+        "Column volume"
+      ],
+      "tags": [
+        "Scale-up",
+        "Linear velocity",
+        "Residence time",
+        "Column volume"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-797",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-742",
+      "question": "<보기>의 seed train에서 마지막 생산 배양기 크기를 거꾸로 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "N-3 배양(배양액 18.4 L)을 3.9 × 10⁶ cells/mL까지 키워 전부 N-2에 옮긴다.",
+        "N-2, N-1, 생산 배양기(N)는 모두 0.46 × 10⁶ cells/mL로 접종하고, N-2와 N-1도 3.9 × 10⁶ cells/mL에서 전부 다음 단계로 옮긴다.",
+        "세포의 doubling time은 1.13일이고 log phase가 유지된다(N-3도 0.46 × 10⁶ cells/mL로 접종했다)."
+      ],
+      "answers": [
+        "1) 156 L  2) 1,323 L  3) 11,213 L  4) 10.45 일"
+      ],
+      "subs": [
+        {
+          "label": "N-2 배양 부피 (L)",
+          "num": 156.0,
+          "answers": [
+            "156",
+            "156 L",
+            "약 156 L"
+          ]
+        },
+        {
+          "label": "N-1 배양 부피 (L)",
+          "num": 1322.6087,
+          "answers": [
+            "1,323",
+            "1323",
+            "1,323 L",
+            "약 1,323 L"
+          ]
+        },
+        {
+          "label": "생산 배양기(N) 배양 부피 (L)",
+          "num": 11213.4216,
+          "answers": [
+            "11,213",
+            "11213",
+            "11,213 L",
+            "약 11,213 L"
+          ]
+        },
+        {
+          "label": "N-3 접종부터 N 접종까지 걸리는 기간 (일)",
+          "num": 10.454,
+          "answers": [
+            "10.45",
+            "10.45 일",
+            "약 10.5일"
+          ]
+        }
+      ],
+      "explanation": "**한 단계마다 8.478배 → N-2 약 156.0 L → N-1 약 1,323 L → N 약 11,213 L, 기간 약 10.45일.**\n(1) 세포 수 보존: 18.4 L × 3.9 ÷ 0.46 = 18.4 × 8.4783 ≈ 156.0 L\n(2) 156.0 × 8.4783 ≈ 1,323 L\n(3) 1,323 × 8.4783 ≈ 11,213 L\n(4) 한 단계 = 1.13 × log₂ 8.4783 ≈ 1.13 × 3.0838 ≈ 3.485일, N-3·N-2·N-1 세 단계 ≈ 10.45일\n흔한 실수: 배수 대신 밀도 차(3.9 − 0.46)를 곱함, 증식 배수 8.48에 doubling time을 곱해 한 단계를 9.6일로 씀, 단계 수를 2로 세어 6.97일로 씀.",
+      "source": "해설서 C5 · WK04 녹음② 57:01–1:01:31 (seed train, doubling time) · 해설서 부록 1 (예제 15)",
+      "concepts": [
+        "Seed train",
+        "Doubling time"
+      ],
+      "tags": [
+        "Seed train",
+        "Doubling time"
+      ]
+    },
+    {
+      "id": "ex-798",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-754",
+      "question": "<보기>의 바이러스 safety 설계에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확액 한 batch는 2,150 L이고, 바이러스 유사 입자가 1.8 × 10⁵ 입자/mL 들어 있다고 본다. 목표는 10⁶ batch에 1 입자 이하가 남는 것이다.",
+        "low pH VI spiking study에서 처리 전 시료 210 mL는 10^6.85 TCID₅₀/mL, 처리 후 시료 236 mL는 10^2.1 TCID₅₀/mL였다.",
+        "AEX 단계 LRV는 4.15, CEX 단계 LRV는 3.27로 확인되었고, 나머지는 virus filtration 단계가 맡는다."
+      ],
+      "answers": [
+        "1) 3.87 × 10¹¹ 입자  2) 17.59  3) 4.7  4) 5.47"
+      ],
+      "subs": [
+        {
+          "label": "batch당 바이러스 유사 입자 수 (× 10¹¹ 입자)",
+          "num": 3.87,
+          "answers": [
+            "3.87",
+            "3.87 × 10¹¹ 입자"
+          ]
+        },
+        {
+          "label": "공정 전체에 필요한 LRV",
+          "num": 17.5877,
+          "answers": [
+            "17.59",
+            "17.6"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "low pH VI의 LRV",
+          "num": 4.6993,
+          "answers": [
+            "4.7"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "virus filtration 단계에 필요한 최소 LRV",
+          "num": 5.4684,
+          "answers": [
+            "5.47",
+            "5.5"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**입자 3.870 × 10¹¹ → 필요한 LRV 약 17.59 → low pH 4.70 → virus filtration 최소 약 5.47.**\n(1) 2,150 L = 2.15 × 10⁶ mL, × 1.8 × 10⁵ = 3.870 × 10¹¹ 입자\n(2) batch당 남아도 되는 양 10⁻⁶ 입자 → log₁₀(3.870e+11 ÷ 10⁻⁶) ≈ 17.59\n(3) 총량으로 비교: 처리 전 10^6.85 × 210, 처리 후 10^2.1 × 236 → 6.85 − 2.1 + log₁₀(210 ÷ 236) = 4.75 − 0.051 ≈ 4.70\n(4) 17.59 − 4.70 − 4.15 − 3.27 ≈ 5.47(원리가 다른 단계의 LRV는 더한다)\n흔한 실수: L를 mL로 바꾸지 않아 입자 수를 1,000배 작게 써서 필요한 LRV를 14.59로 씀, (3)에서 농도만 비교해 4.75로 씀(그러면 virus filtration 5.42).",
+      "source": "해설서 E9 · 해설서 부록 1 (예제 11 LRV) · WK06 PDF p.8–11 (virus safety, viral clearance)",
+      "concepts": [
+        "Log reduction",
+        "LRV",
+        "Viral clearance"
+      ],
+      "tags": [
+        "Log reduction",
+        "LRV",
+        "Viral clearance"
+      ]
+    },
+    {
+      "id": "ex-799",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-755",
+      "question": "<보기>의 청정도 측정에서 다음 값을 각각 계산하시오. (1 ft³ = 0.0283 m³)",
+      "box": [
+        "무균 여과 전 제품 조제 구역(목표 Class 10,000)에서 1 ft³/min으로 공기를 4.5분 채취해 0.5 µm 이상 입자 33,870개를 셌다.",
+        "Class 10,000은 0.5 µm 이상 입자가 1 ft³당 10,000개 이하, Class 100은 1 ft³당 100개 이하인 등급이다.",
+        "Class 100 구역은 한도 농도의 공기에서도 0.5 µm 이상 입자가 20개 이상 세어지도록 1회 채취량을 정한다."
+      ],
+      "answers": [
+        "1) 7,527 개/ft³  2) 265,960 개/m³  3) 75.3 %  4) 5.66 L"
+      ],
+      "subs": [
+        {
+          "label": "1 ft³당 입자 수 (개/ft³)",
+          "num": 7526.6667,
+          "answers": [
+            "7,527",
+            "7527",
+            "7,527 개/ft³",
+            "약 7,527개"
+          ]
+        },
+        {
+          "label": "1 m³당 입자 수 (개/m³)",
+          "num": 265959.9529,
+          "answers": [
+            "265,960",
+            "265960",
+            "265,960 개/m³",
+            "약 265,960개"
+          ]
+        },
+        {
+          "label": "측정값은 Class 10,000 한도의 몇 %인가",
+          "num": 75.2667,
+          "answers": [
+            "75.3",
+            "75.3 %"
+          ]
+        },
+        {
+          "label": "Class 100 구역의 최소 1회 채취량 (L)",
+          "num": 5.66,
+          "answers": [
+            "5.66",
+            "5.66 L"
+          ]
+        }
+      ],
+      "explanation": "**1 ft³당 약 7,527개 → 1 m³당 약 265,960개 → 한도의 약 75.3 % → Class 100 최소 채취량 약 5.66 L.**\n(1) 채취량 1 × 4.5 = 4.5 ft³, 33,870 ÷ 4.5 ≈ 7,526.7개/ft³\n(2) 7,526.7 ÷ 0.0283 ≈ 265,960개/m³(ft³가 m³보다 작으므로 m³당 수가 더 크다)\n(3) 7,526.7 ÷ 10,000 × 100 ≈ 75.3 % — Class 10,000(약 352,000개/m³) 안에 든다\n(4) Class 100 한도 = 100 ÷ 0.0283 ≈ 3,534개/m³, 20 ÷ 3,534 ≈ 0.00566 m³ ≈ 5.66 L\n흔한 실수: 4.5분 채취를 1 ft³로 보아 33,870개/ft³로 씀, ft³→m³ 환산에서 0.0283을 곱해 213개/m³로 씀, m³를 L로 바꾸지 않음.",
+      "source": "해설서 E13 · 해설서 부록 1 (Class 환산, 예제 13) · WK07 녹음 2:42:18–2:43:26 · WK07 PDF p.37 (Cleanroom)",
+      "concepts": [
+        "Clean room",
+        "Class 100",
+        "Particle count"
+      ],
+      "tags": [
+        "Clean room",
+        "Class 100",
+        "Particle count"
       ]
     }
   ]
