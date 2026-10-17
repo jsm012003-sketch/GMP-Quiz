@@ -47,6 +47,7 @@
   const KW_COVER_MIN_N = 40;
   // 여러 칸을 계산하는 고난도 계산 문항("level": "hard")은 20문항 이상 시험지마다 최소 이만큼(2026.10.17)
   const HARD_CALC_MIN = 1;
+  const HARD_MB_KW = 'E3'; // 시험지마다 넣는 고난도 계산 중 하나는 Mass balance 세트
   // 20문항 이상 시험지는 주차(2~7)마다 계산 문항 1개 이상, 리뷰에서 계산으로 짚은 키워드마다 1개 이상(2026.10.17)
   //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
   const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
@@ -509,9 +510,12 @@
     }
     // 고난도 계산 문항(제시문 + 여러 칸 계산)을 시험지마다 꼭 넣는다(출제 횟수가 적은 것부터)
     if (n >= 20) {
-      let need = HARD_CALC_MIN - picked.filter((q) => q.hard).length;
+      const hasMB = () => picked.some((q) => q.hard && q.kw === HARD_MB_KW);
+      let need = Math.max(HARD_CALC_MIN - picked.filter((q) => q.hard).length, hasMB() ? 0 : 1);
       while (need-- > 0) {
-        const hard = pool.filter((q) => q.hard && !pickedIds.has(q.id));
+        const all = pool.filter((q) => q.hard && !pickedIds.has(q.id));
+        const mb = hasMB() ? [] : all.filter((q) => q.kw === HARD_MB_KW);
+        const hard = mb.length ? mb : all;
         if (!hard.length) break;
         const lowA = Math.min(...hard.map((q) => qMeta(q.id).a));
         const c = hard.filter((q) => qMeta(q.id).a === lowA);
