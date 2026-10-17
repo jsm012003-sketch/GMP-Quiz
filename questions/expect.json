@@ -18618,6 +18618,1092 @@
         "Filter capacity",
         "Depth filter"
       ]
+    },
+    {
+      "id": "ex-638",
+      "type": "개념",
+      "part": 2,
+      "question": "다음 중 바이러스 제거·불활화 기술에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "S/D(solvent/detergent) 처리는 지질 외피를 공격해 enveloped virus를 불활화한다",
+        "Low pH(pH 3~4) 처리는 non-enveloped virus까지 잘 불활화한다",
+        "Chromatography는 음전하 표면의 바이러스를 결합시켜 외피 유무와 관계없이 제거한다",
+        "Virus filtration은 크기로 걸러 enveloped·non-enveloped virus를 모두 제거한다"
+      ],
+      "answer": 2,
+      "explanation": "**외피를 공격하는 방법(S/D, low pH)은 non-enveloped virus에 듣지 않는다.** WK06 PDF p.11 표: S/D·Low pH(pH 3–4) — enveloped ○, non-enveloped × / Heat(pasteurisation 10 h·60 ℃, dry heat 72 h·80 ℃, HTST 200 ms·75 ℃) — enveloped ○, non-enveloped 일부만 / Chromatography(음전하 표면 결합)·Virus filtration(크기) — 둘 다 ○. 그래서 원리가 다른 단계를 겹친다.",
+      "choiceNotes": [
+        "옳은 진술 — S/D는 지질 외피를 녹여 enveloped virus만 불활화한다(non-enveloped는 ×).",
+        "틀린 진술(정답) — low pH도 지질 외피를 공격하는 방법이라 non-enveloped virus에는 잘 듣지 않는다. 그래서 크기로 거르는 virus filtration을 함께 넣는다.",
+        "옳은 진술 — 교안 표에서 chromatography는 enveloped·non-enveloped 모두 ○이다(음전하 표면에 결합).",
+        "옳은 진술 — virus filtration은 크기로 제거하므로 두 종류 모두 ○이다."
+      ],
+      "source": "해설서 E9 · WK06 PDF p.11 (Viable Technologies for Viral Clearance) · 오픈북 자료집 부록 4-E",
+      "concepts": [
+        "virus clearance",
+        "enveloped virus",
+        "non-enveloped virus"
+      ],
+      "tags": [
+        "virus clearance",
+        "enveloped virus",
+        "non-enveloped virus"
+      ]
+    },
+    {
+      "id": "ex-639",
+      "type": "개념",
+      "part": 2,
+      "question": "세포배양 공정의 virus clearance 검증에 쓰는 모델 바이러스에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "PPV·MVM 같은 parvovirus는 외피가 없고 18~26 nm로 작아 내성이 매우 높다",
+        "MuLV는 외피가 있는 80~130 nm 바이러스로 불활화에 대한 내성이 낮다",
+        "Virus filter의 pore(약 20 nm)는 parvovirus 크기에 맞춰져 있다",
+        "외피가 있고 클수록 low pH·S/D 처리에 대한 내성이 커진다"
+      ],
+      "answer": 4,
+      "explanation": "**작고 외피가 없는 바이러스일수록 내성이 크다 — parvovirus(PPV·MVM, 18–26 nm)가 가장 어렵고, 외피가 있는 MuLV(80–130 nm)는 내성이 낮다.** WK06 PDF p.14: PPV·MVM(매우 높음), SV-40(non-enveloped dsDNA 40–50 nm, 매우 높음), Reo-3·Polio 1(중간), PRV(enveloped, 중간), MuLV(enveloped, 낮음). virus filter 공경(~20 nm)이 parvovirus 크기에 맞춰져 있다.",
+      "choiceNotes": [
+        "옳은 진술 — 교안 p.14: PPV·MVM은 non-enveloped ssDNA, 18–26 nm, 내성 매우 높음.",
+        "옳은 진술 — MuLV는 enveloped ssRNA, 80–130 nm, 내성 낮음.",
+        "옳은 진술 — 가장 어려운 parvovirus를 거르도록 virus filter가 약 20 nm이다.",
+        "틀린 진술(정답) — 거꾸로이다. 작고 외피가 없을수록 내성이 크고, 외피가 있고 큰 바이러스(MuLV)는 잘 죽는다."
+      ],
+      "source": "해설서 E9 · WK06 PDF p.14 (모델 바이러스) · 오픈북 자료집 부록 4-E",
+      "concepts": [
+        "모델 바이러스",
+        "parvovirus",
+        "virus filtration"
+      ],
+      "tags": [
+        "모델 바이러스",
+        "parvovirus",
+        "virus filtration"
+      ]
+    },
+    {
+      "id": "ex-640",
+      "type": "개념",
+      "part": 1,
+      "question": "바이러스 안전성 가이드라인에 따른 virus clearance validation 설계로 옳지 않은 것은?",
+      "choices": [
+        "서로 다른 원리(orthogonal)의 clearance 단계를 2개 이상 둔다",
+        "재현성을 보려고 독립된 실험을 2회 수행한다",
+        "외피 바이러스와 작은 비외피 바이러스(가능하면 parvovirus)를 함께 쓴다",
+        "가장 잘 불활화되는 바이러스 한 종류만 골라 시험한다"
+      ],
+      "answer": 4,
+      "explanation": "**Virus clearance validation은 원리가 다른 단계 2개 이상, 독립 실험 2회, 외피 바이러스 + 작은 비외피 바이러스(parvovirus)로 설계한다.** WK06 PDF p.8–9: EMEA/CHMP/BWP/398498/2009 — 임상 전 수행, orthogonal 2단계 이상, 2회 재현, Case B 세포는 MuLV / ICH Q5A(R1) — 불활화의 kinetics 확인, 컬럼 재사용 시 clearance 유지 확인, 보통 3–4종 바이러스.",
+      "choiceNotes": [
+        "옳은 진술 — 원리가 다른 단계(예: low pH 불활화 + 크기 제거)를 겹쳐야 한 단계가 놓친 바이러스를 다른 단계가 잡는다.",
+        "옳은 진술 — EMEA 가이드라인 요점: 독립된 실험 2회로 재현성 확인.",
+        "옳은 진술 — enveloped + 작은 non-enveloped(parvovirus) 조합을 쓴다. ICH Q5A는 보통 3–4종으로 시험한다.",
+        "틀린 진술(정답) — 잘 죽는 바이러스만 쓰면 clearance를 과대평가한다. 성질이 다른 여러 바이러스(보통 3–4종), 특히 내성이 큰 parvovirus를 포함한다."
+      ],
+      "source": "해설서 E9 · WK06 PDF p.8–9 (바이러스 안전성 가이드라인) · 오픈북 자료집 부록 4-E",
+      "concepts": [
+        "virus clearance",
+        "orthogonal"
+      ],
+      "tags": [
+        "virus clearance",
+        "orthogonal"
+      ]
+    },
+    {
+      "id": "ex-641",
+      "type": "연결",
+      "part": 2,
+      "question": "크기에 따른 여과 구분(MF·UF·NF·RO)에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "MF의 pore size는 약 0.1~100 µm이다",
+        "UF는 분자량 약 1~300 kDa의 물질을 걸러 낸다",
+        "거르는 크기가 작아질수록 필요한 운전 압력은 낮아진다",
+        "RO는 분자량 150 Da보다 작은 물질까지 걸러 낸다"
+      ],
+      "answer": 3,
+      "explanation": "**거르는 크기가 작아질수록 필요한 압력이 커진다(MF 0.5–2.0 → NF 3–15 → RO 10–100 bar).** WK04 PDF p.32 표: MF pore 0.1–100 µm(> 300 kDa) / UF 3–100 nm(1–300 kDa, 0.1–3.0 bar) / NF 2–5 nm(> 150 Da) / RO not detectable(< 150 Da).",
+      "choiceNotes": [
+        "옳은 진술 — 교안 p.32 표: MF pore 0.1–100 µm.",
+        "옳은 진술 — UF retained 1–300 kDa(MWCO).",
+        "틀린 진술(정답) — 방향을 바꿨다. 크기가 작아질수록 압력이 커진다: MF 0.5–2.0 bar → NF 3–15 bar → RO 10–100 bar(UF 0.1–3.0 bar는 MF와 겹친다).",
+        "옳은 진술 — NF는 > 150 Da, RO는 < 150 Da까지 거른다(pore는 not detectable)."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.32 (MF·UF·NF·RO 기준표) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "여과 크기 구분",
+        "MF",
+        "UF",
+        "RO"
+      ],
+      "tags": [
+        "여과 크기 구분",
+        "MF",
+        "UF",
+        "RO"
+      ]
+    },
+    {
+      "id": "ex-642",
+      "type": "개념",
+      "part": 2,
+      "question": "분자량 약 150 kDa인 IgG를 손실 없이 농축하려 할 때 고를 UF 막의 MWCO로 가장 적절한 것은?",
+      "choices": [
+        "30 kD",
+        "150 kD",
+        "300 kD",
+        "1,000 kD"
+      ],
+      "answer": 1,
+      "explanation": "**UF 막은 목적 단백질 분자량의 1/3~1/5 정도의 MWCO를 고른다 — MWCO는 그 분자량의 물질을 약 90 % 이상 잡는다는 명목 값이기 때문이다(일반 원리).** WK04 PDF p.46: albumin(67,000)을 30 kD 막은 ≥ 97.5 % 잡지만 100 kD 막은 ≤ 60 %만 잡는다.",
+      "choiceNotes": [
+        "옳다 — MWCO는 그 분자량 물질을 약 90 % 이상 잡는다는 명목 값이어서, 목적 단백질 분자량의 1/3~1/5 정도를 고른다(일반 원리).",
+        "틀리다 — 목적 단백질과 같은 MWCO는 명목 값이라 일부가 막을 통과해 손실된다. 교안 표에서도 albumin(67 kDa)을 100 kD 막은 ≤ 60 %만 잡았다.",
+        "틀리다 — 목적 단백질보다 큰 MWCO는 단백질 상당량이 permeate로 빠져나간다.",
+        "틀리다 — MWCO가 목적 단백질보다 훨씬 크면 단백질이 대부분 통과해 농축이 되지 않는다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.46 (Hydrosart UF MWCO) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "MWCO",
+        "UF"
+      ],
+      "tags": [
+        "MWCO",
+        "UF"
+      ]
+    },
+    {
+      "id": "ex-643",
+      "type": "연결",
+      "part": 2,
+      "question": "기체 여과에서 입자를 잡는 메커니즘과 그 설명의 짝이 잘못된 것은?",
+      "choices": [
+        "Sieve effect – 입자가 기공보다 커서 표면에 걸린다",
+        "Impaction – 아주 작은 입자가 불규칙한 브라운 운동을 하다 섬유에 닿는다",
+        "Interception – 기류를 따라가던 입자가 섬유 가까이 지나며 닿는다",
+        "Electrostatic interaction – 입자와 막의 전하 차이로 붙는다"
+      ],
+      "answer": 2,
+      "explanation": "**기체 여과는 sieve 말고도 impaction(관성 충돌, 큰 입자)·interception(차단)·diffusion(브라운 운동, 작은 입자)·electrostatic interaction이 함께 작용한다.** 그래서 그 사이 크기(MPPS)에서 여과율이 가장 낮고, 기체용 0.2 µm 필터의 실제 보유율은 표기보다 10~20배 좋아 20 nm 입자까지 잡는다(WK04 PDF p.52–56).",
+      "choiceNotes": [
+        "옳은 짝 — 기본 메커니즘이다.",
+        "틀린 짝(정답) — 브라운 운동으로 섬유에 닿는 것은 diffusion이다. impaction(관성 충돌)은 질량이 큰 입자가 기류를 따라가지 못하고 섬유에 부딪히는 것이다.",
+        "옳은 짝 — 차단(interception)이다.",
+        "옳은 짝 — 정전기적 상호작용이다."
+      ],
+      "source": "해설서 E12 · WK04 PDF p.52–56 (기체 여과 메커니즘) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "기체 여과",
+        "HEPA"
+      ],
+      "tags": [
+        "기체 여과",
+        "HEPA"
+      ]
+    },
+    {
+      "id": "ex-644",
+      "type": "개념",
+      "part": 1,
+      "question": "필터 integrity test에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Bacteria challenge test는 필터를 다시 쓸 수 없는 파괴 시험으로 제조사가 한다",
+        "Bubble point test는 필터를 다시 쓸 수 없는 파괴 시험이다",
+        "제조사는 bubble point·diffusion 값을 BCT 결과와 함께 묶어 integrity test 기준값을 정한다",
+        "소수성 필터는 IPA로 적시지 않고 water intrusion test로 시험할 수 있다"
+      ],
+      "answer": 2,
+      "explanation": "**Integrity test는 제조사의 파괴 시험(BCT·particle challenge·전자현미경)과 end user의 비파괴 시험(bubble point·diffusion·pressure decay·water intrusion·water flow)으로 나뉜다.** 비파괴 시험의 기준값은 제조사가 BCT 결과와 묶어 정한다. 이 integrity test는 sterile·virus filter·cassette에 하며 HEPA에는 하지 않는다(WK04 PDF p.118–124).",
+      "choiceNotes": [
+        "옳은 진술 — BCT(Acholeplasma laidlawii 0.1 µm, B. diminuta 0.2 µm, Serratia marcescens 0.45 µm)는 제조사가 규격을 정하려고 하는 파괴 시험이다.",
+        "틀린 진술(정답) — bubble point는 end user가 하는 비파괴(간접) 시험이라 시험 뒤에도 필터를 쓸 수 있다. 비파괴 시험: pressure decay, diffusion, bubble point, water intrusion, water flow.",
+        "옳은 진술 — end user는 제조사가 정한 limit으로 시험한다.",
+        "옳은 진술 — WIT는 소수성 막을 IPA로 친수화하지 않고 물로 시험해 오염·IPA 잔여물이 없다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.118–124 (Integrity test) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "integrity test",
+        "bubble point test"
+      ],
+      "tags": [
+        "integrity test",
+        "bubble point test"
+      ]
+    },
+    {
+      "id": "ex-645",
+      "type": "개념",
+      "part": 2,
+      "question": "Bubble point 압력에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "Pore 반지름이 클수록 bubble point 압력이 높다",
+        "Wetting agent의 표면장력이 클수록 bubble point 압력이 높다",
+        "막이 잘 젖지 않을수록(wetting angle이 클수록) bubble point 압력이 높다",
+        "Diffusion test는 bubble point보다 높은 압력에서 한다"
+      ],
+      "answer": 2,
+      "explanation": "**Bubble point는 wetting agent의 표면장력(σ)과 cosθ에 비례하고 pore 반지름(r)에 반비례한다(P_BP = 2σ·cosθ ÷ r × K).** 그래서 가장 큰 pore를 보는 worst case 시험이다. diffusion test는 bubble point의 약 80 % 압력에서 확산 기체량을 잰다(WK04 PDF p.125–128).",
+      "choiceNotes": [
+        "틀리다 — bubble point는 pore 반지름에 반비례한다. 큰 pore일수록 낮은 압력에서 액체가 밀려난다.",
+        "옳다 — P_BP = 2·σ·cosθ ÷ r에 따라 표면장력(σ)에 비례한다. 그래서 같은 필터라도 물(0.072 N/m)보다 표면장력이 낮은 IPA/물에서 값이 낮다.",
+        "틀리다 — cosθ에 비례하므로 wetting angle이 커질수록(잘 안 젖을수록) cosθ가 작아져 bubble point가 낮아진다.",
+        "틀리다 — diffusion test는 bubble point보다 낮은 압력(약 80 %)에서 젖은 막을 통해 확산되는 기체 양을 잰다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.125–128 (Bubble point 식, wetting) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "bubble point test",
+        "integrity test"
+      ],
+      "tags": [
+        "bubble point test",
+        "integrity test"
+      ]
+    },
+    {
+      "id": "ex-646",
+      "type": "단답",
+      "part": 3,
+      "format": "short",
+      "question": "제균 필터를 멸균한 뒤 실제 여과에 쓰기 직전에 하는 integrity test를 영문 약어로 쓰시오.",
+      "answers": [
+        "PUPSIT",
+        "Pre-Use Post-Sterilization Integrity Test",
+        "pre use post sterilization integrity test",
+        "퍼프싯"
+      ],
+      "explanation": "**PUPSIT(Pre-Use Post-Sterilization Integrity Test)이다.** 무균 여과 필터는 사용 전과 후에 integrity test를 하며, 멸균 과정에서 생길 수 있는 손상을 쓰기 직전에 확인하는 것이 PUPSIT이다. 첫 필터가 실패할 때를 대비해 두 번째 제균 필터를 두는 redundant filtration도 함께 쓴다(WK04 PDF p.157–158).",
+      "source": "해설서 B2 · WK04 PDF p.157–158 (PUPSIT, redundant filtration) · 오픈북 자료집 §4.10",
+      "concepts": [
+        "integrity test",
+        "PUPSIT"
+      ],
+      "tags": [
+        "integrity test",
+        "PUPSIT"
+      ]
+    },
+    {
+      "id": "ex-647",
+      "type": "연결",
+      "part": 2,
+      "question": "Cross flow filtration(TFF)의 목적과 제품이 남는 쪽의 짝이 잘못된 것은?",
+      "choices": [
+        "Clarification – 제품이 retentate에 남는다",
+        "Concentration – 제품이 retentate에 남는다",
+        "Diafiltration – 제품이 retentate에 남고 버퍼가 바뀐다",
+        "Perfusion – 세포는 retentate로 배양기에 돌아간다"
+      ],
+      "answer": 1,
+      "explanation": "**TFF의 제품 위치는 목적마다 다르다 — clarification은 permeate, concentration·DF는 retentate.** WK04 PDF p.100: Clarification(product = permeate, MF) / Concentration(retentate, MF·UF) / Diafiltration(retentate, MF·UF) / Perfusion(cell culture, retentate, MF). 4주차 Case Study도 세포 밖 산물은 permeate = product, 세포 안 산물은 retentate를 모아 파쇄한다.",
+      "choiceNotes": [
+        "틀린 짝(정답) — clarification은 세포·잔해(insoluble)를 막에 남기고 녹아 있는 제품을 통과시키므로 제품은 permeate이다(MF).",
+        "옳은 짝 — 농축은 물과 작은 분자를 permeate로 빼고 제품을 retentate에 모은다.",
+        "옳은 짝 — DF도 제품은 retentate에 두고 버퍼만 바꾼다.",
+        "옳은 짝 — perfusion은 세포를 retentate로 돌려보내고 배양액(permeate)만 뺀다(MF)."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.100 (TFF 목적별 분류), p.13 (IB Process) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "CFF",
+        "retentate",
+        "permeate"
+      ],
+      "tags": [
+        "CFF",
+        "retentate",
+        "permeate"
+      ]
+    },
+    {
+      "id": "ex-648",
+      "type": "개념",
+      "part": 1,
+      "question": "UF 막(cassette)을 재사용하고 관리하는 것에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Batch 사이 NWP가 처음 값의 약 80 %로 회복되는지 보고 재사용을 판단한다",
+        "물이 차가울수록 점도가 작아지므로 NWP 온도 보정 계수는 1보다 작다",
+        "사용 뒤에는 NaOH로 세척하고 20 % ethanol 또는 0.1 M NaOH에 보관한다",
+        "Membrane integrity, 제품 품질·수율, leachable도 함께 보고 수명을 정한다"
+      ],
+      "answer": 2,
+      "explanation": "**NWP(normalized water permeability)는 측정한 water flux에 온도 보정 계수를 곱해 TMP·막 면적으로 나눈 값이며, 물이 차가울수록 점도가 커서 계수가 크다(0 ℃ 약 2, 25 ℃ 1).** 막 재사용은 NWP가 처음의 약 80 %로 회복되는지, integrity, 품질·수율, leachable로 판단한다(WK04 PDF p.106–112).",
+      "choiceNotes": [
+        "옳은 진술 — 막 재사용 판단: water flux(NWP)가 처음의 약 80 %인가.",
+        "틀린 진술(정답) — 거꾸로이다. 물은 차가울수록 점도가 커져 flux가 낮게 나오므로 보정 계수가 1보다 크다(0 ℃ 약 2.0, 25 ℃ 1.0, 45 ℃ 약 0.67).",
+        "옳은 진술 — 교안 공정 흐름 필기: sanitization NaOH 0.5–1 M, storage 20 % 에탄올 또는 0.1 M NaOH.",
+        "옳은 진술 — NWP와 함께 integrity, 품질·수율, leachable(TOC)로 life cycle을 정한다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.106–112 (CFF 공정 흐름, 막 재사용, NWP) · WK06 녹음 1:23:16 · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "CFF",
+        "NWP"
+      ],
+      "tags": [
+        "CFF",
+        "NWP"
+      ]
+    },
+    {
+      "id": "ex-649",
+      "type": "연결",
+      "part": 2,
+      "question": "다음 불순물과 그 분류의 짝이 잘못된 것은?",
+      "choices": [
+        "HCP – 공정 유래(process-related) 불순물",
+        "Endotoxin – 공정 유래(process-related) 불순물",
+        "Aggregate·dimer – 제품 유래(product-related) 불순물",
+        "Leachable – 제품 유래(product-related) 불순물"
+      ],
+      "answer": 4,
+      "explanation": "**불순물은 공정 유래(배지·HCP·DNA·endotoxin·바이러스·cell debris·소포제·leachable 등 → 안전성↓)와 제품 유래(aggregate·dimer·산화·탈아미드·misfolded·PTM 변이체·분해물 → 품질↓)로 나눈다(WK04 PDF p.9).**",
+      "choiceNotes": [
+        "옳은 짝 — 숙주세포가 만든 단백질로 공정에서 들어온다.",
+        "옳은 짝 — 미생물 유래로 공정에서 들어온다.",
+        "옳은 짝 — 목적 단백질이 뭉친 것이라 제품 유래이며 품질(quality)을 떨어뜨린다.",
+        "틀린 짝(정답) — leachable은 필터·튜빙·bag 같은 소모품에서 녹아 나온 물질로 공정 유래 불순물이다."
+      ],
+      "source": "해설서 E2 · WK04 PDF p.9 (불순물 분류) · 오픈북 자료집 부록 4-C",
+      "concepts": [
+        "주요 불순물",
+        "aggregate"
+      ],
+      "tags": [
+        "주요 불순물",
+        "aggregate"
+      ]
+    },
+    {
+      "id": "ex-650",
+      "type": "개념",
+      "part": 2,
+      "question": "같은 조건에서 배양 pH만 6.9와 7.3으로 바꾼 결과에 대한 해석으로 옳은 것은?",
+      "choices": [
+        "pH 7.3에서 lactate가 적게 쌓여 세포가 더 잘 자랐다",
+        "pH 7.3에서 lactate가 많이 쌓이고 이를 중화하는 염기 때문에 삼투압이 올라 성장이 떨어졌다",
+        "두 조건 모두 lactate와 삼투압이 같아 pH는 CPP가 아니다",
+        "pH 6.9에서 glucose를 훨씬 많이 소모해 VCD가 낮아졌다"
+      ],
+      "answer": 2,
+      "explanation": "**pH가 높으면 lactate가 많이 쌓이고, 이를 중화하려고 염기를 넣으므로 삼투압이 올라 세포 성장이 떨어진다.** WK02 PDF p.62–67(800 rpm, 접종 0.3 × 10⁶ cells/mL): pH 6.9 — VCD 더 높음, lactate 약 2 g/L, osmolality 약 320–350 / pH 7.3 — VCD 더 낮음, lactate 약 9 g/L, osmolality 약 480 mOsm/kg, glucose 소모는 비슷(그래프 근삿값).",
+      "choiceNotes": [
+        "틀리다 — 거꾸로이다. pH 7.3에서 lactate가 약 9 g/L 수준까지 쌓였고 VCD는 더 낮았다.",
+        "옳다 — lactate가 많이 생기면 pH를 지키려고 염기를 넣고, 그 결과 osmolality가 약 480 mOsm/kg까지 올라 세포 성장이 떨어진다.",
+        "틀리다 — lactate와 osmolality가 크게 달랐다. 이 영향 때문에 pH는 대표적인 배양 CPP이다.",
+        "틀리다 — glucose 소모는 두 조건이 비슷했다. 차이를 만든 것은 lactate 축적과 삼투압 상승이다."
+      ],
+      "source": "해설서 C3 · WK02 PDF p.62–67 (pH 6.9 vs 7.3) · 오픈북 자료집 부록 4-A",
+      "concepts": [
+        "CPP",
+        "pH"
+      ],
+      "tags": [
+        "CPP",
+        "pH"
+      ]
+    },
+    {
+      "id": "ex-651",
+      "type": "개념",
+      "part": 1,
+      "question": "배양 방식별 배양 기간과 생산성에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Batch는 보통 1~2주 배양한다",
+        "Fed-batch는 보통 2~3주 배양한다",
+        "Perfusion은 batch보다 배양 기간이 짧아 비용과 복잡성이 가장 작다",
+        "Dynamic perfusion은 배치당 titer가 fed-batch보다 훨씬 높다"
+      ],
+      "answer": 3,
+      "explanation": "**Batch 1–2주 → Fed-batch 2–3주 → Perfusion 3–9주로, 뒤로 갈수록 배양 기간·비용·복잡성·생산량이 커진다(WK04 PDF p.8).** titer(WK02 PDF p.37–41): fed-batch 약 5 g/L, N-1 perfusion 약 8 g/L, concentrated fed-batch 배치당 > 10 g/L, dynamic perfusion 배치당 > 20 g/L.",
+      "choiceNotes": [
+        "옳은 진술 — WK04 PDF p.8: batch 1–2주.",
+        "옳은 진술 — fed-batch 2–3주.",
+        "틀린 진술(정답) — 거꾸로이다. perfusion은 3–9주로 가장 길고, 뒤로 갈수록 배양 기간·비용·복잡성·생산량이 모두 커진다.",
+        "옳은 진술 — WK02 PDF p.37–41: fed-batch 약 5 g/L, dynamic perfusion 배치당 > 20 g/L."
+      ],
+      "source": "해설서 D2 · WK04 PDF p.8 (배양 방식 기간) · WK02 PDF p.37–41 · 오픈북 자료집 부록 4-A·C",
+      "concepts": [
+        "batch",
+        "fed-batch",
+        "perfusion"
+      ],
+      "tags": [
+        "batch",
+        "fed-batch",
+        "perfusion"
+      ]
+    },
+    {
+      "id": "ex-652",
+      "type": "연결",
+      "part": 2,
+      "question": "다음 임상시험 단계와 그 설명의 짝이 잘못된 것은?",
+      "choices": [
+        "Phase I – 건강한 지원자 20~100명, 안전성 확인",
+        "Phase II – 환자 100~500명, 유효성과 최적 용량 확인",
+        "Phase III – 건강한 지원자 1,000~5,000명, 첫 안전성 확인",
+        "Phase IV – 시판 후 실제 사용 환자의 장기 안전성 관찰"
+      ],
+      "answer": 3,
+      "explanation": "**Phase I 건강한 지원자 20–100명(안전성) → Phase II 환자 100–500명(유효성·최적 용량) → Phase III 환자 1,000–5,000명(다기관·눈가림·비교) → Phase IV 시판 후 장기 안전성(WK07 PDF p.16).**",
+      "choiceNotes": [
+        "옳은 짝 — WK07 PDF p.16.",
+        "옳은 짝 — 유효성과 최적 용량을 본다.",
+        "틀린 짝(정답) — Phase III는 환자 1,000~5,000명을 대상으로 다기관·눈가림·비교 시험을 한다. 건강한 지원자로 첫 안전성을 보는 것은 Phase I이다.",
+        "옳은 짝 — 시판 후 조사이다(교안에는 \"VI\"로 표기)."
+      ],
+      "source": "해설서 E15 · WK07 PDF p.16 (임상시험 단계) · 오픈북 자료집 부록 4-F",
+      "concepts": [
+        "임상시험 단계"
+      ],
+      "tags": [
+        "임상시험 단계"
+      ]
+    },
+    {
+      "id": "ex-653",
+      "type": "개념",
+      "part": 2,
+      "question": "고밀도 cell bank로 seed 단계를 줄이는 intensified seed train에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "50~100 × 10⁶ cells/mL 수준의 고밀도 cell bank를 쓴다",
+        "Rocking 배양기를 perfusion mode로 돌려 세포를 빨리 늘린다",
+        "기존 방식보다 플라스크 단계를 더 늘려 seed 기간이 3~4주로 길어진다",
+        "생산 배양기 단계는 그대로 두고 seed 단계를 줄여 일정을 당긴다"
+      ],
+      "answer": 3,
+      "explanation": "**Intensified seed train은 고밀도 cell bank(50–100 × 10⁶ cells/mL)와 rocking perfusion mode로 플라스크 단계를 건너뛰어 seed 기간을 3–4주에서 2주 미만으로 줄인다(WK06 PDF p.28).** WK02 PDF p.37–41의 N-1 seed scheme(5 mL vial, 50 × 10⁶ cells/mL)도 같은 생각이다.",
+      "choiceNotes": [
+        "옳은 진술 — WK06 PDF p.28: intensified는 4.5 mL 바이알, 50–100 × 10⁶ cells/mL(기존 2 mL, 15–30 × 10⁶).",
+        "옳은 진술 — rocking perfusion mode(1–10 L)로 고밀도까지 키운다.",
+        "틀린 진술(정답) — 거꾸로이다. 3–4주가 걸리는 것은 플라스크를 여러 단계 거치는 기존(conventional) 방식이고, intensified는 2주 미만이다.",
+        "옳은 진술 — 생산(N) 단계를 바꾸지 않아 기존 공정에 적용하기 쉽다."
+      ],
+      "source": "해설서 D2 · WK06 PDF p.28 (Conventional vs Intensified seed) · WK02 PDF p.37–41 · 오픈북 자료집 부록 4-A·E",
+      "concepts": [
+        "seed train",
+        "perfusion"
+      ],
+      "tags": [
+        "seed train",
+        "perfusion"
+      ]
+    },
+    {
+      "id": "ex-700",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A 공정을 설계할 때 다음 값을 각각 계산하시오.",
+      "box": [
+        "목표 원료의약품(DS)은 3 kg이고, 배양 titer는 2.5 g/L, 정제 전체 회수율은 60 %이다.",
+        "수확액의 항체를 모두 Protein A 레진(DBC 50 mg/mL)에 한 번에 결합시키며, 레진은 계산값에 safety factor 25 %를 더해 충전한다.",
+        "컬럼 bed height는 25 cm, linear velocity는 200 cm/h로 운전한다."
+      ],
+      "answers": [
+        "1) 2,000 L  2) 125 L  3) 1,000 L/h  4) 2 h"
+      ],
+      "subs": [
+        {
+          "label": "배양 부피 (L)",
+          "num": 2000,
+          "answers": [
+            "2000",
+            "2,000",
+            "2,000 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 125,
+          "answers": [
+            "125",
+            "125 L"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 1000,
+          "answers": [
+            "1000",
+            "1,000",
+            "1,000 L/h"
+          ]
+        },
+        {
+          "label": "수확액 loading 시간 (h)",
+          "num": 2,
+          "answers": [
+            "2",
+            "2 h",
+            "2시간"
+          ]
+        }
+      ],
+      "explanation": "**배양 2,000 L → 레진 125 L → 부피 유속 1,000 L/h → loading 2 h.**\n(1) 수확액 속 항체 = 3 kg ÷ 0.6 = 5 kg, 배양 부피 = 5,000 g ÷ 2.5 g/L = 2,000 L\n(2) 이론 레진 = 5,000,000 mg ÷ 50 mg/mL = 100,000 mL = 100 L, × 1.25 = 125 L\n(3) 단면적 = 125,000 cm³ ÷ 25 cm = 5,000 cm², 부피 유속 = 200 cm/h × 5,000 cm² = 1,000,000 mL/h = 1,000 L/h\n(4) loading 시간 = 2,000 L ÷ 1,000 L/h = 2 h\n흔한 실수: 회수율을 곱해 배양 부피를 1,200 L로 계산, 레진 부피를 bed height 대신 지름으로 나눔, mL/h → L/h 환산 누락.",
+      "source": "해설서 A8 · 해설서 부록 1 (예제 6 WK06 Case 1 변형) · WK06 PDF p.20–24",
+      "concepts": [
+        "Mass balance",
+        "DBC",
+        "linear velocity"
+      ],
+      "tags": [
+        "Mass balance",
+        "DBC",
+        "linear velocity"
+      ]
+    },
+    {
+      "id": "ex-701",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 scale-up에서 생산 컬럼에 대해 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "실험실 컬럼은 안지름 1.6 cm, bed height 20 cm이며 linear velocity 300 cm/h로 운전했다.",
+        "같은 공정이 되도록 생산 컬럼은 안지름만 32 cm로 키운다.",
+        "생산 컬럼은 한 batch를 3 cycle로 정제하고, cycle마다 버퍼를 모두 18 CV 흘린다."
+      ],
+      "answers": [
+        "1) 약 16.1 L  2) 약 241 L/h  3) 4분  4) 약 868 L"
+      ],
+      "subs": [
+        {
+          "label": "생산 컬럼 레진 부피 (L)",
+          "num": 16.08,
+          "answers": [
+            "16.1",
+            "16.08",
+            "약 16 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "생산 컬럼 부피 유속 (L/h)",
+          "num": 241.2,
+          "answers": [
+            "241",
+            "241.2",
+            "약 241 L/h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Residence time (분)",
+          "num": 4,
+          "answers": [
+            "4",
+            "4분"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 868.1,
+          "answers": [
+            "868",
+            "868.1",
+            "약 868 L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**생산 컬럼 약 16.1 L, 약 241 L/h, 체류 시간 4분, 버퍼 약 868 L.**\n(1) 같은 공정이면 bed height 20 cm·linear velocity 300 cm/h를 그대로 둔다. 단면적 = 3.14 × 16² = 803.8 cm², 부피 = 803.8 × 20 = 16,077 mL ≈ 16.1 L\n(2) 부피 유속 = 300 × 803.8 = 241,152 mL/h ≈ 241 L/h\n(3) residence time = 20 cm ÷ 300 cm/h = 0.0667 h × 60 = 4분(두 컬럼이 같다)\n(4) 버퍼 = 18 CV × 16.08 L × 3 cycle ≈ 868 L\n흔한 실수: 지름 32 cm를 반지름에 넣음(4배), cycle 수 빠뜨림.",
+      "source": "해설서 A9 · WK03 교재 p.57–60 (고정·변동 파라미터, scale-up 사례) · 해설서 부록 1",
+      "concepts": [
+        "scale-up",
+        "linear velocity",
+        "residence time"
+      ],
+      "tags": [
+        "scale-up",
+        "linear velocity",
+        "residence time"
+      ]
+    },
+    {
+      "id": "ex-702",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "15,000 L 배양기에 배지 12,000 L를 채워 titer 3 g/L로 배양했다.",
+        "단계별 수율은 clarification 90 %, Protein A 80 %, polishing(CEX·AEX) 75 %이고, 그 뒤 단계의 손실은 없다고 본다.",
+        "원료의약품은 바이알 하나에 120 mg씩 담으며, 충전 공정에서 원료의약품의 10 %를 잃는다."
+      ],
+      "answers": [
+        "1) 36 kg  2) 54 %  3) 19.44 kg  4) 145,800개"
+      ],
+      "subs": [
+        {
+          "label": "배양액 속 항체 (kg)",
+          "num": 36,
+          "answers": [
+            "36",
+            "36 kg"
+          ]
+        },
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 54,
+          "answers": [
+            "54",
+            "54 %",
+            "0.54"
+          ]
+        },
+        {
+          "label": "원료의약품 (kg)",
+          "num": 19.44,
+          "answers": [
+            "19.44",
+            "19.44 kg",
+            "약 19.4 kg"
+          ]
+        },
+        {
+          "label": "만들 수 있는 바이알 수 (개)",
+          "num": 145800,
+          "answers": [
+            "145800",
+            "145,800",
+            "145,800개"
+          ]
+        }
+      ],
+      "explanation": "**항체 36 kg → 전체 회수율 54 % → DS 19.44 kg → 바이알 145,800개.**\n(1) 12,000 L × 3 g/L = 36,000 g = 36 kg(배양기 부피 15,000 L가 아니라 배지 부피로)\n(2) 0.90 × 0.80 × 0.75 = 0.54(단계 수율은 곱한다 — 손실을 더하면 55 %로 틀린다)\n(3) 36 × 0.54 = 19.44 kg\n(4) 19,440,000 mg × 0.9 ÷ 120 mg = 145,800개",
+      "source": "해설서 E3 · 해설서 부록 1 (예제 7) · WK07 녹음 36:45–41:38",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "ex-703",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 교반 scale-up에서 다음 값을 각각 계산하시오. (π = 3.14)",
+      "box": [
+        "모양이 닮은 두 배양기가 있다. 작은 배양기는 임펠러 지름 0.2 m, 300 rpm으로 잘 배양되었다.",
+        "큰 배양기의 임펠러 지름은 1.0 m이다."
+      ],
+      "answers": [
+        "1) 3.14 m/s  2) 60 rpm  3) 0.2배(1/5)  4) 약 103 rpm"
+      ],
+      "subs": [
+        {
+          "label": "작은 배양기의 tip speed (m/s)",
+          "num": 3.14,
+          "answers": [
+            "3.14",
+            "3.14 m/s"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "같은 tip speed가 되는 큰 배양기의 회전수 (rpm)",
+          "num": 60,
+          "answers": [
+            "60",
+            "60 rpm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "그 회전수에서 큰 배양기의 P/V는 작은 배양기의 몇 배인가",
+          "num": 0.2,
+          "answers": [
+            "0.2",
+            "1/5",
+            "0.2배"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "같은 P/V가 되는 큰 배양기의 회전수 (rpm)",
+          "num": 102.6,
+          "answers": [
+            "103",
+            "102.6",
+            "약 103 rpm"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**3.14 m/s → 60 rpm → P/V 1/5 → 같은 P/V는 약 103 rpm.**\n(1) N = 300 ÷ 60 = 5 rps, tip speed = 3.14 × 5 × 0.2 = 3.14 m/s\n(2) N₂ = 300 × 0.2 ÷ 1.0 = 60 rpm\n(3) 닮은꼴이면 P/V ∝ N³D²: (60/300)³ × (1.0/0.2)² = (1/125) × 25 = 1/5\n(4) 같은 P/V: N₂ = 300 × (0.2/1.0)^(2/3) = 300 × 0.342 ≈ 103 rpm\ntip speed를 맞추면 P/V가 줄어들어 섞임이 나빠지므로 실제로는 P/V를 기준으로 scale-up하는 경우가 많다.",
+      "source": "해설서 C6 · WK02 PDF p.88, 91 (shear force, tip speed) · 해설서 부록 1 (예제 9)",
+      "concepts": [
+        "tip speed",
+        "P/V"
+      ],
+      "tags": [
+        "tip speed",
+        "P/V"
+      ]
+    },
+    {
+      "id": "ex-704",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 배양기에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양기의 생균 밀도(VCD)가 10 × 10⁶ cells/mL이고, 세포 하나의 산소 소비 속도는 0.3 × 10⁻⁹ mmol/cell/h이다.",
+        "공기 포화(DO 100 %) 때 용존산소 농도는 0.20 mmol/L이며, DO를 40 %로 유지하려 한다.",
+        "현재 배양기의 kLa는 20 h⁻¹이다."
+      ],
+      "answers": [
+        "1) 3.0 mmol/L/h  2) 25 h⁻¹  3) 2.4 mmol/L/h  4) 8 × 10⁶ cells/mL"
+      ],
+      "subs": [
+        {
+          "label": "배양액의 OUR (mmol/L/h)",
+          "num": 3,
+          "answers": [
+            "3",
+            "3.0"
+          ]
+        },
+        {
+          "label": "DO 40 % 유지에 필요한 최소 kLa (h⁻¹)",
+          "num": 25,
+          "answers": [
+            "25",
+            "25 h-1"
+          ]
+        },
+        {
+          "label": "현재 kLa에서의 OTR (mmol/L/h)",
+          "num": 2.4,
+          "answers": [
+            "2.4"
+          ]
+        },
+        {
+          "label": "현재 kLa로 DO 40 %를 유지할 수 있는 최대 VCD (× 10⁶ cells/mL)",
+          "num": 8,
+          "answers": [
+            "8",
+            "8 × 10^6"
+          ]
+        }
+      ],
+      "explanation": "**OUR 3.0 → 필요 kLa 25 h⁻¹ → 현재 OTR 2.4(부족) → 최대 VCD 8 × 10⁶ cells/mL.**\n(1) OUR = 10 × 10⁶ cells/mL × 1,000 mL/L × 0.3 × 10⁻⁹ mmol/cell/h = 3.0 mmol/L/h\n(2) C_L = 0.20 × 0.4 = 0.08 mmol/L, 필요 kLa = OUR ÷ (C* − C_L) = 3.0 ÷ 0.12 = 25 h⁻¹\n(3) OTR = 20 × 0.12 = 2.4 mmol/L/h < OUR이므로 DO가 떨어진다\n(4) 2.4 ÷ (0.3 × 10⁻⁹ × 1,000) = 8 × 10⁹ cells/L = 8 × 10⁶ cells/mL\n세포 하나의 산소 소비 속도로 OUR을 구하는 것은 일반 원리이다.",
+      "source": "해설서 C7 · WK02 PDF p.93–96 (Oxygen Transfer Rate ≥ OUR) · 해설서 부록 1 (예제 10)",
+      "concepts": [
+        "OTR",
+        "OUR",
+        "kLa"
+      ],
+      "tags": [
+        "OTR",
+        "OUR",
+        "kLa"
+      ]
+    },
+    {
+      "id": "ex-705",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 UF/DF 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "항체 농도 2 g/L인 용액 1,500 L를 손실 없이 50 g/L까지 농축한 뒤, 그 부피를 유지하며 7 diavolume DF를 한다.",
+        "UF cassette의 막 면적은 8 m²이고, 농축 동안 평균 flux는 60 LMH이다."
+      ],
+      "answers": [
+        "1) 60 L  2) 3 h  3) 420 L  4) 10,500 L"
+      ],
+      "subs": [
+        {
+          "label": "농축 후 retentate 부피 (L)",
+          "num": 60,
+          "answers": [
+            "60",
+            "60 L"
+          ]
+        },
+        {
+          "label": "농축에 걸리는 시간 (h)",
+          "num": 3,
+          "answers": [
+            "3",
+            "3 h",
+            "3시간"
+          ]
+        },
+        {
+          "label": "DF 버퍼 부피 (L)",
+          "num": 420,
+          "answers": [
+            "420",
+            "420 L"
+          ]
+        },
+        {
+          "label": "농축 전 1,500 L 상태에서 7 diavolume DF를 했다면 드는 버퍼 (L)",
+          "num": 10500,
+          "answers": [
+            "10500",
+            "10,500",
+            "10,500 L"
+          ]
+        }
+      ],
+      "explanation": "**60 L → 3 h → DF 버퍼 420 L(농축 전에 했다면 10,500 L).**\n(1) 항체 3,000 g ÷ 50 g/L = 60 L(25배 농축)\n(2) 빼낼 permeate = 1,500 − 60 = 1,440 L, 투과 속도 = 60 LMH × 8 m² = 480 L/h, 1,440 ÷ 480 = 3 h\n(3) DF 버퍼 = 7 × 60 L = 420 L\n(4) 7 × 1,500 L = 10,500 L — 그래서 UF로 먼저 농축한 뒤 DF를 한다\n흔한 실수: 투과 부피를 1,500 L 전체로 잡음(3.1 h), 면적을 곱하지 않음.",
+      "source": "해설서 E1 · WK06 녹음 42:08–45:30 · WK04 PDF p.103 (UF·DF) · 해설서 부록 1",
+      "concepts": [
+        "UF",
+        "diafiltration",
+        "flux"
+      ],
+      "tags": [
+        "UF",
+        "diafiltration",
+        "flux"
+      ]
+    },
+    {
+      "id": "ex-706",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 seed train에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "10,000 L 생산 배양기(N)를 0.5 × 10⁶ cells/mL로 접종한다. N-1 배양기의 세포는 4 × 10⁶ cells/mL까지 키운 뒤 옮긴다.",
+        "N-1 배양기도 0.5 × 10⁶ cells/mL로 접종하며, N-2 배양기의 세포 역시 4 × 10⁶ cells/mL에서 옮긴다.",
+        "세포의 doubling time은 1일이고 log phase가 유지된다."
+      ],
+      "answers": [
+        "1) 1,250 L  2) 3일  3) 156.25 L"
+      ],
+      "subs": [
+        {
+          "label": "N-1에서 옮길 배양액 부피 (L)",
+          "num": 1250,
+          "answers": [
+            "1250",
+            "1,250",
+            "1,250 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "N-1 단계에 걸리는 기간 (일)",
+          "num": 3,
+          "answers": [
+            "3",
+            "3일"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "N-2에서 옮길 배양액 부피 (L)",
+          "num": 156.25,
+          "answers": [
+            "156.25",
+            "156",
+            "약 156 L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**N-1 배양액 1,250 L, 3일, N-2 배양액 약 156 L.**\n(1) 옮길 부피 × 4 × 10⁶ = 10,000 L × 0.5 × 10⁶ → 10,000 × 0.5 ÷ 4 = 1,250 L\n(2) 0.5 → 4 × 10⁶은 8배 = 2³ → doubling 3번 = 3일\n(3) N-1 배양기에 배양액 1,250 L를 0.5 × 10⁶으로 만들려면 1,250 × 0.5 ÷ 4 = 156.25 L\n단계마다 8배씩 키우는 셈이다(강의 예는 약 5배).",
+      "source": "해설서 C5 · WK04 녹음② 57:01–1:01:31 (seed train, doubling time) · 해설서 부록 1 (예제 15)",
+      "concepts": [
+        "seed train",
+        "doubling time"
+      ],
+      "tags": [
+        "seed train",
+        "doubling time"
+      ]
+    },
+    {
+      "id": "ex-707",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 바이러스 clearance 결과에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "spiking study에서 low pH VI 단계는 처리 전 바이러스 2 × 10⁸ 입자가 처리 후 2 × 10⁴ 입자로 줄었다.",
+        "같은 공정의 AEX 단계 LRV는 3, virus filtration 단계 LRV는 5로 확인되었다.",
+        "수확액 한 batch에 들어 있을 수 있는 바이러스를 최대 10¹⁴ 입자로 가정한다."
+      ],
+      "answers": [
+        "1) 4  2) 12  3) 100개"
+      ],
+      "subs": [
+        {
+          "label": "Low pH VI 단계의 LRV",
+          "num": 4,
+          "answers": [
+            "4",
+            "4 log"
+          ]
+        },
+        {
+          "label": "세 단계를 합한 전체 LRV",
+          "num": 12,
+          "answers": [
+            "12",
+            "12 log"
+          ]
+        },
+        {
+          "label": "세 단계 뒤 남을 수 있는 바이러스 입자 수",
+          "num": 100,
+          "answers": [
+            "100",
+            "10^2",
+            "100개"
+          ]
+        }
+      ],
+      "explanation": "**Low pH 4 log + AEX 3 log + VF 5 log = 12 log → 10¹⁴ ÷ 10¹² = 100 입자.**\n(1) LRV = log₁₀(2 × 10⁸ ÷ 2 × 10⁴) = log₁₀(10⁴) = 4\n(2) 단계별 LRV를 더한다: 4 + 3 + 5 = 12\n(3) 10¹⁴ ÷ 10¹² = 10² = 100 입자\n흔한 실수: LRV를 곱함, 처리 전·후 수를 빼서 계산함. 원리가 다른(orthogonal) 단계를 더해야 의미가 있다.",
+      "source": "해설서 E9 · 해설서 부록 1 (예제 11 LRV) · WK06 PDF p.8–11",
+      "concepts": [
+        "LRV",
+        "virus clearance"
+      ],
+      "tags": [
+        "LRV",
+        "virus clearance"
+      ]
+    },
+    {
+      "id": "ex-708",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 filter sizing 결과로 공정 필터를 정할 때 다음 값을 각각 계산하시오.",
+      "box": [
+        "배치 부피는 3,600 L이고, sizing test에서 filter capacity는 300 L/m², flux는 100 LMH였다.",
+        "막힘에 대비해 이론 면적보다 50 % 크게 잡고, 막 면적 1.8 m²인 cartridge를 정수 개로 설치한다."
+      ],
+      "answers": [
+        "1) 12 m²  2) 18 m²  3) 10개  4) 2 h"
+      ],
+      "subs": [
+        {
+          "label": "이론 막 면적 (m²)",
+          "num": 12,
+          "answers": [
+            "12",
+            "12 m2"
+          ]
+        },
+        {
+          "label": "설계 여유를 둔 막 면적 (m²)",
+          "num": 18,
+          "answers": [
+            "18",
+            "18 m2"
+          ]
+        },
+        {
+          "label": "설치할 cartridge 수 (개)",
+          "num": 10,
+          "answers": [
+            "10",
+            "10개"
+          ]
+        },
+        {
+          "label": "설치한 면적으로 배치를 거르는 데 걸리는 시간 (h)",
+          "num": 2,
+          "answers": [
+            "2",
+            "2 h",
+            "2시간"
+          ]
+        }
+      ],
+      "explanation": "**12 m² → 18 m² → cartridge 10개 → 2 h.**\n(1) 3,600 L ÷ 300 L/m² = 12 m²\n(2) 12 × 1.5 = 18 m²\n(3) 18 ÷ 1.8 = 10개\n(4) 투과 속도 = 100 LMH × 18 m² = 1,800 L/h, 3,600 ÷ 1,800 = 2 h\ncapacity(L/m²)는 막히기 전까지 처리하는 양, flux(LMH)는 단위 면적·시간당 통과량이다.",
+      "source": "해설서 E1 · WK04 PDF p.64–70 (Filter sizing) · 해설서 부록 1",
+      "concepts": [
+        "filter sizing",
+        "flux"
+      ],
+      "tags": [
+        "filter sizing",
+        "flux"
+      ]
+    },
+    {
+      "id": "ex-709",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확액은 8,000 L, titer는 2.5 g/L이다.",
+        "Protein A 레진(DBC 40 mg/mL) 100 L를 충전한 컬럼으로 정제하며, cycle마다 DBC만큼 가득 싣고 버퍼를 모두 20 CV 흘린다.",
+        "레진 가격은 1 L당 $15,000이다. 비교안으로 한 번(1 cycle)에 모두 결합시킬 수 있는 크기의 컬럼도 검토한다(safety factor 없음)."
+      ],
+      "answers": [
+        "1) 5 cycle  2) 10,000 L  3) 500 L  4) $6,000,000"
+      ],
+      "subs": [
+        {
+          "label": "필요한 cycle 수",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 cycle"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 10000,
+          "answers": [
+            "10000",
+            "10,000",
+            "10,000 L"
+          ]
+        },
+        {
+          "label": "한 번에 모두 결합시키는 컬럼의 레진 부피 (L)",
+          "num": 500,
+          "answers": [
+            "500",
+            "500 L"
+          ]
+        },
+        {
+          "label": "두 안의 레진 구입비 차이 ($)",
+          "num": 6000000,
+          "answers": [
+            "6000000",
+            "6,000,000",
+            "$6,000,000"
+          ]
+        }
+      ],
+      "explanation": "**5 cycle, 버퍼 10,000 L, 1 cycle안 레진 500 L, 레진값 차이 $6,000,000.**\n(1) 항체 = 8,000 × 2.5 = 20,000 g, cycle당 100,000 mL × 40 mg/mL = 4,000 g → 20,000 ÷ 4,000 = 5 cycle\n(2) 20 CV × 100 L × 5 cycle = 10,000 L\n(3) 20,000,000 mg ÷ 40 mg/mL = 500,000 mL = 500 L\n(4) (500 − 100) L × $15,000 = $6,000,000\ncycle을 늘리면 레진값은 줄지만 공정 시간·버퍼·인건비가 늘어 회사가 논리적으로 고른다.",
+      "source": "해설서 A8 · WK06 PDF p.22–23 · WK06 녹음 2:53:53–2:55:51 · 해설서 부록 1",
+      "concepts": [
+        "cycle",
+        "DBC",
+        "Mass balance"
+      ],
+      "tags": [
+        "cycle",
+        "DBC",
+        "Mass balance"
+      ]
     }
   ]
 }

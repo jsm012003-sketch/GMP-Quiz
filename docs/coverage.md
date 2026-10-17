@@ -11,6 +11,12 @@
 - 기출 38문항의 해설을 보기마다 교안 근거로 다시 썼다.
 - 미출제·보충 필요: WK04 PDF·바이오시밀러 교과서(스캔본)의 슬라이드 원문 확인, D-value·H₂O₂ 잔류 감소 계산(교안에 공식 없음).
 
+### 2026.10.16–17 3차 디벨롭
+- 「주차별 개정판」·「오픈북 자료집」 기준으로 객관식 선지를 기출식 함정(낱말·숫자·방향 하나 바꾸기, 논리 뒤집기, 이웃 개념 끌어오기)으로 고치고 지문 누출을 없앴다.
+- 「오픈북 자료집 (3)」(2026.10.17, 107쪽) 부록 4에서 새 문항 16개(ex-638~653): virus clearance 기술표·모델 바이러스 내성·clearance validation 설계, MF/UF/NF/RO 표(압력), MWCO 선택, 기체 여과 메커니즘, integrity test 파괴/비파괴·bubble point 식·PUPSIT(단답), TFF 목적별 제품 위치, NWP·막 재사용, 공정/제품 유래 불순물, pH 6.9 vs 7.3, 배양 방식 기간·titer, 임상 단계, intensified seed.
+- 고난도 계산 세트 10개(ex-700~709, `level: "hard"`, 제시문 + 3~4칸): Protein A 설계, column scale-up·버퍼, 단계 수율 mass balance·바이알, tip speed·P/V, OUR·kLa·최대 VCD, UF/DF 시간·버퍼, seed train, LRV, filter sizing·cartridge, cycle·레진 비용. 모의고사(20문항 이상)마다 1개 이상 출제.
+- 아직 안 낸 것(지엽적이라 보류): 전기 용량표(Network·Diesel·UPS), 건물 배치 개념(spine·campus), 정제 원가 비중, HEPA 등급 수치, 제조사별 integrity test 명칭.
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)
