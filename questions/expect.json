@@ -22964,6 +22964,1720 @@
         "SEC"
       ],
       "tol": 0.03
+    },
+    {
+      "id": "ex-758",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-712",
+      "question": "<보기>의 공정에 필요한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Scenario 1은 한 batch를 8 cycle로 정제해 용출액 226 L를 얻었고, 용출액의 항체 농도는 14.6 g/L였다.",
+        "Protein A까지의 단계별 수율은 clarification 96.2 %, Protein A 88.5 %이다. 배양 titer는 2.14 g/L이다.",
+        "생산 배양기는 공칭 용량의 75 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 3,299.6 g  2) 3,876 g  3) 1,811 L  4) 2,415 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3299.6,
+          "answers": [
+            "3,299.6",
+            "3299.6",
+            "3,299.6 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 3875.6357,
+          "answers": [
+            "3,876",
+            "3876",
+            "3,876 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1811.0447,
+          "answers": [
+            "1,811",
+            "1811",
+            "1,811 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 2414.7263,
+          "answers": [
+            "2,415",
+            "2415",
+            "2,415 L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,299.6 g → 배양액 3,876 g → 배양 부피 약 1,811 L → 배양기 약 2,415 L.**\n(1) 항체 = 14.6 g/L × 226 L = 3,299.6 g\n(2) 3,299.6 ÷ 0.962 ÷ 0.885 ≈ 3,875.6 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 3,875.6 g ÷ 2.14 g/L ≈ 1,811 L\n(4) 1,811 ÷ 0.75 ≈ 2,414.7 L(배양기 부피와 배지 부피는 다르다)\n흔한 실수: 수율을 곱해 1,313 L로 계산, 공칭 용량에 0.75를 곱해 1,358 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-759",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-712",
+      "question": "<보기>의 공정에 필요한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Scenario 2는 한 batch를 4 cycle로 정제해 cycle마다 용출액 63.5 L를 받았고, 용출액의 항체 농도는 12.9 g/L였다.",
+        "Protein A까지의 단계별 수율은 depth filtration 93.5 %, Protein A 91 %이다. 배양 titer는 1.62 g/L이다.",
+        "생산 배양기는 공칭 용량의 82 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 3,276.6 g  2) 3,851 g  3) 2,377 L  4) 2,899 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3276.6,
+          "answers": [
+            "3,276.6",
+            "3276.6",
+            "3,276.6 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 3850.9726,
+          "answers": [
+            "3,851",
+            "3851",
+            "3,851 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2377.1436,
+          "answers": [
+            "2,377",
+            "2377",
+            "2,377 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 2898.9556,
+          "answers": [
+            "2,899",
+            "2899",
+            "2,899 L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,276.6 g → 배양액 3,851 g → 배양 부피 약 2,377 L → 배양기 약 2,899 L.**\n(1) 용출액 부피 = 63.5 L × 4 cycle = 254 L, 항체 = 12.9 g/L × 254 L = 3,276.6 g\n(2) 3,276.6 ÷ 0.935 ÷ 0.91 ≈ 3,851 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 3,851 g ÷ 1.62 g/L ≈ 2,377.1 L\n(4) 2,377.1 ÷ 0.82 ≈ 2,899 L(배양기 부피와 배지 부피는 다르다)\n흔한 실수: 수율을 곱해 1,721 L로 계산, 공칭 용량에 0.82를 곱해 1,949 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-760",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-712",
+      "question": "<보기>의 공정에 필요한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch를 5 cycle로 정제해 용출액 318.6 L를 얻었고, 용출액의 항체 농도는 11.35 g/L였다.",
+        "Protein A까지의 단계별 수율은 clarification 94.8 %, depth filtration 97.3 %, Protein A 89.3 %이다. 배양 titer는 2.47 g/L이다.",
+        "생산 배양기는 공칭 용량의 78 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 3,616.1 g  2) 4,390 g  3) 1,777 L  4) 2,279 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3616.11,
+          "answers": [
+            "3,616.1",
+            "3616.1",
+            "3,616.1 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 4390.0452,
+          "answers": [
+            "4,390",
+            "4390",
+            "4,390 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1777.3463,
+          "answers": [
+            "1,777",
+            "1777",
+            "1,777 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 2278.649,
+          "answers": [
+            "2,279",
+            "2279",
+            "2,279 L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,616.1 g → 배양액 4,390 g → 배양 부피 약 1,777 L → 배양기 약 2,279 L.**\n(1) 항체 = 11.35 g/L × 318.6 L = 3,616.1 g\n(2) 3,616.1 ÷ 0.948 ÷ 0.973 ÷ 0.893 ≈ 4,390 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 4,390 g ÷ 2.47 g/L ≈ 1,777.3 L\n(4) 1,777.3 ÷ 0.78 ≈ 2,278.6 L(배양기 부피와 배지 부피는 다르다)\n흔한 실수: 수율을 곱해 1,206 L로 계산, 공칭 용량에 0.78를 곱해 1,386 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-761",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-712",
+      "question": "<보기>의 공정에 필요한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch를 9 cycle로 정제해 cycle마다 용출액 27.4 L를 받았고, 용출액의 항체 농도는 15.82 g/L였다.",
+        "Protein A까지의 단계별 수율은 clarification 95.7 %, Protein A 92.6 %이다. 배양 titer는 3.06 g/L이다.",
+        "생산 배양기는 공칭 용량의 80 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 3,901.2 g  2) 4,402 g  3) 1,439 L  4) 1,798 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3901.212,
+          "answers": [
+            "3,901.2",
+            "3901.2",
+            "3,901.2 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 4402.2695,
+          "answers": [
+            "4,402",
+            "4402",
+            "4,402 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1438.6502,
+          "answers": [
+            "1,439",
+            "1439",
+            "1,439 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 1798.3127,
+          "answers": [
+            "1,798",
+            "1798",
+            "1,798 L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,901.2 g → 배양액 4,402 g → 배양 부피 약 1,439 L → 배양기 약 1,798 L.**\n(1) 용출액 부피 = 27.4 L × 9 cycle = 246.6 L, 항체 = 15.82 g/L × 246.6 L = 3,901.2 g\n(2) 3,901.2 ÷ 0.957 ÷ 0.926 ≈ 4,402.3 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 4,402.3 g ÷ 3.06 g/L ≈ 1,438.7 L\n(4) 1,438.7 ÷ 0.8 ≈ 1,798.3 L(배양기 부피와 배지 부피는 다르다)\n흔한 실수: 수율을 곱해 1,130 L로 계산, 공칭 용량에 0.8를 곱해 1,151 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-762",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-711",
+      "question": "<보기>의 결과로 배양 titer를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Scenario 2는 한 batch를 4 cycle로 정제해 용출액 254 L를 얻었고, 용출액의 항체 농도는 12.9 g/L였다.",
+        "Protein A까지의 단계별 수율은 clarification 93.1 %, Protein A 88.7 %이다.",
+        "생산 배양기는 공칭 용량 3,000 L이고, 그 80 %까지 배지를 채워 배양했다."
+      ],
+      "answers": [
+        "1) 3,276.6 g  2) 3,968 g  3) 2,400 L  4) 1.653 g/L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3276.6,
+          "answers": [
+            "3,276.6",
+            "3276.6",
+            "3,276.6 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 3967.8032,
+          "answers": [
+            "3,968",
+            "3968",
+            "3,968 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2400.0,
+          "answers": [
+            "2,400",
+            "2400",
+            "2,400 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 1.6533,
+          "answers": [
+            "1.653",
+            "1.653 g/L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,276.6 g → 배양액 3,968 g → 배양 부피 2,400 L → titer 약 1.653 g/L.**\n(1) 항체 = 12.9 g/L × 254 L = 3,276.6 g\n(2) 3,276.6 ÷ 0.931 ÷ 0.887 ≈ 3,967.8 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 3,000 L × 0.8 = 2,400 L\n(4) 3,967.8 g ÷ 2,400 L ≈ 1.653 g/L\n흔한 실수: 공칭 용량으로 나눠 1.323 g/L, 수율을 빼고 1.365 g/L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-763",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-711",
+      "question": "<보기>의 결과로 배양 titer를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Scenario 1은 한 batch를 8 cycle로 정제해 cycle마다 용출액 28.25 L를 받았고, 용출액의 항체 농도는 14.6 g/L였다.",
+        "Protein A까지의 단계별 수율은 depth filtration 95.2 %, Protein A 90.4 %이다.",
+        "생산 배양기는 공칭 용량 2,500 L이고, 그 84 %까지 배지를 채워 배양했다."
+      ],
+      "answers": [
+        "1) 3,299.6 g  2) 3,834 g  3) 2,100 L  4) 1.826 g/L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3299.6,
+          "answers": [
+            "3,299.6",
+            "3299.6",
+            "3,299.6 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 3834.0336,
+          "answers": [
+            "3,834",
+            "3834",
+            "3,834 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2100.0,
+          "answers": [
+            "2,100",
+            "2100",
+            "2,100 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 1.8257,
+          "answers": [
+            "1.826",
+            "1.826 g/L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,299.6 g → 배양액 3,834 g → 배양 부피 2,100 L → titer 약 1.826 g/L.**\n(1) 용출액 부피 = 28.25 L × 8 cycle = 226 L, 항체 = 14.6 g/L × 226 L = 3,299.6 g\n(2) 3,299.6 ÷ 0.952 ÷ 0.904 ≈ 3,834 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 2,500 L × 0.84 = 2,100 L\n(4) 3,834 g ÷ 2,100 L ≈ 1.826 g/L\n흔한 실수: 공칭 용량으로 나눠 1.534 g/L, 수율을 빼고 1.571 g/L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-764",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-711",
+      "question": "<보기>의 결과로 배양 titer를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch를 6 cycle로 정제해 용출액 412.3 L를 얻었고, 용출액의 항체 농도는 9.84 g/L였다.",
+        "Protein A까지의 단계별 수율은 clarification 96.6 %, depth filtration 98.1 %, Protein A 91.7 %이다.",
+        "생산 배양기는 공칭 용량 4,000 L이고, 그 76 %까지 배지를 채워 배양했다."
+      ],
+      "answers": [
+        "1) 4,057 g  2) 4,669 g  3) 3,040 L  4) 1.536 g/L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 4057.032,
+          "answers": [
+            "4,057",
+            "4057",
+            "4,057 g"
+          ]
+        },
+        {
+          "label": "배양액 속 항체 (g)",
+          "num": 4668.6677,
+          "answers": [
+            "4,669",
+            "4669",
+            "4,669 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 3040.0,
+          "answers": [
+            "3,040",
+            "3040",
+            "3,040 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 1.5357,
+          "answers": [
+            "1.536",
+            "1.536 g/L"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 4,057 g → 배양액 4,669 g → 배양 부피 3,040 L → titer 약 1.536 g/L.**\n(1) 항체 = 9.84 g/L × 412.3 L = 4,057 g\n(2) 4,057 ÷ 0.966 ÷ 0.981 ÷ 0.917 ≈ 4,668.7 g(거슬러 올라갈 때는 수율로 나눈다)\n(3) 4,000 L × 0.76 = 3,040 L\n(4) 4,668.7 g ÷ 3,040 L ≈ 1.536 g/L\n흔한 실수: 공칭 용량으로 나눠 1.167 g/L, 수율을 빼고 1.335 g/L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ]
+    },
+    {
+      "id": "ex-765",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-710",
+      "question": "<보기>의 Protein A 공정 조건으로 배양 titer와 생산 부피를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 30 cm, bed height 20 cm이고, binding capacity 50 g/L, linear velocity 320 cm/h로 운전한다. (π = 3.14)",
+        "한 batch를 8 cycle로 나누어 정제하며, 매 cycle 레진에 binding capacity의 85 %까지 실어 수확액의 항체를 남김없이 결합시킨다.",
+        "Clarification 손실은 없고, 버퍼 단계를 뺀 수확액 loading에만 모두 5.85 h가 걸렸다."
+      ],
+      "answers": [
+        "1) 14.13 L  2) 4,804 g  3) 1,323 L  4) 3.632 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 14.13,
+          "answers": [
+            "14.13",
+            "14.13 L"
+          ]
+        },
+        {
+          "label": "수확액 속 항체 (g)",
+          "num": 4804.2,
+          "answers": [
+            "4,804",
+            "4804",
+            "4,804 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1322.568,
+          "answers": [
+            "1,323",
+            "1323",
+            "1,323 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 3.6325,
+          "answers": [
+            "3.632",
+            "3.632 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 약 14.13 L → 항체 약 4,804 g → 배양 부피 약 1,323 L → titer 약 3.632 g/L.**\n(1) 3.14 × 15² × 20 = 14,130 mL ≈ 14.13 L\n(2) 8 cycle × 14.13 L × 50 g/L × 0.85 ≈ 4,804 g\n(3) 부피 유속 = 320 cm/h × 706.5 cm² = 226.08 L/h, × 5.85 h ≈ 1,323 L\n(4) 4,804 g ÷ 1,323 L ≈ 3.632 g/L\n흔한 실수: 지름을 반지름으로 넣어 CV 56.5 L, 적재 비율을 빼서 항체 5,652 g, mL → L 환산 누락.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-766",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-710",
+      "question": "<보기>의 Protein A 공정 조건으로 배양 titer와 생산 부피를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 60 cm, bed height 22 cm이고, binding capacity 47.5 g/L, linear velocity 280 cm/h로 운전한다. (π = 3.14)",
+        "한 batch를 3 cycle로 나누어 정제하며, 매 cycle 레진에 binding capacity의 80 %까지 실어 수확액의 항체를 남김없이 결합시킨다.",
+        "Clarification 손실은 없고, 버퍼 단계를 뺀 수확액 loading에만 모두 9.4 h가 걸렸다."
+      ],
+      "answers": [
+        "1) 62.17 L  2) 7,088 g  3) 7,438 L  4) 0.953 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 62.172,
+          "answers": [
+            "62.17",
+            "62.17 L"
+          ]
+        },
+        {
+          "label": "수확액 속 항체 (g)",
+          "num": 7087.608,
+          "answers": [
+            "7,088",
+            "7088",
+            "7,088 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 7438.032,
+          "answers": [
+            "7,438",
+            "7438",
+            "7,438 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 0.9529,
+          "answers": [
+            "0.953",
+            "0.953 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 약 62.17 L → 항체 약 7,088 g → 배양 부피 약 7,438 L → titer 약 0.953 g/L.**\n(1) 3.14 × 30² × 22 = 62,172 mL ≈ 62.17 L\n(2) 3 cycle × 62.17 L × 47.5 g/L × 0.8 ≈ 7,088 g\n(3) 부피 유속 = 280 cm/h × 2,826 cm² = 791.28 L/h, × 9.4 h ≈ 7,438 L\n(4) 7,088 g ÷ 7,438 L ≈ 0.953 g/L\n흔한 실수: 지름을 반지름으로 넣어 CV 248.7 L, 적재 비율을 빼서 항체 8,860 g, mL → L 환산 누락.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-767",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-710",
+      "question": "<보기>의 Protein A 공정 조건으로 배양 titer와 생산 부피를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 38 cm, bed height 18.5 cm이고, binding capacity 52 g/L, linear velocity 300 cm/h로 운전한다. (π = 3.14)",
+        "한 batch를 5 cycle로 나누어 정제하며, 매 cycle 레진에 binding capacity까지 꽉 채워 수확액의 항체를 남김없이 결합시킨다.",
+        "Clarification 손실은 없고, 버퍼 단계를 뺀 수확액 loading에만 모두 7.25 h가 걸렸다."
+      ],
+      "answers": [
+        "1) 20.97 L  2) 5,452 g  3) 2,465 L  4) 2.211 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 20.9705,
+          "answers": [
+            "20.97",
+            "20.97 L"
+          ]
+        },
+        {
+          "label": "수확액 속 항체 (g)",
+          "num": 5452.3274,
+          "answers": [
+            "5,452",
+            "5452",
+            "5,452 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2465.4495,
+          "answers": [
+            "2,465",
+            "2465",
+            "2,465 L"
+          ]
+        },
+        {
+          "label": "배양 titer (g/L)",
+          "num": 2.2115,
+          "answers": [
+            "2.211",
+            "2.211 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 약 20.97 L → 항체 약 5,452 g → 배양 부피 약 2,465 L → titer 약 2.211 g/L.**\n(1) 3.14 × 19² × 18.5 = 20,970 mL ≈ 20.97 L\n(2) 5 cycle × 20.97 L × 52 g/L ≈ 5,452 g\n(3) 부피 유속 = 300 cm/h × 1,133.5 cm² = 340.06 L/h, × 7.25 h ≈ 2,465 L\n(4) 5,452 g ÷ 2,465 L ≈ 2.211 g/L\n흔한 실수: 지름을 반지름으로 넣어 CV 83.9 L, 적재 비율을 빼서 항체 5,452 g, mL → L 환산 누락.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-768",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-713",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 35 cm, bed height 21 cm인 Protein A 컬럼으로 한 batch를 6 cycle에 나누어 정제한다. (π = 3.14)",
+        "매 cycle equilibration 5 CV, post-load wash 4 CV, elution 2.5 CV, strip 3 CV, re-equilibration 4 CV의 버퍼를 흘린다.",
+        "한 batch 동안 컬럼에 건 항체는 모두 4,250 g이고, Protein A 수율은 92.7 %이다."
+      ],
+      "answers": [
+        "1) 20.19 L  2) 484.7 L  3) 302.9 L  4) 13.01 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 20.1941,
+          "answers": [
+            "20.19",
+            "20.19 L"
+          ]
+        },
+        {
+          "label": "한 batch의 post-load wash 버퍼 (L)",
+          "num": 484.659,
+          "answers": [
+            "484.7",
+            "484.7 L"
+          ]
+        },
+        {
+          "label": "한 batch의 용출액 부피 (L)",
+          "num": 302.9119,
+          "answers": [
+            "302.9",
+            "302.9 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 13.0063,
+          "answers": [
+            "13.01",
+            "13.01 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 20.19 L → post-load wash 484.7 L → 용출액 302.9 L → 농도 약 13.01 g/L.**\n(1) 3.14 × 17.5² × 21 = 20,194 mL ≈ 20.19 L\n(2) 4 CV × 20.19 L × 6 cycle ≈ 484.7 L\n(3) 2.5 CV × 20.19 L × 6 cycle ≈ 302.9 L\n(4) 4,250 × 0.927 = 3,939.8 g, ÷ 302.9 L ≈ 13.01 g/L\n흔한 실수: cycle 수를 빠뜨려 post-load wash 80.8 L, 수율을 빼서 농도 14.03 g/L, 용출액에 버퍼 전체 18.5 CV를 곱함.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-769",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-713",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 45 cm, bed height 19 cm인 Protein A 컬럼으로 한 batch를 4 cycle에 나누어 정제한다. (π = 3.14)",
+        "매 cycle equilibration 4 CV, post-load wash 5 CV, elution 3 CV, regeneration 3 CV의 버퍼를 흘린다.",
+        "한 batch 동안 컬럼에 건 항체는 모두 5,180 g이고, Protein A 수율은 89.6 %이다."
+      ],
+      "answers": [
+        "1) 30.2 L  2) 483.2 L  3) 362.4 L  4) 12.81 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 30.2029,
+          "answers": [
+            "30.2",
+            "30.2 L"
+          ]
+        },
+        {
+          "label": "한 batch의 equilibration 버퍼 (L)",
+          "num": 483.246,
+          "answers": [
+            "483.2",
+            "483.2 L"
+          ]
+        },
+        {
+          "label": "한 batch의 용출액 부피 (L)",
+          "num": 362.4345,
+          "answers": [
+            "362.4",
+            "362.4 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 12.8058,
+          "answers": [
+            "12.81",
+            "12.81 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 30.2 L → equilibration 483.2 L → 용출액 362.4 L → 농도 약 12.81 g/L.**\n(1) 3.14 × 22.5² × 19 = 30,203 mL ≈ 30.2 L\n(2) 4 CV × 30.2 L × 4 cycle ≈ 483.2 L\n(3) 3 CV × 30.2 L × 4 cycle ≈ 362.4 L\n(4) 5,180 × 0.896 = 4,641.3 g, ÷ 362.4 L ≈ 12.81 g/L\n흔한 실수: cycle 수를 빠뜨려 equilibration 120.8 L, 수율을 빼서 농도 14.29 g/L, 용출액에 버퍼 전체 15 CV를 곱함.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-770",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-713",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 26 cm, bed height 24 cm인 Protein A 컬럼으로 한 batch를 10 cycle에 나누어 정제한다. (π = 3.14)",
+        "매 cycle equilibration 5 CV, post-load wash 5 CV, elution 2 CV, CIP 3 CV, re-equilibration 5 CV의 버퍼를 흘린다.",
+        "한 batch 동안 컬럼에 건 항체는 모두 2,960 g이고, Protein A 수율은 91.2 %이다."
+      ],
+      "answers": [
+        "1) 12.74 L  2) 382.1 L  3) 254.7 L  4) 10.6 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 12.7358,
+          "answers": [
+            "12.74",
+            "12.74 L"
+          ]
+        },
+        {
+          "label": "한 batch의 CIP 버퍼 (L)",
+          "num": 382.0752,
+          "answers": [
+            "382.1",
+            "382.1 L"
+          ]
+        },
+        {
+          "label": "한 batch의 용출액 부피 (L)",
+          "num": 254.7168,
+          "answers": [
+            "254.7",
+            "254.7 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 10.5981,
+          "answers": [
+            "10.6",
+            "10.6 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 12.74 L → CIP 382.1 L → 용출액 254.7 L → 농도 약 10.6 g/L.**\n(1) 3.14 × 13² × 24 = 12,736 mL ≈ 12.74 L\n(2) 3 CV × 12.74 L × 10 cycle ≈ 382.1 L\n(3) 2 CV × 12.74 L × 10 cycle ≈ 254.7 L\n(4) 2,960 × 0.912 = 2,699.5 g, ÷ 254.7 L ≈ 10.6 g/L\n흔한 실수: cycle 수를 빠뜨려 CIP 38.2 L, 수율을 빼서 농도 11.62 g/L, 용출액에 버퍼 전체 20 CV를 곱함.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "CV"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-771",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-714",
+      "question": "<보기>의 두 Protein A 설계안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양 부피 2,350 L, titer 1.97 g/L이며 clarification 수율은 96.2 %이다.",
+        "설계안 A는 안지름 32 cm, 설계안 B는 안지름 50 cm 컬럼이고, 둘 다 bed height 21 cm, binding capacity 48 g/L이다. (π = 3.14)",
+        "매 cycle 레진에는 binding capacity의 85 %까지만 싣고, 용출에는 cycle마다 2.5 CV를 쓴다."
+      ],
+      "answers": [
+        "1) 4,454 g  2) 7 cycle  3) 3 cycle  4) 309.1 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 4453.579,
+          "answers": [
+            "4,454",
+            "4454",
+            "4,454 g"
+          ]
+        },
+        {
+          "label": "설계안 A의 cycles per batch",
+          "num": 7,
+          "answers": [
+            "7",
+            "7",
+            "7 cycle",
+            "7회"
+          ]
+        },
+        {
+          "label": "설계안 B의 cycles per batch",
+          "num": 3,
+          "answers": [
+            "3",
+            "3",
+            "3 cycle",
+            "3회"
+          ]
+        },
+        {
+          "label": "설계안 B의 한 batch 용출액 부피 (L)",
+          "num": 309.0938,
+          "answers": [
+            "309.1",
+            "309.1 L"
+          ]
+        }
+      ],
+      "explanation": "**항체 4,454 g → A 7 cycle, B 3 cycle → B 용출액 약 309.1 L.**\n(1) 2,350 × 1.97 × 0.962 ≈ 4,454 g\n(2) A: CV = 16.88 L, cycle당 16.88 × 48 × 0.85 = 688.7 g → 6.47 → 올림 7\n(3) B: CV = 41.21 L, cycle당 1,681.5 g → 2.65 → 올림 3\n(4) 2.5 CV × 41.21 L × 3 ≈ 309.1 L\n흔한 실수: cycle을 반올림·버림해 6·2 cycle, 적재 비율을 빼서 A 6 cycle.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-772",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-714",
+      "question": "<보기>의 두 Protein A 설계안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양 부피 1,640 L, titer 3.12 g/L이며 clarification 손실은 없다.",
+        "설계안 A는 안지름 28 cm, 설계안 B는 안지름 44 cm 컬럼이고, 둘 다 bed height 22 cm, binding capacity 55 g/L이다. (π = 3.14)",
+        "매 cycle 레진에는 binding capacity의 80 %까지만 싣고, 용출에는 cycle마다 2 CV를 쓴다."
+      ],
+      "answers": [
+        "1) 5,117 g  2) 9 cycle  3) 4 cycle  4) 267.5 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 5116.8,
+          "answers": [
+            "5,117",
+            "5117",
+            "5,117 g"
+          ]
+        },
+        {
+          "label": "설계안 A의 cycles per batch",
+          "num": 9,
+          "answers": [
+            "9",
+            "9",
+            "9 cycle",
+            "9회"
+          ]
+        },
+        {
+          "label": "설계안 B의 cycles per batch",
+          "num": 4,
+          "answers": [
+            "4",
+            "4",
+            "4 cycle",
+            "4회"
+          ]
+        },
+        {
+          "label": "설계안 B의 한 batch 용출액 부피 (L)",
+          "num": 267.4778,
+          "answers": [
+            "267.5",
+            "267.5 L"
+          ]
+        }
+      ],
+      "explanation": "**항체 5,117 g → A 9 cycle, B 4 cycle → B 용출액 약 267.5 L.**\n(1) 1,640 × 3.12 ≈ 5,117 g\n(2) A: CV = 13.54 L, cycle당 13.54 × 55 × 0.8 = 595.7 g → 8.59 → 올림 9\n(3) B: CV = 33.43 L, cycle당 1,471.1 g → 3.48 → 올림 4\n(4) 2 CV × 33.43 L × 4 ≈ 267.5 L\n흔한 실수: cycle을 반올림·버림해 8·3 cycle, 적재 비율을 빼서 A 7 cycle.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-773",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-714",
+      "question": "<보기>의 두 Protein A 설계안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양 부피 4,120 L, titer 1.46 g/L이며 clarification 수율은 94.7 %이다.",
+        "설계안 A는 안지름 40 cm, 설계안 B는 안지름 63 cm 컬럼이고, 둘 다 bed height 19 cm, binding capacity 46 g/L이다. (π = 3.14)",
+        "매 cycle 레진에는 binding capacity의 75 %까지만 싣고, 용출에는 cycle마다 2.5 CV를 쓴다."
+      ],
+      "answers": [
+        "1) 5,696 g  2) 7 cycle  3) 3 cycle  4) 444 L"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 5696.3944,
+          "answers": [
+            "5,696",
+            "5696",
+            "5,696 g"
+          ]
+        },
+        {
+          "label": "설계안 A의 cycles per batch",
+          "num": 7,
+          "answers": [
+            "7",
+            "7",
+            "7 cycle",
+            "7회"
+          ]
+        },
+        {
+          "label": "설계안 B의 cycles per batch",
+          "num": 3,
+          "answers": [
+            "3",
+            "3",
+            "3 cycle",
+            "3회"
+          ]
+        },
+        {
+          "label": "설계안 B의 한 batch 용출액 부피 (L)",
+          "num": 443.9823,
+          "answers": [
+            "444",
+            "444 L"
+          ]
+        }
+      ],
+      "explanation": "**항체 5,696 g → A 7 cycle, B 3 cycle → B 용출액 약 444 L.**\n(1) 4,120 × 1.46 × 0.947 ≈ 5,696 g\n(2) A: CV = 23.86 L, cycle당 23.86 × 46 × 0.75 = 823.3 g → 6.92 → 올림 7\n(3) B: CV = 59.2 L, cycle당 2,042.3 g → 2.79 → 올림 3\n(4) 2.5 CV × 59.2 L × 3 ≈ 444 L\n흔한 실수: cycle을 반올림·버림해 6·2 cycle, 적재 비율을 빼서 A 6 cycle.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-774",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-715",
+      "question": "<보기>의 Protein A 공정 시간을 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 45 cm, bed height 20 cm인 Protein A 컬럼을 linear velocity 320 cm/h로 운전한다. (π = 3.14)",
+        "수확액 2,730 L를 4 cycle로 나누어 loading하고, 매 cycle equilibration 5 CV, post-load wash 5 CV, elution 2 CV, regeneration 3 CV를 같은 유속으로 흘린다.",
+        "그 밖의 준비 시간은 없다고 본다."
+      ],
+      "answers": [
+        "1) 508.68 L/h  2) 5.37 h  3) 3.75 h  4) 9.12 h"
+      ],
+      "subs": [
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 508.68,
+          "answers": [
+            "508.68",
+            "508.68 L/h"
+          ]
+        },
+        {
+          "label": "수확액 loading 시간 합계 (h)",
+          "num": 5.3668,
+          "answers": [
+            "5.37",
+            "5.37 h"
+          ]
+        },
+        {
+          "label": "버퍼 단계 시간 합계 (h)",
+          "num": 3.75,
+          "answers": [
+            "3.75",
+            "3.75 h"
+          ]
+        },
+        {
+          "label": "한 batch 공정 시간 (h)",
+          "num": 9.1168,
+          "answers": [
+            "9.12",
+            "9.12 h"
+          ]
+        }
+      ],
+      "explanation": "**508.68 L/h → loading 5.37 h + 버퍼 3.75 h = 약 9.12 h.**\n(1) 320 cm/h × 3.14 × 22.5² cm² = 508,680 mL/h = 508.68 L/h\n(2) 2,730 ÷ 508.68 ≈ 5.37 h\n(3) 15 CV × 31.79 L × 4 cycle = 1,907.6 L, ÷ 508.68 ≈ 3.75 h(1 CV ÷ 유속 = 20 cm ÷ 320 cm/h로도 구한다)\n(4) 5.37 + 3.75 ≈ 9.12 h\n흔한 실수: 버퍼 시간을 한 cycle 값(0.94 h)만 더함, 지름을 반지름으로 넣어 유속 2,034.7 L/h.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-775",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-715",
+      "question": "<보기>의 Protein A 공정 시간을 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 36 cm, bed height 23 cm인 Protein A 컬럼을 linear velocity 275 cm/h로 운전한다. (π = 3.14)",
+        "수확액 1,985 L를 6 cycle로 나누어 loading하고, 매 cycle equilibration 4 CV, wash 6 CV, elution 2.5 CV, strip 3 CV, re-equilibration 4 CV를 같은 유속으로 흘린다.",
+        "그 밖의 준비 시간은 없다고 본다."
+      ],
+      "answers": [
+        "1) 279.77 L/h  2) 7.1 h  3) 9.79 h  4) 16.88 h"
+      ],
+      "subs": [
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 279.774,
+          "answers": [
+            "279.77",
+            "279.77 L/h"
+          ]
+        },
+        {
+          "label": "수확액 loading 시간 합계 (h)",
+          "num": 7.095,
+          "answers": [
+            "7.1",
+            "7.1 h"
+          ]
+        },
+        {
+          "label": "버퍼 단계 시간 합계 (h)",
+          "num": 9.7855,
+          "answers": [
+            "9.79",
+            "9.79 h"
+          ]
+        },
+        {
+          "label": "한 batch 공정 시간 (h)",
+          "num": 16.8805,
+          "answers": [
+            "16.88",
+            "16.88 h"
+          ]
+        }
+      ],
+      "explanation": "**279.77 L/h → loading 7.1 h + 버퍼 9.79 h = 약 16.88 h.**\n(1) 275 cm/h × 3.14 × 18² cm² = 279,774 mL/h = 279.77 L/h\n(2) 1,985 ÷ 279.77 ≈ 7.1 h\n(3) 19.5 CV × 23.4 L × 6 cycle = 2,737.7 L, ÷ 279.77 ≈ 9.79 h(1 CV ÷ 유속 = 23 cm ÷ 275 cm/h로도 구한다)\n(4) 7.1 + 9.79 ≈ 16.88 h\n흔한 실수: 버퍼 시간을 한 cycle 값(1.63 h)만 더함, 지름을 반지름으로 넣어 유속 1,119.1 L/h.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-776",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-715",
+      "question": "<보기>의 Protein A 공정 시간을 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 52 cm, bed height 18 cm인 Protein A 컬럼을 linear velocity 350 cm/h로 운전한다. (π = 3.14)",
+        "수확액 4,460 L를 5 cycle로 나누어 loading하고, 매 cycle equilibration 5 CV, wash 4 CV, elution 3 CV, CIP 4 CV를 같은 유속으로 흘린다.",
+        "그 밖의 준비 시간은 없다고 본다."
+      ],
+      "answers": [
+        "1) 742.92 L/h  2) 6 h  3) 4.11 h  4) 10.12 h"
+      ],
+      "subs": [
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 742.924,
+          "answers": [
+            "742.92",
+            "742.92 L/h"
+          ]
+        },
+        {
+          "label": "수확액 loading 시간 합계 (h)",
+          "num": 6.0033,
+          "answers": [
+            "6",
+            "6 h"
+          ]
+        },
+        {
+          "label": "버퍼 단계 시간 합계 (h)",
+          "num": 4.1143,
+          "answers": [
+            "4.11",
+            "4.11 h"
+          ]
+        },
+        {
+          "label": "한 batch 공정 시간 (h)",
+          "num": 10.1176,
+          "answers": [
+            "10.12",
+            "10.12 h"
+          ]
+        }
+      ],
+      "explanation": "**742.92 L/h → loading 6 h + 버퍼 4.11 h = 약 10.12 h.**\n(1) 350 cm/h × 3.14 × 26² cm² = 742,924 mL/h = 742.92 L/h\n(2) 4,460 ÷ 742.92 ≈ 6 h\n(3) 16 CV × 38.21 L × 5 cycle = 3,056.6 L, ÷ 742.92 ≈ 4.11 h(1 CV ÷ 유속 = 18 cm ÷ 350 cm/h로도 구한다)\n(4) 6 + 4.11 ≈ 10.12 h\n흔한 실수: 버퍼 시간을 한 cycle 값(0.82 h)만 더함, 지름을 반지름으로 넣어 유속 2,971.7 L/h.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "linear velocity",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-777",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-716",
+      "question": "<보기>의 목표 생산량을 맞추기 위한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 6.3 kg을 얻으려 하며, 배양 titer는 3.35 g/L이다.",
+        "단계별 수율은 clarification 95.5 %, Protein A 91.8 %, low pH VI 96.2 %, CEX 87.4 %, AEX 94.1 %, virus filtration 95.3 %, UF/DF 96.8 %이다.",
+        "생산 배양기는 공칭 용량의 80 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 64 %  2) 9.85 kg  3) 2,939 L  4) 3,674 L"
+      ],
+      "subs": [
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 63.9868,
+          "answers": [
+            "64",
+            "64 %",
+            "0.64"
+          ]
+        },
+        {
+          "label": "배양액 속에 있어야 할 항체 (kg)",
+          "num": 9.8458,
+          "answers": [
+            "9.85",
+            "9.85 kg"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2939.0387,
+          "answers": [
+            "2,939",
+            "2939",
+            "2,939 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 3673.7984,
+          "answers": [
+            "3,674",
+            "3674",
+            "3,674 L"
+          ]
+        }
+      ],
+      "explanation": "**전체 회수율 약 64 % → 항체 약 9.85 kg → 배양 부피 약 2,939 L → 배양기 약 3,674 L.**\n(1) 0.955 × 0.918 × 0.962 × 0.874 × 0.941 × 0.953 × 0.968 ≈ 0.6399(단계 수율은 곱한다 — 손실을 더해 57.1 %로 쓰면 틀린다)\n(2) 6,300 g ÷ 0.6399 ≈ 9,846 g\n(3) 9,846 ÷ 3.35 ≈ 2,939 L\n(4) 2,939 ÷ 0.8 ≈ 3,674 L\n흔한 실수: 회수율을 곱해 1,203 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "수율"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "수율"
+      ]
+    },
+    {
+      "id": "ex-778",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-716",
+      "question": "<보기>의 목표 생산량을 맞추기 위한 배양 규모를 구하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 2.85 kg을 얻으려 하며, 배양 titer는 1.94 g/L이다.",
+        "단계별 수율은 depth filtration 94.7 %, Protein A 93.1 %, low pH VI 97.5 %, CEX 86.2 %, AEX 95.8 %, UF/DF 97.2 %이다.",
+        "생산 배양기는 공칭 용량의 75 %까지만 배지를 채운다."
+      ],
+      "answers": [
+        "1) 69 %  2) 4.13 kg  3) 2,129 L  4) 2,839 L"
+      ],
+      "subs": [
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 68.9991,
+          "answers": [
+            "69",
+            "69 %",
+            "0.69"
+          ]
+        },
+        {
+          "label": "배양액 속에 있어야 할 항체 (kg)",
+          "num": 4.1305,
+          "answers": [
+            "4.13",
+            "4.13 kg"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2129.1184,
+          "answers": [
+            "2,129",
+            "2129",
+            "2,129 L"
+          ]
+        },
+        {
+          "label": "생산 배양기 공칭 용량 (L)",
+          "num": 2838.8245,
+          "answers": [
+            "2,839",
+            "2839",
+            "2,839 L"
+          ]
+        }
+      ],
+      "explanation": "**전체 회수율 약 69 % → 항체 약 4.13 kg → 배양 부피 약 2,129 L → 배양기 약 2,839 L.**\n(1) 0.947 × 0.931 × 0.975 × 0.862 × 0.958 × 0.972 ≈ 0.69(단계 수율은 곱한다 — 손실을 더해 64.5 %로 쓰면 틀린다)\n(2) 2,850 g ÷ 0.69 ≈ 4,130 g\n(3) 4,130 ÷ 1.94 ≈ 2,129 L\n(4) 2,129 ÷ 0.75 ≈ 2,839 L\n흔한 실수: 회수율을 곱해 1,014 L로 계산.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "수율"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "수율"
+      ]
+    },
+    {
+      "id": "ex-779",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-717",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 한 batch의 용출액은 254 L, 항체 농도는 12.9 g/L이다.",
+        "Protein A 뒤 low pH VI부터 UF/DF까지의 전체 수율은 68.4 %이다.",
+        "원료의약품을 바이알 하나에 120 mg씩 충전하며 충전 공정에서 3.5 %를 잃고, 이 공정을 1년에 26 batch 돌린다."
+      ],
+      "answers": [
+        "1) 3,276.6 g  2) 2,241.2 g  3) 18,022개  4) 58.27 kg"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 3276.6,
+          "answers": [
+            "3,276.6",
+            "3276.6",
+            "3,276.6 g"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (g)",
+          "num": 2241.1944,
+          "answers": [
+            "2,241.2",
+            "2241.2",
+            "2,241.2 g"
+          ]
+        },
+        {
+          "label": "한 batch 바이알 수 (개)",
+          "num": 18022,
+          "answers": [
+            "18,022",
+            "18022",
+            "18,022개"
+          ]
+        },
+        {
+          "label": "1년 원료의약품 생산량 (kg)",
+          "num": 58.2711,
+          "answers": [
+            "58.27",
+            "58.27 kg"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 3,276.6 g → DS 2,241.2 g → 바이알 18,022개 → 연간 약 58.27 kg.**\n(1) 12.9 × 254 = 3,276.6 g\n(2) 3,276.6 × 0.684 ≈ 2,241.2 g\n(3) 2,241,194 mg × 0.965 ÷ 120 mg ≈ 18,022.9 → 18,022개(남는 양은 버림)\n(4) 2,241.2 g × 26 ≈ 58,271 g ≈ 58.27 kg\n흔한 실수: 충전 손실을 나누기로 처리해 19,354개, mg ↔ g 환산 누락.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "DP"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "DP"
+      ]
+    },
+    {
+      "id": "ex-780",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-717",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 한 batch의 용출액은 187.5 L, 항체 농도는 13.74 g/L이다.",
+        "Protein A 뒤 low pH VI부터 UF/DF까지의 전체 수율은 71.2 %이다.",
+        "원료의약품을 바이알 하나에 200 mg씩 충전하며 충전 공정에서 4.2 %를 잃고, 이 공정을 1년에 19 batch 돌린다."
+      ],
+      "answers": [
+        "1) 2,576.2 g  2) 1,834.3 g  3) 8,786개  4) 34.85 kg"
+      ],
+      "subs": [
+        {
+          "label": "Protein A 용출액 속 항체 (g)",
+          "num": 2576.25,
+          "answers": [
+            "2,576.2",
+            "2576.2",
+            "2,576.2 g"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (g)",
+          "num": 1834.29,
+          "answers": [
+            "1,834.3",
+            "1834.3",
+            "1,834.3 g"
+          ]
+        },
+        {
+          "label": "한 batch 바이알 수 (개)",
+          "num": 8786,
+          "answers": [
+            "8,786",
+            "8786",
+            "8,786개"
+          ]
+        },
+        {
+          "label": "1년 원료의약품 생산량 (kg)",
+          "num": 34.8515,
+          "answers": [
+            "34.85",
+            "34.85 kg"
+          ]
+        }
+      ],
+      "explanation": "**용출 항체 2,576.2 g → DS 1,834.3 g → 바이알 8,786개 → 연간 약 34.85 kg.**\n(1) 13.74 × 187.5 = 2,576.2 g\n(2) 2,576.2 × 0.712 ≈ 1,834.3 g\n(3) 1,834,290 mg × 0.958 ÷ 200 mg ≈ 8,786.2 → 8,786개(남는 양은 버림)\n(4) 1,834.3 g × 19 ≈ 34,852 g ≈ 34.85 kg\n흔한 실수: 충전 손실을 나누기로 처리해 9,573개, mg ↔ g 환산 누락.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "DP"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "DP"
+      ]
+    },
+    {
+      "id": "ex-781",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-702",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "2,000 L 배양기에 배지 1,640 L를 채워 titer 4.35 g/L로 배양했다.",
+        "단계별 수율은 clarification 94.5 %, Protein A 87.2 %, CEX 91.3 %, AEX 95.8 %이고, 그 밖의 손실은 없다고 본다.",
+        "원료의약품은 바이알 하나에 150 mg씩 담으며, 충전 공정에서 원료의약품의 6 %를 잃는다."
+      ],
+      "answers": [
+        "1) 7.13 kg  2) 72.1 %  3) 5.14 kg  4) 32,222개"
+      ],
+      "subs": [
+        {
+          "label": "배양액 속 항체 (kg)",
+          "num": 7.134,
+          "answers": [
+            "7.13",
+            "7.13 kg"
+          ]
+        },
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 72.075,
+          "answers": [
+            "72.1",
+            "72.1 %",
+            "0.721"
+          ]
+        },
+        {
+          "label": "원료의약품 (kg)",
+          "num": 5.1418,
+          "answers": [
+            "5.14",
+            "5.14 kg"
+          ]
+        },
+        {
+          "label": "만들 수 있는 바이알 수 (개)",
+          "num": 32222,
+          "answers": [
+            "32,222",
+            "32222",
+            "32,222개"
+          ]
+        }
+      ],
+      "explanation": "**항체 7.13 kg → 회수율 72.1 % → DS 5.14 kg → 바이알 32,222개.**\n(1) 1,640 L × 4.35 g/L = 7,134 g(배양기 2,000 L가 아니라 배지 부피로)\n(2) 0.945 × 0.872 × 0.913 × 0.958 ≈ 0.7207\n(3) 7,134 × 0.7207 ≈ 5,142 g\n(4) 5,141,830 mg × 0.94 ÷ 150 ≈ 32,222.1 → 32,222개\n흔한 실수: 배양기 부피로 계산해 항체 8.7 kg, 단계 손실을 더해 회수율 68.8 %로 씀.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "ex-782",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-702",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "10,000 L 배양기에 배지 8,150 L를 채워 titer 2.62 g/L로 배양했다.",
+        "단계별 수율은 depth filtration 95.8 %, Protein A 89.4 %, low pH VI 97.1 %, CEX 88.6 %, UF/DF 96.2 %이고, 그 밖의 손실은 없다고 본다.",
+        "원료의약품은 바이알 하나에 100 mg씩 담으며, 충전 공정에서 원료의약품의 4.5 %를 잃는다."
+      ],
+      "answers": [
+        "1) 21.35 kg  2) 70.9 %  3) 15.14 kg  4) 144,541개"
+      ],
+      "subs": [
+        {
+          "label": "배양액 속 항체 (kg)",
+          "num": 21.353,
+          "answers": [
+            "21.35",
+            "21.35 kg"
+          ]
+        },
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 70.8812,
+          "answers": [
+            "70.9",
+            "70.9 %",
+            "0.709"
+          ]
+        },
+        {
+          "label": "원료의약품 (kg)",
+          "num": 15.1353,
+          "answers": [
+            "15.14",
+            "15.14 kg"
+          ]
+        },
+        {
+          "label": "만들 수 있는 바이알 수 (개)",
+          "num": 144541,
+          "answers": [
+            "144,541",
+            "144541",
+            "144,541개"
+          ]
+        }
+      ],
+      "explanation": "**항체 21.35 kg → 회수율 70.9 % → DS 15.14 kg → 바이알 144,541개.**\n(1) 8,150 L × 2.62 g/L = 21,353 g(배양기 10,000 L가 아니라 배지 부피로)\n(2) 0.958 × 0.894 × 0.971 × 0.886 × 0.962 ≈ 0.7088\n(3) 21,353 × 0.7088 ≈ 15,135 g\n(4) 15,135,262 mg × 0.955 ÷ 100 ≈ 144,541.8 → 144,541개\n흔한 실수: 배양기 부피로 계산해 항체 26.2 kg, 단계 손실을 더해 회수율 67.1 %로 씀.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "ex-783",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-702",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "5,000 L 배양기에 배지 4,280 L를 채워 titer 3.18 g/L로 배양했다.",
+        "단계별 수율은 clarification 93.2 %, Protein A 90.7 %, AEX 94.9 %, virus filtration 96.6 %이고, 그 밖의 손실은 없다고 본다.",
+        "원료의약품은 바이알 하나에 400 mg씩 담으며, 충전 공정에서 원료의약품의 8 %를 잃는다."
+      ],
+      "answers": [
+        "1) 13.61 kg  2) 77.5 %  3) 10.55 kg  4) 24,258개"
+      ],
+      "subs": [
+        {
+          "label": "배양액 속 항체 (kg)",
+          "num": 13.6104,
+          "answers": [
+            "13.61",
+            "13.61 kg"
+          ]
+        },
+        {
+          "label": "정제 전체 회수율 (%)",
+          "num": 77.4937,
+          "answers": [
+            "77.5",
+            "77.5 %",
+            "0.775"
+          ]
+        },
+        {
+          "label": "원료의약품 (kg)",
+          "num": 10.5472,
+          "answers": [
+            "10.55",
+            "10.55 kg"
+          ]
+        },
+        {
+          "label": "만들 수 있는 바이알 수 (개)",
+          "num": 24258,
+          "answers": [
+            "24,258",
+            "24258",
+            "24,258개"
+          ]
+        }
+      ],
+      "explanation": "**항체 13.61 kg → 회수율 77.5 % → DS 10.55 kg → 바이알 24,258개.**\n(1) 4,280 L × 3.18 g/L = 13,610 g(배양기 5,000 L가 아니라 배지 부피로)\n(2) 0.932 × 0.907 × 0.949 × 0.966 ≈ 0.7749\n(3) 13,610 × 0.7749 ≈ 10,547 g\n(4) 10,547,206 mg × 0.92 ÷ 400 ≈ 24,258.6 → 24,258개\n흔한 실수: 배양기 부피로 계산해 항체 15.9 kg, 단계 손실을 더해 회수율 75.4 %로 씀.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume — Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:53:20–2:55:51",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
     }
   ]
 }
