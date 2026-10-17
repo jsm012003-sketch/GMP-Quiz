@@ -29,6 +29,8 @@
     3: { roman: 'III', name: '단답형', note: '용어·핵심 사실을 직접 쓴다. 영어·우리말 어느 쪽도 정답이고, 띄어쓰기·대소문자는 보지 않는다.', ratio: 0.20, points: 2 },
   };
   const ESSAY_POINTS = 5;
+  // 보기 줄이 (가)·ⓐ·1) 같은 표지로 시작할 때만 내어쓰기(그 밖의 줄은 줄바꿈해도 들여쓰지 않음)
+  const BOX_LABEL = /^\s*(\([가-힣A-Za-z0-9]\)|[ⓐ-ⓩ①-⑳㉠-㉭]|\d+\)|[A-Z]\.)\s/;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
@@ -36,7 +38,7 @@
   // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
   const FINAL_UNITS = ['기출']; // 2026.10.15: 파이널 모드 = 작년 2학기 중간고사 기출(questions/past.json)
   const FINAL_CALC_SHARE = 0;
-  const isFixedScope = (mode) => mode === 'mock' || mode === 'final';
+  const isFixedScope = (mode) => mode === 'mock' || mode === 'final' || mode === 'hardCalc';
   // 시험지는 강의 주차 순서로(2026.10.15 사용자 요청): 문항의 "lec"(2~8), 없으면 키워드 절로 짐작
   const PAPER_WEEK_ORDER = true;
   const KW_LEC = { A: 3, B: 5, C: 2, D: 2, E: 6 };
@@ -69,6 +71,7 @@
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
+    hardCalc: { label: 'Max 난이도 계산', icon: '🧮', kind: 'study', desc: '고난도 계산 세트만 골라 풀기 (칸마다 채점·풀이)' },
     final: { label: '작년 중간고사 기출', icon: '🎯', kind: 'exam', desc: '작년 2학기 중간고사 기출문제를 원문 그대로 푸는 시험 (해설 포함)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
     shared: { label: '공유 시험지', icon: '🔗', kind: 'exam', desc: '' },
@@ -589,12 +592,16 @@
       picked = shuffle(pool);
     } else if (mode === 'final') {
       picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
+    } else if (mode === 'hardCalc') {
+      // 고난도 계산 세트만: 덜 푼 세트부터, 같은 횟수끼리는 무작위
+      const order = shuffle(pool).sort((a, b) => qMeta(a.id).a - qMeta(b.id).a);
+      picked = order.slice(0, Math.min(count, order.length));
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
       ({ picked, review } = compose(pool, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : {}));
     }
-    picked = (mode === 'review' || mode === 'final') ? picked : orderPicked(picked, kind);
+    picked = (mode === 'review' || mode === 'final' || mode === 'hardCalc') ? picked : orderPicked(picked, kind);
     return sessionFrom(mode, picked, { review, poolSize: pool.length });
   }
 
@@ -874,6 +881,7 @@
   function poolFor(mode) {
     if (mode === 'mock') return S.units.flatMap((u) => u.questions).filter(activePart);
     if (mode === 'final') return S.units.filter((u) => FINAL_UNITS.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
+    if (mode === 'hardCalc') return S.units.flatMap((u) => u.questions).filter((q) => q.hard);
     if (mode === 'review') return wrongIdsInBank().map((id) => S.qById.get(id));
     const keys = selectedUnitKeys();
     return S.units.filter((u) => keys.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
@@ -920,7 +928,7 @@
     const isMock = isFixedScope(mode);
 
     const unitRows = S.units.map((u) => {
-      const checked = mode === 'final' ? FINAL_UNITS.includes(u.key) : (isMock || keys.includes(u.key));
+      const checked = mode === 'final' ? FINAL_UNITS.includes(u.key) : (isMock || keys.includes(u.key)); // hardCalc는 전 단원의 고난도 세트
       const seenN = u.questions.filter((q) => qMeta(q.id).a).length;
       const c = cum[u.key];
       return `
@@ -975,7 +983,7 @@
         <section class="card">
           <div class="card-head"><h2>1. 모드 선택</h2></div>
           <div class="mode-grid" role="group" aria-label="모드">
-            ${['study', 'unitExam', 'mock', 'final'].map((m) => `
+            ${['study', 'unitExam', 'mock', 'hardCalc', 'final'].map((m) => `
               <button type="button" class="mode-card" data-action="mode" data-value="${m}" aria-pressed="${mode === m}">
                 <span class="mode-icon" aria-hidden="true">${MODES[m].icon}</span>
                 <span class="mode-name">${MODES[m].label}</span>
@@ -987,7 +995,7 @@
         <section class="card">
           <div class="card-head">
             <h2>2. 범위 선택</h2>
-            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
+            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : mode === 'hardCalc' ? '전범위 고난도 계산 세트만' : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
           </div>
           <div class="unit-list">${unitRows}</div>
           ${isMock ? '' : `
@@ -1074,7 +1082,7 @@
   // ---------------------------------------------------------------- 출제 현황 화면
   function renderCoverage() {
     const mode = S.prefs.mode;
-    const scopeKeys = mode === 'mock' ? S.units.map((u) => u.key)
+    const scopeKeys = (mode === 'mock' || mode === 'hardCalc') ? S.units.map((u) => u.key)
       : mode === 'final' ? S.units.map((u) => u.key).filter((k) => FINAL_UNITS.includes(k)) : selectedUnitKeys();
     const covered = coveredConceptKeys();
     const pool = S.units.filter((u) => scopeKeys.includes(u.key)).flatMap((u) => u.questions);
@@ -1125,7 +1133,7 @@
     // 그림 문항(기출의 센서·그래프 등): "image": "img/past/…png" 또는 배열
     const imgs = (q.images || []).map((src) => `<figure class="qimg"><img src="${esc(src)}" alt="문항 그림"></figure>`).join('');
     if (!q.box || !q.box.length) return imgs;
-    return `${imgs}<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p>${rich(b)}</p>`).join('')}</div>`;
+    return `${imgs}<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p${BOX_LABEL.test(b) ? ' class="hang"' : ''}>${rich(b)}</p>`).join('')}</div>`;
   }
   function tagsHTML(q, item) {
     const u = unitOf(q.unit);
