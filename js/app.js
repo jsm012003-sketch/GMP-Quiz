@@ -47,6 +47,10 @@
   const KW_COVER_MIN_N = 40;
   // 여러 칸을 계산하는 고난도 계산 문항("level": "hard")은 20문항 이상 시험지마다 최소 이만큼(2026.10.17)
   const HARD_CALC_MIN = 1;
+  // 20문항 이상 시험지는 주차(2~7)마다 계산 문항 1개 이상, 리뷰에서 계산으로 짚은 키워드마다 1개 이상(2026.10.17)
+  //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
+  const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
+  const CALC_KWS = ['C6', 'A8', 'E3'];
   function questionStyle(id, type) {
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
@@ -516,6 +520,20 @@
         capsOn = savedCaps;
         if (!ok) break;
       }
+    }
+    // 계산 키워드마다, 그다음 강의 주차마다 계산 문항을 하나씩 꼭 넣는다(출제 횟수가 적은 것부터)
+    if (n >= 20) {
+      const takeCalc = (match) => {
+        if (picked.some((q) => q.style === 'calc' && match(q))) return;
+        const c = pool.filter((q) => q.style === 'calc' && match(q) && !pickedIds.has(q.id));
+        if (!c.length) return;
+        const lowA = Math.min(...c.map((q) => qMeta(q.id).a));
+        const savedCaps = capsOn; capsOn = false;
+        take(c.filter((q) => qMeta(q.id).a === lowA), false);
+        capsOn = savedCaps;
+      };
+      CALC_KWS.forEach((k) => takeCalc((q) => q.kw === k));
+      CALC_WEEKS.forEach((w) => takeCalc((q) => lecOf(q) === w));
     }
     // 계산 문항 몇 개는 꼭 넣는다(출제 횟수가 적은 것부터)
     while (styleCnt.calc < calcMin) {
