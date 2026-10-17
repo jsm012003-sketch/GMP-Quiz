@@ -29,6 +29,8 @@
     3: { roman: 'III', name: '단답형', note: '용어·핵심 사실을 직접 쓴다. 영어·우리말 어느 쪽도 정답이고, 띄어쓰기·대소문자는 보지 않는다.', ratio: 0.20, points: 2 },
   };
   const ESSAY_POINTS = 5;
+  // 보기 줄이 (가)·ⓐ·1) 같은 표지로 시작할 때만 내어쓰기(그 밖의 줄은 줄바꿈해도 들여쓰지 않음)
+  const BOX_LABEL = /^\s*(\([가-힣A-Za-z0-9]\)|[ⓐ-ⓩ①-⑳㉠-㉭]|\d+\)|[A-Z]\.)\s/;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
@@ -1131,7 +1133,7 @@
     // 그림 문항(기출의 센서·그래프 등): "image": "img/past/…png" 또는 배열
     const imgs = (q.images || []).map((src) => `<figure class="qimg"><img src="${esc(src)}" alt="문항 그림"></figure>`).join('');
     if (!q.box || !q.box.length) return imgs;
-    return `${imgs}<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p>${rich(b)}</p>`).join('')}</div>`;
+    return `${imgs}<div class="qbox"><span class="qbox-title">&lt;보 기&gt;</span>${q.box.map((b) => `<p${BOX_LABEL.test(b) ? ' class="hang"' : ''}>${rich(b)}</p>`).join('')}</div>`;
   }
   function tagsHTML(q, item) {
     const u = unitOf(q.unit);
