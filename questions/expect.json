@@ -233,7 +233,7 @@
       "part": 1,
       "question": "레진에 결합한 단백질을 용출하는 방법에 해당되지 않는 것은?",
       "choices": [
-        "Straight fractionation으로 일정한 부피씩 잘라 받는다",
+        "Straight fractionation으로 받는다",
         "레진의 ligand와 경쟁하는 물질을 넣는다",
         "버퍼의 염 농도를 높인다",
         "버퍼의 pH를 바꾼다"
@@ -395,18 +395,18 @@
       "part": 2,
       "question": "Rs 공식에서 분자와 분모가 반영하는 성질의 매칭이 가장 올바른 것은?",
       "choices": [
-        "분자(peak 사이 거리) – Efficiency, 분모(peak 폭) – Selectivity",
-        "분자(peak 사이 거리) – Efficiency, 분모(peak 폭) – Recovery",
-        "분자(peak 사이 거리) – Selectivity, 분모(peak 폭) – Binding capacity",
+        "분자(peak 사이 거리) – Retention, 분모(peak 폭) – Recovery",
+        "분자(peak 사이 거리) – Selectivity, 분모(peak 폭) – Recovery",
+        "분자(peak 사이 거리) – Retention, 분모(peak 폭) – Efficiency",
         "분자(peak 사이 거리) – Selectivity, 분모(peak 폭) – Efficiency"
       ],
       "answer": 4,
       "explanation": "**Rs 공식의 분자(peak 사이 거리)는 Selectivity, 분모(peak 폭)는 Efficiency를 반영한다.** 교재 필기: Selectivity ⇒ target peak와 불순물 peak가 얼마나 떨어졌나 / Efficiency ⇒ peak가 sharp.",
       "choiceNotes": [
-        "틀리다 — 두 성질을 뒤바꿨다. peak 사이 거리가 selectivity, peak 폭(날카로움)이 efficiency이다.",
-        "틀리다 — peak 사이 거리는 efficiency가 아니라 selectivity이며, recovery(회수율)는 Rs 식에 들어가지 않는다.",
-        "틀리다 — 분자는 맞지만 분모가 틀렸다. binding capacity는 레진이 붙잡을 수 있는 양으로, peak 폭과 관계없는 값이다.",
-        "옳다 — 앞 항은 peak가 얼마나 떨어져 있는가(selectivity), 뒤 항은 peak가 얼마나 날카로운가(efficiency)를 반영한다."
+        "틀리다 — peak가 늦게 나오는 정도(retention)는 두 peak가 얼마나 떨어지는지와 다르고, recovery는 회수율이라 peak 폭과 관계없다.",
+        "틀리다 — 분자는 맞지만 분모가 틀렸다. Peak 폭은 컬럼의 efficiency(이론단수)를 반영하며, recovery는 회수율이다.",
+        "틀리다 — 분모는 맞지만 분자가 틀렸다. 두 peak 사이 거리는 retention 자체가 아니라 두 물질을 얼마나 다르게 붙잡는지, 즉 selectivity를 반영한다.",
+        "옳다 — 분자(두 peak 머무름 시간 차이)는 selectivity, 분모(peak 폭)는 efficiency를 반영한다."
       ],
       "source": "해설서 A1 · WK03 교재 p.16 (사진 785)",
       "concepts": [
@@ -689,17 +689,17 @@
         "그래서 단계마다 쓰는 레진 비드의 크기가 다르다."
       ],
       "choices": [
-        "Capture 10~15 µm – Intermediate 90 µm – Polishing 30~34 µm",
-        "Capture 10~15 µm – Intermediate 30~34 µm – Polishing 90 µm",
-        "Capture 30~34 µm – Intermediate 90 µm – Polishing 10~15 µm",
+        "Capture 90 µm – Intermediate 10~15 µm – Polishing 3~5 µm",
+        "Capture 200 µm – Intermediate 90 µm – Polishing 30~34 µm",
+        "Capture 30~34 µm – Intermediate 10~15 µm – Polishing 3~5 µm",
         "Capture 90 µm – Intermediate 30~34 µm – Polishing 10~15 µm"
       ],
       "answer": 4,
       "explanation": "**Capture 90 µm → Intermediate 30~34 µm → Polishing 10~15 µm.** 처리량이 큰 Capture에서는 큰 비드로 빨리 많이 처리하고, 불순물이 적게 남은 Polishing에서는 작은 비드로 분해능을 높인다(교재 필기: 처음 단계 / 중간 / 마무리).",
       "choiceNotes": [
-        "틀리다 — 가장 작은 비드(10~15 µm)를 Capture에, 가장 큰 비드(90 µm)를 Intermediate에 놓았다. 가장 작은 비드는 분해능이 중요한 Polishing에 쓴다.",
-        "틀리다 — 처음과 마무리를 뒤바꿨다. 처리량이 큰 Capture에 90 µm, 마지막 Polishing에 10~15 µm를 쓴다.",
-        "틀리다 — 가장 큰 비드(90 µm)를 Intermediate에 놓았다. 교재 p.9는 90 µm를 처음 단계, 30~34 µm를 중간 단계에 배치했다.",
+        "틀리다 — Capture는 맞지만 Intermediate에 Polishing 비드(10~15 µm)를, Polishing에 분석용 HPLC 비드(3~5 µm)를 놓았다. Process 컬럼은 3~5 µm 비드의 압력을 견딜 수 없다.",
+        "틀리다 — 한 칸씩 크게 잡았다. 교재 p.9에서 process 단계의 가장 큰 비드는 Capture의 90 µm이고, 30~34 µm는 Intermediate, Polishing은 10~15 µm이다.",
+        "틀리다 — 한 칸씩 작게 잡았다. 30~34 µm는 Intermediate 비드이고, 3~5 µm는 분석용 HPLC 비드이다.",
         "옳다 — Capture 90 µm(빨리 많이 처리), Intermediate 30~34 µm, Polishing 10~15 µm(분해능)이다."
       ],
       "source": "해설서 A1 · 부록 2 · WK03 교재 p.9 From Lab-scale to Process-scale (사진 781) · WK03 교재 6.2",
@@ -3429,7 +3429,7 @@
         "분리 시간이 짧아진다",
         "버퍼 소비가 줄어든다",
         "목적 단백질을 농축해서 받을 수 있다",
-        "처음 보는 시료의 peak를 가장 높은 분해능으로 분리한다"
+        "처음 보는 시료를 고분해능으로 분리한다"
       ],
       "answer": 4,
       "explanation": "**Step elution의 장점은 분리 시간 단축, 버퍼 소비 감소, 목적 단백질 농축, 불순물 제거에도 쓸 수 있다는 네 가지이다.** 교재는 \"gradient로 최적화한 뒤에\" 쓴다고 했다.",
@@ -3593,7 +3593,7 @@
       "choices": [
         "HCD(host cell DNA)",
         "목적 단백질이 뭉친 aggregate",
-        "Formulation 단계에서 넣는 안정화 부형제(excipient)",
+        "안정화용 부형제(excipient)",
         "배지 성분과 공정 첨가물"
       ],
       "answer": 3,
@@ -3645,18 +3645,18 @@
       "part": 2,
       "question": "혼합물의 상태와 분리 기술의 연결로 가장 올바른 것은?",
       "choices": [
-        "액체에 녹아 있는 여러 성분 – 원심분리 또는 여과",
+        "액체에 녹아 있는 여러 성분 – 원심분리",
         "고체와 액체가 섞인 배양액 – 원심분리 또는 여과",
-        "항체 공정의 Clarification 뒤 – 침전을 주 분리 기술로 사용",
-        "고체와 액체가 섞인 배양액 – 크로마토그래피로 세포 제거"
+        "Clarification을 마친 항체 용액 – 침전",
+        "크기가 비슷한 단백질 혼합물 – depth filter"
       ],
       "answer": 2,
       "explanation": "**고체·액체 혼합물은 원심분리나 여과로, 액체에 녹아 있는 성분은 크로마토그래피·침전 등으로 나눈다.** 항체 공정에서는 침전을 거의 쓰지 않고 Clarification이 끝나면 크로마토그래피로 넘어간다.",
       "choiceNotes": [
-        "틀리다 — 원심분리·여과는 고체와 액체를 나누는 기술이다. 액체에 녹아 있는 성분끼리는 크로마토그래피·침전 등으로 나눈다.",
-        "옳다 — 고체(세포·잔해)와 액체가 섞인 배양액은 원심분리나 여과로 나눈다.",
-        "틀리다 — 항체 공정에서는 침전을 거의 쓰지 않고, Clarification이 끝나면 크로마토그래피로 넘어간다.",
-        "틀리다 — 세포 같은 고형물은 크로마토그래피 전에 원심분리·depth filter로 걷어 낸다. 크로마토그래피는 녹아 있는 성분을 나눈다."
+        "틀리다 — 녹아 있는 성분은 원심분리로 가라앉지 않는다. 녹아 있는 성분끼리는 크로마토그래피로 나눈다.",
+        "옳다 — 고체(세포·debris)와 액체가 섞인 상태는 원심분리 또는 여과(depth filter)로 나눈다.",
+        "틀리다 — 항체 공정은 Clarification 뒤 침전이 아니라 크로마토그래피(Protein A → CEX → AEX)로 정제한다.",
+        "틀리다 — depth filter는 고체 입자를 거르는 도구이다. 녹아 있는 비슷한 단백질끼리는 크로마토그래피로 나눈다."
       ],
       "source": "해설서 A7 · WK04 녹음① 18:07–21:52 (혼합물 종류와 분리 기술)",
       "concepts": [
@@ -4342,18 +4342,18 @@
       "part": 2,
       "question": "크로마토그래피 scale-up 때 키우는(변동) 파라미터로만 짝지은 것은?",
       "choices": [
-        "Bed height, Column diameter, Sample load",
+        "Column diameter, Bed height, Linear flow rate",
         "Column diameter, Volumetric flow rate, Sample load",
-        "Linear flow rate, Sample load, Column diameter",
-        "Sample concentration, Volumetric flow rate, Column diameter"
+        "Volumetric flow rate, Bed height, Sample concentration",
+        "Sample load, Linear flow rate, Sample concentration"
       ],
       "answer": 2,
       "explanation": "**Scale-up에서 키우는 것은 column diameter, volumetric flow rate(L/h), sample load이다.** Bed height·linear flow rate·sample concentration·레진 부피 대비 시료·gradient 부피 비율은 같게 둔다.",
       "choiceNotes": [
-        "틀리다 — bed height는 고정 파라미터이다. 키우는 것은 지름이며, bed까지 키우면 체류 시간과 압력이 달라진다.",
-        "옳다 — 교재 p.57의 변동(증가) 파라미터 세 가지(column diameter, volumetric flow rate, sample load)이다.",
-        "틀리다 — linear flow rate(cm/h)는 고정 파라미터이다. 커지는 것은 부피 유속(L/h)이다.",
-        "틀리다 — sample concentration은 고정 파라미터이다. 늘리는 것은 시료 양(sample load)이다."
+        "틀리다 — Column diameter만 변동이다. Bed height와 linear flow rate는 분자가 겪는 조건이라 고정한다.",
+        "옳다 — 지름을 키우고, 그만큼 부피 유속과 시료 총량을 늘린다. Bed height·linear flow rate·시료 농도는 고정한다.",
+        "틀리다 — Volumetric flow rate만 변동이다. Bed height와 sample concentration은 고정한다.",
+        "틀리다 — Sample load만 변동이다. Linear flow rate와 sample concentration은 고정한다."
       ],
       "source": "해설서 A9 · WK03 교재 p.57 (Fixed parameters) · WK03 교재 p.58 (Variable parameters)",
       "concepts": [
@@ -4628,18 +4628,18 @@
       "part": 2,
       "question": "Process 컬럼에서 정제 단계별 비드 크기의 연결로 옳은 것은?",
       "choices": [
-        "Capture – 약 10~15 µm, Polishing – 약 90 µm",
-        "Capture – 약 30~34 µm, Polishing – 약 90 µm",
-        "Intermediate – 약 90 µm, Capture – 약 30~34 µm",
+        "Capture – 약 90 µm, Polishing – 약 3~5 µm",
+        "Capture – 약 30~34 µm, Polishing – 약 10~15 µm",
+        "Capture – 약 30~34 µm, Polishing – 약 3~5 µm",
         "Capture – 약 90 µm, Polishing – 약 10~15 µm"
       ],
       "answer": 4,
       "explanation": "**Capture 90 µm → Intermediate 30~34 µm → Polishing 10~15 µm로, 뒤 단계일수록 작은 비드를 써서 분해능을 높인다.** Capture는 Speed·Capacity(큰 비드, 높은 유속), Polishing은 Resolution·Recovery(작은 비드)를 강조한다.",
       "choiceNotes": [
-        "틀리다 — 처음과 마무리를 뒤바꿨다. 가장 작은 비드는 분해능이 중요한 Polishing에 쓴다.",
-        "틀리다 — 30~34 µm는 Intermediate, 90 µm는 Capture 비드이다.",
-        "틀리다 — 90 µm는 처리량이 큰 Capture, 30~34 µm는 Intermediate에 쓴다.",
-        "옳다 — 교재 p.9: 90 µm는 처음 단계, 34·30 µm는 중간, 15·10 µm는 마무리."
+        "틀리다 — 3~5 µm는 고압으로 돌리는 분석용 HPLC 비드이다. 수십~수백 L의 process 컬럼은 그 압력을 견딜 수 없어 Polishing에도 10~15 µm를 쓴다.",
+        "틀리다 — 30~34 µm는 Intermediate 단계의 비드이다. 처리량이 가장 큰 Capture는 90 µm의 큰 비드로 높은 유속을 쓴다.",
+        "틀리다 — 두 단계 모두 한 칸씩 작게 잡았다. 30~34 µm는 Intermediate, 3~5 µm는 분석용 HPLC 비드이다.",
+        "옳다 — 교재 p.9: 90 µm는 처음 단계(Capture), 34·30 µm는 중간, 15·10 µm는 마무리(Polishing)이다."
       ],
       "source": "해설서 A10 (p.9 Lab → Process 비드 배치) · 해설서 부록 2 (단계별 비드) · 해설서 부록 3 (Capture vs Polishing)",
       "concepts": [
@@ -6635,7 +6635,7 @@
       "choices": [
         "Isolator",
         "Airlock",
-        "RABS(Restricted Access Barrier System)",
+        "RABS",
         "Pass box"
       ],
       "answer": 3,
@@ -8301,7 +8301,7 @@
       "choices": [
         "APS는 무균 공정을 평가·검증하는 여러 도구 가운데 하나이다",
         "작업자는 연 1회 이상 APS에 참여해야 한다",
-        "정기 APS에 합격했다면 그 사이 설비를 바꿔도 다음 정기 APS까지 재검증하지 않는다",
+        "정기 APS 사이의 설비 변경은 재검증 대상이 아니다",
         "무균 공정 오염의 대부분은 작업자에게서 온다"
       ],
       "answer": 3,
@@ -8327,7 +8327,7 @@
       "question": "APS의 충전 라인 속도를 정하는 기준으로 가장 적절한 것은?",
       "choices": [
         "실제 생산의 평균 속도로 고정해 공정을 대표하게 한다",
-        "간섭이 잦으면 빠르게, 노출 시간이 길면 느리게 — 오염 위험이 큰 쪽으로 정한다",
+        "오염 위험이 가장 큰 쪽의 속도로 정한다",
         "충전 정밀도가 가장 좋은 속도로 정한다",
         "배지 낭비를 줄이려고 가장 빠른 속도로 정한다"
       ],
@@ -8585,7 +8585,7 @@
       "part": 1,
       "question": "APS 결과를 판정하기 위한 전제 조건에 해당되지 않는 것은?",
       "choices": [
-        "APS 중 intervention이 한 번도 일어나지 않았다",
+        "충전 중 intervention이 한 번도 없었다",
         "충전한 용기를 100 % 육안 검사했다",
         "배지가 성장촉진시험(GPT)에 적합했다",
         "배양 조건과 기간을 프로토콜대로 지켰다"
@@ -11697,17 +11697,17 @@
       ],
       "choices": [
         "Glass fiber",
-        "Cellulose(규조토·탄소분 depth)",
-        "PP(polypropylene)",
-        "Nylon"
+        "Cellulose",
+        "Polypropylene(PP)",
+        "Diatomaceous earth(규조토)"
       ],
       "answer": 1,
-      "explanation": "**Low pH viral inactivation 뒤 탁해진 액은 glass fiber depth filter로 거른 뒤 PES membrane으로 마무리한다.** Glass fiber는 lipid·colloid·aggregate를 흡착하는 depth 재질이고, PTFE·Nylon·CA는 membrane 재질이다.",
+      "explanation": "**Low pH viral inactivation 뒤 탁해진 액은 glass fiber depth filter로 거른 뒤 PES membrane으로 마무리한다.** Glass fiber는 lipid·colloid·aggregate를 흡착하는 depth 재질이다. Cellulose(규조토를 섞은 것 포함)는 포집량이 커서 배양액 clarification에, PP는 pre-filter에 주로 쓰고, PES·PVDF·Nylon은 membrane 재질이다.",
       "choiceNotes": [
         "옳다 — glass fiber depth filter는 lipid·colloid·aggregate를 흡착해 low pH VI 뒤 탁해진 액을 거르는 데 많이 쓴다.",
-        "틀리다 — cellulose depth는 포집량(dirt holding capacity)이 가장 커서 배양액 clarification에 많이 쓴다. lipid·colloid·aggregate 흡착은 glass fiber이다.",
-        "틀리다 — PP도 depth 재질이지만, 제시문처럼 VI 뒤 lipid·colloid·aggregate를 흡착하는 용도로 교과서가 든 것은 glass fiber이다.",
-        "틀리다 — Nylon은 membrane 재질이며 단백질을 흡착해 바이오 공정에서는 거의 쓰지 않는다."
+        "틀리다 — cellulose depth는 포집량(dirt holding capacity)이 커서 세포가 섞인 배양액 clarification에 주로 쓴다. lipid·colloid·aggregate 흡착 용도로 교과서가 든 것은 glass fiber이다.",
+        "틀리다 — PP도 depth 재질이지만 주로 큰 입자를 거르는 pre-filter로 쓴다. VI 뒤 lipid·colloid·aggregate 흡착 용도는 glass fiber이다.",
+        "틀리다 — 규조토는 cellulose depth filter에 섞어 넣는 filter aid로, 배양액의 세포·debris를 거르는 clarification 용도이다. VI 뒤 흡착 용도는 glass fiber이다."
       ],
       "source": "해설서 E1·E8 · 교과서 p.88–95, p.246–247 · WK04 PDF p.41 (Depth filter)",
       "concepts": [
@@ -11846,18 +11846,18 @@
         "필터 1 cm²당 정해진 수 이상의 세균으로 도전했을 때 여과액이 무균이면 제균 등급으로 인정하며, 이 기준을 만족하는 필터가 대개 0.2 µm이다."
       ],
       "choices": [
-        "Geobacillus stearothermophilus – 10⁶ 이상",
-        "Escherichia coli – 10⁷ CFU/cm² 이상",
+        "Geobacillus stearothermophilus – 10⁶ CFU/cm² 이상",
+        "Geobacillus stearothermophilus – 10⁷ CFU/cm² 이상",
         "Brevundimonas diminuta – 10⁷ CFU/cm² 이상",
-        "Brevundimonas diminuta – 10³ CFU/cm² 이상"
+        "Brevundimonas diminuta – 10⁶ CFU/cm² 이상"
       ],
       "answer": 3,
       "explanation": "**Sterile filter는 필터 1 cm²당 10⁷ CFU 이상의 Brevundimonas diminuta로 도전(BCT)했을 때 여과액이 무균인 필터이다.** 정의에 0.2 µm라는 숫자는 없고, 이 기준을 만족하는 필터가 대개 0.2 µm일 뿐이다.",
       "choiceNotes": [
-        "틀리다 — G. stearothermophilus 10⁶ 이상은 아이솔레이터 VHP 제염을 확인하는 BI의 균과 수이다. 필터 도전 시험의 균이 아니다.",
-        "틀리다 — 제균 필터 도전 시험의 균은 크기가 아주 작은 세균인 B. diminuta이다. E. coli는 이보다 커서 0.2 µm 필터의 기준균으로 쓰지 않는다.",
-        "옳다 — 필터 1 cm²당 10⁷개 이상의 B. diminuta로 도전해 여과액이 무균이면 제균 등급으로 인정한다.",
-        "틀리다 — 균은 맞지만 도전 농도가 틀렸다. 기준은 10⁷ CFU/cm² 이상이며 10³은 10,000배 적다."
+        "틀리다 — G. stearothermophilus 10⁶은 습열·VHP 멸균을 검증하는 BI(spore 10⁶개)의 값이다. 제균 필터 도전 시험과는 균도 농도도 다르다.",
+        "틀리다 — 농도는 맞지만 균이 틀렸다. G. stearothermophilus는 멸균 검증용 BI 균이고, 제균 필터 도전균은 크기가 작은 B. diminuta이다.",
+        "옳다 — 크기가 작은 B. diminuta를 필터 1 cm²당 10⁷ CFU 이상으로 도전해 여과액이 무균이면 제균 등급이다.",
+        "틀리다 — 균은 맞지만 농도가 한 자리 낮다. 도전 농도는 1 cm²당 10⁷ CFU 이상이다(10⁶은 BI의 spore 수와 헷갈린 값)."
       ],
       "source": "해설서 E1 · 교과서 p.99 · WK04 PDF p.24 (제균 Filter의 정의), p.121 (BCT → integrity test limit)",
       "concepts": [
@@ -13039,7 +13039,7 @@
       "question": "Chromatography scale-up에서 바뀌어도 되는(변동) 조건에 해당되지 않는 것은?",
       "choices": [
         "부피 유속(L/h)",
-        "버퍼 조성(pH, 전도도, 농도)",
+        "버퍼 조성(pH·전도도)",
         "시료 총량",
         "버퍼 총부피(L)"
       ],
@@ -13250,18 +13250,18 @@
       "part": 1,
       "question": "15,000 L 한 배치를 생산하는 동안 쓰는 여과와 chromatography 횟수의 비교로 옳은 것은?",
       "choices": [
-        "여과 약 3회, chromatography 약 100회",
-        "여과 약 100회(액체 여과 약 80회), chromatography 약 3회",
-        "여과와 chromatography 모두 약 3회",
-        "여과 약 10회, chromatography 약 30회"
+        "여과 약 30회, chromatography 약 10회",
+        "여과 약 100회, chromatography 약 3회",
+        "여과 약 30회, chromatography 약 3회",
+        "여과 약 100회, chromatography 약 10회"
       ],
       "answer": 2,
       "explanation": "**15,000 L 한 배치에 여과는 약 100회(그중 액체 여과 약 80회), chromatography는 약 3회이다.** 여과는 배양·정제·완제 어디에나 쓰인다. 교안의 공정 단계별 필터 목록에도 seed·생산 배양기 배지 pre/final filter, base·glucose 용액 필터, 컬럼 guard filter, 버퍼 준비, pool tank inlet, virus filter, UF/DF, DS·DP filling 필터가 한 배치에 수십 개 나온다.",
       "choiceNotes": [
-        "틀리다 — 두 값을 뒤바꿨다.",
-        "옳다 — 한 배치에 여과는 100번 가까이(액체 약 80번), chromatography는 3번 정도이다.",
-        "틀리다 — 여과는 배양·정제·완제 곳곳에 들어가 훨씬 많다.",
-        "틀리다 — chromatography보다 여과가 훨씬 많이 쓰인다."
+        "틀리다 — 여과는 배양·정제·완제 곳곳에 들어가 100회 가까이 되고, chromatography는 Protein A·CEX·AEX 정도인 약 3회이다.",
+        "옳다 — 한 배치에 여과는 100번 가까이(액체 여과 약 80번), chromatography는 3번 정도이다.",
+        "틀리다 — chromatography 약 3회는 맞지만, 여과는 배지·버퍼·공정액마다 들어가 약 100회이다.",
+        "틀리다 — 여과 약 100회는 맞지만, chromatography는 Protein A → CEX → AEX의 약 3회이다."
       ],
       "source": "해설서 E8 · WK04 녹음① 25:13–28:50 · 부록 2 · WK04 PDF p.7 (공정 단계별 필터 목록)",
       "concepts": [
@@ -13908,7 +13908,7 @@
         "배양 종료 시 배양액 속 항체는 8 kg이다",
         "한 배치에서 얻는 원료의약품은 5.6 kg이다",
         "한 배치로 바이알 28,000개를 만들 수 있다",
-        "연간 원료의약품 56 kg이 필요하면 1년에 8 배치를 돌리면 된다"
+        "연간 DS 56 kg에는 1년에 8 배치가 필요하다"
       ],
       "answer": 4,
       "explanation": "**연간 56 kg ÷ 배치당 5.6 kg = 10 배치이다.**\n(1) 배양 종료 시 항체 = 1,600 L × 5 g/L = 8,000 g = 8 kg\n(2) DS = 8 kg × 0.7 = 5.6 kg\n(3) 바이알 = 5,600,000 mg ÷ 200 mg = 28,000개\n(4) 연간 배치 수 = 56 kg ÷ 5.6 kg = 10 배치",
@@ -14147,7 +14147,7 @@
       "choices": [
         "50 h → 2.5 h",
         "50 h → 50 h",
-        "2.5 h → 50 h",
+        "50 h → 5 h",
         "50 h → 1,000 h"
       ],
       "answer": 1,
@@ -14155,7 +14155,7 @@
       "choiceNotes": [
         "옳다 — 8,000 ÷ 160 = 50 h, 400 ÷ 160 = 2.5 h이다.",
         "틀리다 — 항체 양이 같으니 시간도 같다고 본 것이다. 로딩 시간은 항체 양이 아니라 흘려야 할 부피로 정해진다.",
-        "틀리다 — 농축 전후를 거꾸로 놓았다. 부피가 1/20로 줄면 시간도 1/20로 준다.",
+        "틀리다 — 20배가 아니라 10배로 줄인 값이다. 50 h → 5 h는 titer를 0.1 → 1.0 g/L로 10배 올린 WK06 Case 1의 숫자이다.",
         "틀리다 — 농축 배수로 나누지 않고 곱한 값이다(50 × 20 = 1,000 h)."
       ],
       "source": "해설서 E1 · E3 · WK06 PDF p.21 (UF/DF 20x concentration) · WK06 녹음 2:38:07–2:39:49",
@@ -15702,15 +15702,15 @@
       "choices": [
         "OQ(Operational Qualification)",
         "Cleaning validation",
-        "Process validation",
+        "PPQ(Process Performance Qualification)",
         "CSV(Computer System Validation)"
       ],
       "answer": 1,
-      "explanation": "**OQ는 장비를 대상으로 하는 Qualification(적격성평가)의 단계이다.** Validation에는 process validation, cleaning validation, CSV, 시험법 밸리데이션이 있다.",
+      "explanation": "**OQ는 장비를 대상으로 하는 Qualification(적격성평가)의 단계이다.** Validation에는 process validation, cleaning validation, CSV, 시험법 밸리데이션이 있다. PPQ(Process Performance Qualification)는 이름과 달리 장비가 아니라 공정을 대상으로 한 process validation의 한 단계이다(일반 원리).",
       "choiceNotes": [
         "틀린 진술(정답) — OQ는 장비를 대상으로 하는 Qualification(DQ → IQ → OQ → PQ)의 한 단계이다.",
         "옳은 진술 — 세척 방법이 잔류물을 기준 이하로 늘 제거하는지 입증하는 cleaning validation이다(WK07 PDF p.59).",
-        "옳은 진술 — 공정이 늘 같은 품질의 제품을 만드는지 입증하는 process validation(PV)이다.",
+        "옳은 진술 — PPQ는 이름에 qualification이 붙지만 process validation의 2단계(공정 설계 → PPQ → 지속 검증)로, 상업 규모 배치로 공정의 재현성을 입증하는 validation 활동이다(일반 원리).",
         "옳은 진술 — 컴퓨터 시스템이 의도대로 동작하고 데이터를 신뢰할 수 있는지 입증하는 CSV이다(WK07 PDF p.59 「Computer System Validation」)."
       ],
       "source": "해설서 E14 · WK07 녹음 2:57:42–2:58:55 · WK07 PDF p.59 (Step 4: Validation & Qualification)",
@@ -16034,7 +16034,7 @@
       "part": 2,
       "question": "Airlock과 Interlock, 실의 압력에 대한 설명으로 옳은 것은?",
       "choices": [
-        "GMP 구역은 positive pressure, BSL 구역은 negative pressure로 유지한다",
+        "GMP 구역은 positive, BSL 구역은 negative pressure이다",
         "Interlock은 차압으로 공기 흐름을 관리하는 중간 공간이다",
         "Airlock은 한쪽 문이 열리면 다른 문이 잠기는 장치이다",
         "PAL은 물건이, MAL은 사람이 드나드는 airlock이다"
@@ -16519,17 +16519,17 @@
       ],
       "choices": [
         "약 8,490개/ft³ – Class 10,000",
-        "약 8,490개/ft³ – Class 100",
-        "약 10,600,000개/ft³ – 기준 초과",
+        "약 8,490개/ft³ – Class 100,000",
+        "약 84,900개/ft³ – Class 10,000",
         "약 84,900개/ft³ – Class 100,000"
       ],
       "answer": 1,
       "explanation": "**300,000 × 0.0283 ≈ 8,490개/ft³ → 10,000개 이하이므로 Class 10,000(ISO 7)을 만족한다.**\nm³당 → ft³당: 0.0283을 곱한다. 300,000 × 0.0283 = 8,490개/ft³.\n8,490 > 100이므로 Class 100은 못 되고, 8,490 ≤ 10,000이므로 Class 10,000이다. m³ 기준으로 보아도 300,000 ≤ 352,000(ISO 7)으로 같은 결론이다.",
       "choiceNotes": [
-        "옳다 — 300,000 × 0.0283 ≈ 8,490개/ft³로 Class 10,000 한도 이하이다.",
-        "틀리다 — 환산값은 맞지만 Class 100은 1 ft³당 100개 이하여야 한다. 8,490개는 그 85배이다.",
-        "틀리다 — 300,000 ÷ 0.0283으로 곱셈↔나눗셈을 바꿨다. 더 작은 부피(ft³)에서 개수가 더 많아질 수 없다.",
-        "틀리다 — 300,000 × 0.283으로 자릿수를 잘못 넣었다(0.0283). 올바른 값 8,490개는 Class 10,000에 들어간다."
+        "옳다 — 300,000 × 0.0283 ≈ 8,490개/ft³이고, 10,000개/ft³ 이하이므로 Class 10,000을 만족한다.",
+        "틀리다 — 환산값은 맞지만 Class 100,000도 만족할 뿐 가장 엄격한 등급은 Class 10,000이다.",
+        "틀리다 — 0.0283을 0.283으로 곱해 한 자리 크게 잡았다. 84,900개/ft³라면 Class 10,000을 넘는다.",
+        "틀리다 — 0.0283을 0.283으로 곱해 한 자리 크게 잡은 값과 그에 맞춘 등급이다. 실제는 약 8,490개/ft³ → Class 10,000이다."
       ],
       "source": "해설서 E13 · 해설서 부록 1 (Class 환산, 예제 13) · WK07 녹음 2:42:18–2:43:26 · WK07 PDF p.37 (Cleanroom Class), p.38",
       "concepts": [
@@ -18978,7 +18978,7 @@
       "question": "같은 조건에서 배양 pH만 6.9와 7.3으로 바꾼 결과에 대한 해석으로 옳은 것은?",
       "choices": [
         "pH 7.3에서 lactate가 적게 쌓여 세포가 더 잘 자랐다",
-        "pH 7.3에서 lactate가 많이 쌓이고 이를 중화하는 염기 때문에 삼투압이 올라 성장이 떨어졌다",
+        "pH 7.3에서 lactate와 염기 투입으로 삼투압이 올라 성장이 떨어졌다",
         "두 조건 모두 lactate와 삼투압이 같아 pH는 CPP가 아니다",
         "pH 6.9에서 glucose를 훨씬 많이 소모해 VCD가 낮아졌다"
       ],
