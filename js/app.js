@@ -339,6 +339,7 @@
           kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
           lec: Number(q.lec) || 0,
           hard: q.level === 'hard',
+          fam: typeof q.family === 'string' && q.family ? q.family : String(q.id), // 같은 유형·다른 숫자 변형 묶음
           ckeys: [],
         };
         labels.forEach((label) => {
@@ -355,6 +356,11 @@
       });
     });
     S.units = S.units.filter((u) => u.questions.length);
+    S.fam = new Map();
+    S.units.forEach((u) => u.questions.forEach((q) => {
+      if (!S.fam.has(q.fam)) S.fam.set(q.fam, []);
+      S.fam.get(q.fam).push(q);
+    }));
     if (!S.units.length) throw new Error('불러온 문항이 없습니다. questions 폴더의 JSON 파일을 확인하세요.');
   }
 
@@ -420,6 +426,24 @@
     const w = S.wrong[q.id];
     return (w ? 2 + Math.min(w.n || 1, 3) : 0) + (1 - m.c / m.a) * 2;
   }
+  // 변형 묶음(family): 같은 유형을 조건·숫자만 바꾼 문항들 — 가장 최근에 푼 변형의 약점을 묶음의 약점으로 본다
+  const famOf = (q) => (S.fam && S.fam.get(q.fam)) || [q];
+  function famWeak(q) {
+    const fam = famOf(q);
+    if (fam.length < 2) return weakness(q);
+    const seen = fam.filter((m) => qMeta(m.id).a);
+    if (!seen.length) return 0;
+    return weakness(seen.reduce((x, y) => ((qMeta(y.id).last || 0) > (qMeta(x.id).last || 0) ? y : x)));
+  }
+  const famAsk = (q) => famOf(q).reduce((t, m) => t + qMeta(m.id).a, 0);
+  // 덜 나온 묶음 → 그 안에서 덜 나온 문항만 남긴다
+  function freshest(list) {
+    if (!list.length) return list;
+    const lowF = Math.min(...list.map(famAsk));
+    const l2 = list.filter((q) => famAsk(q) === lowF);
+    const lowA = Math.min(...l2.map((q) => qMeta(q.id).a));
+    return l2.filter((q) => qMeta(q.id).a === lowA);
+  }
 
   /*
    * 문항 묶음 구성
@@ -464,7 +488,8 @@
     const inPaper = new Set();
     let essays = 0;
 
-    const allowed = (q) => !pickedIds.has(q.id) && (!isEssay(q) || essays < essayCap)
+    const famIn = new Set();
+    const allowed = (q) => !pickedIds.has(q.id) && !famIn.has(q.fam) && (!isEssay(q) || essays < essayCap)
       && (!capsOn || !(q.style in styleCap) || styleCnt[q.style] < styleCap[q.style]);
     function score(q, isReview) {
       let s = Math.random() * 6;
@@ -473,7 +498,7 @@
       let fresh = 0, dup = 0;
       q.ckeys.forEach((k) => { if (inPaper.has(k)) dup += 1; else if (!covered.has(k)) fresh += 1; });
       s += Math.min(fresh, 2) * 8 - dup * 18;
-      if (isReview) s += weakness(q) * 10;
+      if (isReview) s += famWeak(q) * 10;
       if (isEssay(q) && essays === 0 && quota[3] >= 3) s += 35; // 20문항 이상이면 서술형 1개는 넣는다
       return s;
     }
@@ -487,6 +512,7 @@
       if (!best) return false;
       picked.push(best);
       pickedIds.add(best.id);
+      famIn.add(best.fam);
       partCnt[best.part] += 1;
       styleCnt[best.style] = (styleCnt[best.style] || 0) + 1;
       unitCnt[best.unit] = (unitCnt[best.unit] || 0) + 1;
@@ -496,7 +522,12 @@
       return true;
     }
 
-    const weak = pool.filter((q) => weakness(q) > 0);
+    // 복습 칸: 틀린 문항에 변형이 있으면 그 묶음에서 덜 푼 변형(조건·숫자가 다른 문항)을 낸다
+    const weakFams = [...new Set(pool.filter((q) => famWeak(q) > 0).map((q) => q.fam))];
+    const weak = weakFams.map((f) => {
+      const c = freshest(pool.filter((q) => q.fam === f));
+      return c[Math.floor(Math.random() * c.length)];
+    });
     const nReview = Math.min(Math.round(n * (STRATEGIES[strategy] || STRATEGIES.fresh).review), weak.length);
     for (let i = 0; i < nReview; i++) if (!take(weak, true)) break;
 
@@ -520,8 +551,8 @@
         const mb = hasMB() ? [] : all.filter((q) => q.kw === HARD_MB_KW);
         const hard = mb.length ? mb : all;
         if (!hard.length) break;
-        const lowA = Math.min(...hard.map((q) => qMeta(q.id).a));
-        const c = hard.filter((q) => qMeta(q.id).a === lowA);
+        const c = freshest(hard.filter(allowed));
+        if (!c.length) break;
         const savedCaps = capsOn; capsOn = false;
         const ok = take(c, false);
         capsOn = savedCaps;
@@ -532,11 +563,10 @@
     if (n >= 20) {
       const takeCalc = (match) => {
         if (picked.some((q) => q.style === 'calc' && match(q))) return;
-        const c = pool.filter((q) => q.style === 'calc' && match(q) && !pickedIds.has(q.id));
+        const c = freshest(pool.filter((q) => q.style === 'calc' && match(q) && !pickedIds.has(q.id) && !famIn.has(q.fam)));
         if (!c.length) return;
-        const lowA = Math.min(...c.map((q) => qMeta(q.id).a));
         const savedCaps = capsOn; capsOn = false;
-        take(c.filter((q) => qMeta(q.id).a === lowA), false);
+        take(c, false);
         capsOn = savedCaps;
       };
       CALC_KWS.forEach((k) => takeCalc((q) => q.kw === k));
@@ -544,10 +574,9 @@
     }
     // 계산 문항 몇 개는 꼭 넣는다(출제 횟수가 적은 것부터)
     while (styleCnt.calc < calcMin) {
-      const calc = pool.filter((q) => q.style === 'calc' && allowed(q));
+      const calc = freshest(pool.filter((q) => q.style === 'calc' && allowed(q)));
       if (!calc.length) break;
-      const lowA = Math.min(...calc.map((q) => qMeta(q.id).a));
-      if (!take(calc.filter((q) => qMeta(q.id).a === lowA), false)) break;
+      if (!take(calc, false)) break;
     }
 
     // 출제 바퀴는 PART마다 따로 센다 — PART II처럼 문항이 적은 PART가 한 바퀴를 먼저 돌아도
@@ -593,9 +622,12 @@
     } else if (mode === 'final') {
       picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
     } else if (mode === 'hardCalc') {
-      // 고난도 계산 세트만: 덜 푼 세트부터, 같은 횟수끼리는 무작위
-      const order = shuffle(pool).sort((a, b) => qMeta(a.id).a - qMeta(b.id).a);
-      picked = order.slice(0, Math.min(count, order.length));
+      // 고난도 계산 세트만: 덜 푼 묶음·세트부터(같은 횟수끼리는 무작위), 같은 묶음은 다른 묶음을 한 번씩 낸 뒤에
+      const order = shuffle(pool).sort((a, b) => famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
+      const seenF = new Set();
+      const first = [], later = [];
+      order.forEach((q) => { if (seenF.has(q.fam)) later.push(q); else { seenF.add(q.fam); first.push(q); } });
+      picked = first.concat(later).slice(0, Math.min(count, order.length));
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
