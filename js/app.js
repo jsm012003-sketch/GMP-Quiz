@@ -2686,7 +2686,10 @@
       case 'open-paper': {
         const rec = paperOf(Number(el.dataset.value));
         if (!rec || !S.owner) return;
-        S.result = { session: rec.session, entry: rec.entry, archived: true };
+        // 문제 은행에서 빠진 문항(범위 제외 등)은 빼고 보여 준다
+        const items = (rec.session.items || []).filter((it) => S.qById.has(it.id));
+        if (!items.length) return;
+        S.result = { session: Object.assign({}, rec.session, { items }), entry: rec.entry, archived: true };
         S.akFilter = 'all';
         go('result');
         window.scrollTo(0, 0);
