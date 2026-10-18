@@ -63,6 +63,7 @@
     return 'prose';
   }
   const STRATEGIES = {
+    none: { label: '완전 미출제', review: 0, desc: '복습 0%', unseenOnly: true }, // 안 나온 문항으로만(모자라면 덜 나온 문항으로 채움)
     fresh: { label: '미출제 우선', review: 0.2, desc: '복습 20%' },
     balance: { label: '균형', review: 0.4, desc: '복습 40%' },
     weak: { label: '약점 집중', review: 0.7, desc: '복습 70%' },
@@ -73,7 +74,7 @@
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
-    unseen: { label: '완전 미출제', icon: '🆕', kind: 'study', desc: '한 번도 안 나온 문항만 골라 풀기 (바로 채점·해설)' },
+    unseen: { label: '완전 미출제', icon: '🆕', kind: 'exam', desc: '한 번도 안 나온 문항만으로 만든 시험지 (복습 0%)' },
     hardCalc: { label: 'Max 난이도 계산', icon: '🧮', kind: 'study', desc: '고난도 계산 세트만 골라 풀기 (칸마다 채점·풀이)' },
     final: { label: '작년 중간고사 기출', icon: '🎯', kind: 'exam', desc: '작년 2학기 중간고사 기출문제를 원문 그대로 푸는 시험 (해설 포함)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
@@ -660,7 +661,11 @@
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
-      ({ picked, review } = compose(pool, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : mode === 'unseen' ? { noReview: true } : {}));
+      // 「완전 미출제」(모드 또는 전략 복습 0 %): 안 나온 문항이 충분하면 그 안에서만, 모자라면 전체에서 덜 나온 순으로 채운다
+      const unseenOnly = mode === 'unseen' || (STRATEGIES[p.strategy] || {}).unseenOnly;
+      const fresh = unseenOnly ? pool.filter((q) => !qMeta(q.id).a) : pool;
+      const src = unseenOnly && fresh.length >= count ? fresh : pool;
+      ({ picked, review } = compose(src, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : unseenOnly ? { noReview: true } : {}));
     }
     picked = (mode === 'review' || mode === 'final' || mode === 'hardCalc') ? picked : orderPicked(picked, kind);
     return sessionFrom(mode, picked, { review, poolSize: pool.length });
@@ -1090,7 +1095,7 @@
             ${Object.entries(STRATEGIES).map(([k, v]) => `
               <button type="button" class="chip chip-2line" data-action="strategy" data-value="${k}" aria-pressed="${p.strategy === k}">${v.label}<small>${v.desc}</small></button>`).join('')}
           </div>
-          <p class="muted small" style="margin:10px 0 0">복습 칸은 오답 노트·정답률 낮은 문항에서 채우고, 나머지는 아직 안 나온 문항(처음 다루는 개념 우선)으로 새로 구성합니다.</p>
+          <p class="muted small" style="margin:10px 0 0">복습 칸은 오답 노트·정답률 낮은 문항에서 채우고, 나머지는 아직 안 나온 문항(처음 다루는 개념 우선)으로 새로 구성합니다. 「완전 미출제」는 복습 없이 한 번도 안 나온 문항으로만 만듭니다(모자라면 덜 나온 문항으로 채움).</p>
         </section>
 
         <section class="card">
