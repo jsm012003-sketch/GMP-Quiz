@@ -538,3 +538,10 @@ int-021 ~ int-024(WK04 연결): 단계별 필터 종류, vent 필터 젖음 방�
 ## 2026.10.18 기출 범위 제외
 
 - 사용자 확인으로 시험 범위가 아닌 기출 5문항(past-022 비임상·GLP, 023 바이오시밀러 특장점, 024 허가 절차 주관 부서, 025 규제기관 약어, 026 연구 QMS)과 past-020(PK/PD·임상 설계·AI 신약개발)·past-027(약사법 구성)을 `questions/archive/past.json`으로 옮겼다. 기출은 31문항.
+
+## 2026.10.18 고난도 계산 — Mass balance·컬럼 부피 집중
+
+- 컬럼 부피(A8·A9) 세트 20개 ex-800~819: 수확액 → 레진(safety factor) → 안지름 → 부피 유속, 기존 컬럼 → CV → cycle당 → cycle 수 → 버퍼, residence time → linear velocity → 유속 → loading 시간, 실험실 → 생산 scale-up, 단일 cycle vs 작은 레진 다회 cycle(레진비·버퍼), cycle 제한 → 최대 titer.
+- Mass balance + 컬럼(E3) 10개 ex-820~829: DS 목표 → load → 배양 부피 → 레진 → 안지름, 배양 → cycle → 용출액 → 농도 → DS.
+- 앱: 시험지마다 E3 고난도 1개 + A8/A9 고난도 1개(`HARD_CORE`), Max 계산 모드는 두 갈래 먼저.
+- E9: 「몇 batch에 1 입자」 칸 제거(ex-754), ex-707은 일반 계산으로, ex-798은 archive.

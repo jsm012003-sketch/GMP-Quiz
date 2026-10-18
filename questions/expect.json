@@ -19528,15 +19528,13 @@
       "type": "계산",
       "part": 3,
       "format": "short",
-      "level": "hard",
       "question": "<보기>의 바이러스 clearance 결과에서 다음 값을 각각 계산하시오.",
       "box": [
         "spiking study에서 low pH VI 단계는 처리 전 바이러스 2 × 10⁸ 입자가 처리 후 2 × 10⁴ 입자로 줄었다.",
-        "같은 공정의 AEX 단계 LRV는 3, virus filtration 단계 LRV는 5로 확인되었다.",
-        "수확액 한 batch에 들어 있을 수 있는 바이러스를 최대 10¹⁴ 입자로 가정한다."
+        "같은 공정의 AEX 단계 LRV는 3, virus filtration 단계 LRV는 5로 확인되었다."
       ],
       "answers": [
-        "1) 4  2) 12  3) 100개"
+        "1) 4  2) 12"
       ],
       "subs": [
         {
@@ -19554,18 +19552,9 @@
             "12",
             "12 log"
           ]
-        },
-        {
-          "label": "세 단계 뒤 남을 수 있는 바이러스 입자 수",
-          "num": 100,
-          "answers": [
-            "100",
-            "10^2",
-            "100개"
-          ]
         }
       ],
-      "explanation": "**Low pH 4 log + AEX 3 log + VF 5 log = 12 log → 10¹⁴ ÷ 10¹² = 100 입자.**\n(1) LRV = log₁₀(2 × 10⁸ ÷ 2 × 10⁴) = log₁₀(10⁴) = 4\n(2) 단계별 LRV를 더한다: 4 + 3 + 5 = 12\n(3) 10¹⁴ ÷ 10¹² = 10² = 100 입자\n흔한 실수: LRV를 곱함, 처리 전·후 수를 빼서 계산함. 원리가 다른(orthogonal) 단계를 더해야 의미가 있다.",
+      "explanation": "**Low pH 4 log + AEX 3 log + VF 5 log = 12 log.**\n(1) LRV = log₁₀(2 × 10⁸ ÷ 2 × 10⁴) = log₁₀(10⁴) = 4\n(2) 단계별 LRV를 더한다: 4 + 3 + 5 = 12\n흔한 실수: LRV를 곱함, 처리 전·후 수를 빼서 계산함. 원리가 다른(orthogonal) 단계를 더해야 의미가 있다.",
       "source": "해설서 E9 · 해설서 부록 1 (예제 11 LRV) · WK06 PDF p.8–11",
       "concepts": [
         "LRV",
@@ -22730,11 +22719,10 @@
       "question": "<보기>의 바이러스 clearance 결과에서 다음 값을 각각 계산하시오.",
       "box": [
         "spiking study에서 low pH VI 단계는 처리 전 바이러스 4.2 × 10⁷ 입자가 처리 후 190 입자로 줄었다.",
-        "AEX 단계에는 바이러스 8.4 × 10⁶ 입자/mL인 시료 120 mL를 걸었고, flow-through 155 mL에서 320 입자/mL가 검출되었다. virus filtration 단계의 LRV는 4.73이다.",
-        "수확액 한 batch에 들어 있을 수 있는 바이러스를 3.5 × 10¹⁰ 입자로 가정한다."
+        "AEX 단계에는 바이러스 8.4 × 10⁶ 입자/mL인 시료 120 mL를 걸었고, flow-through 155 mL에서 320 입자/mL가 검출되었다. virus filtration 단계의 LRV는 4.73이다."
       ],
       "answers": [
-        "1) 5.34  2) 4.31  3) 14.38  4) 6,893 batch"
+        "1) 5.34  2) 4.31  3) 14.38"
       ],
       "subs": [
         {
@@ -22763,19 +22751,9 @@
             "14.4"
           ],
           "tol": 0.03
-        },
-        {
-          "label": "바이러스 1 입자가 남을 것으로 기대되는 batch 수 (batch)",
-          "num": 6892.9718,
-          "answers": [
-            "6,893",
-            "6893",
-            "6,893 batch",
-            "약 6,900 batch"
-          ]
         }
       ],
-      "explanation": "**low pH 5.34 + AEX 4.31 + VF 4.73 = 약 14.38 log → 약 6,893 batch에 1 입자.**\n(1) log₁₀(4.2 × 10⁷ ÷ 190) = log₁₀ 221,053 ≈ 5.34\n(2) 처리 전 총량 = 8.4 × 10⁶ × 120 = 1.008e+09 입자, 처리 후 = 320 × 155 = 49,600 입자, log₁₀(20,323) ≈ 4.31(농도가 아니라 총량(농도 × 부피)으로 비교한다)\n(3) 5.34 + 4.31 + 4.73 ≈ 14.38(원리가 다른 단계의 LRV는 더한다)\n(4) batch당 남는 입자 = 3.5 × 10¹⁰ ÷ 10^14.38 ≈ 1.45e-04 → 약 6,893 batch에 1 입자\n흔한 실수: AEX를 농도만으로 비교해 log₁₀(8.4 × 10⁶ ÷ 320) = 4.42로 씀, LRV를 곱함.",
+      "explanation": "**low pH 5.34 + AEX 4.31 + VF 4.73 = 약 14.38 log.**\n(1) log₁₀(4.2 × 10⁷ ÷ 190) = log₁₀ 221,053 ≈ 5.34\n(2) 처리 전 총량 = 8.4 × 10⁶ × 120 = 1.008e+09 입자, 처리 후 = 320 × 155 = 49,600 입자, log₁₀(20,323) ≈ 4.31(농도가 아니라 총량(농도 × 부피)으로 비교한다)\n(3) 5.34 + 4.31 + 4.73 ≈ 14.38(원리가 다른 단계의 LRV는 더한다)\n흔한 실수: AEX를 농도만으로 비교해 log₁₀(8.4 × 10⁶ ÷ 320) = 4.42로 씀, LRV를 곱함.",
       "source": "해설서 E9 · 해설서 부록 1 (예제 11 LRV) · WK06 PDF p.8–11 (virus safety, viral clearance)",
       "concepts": [
         "Log reduction",
@@ -25616,73 +25594,6 @@
       ]
     },
     {
-      "id": "ex-798",
-      "type": "계산",
-      "part": 3,
-      "format": "short",
-      "level": "hard",
-      "family": "ex-754",
-      "question": "<보기>의 바이러스 safety 설계에서 다음 값을 각각 계산하시오.",
-      "box": [
-        "수확액 한 batch는 2,150 L이고, 바이러스 유사 입자가 1.8 × 10⁵ 입자/mL 들어 있다고 본다. 목표는 10⁶ batch에 1 입자 이하가 남는 것이다.",
-        "low pH VI spiking study에서 처리 전 시료 210 mL는 10^6.85 TCID₅₀/mL, 처리 후 시료 236 mL는 10^2.1 TCID₅₀/mL였다.",
-        "AEX 단계 LRV는 4.15, CEX 단계 LRV는 3.27로 확인되었고, 나머지는 virus filtration 단계가 맡는다."
-      ],
-      "answers": [
-        "1) 3.87 × 10¹¹ 입자  2) 17.59  3) 4.7  4) 5.47"
-      ],
-      "subs": [
-        {
-          "label": "batch당 바이러스 유사 입자 수 (입자)",
-          "num": 387000000000.0,
-          "answers": [
-            "3.87 × 10¹¹",
-            "3.87×10^11",
-            "3.87e11",
-            "3.87 × 10¹¹ 입자"
-          ]
-        },
-        {
-          "label": "공정 전체에 필요한 LRV",
-          "num": 17.5877,
-          "answers": [
-            "17.59",
-            "17.6"
-          ],
-          "tol": 0.03
-        },
-        {
-          "label": "low pH VI의 LRV",
-          "num": 4.6993,
-          "answers": [
-            "4.7"
-          ],
-          "tol": 0.03
-        },
-        {
-          "label": "virus filtration 단계에 필요한 최소 LRV",
-          "num": 5.4684,
-          "answers": [
-            "5.47",
-            "5.5"
-          ],
-          "tol": 0.03
-        }
-      ],
-      "explanation": "**입자 3.870 × 10¹¹ → 필요한 LRV 약 17.59 → low pH 4.70 → virus filtration 최소 약 5.47.**\n(1) 2,150 L = 2.15 × 10⁶ mL, × 1.8 × 10⁵ = 3.870 × 10¹¹ 입자\n(2) batch당 남아도 되는 양 10⁻⁶ 입자 → log₁₀(3.870e+11 ÷ 10⁻⁶) ≈ 17.59\n(3) 총량으로 비교: 처리 전 10^6.85 × 210, 처리 후 10^2.1 × 236 → 6.85 − 2.1 + log₁₀(210 ÷ 236) = 4.75 − 0.051 ≈ 4.70\n(4) 17.59 − 4.70 − 4.15 − 3.27 ≈ 5.47(원리가 다른 단계의 LRV는 더한다)\n흔한 실수: L를 mL로 바꾸지 않아 입자 수를 1,000배 작게 써서 필요한 LRV를 14.59로 씀, (3)에서 농도만 비교해 4.75로 씀(그러면 virus filtration 5.42).",
-      "source": "해설서 E9 · 해설서 부록 1 (예제 11 LRV) · WK06 PDF p.8–11 (virus safety, viral clearance)",
-      "concepts": [
-        "Log reduction",
-        "LRV",
-        "Viral clearance"
-      ],
-      "tags": [
-        "Log reduction",
-        "LRV",
-        "Viral clearance"
-      ]
-    },
-    {
       "id": "ex-799",
       "type": "계산",
       "part": 3,
@@ -25748,6 +25659,2018 @@
         "Class 100",
         "Particle count"
       ]
+    },
+    {
+      "id": "ex-800",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A 컬럼을 설계하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확 배양액 2,650 L, titer 2.18 g/L이며 clarification 수율은 95.7 %이다.",
+        "항체를 한 번(1 cycle)에 모두 결합시키는 Protein A 레진(DBC 46 mg/mL)에 safety factor 30 %를 더해 충전한다.",
+        "컬럼 bed height는 22 cm, linear velocity는 240 cm/h로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 5,529 g  2) 156.2 L  3) 95.1 cm  4) 1,704.5 L/h"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 5528.589,
+          "answers": [
+            "5,529",
+            "5529",
+            "5,529 g"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 156.2427,
+          "answers": [
+            "156.2",
+            "156.2 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 95.116,
+          "answers": [
+            "95.1",
+            "95.1 cm"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 1704.4662,
+          "answers": [
+            "1,704.5",
+            "1704.5",
+            "1,704.5 L/h"
+          ]
+        }
+      ],
+      "explanation": "**항체 5,529 g → 레진 156.2 L → 안지름 약 95.1 cm → 부피 유속 약 1,704.5 L/h.**\n(1) 2,650 × 2.18 × 0.957 ≈ 5,529 g\n(2) 5,528,589 mg ÷ 46 mg/mL = 120,187 mL, × 1.3 ≈ 156.2 L\n(3) 단면적 = 156,243 cm³ ÷ 22 cm ≈ 7,102 cm², 반지름 = √(7,102 ÷ 3.14) ≈ 47.56 cm → 안지름 95.1 cm\n(4) 240 cm/h × 7,102 cm² ≈ 1,704,466 mL/h ≈ 1,704.5 L/h\n흔한 실수: 반지름을 답으로 써 47.6 cm, safety factor를 빼서 레진 120.2 L, mL/h → L/h 환산 누락.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-801",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-800",
+      "question": "<보기>의 Protein A 컬럼을 설계하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확 배양액 4,180 L, titer 1.63 g/L이며 clarification 수율은 94.2 %이다.",
+        "항체를 한 번(1 cycle)에 모두 결합시키는 Protein A 레진(DBC 52 mg/mL)에 safety factor 25 %를 더해 충전한다.",
+        "컬럼 bed height는 19.5 cm, linear velocity는 275 cm/h로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 6,418 g  2) 154.3 L  3) 100.4 cm  4) 2,175.8 L/h"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 6418.2228,
+          "answers": [
+            "6,418",
+            "6418",
+            "6,418 g"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 154.2842,
+          "answers": [
+            "154.3",
+            "154.3 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 100.3942,
+          "answers": [
+            "100.4",
+            "100.4 cm"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 2175.8028,
+          "answers": [
+            "2,175.8",
+            "2175.8",
+            "2,175.8 L/h"
+          ]
+        }
+      ],
+      "explanation": "**항체 6,418 g → 레진 154.3 L → 안지름 약 100.4 cm → 부피 유속 약 2,175.8 L/h.**\n(1) 4,180 × 1.63 × 0.942 ≈ 6,418 g\n(2) 6,418,223 mg ÷ 52 mg/mL = 123,427 mL, × 1.25 ≈ 154.3 L\n(3) 단면적 = 154,284 cm³ ÷ 19.5 cm ≈ 7,912 cm², 반지름 = √(7,912 ÷ 3.14) ≈ 50.2 cm → 안지름 100.4 cm\n(4) 275 cm/h × 7,912 cm² ≈ 2,175,803 mL/h ≈ 2,175.8 L/h\n흔한 실수: 반지름을 답으로 써 50.2 cm, safety factor를 빼서 레진 123.4 L, mL/h → L/h 환산 누락.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-802",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-800",
+      "question": "<보기>의 Protein A 컬럼을 설계하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확 배양액 1,730 L, titer 3.41 g/L이며 clarification 수율은 96.8 %이다.",
+        "항체를 한 번(1 cycle)에 모두 결합시키는 Protein A 레진(DBC 38.5 mg/mL)에 safety factor 40 %를 더해 충전한다.",
+        "컬럼 bed height는 24 cm, linear velocity는 210 cm/h로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 5,711 g  2) 207.7 L  3) 105 cm  4) 1,817 L/h"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 5710.5224,
+          "answers": [
+            "5,711",
+            "5711",
+            "5,711 g"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 207.6554,
+          "answers": [
+            "207.7",
+            "207.7 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 104.9859,
+          "answers": [
+            "105",
+            "105 cm"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 1816.9844,
+          "answers": [
+            "1,817",
+            "1817",
+            "1,817 L/h"
+          ]
+        }
+      ],
+      "explanation": "**항체 5,711 g → 레진 207.7 L → 안지름 약 105 cm → 부피 유속 약 1,817 L/h.**\n(1) 1,730 × 3.41 × 0.968 ≈ 5,711 g\n(2) 5,710,522 mg ÷ 38.5 mg/mL = 148,325 mL, × 1.4 ≈ 207.7 L\n(3) 단면적 = 207,655 cm³ ÷ 24 cm ≈ 8,652 cm², 반지름 = √(8,652 ÷ 3.14) ≈ 52.49 cm → 안지름 105 cm\n(4) 210 cm/h × 8,652 cm² ≈ 1,816,984 mL/h ≈ 1,817 L/h\n흔한 실수: 반지름을 답으로 써 52.5 cm, safety factor를 빼서 레진 148.3 L, mL/h → L/h 환산 누락.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-803",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-800",
+      "question": "<보기>의 Protein A 컬럼을 설계하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "수확 배양액 6,020 L, titer 1.27 g/L이며 clarification 수율은 95.1 %이다.",
+        "항체를 한 번(1 cycle)에 모두 결합시키는 Protein A 레진(DBC 44 mg/mL)에 safety factor 20 %를 더해 충전한다.",
+        "컬럼 bed height는 21 cm, linear velocity는 300 cm/h로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 7,271 g  2) 198.3 L  3) 109.7 cm  4) 2,832.8 L/h"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸 항체 (g)",
+          "num": 7270.7754,
+          "answers": [
+            "7,271",
+            "7271",
+            "7,271 g"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 198.2939,
+          "answers": [
+            "198.3",
+            "198.3 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 109.6756,
+          "answers": [
+            "109.7",
+            "109.7 cm"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 2832.7696,
+          "answers": [
+            "2,832.8",
+            "2832.8",
+            "2,832.8 L/h"
+          ]
+        }
+      ],
+      "explanation": "**항체 7,271 g → 레진 198.3 L → 안지름 약 109.7 cm → 부피 유속 약 2,832.8 L/h.**\n(1) 6,020 × 1.27 × 0.951 ≈ 7,271 g\n(2) 7,270,775 mg ÷ 44 mg/mL = 165,245 mL, × 1.2 ≈ 198.3 L\n(3) 단면적 = 198,294 cm³ ÷ 21 cm ≈ 9,443 cm², 반지름 = √(9,443 ÷ 3.14) ≈ 54.84 cm → 안지름 109.7 cm\n(4) 300 cm/h × 9,443 cm² ≈ 2,832,770 mL/h ≈ 2,832.8 L/h\n흔한 실수: 반지름을 답으로 써 54.8 cm, safety factor를 빼서 레진 165.2 L, mL/h → L/h 환산 누락.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-804",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 32 cm, bed height 21 cm인 Protein A 컬럼(binding capacity 47 g/L)이 있다. 매 cycle binding capacity의 85 %까지만 싣는다. (π = 3.14)",
+        "수확액 1,960 L(titer 2.73 g/L, clarification 손실 없음)를 이 컬럼으로 정제한다.",
+        "매 cycle equilibration 5 CV, wash 5 CV, elution 2 CV, regeneration 3 CV의 버퍼를 흘린다."
+      ],
+      "answers": [
+        "1) 16.88 L  2) 674.4 g  3) 8 cycle  4) 2,026 L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 16.8806,
+          "answers": [
+            "16.88",
+            "16.88 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 674.3816,
+          "answers": [
+            "674.4",
+            "674.4 g"
+          ]
+        },
+        {
+          "label": "cycles per batch",
+          "num": 8,
+          "answers": [
+            "8",
+            "8 cycle",
+            "8회"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 2025.6768,
+          "answers": [
+            "2,026",
+            "2026",
+            "2,026 L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 16.88 L → cycle당 674.4 g → 8 cycle → 버퍼 약 2,026 L.**\n(1) 3.14 × 16² × 21 ≈ 16,881 mL ≈ 16.88 L\n(2) 16.88 L × 47 g/L × 0.85 ≈ 674.4 g\n(3) 항체 1,960 × 2.73 = 5,351 g, ÷ 674.4 = 7.93 → 올림 8 cycle\n(4) 15 CV × 16.88 L × 8 cycle ≈ 2,026 L\n흔한 실수: 지름을 반지름으로 넣어 CV 67.5 L, cycle을 버림해 7 cycle, 버퍼에 cycle 수를 빠뜨려 253 L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-805",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-804",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 48 cm, bed height 19 cm인 Protein A 컬럼(binding capacity 53 g/L)이 있다. 매 cycle binding capacity의 80 %까지만 싣는다. (π = 3.14)",
+        "수확액 3,550 L(titer 1.86 g/L, clarification 손실 없음)를 이 컬럼으로 정제한다.",
+        "매 cycle equilibration 4 CV, wash 6 CV, elution 2.5 CV, strip 3 CV, re-equilibration 4 CV의 버퍼를 흘린다."
+      ],
+      "answers": [
+        "1) 34.36 L  2) 1,457 g  3) 5 cycle  4) 3,351 L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 34.3642,
+          "answers": [
+            "34.36",
+            "34.36 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 1457.0404,
+          "answers": [
+            "1,457",
+            "1457",
+            "1,457 g"
+          ]
+        },
+        {
+          "label": "cycles per batch",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 cycle",
+            "5회"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 3350.5056,
+          "answers": [
+            "3,351",
+            "3351",
+            "3,351 L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 34.36 L → cycle당 1,457 g → 5 cycle → 버퍼 약 3,351 L.**\n(1) 3.14 × 24² × 19 ≈ 34,364 mL ≈ 34.36 L\n(2) 34.36 L × 53 g/L × 0.8 ≈ 1,457 g\n(3) 항체 3,550 × 1.86 = 6,603 g, ÷ 1,457 = 4.53 → 올림 5 cycle\n(4) 19.5 CV × 34.36 L × 5 cycle ≈ 3,351 L\n흔한 실수: 지름을 반지름으로 넣어 CV 137.5 L, cycle을 버림해 4 cycle, 버퍼에 cycle 수를 빠뜨려 670 L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-806",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-804",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 25 cm, bed height 23.5 cm인 Protein A 컬럼(binding capacity 41 g/L)이 있다. 매 cycle binding capacity의 90 %까지만 싣는다. (π = 3.14)",
+        "수확액 1,240 L(titer 3.37 g/L, clarification 손실 없음)를 이 컬럼으로 정제한다.",
+        "매 cycle equilibration 5 CV, wash 4 CV, elution 3 CV, CIP 3 CV의 버퍼를 흘린다."
+      ],
+      "answers": [
+        "1) 11.53 L  2) 425.4 g  3) 10 cycle  4) 1,729 L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 11.5297,
+          "answers": [
+            "11.53",
+            "11.53 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 425.4455,
+          "answers": [
+            "425.4",
+            "425.4 g"
+          ]
+        },
+        {
+          "label": "cycles per batch",
+          "num": 10,
+          "answers": [
+            "10",
+            "10 cycle",
+            "10회"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 1729.4531,
+          "answers": [
+            "1,729",
+            "1729",
+            "1,729 L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 11.53 L → cycle당 425.4 g → 10 cycle → 버퍼 약 1,729 L.**\n(1) 3.14 × 12.5² × 23.5 ≈ 11,530 mL ≈ 11.53 L\n(2) 11.53 L × 41 g/L × 0.9 ≈ 425.4 g\n(3) 항체 1,240 × 3.37 = 4,179 g, ÷ 425.4 = 9.82 → 올림 10 cycle\n(4) 15 CV × 11.53 L × 10 cycle ≈ 1,729 L\n흔한 실수: 지름을 반지름으로 넣어 CV 46.1 L, cycle을 버림해 9 cycle, 버퍼에 cycle 수를 빠뜨려 173 L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-807",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-804",
+      "question": "<보기>의 Protein A 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 57 cm, bed height 18.5 cm인 Protein A 컬럼(binding capacity 49.5 g/L)이 있다. 매 cycle binding capacity의 75 %까지만 싣는다. (π = 3.14)",
+        "수확액 5,870 L(titer 2.04 g/L, clarification 손실 없음)를 이 컬럼으로 정제한다.",
+        "매 cycle equilibration 6 CV, wash 5 CV, elution 2 CV, regeneration 3 CV, re-equilibration 5 CV의 버퍼를 흘린다."
+      ],
+      "answers": [
+        "1) 47.18 L  2) 1,751.7 g  3) 7 cycle  4) 6,936 L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 47.1836,
+          "answers": [
+            "47.18",
+            "47.18 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 1751.6912,
+          "answers": [
+            "1,751.7",
+            "1751.7",
+            "1,751.7 g"
+          ]
+        },
+        {
+          "label": "cycles per batch",
+          "num": 7,
+          "answers": [
+            "7",
+            "7 cycle",
+            "7회"
+          ]
+        },
+        {
+          "label": "한 batch 버퍼 총량 (L)",
+          "num": 6935.9896,
+          "answers": [
+            "6,936",
+            "6936",
+            "6,936 L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 47.18 L → cycle당 1,751.7 g → 7 cycle → 버퍼 약 6,936 L.**\n(1) 3.14 × 28.5² × 18.5 ≈ 47,184 mL ≈ 47.18 L\n(2) 47.18 L × 49.5 g/L × 0.75 ≈ 1,751.7 g\n(3) 항체 5,870 × 2.04 = 11,975 g, ÷ 1,751.7 = 6.84 → 올림 7 cycle\n(4) 21 CV × 47.18 L × 7 cycle ≈ 6,936 L\n흔한 실수: 지름을 반지름으로 넣어 CV 188.7 L, cycle을 버림해 6 cycle, 버퍼에 cycle 수를 빠뜨려 991 L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-808",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A loading 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 40 cm, bed height 22 cm인 Protein A 컬럼에서 시료의 residence time을 4.5분으로 맞추려 한다. (π = 3.14)",
+        "Clarification을 마친 수확액 2,380 L를 이 조건으로 loading한다."
+      ],
+      "answers": [
+        "1) 27.63 L  2) 293.3 cm/h  3) 368.4 L/h  4) 6.46 h"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 27.632,
+          "answers": [
+            "27.63",
+            "27.63 L"
+          ]
+        },
+        {
+          "label": "linear velocity (cm/h)",
+          "num": 293.3333,
+          "answers": [
+            "293.3",
+            "293.3 cm/h"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 368.4267,
+          "answers": [
+            "368.4",
+            "368.4 L/h"
+          ]
+        },
+        {
+          "label": "loading 시간 (h)",
+          "num": 6.4599,
+          "answers": [
+            "6.46",
+            "6.46 h"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 27.63 L → linear velocity 293.3 cm/h → 368.4 L/h → loading 약 6.46 h.**\n(1) 3.14 × 20² × 22 ≈ 27.63 L\n(2) residence time = bed height ÷ linear velocity → 22 cm ÷ (4.5 ÷ 60) h ≈ 293.3 cm/h\n(3) 293.3 × 3.14 × 20² ≈ 368,427 mL/h ≈ 368.4 L/h(= CV ÷ residence time = 27.63 L ÷ 0.075 h)\n(4) 2,380 ÷ 368.4 ≈ 6.46 h\n흔한 실수: 분을 시간으로 바꾸지 않아 linear velocity 4.89 cm/h, 지름을 반지름으로 넣어 유속 1,474 L/h.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-809",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-808",
+      "question": "<보기>의 Protein A loading 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 55 cm, bed height 19 cm인 Protein A 컬럼에서 시료의 residence time을 3.8분으로 맞추려 한다. (π = 3.14)",
+        "Clarification을 마친 수확액 4,720 L를 이 조건으로 loading한다."
+      ],
+      "answers": [
+        "1) 45.12 L  2) 300 cm/h  3) 712.4 L/h  4) 6.63 h"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 45.1179,
+          "answers": [
+            "45.12",
+            "45.12 L"
+          ]
+        },
+        {
+          "label": "linear velocity (cm/h)",
+          "num": 300.0,
+          "answers": [
+            "300",
+            "300 cm/h"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 712.3875,
+          "answers": [
+            "712.4",
+            "712.4 L/h"
+          ]
+        },
+        {
+          "label": "loading 시간 (h)",
+          "num": 6.6256,
+          "answers": [
+            "6.63",
+            "6.63 h"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 45.12 L → linear velocity 300 cm/h → 712.4 L/h → loading 약 6.63 h.**\n(1) 3.14 × 27.5² × 19 ≈ 45.12 L\n(2) residence time = bed height ÷ linear velocity → 19 cm ÷ (3.8 ÷ 60) h ≈ 300 cm/h\n(3) 300 × 3.14 × 27.5² ≈ 712,388 mL/h ≈ 712.4 L/h(= CV ÷ residence time = 45.12 L ÷ 0.0633 h)\n(4) 4,720 ÷ 712.4 ≈ 6.63 h\n흔한 실수: 분을 시간으로 바꾸지 않아 linear velocity 5 cm/h, 지름을 반지름으로 넣어 유속 2,850 L/h.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-810",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-808",
+      "question": "<보기>의 Protein A loading 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "안지름 30 cm, bed height 24.5 cm인 Protein A 컬럼에서 시료의 residence time을 5.2분으로 맞추려 한다. (π = 3.14)",
+        "Clarification을 마친 수확액 1,460 L를 이 조건으로 loading한다."
+      ],
+      "answers": [
+        "1) 17.31 L  2) 282.7 cm/h  3) 199.7 L/h  4) 7.31 h"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 17.3092,
+          "answers": [
+            "17.31",
+            "17.31 L"
+          ]
+        },
+        {
+          "label": "linear velocity (cm/h)",
+          "num": 282.6923,
+          "answers": [
+            "282.7",
+            "282.7 cm/h"
+          ]
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 199.7221,
+          "answers": [
+            "199.7",
+            "199.7 L/h"
+          ]
+        },
+        {
+          "label": "loading 시간 (h)",
+          "num": 7.3102,
+          "answers": [
+            "7.31",
+            "7.31 h"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 17.31 L → linear velocity 282.7 cm/h → 199.7 L/h → loading 약 7.31 h.**\n(1) 3.14 × 15² × 24.5 ≈ 17.31 L\n(2) residence time = bed height ÷ linear velocity → 24.5 cm ÷ (5.2 ÷ 60) h ≈ 282.7 cm/h\n(3) 282.7 × 3.14 × 15² ≈ 199,722 mL/h ≈ 199.7 L/h(= CV ÷ residence time = 17.31 L ÷ 0.0867 h)\n(4) 1,460 ÷ 199.7 ≈ 7.31 h\n흔한 실수: 분을 시간으로 바꾸지 않아 linear velocity 4.71 cm/h, 지름을 반지름으로 넣어 유속 799 L/h.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "residence time",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-811",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 컬럼 scale-up에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "실험실 컬럼은 안지름 1.6 cm, bed height 21.5 cm이고 4.2 mL/min으로 운전해 결과가 좋았다. (π = 3.14)",
+        "생산 컬럼은 안지름 63 cm로 키우고, 같은 공정이 되도록 운전한다."
+      ],
+      "answers": [
+        "1) 125.4 cm/h  2) 67 L  3) 390.7 L/h  4) 1,550 배"
+      ],
+      "subs": [
+        {
+          "label": "실험실 컬럼의 linear velocity (cm/h)",
+          "num": 125.3981,
+          "answers": [
+            "125.4",
+            "125.4 cm/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼 1 CV (L)",
+          "num": 66.9868,
+          "answers": [
+            "67",
+            "67 L"
+          ]
+        },
+        {
+          "label": "생산 컬럼 부피 유속 (L/h)",
+          "num": 390.6984,
+          "answers": [
+            "390.7",
+            "390.7 L/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼이 실험실 컬럼의 몇 배 부피인가 (배)",
+          "num": 1550.3906,
+          "answers": [
+            "1,550",
+            "1550",
+            "1,550 배"
+          ]
+        }
+      ],
+      "explanation": "**125.4 cm/h → 생산 CV 67 L → 390.7 L/h → 부피 약 1,550배.**\n(1) 단면적 3.14 × 0.8² ≈ 2.01 cm², 4.2 mL/min × 60 ÷ 2.01 ≈ 125.4 cm/h\n(2) 같은 공정 = bed height·linear velocity 고정 → 3.14 × 31.5² × 21.5 ≈ 66,987 mL ≈ 67 L\n(3) 125.4 × 3,116 cm² ≈ 390.7 L/h\n(4) bed height가 같으므로 부피 비 = 지름 비의 제곱 = (63 ÷ 1.6)² ≈ 1,550배\n흔한 실수: 부피 유속을 그대로 키워 linear velocity를 바꿈, 지름 비를 제곱하지 않아 39.4배.",
+      "source": "해설서 A9 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-812",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-811",
+      "question": "<보기>의 컬럼 scale-up에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "실험실 컬럼은 안지름 2.6 cm, bed height 19 cm이고 11.5 mL/min으로 운전해 결과가 좋았다. (π = 3.14)",
+        "생산 컬럼은 안지름 80 cm로 키우고, 같은 공정이 되도록 운전한다."
+      ],
+      "answers": [
+        "1) 130 cm/h  2) 95.5 L  3) 653.3 L/h  4) 947 배"
+      ],
+      "subs": [
+        {
+          "label": "실험실 컬럼의 linear velocity (cm/h)",
+          "num": 130.0268,
+          "answers": [
+            "130",
+            "130 cm/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼 1 CV (L)",
+          "num": 95.456,
+          "answers": [
+            "95.5",
+            "95.5 L"
+          ]
+        },
+        {
+          "label": "생산 컬럼 부피 유속 (L/h)",
+          "num": 653.2544,
+          "answers": [
+            "653.3",
+            "653.3 L/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼이 실험실 컬럼의 몇 배 부피인가 (배)",
+          "num": 946.7456,
+          "answers": [
+            "947",
+            "947 배"
+          ]
+        }
+      ],
+      "explanation": "**130 cm/h → 생산 CV 95.5 L → 653.3 L/h → 부피 약 947배.**\n(1) 단면적 3.14 × 1.3² ≈ 5.307 cm², 11.5 mL/min × 60 ÷ 5.307 ≈ 130 cm/h\n(2) 같은 공정 = bed height·linear velocity 고정 → 3.14 × 40² × 19 ≈ 95,456 mL ≈ 95.5 L\n(3) 130 × 5,024 cm² ≈ 653.3 L/h\n(4) bed height가 같으므로 부피 비 = 지름 비의 제곱 = (80 ÷ 2.6)² ≈ 947배\n흔한 실수: 부피 유속을 그대로 키워 linear velocity를 바꿈, 지름 비를 제곱하지 않아 30.8배.",
+      "source": "해설서 A9 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-813",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-811",
+      "question": "<보기>의 컬럼 scale-up에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "실험실 컬럼은 안지름 1 cm, bed height 23 cm이고 1.4 mL/min으로 운전해 결과가 좋았다. (π = 3.14)",
+        "생산 컬럼은 안지름 45 cm로 키우고, 같은 공정이 되도록 운전한다."
+      ],
+      "answers": [
+        "1) 103.2 cm/h  2) 36.6 L  3) 164 L/h  4) 2,025 배"
+      ],
+      "subs": [
+        {
+          "label": "실험실 컬럼의 linear velocity (cm/h)",
+          "num": 103.1847,
+          "answers": [
+            "103.2",
+            "103.2 cm/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼 1 CV (L)",
+          "num": 36.5614,
+          "answers": [
+            "36.6",
+            "36.6 L"
+          ]
+        },
+        {
+          "label": "생산 컬럼 부피 유속 (L/h)",
+          "num": 164.025,
+          "answers": [
+            "164",
+            "164 L/h"
+          ]
+        },
+        {
+          "label": "생산 컬럼이 실험실 컬럼의 몇 배 부피인가 (배)",
+          "num": 2025.0,
+          "answers": [
+            "2,025",
+            "2025",
+            "2,025 배"
+          ]
+        }
+      ],
+      "explanation": "**103.2 cm/h → 생산 CV 36.6 L → 164 L/h → 부피 약 2,025배.**\n(1) 단면적 3.14 × 0.5² ≈ 0.785 cm², 1.4 mL/min × 60 ÷ 0.785 ≈ 103.2 cm/h\n(2) 같은 공정 = bed height·linear velocity 고정 → 3.14 × 22.5² × 23 ≈ 36,561 mL ≈ 36.6 L\n(3) 103.2 × 1,590 cm² ≈ 164 L/h\n(4) bed height가 같으므로 부피 비 = 지름 비의 제곱 = (45 ÷ 1)² ≈ 2,025배\n흔한 실수: 부피 유속을 그대로 키워 linear velocity를 바꿈, 지름 비를 제곱하지 않아 45배.",
+      "source": "해설서 A9 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "scale-up",
+        "linear velocity"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-814",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 두 Protein A 운영안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A에 걸 항체는 한 batch에 4,870 g이고, 레진 DBC는 48 g/L이다.",
+        "안 1은 한 번에 모두 결합시키는 레진에 safety factor 50 %를 더해 충전하고, 안 2는 레진 38.5 L만 충전해 cycle마다 DBC까지 싣는다.",
+        "레진 가격은 1 L당 $18,500이고, 버퍼는 cycle마다 모두 16 CV를 흘린다."
+      ],
+      "answers": [
+        "1) 152.2 L  2) 3 cycle  3) $2,103,219  4) 1,848 L"
+      ],
+      "subs": [
+        {
+          "label": "안 1의 레진 부피 (L)",
+          "num": 152.1875,
+          "answers": [
+            "152.2",
+            "152.2 L"
+          ]
+        },
+        {
+          "label": "안 2의 cycles per batch",
+          "num": 3,
+          "answers": [
+            "3",
+            "3 cycle",
+            "3회"
+          ]
+        },
+        {
+          "label": "안 2가 아끼는 레진 구입비 ($)",
+          "num": 2103218.75,
+          "answers": [
+            "2,103,219",
+            "2103219",
+            "2,103,219 $"
+          ]
+        },
+        {
+          "label": "안 2의 한 batch 버퍼 총량 (L)",
+          "num": 1848.0,
+          "answers": [
+            "1,848",
+            "1848",
+            "1,848 L"
+          ]
+        }
+      ],
+      "explanation": "**안 1 레진 152.2 L → 안 2 3 cycle → 레진비 $2,103,219 절약 → 안 2 버퍼 약 1,848 L.**\n(1) 4,870 ÷ 48 = 101.5 L, × 1.5 ≈ 152.2 L\n(2) cycle당 38.5 × 48 = 1,848 g → 4,870 ÷ 1,848 = 2.64 → 올림 3\n(3) (152.2 − 38.5) L × $18,500 ≈ $2,103,219\n(4) 16 CV × 38.5 L × 3 ≈ 1,848 L — 레진값은 줄지만 cycle이 늘어 공정 시간·인건비가 는다(WK06 Case 1: 40 L → 20 L × 3 cycle)\n흔한 실수: 안 1에 safety factor를 빼서 101.5 L, cycle을 버림해 2 cycle.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-815",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-814",
+      "question": "<보기>의 두 Protein A 운영안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A에 걸 항체는 한 batch에 2,960 g이고, 레진 DBC는 42.5 g/L이다.",
+        "안 1은 한 번에 모두 결합시키는 레진에 safety factor 35 %를 더해 충전하고, 안 2는 레진 26 L만 충전해 cycle마다 DBC까지 싣는다.",
+        "레진 가격은 1 L당 $21,300이고, 버퍼는 cycle마다 모두 17.5 CV를 흘린다."
+      ],
+      "answers": [
+        "1) 94 L  2) 3 cycle  3) $1,448,901  4) 1,365 L"
+      ],
+      "subs": [
+        {
+          "label": "안 1의 레진 부피 (L)",
+          "num": 94.0235,
+          "answers": [
+            "94",
+            "94 L"
+          ]
+        },
+        {
+          "label": "안 2의 cycles per batch",
+          "num": 3,
+          "answers": [
+            "3",
+            "3 cycle",
+            "3회"
+          ]
+        },
+        {
+          "label": "안 2가 아끼는 레진 구입비 ($)",
+          "num": 1448901.1765,
+          "answers": [
+            "1,448,901",
+            "1448901",
+            "1,448,901 $"
+          ]
+        },
+        {
+          "label": "안 2의 한 batch 버퍼 총량 (L)",
+          "num": 1365.0,
+          "answers": [
+            "1,365",
+            "1365",
+            "1,365 L"
+          ]
+        }
+      ],
+      "explanation": "**안 1 레진 94 L → 안 2 3 cycle → 레진비 $1,448,901 절약 → 안 2 버퍼 약 1,365 L.**\n(1) 2,960 ÷ 42.5 = 69.6 L, × 1.35 ≈ 94 L\n(2) cycle당 26 × 42.5 = 1,105 g → 2,960 ÷ 1,105 = 2.68 → 올림 3\n(3) (94 − 26) L × $21,300 ≈ $1,448,901\n(4) 17.5 CV × 26 L × 3 ≈ 1,365 L — 레진값은 줄지만 cycle이 늘어 공정 시간·인건비가 는다(WK06 Case 1: 40 L → 20 L × 3 cycle)\n흔한 실수: 안 1에 safety factor를 빼서 69.6 L, cycle을 버림해 2 cycle.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-816",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-814",
+      "question": "<보기>의 두 Protein A 운영안을 비교하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A에 걸 항체는 한 batch에 7,340 g이고, 레진 DBC는 55 g/L이다.",
+        "안 1은 한 번에 모두 결합시키는 레진에 safety factor 25 %를 더해 충전하고, 안 2는 레진 40 L만 충전해 cycle마다 DBC까지 싣는다.",
+        "레진 가격은 1 L당 $16,800이고, 버퍼는 cycle마다 모두 15 CV를 흘린다."
+      ],
+      "answers": [
+        "1) 166.8 L  2) 4 cycle  3) $2,130,545  4) 2,400 L"
+      ],
+      "subs": [
+        {
+          "label": "안 1의 레진 부피 (L)",
+          "num": 166.8182,
+          "answers": [
+            "166.8",
+            "166.8 L"
+          ]
+        },
+        {
+          "label": "안 2의 cycles per batch",
+          "num": 4,
+          "answers": [
+            "4",
+            "4 cycle",
+            "4회"
+          ]
+        },
+        {
+          "label": "안 2가 아끼는 레진 구입비 ($)",
+          "num": 2130545.4545,
+          "answers": [
+            "2,130,545",
+            "2130545",
+            "2,130,545 $"
+          ]
+        },
+        {
+          "label": "안 2의 한 batch 버퍼 총량 (L)",
+          "num": 2400,
+          "answers": [
+            "2,400",
+            "2400",
+            "2,400 L"
+          ]
+        }
+      ],
+      "explanation": "**안 1 레진 166.8 L → 안 2 4 cycle → 레진비 $2,130,545 절약 → 안 2 버퍼 약 2,400 L.**\n(1) 7,340 ÷ 55 = 133.5 L, × 1.25 ≈ 166.8 L\n(2) cycle당 40 × 55 = 2,200 g → 7,340 ÷ 2,200 = 3.34 → 올림 4\n(3) (166.8 − 40) L × $16,800 ≈ $2,130,545\n(4) 15 CV × 40 L × 4 ≈ 2,400 L — 레진값은 줄지만 cycle이 늘어 공정 시간·인건비가 는다(WK06 Case 1: 40 L → 20 L × 3 cycle)\n흔한 실수: 안 1에 safety factor를 빼서 133.5 L, cycle을 버림해 3 cycle.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-817",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 Protein A 공정 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 42 cm, bed height 20.5 cm, binding capacity 51 g/L이고, 매 cycle binding capacity의 80 %까지만 싣는다. (π = 3.14)",
+        "근무 일정 때문에 한 batch는 5 cycle 안에 끝내야 한다.",
+        "수확액은 3,120 L이고 clarification 수율은 96.3 %이다."
+      ],
+      "answers": [
+        "1) 28.39 L  2) 1,158.2 g  3) 5,791 g  4) 1.927 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 28.3872,
+          "answers": [
+            "28.39",
+            "28.39 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 1158.1965,
+          "answers": [
+            "1,158.2",
+            "1158.2",
+            "1,158.2 g"
+          ]
+        },
+        {
+          "label": "한 batch에 정제할 수 있는 최대 항체 (g)",
+          "num": 5790.9827,
+          "answers": [
+            "5,791",
+            "5791",
+            "5,791 g"
+          ]
+        },
+        {
+          "label": "허용되는 배양 titer 최댓값 (g/L)",
+          "num": 1.9274,
+          "answers": [
+            "1.927",
+            "1.927 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 28.39 L → cycle당 1,158.2 g → 최대 5,791 g → titer 최대 약 1.927 g/L.**\n(1) 3.14 × 21² × 20.5 ≈ 28.39 L\n(2) 28.39 × 51 × 0.8 ≈ 1,158.2 g\n(3) × 5 cycle ≈ 5,791 g\n(4) 수확액 속 항체 = 5,791 ÷ 0.963 ≈ 6,013 g, ÷ 3,120 L ≈ 1.927 g/L — titer가 이보다 높으면 cycle을 늘리거나 컬럼을 키워야 한다\n흔한 실수: 수율을 곱해 1.787 g/L, 적재 비율을 빼서 2.409 g/L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-818",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-817",
+      "question": "<보기>의 Protein A 공정 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 36 cm, bed height 23 cm, binding capacity 44.5 g/L이고, 매 cycle binding capacity의 85 %까지만 싣는다. (π = 3.14)",
+        "근무 일정 때문에 한 batch는 7 cycle 안에 끝내야 한다.",
+        "수확액은 2,480 L이고 clarification 수율은 94.8 %이다."
+      ],
+      "answers": [
+        "1) 23.4 L  2) 885.1 g  3) 6,196 g  4) 2.635 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 23.3993,
+          "answers": [
+            "23.4",
+            "23.4 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 885.0778,
+          "answers": [
+            "885.1",
+            "885.1 g"
+          ]
+        },
+        {
+          "label": "한 batch에 정제할 수 있는 최대 항체 (g)",
+          "num": 6195.5444,
+          "answers": [
+            "6,196",
+            "6196",
+            "6,196 g"
+          ]
+        },
+        {
+          "label": "허용되는 배양 titer 최댓값 (g/L)",
+          "num": 2.6352,
+          "answers": [
+            "2.635",
+            "2.635 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 23.4 L → cycle당 885.1 g → 최대 6,196 g → titer 최대 약 2.635 g/L.**\n(1) 3.14 × 18² × 23 ≈ 23.4 L\n(2) 23.4 × 44.5 × 0.85 ≈ 885.1 g\n(3) × 7 cycle ≈ 6,196 g\n(4) 수확액 속 항체 = 6,196 ÷ 0.948 ≈ 6,535 g, ÷ 2,480 L ≈ 2.635 g/L — titer가 이보다 높으면 cycle을 늘리거나 컬럼을 키워야 한다\n흔한 실수: 수율을 곱해 2.368 g/L, 적재 비율을 빼서 3.1 g/L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-819",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-817",
+      "question": "<보기>의 Protein A 공정 조건에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼은 안지름 60 cm, bed height 18 cm, binding capacity 47 g/L이고, 매 cycle binding capacity의 75 %까지만 싣는다. (π = 3.14)",
+        "근무 일정 때문에 한 batch는 4 cycle 안에 끝내야 한다.",
+        "수확액은 6,850 L이고 clarification 수율은 97.1 %이다."
+      ],
+      "answers": [
+        "1) 50.87 L  2) 1,793.1 g  3) 7,172 g  4) 1.078 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 50.868,
+          "answers": [
+            "50.87",
+            "50.87 L"
+          ]
+        },
+        {
+          "label": "cycle당 싣는 항체 (g)",
+          "num": 1793.097,
+          "answers": [
+            "1,793.1",
+            "1793.1",
+            "1,793.1 g"
+          ]
+        },
+        {
+          "label": "한 batch에 정제할 수 있는 최대 항체 (g)",
+          "num": 7172.388,
+          "answers": [
+            "7,172",
+            "7172",
+            "7,172 g"
+          ]
+        },
+        {
+          "label": "허용되는 배양 titer 최댓값 (g/L)",
+          "num": 1.0783,
+          "answers": [
+            "1.078",
+            "1.078 g/L"
+          ]
+        }
+      ],
+      "explanation": "**1 CV 50.87 L → cycle당 1,793.1 g → 최대 7,172 g → titer 최대 약 1.078 g/L.**\n(1) 3.14 × 30² × 18 ≈ 50.87 L\n(2) 50.87 × 47 × 0.75 ≈ 1,793.1 g\n(3) × 4 cycle ≈ 7,172 g\n(4) 수확액 속 항체 = 7,172 ÷ 0.971 ≈ 7,387 g, ÷ 6,850 L ≈ 1.078 g/L — titer가 이보다 높으면 cycle을 늘리거나 컬럼을 키워야 한다\n흔한 실수: 수율을 곱해 1.017 g/L, 적재 비율을 빼서 1.438 g/L.",
+      "source": "해설서 A8 · 해설서 부록 1 (컬럼 부피·DBC·cycle·버퍼·유속) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1) · WK06 녹음 2:30:39–2:55:51",
+      "concepts": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tags": [
+        "Column 부피",
+        "DBC",
+        "Protein A",
+        "titer"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-820",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 목표 생산량에 맞춰 배양 규모와 Protein A 컬럼을 정하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 3.65 kg을 얻으려 한다. Protein A 이후 DS까지의 수율은 71.2 %, clarification 수율은 95.8 %이다.",
+        "배양 titer는 2.46 g/L이다.",
+        "Protein A는 한 번에 모두 결합시키도록 레진(DBC 48 g/L)에 safety factor 30 %를 더해 충전하고, bed height는 21 cm로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 5,126 g  2) 2,175 L  3) 138.8 L  4) 91.8 cm"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 5126.4045,
+          "answers": [
+            "5,126",
+            "5126",
+            "5,126 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2175.2654,
+          "answers": [
+            "2,175",
+            "2175",
+            "2,175 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 138.8401,
+          "answers": [
+            "138.8",
+            "138.8 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 91.7726,
+          "answers": [
+            "91.8",
+            "91.8 cm"
+          ]
+        }
+      ],
+      "explanation": "**load 5,126 g → 배양 2,175 L → 레진 138.8 L → 안지름 약 91.8 cm.**\n(1) 3,650 g ÷ 0.712 ≈ 5,126 g(거슬러 올라갈 때는 수율로 나눈다)\n(2) 5,126 ÷ 0.958 ≈ 5,351 g, ÷ 2.46 g/L ≈ 2,175 L\n(3) 5,126 ÷ 48 × 1.3 ≈ 138.8 L\n(4) 단면적 6,611 cm², 반지름 √(6,611 ÷ 3.14) ≈ 45.89 cm → 91.8 cm\n흔한 실수: 수율을 곱해 load 2,599 g, 반지름을 답으로 씀(45.9 cm).",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-821",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-820",
+      "question": "<보기>의 목표 생산량에 맞춰 배양 규모와 Protein A 컬럼을 정하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 1.92 kg을 얻으려 한다. Protein A 이후 DS까지의 수율은 68.4 %, clarification 수율은 94.7 %이다.",
+        "배양 titer는 1.73 g/L이다.",
+        "Protein A는 한 번에 모두 결합시키도록 레진(DBC 43.5 g/L)에 safety factor 40 %를 더해 충전하고, bed height는 23.5 cm로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 2,807 g  2) 1,713 L  3) 90.3 L  4) 70 cm"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 2807.0175,
+          "answers": [
+            "2,807",
+            "2807",
+            "2,807 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1713.3617,
+          "answers": [
+            "1,713",
+            "1713",
+            "1,713 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 90.3408,
+          "answers": [
+            "90.3",
+            "90.3 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 69.9799,
+          "answers": [
+            "70",
+            "70 cm"
+          ]
+        }
+      ],
+      "explanation": "**load 2,807 g → 배양 1,713 L → 레진 90.3 L → 안지름 약 70 cm.**\n(1) 1,920 g ÷ 0.684 ≈ 2,807 g(거슬러 올라갈 때는 수율로 나눈다)\n(2) 2,807 ÷ 0.947 ≈ 2,964 g, ÷ 1.73 g/L ≈ 1,713 L\n(3) 2,807 ÷ 43.5 × 1.4 ≈ 90.3 L\n(4) 단면적 3,844 cm², 반지름 √(3,844 ÷ 3.14) ≈ 34.99 cm → 70 cm\n흔한 실수: 수율을 곱해 load 1,313 g, 반지름을 답으로 씀(35 cm).",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-822",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-820",
+      "question": "<보기>의 목표 생산량에 맞춰 배양 규모와 Protein A 컬럼을 정하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 6.08 kg을 얻으려 한다. Protein A 이후 DS까지의 수율은 73.5 %, clarification 수율은 96.2 %이다.",
+        "배양 titer는 3.18 g/L이다.",
+        "Protein A는 한 번에 모두 결합시키도록 레진(DBC 52 g/L)에 safety factor 20 %를 더해 충전하고, bed height는 19 cm로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 8,272 g  2) 2,704 L  3) 190.9 L  4) 113.1 cm"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 8272.1088,
+          "answers": [
+            "8,272",
+            "8272",
+            "8,272 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2704.0458,
+          "answers": [
+            "2,704",
+            "2704",
+            "2,704 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 190.8948,
+          "answers": [
+            "190.9",
+            "190.9 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 113.132,
+          "answers": [
+            "113.1",
+            "113.1 cm"
+          ]
+        }
+      ],
+      "explanation": "**load 8,272 g → 배양 2,704 L → 레진 190.9 L → 안지름 약 113.1 cm.**\n(1) 6,080 g ÷ 0.735 ≈ 8,272 g(거슬러 올라갈 때는 수율로 나눈다)\n(2) 8,272 ÷ 0.962 ≈ 8,599 g, ÷ 3.18 g/L ≈ 2,704 L\n(3) 8,272 ÷ 52 × 1.2 ≈ 190.9 L\n(4) 단면적 10,047 cm², 반지름 √(10,047 ÷ 3.14) ≈ 56.57 cm → 113.1 cm\n흔한 실수: 수율을 곱해 load 4,469 g, 반지름을 답으로 씀(56.6 cm).",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-823",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-820",
+      "question": "<보기>의 목표 생산량에 맞춰 배양 규모와 Protein A 컬럼을 정하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 2.74 kg을 얻으려 한다. Protein A 이후 DS까지의 수율은 69.7 %, clarification 수율은 95.1 %이다.",
+        "배양 titer는 2.07 g/L이다.",
+        "Protein A는 한 번에 모두 결합시키도록 레진(DBC 46.5 g/L)에 safety factor 35 %를 더해 충전하고, bed height는 22.5 cm로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 3,931 g  2) 1,997 L  3) 114.1 L  4) 80.4 cm"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 3931.1334,
+          "answers": [
+            "3,931",
+            "3931",
+            "3,931 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 1996.9488,
+          "answers": [
+            "1,997",
+            "1997",
+            "1,997 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 114.1297,
+          "answers": [
+            "114.1",
+            "114.1 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 80.3847,
+          "answers": [
+            "80.4",
+            "80.4 cm"
+          ]
+        }
+      ],
+      "explanation": "**load 3,931 g → 배양 1,997 L → 레진 114.1 L → 안지름 약 80.4 cm.**\n(1) 2,740 g ÷ 0.697 ≈ 3,931 g(거슬러 올라갈 때는 수율로 나눈다)\n(2) 3,931 ÷ 0.951 ≈ 4,134 g, ÷ 2.07 g/L ≈ 1,997 L\n(3) 3,931 ÷ 46.5 × 1.35 ≈ 114.1 L\n(4) 단면적 5,072 cm², 반지름 √(5,072 ÷ 3.14) ≈ 40.19 cm → 80.4 cm\n흔한 실수: 수율을 곱해 load 1,910 g, 반지름을 답으로 씀(40.2 cm).",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-824",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-820",
+      "question": "<보기>의 목표 생산량에 맞춰 배양 규모와 Protein A 컬럼을 정하려 한다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 원료의약품(DS) 4.41 kg을 얻으려 한다. Protein A 이후 DS까지의 수율은 72.6 %, clarification 수율은 93.9 %이다.",
+        "배양 titer는 2.85 g/L이다.",
+        "Protein A는 한 번에 모두 결합시키도록 레진(DBC 50.5 g/L)에 safety factor 25 %를 더해 충전하고, bed height는 20 cm로 정한다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 6,074 g  2) 2,270 L  3) 150.4 L  4) 97.9 cm"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 6074.3802,
+          "answers": [
+            "6,074",
+            "6074",
+            "6,074 g"
+          ]
+        },
+        {
+          "label": "생산 배양 부피 (L)",
+          "num": 2269.8205,
+          "answers": [
+            "2,270",
+            "2270",
+            "2,270 L"
+          ]
+        },
+        {
+          "label": "충전할 레진 부피 (L)",
+          "num": 150.3559,
+          "answers": [
+            "150.4",
+            "150.4 L"
+          ]
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 97.8612,
+          "answers": [
+            "97.9",
+            "97.9 cm"
+          ]
+        }
+      ],
+      "explanation": "**load 6,074 g → 배양 2,270 L → 레진 150.4 L → 안지름 약 97.9 cm.**\n(1) 4,410 g ÷ 0.726 ≈ 6,074 g(거슬러 올라갈 때는 수율로 나눈다)\n(2) 6,074 ÷ 0.939 ≈ 6,469 g, ÷ 2.85 g/L ≈ 2,270 L\n(3) 6,074 ÷ 50.5 × 1.25 ≈ 150.4 L\n(4) 단면적 7,518 cm², 반지름 √(7,518 ÷ 3.14) ≈ 48.93 cm → 97.9 cm\n흔한 실수: 수율을 곱해 load 3,202 g, 반지름을 답으로 씀(48.9 cm).",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Column 부피",
+        "DBC"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-825",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양 2,140 L(titer 2.36 g/L)를 clarification(수율 95.5 %) 뒤 안지름 38 cm, bed height 21 cm인 Protein A 컬럼으로 정제한다. (π = 3.14)",
+        "binding capacity는 49 g/L이고 매 cycle 80 %까지만 실으며, 용출은 cycle마다 2.5 CV로 받는다.",
+        "Protein A 수율은 92.8 %, 그 뒤 DS까지의 수율은 74.1 %이다."
+      ],
+      "answers": [
+        "1) 6 cycle  2) 357.1 L  3) 12.54 g/L  4) 3.317 kg"
+      ],
+      "subs": [
+        {
+          "label": "cycles per batch",
+          "num": 6,
+          "answers": [
+            "6",
+            "6 cycle",
+            "6회"
+          ]
+        },
+        {
+          "label": "한 batch 용출액 부피 (L)",
+          "num": 357.0651,
+          "answers": [
+            "357.1",
+            "357.1 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 12.5352,
+          "answers": [
+            "12.54",
+            "12.54 g/L"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (kg)",
+          "num": 3.3166,
+          "answers": [
+            "3.317",
+            "3.317 kg"
+          ]
+        }
+      ],
+      "explanation": "**6 cycle → 용출액 357.1 L → 12.54 g/L → DS 약 3.317 kg.**\n(1) 항체 2,140 × 2.36 × 0.955 ≈ 4,823 g, CV = 3.14 × 19² × 21 ≈ 23.8 L, cycle당 933.1 g → 5.17 → 올림 6\n(2) 2.5 CV × 23.8 L × 6 ≈ 357.1 L\n(3) 용출 항체 4,823 × 0.928 ≈ 4,476 g, ÷ 357.1 L ≈ 12.54 g/L\n(4) 4,476 × 0.741 ≈ 3,317 g ≈ 3.317 kg\n흔한 실수: cycle을 버림해 5 cycle(용출액 297.6 L), Protein A 수율을 빼서 농도 13.51 g/L.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-826",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-825",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양 3,870 L(titer 1.84 g/L)를 clarification(수율 94.3 %) 뒤 안지름 50 cm, bed height 19.5 cm인 Protein A 컬럼으로 정제한다. (π = 3.14)",
+        "binding capacity는 46.5 g/L이고 매 cycle 85 %까지만 실으며, 용출은 cycle마다 2 CV로 받는다.",
+        "Protein A 수율은 91.3 %, 그 뒤 DS까지의 수율은 71.6 %이다."
+      ],
+      "answers": [
+        "1) 5 cycle  2) 382.7 L  3) 16.02 g/L  4) 4.39 kg"
+      ],
+      "subs": [
+        {
+          "label": "cycles per batch",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 cycle",
+            "5회"
+          ]
+        },
+        {
+          "label": "한 batch 용출액 부피 (L)",
+          "num": 382.6875,
+          "answers": [
+            "382.7",
+            "382.7 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 16.0202,
+          "answers": [
+            "16.02",
+            "16.02 g/L"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (kg)",
+          "num": 4.3896,
+          "answers": [
+            "4.39",
+            "4.39 kg"
+          ]
+        }
+      ],
+      "explanation": "**5 cycle → 용출액 382.7 L → 16.02 g/L → DS 약 4.39 kg.**\n(1) 항체 3,870 × 1.84 × 0.943 ≈ 6,715 g, CV = 3.14 × 25² × 19.5 ≈ 38.27 L, cycle당 1,512.6 g → 4.44 → 올림 5\n(2) 2 CV × 38.27 L × 5 ≈ 382.7 L\n(3) 용출 항체 6,715 × 0.913 ≈ 6,131 g, ÷ 382.7 L ≈ 16.02 g/L\n(4) 6,131 × 0.716 ≈ 4,390 g ≈ 4.39 kg\n흔한 실수: cycle을 버림해 4 cycle(용출액 306.1 L), Protein A 수율을 빼서 농도 17.55 g/L.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-827",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-825",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양 1,560 L(titer 3.27 g/L)를 clarification(수율 96.2 %) 뒤 안지름 33 cm, bed height 22.5 cm인 Protein A 컬럼으로 정제한다. (π = 3.14)",
+        "binding capacity는 52 g/L이고 매 cycle 75 %까지만 실으며, 용출은 cycle마다 3 CV로 받는다.",
+        "Protein A 수율은 93.4 %, 그 뒤 DS까지의 수율은 75.8 %이다."
+      ],
+      "answers": [
+        "1) 7 cycle  2) 403.9 L  3) 11.35 g/L  4) 3.474 kg"
+      ],
+      "subs": [
+        {
+          "label": "cycles per batch",
+          "num": 7,
+          "answers": [
+            "7",
+            "7 cycle",
+            "7회"
+          ]
+        },
+        {
+          "label": "한 batch 용출액 부피 (L)",
+          "num": 403.9237,
+          "answers": [
+            "403.9",
+            "403.9 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 11.3474,
+          "answers": [
+            "11.35",
+            "11.35 g/L"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (kg)",
+          "num": 3.4743,
+          "answers": [
+            "3.474",
+            "3.474 kg"
+          ]
+        }
+      ],
+      "explanation": "**7 cycle → 용출액 403.9 L → 11.35 g/L → DS 약 3.474 kg.**\n(1) 항체 1,560 × 3.27 × 0.962 ≈ 4,907 g, CV = 3.14 × 16.5² × 22.5 ≈ 19.23 L, cycle당 750.1 g → 6.54 → 올림 7\n(2) 3 CV × 19.23 L × 7 ≈ 403.9 L\n(3) 용출 항체 4,907 × 0.934 ≈ 4,583 g, ÷ 403.9 L ≈ 11.35 g/L\n(4) 4,583 × 0.758 ≈ 3,474 g ≈ 3.474 kg\n흔한 실수: cycle을 버림해 6 cycle(용출액 346.2 L), Protein A 수율을 빼서 농도 12.15 g/L.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-828",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-825",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양 5,230 L(titer 1.49 g/L)를 clarification(수율 94.8 %) 뒤 안지름 63 cm, bed height 18 cm인 Protein A 컬럼으로 정제한다. (π = 3.14)",
+        "binding capacity는 44 g/L이고 매 cycle 80 %까지만 실으며, 용출은 cycle마다 2.5 CV로 받는다.",
+        "Protein A 수율은 92.1 %, 그 뒤 DS까지의 수율은 72.9 %이다."
+      ],
+      "answers": [
+        "1) 4 cycle  2) 560.8 L  3) 12.13 g/L  4) 4.96 kg"
+      ],
+      "subs": [
+        {
+          "label": "cycles per batch",
+          "num": 4,
+          "answers": [
+            "4",
+            "4 cycle",
+            "4회"
+          ]
+        },
+        {
+          "label": "한 batch 용출액 부피 (L)",
+          "num": 560.8197,
+          "answers": [
+            "560.8",
+            "560.8 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 12.132,
+          "answers": [
+            "12.13",
+            "12.13 g/L"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (kg)",
+          "num": 4.96,
+          "answers": [
+            "4.96",
+            "4.96 kg"
+          ]
+        }
+      ],
+      "explanation": "**4 cycle → 용출액 560.8 L → 12.13 g/L → DS 약 4.96 kg.**\n(1) 항체 5,230 × 1.49 × 0.948 ≈ 7,387 g, CV = 3.14 × 31.5² × 18 ≈ 56.08 L, cycle당 1,974.1 g → 3.74 → 올림 4\n(2) 2.5 CV × 56.08 L × 4 ≈ 560.8 L\n(3) 용출 항체 7,387 × 0.921 ≈ 6,804 g, ÷ 560.8 L ≈ 12.13 g/L\n(4) 6,804 × 0.729 ≈ 4,960 g ≈ 4.96 kg\n흔한 실수: cycle을 버림해 3 cycle(용출액 420.6 L), Protein A 수율을 빼서 농도 13.17 g/L.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tol": 0.03
+    },
+    {
+      "id": "ex-829",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "family": "ex-825",
+      "question": "<보기>의 공정에서 다음 값을 각각 계산하시오.",
+      "box": [
+        "배양 2,780 L(titer 2.62 g/L)를 clarification(수율 95.1 %) 뒤 안지름 45 cm, bed height 20.5 cm인 Protein A 컬럼으로 정제한다. (π = 3.14)",
+        "binding capacity는 50.5 g/L이고 매 cycle 90 %까지만 실으며, 용출은 cycle마다 2 CV로 받는다.",
+        "Protein A 수율은 91.7 %, 그 뒤 DS까지의 수율은 70.3 %이다."
+      ],
+      "answers": [
+        "1) 5 cycle  2) 325.9 L  3) 19.49 g/L  4) 4.465 kg"
+      ],
+      "subs": [
+        {
+          "label": "cycles per batch",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 cycle",
+            "5회"
+          ]
+        },
+        {
+          "label": "한 batch 용출액 부피 (L)",
+          "num": 325.8731,
+          "answers": [
+            "325.9",
+            "325.9 L"
+          ]
+        },
+        {
+          "label": "용출액의 항체 농도 (g/L)",
+          "num": 19.4916,
+          "answers": [
+            "19.49",
+            "19.49 g/L"
+          ]
+        },
+        {
+          "label": "한 batch 원료의약품 (kg)",
+          "num": 4.4653,
+          "answers": [
+            "4.465",
+            "4.465 kg"
+          ]
+        }
+      ],
+      "explanation": "**5 cycle → 용출액 325.9 L → 19.49 g/L → DS 약 4.465 kg.**\n(1) 항체 2,780 × 2.62 × 0.951 ≈ 6,927 g, CV = 3.14 × 22.5² × 20.5 ≈ 32.59 L, cycle당 1,481.1 g → 4.68 → 올림 5\n(2) 2 CV × 32.59 L × 5 ≈ 325.9 L\n(3) 용출 항체 6,927 × 0.917 ≈ 6,352 g, ÷ 325.9 L ≈ 19.49 g/L\n(4) 6,352 × 0.703 ≈ 4,465 g ≈ 4.465 kg\n흔한 실수: cycle을 버림해 4 cycle(용출액 260.7 L), Protein A 수율을 빼서 농도 21.26 g/L.",
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume) · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tol": 0.03
     }
   ]
 }
