@@ -49,7 +49,9 @@
   const KW_COVER_MIN_N = 40;
   // 여러 칸을 계산하는 고난도 계산 문항("level": "hard")은 20문항 이상 시험지마다 최소 이만큼(2026.10.17)
   const HARD_CALC_MIN = 1;
-  const HARD_MB_KW = 'E3'; // 시험지마다 넣는 고난도 계산 중 하나는 Mass balance 세트
+  // 고난도 계산은 Mass balance(E3)와 컬럼 부피(A8·A9)에서 주로 나온다(2026.10.18) — 시험지마다 두 갈래를 하나씩, Max 계산 모드도 이 둘을 먼저
+  const HARD_CORE = [['E3'], ['A8', 'A9']];
+  const isHardCore = (q) => HARD_CORE.some((ks) => ks.includes(q.kw));
   // 20문항 이상 시험지는 주차(2~7)마다 계산 문항 1개 이상, 리뷰에서 계산으로 짚은 키워드마다 1개 이상(2026.10.17)
   //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
   const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
@@ -568,19 +570,21 @@
     }
     // 고난도 계산 문항(제시문 + 여러 칸 계산)을 시험지마다 꼭 넣는다(출제 횟수가 적은 것부터)
     if (n >= 20) {
-      const hasMB = () => picked.some((q) => q.hard && q.kw === HARD_MB_KW);
-      let need = Math.max(HARD_CALC_MIN - picked.filter((q) => q.hard).length, hasMB() ? 0 : 1);
-      while (need-- > 0) {
-        const all = pool.filter((q) => q.hard && !pickedIds.has(q.id));
-        const mb = hasMB() ? [] : all.filter((q) => q.kw === HARD_MB_KW);
-        const hard = mb.length ? mb : all;
-        if (!hard.length) break;
-        const c = freshest(hard.filter(allowed));
-        if (!c.length) break;
+      // 갈래마다(Mass balance, 컬럼 부피) 고난도 세트를 하나씩, 그래도 모자라면 아무 고난도 세트로 HARD_CALC_MIN까지
+      const takeHard = (cands) => {
+        const c = freshest(cands.filter(allowed));
+        if (!c.length) return false;
         const savedCaps = capsOn; capsOn = false;
         const ok = take(c, false);
         capsOn = savedCaps;
-        if (!ok) break;
+        return ok;
+      };
+      HARD_CORE.forEach((ks) => {
+        if (picked.some((q) => q.hard && ks.includes(q.kw))) return;
+        takeHard(pool.filter((q) => q.hard && ks.includes(q.kw) && !pickedIds.has(q.id)));
+      });
+      while (picked.filter((q) => q.hard).length < HARD_CALC_MIN) {
+        if (!takeHard(pool.filter((q) => q.hard && !pickedIds.has(q.id)))) break;
       }
     }
     // 계산 키워드마다, 그다음 강의 주차마다 계산 문항을 하나씩 꼭 넣는다(출제 횟수가 적은 것부터)
@@ -647,7 +651,7 @@
       picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
     } else if (mode === 'hardCalc') {
       // 고난도 계산 세트만: 덜 푼 묶음·세트부터(같은 횟수끼리는 무작위), 같은 묶음은 다른 묶음을 한 번씩 낸 뒤에
-      const order = shuffle(pool).sort((a, b) => famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
+      const order = shuffle(pool).sort((a, b) => (isHardCore(b) - isHardCore(a)) || famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
       const seenF = new Set();
       const first = [], later = [];
       order.forEach((q) => { if (seenF.has(q.fam)) later.push(q); else { seenF.add(q.fam); first.push(q); } });
