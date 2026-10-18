@@ -170,13 +170,23 @@
   const SUB_SEP = '\u001f';
   const subTexts = (q, text) => { const a = String(text || '').split(SUB_SEP); return q.subs.map((_, k) => a[k] || ''); };
   const hasText = (text) => !!String(text || '').split(SUB_SEP).join('').trim();
+  // 쓴 답의 첫 수를 읽는다 — 3.87 × 10^11, 3.87×10¹¹, 3.87e11, 387,000,000,000 모두 같은 값
+  const SUP = { '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁻': '-', '⁺': '+' };
+  function parseNumAns(text) {
+    let t = String(text || '').replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+/g, (m) => '^' + [...m].map((c) => SUP[c]).join(''));
+    t = t.normalize('NFKC').replace(/(\d),(?=\d{3})/g, '$1').replace(/[×xX*·]/g, 'x').replace(/\s+/g, '');
+    const m = t.match(/(-?\d+(?:\.\d+)?)(?:x10\^?([+-]?\d+)|[eE]([+-]?\d+))?/);
+    if (!m) return null;
+    const exp = m[2] != null ? m[2] : m[3];
+    return parseFloat(m[1]) * (exp != null ? Math.pow(10, parseInt(exp, 10)) : 1);
+  }
   function matchAnswer(spec, text) {
     const t = normAns(text);
     if (!t) return false;
     if ((spec.answers || []).some((a) => normAns(a) === t)) return true;
     if (typeof spec.num === 'number') {
-      const m = String(text).normalize('NFKC').replace(/(\d),(?=\d{3})/g, '$1').match(/-?\d+(?:\.\d+)?/);
-      if (m) return Math.abs(parseFloat(m[0]) - spec.num) <= Math.abs(spec.num) * (typeof spec.tol === 'number' ? spec.tol : 0.02) + 1e-9;
+      const v = parseNumAns(text);
+      if (v != null) return Math.abs(v - spec.num) <= Math.abs(spec.num) * (typeof spec.tol === 'number' ? spec.tol : 0.02) + 1e-12;
     }
     return false;
   }
