@@ -827,3 +827,8 @@ table.data.mini th { color: var(--text); font-size: .84rem; }
 /* 그림 문항 (2026.10.15 — 작년 기출의 센서·그래프·흐름도) */
 .qimg { margin: 8px 0 10px; text-align: center; }
 .qimg img { max-width: 100%; height: auto; border: 1px solid var(--line, #ddd); border-radius: 6px; background: #fff; }
+
+/* 헷갈린 문항 표시 */
+.unsure-btn { margin-left: 6px; padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--muted); font-size: .78rem; font-weight: 600; vertical-align: middle; cursor: pointer; }
+.unsure-btn[aria-pressed="true"] { border-color: #d4a017; color: #b8860b; background: rgba(212, 160, 23, .12); }
+.unsure-tag { font-size: .78rem; font-weight: 700; color: #b8860b; white-space: nowrap; }

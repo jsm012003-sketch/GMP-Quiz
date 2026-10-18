@@ -107,6 +107,7 @@
     wrong: store.get('wrong', {}),     // {id: {n, last}}
     qstats: store.get('qstats', {}),   // {id: {a, c, last}}
     history: store.get('history', []), // [{ts, mode, ...}]
+    papers: store.get('papers', []),   // 제출한 시험지 보관 [{session, entry}] — 기록 화면에서 다시 열어 복기
     prefs: Object.assign({
       theme: 'auto', mode: 'study', units: null, count: 20, strategy: 'fresh',
       shuffleQ: true, shuffleC: true, timer: true, name: '',
@@ -232,8 +233,21 @@
     if (S.session && !S.session.finished) store.set('active', S.session);
   }
   function saveResult() {
-    if (S.result) store.set('result', S.result);
+    if (S.result && !S.result.archived) store.set('result', S.result);
   }
+  // 제출한 시험지를 보관한다(오래된 것부터 지움, 저장 공간이 모자라면 더 줄임)
+  const PAPERS_LIMIT = 120;
+  function savePapers() {
+    if (S.papers.length > PAPERS_LIMIT) S.papers = S.papers.slice(-PAPERS_LIMIT);
+    while (!store.set('papers', S.papers) && S.papers.length > 1) S.papers = S.papers.slice(Math.ceil(S.papers.length / 4));
+  }
+  function archivePaper(session, entry) {
+    const i = S.papers.findIndex((x) => x.entry && x.entry.ts === entry.ts);
+    const rec = { session, entry };
+    if (i >= 0) S.papers[i] = rec; else S.papers.push(rec);
+    savePapers();
+  }
+  const paperOf = (ts) => S.papers.find((x) => x.entry && x.entry.ts === ts);
 
   // ---------------------------------------------------------------- 테마
   const THEMES = { auto: ['🌓', '자동'], light: ['☀️', '라이트'], dark: ['🌙', '다크'] };
@@ -806,6 +820,7 @@
     store.del('active');
     S.result = { session: s, entry };
     saveResult();
+    if (sum.total) archivePaper(s, entry);
     S.session = null;
     S.akFilter = 'all';
     go('result');
@@ -830,6 +845,7 @@
     if (h) Object.assign(h, r.entry);
     persist();
     saveResult();
+    if (paperOf(r.entry.ts)) archivePaper(r.session, r.entry);
     const y = window.scrollY;
     renderResult();
     window.scrollTo(0, y);
@@ -1490,7 +1506,8 @@
 
   function examQuestionHTML(it, i, q) {
     const pts = pointsOf(q);
-    const stem = `<p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pts}점)</span></p>`;
+    const stem = `<p class="pq-stem"><span class="pq-no">${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pts}점)</span>
+      <button type="button" class="unsure-btn no-print" data-action="unsure" data-i="${i}" aria-pressed="${!!it.unsure}" title="헷갈린 문항 표시 — 채점 후 모아 볼 수 있음">${it.unsure ? '★ 헷갈림' : '☆ 헷갈림'}</button></p>`;
     if (isShort(q)) {
       return `
         <div class="pq" id="pq-${i}" data-i="${i}">
@@ -2222,7 +2239,7 @@
     return `
       <div class="table-wrap">
         <table class="data">
-          <thead><tr><th>회차</th><th>일시</th><th>모드</th><th>범위</th><th class="num">정답</th><th class="num">점수</th></tr></thead>
+          <thead><tr><th>회차</th><th>일시</th><th>모드</th><th>범위</th><th class="num">정답</th><th class="num">점수</th><th class="no-print">시험지</th></tr></thead>
           <tbody>${rows.map((h, i) => `
             <tr>
               <td>${total - i}회</td>
@@ -2231,6 +2248,7 @@
               <td>${esc((h.units || []).map(unitLabel).join(', '))}</td>
               <td class="num">${h.correct}/${h.total}</td>
               <td class="num"><b>${fmtNum(h.score)}</b>${h.pending ? ' <span class="muted">(채점 대기)</span>' : ''}</td>
+              <td class="no-print">${paperOf(h.ts) ? `<button type="button" class="chip" data-action="open-paper" data-value="${h.ts}">보기${(paperOf(h.ts).session.items || []).some((it) => it.unsure) ? ' ★' : ''}</button>` : '<span class="muted small">—</span>'}</td>
             </tr>`).join('')}</tbody>
         </table>
       </div>`;
@@ -2308,7 +2326,7 @@
     const pending = isEssay(q) && it.self == null;
     const mark = pending ? '<span class="red-mark mark-wait" aria-label="채점 대기">?</span>'
       : (ok ? '<span class="red-mark mark-o" aria-label="맞음"></span>' : '<span class="red-mark mark-slash" aria-label="틀림"></span>');
-    const stem = `<p class="pq-stem"><span class="pq-no">${mark}${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span></p>`;
+    const stem = `<p class="pq-stem"><span class="pq-no">${mark}${i + 1}.</span> ${rich(q.question)} <span class="pq-tag">(${esc(unitLabel(q.unit))} · ${pointsOf(q)}점)</span>${it.unsure ? ' <span class="unsure-tag">★ 헷갈림</span>' : ''}</p>`;
     if (isShort(q)) {
       return `
         <div class="pq graded ${ok ? 'is-ok' : 'is-bad'}" id="pq-${i}">
@@ -2397,12 +2415,14 @@
       return `<tr><th scope="row">PART ${PARTS[p].roman}</th><td>${esc(PARTS[p].name)}</td><td class="num">${v.c}/${v.t}문항</td><td class="num"><b>${v.e}</b> / ${v.p}점</td><td class="num">${fmtNum(pct(v.e, v.p))}%</td></tr>`;
     }).join('');
     const filter = S.akFilter;
-    const visible = (it) => filter !== 'wrong' || !isCorrect(it);
+    const visible = (it) => (filter === 'wrong' ? !isCorrect(it) : filter === 'unsure' ? !!it.unsure : filter === 'wrongOrUnsure' ? (!isCorrect(it) || !!it.unsure) : true);
+    const unsureN = s.items.filter((it) => it.unsure).length;
     const scoreHand = `<span class="hand-score">${fmtNum(entry.score)}</span>`;
 
     $view.innerHTML = `
       <div class="wrap">
         <section class="card result-hero">
+          ${r.archived ? '<p class="notice" style="margin:0 0 10px">📂 지난 시험지 다시 보기 — 내가 고른 답·채점·해설을 그대로 보여 줍니다.</p>' : ''}
           <p class="muted" style="margin:0">${esc(MODES[entry.mode] ? MODES[entry.mode].label : '')} 결과 · ${fmtDate(entry.ts)}${entry.auto ? ' · 시간 종료 자동 제출' : ''}</p>
           <div class="hand-big">${fmtNum(entry.score)}<small>점</small></div>
           <p class="score-sub">100점 환산 · 득점 ${entry.earned} / ${entry.points}점 · ${entry.total}문항 중 <b>${entry.correct}</b>문항 정답 · 소요 ${fmtDur(entry.durationSec)}${entry.newCount ? ` · 신규 ${entry.newCount}문항` : ''}</p>
@@ -2410,6 +2430,7 @@
           <div class="btn-row">
             ${S.owner ? `<button class="btn btn-primary" type="button" data-action="review" ${wrongN ? '' : 'disabled'}>🔁 오답만 다시 풀기 (${wrongN})</button>` : ''}
             <button class="btn" type="button" data-action="home">처음으로</button>
+            ${r.archived ? '<button class="btn" type="button" data-action="history">📊 기록으로</button>' : ''}
             <button class="btn" type="button" data-action="print">🖨 인쇄</button>
           </div>
         </section>
@@ -2430,6 +2451,8 @@
           <div class="chip-row">
             <button class="chip" type="button" data-action="akfilter" data-value="all" aria-pressed="${filter === 'all'}">전체 ${s.items.length}</button>
             <button class="chip" type="button" data-action="akfilter" data-value="wrong" aria-pressed="${filter === 'wrong'}">틀린 문제만 보기 ${wrongInPaper}</button>
+            <button class="chip" type="button" data-action="akfilter" data-value="unsure" aria-pressed="${filter === 'unsure'}">★ 헷갈린 문제 ${unsureN}</button>
+            <button class="chip" type="button" data-action="akfilter" data-value="wrongOrUnsure" aria-pressed="${filter === 'wrongOrUnsure'}">틀림 + 헷갈림 ${s.items.filter((it) => !isCorrect(it) || it.unsure).length}</button>
           </div>
         </div>
         <article class="paper graded-paper" aria-label="채점된 시험지">
@@ -2441,7 +2464,7 @@
             return `
             <section class="paper-part">
               ${partTitleHTML(p, list, true)}
-              ${shown.length ? `<div class="paper-cols">${shown.map(({ it, i, q }) => gradedQuestionHTML(it, i, q)).join('')}</div>` : '<p class="empty">이 파트는 모두 맞았습니다. 👏</p>'}
+              ${shown.length ? `<div class="paper-cols">${shown.map(({ it, i, q }) => gradedQuestionHTML(it, i, q)).join('')}</div>` : `<p class="empty">${filter === 'wrong' ? '이 파트는 모두 맞았습니다. 👏' : '해당하는 문항이 없습니다.'}</p>`}
             </section>`;
           }).join('')}
           <p class="paper-end">— 끝 —</p>
@@ -2660,6 +2683,25 @@
       case 'discard':
         if (confirm('진행 중인 풀이를 버릴까요? (이미 채점된 학습 모드 답안 기록은 남습니다)')) { store.del('active'); renderHome(); }
         break;
+      case 'open-paper': {
+        const rec = paperOf(Number(el.dataset.value));
+        if (!rec || !S.owner) return;
+        S.result = { session: rec.session, entry: rec.entry, archived: true };
+        S.akFilter = 'all';
+        go('result');
+        window.scrollTo(0, 0);
+        break;
+      }
+      case 'unsure': {
+        const s = S.session;
+        const i = Number(el.dataset.i);
+        if (!s || !s.items[i]) return;
+        s.items[i].unsure = !s.items[i].unsure;
+        saveActive();
+        el.setAttribute('aria-pressed', String(!!s.items[i].unsure));
+        el.textContent = s.items[i].unsure ? '★ 헷갈림' : '☆ 헷갈림';
+        break;
+      }
       case 'last-result': {
         const last = store.get('result', null);
         if (!last || (!S.owner && last.session.mode !== 'shared')) { render(); return; }
@@ -2874,6 +2916,14 @@
     try {
       await loadBank();
       await checkOwner();
+      // 보관함이 비어 있으면 마지막 결과(예전 버전에서 저장된 유일한 시험지)를 첫 기록으로 옮긴다
+      if (!S.papers.length) {
+        const last = store.get('result', null);
+        if (last && last.entry && last.session && Array.isArray(last.session.items) && last.session.mode !== 'shared') {
+          S.papers.push({ session: last.session, entry: last.entry });
+          savePapers();
+        }
+      }
       S.view = 'home';
       if (/^#set=/.test(location.hash)) {
         S.shared = decodeSet(location.hash);
