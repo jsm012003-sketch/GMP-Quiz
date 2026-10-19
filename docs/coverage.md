@@ -35,6 +35,11 @@
   - ex-836 low pH 부피 증가→CEX 레진→농축→DF 버퍼·잔류 염(e⁻⁷)→막 면적→최종 부피
   - ex-837 lab→생산 300배 scale-up 3안 — 지름·residence time 유지 linear velocity·bed height
 
+### 2026.10.19 6차 디벨롭 — 슬라이드형 세트 시험지마다 1개
+
+- 슬라이드 「Impact of Protein A column volume」 형식 변형 36세트 추가: 두 Scenario 순방향 ex-838~861(family ex-830, 12칸), 결과 표 역산 ex-862~873(family ex-831, 11칸). 숫자(배양 부피·titer·수율·안지름·bed height·linear velocity·binding capacity·버퍼 CV)를 세트마다 바꿨다.
+- 앱 `compose`: 20문항 이상 시험지마다 `slide` 세트 1개(덜 나온 변형부터) + Mass balance·컬럼 부피 고난도 세트 각 1개.
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)

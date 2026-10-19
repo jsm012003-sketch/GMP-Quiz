@@ -52,6 +52,9 @@
   // 고난도 계산은 Mass balance(E3)와 컬럼 부피(A8·A9)에서 주로 나온다(2026.10.18) — 시험지마다 두 갈래를 하나씩, Max 계산 모드도 이 둘을 먼저
   const HARD_CORE = [['E3'], ['A8', 'A9']];
   const isHardCore = (q) => HARD_CORE.some((ks) => ks.includes(q.kw));
+  // 강의 슬라이드 「Impact of Protein A column volume」 형식(두 Scenario 비교·결과 표 역산) 세트는 20문항 이상 시험지마다 하나씩,
+  // 같은 형식을 숫자만 바꾼 변형 중 덜 나온 것으로(2026.10.19 사용자 요청 — "매 세트 숫자를 바꿔 계산 메커니즘을 익히게")
+  const SLIDE_MIN = 1;
   // 20문항 이상 시험지는 주차(2~7)마다 계산 문항 1개 이상, 리뷰에서 계산으로 짚은 키워드마다 1개 이상(2026.10.17)
   //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
   const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
@@ -367,6 +370,7 @@
           kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
           lec: Number(q.lec) || 0,
           hard: q.level === 'hard',
+          slide: q.slide === true,
           fam: typeof q.family === 'string' && q.family ? q.family : String(q.id), // 같은 유형·다른 숫자 변형 묶음
           ckeys: [],
         };
@@ -581,9 +585,12 @@
         capsOn = savedCaps;
         return ok;
       };
+      while (picked.filter((q) => q.slide).length < SLIDE_MIN) {
+        if (!takeHard(pool.filter((q) => q.slide && !pickedIds.has(q.id)))) break;
+      }
       HARD_CORE.forEach((ks) => {
-        if (picked.some((q) => q.hard && ks.includes(q.kw))) return;
-        takeHard(pool.filter((q) => q.hard && ks.includes(q.kw) && !pickedIds.has(q.id)));
+        if (picked.some((q) => q.hard && !q.slide && ks.includes(q.kw))) return;
+        takeHard(pool.filter((q) => q.hard && !q.slide && ks.includes(q.kw) && !pickedIds.has(q.id)));
       });
       while (picked.filter((q) => q.hard).length < HARD_CALC_MIN) {
         if (!takeHard(pool.filter((q) => q.hard && !pickedIds.has(q.id)))) break;
@@ -653,7 +660,7 @@
       picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
     } else if (mode === 'hardCalc') {
       // 고난도 계산 세트만: 덜 푼 묶음·세트부터(같은 횟수끼리는 무작위), 같은 묶음은 다른 묶음을 한 번씩 낸 뒤에
-      const order = shuffle(pool).sort((a, b) => (isHardCore(b) - isHardCore(a)) || famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
+      const order = shuffle(pool).sort((a, b) => (b.slide - a.slide) || (isHardCore(b) - isHardCore(a)) || famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
       const seenF = new Set();
       const first = [], later = [];
       order.forEach((q) => { if (seenF.has(q.fam)) later.push(q); else { seenF.add(q.fam); first.push(q); } });
