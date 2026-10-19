@@ -11893,17 +11893,17 @@
       "question": "현장에서 흔히 「UF/DF」라고 부르는 공정을 정확히 설명한 것은?",
       "choices": [
         "UF membrane을 CFF 방식으로 써서 농축과 diafiltration을 하는 공정이다",
-        "UF membrane을 DEF 방식으로 써서 바이러스를 제거하는 공정이다",
-        "0.2 µm 필터로 원료의약품을 sterile filtration하는 공정이다",
-        "Depth filter로 aggregate를 거른 뒤 membrane으로 마무리하는 공정이다"
+        "UF 막과 DF 막이라는 pore 크기가 다른 두 막을 차례로 쓰는 공정이다",
+        "UF membrane을 DEF 방식으로 써서 단백질은 통과시키고 염은 막 위에 남기는 공정이다",
+        "Depth filter(DF)로 aggregate를 먼저 거른 뒤 UF 막으로 농축하는 공정이다"
       ],
       "answer": 1,
       "explanation": "**UF/DF는 UF membrane을 CFF 방식으로 써서 농축과 diafiltration을 하는 공정이다.** 그래서 여과 5가지 구분법 가운데 크기·메커니즘·목적이 한 이름에 섞여 있다.",
       "choiceNotes": [
-        "옳다 — UF/DF는 크기(UF membrane)·메커니즘(CFF)·목적(농축·DF)이 한 이름에 합쳐진 공정이다.",
-        "틀리다 — UF/DF는 DEF가 아니라 CFF(cassette) 방식이며, 바이러스 제거는 20 nm virus filter(NF)가 맡는다.",
-        "틀리다 — 0.2 µm sterile filtration은 DEF 방식의 MF로, 농축·버퍼 교환을 하는 UF/DF와 다른 공정이다.",
-        "틀리다 — depth filter 뒤 membrane으로 마무리하는 것은 clarification이나 low pH VI 뒤 여과이다."
+        "옳다 — WK06 녹음 42:08: 현장의 UF/DF는 정확히 말하면 UF membrane을 써서 CFF 방식으로 농축과 diafiltration을 하는 공정이다. 김영태 부장님은 이 공정을 CFF라고 부르는 쪽을 선호한다.",
+        "틀리다 — UF는 크기(size exclusion) 기준의 말이고, DF는 운전(목적) 기준의 말이다. DF라는 크기의 막은 없다. 서로 다른 기준의 낱말을 같은 기준으로 오해한 진술이다.",
+        "틀리다 — 방향이 반대이다. UF 막은 단백질(항체 약 150 kDa)을 막 위(retentate)에 남기고 물·염 같은 작은 분자를 통과시킨다. 그리고 UF/DF는 수평 흐름의 CFF로 한다.",
+        "틀리다 — UF/DF의 DF는 depth filtration이 아니라 diafiltration(버퍼 교환)이다. Low pH VI 뒤 aggregate를 거르는 depth filter와 헷갈린 진술이다."
       ],
       "source": "해설서 E1·E10 · 교과서 p.98 · WK04 PDF p.103 (Concentration & Dia-filtration)",
       "concepts": [
@@ -12575,20 +12575,20 @@
       "id": "ex-437",
       "type": "개념",
       "part": 2,
-      "question": "pH 6 버퍼로 CEX에 시료를 넣었을 때 결합하지 않고 통과하는 물질은?",
+      "question": "pH 6 버퍼로 CEX에 시료를 넣었을 때 레진에 결합하지 않고 통과하는 물질은?",
       "choices": [
-        "pI 약 3인 물질",
-        "pI 약 8.5인 물질",
-        "pI 약 9인 물질",
-        "pI 약 7.5인 물질"
+        "pI 약 5.5인 물질",
+        "pI 약 6.5인 물질",
+        "pI 약 7.5인 물질",
+        "pI 약 8.5인 물질"
       ],
       "answer": 1,
-      "explanation": "**CEX를 통과했다면 − 전하였으므로 pH > pI, 곧 pI가 6보다 낮다.** pI 약 2~4인 불순물은 pH 6에서 − 전하라 CEX를 통과하고, pI 7~8 이상인 항체는 + 전하라 결합한다.",
+      "explanation": "**pH > pI이면 − 전하가 되어 CEX에 붙지 않는다 — pH 6 CEX를 통과하는 물질은 pI가 6보다 작다.** 판단 규칙: pH < pI → + 전하 → CEX(− 레진)에 결합 / pH > pI → − 전하 → AEX(+ 레진)에 결합. 역문제 「pH 6 CEX에 붙지 않고 흘러나온 물질의 pI는?」의 답은 pI ≤ 6이다(자료집 §4.3).",
       "choiceNotes": [
-        "옳다 — pH 6 > pI 3이라 − 전하를 띠어 − 레진인 CEX에 결합하지 않는다(불순물 쪽).",
-        "틀리다 — pH 6 < pI 8.5라 + 전하로 CEX에 결합한다.",
-        "틀리다 — pH 6 < pI 9라 + 전하로 CEX에 결합한다.",
-        "틀리다 — pH 6 < pI 7.5라 + 전하로 CEX에 결합한다(항체 쪽)."
+        "통과한다(정답) — pH 6이 pI 5.5보다 높아 이 물질은 − 전하를 띤다. − 전하 레진인 CEX에는 붙지 않고 흘러나온다.",
+        "결합한다 — pH 6이 pI 6.5보다 낮아 + 전하를 띠므로 CEX에 붙는다. 차이가 작아 약하게 붙지만 결합은 한다.",
+        "결합한다 — pH 6 < pI 7.5이므로 + 전하로 CEX에 붙는다(항체 pI 7~8이 이 경우).",
+        "결합한다 — pH 6 < pI 8.5이므로 + 전하가 더 커서 CEX에 세게 붙는다."
       ],
       "source": "해설서 E4 (역문제 연습)",
       "concepts": [
@@ -13297,20 +13297,20 @@
       "id": "ex-462",
       "type": "개념",
       "part": 2,
-      "question": "배양에 쓰는 배지를 멸균할 때 여과를 쓰는 이유로 가장 적절한 것은?",
+      "question": "동물세포 배양에 쓰는 배지를 멸균할 때 열 대신 여과를 쓰는 이유로 가장 적절한 것은?",
       "choices": [
-        "배지는 끓일 수 없어 여과가 유일한 멸균 방법이기 때문에",
-        "배지는 0.2 µm 필터로 bioburden reduction만 하면 되기 때문에",
-        "0.1 µm 필터로 endotoxin을 제거해야 하기 때문에",
-        "여과하면 배지가 농축되어 세포 성장이 빨라지기 때문에"
+        "동물세포 배지에는 열에 예민한 단백질 같은 성분이 많아 끓이면 변성되기 때문에",
+        "배양은 무균이 아니어도 되므로 0.2 µm 필터로 bioburden reduction만 하면 되기 때문에",
+        "0.1 µm 필터로 배지 속 endotoxin을 걸러 내야 하기 때문에",
+        "여과하면 배지 속 glucose가 농축되어 세포 성장이 빨라지기 때문에"
       ],
       "answer": 1,
-      "explanation": "**배지는 끓일 수 없어 여과가 유일한 멸균 방법이다.** 그래서 0.2 µm sterile filter와 mycoplasma를 거르는 0.1 µm 필터로 배지를 여과한다.",
+      "explanation": "**동물세포 배지는 열에 예민한 성분이 많아 끓일 수 없으므로 여과가 유일한 균 제거 방법이다.** 미생물 배지는 끓여 멸균할 수 있다. 배양은 무균 공정이 전제이고, 배지 여과에는 0.2 µm sterile filter와 mycoplasma용 0.1 µm 필터를 쓴다. 바이러스 위험을 더 낮추려고 감마선·HTST·UV-C 같은 mitigation을 보탠다(교안 p.16 필기).",
       "choiceNotes": [
-        "옳다 — 배지는 열을 가하면 성분이 망가지므로 0.2 µm sterile + 0.1 µm(mycoplasma) 필터로 여과 멸균한다.",
-        "틀리다 — 0.2 µm pre filter(bioburden reduction)는 앞 단계이고, 배지는 0.1 µm final filter까지 거쳐 멸균해야 한다. 배지 여과의 목적은 멸균이다.",
-        "틀리다 — 0.1 µm 필터는 mycoplasma를 거르기 위한 것이다. endotoxin은 분자 수준이라 0.1 µm 필터로 걸러지지 않으며, 배지 여과의 이유도 아니다(일반 원리).",
-        "틀리다 — DEF 여과는 배지를 농축하지 않는다. 농축은 CFF(UF)의 일이다."
+        "옳다 — WK04 녹음② 2:41:42–2:44:04: 미생물 배지는 glucose만 있어도 잘 자라고 열에 덜 예민해 끓여 멸균하지만, 동물세포 배지는 단백질 등 예민한 성분이 많아 끓이면 변성된다. 그래서 유일한 균 제거 방법이 여과이다.",
+        "틀리다 — 방향이 반대이다. 배양은 우리가 키우는 세포 말고는 단 한 마리도 들어가면 안 되는 무균 공정이다. Bioburden 관리 수준으로 가는 것은 항체 정제이다.",
+        "틀리다 — 0.1 µm 필터는 mycoplasma 제거용이다. Endotoxin은 분자 수준이라 0.1 µm 막으로 걸러지지 않는다.",
+        "틀리다 — 멸균 여과는 균을 거를 뿐 배지를 농축하지 않는다. 농축은 UF의 일이다."
       ],
       "source": "해설서 E8 · WK04 녹음② 2:41:42–2:44:04 · WK04 PDF p.7 (Media pre filter / final filter)",
       "concepts": [
@@ -15333,20 +15333,20 @@
       "part": 2,
       "question": "HEPA filter의 효율을 약 0.3 µm 입자 기준으로 매기는 이유로 가장 적절한 것은?",
       "choices": [
-        "HEPA 섬유 사이 간격이 약 0.3 µm여서",
-        "이 크기는 여러 포집 메커니즘이 모두 약해 가장 잘 빠져나가서",
+        "차단·충돌은 약해지고 확산은 아직 강하지 않은 크기 부근이라 가장 잘 빠져나가는 쪽이어서",
+        "HEPA 섬유 사이 간격이 약 0.3 µm여서 그보다 큰 입자는 모두 sieve로 걸려서",
         "공기 중 세균 대부분이 약 0.3 µm 크기여서",
-        "0.3 µm보다 작은 입자는 sieve effect로 잘 걸러져서"
+        "0.3 µm보다 작은 입자는 HEPA를 대부분 빠져나가므로 시험할 의미가 없어서"
       ],
-      "answer": 2,
-      "explanation": "**약 0.3 µm 입자는 차단·관성 충돌(큰 입자에 강함)과 확산(작은 입자에 강함)이 모두 약하게 작용해 가장 잘 빠져나가므로 효율 기준 크기로 쓴다(일반 원리).** HEPA는 pore가 뚫린 membrane이 아니라 섬유층 필터이다.",
+      "answer": 1,
+      "explanation": "**0.3 µm는 여러 포집 메커니즘이 모두 약해 가장 잘 빠져나가는 크기(MPPS) 부근이므로, 이 크기로 매긴 효율이 가장 엄격한 기준이 된다.** 큰 입자는 impaction·interception, 아주 작은 입자는 diffusion으로 잡히고, 둘의 합이 가장 낮은 곳이 MPPS이다(교안 p.55 필기는 약 0.2 µm로 표시). HEPA 등급의 시험 입자는 0.3 µm(H13 ≥ 99.95 %, H14 ≥ 99.995 %, 교안 p.57)이다. 숫자 두 개(시험 입자 0.3 µm, 필기 MPPS 약 0.2 µm)를 구분해 둔다(자료집 Final 정정 E-3).",
       "choiceNotes": [
-        "틀리다 — HEPA는 일정한 간격이나 pore가 뚫린 체가 아니라 섬유가 얽힌 depth 형 필터로, 그보다 작은 입자도 diffusion으로 잡는다.",
-        "옳다 — 큰 입자는 interception·impaction으로, 아주 작은 입자는 diffusion으로 잘 잡혀, 약 0.3 µm가 가장 잘 빠져나간다(일반 원리).",
-        "틀리다 — 세균은 약 1 µm 안팎이며, 기준 크기는 미생물 크기가 아니라 포집이 가장 어려운 크기이다.",
-        "틀리다 — 0.3 µm보다 작은 입자는 sieve effect가 아니라 diffusion(브라운 운동)으로 섬유에 닿아 잡힌다."
+        "옳다 — 큰 입자는 impaction·interception, 아주 작은 입자는 diffusion으로 잘 잡혀서 그 사이에 여과율이 가장 낮은 크기(MPPS)가 생긴다. 0.3 µm는 이 MPPS 부근이라 가장 엄격한 시험 입자가 된다. 교안 p.55 필기는 MPPS를 약 0.2 µm로 적었다.",
+        "틀리다 — HEPA는 기공 막이 아니라 glass fiber 섬유층(depth형)이라 sieve로만 거르지 않는다. 섬유 간격보다 훨씬 작은 입자도 충돌·차단·확산으로 잡는다.",
+        "틀리다 — 세균은 대개 1 µm 안팎이다(B. diminuta 0.3–0.4 × 0.6–1.0 µm). 0.3 µm는 세균 크기가 아니라 가장 잘 빠져나가는 입자 크기를 고른 것이다.",
+        "틀리다 — 방향이 반대이다. 아주 작은 입자는 Brownian motion(diffusion)으로 섬유에 닿아 오히려 잘 잡힌다. 그래서 기체 필터는 표기 크기보다 10–20배 작은 입자도 잡는다."
       ],
-      "source": "해설서 E12 · 교과서 p.88 (필터의 재질 구분) · 교과서 p.101",
+      "source": "해설서 E12 · WK04 PDF p.52–57 (Gas Filter Mechanism, MPPS, HEPA Filter Grade) · WK04 단권화노트 14.4–14.7절 · 오픈북 자료집 Final 정정 E-3",
       "concepts": [
         "HEPA filter"
       ],
@@ -17721,19 +17721,19 @@
       "question": "필터 integrity test에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "Sterile 목적으로 쓰는 필터에는 integrity test가 의무이다",
-        "Bacteria challenge test 결과를 바탕으로 integrity test 기준값(limit)을 정한다",
-        "Formulation 뒤 무균 여과 필터는 사용 전과 후에 integrity test를 한다",
-        "Integrity test는 필터를 다시 쓸 수 없게 되는 파괴 시험이다"
+        "제조사는 bacteria challenge test 결과와 묶어 사용자가 쓸 integrity test 기준값(limit)을 정한다",
+        "Formulation 뒤 무균 여과 필터는 멸균 뒤 쓰기 직전(PUPSIT)과 사용 뒤에 integrity test를 한다",
+        "사용자가 공정에서 하는 integrity test는 BCT처럼 필터를 다시 쓸 수 없게 되는 파괴 시험이다"
       ],
       "answer": 4,
-      "explanation": "**Integrity test는 필터를 망가뜨리지 않고 기체 압력·흐름으로 막의 이상 유무를 확인하는 비파괴 시험이다.** 그래서 같은 필터에 사용 전과 후로 할 수 있다. 필터 제조사는 bacteria challenge test(B. diminuta 10⁷ CFU/cm²)를 수행해 그 결과와 맞물리는 integrity test 기준값을 정하고, 현장은 그 기준으로 필터가 제균 등급을 유지하는지 확인한다(bubble point test·diffusion test 등, 일반 원리).",
+      "explanation": "**사용자가 하는 integrity test는 비파괴 시험이고, 파괴 시험(BCT 등)은 제조사가 limit을 정할 때 한다.** 교안 p.118: 파괴(제조사) 4 — bacteria challenge, particle challenge, electron microscopy, smoke test / 비파괴(사용자) 5 — 친수성 막 bubble point·diffusion·pressure drop, 소수성 막 water intrusion·water flow. Sterile 목적 필터만 integrity test가 의무이고, 무균 여과 필터는 PUPSIT과 사용 후 시험을 한다(자료집 Final 정정 E-1).",
       "choiceNotes": [
-        "옳은 진술 — sterile 목적으로 쓸 때만 integrity test가 의무이다.",
-        "옳은 진술 — 교안: bacterial challenge test를 수행해 filter integrity test limit를 설정한다.",
-        "옳은 진술 — 완제 formulation 뒤 0.2 µm sterile filter는 사용 전후 integrity test를 한다.",
-        "틀린 진술(정답) — integrity test는 필터를 적신 뒤 기체 압력·흐름을 재는 비파괴 시험이라 같은 필터에 사용 전과 후로 할 수 있다. 파괴 시험은 제조사가 하는 bacteria challenge test이다."
+        "옳은 진술 — 0.2 µm 필터라도 particle removal·bioburden control 목적이면 integrity test가 의무가 아니고, sterile 목적일 때만 의무이다.",
+        "옳은 진술 — 교안 p.119–120: 제조사가 bubble point·diffusion 값과 BCT 결과를 함께 재서 「이 diffusion 이하면 무균」이라는 limit을 정하고, 사용자는 그 limit으로 비파괴 시험만 한다.",
+        "옳은 진술 — PUPSIT(Pre-Use Post-Sterilization Integrity Test)은 멸균 뒤 쓰기 직전에 하는 integrity test이다(교안 p.158).",
+        "틀린 진술(정답) — 교안 p.118의 분류: 파괴 시험(BCT, particle challenge, 전자현미경, smoke test)은 제조사가 하고 필터를 다시 쓸 수 없다. 사용자가 하는 bubble point·diffusion·pressure drop·WIT·water flow는 비파괴 시험이다."
       ],
-      "source": "해설서 E1 · E8 · WK04 PDF p.121 (BCT 수행 → integrity test limit 설정), p.125–126 (Bubble Point Test)",
+      "source": "해설서 E1 · E8 · WK04 PDF p.118–121 (Integrity Test Method, BCT → integrity test limit), p.158 (PUPSIT) · WK04 단권화노트 20.2–20.3절, 22.9절 · 오픈북 자료집 Final 정정 E-1",
       "concepts": [
         "Integrity test"
       ],
@@ -20436,6 +20436,153 @@
       "tags": [
         "Scale-up",
         "Single-use"
+      ]
+    },
+    {
+      "id": "ex-660",
+      "type": "개념",
+      "part": 2,
+      "question": "제균 필터의 integrity test가 불합격으로 나왔을 때의 처리로 옳지 않은 것은?",
+      "choices": [
+        "먼저 시험 파라미터, 적심 액·적심 절차, 장치 누설, 온도, 필터 조립 상태를 확인한 뒤 다시 적셔 재시험한다",
+        "덜 젖어서 불합격일 수 있으므로 flush 부피·시간과 차압을 늘려 더 강하게 적신 뒤 재시험한다",
+        "표면장력이 낮은 reference 액(IPA/물)으로 적신 뒤에도 물로 적셨을 때의 기준값으로 판정한다",
+        "Reference 액으로 적셔 그 액 전용 기준값으로 재시험해도 불합격이면 그 필터는 불합격이다"
+      ],
+      "answer": 3,
+      "explanation": "**Reference 액으로 적시면 표면장력이 달라 bubble point가 낮아지므로, 반드시 그 액 전용 기준값으로 판정한다.** 교안 p.152–156(PDA TR 26)의 세 단계: Step 1 시스템·조건 확인(시험법·파라미터·적심 액과 절차·장치 누설·온도·교정·조립·맞는 필터인지) → re-wet 재시험 / Step 2 적심 강화(flush 부피·시간↑, 차압↑, back pressure) → 재시험 — 「덜 젖어서 불합격」은 대부분 여기서 해결 / Step 3 표면장력이 낮은 reference 액(IPA/물 60/40 V/V)으로 적시고 그 액 전용 기준값(예: Sartopore 2 0.2 µm BP 1,300 mbar)으로 재시험 → 그래도 불합격이면 불합격. 「한 번 불합격 = 즉시 폐기」도 틀린 보기이다.",
+      "choiceNotes": [
+        "옳은 진술 — Step 1. 맞는 시험법·파라미터·적심 절차였는지, 장치가 새지 않았는지, 시험 중 온도가 일정했는지, 맞는 필터를 끼웠는지를 확인하고 다시 적셔 재시험한다.",
+        "옳은 진술 — Step 2. 소수성 부위나 덜 적신 막은 기체가 일찍 빠져 불합격처럼 보이므로 적심을 강화한다. 덜 젖어서 생긴 불합격은 대부분 이 단계에서 풀린다.",
+        "틀린 진술(정답) — Bubble point는 적신 액의 표면장력에 비례한다(P = 2σcosθ/r). 표면장력이 낮은 IPA/물로 적시면 같은 필터라도 bubble point가 낮게 나오므로, 물 기준값을 쓰면 정상 필터도 불합격이 된다. 그 액 전용 기준값을 쓴다.",
+        "옳은 진술 — Step 3까지 해도 불합격이면 그때 필터를 불합격으로 판정한다. 첫 불합격에서 바로 폐기하지 않는다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.152–156 (FAQ 4. Filter Integrity Test Failure, PDA TR No. 26) · WK04 단권화노트 22.5–22.7절 · 오픈북 자료집 Final 정정 E-4",
+      "concepts": [
+        "Integrity test"
+      ],
+      "tags": [
+        "Integrity test"
+      ]
+    },
+    {
+      "id": "ex-661",
+      "type": "개념",
+      "part": 1,
+      "question": "다음 중 사용자가 bubble point·diffusion 같은 integrity test로 무결성을 확인하는 대상이 아닌 것은?",
+      "choices": [
+        "0.2 µm 제균 필터(sterile filter)",
+        "20 nm virus filter",
+        "UF/DF용 cassette filter",
+        "클린룸 천장의 HEPA filter"
+      ],
+      "answer": 4,
+      "explanation": "**HEPA filter는 bubble point·diffusion 같은 integrity test의 대상이 아니다 — DOP·PAO 누설 시험과 풍속·입자 수·기류 패턴으로 6개월마다 확인한다.** 교안 p.124 필기: 대상(○) = sterile filter, virus filter, cassette filter / HEPA는 클린룸 천장 아래에서 공기를 거르는 필터로 이 시험의 대상이 아님(✕). HEPA는 glass fiber 섬유층이 차단·충돌·확산으로 입자를 잡는 depth형 필터라 기공 막을 전제로 한 bubble point를 쓸 수 없다. Depth filter도 absolute 등급 막이 아니라 integrity test를 하지 않는다(자료집 Final 정정 E-2).",
+      "choiceNotes": [
+        "대상이다 — Sterile 목적 필터는 integrity test가 의무이다(친수성 막은 bubble point·diffusion·pressure drop).",
+        "대상이다 — Virus filter도 막의 무결성이 바이러스 제거 능력과 직결되어 integrity test를 한다(교안 p.124 필기 ○).",
+        "대상이다 — 처음 보면 농축용이라 필요 없어 보이지만 교안 p.124 필기는 cassette filter를 ○로 적었다. 완제 formulation의 UF/DF에서도 카세트 막 integrity test를 한다(교안 p.17 필기).",
+        "대상이 아니다(정답) — 교안 p.124 필기 「HEPA integrity test ✕」. HEPA는 DOP·PAO 누설 시험(≤ 0.01 %)으로 확인한다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.123–124 (Integrity Test Methods, 필기 「HEPA integrity test ✕」), p.57 · WK04 단권화노트 14.7절, 21.1절 · 오픈북 자료집 Final 정정 E-2",
+      "concepts": [
+        "Integrity test",
+        "HEPA filter"
+      ],
+      "tags": [
+        "Integrity test",
+        "HEPA filter"
+      ]
+    },
+    {
+      "id": "ex-662",
+      "type": "개념",
+      "part": 2,
+      "question": "<보기>의 filter sizing test 결과를 공정 규모로 키울 때의 판단으로 옳은 것은?",
+      "box": [
+        "작은 필터로 sizing test를 한 결과, 막 1 m²로 시료 10 L를 1시간 안에 막힘 없이 거를 수 있었다.",
+        "즉 이 시료의 flux는 10 LMH, filter capacity는 10 L/m²로 확인되었다."
+      ],
+      "choices": [
+        "시험에서 확인한 flux와 capacity를 둘 다 지키는 직선 scale-up만 시험으로 확인된 조건이다",
+        "같은 flux라면 막 면적을 절반으로 줄이고 시간을 두 배로 늘려도 capacity 한계를 넘지 않는다",
+        "같은 flux로 막 면적을 두 배로 늘려 시간을 줄여도 막을 다 쓰므로 비용 손해가 없다",
+        "같은 capacity라면 유속을 두 배로 올려도 압력·탁도 끝점(Pmax·Tmax)에는 영향이 없다"
+      ],
+      "answer": 1,
+      "explanation": "**Sizing test에서 확인한 flux(LMH)와 capacity(L/m²)를 둘 다 지키는 직선 scale-up만 안전하다.** 교안 p.69의 Case: Case 2(면적 ½, 시간 2배) → 요구 capacity 20 L/m²로 시험값 10 L/m²를 넘어 막히기(Vmax) 쉽다 / Case 3(면적 2배, 시간 ½) → capacity의 절반만 써 필터 낭비 / Case 4(같은 capacity, flux 2배) → Pmax·Tmax 끝점에 먼저 닿아 품질 차이 위험. 실제로는 sizing으로 구한 면적에 30~50 % 여유를 더한다(교안 p.66 필기).",
+      "choiceNotes": [
+        "옳다 — 교안 p.69 Case 1(Direct scale-up)이다. 다른 조합은 시험하지 않은 조건이라 막힘·품질 차이 위험이 있다. 같은 선속도·같은 CV 비율을 지키는 크로마토그래피 scale-up과 같은 논리이다.",
+        "틀리다 — Case 2. 같은 10 L를 0.5 m²로 거르면 1 m²당 20 L를 처리해야 해서 시험으로 확인한 capacity 10 L/m²를 넘는다. 시간이 늘어도 막힘(Vmax)은 처리량으로 정해진다.",
+        "틀리다 — Case 3. 면적을 2 m²로 늘리면 1 m²당 5 L만 걸러 capacity의 절반만 쓴다. 막힘 위험은 없지만 필터를 절반만 쓰는 낭비가 생긴다.",
+        "틀리다 — Case 4. 같은 면적에 유속을 두 배로 올리면 flux가 20 LMH가 되어, 압력이 끝점(Pmax)에 먼저 닿거나 입자가 새어(Tmax) 제품 품질에 차이가 생길 수 있다."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.65–69 (Filter Sizing Test, Sizing 결과로 scale-up, 필기) · WK04 단권화노트 15.2–15.6절 · WK06 녹음 1:39:39–1:40:05",
+      "concepts": [
+        "Filter sizing",
+        "Flux"
+      ],
+      "tags": [
+        "Filter sizing",
+        "Flux"
+      ]
+    },
+    {
+      "id": "ex-663",
+      "type": "개념",
+      "part": 1,
+      "question": "다음 중 침전(precipitation)에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "목표 물질을 불용성 복합체로 만들어 가라앉힌 뒤 상등액과 나누고 다시 녹여 다음 공정으로 보낸다",
+        "혈장 분획은 에탄올 농도를 바꿔 가며 단백질을 fraction별로 침전시키는 것이 대표적이다",
+        "항체 공정에서는 clarification 뒤 Protein A 앞에 침전으로 HCP를 먼저 크게 줄이는 것이 표준이다",
+        "구제역 백신처럼 바이러스 항원을 다룰 때는 PEG로 침전·농축하기도 한다"
+      ],
+      "answer": 3,
+      "explanation": "**항체 공정에서는 침전을 거의 쓰지 않는다 — clarification 다음은 곧바로 크로마토그래피(Protein A)이다.** 교안 p.11: 침전은 주로 1차(초기) 정제에 쓰며, 순서는 protein solution → insoluble complex → precipitation → phase separation(상등액/침전물) → redissolution이다. 예: 혈장은 alcohol(Cohn 냉 에탄올 분획), 미생물(MO)은 sulfuric acid, 구제역(FMD)은 PEG. 녹음: 「항체 공정이면 precipitation이 안 쓰인다 → 클라리 다음은 무조건 크로마토그래피」(WK04 녹음 1:38:43).",
+      "choiceNotes": [
+        "옳은 진술 — 교안 p.11의 침전 순서 그대로이다. 침전물을 다시 녹이는 redissolution까지가 한 과정이다.",
+        "옳은 진술 — Cohn 냉 에탄올 분획으로 Fraction I~V를 차례로 침전시켜 IgG·알부민 등을 얻는다(교안 p.11 「Plasma : Alcohol」, p.15).",
+        "틀린 진술(정답) — 항체 공정에서 soluble/soluble 분리는 크로마토그래피만 쓰고, 침전은 쓰일 일이 거의 없다(WK04 녹음① 21:07, 녹음② 1:38:43). HCP는 Protein A·CEX·AEX에서 줄인다.",
+        "옳은 진술 — 처음 보면 낯설지만 교안 p.11에 「Foot and Mouth Disease(FMD) : Polyethylene Glycol(PEG)」이 있다."
+      ],
+      "source": "해설서 E6 · WK04 PDF p.11 (Precipitation), p.15 · WK04 단권화노트 5.3절, 6.2절 · WK04 녹음① 20:37–21:24 · WK04 녹음② 1:38:43",
+      "concepts": [
+        "침전",
+        "혈장 분획 제제"
+      ],
+      "tags": [
+        "침전",
+        "혈장 분획 제제"
+      ]
+    },
+    {
+      "id": "ex-664",
+      "type": "개념",
+      "part": 1,
+      "question": "배양에 들어가는 배지의 바이러스 위험을 낮추는 mitigation 방법에 해당되지 않는 것은?",
+      "choices": [
+        "감마선(gamma) 조사",
+        "HTST(고온 단시간) 처리",
+        "UV-C 조사",
+        "Protein A 용출액을 low pH로 유지"
+      ],
+      "answer": 4,
+      "explanation": "**Low pH 유지는 정제 단계(Protein A 용출 뒤)의 virus inactivation이지, 배지를 처리하는 mitigation이 아니다.** 교안 p.16 필기: Mitigation(gamma, HTST, UV-C, autoclave, filtration) → 배지로 들어오는 바이러스 가능도↓. 동물세포 배지는 끓일 수 없어 여과가 기본이고, HTST·UV-C·감마선은 바이러스 위험을 더 낮추려는 보조 수단이다.",
+      "choiceNotes": [
+        "해당된다 — 교안 p.16 필기의 mitigation 다섯 가지 가운데 하나이다(주로 분말 원료·배지 성분에 쓴다).",
+        "해당된다 — 고온에서 아주 짧게 처리해 배지 성분 변성을 줄이면서 바이러스를 불활화한다(교안 p.16 필기).",
+        "해당된다 — UV-C도 교안 p.16 필기의 mitigation 목록에 있다.",
+        "해당되지 않는다(정답) — Protein A 용출 pH(3~3.5)에서 30~60분 유지하는 것은 정제 공정의 low pH viral inactivation으로, 배양이 끝난 뒤 제품에 하는 VCS 단계이다."
+      ],
+      "source": "해설서 E8 · WK04 PDF p.16 (항체 정제 공정, 필기 Mitigation) · WK04 단권화노트 7.1절 · 오픈북 자료집 §4.11",
+      "concepts": [
+        "Mitigation",
+        "Viral clearance"
+      ],
+      "tags": [
+        "Mitigation",
+        "Viral clearance"
       ]
     },
     {
