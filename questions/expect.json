@@ -20766,6 +20766,201 @@
       ]
     },
     {
+      "id": "ex-671",
+      "type": "개념",
+      "part": 2,
+      "question": "GMP 구역(양압)과 BSL 구역(음압)을 함께 만족시키려고 두는 airlock의 압력 설정에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "Airlock 압력을 양쪽 방보다 높이면 airlock에서 양쪽으로 공기를 밀어내 서로 넘어가지 못한다",
+        "Airlock 압력을 양쪽 방보다 낮추면 양쪽 공기를 빨아들여 안의 위험물도 밖의 먼지도 airlock에서 걸러진다",
+        "일반 GMP 구역은 바깥 < airlock < 클린룸의 계단식 압력으로 깨끗한 쪽에서 더러운 쪽으로 공기를 흘린다",
+        "Airlock은 늘 양쪽 방의 중간 압력으로만 둘 수 있고 가장 높거나 가장 낮게 둘 수는 없다"
+      ],
+      "answer": 4,
+      "explanation": "**Airlock 압력은 양쪽 방보다 가장 높게(bubble) 둘 수도, 가장 낮게(sink) 둘 수도, 그 사이(cascade)로 둘 수도 있다.** WK07 녹음 1:15:51~1:25:26: GMP는 깨끗한 공기를 많이 넣어 양압(밖의 것이 못 들어옴), BSL은 음압(안의 위험한 것이 못 나감)으로 정반대이다. 그래서 바깥 – airlock – 클린룸의 세 공간을 만들고 airlock 압력으로 둘을 동시에 만족시킨다. 바깥에 먼지가 아주 많으면 airlock을 낮게 두어 빨아들이는 쪽이 유리하다고 했다. 이름(bubble·sink)보다 개념이 중요하다고 했다. Airlock은 압력으로 공기 흐름을 관리하는 공간이고, interlock(한쪽 문이 열리면 다른 문이 잠기는 장치)과는 다른 개념이다.",
+      "choiceNotes": [
+        "옳은 진술 — Bubble 방식. Airlock이 가장 높으면(＋＋) 바깥 문을 열 때 airlock 공기가 바깥으로, 클린룸 쪽 문을 열 때 airlock 공기가 클린룸 쪽으로 나가므로 양쪽 공기가 서로 넘어가지 않는다.",
+        "옳은 진술 — Sink 방식. Airlock이 가장 낮으면 양쪽 공기를 airlock이 빨아들여, 봉쇄(containment)가 필요한 곳이나 바깥 먼지가 많을 때 유리하다(WK07 녹음 1:23:52).",
+        "옳은 진술 — Cascade 방식. 압력이 계단처럼 클린룸 쪽으로 높아져 공기가 깨끗한 쪽 → 더러운 쪽 한 방향으로 흐른다.",
+        "틀린 진술(정답) — 녹음은 airlock 압력이 가장 높을 수도, 가장 낮을 수도 있다고 설명했다. 압력 조합에 따라 bubble·sink 같은 이름이 따로 붙는다."
+      ],
+      "source": "해설서 E15 · WK07 녹음 1:15:51–1:25:26 (Airlock, GMP vs BSL) · WK07 PDF p.40 (Cleanroom (Airlocks)) · WK07 단권화노트 2.7절, 6.17절 · 오픈북 자료집 §7.3 10번",
+      "concepts": [
+        "Airlock"
+      ],
+      "tags": [
+        "Airlock"
+      ]
+    },
+    {
+      "id": "ex-672",
+      "type": "개념",
+      "part": 1,
+      "question": "작업자가 옷을 갈아입으며 무균 충전실 쪽으로 들어갈 때 지나는 구역을 순서 (A ▶ B ▶ C ▶ D)에 따라 올바르게 나열한 것을 고르세요.",
+      "choices": [
+        "CNC – Grade D – Grade C – Grade B",
+        "Grade D – CNC – Grade C – Grade B",
+        "CNC – Grade C – Grade D – Grade B",
+        "CNC – Grade D – Grade B – Grade C"
+      ],
+      "answer": 1,
+      "explanation": "**CNC → (갱의) → Grade D → (갱의) → Grade C → (갱의) → Grade B — 옷을 갈아입을 때마다 한 단계씩 올라가고, 등급이 한 번에 뛰지 않는다.** WK07 녹음 2:45:30~2:47:13: CNC(Controlled Not Classified)는 클린룸 등급을 붙이지는 않았지만 깨끗하게 관리하는 공간이다. 등급을 붙이면 그 등급을 유지한다는 걸 증명하고 환경 모니터링을 해야 하므로, 클린룸이 아닌 곳에서 바로 들어가지 않게 이런 완충 공간을 둔다. 도면 색은 회색 CNC, 노랑 D, 주황 C, 빨강 B이고, Grade A(무균 충전 지점)는 Grade B를 배경으로 그 안에 있다.",
+      "choiceNotes": [
+        "옳다 — 등급 없는 관리 구역(CNC)에서 출발해 D → C → B로 한 단계씩 올라간다.",
+        "틀리다 — CNC는 등급을 붙이지 않은 완충 공간이라 Grade D보다 앞(바깥쪽)이다.",
+        "틀리다 — Grade C가 D보다 더 깨끗한 등급이다. D를 건너뛰고 C로 들어간 뒤 D로 돌아갈 수 없다.",
+        "틀리다 — Grade B는 Grade A(충전 지점)의 배경으로 가장 안쪽이다. B를 지나 C로 나오는 순서가 아니다."
+      ],
+      "source": "해설서 E15 · WK07 녹음 2:45:30–2:47:13 (CNC와 갱의의 계단) · WK07 PDF p.41 (Cleanroom Class and Pressure Zone) · WK07 단권화노트 6.18절 · 오픈북 자료집 §7.3 15번",
+      "concepts": [
+        "CNC",
+        "청정 등급"
+      ],
+      "tags": [
+        "CNC",
+        "청정 등급"
+      ]
+    },
+    {
+      "id": "ex-673",
+      "type": "개념",
+      "part": 2,
+      "question": "GMP 시설의 mass balance를 세울 때 현재 titer보다 약 15 % 높은 titer를 가정해 장비 크기를 정하는 이유로 가장 적절한 것은?",
+      "choices": [
+        "공정 개선으로 titer가 오를 것에 대비해 버퍼·필터·컬럼 같은 장비가 모자라거나 남지 않게 크기를 정하려고",
+        "실제 공정 손실이 15 %라서 설계 titer와 실제 수율을 같게 맞추려고",
+        "규정이 모든 의약품 공장에 15 % 이상의 생산 여유를 법으로 정해 두었기 때문에",
+        "Titer가 15 % 높으면 배양 부피가 15 % 늘어나 배양기를 더 크게 지어야 하기 때문에"
+      ],
+      "answer": 1,
+      "explanation": "**현재 titer + 15 %로 설계 titer를 잡는 목적은 장비의 과소·과대 설계(over-/undersizing)를 막는 것이다.** WK07 PDF p.29 흐름: Current product titer → Design titer assumption plus 15 % → equipment sizing(buffers), buffer distribution, technology selection, PFDs, room layout, prevention of over-/undersizing, defined process volume, filter sizing, column sizing → clean media·black utility consumption. Titer가 오르면 같은 배양 부피에서 단백질이 늘어 레진·필터·버퍼(DSP) 쪽 크기가 커져야 한다.",
+      "choiceNotes": [
+        "옳다 — 교안 p.29의 결론 「prevention of over-/undersizing」이다. 배양팀의 개선으로 titer가 오르면 DSP 장비가 부족해지는 일을 미리 막는다.",
+        "틀리다 — 손실은 mass balance에서 단계별 recovery rate로 따로 반영한다(100개 목표면 110개분 등). +15 %는 손실이 아니라 titer 가정이다.",
+        "틀리다 — 규정은 혼동·오염 방지 같은 원칙만 말하고 세부 기술·숫자는 정하지 않는다(「Regulations do not touch detailed technical requirement!」). +15 %는 설계 관행이다.",
+        "틀리다 — 방향이 반대이다. Titer가 오르면 같은 항체량에 필요한 배양 부피는 오히려 줄어든다. 늘어나는 것은 같은 부피에서 나오는 단백질 양과 그에 맞는 DSP 장비 크기이다."
+      ],
+      "source": "해설서 E3 · WK07 PDF p.29 (Mass Balance — Design titer plus 15 %) · WK07 단권화노트 6.6절, 부록 A-7 · 오픈북 자료집 §7.5 p.29",
+      "concepts": [
+        "Mass balance"
+      ],
+      "tags": [
+        "Mass balance"
+      ]
+    },
+    {
+      "id": "ex-674",
+      "type": "개념",
+      "part": 1,
+      "question": "GMP 공장 유틸리티의 clean·black 분류에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "HVAC 가습에 쓰는 clean steam도 clean utility로 분류한다",
+        "생산용 N₂·O₂·CO₂ 가스는 clean utility이다",
+        "Black utility는 제품 품질에 영향이 없어 Q&V 대상이 아니다",
+        "Black steam과 그 응축수는 장비 가열에 쓰이므로 clean utility로 분류한다"
+      ],
+      "answer": 4,
+      "explanation": "**Black steam & condensate는 black utility이다 — 제품이나 제품에 닿을 물질과 접촉하지 않는다.** WK07 PDF p.46: clean utility = 제품과 직접 접촉하거나 제품에 닿을 물질과 접촉하는 것(WFI, pure steam(공정용), clean steam(HVAC 가습용), PW, CIP/WIP, ethanol, clean compressed air, 생산용 N₂·O₂·CO₂, 실험실 가스). p.48: black utility = 제품·제품 접촉 물질과 닿지 않고 GMP 품질에 영향이 없어 non-critical, Q&V 대상이 아님(fuels, black steam & condensate, hot water, chilled water, drinking water, softened water, 소화수·스프링클러, 하수 등). p.46 슬라이드의 「non-critical, Q&V 대상 아님」 문장은 black utility 문장이 함께 들어간 것으로 보이며, clean utility는 qualification 대상이다(자료집 §7.4 주의).",
+      "choiceNotes": [
+        "옳은 진술 — 처음 보면 공정과 무관해 보이지만 교안 p.46은 clean steam(for HVAC humidification)을 clean utility에 넣었다. Pure steam(공정용)과 구분해 적은 점도 기억한다.",
+        "옳은 진술 — 교안 p.46: Nitrogen(PROD), Oxygen(PROD), Carbon Dioxide(PROD). 배양기 위 가스 필터 4개(Air·CO₂·O₂·N₂)가 이 라인이다.",
+        "옳은 진술 — 교안 p.48: These systems/utilities are considered as non-critical, not scope of Qualification/Validation activities.",
+        "틀린 진술(정답) — 교안 p.48 black utility 목록에 Black Steam & Condensate가 있다. 장비 재킷 가열 등에 쓰여도 제품·제품 접촉 물질에 닿지 않으므로 black이다."
+      ],
+      "source": "해설서 E11 · WK07 PDF p.46 (Clean Utilities), p.48 (Black Utilities) · WK07 단권화노트 6.23–6.25절 · 오픈북 자료집 §7.4",
+      "concepts": [
+        "Clean utility",
+        "Black utility"
+      ],
+      "tags": [
+        "Clean utility",
+        "Black utility"
+      ]
+    },
+    {
+      "id": "ex-675",
+      "type": "개념",
+      "part": 2,
+      "question": "공기조화시스템(HVAC)의 운전 적격성평가(OQ) 항목에 해당되지 않는 것은?",
+      "choices": [
+        "풍량과 환기 횟수(air changes) 측정",
+        "실 사이 압력 차(pressure cascade) 확인",
+        "기류 패턴(smoke study) 확인",
+        "계기의 교정(calibration) 상태 확인"
+      ],
+      "answer": 4,
+      "explanation": "**계기의 교정 상태 확인은 켜지 않고도 볼 수 있으므로 IQ 항목이다.** IQ와 OQ를 가르는 기준: 켜지 않고 볼 수 있으면 IQ(중요 부품 설치, 도면·문서, 계기 교정 상태, 자재·규격), 켜서 돌려 봐야 알 수 있으면 OQ(풍량·환기 횟수, 실압 차, 온습도 제어, 알람, airflow pattern), 실제 운영 조건에서 청정도를 유지하는지는 PQ이다(자료집 §7.2). 작년 기출 13번은 반대로 「HVAC IQ 항목 중 틀린 것 = 도면에 따른 airflow pattern 확인」이었다.",
+      "choiceNotes": [
+        "해당된다 — 팬을 돌려야 잴 수 있는 값이라 OQ이다. HVAC 기능 「필요한 공기량·환기 횟수 — 청정도의 기초」(교안 p.49).",
+        "해당된다 — 실압 제어·압력 계단은 HVAC를 운전해야 확인되는 OQ 항목이다.",
+        "해당된다 — 처음 보면 도면 확인 같아 보이지만, 연기를 흘려 실제 기류를 보는 smoke study는 운전 중 확인하는 OQ이다(작년 기출 13번의 IQ 오답 보기).",
+        "해당되지 않는다(정답) — 교정 상태는 성적서·라벨로 켜지 않고 확인하는 IQ 항목이다."
+      ],
+      "source": "해설서 E14 · WK07 PDF p.49 (HVAC), p.51 (V-model) · WK07 단권화노트 6.26절, 7.1절 · 오픈북 자료집 §7.2 (HVAC의 IQ와 OQ) · 작년 기출 13번",
+      "concepts": [
+        "Qualification",
+        "HVAC"
+      ],
+      "tags": [
+        "Qualification",
+        "HVAC"
+      ]
+    },
+    {
+      "id": "ex-676",
+      "type": "개념",
+      "part": 1,
+      "question": "GMP 공장 건설의 scheduling에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "연약 지반의 파일 공사는 설계가 끝날 즈음 함께 끝나도록 설계가 진행되는 동안 겹쳐 시작한다",
+        "준공 허가가 나자마자 장비를 반입·설치할 수 있도록 장비와 컴퓨터를 미리 발주해 둔다",
+        "공정 단계 사이에 장비와 인력이 놀지 않도록 배양·정제 작업 일정을 맞춘다",
+        "파일 공사는 설계 변경 위험을 없애기 위해 설계가 모두 끝난 뒤에 시작한다"
+      ],
+      "answer": 4,
+      "explanation": "**파일 공사는 설계가 진행되는 동안 겹쳐 시작한다 — 설계가 끝난 뒤 박으면 그동안 아무것도 못 한다.** WK07 녹음 1:05:25~1:14:47: 송도는 간척지라 땅이 물러 사르토리우스 공장은 지름 40~50 cm·길이 수십 m 파일을 수천 개 박았고, 약 8개월이 걸려 설계가 끝나기 약 8개월 전부터 시작해 설계가 끝날 때 파일도 끝나게 맞췄다(「미리미리 딱 맞아떨어지게 하는 것 — 그게 스케줄」). 아이솔레이터처럼 납기가 1~2년인 장비는 2년 전에 발주하고, 준공 허가가 나는 순간 장비 반입·설치를 시작한다. 공정 안에서도 장비·사람이 노는 시간이 없게 굴리는 것이 기본이다. Mass balance → scheduling(optimized scenario) → PFD·equipment list 순으로 확정된다.",
+      "choiceNotes": [
+        "옳은 진술 — 사르토리우스 송도 공장 사례(약 8개월 파일 공사를 설계 진행 중에 겹쳐서 진행).",
+        "옳은 진술 — 준공 허가가 떨어지자마자 들어가 일하려면 모니터·컴퓨터부터 미리 주문해 둬야 한다(WK07 녹음 53:13).",
+        "옳은 진술 — 정제 인력이 배양 N-3 단계 동안 할 일이 없거나, 1년에 두 번만 생산하고 노는 설계는 잘못된 설계이다(WK07 녹음 1:10:42).",
+        "틀린 진술(정답) — 교수님 질문 「파일은 언제 박는 게 좋을까? (1) 설계가 끝난 후 (2) 설계가 진행되는 중」의 답은 설계가 진행되는 중이다."
+      ],
+      "source": "해설서 E15 · WK07 녹음 52:00–53:45, 1:05:25–1:14:47 (Scheduling, 파일 공사) · WK07 단권화노트 2.3절, 2.5절 · 오픈북 자료집 §7.3 8번",
+      "concepts": [
+        "Scheduling"
+      ],
+      "tags": [
+        "Scheduling"
+      ]
+    },
+    {
+      "id": "ex-677",
+      "type": "개념",
+      "part": 1,
+      "question": "GMP 시설 설계의 4원칙과 규정에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "cGMP와 관계 당국의 요구 사항을 준수해야 한다",
+        "제품과 공정을 자세히 고려한 설계여야 한다",
+        "확장할 수 있는 유연한 공간과 경제적인 유지·에너지를 고려한다",
+        "규정이 혼동·오염 방지를 위한 세부 기술 요건까지 정해 주므로 설계는 그대로 따르면 된다"
+      ],
+      "answer": 4,
+      "explanation": "**규정은 「혼동·오염을 막아라」 같은 요구까지만 말하고 어떻게 지을지(세부 기술)는 정해 주지 않는다 — 그래서 엔지니어링이 필요하다.** WK07 PDF p.16 설계 4원칙: I cGMP·당국 요구 준수 / II 제품과 공정을 자세히 고려한 설계 / III 확장 가능한 유연한 공간 / IV 경제적 유지·에너지를 고려한 비용 효율적 건설. p.20: 건물은 적절한 크기·세척·유지가 쉬워야 하고, 장비·자재 혼동과 오염을 막고, 작업별 분리 구역, 기압·미생물·먼지·습도·온도의 적절한 관리, 세척·소독 절차서가 필요하지만 「Regulations do not touch detailed technical requirement!」.",
+      "choiceNotes": [
+        "옳은 진술 — 원칙 I(Comply with cGMP and concerned authorities' requirements). EU-GMP, 21 CFR 211(211.42 Design and construction features)이 근거이다.",
+        "옳은 진술 — 원칙 II. Production forecast·product characteristics·process steps가 설계의 출발점이다(교안 p.21).",
+        "옳은 진술 — 원칙 III(Flexible space with a capability of expansion)과 IV(Cost effective construction with economic maintenance and energy)를 합친 진술이다.",
+        "틀린 진술(정답) — 교안 p.20의 핵심 문장 「Regulations do not touch detailed technical requirement!」. 규정은 세부 기술을 정하지 않는다(자료집 §7.5 체크리스트의 헷갈리기 쉬운 곳)."
+      ],
+      "source": "해설서 E15 · WK07 PDF p.16 (GMP 시설 설계 4원칙), p.19–20 (21 CFR 211.42, 규정이 요구하는 것) · WK07 단권화노트 5.3절, 5.6–5.7절 · 오픈북 자료집 §7.4, §7.5",
+      "concepts": [
+        "GMP 시설 설계"
+      ],
+      "tags": [
+        "GMP 시설 설계"
+      ]
+    },
+    {
       "id": "ex-718",
       "type": "계산",
       "part": 3,
