@@ -23,6 +23,18 @@
 - 새 문항 24개(ex-657~680): IEX 희석 대신 UF/DF, capture 레진 수명, prepacked 일회용 컬럼, integrity test 불합격 3단계(정정 E-4), HEPA는 integrity test 대상 아님(정정 E-2), sizing scale-up Case 1~4, 침전(혈장·PEG, 항체 공정엔 없음), 배지 mitigation, CFF 준비 순서, 레진·카세트 life cycle(E&L, leached Protein A, compensation 없음), P-C-A가 표준인 이유(100→90→9→1), multimer에 HIC, 과농축 회수, single-use와 층고, airlock 압력 설정, 갱의 등급 계단(CNC→D→C→B), 설계 titer +15 %, clean·black utility, HVAC OQ, 파일 공사 scheduling, 설계 4원칙, 바이알 충전 라인 순서(탈발열), BI 판독 7일·rogue BI, 글러브 핀홀 처리.
 - 미출제(노트에는 있으나 지엽적이라 뺌): 사르토리우스 공장 면적 숫자, COGS 표 수치, 셀트리온·삼바 리액터 크기 사슬, 카세트 브랜드, 클램프 규격(DIN/ASME), 316L 성분비, 펌프 3종 장단점.
 
+### 2026.10.19 5차 디벨롭 — 6주차 Mass balance 상황형 대형 세트
+
+- 강의 슬라이드 「Impact of Protein A column volume」과 「6주차 바이오공정설계 계산 변형문제」(상황 A·B·C) 스타일로 고난도 세트 8개(ex-830~837, 칸 9~11개)와 계산 객관식 2개(ex-681·682)를 더했다.
+  - ex-830 두 Scenario(안지름 30 vs 45 cm) 순방향 — CV·cycle·유속·공정 시간·버퍼·용출 농도
+  - ex-831 결과(용출 부피·농도·공정 시간)에서 역산 — CV·지름·harvest 부피·load·레진 부하·titer
+  - ex-832 상황 A(Case 1) 저 titer — 배양 부피·safety factor 레진·지름·직접 load vs CFF 농축·레진 비용·작은 컬럼 대안
+  - ex-833 상황 B titer 개선 — batch당 DS·연간 batch·cycle 병목·버퍼·용출 농도·같은 생산량의 배양 부피
+  - ex-834 배양(80 % 충전·N-1 접종)→단계 수율 곱→DS 부피→overfill 바이알 수→연간 batch
+  - ex-835 상황 C 수요 역산 — 연간 DS→배양 부피→배양기 용량→N-1→Protein A cycle·버퍼
+  - ex-836 low pH 부피 증가→CEX 레진→농축→DF 버퍼·잔류 염(e⁻⁷)→막 면적→최종 부피
+  - ex-837 lab→생산 300배 scale-up 3안 — 지름·residence time 유지 linear velocity·bed height
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)
