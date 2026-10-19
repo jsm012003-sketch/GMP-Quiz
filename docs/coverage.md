@@ -17,6 +17,12 @@
 - 고난도 계산 세트 10개(ex-700~709, `level: "hard"`, 제시문 + 3~4칸): Protein A 설계, column scale-up·버퍼, 단계 수율 mass balance·바이알, tip speed·P/V, OUR·kLa·최대 VCD, UF/DF 시간·버퍼, seed train, LRV, filter sizing·cartridge, cycle·레진 비용. 모의고사(20문항 이상)마다 1개 이상 출제.
 - 아직 안 낸 것(지엽적이라 보류): 전기 용량표(Network·Diesel·UPS), 건물 배치 개념(spine·campus), 정제 원가 비중, HEPA 등급 수치, 제조사별 integrity test 명칭.
 
+### 2026.10.19 4차 디벨롭 — 주차별 단권화노트 반영
+- 근거: Drive 「GMP」 폴더 2·4·6·7주차 단권화노트(10.18–19 판)와 「오픈북 자료집 키워드해설 Final」(143쪽, 보강편 정정 E-1~E-6·보강 B2~B7). 3주차 노트는 10 MB를 넘어 받지 못해 자료집 §3, 5주차는 노트가 없어 자료집 §5로 대신했다.
+- 다듬은 문항(보기·보기별 해설·해설): 2주차 C·D절 33개(세포주·modality·platform·CPP/CQA·temp shift·clarification·성장 곡선·seed train·tip speed/P·V·design space·gas·센서·IPC vs PAT·PD/PC(PC = Robustness testing)·배양 모드·N-1 perfusion), 3주차 7개(크로마토 정의·HIC·분리 방식·matrix·유속·affinity·혼합물별 분리 기술), 4주차 5개(UF/DF 정확한 뜻, pI 역문제 경계값, 동물세포 배지 여과, integrity test 파괴/비파괴(정정 E-1), HEPA 0.3 µm(정정 E-3)), 6주차 1개(ex-520 → WFI hot loop, ex-464와 겹침 해소).
+- 새 문항 24개(ex-657~680): IEX 희석 대신 UF/DF, capture 레진 수명, prepacked 일회용 컬럼, integrity test 불합격 3단계(정정 E-4), HEPA는 integrity test 대상 아님(정정 E-2), sizing scale-up Case 1~4, 침전(혈장·PEG, 항체 공정엔 없음), 배지 mitigation, CFF 준비 순서, 레진·카세트 life cycle(E&L, leached Protein A, compensation 없음), P-C-A가 표준인 이유(100→90→9→1), multimer에 HIC, 과농축 회수, single-use와 층고, airlock 압력 설정, 갱의 등급 계단(CNC→D→C→B), 설계 titer +15 %, clean·black utility, HVAC OQ, 파일 공사 scheduling, 설계 4원칙, 바이알 충전 라인 순서(탈발열), BI 판독 7일·rogue BI, 글러브 핀홀 처리.
+- 미출제(노트에는 있으나 지엽적이라 뺌): 사르토리우스 공장 면적 숫자, COGS 표 수치, 셀트리온·삼바 리액터 크기 사슬, 카세트 브랜드, 클램프 규격(DIN/ASME), 316L 성분비, 펌프 3종 장단점.
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)
