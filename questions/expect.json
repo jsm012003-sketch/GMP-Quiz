@@ -21044,6 +21044,78 @@
       ]
     },
     {
+      "id": "ex-681",
+      "type": "계산",
+      "part": 2,
+      "question": "<보기>의 두 안을 비교한 진술로 옳지 않은 것은?",
+      "box": [
+        "harvest 1,900 L에 항체 3,478 g이 들어 있고, 전량을 Protein A에 건다. 레진의 binding capacity는 48 g/L이고 cycle마다 binding capacity까지 싣는다. (π = 3.14)",
+        "Scenario 1은 안지름 30 cm, Scenario 2는 안지름 45 cm 컬럼이며, 두 안 모두 bed height 20 cm, linear velocity 300 cm/h로 운전한다.",
+        "cycle마다 EQ 5 CV, Post Load Wash 5 CV, Elution 2 CV, Regeneration 3 CV를 흘리고, 용출액은 Elution 버퍼 전량으로 받는다. Protein A 수율은 93 %이다."
+      ],
+      "choices": [
+        "Scenario 1은 1 CV가 약 14.1 L이고 한 batch를 6 cycle로 처리한다",
+        "cycle 수가 절반인 Scenario 2가 batch당 버퍼는 오히려 더 많이 쓴다",
+        "load와 버퍼 시간을 합하면 Scenario 2가 Scenario 1보다 약 8 h 짧다",
+        "용출액의 항체 농도는 Scenario 2가 Scenario 1보다 높다"
+      ],
+      "answer": 4,
+      "explanation": "**큰 컬럼(Scenario 2)은 용출액 부피가 커서 용출 농도가 더 낮다 — Scenario 1 약 19.1 g/L, Scenario 2 약 17.0 g/L.**\nScenario 1: 1 CV = 3.14 × 15² × 20 = 14.13 L, cycle당 678 g → 3,478 ÷ 678 = 5.13 → 6 cycle, 버퍼 15 CV × 14.13 × 6 = 1,271.7 L, 시간 = load 1,900 ÷ 212 L/h ≈ 8.96 h + 버퍼 1.0 h × 6 = 약 15.0 h, 용출 3,234.5 g ÷ 169.6 L ≈ 19.1 g/L.\nScenario 2: 1 CV ≈ 31.79 L, cycle당 1,526 g → 3 cycle, 버퍼 15 × 31.79 × 3 ≈ 1,430.7 L, 시간 3.98 + 3.0 ≈ 7.0 h, 용출 3,234.5 ÷ 190.8 L ≈ 17.0 g/L.\n슬라이드 「Impact of Protein A column volume」의 결론(큰 컬럼 → cycle·시간↓, 버퍼↑, 용출 농도↓)과 같은 방향이다. 슬라이드 결과 표의 1 CV 14.1·31.8 L는 안지름 30·45 cm 값이다.",
+      "choiceNotes": [
+        "옳은 진술 — 3.14 × 15² × 20 = 14,130 cm³ = 14.13 L, cycle당 678.2 g이라 3,478 g은 5.13 → 올림 6 cycle이다.",
+        "옳은 진술 — 처음 보면 틀려 보이지만, cycle마다 큰 컬럼 전체에 15 CV를 흘리므로 15 × 31.79 × 3 ≈ 1,430.7 L로 Scenario 1의 1,271.7 L보다 많다.",
+        "옳은 진술 — Scenario 1 약 14.96 h, Scenario 2 약 6.98 h로 약 8 h 차이다. 부피 유속이 2.25배라 load 시간도 짧다.",
+        "틀린 진술(정답) — Scenario 2의 용출액은 2 CV × 31.79 × 3 ≈ 190.8 L로 Scenario 1의 169.6 L보다 커서 같은 항체 3,234.5 g이 묽어진다(17.0 vs 19.1 g/L)."
+      ],
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 · W6 계산 변형문제 (상황 B)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피"
+      ]
+    },
+    {
+      "id": "ex-682",
+      "type": "계산",
+      "part": 2,
+      "question": "<보기>의 Protein A 결과에서 거슬러 계산한 값으로 옳은 것은?",
+      "box": [
+        "bed height 20 cm인 Protein A 컬럼을 linear velocity 320 cm/h로 운전해 한 batch를 4 cycle로 정제했고, 공정 시간은 모두 7 h였다.",
+        "cycle마다 EQ 5 CV, Post Load Wash 5 CV, Elution 2 CV, Regeneration 3 CV를 같은 linear velocity로 흘렸다. 공정 시간은 load 시간과 버퍼를 흘리는 시간의 합이다.",
+        "용출액(Elution 버퍼 전량)은 모두 254 L이고 항체 농도는 12.9 g/L였다."
+      ],
+      "choices": [
+        "1 CV는 약 31.8 L이고, 용출액 속 항체는 약 3.28 kg이다",
+        "배양 titer가 1.1 g/L이고 수율을 무시하면 배양 부피는 약 3,600 L이다",
+        "load에 쓴 시간은 약 6.1 h이다",
+        "batch 전체에서 쓴 Equilibration 버퍼는 약 159 L이다"
+      ],
+      "answer": 1,
+      "explanation": "**1 CV = 254 L ÷ (2 CV × 4 cycle) ≈ 31.8 L, 용출 항체 = 12.9 g/L × 254 L ≈ 3,276.6 g ≈ 3.28 kg.**\n버퍼 시간 = 15 CV × (20 ÷ 320 h = 0.0625 h) × 4 cycle = 3.75 h → load 시간 = 7 − 3.75 = 3.25 h. EQ 버퍼 = 5 CV × 31.75 L × 4 ≈ 635 L(슬라이드 636 L). titer 1.1 g/L이면 배양 부피 ≈ 3,276.6 ÷ 1.1 ≈ 2,979 L — 강의 과제 풀이의 「titer 약 1.1 g/L, N stage 약 2,900~3,000 L」와 같다. 슬라이드 Scenario 2 결과 표(4 cycle, 7 h, 12.9 g/L × 254 L)를 그대로 쓴 문항이다.",
+      "choiceNotes": [
+        "옳다 — 용출액은 cycle마다 2 CV라 254 ÷ 8 ≈ 31.75 L, 항체는 12.9 × 254 ≈ 3,276.6 g이다.",
+        "틀리다 — 3,276.6 ÷ 1.1 ≈ 2,979 L이다. 3,600 L는 titer를 나누지 않고 곱한 값(3,276.6 × 1.1 ≈ 3,604)이다.",
+        "틀리다 — 버퍼 시간 0.9375 h를 한 cycle분만 뺀 값이다. 4 cycle이면 3.75 h를 빼서 load 시간은 3.25 h이다.",
+        "틀리다 — 5 CV × 31.75 L를 한 cycle분만 계산한 값이다. 4 cycle이면 약 635 L이다."
+      ],
+      "source": "해설서 E3 · 강의 슬라이드 (Example: Impact of Protein A column volume, Scenario 2 결과 표) · WK06 녹음 (과제 풀이 Step 1–5) · W6 계산 변형문제 (상황 C)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "titer"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "titer"
+      ]
+    },
+    {
       "id": "ex-718",
       "type": "계산",
       "part": 3,
@@ -28359,6 +28431,983 @@
         "cycles per batch"
       ],
       "tol": 0.03
+    },
+    {
+      "id": "ex-830",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 Protein A 컬럼 크기를 비교한 두 안이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양기 2,000 L(titer 1.85 g/L)를 2단 depth filtration으로 clarification해 harvest 1,900 L를 얻었고, 이 단계의 항체 수율은 94 %이다. harvest 전량을 Protein A에 건다.",
+        "Scenario 1은 안지름 30 cm, Scenario 2는 안지름 45 cm 컬럼이며, 두 안 모두 bed height 20 cm, linear velocity 300 cm/h로 운전한다. 레진의 binding capacity는 48 g/L이고 cycle마다 binding capacity까지 싣는다. (π = 3.14)",
+        "cycle마다 EQ 5 CV, Post Load Wash 5 CV, Elution 2 CV, Regeneration 3 CV를 같은 linear velocity로 흘리고, 용출액은 Elution 버퍼 전량으로 받는다.",
+        "Protein A 수율은 93 %이고, Protein A 공정 시간은 load 시간과 버퍼를 흘리는 시간의 합으로 본다."
+      ],
+      "answers": [
+        "1) 14.13 L  2) 6 cycle  3) 211.9 L/h  4) 15.0 h  5) 1,272 L  6) 19.1 g/L  7) 3 cycle  8) 6.98 h  9) 190.8 L  10) 17.0 g/L"
+      ],
+      "subs": [
+        {
+          "label": "Scenario 1의 1 CV (L)",
+          "num": 14.13,
+          "answers": [
+            "14.13",
+            "14.13 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 1의 cycles per batch",
+          "num": 6,
+          "answers": [
+            "6",
+            "6 cycle",
+            "6회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Scenario 1의 부피 유속 (L/h)",
+          "num": 211.95,
+          "answers": [
+            "211.9",
+            "211.9 L/h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 1의 Protein A 공정 시간 (h)",
+          "num": 14.964378,
+          "answers": [
+            "15.0",
+            "15.0 h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 1에서 batch당 쓰는 버퍼 총량 (L)",
+          "num": 1271.7,
+          "answers": [
+            "1,272",
+            "1272",
+            "1,272 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 1 용출액의 항체 농도 (g/L)",
+          "num": 19.076079,
+          "answers": [
+            "19.1",
+            "19.1 g/L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 2의 cycles per batch",
+          "num": 3,
+          "answers": [
+            "3",
+            "3 cycle",
+            "3회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Scenario 2의 Protein A 공정 시간 (h)",
+          "num": 6.984168,
+          "answers": [
+            "6.98",
+            "6.98 h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 2 용출액 부피 (L)",
+          "num": 190.755,
+          "answers": [
+            "190.8",
+            "190.8 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Scenario 2 용출액의 항체 농도 (g/L)",
+          "num": 16.956515,
+          "answers": [
+            "17.0",
+            "17.0 g/L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**Scenario 1: 1 CV 14.13 L, 6 cycle, 약 15.0 h, 용출 19.1 g/L / Scenario 2: 3 cycle, 약 7.0 h, 용출 190.8 L·17.0 g/L — 큰 컬럼은 시간이 절반이지만 버퍼는 더 쓰고 용출액은 묽다.**\nProtein A에 거는 항체 = 2,000 L × 1.85 g/L × 0.94 = 3,478 g, load 부피는 harvest 1,900 L.\n(1) 1 CV = 3.14 × 15² × 20 = 14,130 cm³ = 14.13 L(지름 30을 반지름으로 넣으면 56.5 L)\n(2) cycle당 처리량 = 14.13 × 48 = 678.2 g → 3,478 ÷ 678.2 = 5.13 → 올림 6 cycle(버림해 5 cycle이면 항체가 다 붙지 않는다)\n(3) 단면적 706.5 cm² × 300 cm/h = 211,950 cm³/h ≈ 212.0 L/h\n(4) load 1,900 ÷ 212.0 ≈ 8.96 h + 버퍼 15 CV × (20 cm ÷ 300 cm/h = 0.0667 h) × 6 cycle = 6.0 h → 약 15.0 h(버퍼 시간을 한 cycle만 넣으면 9.96 h)\n(5) 버퍼 = (5+5+2+3) CV × 14.13 L × 6 = 1,271.7 L\n(6) 용출 항체 3,478 × 0.93 = 3,234.5 g ÷ 용출액(2 CV × 14.13 × 6 = 169.6 L) ≈ 19.1 g/L(수율을 빼면 20.5 g/L)\n(7) 1 CV = 3.14 × 22.5² × 20 ≈ 31.79 L, cycle당 1,526 g → 2.28 → 올림 3 cycle\n(8) 부피 유속 1,589.6 cm² × 300 ≈ 476.9 L/h → load 3.98 h + 버퍼 1.0 h × 3 = 약 6.98 h\n(9) 용출액 = 2 CV × 31.79 × 3 ≈ 190.8 L\n(10) 3,234.5 g ÷ 190.8 L ≈ 17.0 g/L\nScenario 2는 cycle이 절반이라 공정 시간이 짧지만, 마지막 cycle에도 큰 컬럼 전체에 버퍼를 흘려 버퍼 총량(1,430.7 L)이 오히려 많고 용출액이 묽어진다(슬라이드 결론과 같은 방향). 슬라이드 결과 표의 1 CV 14.1 L·31.8 L는 안지름 30·45 cm 값이라 표에 적힌 지름 45·60 cm와 맞지 않는다 — 이 문제는 조건을 서로 맞게 바꿨다.",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-831",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 한 batch의 Protein A 공정 결과이다. 결과를 거슬러 올라가 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 컬럼(bed height 20 cm)을 linear velocity 300 cm/h로 운전해 한 batch를 6 cycle로 정제했고, 공정 시간은 모두 11.4 h였다. (π = 3.14)",
+        "cycle마다 EQ 5 CV, Post Load Wash 5 CV, Elution 2 CV, Regeneration 3 CV를 같은 linear velocity로 흘렸고, 용출액(Elution 버퍼 전량)은 batch 전체에서 288 L, 항체 농도는 13.2 g/L였다. 공정 시간은 load 시간과 버퍼를 흘리는 시간의 합이다.",
+        "레진의 binding capacity는 50 g/L이다. Protein A 수율은 95 %, clarification 수율은 93 %이며, 생산 배양기의 배양 부피는 2,000 L이다."
+      ],
+      "answers": [
+        "1) 24.0 L  2) 39.1 cm  3) 360 L/h  4) 6.0 h  5) 1,944 L  6) 3,801.6 g  7) 4,002 g  8) 27.8 g/L  9) 2.15 g/L"
+      ],
+      "subs": [
+        {
+          "label": "1 CV (L)",
+          "num": 24.0,
+          "answers": [
+            "24.0",
+            "24.0 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 39.098113,
+          "answers": [
+            "39.1",
+            "39.1 cm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 360.0,
+          "answers": [
+            "360",
+            "360 L/h"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "버퍼를 흘리는 데 든 시간 (h)",
+          "num": 6.0,
+          "answers": [
+            "6.0",
+            "6.0 h"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Protein A에 건 harvest 부피 (L)",
+          "num": 1944.0,
+          "answers": [
+            "1,944",
+            "1944",
+            "1,944 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "용출액 속 항체 (g)",
+          "num": 3801.6,
+          "answers": [
+            "3,801.6",
+            "3801.6",
+            "3,801.6 g"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Protein A에 건 항체 (g)",
+          "num": 4001.684211,
+          "answers": [
+            "4,002",
+            "4002",
+            "4,002 g"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "cycle마다 레진 1 L에 실은 항체 (g/L)",
+          "num": 27.789474,
+          "answers": [
+            "27.8",
+            "27.8 g/L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "생산 배양기 titer (g/L)",
+          "num": 2.151443,
+          "answers": [
+            "2.15",
+            "2.15 g/L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**1 CV 24 L·안지름 약 39.1 cm → 360 L/h → 버퍼 6 h, load 5.4 h → harvest 1,944 L → 용출 3,801.6 g → load 4,002 g → cycle당 27.8 g/L(binding capacity의 56 %) → titer 약 2.15 g/L.**\n(1) 용출액은 cycle마다 2 CV이므로 1 CV = 288 L ÷ (2 × 6) = 24 L(cycle 수를 빼면 144 L, 2 CV를 빼면 48 L)\n(2) 단면적 = 24,000 cm³ ÷ 20 cm = 1,200 cm², 안지름 = 2 × √(1,200 ÷ 3.14) ≈ 39.1 cm(반지름 19.5 cm를 답으로 쓰는 실수)\n(3) 1,200 cm² × 300 cm/h = 360,000 cm³/h = 360 L/h\n(4) 버퍼 15 CV × (20 ÷ 300 h) = 1.0 h/cycle × 6 = 6.0 h\n(5) load 시간 = 11.4 − 6.0 = 5.4 h → 5.4 × 360 = 1,944 L(전체 11.4 h를 load로 보면 4,104 L)\n(6) 13.2 g/L × 288 L = 3,801.6 g\n(7) 3,801.6 ÷ 0.95 ≈ 4,001.7 g(수율을 곱하면 3,611.5 g — 거슬러 올라갈 때는 나눈다)\n(8) 4,001.7 g ÷ 6 cycle ÷ 24 L ≈ 27.8 g/L — binding capacity 50 g/L의 약 56 %라 컬럼이 넉넉하다(cycle을 줄일 여지)\n(9) 배양액 속 항체 4,001.7 ÷ 0.93 ≈ 4,302.9 g ÷ 2,000 L ≈ 2.15 g/L(harvest 부피 1,944 L로 나누면 load 농도 2.06 g/L — 배양기 titer가 아니다)",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-832",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 저(低) titer 공정의 Protein A 설계 조건이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "한 batch에서 Protein A 용출액으로 항체 1.5 kg을 얻어야 한다. 배양 titer는 0.12 g/L이고, harvest·clarification에서 항체의 8 %를 잃으며, Protein A 수율은 94 %이다.",
+        "Protein A 레진의 binding capacity는 45 g/L이고, 한 cycle에 batch 전체를 처리하도록 safety factor 100 %를 두어 레진 양을 정한다. 컬럼은 bed height 25 cm, linear velocity 180 cm/h로 운전한다. (π = 3.14)",
+        "harvest 부피는 배양 부피와 같다고 보며, CFF로 12배 농축하면 load 부피를 줄일 수 있다. 레진 가격은 1 L에 22,000 달러이다.",
+        "대안으로 레진 25 L 컬럼을 쓰고 cycle마다 binding capacity의 80 %까지만 싣는다."
+      ],
+      "answers": [
+        "1) 1,596 g  2) 14,454 L  3) 70.9 L  4) 60.1 cm  5) 511 L/h  6) 28.3 h  7) 1,205 L  8) 2.36 h  9) 156.0 만 달러  10) 2 cycle  11) 101.0 만 달러"
+      ],
+      "subs": [
+        {
+          "label": "Protein A에 걸어야 할 항체 (g)",
+          "num": 1595.744681,
+          "answers": [
+            "1,596",
+            "1596",
+            "1,596 g"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "필요한 배양 부피 (L)",
+          "num": 14454.209066,
+          "answers": [
+            "14,454",
+            "14454",
+            "14,454 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "필요한 Protein A 레진 부피 (L)",
+          "num": 70.921986,
+          "answers": [
+            "70.9",
+            "70.9 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "컬럼 안지름 (cm)",
+          "num": 60.115382,
+          "answers": [
+            "60.1",
+            "60.1 cm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "부피 유속 (L/h)",
+          "num": 510.638298,
+          "answers": [
+            "511",
+            "511 L/h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "harvest를 그대로 걸 때 load 시간 (h)",
+          "num": 28.306159,
+          "answers": [
+            "28.3",
+            "28.3 h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "CFF 농축 뒤 load 부피 (L)",
+          "num": 1204.517422,
+          "answers": [
+            "1,205",
+            "1205",
+            "1,205 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "CFF 농축 뒤 load 시간 (h)",
+          "num": 2.358847,
+          "answers": [
+            "2.36",
+            "2.36 h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "레진 구입 비용 (만 달러)",
+          "num": 156.028369,
+          "answers": [
+            "156.0",
+            "156.0 만 달러"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "25 L 컬럼으로 바꿀 때 cycles per batch",
+          "num": 2,
+          "answers": [
+            "2",
+            "2 cycle",
+            "2회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "25 L 컬럼으로 바꿔 줄어드는 레진 비용 (만 달러)",
+          "num": 101.028369,
+          "answers": [
+            "101.0",
+            "101.0 만 달러"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**load 1,595.7 g → 배양 약 14,454 L → 레진 70.9 L·안지름 약 60.1 cm → 510.6 L/h → 직접 load 28.3 h, CFF 12배 농축 1,204.5 L·2.36 h → 레진 156.0만 달러 → 25 L 컬럼 2 cycle, 101.0만 달러 절감.**\n(1) 용출 목표 1,500 g ÷ Protein A 수율 0.94 ≈ 1,595.7 g\n(2) 배양액 속 항체 1,595.7 ÷ (1 − 0.08) ≈ 1,734.5 g ÷ 0.12 g/L ≈ 14,454 L(손실을 빼고 계산하면 13,298 L — 손실 8 %는 수율 92 %로 나눈다)\n(3) 1,595.7 g ÷ 45 g/L = 35.46 L × (1 + 1.00) = 70.9 L(safety factor 100 %는 2배)\n(4) 단면적 70,922 cm³ ÷ 25 cm ≈ 2,836.9 cm² → 안지름 = 2 × √(2,836.9 ÷ 3.14) ≈ 60.1 cm\n(5) 2,836.9 cm² × 180 cm/h ≈ 510,638 cm³/h ≈ 510.6 L/h\n(6) 14,454 L ÷ 510.6 L/h ≈ 28.3 h — 한 batch load에 하루가 넘게 걸린다\n(7) 12배 농축 → 14,454 ÷ 12 ≈ 1,204.5 L\n(8) 1,204.5 ÷ 510.6 ≈ 2.36 h\n(9) 70.9 L × 22,000 달러 ≈ 1,560,284 달러 ≈ 156.0만 달러\n(10) cycle당 25 × 45 × 0.8 = 900 g → 1,595.7 ÷ 900 = 1.77 → 올림 2 cycle(80 % 부하를 빼면 1,125 g/cycle로 1.42 → 그래도 2 cycle)\n(11) (70.9 − 25) × 22,000 ≈ 1,010,284 달러 ≈ 101.0만 달러 — 레진을 줄이고 cycle을 늘리는 맞바꿈(Case 1과 같은 논리)",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "safety factor"
+      ],
+      "tags": [
+        "Mass balance",
+        "Protein A",
+        "Column 부피",
+        "safety factor"
+      ]
+    },
+    {
+      "id": "ex-833",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 titer를 높인 개선 공정과 현 공정을 비교한 조건이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "연간 원료의약품 수요는 120 kg이다. 생산 배양기의 배양 부피는 두 공정 모두 10,000 L이고, titer는 현 공정 1.5 g/L, 개선 공정 4.2 g/L이다.",
+        "배양액에서 원료의약품까지의 전체 수율은 두 공정 모두 65 %이고, 이 가운데 clarification 수율은 93 %, Protein A 수율은 95 %이다.",
+        "Protein A 컬럼(레진 60 L, binding capacity 55 g/L)은 두 공정에서 같은 것을 쓰고 cycle마다 binding capacity까지 싣는다. cycle마다 버퍼는 모두 15 CV를 쓰며, 그중 용출액으로 받는 부피는 2.5 CV이다."
+      ],
+      "answers": [
+        "1) 9.75 kg  2) 13 batch  3) 5 cycle  4) 27.3 kg  5) 5 batch  6) 12 cycle  7) 10,800 L  8) 20.6 g/L  9) 3,571 L"
+      ],
+      "subs": [
+        {
+          "label": "현 공정 batch당 원료의약품 (kg)",
+          "num": 9.75,
+          "answers": [
+            "9.75",
+            "9.75 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "현 공정 연간 필요한 batch 수",
+          "num": 13,
+          "answers": [
+            "13",
+            "13 batch",
+            "13회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "현 공정 Protein A cycles per batch",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 cycle",
+            "5회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "개선 공정 batch당 원료의약품 (kg)",
+          "num": 27.3,
+          "answers": [
+            "27.3",
+            "27.3 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "개선 공정 연간 필요한 batch 수",
+          "num": 5,
+          "answers": [
+            "5",
+            "5 batch",
+            "5회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "개선 공정 Protein A cycles per batch",
+          "num": 12,
+          "answers": [
+            "12",
+            "12 cycle",
+            "12회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "개선 공정 batch당 Protein A 버퍼 총량 (L)",
+          "num": 10800,
+          "answers": [
+            "10,800",
+            "10800",
+            "10,800 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "개선 공정 용출액의 항체 농도 (g/L)",
+          "num": 20.615,
+          "answers": [
+            "20.6",
+            "20.6 g/L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "개선 공정으로 현 공정 batch당 원료의약품을 만들 때 배양 부피 (L)",
+          "num": 3571.428571,
+          "answers": [
+            "3,571",
+            "3571",
+            "3,571 L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**현 공정 9.75 kg·13 batch·5 cycle → 개선 공정 27.3 kg·5 batch·12 cycle·버퍼 10,800 L·용출 20.6 g/L, 같은 9.75 kg은 약 3,571 L로 만든다.**\n(1) 10,000 L × 1.5 g/L × 0.65 = 9,750 g = 9.75 kg\n(2) 120 ÷ 9.75 = 12.3 → 올림 13 batch(버림하면 연간 수요를 못 채운다)\n(3) Protein A load = 10,000 × 1.5 × 0.93 = 13,950 g, cycle당 60 L × 55 g/L = 3,300 g → 4.23 → 5 cycle\n(4) 10,000 × 4.2 × 0.65 = 27,300 g = 27.3 kg\n(5) 120 ÷ 27.3 = 4.40 → 5 batch\n(6) load 39,060 g ÷ 3,300 g = 11.84 → 12 cycle — titer가 2.8배 오르자 같은 컬럼이 병목이 된다\n(7) 15 CV × 60 L × 12 = 10,800 L(현 공정 4,500 L의 2.4배)\n(8) 용출 항체 39,060 × 0.95 = 37,107 g ÷ (2.5 CV × 60 L × 12 = 1,800 L) ≈ 20.6 g/L(현 공정은 13,252.5 g ÷ 750 L ≈ 17.7 g/L)\n(9) 9.75 kg ÷ 0.65 ÷ 4.2 g/L ≈ 3,571 L — titer가 오르면 같은 생산량을 작은 배양기로 만든다(WK06 Case 2: titer 2배 → 배양 부피 절반)\n흔한 실수: 전체 수율 65 %에 clarification·Protein A 수율을 한 번 더 곱하는 것(65 %는 배양액 → 원료의약품 전체 수율이다).",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-834",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 항체 공정 한 batch의 조건이다. 배양부터 바이알까지 다음 값을 각각 계산하시오.",
+      "box": [
+        "생산 배양기는 15,000 L 용량이며 용량의 80 %까지 채워 배양한다. N-1 배양액을 배양 부피의 10 %만큼 접종하고 나머지는 새 배지로 채운다. 최종 titer는 3.4 g/L이다.",
+        "clarification 수율은 92 %이다. 이어지는 단계의 수율은 Protein A 95 %, low pH viral inactivation 98 %, CEX 90 %, AEX 95 %, virus filtration 97 %, final UF/DF 96 %이다.",
+        "원료의약품은 120 g/L로 만들고, 표시량 150 mg 제품을 바이알마다 1.3 mL씩 충전한다. 충전 공정에서 원료의약품의 3 %를 잃는다."
+      ],
+      "answers": [
+        "1) 12,000 L  2) 10,800 L  3) 37.54 kg  4) 74.1 %  5) 27.82 kg  6) 231.9 L  7) 156 mg  8) 173,003 개  9) 12 batch"
+      ],
+      "subs": [
+        {
+          "label": "생산 배양기 배양 부피 (L)",
+          "num": 12000.0,
+          "answers": [
+            "12,000",
+            "12000",
+            "12,000 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "생산 배양기에 새로 넣는 배지 (L)",
+          "num": 10800.0,
+          "answers": [
+            "10,800",
+            "10800",
+            "10,800 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "clarification 뒤 항체 (kg)",
+          "num": 37.536,
+          "answers": [
+            "37.54",
+            "37.54 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Protein A부터 UF/DF까지의 누적 수율 (%)",
+          "num": 74.123986,
+          "answers": [
+            "74.1",
+            "74.1 %"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 원료의약품 (kg)",
+          "num": 27.823179,
+          "answers": [
+            "27.82",
+            "27.82 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 원료의약품 부피 (L)",
+          "num": 231.859827,
+          "answers": [
+            "231.9",
+            "231.9 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "바이알 1개에 충전되는 항체 (mg)",
+          "num": 156.0,
+          "answers": [
+            "156",
+            "156 mg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 만들 수 있는 바이알 수 (개)",
+          "num": 173003.101652,
+          "answers": [
+            "173,003",
+            "173003",
+            "173,003 개"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "연간 바이알 2,000,000개에 필요한 batch 수",
+          "num": 12,
+          "answers": [
+            "12",
+            "12 batch",
+            "12회"
+          ],
+          "tol": 0.02
+        }
+      ],
+      "explanation": "**배양 12,000 L·배지 10,800 L → clarification 뒤 37.54 kg → 누적 수율 74.1 % → DS 27.82 kg·231.9 L → 바이알 156 mg씩 약 173,003개 → 연간 12 batch.**\n(1) 15,000 L × 0.8 = 12,000 L(배양기 용량을 그대로 쓰는 실수)\n(2) N-1 접종액이 10 %(1,200 L)를 차지하므로 새 배지 = 12,000 − 1,200 = 10,800 L(WK07 15,000 L vs 12,000 L 배지 논리)\n(3) 12,000 × 3.4 × 0.92 = 37,536 g ≈ 37.54 kg(배지 부피 10,800 L에 titer를 곱하는 실수 — titer는 배양 전체 부피 기준)\n(4) 0.95 × 0.98 × 0.90 × 0.95 × 0.97 × 0.96 ≈ 0.741(수율은 곱한다 — 손실을 더해 5+2+10+5+3+4 = 29 %로 빼면 71 %)\n(5) 37.536 × 0.741 ≈ 27.82 kg\n(6) 27,823 g ÷ 120 g/L ≈ 231.9 L\n(7) 1.3 mL × 120 mg/mL = 156 mg(표시량 150 mg보다 많이 넣는 overfill — 주사기로 다 뽑지 못하는 양을 보탠다)\n(8) 27,823,179 mg × 0.97 ÷ 156 mg ≈ 173,003개(충전 손실 3 %를 빼먹으면 178,354개, 표시량 150 mg으로 나누면 179,923개)\n(9) 2,000,000 ÷ 173,003 = 11.56 → 올림 12 batch",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "수율",
+        "N-1"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "수율",
+        "N-1"
+      ]
+    },
+    {
+      "id": "ex-835",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 시장 수요에서 공정 규모를 거꾸로 정하는 조건이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "연간 수요는 200 mg 제품 1,800,000개이다. 바이알마다 표시량의 105 %를 충전하고, 충전 공정 수율은 92 %이다. 원료의약품은 1년에 20 batch를 만든다.",
+        "배양액에서 원료의약품까지의 전체 수율은 62 %이고(이 가운데 clarification 수율 93 %), 생산 배양 titer는 2.8 g/L이다. 배양기는 용량의 80 %까지 채우며, N-1 배양액을 생산 배양 부피의 10 %만큼 접종한다.",
+        "Protein A 컬럼은 안지름 80 cm, bed height 22 cm이고, binding capacity 52 g/L의 85 %까지 cycle마다 싣는다. cycle마다 버퍼는 모두 15 CV를 쓴다. (π = 3.14)"
+      ],
+      "answers": [
+        "1) 410.9 kg  2) 20.54 kg  3) 33.13 kg  4) 11,834 L  5) 14,792 L  6) 1,183 L  7) 110.5 L  8) 7 cycle  9) 11,605 L"
+      ],
+      "subs": [
+        {
+          "label": "연간 필요한 원료의약품 (kg)",
+          "num": 410.869565,
+          "answers": [
+            "410.9",
+            "410.9 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 원료의약품 (kg)",
+          "num": 20.543478,
+          "answers": [
+            "20.54",
+            "20.54 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 배양액 속 항체 (kg)",
+          "num": 33.134642,
+          "answers": [
+            "33.13",
+            "33.13 kg"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "생산 배양기 배양 부피 (L)",
+          "num": 11833.800842,
+          "answers": [
+            "11,834",
+            "11834",
+            "11,834 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "필요한 최소 배양기 용량 (L)",
+          "num": 14792.251052,
+          "answers": [
+            "14,792",
+            "14792",
+            "14,792 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "N-1 배양기에서 옮길 배양액 (L)",
+          "num": 1183.380084,
+          "answers": [
+            "1,183",
+            "1183",
+            "1,183 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "Protein A 컬럼의 1 CV (L)",
+          "num": 110.528,
+          "answers": [
+            "110.5",
+            "110.5 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "Protein A cycles per batch",
+          "num": 7,
+          "answers": [
+            "7",
+            "7 cycle",
+            "7회"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "batch당 Protein A 버퍼 총량 (L)",
+          "num": 11605.44,
+          "answers": [
+            "11,605",
+            "11605",
+            "11,605 L"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**연간 DS 410.9 kg → batch당 20.54 kg → 배양액 항체 33.13 kg → 배양 11,834 L → 배양기 14,792 L 이상 → N-1 1,183 L → 1 CV 110.5 L → 7 cycle → 버퍼 11,605 L.**\n(1) 1,800,000 × 200 mg × 1.05 = 378 kg, 충전 수율 92 %로 나눠 ≈ 410.9 kg(수율을 곱하면 347.8 kg — 거꾸로 갈 때는 나눈다)\n(2) 410.9 ÷ 20 ≈ 20.54 kg\n(3) 20.54 ÷ 0.62 ≈ 33.13 kg\n(4) 33,135 g ÷ 2.8 g/L ≈ 11,834 L\n(5) 11,834 ÷ 0.8 ≈ 14,792 L(80 %를 곱하면 9,467 L로 배양기가 오히려 작아진다)\n(6) 11,834 × 0.1 ≈ 1,183 L(N-1 배양기는 이보다 커야 한다)\n(7) 3.14 × 40² × 22 = 110,528 cm³ ≈ 110.5 L\n(8) load = 33,135 × 0.93 ≈ 30,815 g, cycle당 110.5 × 52 × 0.85 ≈ 4,885 g → 6.31 → 올림 7 cycle(부하 85 %를 빼면 5.36 → 6 cycle)\n(9) 15 CV × 110.5 L × 7 ≈ 11,605 L\n흔한 실수: 전체 수율 62 %에 clarification 93 %를 한 번 더 나눠 배양액 항체를 크게 잡는 것(62 %가 이미 배양액 → DS 전체 수율이다).",
+      "source": "해설서 E3 · 강의 슬라이드 (Evaluate the impact of different technology options — Example: Impact of Protein A column volume, Scenario 1·2) · WK06 PDF p.19–24 (컬럼 scale-up, Case 1·2) · W6 계산 변형문제 (상황 A·B·C)",
+      "concepts": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ],
+      "tags": [
+        "Mass balance",
+        "titer",
+        "Protein A",
+        "cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-836",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 Protein A 용출액부터 원료의약품까지의 polishing·UF/DF 조건이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "Protein A 용출액 320 L(항체 16.5 g/L)에 처음 부피의 4 %만큼 acid를 넣어 low pH viral inactivation을 하고, 처음 부피의 6 %만큼 base를 넣어 중화한다. 이 단계 수율은 99 %이다.",
+        "CEX는 binding capacity 60 g/L의 80 %까지 싣고 한 cycle로 처리하며, 6 CV로 용출한다. 수율은 CEX 90 %, AEX(flow-through) 96 %, virus filtration 98 %이고, 이 두 단계에서 부피는 변하지 않는다고 본다.",
+        "final UF/DF는 먼저 50 g/L로 농축한 뒤 7 diavolume으로 diafiltration하고, 마지막에 150 g/L로 농축한다(UF/DF 수율 97 %). diafiltration은 flux 45 L/m²/h로 2.5 h 안에 끝낸다."
+      ],
+      "answers": [
+        "1) 352 L  2) 14.85 g/L  3) 108.9 L  4) 653 L  5) 4,426 g  6) 88.5 L  7) 620 L  8) 0.091 %  9) 5.51 m²  10) 28.6 L"
+      ],
+      "subs": [
+        {
+          "label": "low pH viral inactivation 뒤 부피 (L)",
+          "num": 352.0,
+          "answers": [
+            "352",
+            "352 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "low pH viral inactivation 뒤 항체 농도 (g/L)",
+          "num": 14.85,
+          "answers": [
+            "14.85",
+            "14.85 g/L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "한 cycle로 처리할 CEX 레진 부피 (L)",
+          "num": 108.9,
+          "answers": [
+            "108.9",
+            "108.9 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "CEX 용출액 부피 (L)",
+          "num": 653.4,
+          "answers": [
+            "653",
+            "653 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "virus filtration 뒤 항체 (g)",
+          "num": 4425.974784,
+          "answers": [
+            "4,426",
+            "4426",
+            "4,426 g"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "1차 농축 뒤 부피 (L)",
+          "num": 88.519496,
+          "answers": [
+            "88.5",
+            "88.5 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "diafiltration 버퍼 부피 (L)",
+          "num": 619.63647,
+          "answers": [
+            "620",
+            "620 L"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "DF 뒤 남는 처음 염의 비율 (%)",
+          "num": 0.091188,
+          "answers": [
+            "0.091",
+            "0.091 %"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "diafiltration에 필요한 막 면적 (m²)",
+          "num": 5.50788,
+          "answers": [
+            "5.51",
+            "5.51 m²"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "최종 농축 뒤 원료의약품 부피 (L)",
+          "num": 28.621304,
+          "answers": [
+            "28.6",
+            "28.6 L"
+          ],
+          "tol": 0.02
+        }
+      ],
+      "explanation": "**352 L·14.85 g/L → CEX 레진 108.9 L·용출 653 L → VF 뒤 4,426 g → 50 g/L로 88.5 L → DF 버퍼 620 L·잔류 염 0.091 % → 막 5.51 m² → 150 g/L로 28.6 L.**\n(1) acid 4 % + base 6 % → 320 × 1.10 = 352 L\n(2) 항체 5,280 g × 0.99 = 5,227.2 g ÷ 352 L ≈ 14.85 g/L(부피 증가를 빼면 16.3 g/L)\n(3) cycle당 60 × 0.8 = 48 g/L → 5,227.2 ÷ 48 ≈ 108.9 L(80 %를 곱해 레진을 줄이면 87.1 L로 binding capacity를 넘긴다)\n(4) 6 CV × 108.9 ≈ 653 L\n(5) 5,227.2 × 0.90 × 0.96 × 0.98 ≈ 4,426 g\n(6) 4,426 ÷ 50 ≈ 88.5 L(먼저 농축해 DF 부피를 줄인다 — 순서를 거꾸로 하면 653 L로 DF해 버퍼가 4,575 L)\n(7) 7 diavolume × 88.5 L ≈ 620 L\n(8) 잔류 비율 = e⁻⁷ ≈ 0.000912 → 0.091 %(7 diavolume이면 약 99.9 % 제거; 1/7로 잡는 실수는 14.3 %)\n(9) 620 L ÷ (45 L/m²/h × 2.5 h) ≈ 5.51 m²\n(10) 4,426 × 0.97 ≈ 4,293 g ÷ 150 g/L ≈ 28.6 L",
+      "source": "해설서 E3 · WK06 PDF p.19–24 (Case 1) · WK07 녹음 36:09–41:38 (mass balance) · W6 계산 변형문제 (UF/DF·회수율·막 면적)",
+      "concepts": [
+        "Mass balance",
+        "UF/DF",
+        "diafiltration",
+        "CEX"
+      ],
+      "tags": [
+        "Mass balance",
+        "UF/DF",
+        "diafiltration",
+        "CEX"
+      ]
+    },
+    {
+      "id": "ex-837",
+      "type": "계산",
+      "part": 3,
+      "format": "short",
+      "level": "hard",
+      "question": "<보기>는 lab 컬럼 조건을 생산 컬럼으로 옮기는 세 가지 안이다. 다음 값을 각각 계산하시오.",
+      "box": [
+        "lab Protein A 컬럼은 안지름 1.6 cm, bed height 20 cm이고 linear velocity 300 cm/h로 개발했다. 생산 컬럼은 레진 부피를 lab의 300배로 키운다. (π = 3.14)",
+        "안 A는 bed height와 linear velocity를 lab과 같게 두고 지름을 키운다. 안 B는 bed height를 25 cm로 높이고 residence time을 lab과 같게 맞춘다.",
+        "안 C는 이미 가진 안지름 30 cm 컬럼에 같은 레진 부피를 채우고 residence time을 lab과 같게 맞춘다."
+      ],
+      "answers": [
+        "1) 40.2 mL  2) 12.06 L  3) 4.0 min  4) 27.7 cm  5) 181 L/h  6) 24.8 cm  7) 375 cm/h  8) 181 L/h  9) 17.1 cm  10) 256 cm/h"
+      ],
+      "subs": [
+        {
+          "label": "lab 컬럼의 1 CV (mL)",
+          "num": 40.192,
+          "answers": [
+            "40.2",
+            "40.2 mL"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "생산 컬럼의 1 CV (L)",
+          "num": 12.0576,
+          "answers": [
+            "12.06",
+            "12.06 L"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "residence time (min)",
+          "num": 4.0,
+          "answers": [
+            "4.0",
+            "4.0 min"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "안 A의 컬럼 안지름 (cm)",
+          "num": 27.712813,
+          "answers": [
+            "27.7",
+            "27.7 cm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "안 A의 부피 유속 (L/h)",
+          "num": 180.864,
+          "answers": [
+            "181",
+            "181 L/h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "안 B의 컬럼 안지름 (cm)",
+          "num": 24.787093,
+          "answers": [
+            "24.8",
+            "24.8 cm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "안 B의 linear velocity (cm/h)",
+          "num": 375.0,
+          "answers": [
+            "375",
+            "375 cm/h"
+          ],
+          "tol": 0.02
+        },
+        {
+          "label": "안 B의 부피 유속 (L/h)",
+          "num": 180.864,
+          "answers": [
+            "181",
+            "181 L/h"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "안 C의 bed height (cm)",
+          "num": 17.066667,
+          "answers": [
+            "17.1",
+            "17.1 cm"
+          ],
+          "tol": 0.03
+        },
+        {
+          "label": "안 C의 linear velocity (cm/h)",
+          "num": 256.0,
+          "answers": [
+            "256",
+            "256 cm/h"
+          ],
+          "tol": 0.03
+        }
+      ],
+      "explanation": "**lab 40.2 mL → 생산 12.06 L, residence time 4.0 min → 안 A 지름 27.7 cm·180.9 L/h / 안 B 24.8 cm·375 cm/h·180.9 L/h / 안 C bed 17.1 cm·256 cm/h.**\n(1) 3.14 × 0.8² × 20 ≈ 40.19 mL\n(2) 40.19 mL × 300 ≈ 12,058 mL ≈ 12.06 L\n(3) 20 cm ÷ 300 cm/h = 0.0667 h = 4.0 min\n(4) 안 A: 단면적 12,058 ÷ 20 ≈ 602.9 cm² → 안지름 ≈ 27.7 cm(지름은 300의 제곱근 배 ≈ 17.3배 — 300배로 키우는 실수)\n(5) 602.9 × 300 ≈ 180.9 L/h\n(6) 안 B: 12,058 ÷ 25 ≈ 482.3 cm² → ≈ 24.8 cm\n(7) residence time 4 min을 지키려면 25 cm ÷ (4/60 h) = 375 cm/h(300 cm/h 그대로 두면 residence time 5 min으로 길어진다)\n(8) 482.3 × 375 ≈ 180.9 L/h — CV와 residence time이 같으면 부피 유속도 같다\n(9) 안 C: 안지름 30 cm 단면적 706.5 cm² → 12,058 ÷ 706.5 ≈ 17.1 cm\n(10) 17.1 ÷ (4/60) ≈ 256 cm/h\nscale-up은 bed height와 linear velocity(=residence time)를 유지하고 지름을 키우는 것이 원칙이고(안 A), 다른 표준 컬럼을 쓰면 residence time을 맞춰 linear velocity를 다시 정한다(WK06 300-fold scale-up 대안 14.1·25.1·39.3 L 비교와 같은 논리).",
+      "source": "해설서 A8 · WK06 PDF p.19–24 (컬럼 scale-up, 300-fold scale-up 대안) · 강의 슬라이드 (Example: Impact of Protein A column volume) · W6 계산 변형문제 (컬럼 기초)",
+      "concepts": [
+        "Column 부피",
+        "scale-up",
+        "residence time",
+        "linear velocity"
+      ],
+      "tags": [
+        "Column 부피",
+        "scale-up",
+        "residence time",
+        "linear velocity"
+      ]
     }
   ]
 }
