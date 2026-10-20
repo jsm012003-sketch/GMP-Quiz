@@ -140,7 +140,7 @@
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   // **굵게** 와 줄바꿈만 지원하는 안전한 서식
-  const rich = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+  const rich = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/__(.+?)__/g, '<u>$1</u>').replace(/\n/g, '<br>');
   const range = (n) => Array.from({ length: n }, (_, i) => i);
   function shuffle(arr) {
     const a = arr.slice();
@@ -229,6 +229,7 @@
   // 객관식 보기 순서: 보기가 CONFIG.choicesShown개보다 많으면 오답을 무작위로 빼고(정답은 늘 남김) 섞는다
   function makeOrder(q, shuffleOn = S.prefs.shuffleC) {
     if (isWritten(q)) return [];
+    if (q.fixed) shuffleOn = false;
     let idx = range(q.choices.length);
     const extra = idx.length - CONFIG.choicesShown;
     if (extra > 0) {
@@ -378,6 +379,7 @@
           kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
           lec: Number(q.lec) || 0,
           hard: q.level === 'hard',
+          fixed: q.fixedOrder === true, // 「옳은 것의 개수」「㉠~㉣」처럼 보기 순서가 뜻을 갖는 문항은 섞지 않는다
           slide: q.slide === true,
           fam: typeof q.family === 'string' && q.family ? q.family : String(q.id), // 같은 유형·다른 숫자 변형 묶음
           ckeys: [],
