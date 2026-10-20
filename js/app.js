@@ -38,7 +38,7 @@
   // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
   const FINAL_UNITS = ['기출']; // 2026.10.15: 파이널 모드 = 작년 2학기 중간고사 기출(questions/past.json)
   const FINAL_CALC_SHARE = 0;
-  const isFixedScope = (mode) => mode === 'mock' || mode === 'final' || mode === 'hardCalc' || mode === 'unseen';
+  const isFixedScope = (mode) => mode === 'mock' || mode === 'final' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen';
   // 시험지는 강의 주차 순서로(2026.10.15 사용자 요청): 문항의 "lec"(2~8), 없으면 키워드 절로 짐작
   const PAPER_WEEK_ORDER = true;
   const KW_LEC = { A: 3, B: 5, C: 2, D: 2, E: 6 };
@@ -55,6 +55,10 @@
   // 강의 슬라이드 「Impact of Protein A column volume」 형식(두 Scenario 비교·결과 표 역산) 세트는 20문항 이상 시험지마다 하나씩,
   // 같은 형식을 숫자만 바꾼 변형 중 덜 나온 것으로(2026.10.19 사용자 요청 — "매 세트 숫자를 바꿔 계산 메커니즘을 익히게")
   const SLIDE_MIN = 1;
+  // 칸이 8개 이상인 긴 Mass balance 세트(슬라이드형·상황 A·B·C형) — 「전범위 계산」은 10문항마다 1개, Max 계산은 5문항마다 1개까지만(2026.10.20 사용자 요청)
+  const isLongMB = (q) => q.hard && q.kw === 'E3' && (q.subs || []).length >= 8;
+  const LONG_PER_CALCMIX = 10;
+  const LONG_GAP_HARD = 5;
   // 20문항 이상 시험지는 주차(2~7)마다 계산 문항 1개 이상, 리뷰에서 계산으로 짚은 키워드마다 1개 이상(2026.10.17)
   //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
   const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
@@ -78,6 +82,7 @@
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
     unseen: { label: '완전 미출제', icon: '🆕', kind: 'exam', desc: '한 번도 안 나온 문항만으로 만든 시험지 (복습 0%)' },
+    calcMix: { label: '전범위 계산', icon: '🧪', kind: 'study', desc: '10문항마다 긴 Mass balance 1세트 + 주제별 계산 한 문제씩 (칸마다 채점)' },
     hardCalc: { label: 'Max 난이도 계산', icon: '🧮', kind: 'study', desc: '고난도 계산 세트만 골라 풀기 (칸마다 채점·풀이)' },
     final: { label: '작년 중간고사 기출', icon: '🎯', kind: 'exam', desc: '작년 2학기 중간고사 기출문제를 원문 그대로 푸는 시험 (해설 포함)' },
     review: { label: '오답 다시 풀기', icon: '🔁', kind: 'study', desc: '' },
@@ -660,11 +665,18 @@
       picked = pool.slice(); // 작년 기출: 원문 문항 전부를 원래 순서대로
     } else if (mode === 'hardCalc') {
       // 고난도 계산 세트만: 덜 푼 묶음·세트부터(같은 횟수끼리는 무작위), 같은 묶음은 다른 묶음을 한 번씩 낸 뒤에
-      const order = shuffle(pool).sort((a, b) => (b.slide - a.slide) || (isHardCore(b) - isHardCore(a)) || famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
+      const order = shuffle(pool).sort((a, b) => (isHardCore(b) - isHardCore(a)) || famAsk(a) - famAsk(b) || qMeta(a.id).a - qMeta(b.id).a);
       const seenF = new Set();
       const first = [], later = [];
       order.forEach((q) => { if (seenF.has(q.fam)) later.push(q); else { seenF.add(q.fam); first.push(q); } });
-      picked = first.concat(later).slice(0, Math.min(count, order.length));
+      // 긴 Mass balance 세트는 LONG_GAP_HARD문항마다 하나씩만, 사이사이에(처음부터 긴 세트가 몰리지 않게)
+      const all = first.concat(later);
+      const n = Math.min(count, all.length);
+      const longs = all.filter(isLongMB).slice(0, Math.ceil(n / LONG_GAP_HARD));
+      const rest = all.filter((q) => !isLongMB(q));
+      picked = spreadLong(rest, longs, n, LONG_GAP_HARD);
+    } else if (mode === 'calcMix') {
+      picked = composeCalcMix(pool, count);
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
@@ -674,7 +686,7 @@
       const src = unseenOnly && fresh.length >= count ? fresh : pool;
       ({ picked, review } = compose(src, count, p.strategy, mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : unseenOnly ? { noReview: true } : {}));
     }
-    picked = (mode === 'review' || mode === 'final' || mode === 'hardCalc') ? picked : orderPicked(picked, kind);
+    picked = (mode === 'review' || mode === 'final' || mode === 'hardCalc' || mode === 'calcMix') ? picked : orderPicked(picked, kind);
     return sessionFrom(mode, picked, { review, poolSize: pool.length });
   }
 
@@ -947,6 +959,45 @@
   });
 
   // ---------------------------------------------------------------- 홈
+  // 긴 세트를 gap문항 묶음마다 하나씩, 묶음 가운데쯤에 끼운다(n문항)
+  function spreadLong(rest, longs, n, gap) {
+    const out = rest.slice(0, n - Math.min(longs.length, n));
+    longs.slice(0, n).forEach((q, i) => out.splice(Math.min(out.length, i * gap + Math.floor(gap / 2)), 0, q));
+    return out.slice(0, n);
+  }
+  // 「전범위 계산」(2026.10.20): 10문항마다 긴 Mass balance 세트 1개(슬라이드형부터), 나머지는 주제(해설서 절)마다 한 문제씩 돌아가며
+  function composeCalcMix(pool, count) {
+    const n = Math.min(count, pool.length);
+    const famIn = new Set();
+    const ids = new Set();
+    const take = (q) => { famIn.add(q.fam); ids.add(q.id); return q; };
+    const ok = (q) => !ids.has(q.id) && !famIn.has(q.fam);
+    const longs = [];
+    const nLong = Math.max(1, Math.round(n / LONG_PER_CALCMIX));
+    for (let i = 0; i < nLong; i++) {
+      const c = pool.filter((q) => isLongMB(q) && ok(q));
+      const pref = c.filter((q) => (i === 0) === !!q.slide); // 첫 세트는 슬라이드형, 그다음은 상황형
+      const f = freshest(shuffle(pref.length ? pref : c));
+      if (!f.length) break;
+      longs.push(take(f[0]));
+    }
+    const others = pool.filter((q) => !isLongMB(q));
+    const topics = shuffle([...new Set(others.map((q) => q.kw || '기타'))])
+      .sort((a, b) => Math.min(...others.filter((q) => (q.kw || '기타') === a).map(famAsk)) - Math.min(...others.filter((q) => (q.kw || '기타') === b).map(famAsk)));
+    const rest = [];
+    let added = true;
+    while (rest.length < n - longs.length && added) {
+      added = false;
+      for (const t of topics) {
+        if (rest.length >= n - longs.length) break;
+        const f = freshest(shuffle(others.filter((q) => (q.kw || '기타') === t && ok(q))));
+        if (f.length) { rest.push(take(f[0])); added = true; }
+      }
+    }
+    rest.sort((a, b) => lecOf(a) - lecOf(b) || kwRank(a) - kwRank(b));
+    return spreadLong(rest, longs, n, LONG_PER_CALCMIX);
+  }
+
   function selectedUnitKeys() {
     const all = S.units.map((u) => u.key);
     return Array.isArray(S.prefs.units) ? S.prefs.units.filter((k) => all.includes(k)) : all;
@@ -957,6 +1008,7 @@
     if (mode === 'mock') return S.units.flatMap((u) => u.questions).filter(activePart);
     if (mode === 'final') return S.units.filter((u) => FINAL_UNITS.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
     if (mode === 'hardCalc') return S.units.flatMap((u) => u.questions).filter((q) => q.hard);
+    if (mode === 'calcMix') return S.units.flatMap((u) => u.questions).filter((q) => q.style === 'calc');
     if (mode === 'unseen') return S.units.flatMap((u) => u.questions).filter(activePart).filter((q) => !qMeta(q.id).a); // 한 번도 출제되지 않은 문항만
     if (mode === 'review') return wrongIdsInBank().map((id) => S.qById.get(id));
     const keys = selectedUnitKeys();
@@ -1059,7 +1111,7 @@
         <section class="card">
           <div class="card-head"><h2>1. 모드 선택</h2></div>
           <div class="mode-grid" role="group" aria-label="모드">
-            ${['study', 'unitExam', 'mock', 'unseen', 'hardCalc', 'final'].map((m) => `
+            ${['study', 'unitExam', 'mock', 'unseen', 'calcMix', 'hardCalc', 'final'].map((m) => `
               <button type="button" class="mode-card" data-action="mode" data-value="${m}" aria-pressed="${mode === m}">
                 <span class="mode-icon" aria-hidden="true">${MODES[m].icon}</span>
                 <span class="mode-name">${MODES[m].label}</span>
@@ -1071,7 +1123,7 @@
         <section class="card">
           <div class="card-head">
             <h2>2. 범위 선택</h2>
-            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : mode === 'hardCalc' ? '전범위 고난도 계산 세트만' : mode === 'unseen' ? `전범위 미출제 ${poolN}문항` : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
+            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : mode === 'hardCalc' ? '전범위 고난도 계산 세트만' : mode === 'calcMix' ? '전범위 계산 문항' : mode === 'unseen' ? `전범위 미출제 ${poolN}문항` : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
           </div>
           <div class="unit-list">${unitRows}</div>
           ${isMock ? '' : `
@@ -1158,7 +1210,7 @@
   // ---------------------------------------------------------------- 출제 현황 화면
   function renderCoverage() {
     const mode = S.prefs.mode;
-    const scopeKeys = (mode === 'mock' || mode === 'hardCalc' || mode === 'unseen') ? S.units.map((u) => u.key)
+    const scopeKeys = (mode === 'mock' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen') ? S.units.map((u) => u.key)
       : mode === 'final' ? S.units.map((u) => u.key).filter((k) => FINAL_UNITS.includes(k)) : selectedUnitKeys();
     const covered = coveredConceptKeys();
     const pool = S.units.filter((u) => scopeKeys.includes(u.key)).flatMap((u) => u.questions);
