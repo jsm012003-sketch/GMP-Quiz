@@ -40,6 +40,12 @@
 - 슬라이드 「Impact of Protein A column volume」 형식 변형 36세트 추가: 두 Scenario 순방향 ex-838~861(family ex-830, 12칸), 결과 표 역산 ex-862~873(family ex-831, 11칸). 숫자(배양 부피·titer·수율·안지름·bed height·linear velocity·binding capacity·버퍼 CV)를 세트마다 바꿨다.
 - 앱 `compose`: 20문항 이상 시험지마다 `slide` 세트 1개(덜 나온 변형부터) + Mass balance·컬럼 부피 고난도 세트 각 1개.
 
+### 2026.10.20 Final 모의고사 3세트 · 보기 묶음·짝맞추기 32문항
+
+- 「옳은 것만 모두 고른 것은?(ㄱ~ㄹ)」 26문항(ex-900·902~920·922·923·932~936)과 「(가)(나)(다) 짝」 6문항(ex-901·924·927~929) — 클린룸 압력·airlock, V-model, integrity test, 제균 필터·기체 여과, CPP/CQA, PD/PC, fed-batch/perfusion, 세포은행, 성장 곡선, tip speed·P/V, IEX, 운전 방식, resolution, SEC, Protein A, scale-up, virus clearance, UF/DF, APS, VHP/BI, RABS/isolator, 제약용수, 청정 등급, IPC, CFF, 혈장 분획, 여과·오염, CIPP, 크로마토 방식, 무균 제조 방법, clarification, pI.
+- `questions/final-sets.json` Final 모의고사 3세트(세트마다 키워드 42개·계산 8·보기 묶음 6·기출 2·단답 약 11).
+- kLa·OTR 계산 15문항 archive(2026.10.20).
+
 ## 이전 구성 (archive)
 
 # 출제 현황 (Coverage)

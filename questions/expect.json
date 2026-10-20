@@ -33854,6 +33854,1231 @@
         "Column 부피",
         "cycles per batch"
       ]
+    },
+    {
+      "id": "ex-900",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "클린룸 설계에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. GMP 청정실은 양압으로 오염 유입을 막고, BSL 구역은 음압으로 유해물 유출을 막아 압력 방향이 정반대다",
+        "ㄴ. Airlock은 서로 다른 압력 요구를 가진 두 구역 사이에서 두 요구를 함께 만족시키는 버퍼 공간이다",
+        "ㄷ. Interlock은 airlock 양쪽 문이 동시에 열리지 않게 하며, 강제로 열면 알람이 울린다",
+        "ㄹ. CNC(controlled not classified) 구역은 등급이 없으므로 청소·관리 대상이 아니다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄷ",
+        "ㄱ, ㄴ",
+        "ㄱ, ㄷ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) 청정실은 제품 보호(밖→안 유입 차단)라 양압, BSL은 사람·환경 보호(안→밖 유출 차단)라 음압이다\nㄴ (O) 양압 구역과 음압 구역 사이에 airlock(sink·bubble·cascade)을 두어 두 방향 요구를 함께 지킨다\nㄷ (O) 양쪽 문이 함께 열리면 압력 차가 무너지므로 interlock으로 막고 강제 개방 시 알람을 낸다\nㄹ (X) CNC는 청정 등급만 매기지 않을 뿐 출입·청소·모니터링 같은 관리는 하는 구역이다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다.",
+        "틀리다 — ㄱ도 옳은 진술이다(청정실은 제품 보호(밖→안 유입 차단)라 양압, BSL은 사람·환경 보호(안→밖 유출 차단)라 음압이다).",
+        "틀리다 — ㄷ도 옳은 진술이다(양쪽 문이 함께 열리면 압력 차가 무너지므로 interlock으로 막고 강제 개방 시 알람을 낸다).",
+        "틀리다 — ㄴ도 옳은 진술이다(양압 구역과 음압 구역 사이에 airlock(sink·bubble·cascade)을 두어 두 방향 요구를 함께 지킨다)."
+      ],
+      "source": "해설서 E15 · WK07 PDF (Airlock·PAL·MAL, CNC, 압력 계위) · WK07 녹음 (BSL 음압)",
+      "concepts": [
+        "Airlock",
+        "Pressure cascade",
+        "CNC"
+      ],
+      "tags": [
+        "Airlock",
+        "Pressure cascade",
+        "CNC"
+      ]
+    },
+    {
+      "id": "ex-901",
+      "type": "연결",
+      "part": 2,
+      "form": "match",
+      "question": "다음 활동과 V-model 단계를 옳게 짝지은 것은?",
+      "box": [
+        "(가) 제조사 공장을 방문해 출하 전 장비를 시험",
+        "(나) 현장에 들어온 장비가 도면·사양대로 설치·연결되었는지 확인",
+        "(다) pH 센서가 pH 1~14 여러 포인트에서 정상 작동하는지 확인",
+        "(라) 실제 공정 조건(pH 7 ± 허용 범위)에서 장비 성능을 확인"
+      ],
+      "choices": [
+        "(가) FAT / (나) IQ / (다) OQ / (라) PQ",
+        "(가) FAT / (나) IQ / (다) PQ / (라) OQ",
+        "(가) SAT / (나) FAT / (다) OQ / (라) PQ",
+        "(가) DQ / (나) IQ / (다) OQ / (라) PV"
+      ],
+      "answer": 1,
+      "explanation": "**V-model: URS → DQ(FDS) → FAT → IQ/SAT → OQ → PQ → PV/CV.** 교안 p.51은 IQ와 SAT를 한 칸, PV와 CV를 한 칸으로 적었다(자료집 정정 E-6). OQ는 장비가 운전 범위 전체(pH 1~14 같은 여러 포인트)에서 사양대로 작동하는지, PQ는 실제 공정 조건에서 성능을 내는지 본다. 「OQ에서 실제 공정 조건 확인」은 PQ와 바꾼 틀린 보기다.",
+      "choiceNotes": [
+        "옳다 — FAT는 제조사 공장, IQ(SAT)는 현장 설치, OQ는 운전 범위 전체, PQ는 실제 공정 조건에서의 성능이다.",
+        "틀리다 — OQ와 PQ를 바꿨다. 운전 범위 여러 포인트 작동은 OQ, 실제 공정 조건 성능은 PQ다.",
+        "틀리다 — SAT는 현장(site)에서 하는 인수 시험으로 IQ와 같은 칸이고, 제조사 공장 시험은 FAT다.",
+        "틀리다 — DQ는 설계 검토라 공장 시험이 아니고, PV는 공정 밸리데이션이라 장비 성능 확인(PQ)과 다르다."
+      ],
+      "source": "해설서 E14 · WK07 PDF p.51 (V-model) · WK07 녹음 2:48:50–2:59:21 · 오픈북 자료집 Final 정정 E-6",
+      "concepts": [
+        "FAT",
+        "IQ",
+        "OQ",
+        "PQ"
+      ],
+      "tags": [
+        "FAT",
+        "IQ",
+        "OQ",
+        "PQ"
+      ]
+    },
+    {
+      "id": "ex-902",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "필터 integrity test에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. 비파괴 시험은 사용자가 하며, 시험한 필터를 그대로 공정에 쓸 수 있다",
+        "ㄴ. Bacteria challenge test는 사용자가 매 batch 사용 전 필터마다 한다",
+        "ㄷ. 소수성 막은 물을 넣고 가압하는 water intrusion test로 확인한다",
+        "ㄹ. 클린룸 천장의 HEPA filter도 bubble point test로 integrity를 확인한다"
+      ],
+      "choices": [
+        "ㄱ",
+        "ㄱ, ㄷ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄴ, ㄷ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄷ이다.**\nㄱ (O) bubble point·diffusion·pressure drop·water intrusion·water flow는 비파괴라 사용자가 하고 필터를 다시 쓴다\nㄴ (X) BCT는 파괴 시험이라 제조사가 규격(limit)을 정할 때 한다 — 사용자는 그 limit으로 비파괴 시험만 한다\nㄷ (O) 소수성 막은 물에 젖지 않으므로 물을 밀어 넣는 압력으로 본다(WIT·water flow)\nㄹ (X) HEPA는 integrity test 대상이 아니고 DOP·PAO 누설 시험과 풍속·입자 수로 확인한다(자료집 정정 E-2)",
+      "choiceNotes": [
+        "틀리다 — ㄷ도 옳은 진술이다(소수성 막은 물에 젖지 않으므로 물을 밀어 넣는 압력으로 본다(WIT·water flow)).",
+        "옳다 — 옳은 진술은 ㄱ·ㄷ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(HEPA는 integrity test 대상이 아니고 DOP·PAO 누설 시험과 풍속·입자 수로 확인한다(자료집 정정 E-2)).",
+        "틀리다 — ㄴ은 틀린 진술이다(BCT는 파괴 시험이라 제조사가 규격(limit)을 정할 때 한다 — 사용자는 그 limit으로 비파괴 시험만 한다), ㄱ도 옳은 진술이다(bubble point·diffusion·pressure drop·water intrusion·water flow는 비파괴라 사용자가 하고 필터를 다시 쓴다)."
+      ],
+      "source": "해설서 E1 · WK04 PDF p.118–124 (Integrity Test Method) · 오픈북 자료집 Final 정정 E-1·E-2",
+      "concepts": [
+        "Integrity test",
+        "Bubble point test",
+        "HEPA filter"
+      ],
+      "tags": [
+        "Integrity test",
+        "Bubble point test",
+        "HEPA filter"
+      ]
+    },
+    {
+      "id": "ex-903",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "제균 필터와 기체 여과에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. 제균 필터 등급은 B. diminuta로 도전한 여과액이 무균인지로 정한다",
+        "ㄴ. 막의 표기 pore size가 0.2 µm이면 그 자체로 제균 필터의 정의를 만족한다",
+        "ㄷ. 기체 필터는 impaction·interception·diffusion·정전기 인력으로 표기보다 작은 입자도 잡는다",
+        "ㄹ. 기체 여과에서 가장 작은 입자일수록 가장 잘 빠져나간다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄷ",
+        "ㄴ, ㄷ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄷ이다.**\nㄱ (O) 막 1 cm²당 10⁷ CFU의 B. diminuta를 걸러 여과액이 무균이면 sterile 등급이다(BCT)\nㄴ (X) 0.2 µm는 BCT 기준을 만족한 결과로 흔히 쓰는 크기일 뿐 정의가 아니다(자료집 정정 E-5)\nㄷ (O) 기체 여과는 sieve 외 네 메커니즘이 있어 표기보다 10–20배 작은 입자까지 잡는다(정정 E-3)\nㄹ (X) 아주 작은 입자는 Brownian motion(diffusion)으로 오히려 잘 잡히고, 가장 잘 빠져나가는 크기(MPPS)는 약 0.2 µm 부근이다",
+      "choiceNotes": [
+        "틀리다 — ㄴ은 틀린 진술이다(0.2 µm는 BCT 기준을 만족한 결과로 흔히 쓰는 크기일 뿐 정의가 아니다(자료집 정정 E-5)).",
+        "틀리다 — ㄹ은 틀린 진술이다(아주 작은 입자는 Brownian motion(diffusion)으로 오히려 잘 잡히고, 가장 잘 빠져나가는 크기(MPPS)는 약 0.2 µm 부근이다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄷ뿐이다.",
+        "틀리다 — ㄴ은 틀린 진술이다(0.2 µm는 BCT 기준을 만족한 결과로 흔히 쓰는 크기일 뿐 정의가 아니다(자료집 정정 E-5)), ㄱ도 옳은 진술이다(막 1 cm²당 10⁷ CFU의 B. diminuta를 걸러 여과액이 무균이면 sterile 등급이다(BCT))."
+      ],
+      "source": "해설서 E12 · WK04 PDF p.24 (제균 Filter의 정의), p.52–57 (Gas Filter Mechanism) · 오픈북 자료집 Final 정정 E-3·E-5",
+      "concepts": [
+        "Sterile filtration",
+        "기체 여과",
+        "HEPA filter"
+      ],
+      "tags": [
+        "Sterile filtration",
+        "기체 여과",
+        "HEPA filter"
+      ]
+    },
+    {
+      "id": "ex-904",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "CPP와 CQA에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. CPP를 관리해 CQA를 원하는 범위 안에 지킨다",
+        "ㄴ. 당쇄 패턴·전하 변이체는 대표적인 CPP이다",
+        "ㄷ. 배양 pH·온도·DO는 CPP의 예이다",
+        "ㄹ. QbD에서는 CQA를 먼저 정한 뒤 그로부터 QTPP를 도출한다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ",
+        "ㄷ, ㄹ",
+        "ㄱ, ㄷ"
+      ],
+      "answer": 4,
+      "explanation": "**옳은 것은 ㄱ·ㄷ이다.**\nㄱ (O) CPP(공정 변수)가 CQA(품질 특성)에 영향을 주므로 CPP를 제어해 CQA를 지킨다\nㄴ (X) 당쇄·전하 변이체는 제품의 품질 특성이라 CQA다\nㄷ (O) 배양 조건은 공정 변수(CPP)로 관리한다\nㄹ (X) 순서가 거꾸로다 — QTPP(목표 제품 프로파일)를 먼저 정하고 그로부터 CQA를 뽑는다",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(순서가 거꾸로다 — QTPP(목표 제품 프로파일)를 먼저 정하고 그로부터 CQA를 뽑는다).",
+        "틀리다 — ㄷ도 옳은 진술이다(배양 조건은 공정 변수(CPP)로 관리한다).",
+        "틀리다 — ㄹ은 틀린 진술이다(순서가 거꾸로다 — QTPP(목표 제품 프로파일)를 먼저 정하고 그로부터 CQA를 뽑는다), ㄱ도 옳은 진술이다(CPP(공정 변수)가 CQA(품질 특성)에 영향을 주므로 CPP를 제어해 CQA를 지킨다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄷ뿐이다."
+      ],
+      "source": "해설서 C3 · WK02 PDF (QbD, CPP·CQA) · 오픈북 자료집 Final 보강 B2",
+      "concepts": [
+        "CPP",
+        "CQA",
+        "QbD"
+      ],
+      "tags": [
+        "CPP",
+        "CQA",
+        "QbD"
+      ]
+    },
+    {
+      "id": "ex-905",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "PD·PC와 design space에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. PD(process development)는 DoE로 최적 조건과 set point를 찾는 단계다",
+        "ㄴ. PC(process characterization)는 조건이 흔들려도 품질을 지키는지 robustness를 확인한다",
+        "ㄷ. 승인된 design space 안에서 조건을 옮기는 것은 허가 변경으로 다룬다",
+        "ㄹ. scale-down model은 상업 규모 공정을 대표한다는 것을 입증한 뒤 PC에 쓴다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) PD = parameter optimization(교안 p.76)\nㄴ (O) PC 옆에 붙는 말은 robustness testing이다(교안 p.76)\nㄷ (X) design space 안의 이동은 변경으로 보지 않는다 — 벗어날 때 변경 관리 대상이 된다\nㄹ (O) 작은 규모 실험 결과를 상업 규모에 옮기려면 scale-down model이 대표성을 가져야 한다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(design space 안의 이동은 변경으로 보지 않는다 — 벗어날 때 변경 관리 대상이 된다), ㄹ도 옳은 진술이다(작은 규모 실험 결과를 상업 규모에 옮기려면 scale-down model이 대표성을 가져야 한다).",
+        "틀리다 — ㄷ은 틀린 진술이다(design space 안의 이동은 변경으로 보지 않는다 — 벗어날 때 변경 관리 대상이 된다), ㄴ도 옳은 진술이다(PC 옆에 붙는 말은 robustness testing이다(교안 p.76)).",
+        "틀리다 — ㄷ은 틀린 진술이다(design space 안의 이동은 변경으로 보지 않는다 — 벗어날 때 변경 관리 대상이 된다), ㄱ도 옳은 진술이다(PD = parameter optimization(교안 p.76))."
+      ],
+      "source": "해설서 D1 · WK02 PDF p.76 (Data Analytics from R&D to Commercial Manufacturing) · 오픈북 자료집 Final 보강 B2-1",
+      "concepts": [
+        "PD",
+        "PC",
+        "Design space"
+      ],
+      "tags": [
+        "PD",
+        "PC",
+        "Design space"
+      ]
+    },
+    {
+      "id": "ex-906",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "Fed-batch와 Perfusion에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Fed-batch는 배양 중 영양소를 연속·간헐로 넣고 끝에 한 번 harvest한다",
+        "ㄴ. Perfusion은 ATF·spin filter로 세포를 붙잡고 상등액을 연속으로 뺀다",
+        "ㄷ. Perfusion은 독성 대사산물이 쌓여 fed-batch보다 배양 기간이 짧다",
+        "ㄹ. 현재 상업 생산은 perfusion이 70 % 이상을 차지한다"
+      ],
+      "choices": [
+        "ㄱ, ㄹ",
+        "ㄱ, ㄴ",
+        "ㄴ",
+        "ㄱ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄴ이다.**\nㄱ (O) feed만 넣고 빼지 않다가 배양 끝에 수확한다(5–20일)\nㄴ (O) 세포는 retain하고 신선한 배지를 넣는 만큼 세포 없는 상등액을 뺀다(10–80일)\nㄷ (X) perfusion은 암모니아·젖산을 계속 빼서 death phase로 늦게 가므로 배양 기간이 더 길다\nㄹ (X) 업계 생산의 70 % 이상은 fed-batch다(단순하고 검증 경험이 많음)",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(업계 생산의 70 % 이상은 fed-batch다(단순하고 검증 경험이 많음)), ㄴ도 옳은 진술이다(세포는 retain하고 신선한 배지를 넣는 만큼 세포 없는 상등액을 뺀다(10–80일)).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ뿐이다.",
+        "틀리다 — ㄱ도 옳은 진술이다(feed만 넣고 빼지 않다가 배양 끝에 수확한다(5–20일)).",
+        "틀리다 — ㄴ도 옳은 진술이다(세포는 retain하고 신선한 배지를 넣는 만큼 세포 없는 상등액을 뺀다(10–80일))."
+      ],
+      "source": "해설서 D2 · WK02 PDF p.31 (Type of Cultivation Process?) · WK02 녹음 1:02:24–1:03:37 · 오픈북 자료집 Final 보강 B2-2",
+      "concepts": [
+        "Fed-batch",
+        "Perfusion",
+        "ATF"
+      ],
+      "tags": [
+        "Fed-batch",
+        "Perfusion",
+        "ATF"
+      ]
+    },
+    {
+      "id": "ex-907",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "세포은행에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. WCB는 MCB 바이알 하나를 키워 만든다",
+        "ㄴ. EOPCB는 생산에 쓰는 세대 한계를 넘긴 세포로 유전적 안정성을 확인한다",
+        "ㄷ. WCB가 떨어지면 WCB를 키워 새 MCB를 만든다",
+        "ㄹ. RCB는 GMP 아래에서 만들어 곧바로 상업 생산에 쓴다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄴ",
+        "ㄴ, ㄷ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄴ이다.**\nㄱ (O) 세포은행은 RCB → MCB → WCB 순서로 만든다\nㄴ (O) end of production cell bank로 장기 배양 뒤에도 특성이 유지되는지 본다\nㄷ (X) 방향이 거꾸로다 — 새 WCB는 MCB에서 다시 만든다\nㄹ (X) RCB(research cell bank)는 개발 단계 은행이고, 생산은 GMP로 만든 MCB·WCB에서 한다",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(RCB(research cell bank)는 개발 단계 은행이고, 생산은 GMP로 만든 MCB·WCB에서 한다).",
+        "틀리다 — ㄷ은 틀린 진술이다(방향이 거꾸로다 — 새 WCB는 MCB에서 다시 만든다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(방향이 거꾸로다 — 새 WCB는 MCB에서 다시 만든다), ㄱ도 옳은 진술이다(세포은행은 RCB → MCB → WCB 순서로 만든다)."
+      ],
+      "source": "해설서 C1 · WK02 PDF (Cell bank system) · 오픈북 자료집 §2",
+      "concepts": [
+        "MCB",
+        "WCB",
+        "EOPCB",
+        "RCB"
+      ],
+      "tags": [
+        "MCB",
+        "WCB",
+        "EOPCB",
+        "RCB"
+      ]
+    },
+    {
+      "id": "ex-908",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "세포 성장과 seed train에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. lag phase는 새 환경에 적응하는 시기로 세포 수가 거의 늘지 않는다",
+        "ㄴ. subculture는 세포가 log phase에 있을 때 한다",
+        "ㄷ. stationary phase는 세포 수가 가장 빠르게 늘어나는 시기이다",
+        "ㄹ. seed train은 부피를 단계적으로 키워 N-1 배양액을 생산 배양기에 접종한다"
+      ],
+      "choices": [
+        "ㄴ, ㄷ, ㄹ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ",
+        "ㄱ, ㄴ, ㄹ"
+      ],
+      "answer": 4,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 접종 직후 적응기라 성장이 느리다\nㄴ (O) 가장 활발히 자랄 때 옮겨야 다음 단계에서 lag가 짧다\nㄷ (X) 가장 빨리 느는 것은 log phase이고, stationary phase는 증가와 사멸이 비슷해 수가 일정하다\nㄹ (O) shake flask → rocking → N-1 STR → production 순서로 키운다",
+      "choiceNotes": [
+        "틀리다 — ㄷ은 틀린 진술이다(가장 빨리 느는 것은 log phase이고, stationary phase는 증가와 사멸이 비슷해 수가 일정하다), ㄱ도 옳은 진술이다(접종 직후 적응기라 성장이 느리다).",
+        "틀리다 — ㄷ은 틀린 진술이다(가장 빨리 느는 것은 log phase이고, stationary phase는 증가와 사멸이 비슷해 수가 일정하다), ㄴ도 옳은 진술이다(가장 활발히 자랄 때 옮겨야 다음 단계에서 lag가 짧다).",
+        "틀리다 — ㄹ도 옳은 진술이다(shake flask → rocking → N-1 STR → production 순서로 키운다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다."
+      ],
+      "source": "해설서 C5 · WK02 PDF (Cell growth curve, Seed train) · 오픈북 자료집 §2",
+      "concepts": [
+        "Lag phase",
+        "Log phase",
+        "Seed train"
+      ],
+      "tags": [
+        "Lag phase",
+        "Log phase",
+        "Seed train"
+      ]
+    },
+    {
+      "id": "ex-909",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "교반과 scale-up에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Tip speed는 임펠러 지름과 회전 속도에 각각 비례한다",
+        "ㄴ. 같은 P/V로 큰 배양기로 scale-up하면 tip speed는 커진다",
+        "ㄷ. 같은 tip speed로 큰 배양기로 scale-up하면 P/V도 커진다",
+        "ㄹ. CHO 세포는 cell wall이 없어 미생물보다 shear force에 약하다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄷ, ㄹ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 임펠러 끝의 선속도라 지름 × 회전 속도에 비례한다\nㄴ (O) P/V가 같으면 회전 속도는 지름의 2/3 제곱에 반비례해 줄지만 tip speed는 지름의 1/3 제곱에 비례해 커진다\nㄷ (X) tip speed를 고정하면 P/V는 지름에 반비례해 작아진다 — 혼합이 약해진다\nㄹ (O) 동물세포는 세포벽이 없어 교반·기포 터짐의 shear에 약하다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄱ도 옳은 진술이다(임펠러 끝의 선속도라 지름 × 회전 속도에 비례한다).",
+        "틀리다 — ㄷ은 틀린 진술이다(tip speed를 고정하면 P/V는 지름에 반비례해 작아진다 — 혼합이 약해진다), ㄹ도 옳은 진술이다(동물세포는 세포벽이 없어 교반·기포 터짐의 shear에 약하다).",
+        "틀리다 — ㄷ은 틀린 진술이다(tip speed를 고정하면 P/V는 지름에 반비례해 작아진다 — 혼합이 약해진다), ㄴ도 옳은 진술이다(P/V가 같으면 회전 속도는 지름의 2/3 제곱에 반비례해 줄지만 tip speed는 지름의 1/3 제곱에 비례해 커진다)."
+      ],
+      "source": "해설서 C6 · WK02 PDF (Scale-up criteria — P/V, tip speed) · 오픈북 자료집 부록 1",
+      "concepts": [
+        "Tip speed",
+        "P/V",
+        "Shear force"
+      ],
+      "tags": [
+        "Tip speed",
+        "P/V",
+        "Shear force"
+      ]
+    },
+    {
+      "id": "ex-910",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "이온교환 크로마토그래피에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. CEX에서는 pH를 pI보다 낮게 두어 단백질이 양전하를 띠게 한다",
+        "ㄴ. AEX에서는 pH를 pI보다 낮게 두어야 단백질이 결합한다",
+        "ㄷ. IEX 용출은 salt 농도를 높이거나 pH를 바꿔서 한다",
+        "ㄹ. Strong exchanger는 넓은 pH 범위에서 전하를 유지한다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄴ, ㄷ, ㄹ",
+        "ㄷ, ㄹ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄷ·ㄹ이다.**\nㄱ (O) pH < pI이면 단백질이 (+)를 띠어 음이온 리간드(CEX)에 붙는다\nㄴ (X) AEX는 단백질이 (−)를 띠어야 하므로 pH > pI로 둔다\nㄷ (O) 염 이온이 결합 자리를 경쟁하거나 전하를 바꿔 떼어 낸다\nㄹ (O) strong(Q·S)은 pH에 따라 전하가 거의 변하지 않고, weak(DEAE·CM)는 pH에 따라 변한다",
+      "choiceNotes": [
+        "틀리다 — ㄴ은 틀린 진술이다(AEX는 단백질이 (−)를 띠어야 하므로 pH > pI로 둔다), ㄷ도 옳은 진술이다(염 이온이 결합 자리를 경쟁하거나 전하를 바꿔 떼어 낸다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄷ·ㄹ뿐이다.",
+        "틀리다 — ㄴ은 틀린 진술이다(AEX는 단백질이 (−)를 띠어야 하므로 pH > pI로 둔다), ㄱ도 옳은 진술이다(pH < pI이면 단백질이 (+)를 띠어 음이온 리간드(CEX)에 붙는다).",
+        "틀리다 — ㄱ도 옳은 진술이다(pH < pI이면 단백질이 (+)를 띠어 음이온 리간드(CEX)에 붙는다)."
+      ],
+      "source": "해설서 A3 · WK03 교재 (IEX 원리) · 오픈북 자료집 §3",
+      "concepts": [
+        "CEX vs AEX",
+        "pI",
+        "Strong vs Weak IEX"
+      ],
+      "tags": [
+        "CEX vs AEX",
+        "pI",
+        "Strong vs Weak IEX"
+      ]
+    },
+    {
+      "id": "ex-911",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "크로마토그래피 운전 방식에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Bind-elute는 목적 단백질을 결합시킨 뒤 용출해 회수한다",
+        "ㄴ. Flow-through는 불순물을 결합시키고 목적 단백질은 통과시킨다",
+        "ㄷ. HIC는 high salt에서 결합시키고 salt를 낮추며 용출한다",
+        "ㄹ. SEC에서는 큰 분자가 pore에 더 오래 머물러 늦게 나온다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄷ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) Protein A·CEX가 대표적인 bind-elute이다\nㄴ (O) AEX polishing이 대표적인 flow-through이다\nㄷ (O) 염이 소수성 상호작용을 강하게 하므로 염을 내려 용출한다\nㄹ (X) 큰 분자는 pore에 못 들어가 먼저 나오고, 작은 분자가 pore를 돌아 늦게 나온다",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(큰 분자는 pore에 못 들어가 먼저 나오고, 작은 분자가 pore를 돌아 늦게 나온다), ㄴ도 옳은 진술이다(AEX polishing이 대표적인 flow-through이다).",
+        "틀리다 — ㄴ도 옳은 진술이다(AEX polishing이 대표적인 flow-through이다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(큰 분자는 pore에 못 들어가 먼저 나오고, 작은 분자가 pore를 돌아 늦게 나온다), ㄱ도 옳은 진술이다(Protein A·CEX가 대표적인 bind-elute이다)."
+      ],
+      "source": "해설서 A0 · WK03 교재 (크로마토그래피 기본) · 오픈북 자료집 §3",
+      "concepts": [
+        "Bind-elute vs Flow-through",
+        "HIC",
+        "SEC"
+      ],
+      "tags": [
+        "Bind-elute vs Flow-through",
+        "HIC",
+        "SEC"
+      ]
+    },
+    {
+      "id": "ex-912",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "Resolution에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Resolution은 selectivity·efficiency·retention으로 정해진다",
+        "ㄴ. 비드가 작을수록 efficiency는 높아지지만 back pressure도 커진다",
+        "ㄷ. Capture 단계는 작은 비드로 해상도를 최대로 높인다",
+        "ㄹ. Gradient를 완만하게 할수록 resolution은 낮아진다"
+      ],
+      "choices": [
+        "ㄱ",
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄷ",
+        "ㄱ, ㄴ"
+      ],
+      "answer": 4,
+      "explanation": "**옳은 것은 ㄱ·ㄴ이다.**\nㄱ (O) 세 요인이 피크 사이 거리와 폭을 정한다\nㄴ (O) 작은 비드는 띠 퍼짐이 줄지만 압력이 오른다\nㄷ (X) capture는 큰 비드로 유속·용량을 우선하고, 작은 비드로 해상도를 높이는 것은 polishing이다\nㄹ (X) 완만한 gradient는 피크를 더 벌려 resolution을 높인다(대신 시간·부피가 늘어남)",
+      "choiceNotes": [
+        "틀리다 — ㄴ도 옳은 진술이다(작은 비드는 띠 퍼짐이 줄지만 압력이 오른다).",
+        "틀리다 — ㄹ은 틀린 진술이다(완만한 gradient는 피크를 더 벌려 resolution을 높인다(대신 시간·부피가 늘어남)).",
+        "틀리다 — ㄷ은 틀린 진술이다(capture는 큰 비드로 유속·용량을 우선하고, 작은 비드로 해상도를 높이는 것은 polishing이다), ㄱ도 옳은 진술이다(세 요인이 피크 사이 거리와 폭을 정한다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ뿐이다."
+      ],
+      "source": "해설서 A1 · WK03 교재 (Resolution·Selectivity·Efficiency) · 오픈북 자료집 §3",
+      "concepts": [
+        "Resolution",
+        "Selectivity",
+        "Efficiency",
+        "Capture vs Polishing"
+      ],
+      "tags": [
+        "Resolution",
+        "Selectivity",
+        "Efficiency",
+        "Capture vs Polishing"
+      ]
+    },
+    {
+      "id": "ex-913",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "SEC에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Kav가 0인 분자는 pore에 들어가지 못해 void volume에서 나온다",
+        "ㄴ. Kav가 1에 가까운 분자는 pore 전체를 드나들어 가장 늦게 나온다",
+        "ㄷ. Fine fractionation도 desalting처럼 CV의 약 30 %까지 시료를 걸어도 된다",
+        "ㄹ. SEC는 버퍼를 바꾸는 desalting에도 쓸 수 있다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 완전히 배제된 분자는 bead 사이로만 지나 가장 먼저 나온다\nㄴ (O) 작은 분자는 pore 부피 전체를 돌아 늦게 나온다\nㄷ (X) 고분리 fractionation은 CV의 수 % 이하로만 걸고, 30 % 정도까지 거는 것은 desalting이다\nㄹ (O) 단백질은 먼저, 작은 염은 늦게 나와 버퍼 교환이 된다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(고분리 fractionation은 CV의 수 % 이하로만 걸고, 30 % 정도까지 거는 것은 desalting이다), ㄴ도 옳은 진술이다(작은 분자는 pore 부피 전체를 돌아 늦게 나온다).",
+        "틀리다 — ㄷ은 틀린 진술이다(고분리 fractionation은 CV의 수 % 이하로만 걸고, 30 % 정도까지 거는 것은 desalting이다), ㄹ도 옳은 진술이다(단백질은 먼저, 작은 염은 늦게 나와 버퍼 교환이 된다).",
+        "틀리다 — ㄷ은 틀린 진술이다(고분리 fractionation은 CV의 수 % 이하로만 걸고, 30 % 정도까지 거는 것은 desalting이다), ㄱ도 옳은 진술이다(완전히 배제된 분자는 bead 사이로만 지나 가장 먼저 나온다)."
+      ],
+      "source": "해설서 A4 · WK03 교재 (SEC, Kav) · 오픈북 자료집 §3",
+      "concepts": [
+        "Kav",
+        "SEC",
+        "Desalting"
+      ],
+      "tags": [
+        "Kav",
+        "SEC",
+        "Desalting"
+      ]
+    },
+    {
+      "id": "ex-914",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "Protein A 운전에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. DBC는 유속(residence time)에 따라 달라진다",
+        "ㄴ. residence time을 길게 하면 DBC는 보통 높아진다",
+        "ㄷ. Protein A 용출은 pH 3~3.5 정도의 low pH 버퍼로 한다",
+        "ㄹ. cycles per batch 계산에서 소수점 아래는 버림한다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄷ, ㄹ",
+        "ㄱ, ㄴ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) 흐르는 상태의 결합 용량이라 운전 유속에 따라 값이 바뀐다\nㄴ (O) 단백질이 리간드에 닿을 시간이 늘어 더 많이 붙는다(대신 공정 시간이 늘어남)\nㄷ (O) 산성 조건에서 Protein A와 Fc의 결합이 약해져 용출된다\nㄹ (X) 남은 항체도 처리해야 하므로 올림한다(4.2 → 5 cycle)",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(남은 항체도 처리해야 하므로 올림한다(4.2 → 5 cycle)), ㄴ도 옳은 진술이다(단백질이 리간드에 닿을 시간이 늘어 더 많이 붙는다(대신 공정 시간이 늘어남)).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(남은 항체도 처리해야 하므로 올림한다(4.2 → 5 cycle)), ㄱ도 옳은 진술이다(흐르는 상태의 결합 용량이라 운전 유속에 따라 값이 바뀐다).",
+        "틀리다 — ㄷ도 옳은 진술이다(산성 조건에서 Protein A와 Fc의 결합이 약해져 용출된다)."
+      ],
+      "source": "해설서 A8 · WK06 PDF p.19–24 (Case 1) · 강의 슬라이드 (Impact of Protein A column volume)",
+      "concepts": [
+        "DBC",
+        "Residence time",
+        "Cycles per batch"
+      ],
+      "tags": [
+        "DBC",
+        "Residence time",
+        "Cycles per batch"
+      ]
+    },
+    {
+      "id": "ex-915",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "컬럼 scale-up에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. bed height와 linear velocity를 유지하고 컬럼 지름을 키운다",
+        "ㄴ. bed height를 바꾸면 residence time이 같도록 linear velocity를 다시 정한다",
+        "ㄷ. lab 컬럼과 같은 부피 유속(L/h)으로 생산 컬럼을 운전한다",
+        "ㄹ. 지름을 키운 만큼 linear velocity도 같은 비율로 높인다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄷ",
+        "ㄱ, ㄴ",
+        "ㄱ, ㄹ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄴ이다.**\nㄱ (O) residence time과 분리 성능을 그대로 두는 기본 원칙이다\nㄴ (O) residence time = bed height ÷ linear velocity를 맞추면 결합 성능이 유지된다\nㄷ (X) 부피 유속은 단면적에 비례해 커져야 한다 — 같게 두면 linear velocity가 크게 떨어진다\nㄹ (X) linear velocity는 그대로 두고 부피 유속만 단면적만큼 커진다",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(linear velocity는 그대로 두고 부피 유속만 단면적만큼 커진다).",
+        "틀리다 — ㄷ은 틀린 진술이다(부피 유속은 단면적에 비례해 커져야 한다 — 같게 두면 linear velocity가 크게 떨어진다), ㄱ도 옳은 진술이다(residence time과 분리 성능을 그대로 두는 기본 원칙이다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(linear velocity는 그대로 두고 부피 유속만 단면적만큼 커진다), ㄴ도 옳은 진술이다(residence time = bed height ÷ linear velocity를 맞추면 결합 성능이 유지된다)."
+      ],
+      "source": "해설서 A9 · WK06 PDF p.19–24 (컬럼 scale-up) · 오픈북 자료집 §3",
+      "concepts": [
+        "Scale-up",
+        "Linear velocity",
+        "Residence time"
+      ],
+      "tags": [
+        "Scale-up",
+        "Linear velocity",
+        "Residence time"
+      ]
+    },
+    {
+      "id": "ex-916",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "Virus clearance에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. low pH viral inactivation은 enveloped virus에 잘 듣는다",
+        "ㄴ. non-enveloped virus는 low pH에 강해 virus filter 같은 크기 기반 제거에 기댄다",
+        "ㄷ. AEX flow-through는 음전하인 HCD·endotoxin·virus를 결합시켜 제거한다",
+        "ㄹ. virus filtration은 부피가 클 때 처리하도록 Protein A 앞에 둔다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄷ",
+        "ㄱ, ㄴ, ㄷ"
+      ],
+      "answer": 4,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) 산이 lipid envelope를 파괴해 불활화한다\nㄴ (O) lipid envelope가 없어 low pH가 잘 안 듣는다\nㄷ (O) mAb는 통과하고 음전하 불순물이 붙는다\nㄹ (X) virus filter는 비싸고 막히기 쉬워 정제가 끝나 갈 무렵(AEX 뒤)에 둔다",
+      "choiceNotes": [
+        "틀리다 — ㄹ은 틀린 진술이다(virus filter는 비싸고 막히기 쉬워 정제가 끝나 갈 무렵(AEX 뒤)에 둔다), ㄴ도 옳은 진술이다(lipid envelope가 없어 low pH가 잘 안 듣는다).",
+        "틀리다 — ㄹ은 틀린 진술이다(virus filter는 비싸고 막히기 쉬워 정제가 끝나 갈 무렵(AEX 뒤)에 둔다), ㄷ도 옳은 진술이다(mAb는 통과하고 음전하 불순물이 붙는다).",
+        "틀리다 — ㄴ도 옳은 진술이다(lipid envelope가 없어 low pH가 잘 안 듣는다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다."
+      ],
+      "source": "해설서 E9 · WK04 PDF (Viral clearance) · WK06 PDF (mAb platform) · 오픈북 자료집 §4",
+      "concepts": [
+        "virus clearance",
+        "Low pH",
+        "AEX"
+      ],
+      "tags": [
+        "virus clearance",
+        "Low pH",
+        "AEX"
+      ]
+    },
+    {
+      "id": "ex-917",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "UF/DF에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. DF는 농도를 바꾸지 않고 버퍼(용매)를 바꾸는 과정이다",
+        "ㄴ. 먼저 농축(UF)한 뒤 DF하면 필요한 버퍼 부피가 줄어든다",
+        "ㄷ. DF를 길게 할수록 단백질이 농축된다",
+        "ㄹ. diavolume이 늘수록 남는 처음 염은 지수적으로 줄어든다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄴ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄷ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 넣는 버퍼와 빠지는 여과액 부피를 같게 해 부피·농도가 일정하다\nㄴ (O) diavolume은 그때 부피 기준이라 부피가 작을 때 DF하면 버퍼가 적게 든다\nㄷ (X) 농축은 UF가 한다 — DF는 부피를 일정하게 둔다\nㄹ (O) 잔류 비율 ≈ e^(−N)이라 7 diavolume이면 약 0.09 %가 남는다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄹ도 옳은 진술이다(잔류 비율 ≈ e^(−N)이라 7 diavolume이면 약 0.09 %가 남는다).",
+        "틀리다 — ㄷ은 틀린 진술이다(농축은 UF가 한다 — DF는 부피를 일정하게 둔다), ㄴ도 옳은 진술이다(diavolume은 그때 부피 기준이라 부피가 작을 때 DF하면 버퍼가 적게 든다).",
+        "틀리다 — ㄷ은 틀린 진술이다(농축은 UF가 한다 — DF는 부피를 일정하게 둔다), ㄹ도 옳은 진술이다(잔류 비율 ≈ e^(−N)이라 7 diavolume이면 약 0.09 %가 남는다)."
+      ],
+      "source": "해설서 E1 · WK04 PDF (UF/DF) · 오픈북 자료집 Final 보강 (DF = 버퍼 교환)",
+      "concepts": [
+        "UF/DF",
+        "Diavolume",
+        "diafiltration"
+      ],
+      "tags": [
+        "UF/DF",
+        "Diavolume",
+        "diafiltration"
+      ]
+    },
+    {
+      "id": "ex-918",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "APS에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. APS는 제품 대신 배지(SCDM)를 충전해 무균조작 공정을 검증한다",
+        "ㄴ. APS에는 실제 생산에서 일어날 수 있는 worst case intervention을 넣는다",
+        "ㄷ. APS는 최종 멸균(terminal sterilization) 공정의 멸균 효과를 검증한다",
+        "ㄹ. APS의 목표는 오염 단위 0이다"
+      ],
+      "choices": [
+        "ㄴ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄹ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 배지가 미생물을 키우므로 오염이 있으면 혼탁으로 드러난다\nㄴ (O) 최악 조건에서도 무균이 유지됨을 보인다\nㄷ (X) APS는 무균조작(aseptic processing)을 검증한다 — 최종 멸균은 BI·온도 분포로 검증한다\nㄹ (O) 오염 단위가 하나라도 나오면 조사하고 원인을 찾는다",
+      "choiceNotes": [
+        "틀리다 — ㄷ은 틀린 진술이다(APS는 무균조작(aseptic processing)을 검증한다 — 최종 멸균은 BI·온도 분포로 검증한다), ㄱ도 옳은 진술이다(배지가 미생물을 키우므로 오염이 있으면 혼탁으로 드러난다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(APS는 무균조작(aseptic processing)을 검증한다 — 최종 멸균은 BI·온도 분포로 검증한다), ㄹ도 옳은 진술이다(오염 단위가 하나라도 나오면 조사하고 원인을 찾는다).",
+        "틀리다 — ㄱ도 옳은 진술이다(배지가 미생물을 키우므로 오염이 있으면 혼탁으로 드러난다)."
+      ],
+      "source": "해설서 B4 · RABS·APS PDF (Aseptic Process Simulation) · 오픈북 자료집 §5",
+      "concepts": [
+        "APS",
+        "SCDM",
+        "Worst case"
+      ],
+      "tags": [
+        "APS",
+        "SCDM",
+        "Worst case"
+      ]
+    },
+    {
+      "id": "ex-919",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "VHP 제염 검증에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. VHP 제염 검증의 BI에는 B. diminuta를 쓴다",
+        "ㄴ. BI 결과는 최소 7일 배양한 뒤 판정한다",
+        "ㄷ. CI의 색이 바뀌면 그것만으로 cycle을 승인한다",
+        "ㄹ. Aeration은 남은 H₂O₂ 농도를 안전 수준 아래로 낮추는 단계다"
+      ],
+      "choices": [
+        "ㄴ, ㄷ, ㄹ",
+        "ㄹ",
+        "ㄴ, ㄹ",
+        "ㄱ, ㄴ, ㄹ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄴ·ㄹ이다.**\nㄱ (X) VHP BI는 Geobacillus stearothermophilus spore를 쓴다 — B. diminuta는 제균 필터 BCT의 도전균이다\nㄴ (O) 5~6일째 자라는 경우도 있어 3일 결과로는 판정하지 않는다\nㄷ (X) CI는 즉시 보는 보조 지표일 뿐 최종 판단은 BI로 한다\nㄹ (O) 제염 뒤 H₂O₂가 제품·작업자에 영향이 없도록 낮춘다",
+      "choiceNotes": [
+        "틀리다 — ㄷ은 틀린 진술이다(CI는 즉시 보는 보조 지표일 뿐 최종 판단은 BI로 한다).",
+        "틀리다 — ㄴ도 옳은 진술이다(5~6일째 자라는 경우도 있어 3일 결과로는 판정하지 않는다).",
+        "옳다 — 옳은 진술은 ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄱ은 틀린 진술이다(VHP BI는 Geobacillus stearothermophilus spore를 쓴다 — B. diminuta는 제균 필터 BCT의 도전균이다)."
+      ],
+      "source": "해설서 B6 · Isolator PDF p.12, p.14 · Isolator 녹음 32:14–36:15 · 오픈북 자료집 Final 보강 B5-3",
+      "concepts": [
+        "VHP",
+        "BI",
+        "Aeration"
+      ],
+      "tags": [
+        "VHP",
+        "BI",
+        "Aeration"
+      ]
+    },
+    {
+      "id": "ex-920",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "RABS와 Isolator에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. 무균 공정 isolator는 내부 압력을 외부보다 낮게 유지한다",
+        "ㄴ. Grade C 주변에 둔 isolator라도 내부는 Grade A이다",
+        "ㄷ. Open RABS는 주변 배경이 Grade D여도 된다",
+        "ㄹ. RABS는 glove port로 개입해 작업자와 제품 사이를 물리적으로 나눈다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄷ",
+        "ㄹ",
+        "ㄴ, ㄹ"
+      ],
+      "answer": 4,
+      "explanation": "**옳은 것은 ㄴ·ㄹ이다.**\nㄱ (X) 무균 제품을 지키는 isolator는 양압으로 운전한다(음압은 독성·유해물 취급용)\nㄴ (O) isolator는 밀폐 배리어라 주변이 Grade C·D여도 내부는 Grade A로 유지한다\nㄷ (X) RABS는 완전히 밀폐되지 않아 배경을 Grade B로 둔다\nㄹ (O) 작업자는 glove로만 Grade A 안을 다룬다",
+      "choiceNotes": [
+        "틀리다 — ㄱ은 틀린 진술이다(무균 제품을 지키는 isolator는 양압으로 운전한다(음압은 독성·유해물 취급용)).",
+        "틀리다 — ㄷ은 틀린 진술이다(RABS는 완전히 밀폐되지 않아 배경을 Grade B로 둔다), ㄹ도 옳은 진술이다(작업자는 glove로만 Grade A 안을 다룬다).",
+        "틀리다 — ㄴ도 옳은 진술이다(isolator는 밀폐 배리어라 주변이 Grade C·D여도 내부는 Grade A로 유지한다).",
+        "옳다 — 옳은 진술은 ㄴ·ㄹ뿐이다."
+      ],
+      "source": "해설서 B5 · RABS·APS PDF · Isolator PDF · 오픈북 자료집 §5",
+      "concepts": [
+        "RABS",
+        "Isolator",
+        "Cleanroom grade"
+      ],
+      "tags": [
+        "RABS",
+        "Isolator",
+        "Cleanroom grade"
+      ]
+    },
+    {
+      "id": "ex-922",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "제약용수에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. WFI는 주사제 제조와 최종 세척(final rinse)에 쓴다",
+        "ㄴ. PW는 비주사제 제조나 초기 세척에 쓴다",
+        "ㄷ. WFI는 PW보다 endotoxin 기준이 느슨하다",
+        "ㄹ. Pure steam은 배관·장비의 SIP에 쓴다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄷ, ㄹ",
+        "ㄱ, ㄹ",
+        "ㄱ, ㄴ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) endotoxin 기준이 있는 고순도 물이다\nㄴ (O) WFI보다 등급이 낮은 정제수다\nㄷ (X) WFI는 endotoxin 기준(0.25 EU/mL 미만)이 있어 PW보다 엄격하다\nㄹ (O) 응축수가 WFI 수준인 깨끗한 증기로 멸균한다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(WFI는 endotoxin 기준(0.25 EU/mL 미만)이 있어 PW보다 엄격하다), ㄱ도 옳은 진술이다(endotoxin 기준이 있는 고순도 물이다).",
+        "틀리다 — ㄴ도 옳은 진술이다(WFI보다 등급이 낮은 정제수다).",
+        "틀리다 — ㄹ도 옳은 진술이다(응축수가 WFI 수준인 깨끗한 증기로 멸균한다)."
+      ],
+      "source": "해설서 E11 · WK07 PDF (Clean utility) · 오픈북 자료집 §7",
+      "concepts": [
+        "WFI",
+        "PW",
+        "Pure steam"
+      ],
+      "tags": [
+        "WFI",
+        "PW",
+        "Pure steam"
+      ]
+    },
+    {
+      "id": "ex-923",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "청정 등급에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Grade A는 충전 지점처럼 제품이 노출되는 곳으로 UDAF를 쓴다",
+        "ㄴ. Class 100은 ISO 5에 해당한다",
+        "ㄷ. Grade B는 Grade A 무균조작 구역의 배경이다",
+        "ㄹ. 네 등급 가운데 Grade D가 가장 엄격하다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄴ, ㄹ",
+        "ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) 단방향 기류로 노출 부위를 보호한다\nㄴ (O) 0.5 µm 이상 입자 100개/ft³ ≈ 3,520개/m³가 ISO 5이다\nㄷ (O) RABS·open 충전 구역의 주변 배경이 Grade B이다\nㄹ (X) Grade A가 가장 엄격하고 D가 가장 느슨하다",
+      "choiceNotes": [
+        "틀리다 — ㄴ도 옳은 진술이다(0.5 µm 이상 입자 100개/ft³ ≈ 3,520개/m³가 ISO 5이다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(Grade A가 가장 엄격하고 D가 가장 느슨하다), ㄷ도 옳은 진술이다(RABS·open 충전 구역의 주변 배경이 Grade B이다).",
+        "틀리다 — ㄹ은 틀린 진술이다(Grade A가 가장 엄격하고 D가 가장 느슨하다), ㄱ도 옳은 진술이다(단방향 기류로 노출 부위를 보호한다)."
+      ],
+      "source": "해설서 E13 · WK07 PDF (Cleanroom class) · 오픈북 자료집 §7",
+      "concepts": [
+        "Grade A~D",
+        "Class 100",
+        "ISO 14644-1"
+      ],
+      "tags": [
+        "Grade A~D",
+        "Class 100",
+        "ISO 14644-1"
+      ]
+    },
+    {
+      "id": "ex-924",
+      "type": "연결",
+      "part": 2,
+      "form": "match",
+      "question": "다음 분리 조건과 크로마토그래피 방식을 옳게 짝지은 것은?",
+      "box": [
+        "(가) high salt에서 결합시키고 salt를 낮추며 용출한다",
+        "(나) pH를 pI보다 낮게 두어 결합시키고 salt를 높여 용출한다",
+        "(다) 결합 없이 분자 크기 차이로 분리한다",
+        "(라) 전하와 소수성을 함께 쓰는 ligand라 high salt에서도 결합한다"
+      ],
+      "choices": [
+        "(가) HIC / (나) AEX / (다) SEC / (라) MMC",
+        "(가) HIC / (나) CEX / (다) SEC / (라) MMC",
+        "(가) MMC / (나) CEX / (다) SEC / (라) HIC",
+        "(가) HIC / (나) CEX / (다) MMC / (라) SEC"
+      ],
+      "answer": 2,
+      "explanation": "**HIC = high salt 결합·low salt 용출, CEX = pH < pI 결합·salt 용출, SEC = 크기, MMC = 전하 + 소수성(high salt tolerance).** MMC는 conductivity가 높은 시료도 희석 없이 걸 수 있다는 점이 장점이다.",
+      "choiceNotes": [
+        "틀리다 — pH < pI에서 단백질은 양전하라 CEX에 붙는다. AEX는 pH > pI에서 결합한다.",
+        "옳다 — HIC는 염이 소수성 결합을 키우고, CEX는 양전하 단백질을 잡고, SEC는 크기, MMC는 전하 + 소수성(high salt tolerance)이다.",
+        "틀리다 — high salt 결합·low salt 용출은 HIC의 원리이고, 두 상호작용을 함께 쓰는 것이 MMC다.",
+        "틀리다 — 크기로만 나누는 것은 SEC이고, MMC는 ligand에 결합시키는 방식이다."
+      ],
+      "source": "해설서 A5 · WK03 교재 (HIC·IEX·SEC·MMC) · 오픈북 자료집 §3",
+      "concepts": [
+        "HIC",
+        "CEX vs AEX",
+        "SEC",
+        "MMC"
+      ],
+      "tags": [
+        "HIC",
+        "CEX vs AEX",
+        "SEC",
+        "MMC"
+      ]
+    },
+    {
+      "id": "ex-927",
+      "type": "연결",
+      "part": 2,
+      "form": "match",
+      "question": "다음 제조 방식과 무균 의약품 제조 방법을 옳게 짝지은 것은?",
+      "box": [
+        "(가) 용기에 충전·밀봉한 뒤 용기째 고압증기로 멸균한다",
+        "(나) 따로 멸균한 용기·마개·제품을 Grade A에서 조립·충전한다",
+        "(다) 열에 약한 단백질 용액을 제균 필터로 걸러 bioburden을 없앤다"
+      ],
+      "choices": [
+        "(가) Aseptic process / (나) Terminal sterilization / (다) Sterile filtration",
+        "(가) Terminal sterilization / (나) Sterile filtration / (다) Aseptic process",
+        "(가) Terminal sterilization / (나) Aseptic process / (다) Sterile filtration",
+        "(가) Sterile filtration / (나) Aseptic process / (다) Terminal sterilization"
+      ],
+      "answer": 3,
+      "explanation": "**Terminal sterilization(충전 뒤 용기째 멸균) · Aseptic process(멸균 부품을 Grade A에서 조립·충전) · Sterile filtration(열에 약한 액을 제균 필터로).** 단백질 의약품은 열에 약해 최종 멸균을 못 하므로 sterile filtration + aseptic process로 만든다.",
+      "choiceNotes": [
+        "틀리다 — 충전 뒤 용기째 멸균하는 것이 최종 멸균이고, 멸균한 부품을 무균 조립하는 것이 aseptic process다.",
+        "틀리다 — 멸균한 부품을 Grade A에서 조립하는 것은 aseptic process이고, 제균 필터로 거르는 것이 sterile filtration이다.",
+        "옳다 — 최종 멸균(SAL 10⁻⁶ 보증이 가장 쉬움), 무균조작, 제균 여과의 짝이다.",
+        "틀리다 — 용기째 고압증기 멸균은 terminal sterilization이고, 제균 필터 여과는 sterile filtration이다."
+      ],
+      "source": "해설서 B3 · 완제 PDF (무균 의약품 제조 방법) · 오픈북 자료집 §5",
+      "concepts": [
+        "Terminal sterilization",
+        "Aseptic process",
+        "Sterile filtration"
+      ],
+      "tags": [
+        "Terminal sterilization",
+        "Aseptic process",
+        "Sterile filtration"
+      ]
+    },
+    {
+      "id": "ex-928",
+      "type": "연결",
+      "part": 2,
+      "form": "match",
+      "question": "다음 harvest·clarification 단계와 역할을 옳게 짝지은 것은?",
+      "box": [
+        "(가) 원심분리",
+        "(나) Depth filter",
+        "(다) 0.2 µm membrane filter"
+      ],
+      "choices": [
+        "(가) 남은 미세 입자·colloid 제거 / (나) 세포 덩어리 1차 제거 / (다) bioburden 감소",
+        "(가) bioburden 감소 / (나) 남은 미세 입자·colloid 제거 / (다) 세포 덩어리 1차 제거",
+        "(가) 세포 덩어리 1차 제거 / (나) bioburden 감소 / (다) 남은 미세 입자·colloid 제거",
+        "(가) 세포 덩어리 1차 제거 / (나) 남은 미세 입자·colloid 제거 / (다) bioburden 감소"
+      ],
+      "answer": 4,
+      "explanation": "**원심분리로 세포를 먼저 빼고, depth filter로 남은 세포 잔해·colloid를 잡고, 0.2 µm membrane filter로 bioburden을 줄인다.** 소규모·single-use에서는 원심분리 없이 2단 depth filtration으로 하기도 한다(슬라이드 process flow의 2-stage depth filtration).",
+      "choiceNotes": [
+        "틀리다 — 큰 세포를 대량으로 먼저 빼는 것은 원심분리이고, depth filter가 그 뒤 남은 미세 입자를 잡는다.",
+        "틀리다 — 원심분리는 세포를 1차로 빼는 단계이고, bioburden 감소는 마지막 membrane filter의 역할이다.",
+        "틀리다 — depth filter는 깊이 방향으로 미세 입자를 잡고, bioburden 감소는 0.2 µm membrane filter가 한다.",
+        "옳다 — 원심분리(세포 제거) → depth filter(잔해·colloid) → membrane filter(bioburden 감소) 순서로 clarification한다."
+      ],
+      "source": "해설서 C4 · WK02 PDF (Cell harvest, Clarification) · 강의 슬라이드 (process flow) · 오픈북 자료집 §2",
+      "concepts": [
+        "Clarification",
+        "원심분리",
+        "Depth filter",
+        "Membrane filter"
+      ],
+      "tags": [
+        "Clarification",
+        "원심분리",
+        "Depth filter",
+        "Membrane filter"
+      ]
+    },
+    {
+      "id": "ex-929",
+      "type": "연결",
+      "part": 2,
+      "form": "match",
+      "question": "다음 조건에서 단백질이 컬럼에 어떻게 되는지 옳게 짝지은 것은?",
+      "box": [
+        "(가) pI 8.5인 mAb를 pH 5.5 버퍼로 CEX에 건다",
+        "(나) pI 8.5인 mAb를 pH 7.5 버퍼로 AEX에 건다",
+        "(다) pI 5.0인 HCP를 pH 7.5 버퍼로 AEX에 건다"
+      ],
+      "choices": [
+        "(가) 결합 / (나) 통과 / (다) 결합",
+        "(가) 통과 / (나) 통과 / (다) 결합",
+        "(가) 결합 / (나) 결합 / (다) 통과",
+        "(가) 결합 / (나) 통과 / (다) 통과"
+      ],
+      "answer": 1,
+      "explanation": "**pH < pI → 양전하 → CEX 결합, pH > pI → 음전하 → AEX 결합.** mAb는 pI가 높아(약 8~9) CEX bind-elute, AEX flow-through에서는 mAb가 통과하고 pI가 낮은 HCP·DNA가 붙는다.",
+      "choiceNotes": [
+        "옳다 — pH < pI인 mAb는 양전하라 CEX에 붙고, AEX에서는 같은 이유로 통과한다. pH > pI인 HCP는 음전하라 AEX에 붙는다.",
+        "틀리다 — pH 5.5는 pI 8.5보다 낮아 mAb가 양전하를 띠므로 CEX에 결합한다.",
+        "틀리다 — pH 7.5에서도 mAb(pI 8.5)는 양전하라 AEX ligand(+)와 밀어내 통과하고, HCP(pI 5.0)는 음전하라 결합한다.",
+        "틀리다 — pH 7.5 > pI 5.0이라 HCP는 음전하를 띠어 AEX에 결합한다(AEX flow-through에서 불순물이 붙는 이유)."
+      ],
+      "source": "해설서 E4 · WK06 PDF (mAb platform, pI) · 오픈북 자료집 §3·§6",
+      "concepts": [
+        "pI",
+        "CEX vs AEX",
+        "Flow-through"
+      ],
+      "tags": [
+        "pI",
+        "CEX vs AEX",
+        "Flow-through"
+      ]
+    },
+    {
+      "id": "ex-932",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "배양기 IPC와 산소 공급에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. pH·DO 센서를 이중화하면 한 센서가 틀려도 제어를 이어 갈 수 있다",
+        "ㄴ. sparger로 넣는 기포가 작을수록 산소 전달 면적이 줄어든다",
+        "ㄷ. CO₂ 공급은 배양액 pH를 낮추는 쪽으로 제어하는 데 쓴다",
+        "ㄹ. 배양 중 온도를 37 ℃에서 32 ℃로 낮추면 세포 성장이 빨라진다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ",
+        "ㄷ",
+        "ㄱ, ㄷ",
+        "ㄱ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄷ이다.**\nㄱ (O) 두 값을 비교해 센서 drift·고장을 찾는다\nㄴ (X) 작은 기포는 같은 기체 부피에서 표면적이 커져 산소 전달이 좋아진다(대신 터질 때 shear가 커짐)\nㄷ (O) CO₂가 녹아 탄산이 되어 pH를 낮추고, 올릴 때는 염기를 넣는다\nㄹ (X) temperature shift는 성장을 늦추고 생산성·품질을 높이려는 조작이다",
+      "choiceNotes": [
+        "틀리다 — ㄴ은 틀린 진술이다(작은 기포는 같은 기체 부피에서 표면적이 커져 산소 전달이 좋아진다(대신 터질 때 shear가 커짐)), ㄷ도 옳은 진술이다(CO₂가 녹아 탄산이 되어 pH를 낮추고, 올릴 때는 염기를 넣는다).",
+        "틀리다 — ㄱ도 옳은 진술이다(두 값을 비교해 센서 drift·고장을 찾는다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄷ뿐이다.",
+        "틀리다 — ㄷ도 옳은 진술이다(CO₂가 녹아 탄산이 되어 pH를 낮추고, 올릴 때는 염기를 넣는다)."
+      ],
+      "source": "해설서 C7 · WK02 PDF (Bioreactor control) · 오픈북 자료집 §2",
+      "concepts": [
+        "IPC",
+        "Sparger",
+        "DO",
+        "센서 이중화"
+      ],
+      "tags": [
+        "IPC",
+        "Sparger",
+        "DO",
+        "센서 이중화"
+      ]
+    },
+    {
+      "id": "ex-933",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "CFF와 막 운전에 대한 설명으로 옳지 않은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. CFF(TFF)는 막 표면을 따라 흘려 gel layer가 덜 쌓이게 한다",
+        "ㄴ. NFF는 막에 수직으로 흘리며 depth filter·sterile filter가 이 방식이다",
+        "ㄷ. NWP는 막 세척 상태를 사용 전후 물 투과도로 확인하는 값이다",
+        "ㄹ. TMP를 높이는 만큼 flux도 끝없이 비례해 오른다"
+      ],
+      "choices": [
+        "ㄴ, ㄹ",
+        "ㄱ",
+        "ㄴ",
+        "ㄹ"
+      ],
+      "answer": 4,
+      "explanation": "**옳지 않은 것은 ㄹ이다.**\nㄱ (O) 접선 흐름이 막 표면을 씻어 낸다\nㄴ (O) normal(dead-end) flow이다\nㄷ (O) 처음 값에 견줘 세척이 충분했는지 본다\nㄹ (X) TMP가 높아지면 gel layer가 쌓여 flux가 plateau에 이른다",
+      "choiceNotes": [
+        "틀리다 — ㄴ은 옳은 진술이다(normal(dead-end) flow이다).",
+        "틀리다 — ㄱ은 옳은 진술이다(접선 흐름이 막 표면을 씻어 낸다), ㄹ도 틀린 진술이다(TMP가 높아지면 gel layer가 쌓여 flux가 plateau에 이른다).",
+        "틀리다 — ㄴ은 옳은 진술이다(normal(dead-end) flow이다), ㄹ도 틀린 진술이다(TMP가 높아지면 gel layer가 쌓여 flux가 plateau에 이른다).",
+        "옳다 — 틀린 진술은 ㄹ뿐이다."
+      ],
+      "source": "해설서 E10 · WK04 PDF (TFF, NWP) · 오픈북 자료집 §4",
+      "concepts": [
+        "CFF",
+        "NWP",
+        "Flux"
+      ],
+      "tags": [
+        "CFF",
+        "NWP",
+        "Flux"
+      ]
+    },
+    {
+      "id": "ex-934",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "혈장 분획 제제에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Cohn 분획은 에탄올 농도·pH·온도를 바꿔 단백질을 차례로 침전시킨다",
+        "ㄴ. 혈장 유래 제품은 사람 혈액에서 오므로 virus clearance가 필요하다",
+        "ㄷ. 혈장 유래 단백질은 세포 배양을 거치지 않아 바이러스 불활화를 생략한다",
+        "ㄹ. model virus로 공정의 바이러스 제거능을 평가한다"
+      ],
+      "choices": [
+        "ㄱ, ㄴ, ㄹ",
+        "ㄱ, ㄷ, ㄹ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄱ, ㄴ"
+      ],
+      "answer": 1,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄹ이다.**\nㄱ (O) 조건별로 다른 분획이 침전된다\nㄴ (O) 공여자 혈액의 바이러스 위험 때문에 불활화·제거 단계를 둔다\nㄷ (X) 오히려 사람 바이러스 위험이 커서 불활화·제거를 꼭 한다\nㄹ (O) 특성이 다른 model virus를 넣어 단계별 log reduction을 잰다",
+      "choiceNotes": [
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄹ뿐이다.",
+        "틀리다 — ㄷ은 틀린 진술이다(오히려 사람 바이러스 위험이 커서 불활화·제거를 꼭 한다), ㄴ도 옳은 진술이다(공여자 혈액의 바이러스 위험 때문에 불활화·제거 단계를 둔다).",
+        "틀리다 — ㄷ은 틀린 진술이다(오히려 사람 바이러스 위험이 커서 불활화·제거를 꼭 한다), ㄹ도 옳은 진술이다(특성이 다른 model virus를 넣어 단계별 log reduction을 잰다).",
+        "틀리다 — ㄹ도 옳은 진술이다(특성이 다른 model virus를 넣어 단계별 log reduction을 잰다)."
+      ],
+      "source": "해설서 E6 · WK04 PDF (혈장 분획) · 오픈북 자료집 §4",
+      "concepts": [
+        "Cohn 분획",
+        "Virus clearance",
+        "Model virus"
+      ],
+      "tags": [
+        "Cohn 분획",
+        "Virus clearance",
+        "Model virus"
+      ]
+    },
+    {
+      "id": "ex-935",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "여과와 오염 관리에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. Mycoplasma는 cell wall이 없어 0.2 µm 필터를 빠져나갈 수 있어 0.1 µm 필터를 쓴다",
+        "ㄴ. 배양 배지는 고압증기멸균으로 멸균하는 것이 기본이다",
+        "ㄷ. 0.2 µm 제균 필터로 바이러스까지 제거된다",
+        "ㄹ. 여과는 열에 약한 물질에도 쓸 수 있어 범용성이 높다"
+      ],
+      "choices": [
+        "ㄴ, ㄹ",
+        "ㄱ, ㄹ",
+        "ㄹ",
+        "ㄷ, ㄹ"
+      ],
+      "answer": 2,
+      "explanation": "**옳은 것은 ㄱ·ㄹ이다.**\nㄱ (O) 모양이 바뀌어 작은 pore를 지난다\nㄴ (X) 배지 성분은 열에 약해 제균 여과로 멸균한다\nㄷ (X) 바이러스는 수십 nm라 제균 필터를 지나간다 — 바이러스는 virus filter(nanofiltration)로 거른다\nㄹ (O) 열을 쓰지 않아 단백질·배지에 쓸 수 있다",
+      "choiceNotes": [
+        "틀리다 — ㄴ은 틀린 진술이다(배지 성분은 열에 약해 제균 여과로 멸균한다), ㄱ도 옳은 진술이다(모양이 바뀌어 작은 pore를 지난다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄹ뿐이다.",
+        "틀리다 — ㄱ도 옳은 진술이다(모양이 바뀌어 작은 pore를 지난다).",
+        "틀리다 — ㄷ은 틀린 진술이다(바이러스는 수십 nm라 제균 필터를 지나간다 — 바이러스는 virus filter(nanofiltration)로 거른다), ㄱ도 옳은 진술이다(모양이 바뀌어 작은 pore를 지난다)."
+      ],
+      "source": "해설서 E8 · WK04 PDF (여과 범용성, 배지 멸균) · 오픈북 자료집 §4",
+      "concepts": [
+        "Mycoplasma",
+        "배지 멸균",
+        "여과 범용성"
+      ],
+      "tags": [
+        "Mycoplasma",
+        "배지 멸균",
+        "여과 범용성"
+      ]
+    },
+    {
+      "id": "ex-936",
+      "type": "개념",
+      "part": 2,
+      "form": "combo",
+      "question": "정제 전략에 대한 설명으로 옳은 것만 모두 고른 것은?",
+      "box": [
+        "ㄱ. 정제는 capture → intermediate → polishing 순서로 설계한다",
+        "ㄴ. Capture는 농축·안정화가 목적이라 속도와 용량을 우선한다",
+        "ㄷ. Polishing은 aggregate 같은 미량 불순물을 없애려 해상도를 우선한다",
+        "ㄹ. Polishing 단계에서 처리 용량과 속도를 가장 크게 잡는다"
+      ],
+      "choices": [
+        "ㄱ, ㄷ",
+        "ㄴ, ㄷ",
+        "ㄱ, ㄴ, ㄷ",
+        "ㄴ, ㄷ, ㄹ"
+      ],
+      "answer": 3,
+      "explanation": "**옳은 것은 ㄱ·ㄴ·ㄷ이다.**\nㄱ (O) CIPP 전략이다\nㄴ (O) 큰 부피를 빨리 줄인다\nㄷ (O) 남은 미량 불순물·변이체를 제거한다\nㄹ (X) 용량·속도 우선은 capture이고, polishing은 해상도가 우선이다",
+      "choiceNotes": [
+        "틀리다 — ㄴ도 옳은 진술이다(큰 부피를 빨리 줄인다).",
+        "틀리다 — ㄱ도 옳은 진술이다(CIPP 전략이다).",
+        "옳다 — 옳은 진술은 ㄱ·ㄴ·ㄷ뿐이다.",
+        "틀리다 — ㄹ은 틀린 진술이다(용량·속도 우선은 capture이고, polishing은 해상도가 우선이다), ㄱ도 옳은 진술이다(CIPP 전략이다)."
+      ],
+      "source": "해설서 A7 · WK03 교재 (Purification strategy, CIPP) · 오픈북 자료집 §3",
+      "concepts": [
+        "CIPP",
+        "Capture",
+        "Polishing"
+      ],
+      "tags": [
+        "CIPP",
+        "Capture",
+        "Polishing"
+      ]
     }
   ]
 }

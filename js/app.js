@@ -30,15 +30,16 @@
   };
   const ESSAY_POINTS = 5;
   // 보기 줄이 (가)·ⓐ·1) 같은 표지로 시작할 때만 내어쓰기(그 밖의 줄은 줄바꿈해도 들여쓰지 않음)
-  const BOX_LABEL = /^\s*(\([가-힣A-Za-z0-9]\)|[ⓐ-ⓩ①-⑳㉠-㉭]|\d+\)|[A-Z]\.)\s/;
+  const BOX_LABEL = /^\s*(\([가-힣A-Za-z0-9]\)|[ⓐ-ⓩ①-⑳㉠-㉭]|\d+\)|[A-Z]\.|[ㄱ-ㅎ]\.)\s/;
   const DEFAULT_PART = { 용어: 1, 개념: 2, 연결: 2, 계산: 2, 상황판단: 3, 서술형: 3, 단답: 3 };
   // 시험지 문항 모양 비율(2026.10.12 — 실제 시험처럼 줄글 선지 객관식 위주로)
   //  match: (가)(나)(다)(라) 짝짓기, termName: 설명을 보고 용어 이름 고르기, calc: 계산 문항
-  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.12 }; // 계산 50문항에 6개 이상(2026.10.15)
+  const STYLE_MIX = { match: 0.04, termName: 0.16, calcMin: 0.12, comboMin: 0.1, combo: 0.12 }; // 계산 50문항에 6개 이상(2026.10.15)
+  // 「옳은 것만 모두 고른 것은?(ㄱ~ㄹ)」·「(가)(나)(다) 짝」 문항("form": "combo"|"match")은 50문항에 5~6개(2026.10.20)
   // 시험 적중 파이널 모의고사 — FINAL 단원(questions/final.json, week "FINAL")만 쓰고 계산 문항을 30 % 이상 넣는다
   const FINAL_UNITS = ['기출']; // 2026.10.15: 파이널 모드 = 작년 2학기 중간고사 기출(questions/past.json)
   const FINAL_CALC_SHARE = 0;
-  const isFixedScope = (mode) => mode === 'mock' || mode === 'final' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen';
+  const isFixedScope = (mode) => mode === 'mock' || mode === 'final' || mode === 'finalSet' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen';
   // 시험지는 강의 주차 순서로(2026.10.15 사용자 요청): 문항의 "lec"(2~8), 없으면 키워드 절로 짐작
   const PAPER_WEEK_ORDER = true;
   const KW_LEC = { A: 3, B: 5, C: 2, D: 2, E: 6 };
@@ -63,7 +64,8 @@
   //  C6 Tip speed 계산 · A8 Column 부피 계산 · E3 Mass balance 계산 (오픈북 자료집 「리뷰 키워드 위치 찾기」)
   const CALC_WEEKS = [2, 3, 4, 5, 6, 7];
   const CALC_KWS = ['C6', 'A8', 'E3'];
-  function questionStyle(id, type) {
+  function questionStyle(id, type, form) {
+    if (form === 'combo' || form === 'match') return 'combo';
     if (/^t[a-z]\d+m-/.test(id)) return 'match';
     if (/^t[a-z]\d+d-/.test(id)) return 'termName';
     if (type === '계산') return 'calc';
@@ -80,6 +82,7 @@
   const MODES = {
     study: { label: '단원별 학습', icon: '📖', kind: 'study', desc: '고르는 즉시 정답·해설·출처 확인' },
     unitExam: { label: '실전 시험지', icon: '📝', kind: 'exam', desc: '선택한 범위로 4지선다·단답형·OMR·타이머가 있는 시험' },
+    finalSet: { label: 'Final 모의고사', icon: '🏁', kind: 'exam', desc: '시험 직전 엄선 3세트 — 키워드 42개 전부 · 주차별 계산 · Mass balance (50문항 · 90분)' },
     mock: { label: '전범위 모의고사', icon: '🎓', kind: 'exam', desc: '전 단원에서 출제하는 실전 시험 (50문항 · 90분 권장)' },
     unseen: { label: '완전 미출제', icon: '🆕', kind: 'exam', desc: '한 번도 안 나온 문항만으로 만든 시험지 (복습 0%)' },
     calcMix: { label: '전범위 계산', icon: '🧪', kind: 'study', desc: '10문항마다 긴 Mass balance 1세트 + 주제별 계산 한 문제씩 (칸마다 채점)' },
@@ -371,7 +374,7 @@
           explanation: q.explanation || '',
           notes,
           source: q.source || '',
-          style: questionStyle(q.id, type),
+          style: questionStyle(q.id, type, q.form),
           kw: typeof q.kw === 'string' ? q.kw : ((String(q.source || '').match(/해설서 ([A-E]\d{1,2})/) || [])[1] || ''),
           lec: Number(q.lec) || 0,
           hard: q.level === 'hard',
@@ -399,7 +402,16 @@
       S.fam.get(q.fam).push(q);
     }));
     if (!S.units.length) throw new Error('불러온 문항이 없습니다. questions 폴더의 JSON 파일을 확인하세요.');
+    // Final 모의고사 세트(2026.10.20) — 고정 문항 목록, 없으면 모드만 비활성
+    try {
+      const fs = await fetchJSON(CONFIG.questionsDir + 'final-sets.json');
+      S.finalSets = (fs && Array.isArray(fs.sets) ? fs.sets : []).map((st) => ({
+        title: String(st.title || ''),
+        ids: (Array.isArray(st.ids) ? st.ids : []).filter((id) => S.qById.has(id)),
+      })).filter((st) => st.ids.length);
+    } catch (e) { S.finalSets = []; }
   }
+  const finalSetIdx = () => Math.min(Math.max(0, Number(S.prefs.fset) || 0), Math.max(0, (S.finalSets || []).length - 1));
 
   // ---------------------------------------------------------------- 출제 현황
   // 개념은 그 개념을 담은 문항이 한 번이라도 출제(채점)되면 '다룬 개념'이 된다
@@ -506,9 +518,10 @@
     }
     const essayCap = quota[3] >= 2 ? Math.max(1, Math.floor(quota[3] / 3)) : (quota[3] === 1 && n <= 3 ? 1 : 0);
     // 짝짓기·용어 이름 고르기는 상한, 계산 문항은 하한(문항이 모자라면 아래에서 상한을 푼다)
-    const styleCap = { match: Math.round(n * STYLE_MIX.match), termName: Math.round(n * STYLE_MIX.termName) };
+    const styleCap = { match: Math.round(n * STYLE_MIX.match), termName: Math.round(n * STYLE_MIX.termName), combo: Math.max(1, Math.ceil(n * STYLE_MIX.combo)) };
+    const comboMin = n >= 20 ? Math.round(n * STYLE_MIX.comboMin) : 0;
     const calcMin = n >= 20 ? Math.round(n * (opts.calcShare || STYLE_MIX.calcMin)) : 0;
-    const styleCnt = { match: 0, termName: 0, calc: 0, prose: 0 };
+    const styleCnt = { match: 0, termName: 0, calc: 0, prose: 0, combo: 0 };
     let capsOn = true;
     // 주차 할당량 — 범위 문항 수 비율
     const unitKeys = S.units.map((u) => u.key).filter((k) => pool.some((q) => q.unit === k));
@@ -568,6 +581,12 @@
     const nReview = opts.noReview ? 0 : Math.min(Math.round(n * (STRATEGIES[strategy] || STRATEGIES.fresh).review), weak.length);
     for (let i = 0; i < nReview; i++) if (!take(weak, true)) break;
 
+    // 보기 묶음(ㄱ~ㄹ)·짝맞추기 문항 하한(키워드 칸보다 먼저 — 묶음 문항도 키워드를 채운다)
+    while (styleCnt.combo < comboMin && picked.length < n) {
+      const c = freshest(pool.filter((q) => q.style === 'combo' && allowed(q)));
+      if (!c.length) break;
+      if (!take(c, false)) break;
+    }
     // 키워드마다 한 문항(출제 횟수가 적은 것부터) — 계산 하한보다 먼저
     if (n >= KW_COVER_MIN_N) {
       const kws = shuffle([...new Set(pool.map((q) => q.kw).filter(Boolean))]);
@@ -677,6 +696,8 @@
       picked = spreadLong(rest, longs, n, LONG_GAP_HARD);
     } else if (mode === 'calcMix') {
       picked = composeCalcMix(pool, count);
+    } else if (mode === 'finalSet') {
+      picked = pool.slice(); // 고정 세트 전부(강의 주차 순으로 아래에서 정렬)
     } else if (count >= pool.length) {
       picked = pool.slice();
     } else {
@@ -838,6 +859,7 @@
       byUnit: sum.byUnit,
       byPart: sum.byPart,
       auto: !!opts.auto,
+      fset: typeof s.fset === 'number' ? s.fset : undefined,
     };
     s.finished = true;
     s.finishedAt = now;
@@ -1009,6 +1031,7 @@
     if (mode === 'final') return S.units.filter((u) => FINAL_UNITS.includes(u.key)).flatMap((u) => u.questions).filter(activePart);
     if (mode === 'hardCalc') return S.units.flatMap((u) => u.questions).filter((q) => q.hard);
     if (mode === 'calcMix') return S.units.flatMap((u) => u.questions).filter((q) => q.style === 'calc');
+    if (mode === 'finalSet') { const st = (S.finalSets || [])[finalSetIdx()]; return st ? st.ids.map((id) => S.qById.get(id)) : []; }
     if (mode === 'unseen') return S.units.flatMap((u) => u.questions).filter(activePart).filter((q) => !qMeta(q.id).a); // 한 번도 출제되지 않은 문항만
     if (mode === 'review') return wrongIdsInBank().map((id) => S.qById.get(id));
     const keys = selectedUnitKeys();
@@ -1042,7 +1065,7 @@
     const keys = selectedUnitKeys();
     const pool = poolFor(mode);
     const poolN = pool.length;
-    const count = p.count === 'all' ? poolN : Math.min(p.count, poolN);
+    const count = (p.count === 'all' || mode === 'finalSet') ? poolN : Math.min(p.count, poolN);
     const cov = coverageFor(pool);
     const wrongN = wrongIdsInBank().length;
     const active = store.get('active', null);
@@ -1071,11 +1094,16 @@
       <button type="button" class="chip" data-action="count" data-value="${n}" aria-pressed="${p.count === n}">${n}</button>`).join('') +
       `<button type="button" class="chip" data-action="count" data-value="all" aria-pressed="${p.count === 'all' || p.count >= poolN}">전체 ${poolN}</button>`;
 
+    const setChips = (S.finalSets || []).map((st, i) => {
+      const done = S.history.filter((h) => h.mode === 'finalSet' && h.fset === i);
+      const best = done.length ? Math.max(...done.map((h) => h.score)) : null;
+      return `<button type="button" class="chip chip-2line" data-action="fset" data-value="${i}" aria-pressed="${finalSetIdx() === i}">${i + 1}세트<small>${best == null ? '안 풂' : `최고 ${fmtNum(best)}점`}</small></button>`;
+    }).join('');
     const estPts = estimatePoints(count);
     const minutes = Math.round(estPts * CONFIG.minutesPer100 / 100);
     const quota = adjustedQuotas(pool, count);
     const summary = poolN
-      ? `${MODES[mode].label} · ${count}문항${kind === 'exam' ? ` · 약 ${estPts}점${p.timer ? ` · 약 ${minutes}분` : ''}` : ''} · ${mode === 'unseen' ? `미출제 ${poolN}문항 중에서 · 복습 없음` : `${STRATEGIES[p.strategy].label}(${STRATEGIES[p.strategy].desc})`}`
+      ? `${MODES[mode].label}${mode === 'finalSet' ? ` ${finalSetIdx() + 1}세트` : ''} · ${count}문항${kind === 'exam' ? ` · 약 ${estPts}점${p.timer ? ` · 약 ${minutes}분` : ''}` : ''} · ${mode === 'unseen' ? `미출제 ${poolN}문항 중에서 · 복습 없음` : mode === 'finalSet' ? '키워드 42개 · 주차별 계산 · Mass balance 포함' : `${STRATEGIES[p.strategy].label}(${STRATEGIES[p.strategy].desc})`}`
       : (mode === 'unseen' ? '모든 문항을 한 번 이상 풀었습니다 — 다른 모드를 고르세요' : '범위를 하나 이상 선택하세요');
 
     $view.innerHTML = `
@@ -1111,7 +1139,7 @@
         <section class="card">
           <div class="card-head"><h2>1. 모드 선택</h2></div>
           <div class="mode-grid" role="group" aria-label="모드">
-            ${['study', 'unitExam', 'mock', 'unseen', 'calcMix', 'hardCalc', 'final'].map((m) => `
+            ${['finalSet', 'study', 'unitExam', 'mock', 'unseen', 'calcMix', 'hardCalc', 'final'].map((m) => `
               <button type="button" class="mode-card" data-action="mode" data-value="${m}" aria-pressed="${mode === m}">
                 <span class="mode-icon" aria-hidden="true">${MODES[m].icon}</span>
                 <span class="mode-name">${MODES[m].label}</span>
@@ -1123,7 +1151,7 @@
         <section class="card">
           <div class="card-head">
             <h2>2. 범위 선택</h2>
-            <span class="muted small">${mode === 'final' ? '기출 문항 자동 선택' : mode === 'hardCalc' ? '전범위 고난도 계산 세트만' : mode === 'calcMix' ? '전범위 계산 문항' : mode === 'unseen' ? `전범위 미출제 ${poolN}문항` : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
+            <span class="muted small">${mode === 'finalSet' ? '엄선 세트 문항 자동 선택' : mode === 'final' ? '기출 문항 자동 선택' : mode === 'hardCalc' ? '전범위 고난도 계산 세트만' : mode === 'calcMix' ? '전범위 계산 문항' : mode === 'unseen' ? `전범위 미출제 ${poolN}문항` : isMock ? '전범위 자동 포함' : `${keys.length} / ${S.units.length} 단원`}</span>
           </div>
           <div class="unit-list">${unitRows}</div>
           ${isMock ? '' : `
@@ -1143,8 +1171,8 @@
         </section>
 
         <section class="card">
-          <div class="card-head"><h2>3. 문제 수</h2><span class="muted small">선택 범위 ${poolN}문항</span></div>
-          <div class="chip-row" role="group" aria-label="문제 수">${poolN ? countChips : '<span class="muted">선택된 범위에 문항이 없습니다.</span>'}</div>
+          <div class="card-head"><h2>3. ${mode === 'finalSet' ? '세트 선택' : '문제 수'}</h2><span class="muted small">${mode === 'finalSet' ? '세트마다 50문항' : `선택 범위 ${poolN}문항`}</span></div>
+          <div class="chip-row" role="group" aria-label="${mode === 'finalSet' ? '세트' : '문제 수'}">${mode === 'finalSet' ? (setChips || '<span class="muted">세트 파일이 없습니다.</span>') : poolN ? countChips : '<span class="muted">선택된 범위에 문항이 없습니다.</span>'}</div>
           ${poolN ? `<p class="muted small" style="margin:10px 0 0">구성: PART I ${quota[1]} · II ${quota[2]}문항${quota[3] ? ` · III ${quota[3]}` : ''}${kind === 'exam' ? ` → 약 ${estPts}점, ${p.timer ? `제한 ${minutes}분 (100점 = 90분)` : '시간 제한 없음'}` : ''}</p>` : ''}
         </section>
 
@@ -1199,10 +1227,11 @@
     if (!S.owner) return;
     const pool = poolFor(mode);
     if (!pool.length) return;
-    const count = mode === 'review' ? pool.length
+    const count = (mode === 'review' || mode === 'finalSet') ? pool.length
       : (S.prefs.count === 'all' ? pool.length : Math.min(S.prefs.count, pool.length));
     store.del('active');
     S.session = buildSession(mode, pool, count);
+    if (mode === 'finalSet') S.session.fset = finalSetIdx();
     saveActive();
     go(S.session.kind === 'exam' ? 'exam' : 'study');
   }
@@ -1210,7 +1239,7 @@
   // ---------------------------------------------------------------- 출제 현황 화면
   function renderCoverage() {
     const mode = S.prefs.mode;
-    const scopeKeys = (mode === 'mock' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen') ? S.units.map((u) => u.key)
+    const scopeKeys = (mode === 'mock' || mode === 'finalSet' || mode === 'hardCalc' || mode === 'calcMix' || mode === 'unseen') ? S.units.map((u) => u.key)
       : mode === 'final' ? S.units.map((u) => u.key).filter((k) => FINAL_UNITS.includes(k)) : selectedUnitKeys();
     const covered = coveredConceptKeys();
     const pool = S.units.filter((u) => scopeKeys.includes(u.key)).flatMap((u) => u.questions);
@@ -1878,7 +1907,7 @@
     const pool = poolFor(isFixedScope(p.mode) ? p.mode : 'study');
     if (!pool.length) return;
     const count = p.count === 'all' ? pool.length : Math.min(p.count, pool.length);
-    let picked = count >= pool.length ? pool.slice()
+    let picked = (count >= pool.length || p.mode === 'finalSet') ? pool.slice()
       : compose(pool, count, 'fresh', p.mode === 'final' ? { calcShare: FINAL_CALC_SHARE } : {}).picked;
     picked = orderPicked(picked, 'exam');
     const prev = store.get('print', null);
@@ -2735,6 +2764,11 @@
         break;
       case 'units-all': p.units = S.units.map((u) => u.key); savePrefs(); renderHome(); break;
       case 'units-none': p.units = []; savePrefs(); renderHome(); break;
+      case 'fset':
+        p.fset = Number(el.dataset.value) || 0;
+        savePrefs();
+        renderHome();
+        break;
       case 'count':
         p.count = el.dataset.value === 'all' ? 'all' : Number(el.dataset.value);
         savePrefs();
